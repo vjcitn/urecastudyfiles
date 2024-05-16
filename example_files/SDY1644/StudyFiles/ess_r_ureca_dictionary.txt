@@ -1,0 +1,30 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	597	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ESS"", ""ESS"")"
+3	4	evid	evid	dbl	numeric	double	5214	0	c(292, 63227)
+4	5	event	event	chr	character	character	12	0	"c(""108-Month Clinic Visit"", ""Rescheduled Home Evaluation"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	14	0	"c("".x"", ""rh"")"
+8	9	ESS_q1	Head and Neck - Severity of Excoriations	dbl	numeric	double	8	760	c(0, 6)
+9	10	ESS_q2	Head and Neck - Severity of Induration/Papulation/Edema	dbl	numeric	double	8	760	c(0, 6)
+10	11	ESS_q3	Head and Neck - Severity of Erythema	dbl	numeric	double	7	760	c(0, 5)
+11	12	ESS_q4	Head and Neck - Severity of Lichenification	dbl	numeric	double	7	760	c(0, 6)
+12	13	ESS_q5	Head and Neck - Percentage of Involved Body Surface	dbl	numeric	double	7	760	c(0, 5)
+13	14	ESS_q6	Upper Extremities - Severity of Excoriations	dbl	numeric	double	7	760	c(0, 5)
+14	15	ESS_q7	Upper Extremities - Severity of Induration/Papulation/Edema	dbl	numeric	double	7	760	c(0, 5)
+15	16	ESS_q8	Upper Extremities - Severity of Erythema	dbl	numeric	double	7	762	c(0, 5)
+16	17	ESS_q9	Upper Extremities - Lichenification	dbl	numeric	double	8	762	c(0, 6)
+17	18	ESS_q10	Upper Extremities - Percentage of Involved Body Surface	dbl	numeric	double	8	760	c(0, 6)
+18	19	ESS_q11	Trunk - Severity of Excoriations	dbl	numeric	double	6	760	c(0, 4)
+19	20	ESS_q12	Trunk - Severity of Induration/Papulation/Edema	dbl	numeric	double	7	760	c(0, 5)
+20	21	ESS_q13	Trunk - Severityof Erythema	dbl	numeric	double	6	760	c(0, 4)
+21	22	ESS_q14	Trunk - Severity of Lichenification	dbl	numeric	double	7	760	c(0, 5)
+22	23	ESS_q15	Trunk - Percentage of Involved Body Surface	dbl	numeric	double	8	760	c(0, 6)
+23	24	ESS_q16	Lower Extremities - Severity of Excoriations	dbl	numeric	double	8	760	c(0, 6)
+24	25	ESS_q17	Lower Extremities - Severity of Induration/Papulation/Edema	dbl	numeric	double	8	760	c(0, 6)
+25	26	ESS_q18	Lower Extremities - Severity of Erythema	dbl	numeric	double	7	760	c(0, 5)
+26	27	ESS_q19	Lower Extremities - Severity of Lichenification	dbl	numeric	double	8	760	c(0, 6)
+27	28	ESS_q20	Lower Extremities - Percentage of Involved Body Surface	dbl	numeric	double	8	760	c(0, 6)
+28	29	aCompletionDY	Completion Day	dbl	numeric	double	1330	761	c(-368, 3459)

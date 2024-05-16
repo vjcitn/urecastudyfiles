@@ -1,0 +1,10 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	408	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ER"", ""ER"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+5	6	SampleID	SampleID	chr	character	character	408	0	"c(""538385"", ""861146"")"
+6	7	aVisit	Visit	chr	character	character	2	0	"c(""h2"", ""h3"")"
+7	8	ER_q1	Mean (EU/ml)	chr	character	character	407	0	"c(""100.528"", ""998.171"")"
+8	9	ER_q2	Mean (EU/mg)	chr	character	character	407	0	"c(""0.9632"", ""96.8964"")"

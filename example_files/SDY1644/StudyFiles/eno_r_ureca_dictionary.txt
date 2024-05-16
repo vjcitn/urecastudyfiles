@@ -1,0 +1,33 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	486	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ENO"", ""ENO"")"
+3	4	evid	evid	dbl	numeric	double	955	0	c(30735, 59031)
+4	5	event	event	chr	character	character	2	0	"c(""81-Month Clinic Visit"", ""84-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	6	0	"c(""1.0"", ""1.5"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	3	0	"c("".x"", ""84"")"
+8	9	ENO_q1	Was eNO procedure performed	dbl	numeric	double	3	144	c(0, 1)
+9	10	ENO_q1a	Why was eNO not performed	dbl	numeric	double	3	872	c(1, 2)
+10	11	ENO_q2	Past hour - taken part in strenuous activities	dbl	numeric	double	3	175	c(0, 1)
+11	12	ENO_q3	Past hour - eat or drink	dbl	numeric	double	3	175	c(0, 1)
+12	13	ENO_q3a1	Eat - Hotdogs	dbl	numeric	double	3	576	c(0, 1)
+13	14	ENO_q3a2	Eat - Lettuce	dbl	numeric	double	3	576	c(0, 1)
+14	15	ENO_q3a3	Eat - Spinach	dbl	numeric	double	3	576	c(0, 1)
+15	16	ENO_q3a4	Eat - Ham	dbl	numeric	double	3	576	c(0, 1)
+16	17	ENO_q3a5	Eat - Cucumber/Pickles	dbl	numeric	double	3	576	c(0, 1)
+17	18	ENO_q3a6	Eat - Other foods high in nitrates	dbl	numeric	double	3	576	c(0, 1)
+18	19	ENO_q4	Test profile	dbl	numeric	double	1	955	
+19	20	ENO_q5	Start time	time	"c(""hms"", ""difftime"")"	double	194	619	c(180, 84300)
+20	21	ENO_q6	eNO Measurement 1	dbl	numeric	double	44	646	c(0.21, 82)
+21	22	ENO_q7	eNO Measurement 2	dbl	numeric	double	47	675	c(5, 101)
+22	23	ENO_q8	Measurements 1 & 2 within 5%	dbl	numeric	double	1	955	
+23	24	ENO_q9	Average FeNO	dbl	numeric	double	1	955	
+24	25	ENO_q10	eNO Measurement 3	dbl	numeric	double	1	955	
+25	26	ENO_q11	Start time	time	"c(""hms"", ""difftime"")"	double	209	558	c(29520, 84300)
+26	27	ENO_q12	eNO Measurement 1	dbl	numeric	double	57	562	c(0.7, 95)
+27	28	ENO_q13	eNO Measurement 2	dbl	numeric	double	56	575	c(0.6, 98)
+28	29	ENO_q14	Measurements 1 & 2 within 5%	dbl	numeric	double	3	575	c(0, 1)
+29	30	ENO_q15	Average FeNO	dbl	numeric	double	39	854	c(5, 90)
+30	31	ENO_q16	eNO Measurement 3	dbl	numeric	double	56	690	c(0.9, 103)
+31	32	aFormDY	Visit Day	dbl	numeric	double	266	135	c(1785, 2780)

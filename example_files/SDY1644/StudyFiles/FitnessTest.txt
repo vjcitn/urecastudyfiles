@@ -1,0 +1,116 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";
+
+/******************************************************************************
+*  Copyright Rho, Inc. 2015 all rights reserved                          *
+*******************************************************************************/
+*******************************************************************************
+* Summary: URECA Derived FFQ_results Dataset
+* Structure: one record per participant
+* Required Data Sets: complete.qa, derive.shell_per
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)    Date(s)        Brief Description of Modifications
+*   Katy Jaffee      20OCT2015      Create
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=portrait ls=96 ps=53 font=SASFONT 8;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\URECA\Prog\URECA_Template.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=FitnessTest,   
+               /* Location to save     */   
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=URECA);      
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+***No dups ;
+proc sort data=master.ft out=ft  ; by studyid ; run ;
+
+data ft2 ;
+   set ft ;
+
+   if avisit=".x" and event="108-Month Clinic Visit" then do ;
+      avisit="108" ; 
+   end ;
+
+   rename 
+          ft_q1 = ft_done
+          ft_q1a = ft_notdone_reas
+          ft_q2 = pulse_pre
+          ft_q3 = oxygen_pre
+          ft_q4 = shortbreath_pre
+          ft_q5 = fatigue_pre
+          ft_q6 = walk_6m
+          ft_q7a = walk_time_m
+          ft_q7b = walk_time_s
+          ft_q8_1a = walk_laps
+          ft_q8_1b = walk_meters
+          ft_q8_2 = walk_lastmeters
+          ft_q8 = walk_distance
+          ft_q9 = pulse_post
+          ft_q10 = oxygen_post
+          ft_q11 = shortbreath_post
+          ft_q12 = fatigue_post
+          ft_q13 = comments ;
+   drop astudyid ;
+run ;
+
+
+data ft3 ;
+   set ft2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   drop avisit_char ;
+run ;
+
+***For now shell will just contain one visit unless PIs decide to continue collecting this data ;
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 108 ;
+  if avisit in (108)             then year=9;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+***Check for duplicates - none as of 06/21/2017 ;
+proc sort data=ft3 dupout=dups_ft nodupkey out=clean ; by studyid avisit ; run ;
+proc sort data=shell ; by studyid avisit ; run ;
+
+data derive.FitnessTest ; 
+   merge ft3(in=a) shell ; 
+   by studyid avisit ;
+   if a=1 then fitnesstest=1; else fitnesstest=0;
+   drop aPI;
+run ;
+
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.FitnessTest
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+ods select Position;
+proc contents data=derive.FitnessTest position; run;
+run;
+ods select default;

@@ -1,0 +1,215 @@
+%include 'S:\BASESTAT\RhoUtil\gridReset.sas';
+%gridReset(S:\RhoFED\ICAC\Studies\URECA\Prog\Derive);
+
+/*----------------------- Copyright 2017, Rho, Inc.  All rights reserved. ------------------------\
+
+  Study:       ICAC07 URECA
+
+   Program:    eno.sas
+
+     Purpose:  Combine raw data from master.eno and master.eno3
+
+     Input:    S:\RhoFED\ICAC\Studies\URECA\Data\Master\(eno eno3).sas7bdat
+
+     Output:   S:\RhoFED\ICAC_main\URECA\Statistics\Data\Derive\eno.sas7bdat
+
+     Macros:   %TemplateSetup
+
+/-------------------------------------------------------------------------------------------------\
+  Program history:
+\-------------------------------------------------------------------------------------------------/
+
+    Date       Programmer          Description
+    ---------  ------------------  --------------------------------------------------------------
+    19JUN2017  Andrew Moseby       Create
+    28NOV2018  S Lussier           Include year 10 in shell
+
+\------------------------------------------------------------------------------------------------*/
+
+*-----   1. Setup   -----*;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=eno,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+
+*-----   2. Main body   -----*;
+
+proc sort data = master.eno out = enomstr; by studyid; run;
+proc sort data = master.eno3 out = eno3mstr; by studyid; run;
+
+data eno_1;
+   set enomstr;
+
+   if not missing(eno_q5) then start_time = eno_q5;
+   else if not missing(eno_q11) then start_time = eno_q11;
+   if not missing(eno_q6) then measure1 = eno_q6;
+   else if not missing(eno_q12) then measure1 = eno_q12;
+   if not missing(eno_q7) then measure2 = eno_q7;
+   else if not missing(eno_q13) then measure2 = eno_q13;
+
+   rename
+      eno_q1 = eno
+      eno_q1a = no_eno_reason
+      eno_q2 = hour_activity
+      eno_q3 = hour_eaten
+      eno_q3a1 = eaten_hotdogs
+      eno_q3a2 = eaten_lettuce
+      eno_q3a3 = eaten_spinach
+      eno_q3a4 = eaten_ham
+      eno_q3a5 = eaten_cucum_pickle
+      eno_q3a6 = eaten_nitrates
+      eno_q3a6a = eaten_other
+      eno_q4 = test_profile
+      eno_q14 = measures_close
+      eno_q15 = avg_feno
+      eno_q16 = measure3
+      ;
+   drop eno_q5 - eno_q13;
+run;
+
+data eno3_1;
+   set eno3mstr;
+
+   rename
+      eno3_q1 = eno
+      eno3_q1a = no_eno_reason
+      eno3_q2 = hour_activity
+      eno3_q3 = hour_eaten
+      eno3_q3a1 = eaten_hotdogs
+      eno3_q3a2 = eaten_lettuce
+      eno3_q3a3 = eaten_spinach
+      eno3_q3a4 = eaten_ham
+      eno3_q3a5 = eaten_cucum_pickle
+      eno3_q3a6 = eaten_nitrates
+      eno3_q3a6a = eaten_other
+      eno3_q11_1 = test_profile
+      eno3_q11 = start_time
+      eno3_q12 = measure1
+      eno3_q13 = measure2
+      eno3_q14 = measures_close
+      eno3_q15 = avg_feno
+      eno3_q16 = measure3
+      ;
+   drop eno3_q1_1 -- eno3_q1_1b;
+run;
+
+data eno_a;
+   set eno_1 eno3_1;
+   avisitn = input(avisit, 8.);
+
+   if measure1 > 0 and not missing(measure2) then measures_close = (abs((measure2-measure1)/measure1) <= .05);
+   if measure1 > 0 and not missing(measure2) then measures_close2 = (MIN(measure1, measure2) => (MAX(measure1, measure2) * .95));
+
+   if measures_close2 = 0 and not missing(avg_feno) then avg_feno = . ;
+   if measures_close2 = 1 and missing(avg_feno) then avg_feno = mean(measure1, measure2);
+
+run;
+
+proc freq data = eno_a;table event; run;
+proc freq data = eno_a;table avg_feno; run;
+proc freq data = eno_a;table event*avisitn; run;
+
+
+*SJL/APM 11/28/18 - only keep one of 81 and 84;
+
+proc sort data = eno_a; by studyid descending avisitn; run;
+
+data eno1; 
+   set eno_a; 
+   if status = 'complete';
+ by studyid descending avisitn;
+ retain yr7counter;
+ if first.studyid then yr7counter = 0;
+ if avisitn in (81 84) then yr7counter = sum(yr7counter, eno); 
+ else yr7counter = 0; 
+ if yr7counter = 2 then delete; *if eno data exists for both m81 and m84, delete m81;
+ if yr7counter = 0 and avisitn = 81 then delete; *if eno data exists for neither m81 nor m84, delete m81;
+ if yr7counter = 1 and avisitn = 81 and not eno then delete; *if eno data for m84 exists but not m81, delete m81;
+ drop yr7counter;
+run;
+
+proc sort data = eno1; by studyid avisitn; run;
+
+data eno2;
+   set eno1;
+   by studyid avisitn;
+   retain yr7counter2;
+   if first.studyid then yr7counter2 = 0;
+   if avisitn in (81 84) then yr7counter2 = sum(yr7counter2, eno);
+   else yr7counter2 = 0;
+   if yr7counter2 = 1 and avisitn = 84 and not eno then delete; *if eno data for m81 exists but not m84, delete m84;
+   drop yr7counter2;
+   if avisitn = 81 then avisitn = 84;
+run;
+
+
+proc freq data=eno2;
+ table studyid;
+ where avisitn in (81 84);
+run;
+
+
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisitn = 84,120 ;
+  if avisitn =84 then year=7;
+  if avisitn =120 then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisitn year;
+run;
+
+ /*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=eno2      ; by studyid avisitn; run ;
+proc sort data=shell     ; by studyid avisitn; run ;
+
+data derive.eno;
+ merge shell eno2(in=b) ;
+ by studyid avisitn ;
+ if b=1 then eno_data = 1 ; else eno_data = 0 ;
+ drop api avisit;
+ rename avisitn = avisit; 
+
+ *SL 9/10/19 - fix typo;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+proc sort data=derive.eno out=test; by avg_feno; run;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.eno
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+ods select Position;
+proc contents data=derive.eno position; run;
+run;
+ods select default;

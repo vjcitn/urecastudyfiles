@@ -1,0 +1,483 @@
+Accession	group	form	evid	event	version	status	aVisit	FFQ_q1	FFQ_q1a	aCompletionDY
+SUB230862	Atopic	FFQ	54377	120-Month Clinic Visit	1.0	complete	120	1	1	3707
+SUB230863	Atopic	FFQ	54118	120-Month Clinic Visit	1.0	complete	120	1	1	3689
+SUB230865	Atopic	FFQ	52100	120-Month Clinic Visit	1.0	complete	120	1	1	3694
+SUB230866	Atopic	FFQ	52891	120-Month Clinic Visit	1.0	complete	120	1	2	3689
+SUB230867	Atopic	FFQ	52244	120-Month Clinic Visit	1.0	complete	120	1	1	3678
+SUB230868	Atopic	FFQ	54405	120-Month Clinic Visit	1.0	complete	120	1	1	3696
+SUB230869	Atopic	FFQ	52113	120-Month Clinic Visit	1.0	complete	120	1	1	3694
+SUB230870	Atopic	FFQ	53245	120-Month Clinic Visit	1.0	complete	120	1	1	3654
+SUB230871	Atopic	FFQ	53597	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB230872	Atopic	FFQ	54333	120-Month Clinic Visit	1.0	missing	.x			
+SUB230874	Atopic	FFQ	53508	120-Month Clinic Visit	1.0	complete	120	1	1	3692
+SUB230876	Atopic	FFQ	53099	120-Month Clinic Visit	1.0	complete	120	1	1	3689
+SUB230877	Atopic	FFQ	53011	120-Month Clinic Visit	1.0	complete	120	1	1	3728
+SUB230881	Atopic	FFQ	55516	120-Month Clinic Visit	1.0	missing	.x			
+SUB230883	Atopic	FFQ	59792	120-Month Clinic Visit	1.0	complete	120	1	1	3726
+SUB230884	Atopic	FFQ	54289	120-Month Clinic Visit	1.0	complete	120	1	1	3638
+SUB230886	Atopic	FFQ	51578	120-Month Clinic Visit	1.0	complete	120	1	1	3636
+SUB230887	Atopic	FFQ	56501	120-Month Clinic Visit	1.0	complete	120	1	1	3737
+SUB230888	Atopic	FFQ	51974	120-Month Clinic Visit	1.0	complete	120	1	1	3693
+SUB230889	Atopic	FFQ	60537	120-Month Clinic Visit	1.0	missing	.x			
+SUB230890	Atopic	FFQ	56093	120-Month Clinic Visit	1.0	complete	120	1	1	3692
+SUB230891	Atopic	FFQ	58503	120-Month Clinic Visit	1.0	complete	120	1	1	3684
+SUB230894	Atopic	FFQ	57492	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB230895	Atopic	FFQ	53053	120-Month Clinic Visit	1.0	complete	120	1	1	3700
+SUB230897	Atopic	FFQ	53258	120-Month Clinic Visit	1.0	complete	120	1	2	3710
+SUB230898	Atopic	FFQ	57930	120-Month Clinic Visit	1.0	missing	.x			
+SUB230899	Atopic	FFQ	53039	120-Month Clinic Visit	1.0	complete	120	1	1	3702
+SUB230900	Atopic	FFQ	53491	120-Month Clinic Visit	1.0	complete	120	1	1	3706
+SUB230901	Atopic	FFQ	53191	120-Month Clinic Visit	1.0	complete	120	1	1	3698
+SUB230903	Atopic	FFQ	56474	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB230904	Atopic	FFQ	53617	120-Month Clinic Visit	1.0	complete	120	0		3782
+SUB230905	Atopic	FFQ	58253	120-Month Clinic Visit	1.0	complete	120	1	1	3703
+SUB230906	Atopic	FFQ	56449	120-Month Clinic Visit	1.0	complete	120	1	2	3832
+SUB230907	Atopic	FFQ	61262	120-Month Clinic Visit	1.0	complete	120	1	2	3830
+SUB230908	Atopic	FFQ	53674	120-Month Clinic Visit	1.0	complete	120	0		3828
+SUB230909	Atopic	FFQ	54192	120-Month Clinic Visit	1.0	complete	120	1	1	3735
+SUB230911	Atopic	FFQ	53334	120-Month Clinic Visit	1.0	complete	120	1	1	3702
+SUB230913	Atopic	FFQ	54250	120-Month Clinic Visit	1.0	complete	120	1	1	3741
+SUB230914	Atopic	FFQ	54132	120-Month Clinic Visit	1.0	complete	120	1	1	3719
+SUB230915	Atopic	FFQ	56462	120-Month Clinic Visit	1.0	missing	.x			
+SUB230916	Atopic	FFQ	51988	120-Month Clinic Visit	1.0	complete	120	1	1	3699
+SUB230919	Atopic	FFQ	54660	120-Month Clinic Visit	1.0	complete	120	1	1	3800
+SUB230920	Atopic	FFQ	54525	120-Month Clinic Visit	1.0	complete	120	1	1	3693
+SUB230921	Atopic	FFQ	54462	120-Month Clinic Visit	1.0	complete	120	1	1	3651
+SUB230924	Atopic	FFQ	54582	120-Month Clinic Visit	1.0	complete	120	1	1	3712
+SUB230925	Atopic	FFQ	55018	108-Month Clinic Visit	1.0	complete	108	1	2	3351
+SUB230927	Atopic	FFQ	55031	108-Month Clinic Visit	1.0	complete	108	1	1	3364
+SUB230927	Atopic	FFQ	55035	120-Month Clinic Visit	1.0	missing	.x			
+SUB230928	Atopic	FFQ	55147	108-Month Clinic Visit	1.0	complete	108	1	1	3373
+SUB230929	Atopic	FFQ	55258	120-Month Clinic Visit	1.0	complete	120	1	1	3667
+SUB230932	Atopic	FFQ	53861	120-Month Clinic Visit	1.0	complete	120	1	1	3656
+SUB230933	Atopic	FFQ	55334	108-Month Clinic Visit	1.0	complete	108	1	1	3363
+SUB230934	Atopic	FFQ	55160	108-Month Clinic Visit	1.0	complete	108	1	1	3349
+SUB230935	Atopic	FFQ	58456	108-Month Clinic Visit	1.0	complete	108	1	2	3369
+SUB230936	Atopic	FFQ	55245	120-Month Clinic Visit	1.0	complete	120	0		3823
+SUB230936	Atopic	FFQ	55241	108-Month Clinic Visit	1.0	complete	108	1	1	3367
+SUB230939	Atopic	FFQ	59736	108-Month Clinic Visit	1.0	complete	108	1	1	3317
+SUB230941	Atopic	FFQ	55755	108-Month Clinic Visit	1.0	complete	108	1	2	3325
+SUB230942	Atopic	FFQ	56279	120-Month Clinic Visit	1.0	complete	120	0		3701
+SUB230942	Atopic	FFQ	56275	108-Month Clinic Visit	1.0	missing	.x			
+SUB230943	Atopic	FFQ	55281	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB230944	Atopic	FFQ	58826	108-Month Clinic Visit	1.0	complete	108	1	1	3362
+SUB230945	Atopic	FFQ	56380	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB230946	Atopic	FFQ	56779	108-Month Clinic Visit	1.0	complete	108	1	1	3333
+SUB230947	Atopic	FFQ	56484	108-Month Clinic Visit	1.0	complete	108	1	1	3309
+SUB230948	Atopic	FFQ	56826	108-Month Clinic Visit	1.0	complete	108	1	1	3341
+SUB230951	Atopic	FFQ	58686	108-Month Clinic Visit	1.0	complete	108	1	2	3323
+SUB230952	Atopic	FFQ	58379	108-Month Clinic Visit	1.0	complete	108	1	1	3335
+SUB230953	Atopic	FFQ	57078	108-Month Clinic Visit	1.0	complete	108	1	2	3304
+SUB230954	Atopic	FFQ	57215	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB230957	Atopic	FFQ	57398	108-Month Clinic Visit	1.0	complete	108	1	1	3367
+SUB230958	Atopic	FFQ	59013	108-Month Clinic Visit	1.0	complete	108	1	1	3366
+SUB230959	Atopic	FFQ	57413	108-Month Clinic Visit	1.0	complete	108	1	1	3309
+SUB230960	Atopic	FFQ	54553	120-Month Clinic Visit	1.0	missing	.x			
+SUB230960	Atopic	FFQ	54549	108-Month Clinic Visit	1.0	missing	.x			
+SUB230961	Atopic	FFQ	52512	108-Month Clinic Visit	1.0	complete	108	1	1	3307
+SUB230962	Atopic	FFQ	57536	120-Month Clinic Visit	1.0	missing	.x			
+SUB230962	Atopic	FFQ	57532	108-Month Clinic Visit	1.0	missing	.x			
+SUB230963	Atopic	FFQ	59241	108-Month Clinic Visit	1.0	missing	.x			
+SUB230963	Atopic	FFQ	59245	120-Month Clinic Visit	1.0	missing	.x			
+SUB230964	Atopic	FFQ	57181	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB230965	Atopic	FFQ	57168	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB230966	Atopic	FFQ	59053	108-Month Clinic Visit	1.0	complete	108	1	1	3366
+SUB230967	Atopic	FFQ	57780	108-Month Clinic Visit	1.0	complete	108	1	1	3349
+SUB230968	Atopic	FFQ	52528	120-Month Clinic Visit	1.0	complete	120	0		3775
+SUB230968	Atopic	FFQ	52524	108-Month Clinic Visit	1.0	missing	.x			
+SUB230969	Atopic	FFQ	56945	108-Month Clinic Visit	1.0	complete	108	1	1	3356
+SUB230971	Atopic	FFQ	57572	108-Month Clinic Visit	1.0	complete	108	1	1	3278
+SUB230972	Atopic	FFQ	58275	108-Month Clinic Visit	1.0	complete	108	1	1	3367
+SUB230973	Atopic	FFQ	52875	108-Month Clinic Visit	1.0	complete	108	1	1	3357
+SUB230975	Atopic	FFQ	58266	120-Month Clinic Visit	1.0	missing	.x			
+SUB230975	Atopic	FFQ	58262	108-Month Clinic Visit	1.0	missing	.x			
+SUB230976	Atopic	FFQ	59889	108-Month Clinic Visit	1.0	complete	108	1	1	3358
+SUB230977	Atopic	FFQ	53405	108-Month Clinic Visit	1.0	complete	108	1	1	3294
+SUB230978	Atopic	FFQ	57990	108-Month Clinic Visit	1.0	complete	108	1	2	3311
+SUB230979	Atopic	FFQ	53078	108-Month Clinic Visit	1.0	complete	108	1	1	3337
+SUB230981	Atopic	FFQ	53342	108-Month Clinic Visit	1.0	missing	.x			
+SUB230981	Atopic	FFQ	53346	120-Month Clinic Visit	1.0	complete	120	0		3760
+SUB230982	Atopic	FFQ	53355	108-Month Clinic Visit	1.0	complete	108	1	1	3288
+SUB230983	Atopic	FFQ	53152	108-Month Clinic Visit	1.0	complete	108	1	1	3350
+SUB230984	Atopic	FFQ	58797	108-Month Clinic Visit	1.0	complete	108	1	1	3355
+SUB230985	Atopic	FFQ	58635	108-Month Clinic Visit	1.0	complete	108	1	1	3357
+SUB230986	Atopic	FFQ	57588	108-Month Clinic Visit	1.0	complete	108	1	1	3342
+SUB230987	Atopic	FFQ	52949	108-Month Clinic Visit	1.0	complete	108	1	1	3371
+SUB230988	Atopic	FFQ	53642	108-Month Clinic Visit	1.0	complete	108	1	1	3355
+SUB230989	Atopic	FFQ	54259	108-Month Clinic Visit	1.0	complete	108	1	1	3359
+SUB230990	Atopic	FFQ	53947	108-Month Clinic Visit	1.0	complete	108	1	1	3350
+SUB230991	Atopic	FFQ	53870	108-Month Clinic Visit	1.0	complete	108	1	1	3367
+SUB230993	Atopic	FFQ	54388	108-Month Clinic Visit	1.0	complete	108	1	1	3348
+SUB230994	Atopic	FFQ	54101	108-Month Clinic Visit	1.0	complete	108	1	1	3348
+SUB230995	Atopic	FFQ	54361	108-Month Clinic Visit	1.0	complete	108	1	1	3328
+SUB230997	Atopic	FFQ	54564	108-Month Clinic Visit	1.0	complete	108	1	1	3308
+SUB230998	Atopic	FFQ	54870	108-Month Clinic Visit	1.0	complete	108	1	1	3299
+SUB230999	Non-atopic	FFQ	59327	108-Month Clinic Visit	1.0	complete	108	1	1	3330
+SUB231000	Atopic	FFQ	58859	108-Month Clinic Visit	1.0	complete	108	1	1	3369
+SUB231001	Atopic	FFQ	55307	108-Month Clinic Visit	1.0	complete	108	1	1	3363
+SUB231002	Atopic	FFQ	59347	108-Month Clinic Visit	1.0	complete	108	1	1	3368
+SUB231003	Atopic	FFQ	54534	108-Month Clinic Visit	1.0	complete	108	1	1	3272
+SUB231004	Atopic	FFQ	58871	108-Month Clinic Visit	1.0	complete	108	1	1	3362
+SUB231005	Atopic	FFQ	53831	108-Month Clinic Visit	1.0	complete	108	1	2	3371
+SUB231006	Atopic	FFQ	55005	108-Month Clinic Visit	1.0	complete	108	1	1	3322
+SUB231007	Atopic	FFQ	55173	108-Month Clinic Visit	1.0	complete	108	1	1	3385
+SUB231008	Atopic	FFQ	55525	108-Month Clinic Visit	1.0	complete	108	1	1	3369
+SUB231010	Non-atopic	FFQ	59699	108-Month Clinic Visit	1.0	complete	108	1	2	3364
+SUB231011	Atopic	FFQ	55737	108-Month Clinic Visit	1.0	complete	108	1	1	3273
+SUB231012	Atopic	FFQ	55721	108-Month Clinic Visit	1.0	complete	108	1	1	3368
+SUB231013	Atopic	FFQ	58883	108-Month Clinic Visit	1.0	complete	108	1	1	3362
+SUB231014	Atopic	FFQ	58895	108-Month Clinic Visit	1.0	complete	108	1	1	3415
+SUB231015	Non-atopic	FFQ	59720	108-Month Clinic Visit	1.0	complete	108	1	1	3371
+SUB231016	Atopic	FFQ	55915	108-Month Clinic Visit	1.0	complete	108	1	1	3297
+SUB231017	Non-atopic	FFQ	56334	108-Month Clinic Visit	1.0	complete	108	1	1	3371
+SUB231019	Atopic	FFQ	59971	108-Month Clinic Visit	1.0	complete	108	0		3397
+SUB231021	Atopic	FFQ	61270	108-Month Clinic Visit	1.0	missing	.x			
+SUB231021	Atopic	FFQ	61274	120-Month Clinic Visit	1.0	missing	.x			
+SUB231023	Non-atopic	FFQ	51270	120-Month Clinic Visit	1.0	missing	.x			
+SUB231023	Non-atopic	FFQ	51266	108-Month Clinic Visit	1.0	missing	.x			
+SUB231024	Non-atopic	FFQ	58907	108-Month Clinic Visit	1.0	complete	108	1	1	3317
+SUB231025	Atopic	FFQ	56603	108-Month Clinic Visit	1.0	complete	108	1	2	3377
+SUB231026	Atopic	FFQ	56792	108-Month Clinic Visit	1.0	complete	108	1	1	3263
+SUB231028	Atopic	FFQ	52330	120-Month Clinic Visit	1.0	complete	120	1	1	3682
+SUB231029	Atopic	FFQ	52631	120-Month Clinic Visit	1.0	complete	120	1	1	3696
+SUB231031	Atopic	FFQ	55889	120-Month Clinic Visit	1.0	complete	120	1	1	3691
+SUB231035	Atopic	FFQ	52771	120-Month Clinic Visit	1.0	complete	120	1	1	3654
+SUB231036	Atopic	FFQ	53478	120-Month Clinic Visit	1.0	complete	120	1	1	3654
+SUB231039	Atopic	FFQ	53438	120-Month Clinic Visit	1.0	complete	120	1	1	3679
+SUB231040	Atopic	FFQ	55415	120-Month Clinic Visit	1.0	complete	120	1	1	3708
+SUB231041	Atopic	FFQ	55427	120-Month Clinic Visit	1.0	complete	120	0		3697
+SUB231042	Atopic	FFQ	54678	120-Month Clinic Visit	1.0	complete	120	1	1	3658
+SUB231043	Atopic	FFQ	55500	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB231044	Atopic	FFQ	52968	120-Month Clinic Visit	1.0	complete	120	1	1	3702
+SUB231045	Atopic	FFQ	56659	120-Month Clinic Visit	1.0	complete	120	1	1	3737
+SUB231047	Atopic	FFQ	54921	120-Month Clinic Visit	1.0	complete	120	1	1	3649
+SUB231048	Atopic	FFQ	55488	120-Month Clinic Visit	1.0	complete	120	1	1	3688
+SUB231049	Atopic	FFQ	55475	120-Month Clinic Visit	1.0	complete	120	1	1	3644
+SUB231050	Atopic	FFQ	53374	120-Month Clinic Visit	1.0	complete	120	1	1	3666
+SUB231051	Atopic	FFQ	52940	120-Month Clinic Visit	1.0	complete	120	1	1	3686
+SUB231052	Atopic	FFQ	53422	120-Month Clinic Visit	1.0	complete	120	1	1	3673
+SUB231053	Atopic	FFQ	53585	120-Month Clinic Visit	1.0	complete	120	1	1	3705
+SUB231055	Atopic	FFQ	54648	120-Month Clinic Visit	1.0	complete	120	1	1	3628
+SUB231058	Atopic	FFQ	58407	108-Month Clinic Visit	1.0	complete	108	1	1	3392
+SUB231059	Atopic	FFQ	55463	120-Month Clinic Visit	1.0	complete	120	1	1	3706
+SUB231060	Atopic	FFQ	58194	120-Month Clinic Visit	1.0	complete	120	1	1	3674
+SUB231061	Atopic	FFQ	58736	108-Month Clinic Visit	1.0	missing	.x			
+SUB231061	Atopic	FFQ	58740	120-Month Clinic Visit	1.0	complete	120	1	1	3703
+SUB231063	Atopic	FFQ	57367	120-Month Clinic Visit	1.0	complete	120	1	1	3703
+SUB231064	Atopic	FFQ	54446	120-Month Clinic Visit	1.0	complete	120	1	2	3692
+SUB231065	Atopic	FFQ	56105	108-Month Clinic Visit	1.0	complete	108	1	1	3318
+SUB231067	Atopic	FFQ	58763	108-Month Clinic Visit	1.0	complete	108	1	1	3361
+SUB231070	Atopic	FFQ	55683	108-Month Clinic Visit	1.0	complete	108	1	1	3333
+SUB231071	Atopic	FFQ	57800	108-Month Clinic Visit	1.0	complete	108	1	1	3267
+SUB231072	Atopic	FFQ	55707	108-Month Clinic Visit	1.0	complete	108	1	1	3299
+SUB231073	Atopic	FFQ	56250	108-Month Clinic Visit	1.0	complete	108	1	1	3269
+SUB231074	Atopic	FFQ	58705	108-Month Clinic Visit	1.0	complete	108	1	1	3436
+SUB231075	Atopic	FFQ	57385	108-Month Clinic Visit	1.0	complete	108	1	1	3313
+SUB231076	Atopic	FFQ	56578	108-Month Clinic Visit	1.0	complete	108	1	1	3365
+SUB231078	Atopic	FFQ	57243	108-Month Clinic Visit	1.0	complete	108	1	1	3304
+SUB231079	Atopic	FFQ	56810	108-Month Clinic Visit	1.0	complete	108	1	1	3280
+SUB231080	Atopic	FFQ	58312	108-Month Clinic Visit	1.0	complete	108	1	1	3299
+SUB231081	Atopic	FFQ	57506	108-Month Clinic Visit	1.0	missing	.x			
+SUB231081	Atopic	FFQ	57510	120-Month Clinic Visit	1.0	missing	.x			
+SUB231082	Atopic	FFQ	57631	108-Month Clinic Visit	1.0	complete	108	1	1	3397
+SUB231083	Atopic	FFQ	56362	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231084	Atopic	FFQ	57693	108-Month Clinic Visit	1.0	complete	108	1	1	3295
+SUB231086	Atopic	FFQ	58077	108-Month Clinic Visit	1.0	complete	108	1	1	3280
+SUB231087	Atopic	FFQ	57669	108-Month Clinic Visit	1.0	complete	108	1	1	3282
+SUB231091	Atopic	FFQ	59153	108-Month Clinic Visit	1.0	complete	108	1	1	3325
+SUB231092	Atopic	FFQ	57947	108-Month Clinic Visit	1.0	complete	108	1	1	3281
+SUB231094	Atopic	FFQ	58175	108-Month Clinic Visit	1.0	complete	108	1	1	3277
+SUB231095	Atopic	FFQ	59132	108-Month Clinic Visit	1.0	complete	108	1	1	3296
+SUB231096	Atopic	FFQ	58363	108-Month Clinic Visit	1.0	complete	108	1	1	3273
+SUB231097	Atopic	FFQ	58723	120-Month Clinic Visit	1.0	missing	.x			
+SUB231097	Atopic	FFQ	58719	108-Month Clinic Visit	1.0	missing	.x			
+SUB231098	Atopic	FFQ	58471	108-Month Clinic Visit	1.0	complete	108	1	1	3282
+SUB231100	Atopic	FFQ	58440	108-Month Clinic Visit	1.0	complete	108	1	1	3294
+SUB231101	Atopic	FFQ	52639	108-Month Clinic Visit	1.0	complete	108	1	1	3459
+SUB231102	Atopic	FFQ	57607	108-Month Clinic Visit	1.0	complete	108	1	1	3278
+SUB231104	Atopic	FFQ	59548	108-Month Clinic Visit	1.0	complete	108	1	1	3355
+SUB231105	Atopic	FFQ	57736	108-Month Clinic Visit	1.0	complete	108	1	1	3349
+SUB231106	Atopic	FFQ	58112	108-Month Clinic Visit	1.0	complete	108	1	1	3299
+SUB231107	Atopic	FFQ	58658	108-Month Clinic Visit	1.0	complete	108	1	1	3304
+SUB231109	Atopic	FFQ	58812	108-Month Clinic Visit	1.0	complete	108	1	1	3350
+SUB231110	Atopic	FFQ	52664	108-Month Clinic Visit	1.0	complete	108	1	1	3291
+SUB231113	Atopic	FFQ	59564	108-Month Clinic Visit	1.0	complete	108	1	1	3480
+SUB231114	Atopic	FFQ	62041	108-Month Clinic Visit	1.0	missing	.x			
+SUB231114	Atopic	FFQ	62045	120-Month Clinic Visit	1.0	missing	.x			
+SUB231115	Atopic	FFQ	59920	108-Month Clinic Visit	1.0	complete	108	1	1	3320
+SUB231116	Atopic	FFQ	60221	108-Month Clinic Visit	1.0	complete	108	1	1	3303
+SUB231117	Atopic	FFQ	52651	108-Month Clinic Visit	1.0	complete	108	1	1	3374
+SUB231118	Atopic	FFQ	59086	108-Month Clinic Visit	1.0	complete	108	1	1	3309
+SUB231119	Atopic	FFQ	62024	108-Month Clinic Visit	1.0	complete	108	1	1	3363
+SUB231120	Atopic	FFQ	52797	108-Month Clinic Visit	1.0	complete	108	1	1	3400
+SUB231121	Atopic	FFQ	55215	108-Month Clinic Visit	1.0	complete	108	1	1	3376
+SUB231122	Atopic	FFQ	53135	108-Month Clinic Visit	1.0	complete	108	1	1	3306
+SUB231125	Atopic	FFQ	52314	108-Month Clinic Visit	1.0	complete	108	1	1	3319
+SUB231127	Atopic	FFQ	60234	108-Month Clinic Visit	1.0	complete	108	1	1	3293
+SUB231128	Atopic	FFQ	53556	108-Month Clinic Visit	1.0	complete	108	0		3393
+SUB231130	Atopic	FFQ	53991	108-Month Clinic Visit	1.0	complete	108	0		3353
+SUB231131	Atopic	FFQ	52785	108-Month Clinic Visit	1.0	complete	108	1	1	3377
+SUB231132	Atopic	FFQ	55435	108-Month Clinic Visit	1.0	missing	.x			
+SUB231133	Atopic	FFQ	53741	108-Month Clinic Visit	1.0	complete	108	1	1	3310
+SUB231134	Atopic	FFQ	53753	108-Month Clinic Visit	1.0	complete	108	0		3317
+SUB231135	Atopic	FFQ	54632	108-Month Clinic Visit	1.0	complete	108	1	1	3282
+SUB231139	Atopic	FFQ	59633	108-Month Clinic Visit	1.0	complete	108	1	1	3274
+SUB231142	Atopic	FFQ	55447	108-Month Clinic Visit	1.0	complete	108	1	1	3367
+SUB231143	Non-atopic	FFQ	54618	108-Month Clinic Visit	1.0	complete	108	1	1	3268
+SUB231144	Atopic	FFQ	55695	108-Month Clinic Visit	1.0	complete	108	1	1	3279
+SUB231145	Non-atopic	FFQ	59535	108-Month Clinic Visit	1.0	complete	108	1	1	3319
+SUB231146	Atopic	FFQ	55544	108-Month Clinic Visit	1.0	complete	108	1	1	3365
+SUB231147	Non-atopic	FFQ	59492	108-Month Clinic Visit	1.0	complete	108	1	1	3374
+SUB231149	Atopic	FFQ	55203	108-Month Clinic Visit	1.0	complete	108	1	1	3302
+SUB231150	Atopic	FFQ	56131	108-Month Clinic Visit	1.0	complete	108	1	1	3367
+SUB231151	Non-atopic	FFQ	56118	108-Month Clinic Visit	1.0	complete	108	1	1	3324
+SUB231153	Non-atopic	FFQ	59758	108-Month Clinic Visit	1.0	complete	108	1	1	3330
+SUB231155	Atopic	FFQ	60680	108-Month Clinic Visit	1.0	complete	108	1	1	3327
+SUB231156	Non-atopic	FFQ	56860	108-Month Clinic Visit	1.0	complete	108	1	1	3332
+SUB231158	Non-atopic	FFQ	56238	108-Month Clinic Visit	1.0	complete	108	1	1	3352
+SUB231159	Atopic	FFQ	60807	108-Month Clinic Visit	1.0	complete	108	1	1	3363
+SUB231161	Atopic	FFQ	56667	108-Month Clinic Visit	1.0	complete	108	1	1	3355
+SUB231163	Atopic	FFQ	57230	108-Month Clinic Visit	1.0	complete	108	0		3368
+SUB231164	Atopic	FFQ	58536	108-Month Clinic Visit	1.0	complete	108	1	1	3443
+SUB231165	Atopic	FFQ	56226	108-Month Clinic Visit	1.0	complete	108	1	1	3358
+SUB231166	Atopic	FFQ	55963	108-Month Clinic Visit	1.0	complete	108	1	1	3284
+SUB231167	Atopic	FFQ	56396	108-Month Clinic Visit	1.0	complete	108	1	2	3365
+SUB231168	Atopic	FFQ	60209	108-Month Clinic Visit	1.0	complete	108	1	1	3358
+SUB231169	Non-atopic	FFQ	60323	108-Month Clinic Visit	1.0	complete	108	1	1	3362
+SUB231171	Non-atopic	FFQ	59169	108-Month Clinic Visit	1.0	complete	108	1	1	3326
+SUB231172	Non-atopic	FFQ	58019	108-Month Clinic Visit	1.0	complete	108	1	1	3415
+SUB231173	Atopic	FFQ	51335	120-Month Clinic Visit	1.0	complete	120	1	1	3682
+SUB231176	Atopic	FFQ	57835	120-Month Clinic Visit	1.0	complete	120	1	1	3846
+SUB231177	Atopic	FFQ	51421	120-Month Clinic Visit	1.0	complete	120	1	1	3666
+SUB231178	Atopic	FFQ	51504	120-Month Clinic Visit	1.0	complete	120	1	1	3654
+SUB231179	Atopic	FFQ	51773	120-Month Clinic Visit	1.0	complete	120	1	1	3692
+SUB231180	Atopic	FFQ	51905	120-Month Clinic Visit	1.0	complete	120	1	1	3702
+SUB231182	Atopic	FFQ	51887	120-Month Clinic Visit	1.0	complete	120	1	1	3646
+SUB231183	Atopic	FFQ	52503	120-Month Clinic Visit	1.0	complete	120	1	1	3675
+SUB231184	Atopic	FFQ	51553	120-Month Clinic Visit	1.0	complete	120	1	1	3625
+SUB231185	Atopic	FFQ	52346	120-Month Clinic Visit	1.0	complete	120	1	2	3654
+SUB231186	Atopic	FFQ	52546	120-Month Clinic Visit	1.0	complete	120	1	1	3624
+SUB231187	Atopic	FFQ	54303	120-Month Clinic Visit	1.0	complete	120	1	1	3659
+SUB231188	Atopic	FFQ	51796	120-Month Clinic Visit	1.0	complete	120	1	1	3624
+SUB231189	Atopic	FFQ	52378	120-Month Clinic Visit	1.0	complete	120	1	2	3668
+SUB231190	Atopic	FFQ	51591	120-Month Clinic Visit	1.0	complete	120	1	1	3640
+SUB231191	Atopic	FFQ	52258	120-Month Clinic Visit	1.0	complete	120	1	1	3662
+SUB231192	Atopic	FFQ	52726	120-Month Clinic Visit	1.0	complete	120	1	1	3666
+SUB231194	Atopic	FFQ	52613	120-Month Clinic Visit	1.0	complete	120	1	1	3703
+SUB231195	Atopic	FFQ	52713	120-Month Clinic Visit	1.0	complete	120	1	1	3631
+SUB231196	Atopic	FFQ	52687	120-Month Clinic Visit	1.0	complete	120	1	1	3637
+SUB231198	Atopic	FFQ	55571	120-Month Clinic Visit	1.0	complete	120	1	1	3684
+SUB231199	Atopic	FFQ	53232	120-Month Clinic Visit	1.0	complete	120	1	1	3629
+SUB231201	Atopic	FFQ	53544	120-Month Clinic Visit	1.0	complete	120	1	1	3623
+SUB231202	Atopic	FFQ	53979	120-Month Clinic Visit	1.0	complete	120	1	1	3627
+SUB231203	Atopic	FFQ	53789	120-Month Clinic Visit	1.0	complete	120	1	2	3631
+SUB231206	Atopic	FFQ	54478	120-Month Clinic Visit	1.0	complete	120	1	1	3634
+SUB231207	Atopic	FFQ	54719	120-Month Clinic Visit	1.0	complete	120	1	1	3626
+SUB231208	Atopic	FFQ	54175	108-Month Clinic Visit	1.0	complete	108	1	1	3285
+SUB231210	Atopic	FFQ	56323	120-Month Clinic Visit	1.0	complete	120	1	1	3632
+SUB231213	Atopic	FFQ	55580	108-Month Clinic Visit	1.0	complete	108	1	1	3269
+SUB231214	Atopic	FFQ	55320	108-Month Clinic Visit	1.0	complete	108	1	1	3329
+SUB231215	Atopic	FFQ	56209	108-Month Clinic Visit	1.0	complete	108	1	1	3278
+SUB231216	Atopic	FFQ	55610	108-Month Clinic Visit	1.0	complete	108	1	1	3264
+SUB231217	Atopic	FFQ	57759	108-Month Clinic Visit	1.0	complete	108	1	1	3267
+SUB231218	Atopic	FFQ	55768	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231219	Atopic	FFQ	55781	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231221	Atopic	FFQ	55857	108-Month Clinic Visit	1.0	complete	108	1	1	3262
+SUB231222	Atopic	FFQ	59959	108-Month Clinic Visit	1.0	complete	108	1	2	3334
+SUB231223	Atopic	FFQ	56706	108-Month Clinic Visit	1.0	complete	108	1	1	3271
+SUB231225	Atopic	FFQ	56540	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231226	Atopic	FFQ	58154	108-Month Clinic Visit	1.0	complete	108	1	1	3258
+SUB231227	Atopic	FFQ	56839	108-Month Clinic Visit	1.0	complete	108	1	1	3272
+SUB231229	Atopic	FFQ	56958	108-Month Clinic Visit	1.0	complete	108	1	1	3266
+SUB231230	Atopic	FFQ	56557	108-Month Clinic Visit	1.0	complete	108	1	1	3272
+SUB231232	Atopic	FFQ	56418	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231233	Atopic	FFQ	57194	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231234	Atopic	FFQ	56766	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231235	Atopic	FFQ	51513	108-Month Clinic Visit	1.0	complete	108	1	1	3301
+SUB231236	Atopic	FFQ	56638	108-Month Clinic Visit	1.0	complete	108	1	2	3254
+SUB231237	Atopic	FFQ	57127	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231241	Atopic	FFQ	57960	108-Month Clinic Visit	1.0	complete	108	1	2	3283
+SUB231242	Atopic	FFQ	51689	108-Month Clinic Visit	1.0	complete	108	1	1	3269
+SUB231243	Atopic	FFQ	51478	108-Month Clinic Visit	1.0	complete	108	1	1	3298
+SUB231246	Atopic	FFQ	51667	108-Month Clinic Visit	1.0	complete	108	1	1	3264
+SUB231247	Atopic	FFQ	51736	108-Month Clinic Visit	1.0	complete	108	1	2	3537
+SUB231248	Atopic	FFQ	51956	108-Month Clinic Visit	1.0	complete	108	1	1	3327
+SUB231249	Atopic	FFQ	51940	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231251	Atopic	FFQ	52023	108-Month Clinic Visit	1.0	complete	108	1	2	3537
+SUB231252	Atopic	FFQ	53961	108-Month Clinic Visit	1.0	complete	108	1	1	3288
+SUB231253	Atopic	FFQ	52128	108-Month Clinic Visit	1.0	complete	108	1	1	3286
+SUB231255	Atopic	FFQ	52299	108-Month Clinic Visit	1.0	complete	108	1	1	3254
+SUB231257	Atopic	FFQ	52224	108-Month Clinic Visit	1.0	complete	108	1	1	3262
+SUB231258	Atopic	FFQ	52422	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231260	Atopic	FFQ	59596	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231262	Atopic	FFQ	53391	108-Month Clinic Visit	1.0	complete	108	1	1	3274
+SUB231263	Atopic	FFQ	52977	108-Month Clinic Visit	1.0	complete	108	1	2	3263
+SUB231264	Atopic	FFQ	57066	108-Month Clinic Visit	1.0	complete	108	1	1	3357
+SUB231265	Atopic	FFQ	53626	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231266	Atopic	FFQ	59906	108-Month Clinic Visit	1.0	complete	108	1	1	3315
+SUB231268	Atopic	FFQ	53798	108-Month Clinic Visit	1.0	complete	108	1	1	3265
+SUB231270	Atopic	FFQ	53703	108-Month Clinic Visit	1.0	complete	108	1	1	3267
+SUB231271	Atopic	FFQ	53844	108-Month Clinic Visit	1.0	complete	108	1	1	3268
+SUB231272	Atopic	FFQ	54067	108-Month Clinic Visit	1.0	complete	108	1	1	3257
+SUB231273	Atopic	FFQ	54084	108-Month Clinic Visit	1.0	complete	108	1	1	3263
+SUB231274	Atopic	FFQ	59301	108-Month Clinic Visit	1.0	complete	108	1	1	3264
+SUB231275	Atopic	FFQ	54232	108-Month Clinic Visit	1.0	complete	108	1	1	3278
+SUB231276	Atopic	FFQ	54313	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231277	Non-atopic	FFQ	54504	108-Month Clinic Visit	1.0	complete	108	1	1	3348
+SUB231278	Non-atopic	FFQ	54604	108-Month Clinic Visit	1.0	complete	108	1	1	3272
+SUB231279	Atopic	FFQ	54343	108-Month Clinic Visit	1.0	complete	108	1	1	3262
+SUB231280	Non-atopic	FFQ	54797	108-Month Clinic Visit	1.0	complete	108	1	1	3282
+SUB231281	Atopic	FFQ	59681	108-Month Clinic Visit	1.0	complete	108	1	1	3297
+SUB231282	Atopic	FFQ	61140	108-Month Clinic Visit	1.0	complete	108	1	1	3254
+SUB231283	Atopic	FFQ	56060	108-Month Clinic Visit	1.0	complete	108	1	1	3261
+SUB231284	Atopic	FFQ	55628	108-Month Clinic Visit	1.0	complete	108	1	1	3271
+SUB231285	Non-atopic	FFQ	55947	108-Month Clinic Visit	1.0	complete	108	1	1	3273
+SUB231286	Atopic	FFQ	55294	108-Month Clinic Visit	1.0	complete	108	1	1	3260
+SUB231287	Non-atopic	FFQ	55398	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231288	Atopic	FFQ	57440	108-Month Clinic Visit	1.0	complete	108	1	1	3340
+SUB231290	Atopic	FFQ	56073	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231291	Atopic	FFQ	55928	108-Month Clinic Visit	1.0	complete	108	1	1	3263
+SUB231292	Atopic	FFQ	55824	108-Month Clinic Visit	1.0	complete	108	1	1	3260
+SUB231293	Atopic	FFQ	53661	120-Month Clinic Visit	1.0	missing	.x			
+SUB231294	Atopic	FFQ	52064	120-Month Clinic Visit	1.0	complete	120	1	1	3708
+SUB231295	Atopic	FFQ	54058	120-Month Clinic Visit	1.0	complete	120	1	1	3711
+SUB231296	Atopic	FFQ	52593	120-Month Clinic Visit	1.0	complete	120	1	1	3677
+SUB231297	Atopic	FFQ	53126	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB231299	Atopic	FFQ	54745	120-Month Clinic Visit	1.0	complete	120	1	1	3673
+SUB231300	Atopic	FFQ	52863	120-Month Clinic Visit	1.0	complete	120	1	1	3648
+SUB231302	Atopic	FFQ	52215	120-Month Clinic Visit	1.0	complete	120	1	1	3671
+SUB231304	Atopic	FFQ	53112	120-Month Clinic Visit	1.0	complete	120	1	1	3695
+SUB231305	Atopic	FFQ	53452	120-Month Clinic Visit	1.0	complete	120	1	1	3693
+SUB231306	Atopic	FFQ	56002	120-Month Clinic Visit	1.0	complete	120	1	1	3692
+SUB231307	Atopic	FFQ	51611	120-Month Clinic Visit	1.0	complete	120	1	1	3705
+SUB231308	Atopic	FFQ	58963	120-Month Clinic Visit	1.0	complete	120	1	1	3693
+SUB231309	Atopic	FFQ	54765	120-Month Clinic Visit	1.0	complete	120	1	1	3706
+SUB231310	Atopic	FFQ	54491	120-Month Clinic Visit	1.0	complete	120	1	1	3705
+SUB231313	Atopic	FFQ	51822	120-Month Clinic Visit	1.0	complete	120	1	1	3654
+SUB231314	Atopic	FFQ	52145	120-Month Clinic Visit	1.0	complete	120	1	1	3629
+SUB231316	Atopic	FFQ	52041	120-Month Clinic Visit	1.0	complete	120	1	1	3679
+SUB231318	Atopic	FFQ	51706	120-Month Clinic Visit	1.0	complete	120	1	1	3670
+SUB231319	Atopic	FFQ	52012	120-Month Clinic Visit	1.0	complete	120	1	1	3672
+SUB231320	Atopic	FFQ	52742	120-Month Clinic Visit	1.0	complete	120	1	1	3669
+SUB231323	Atopic	FFQ	53178	120-Month Clinic Visit	1.0	complete	120	1	1	3690
+SUB231324	Atopic	FFQ	52832	120-Month Clinic Visit	1.0	complete	120	1	1	3658
+SUB231325	Atopic	FFQ	53214	120-Month Clinic Visit	1.0	complete	120	1	1	3666
+SUB231326	Atopic	FFQ	55135	120-Month Clinic Visit	1.0	complete	120	1	1	3668
+SUB231327	Atopic	FFQ	52559	120-Month Clinic Visit	1.0	complete	120	1	1	3673
+SUB231328	Atopic	FFQ	52451	120-Month Clinic Visit	1.0	complete	120	1	1	3704
+SUB231329	Atopic	FFQ	53026	120-Month Clinic Visit	1.0	complete	120	1	1	3720
+SUB231330	Atopic	FFQ	53775	120-Month Clinic Visit	1.0	complete	120	1	1	3656
+SUB231333	Atopic	FFQ	54010	120-Month Clinic Visit	1.0	complete	120	1	1	3693
+SUB231334	Atopic	FFQ	54705	120-Month Clinic Visit	1.0	complete	120	1	1	3655
+SUB231336	Atopic	FFQ	54220	120-Month Clinic Visit	1.0	complete	120	1	1	3652
+SUB231338	Atopic	FFQ	53067	120-Month Clinic Visit	1.0	complete	120	1	1	3648
+SUB231339	Atopic	FFQ	53724	120-Month Clinic Visit	1.0	complete	120	1	1	3663
+SUB231341	Atopic	FFQ	54418	120-Month Clinic Visit	1.0	complete	120	1	1	3701
+SUB231342	Atopic	FFQ	56022	120-Month Clinic Visit	1.0	missing	.x			
+SUB231343	Atopic	FFQ	54830	108-Month Clinic Visit	1.0	complete	108	0		3327
+SUB231345	Atopic	FFQ	57915	120-Month Clinic Visit	1.0	complete	120	1	1	3694
+SUB231346	Atopic	FFQ	55386	120-Month Clinic Visit	1.0	complete	120	1	1	3676
+SUB231347	Atopic	FFQ	55673	120-Month Clinic Visit	1.0	complete	120	1	1	3820
+SUB231352	Atopic	FFQ	55363	108-Month Clinic Visit	1.0	complete	108	1	1	3366
+SUB231353	Atopic	FFQ	55654	120-Month Clinic Visit	1.0	complete	120	1	1	3689
+SUB231355	Atopic	FFQ	55815	120-Month Clinic Visit	1.0	complete	120	1	1	3659
+SUB231357	Atopic	FFQ	56307	120-Month Clinic Visit	1.0	complete	120	1	1	3673
+SUB231359	Atopic	FFQ	55906	120-Month Clinic Visit	1.0	missing	.x			
+SUB231360	Atopic	FFQ	55800	120-Month Clinic Visit	1.0	complete	120	1	1	3657
+SUB231363	Atopic	FFQ	56171	108-Month Clinic Visit	1.0	complete	108	1	1	3289
+SUB231365	Atopic	FFQ	56290	108-Month Clinic Visit	1.0	complete	108	1	1	3348
+SUB231366	Atopic	FFQ	55054	120-Month Clinic Visit	1.0	complete	120	1	1	3673
+SUB231368	Atopic	FFQ	55983	108-Month Clinic Visit	1.0	complete	108	1	1	3365
+SUB231369	Atopic	FFQ	56749	108-Month Clinic Visit	1.0	complete	108	0		3262
+SUB231372	Atopic	FFQ	56527	108-Month Clinic Visit	1.0	complete	108	1	1	3273
+SUB231373	Atopic	FFQ	56184	108-Month Clinic Visit	1.0	complete	108	1	1	3308
+SUB231374	Atopic	FFQ	55349	108-Month Clinic Visit	1.0	complete	108	1	1	3269
+SUB231376	Atopic	FFQ	55840	108-Month Clinic Visit	1.0	complete	108	1	1	3345
+SUB231377	Atopic	FFQ	58333	108-Month Clinic Visit	1.0	complete	108	0		3305
+SUB231378	Atopic	FFQ	52483	108-Month Clinic Visit	1.0	complete	108	1	1	3265
+SUB231379	Atopic	FFQ	56732	108-Month Clinic Visit	1.0	complete	108	1	1	3271
+SUB231380	Atopic	FFQ	57454	108-Month Clinic Visit	1.0	complete	108	1	1	3318
+SUB231381	Atopic	FFQ	57107	108-Month Clinic Visit	1.0	complete	108	1	1	3366
+SUB231382	Atopic	FFQ	56925	108-Month Clinic Visit	1.0	complete	108	1	1	3264
+SUB231383	Atopic	FFQ	52073	108-Month Clinic Visit	1.0	complete	108	1	1	3374
+SUB231384	Atopic	FFQ	56514	108-Month Clinic Visit	1.0	complete	108	1	1	3347
+SUB231387	Atopic	FFQ	57330	108-Month Clinic Visit	1.0	complete	108	1	1	3290
+SUB231388	Atopic	FFQ	57290	108-Month Clinic Visit	1.0	complete	108	1	1	3337
+SUB231389	Atopic	FFQ	57973	108-Month Clinic Visit	1.0	complete	108	1	1	3340
+SUB231390	Atopic	FFQ	59468	108-Month Clinic Visit	1.0	complete	108	1	1	3355
+SUB231391	Atopic	FFQ	57851	108-Month Clinic Visit	1.0	complete	108	1	1	3288
+SUB231392	Atopic	FFQ	57721	108-Month Clinic Visit	1.0	complete	108	1	1	3285
+SUB231393	Atopic	FFQ	57892	108-Month Clinic Visit	1.0	complete	108	1	1	3341
+SUB231394	Atopic	FFQ	51536	108-Month Clinic Visit	1.0	complete	108	1	1	3378
+SUB231395	Atopic	FFQ	58605	108-Month Clinic Visit	1.0	complete	108	1	1	3282
+SUB231396	Atopic	FFQ	57708	108-Month Clinic Visit	1.0	complete	108	1	1	3369
+SUB231397	Atopic	FFQ	52360	108-Month Clinic Visit	1.0	complete	108	1	1	3287
+SUB231398	Atopic	FFQ	58987	108-Month Clinic Visit	1.0	complete	108	1	1	3358
+SUB231401	Atopic	FFQ	51628	108-Month Clinic Visit	1.0	complete	108	1	1	3341
+SUB231402	Atopic	FFQ	51721	108-Month Clinic Visit	1.0	complete	108	1	1	3368
+SUB231403	Atopic	FFQ	51654	108-Month Clinic Visit	1.0	complete	108	1	1	3272
+SUB231404	Atopic	FFQ	51927	108-Month Clinic Visit	1.0	complete	108	1	1	3335
+SUB231405	Atopic	FFQ	51854	108-Month Clinic Visit	1.0	complete	108	1	1	3340
+SUB231406	Atopic	FFQ	52389	108-Month Clinic Visit	1.0	complete	108	1	1	3352
+SUB231409	Atopic	FFQ	60177	108-Month Clinic Visit	1.0	missing	.x			
+SUB231409	Atopic	FFQ	60181	120-Month Clinic Visit	1.0	complete	120	1	1	3727
+SUB231410	Atopic	FFQ	52903	108-Month Clinic Visit	1.0	complete	108	1	1	3279
+SUB231411	Atopic	FFQ	53689	108-Month Clinic Visit	1.0	complete	108	1	1	3349
+SUB231412	Atopic	FFQ	52921	108-Month Clinic Visit	1.0	complete	108	1	1	3339
+SUB231413	Atopic	FFQ	53272	108-Month Clinic Visit	1.0	complete	108	1	1	3373
+SUB231414	Atopic	FFQ	52845	108-Month Clinic Visit	1.0	complete	108	1	1	3270
+SUB231415	Non-atopic	FFQ	52990	108-Month Clinic Visit	1.0	complete	108	1	1	3284
+SUB231417	Atopic	FFQ	53523	108-Month Clinic Visit	1.0	complete	108	1	1	3295
+SUB231418	Atopic	FFQ	53316	108-Month Clinic Visit	1.0	complete	108	1	1	3318
+SUB231419	Atopic	FFQ	53902	108-Month Clinic Visit	1.0	complete	108	1	1	3348
+SUB231420	Atopic	FFQ	54040	108-Month Clinic Visit	1.0	complete	108	1	1	3329
+SUB231421	Atopic	FFQ	53915	108-Month Clinic Visit	1.0	complete	108	1	1	3373
+SUB231422	Atopic	FFQ	58950	120-Month Clinic Visit	1.0	missing	.x			
+SUB231423	Atopic	FFQ	53286	108-Month Clinic Visit	1.0	complete	108	1	1	3260
+SUB231424	Atopic	FFQ	56145	108-Month Clinic Visit	1.0	missing	.x			
+SUB231424	Atopic	FFQ	56149	120-Month Clinic Visit	1.0	complete	120	1	1	3726
+SUB231425	Non-atopic	FFQ	59509	108-Month Clinic Visit	1.0	missing	.x			
+SUB231425	Non-atopic	FFQ	59513	120-Month Clinic Visit	1.0	missing	.x			
+SUB231426	Atopic	FFQ	54888	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB231427	Atopic	FFQ	54854	108-Month Clinic Visit	1.0	complete	108	1	1	3368
+SUB231428	Atopic	FFQ	53932	108-Month Clinic Visit	1.0	complete	108	1	1	3293
+SUB231429	Non-atopic	FFQ	53883	108-Month Clinic Visit	1.0	complete	108	1	1	3323
+SUB231430	Non-atopic	FFQ	55104	108-Month Clinic Visit	1.0	complete	108	1	1	3371
+SUB231431	Non-atopic	FFQ	54203	108-Month Clinic Visit	1.0	missing	.x			
+SUB231431	Non-atopic	FFQ	54207	120-Month Clinic Visit	1.0	missing	.x			
+SUB231432	Non-atopic	FFQ	56624	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB231433	Atopic	FFQ	56348	108-Month Clinic Visit	1.0	complete	108	1	1	3368
+SUB231434	Non-atopic	FFQ	56719	108-Month Clinic Visit	1.0	complete	108	1	1	3366
+SUB231435	Atopic	FFQ	54781	108-Month Clinic Visit	1.0	complete	108	1	1	3364
+SUB231436	Atopic	FFQ	54687	108-Month Clinic Visit	1.0	complete	108	1	1	3371
+SUB231437	Atopic	FFQ	54812	108-Month Clinic Visit	1.0	complete	108	1	1	3293
+SUB231439	Non-atopic	FFQ	54951	108-Month Clinic Visit	1.0	complete	108	1	1	3259
+SUB231440	Atopic	FFQ	54591	108-Month Clinic Visit	1.0	complete	108	1	1	3294
+SUB231441	Atopic	FFQ	57038	108-Month Clinic Visit	1.0	complete	108	1	1	3370
+SUB231442	Atopic	FFQ	52471	108-Month Clinic Visit	1.0	complete	108	1	1	3365
+SUB231443	Atopic	FFQ	54978	108-Month Clinic Visit	1.0	complete	108	1	1	3362
+SUB231444	Atopic	FFQ	56885	108-Month Clinic Visit	1.0	complete	108	1	1	3302
+SUB231445	Atopic	FFQ	57026	120-Month Clinic Visit	1.0	complete	120	1	1	3728
+SUB231445	Atopic	FFQ	57022	108-Month Clinic Visit	1.0	missing	.x			
+SUB231446	Non-atopic	FFQ	55091	108-Month Clinic Visit	1.0	complete	108	1	1	3325
+SUB231448	Atopic	FFQ	55076	108-Month Clinic Visit	1.0	complete	108	1	1	3329
+SUB231449	Atopic	FFQ	63227	108-Month Clinic Visit	1.0	complete	108	1	1	3381
+SUB231450	Atopic	FFQ	56033	108-Month Clinic Visit	1.0	complete	108	1	1	3303
+SUB231451	Non-atopic	FFQ	61104	108-Month Clinic Visit	1.0	complete	108	1	1	3334
+SUB231452	Non-atopic	FFQ	57348	108-Month Clinic Visit	1.0	complete	108	1	1	3350
+SUB231453	Atopic	FFQ	56432	108-Month Clinic Visit	1.0	complete	108	1	1	3287
+SUB231454	Atopic	FFQ	57259	108-Month Clinic Visit	1.0	complete	108	1	1	3295
+SUB231455	Non-atopic	FFQ	57150	108-Month Clinic Visit	1.0	complete	108	1	1	3283
+SUB231456	Non-atopic	FFQ	57273	108-Month Clinic Visit	1.0	missing	.x			
+SUB231457	Non-atopic	FFQ	57309	108-Month Clinic Visit	1.0	complete	108	1	1	3277
+SUB231460	Non-atopic	FFQ	57871	108-Month Clinic Visit	1.0	complete	108	1	1	3326
+SUB231462	Non-atopic	FFQ	61411	108-Month Clinic Visit	1.0	missing	.x			
+SUB231462	Non-atopic	FFQ	61415	120-Month Clinic Visit	1.0	missing	.x			
+SUB231463	Atopic	FFQ	58041	108-Month Clinic Visit	1.0	complete	108	1	1	3273
+SUB231465	Non-atopic	FFQ	57814	108-Month Clinic Visit	1.0	complete	108	1	1	3358
+SUB231466	Atopic	FFQ	58233	108-Month Clinic Visit	1.0	complete	108	1	1	3320
+SUB231467	Atopic	FFQ	57650	108-Month Clinic Visit	1.0	complete	108	1	1	3342
+SUB231468	Atopic	FFQ	52459	108-Month Clinic Visit	1.0	missing	.x			
+SUB231468	Atopic	FFQ	52463	120-Month Clinic Visit	1.0	complete	120	1	1	3763
+SUB231469	Non-atopic	FFQ	58212	108-Month Clinic Visit	1.0	complete	108	1	1	3304
+SUB231470	Non-atopic	FFQ	58566	108-Month Clinic Visit	1.0	complete	108	1	1	3295

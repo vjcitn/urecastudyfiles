@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ESET"", ""ESET"")"
+3	4	event	Event	chr	character	character	73	0	"c(""1 week phone call"", ""viral illness qc"")"
+4	5	time_scheduled	Time Scheduled	chr	character	character	543	0	"c(""00:00:00"", ""23:55:00"")"
+5	6	time_occurred	Time Occurred	chr	character	character	827	0	"c(""00:00:00"", ""23:48:00"")"
+6	7	status	Status	chr	character	character	5	0	"c(""missing"", ""upcoming"")"
+7	8	parent_id	Parent ID	chr	character	character	24571	0	"c(""0"", ""9986"")"
+8	9	Site		dbl	numeric	double	5	5	c(1, 8)
+9	10	day_start_window	Day Start Window	dbl	numeric	double	3293	9318	c(-228, 3860)
+10	11	day_end_window	Day End Window	dbl	numeric	double	3171	9393	c(-31, 3874)
+11	12	day_scheduled	Day Scheduled	dbl	numeric	double	3650	24609	c(-428, 4149)
+12	13	day_occurred	Day Occurred	dbl	numeric	double	4014	8811	c(-279, 4521)

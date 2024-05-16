@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""EPDS"", ""EPDS"")"
+3	4	evid	evid	dbl	numeric	double	4918	0	c(2, 63231)
+4	5	event	event	chr	character	character	9	0	"c(""12-Month Clinic Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	5	0	"c(""1.0"", ""1.4"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	10	0	"c("".x"", ""p"")"
+8	9	EPDS_q1	Able to Laugh and See Funny Side of Things	dbl	numeric	double	5	4881	c(0, 3)
+9	10	EPDS_q1_1	Able to Laugh and See Funny Side of Things	dbl	numeric	double	5	434	c(0, 3)
+10	11	EPDS_q2	Looked Forward to Things with Enjoyment	dbl	numeric	double	5	4881	c(0, 3)
+11	12	EPDS_q2_1	Looked Forward to Things with Enjoyment	dbl	numeric	double	5	434	c(0, 3)
+12	13	EPDS_q3	Blamed Myself Unnecessarily when Things Went Wrong	dbl	numeric	double	5	397	c(0, 3)
+13	14	EPDS_q4	Anxious or Worried for No Good Reason	dbl	numeric	double	5	397	c(0, 3)
+14	15	EPDS_q5	Scared or Panicky for No Good Reason	dbl	numeric	double	5	397	c(0, 3)
+15	16	EPDS_q6	Things have been overhwelming me	dbl	numeric	double	5	397	c(0, 3)
+16	17	EPDS_q7	Difficulty Sleeping from Unhappiness	dbl	numeric	double	5	397	c(0, 3)
+17	18	EPDS_q8	Felt Sad or Miserable	dbl	numeric	double	5	397	c(0, 3)
+18	19	EPDS_q9	Crying Due to Unhappiness	dbl	numeric	double	5	397	c(0, 3)
+19	20	EPDS_q10	Thought of Harming Myself has Occurred to Me	dbl	numeric	double	5	398	c(0, 3)
+20	21	EPDS_q11	Total Score	dbl	numeric	double	32	430	c(0, 30)
+21	22	aCompletionDY	Completion Day	dbl	numeric	double	1158	616	c(-204, 3842)

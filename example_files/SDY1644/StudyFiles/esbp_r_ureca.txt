@@ -1,0 +1,151 @@
+Accession	group	form	evid	event	version	status	aVisit	ESBP_q1b	ESBP_q1c	ESBP_q1d_1	ESBP_q2b	ESBP_q3a	ESBP_q3b	ESBP_q4	ESBP_q5a	ESBP_q5b	ESBP_q5c	ESBP_q6	ESBP_q7	ESBP_q7a1	ESBP_q7a2	ESBP_q7a3	ESBP_q7a4	ESBP_q8a	ESBP_q8b	ESBP_q9a	ESBP_q9b1	ESBP_q9b2	ESBP_q9b3	ESBP_q9b4	ESBP_q9b5	ESBP_q9b6	ESBP_q9b7	ESBP_q9b8	aCompletionDY	ESBP_Q2ADY	ESBP_Q1ADY
+SUB231191	Atopic	ESBP	52258	120-Month Clinic Visit	1.0	complete	120	09:56:00	17	8.5	10:17:00	0	21	4	10	4	435	43.5	3	14.5	14.5	14.5		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3662	3662	3662
+SUB231192	Atopic	ESBP	52726	120-Month Clinic Visit	1.0	complete	120	13:50:00	25	12.5	15:00:00	1	10	4	10	1	229	91.6	4	22.9	22.9	22.9	22.9	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3666	3666	3666
+SUB231194	Atopic	ESBP	52613	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231195	Atopic	ESBP	52713	120-Month Clinic Visit	1.0	complete	120	09:52:00	9	8.5	10:00:00	0	8	4	10	4	244	24.4	2	12.2	12.2			1	1.5	1	0.5	0.5	0.5	0.5	0.5	0.5	0.5	0.5	3631	3631	3631
+SUB231196	Atopic	ESBP	52687	120-Month Clinic Visit	1.0	complete	120	09:45:00	17.5	9	11:41:00	1	56	4	10	4	474	47.4	3	15.8	15.8	15.8		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3637	3637	3637
+SUB231198	Atopic	ESBP	55571	120-Month Clinic Visit	1.0	complete	120	11:17:00	28	14.5	11:55:00	0	38	4	10	2	325	65	4	16.25	16.25	16.25	16.25	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3684	3684	3684
+SUB231199	Atopic	ESBP	53232	120-Month Clinic Visit	1.0	complete	120	13:57:00	26	16	15:02:00	1	5	4	10	4	544	54.4	3	18.13	18.13	18.13		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3629	3629	3629
+SUB231201	Atopic	ESBP	53544	120-Month Clinic Visit	1.0	complete	120	13:37:00	29	15	14:00:00	0	23	4	10	2	433	86.6	4	21.65	21.65	21.65	21.65	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3623	3623	3623
+SUB231203	Atopic	ESBP	53789	120-Month Clinic Visit	1.0	complete	120	13:20:00	27.5	15	14:55:00	1	35	4	10	2	299	59.8	3	19.93	19.93	19.93		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3631	3631	3631
+SUB231206	Atopic	ESBP	54478	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231208	Atopic	ESBP	54179	120-Month Clinic Visit	1.0	complete	120	10:11:00	22.5	15	10:16:00	0	5	4	10	2	301	60.2	3	20.07	20.07	20.07		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3652	3652	3652
+SUB231210	Atopic	ESBP	56323	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231213	Atopic	ESBP	55584	120-Month Clinic Visit	1.0	complete	120	10:23:00	29	14	12:10:00	1	47	4	10	2	256	51.2	3	17.07	17.07	17.07		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3633	3633	3633
+SUB231214	Atopic	ESBP	55324	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231215	Atopic	ESBP	56213	120-Month Clinic Visit	1.0	complete	120	10:30:00	30	15	10:57:00	0	27	4	10	2	403	80.6	4	20.15	20.15	20.15	20.15	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3627	3627	3627
+SUB231216	Atopic	ESBP	55614	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231217	Atopic	ESBP	57763	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231219	Atopic	ESBP	55785	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231222	Atopic	ESBP	59963	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231223	Atopic	ESBP	56710	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231225	Atopic	ESBP	56544	120-Month Clinic Visit	1.0	complete	120	13:30:00	27.5	16	13:37:00	0	7	4	10	2	280	56	3	18.67	18.67	18.67		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3624	3624	3624
+SUB231226	Atopic	ESBP	58158	120-Month Clinic Visit	1.0	complete	120	10:12:00	25	12.5	10:25:00	0	13	4	10	2	224	44.8	3	14.93	14.93	14.93		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3626	3626	3626
+SUB231227	Atopic	ESBP	56843	120-Month Clinic Visit	1.0	complete	120	11:40:00	27.5	15	12:05:00	0	25	4	10	2	230	46	3	15.33	15.33	15.33		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3696	3696	3696
+SUB231229	Atopic	ESBP	56962	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231230	Atopic	ESBP	56561	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231232	Atopic	ESBP	56422	120-Month Clinic Visit	1.0	complete	120	09:40:00	28	15	09:50:00	0	10	4	10	4	298	29.8	2	14.9	14.9			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3663	3663	3663
+SUB231233	Atopic	ESBP	57198	120-Month Clinic Visit	1.0	complete	120	10:14:00	28.5	15	14:05:00	3	51	4	10	2	335	67	4	16.75	16.75	16.75	16.75	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3630	3630	3630
+SUB231234	Atopic	ESBP	56770	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231235	Atopic	ESBP	51517	120-Month Clinic Visit	1.0	complete	120	10:31:00	27.5	15	10:51:00	0	20	4	10	4	489	48.9	3	16.3	16.3	16.3		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3689	3689	3689
+SUB231236	Atopic	ESBP	56642	120-Month Clinic Visit	1.0	complete	120	10:20:00	27.5	15	12:56:00	2	36	4	10	2	289	57.8	3	19.27	19.27	19.27		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3639	3639	3639
+SUB231237	Atopic	ESBP	57131	120-Month Clinic Visit	1.0	complete	120	10:57:00	29	15	11:36:00	0	39	4	10	2	365	73	4	18.25	18.25	18.25	18.25	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3625	3625	3625
+SUB231241	Atopic	ESBP	57964	120-Month Clinic Visit	1.0	complete	120	11:35:00	25	14	11:45:00	0	10	4	10	3	262	34.93	2	17.47	17.47			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3626	3626	3626
+SUB231242	Atopic	ESBP	51693	120-Month Clinic Visit	1.0	complete	120	13:45:00	27.5	13	15:03:00	1	18	4	10	2	314	62.8	3	20.93	20.93	20.93		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3633	3633	3633
+SUB231243	Atopic	ESBP	51482	120-Month Clinic Visit	1.0	complete	120	11:55:00	26	12.5	14:43:00	2	48	4	10	2	250	50	3	16.67	16.67	16.67		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3761	3761	3761
+SUB231246	Atopic	ESBP	51671	120-Month Clinic Visit	1.0	complete	120	13:15:00	26	12.5	16:43:00	3	28	4	10	4	416	41.6	2	20.8	20.8			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3636	3636	3636
+SUB231248	Atopic	ESBP	51960	120-Month Clinic Visit	1.0	complete	120	13:03:00	20	10	13:08:00	0	5	4	10	2	259	51.8	3	17.27	17.27	17.27		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3673	3673	3673
+SUB231249	Atopic	ESBP	51944	120-Month Clinic Visit	1.0	complete	120	10:04:00	25	13	10:07:00	0	3	4	10	4	434	43.4	3	14.47	14.47	14.47		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3625	3625	3625
+SUB231251	Atopic	ESBP	52027	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231252	Atopic	ESBP	53965	120-Month Clinic Visit	1.0	complete	120	11:15:00	27.5	15	14:20:00	3	5	4	10	2	221	44.2	3	14.73	14.73	14.73		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3700	3700	3700
+SUB231253	Atopic	ESBP	52132	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231255	Atopic	ESBP	52303	120-Month Clinic Visit	1.0	complete	120	15:05:00	27	16	15:08:00	0	3	4	10	2	286	57.2	3	19.07	19.07	19.07		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3636	3636	3636
+SUB231257	Atopic	ESBP	52228	120-Month Clinic Visit	1.0	complete	120	09:25:00	20	12	09:35:00	0	10	4	10	4	410	41	2	20.5	20.5			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3653	3653	3653
+SUB231258	Atopic	ESBP	52426	120-Month Clinic Visit	1.0	complete	120	09:58:00	18	10	10:38:00	0	40	4	10	4	472	47.2	3	15.73	15.73	15.73		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3634	3634	3634
+SUB231260	Atopic	ESBP	59600	120-Month Clinic Visit	1.0	complete	120	11:17:00	25	13	11:29:00	0	12	4	10	2	295	59	3	19.66	19.66	19.66		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3682	3682	3682
+SUB231262	Atopic	ESBP	53395	120-Month Clinic Visit	1.0	complete	120	09:35:00	25	12.5	09:40:00	0	5	4	10	2	349	69.8	4	17.45	17.45	17.45	17.45	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3653	3653	3653
+SUB231264	Atopic	ESBP	57070	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231265	Atopic	ESBP	53630	120-Month Clinic Visit	1.0	complete	120	11:15:00	26	15	11:22:00	0	7	4	10	2	377	75.4	4	18.85	18.85	18.85	18.85	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3625	3625	3625
+SUB231266	Atopic	ESBP	59910	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231268	Atopic	ESBP	53802	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231270	Atopic	ESBP	53707	120-Month Clinic Visit	1.0	complete	120	10:42:00	25	15	11:14:00	0	32	4	10	2	221	44.2	3	14.73	14.73	14.73		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3652	3652	3652
+SUB231271	Atopic	ESBP	53848	120-Month Clinic Visit	1.0	complete	120	13:13:00	25	12.5	17:03:00	3	50	4	10	2	287	57.4	3	19.13	19.13	19.13		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3652	3652	3652
+SUB231272	Atopic	ESBP	54071	120-Month Clinic Visit	1.0	complete	120	10:50:00	27	15	10:54:00	0	4	4	10	2	237	47.4	3	15.8	15.8	15.8		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3625	3625	3625
+SUB231273	Atopic	ESBP	54088	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231274	Atopic	ESBP	59305	120-Month Clinic Visit	1.0	complete	120	12:10:00	26	15	16:05:00	3	55	4	10	2	250	50	3	16.67	16.67	16.67		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3663	3663	3663
+SUB231275	Atopic	ESBP	54236	120-Month Clinic Visit	1.0	complete	120	11:27:00	23	12	11:40:00	0	13	4	10	4	321	32.1	2	16.05	16.05			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3804	3804	3804
+SUB231276	Atopic	ESBP	54317	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231279	Atopic	ESBP	54347	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231281	Atopic	ESBP	59685	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231282	Atopic	ESBP	61144	120-Month Clinic Visit	1.0	complete	120	11:00:00	22	12	11:27:00	0	27	4	10	2	276	55.2	3	18.4	18.4	18.4		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3691	3691	3691
+SUB231286	Atopic	ESBP	55298	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231288	Atopic	ESBP	57444	120-Month Clinic Visit	1.0	complete	120	13:50:00	24	12.5	14:19:00	0	29	4	10	2	218	43.6	3	14.53	14.53	14.53		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3580	3580	3580
+SUB231290	Atopic	ESBP	56077	120-Month Clinic Visit	1.0	complete	120	10:58:00	25	13	16:07:00	5	9	4	10	2	343	68.6	4	17.15	17.15	17.15	17.15	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3637	3637	3637
+SUB231291	Atopic	ESBP	55932	120-Month Clinic Visit	1.0	complete	120	15:24:00	27	15	15:31:00	0	7	4	10	2	224	44.8	3	14.93	14.93	14.93		1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3682	3682	3682
+SUB231292	Atopic	ESBP	55828	120-Month Clinic Visit	1.0	complete	120	13:55:00	27.5	15	14:40:00	0	45	4	10	2	382	76.4	4	19.1	19.1	19.1	19.1	1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3624	3624	3624
+SUB231310	Atopic	ESBP	54491	120-Month Clinic Visit	1.0	complete	120	13:37:00	26	13	14:07:00	0	30	3	10	4	219	16.42	1	16.42				1	30	0									3705	3705	3705
+SUB231320	Atopic	ESBP	52742	120-Month Clinic Visit	1.0	complete	120	13:35:00	18	9	14:07:00	0	32	3	10	4	30	2.25	1	2.25				1	30	0									3669	3669	3669
+SUB231323	Atopic	ESBP	53178	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231324	Atopic	ESBP	52832	120-Month Clinic Visit	1.0	complete	120	13:20:00	15	8	14:00:00	0	40	4	10	4	101	10.1	1	10.1				1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3658	3658	3658
+SUB231326	Atopic	ESBP	55135	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231327	Atopic	ESBP	52559	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231328	Atopic	ESBP	52451	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231329	Atopic	ESBP	53026	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231330	Atopic	ESBP	53775	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231333	Atopic	ESBP	54010	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231336	Atopic	ESBP	54220	120-Month Clinic Visit	1.0	complete	120	13:20:00	16.3	9	13:37:00	0	17	4	10	4	238	23.8	1	23.8				1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3652	3652	3652
+SUB231338	Atopic	ESBP	53067	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231341	Atopic	ESBP	54418	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231342	Atopic	ESBP	56022	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231343	Atopic	ESBP	54834	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231345	Atopic	ESBP	57915	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231347	Atopic	ESBP	55673	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231352	Atopic	ESBP	55367	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231353	Atopic	ESBP	55654	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231355	Atopic	ESBP	55815	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231357	Atopic	ESBP	56307	120-Month Clinic Visit	1.0	complete	120	12:45:00	17.4	8.1	13:00:00	0	15	4	10	4	89	8.9	1	8.9				1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3673	3673	3673
+SUB231359	Atopic	ESBP	55906	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231360	Atopic	ESBP	55800	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231363	Atopic	ESBP	56175	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231365	Atopic	ESBP	56294	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231366	Atopic	ESBP	55054	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231368	Atopic	ESBP	55987	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231369	Atopic	ESBP	56753	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231372	Atopic	ESBP	56531	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231373	Atopic	ESBP	56188	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231374	Atopic	ESBP	55353	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231377	Atopic	ESBP	58337	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231378	Atopic	ESBP	52487	120-Month Clinic Visit	1.0	complete	120	10:00:00	29.8	15	10:50:00	0	50	4	10	4	448	44.8	2	22.4	22.4			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3747	3747	3747
+SUB231379	Atopic	ESBP	56736	120-Month Clinic Visit	1.0	complete	120	09:55:00	18.8	8.5	12:35:00	2	40	4	10	4	137	13.7	1	13.7				1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3718	3718	3718
+SUB231380	Atopic	ESBP	57458	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231381	Atopic	ESBP	57111	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231382	Atopic	ESBP	56929	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231383	Atopic	ESBP	52077	120-Month Clinic Visit	1.0	complete	120	09:50:00	24.5	11.8	10:20:00	0	30	4	10	4	310	31	2	15.5	15.5			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3757	3757	3757
+SUB231387	Atopic	ESBP	57334	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231388	Atopic	ESBP	57294	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231389	Atopic	ESBP	57977	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231390	Atopic	ESBP	59472	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231391	Atopic	ESBP	57855	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231392	Atopic	ESBP	57725	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231393	Atopic	ESBP	57896	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231394	Atopic	ESBP	51540	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231395	Atopic	ESBP	58609	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231396	Atopic	ESBP	57712	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231397	Atopic	ESBP	52364	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231398	Atopic	ESBP	58991	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231401	Atopic	ESBP	51632	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231402	Atopic	ESBP	51725	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231403	Atopic	ESBP	51658	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231404	Atopic	ESBP	51931	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231405	Atopic	ESBP	51858	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231406	Atopic	ESBP	52393	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231409	Atopic	ESBP	60181	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231410	Atopic	ESBP	52907	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231411	Atopic	ESBP	53693	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231412	Atopic	ESBP	52925	120-Month Clinic Visit	1.0	complete	120	09:50:00	26.1	12	10:00:00	0	10	4	10	4	534	53.4	2	26.7	26.7			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3716	3716	3716
+SUB231413	Atopic	ESBP	53276	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231417	Atopic	ESBP	53527	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231418	Atopic	ESBP	53320	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231419	Atopic	ESBP	53906	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231421	Atopic	ESBP	53919	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231422	Atopic	ESBP	58950	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231423	Atopic	ESBP	53290	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231424	Atopic	ESBP	56149	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231426	Atopic	ESBP	54892	120-Month Clinic Visit	1.0	complete	120	12:05:00	26.7	14.1	12:25:00	0	20	4	10	4	312	31.2	2	15.6	15.6			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3728	3728	3728
+SUB231427	Atopic	ESBP	54858	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231428	Atopic	ESBP	53936	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231433	Atopic	ESBP	56352	120-Month Clinic Visit	1.0	complete	120	10:00:00	29	15	10:05:00	0	5	4	10	4	291	29.1	2	14.55	14.55			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3745	3745	3745
+SUB231435	Atopic	ESBP	54785	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231437	Atopic	ESBP	54816	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231440	Atopic	ESBP	54595	120-Month Clinic Visit	1.0	complete	120	11:54:00	24	9.8	06:00:00	18	6	4	10	4	400	40	2	20	20			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3720	3721	3720
+SUB231441	Atopic	ESBP	57042	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231442	Atopic	ESBP	52475	120-Month Clinic Visit	1.0	complete	120	16:00:00	30.5	14.2	07:50:00	15	50	4	10	4	474	47.4	2	15.66	15.66			1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3730	3730	3729
+SUB231443	Atopic	ESBP	54982	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231448	Atopic	ESBP	55080	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231449	Atopic	ESBP	63231	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231453	Atopic	ESBP	56436	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231454	Atopic	ESBP	57263	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231463	Atopic	ESBP	58045	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231466	Atopic	ESBP	58237	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231467	Atopic	ESBP	57654	120-Month Clinic Visit	1.0	missing	.x																														
+SUB231468	Atopic	ESBP	52463	120-Month Clinic Visit	1.0	complete	120	12:00:00	28.4	14	12:40:00	0	40	4	10	4	175	17.5	1	17.5				1	1.5	1	1	1	1	1	1	0.5	0.5	0.5	3763	3763	3763

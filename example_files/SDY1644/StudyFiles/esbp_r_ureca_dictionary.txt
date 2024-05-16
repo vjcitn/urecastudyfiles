@@ -1,0 +1,39 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	150	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	1	0	"c(""Atopic"", ""Atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ESBP"", ""ESBP"")"
+3	4	evid	evid	dbl	numeric	double	150	0	c(51482, 63231)
+4	5	event	event	chr	character	character	1	0	"c(""120-Month Clinic Visit"", ""120-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""120"")"
+8	9	ESBP_q1b	Time of Sample Collected	time	"c(""hms"", ""difftime"")"	double	49	94	c(33900, 57600)
+9	10	ESBP_q1c	Total Volume of Blood Collected in 10 mL Green Top Tubes	dbl	numeric	double	28	94	c(9, 30.5)
+10	11	ESBP_q1d_1	Total Volume of Plasma Collected	dbl	numeric	double	17	94	c(8, 16)
+11	12	ESBP_q2b	Time Processing Was Started	time	"c(""hms"", ""difftime"")"	double	53	94	c(21600, 61380)
+12	13	ESBP_q3a	Time b/n Collection and Processing in Hours	dbl	numeric	double	8	94	c(0, 18)
+13	14	ESBP_q3b	Time b/n Collection and Processing in Minutes	dbl	numeric	double	35	94	c(3, 56)
+14	15	ESBP_q4	Volume Cell Pellet was Resuspended in for Counting	dbl	numeric	double	3	94	c(3, 4)
+15	16	ESBP_q5a	Dilution Factor	dbl	numeric	double	2	94	c(10, 10)
+16	17	ESBP_q5b	Number of Squares Counted	dbl	numeric	double	5	94	c(1, 4)
+17	18	ESBP_q5c	Number of Cells Counted	dbl	numeric	double	53	94	c(30, 544)
+18	19	ESBP_q6	Number of Cells in Sample	dbl	numeric	double	51	94	c(2.25, 91.6)
+19	20	ESBP_q7	Number of Aliquots of PBMCs Prepared	dbl	numeric	double	5	94	c(1, 4)
+20	21	ESBP_q7a1	Number Cells in Aliquot #1	dbl	numeric	double	53	94	c(2.25, 26.7)
+21	22	ESBP_q7a2	Number Cells in Aliquot #2	dbl	numeric	double	46	101	c(12.2, 26.7)
+22	23	ESBP_q7a3	Number Cells in Aliquot #3	dbl	numeric	double	33	114	c(14.47, 22.9)
+23	24	ESBP_q7a4	Number Cells in Aliquot #4	dbl	numeric	double	11	140	c(16.25, 22.9)
+24	25	ESBP_q8a	Total IgE - Was a Serum Sample Prepared	dbl	numeric	double	2	94	c(1, 1)
+25	26	ESBP_q8b	Total IgE - Volume of Aliquot #1	dbl	numeric	double	3	94	c(1.5, 30)
+26	27	ESBP_q9a	Extra Serum - Was a Serum Sample Prepared	dbl	numeric	double	3	94	c(0, 1)
+27	28	ESBP_q9b1	Extra Serum - Volume of Aliquot #1	dbl	numeric	double	3	96	c(0.5, 1)
+28	29	ESBP_q9b2	Extra Serum - Volume of Aliquot #2	dbl	numeric	double	3	96	c(0.5, 1)
+29	30	ESBP_q9b3	Extra Serum - Volume of Aliquot #3	dbl	numeric	double	3	96	c(0.5, 1)
+30	31	ESBP_q9b4	Extra Serum - Volume of Aliquot #4	dbl	numeric	double	3	96	c(0.5, 1)
+31	32	ESBP_q9b5	Extra Serum - Volume of Aliquot #5	dbl	numeric	double	3	96	c(0.5, 1)
+32	33	ESBP_q9b6	Extra Serum - Volume of Aliquot #6	dbl	numeric	double	2	96	c(0.5, 0.5)
+33	34	ESBP_q9b7	Extra Serum - Volume of Aliquot #7	dbl	numeric	double	2	96	c(0.5, 0.5)
+34	35	ESBP_q9b8	Extra Serum - Volume of Aliquot #7	dbl	numeric	double	2	96	c(0.5, 0.5)
+35	36	aCompletionDY	Completion Day	dbl	numeric	double	41	94	c(3580, 3804)
+36	37	ESBP_Q2ADY	Day Processing Was Started	dbl	numeric	double	41	94	c(3580, 3804)
+37	38	ESBP_Q1ADY	Day of Sample Collected	dbl	numeric	double	41	94	c(3580, 3804)

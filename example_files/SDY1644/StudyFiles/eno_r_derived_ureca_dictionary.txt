@@ -1,0 +1,32 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	2	0	c(84, 120)
+5	6	year		dbl	numeric	double	2	0	c(7, 10)
+6	7	evid	evid	dbl	numeric	double	862	357	c(30736, 62028)
+7	8	event	event	chr	character	character	4	0	"c("""", ""84-Month Clinic Visit"")"
+8	9	version	version	chr	character	character	8	0	"c("""", ""1.7"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	aStudyID	Study ID	chr	character	character	458	0	"c("""", ""[ID Redacted]"")"
+11	12	eno	Was eNO procedure performed	dbl	numeric	double	3	363	c(0, 1)
+12	13	no_eno_reason	Why was eNO not performed	dbl	numeric	double	3	1162	c(1, 2)
+13	14	hour_activity	Past hour - taken part in strenuous activities	dbl	numeric	double	3	364	c(0, 1)
+14	15	hour_eaten	Past hour - eat or drink	dbl	numeric	double	3	364	c(0, 1)
+15	16	eaten_hotdogs	Eat - Hotdogs	dbl	numeric	double	3	805	c(0, 1)
+16	17	eaten_lettuce	Eat - Lettuce	dbl	numeric	double	3	805	c(0, 1)
+17	18	eaten_spinach	Eat - Spinach	dbl	numeric	double	3	805	c(0, 1)
+18	19	eaten_ham	Eat - Ham	dbl	numeric	double	3	805	c(0, 1)
+19	20	eaten_cucum_pickle	Eat - Cucumber/Pickles	dbl	numeric	double	3	805	c(0, 1)
+20	21	eaten_nitrates	Eat - Other foods high in nitrates	dbl	numeric	double	3	805	c(0, 1)
+21	22	test_profile	Test profile	dbl	numeric	double	3	855	c(1, 2)
+22	23	measures_close	Measurements 1 & 2 within 5%	dbl	numeric	double	3	465	c(0, 1)
+23	24	avg_feno	Average FeNO	dbl	numeric	double	73	975	c(0, 970)
+24	25	measure3	eNO Measurement 3	dbl	numeric	double	61	874	c(0, 103)
+25	26	start_time	Start time	time	"c(""hms"", ""difftime"")"	double	284	414	c(3360, 84300)
+26	27	measure1	eNO Measurement 1	dbl	numeric	double	91	438	c(0, 180)
+27	28	measure2	eNO Measurement 2	dbl	numeric	double	86	461	c(0, 171)
+28	29	measures_close2		dbl	numeric	double	3	472	c(0, 1)
+29	30	eno_data		dbl	numeric	double	2	0	c(0, 1)
+30	31	AFORMDATE_DY		dbl	numeric	double	376	357	c(100, 3841)

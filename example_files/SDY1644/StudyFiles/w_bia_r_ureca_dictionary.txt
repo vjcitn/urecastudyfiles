@@ -1,0 +1,22 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	555	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""W_BIA"", ""W_BIA"")"
+3	4	evid	evid	dbl	numeric	double	4983	0	c(296, 63231)
+4	5	event	event	chr	character	character	11	0	"c(""108-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	4	0	"c(""1.0"", ""1.3"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	12	0	"c("".x"", ""96"")"
+8	9	W_BIA_q1_1	BIA Procedure Performed	dbl	numeric	double	3	737	c(0, 1)
+9	10	W_BIA_q1a_1	Why BIA Was Not Done	dbl	numeric	double	4	4919	c(1, 3)
+10	11	W_BIA_q1_2	Stable Reading Obtained	dbl	numeric	double	3	801	c(0, 1)
+11	12	W_BIA_q1_3	Childs Position	dbl	numeric	double	4	4516	c(1, 3)
+12	13	W_BIA_q1a_4	Childs Position - Supine	dbl	numeric	double	3	1268	c(0, 1)
+13	14	W_BIA_q1b_4	Childs Position - Sitting Up	dbl	numeric	double	3	1268	c(0, 1)
+14	15	W_BIA_q1c_4	Childs Position - Cradled or Held	dbl	numeric	double	3	3041	c(0, 1)
+15	16	W_BIA_q1d_4	Childs Position - Cyring or Upset	dbl	numeric	double	3	1268	c(0, 1)
+16	17	W_BIA_q1e_4	Childs Position - Moving During the Test	dbl	numeric	double	3	1268	c(0, 1)
+17	18	W_BIA_q1f_4	Childs Position - Restrained	dbl	numeric	double	3	1268	c(0, 1)
+18	19	W_BIA_q1	Resistance Value	dbl	numeric	double	528	739	c(6.52, 1130)
+19	20	W_BIA_q2	Reactance Value	dbl	numeric	double	136	739	c(0.6, 753.3)
+20	21	aCompletionDY	Completion Day	dbl	numeric	double	1365	665	c(334, 3842)

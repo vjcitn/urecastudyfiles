@@ -1,0 +1,910 @@
+Accession	group	form	evid	event	version	status	aVisit	aCompletionDY
+SUB230862	Atopic	VT	32879	84-Month Clinic Visit	1.0	complete	84	2737
+SUB230863	Atopic	VT	34126	84-Month Clinic Visit	1.0	complete	84	2738
+SUB230865	Atopic	VT	34765	84-Month Clinic Visit	1.0	complete	84	2645
+SUB230866	Atopic	VT	33314	84-Month Clinic Visit	1.0	complete	84	2655
+SUB230867	Atopic	VT	35723	84-Month Clinic Visit	1.0	complete	84	2628
+SUB230868	Atopic	VT	35865	84-Month Clinic Visit	1.0	complete	84	2714
+SUB230869	Atopic	VT	34753	84-Month Clinic Visit	1.0	complete	84	2645
+SUB230870	Atopic	VT	33531	84-Month Clinic Visit	1.0	complete	84	2637
+SUB230872	Atopic	VT	33580	84-Month Clinic Visit	1.0	complete	84	2684
+SUB230874	Atopic	VT	33606	84-Month Clinic Visit	1.0	complete	84	2644
+SUB230876	Atopic	VT	33096	84-Month Clinic Visit	1.0	complete	84	2617
+SUB230877	Atopic	VT	34050	84-Month Clinic Visit	1.0	complete	84	2605
+SUB230881	Atopic	VT	38948	84-Month Clinic Visit	1.0	complete	84	2671
+SUB230883	Atopic	VT	43871	84-Month Clinic Visit	1.0	complete	84	2590
+SUB230884	Atopic	VT	36794	84-Month Clinic Visit	1.0	complete	84	2612
+SUB230886	Atopic	VT	36806	84-Month Clinic Visit	1.0	complete	84	2570
+SUB230887	Atopic	VT	36397	81-Month Clinic Visit	1.0	complete	81	2498
+SUB230887	Atopic	VT	36398	84-Month Clinic Visit	1.0	complete	84	2701
+SUB230888	Atopic	VT	36776	84-Month Clinic Visit	1.0	complete	84	2603
+SUB230888	Atopic	VT	36775	81-Month Clinic Visit	1.0	complete	81	2491
+SUB230889	Atopic	VT	37115	81-Month Clinic Visit	1.0	missing	.x	
+SUB230890	Atopic	VT	40457	81-Month Clinic Visit	1.0	missing	.x	
+SUB230890	Atopic	VT	40458	84-Month Clinic Visit	1.0	complete	84	2663
+SUB230891	Atopic	VT	38959	81-Month Clinic Visit	1.0	missing	.x	
+SUB230891	Atopic	VT	38960	84-Month Clinic Visit	1.0	complete	84	2737
+SUB230892	Atopic	VT	40469	81-Month Clinic Visit	1.0	complete	81	2508
+SUB230892	Atopic	VT	40470	84-Month Clinic Visit	1.0	complete	84	2698
+SUB230894	Atopic	VT	37553	81-Month Clinic Visit	1.0	missing	.x	
+SUB230894	Atopic	VT	37554	84-Month Clinic Visit	1.0	complete	84	2733
+SUB230895	Atopic	VT	40332	81-Month Clinic Visit	1.0	complete	81	2522
+SUB230895	Atopic	VT	40333	84-Month Clinic Visit	1.0	complete	84	2687
+SUB230896	Atopic	VT	35801	81-Month Clinic Visit	1.0	missing	.x	
+SUB230897	Atopic	VT	42872	81-Month Clinic Visit	1.0	complete	81	2520
+SUB230897	Atopic	VT	42873	84-Month Clinic Visit	1.0	complete	84	2670
+SUB230898	Atopic	VT	36461	84-Month Clinic Visit	1.0	complete	84	2726
+SUB230898	Atopic	VT	36460	81-Month Clinic Visit	1.0	missing	.x	
+SUB230899	Atopic	VT	40993	81-Month Clinic Visit	1.0	complete	81	2496
+SUB230899	Atopic	VT	40994	84-Month Clinic Visit	1.0	missing	.x	
+SUB230900	Atopic	VT	32860	81-Month Clinic Visit	1.0	complete	81	2517
+SUB230900	Atopic	VT	32861	84-Month Clinic Visit	1.0	complete	84	2686
+SUB230901	Atopic	VT	37828	81-Month Clinic Visit	1.0	complete	81	2520
+SUB230901	Atopic	VT	37829	84-Month Clinic Visit	1.0	complete	84	2667
+SUB230903	Atopic	VT	41462	81-Month Clinic Visit	1.0	missing	.x	
+SUB230903	Atopic	VT	41463	84-Month Clinic Visit	1.0	complete	84	2693
+SUB230904	Atopic	VT	42565	84-Month Clinic Visit	1.0	complete	84	2660
+SUB230904	Atopic	VT	42564	81-Month Clinic Visit	1.0	complete	81	2520
+SUB230905	Atopic	VT	41114	84-Month Clinic Visit	1.0	complete	84	2722
+SUB230905	Atopic	VT	41113	81-Month Clinic Visit	1.0	missing	.x	
+SUB230906	Atopic	VT	43882	81-Month Clinic Visit	1.0	missing	.x	
+SUB230906	Atopic	VT	43883	84-Month Clinic Visit	1.0	complete	84	2696
+SUB230907	Atopic	VT	37240	81-Month Clinic Visit	1.0	missing	.x	
+SUB230907	Atopic	VT	37241	84-Month Clinic Visit	1.0	missing	.x	
+SUB230908	Atopic	VT	39779	84-Month Clinic Visit	1.0	complete	84	2640
+SUB230908	Atopic	VT	39778	81-Month Clinic Visit	1.0	complete	81	2516
+SUB230909	Atopic	VT	34007	81-Month Clinic Visit	1.0	complete	81	2520
+SUB230909	Atopic	VT	34008	84-Month Clinic Visit	1.0	complete	84	2726
+SUB230910	Atopic	VT	37089	84-Month Clinic Visit	1.0	missing	.x	
+SUB230910	Atopic	VT	37088	81-Month Clinic Visit	1.0	missing	.x	
+SUB230911	Atopic	VT	37538	81-Month Clinic Visit	1.0	complete	81	2519
+SUB230911	Atopic	VT	37539	84-Month Clinic Visit	1.0	complete	84	2660
+SUB230912	Atopic	VT	34438	81-Month Clinic Visit	1.0	complete	81	2517
+SUB230912	Atopic	VT	34439	84-Month Clinic Visit	1.0	complete	84	2731
+SUB230913	Atopic	VT	38971	81-Month Clinic Visit	1.0	complete	81	2518
+SUB230913	Atopic	VT	38972	84-Month Clinic Visit	1.0	complete	84	2730
+SUB230914	Atopic	VT	32383	81-Month Clinic Visit	1.0	complete	81	2511
+SUB230914	Atopic	VT	32384	84-Month Clinic Visit	1.0	complete	84	2727
+SUB230915	Atopic	VT	38984	84-Month Clinic Visit	1.0	complete	84	2731
+SUB230915	Atopic	VT	38983	81-Month Clinic Visit	1.0	missing	.x	
+SUB230916	Atopic	VT	39677	81-Month Clinic Visit	1.0	complete	81	2490
+SUB230916	Atopic	VT	39678	84-Month Clinic Visit	1.0	complete	84	2604
+SUB230917	Atopic	VT	41319	81-Month Clinic Visit	1.0	missing	.x	
+SUB230919	Atopic	VT	32485	84-Month Clinic Visit	1.0	complete	84	2738
+SUB230919	Atopic	VT	32484	81-Month Clinic Visit	1.0	complete	81	2521
+SUB230920	Atopic	VT	40147	81-Month Clinic Visit	1.0	complete	81	2517
+SUB230920	Atopic	VT	40148	84-Month Clinic Visit	1.0	complete	84	2728
+SUB230921	Atopic	VT	39806	81-Month Clinic Visit	1.0	complete	81	2513
+SUB230921	Atopic	VT	39807	84-Month Clinic Visit	1.0	missing	.x	
+SUB230922	Atopic	VT	33427	81-Month Clinic Visit	1.0	complete	81	2520
+SUB230922	Atopic	VT	33428	84-Month Clinic Visit	1.0	missing	.x	
+SUB230924	Atopic	VT	39702	84-Month Clinic Visit	1.0	complete	84	2721
+SUB230924	Atopic	VT	39701	81-Month Clinic Visit	1.0	complete	81	2511
+SUB230925	Atopic	VT	33567	81-Month Clinic Visit	1.0	missing	.x	
+SUB230925	Atopic	VT	33568	84-Month Clinic Visit	1.0	missing	.x	
+SUB230927	Atopic	VT	40696	84-Month Clinic Visit	1.0	complete	84	2678
+SUB230927	Atopic	VT	40695	81-Month Clinic Visit	1.0	complete	81	2515
+SUB230928	Atopic	VT	38995	81-Month Clinic Visit	1.0	complete	81	2519
+SUB230928	Atopic	VT	38996	84-Month Clinic Visit	1.0	complete	84	2677
+SUB230929	Atopic	VT	40684	84-Month Clinic Visit	1.0	missing	.x	
+SUB230929	Atopic	VT	40683	81-Month Clinic Visit	1.0	complete	81	2521
+SUB230932	Atopic	VT	34036	84-Month Clinic Visit	1.0	complete	84	2546
+SUB230932	Atopic	VT	34035	81-Month Clinic Visit	1.0	complete	81	2447
+SUB230933	Atopic	VT	34369	84-Month Clinic Visit	1.0	complete	84	2635
+SUB230933	Atopic	VT	34368	81-Month Clinic Visit	1.0	complete	81	2500
+SUB230934	Atopic	VT	41222	84-Month Clinic Visit	1.0	complete	84	2636
+SUB230934	Atopic	VT	41221	81-Month Clinic Visit	1.0	complete	81	2492
+SUB230935	Atopic	VT	41526	84-Month Clinic Visit	1.0	complete	84	2634
+SUB230935	Atopic	VT	41525	81-Month Clinic Visit	1.0	missing	.x	
+SUB230936	Atopic	VT	35212	84-Month Clinic Visit	1.0	complete	84	2675
+SUB230936	Atopic	VT	35211	81-Month Clinic Visit	1.0	complete	81	2491
+SUB230937	Atopic	VT	32255	81-Month Clinic Visit	1.0	missing	.x	
+SUB230937	Atopic	VT	32256	84-Month Clinic Visit	1.0	missing	.x	
+SUB230938	Atopic	VT	39008	84-Month Clinic Visit	1.0	missing	.x	
+SUB230938	Atopic	VT	39007	81-Month Clinic Visit	1.0	missing	.x	
+SUB230939	Atopic	VT	39019	81-Month Clinic Visit	1.0	missing	.x	
+SUB230939	Atopic	VT	39020	84-Month Clinic Visit	1.0	complete	84	2616
+SUB230941	Atopic	VT	39032	84-Month Clinic Visit	1.0	complete	84	2546
+SUB230941	Atopic	VT	39031	81-Month Clinic Visit	1.0	complete	81	2497
+SUB230942	Atopic	VT	32655	81-Month Clinic Visit	1.0	complete	81	2518
+SUB230942	Atopic	VT	32656	84-Month Clinic Visit	1.0	complete	84	2681
+SUB230943	Atopic	VT	32099	84-Month Clinic Visit	1.0	complete	84	2677
+SUB230943	Atopic	VT	32098	81-Month Clinic Visit	1.0	complete	81	2478
+SUB230944	Atopic	VT	33344	81-Month Clinic Visit	1.0	missing	.x	
+SUB230944	Atopic	VT	33345	84-Month Clinic Visit	1.0	complete	84	2657
+SUB230945	Atopic	VT	39043	81-Month Clinic Visit	1.0	complete	81	2514
+SUB230945	Atopic	VT	39044	84-Month Clinic Visit	1.0	complete	84	2550
+SUB230946	Atopic	VT	41723	81-Month Clinic Visit	1.0	complete	81	2526
+SUB230946	Atopic	VT	41724	84-Month Clinic Visit	1.0	complete	84	2633
+SUB230947	Atopic	VT	32431	81-Month Clinic Visit	1.0	complete	81	2509
+SUB230947	Atopic	VT	32432	84-Month Clinic Visit	1.0	complete	84	2632
+SUB230948	Atopic	VT	32602	84-Month Clinic Visit	1.0	complete	84	2629
+SUB230948	Atopic	VT	32601	81-Month Clinic Visit	1.0	complete	81	2522
+SUB230951	Atopic	VT	32761	81-Month Clinic Visit	1.0	complete	81	2519
+SUB230951	Atopic	VT	32762	84-Month Clinic Visit	1.0	complete	84	2687
+SUB230952	Atopic	VT	39056	84-Month Clinic Visit	1.0	complete	84	2606
+SUB230952	Atopic	VT	39055	81-Month Clinic Visit	1.0	missing	.x	
+SUB230953	Atopic	VT	32589	84-Month Clinic Visit	1.0	complete	84	2627
+SUB230953	Atopic	VT	32588	81-Month Clinic Visit	1.0	complete	81	2523
+SUB230954	Atopic	VT	39791	84-Month Clinic Visit	1.0	missing	.x	
+SUB230954	Atopic	VT	39790	81-Month Clinic Visit	1.0	complete	81	2521
+SUB230955	Atopic	VT	34619	84-Month Clinic Visit	1.0	missing	.x	
+SUB230955	Atopic	VT	34618	81-Month Clinic Visit	1.0	complete	81	2512
+SUB230957	Atopic	VT	39067	81-Month Clinic Visit	1.0	complete	81	2515
+SUB230957	Atopic	VT	39068	84-Month Clinic Visit	1.0	complete	84	2737
+SUB230958	Atopic	VT	43359	81-Month Clinic Visit	1.0	missing	.x	
+SUB230958	Atopic	VT	43360	84-Month Clinic Visit	1.0	missing	.x	
+SUB230959	Atopic	VT	43072	81-Month Clinic Visit	1.0	complete	81	2512
+SUB230959	Atopic	VT	43073	84-Month Clinic Visit	1.0	complete	84	2582
+SUB230960	Atopic	VT	34852	84-Month Clinic Visit	1.0	missing	.x	
+SUB230960	Atopic	VT	34851	81-Month Clinic Visit	1.0	missing	.x	
+SUB230961	Atopic	VT	35350	81-Month Clinic Visit	1.0	complete	81	2500
+SUB230961	Atopic	VT	35351	84-Month Clinic Visit	1.0	complete	84	2647
+SUB230962	Atopic	VT	33886	84-Month Clinic Visit	1.0	missing	.x	
+SUB230962	Atopic	VT	33885	81-Month Clinic Visit	1.0	complete	81	2517
+SUB230963	Atopic	VT	39080	84-Month Clinic Visit	1.0	missing	.x	
+SUB230963	Atopic	VT	39079	81-Month Clinic Visit	1.0	missing	.x	
+SUB230964	Atopic	VT	32902	81-Month Clinic Visit	1.0	complete	81	2485
+SUB230964	Atopic	VT	32903	84-Month Clinic Visit	1.0	complete	84	2628
+SUB230965	Atopic	VT	32890	81-Month Clinic Visit	1.0	complete	81	2485
+SUB230965	Atopic	VT	32891	84-Month Clinic Visit	1.0	complete	84	2628
+SUB230966	Atopic	VT	39092	84-Month Clinic Visit	1.0	complete	84	2632
+SUB230966	Atopic	VT	39091	81-Month Clinic Visit	1.0	complete	81	2526
+SUB230967	Atopic	VT	39104	84-Month Clinic Visit	1.0	complete	84	2609
+SUB230967	Atopic	VT	39103	81-Month Clinic Visit	1.0	complete	81	2520
+SUB230968	Atopic	VT	38809	84-Month Clinic Visit	1.0	complete	84	2608
+SUB230968	Atopic	VT	38808	81-Month Clinic Visit	1.0	complete	81	2526
+SUB230969	Atopic	VT	39115	81-Month Clinic Visit	1.0	complete	81	2467
+SUB230969	Atopic	VT	39116	84-Month Clinic Visit	1.0	complete	84	2635
+SUB230971	Atopic	VT	34268	84-Month Clinic Visit	1.0	complete	84	2714
+SUB230971	Atopic	VT	34267	81-Month Clinic Visit	1.0	complete	81	2496
+SUB230972	Atopic	VT	35069	81-Month Clinic Visit	1.0	complete	81	2527
+SUB230972	Atopic	VT	35070	84-Month Clinic Visit	1.0	complete	84	2633
+SUB230973	Atopic	VT	39128	84-Month Clinic Visit	1.0	complete	84	2648
+SUB230973	Atopic	VT	39127	81-Month Clinic Visit	1.0	complete	81	2527
+SUB230975	Atopic	VT	34883	81-Month Clinic Visit	1.0	complete	81	2524
+SUB230975	Atopic	VT	34884	84-Month Clinic Visit	1.0	complete	84	2680
+SUB230976	Atopic	VT	35056	81-Month Clinic Visit	1.0	complete	81	2523
+SUB230976	Atopic	VT	35057	84-Month Clinic Visit	1.0	complete	84	2663
+SUB230977	Atopic	VT	34809	84-Month Clinic Visit	1.0	complete	84	2718
+SUB230977	Atopic	VT	34808	81-Month Clinic Visit	1.0	missing	.x	
+SUB230978	Atopic	VT	33126	81-Month Clinic Visit	1.0	complete	81	2491
+SUB230978	Atopic	VT	33127	84-Month Clinic Visit	1.0	complete	84	2626
+SUB230979	Atopic	VT	36356	81-Month Clinic Visit	1.0	missing	.x	
+SUB230979	Atopic	VT	36357	84-Month Clinic Visit	1.0	complete	84	2628
+SUB230981	Atopic	VT	33591	81-Month Clinic Visit	1.0	missing	.x	
+SUB230981	Atopic	VT	33592	84-Month Clinic Visit	1.0	complete	84	2650
+SUB230982	Atopic	VT	36978	84-Month Clinic Visit	1.0	complete	84	2715
+SUB230982	Atopic	VT	36977	81-Month Clinic Visit	1.0	complete	81	2515
+SUB230983	Atopic	VT	37494	81-Month Clinic Visit	1.0	complete	81	2517
+SUB230983	Atopic	VT	37495	84-Month Clinic Visit	1.0	complete	84	2658
+SUB230984	Atopic	VT	33556	84-Month Clinic Visit	1.0	complete	84	2696
+SUB230984	Atopic	VT	33555	81-Month Clinic Visit	1.0	missing	.x	
+SUB230985	Atopic	VT	32407	84-Month Clinic Visit	1.0	complete	84	2703
+SUB230985	Atopic	VT	32406	81-Month Clinic Visit	1.0	complete	81	2519
+SUB230986	Atopic	VT	33484	81-Month Clinic Visit	1.0	complete	81	2448
+SUB230986	Atopic	VT	33485	84-Month Clinic Visit	1.0	complete	84	2638
+SUB230987	Atopic	VT	32497	81-Month Clinic Visit	1.0	missing	.x	
+SUB230987	Atopic	VT	32498	84-Month Clinic Visit	1.0	complete	84	2643
+SUB230988	Atopic	VT	33496	81-Month Clinic Visit	1.0	missing	.x	
+SUB230988	Atopic	VT	33497	84-Month Clinic Visit	1.0	complete	84	2646
+SUB230989	Atopic	VT	33111	81-Month Clinic Visit	1.0	complete	81	2515
+SUB230989	Atopic	VT	33112	84-Month Clinic Visit	1.0	complete	84	2671
+SUB230990	Atopic	VT	35745	84-Month Clinic Visit	1.0	complete	84	2616
+SUB230990	Atopic	VT	35744	81-Month Clinic Visit	1.0	complete	81	2475
+SUB230991	Atopic	VT	33187	84-Month Clinic Visit	1.0	complete	84	2657
+SUB230991	Atopic	VT	33186	81-Month Clinic Visit	1.0	complete	81	2513
+SUB230993	Atopic	VT	34210	84-Month Clinic Visit	1.0	complete	84	2648
+SUB230993	Atopic	VT	34209	81-Month Clinic Visit	1.0	complete	81	2517
+SUB230994	Atopic	VT	34465	81-Month Clinic Visit	1.0	complete	81	2525
+SUB230994	Atopic	VT	34466	84-Month Clinic Visit	1.0	complete	84	2662
+SUB230995	Atopic	VT	33635	84-Month Clinic Visit	1.0	complete	84	2618
+SUB230995	Atopic	VT	33634	81-Month Clinic Visit	1.0	complete	81	2506
+SUB230997	Atopic	VT	38292	81-Month Clinic Visit	1.0	complete	81	2499
+SUB230997	Atopic	VT	38293	84-Month Clinic Visit	1.0	complete	84	2636
+SUB230998	Atopic	VT	36495	84-Month Clinic Visit	1.0	complete	84	2620
+SUB230998	Atopic	VT	36494	81-Month Clinic Visit	1.0	complete	81	2521
+SUB230999	Non-atopic	VT	43847	84-Month Clinic Visit	1.0	complete	84	2644
+SUB230999	Non-atopic	VT	43846	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231000	Atopic	VT	42581	84-Month Clinic Visit	1.0	complete	84	2617
+SUB231000	Atopic	VT	42580	81-Month Clinic Visit	1.0	complete	81	2518
+SUB231001	Atopic	VT	36924	84-Month Clinic Visit	1.0	complete	84	2710
+SUB231001	Atopic	VT	36923	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231002	Atopic	VT	36819	81-Month Clinic Visit	1.0	complete	81	2512
+SUB231002	Atopic	VT	36820	84-Month Clinic Visit	1.0	complete	84	2641
+SUB231003	Atopic	VT	41673	81-Month Clinic Visit	1.0	missing	.x	
+SUB231003	Atopic	VT	41674	84-Month Clinic Visit	1.0	complete	84	2723
+SUB231004	Atopic	VT	37808	84-Month Clinic Visit	1.0	complete	84	2589
+SUB231004	Atopic	VT	37807	81-Month Clinic Visit	1.0	complete	81	2507
+SUB231005	Atopic	VT	43776	84-Month Clinic Visit	1.0	complete	84	2647
+SUB231005	Atopic	VT	43775	81-Month Clinic Visit	1.0	complete	81	2484
+SUB231006	Atopic	VT	34309	84-Month Clinic Visit	1.0	complete	84	2563
+SUB231006	Atopic	VT	34308	81-Month Clinic Visit	1.0	missing	.x	
+SUB231007	Atopic	VT	35495	81-Month Clinic Visit	1.0	complete	81	2501
+SUB231007	Atopic	VT	35496	84-Month Clinic Visit	1.0	complete	84	2636
+SUB231008	Atopic	VT	43947	81-Month Clinic Visit	1.0	complete	81	2524
+SUB231008	Atopic	VT	43948	84-Month Clinic Visit	1.0	complete	84	2636
+SUB231010	Non-atopic	VT	34452	81-Month Clinic Visit	1.0	complete	81	2525
+SUB231010	Non-atopic	VT	34453	84-Month Clinic Visit	1.0	complete	84	2652
+SUB231011	Atopic	VT	35925	81-Month Clinic Visit	1.0	complete	81	2523
+SUB231011	Atopic	VT	35926	84-Month Clinic Visit	1.0	complete	84	2719
+SUB231012	Atopic	VT	39140	84-Month Clinic Visit	1.0	complete	84	2633
+SUB231012	Atopic	VT	39139	81-Month Clinic Visit	1.0	complete	81	2523
+SUB231013	Atopic	VT	36578	81-Month Clinic Visit	1.0	complete	81	2528
+SUB231013	Atopic	VT	36579	84-Month Clinic Visit	1.0	complete	84	2652
+SUB231014	Atopic	VT	37255	81-Month Clinic Visit	1.0	missing	.x	
+SUB231014	Atopic	VT	37256	84-Month Clinic Visit	1.0	complete	84	2568
+SUB231015	Non-atopic	VT	37701	81-Month Clinic Visit	1.0	complete	81	2526
+SUB231015	Non-atopic	VT	37702	84-Month Clinic Visit	1.0	complete	84	2730
+SUB231016	Atopic	VT	36658	81-Month Clinic Visit	1.0	missing	.x	
+SUB231016	Atopic	VT	36659	84-Month Clinic Visit	1.0	complete	84	2581
+SUB231017	Non-atopic	VT	39743	84-Month Clinic Visit	1.0	complete	84	2629
+SUB231017	Non-atopic	VT	39742	81-Month Clinic Visit	1.0	complete	81	2526
+SUB231019	Atopic	VT	39151	81-Month Clinic Visit	1.0	complete	81	2527
+SUB231019	Atopic	VT	39152	84-Month Clinic Visit	1.0	complete	84	2711
+SUB231021	Atopic	VT	42861	84-Month Clinic Visit	1.0	complete	84	2722
+SUB231021	Atopic	VT	42860	81-Month Clinic Visit	1.0	missing	.x	
+SUB231022	Non-atopic	VT	38187	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231022	Non-atopic	VT	38188	84-Month Clinic Visit	1.0	complete	84	2738
+SUB231023	Non-atopic	VT	43858	81-Month Clinic Visit	1.0	missing	.x	
+SUB231023	Non-atopic	VT	43859	84-Month Clinic Visit	1.0	complete	84	2706
+SUB231024	Non-atopic	VT	35884	84-Month Clinic Visit	1.0	complete	84	2622
+SUB231024	Non-atopic	VT	35883	81-Month Clinic Visit	1.0	complete	81	2525
+SUB231025	Atopic	VT	39163	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231025	Atopic	VT	39164	84-Month Clinic Visit	1.0	complete	84	2612
+SUB231026	Atopic	VT	41096	84-Month Clinic Visit	1.0	complete	84	2616
+SUB231026	Atopic	VT	41095	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231028	Atopic	VT	34494	84-Month Clinic Visit	1.0	complete	84	2597
+SUB231029	Atopic	VT	33298	84-Month Clinic Visit	1.0	complete	84	2585
+SUB231031	Atopic	VT	34343	84-Month Clinic Visit	1.0	complete	84	2585
+SUB231035	Atopic	VT	30797	84-Month Clinic Visit	1.0	complete	84	2546
+SUB231036	Atopic	VT	37917	84-Month Clinic Visit	1.0	complete	84	2604
+SUB231039	Atopic	VT	30785	84-Month Clinic Visit	1.0	complete	84	2560
+SUB231040	Atopic	VT	30880	84-Month Clinic Visit	1.0	complete	84	2607
+SUB231041	Atopic	VT	34223	84-Month Clinic Visit	1.0	complete	84	2576
+SUB231042	Atopic	VT	33797	84-Month Clinic Visit	1.0	complete	84	2562
+SUB231042	Atopic	VT	33796	81-Month Clinic Visit	1.0	complete	81	2493
+SUB231043	Atopic	VT	36368	81-Month Clinic Visit	1.0	complete	81	2439
+SUB231043	Atopic	VT	36369	84-Month Clinic Visit	1.0	complete	84	2587
+SUB231044	Atopic	VT	34866	84-Month Clinic Visit	1.0	complete	84	2721
+SUB231044	Atopic	VT	34865	81-Month Clinic Visit	1.0	complete	81	2499
+SUB231045	Atopic	VT	32519	81-Month Clinic Visit	1.0	complete	81	2519
+SUB231045	Atopic	VT	32520	84-Month Clinic Visit	1.0	complete	84	2648
+SUB231047	Atopic	VT	32846	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231047	Atopic	VT	32847	84-Month Clinic Visit	1.0	complete	84	2570
+SUB231048	Atopic	VT	37051	81-Month Clinic Visit	1.0	complete	81	2452
+SUB231048	Atopic	VT	37052	84-Month Clinic Visit	1.0	complete	84	2588
+SUB231049	Atopic	VT	36609	84-Month Clinic Visit	1.0	complete	84	2574
+SUB231049	Atopic	VT	36608	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231050	Atopic	VT	35083	81-Month Clinic Visit	1.0	complete	81	2498
+SUB231050	Atopic	VT	35084	84-Month Clinic Visit	1.0	complete	84	2563
+SUB231051	Atopic	VT	33225	84-Month Clinic Visit	1.0	complete	84	2624
+SUB231051	Atopic	VT	33224	81-Month Clinic Visit	1.0	complete	81	2483
+SUB231052	Atopic	VT	35677	81-Month Clinic Visit	1.0	complete	81	2462
+SUB231052	Atopic	VT	35678	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231053	Atopic	VT	37300	84-Month Clinic Visit	1.0	complete	84	2551
+SUB231053	Atopic	VT	37299	81-Month Clinic Visit	1.0	complete	81	2473
+SUB231055	Atopic	VT	32926	84-Month Clinic Visit	1.0	complete	84	2552
+SUB231055	Atopic	VT	32925	81-Month Clinic Visit	1.0	complete	81	2509
+SUB231057	Atopic	VT	38626	81-Month Clinic Visit	1.0	missing	.x	
+SUB231058	Atopic	VT	42359	81-Month Clinic Visit	1.0	complete	81	2482
+SUB231058	Atopic	VT	42360	84-Month Clinic Visit	1.0	missing	.x	
+SUB231059	Atopic	VT	37520	81-Month Clinic Visit	1.0	complete	81	2495
+SUB231059	Atopic	VT	37521	84-Month Clinic Visit	1.0	complete	84	2565
+SUB231060	Atopic	VT	32063	84-Month Clinic Visit	1.0	complete	84	2630
+SUB231060	Atopic	VT	32062	81-Month Clinic Visit	1.0	complete	81	2493
+SUB231061	Atopic	VT	39321	84-Month Clinic Visit	1.0	complete	84	2583
+SUB231061	Atopic	VT	39320	81-Month Clinic Visit	1.0	missing	.x	
+SUB231063	Atopic	VT	37736	81-Month Clinic Visit	1.0	complete	81	2486
+SUB231063	Atopic	VT	37737	84-Month Clinic Visit	1.0	complete	84	2588
+SUB231064	Atopic	VT	38522	81-Month Clinic Visit	1.0	complete	81	2488
+SUB231064	Atopic	VT	38523	84-Month Clinic Visit	1.0	complete	84	2575
+SUB231065	Atopic	VT	39646	84-Month Clinic Visit	1.0	complete	84	2603
+SUB231065	Atopic	VT	39645	81-Month Clinic Visit	1.0	complete	81	2512
+SUB231066	Atopic	VT	37607	84-Month Clinic Visit	1.0	complete	84	2617
+SUB231066	Atopic	VT	37606	81-Month Clinic Visit	1.0	complete	81	2504
+SUB231067	Atopic	VT	41357	81-Month Clinic Visit	1.0	missing	.x	
+SUB231067	Atopic	VT	41358	84-Month Clinic Visit	1.0	complete	84	2570
+SUB231070	Atopic	VT	37226	84-Month Clinic Visit	1.0	complete	84	2555
+SUB231070	Atopic	VT	37225	81-Month Clinic Visit	1.0	complete	81	2465
+SUB231071	Atopic	VT	37854	81-Month Clinic Visit	1.0	complete	81	2439
+SUB231071	Atopic	VT	37855	84-Month Clinic Visit	1.0	complete	84	2571
+SUB231072	Atopic	VT	37866	81-Month Clinic Visit	1.0	complete	81	2456
+SUB231072	Atopic	VT	37867	84-Month Clinic Visit	1.0	complete	84	2556
+SUB231073	Atopic	VT	37360	84-Month Clinic Visit	1.0	complete	84	2583
+SUB231073	Atopic	VT	37359	81-Month Clinic Visit	1.0	complete	81	2499
+SUB231074	Atopic	VT	37878	81-Month Clinic Visit	1.0	complete	81	2457
+SUB231074	Atopic	VT	37879	84-Month Clinic Visit	1.0	complete	84	2619
+SUB231075	Atopic	VT	37159	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231075	Atopic	VT	37160	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231076	Atopic	VT	38638	81-Month Clinic Visit	1.0	complete	81	2466
+SUB231076	Atopic	VT	38639	84-Month Clinic Visit	1.0	complete	84	2637
+SUB231078	Atopic	VT	38075	81-Month Clinic Visit	1.0	complete	81	2490
+SUB231078	Atopic	VT	38076	84-Month Clinic Visit	1.0	complete	84	2548
+SUB231079	Atopic	VT	38890	81-Month Clinic Visit	1.0	complete	81	2475
+SUB231079	Atopic	VT	38891	84-Month Clinic Visit	1.0	complete	84	2553
+SUB231080	Atopic	VT	38651	84-Month Clinic Visit	1.0	complete	84	2558
+SUB231080	Atopic	VT	38650	81-Month Clinic Visit	1.0	complete	81	2490
+SUB231081	Atopic	VT	40877	81-Month Clinic Visit	1.0	complete	81	2506
+SUB231081	Atopic	VT	40878	84-Month Clinic Visit	1.0	complete	84	2556
+SUB231082	Atopic	VT	42518	84-Month Clinic Visit	1.0	complete	84	2573
+SUB231082	Atopic	VT	42517	81-Month Clinic Visit	1.0	complete	81	2520
+SUB231083	Atopic	VT	38662	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231083	Atopic	VT	38663	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231084	Atopic	VT	38675	84-Month Clinic Visit	1.0	complete	84	2554
+SUB231084	Atopic	VT	38674	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231086	Atopic	VT	37890	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231086	Atopic	VT	37891	84-Month Clinic Visit	1.0	complete	84	2628
+SUB231087	Atopic	VT	38688	84-Month Clinic Visit	1.0	complete	84	2564
+SUB231087	Atopic	VT	38687	81-Month Clinic Visit	1.0	complete	81	2492
+SUB231091	Atopic	VT	31913	81-Month Clinic Visit	1.0	complete	81	2518
+SUB231091	Atopic	VT	31914	84-Month Clinic Visit	1.0	complete	84	2583
+SUB231092	Atopic	VT	30906	81-Month Clinic Visit	1.0	complete	81	2503
+SUB231092	Atopic	VT	30907	84-Month Clinic Visit	1.0	complete	84	2588
+SUB231093	Atopic	VT	31509	84-Month Clinic Visit	1.0	complete	84	2567
+SUB231093	Atopic	VT	31508	81-Month Clinic Visit	1.0	missing	.x	
+SUB231094	Atopic	VT	31278	81-Month Clinic Visit	1.0	complete	81	2505
+SUB231094	Atopic	VT	31279	84-Month Clinic Visit	1.0	complete	84	2542
+SUB231095	Atopic	VT	31880	84-Month Clinic Visit	1.0	complete	84	2566
+SUB231095	Atopic	VT	31879	81-Month Clinic Visit	1.0	missing	.x	
+SUB231096	Atopic	VT	41040	81-Month Clinic Visit	1.0	complete	81	2498
+SUB231096	Atopic	VT	41041	84-Month Clinic Visit	1.0	complete	84	2644
+SUB231097	Atopic	VT	43581	84-Month Clinic Visit	1.0	complete	84	2571
+SUB231097	Atopic	VT	43580	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231098	Atopic	VT	42505	84-Month Clinic Visit	1.0	complete	84	2597
+SUB231098	Atopic	VT	42504	81-Month Clinic Visit	1.0	complete	81	2512
+SUB231099	Atopic	VT	37146	81-Month Clinic Visit	1.0	missing	.x	
+SUB231100	Atopic	VT	40031	84-Month Clinic Visit	1.0	complete	84	2581
+SUB231100	Atopic	VT	40030	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231101	Atopic	VT	39839	81-Month Clinic Visit	1.0	complete	81	2499
+SUB231101	Atopic	VT	39840	84-Month Clinic Visit	1.0	complete	84	2591
+SUB231102	Atopic	VT	42241	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231102	Atopic	VT	42242	84-Month Clinic Visit	1.0	complete	84	2532
+SUB231104	Atopic	VT	32270	84-Month Clinic Visit	1.0	complete	84	2600
+SUB231104	Atopic	VT	32269	81-Month Clinic Visit	1.0	complete	81	2487
+SUB231105	Atopic	VT	38699	81-Month Clinic Visit	1.0	complete	81	2443
+SUB231105	Atopic	VT	38700	84-Month Clinic Visit	1.0	complete	84	2537
+SUB231106	Atopic	VT	36247	81-Month Clinic Visit	1.0	complete	81	2478
+SUB231106	Atopic	VT	36248	84-Month Clinic Visit	1.0	complete	84	2585
+SUB231107	Atopic	VT	42387	81-Month Clinic Visit	1.0	complete	81	2499
+SUB231107	Atopic	VT	42388	84-Month Clinic Visit	1.0	complete	84	2545
+SUB231109	Atopic	VT	38323	84-Month Clinic Visit	1.0	complete	84	2560
+SUB231109	Atopic	VT	38322	81-Month Clinic Visit	1.0	complete	81	2495
+SUB231110	Atopic	VT	38711	81-Month Clinic Visit	1.0	complete	81	2509
+SUB231110	Atopic	VT	38712	84-Month Clinic Visit	1.0	complete	84	2615
+SUB231113	Atopic	VT	32990	84-Month Clinic Visit	1.0	complete	84	2571
+SUB231113	Atopic	VT	32989	81-Month Clinic Visit	1.0	missing	.x	
+SUB231114	Atopic	VT	31745	84-Month Clinic Visit	1.0	missing	.x	
+SUB231114	Atopic	VT	31744	81-Month Clinic Visit	1.0	missing	.x	
+SUB231115	Atopic	VT	34252	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231115	Atopic	VT	34253	84-Month Clinic Visit	1.0	complete	84	2588
+SUB231116	Atopic	VT	38724	84-Month Clinic Visit	1.0	complete	84	2632
+SUB231116	Atopic	VT	38723	81-Month Clinic Visit	1.0	complete	81	2491
+SUB231117	Atopic	VT	32222	81-Month Clinic Visit	1.0	missing	.x	
+SUB231117	Atopic	VT	32223	84-Month Clinic Visit	1.0	complete	84	2603
+SUB231118	Atopic	VT	34355	81-Month Clinic Visit	1.0	complete	81	2500
+SUB231118	Atopic	VT	34356	84-Month Clinic Visit	1.0	complete	84	2616
+SUB231119	Atopic	VT	34725	81-Month Clinic Visit	1.0	missing	.x	
+SUB231119	Atopic	VT	34726	84-Month Clinic Visit	1.0	missing	.x	
+SUB231120	Atopic	VT	38735	81-Month Clinic Visit	1.0	complete	81	2470
+SUB231120	Atopic	VT	38736	84-Month Clinic Visit	1.0	complete	84	2594
+SUB231121	Atopic	VT	34480	81-Month Clinic Visit	1.0	complete	81	2479
+SUB231121	Atopic	VT	34481	84-Month Clinic Visit	1.0	complete	84	2688
+SUB231122	Atopic	VT	34739	84-Month Clinic Visit	1.0	complete	84	2550
+SUB231122	Atopic	VT	34738	81-Month Clinic Visit	1.0	complete	81	2479
+SUB231123	Atopic	VT	33848	81-Month Clinic Visit	1.0	missing	.x	
+SUB231125	Atopic	VT	32947	81-Month Clinic Visit	1.0	complete	81	2479
+SUB231125	Atopic	VT	32948	84-Month Clinic Visit	1.0	complete	84	2550
+SUB231127	Atopic	VT	36385	81-Month Clinic Visit	1.0	complete	81	2481
+SUB231127	Atopic	VT	36386	84-Month Clinic Visit	1.0	complete	84	2607
+SUB231128	Atopic	VT	32547	81-Month Clinic Visit	1.0	complete	81	2456
+SUB231128	Atopic	VT	32548	84-Month Clinic Visit	1.0	complete	84	2610
+SUB231130	Atopic	VT	35099	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231130	Atopic	VT	35100	84-Month Clinic Visit	1.0	complete	84	2626
+SUB231131	Atopic	VT	32561	81-Month Clinic Visit	1.0	complete	81	2489
+SUB231131	Atopic	VT	32562	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231132	Atopic	VT	37651	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231132	Atopic	VT	37652	84-Month Clinic Visit	1.0	complete	84	2630
+SUB231133	Atopic	VT	33757	81-Month Clinic Visit	1.0	complete	81	2501
+SUB231133	Atopic	VT	33758	84-Month Clinic Visit	1.0	complete	84	2636
+SUB231134	Atopic	VT	36222	84-Month Clinic Visit	1.0	complete	84	2596
+SUB231134	Atopic	VT	36221	81-Month Clinic Visit	1.0	complete	81	2468
+SUB231135	Atopic	VT	40227	81-Month Clinic Visit	1.0	complete	81	2477
+SUB231135	Atopic	VT	40228	84-Month Clinic Visit	1.0	complete	84	2576
+SUB231138	Atopic	VT	33713	84-Month Clinic Visit	1.0	complete	84	2606
+SUB231138	Atopic	VT	33712	81-Month Clinic Visit	1.0	complete	81	2452
+SUB231139	Atopic	VT	37102	81-Month Clinic Visit	1.0	complete	81	2497
+SUB231139	Atopic	VT	37103	84-Month Clinic Visit	1.0	complete	84	2584
+SUB231141	Atopic	VT	40388	81-Month Clinic Visit	1.0	missing	.x	
+SUB231141	Atopic	VT	40389	84-Month Clinic Visit	1.0	missing	.x	
+SUB231142	Atopic	VT	36338	81-Month Clinic Visit	1.0	complete	81	2456
+SUB231142	Atopic	VT	36339	84-Month Clinic Visit	1.0	complete	84	2591
+SUB231143	Non-atopic	VT	33015	84-Month Clinic Visit	1.0	complete	84	2610
+SUB231143	Non-atopic	VT	33014	81-Month Clinic Visit	1.0	complete	81	2512
+SUB231144	Atopic	VT	36190	84-Month Clinic Visit	1.0	complete	84	2551
+SUB231144	Atopic	VT	36189	81-Month Clinic Visit	1.0	complete	81	2438
+SUB231145	Non-atopic	VT	40666	84-Month Clinic Visit	1.0	complete	84	2557
+SUB231145	Non-atopic	VT	40665	81-Month Clinic Visit	1.0	complete	81	2473
+SUB231146	Atopic	VT	35663	84-Month Clinic Visit	1.0	complete	84	2602
+SUB231146	Atopic	VT	35662	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231147	Non-atopic	VT	34549	81-Month Clinic Visit	1.0	complete	81	2470
+SUB231147	Non-atopic	VT	34550	84-Month Clinic Visit	1.0	complete	84	2618
+SUB231149	Atopic	VT	36105	81-Month Clinic Visit	1.0	complete	81	2502
+SUB231149	Atopic	VT	36106	84-Month Clinic Visit	1.0	complete	84	2588
+SUB231150	Atopic	VT	42005	81-Month Clinic Visit	1.0	complete	81	2489
+SUB231150	Atopic	VT	42006	84-Month Clinic Visit	1.0	complete	84	2589
+SUB231151	Non-atopic	VT	38775	81-Month Clinic Visit	1.0	complete	81	2469
+SUB231151	Non-atopic	VT	38776	84-Month Clinic Visit	1.0	complete	84	2602
+SUB231153	Non-atopic	VT	35430	84-Month Clinic Visit	1.0	complete	84	2596
+SUB231153	Non-atopic	VT	35429	81-Month Clinic Visit	1.0	complete	81	2490
+SUB231155	Atopic	VT	42532	81-Month Clinic Visit	1.0	missing	.x	
+SUB231155	Atopic	VT	42533	84-Month Clinic Visit	1.0	complete	84	2614
+SUB231156	Non-atopic	VT	44873	84-Month Clinic Visit	1.0	complete	84	2606
+SUB231156	Non-atopic	VT	44872	81-Month Clinic Visit	1.0	missing	.x	
+SUB231158	Non-atopic	VT	36143	84-Month Clinic Visit	1.0	complete	84	2567
+SUB231158	Non-atopic	VT	36142	81-Month Clinic Visit	1.0	complete	81	2511
+SUB231159	Atopic	VT	36325	81-Month Clinic Visit	1.0	missing	.x	
+SUB231159	Atopic	VT	36326	84-Month Clinic Visit	1.0	complete	84	2608
+SUB231161	Atopic	VT	37983	84-Month Clinic Visit	1.0	complete	84	2621
+SUB231161	Atopic	VT	37982	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231163	Atopic	VT	41255	84-Month Clinic Visit	1.0	complete	84	2609
+SUB231163	Atopic	VT	41254	81-Month Clinic Visit	1.0	complete	81	2487
+SUB231164	Atopic	VT	35709	84-Month Clinic Visit	1.0	complete	84	2641
+SUB231164	Atopic	VT	35708	81-Month Clinic Visit	1.0	complete	81	2449
+SUB231165	Atopic	VT	38224	81-Month Clinic Visit	1.0	complete	81	2448
+SUB231165	Atopic	VT	38225	84-Month Clinic Visit	1.0	complete	84	2555
+SUB231166	Atopic	VT	35014	81-Month Clinic Visit	1.0	complete	81	2509
+SUB231166	Atopic	VT	35015	84-Month Clinic Visit	1.0	complete	84	2584
+SUB231167	Atopic	VT	40207	81-Month Clinic Visit	1.0	complete	81	2496
+SUB231167	Atopic	VT	40208	84-Month Clinic Visit	1.0	complete	84	2566
+SUB231168	Atopic	VT	38748	84-Month Clinic Visit	1.0	complete	84	2572
+SUB231168	Atopic	VT	38747	81-Month Clinic Visit	1.0	complete	81	2480
+SUB231169	Non-atopic	VT	40760	84-Month Clinic Visit	1.0	complete	84	2534
+SUB231169	Non-atopic	VT	40759	81-Month Clinic Visit	1.0	complete	81	2479
+SUB231171	Non-atopic	VT	38760	84-Month Clinic Visit	1.0	complete	84	2541
+SUB231171	Non-atopic	VT	38759	81-Month Clinic Visit	1.0	complete	81	2459
+SUB231172	Non-atopic	VT	40048	84-Month Clinic Visit	1.0	complete	84	2583
+SUB231172	Non-atopic	VT	40047	81-Month Clinic Visit	1.0	complete	81	2442
+SUB231176	Atopic	VT	33280	84-Month Clinic Visit	1.0	missing	.x	
+SUB231179	Atopic	VT	33683	84-Month Clinic Visit	1.0	complete	84	2544
+SUB231180	Atopic	VT	33031	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231182	Atopic	VT	37404	84-Month Clinic Visit	1.0	complete	84	2528
+SUB231183	Atopic	VT	30736	84-Month Clinic Visit	1.0	complete	84	2555
+SUB231184	Atopic	VT	31128	81-Month Clinic Visit	1.0	complete	81	2491
+SUB231184	Atopic	VT	31129	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231185	Atopic	VT	34827	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231186	Atopic	VT	31472	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231187	Atopic	VT	37072	84-Month Clinic Visit	1.0	complete	84	2587
+SUB231188	Atopic	VT	32362	81-Month Clinic Visit	1.0	complete	81	2452
+SUB231188	Atopic	VT	32363	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231189	Atopic	VT	32046	84-Month Clinic Visit	1.0	complete	84	2547
+SUB231189	Atopic	VT	32045	81-Month Clinic Visit	1.0	complete	81	2477
+SUB231190	Atopic	VT	34538	84-Month Clinic Visit	1.0	complete	84	2526
+SUB231190	Atopic	VT	34537	81-Month Clinic Visit	1.0	complete	81	2421
+SUB231191	Atopic	VT	33268	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231191	Atopic	VT	33267	81-Month Clinic Visit	1.0	complete	81	2450
+SUB231192	Atopic	VT	37391	84-Month Clinic Visit	1.0	complete	84	2537
+SUB231192	Atopic	VT	37390	81-Month Clinic Visit	1.0	complete	81	2459
+SUB231194	Atopic	VT	32116	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231194	Atopic	VT	32115	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231195	Atopic	VT	42701	81-Month Clinic Visit	1.0	complete	81	2441
+SUB231195	Atopic	VT	42702	84-Month Clinic Visit	1.0	complete	84	2528
+SUB231196	Atopic	VT	34067	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231196	Atopic	VT	34066	81-Month Clinic Visit	1.0	complete	81	2437
+SUB231198	Atopic	VT	39908	81-Month Clinic Visit	1.0	missing	.x	
+SUB231198	Atopic	VT	39909	84-Month Clinic Visit	1.0	complete	84	2545
+SUB231199	Atopic	VT	35777	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231199	Atopic	VT	35776	81-Month Clinic Visit	1.0	complete	81	2437
+SUB231201	Atopic	VT	32724	84-Month Clinic Visit	1.0	complete	84	2525
+SUB231201	Atopic	VT	32723	81-Month Clinic Visit	1.0	complete	81	2437
+SUB231202	Atopic	VT	33517	81-Month Clinic Visit	1.0	complete	81	2450
+SUB231202	Atopic	VT	33518	84-Month Clinic Visit	1.0	complete	84	2530
+SUB231203	Atopic	VT	36202	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231203	Atopic	VT	36201	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231206	Atopic	VT	40082	81-Month Clinic Visit	1.0	complete	81	2437
+SUB231206	Atopic	VT	40083	84-Month Clinic Visit	1.0	complete	84	2542
+SUB231207	Atopic	VT	38119	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231207	Atopic	VT	38118	81-Month Clinic Visit	1.0	complete	81	2443
+SUB231208	Atopic	VT	39548	84-Month Clinic Visit	1.0	complete	84	2535
+SUB231208	Atopic	VT	39547	81-Month Clinic Visit	1.0	complete	81	2428
+SUB231210	Atopic	VT	30852	84-Month Clinic Visit	1.0	complete	84	2624
+SUB231210	Atopic	VT	30851	81-Month Clinic Visit	1.0	complete	81	2500
+SUB231213	Atopic	VT	33810	81-Month Clinic Visit	1.0	complete	81	2449
+SUB231213	Atopic	VT	33811	84-Month Clinic Visit	1.0	complete	84	2549
+SUB231214	Atopic	VT	32450	81-Month Clinic Visit	1.0	complete	81	2438
+SUB231214	Atopic	VT	32451	84-Month Clinic Visit	1.0	complete	84	2546
+SUB231215	Atopic	VT	39351	81-Month Clinic Visit	1.0	complete	81	2466
+SUB231215	Atopic	VT	39352	84-Month Clinic Visit	1.0	complete	84	2572
+SUB231216	Atopic	VT	40000	81-Month Clinic Visit	1.0	complete	81	2436
+SUB231216	Atopic	VT	40001	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231217	Atopic	VT	33207	81-Month Clinic Visit	1.0	complete	81	2441
+SUB231217	Atopic	VT	33208	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231218	Atopic	VT	33860	81-Month Clinic Visit	1.0	complete	81	2439
+SUB231218	Atopic	VT	33861	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231219	Atopic	VT	30866	81-Month Clinic Visit	1.0	complete	81	2439
+SUB231219	Atopic	VT	30867	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231221	Atopic	VT	39942	81-Month Clinic Visit	1.0	complete	81	2437
+SUB231221	Atopic	VT	39943	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231222	Atopic	VT	36889	81-Month Clinic Visit	1.0	complete	81	2520
+SUB231222	Atopic	VT	36890	84-Month Clinic Visit	1.0	missing	.x	
+SUB231223	Atopic	VT	33873	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231223	Atopic	VT	33872	81-Month Clinic Visit	1.0	complete	81	2463
+SUB231224	Atopic	VT	33898	84-Month Clinic Visit	1.0	missing	.x	
+SUB231224	Atopic	VT	33897	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231225	Atopic	VT	32711	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231225	Atopic	VT	32710	81-Month Clinic Visit	1.0	complete	81	2446
+SUB231226	Atopic	VT	33824	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231226	Atopic	VT	33823	81-Month Clinic Visit	1.0	complete	81	2439
+SUB231227	Atopic	VT	32960	84-Month Clinic Visit	1.0	complete	84	2546
+SUB231227	Atopic	VT	32959	81-Month Clinic Visit	1.0	complete	81	2455
+SUB231229	Atopic	VT	36843	81-Month Clinic Visit	1.0	complete	81	2458
+SUB231229	Atopic	VT	36844	84-Month Clinic Visit	1.0	complete	84	2599
+SUB231230	Atopic	VT	31300	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231230	Atopic	VT	31299	81-Month Clinic Visit	1.0	complete	81	2438
+SUB231232	Atopic	VT	36855	81-Month Clinic Visit	1.0	complete	81	2434
+SUB231232	Atopic	VT	36856	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231233	Atopic	VT	33922	84-Month Clinic Visit	1.0	complete	84	2532
+SUB231233	Atopic	VT	33921	81-Month Clinic Visit	1.0	complete	81	2461
+SUB231234	Atopic	VT	39442	84-Month Clinic Visit	1.0	complete	84	2532
+SUB231234	Atopic	VT	39441	81-Month Clinic Visit	1.0	complete	81	2446
+SUB231235	Atopic	VT	37943	84-Month Clinic Visit	1.0	complete	84	2650
+SUB231235	Atopic	VT	37942	81-Month Clinic Visit	1.0	complete	81	2491
+SUB231236	Atopic	VT	42166	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231236	Atopic	VT	42165	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231237	Atopic	VT	32972	81-Month Clinic Visit	1.0	complete	81	2443
+SUB231237	Atopic	VT	32973	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231241	Atopic	VT	33835	81-Month Clinic Visit	1.0	complete	81	2472
+SUB231241	Atopic	VT	33836	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231242	Atopic	VT	33992	81-Month Clinic Visit	1.0	complete	81	2444
+SUB231242	Atopic	VT	33993	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231243	Atopic	VT	35606	84-Month Clinic Visit	1.0	complete	84	2535
+SUB231243	Atopic	VT	35605	81-Month Clinic Visit	1.0	complete	81	2442
+SUB231246	Atopic	VT	34955	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231246	Atopic	VT	34954	81-Month Clinic Visit	1.0	complete	81	2443
+SUB231247	Atopic	VT	30982	81-Month Clinic Visit	1.0	complete	81	2444
+SUB231247	Atopic	VT	30983	84-Month Clinic Visit	1.0	complete	84	2530
+SUB231248	Atopic	VT	34020	84-Month Clinic Visit	1.0	complete	84	2538
+SUB231248	Atopic	VT	34019	81-Month Clinic Visit	1.0	complete	81	2445
+SUB231249	Atopic	VT	37454	84-Month Clinic Visit	1.0	complete	84	2534
+SUB231249	Atopic	VT	37453	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231251	Atopic	VT	35690	81-Month Clinic Visit	1.0	missing	.x	
+SUB231251	Atopic	VT	35691	84-Month Clinic Visit	1.0	missing	.x	
+SUB231252	Atopic	VT	33777	84-Month Clinic Visit	1.0	complete	84	2733
+SUB231252	Atopic	VT	33776	81-Month Clinic Visit	1.0	complete	81	2442
+SUB231253	Atopic	VT	41180	84-Month Clinic Visit	1.0	complete	84	2566
+SUB231253	Atopic	VT	41179	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231255	Atopic	VT	36831	81-Month Clinic Visit	1.0	complete	81	2447
+SUB231255	Atopic	VT	36832	84-Month Clinic Visit	1.0	complete	84	2532
+SUB231257	Atopic	VT	31618	84-Month Clinic Visit	1.0	complete	84	2542
+SUB231257	Atopic	VT	31617	81-Month Clinic Visit	1.0	complete	81	2443
+SUB231258	Atopic	VT	31867	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231258	Atopic	VT	31866	81-Month Clinic Visit	1.0	complete	81	2442
+SUB231260	Atopic	VT	32576	81-Month Clinic Visit	1.0	complete	81	2467
+SUB231260	Atopic	VT	32577	84-Month Clinic Visit	1.0	complete	84	2538
+SUB231262	Atopic	VT	35564	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231262	Atopic	VT	35563	81-Month Clinic Visit	1.0	complete	81	2441
+SUB231263	Atopic	VT	35145	84-Month Clinic Visit	1.0	complete	84	2544
+SUB231263	Atopic	VT	35144	81-Month Clinic Visit	1.0	complete	81	2466
+SUB231264	Atopic	VT	33969	81-Month Clinic Visit	1.0	missing	.x	
+SUB231264	Atopic	VT	33970	84-Month Clinic Visit	1.0	missing	.x	
+SUB231265	Atopic	VT	34570	81-Month Clinic Visit	1.0	complete	81	2449
+SUB231265	Atopic	VT	34571	84-Month Clinic Visit	1.0	complete	84	2536
+SUB231266	Atopic	VT	33957	81-Month Clinic Visit	1.0	complete	81	2491
+SUB231266	Atopic	VT	33958	84-Month Clinic Visit	1.0	complete	84	2731
+SUB231268	Atopic	VT	33544	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231268	Atopic	VT	33543	81-Month Clinic Visit	1.0	complete	81	2438
+SUB231270	Atopic	VT	35306	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231270	Atopic	VT	35305	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231271	Atopic	VT	36089	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231271	Atopic	VT	36090	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231272	Atopic	VT	34327	81-Month Clinic Visit	1.0	complete	81	2442
+SUB231272	Atopic	VT	34328	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231273	Atopic	VT	33945	81-Month Clinic Visit	1.0	complete	81	2480
+SUB231273	Atopic	VT	33946	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231274	Atopic	VT	33736	81-Month Clinic Visit	1.0	complete	81	2444
+SUB231274	Atopic	VT	33737	84-Month Clinic Visit	1.0	complete	84	2540
+SUB231275	Atopic	VT	37028	81-Month Clinic Visit	1.0	complete	81	2483
+SUB231275	Atopic	VT	37029	84-Month Clinic Visit	1.0	complete	84	2532
+SUB231276	Atopic	VT	37637	81-Month Clinic Visit	1.0	complete	81	2508
+SUB231276	Atopic	VT	37638	84-Month Clinic Visit	1.0	complete	84	2649
+SUB231277	Non-atopic	VT	37594	81-Month Clinic Visit	1.0	complete	81	2445
+SUB231277	Non-atopic	VT	37595	84-Month Clinic Visit	1.0	complete	84	2557
+SUB231278	Non-atopic	VT	34389	81-Month Clinic Visit	1.0	complete	81	2450
+SUB231278	Non-atopic	VT	34390	84-Month Clinic Visit	1.0	complete	84	2529
+SUB231279	Atopic	VT	44452	81-Month Clinic Visit	1.0	complete	81	2492
+SUB231279	Atopic	VT	44453	84-Month Clinic Visit	1.0	complete	84	2527
+SUB231280	Non-atopic	VT	36276	84-Month Clinic Visit	1.0	complete	84	2555
+SUB231280	Non-atopic	VT	36275	81-Month Clinic Visit	1.0	complete	81	2484
+SUB231281	Atopic	VT	36868	81-Month Clinic Visit	1.0	complete	81	2471
+SUB231281	Atopic	VT	36869	84-Month Clinic Visit	1.0	complete	84	2524
+SUB231282	Atopic	VT	37324	84-Month Clinic Visit	1.0	complete	84	2608
+SUB231282	Atopic	VT	37323	81-Month Clinic Visit	1.0	missing	.x	
+SUB231283	Atopic	VT	35964	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231283	Atopic	VT	35963	81-Month Clinic Visit	1.0	complete	81	2505
+SUB231284	Atopic	VT	35575	81-Month Clinic Visit	1.0	complete	81	2457
+SUB231284	Atopic	VT	35576	84-Month Clinic Visit	1.0	complete	84	2534
+SUB231285	Non-atopic	VT	35396	84-Month Clinic Visit	1.0	complete	84	2530
+SUB231285	Non-atopic	VT	35395	81-Month Clinic Visit	1.0	complete	81	2438
+SUB231286	Atopic	VT	37668	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231286	Atopic	VT	37667	81-Month Clinic Visit	1.0	complete	81	2450
+SUB231287	Non-atopic	VT	33933	81-Month Clinic Visit	1.0	complete	81	2449
+SUB231287	Non-atopic	VT	33934	84-Month Clinic Visit	1.0	complete	84	2545
+SUB231288	Atopic	VT	37967	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231288	Atopic	VT	37968	84-Month Clinic Visit	1.0	complete	84	2780
+SUB231290	Atopic	VT	33909	81-Month Clinic Visit	1.0	complete	81	2461
+SUB231290	Atopic	VT	33910	84-Month Clinic Visit	1.0	complete	84	2538
+SUB231291	Atopic	VT	37569	81-Month Clinic Visit	1.0	complete	81	2465
+SUB231291	Atopic	VT	37570	84-Month Clinic Visit	1.0	complete	84	2547
+SUB231292	Atopic	VT	36264	84-Month Clinic Visit	1.0	complete	84	2535
+SUB231292	Atopic	VT	36263	81-Month Clinic Visit	1.0	complete	81	2442
+SUB231293	Atopic	VT	31186	84-Month Clinic Visit	1.0	complete	84	2645
+SUB231294	Atopic	VT	31692	84-Month Clinic Visit	1.0	complete	84	2639
+SUB231296	Atopic	VT	31761	84-Month Clinic Visit	1.0	complete	84	2627
+SUB231297	Atopic	VT	38000	84-Month Clinic Visit	1.0	complete	84	2645
+SUB231299	Atopic	VT	32744	84-Month Clinic Visit	1.0	complete	84	2692
+SUB231300	Atopic	VT	31021	84-Month Clinic Visit	1.0	complete	84	2605
+SUB231302	Atopic	VT	34506	84-Month Clinic Visit	1.0	complete	84	2565
+SUB231304	Atopic	VT	35911	84-Month Clinic Visit	1.0	complete	84	2599
+SUB231305	Atopic	VT	34790	84-Month Clinic Visit	1.0	complete	84	2615
+SUB231306	Atopic	VT	36314	84-Month Clinic Visit	1.0	complete	84	2710
+SUB231306	Atopic	VT	36313	81-Month Clinic Visit	1.0	complete	81	2494
+SUB231307	Atopic	VT	37337	84-Month Clinic Visit	1.0	complete	84	2644
+SUB231307	Atopic	VT	37336	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231308	Atopic	VT	38412	84-Month Clinic Visit	1.0	missing	.x	
+SUB231309	Atopic	VT	35815	84-Month Clinic Visit	1.0	complete	84	2642
+SUB231309	Atopic	VT	35814	81-Month Clinic Visit	1.0	complete	81	2488
+SUB231310	Atopic	VT	35938	81-Month Clinic Visit	1.0	complete	81	2487
+SUB231310	Atopic	VT	35939	84-Month Clinic Visit	1.0	complete	84	2628
+SUB231313	Atopic	VT	33658	84-Month Clinic Visit	1.0	complete	84	2633
+SUB231313	Atopic	VT	33657	81-Month Clinic Visit	1.0	complete	81	2507
+SUB231314	Atopic	VT	35899	84-Month Clinic Visit	1.0	complete	84	2664
+SUB231314	Atopic	VT	35898	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231316	Atopic	VT	36443	81-Month Clinic Visit	1.0	complete	81	2504
+SUB231316	Atopic	VT	36444	84-Month Clinic Visit	1.0	complete	84	2596
+SUB231318	Atopic	VT	33620	81-Month Clinic Visit	1.0	complete	81	2472
+SUB231318	Atopic	VT	33621	84-Month Clinic Visit	1.0	complete	84	2640
+SUB231319	Atopic	VT	35114	84-Month Clinic Visit	1.0	complete	84	2673
+SUB231319	Atopic	VT	35113	81-Month Clinic Visit	1.0	complete	81	2489
+SUB231320	Atopic	VT	39495	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231320	Atopic	VT	39496	84-Month Clinic Visit	1.0	missing	.x	
+SUB231321	Atopic	VT	36592	81-Month Clinic Visit	1.0	missing	.x	
+SUB231323	Atopic	VT	35186	84-Month Clinic Visit	1.0	complete	84	2604
+SUB231323	Atopic	VT	35185	81-Month Clinic Visit	1.0	complete	81	2511
+SUB231324	Atopic	VT	39190	84-Month Clinic Visit	1.0	complete	84	2644
+SUB231324	Atopic	VT	39189	81-Month Clinic Visit	1.0	complete	81	2495
+SUB231325	Atopic	VT	35513	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231325	Atopic	VT	35514	84-Month Clinic Visit	1.0	missing	.x	
+SUB231326	Atopic	VT	34969	81-Month Clinic Visit	1.0	missing	.x	
+SUB231326	Atopic	VT	34970	84-Month Clinic Visit	1.0	complete	84	2582
+SUB231327	Atopic	VT	34840	84-Month Clinic Visit	1.0	complete	84	2573
+SUB231327	Atopic	VT	34839	81-Month Clinic Visit	1.0	complete	81	2468
+SUB231328	Atopic	VT	35620	84-Month Clinic Visit	1.0	complete	84	2655
+SUB231328	Atopic	VT	35619	81-Month Clinic Visit	1.0	complete	81	2513
+SUB231329	Atopic	VT	40902	81-Month Clinic Visit	1.0	complete	81	2494
+SUB231329	Atopic	VT	40903	84-Month Clinic Visit	1.0	complete	84	2641
+SUB231330	Atopic	VT	38862	84-Month Clinic Visit	1.0	complete	84	2634
+SUB231330	Atopic	VT	38861	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231332	Atopic	VT	39241	81-Month Clinic Visit	1.0	complete	81	2507
+SUB231332	Atopic	VT	39242	84-Month Clinic Visit	1.0	complete	84	2627
+SUB231333	Atopic	VT	35631	81-Month Clinic Visit	1.0	complete	81	2502
+SUB231333	Atopic	VT	35632	84-Month Clinic Visit	1.0	missing	.x	
+SUB231334	Atopic	VT	39285	84-Month Clinic Visit	1.0	complete	84	2653
+SUB231334	Atopic	VT	39284	81-Month Clinic Visit	1.0	complete	81	2520
+SUB231336	Atopic	VT	35529	84-Month Clinic Visit	1.0	complete	84	2678
+SUB231336	Atopic	VT	35528	81-Month Clinic Visit	1.0	complete	81	2511
+SUB231338	Atopic	VT	35161	81-Month Clinic Visit	1.0	complete	81	2439
+SUB231338	Atopic	VT	35162	84-Month Clinic Visit	1.0	complete	84	2570
+SUB231339	Atopic	VT	39201	81-Month Clinic Visit	1.0	complete	81	2473
+SUB231339	Atopic	VT	39202	84-Month Clinic Visit	1.0	complete	84	2599
+SUB231341	Atopic	VT	37688	81-Month Clinic Visit	1.0	complete	81	2491
+SUB231341	Atopic	VT	37689	84-Month Clinic Visit	1.0	complete	84	2590
+SUB231342	Atopic	VT	38170	81-Month Clinic Visit	1.0	missing	.x	
+SUB231342	Atopic	VT	38171	84-Month Clinic Visit	1.0	complete	84	2552
+SUB231343	Atopic	VT	39213	81-Month Clinic Visit	1.0	complete	81	2495
+SUB231343	Atopic	VT	39214	84-Month Clinic Visit	1.0	complete	84	2572
+SUB231345	Atopic	VT	39893	81-Month Clinic Visit	1.0	missing	.x	
+SUB231345	Atopic	VT	39894	84-Month Clinic Visit	1.0	complete	84	2637
+SUB231346	Atopic	VT	38245	81-Month Clinic Visit	1.0	complete	81	2522
+SUB231346	Atopic	VT	38246	84-Month Clinic Visit	1.0	complete	84	2636
+SUB231347	Atopic	VT	34167	81-Month Clinic Visit	1.0	missing	.x	
+SUB231347	Atopic	VT	34168	84-Month Clinic Visit	1.0	complete	84	2741
+SUB231352	Atopic	VT	32205	81-Month Clinic Visit	1.0	complete	81	2498
+SUB231352	Atopic	VT	32206	84-Month Clinic Visit	1.0	complete	84	2622
+SUB231353	Atopic	VT	31006	84-Month Clinic Visit	1.0	complete	84	2713
+SUB231353	Atopic	VT	31005	81-Month Clinic Visit	1.0	complete	81	2505
+SUB231355	Atopic	VT	44938	81-Month Clinic Visit	1.0	complete	81	2509
+SUB231355	Atopic	VT	44939	84-Month Clinic Visit	1.0	complete	84	2635
+SUB231356	Atopic	VT	30821	84-Month Clinic Visit	1.0	complete	84	2641
+SUB231356	Atopic	VT	30820	81-Month Clinic Visit	1.0	complete	81	2504
+SUB231357	Atopic	VT	41023	81-Month Clinic Visit	1.0	missing	.x	
+SUB231357	Atopic	VT	41024	84-Month Clinic Visit	1.0	complete	84	2526
+SUB231359	Atopic	VT	40851	84-Month Clinic Visit	1.0	missing	.x	
+SUB231359	Atopic	VT	40850	81-Month Clinic Visit	1.0	complete	81	2503
+SUB231360	Atopic	VT	31655	84-Month Clinic Visit	1.0	complete	84	2736
+SUB231360	Atopic	VT	31654	81-Month Clinic Visit	1.0	complete	81	2510
+SUB231363	Atopic	VT	31086	84-Month Clinic Visit	1.0	complete	84	2637
+SUB231363	Atopic	VT	31085	81-Month Clinic Visit	1.0	complete	81	2511
+SUB231365	Atopic	VT	34185	84-Month Clinic Visit	1.0	complete	84	2606
+SUB231365	Atopic	VT	34184	81-Month Clinic Visit	1.0	complete	81	2500
+SUB231366	Atopic	VT	39225	81-Month Clinic Visit	1.0	complete	81	2448
+SUB231366	Atopic	VT	39226	84-Month Clinic Visit	1.0	complete	84	2560
+SUB231367	Atopic	VT	32028	81-Month Clinic Visit	1.0	missing	.x	
+SUB231368	Atopic	VT	37905	84-Month Clinic Visit	1.0	missing	.x	
+SUB231368	Atopic	VT	37904	81-Month Clinic Visit	1.0	complete	81	2483
+SUB231369	Atopic	VT	31727	81-Month Clinic Visit	1.0	complete	81	2513
+SUB231369	Atopic	VT	31728	84-Month Clinic Visit	1.0	complete	84	2611
+SUB231372	Atopic	VT	32419	84-Month Clinic Visit	1.0	complete	84	2572
+SUB231372	Atopic	VT	32418	81-Month Clinic Visit	1.0	complete	81	2488
+SUB231373	Atopic	VT	32297	81-Month Clinic Visit	1.0	complete	81	2474
+SUB231373	Atopic	VT	32298	84-Month Clinic Visit	1.0	complete	84	2616
+SUB231374	Atopic	VT	40065	84-Month Clinic Visit	1.0	complete	84	2553
+SUB231374	Atopic	VT	40064	81-Month Clinic Visit	1.0	complete	81	2441
+SUB231376	Atopic	VT	33251	81-Month Clinic Visit	1.0	complete	81	2444
+SUB231376	Atopic	VT	33252	84-Month Clinic Visit	1.0	complete	84	2569
+SUB231377	Atopic	VT	34997	81-Month Clinic Visit	1.0	missing	.x	
+SUB231377	Atopic	VT	34998	84-Month Clinic Visit	1.0	missing	.x	
+SUB231378	Atopic	VT	34634	81-Month Clinic Visit	1.0	complete	81	2493
+SUB231378	Atopic	VT	34635	84-Month Clinic Visit	1.0	complete	84	2578
+SUB231379	Atopic	VT	34694	81-Month Clinic Visit	1.0	complete	81	2471
+SUB231379	Atopic	VT	34695	84-Month Clinic Visit	1.0	complete	84	2578
+SUB231380	Atopic	VT	38448	81-Month Clinic Visit	1.0	complete	81	2507
+SUB231380	Atopic	VT	38449	84-Month Clinic Visit	1.0	complete	84	2575
+SUB231381	Atopic	VT	32535	84-Month Clinic Visit	1.0	missing	.x	
+SUB231381	Atopic	VT	32534	81-Month Clinic Visit	1.0	missing	.x	
+SUB231382	Atopic	VT	44971	84-Month Clinic Visit	1.0	complete	84	2564
+SUB231382	Atopic	VT	44970	81-Month Clinic Visit	1.0	complete	81	2472
+SUB231383	Atopic	VT	50457	81-Month Clinic Visit	1.0	missing	.x	
+SUB231383	Atopic	VT	50458	84-Month Clinic Visit	1.0	complete	84	2371
+SUB231384	Atopic	VT	39261	81-Month Clinic Visit	1.0	complete	81	2449
+SUB231384	Atopic	VT	39262	84-Month Clinic Visit	1.0	complete	84	2617
+SUB231387	Atopic	VT	39395	81-Month Clinic Visit	1.0	complete	81	2477
+SUB231387	Atopic	VT	39396	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231388	Atopic	VT	32616	81-Month Clinic Visit	1.0	complete	81	2473
+SUB231388	Atopic	VT	32617	84-Month Clinic Visit	1.0	complete	84	2580
+SUB231389	Atopic	VT	32313	84-Month Clinic Visit	1.0	complete	84	2571
+SUB231389	Atopic	VT	32312	81-Month Clinic Visit	1.0	complete	81	2515
+SUB231390	Atopic	VT	32177	81-Month Clinic Visit	1.0	missing	.x	
+SUB231390	Atopic	VT	32178	84-Month Clinic Visit	1.0	missing	.x	
+SUB231391	Atopic	VT	31574	81-Month Clinic Visit	1.0	complete	81	2506
+SUB231391	Atopic	VT	31575	84-Month Clinic Visit	1.0	complete	84	2585
+SUB231392	Atopic	VT	33414	84-Month Clinic Visit	1.0	complete	84	2572
+SUB231392	Atopic	VT	33413	81-Month Clinic Visit	1.0	complete	81	2494
+SUB231393	Atopic	VT	44482	84-Month Clinic Visit	1.0	complete	84	2589
+SUB231393	Atopic	VT	44481	81-Month Clinic Visit	1.0	missing	.x	
+SUB231394	Atopic	VT	34421	81-Month Clinic Visit	1.0	complete	81	2504
+SUB231394	Atopic	VT	34422	84-Month Clinic Visit	1.0	complete	84	2572
+SUB231395	Atopic	VT	32017	84-Month Clinic Visit	1.0	complete	84	2549
+SUB231395	Atopic	VT	32016	81-Month Clinic Visit	1.0	complete	81	2478
+SUB231396	Atopic	VT	31528	84-Month Clinic Visit	1.0	complete	84	2585
+SUB231396	Atopic	VT	31527	81-Month Clinic Visit	1.0	complete	81	2487
+SUB231397	Atopic	VT	34583	84-Month Clinic Visit	1.0	complete	84	2560
+SUB231397	Atopic	VT	34582	81-Month Clinic Visit	1.0	complete	81	2482
+SUB231398	Atopic	VT	34596	84-Month Clinic Visit	1.0	complete	84	2574
+SUB231398	Atopic	VT	34595	81-Month Clinic Visit	1.0	missing	.x	
+SUB231400	Atopic	VT	35550	81-Month Clinic Visit	1.0	missing	.x	
+SUB231401	Atopic	VT	30924	84-Month Clinic Visit	1.0	complete	84	2578
+SUB231401	Atopic	VT	30923	81-Month Clinic Visit	1.0	complete	81	2500
+SUB231402	Atopic	VT	34901	84-Month Clinic Visit	1.0	complete	84	2632
+SUB231402	Atopic	VT	34900	81-Month Clinic Visit	1.0	complete	81	2513
+SUB231403	Atopic	VT	30836	84-Month Clinic Visit	1.0	complete	84	2573
+SUB231403	Atopic	VT	30835	81-Month Clinic Visit	1.0	complete	81	2503
+SUB231404	Atopic	VT	39873	81-Month Clinic Visit	1.0	complete	81	2489
+SUB231404	Atopic	VT	39874	84-Month Clinic Visit	1.0	complete	84	2568
+SUB231405	Atopic	VT	32471	84-Month Clinic Visit	1.0	complete	84	2618
+SUB231405	Atopic	VT	32470	81-Month Clinic Visit	1.0	complete	81	2504
+SUB231406	Atopic	VT	33380	84-Month Clinic Visit	1.0	complete	84	2569
+SUB231406	Atopic	VT	33379	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231409	Atopic	VT	59031	84-Month Clinic Visit	1.0	complete	84	2663
+SUB231409	Atopic	VT	59030	81-Month Clinic Visit	1.0	missing	.x	
+SUB231410	Atopic	VT	31981	81-Month Clinic Visit	1.0	missing	.x	
+SUB231410	Atopic	VT	31982	84-Month Clinic Visit	1.0	complete	84	2556
+SUB231411	Atopic	VT	37476	81-Month Clinic Visit	1.0	complete	81	2504
+SUB231411	Atopic	VT	37477	84-Month Clinic Visit	1.0	complete	84	2616
+SUB231412	Atopic	VT	30751	81-Month Clinic Visit	1.0	complete	81	2492
+SUB231412	Atopic	VT	30752	84-Month Clinic Visit	1.0	complete	84	2612
+SUB231413	Atopic	VT	31405	81-Month Clinic Visit	1.0	complete	81	2471
+SUB231413	Atopic	VT	31406	84-Month Clinic Visit	1.0	complete	84	2633
+SUB231414	Atopic	VT	31995	84-Month Clinic Visit	1.0	complete	84	2540
+SUB231414	Atopic	VT	31994	81-Month Clinic Visit	1.0	missing	.x	
+SUB231415	Non-atopic	VT	31350	81-Month Clinic Visit	1.0	complete	81	2475
+SUB231415	Non-atopic	VT	31351	84-Month Clinic Visit	1.0	complete	84	2539
+SUB231417	Atopic	VT	35281	81-Month Clinic Visit	1.0	complete	81	2476
+SUB231417	Atopic	VT	35282	84-Month Clinic Visit	1.0	complete	84	2587
+SUB231418	Atopic	VT	31600	84-Month Clinic Visit	1.0	complete	84	2604
+SUB231418	Atopic	VT	31599	81-Month Clinic Visit	1.0	complete	81	2455
+SUB231419	Atopic	VT	33470	84-Month Clinic Visit	1.0	complete	84	2583
+SUB231419	Atopic	VT	33469	81-Month Clinic Visit	1.0	complete	81	2446
+SUB231420	Atopic	VT	31778	81-Month Clinic Visit	1.0	complete	81	2468
+SUB231420	Atopic	VT	31779	84-Month Clinic Visit	1.0	complete	84	2627
+SUB231421	Atopic	VT	34295	81-Month Clinic Visit	1.0	complete	81	2521
+SUB231421	Atopic	VT	34296	84-Month Clinic Visit	1.0	complete	84	2612
+SUB231422	Atopic	VT	32348	84-Month Clinic Visit	1.0	missing	.x	
+SUB231422	Atopic	VT	32347	81-Month Clinic Visit	1.0	complete	81	2461
+SUB231423	Atopic	VT	36124	84-Month Clinic Visit	1.0	complete	84	2560
+SUB231423	Atopic	VT	36123	81-Month Clinic Visit	1.0	complete	81	2433
+SUB231424	Atopic	VT	33671	84-Month Clinic Visit	1.0	complete	84	2584
+SUB231424	Atopic	VT	33670	81-Month Clinic Visit	1.0	complete	81	2506
+SUB231425	Non-atopic	VT	37783	81-Month Clinic Visit	1.0	complete	81	2514
+SUB231425	Non-atopic	VT	37784	84-Month Clinic Visit	1.0	complete	84	2676
+SUB231426	Atopic	VT	36753	81-Month Clinic Visit	1.0	complete	81	2499
+SUB231426	Atopic	VT	36754	84-Month Clinic Visit	1.0	complete	84	2663
+SUB231427	Atopic	VT	34648	84-Month Clinic Visit	1.0	complete	84	2564
+SUB231427	Atopic	VT	34647	81-Month Clinic Visit	1.0	complete	81	2537
+SUB231428	Atopic	VT	35413	81-Month Clinic Visit	1.0	complete	81	2457
+SUB231428	Atopic	VT	35414	84-Month Clinic Visit	1.0	complete	84	2556
+SUB231429	Non-atopic	VT	34148	81-Month Clinic Visit	1.0	complete	81	2454
+SUB231429	Non-atopic	VT	34149	84-Month Clinic Visit	1.0	complete	84	2539
+SUB231430	Non-atopic	VT	36564	84-Month Clinic Visit	1.0	missing	.x	
+SUB231430	Non-atopic	VT	36563	81-Month Clinic Visit	1.0	complete	81	2497
+SUB231431	Non-atopic	VT	40128	84-Month Clinic Visit	1.0	missing	.x	
+SUB231431	Non-atopic	VT	40127	81-Month Clinic Visit	1.0	missing	.x	
+SUB231432	Non-atopic	VT	36038	81-Month Clinic Visit	1.0	complete	81	2483
+SUB231432	Non-atopic	VT	36039	84-Month Clinic Visit	1.0	complete	84	2622
+SUB231433	Atopic	VT	34198	84-Month Clinic Visit	1.0	complete	84	2627
+SUB231433	Atopic	VT	34197	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231434	Non-atopic	VT	36297	84-Month Clinic Visit	1.0	complete	84	2625
+SUB231434	Non-atopic	VT	36296	81-Month Clinic Visit	1.0	complete	81	2497
+SUB231435	Atopic	VT	34110	81-Month Clinic Visit	1.0	complete	81	2516
+SUB231435	Atopic	VT	34111	84-Month Clinic Visit	1.0	complete	84	2641
+SUB231436	Atopic	VT	35229	81-Month Clinic Visit	1.0	complete	81	2461
+SUB231436	Atopic	VT	35230	84-Month Clinic Visit	1.0	complete	84	2555
+SUB231437	Atopic	VT	35253	84-Month Clinic Visit	1.0	complete	84	2618
+SUB231437	Atopic	VT	35252	81-Month Clinic Visit	1.0	missing	.x	
+SUB231438	Non-atopic	VT	36907	84-Month Clinic Visit	1.0	complete	84	2603
+SUB231438	Non-atopic	VT	36906	81-Month Clinic Visit	1.0	missing	.x	
+SUB231439	Non-atopic	VT	34925	81-Month Clinic Visit	1.0	complete	81	2456
+SUB231439	Non-atopic	VT	34926	84-Month Clinic Visit	1.0	complete	84	2554
+SUB231440	Atopic	VT	35458	81-Month Clinic Visit	1.0	complete	81	2481
+SUB231440	Atopic	VT	35459	84-Month Clinic Visit	1.0	complete	84	2664
+SUB231441	Atopic	VT	38597	81-Month Clinic Visit	1.0	missing	.x	
+SUB231441	Atopic	VT	38598	84-Month Clinic Visit	1.0	complete	84	2646
+SUB231442	Atopic	VT	37189	84-Month Clinic Visit	1.0	complete	84	2685
+SUB231442	Atopic	VT	37188	81-Month Clinic Visit	1.0	complete	81	2503
+SUB231443	Atopic	VT	35266	81-Month Clinic Visit	1.0	complete	81	2507
+SUB231443	Atopic	VT	35267	84-Month Clinic Visit	1.0	complete	84	2688
+SUB231444	Atopic	VT	36717	84-Month Clinic Visit	1.0	complete	84	2673
+SUB231444	Atopic	VT	36716	81-Month Clinic Visit	1.0	complete	81	2489
+SUB231445	Atopic	VT	37725	84-Month Clinic Visit	1.0	complete	84	2657
+SUB231445	Atopic	VT	37724	81-Month Clinic Visit	1.0	missing	.x	
+SUB231446	Non-atopic	VT	35480	81-Month Clinic Visit	1.0	complete	81	2497
+SUB231446	Non-atopic	VT	35481	84-Month Clinic Visit	1.0	complete	84	2575
+SUB231448	Atopic	VT	35844	81-Month Clinic Visit	1.0	complete	81	2413
+SUB231448	Atopic	VT	35845	84-Month Clinic Visit	1.0	complete	84	2561
+SUB231449	Atopic	VT	36549	81-Month Clinic Visit	1.0	missing	.x	
+SUB231449	Atopic	VT	36550	84-Month Clinic Visit	1.0	missing	.x	
+SUB231450	Atopic	VT	38277	81-Month Clinic Visit	1.0	complete	81	2441
+SUB231450	Atopic	VT	38278	84-Month Clinic Visit	1.0	complete	84	2583
+SUB231451	Non-atopic	VT	40804	81-Month Clinic Visit	1.0	complete	81	2487
+SUB231451	Non-atopic	VT	40805	84-Month Clinic Visit	1.0	complete	84	2627
+SUB231452	Non-atopic	VT	36024	84-Month Clinic Visit	1.0	complete	84	2645
+SUB231452	Non-atopic	VT	36023	81-Month Clinic Visit	1.0	complete	81	2496
+SUB231453	Atopic	VT	38032	84-Month Clinic Visit	1.0	complete	84	2643
+SUB231453	Atopic	VT	38031	81-Month Clinic Visit	1.0	complete	81	2503
+SUB231454	Atopic	VT	41143	84-Month Clinic Visit	1.0	complete	84	2558
+SUB231454	Atopic	VT	41142	81-Month Clinic Visit	1.0	complete	81	2446
+SUB231455	Non-atopic	VT	38158	81-Month Clinic Visit	1.0	complete	81	2457
+SUB231455	Non-atopic	VT	38159	84-Month Clinic Visit	1.0	complete	84	2586
+SUB231456	Non-atopic	VT	38309	81-Month Clinic Visit	1.0	complete	81	2478
+SUB231456	Non-atopic	VT	38310	84-Month Clinic Visit	1.0	complete	84	2612
+SUB231457	Non-atopic	VT	37374	84-Month Clinic Visit	1.0	complete	84	2639
+SUB231457	Non-atopic	VT	37373	81-Month Clinic Visit	1.0	missing	.x	
+SUB231459	Non-atopic	VT	41835	81-Month Clinic Visit	1.0	missing	.x	
+SUB231459	Non-atopic	VT	41836	84-Month Clinic Visit	1.0	missing	.x	
+SUB231460	Non-atopic	VT	37014	84-Month Clinic Visit	1.0	complete	84	2641
+SUB231460	Non-atopic	VT	37013	81-Month Clinic Visit	1.0	missing	.x	
+SUB231462	Non-atopic	VT	42930	81-Month Clinic Visit	1.0	missing	.x	
+SUB231462	Non-atopic	VT	42931	84-Month Clinic Visit	1.0	complete	84	2649
+SUB231463	Atopic	VT	39763	84-Month Clinic Visit	1.0	complete	84	2586
+SUB231463	Atopic	VT	39762	81-Month Clinic Visit	1.0	complete	81	2519
+SUB231465	Non-atopic	VT	40415	84-Month Clinic Visit	1.0	complete	84	2599
+SUB231465	Non-atopic	VT	40414	81-Month Clinic Visit	1.0	complete	81	2508
+SUB231466	Atopic	VT	39980	84-Month Clinic Visit	1.0	complete	84	2610
+SUB231466	Atopic	VT	39979	81-Month Clinic Visit	1.0	missing	.x	
+SUB231467	Atopic	VT	40489	81-Month Clinic Visit	1.0	complete	81	2437
+SUB231467	Atopic	VT	40490	84-Month Clinic Visit	1.0	complete	84	2544
+SUB231468	Atopic	VT	39410	81-Month Clinic Visit	1.0	complete	81	2440
+SUB231468	Atopic	VT	39411	84-Month Clinic Visit	1.0	complete	84	2533
+SUB231469	Non-atopic	VT	42466	84-Month Clinic Visit	1.0	complete	84	2566
+SUB231469	Non-atopic	VT	42465	81-Month Clinic Visit	1.0	complete	81	2505
+SUB231470	Non-atopic	VT	41603	81-Month Clinic Visit	1.0	complete	81	2517
+SUB231470	Non-atopic	VT	41604	84-Month Clinic Visit	1.0	complete	84	2554

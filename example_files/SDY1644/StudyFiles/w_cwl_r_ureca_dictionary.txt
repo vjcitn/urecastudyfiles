@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	569	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""W_CWL"", ""W_CWL"")"
+3	4	evid	evid	dbl	numeric	double	701	0	c(296, 19395)
+4	5	event	event	chr	character	character	4	0	"c(""12-Month Clinic Visit"", ""Pollution Monitoring Pickup"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	4	0	"c("".x"", ""pm"")"
+8	9	W_CWL_q1	Source of Weight Information	dbl	numeric	double	4	272	c(1, 3)
+9	10	W_CWL_q2a	Length - Measurement 1	dbl	numeric	double	50	417	c(51.5, 73)
+10	11	W_CWL_q2b	Length - Measurement 2	dbl	numeric	double	54	417	c(51.5, 73)
+11	12	W_CWL_q2c	Length - Measurement 3	dbl	numeric	double	55	417	c(51.5, 73)
+12	13	W_CWL_q2d	Length - Average of 3 Measurements	dbl	numeric	double	97	417	c(51.5, 73)
+13	14	W_CWL_q3	Weight Measured by URECA Staff	dbl	numeric	double	41	418	c(3.9, 8.3)
+14	15	W_CWL_q4	Units of Measurement Used by Caretaker or Clinic	dbl	numeric	double	3	556	c(1, 2)
+15	16	W_CWL_q5a	Clinic Length - Inches	dbl	numeric	double	33	628	c(19, 28.15)
+16	17	W_CWL_q5b1	Clinic Weight - Ibs.	dbl	numeric	double	12	626	c(7, 18)
+17	18	W_CWL_q5b2	Clinic Weight - Oz.	dbl	numeric	double	17	626	c(0, 15)
+18	19	W_CWL_q5c	Clinic Length - Cm	dbl	numeric	double	41	634	c(41, 69.6)
+19	20	W_CWL_q5d	Clinic Weight - Kg	dbl	numeric	double	39	632	c(4, 13.2)
+20	21	aCompletionDY	Completion Day	dbl	numeric	double	196	272	c(65, 1540)
+21	22	W_CWL_q5eDY	Record the Day the Weight was Taken	dbl	numeric	double	84	559	c(0, 349)

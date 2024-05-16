@@ -1,0 +1,1068 @@
+Accession	group	form	version	status	SampleID	aVisit	VDR_q1a1	VDR_q1b1	VDR_q1c1	VDR_q1d1	VDR_q1e1
+		VDR	1.0	incomplete	478854	b	9	9		.o	.o
+		VDR	1.0	incomplete	487786	b				.o	.o
+		VDR	1.0	incomplete	478903	b	10	10		.o	.o
+SUB230862	Atopic	VDR	1.1	complete	893426	48		26.1		1.0	0.5
+SUB230862	Atopic	VDR	1.0	incomplete	465745	b	4	4		.o	.o
+SUB230863	Atopic	VDR	1.0	incomplete	475463	b	5	5		.o	.o
+SUB230863	Atopic	VDR	1.1	complete	893259	48		20.7		1.5	0.5
+SUB230864	Atopic	VDR	1.0	incomplete	465750	b				.o	.o
+SUB230865	Atopic	VDR	1.1	complete	893432	48		23.9		1.4	0.5
+SUB230865	Atopic	VDR	1.0	incomplete	475466	b	8	8		.o	.o
+SUB230866	Atopic	VDR	1.1	complete	893091	36		9.7		.b	0.5
+SUB230866	Atopic	VDR	1.0	incomplete	465748	b	11	11		.o	.o
+SUB230867	Atopic	VDR	1.0	incomplete	465751	b				.o	.o
+SUB230867	Atopic	VDR	1.1	complete	893092	36		11.9		.b	0.5
+SUB230868	Atopic	VDR	1.0	incomplete	465752	b	8	8		.o	.o
+SUB230868	Atopic	VDR	1.1	complete	893429	48		12.7		.b	0.5
+SUB230869	Atopic	VDR	1.1	complete	893093	36		16	4.8	1.4	0.5
+SUB230869	Atopic	VDR	1.0	incomplete	475467	b	8	8		.o	.o
+SUB230870	Atopic	VDR	1.1	complete	893523	36		21.7		1.2	0.5
+SUB230870	Atopic	VDR	1.0	incomplete	465747	b	6	6		.o	.o
+SUB230871	Atopic	VDR	1.0	incomplete	475464	b				.o	.o
+SUB230871	Atopic	VDR	1.1	complete	893262	48		18.8		1.4	0.5
+SUB230872	Atopic	VDR	1.0	incomplete	475470	b				.o	.o
+SUB230872	Atopic	VDR	1.1	complete	893266	48		21		1.0	0.5
+SUB230873	Atopic	VDR	1.0	incomplete	475468	b	8	8		.o	.o
+SUB230874	Atopic	VDR	1.0	incomplete	465760	b				.o	.o
+SUB230874	Atopic	VDR	1.1	complete	893526	36		24		1.6	0.5
+SUB230875	Atopic	VDR	1.0	incomplete	465755	b	7	7		.o	.o
+SUB230876	Atopic	VDR	1.1	complete	893524	36		20.4		.b	0.5
+SUB230876	Atopic	VDR	1.0	incomplete	465761	b	7	7		.o	.o
+SUB230878	Atopic	VDR	1.0	incomplete	475476	b	5	5		.o	.o
+SUB230879	Atopic	VDR	1.0	incomplete	465756	b	10	10		.o	.o
+SUB230880	Atopic	VDR	1.0	incomplete	475474	b	5	5		.o	.o
+SUB230881	Atopic	VDR	1.0	incomplete	465757	b	5	5		.o	.o
+SUB230882	Atopic	VDR	1.1	complete	893198	48		19.4		.b	0.5
+SUB230882	Atopic	VDR	1.0	incomplete	475475	b	7	7		.o	.o
+SUB230883	Atopic	VDR	1.0	incomplete	465763	b	5	5		.o	.o
+SUB230884	Atopic	VDR	1.1	complete	893322	36		31.7		2.3	0.5
+SUB230884	Atopic	VDR	1.0	incomplete	465749	b	11	11		.o	.o
+SUB230885	Atopic	VDR	1.0	incomplete	475465	b	4	4		.o	.o
+SUB230886	Atopic	VDR	1.0	incomplete	475469	b	5	5		.o	.o
+SUB230886	Atopic	VDR	1.1	complete	893116	36		26.1		1.8	0.5
+SUB230887	Atopic	VDR	1.0	incomplete	465762	b	9	9		.o	.o
+SUB230887	Atopic	VDR	1.1	complete	893117	36		17.6		.b	0.5
+SUB230888	Atopic	VDR	1.0	incomplete	475471	b				.o	.o
+SUB230888	Atopic	VDR	1.1	complete	893328	36		22.4		1.3	0.5
+SUB230889	Atopic	VDR	1.0	incomplete	465759	b	5	5		.o	.o
+SUB230889	Atopic	VDR	1.1	complete	893193	48		19.1		1.5	0.5
+SUB230890	Atopic	VDR	1.1	complete	893194	48		16		.b	0.5
+SUB230890	Atopic	VDR	1.0	incomplete	465746	b	7	7		.o	.o
+SUB230891	Atopic	VDR	1.1	complete	893118	36		29.7		2.2	0.5
+SUB230891	Atopic	VDR	1.0	incomplete	475478	b	5	5		.o	.o
+SUB230892	Atopic	VDR	1.1	complete	893326	36		18.9		1.1	0.5
+SUB230892	Atopic	VDR	1.0	incomplete	475487	b	7	7		.o	.o
+SUB230893	Atopic	VDR	1.0	incomplete	465754	b	4	4		.o	.o
+SUB230894	Atopic	VDR	1.0	incomplete	465768	b	6	6		.o	.o
+SUB230894	Atopic	VDR	1.1	complete	893327	36		25.8		1.4	0.5
+SUB230895	Atopic	VDR	1.1	complete	893325	36		18.7		1.1	0.5
+SUB230895	Atopic	VDR	1.0	incomplete	465770	b	6	6		.o	.o
+SUB230896	Atopic	VDR	1.0	incomplete	475472	b				.o	.o
+SUB230897	Atopic	VDR	1.0	incomplete	475481	b	5	5		.o	.o
+SUB230897	Atopic	VDR	1.1	complete	893324	36		26.5		1.5	0.5
+SUB230898	Atopic	VDR	1.0	incomplete	475489	b	6	6		.o	.o
+SUB230899	Atopic	VDR	1.0	incomplete	465766	b	6	6		.o	.o
+SUB230900	Atopic	VDR	1.1	complete	893457	36		15		.b	0.5
+SUB230900	Atopic	VDR	1.0	incomplete	475483	b				.o	.o
+SUB230901	Atopic	VDR	1.0	incomplete	465758	b				.o	.o
+SUB230901	Atopic	VDR	1.1	complete	893456	36		17		.b	0.5
+SUB230902	Atopic	VDR	1.0	incomplete	475490	b	9	9		.o	.o
+SUB230903	Atopic	VDR	1.0	incomplete	475480	b	6	6		.o	.o
+SUB230903	Atopic	VDR	1.1	complete	893174	36		10		.b	0.5
+SUB230904	Atopic	VDR	1.1	complete	893452	36		16.5		1.1	0.5
+SUB230904	Atopic	VDR	1.0	incomplete	475482	b	4	4		.o	.o
+SUB230905	Atopic	VDR	1.0	incomplete	465775	b	9	9		.o	.o
+SUB230905	Atopic	VDR	1.1	complete	893458	36		16.1		.b	0.5
+SUB230906	Atopic	VDR	1.0	incomplete	475486	b				.o	.o
+SUB230907	Atopic	VDR	1.0	incomplete	465765	b	8	8		.o	.o
+SUB230908	Atopic	VDR	1.0	incomplete	465764	b	21	21		.o	.o
+SUB230908	Atopic	VDR	1.1	complete	893173	36		12.7		.b	0.5
+SUB230909	Atopic	VDR	1.0	incomplete	465773	b	7	7		.o	.o
+SUB230909	Atopic	VDR	1.1	complete	893453	36		16.2		.b	0.5
+SUB230910	Atopic	VDR	1.0	incomplete	475477	b	9	9		.o	.o
+SUB230910	Atopic	VDR	1.1	complete	893231	48		14		.b	0.5
+SUB230911	Atopic	VDR	1.0	incomplete	465771	b	8	8		.o	.o
+SUB230911	Atopic	VDR	1.1	complete	893323	36		29.5		1.7	0.5
+SUB230912	Atopic	VDR	1.1	complete	893329	36		16.2		.b	0.5
+SUB230912	Atopic	VDR	1.0	incomplete	475491	b	5	5		.o	.o
+SUB230913	Atopic	VDR	1.1	complete	893199	48		15.2		.b	0.5
+SUB230913	Atopic	VDR	1.0	incomplete	465769	b	8	8		.o	.o
+SUB230914	Atopic	VDR	1.1	complete	893162	36		29.1		1.3	0.5
+SUB230914	Atopic	VDR	1.0	incomplete	465772	b	10	10		.o	.o
+SUB230915	Atopic	VDR	1.0	incomplete	475498	b	7	7		.o	.o
+SUB230915	Atopic	VDR	1.1	complete	893171	36		15.4		.b	0.5
+SUB230916	Atopic	VDR	1.0	incomplete	475473	b				.o	.o
+SUB230916	Atopic	VDR	1.1	complete	893082	48		21.9		1.6	0.5
+SUB230917	Atopic	VDR	1.1	complete	893528	36		11.7		.b	0.5
+SUB230917	Atopic	VDR	1.0	incomplete	475479	b	7	7		.o	.o
+SUB230918	Atopic	VDR	1.0	incomplete	475485	b	10	10		.o	.o
+SUB230919	Atopic	VDR	1.0	incomplete	547810	b	10	10		.o	.o
+SUB230919	Atopic	VDR	1.1	complete	893229	48		14.7		.b	0.5
+SUB230920	Atopic	VDR	1.0	incomplete	475484	b	16	16		.o	.o
+SUB230920	Atopic	VDR	1.1	complete	893330	36		19.9		.b	0.5
+SUB230921	Atopic	VDR	1.0	incomplete	475492	b	13	13		.o	.o
+SUB230921	Atopic	VDR	1.1	complete	893157	36		20		1.1	0.5
+SUB230922	Atopic	VDR	1.0	incomplete	465777	b	8	8		.o	.o
+SUB230922	Atopic	VDR	1.1	complete	893074	48		17.8		1.0	0.5
+SUB230923	Atopic	VDR	1.0	incomplete	475496	b	6	6		.o	.o
+SUB230924	Atopic	VDR	1.0	incomplete	475488	b	8	8		.o	.o
+SUB230924	Atopic	VDR	1.1	complete	893172	36		23.2		.b	0.5
+SUB230925	Atopic	VDR	1.0	incomplete	475493	b	8	8		.o	.o
+SUB230925	Atopic	VDR	1.1	complete	893160	36		18.4		1.1	0.5
+SUB230926	Atopic	VDR	1.0	incomplete	465753	b	6	6		.o	.o
+SUB230927	Atopic	VDR	1.0	incomplete	475502	b				.o	.o
+SUB230927	Atopic	VDR	1.1	complete	893175	36		19.1		1.1	0.5
+SUB230928	Atopic	VDR	1.0	incomplete	475501	b	7	7		.o	.o
+SUB230929	Atopic	VDR	1.0	incomplete	465782	b	6	6		.o	.o
+SUB230929	Atopic	VDR	1.1	complete	893179	36		21.5		1.0	0.5
+SUB230930	Atopic	VDR	1.0	incomplete	475503	b	7	7		.o	.o
+SUB230931	Atopic	VDR	1.0	incomplete	475504	b	11	11		.o	.o
+SUB230932	Atopic	VDR	1.0	incomplete	475497	b	5	5		.o	.o
+SUB230932	Atopic	VDR	1.1	complete	893454	36		26.4		1.2	0.5
+SUB230933	Atopic	VDR	1.0	incomplete	465776	b	9	9		.o	.o
+SUB230933	Atopic	VDR	1.1	complete	893180	36		12.4		.b	0.5
+SUB230934	Atopic	VDR	1.1	complete	893161	36		15.5		.b	0.5
+SUB230934	Atopic	VDR	1.0	incomplete	465774	b	6	6		.o	.o
+SUB230935	Atopic	VDR	1.0	incomplete	475499	b	5	5		.o	.o
+SUB230935	Atopic	VDR	1.1	complete	893200	48		13		.b	0.5
+SUB230936	Atopic	VDR	1.1	complete	893256	36		27.4		3.6	0.5
+SUB230936	Atopic	VDR	1.0	incomplete	475495	b	9	9		.o	.o
+SUB230937	Atopic	VDR	1.1	complete	893164	36		23.9		1.4	0.5
+SUB230937	Atopic	VDR	1.0	incomplete	475505	b				.o	.o
+SUB230938	Atopic	VDR	1.0	incomplete	475506	b				.o	.o
+SUB230938	Atopic	VDR	1.1	complete	893455	36		27.1		1.5	0.5
+SUB230939	Atopic	VDR	1.1	complete	893228	48		11.6		.b	0.5
+SUB230939	Atopic	VDR	1.0	incomplete	465778	b				.o	.o
+SUB230940	Atopic	VDR	1.0	incomplete	465781	b	7	7		.o	.o
+SUB230941	Atopic	VDR	1.0	incomplete	475511	b	5	5		.o	.o
+SUB230941	Atopic	VDR	1.1	complete	893176	36		27.3		1.7	0.5
+SUB230942	Atopic	VDR	1.0	incomplete	465785	b	7	7		.o	.o
+SUB230942	Atopic	VDR	1.1	complete	893165	36		16.6		1.2	0.5
+SUB230943	Atopic	VDR	1.0	incomplete	475512	b	7	7		.o	.o
+SUB230943	Atopic	VDR	1.1	complete	893163	36		11.5		.b	0.5
+SUB230944	Atopic	VDR	1.1	complete	893178	36		22.3		1.2	0.5
+SUB230944	Atopic	VDR	1.0	incomplete	465784	b	8	8		.o	.o
+SUB230945	Atopic	VDR	1.0	incomplete	475507	b				.o	.o
+SUB230945	Atopic	VDR	1.1	complete	893177	36		9.8		.b	0.5
+SUB230946	Atopic	VDR	1.0	incomplete	465767	b	7	7		.o	.o
+SUB230946	Atopic	VDR	1.1	complete	893185	36		23.3		.b	0.5
+SUB230947	Atopic	VDR	1.1	complete	893166	36		16.8		.b	0.5
+SUB230947	Atopic	VDR	1.0	incomplete	465788	b	5	5		.o	.o
+SUB230948	Atopic	VDR	1.1	complete	893167	36		13.3		.b	0.5
+SUB230948	Atopic	VDR	1.0	incomplete	465779	b	11	11		.o	.o
+SUB230949	Atopic	VDR	1.0	incomplete	465797	b	6	6		.o	.o
+SUB230950	Atopic	VDR	1.0	incomplete	465798	b	5	5		.o	.o
+SUB230951	Atopic	VDR	1.0	incomplete	465780	b	5	5		.o	.o
+SUB230951	Atopic	VDR	1.1	complete	893158	36		20.1		.b	0.5
+SUB230952	Atopic	VDR	1.1	complete	893182	36		22.3		1.1	0.5
+SUB230952	Atopic	VDR	1.0	incomplete	475513	b	8	8		.o	.o
+SUB230953	Atopic	VDR	1.0	incomplete	475515	b	5	5		.o	.o
+SUB230953	Atopic	VDR	1.1	complete	893168	36		5.5		.b	0.5
+SUB230954	Atopic	VDR	1.1	complete	893253	36		26.5		2.1	0.5
+SUB230954	Atopic	VDR	1.0	incomplete	465803	b				.o	.o
+SUB230955	Atopic	VDR	1.0	incomplete	465801	b	6	6		.o	.o
+SUB230956	Atopic	VDR	1.0	incomplete	465800	b	4	4		.o	.o
+SUB230957	Atopic	VDR	1.0	incomplete	465783	b	5	5		.o	.o
+SUB230957	Atopic	VDR	1.1	complete	893159	36		15		.b	0.5
+SUB230958	Atopic	VDR	1.1	complete	893221	48		26.2		1.6	0.5
+SUB230958	Atopic	VDR	1.0	incomplete	475517	b	13	13		.o	.o
+SUB230959	Atopic	VDR	1.0	incomplete	465795	b	6	6		.o	.o
+SUB230959	Atopic	VDR	1.1	complete	893100	48		13.6		.b	0.5
+SUB230960	Atopic	VDR	1.0	incomplete	475508	b	7	7		.o	.o
+SUB230961	Atopic	VDR	1.0	incomplete	475500	b	5	5		.o	.o
+SUB230961	Atopic	VDR	1.1	complete	893260	36		17.9		1.3	0.5
+SUB230962	Atopic	VDR	1.0	incomplete	465804	b				.o	.o
+SUB230962	Atopic	VDR	1.1	complete	893155	36		12.8		.b	0.5
+SUB230963	Atopic	VDR	1.0	incomplete	465789	b				.o	.o
+SUB230963	Atopic	VDR	1.1	complete	893263	36		25.2		1.7	0.5
+SUB230964	Atopic	VDR	1.1	complete	893169	36		15.5		.b	0.5
+SUB230964	Atopic	VDR	1.0	incomplete	475510	b				.o	.o
+SUB230965	Atopic	VDR	1.0	incomplete	475521	b				.o	.o
+SUB230965	Atopic	VDR	1.1	complete	893170	36		13.8		.b	0.5
+SUB230966	Atopic	VDR	1.1	complete	893181	36		15.1		1.0	0.5
+SUB230966	Atopic	VDR	1.0	incomplete	465786	b				.o	.o
+SUB230967	Atopic	VDR	1.1	complete	893257	36		23.1		1.6	0.5
+SUB230967	Atopic	VDR	1.0	incomplete	465787	b				.o	.o
+SUB230968	Atopic	VDR	1.0	incomplete	475514	b				.o	.o
+SUB230968	Atopic	VDR	1.1	complete	893219	48		18.9		1.1	0.5
+SUB230969	Atopic	VDR	1.0	incomplete	465796	b	8	8		.o	.o
+SUB230969	Atopic	VDR	1.1	complete	893261	36		19.1		1.3	0.5
+SUB230970	Atopic	VDR	1.0	incomplete	465790	b	6	6		.o	.o
+SUB230971	Atopic	VDR	1.0	incomplete	465805	b				.o	.o
+SUB230971	Atopic	VDR	1.1	complete	893184	36		12.4		.b	0.5
+SUB230972	Atopic	VDR	1.1	complete	893254	36		16.4		1.2	0.5
+SUB230972	Atopic	VDR	1.0	incomplete	465807	b	4	4		.o	.o
+SUB230973	Atopic	VDR	1.0	incomplete	475522	b	12	12		.o	.o
+SUB230973	Atopic	VDR	1.1	complete	893183	36		27.3		2.4	0.5
+SUB230974	Atopic	VDR	1.1	complete	893258	36		26.8		2.0	0.5
+SUB230974	Atopic	VDR	1.0	incomplete	465791	b				.o	.o
+SUB230975	Atopic	VDR	1.0	incomplete	465793	b	8	8		.o	.o
+SUB230975	Atopic	VDR	1.1	complete	893423	36		14.1		.b	0.5
+SUB230976	Atopic	VDR	1.0	incomplete	465802	b	5	5		.o	.o
+SUB230976	Atopic	VDR	1.1	complete	893255	36		15.3		.b	0.5
+SUB230977	Atopic	VDR	1.0	incomplete	475525	b	7	7		.o	.o
+SUB230977	Atopic	VDR	1.1	complete	893267	36		17.6		1.3	0.5
+SUB230978	Atopic	VDR	1.0	incomplete	475527	b	5	5		.o	.o
+SUB230978	Atopic	VDR	1.1	complete	893156	36		29.2		3.3	0.5
+SUB230979	Atopic	VDR	1.1	complete	893431	36		13.8		.b	0.5
+SUB230979	Atopic	VDR	1.0	incomplete	475509	b	6	6		.o	.o
+SUB230980	Atopic	VDR	1.0	incomplete	475523	b	8	8		.o	.o
+SUB230981	Atopic	VDR	1.1	complete	893422	36		21.9		1.5	0.5
+SUB230981	Atopic	VDR	1.0	incomplete	465792	b				.o	.o
+SUB230982	Atopic	VDR	1.0	incomplete	465799	b	7	7		.o	.o
+SUB230982	Atopic	VDR	1.1	complete	893215	48		23.6		1.7	0.5
+SUB230983	Atopic	VDR	1.1	complete	893424	36		25.2		1.7	0.5
+SUB230983	Atopic	VDR	1.0	incomplete	465810	b				.o	.o
+SUB230984	Atopic	VDR	1.0	incomplete	475528	b	6	6		.o	.o
+SUB230984	Atopic	VDR	1.1	complete	893428	36		25.1		1.1	0.5
+SUB230985	Atopic	VDR	1.1	complete	893268	36		22.8		1.2	0.5
+SUB230985	Atopic	VDR	1.0	incomplete	465811	b	5	5		.o	.o
+SUB230986	Atopic	VDR	1.0	incomplete	475526	b	6	6		.o	.o
+SUB230986	Atopic	VDR	1.1	complete	893218	48		16.2		1.1	0.5
+SUB230987	Atopic	VDR	1.1	complete	893099	48		22.8		1.3	0.5
+SUB230987	Atopic	VDR	1.0	incomplete	475524	b	7	7		.o	.o
+SUB230988	Atopic	VDR	1.1	complete	893252	36		16.3		1.3	0.5
+SUB230988	Atopic	VDR	1.0	incomplete	475516	b	6	6		.o	.o
+SUB230989	Atopic	VDR	1.0	incomplete	475531	b	7	7		.o	.o
+SUB230989	Atopic	VDR	1.1	complete	893076	36		29.1		1.6	0.5
+SUB230990	Atopic	VDR	1.1	complete	893420	36		23.5		1.3	0.5
+SUB230990	Atopic	VDR	1.0	incomplete	465815	b	5	5		.o	.o
+SUB230991	Atopic	VDR	1.0	incomplete	475535	b	6	6		.o	.o
+SUB230991	Atopic	VDR	1.1	complete	893433	36		29.2		2.0	0.5
+SUB230992	Atopic	VDR	1.0	incomplete	475520	b	7	7		.o	.o
+SUB230993	Atopic	VDR	1.1	complete	893425	36		21.5		1.4	0.5
+SUB230993	Atopic	VDR	1.0	incomplete	465794	b	7	7		.o	.o
+SUB230994	Atopic	VDR	1.1	complete	893195	36		13.1		.b	0.5
+SUB230994	Atopic	VDR	1.0	incomplete	475534	b	9	9		.o	.o
+SUB230995	Atopic	VDR	1.0	incomplete	465816	b	5	5		.o	.o
+SUB230995	Atopic	VDR	1.1	complete	893196	36		15.9		.b	0.5
+SUB230996	Atopic	VDR	1.0	incomplete	475518	b	4	4		.o	.o
+SUB230997	Atopic	VDR	1.1	complete	893077	36		26.2		1.7	0.5
+SUB230997	Atopic	VDR	1.0	incomplete	475532	b	16	16		.o	.o
+SUB230998	Atopic	VDR	1.0	incomplete	475538	b	8	8		.o	.o
+SUB230998	Atopic	VDR	1.1	complete	893264	36		35		3.0	0.5
+SUB230999	Non-atopic	VDR	1.1	complete	893459	36		12.6		.b	0.5
+SUB230999	Non-atopic	VDR	1.0	incomplete	475536	b				.o	.o
+SUB231000	Atopic	VDR	1.0	incomplete	465808	b	4	4		.o	.o
+SUB231000	Atopic	VDR	1.1	complete	893222	48		18.6		1.4	0.5
+SUB231001	Atopic	VDR	1.1	complete	893427	36		12.8		.b	0.5
+SUB231001	Atopic	VDR	1.0	incomplete	465806	b	4	4		.o	.o
+SUB231002	Atopic	VDR	1.0	incomplete	475541	b	9	9		.o	.o
+SUB231002	Atopic	VDR	1.1	complete	893220	48		16.1		.b	0.5
+SUB231003	Atopic	VDR	1.0	incomplete	465814	b	6	6		.o	.o
+SUB231004	Atopic	VDR	1.1	complete	893430	36		37.2		2.2	0.5
+SUB231004	Atopic	VDR	1.0	incomplete	465820	b	6	6		.o	.o
+SUB231005	Atopic	VDR	1.0	incomplete	465822	b	7	7		.o	.o
+SUB231005	Atopic	VDR	1.1	complete	893265	36		23.6		1.9	0.5
+SUB231006	Atopic	VDR	1.1	complete	893072	36		23.8		1.6	0.5
+SUB231006	Atopic	VDR	1.0	incomplete	475519	b	8	8		.o	.o
+SUB231007	Atopic	VDR	1.1	complete	893080	36		30.4		2.0	0.5
+SUB231007	Atopic	VDR	1.0	incomplete	465819	b	5	5		.o	.o
+SUB231008	Atopic	VDR	1.0	incomplete	475533	b	9	9		.o	.o
+SUB231009	Atopic	VDR	1.0	incomplete	475540	b	10	10		.o	.o
+SUB231010	Non-atopic	VDR	1.0	incomplete	475542	b	9	9		.o	.o
+SUB231011	Atopic	VDR	1.0	incomplete	475543	b	6	6		.o	.o
+SUB231011	Atopic	VDR	1.1	complete	893078	36		12.6		.b	0.5
+SUB231012	Atopic	VDR	1.0	incomplete	465812	b	6	6		.o	.o
+SUB231012	Atopic	VDR	1.1	complete	893073	36		12.3		.b	0.5
+SUB231013	Atopic	VDR	1.0	incomplete	465809	b	6	6		.o	.o
+SUB231013	Atopic	VDR	1.1	complete	893081	36		31.4		1.4	0.5
+SUB231014	Atopic	VDR	1.0	incomplete	475539	b	11	11		.o	.o
+SUB231014	Atopic	VDR	1.1	complete	893421	36		15.9	2.6	1.1	0.5
+SUB231015	Non-atopic	VDR	1.1	complete	893070	36		18.1		1.1	0.5
+SUB231015	Non-atopic	VDR	1.0	incomplete	475537	b	8	8		.o	.o
+SUB231016	Atopic	VDR	1.0	incomplete	465813	b	6	6		.o	.o
+SUB231016	Atopic	VDR	1.1	complete	893079	36		35		2.5	0.5
+SUB231017	Non-atopic	VDR	1.0	incomplete	465818	b	7	7		.o	.o
+SUB231017	Non-atopic	VDR	1.1	complete	893071	36		19.3		1.4	0.5
+SUB231018	Atopic	VDR	1.0	incomplete	475529	b	5	5		.o	.o
+SUB231019	Atopic	VDR	1.0	incomplete	475530	b	9	9		.o	.o
+SUB231019	Atopic	VDR	1.1	complete	893230	36		18.4		.b	0.5
+SUB231020	Atopic	VDR	1.0	incomplete	465823	b	9	9		.o	.o
+SUB231021	Atopic	VDR	1.1	complete	893232	36		14.8		.b	0.5
+SUB231021	Atopic	VDR	1.0	incomplete	465817	b	5	5		.o	.o
+SUB231022	Non-atopic	VDR	1.0	incomplete	465821	b	6	6		.o	.o
+SUB231022	Non-atopic	VDR	1.1	complete	893075	36		25.1		1.8	0.5
+SUB231023	Non-atopic	VDR	1.0	incomplete	475544	b	9	9		.o	.o
+SUB231024	Non-atopic	VDR	1.1	complete	893214	36		12		.b	0.5
+SUB231024	Non-atopic	VDR	1.0	incomplete	465824	b	4	4		.o	.o
+SUB231025	Atopic	VDR	1.0	incomplete	475545	b	15	15		.o	.o
+SUB231025	Atopic	VDR	1.1	complete	893216	36		29.1		1.2	0.5
+SUB231026	Atopic	VDR	1.0	incomplete	475546	b	8	8		.o	.o
+SUB231026	Atopic	VDR	1.1	complete	893197	36		6.3		.b	0.5
+SUB231027	Atopic	VDR	1.0	incomplete	487771	b	4	4		.o	.o
+SUB231028	Atopic	VDR	1.0	incomplete	512785	b				.o	.o
+SUB231028	Atopic	VDR	1.1	complete	893519	36		15.6		.b	0.5
+SUB231029	Atopic	VDR	1.0	incomplete	475563	b	6	6		.o	.o
+SUB231029	Atopic	VDR	1.1	complete	893104	36		13.7		.b	0.5
+SUB231030	Atopic	VDR	1.0	incomplete	512782	b				.o	.o
+SUB231031	Atopic	VDR	1.0	incomplete	475559	b	5	5		.o	.o
+SUB231031	Atopic	VDR	1.1	complete	893445	48		27.2		1.8	0.5
+SUB231032	Atopic	VDR	1.0	incomplete	475560	b	8	8		.o	.o
+SUB231033	Atopic	VDR	1.0	incomplete	475564	b				.o	.o
+SUB231034	Atopic	VDR	1.0	incomplete	512786	b	5	5		.o	.o
+SUB231035	Atopic	VDR	1.0	incomplete	512781	b	7	7		.o	.o
+SUB231035	Atopic	VDR	1.1	complete	893105	36		23.5		2.0	0.5
+SUB231036	Atopic	VDR	1.0	incomplete	512784	b				.o	.o
+SUB231036	Atopic	VDR	1.1	complete	893525	36		24.7		1.6	0.5
+SUB231037	Atopic	VDR	1.0	incomplete	475571	b	4	4		.o	.o
+SUB231038	Atopic	VDR	1.0	incomplete	475567	b	4	4		.o	.o
+SUB231039	Atopic	VDR	1.1	complete	893512	36		15.4	3.5	1.1	0.5
+SUB231039	Atopic	VDR	1.0	incomplete	487776	b				.o	.o
+SUB231040	Atopic	VDR	1.0	incomplete	487774	b	8	8		.o	.o
+SUB231040	Atopic	VDR	1.1	complete	893315	36		19.7	2	14.6	0.5
+SUB231041	Atopic	VDR	1.1	complete	893312	36		17.5	3.4	.b	0.5
+SUB231041	Atopic	VDR	1.0	incomplete	487778	b				.o	.o
+SUB231042	Atopic	VDR	1.1	complete	893511	36		15.8		.b	0.5
+SUB231042	Atopic	VDR	1.0	incomplete	475575	b				.o	.o
+SUB231043	Atopic	VDR	1.0	incomplete	487779	b				.o	.o
+SUB231043	Atopic	VDR	1.1	complete	893384	36		22.1		1.2	0.5
+SUB231044	Atopic	VDR	1.1	complete	893313	36		20.9		3.1	0.5
+SUB231044	Atopic	VDR	1.0	incomplete	475572	b				.o	.o
+SUB231045	Atopic	VDR	1.0	incomplete	487772	b				.o	.o
+SUB231045	Atopic	VDR	1.1	complete	893310	36		9.3	2.6	.b	0.5
+SUB231046	Atopic	VDR	1.0	incomplete	512788	b				.o	.o
+SUB231047	Atopic	VDR	1.0	incomplete	512780	b	7	7		.o	.o
+SUB231047	Atopic	VDR	1.1	complete	893316	36		17.3		1.8	0.5
+SUB231048	Atopic	VDR	1.1	complete	893314	36		29.8		1.7	0.5
+SUB231048	Atopic	VDR	1.0	incomplete	487777	b	4	4		.o	.o
+SUB231049	Atopic	VDR	1.1	complete	893345	36		22.2		1.4	0.5
+SUB231049	Atopic	VDR	1.0	incomplete	475569	b	6	6		.o	.o
+SUB231050	Atopic	VDR	1.0	incomplete	475562	b				.o	.o
+SUB231050	Atopic	VDR	1.1	complete	893342	36		21.6	2.8	.b	0.5
+SUB231051	Atopic	VDR	1.0	incomplete	475561	b	6	6		.o	.o
+SUB231051	Atopic	VDR	1.1	complete	893280	48		18.4		.b	0.5
+SUB231052	Atopic	VDR	1.0	incomplete	475565	b				.o	.o
+SUB231052	Atopic	VDR	1.1	complete	893311	36		14.3		.b	0.5
+SUB231053	Atopic	VDR	1.1	complete	893344	36		24.3		1.7	0.5
+SUB231053	Atopic	VDR	1.0	incomplete	475579	b	5	5		.o	.o
+SUB231054	Atopic	VDR	1.1	complete	893379	36		16.9		1.1	0.5
+SUB231054	Atopic	VDR	1.0	incomplete	475570	b	6	6		.o	.o
+SUB231055	Atopic	VDR	1.1	complete	893292	48		23	2.2	1.6	0.5
+SUB231055	Atopic	VDR	1.0	incomplete	475576	b	4	4		.o	.o
+SUB231056	Atopic	VDR	1.0	incomplete	475568	b				.o	.o
+SUB231057	Atopic	VDR	1.1	complete	893343	36		20.9		1.4	0.5
+SUB231057	Atopic	VDR	1.0	incomplete	487781	b				.o	.o
+SUB231058	Atopic	VDR	1.0	incomplete	512783	b	5	5		.o	.o
+SUB231058	Atopic	VDR	1.1	complete	893510	36		13.8		.b	0.5
+SUB231059	Atopic	VDR	1.1	complete	893437	36		13.8	12.2	.b	0.5
+SUB231059	Atopic	VDR	1.0	incomplete	512787	b	7	7		.o	.o
+SUB231060	Atopic	VDR	1.1	complete	893136	48		15.7		.b	0.5
+SUB231060	Atopic	VDR	1.0	incomplete	475573	b				.o	.o
+SUB231061	Atopic	VDR	1.0	incomplete	512789	b	5	5		.o	.o
+SUB231061	Atopic	VDR	1.1	complete	893383	36		7.1	11.1	.b	0.5
+SUB231062	Atopic	VDR	1.0	incomplete	487775	b				.o	.o
+SUB231063	Atopic	VDR	1.1	complete	893346	36		17.2		1.0	0.5
+SUB231063	Atopic	VDR	1.0	incomplete	487773	b				.o	.o
+SUB231064	Atopic	VDR	1.0	incomplete	475566	b	5	5		.o	.o
+SUB231064	Atopic	VDR	1.1	complete	893435	36		17.5	3.9	.b	0.5
+SUB231065	Atopic	VDR	1.1	complete	893434	36		16.9		.b	0.5
+SUB231065	Atopic	VDR	1.0	incomplete	487780	b				.o	.o
+SUB231066	Atopic	VDR	1.0	incomplete	475574	b	7	7		.o	.o
+SUB231066	Atopic	VDR	1.1	complete	893388	36		17.9		1.0	0.5
+SUB231067	Atopic	VDR	1.1	complete	893438	36		16.8		.b	0.5
+SUB231067	Atopic	VDR	1.0	incomplete	475581	b				.o	.o
+SUB231068	Atopic	VDR	1.0	incomplete	512797	b	4	4		.o	.o
+SUB231069	Atopic	VDR	1.0	incomplete	475590	b	6	6		.o	.o
+SUB231070	Atopic	VDR	1.0	incomplete	475587	b				.o	.o
+SUB231070	Atopic	VDR	1.1	complete	893444	36		6.7		.b	0.5
+SUB231071	Atopic	VDR	1.0	incomplete	475584	b				.o	.o
+SUB231071	Atopic	VDR	1.1	complete	893436	36		16		.b	0.5
+SUB231072	Atopic	VDR	1.0	incomplete	512800	b	6	6		.o	.o
+SUB231072	Atopic	VDR	1.1	complete	893385	36		24.9		1.5	0.5
+SUB231073	Atopic	VDR	1.1	complete	893381	36		27.4		2.2	0.5
+SUB231073	Atopic	VDR	1.0	incomplete	475591	b				.o	.o
+SUB231074	Atopic	VDR	1.1	complete	893390	36		9.3		.b	0.5
+SUB231074	Atopic	VDR	1.0	incomplete	475588	b				.o	.o
+SUB231075	Atopic	VDR	1.0	incomplete	512790	b	7	7		.o	.o
+SUB231075	Atopic	VDR	1.1	complete	893439	36		17.1		.b	0.5
+SUB231076	Atopic	VDR	1.1	complete	893449	36		10.9		.b	0.5
+SUB231076	Atopic	VDR	1.0	incomplete	475578	b	5	5		.o	.o
+SUB231077	Atopic	VDR	1.0	incomplete	512792	b	5	5		.o	.o
+SUB231078	Atopic	VDR	1.0	incomplete	475586	b	6	6		.o	.o
+SUB231078	Atopic	VDR	1.1	complete	893389	36		19		1.0	0.5
+SUB231079	Atopic	VDR	1.1	complete	893380	36		29.7		1.8	0.5
+SUB231079	Atopic	VDR	1.0	incomplete	512793	b				.o	.o
+SUB231080	Atopic	VDR	1.1	complete	893395	36		12.3		.b	0.5
+SUB231080	Atopic	VDR	1.0	incomplete	475577	b	5	5		.o	.o
+SUB231081	Atopic	VDR	1.0	incomplete	512791	b	5	5		.o	.o
+SUB231081	Atopic	VDR	1.1	complete	893386	36		23.8		1.8	0.5
+SUB231082	Atopic	VDR	1.0	incomplete	487782	b				.o	.o
+SUB231082	Atopic	VDR	1.1	complete	893096	48		17.6	5.3	1.3	0.5
+SUB231083	Atopic	VDR	1.1	complete	893396	36		13.9	2.6	.b	0.5
+SUB231083	Atopic	VDR	1.0	incomplete	475582	b	5	5		.o	.o
+SUB231084	Atopic	VDR	1.1	complete	893387	36		9		.b	0.5
+SUB231084	Atopic	VDR	1.0	incomplete	512795	b				.o	.o
+SUB231085	Atopic	VDR	1.0	incomplete	475604	b	5	5		.o	.o
+SUB231086	Atopic	VDR	1.1	complete	893391	36		14.3		.b	0.5
+SUB231086	Atopic	VDR	1.0	incomplete	512794	b	5	5		.o	.o
+SUB231087	Atopic	VDR	1.0	incomplete	487787	b				.o	.o
+SUB231087	Atopic	VDR	1.1	complete	893393	36		18.4	2.4	1.0	0.5
+SUB231088	Atopic	VDR	1.0	incomplete	475583	b	5	5		.o	.o
+SUB231089	Atopic	VDR	1.0	incomplete	475597	b	4	4		.o	.o
+SUB231090	Atopic	VDR	1.0	incomplete	475580	b	5	5		.o	.o
+SUB231091	Atopic	VDR	1.0	incomplete	512796	b				.o	.o
+SUB231091	Atopic	VDR	1.1	complete	893392	36		13.2		.b	0.5
+SUB231092	Atopic	VDR	1.0	incomplete	475585	b	4	4		.o	.o
+SUB231092	Atopic	VDR	1.1	complete	893276	36		29.1		1.7	0.5
+SUB231093	Atopic	VDR	1.0	incomplete	487784	b				.o	.o
+SUB231093	Atopic	VDR	1.1	complete	893382	36		10.5	3.9	.b	0.5
+SUB231094	Atopic	VDR	1.1	complete	893413	36		15.8	1.9	1.1	0.5
+SUB231094	Atopic	VDR	1.0	incomplete	487783	b	11	11		.o	.o
+SUB231095	Atopic	VDR	1.1	complete	893415	36		22	4.2	1.6	0.5
+SUB231095	Atopic	VDR	1.0	incomplete	475589	b				.o	.o
+SUB231096	Atopic	VDR	1.0	incomplete	512804	b	15	15		.o	.o
+SUB231096	Atopic	VDR	1.1	complete	893394	36		21.8		1.0	0.5
+SUB231097	Atopic	VDR	1.0	incomplete	475595	b	6	6		.o	.o
+SUB231097	Atopic	VDR	1.1	complete	893466	36		24	1.7	3.4	0.5
+SUB231098	Atopic	VDR	1.0	incomplete	475606	b	7	7		.o	.o
+SUB231098	Atopic	VDR	1.1	complete	893446	36		18.3		1.0	0.5
+SUB231099	Atopic	VDR	1.0	incomplete	475599	b	5	5		.o	.o
+SUB231100	Atopic	VDR	1.0	incomplete	512805	b	4	4		.o	.o
+SUB231100	Atopic	VDR	1.1	complete	893270	36		18.5		1.1	0.5
+SUB231101	Atopic	VDR	1.1	complete	893273	36		10.6		.b	0.5
+SUB231101	Atopic	VDR	1.0	incomplete	475596	b	8	8		.o	.o
+SUB231102	Atopic	VDR	1.0	incomplete	512799	b				.o	.o
+SUB231102	Atopic	VDR	1.1	complete	893448	36		23.4		1.1	0.5
+SUB231103	Atopic	VDR	1.0	incomplete	475592	b	9	9		.o	.o
+SUB231104	Atopic	VDR	1.0	incomplete	475594	b	7	7		.o	.o
+SUB231104	Atopic	VDR	1.1	complete	893460	36		15.6	7.1	1.1	0.5
+SUB231105	Atopic	VDR	1.0	incomplete	512798	b	6	6		.o	.o
+SUB231105	Atopic	VDR	1.1	complete	893464	36		19.7		1.3	0.5
+SUB231106	Atopic	VDR	1.1	complete	893411	36		21.4		1.5	0.5
+SUB231106	Atopic	VDR	1.0	incomplete	487785	b				.o	.o
+SUB231107	Atopic	VDR	1.0	incomplete	512811	b	5	5		.o	.o
+SUB231107	Atopic	VDR	1.1	complete	893450	36		19.9		1.5	0.5
+SUB231108	Atopic	VDR	1.0	incomplete	512814	b	11	11		.o	.o
+SUB231108	Atopic	VDR	1.1	complete	893274	36		18.9	4	1.6	0.5
+SUB231109	Atopic	VDR	1.1	complete	893416	36		19.3		.b	0.5
+SUB231109	Atopic	VDR	1.0	incomplete	475607	b				.o	.o
+SUB231110	Atopic	VDR	1.0	incomplete	487788	b				.o	.o
+SUB231110	Atopic	VDR	1.1	complete	893412	36		15.3	5.2	1.2	0.5
+SUB231111	Atopic	VDR	1.0	incomplete	512801	b	6	6		.o	.o
+SUB231112	Atopic	VDR	1.0	incomplete	512808	b				.o	.o
+SUB231113	Atopic	VDR	1.0	incomplete	475608	b	5	5		.o	.o
+SUB231113	Atopic	VDR	1.1	complete	893461	36		22.4		1.6	0.5
+SUB231114	Atopic	VDR	1.0	incomplete	487792	b				.o	.o
+SUB231115	Atopic	VDR	1.0	incomplete	512802	b	5	5		.o	.o
+SUB231115	Atopic	VDR	1.1	complete	893278	36		29.2		2.0	0.5
+SUB231116	Atopic	VDR	1.0	incomplete	475618	b	7	7		.o	.o
+SUB231116	Atopic	VDR	1.1	complete	893462	36		33.1	5.2	1.7	0.5
+SUB231117	Atopic	VDR	1.0	incomplete	512806	b	5	5		.o	.o
+SUB231117	Atopic	VDR	1.1	complete	893447	36		16.9		.b	0.5
+SUB231118	Atopic	VDR	1.1	complete	893283	36		22.3		1.3	0.5
+SUB231118	Atopic	VDR	1.0	incomplete	475611	b	4	4		.o	.o
+SUB231119	Atopic	VDR	1.0	incomplete	512822	b	10	10		.o	.o
+SUB231119	Atopic	VDR	1.1	complete	893410	36		25		2.8	0.5
+SUB231120	Atopic	VDR	1.0	incomplete	475616	b	9	9		.o	.o
+SUB231120	Atopic	VDR	1.1	complete	893418	36		33.6		2.8	0.5
+SUB231121	Atopic	VDR	1.0	incomplete	546582	b	9	9		.o	.o
+SUB231121	Atopic	VDR	1.1	complete	893137	36		14.4		.b	0.5
+SUB231122	Atopic	VDR	1.0	incomplete	512807	b	4	4		.o	.o
+SUB231122	Atopic	VDR	1.1	complete	893285	36		5.8		.b	0.5
+SUB231123	Atopic	VDR	1.1	complete	893463	36		21.5		1.0	0.5
+SUB231123	Atopic	VDR	1.0	incomplete	475598	b	5	5		.o	.o
+SUB231124	Atopic	VDR	1.0	incomplete	512803	b	11	11		.o	.o
+SUB231125	Atopic	VDR	1.1	complete	893414	36		21.4		1.1	0.5
+SUB231125	Atopic	VDR	1.0	incomplete	475593	b	5	5		.o	.o
+SUB231126	Atopic	VDR	1.0	incomplete	512810	b	14	14		.o	.o
+SUB231127	Atopic	VDR	1.0	incomplete	475627	b	5	5		.o	.o
+SUB231127	Atopic	VDR	1.1	complete	893451	36		14	1.9	.b	0.5
+SUB231128	Atopic	VDR	1.0	incomplete	475629	b	17	17		.o	.o
+SUB231128	Atopic	VDR	1.1	complete	893275	36		26.2		2.3	0.5
+SUB231129	Non-atopic	VDR	1.0	incomplete	475626	b	5	5		.o	.o
+SUB231130	Atopic	VDR	1.0	incomplete	546584	b				.o	.o
+SUB231130	Atopic	VDR	1.1	complete	893282	36		11.9		.b	0.5
+SUB231131	Atopic	VDR	1.0	incomplete	475610	b				.o	.o
+SUB231131	Atopic	VDR	1.1	complete	893465	36		14		.b	0.5
+SUB231132	Atopic	VDR	1.0	incomplete	512809	b	8	8		.o	.o
+SUB231132	Atopic	VDR	1.1	complete	893223	48		28.7		1.9	0.5
+SUB231133	Atopic	VDR	1.0	incomplete	512813	b	7	7		.o	.o
+SUB231133	Atopic	VDR	1.1	complete	893417	36		24	1.4	1.7	0.5
+SUB231134	Atopic	VDR	1.0	incomplete	487795	b				.o	.o
+SUB231134	Atopic	VDR	1.1	complete	893419	36		26.8		2.1	0.5
+SUB231135	Atopic	VDR	1.0	incomplete	475605	b	6	6		.o	.o
+SUB231135	Atopic	VDR	1.1	complete	893286	36		21.9		1.2	0.5
+SUB231136	Atopic	VDR	1.0	incomplete	512818	b	14	14		.o	.o
+SUB231137	Atopic	VDR	1.0	incomplete	546583	b	4	4		.o	.o
+SUB231138	Atopic	VDR	1.0	incomplete	475600	b	5	5		.o	.o
+SUB231138	Atopic	VDR	1.1	complete	893271	36		14.9		.b	0.5
+SUB231139	Atopic	VDR	1.0	incomplete	487790	b	4	4		.o	.o
+SUB231139	Atopic	VDR	1.1	complete	893269	36		21.3		2.1	0.5
+SUB231140	Atopic	VDR	1.0	incomplete	475613	b	5	5		.o	.o
+SUB231141	Atopic	VDR	1.0	incomplete	512812	b	7	7		.o	.o
+SUB231141	Atopic	VDR	1.1	complete	893272	36		15.1		.b	0.5
+SUB231142	Atopic	VDR	1.0	incomplete	512820	b	5	5		.o	.o
+SUB231142	Atopic	VDR	1.1	complete	893284	36		21.3		1.8	0.5
+SUB231143	Non-atopic	VDR	1.0	incomplete	487791	b	6	6		.o	.o
+SUB231143	Non-atopic	VDR	1.1	complete	893202	36		21.2		2.3	0.5
+SUB231144	Atopic	VDR	1.0	incomplete	475630	b	5	5		.o	.o
+SUB231144	Atopic	VDR	1.1	complete	893288	36		16.2	3.2	.b	0.5
+SUB231145	Non-atopic	VDR	1.0	incomplete	512817	b				.o	.o
+SUB231145	Non-atopic	VDR	1.1	complete	893281	36		19.7		2.5	0.5
+SUB231146	Atopic	VDR	1.0	incomplete	475609	b	7	7		.o	.o
+SUB231146	Atopic	VDR	1.1	complete	893279	36		23.8		1.3	0.5
+SUB231147	Non-atopic	VDR	1.0	incomplete	475633	b	8	8		.o	.o
+SUB231147	Non-atopic	VDR	1.1	complete	893277	36		18.6		1.0	0.5
+SUB231148	Atopic	VDR	1.0	incomplete	512815	b	13	13		.o	.o
+SUB231148	Atopic	VDR	1.1	complete	893201	36		28.1		2.2	0.5
+SUB231149	Atopic	VDR	1.1	complete	893132	36		10		.b	0.5
+SUB231149	Atopic	VDR	1.0	incomplete	487789	b				.o	.o
+SUB231150	Atopic	VDR	1.0	incomplete	475614	b	6	6		.o	.o
+SUB231151	Non-atopic	VDR	1.0	incomplete	475617	b				.o	.o
+SUB231151	Non-atopic	VDR	1.1	complete	893289	36		17.6		1.0	0.5
+SUB231152	Atopic	VDR	1.0	incomplete	475603	b	10	10		.o	.o
+SUB231153	Non-atopic	VDR	1.0	incomplete	475619	b	7	7		.o	.o
+SUB231153	Non-atopic	VDR	1.1	complete	893130	36		6.6	10.2	.b	0.5
+SUB231154	Non-atopic	VDR	1.0	incomplete	512816	b	8	8		.o	.o
+SUB231154	Non-atopic	VDR	1.1	complete	893098	36		14.9		.b	0.5
+SUB231155	Atopic	VDR	1.0	incomplete	487794	b				.o	.o
+SUB231155	Atopic	VDR	1.1	complete	893095	36		21.4	2.3	1.3	0.5
+SUB231156	Non-atopic	VDR	1.1	complete	893129	36		16.6	2.7	1.1	0.5
+SUB231156	Non-atopic	VDR	1.0	incomplete	475625	b	14	14		.o	.o
+SUB231157	Non-atopic	VDR	1.0	incomplete	475628	b	7	7		.o	.o
+SUB231158	Non-atopic	VDR	1.0	incomplete	512819	b	10	10		.o	.o
+SUB231158	Non-atopic	VDR	1.1	complete	893291	36		19.5		.b	0.5
+SUB231159	Atopic	VDR	1.0	incomplete	475620	b	5	5		.o	.o
+SUB231159	Atopic	VDR	1.1	complete	893134	36		15.8		.b	0.5
+SUB231160	Atopic	VDR	1.0	incomplete	512821	b	10	10		.o	.o
+SUB231161	Atopic	VDR	1.0	incomplete	475615	b				.o	.o
+SUB231161	Atopic	VDR	1.1	complete	893290	36		18		1.4	0.5
+SUB231162	Atopic	VDR	1.0	incomplete	475621	b	7	7		.o	.o
+SUB231163	Atopic	VDR	1.1	complete	893135	36		18.1	2.1	1.1	0.5
+SUB231163	Atopic	VDR	1.0	incomplete	475622	b	7	7		.o	.o
+SUB231164	Atopic	VDR	1.0	incomplete	475631	b	13	13		.o	.o
+SUB231165	Atopic	VDR	1.0	incomplete	475623	b	5	5		.o	.o
+SUB231166	Atopic	VDR	1.0	incomplete	475624	b	7	7		.o	.o
+SUB231166	Atopic	VDR	1.1	complete	893133	36		15.6	2.8	.b	0.5
+SUB231167	Atopic	VDR	1.0	incomplete	487793	b	6	6		.o	.o
+SUB231167	Atopic	VDR	1.1	complete	893287	36		28.6		2.0	0.5
+SUB231168	Atopic	VDR	1.0	incomplete	475632	b	7	7		.o	.o
+SUB231168	Atopic	VDR	1.1	complete	893131	36		13.8	4.7	.b	0.5
+SUB231169	Non-atopic	VDR	1.0	incomplete	475634	b	5	5		.o	.o
+SUB231169	Non-atopic	VDR	1.1	complete	893293	36		15.5	2.2	1.2	0.5
+SUB231170	Non-atopic	VDR	1.0	incomplete	512823	b	6	6		.o	.o
+SUB231171	Non-atopic	VDR	1.0	incomplete	512824	b	5	5		.o	.o
+SUB231171	Non-atopic	VDR	1.1	complete	893203	36		16.4		.b	0.5
+SUB231172	Non-atopic	VDR	1.0	incomplete	512825	b	7	7		.o	.o
+SUB231172	Non-atopic	VDR	1.1	complete	893097	36		13.5	8.9	1.2	0.5
+SUB231173	Atopic	VDR	1.0	incomplete	487796	b	8	8		.o	.o
+SUB231173	Atopic	VDR	1.1	complete	893399	48		15.7	4.1	.b	0.5
+SUB231174	Atopic	VDR	1.0	incomplete	487802	b	8	8		.o	.o
+SUB231176	Atopic	VDR	1.0	incomplete	487811	b				.o	.o
+SUB231176	Atopic	VDR	1.1	complete	893094	36		23.5		1.8	0.5
+SUB231177	Atopic	VDR	1.0	incomplete	487807	b				.o	.o
+SUB231177	Atopic	VDR	1.1	complete	893113	36		6.4		.b	0.5
+SUB231178	Atopic	VDR	1.0	incomplete	487803	b				.o	.o
+SUB231178	Atopic	VDR	1.1	complete	893114	36		18		1.1	0.5
+SUB231179	Atopic	VDR	1.0	incomplete	487801	b	4	4		.o	.o
+SUB231179	Atopic	VDR	1.1	complete	893527	36		19.6		1.5	0.5
+SUB231180	Atopic	VDR	1.1	complete	893509	36		15.6		.b	0.5
+SUB231180	Atopic	VDR	1.0	incomplete	487809	b				.o	.o
+SUB231181	Atopic	VDR	1.0	incomplete	487805	b	4	4		.o	.o
+SUB231182	Atopic	VDR	1.0	incomplete	487816	b	11	11		.o	.o
+SUB231182	Atopic	VDR	1.1	complete	893508	36		22		1.0	0.5
+SUB231183	Atopic	VDR	1.1	complete	893507	36		38.1		3.8	0.5
+SUB231183	Atopic	VDR	1.0	incomplete	487810	b	9	9		.o	.o
+SUB231184	Atopic	VDR	1.0	incomplete	487814	b	8	8		.o	.o
+SUB231184	Atopic	VDR	1.1	complete	893506	36		25.1		1.4	0.5
+SUB231185	Atopic	VDR	1.0	incomplete	487797	b	8	8		.o	.o
+SUB231185	Atopic	VDR	1.1	complete	893106	36		28.6		1.1	0.5
+SUB231186	Atopic	VDR	1.0	incomplete	487806	b	6	6		.o	.o
+SUB231186	Atopic	VDR	1.1	complete	893127	36		28		2.0	0.5
+SUB231187	Atopic	VDR	1.1	complete	893115	36		18.7		1.0	0.5
+SUB231187	Atopic	VDR	1.0	incomplete	487799	b				.o	.o
+SUB231188	Atopic	VDR	1.0	incomplete	487825	b	5	5		.o	.o
+SUB231188	Atopic	VDR	1.1	complete	893128	36		28		2.0	0.5
+SUB231189	Atopic	VDR	1.0	incomplete	487823	b				.o	.o
+SUB231189	Atopic	VDR	1.1	complete	893305	36		31.6		2.5	0.5
+SUB231190	Atopic	VDR	1.0	incomplete	487798	b	6	6		.o	.o
+SUB231191	Atopic	VDR	1.1	complete	893306	36		14.7		1.0	0.5
+SUB231191	Atopic	VDR	1.0	incomplete	487812	b	4	4		.o	.o
+SUB231192	Atopic	VDR	1.0	incomplete	487815	b				.o	.o
+SUB231192	Atopic	VDR	1.1	complete	893307	36		31.1		1.7	0.5
+SUB231193	Atopic	VDR	1.0	incomplete	487836	b	9	9		.o	.o
+SUB231194	Atopic	VDR	1.1	complete	893334	36		23.9		1.6	0.5
+SUB231194	Atopic	VDR	1.0	incomplete	487800	b				.o	.o
+SUB231195	Atopic	VDR	1.0	incomplete	487804	b				.o	.o
+SUB231196	Atopic	VDR	1.0	incomplete	487808	b				.o	.o
+SUB231196	Atopic	VDR	1.1	complete	893308	36		21.3		1.1	0.5
+SUB231197	Atopic	VDR	1.0	incomplete	487819	b	6	6		.o	.o
+SUB231198	Atopic	VDR	1.0	incomplete	487820	b	9	9		.o	.o
+SUB231198	Atopic	VDR	1.1	complete	893309	36		24.8		1.1	0.5
+SUB231199	Atopic	VDR	1.0	incomplete	487817	b	7	7		.o	.o
+SUB231199	Atopic	VDR	1.1	complete	893302	48		10		.b	0.5
+SUB231200	Atopic	VDR	1.0	incomplete	487844	b	8	8		.o	.o
+SUB231201	Atopic	VDR	1.1	complete	893332	36		17.3		.b	0.5
+SUB231201	Atopic	VDR	1.0	incomplete	487813	b	13	13		.o	.o
+SUB231202	Atopic	VDR	1.1	complete	893333	36		27		2.2	0.5
+SUB231202	Atopic	VDR	1.0	incomplete	487828	b	6	6		.o	.o
+SUB231203	Atopic	VDR	1.0	incomplete	487818	b				.o	.o
+SUB231203	Atopic	VDR	1.1	complete	893331	36		25.2		1.6	0.5
+SUB231204	Atopic	VDR	1.0	incomplete	487821	b	4	4		.o	.o
+SUB231204	Atopic	VDR	1.1	complete	893247	36		17.6		.b	0.5
+SUB231205	Atopic	VDR	1.0	incomplete	487839	b	11	11		.o	.o
+SUB231206	Atopic	VDR	1.0	incomplete	487824	b				.o	.o
+SUB231206	Atopic	VDR	1.1	complete	893335	36		34.4		1.7	0.5
+SUB231207	Atopic	VDR	1.0	incomplete	487832	b	5	5		.o	.o
+SUB231207	Atopic	VDR	1.1	complete	893336	36		23.2		1.4	0.5
+SUB231208	Atopic	VDR	1.0	incomplete	487850	b	9	9		.o	.o
+SUB231208	Atopic	VDR	1.1	complete	893440	36		9.1		.b	0.5
+SUB231209	Atopic	VDR	1.1	complete	893225	48		27.9		1.5	0.5
+SUB231209	Atopic	VDR	1.0	incomplete	487848	b	5	5		.o	.o
+SUB231210	Atopic	VDR	1.0	incomplete	487834	b				.o	.o
+SUB231210	Atopic	VDR	1.1	complete	893441	36		22.3		1.6	0.5
+SUB231211	Atopic	VDR	1.0	incomplete	487822	b	4	4		.o	.o
+SUB231212	Atopic	VDR	1.0	incomplete	487840	b				.o	.o
+SUB231213	Atopic	VDR	1.0	incomplete	487830	b	5	5		.o	.o
+SUB231213	Atopic	VDR	1.1	complete	893235	36		19.2		1.7	0.5
+SUB231214	Atopic	VDR	1.0	incomplete	487826	b	4	4		.o	.o
+SUB231214	Atopic	VDR	1.1	complete	893241	36		23.4		.b	0.5
+SUB231215	Atopic	VDR	1.0	incomplete	487837	b				.o	.o
+SUB231215	Atopic	VDR	1.1	complete	893239	36		25.7		1.5	0.5
+SUB231216	Atopic	VDR	1.0	incomplete	487847	b				.o	.o
+SUB231216	Atopic	VDR	1.1	complete	893237	36		15.1		1.1	0.5
+SUB231217	Atopic	VDR	1.0	incomplete	487865	b				.o	.o
+SUB231217	Atopic	VDR	1.1	complete	893242	36		26		1.5	0.5
+SUB231218	Atopic	VDR	1.0	incomplete	487854	b				.o	.o
+SUB231218	Atopic	VDR	1.1	complete	893408	36		29.9		2.5	0.5
+SUB231219	Atopic	VDR	1.0	incomplete	487859	b				.o	.o
+SUB231219	Atopic	VDR	1.1	complete	893407	36		25.9		1.6	0.5
+SUB231220	Atopic	VDR	1.0	incomplete	487827	b	9	9		.o	.o
+SUB231221	Atopic	VDR	1.0	incomplete	487874	b	6	6		.o	.o
+SUB231221	Atopic	VDR	1.1	complete	893246	36		16.3		.b	0.5
+SUB231222	Atopic	VDR	1.1	complete	893227	48		23.3		1.4	0.5
+SUB231222	Atopic	VDR	1.0	incomplete	487849	b	5	5		.o	.o
+SUB231223	Atopic	VDR	1.0	incomplete	487858	b	7	7		.o	.o
+SUB231223	Atopic	VDR	1.1	complete	893238	36		14.1		.b	0.5
+SUB231224	Atopic	VDR	1.0	incomplete	487829	b	9	9		.o	.o
+SUB231224	Atopic	VDR	1.1	complete	893234	36		24.2		2.8	0.5
+SUB231225	Atopic	VDR	1.0	incomplete	487851	b				.o	.o
+SUB231225	Atopic	VDR	1.1	complete	893244	36		27.4		2.2	0.5
+SUB231226	Atopic	VDR	1.1	complete	893443	36		31.9		1.8	0.5
+SUB231226	Atopic	VDR	1.0	incomplete	487845	b	6	6		.o	.o
+SUB231227	Atopic	VDR	1.0	incomplete	487870	b	6	6		.o	.o
+SUB231227	Atopic	VDR	1.1	complete	893442	36		19.2	8.3	1.4	0.5
+SUB231228	Atopic	VDR	1.0	incomplete	487835	b	7	7		.o	.o
+SUB231229	Atopic	VDR	1.0	incomplete	487846	b				.o	.o
+SUB231229	Atopic	VDR	1.1	complete	893240	36		20.9		.b	0.5
+SUB231230	Atopic	VDR	1.0	incomplete	487852	b				.o	.o
+SUB231230	Atopic	VDR	1.1	complete	893233	36		32.1		4.2	0.5
+SUB231231	Atopic	VDR	1.0	incomplete	487843	b	9	9		.o	.o
+SUB231232	Atopic	VDR	1.0	incomplete	487842	b	7	7		.o	.o
+SUB231232	Atopic	VDR	1.1	complete	893245	36		22.8		1.3	0.5
+SUB231233	Atopic	VDR	1.1	complete	893236	36		32.5		2.3	0.5
+SUB231233	Atopic	VDR	1.0	incomplete	487878	b	8	8		.o	.o
+SUB231234	Atopic	VDR	1.0	incomplete	487833	b	7	7		.o	.o
+SUB231235	Atopic	VDR	1.0	incomplete	487880	b				.o	.o
+SUB231235	Atopic	VDR	1.1	complete	893497	36		16.6		1.2	0.5
+SUB231236	Atopic	VDR	1.0	incomplete	487879	b				.o	.o
+SUB231237	Atopic	VDR	1.0	incomplete	487831	b				.o	.o
+SUB231237	Atopic	VDR	1.1	complete	893402	36		39.5		1.9	0.5
+SUB231238	Atopic	VDR	1.0	incomplete	487838	b	7	7		.o	.o
+SUB231239	Atopic	VDR	1.0	incomplete	487861	b	7	7		.o	.o
+SUB231240	Atopic	VDR	1.0	incomplete	487872	b	6	6		.o	.o
+SUB231241	Atopic	VDR	1.0	incomplete	487885	b	12	12		.o	.o
+SUB231241	Atopic	VDR	1.1	complete	893243	36		26.2		1.0	0.5
+SUB231242	Atopic	VDR	1.0	incomplete	487889	b	9	9		.o	.o
+SUB231242	Atopic	VDR	1.1	complete	893397	36		24.7		1.6	0.5
+SUB231243	Atopic	VDR	1.0	incomplete	487881	b	6	6		.o	.o
+SUB231243	Atopic	VDR	1.1	complete	893401	36		17.3		.b	0.5
+SUB231244	Atopic	VDR	1.0	incomplete	487869	b				.o	.o
+SUB231245	Atopic	VDR	1.0	incomplete	0	b				.o	.o
+SUB231246	Atopic	VDR	1.1	complete	893504	36		12.9		.b	0.5
+SUB231246	Atopic	VDR	1.0	incomplete	487841	b	7	7		.o	.o
+SUB231247	Atopic	VDR	1.0	incomplete	487853	b	5	5		.o	.o
+SUB231247	Atopic	VDR	1.1	complete	893403	36		25		1.7	0.5
+SUB231248	Atopic	VDR	1.0	incomplete	487857	b				.o	.o
+SUB231248	Atopic	VDR	1.1	complete	893404	36		28.2		2.0	0.5
+SUB231249	Atopic	VDR	1.1	complete	893494	36		16.2		.b	0.5
+SUB231249	Atopic	VDR	1.0	incomplete	487856	b	4	4		.o	.o
+SUB231250	Atopic	VDR	1.0	incomplete	487875	b	5	5		.o	.o
+SUB231251	Atopic	VDR	1.0	incomplete	487877	b				.o	.o
+SUB231251	Atopic	VDR	1.1	complete	893400	36		24.2		1.2	0.5
+SUB231252	Atopic	VDR	1.0	incomplete	487892	b	5	5		.o	.o
+SUB231252	Atopic	VDR	1.1	complete	893250	36		25		1.5	0.5
+SUB231253	Atopic	VDR	1.0	incomplete	487886	b	11	11		.o	.o
+SUB231253	Atopic	VDR	1.1	complete	893226	36		22.4		1.0	0.5
+SUB231254	Atopic	VDR	1.0	incomplete	487884	b	5	5		.o	.o
+SUB231255	Atopic	VDR	1.1	complete	893251	36		26.8		1.5	0.5
+SUB231255	Atopic	VDR	1.0	incomplete	487855	b	6	6		.o	.o
+SUB231256	Atopic	VDR	1.0	incomplete	487876	b	4	4		.o	.o
+SUB231257	Atopic	VDR	1.1	complete	893249	36		26.5		1.3	0.5
+SUB231257	Atopic	VDR	1.0	incomplete	487871	b	4	4		.o	.o
+SUB231258	Atopic	VDR	1.1	complete	893398	36		19.6		1.2	0.5
+SUB231258	Atopic	VDR	1.0	incomplete	487864	b				.o	.o
+SUB231259	Atopic	VDR	1.0	incomplete	487868	b	14	14		.o	.o
+SUB231260	Atopic	VDR	1.0	incomplete	487901	b	6	6		.o	.o
+SUB231260	Atopic	VDR	1.1	complete	893248	36		15.2		1.0	0.5
+SUB231261	Atopic	VDR	1.0	incomplete	487862	b	9	9		.o	.o
+SUB231262	Atopic	VDR	1.1	complete	893496	36		25.8		1.5	0.5
+SUB231262	Atopic	VDR	1.0	incomplete	487873	b	7	7		.o	.o
+SUB231263	Atopic	VDR	1.1	complete	893503	36		6.8	18.1	.b	0.5
+SUB231263	Atopic	VDR	1.0	incomplete	487860	b	10	10		.o	.o
+SUB231264	Atopic	VDR	1.0	incomplete	487863	b	6	6		.o	.o
+SUB231264	Atopic	VDR	1.1	complete	893501	36		21.5		1.2	0.5
+SUB231265	Atopic	VDR	1.0	incomplete	487866	b	8	8		.o	.o
+SUB231265	Atopic	VDR	1.1	complete	893505	36		20.9		1.5	0.5
+SUB231266	Atopic	VDR	1.0	incomplete	487903	b	11	11		.o	.o
+SUB231266	Atopic	VDR	1.1	complete	893493	36		28.6		2.5	0.5
+SUB231267	Atopic	VDR	1.0	incomplete	487867	b	9	9		.o	.o
+SUB231268	Atopic	VDR	1.1	complete	893498	36		24.7		1.8	0.5
+SUB231268	Atopic	VDR	1.0	incomplete	487895	b				.o	.o
+SUB231269	Atopic	VDR	1.1	complete	893495	36		17.3		.b	0.5
+SUB231269	Atopic	VDR	1.0	incomplete	487882	b				.o	.o
+SUB231270	Atopic	VDR	1.1	complete	893499	36		33.6		3.8	0.5
+SUB231270	Atopic	VDR	1.0	incomplete	487893	b	6	6		.o	.o
+SUB231271	Atopic	VDR	1.0	incomplete	487896	b	8	8		.o	.o
+SUB231271	Atopic	VDR	1.1	complete	893224	48		18.8		1.1	0.5
+SUB231272	Atopic	VDR	1.1	complete	893502	36		27.4		1.7	0.5
+SUB231272	Atopic	VDR	1.0	incomplete	487894	b	10	10		.o	.o
+SUB231273	Atopic	VDR	1.0	incomplete	512827	b	7	7		.o	.o
+SUB231273	Atopic	VDR	1.1	complete	893500	36		24.7		1.6	0.5
+SUB231274	Atopic	VDR	1.1	complete	893296	36		21.4		1.6	0.5
+SUB231274	Atopic	VDR	1.0	incomplete	487883	b				.o	.o
+SUB231275	Atopic	VDR	1.1	complete	893409	36		19.3		.b	0.5
+SUB231276	Atopic	VDR	1.1	complete	893406	36		24.9		1.8	0.5
+SUB231276	Atopic	VDR	1.0	incomplete	487888	b	6	6		.o	.o
+SUB231277	Non-atopic	VDR	1.0	incomplete	487902	b				.o	.o
+SUB231277	Non-atopic	VDR	1.1	complete	893294	36		11.8		.b	0.5
+SUB231278	Non-atopic	VDR	1.1	complete	893300	36		28.9		1.6	0.5
+SUB231278	Non-atopic	VDR	1.0	incomplete	487899	b	10	10		.o	.o
+SUB231279	Atopic	VDR	1.0	incomplete	487908	b	6	6		.o	.o
+SUB231279	Atopic	VDR	1.1	complete	893347	48		25.2		1.9	0.5
+SUB231280	Non-atopic	VDR	1.0	incomplete	487887	b	14	14		.o	.o
+SUB231280	Non-atopic	VDR	1.1	complete	893405	36		14.3	3.1	1.2	0.5
+SUB231281	Atopic	VDR	1.0	incomplete	487890	b	10	10		.o	.o
+SUB231282	Atopic	VDR	1.0	incomplete	487898	b	7	7		.o	.o
+SUB231282	Atopic	VDR	1.1	complete	893492	36		16.2	7.5	1.8	0.5
+SUB231283	Atopic	VDR	1.0	incomplete	512826	b	6	6		.o	.o
+SUB231283	Atopic	VDR	1.1	complete	893297	36		17.4		1.0	0.5
+SUB231284	Atopic	VDR	1.0	incomplete	487891	b	11	11		.o	.o
+SUB231284	Atopic	VDR	1.1	complete	893303	36		46.5		2.5	0.5
+SUB231285	Non-atopic	VDR	1.1	complete	893304	36		24.1		1.7	0.5
+SUB231285	Non-atopic	VDR	1.0	incomplete	487909	b	6	6		.o	.o
+SUB231286	Atopic	VDR	1.0	incomplete	487897	b	5	5		.o	.o
+SUB231287	Non-atopic	VDR	1.1	complete	893295	36		14.2		.b	0.5
+SUB231287	Non-atopic	VDR	1.0	incomplete	487905	b	9	9		.o	.o
+SUB231288	Atopic	VDR	1.0	incomplete	487904	b	8	8		.o	.o
+SUB231289	Atopic	VDR	1.0	incomplete	487900	b	6	6		.o	.o
+SUB231290	Atopic	VDR	1.0	incomplete	487906	b	7	7		.o	.o
+SUB231290	Atopic	VDR	1.1	complete	893301	36		35.8		3.9	0.5
+SUB231291	Atopic	VDR	1.0	incomplete	487907	b	7	7		.o	.o
+SUB231291	Atopic	VDR	1.1	complete	893298	36		33.3		3.3	0.5
+SUB231292	Atopic	VDR	1.1	complete	893299	36		19.6		1.0	0.5
+SUB231292	Atopic	VDR	1.0	incomplete	487910	b				.o	.o
+SUB231293	Atopic	VDR	1.0	incomplete	478776	b				.o	.o
+SUB231293	Atopic	VDR	1.1	complete	893090	36		28.2		1.3	0.5
+SUB231294	Atopic	VDR	1.1	complete	893521	36		8.1		.b	0.5
+SUB231294	Atopic	VDR	1.0	incomplete	478771	b				.o	.o
+SUB231295	Atopic	VDR	1.0	incomplete	478772	b	5	5		.o	.o
+SUB231295	Atopic	VDR	1.1	complete	893491	48		11.4		.b	0.5
+SUB231296	Atopic	VDR	1.1	complete	893110	36		23.3		1.1	0.5
+SUB231296	Atopic	VDR	1.0	incomplete	478782	b	5	5		.o	.o
+SUB231297	Atopic	VDR	1.0	incomplete	478777	b	6	6		.o	.o
+SUB231297	Atopic	VDR	1.1	complete	893513	36		36.2		2.8	0.5
+SUB231298	Atopic	VDR	1.0	incomplete	478790	b	12	12		.o	.o
+SUB231299	Atopic	VDR	1.1	complete	893522	36		12.8		.b	0.5
+SUB231299	Atopic	VDR	1.0	incomplete	478773	b	6	6		.o	.o
+SUB231300	Atopic	VDR	1.1	complete	893111	36		15.8		.b	0.5
+SUB231300	Atopic	VDR	1.0	incomplete	478800	b	9	9		.o	.o
+SUB231301	Atopic	VDR	1.0	incomplete	487911	b	5	5		.o	.o
+SUB231302	Atopic	VDR	1.1	complete	893108	36		14.2		1.1	0.5
+SUB231302	Atopic	VDR	1.0	incomplete	478780	b	8	8		.o	.o
+SUB231303	Atopic	VDR	1.0	incomplete	478793	b	7	7		.o	.o
+SUB231304	Atopic	VDR	1.0	incomplete	478781	b	5	5		.o	.o
+SUB231304	Atopic	VDR	1.1	complete	893520	36		19		.b	0.5
+SUB231305	Atopic	VDR	1.0	incomplete	478775	b	5	5		.o	.o
+SUB231305	Atopic	VDR	1.1	complete	893141	48		19.1		1.1	0.5
+SUB231306	Atopic	VDR	1.0	incomplete	478787	b	5	5		.o	.o
+SUB231306	Atopic	VDR	1.1	complete	893514	36		19.9		1.4	0.5
+SUB231307	Atopic	VDR	1.1	complete	893139	48		19.7		1.3	0.5
+SUB231307	Atopic	VDR	1.0	incomplete	478778	b	6	6		.o	.o
+SUB231308	Atopic	VDR	1.0	incomplete	478799	b	6	6		.o	.o
+SUB231308	Atopic	VDR	1.1	complete	893089	48		14.4		.b	0.5
+SUB231309	Atopic	VDR	1.0	incomplete	478788	b	6	6		.o	.o
+SUB231309	Atopic	VDR	1.1	complete	895614	36		11.1		1.0	0.5
+SUB231310	Atopic	VDR	1.0	incomplete	478785	b	12	12		.o	.o
+SUB231310	Atopic	VDR	1.1	complete	893107	36		26.9		1.3	0.5
+SUB231311	Atopic	VDR	1.0	incomplete	478806	b	5	5		.o	.o
+SUB231312	Atopic	VDR	1.0	incomplete	478796	b	5	5		.o	.o
+SUB231313	Atopic	VDR	1.0	incomplete	487913	b	7	7		.o	.o
+SUB231313	Atopic	VDR	1.1	complete	893143	48		11.5		.b	0.5
+SUB231314	Atopic	VDR	1.1	complete	893112	36		25.4		1.3	0.5
+SUB231314	Atopic	VDR	1.0	incomplete	478804	b	5	5		.o	.o
+SUB231315	Atopic	VDR	1.0	incomplete	478795	b	6	6		.o	.o
+SUB231316	Atopic	VDR	1.0	incomplete	478784	b	8	8		.o	.o
+SUB231316	Atopic	VDR	1.1	complete	893515	36		28		1.4	0.5
+SUB231317	Atopic	VDR	1.0	incomplete	478807	b	8	8		.o	.o
+SUB231318	Atopic	VDR	1.0	incomplete	487912	b	7	7		.o	.o
+SUB231318	Atopic	VDR	1.1	complete	893109	36		18.2		1.5	0.5
+SUB231319	Atopic	VDR	1.0	incomplete	478801	b	8	8		.o	.o
+SUB231319	Atopic	VDR	1.1	complete	893516	36		20.8		1.1	0.5
+SUB231320	Atopic	VDR	1.0	incomplete	478798	b				.o	.o
+SUB231320	Atopic	VDR	1.1	complete	893517	36		18.7		1.1	0.5
+SUB231321	Atopic	VDR	1.0	incomplete	478792	b	8	8		.o	.o
+SUB231321	Atopic	VDR	1.1	complete	893518	36		12.7		.b	0.5
+SUB231322	Atopic	VDR	1.0	incomplete	478774	b	7	7		.o	.o
+SUB231323	Atopic	VDR	1.0	incomplete	478779	b	8	8		.o	.o
+SUB231323	Atopic	VDR	1.1	complete	893120	36		28.5		2.2	0.5
+SUB231324	Atopic	VDR	1.1	complete	893121	36		18.7		1.2	0.5
+SUB231324	Atopic	VDR	1.0	incomplete	478794	b	5	5		.o	.o
+SUB231325	Atopic	VDR	1.0	incomplete	478803	b	8	8		.o	.o
+SUB231325	Atopic	VDR	1.1	complete	893119	36		18.9		1.5	0.5
+SUB231326	Atopic	VDR	1.0	incomplete	478783	b	10	10		.o	.o
+SUB231326	Atopic	VDR	1.1	complete	893122	36		34.1		2.0	0.5
+SUB231327	Atopic	VDR	1.0	incomplete	487914	b	5	5		.o	.o
+SUB231327	Atopic	VDR	1.1	complete	893123	36		10.8		.b	0.5
+SUB231328	Atopic	VDR	1.1	complete	893124	36		22.2		1.0	0.5
+SUB231328	Atopic	VDR	1.0	incomplete	478786	b	4	4		.o	.o
+SUB231329	Atopic	VDR	1.0	incomplete	478809	b	4	4		.o	.o
+SUB231329	Atopic	VDR	1.1	complete	893125	36		19.2		1.2	0.5
+SUB231330	Atopic	VDR	1.0	incomplete	478815	b	7	7		.o	.o
+SUB231330	Atopic	VDR	1.1	complete	893126	36		15.1		.b	0.5
+SUB231331	Atopic	VDR	1.0	incomplete	478814	b	7	7		.o	.o
+SUB231332	Atopic	VDR	1.0	incomplete	478817	b	9	9		.o	.o
+SUB231333	Atopic	VDR	1.1	complete	893317	36		19.8		1.1	0.5
+SUB231333	Atopic	VDR	1.0	incomplete	478822	b	5	5		.o	.o
+SUB231334	Atopic	VDR	1.0	incomplete	478791	b	7	7		.o	.o
+SUB231334	Atopic	VDR	1.1	complete	893152	48		21.2		1.3	0.5
+SUB231335	Atopic	VDR	1.0	incomplete	478812	b	8	8		.o	.o
+SUB231336	Atopic	VDR	1.1	complete	893338	36		20.1		1.1	0.5
+SUB231336	Atopic	VDR	1.0	incomplete	478811	b	6	6		.o	.o
+SUB231337	Atopic	VDR	1.0	incomplete	478805	b	5	5		.o	.o
+SUB231338	Atopic	VDR	1.0	incomplete	478821	b	13	13		.o	.o
+SUB231339	Atopic	VDR	1.1	complete	893321	36		15.6		1.4	0.5
+SUB231339	Atopic	VDR	1.0	incomplete	478789	b	5	5		.o	.o
+SUB231340	Atopic	VDR	1.0	incomplete	478802	b	7	7		.o	.o
+SUB231341	Atopic	VDR	1.0	incomplete	478797	b	8	8		.o	.o
+SUB231341	Atopic	VDR	1.1	complete	893341	36		19.5		.b	0.5
+SUB231342	Atopic	VDR	1.1	complete	893318	36		13.6		.b	0.5
+SUB231342	Atopic	VDR	1.0	incomplete	478825	b				.o	.o
+SUB231343	Atopic	VDR	1.1	complete	893319	36		20.7		1.3	0.5
+SUB231343	Atopic	VDR	1.0	incomplete	478832	b	9	9		.o	.o
+SUB231344	Atopic	VDR	1.0	incomplete	478831	b	11	11		.o	.o
+SUB231345	Atopic	VDR	1.1	complete	893320	36		18.9		1.1	0.5
+SUB231345	Atopic	VDR	1.0	incomplete	487916	b				.o	.o
+SUB231346	Atopic	VDR	1.0	incomplete	478837	b	9	9		.o	.o
+SUB231346	Atopic	VDR	1.1	complete	893340	36		10		.b	0.5
+SUB231347	Atopic	VDR	1.0	incomplete	478840	b	11	11		.o	.o
+SUB231348	Atopic	VDR	1.0	incomplete	487918	b	7	7		.o	.o
+SUB231349	Atopic	VDR	1.0	incomplete	478826	b	6	6		.o	.o
+SUB231350	Atopic	VDR	1.0	incomplete	478838	b	13	13		.o	.o
+SUB231351	Atopic	VDR	1.0	incomplete	478836	b	5	5		.o	.o
+SUB231352	Atopic	VDR	1.1	complete	893357	36		18.3		.b	0.5
+SUB231352	Atopic	VDR	1.0	incomplete	478818	b				.o	.o
+SUB231353	Atopic	VDR	1.0	incomplete	478819	b				.o	.o
+SUB231353	Atopic	VDR	1.1	complete	893350	36		15.3		.b	0.5
+SUB231354	Atopic	VDR	1.0	incomplete	478835	b	7	7		.o	.o
+SUB231355	Atopic	VDR	1.1	complete	893353	36		18.6		.b	0.5
+SUB231355	Atopic	VDR	1.0	incomplete	478820	b	5	5		.o	.o
+SUB231356	Atopic	VDR	1.1	complete	893354	36		24.2		1.3	0.5
+SUB231356	Atopic	VDR	1.0	incomplete	478828	b	9	9		.o	.o
+SUB231357	Atopic	VDR	1.1	complete	893337	36		18.8		1.1	0.5
+SUB231357	Atopic	VDR	1.0	incomplete	487917	b	5	5		.o	.o
+SUB231358	Atopic	VDR	1.0	incomplete	478810	b	5	5		.o	.o
+SUB231359	Atopic	VDR	1.0	incomplete	478824	b	7	7		.o	.o
+SUB231359	Atopic	VDR	1.1	complete	893339	36		26.6		1.5	0.5
+SUB231360	Atopic	VDR	1.1	complete	893352	36		11.5		.b	0.5
+SUB231360	Atopic	VDR	1.0	incomplete	478808	b	5	5		.o	.o
+SUB231361	Atopic	VDR	1.0	incomplete	478816	b				.o	.o
+SUB231362	Atopic	VDR	1.0	incomplete	478829	b	8	8		.o	.o
+SUB231363	Atopic	VDR	1.0	incomplete	478834	b				.o	.o
+SUB231363	Atopic	VDR	1.1	complete	893349	36		23.1		.b	0.5
+SUB231364	Atopic	VDR	1.0	incomplete	478848	b	8	8		.o	.o
+SUB231365	Atopic	VDR	1.0	incomplete	478846	b	14	14		.o	.o
+SUB231365	Atopic	VDR	1.1	complete	893207	48		23.5		1.7	0.5
+SUB231366	Atopic	VDR	1.0	incomplete	478833	b	8	8		.o	.o
+SUB231366	Atopic	VDR	1.1	complete	893364	36		9.2	8	.b	0.5
+SUB231367	Atopic	VDR	1.1	complete	893367	36		10.8		.b	0.5
+SUB231367	Atopic	VDR	1.0	incomplete	478830	b	9	9		.o	.o
+SUB231368	Atopic	VDR	1.0	incomplete	478839	b				.o	.o
+SUB231368	Atopic	VDR	1.1	complete	893366	36		19		1.2	0.5
+SUB231369	Atopic	VDR	1.0	incomplete	478827	b	7	7		.o	.o
+SUB231369	Atopic	VDR	1.1	complete	893368	36		13.4		.b	0.5
+SUB231370	Atopic	VDR	1.0	incomplete	478850	b	6	6		.o	.o
+SUB231371	Atopic	VDR	1.0	incomplete	478852	b	10	10		.o	.o
+SUB231372	Atopic	VDR	1.0	incomplete	478845	b				.o	.o
+SUB231372	Atopic	VDR	1.1	complete	893360	36		11.4		.b	0.5
+SUB231373	Atopic	VDR	1.0	incomplete	478855	b	5	5		.o	.o
+SUB231373	Atopic	VDR	1.1	complete	893359	36		13		.b	0.5
+SUB231374	Atopic	VDR	1.1	complete	893365	36		7.9		.b	0.5
+SUB231374	Atopic	VDR	1.0	incomplete	478841	b	8	8		.o	.o
+SUB231375	Atopic	VDR	1.0	incomplete	478843	b	7	7		.o	.o
+SUB231376	Atopic	VDR	1.0	incomplete	478858	b	4	4		.o	.o
+SUB231376	Atopic	VDR	1.1	complete	893375	36		17.4		1.0	0.5
+SUB231377	Atopic	VDR	1.0	incomplete	478849	b				.o	.o
+SUB231377	Atopic	VDR	1.1	complete	893363	36		17.2		.b	0.5
+SUB231378	Atopic	VDR	1.0	incomplete	478860	b	7	7		.o	.o
+SUB231378	Atopic	VDR	1.1	complete	893204	48		26.8		1.8	0.5
+SUB231379	Atopic	VDR	1.0	incomplete	478865	b	16	16		.o	.o
+SUB231379	Atopic	VDR	1.1	complete	893482	36		34.9		2.1	0.5
+SUB231380	Atopic	VDR	1.0	incomplete	478823	b	4	4		.o	.o
+SUB231380	Atopic	VDR	1.1	complete	893362	36		14.2		.b	0.5
+SUB231381	Atopic	VDR	1.0	incomplete	478867	b	7	7		.o	.o
+SUB231381	Atopic	VDR	1.1	complete	893378	36		11.8		.b	0.5
+SUB231382	Atopic	VDR	1.0	incomplete	478859	b				.o	.o
+SUB231382	Atopic	VDR	1.1	complete	893351	36		19.2		1.0	0.5
+SUB231383	Atopic	VDR	1.0	incomplete	478842	b	9	9		.o	.o
+SUB231384	Atopic	VDR	1.0	incomplete	478847	b	7	7		.o	.o
+SUB231384	Atopic	VDR	1.1	complete	893376	36		13.3		.b	0.5
+SUB231385	Atopic	VDR	1.0	incomplete	478866	b	5	5		.o	.o
+SUB231386	Atopic	VDR	1.0	incomplete	478862	b				.o	.o
+SUB231387	Atopic	VDR	1.0	incomplete	478863	b				.o	.o
+SUB231387	Atopic	VDR	1.1	complete	893373	36		7.2		.b	0.5
+SUB231388	Atopic	VDR	1.1	complete	893377	36		22.9		1.3	0.5
+SUB231388	Atopic	VDR	1.0	incomplete	487915	b	4	4		.o	.o
+SUB231389	Atopic	VDR	1.0	incomplete	478853	b	7	7		.o	.o
+SUB231389	Atopic	VDR	1.1	complete	893358	36		17.8		.b	0.5
+SUB231390	Atopic	VDR	1.0	incomplete	478844	b	5	5		.o	.o
+SUB231390	Atopic	VDR	1.1	complete	893356	36		13.9		.b	0.5
+SUB231391	Atopic	VDR	1.1	complete	893369	36		15.4		.b	0.5
+SUB231391	Atopic	VDR	1.0	incomplete	478851	b	8	8		.o	.o
+SUB231392	Atopic	VDR	1.0	incomplete	478856	b	4	4		.o	.o
+SUB231392	Atopic	VDR	1.1	complete	893371	36		12.5		.b	0.5
+SUB231393	Atopic	VDR	1.1	complete	893483	36		11.3		.b	0.5
+SUB231393	Atopic	VDR	1.0	incomplete	478813	b	6	6		.o	.o
+SUB231394	Atopic	VDR	1.0	incomplete	478870	b	11	11		.o	.o
+SUB231394	Atopic	VDR	1.1	complete	893486	36		15.5		1.1	0.5
+SUB231395	Atopic	VDR	1.0	incomplete	478876	b	11	11		.o	.o
+SUB231395	Atopic	VDR	1.1	complete	893361	36		24.4		1.4	0.5
+SUB231396	Atopic	VDR	1.0	incomplete	478871	b	7	7		.o	.o
+SUB231396	Atopic	VDR	1.1	complete	893370	36		16.8		.b	0.5
+SUB231397	Atopic	VDR	1.0	incomplete	478869	b				.o	.o
+SUB231397	Atopic	VDR	1.1	complete	893485	36		25.3		1.8	0.5
+SUB231398	Atopic	VDR	1.0	incomplete	478878	b	6	6		.o	.o
+SUB231398	Atopic	VDR	1.1	complete	893484	36		11.9		.b	0.5
+SUB231399	Atopic	VDR	1.0	incomplete	478875	b	9	9		.o	.o
+SUB231400	Atopic	VDR	1.0	incomplete	478874	b	5	5		.o	.o
+SUB231400	Atopic	VDR	1.1	complete	893488	36		15.9		1.2	0.5
+SUB231401	Atopic	VDR	1.0	incomplete	478880	b	7	7		.o	.o
+SUB231401	Atopic	VDR	1.1	complete	893374	36		8.8		.b	0.5
+SUB231402	Atopic	VDR	1.0	incomplete	478872	b				.o	.o
+SUB231402	Atopic	VDR	1.1	complete	893480	36		27.2		2.4	0.5
+SUB231403	Atopic	VDR	1.0	incomplete	478873	b	17	17		.o	.o
+SUB231403	Atopic	VDR	1.1	complete	893479	36		21.7		1.5	0.5
+SUB231404	Atopic	VDR	1.0	incomplete	487919	b				.o	.o
+SUB231404	Atopic	VDR	1.1	complete	893355	36		14.1		.b	0.5
+SUB231405	Atopic	VDR	1.0	incomplete	487920	b				.o	.o
+SUB231405	Atopic	VDR	1.1	complete	893481	36		46.7		2.6	0.5
+SUB231406	Atopic	VDR	1.0	incomplete	478884	b				.o	.o
+SUB231406	Atopic	VDR	1.1	complete	893372	36		19.7		.b	0.5
+SUB231407	Atopic	VDR	1.0	incomplete	478877	b	5	5		.o	.o
+SUB231408	Atopic	VDR	1.0	incomplete	478882	b	7	7		.o	.o
+SUB231408	Atopic	VDR	1.1	complete	893145	36		19.7		1.5	0.5
+SUB231409	Atopic	VDR	1.0	incomplete	478883	b	10	10		.o	.o
+SUB231410	Atopic	VDR	1.0	incomplete	478879	b	13	13		.o	.o
+SUB231410	Atopic	VDR	1.1	complete	893140	36		21.6		1.4	0.5
+SUB231411	Atopic	VDR	1.0	incomplete	478894	b	7	7		.o	.o
+SUB231411	Atopic	VDR	1.1	complete	893475	36		26.6		2.8	0.5
+SUB231412	Atopic	VDR	1.0	incomplete	478891	b	7	7		.o	.o
+SUB231412	Atopic	VDR	1.1	complete	893473	36		19		2.2	0.5
+SUB231413	Atopic	VDR	1.1	complete	893490	36		9.8		.b	0.5
+SUB231413	Atopic	VDR	1.0	incomplete	478892	b	5	5		.o	.o
+SUB231414	Atopic	VDR	1.0	incomplete	478868	b	8	8		.o	.o
+SUB231414	Atopic	VDR	1.1	complete	893142	36		26.2		2.2	0.5
+SUB231415	Non-atopic	VDR	1.0	incomplete	478893	b	11	11		.o	.o
+SUB231415	Non-atopic	VDR	1.1	complete	893487	36		37.8		3.8	0.5
+SUB231416	Atopic	VDR	1.0	incomplete	478861	b				.o	.o
+SUB231416	Atopic	VDR	1.1	complete	893144	36		38		3.5	0.5
+SUB231417	Atopic	VDR	1.0	incomplete	478888	b	5	5		.o	.o
+SUB231417	Atopic	VDR	1.1	complete	893085	36		14.1		.b	0.5
+SUB231418	Atopic	VDR	1.1	complete	893489	36		32.1		1.5	0.5
+SUB231418	Atopic	VDR	1.0	incomplete	478902	b	12	12		.o	.o
+SUB231419	Atopic	VDR	1.1	complete	893138	36		23.2		1.5	0.5
+SUB231419	Atopic	VDR	1.0	incomplete	478901	b	4	4		.o	.o
+SUB231420	Atopic	VDR	1.0	incomplete	478885	b				.o	.o
+SUB231420	Atopic	VDR	1.1	complete	893217	48		22.4		1.4	0.5
+SUB231421	Atopic	VDR	1.1	complete	893153	36		17.1		.b	0.5
+SUB231421	Atopic	VDR	1.0	incomplete	478889	b	5	5		.o	.o
+SUB231422	Atopic	VDR	1.1	complete	893478	36		19.1		1.5	0.5
+SUB231422	Atopic	VDR	1.0	incomplete	478896	b	9	9		.o	.o
+SUB231423	Atopic	VDR	1.1	complete	893151	36		14.6		.b	0.5
+SUB231423	Atopic	VDR	1.0	incomplete	478864	b	5	5		.o	.o
+SUB231424	Atopic	VDR	1.1	complete	893148	36		12.5		1.0	0.5
+SUB231424	Atopic	VDR	1.0	incomplete	478857	b	9	9		.o	.o
+SUB231425	Non-atopic	VDR	1.0	incomplete	478910	b	8	8		.o	.o
+SUB231426	Atopic	VDR	1.1	complete	893147	36		9.1		.b	0.5
+SUB231426	Atopic	VDR	1.0	incomplete	478899	b	6	6		.o	.o
+SUB231427	Atopic	VDR	1.1	complete	893472	36		17.4		1.3	0.5
+SUB231427	Atopic	VDR	1.0	incomplete	478900	b	4	4		.o	.o
+SUB231428	Atopic	VDR	1.1	complete	893477	36		21.8		1.0	0.5
+SUB231428	Atopic	VDR	1.0	incomplete	478906	b				.o	.o
+SUB231429	Non-atopic	VDR	1.1	complete	893348	48		24.2		1.4	0.5
+SUB231429	Non-atopic	VDR	1.0	incomplete	478915	b	5	5		.o	.o
+SUB231430	Non-atopic	VDR	1.1	complete	893476	36		23.7		1.8	0.5
+SUB231430	Non-atopic	VDR	1.0	incomplete	478897	b	10	10		.o	.o
+SUB231431	Non-atopic	VDR	1.0	incomplete	478898	b	6	6		.o	.o
+SUB231432	Non-atopic	VDR	1.1	complete	893469	36		27.9		1.4	0.5
+SUB231432	Non-atopic	VDR	1.0	incomplete	478912	b	8	8		.o	.o
+SUB231433	Atopic	VDR	1.1	complete	893474	36		21.4		1.4	0.5
+SUB231433	Atopic	VDR	1.0	incomplete	478905	b	13	13		.o	.o
+SUB231434	Non-atopic	VDR	1.0	incomplete	478895	b	6	6		.o	.o
+SUB231434	Non-atopic	VDR	1.1	complete	893088	36		20.8		1.8	0.5
+SUB231435	Atopic	VDR	1.1	complete	893470	36		23.7		1.4	0.5
+SUB231435	Atopic	VDR	1.0	incomplete	478904	b	11	11		.o	.o
+SUB231436	Atopic	VDR	1.1	complete	893471	36		13.3		.b	0.5
+SUB231436	Atopic	VDR	1.0	incomplete	478881	b	5	5		.o	.o
+SUB231437	Atopic	VDR	1.1	complete	893467	36		17.7		1.3	0.5
+SUB231437	Atopic	VDR	1.0	incomplete	478911	b	6	6		.o	.o
+SUB231438	Non-atopic	VDR	1.1	complete	893468	36		20.5		1.1	0.5
+SUB231438	Non-atopic	VDR	1.0	incomplete	478917	b				.o	.o
+SUB231439	Non-atopic	VDR	1.0	incomplete	478914	b				.o	.o
+SUB231439	Non-atopic	VDR	1.1	complete	893086	36		25.2		2.2	0.5
+SUB231440	Atopic	VDR	1.1	complete	893087	36		22		1.1	0.5
+SUB231440	Atopic	VDR	1.0	incomplete	478907	b	11	11		.o	.o
+SUB231441	Atopic	VDR	1.0	incomplete	478886	b	5	5		.o	.o
+SUB231442	Atopic	VDR	1.1	complete	893083	36		19.7		1.5	0.5
+SUB231442	Atopic	VDR	1.0	incomplete	478887	b	8	8		.o	.o
+SUB231443	Atopic	VDR	1.1	complete	893084	36		21.9		1.2	0.5
+SUB231443	Atopic	VDR	1.0	incomplete	487921	b				.o	.o
+SUB231444	Atopic	VDR	1.0	incomplete	478890	b	11	11		.o	.o
+SUB231444	Atopic	VDR	1.1	complete	893190	36		17.2		.b	0.5
+SUB231445	Atopic	VDR	1.1	complete	893154	36		19.9		1.1	0.5
+SUB231445	Atopic	VDR	1.0	incomplete	478916	b	5	5		.o	.o
+SUB231446	Non-atopic	VDR	1.1	complete	893149	36		15.8		1.0	0.5
+SUB231446	Non-atopic	VDR	1.0	incomplete	478913	b	6	6		.o	.o
+SUB231447	Non-atopic	VDR	1.0	incomplete	478920	b	13	13		.o	.o
+SUB231448	Atopic	VDR	1.0	incomplete	478908	b	7	7		.o	.o
+SUB231448	Atopic	VDR	1.1	complete	893208	36		22.8		.b	0.5
+SUB231449	Atopic	VDR	1.1	complete	893186	36		11.5		.b	0.5
+SUB231449	Atopic	VDR	1.0	incomplete	478909	b	8	8		.o	.o
+SUB231450	Atopic	VDR	1.1	complete	893187	36		28.6		2.1	0.5
+SUB231450	Atopic	VDR	1.0	incomplete	478926	b	6	6		.o	.o
+SUB231451	Non-atopic	VDR	1.1	complete	893188	36		23.9		1.0	0.5
+SUB231451	Non-atopic	VDR	1.0	incomplete	478922	b	8	8		.o	.o
+SUB231452	Non-atopic	VDR	1.1	complete	893150	36		28		1.0	0.5
+SUB231452	Non-atopic	VDR	1.0	incomplete	478919	b	6	6		.o	.o
+SUB231453	Atopic	VDR	1.1	complete	893189	36		14		.b	0.5
+SUB231453	Atopic	VDR	1.0	incomplete	478923	b				.o	.o
+SUB231454	Atopic	VDR	1.1	complete	893191	36		8.7		.b	0.5
+SUB231454	Atopic	VDR	1.0	incomplete	478928	b				.o	.o
+SUB231455	Non-atopic	VDR	1.1	complete	893192	36		16.3		.b	0.5
+SUB231455	Non-atopic	VDR	1.0	incomplete	478918	b	10	10		.o	.o
+SUB231456	Non-atopic	VDR	1.1	complete	893206	36		17.2		.b	0.5
+SUB231456	Non-atopic	VDR	1.0	incomplete	478930	b	10	10		.o	.o
+SUB231457	Non-atopic	VDR	1.1	complete	893205	36		13.7		.b	0.5
+SUB231457	Non-atopic	VDR	1.0	incomplete	478927	b	5	5		.o	.o
+SUB231458	Atopic	VDR	1.0	incomplete	487922	b	6	6		.o	.o
+SUB231459	Non-atopic	VDR	1.1	complete	893209	36		13.9		.b	0.5
+SUB231459	Non-atopic	VDR	1.0	incomplete	478924	b	9	9		.o	.o
+SUB231460	Non-atopic	VDR	1.0	incomplete	478925	b	15	15		.o	.o
+SUB231461	Atopic	VDR	1.0	incomplete	478929	b				.o	.o
+SUB231462	Non-atopic	VDR	1.1	complete	893102	36		16.4		1.0	0.5
+SUB231462	Non-atopic	VDR	1.0	incomplete	478921	b				.o	.o
+SUB231463	Atopic	VDR	1.1	complete	893210	36		12.3		.b	0.5
+SUB231463	Atopic	VDR	1.0	incomplete	487927	b	6	6		.o	.o
+SUB231464	Non-atopic	VDR	1.0	incomplete	487925	b	14	14		.o	.o
+SUB231465	Non-atopic	VDR	1.1	complete	893211	36		13.2		.b	0.5
+SUB231465	Non-atopic	VDR	1.0	incomplete	487924	b	9	9		.o	.o
+SUB231466	Atopic	VDR	1.1	complete	893212	36		13		.b	0.5
+SUB231466	Atopic	VDR	1.0	incomplete	487923	b				.o	.o
+SUB231467	Atopic	VDR	1.1	complete	893213	36		28.3		1.5	0.5
+SUB231467	Atopic	VDR	1.0	incomplete	487926	b	4	4		.o	.o
+SUB231468	Atopic	VDR	1.0	incomplete	512828	b	4	4		.o	.o
+SUB231469	Non-atopic	VDR	1.1	complete	893101	36		11.1		.b	0.5
+SUB231469	Non-atopic	VDR	1.0	incomplete	512829	b	6	6		.o	.o
+SUB231470	Non-atopic	VDR	1.1	complete	893103	36		13.3		.b	0.5

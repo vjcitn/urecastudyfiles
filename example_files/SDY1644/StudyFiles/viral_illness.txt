@@ -1,0 +1,401 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2020 all rights reserved                               *
+*******************************************************************************;
+
+* Purpose: create an illness-level data set
+
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)    Date(s)      Brief Description of Modifications
+*   P. LeBeau        05/06/2020   Create program
+*   P. LeBeau        06/23/2020   Continue
+*   P. LeBeau        07/09/2020   Update scores per adjudication (keep highest throughout illness)
+*   P. LeBeau        07/27/2020   Update illness adjudication hardcodes & wheeze illness definition
+*   P. LeBeau        10/22/2020   Add asthma_age7, asthma_age10, pheno_y7
+*   P. LeBeau        12/06/2020   Update whz_illness (if illness=0 then also whz_illness=0 instead of missing)
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=viral_illness,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+
+***2. Main body of program begins here *****************************************;
+proc sort data=derive.viral_1recwash out=vir0;
+by studyid date_collected;
+run;
+/*ods excel file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Wh_Illness\viral_1recwash.xls";*/
+/*proc print data=vir0;*/
+/*run;*/
+/*ods excel close;*/
+proc sort data=derive.symptoms out=symp (keep=studyid avisit year event acompletiondate wheeze);
+by studyid avisit;
+run;
+
+proc sort data=derive.groups out=grp (keep=studyid asthma_age10 asthma_age7 pheno_y7);
+by studyid;
+run;
+
+***************************************************************************;
+*** Check how many records within a subject have the same onset date    ***;
+***************************************************************************;
+proc sort data=vir0 out=vir01 (keep=studyid cdna_id year vis_type event date_collected date_onset date_score score virus virus1 virus2 virus3 virus4 type species wheeze fu_whz);
+by studyid date_onset;
+run;
+proc freq data=vir01;
+ where date_onset > .A;
+ table studyid*date_onset / noprint out=vir01_keylist;
+run;
+proc sort data=vir01_keylist; by studyid date_onset; run;
+proc sort data=vir0; by studyid date_onset; run;
+data vir02;
+merge vir01_keylist (in=a where=(count ge 2) drop=percent)
+      vir01 (in=b);
+by studyid date_onset;
+if a;
+run;
+/*ods excel file='S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Onsetdt_same\listing_same_onsetdt_07.15.2020.csv';*/
+/*proc print data=vir02;*/
+/*var cdna_id studyid year vis_type date_collected date_onset date_score count virus virus1 virus2 virus3 virus4 type species score wheeze fu_whz;*/
+/*run;*/
+/*ods excel close;*/
+
+
+
+***********************************************************************************************************************************;
+*** Make hardcodes based on adjudication (sample to illness level)                                                              ***;
+*** Reference: S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Onsetdt_same\listing_same_onsetdt_07.15.2020_anno-jg.xlsx  ***;
+***********************************************************************************************************************************;
+data vir1;
+format date_onset date_onset_pr date_stop date_score date_score_pr date9.;
+set vir0 (rename=(date_onset=date_onset0));
+   date_onset_pr = date_onset0;
+   date_score_pr = date_score;
+
+*hardcodes here have been removed to protect patient confidentiality;
+   else date_onset=date_onset_pr; 
+
+*hardcodes here have been removed to protect patient confidentiality;
+        virus3='hrv';
+        type='RV-A12';
+        species='A';
+        virus='multiple';
+        ev1=0;
+        hrva1=0; hrvb1=0; hrvc1=0; 
+        hrv1pl=0; hrv1pl_a=0; hrv1pl_b=0; hrv1pl_c=0; hrv1pl_m=0;
+        hrv2pl=0; hrv2pl_a=0; hrv2pl_b=0; hrv2pl_c=0; hrv2pl_m=0;
+        othv1=0;
+        anyv=1;
+        hrvploth=1;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+        virus3='infv a';
+        virus='multiple';
+        ev1=0;
+        hrva1=0; hrvb1=0; hrvc1=0; 
+        hrv1pl=0; hrv1pl_a=0; hrv1pl_b=0; hrv1pl_c=0; hrv1pl_m=0;
+        hrv2pl=0; hrv2pl_a=0; hrv2pl_b=0; hrv2pl_c=0; hrv2pl_m=0;
+        othv1=0;
+        anyv=1;
+        hrvploth=1;
+   end;  
+*hardcodes here have been removed to protect patient confidentiality;
+
+   if cdna_id in (2859,811,2158,2349,3521,2272,2275,2876,3413,3624,2952,
+                  2162,1031,1032,615,2363,2481,2482,2483,2880,371,402,466,827,947,1033,
+                  2088,2165,2166,2364,2681,2683,2961,3119,3199,3275,
+                  3277,3428,3541,3542,3607,375,376,625,2890,3204,3431,3543,3636,
+                  535,2896,3073,406,2371,3638,776,831,2094,2175,2291,3434,3436,
+                  3547,3640,977,2254,318,319,592,497,891,2225,2112,2501,2782,559,929,
+                  933,3018,2505,3818,3820,3572,3245,3037,3170,3171,3476,3477,3675,2823,
+                  3038,3678,3250,8,2331,2439,239,1088,2143,3301,338,422,736,
+                  2244,2795,3307,4438,2733,2139,3223,3224,3315) then delete;
+
+*hardcodes here have been removed to protect patient confidentiality; 
+
+drop date_onset0 date_score0;
+
+label date_onset_pr="Illness onset date - pre-adjudication"
+      date_onset = "Illness onset date - adjudicated"
+      date_score_pr="Scorecard date - pre-adjudication"
+      date_score="Scorecard date - adjudicated"
+      date_stop = "Illness stop date"
+      ;
+run;
+
+/*PROC CONTENTS DATA=vir1*/
+/*    OUT=LABELLED_CONTENTS*/
+/*    (KEEP=NAME TYPE LENGTH LABEL FORMAT INFORMAT VARNUM);*/
+/*RUN;*/
+/*PROC SORT DATA=LABELLED_CONTENTS OUT=LABELLED_BY_DVARNUM;*/
+/*    BY VARNUM;*/
+/*RUN;*/
+
+data vir2;
+ set vir1;
+
+* impute missing onset dates for illness samples with the median (5) of days between onset and collection of illness samples *;
+ if missing(date_onset) then date_onset=date_collected - 5;
+
+ if 0 <= score < 5 then illness=0;
+ else if score >=5 then illness=1;
+
+* define wheezing illness (per flow diagram decisions below);
+ if illness=1 then do;
+    if wheeze=1 or fu_whz=1 then whz_illness=1;
+    else if wheeze=0 and (missing(fu_whz) or fu_whz=0) then whz_illness=0;
+    else if missing(wheeze) and fu_whz=0 then whz_illness=0;
+    else if missing(wheeze) and (missing(fu_whz)) then whz_illness=.; *---> explore quarterly symptoms forms, see below *;
+ end;
+ else if illness=0 then whz_illness=0;
+
+ drop count cough_whz_indicator visit_comments;
+
+run;
+
+
+
+
+      /*------------------------- */
+      /* ----- ILLNESS FLOW ----- */
+      /*------------------------- */
+      *** see S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Wh_Illness\Defining_wheezing_illness_2020.08.03.pptx ***;
+      data vir_ck;
+      set vir2;
+      where score >=5;
+      onset_2_coll = date_collected - date_onset;
+      run;
+      proc freq data=vir_ck;
+      table wheeze * fu_whz / missing;
+      title 'Score Whz by FU Whz (illness samples) year 1 - 10';
+      run;
+      proc print data=vir_ck n;
+      where missing(wheeze) and missing (fu_whz);
+      var studyid year cdna_id date_collected wheeze fu_whz;
+      title 'Listing of illnesses with missing scorecard wheeze and missing follow-up call wheeze info year 1 - 10';
+      run; 
+      proc freq data=vir_ck;
+      where year <= 3;;
+      table wheeze * fu_whz / missing;
+      title 'Score Whz by FU Whz (illness samples) year 1 - 3';
+      run;
+      proc print data=vir_ck n;
+      where missing(wheeze) and missing (fu_whz) and year <=3;
+      var studyid year cdna_id date_collected wheeze fu_whz;
+      title 'Listing of illnesses with missing scorecard wheeze and missing follow-up call wheeze info year 1 - 3';
+      run; 
+      proc freq data=vir_ck;
+      where year <= 3 and group='Atopic' and ^missing(pheno_y10);;
+      table wheeze * fu_whz / missing;
+      title 'Score Whz by FU Whz (illness samples) year 1 - 3, non-atopic cohort & non-miss phenoy10';
+      run;
+      proc print data=vir_ck n;
+      where missing(wheeze) and missing (fu_whz) and year <= 3 and group='Atopic' and ^missing(pheno_y10);;
+      var studyid year cdna_id date_collected wheeze fu_whz;
+      title 'Listing of illnesses with missing scorecard wheeze and missing follow-up call wheeze info year 1 - 3, non-atopic cohort & non-miss phenoy10';
+      run; 
+     
+
+ 
+      /*------------------- */
+      /* ----- CHECKS ----- */
+      /*------------------- */
+     
+      *** year 1-3, atopic and non-miss pheno10: miss score whz + miss fu whz --> what's on quarterly symptoms? ***;
+      data vir_anly;
+      set vir2;
+      where year <=3 and score >=5 and group='Atopic' and ^missing(pheno_y10);
+      run;
+      proc sort data=vir_anly;
+      by studyid year;
+      run;
+      data vir_anly1;
+      set vir_anly;
+      count2 + 1;
+      by studyid year;
+      if first.studyid or first.year then count2=1;
+      run;
+      * let's check the 95+2=97 illness/subjects w/ score whz=yes/missing and fu whz=missing and see what they reported in the quarterly symptoms calls;
+      data vir_anly1; set vir_anly1;
+            yr_illn=trim(left(year))||'_'||trim(left(count2));
+      run;
+      proc sort data=vir_anly1 out=vir_anly1_97 (keep=studyid cdna_id yr_illn date_onset date_collected);
+      where (missing(wheeze) or wheeze=0) and missing(fu_whz);
+      by studyid yr_illn;
+      run;
+      proc transpose data=vir_anly1_97 out=t97_1 prefix=onset;
+      by studyid;
+      id yr_illn;
+      var date_onset;
+      run;
+      proc transpose data=vir_anly1_97 out=t97_2 prefix=coll;
+      by studyid;
+      id yr_illn;
+      var date_collected;
+      run;
+      data t97_wide;
+      merge t97_1 (drop=_name_ _label_) t97_2 (drop=_name_ _label_);
+      by studyid;
+      run;
+      data vir_symp97;
+      merge symp (in=a) t97_wide (in=b);
+      by studyid;
+      if b;
+      run;
+/*      ods excel file='S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Wh_Illness\YR1to3_MissWhz_Symp.xlsx';*/
+/*      proc print data=vir_symp97;*/
+/*      run;*/
+/*      ods excel close;*/
+
+      *** year 4-10 all + year 1-3 non-atopic and miss pheno10: miss score whz + miss fu whz --> what's on quarterly symptoms? ***;
+      data vall;
+      set vir2;
+      where score >= 5 and (year > 3 or (year<=3 and (group ne 'Atopic' or pheno_y10 = ' ')));
+      run;
+      proc sort data=vall;
+      by studyid year;
+      run;
+      data vall;
+      set vall;
+      count2+1;
+      by studyid year;
+      if first.year then count2=1; output;
+      run;
+      * let's check the 228+15=243 (-97 we already looked at --> 146) illness/subjects and see what they reported in the quarterly symptoms calls;
+      data vall2; set vall; 
+            yr_illn=trim(left(year))||'_'||trim(left(count2));
+      run;
+      proc sort data=vall2 out=vall_146 (keep=studyid yr_illn date_onset date_collected);
+      where (missing(wheeze) or wheeze=0) and missing(fu_whz);
+      by studyid yr_illn;
+      run;
+      proc transpose data=vall_146 out=t146_1 prefix=onset;
+      by studyid;
+      id yr_illn;
+      var date_onset;
+      run;
+      proc transpose data=vall_146 out=t146_2 prefix=coll;
+      by studyid;
+      id yr_illn;
+      var date_collected;
+      run;
+      data t146_wide;
+      merge t146_1 (drop=_name_ _label_) t146_2 (drop=_name_ _label_);
+      by studyid;
+      run;
+      data vir_symp146;
+      merge symp (in=a) t146_wide (in=b);
+      by studyid;
+      if b;
+      run;
+/*      ods excel file='S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Wh_Illness\Rest_MissWhz_Symp.xlsx';*/
+/*      proc print data=vir_symp146;*/
+/*      run;*/
+/*      ods excel close;*/
+
+
+
+/*--------------------------------- */
+/* ----- HARDCODE WHZ_ILLNESS ----- */
+/*--------------------------------- */
+*** for the group with missing scorecard wheeze & missing follow-up wheeze and quarterly symptoms reported as no wheeze (n=3) ***;
+* rename * relabel for clarity reasons *;
+data vir3;
+set vir2 (rename=(cough=score_cough wheeze=score_wheeze));
+if cdna_id in (9,5432,5980) then whz_illness=0;
+
+label child_sick = "Child reported sick at time of clinic nasal sample collection (y/n)"
+      score_cough = "Cough in last 3 days (y/n) - per score card"
+      score_wheeze = "Wheeze in last 3 days (y/n) - per score card"
+      group = "Cohort: atopic vs non-atopic"
+      pheno_y10 = "Phenotype at year 10"
+      illness = "Illness (cold score >= 5)"
+      whz_illness = "Wheezing Illness"
+      cdna_id = "Sample ID number"
+      ;
+run;
+      * Check *;
+      proc freq data=vir3;
+      where score>=5;
+      table group * whz_illness/missing;
+      title 'Frequency wheezing illness - by cohort';
+      run;
+
+proc sort data=vir3; by studyid date_collected; run;
+data vir4;
+merge vir3 (in=a)
+      grp (in=b);
+by studyid;
+if a;
+run;
+
+data final;
+ retain group studyid cdna_id vis_type event year agemos pheno_y10 asthma_age10 pheno_y7 asthma_age7
+        date_collected date_score_pr date_score date_onset_pr date_onset date_stop
+        child_sick score illness whz_illness score_wheeze score_cough fu_num_calls fu_whz fu_doc_dx fu_hosp_dx fu_meds fu_whz_symp
+        virus1 virus2 virus3 virus4 type species virus ev1 hrva1 hrvb1 hrvc1 hrv1pl hrv1pl_a hrv1pl_b
+        hrv1pl_c hrv1pl_m hrv2pl hrv2pl_a hrv2pl_b hrv2pl_c hrv2pl_m othv1 anyv hrvploth ;
+ set vir4;
+run;
+
+/*PROC CONTENTS DATA=vir3*/
+/*    OUT=LABELLED_CONTENTS*/
+/*    (KEEP=NAME TYPE LENGTH LABEL FORMAT INFORMAT VARNUM);*/
+/*RUN;*/
+/*PROC SORT DATA=LABELLED_CONTENTS OUT=LABELLED_BY_DVARNUM;*/
+/*    BY VARNUM;*/
+/*RUN;*/
+
+data derive.viral_illness;
+   set final;
+run;
+
+
+/**** 3. Codebook ****************************************************************;*/
+/*%include 'S:\BASESTAT\RhoUtil\gitGot.sas';*/
+/*    %gitGot*/
+/*        (repo = https://github.com/RhoInc/sas-codebook*/
+/*        ,folder = Macros);*/
+/*        */
+/*%codebook_generic*/
+/*        (data = derive.viral_illness*/
+/*        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);*/
+
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+proc sort data=final; by illness; run;
+proc freq data=final;
+/*by group;*/
+/*where group="Atopic";*/
+by illness; 
+table fu_bronpneu * whz_illness / missing;
+run;
+proc sort data=final nodupkey out=whz_bronpneu1;
+where illness=1 and whz_illness=0 and fu_bronpneu=1;
+by studyid;
+run;
+proc sort data=final nodupkey out=whz_bronpneu0;
+where illness=1 and whz_illness=0 and fu_bronpneu=0;
+by studyid;
+run;

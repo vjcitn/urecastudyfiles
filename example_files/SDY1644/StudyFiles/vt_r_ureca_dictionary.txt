@@ -1,0 +1,10 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	480	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""VT"", ""VT"")"
+3	4	evid	evid	dbl	numeric	double	909	0	c(30736, 59031)
+4	5	event	event	chr	character	character	2	0	"c(""81-Month Clinic Visit"", ""84-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit Number	chr	character	character	3	0	"c("".x"", ""84"")"
+8	9	aCompletionDY	Completion Day	dbl	numeric	double	259	120	c(2371, 2780)

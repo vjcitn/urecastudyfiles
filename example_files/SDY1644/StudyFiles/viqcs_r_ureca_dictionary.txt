@@ -1,0 +1,11 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	141	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""VIQCS"", ""VIQCS"")"
+3	4	evid	evid	dbl	numeric	double	939	0	c(15869, 24603)
+4	5	event	event	chr	character	character	1	0	"c(""Viral Illness QC"", ""Viral Illness QC"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	3	0	"c("".x"", ""qc2"")"
+8	9	VIQCS_q1	Child Has Symptoms of a Cold	dbl	numeric	double	4	87	c(0, 2)
+9	10	aCompletionDY	Completion Day	dbl	numeric	double	562	87	c(18, 1038)

@@ -1,0 +1,17 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	555	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""W_BIASC"", ""W_BIASC"")"
+3	4	evid	evid	dbl	numeric	double	4979	0	c(296, 63231)
+4	5	event	event	chr	character	character	11	0	"c(""108-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	12	0	"c("".x"", ""96"")"
+8	9	W_BIASC_q1	Any Type of Metal Object in Child's Body	dbl	numeric	double	3	662	c(0, 1)
+9	10	W_BIASC_q2	Child Has Pacemaker or Automatic Defibrillator	dbl	numeric	double	3	663	c(0, 1)
+10	11	W_BIASC_q3	Child Has Amputations Other than Fingers or Toes	dbl	numeric	double	3	663	c(0, 1)
+11	12	W_BIASC_q4	Child Had Anything to Drink Past Hour	dbl	numeric	double	3	665	c(0, 1)
+12	13	W_BIASC_q5	Child is Thermally Comfortable	dbl	numeric	double	3	663	c(0, 1)
+13	14	W_BIASC_q5a1	Child is Sweaty and/or Red from Tantrum	dbl	numeric	double	3	4938	c(0, 1)
+14	15	W_BIASC_q5a2	Child is Cold and/or Blue	dbl	numeric	double	2	4938	c(0, 0)
+15	16	aCompletionDY	Completion Day	dbl	numeric	double	1365	662	c(334, 3842)

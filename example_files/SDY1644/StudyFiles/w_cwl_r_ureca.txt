@@ -1,0 +1,702 @@
+Accession	group	form	evid	event	version	status	aVisit	W_CWL_q1	W_CWL_q2a	W_CWL_q2b	W_CWL_q2c	W_CWL_q2d	W_CWL_q3	W_CWL_q4	W_CWL_q5a	W_CWL_q5b1	W_CWL_q5b2	W_CWL_q5c	W_CWL_q5d	aCompletionDY	W_CWL_q5eDY
+SUB230862	Atopic	W_CWL	296	12-Month Clinic Visit	1.0	complete	12	3						2				55.5	4.5	368	77
+SUB230863	Atopic	W_CWL	310	12-Month Clinic Visit	1.0	complete	12	3						2				57	6.1	368	62
+SUB230865	Atopic	W_CWL	338	12-Month Clinic Visit	1.0	complete	12	2						1	20	9	0			395	
+SUB230866	Atopic	W_CWL	579	12-Month Clinic Visit	1.0	complete	12	3						2				60.5	6.3	406	120
+SUB230867	Atopic	W_CWL	593	12-Month Clinic Visit	1.0	complete	12	2						1		12	0			383	86
+SUB230868	Atopic	W_CWL	791	12-Month Clinic Visit	1.0	complete	12	3						2				56	4	362	70
+SUB230869	Atopic	W_CWL	805	12-Month Clinic Visit	1.0	complete	12	2						1	20	9	0			395	
+SUB230870	Atopic	W_CWL	841	12-Month Clinic Visit	1.0	missing	.x														
+SUB230871	Atopic	W_CWL	856	12-Month Clinic Visit	1.0	complete	12	3						2				58.5	5.4	362	80
+SUB230872	Atopic	W_CWL	878	12-Month Clinic Visit	1.0	complete	12	3						2				62.5	6.5	358	72
+SUB230873	Atopic	W_CWL	892	12-Month Clinic Visit	1.0	complete	12	3						2					5.3	358	79
+SUB230874	Atopic	W_CWL	906	12-Month Clinic Visit	1.0	missing	.x														
+SUB230875	Atopic	W_CWL	920	12-Month Clinic Visit	1.0	missing	.x														
+SUB230876	Atopic	W_CWL	975	12-Month Clinic Visit	1.0	missing	.x														
+SUB230877	Atopic	W_CWL	1067	12-Month Clinic Visit	1.0	missing	.x														
+SUB230881	Atopic	W_CWL	1598	12-Month Clinic Visit	1.0	complete	12	3						2				63	5	345	101
+SUB230882	Atopic	W_CWL	1772	12-Month Clinic Visit	1.0	complete	12	3						2				63	6.4	373	122
+SUB230883	Atopic	W_CWL	1786	12-Month Clinic Visit	1.0	missing	.x														
+SUB230884	Atopic	W_CWL	1804	12-Month Clinic Visit	1.0	missing	.x														
+SUB230885	Atopic	W_CWL	1844	12-Month Clinic Visit	1.0	missing	.x														
+SUB230886	Atopic	W_CWL	2099	12-Month Clinic Visit	1.0	missing	.x														
+SUB230887	Atopic	W_CWL	2115	12-Month Clinic Visit	1.0	complete	12	3						2				59.5	6	337	122
+SUB230888	Atopic	W_CWL	2167	12-Month Clinic Visit	1.0	missing	.x														
+SUB230889	Atopic	W_CWL	2183	12-Month Clinic Visit	1.0	missing	.x														
+SUB230890	Atopic	W_CWL	2199	12-Month Clinic Visit	1.0	complete	12	3						2				60	6	459	78
+SUB230891	Atopic	W_CWL	2221	12-Month Clinic Visit	1.0	complete	12	3						2				55	4.7	394	141
+SUB230892	Atopic	W_CWL	2279	12-Month Clinic Visit	1.0	complete	12	3						2					6.1	460	90
+SUB230893	Atopic	W_CWL	2461	12-Month Clinic Visit	1.0	missing	.x														
+SUB230894	Atopic	W_CWL	2625	12-Month Clinic Visit	1.0	complete	12	2						1	24	13	6			444	349
+SUB230895	Atopic	W_CWL	2641	12-Month Clinic Visit	1.0	complete	12	3						2				63	7.5	354	122
+SUB230896	Atopic	W_CWL	2667	12-Month Clinic Visit	1.0	missing	.x														
+SUB230897	Atopic	W_CWL	2745	12-Month Clinic Visit	1.0	complete	12	3						2				59.5	4.9	401	81
+SUB230898	Atopic	W_CWL	2783	12-Month Clinic Visit	1.0	missing	.x														
+SUB230899	Atopic	W_CWL	2994	12-Month Clinic Visit	1.0	missing	.x														
+SUB230900	Atopic	W_CWL	3010	12-Month Clinic Visit	1.0	complete	12	3						2				61	5.4	423	61
+SUB230901	Atopic	W_CWL	3026	12-Month Clinic Visit	1.0	missing	.x														
+SUB230902	Atopic	W_CWL	3042	12-Month Clinic Visit	1.0	missing	.x														
+SUB230903	Atopic	W_CWL	3101	12-Month Clinic Visit	1.0	missing	.x														
+SUB230904	Atopic	W_CWL	3123	12-Month Clinic Visit	1.0	missing	.x														
+SUB230905	Atopic	W_CWL	3270	12-Month Clinic Visit	1.0	complete	12	3						2				62.2	6.5	453	103
+SUB230906	Atopic	W_CWL	3306	12-Month Clinic Visit	1.0	missing	.x														
+SUB230907	Atopic	W_CWL	3346	12-Month Clinic Visit	1.0	missing	.x														
+SUB230908	Atopic	W_CWL	3373	12-Month Clinic Visit	1.0	missing	.x														
+SUB230909	Atopic	W_CWL	3457	12-Month Clinic Visit	1.0	complete	12	3						2				60	6.3	345	74
+SUB230910	Atopic	W_CWL	3477	3-Month Home Visit	1.0	complete	3	1	59.6	59.6	59	59.4	6.2							162	
+SUB230911	Atopic	W_CWL	3538	12-Month Clinic Visit	1.0	missing	.x														
+SUB230912	Atopic	W_CWL	3584	12-Month Clinic Visit	1.0	complete	12	3						2				64	6.8	354	127
+SUB230913	Atopic	W_CWL	3611	12-Month Clinic Visit	1.0	missing	.x														
+SUB230914	Atopic	W_CWL	3627	12-Month Clinic Visit	1.0	missing	.x														
+SUB230915	Atopic	W_CWL	3646	12-Month Clinic Visit	1.0	missing	.x														
+SUB230916	Atopic	W_CWL	3719	12-Month Clinic Visit	1.0	missing	.x														
+SUB230917	Atopic	W_CWL	3739	12-Month Clinic Visit	1.0	missing	.x														
+SUB230918	Atopic	W_CWL	3779	12-Month Clinic Visit	1.0	missing	.x														
+SUB230919	Atopic	W_CWL	3795	12-Month Clinic Visit	1.0	missing	.x														
+SUB230920	Atopic	W_CWL	3844	12-Month Clinic Visit	1.0	missing	.x														
+SUB230921	Atopic	W_CWL	3905	12-Month Clinic Visit	1.0	complete	12	3						2				53.5	4.4	403	63
+SUB230922	Atopic	W_CWL	3959	12-Month Clinic Visit	1.0	missing	.x														
+SUB230923	Atopic	W_CWL	4056	12-Month Clinic Visit	1.0	complete	12	3						2				60.3	6.2	389	111
+SUB230924	Atopic	W_CWL	4082	12-Month Clinic Visit	1.0	missing	.x														
+SUB230925	Atopic	W_CWL	4210	12-Month Clinic Visit	1.0	missing	.x														
+SUB230926	Atopic	W_CWL	4353	12-Month Clinic Visit	1.0	missing	.x														
+SUB230927	Atopic	W_CWL	4646	12-Month Clinic Visit	1.0	complete	12	2						1	26.75	14	14			168	163
+SUB230927	Atopic	W_CWL	4650	3-Month Home Visit	1.0	missing	.x														
+SUB230928	Atopic	W_CWL	4671	12-Month Clinic Visit	1.0	missing	.x														
+SUB230929	Atopic	W_CWL	4715	3-Month Home Visit	1.0	complete	3	1	64	64	64	64	7.1							139	
+SUB230930	Atopic	W_CWL	4798	12-Month Clinic Visit	1.0	missing	.x														
+SUB230932	Atopic	W_CWL	5189	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	60	59.7	5.7							88	
+SUB230933	Atopic	W_CWL	5333	12-Month Clinic Visit	1.0	missing	.x														
+SUB230933	Atopic	W_CWL	5329	24-Month Clinic Visit	1.0	missing	.x														
+SUB230934	Atopic	W_CWL	5345	24-Month Clinic Visit	1.0	missing	.x														
+SUB230934	Atopic	W_CWL	5349	12-Month Clinic Visit	1.0	missing	.x														
+SUB230935	Atopic	W_CWL	5372	3-Month Home Visit	1.0	complete	3	1	56.5	56.5	57	56.7	4.8							79	
+SUB230935	Atopic	W_CWL	5368	12-Month Clinic Visit	1.0	complete	12	3						2				56.5	5.1	352	89
+SUB230936	Atopic	W_CWL	5525	3-Month Home Visit	1.0	complete	3	1	62.5	63	62	62.5	5.4							83	
+SUB230937	Atopic	W_CWL	5648	3-Month Home Visit	1.0	complete	3	1	58.5	58	58	58.2	4.7							69	
+SUB230938	Atopic	W_CWL	5797	3-Month Home Visit	1.0	complete	3	1	59.5	59	59	59.2	5.6							71	
+SUB230939	Atopic	W_CWL	5932	3-Month Home Visit	1.0	complete	3	1	60	61	62.5	61.2	6.2							74	
+SUB230940	Atopic	W_CWL	5950	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	60	60.3	6.2							80	
+SUB230941	Atopic	W_CWL	6063	3-Month Home Visit	1.0	complete	3	1	61.5	61.5	61.5	61.5	6.1							114	
+SUB230942	Atopic	W_CWL	6079	3-Month Home Visit	1.0	complete	3	1	57.5	58	58	57.8	5.3							77	
+SUB230943	Atopic	W_CWL	6096	3-Month Home Visit	1.0	complete	3	1	57.5	57.5	57.5	57.5	5							75	
+SUB230944	Atopic	W_CWL	6113	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	59	59.3	5.5							93	
+SUB230945	Atopic	W_CWL	6198	3-Month Home Visit	1.0	complete	3	1	66.5	66.5	66.5	66.5	7.8							121	
+SUB230946	Atopic	W_CWL	6360	3-Month Home Visit	1.0	complete	3	1	61.5	61	61	61.2	6.7							100	
+SUB230947	Atopic	W_CWL	6449	3-Month Home Visit	1.0	complete	3	1	60	60	60	60	5.4							68	
+SUB230948	Atopic	W_CWL	6466	3-Month Home Visit	1.0	complete	3	1	62.5	62	62.5	62.3	6.9							123	
+SUB230949	Atopic	W_CWL	6487	3-Month Home Visit	1.0	complete	3	1	64.5	65	66	65.2	6.7							129	
+SUB230950	Atopic	W_CWL	6620	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	61	60.7	7.5							104	
+SUB230951	Atopic	W_CWL	6641	12-Month Clinic Visit	1.0	complete	12	3						2				63	7.1	376	117
+SUB230951	Atopic	W_CWL	6645	3-Month Home Visit	1.0	complete	3	1	58.5	59	58.5	58.7	6.1							83	
+SUB230952	Atopic	W_CWL	6714	3-Month Home Visit	1.0	complete	3	1	63	63	63	63	6.7							113	
+SUB230953	Atopic	W_CWL	6731	3-Month Home Visit	1.0	complete	3	1	63.5	63	63	63.2	6							80	
+SUB230954	Atopic	W_CWL	6901	3-Month Home Visit	1.0	complete	3	1	60	60	60	60	5.5							98	
+SUB230955	Atopic	W_CWL	7033	3-Month Home Visit	1.0	complete	3	1	56.5	57	57	56.8	5.3							75	
+SUB230956	Atopic	W_CWL	7108	3-Month Home Visit	1.0	complete	3	1	59	59	59	59	5.4							97	
+SUB230957	Atopic	W_CWL	7401	3-Month Home Visit	1.0	complete	3	1	60	60	60	60	4.9							80	
+SUB230958	Atopic	W_CWL	7485	3-Month Home Visit	1.0	complete	3	1	59.5	61	61	60.5	6.7							110	
+SUB230959	Atopic	W_CWL	7509	3-Month Home Visit	1.0	complete	3	1	60	60	60.5	60.2	5.7							83	
+SUB230960	Atopic	W_CWL	7543	3-Month Home Visit	1.0	complete	3	2						1	21.5	10	0			86	59
+SUB230961	Atopic	W_CWL	7616	3-Month Home Visit	1.0	complete	3	1	61.5	61	61.5	61.3	5.7							127	
+SUB230962	Atopic	W_CWL	7927	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	59.5	59.5	6.2							89	
+SUB230963	Atopic	W_CWL	7959	3-Month Home Visit	1.0	complete	3	1	59	59.5	59	59.2	5.7							122	
+SUB230964	Atopic	W_CWL	8010	3-Month Home Visit	1.0	complete	3	1	57	57.5	57.5	57.3	5.2							99	
+SUB230965	Atopic	W_CWL	8042	3-Month Home Visit	1.0	complete	3	1	57.5	57.5	57	57.3	5.2							99	
+SUB230966	Atopic	W_CWL	8176	3-Month Home Visit	1.0	complete	3	1	63.5	64	64	63.8	6.4							103	
+SUB230967	Atopic	W_CWL	8218	3-Month Home Visit	1.0	complete	3	1	60	60	60	60	5.7							83	
+SUB230968	Atopic	W_CWL	8257	3-Month Home Visit	1.0	missing	.x														
+SUB230968	Atopic	W_CWL	8253	12-Month Clinic Visit	1.0	missing	.x														
+SUB230969	Atopic	W_CWL	8584	3-Month Home Visit	1.0	complete	3	1	59.5	60	59.5	59.7	5.3							76	
+SUB230970	Atopic	W_CWL	8883	3-Month Home Visit	1.0	complete	3	1	59	59	59	59	5.3							83	
+SUB230971	Atopic	W_CWL	8899	3-Month Home Visit	1.0	missing	.x														
+SUB230971	Atopic	W_CWL	8895	12-Month Clinic Visit	1.0	complete	12	3						2				60	5.4	368	108
+SUB230972	Atopic	W_CWL	9136	3-Month Home Visit	1.0	complete	3	1	61	61	61	61	6.9							113	
+SUB230973	Atopic	W_CWL	9152	3-Month Home Visit	1.0	complete	3	1	59	59	59.5	59.2	5							73	
+SUB230974	Atopic	W_CWL	9208	3-Month Home Visit	1.0	complete	3	1	57.1	57.1	57.1	57.1	6.1							114	
+SUB230975	Atopic	W_CWL	9256	3-Month Home Visit	1.0	complete	3	1	63.5	64	64	63.8	7.2							125	
+SUB230976	Atopic	W_CWL	9406	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	58.5	58.5	5.5							88	
+SUB230977	Atopic	W_CWL	9632	3-Month Home Visit	1.0	complete	3	1	65	65	65	65	7.3							95	
+SUB230978	Atopic	W_CWL	9719	3-Month Home Visit	1.0	complete	3	1	61	61	61	61	6.5							96	
+SUB230979	Atopic	W_CWL	9776	3-Month Home Visit	1.0	missing	.x														
+SUB230979	Atopic	W_CWL	9772	12-Month Clinic Visit	1.0	complete	12	3						2				57	4.9	397	56
+SUB230980	Atopic	W_CWL	9829	3-Month Home Visit	1.0	complete	3	1	57.5	58	58	57.8	6.1							98	
+SUB230981	Atopic	W_CWL	10065	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	62.5	62.5	5.7							112	
+SUB230982	Atopic	W_CWL	10096	3-Month Home Visit	1.0	complete	3	1	61	62	62	61.7	6.9							103	
+SUB230983	Atopic	W_CWL	10114	3-Month Home Visit	1.0	complete	3	1	61.5	61.5	61.5	61.5	6.4							122	
+SUB230984	Atopic	W_CWL	10160	12-Month Clinic Visit	1.0	missing	.x														
+SUB230984	Atopic	W_CWL	10156	24-Month Clinic Visit	1.0	missing	.x														
+SUB230984	Atopic	W_CWL	10164	3-Month Home Visit	1.0	missing	.x														
+SUB230985	Atopic	W_CWL	10361	12-Month Clinic Visit	1.0	missing	.x														
+SUB230985	Atopic	W_CWL	10357	24-Month Clinic Visit	1.0	missing	.x														
+SUB230985	Atopic	W_CWL	10365	3-Month Home Visit	1.0	missing	.x														
+SUB230986	Atopic	W_CWL	10382	3-Month Home Visit	1.0	complete	3	1	58	57	57	57.3	5.4							82	
+SUB230987	Atopic	W_CWL	10604	3-Month Home Visit	1.0	complete	3	1	61.5	62	62	61.8	5.7							94	
+SUB230988	Atopic	W_CWL	10715	3-Month Home Visit	1.0	complete	3	1	55	56	56.5	55.8	5.5							77	
+SUB230989	Atopic	W_CWL	11324	3-Month Home Visit	1.0	complete	3	1	61.5	62	62	61.8	6.1							94	
+SUB230990	Atopic	W_CWL	11340	3-Month Home Visit	1.0	complete	3	1	62	62.5	62.5	62.3	7.3							84	
+SUB230991	Atopic	W_CWL	11377	3-Month Home Visit	1.0	complete	3	1	61	61	61.5	61.2	6.4							73	
+SUB230992	Atopic	W_CWL	11515	3-Month Home Visit	1.0	missing	.x														
+SUB230992	Atopic	W_CWL	11511	12-Month Clinic Visit	1.0	missing	.x														
+SUB230993	Atopic	W_CWL	11531	3-Month Home Visit	1.0	complete	3	1	62.5	62	62	62.2	6.6							116	
+SUB230994	Atopic	W_CWL	11841	3-Month Home Visit	1.0	complete	3	1	58.5	58	58.5	58.3	5.1							80	
+SUB230995	Atopic	W_CWL	11871	3-Month Home Visit	1.0	complete	3	1	62	62	62	62	6.7							94	
+SUB230996	Atopic	W_CWL	11887	3-Month Home Visit	1.0	complete	3	1	67	67.5	67	67.2	7.3							126	
+SUB230997	Atopic	W_CWL	12021	3-Month Home Visit	1.0	complete	3	1	62	62	62	62	6.6							133	
+SUB230998	Atopic	W_CWL	12061	3-Month Home Visit	1.0	complete	3	1	58	57	57	57.3	4.7							91	
+SUB230999	Non-atopic	W_CWL	12089	3-Month Home Visit	1.0	complete	3	1	56	57	56	56.3	5.3							85	
+SUB231000	Atopic	W_CWL	12250	3-Month Home Visit	1.0	complete	3	1	62	62	62	62	6.2							136	
+SUB231001	Atopic	W_CWL	12269	3-Month Home Visit	1.0	complete	3	1	61.5	62	62	61.8	6.6							133	
+SUB231002	Atopic	W_CWL	12380	3-Month Home Visit	1.0	complete	3	1	65	64	65	64.7	7.3							117	
+SUB231003	Atopic	W_CWL	12414	3-Month Home Visit	1.0	complete	3	1	61.5	62	62	61.8	6.1							106	
+SUB231004	Atopic	W_CWL	12499	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	60	60.3	6.1							98	
+SUB231005	Atopic	W_CWL	12659	3-Month Home Visit	1.0	complete	3	1	61.5	61.5	61.5	61.5	5.7							91	
+SUB231006	Atopic	W_CWL	12740	3-Month Home Visit	1.0	complete	3	1	58	58	58	58	5.3							93	
+SUB231007	Atopic	W_CWL	12761	3-Month Home Visit	1.0	complete	3	1	58.5	59	58.5	58.7	5.9							89	
+SUB231008	Atopic	W_CWL	13004	3-Month Home Visit	1.0	complete	3	1	62	62.5	62	62.2	6.8							108	
+SUB231009	Atopic	W_CWL	13082	3-Month Home Visit	1.0	complete	3	1	59	61	59	59.7	6.4							77	
+SUB231010	Non-atopic	W_CWL	13118	3-Month Home Visit	1.0	complete	3	1	58	58	58	58	5.4							76	
+SUB231011	Atopic	W_CWL	13144	3-Month Home Visit	1.0	complete	3	1	59.5	59	59.5	59.3	5.3							100	
+SUB231012	Atopic	W_CWL	13179	3-Month Home Visit	1.0	complete	3	1	58.4	58.4	58.4	58.4	6.1							79	
+SUB231013	Atopic	W_CWL	13386	3-Month Home Visit	1.0	complete	3	1	61	61	61	61	5.8							98	
+SUB231014	Atopic	W_CWL	13405	3-Month Home Visit	1.0	complete	3	1	64	63.5	63.5	63.7	5.9							115	
+SUB231015	Non-atopic	W_CWL	13468	3-Month Home Visit	1.0	complete	3	1	53.5	52.5	52.5	52.8	5.3							84	
+SUB231016	Atopic	W_CWL	13634	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	58.5	58.5	5.7							97	
+SUB231017	Non-atopic	W_CWL	13693	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	59.5	59.5	5.5							94	
+SUB231018	Atopic	W_CWL	13725	3-Month Home Visit	1.0	missing	.x														
+SUB231018	Atopic	W_CWL	13721	12-Month Clinic Visit	1.0	missing	.x														
+SUB231019	Atopic	W_CWL	13937	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	61	60.7	7.8							99	
+SUB231020	Atopic	W_CWL	14158	3-Month Home Visit	1.0	missing	.x														
+SUB231021	Atopic	W_CWL	14307	3-Month Home Visit	1.0	complete	3	1	59	59	59	59	5.2							99	
+SUB231022	Non-atopic	W_CWL	14316	3-Month Home Visit	1.0	complete	3	1	59	59.5	60	59.5	5.9							93	
+SUB231023	Non-atopic	W_CWL	15400	3-Month Home Visit	1.0	complete	3	1	62.5	63	63.5	63	6.9							105	
+SUB231024	Non-atopic	W_CWL	16269	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	62.5	62.5	6							101	
+SUB231025	Atopic	W_CWL	16697	3-Month Home Visit	1.0	complete	3	1	63	63	63	63	7.9							97	
+SUB231026	Atopic	W_CWL	16731	3-Month Home Visit	1.0	complete	3	1	58.4	58.4	58.4	58.4	5.7							81	
+SUB231027	Atopic	W_CWL	403	12-Month Clinic Visit	1.0	complete	12	3						2				69.6	8	576	117
+SUB231028	Atopic	W_CWL	1102	12-Month Clinic Visit	1.0	complete	12	3						2				61.5	5.5	537	131
+SUB231029	Atopic	W_CWL	4461	12-Month Clinic Visit	1.0	complete	12	3						2				61.6	6.6	518	133
+SUB231030	Atopic	W_CWL	1434	12-Month Clinic Visit	1.0	complete	12	3						2				63.5	7.6	637	104
+SUB231031	Atopic	W_CWL	1476	12-Month Clinic Visit	1.0	missing	.x														
+SUB231035	Atopic	W_CWL	1824	12-Month Clinic Visit	1.0	complete	12	3						2				63.5	7.2	418	133
+SUB231037	Atopic	W_CWL	2325	3-Month Home Visit	1.0	missing	.x														
+SUB231039	Atopic	W_CWL	2423	12-Month Clinic Visit	1.0	complete	12	3						2				62.2	6.4	462	118
+SUB231040	Atopic	W_CWL	2521	12-Month Clinic Visit	1.0	complete	12	3						2				61	6.3	436	117
+SUB231041	Atopic	W_CWL	2714	12-Month Clinic Visit	1.0	complete	12	3						2				68.6	8.2	547	125
+SUB231042	Atopic	W_CWL	2834	12-Month Clinic Visit	1.0	complete	12	3						2				64.5	6.7	412	125
+SUB231043	Atopic	W_CWL	2852	12-Month Clinic Visit	1.0	complete	12	3						2				62.5	6.1	837	160
+SUB231044	Atopic	W_CWL	2868	12-Month Clinic Visit	1.0	complete	12	3						2				61	7.7	529	122
+SUB231045	Atopic	W_CWL	3063	12-Month Clinic Visit	1.0	missing	.x														
+SUB231047	Atopic	W_CWL	3139	12-Month Clinic Visit	1.0	complete	12	3						2				60.9	5.9	429	97
+SUB231048	Atopic	W_CWL	3290	12-Month Clinic Visit	1.0	complete	12	3						2				57.5	6.3	418	75
+SUB231049	Atopic	W_CWL	3493	3-Month Home Visit	1.0	missing	.x														
+SUB231049	Atopic	W_CWL	3489	12-Month Clinic Visit	1.0	complete	12	3						2				67.3	8.1	472	153
+SUB231050	Atopic	W_CWL	3505	12-Month Clinic Visit	1.0	complete	12	3						2				66	8.4	412	138
+SUB231051	Atopic	W_CWL	3521	12-Month Clinic Visit	1.0	complete	12	3						1	25.05	16	9			922	166
+SUB231052	Atopic	W_CWL	4489	12-Month Clinic Visit	1.0	missing	.x														
+SUB231053	Atopic	W_CWL	4505	12-Month Clinic Visit	1.0	complete	12	3						2				59.7	5.5	428	105
+SUB231054	Atopic	W_CWL	4522	12-Month Clinic Visit	1.0	complete	12	3						2				66	7.3	501	128
+SUB231055	Atopic	W_CWL	4539	12-Month Clinic Visit	1.0	complete	12	3						2				58	5.6	375	72
+SUB231056	Atopic	W_CWL	4946	3-Month Home Visit	1.0	missing	.x														
+SUB231056	Atopic	W_CWL	4942	12-Month Clinic Visit	1.0	missing	.x														
+SUB231057	Atopic	W_CWL	9664	3-Month Home Visit	1.0	missing	.x														
+SUB231057	Atopic	W_CWL	9660	12-Month Clinic Visit	1.0	complete	12	3						2				61	5.6	406	119
+SUB231058	Atopic	W_CWL	5419	3-Month Home Visit	1.0	complete	3	1	64.5	65	65	64.8	7.5							107	
+SUB231059	Atopic	W_CWL	5540	12-Month Clinic Visit	1.0	complete	12	3						1	23.5	16	8			421	124
+SUB231059	Atopic	W_CWL	5543	Pollution Monitoring Pickup	1.0	complete	pm	1	61.6	61.5	61.5	61.5	6.4							87	
+SUB231060	Atopic	W_CWL	5556	12-Month Clinic Visit	1.0	complete	12	3						2				66	8.7	490	123
+SUB231060	Atopic	W_CWL	5560	3-Month Home Visit	1.0	missing	.x														
+SUB231061	Atopic	W_CWL	5576	12-Month Clinic Visit	1.0	complete	12	3						2				57.5	7.2	369	
+SUB231062	Atopic	W_CWL	5680	3-Month Home Visit	1.0	missing	.x														
+SUB231063	Atopic	W_CWL	5692	12-Month Clinic Visit	1.0	complete	12	3						2				57.2	5.6	462	62
+SUB231063	Atopic	W_CWL	5695	Pollution Monitoring Pickup	1.0	complete	pm	1	64.5	63.5	64.5	64.2	6.2							106	
+SUB231064	Atopic	W_CWL	5811	12-Month Clinic Visit	1.0	complete	12	3						1	19.5	7	2			515	32
+SUB231065	Atopic	W_CWL	6045	3-Month Home Visit	1.0	complete	3	1	56.5	57	56.5	56.7	5.7							77	
+SUB231066	Atopic	W_CWL	6678	12-Month Clinic Visit	1.0	complete	12	3						1	23.25	12	3			454	61
+SUB231066	Atopic	W_CWL	6682	3-Month Home Visit	1.0	missing	.x														
+SUB231067	Atopic	W_CWL	6698	3-Month Home Visit	1.0	missing	.x														
+SUB231067	Atopic	W_CWL	6694	12-Month Clinic Visit	1.0	complete	12	3						1	24.41	16	4			413	116
+SUB231068	Atopic	W_CWL	6942	3-Month Home Visit	1.0	complete	3	1	62.5	62.3	61.5	62.1	7.8							90	
+SUB231069	Atopic	W_CWL	6958	3-Month Home Visit	1.0	missing	.x														
+SUB231070	Atopic	W_CWL	13323	12-Month Clinic Visit	1.0	complete	12	3						2				62	6.3	392	105
+SUB231070	Atopic	W_CWL	6974	3-Month Home Visit	1.0	missing	.x														
+SUB231071	Atopic	W_CWL	7057	3-Month Home Visit	1.0	complete	3	1	62.5	62.8	62.5	62.6	6.9							69	
+SUB231072	Atopic	W_CWL	7273	3-Month Home Visit	1.0	complete	3	1	59	60	60.5	59.8	5.6							97	
+SUB231073	Atopic	W_CWL	7289	3-Month Home Visit	1.0	missing	.x														
+SUB231073	Atopic	W_CWL	7285	12-Month Clinic Visit	1.0	complete	12	3						2				67.9	6.6	398	0
+SUB231074	Atopic	W_CWL	7356	3-Month Home Visit	1.0	missing	.x														
+SUB231074	Atopic	W_CWL	7352	12-Month Clinic Visit	1.0	complete	12	3						2				67	7.6	801	133
+SUB231075	Atopic	W_CWL	7560	12-Month Clinic Visit	1.0	complete	12	3						1	22.5	12	9			395	122
+SUB231075	Atopic	W_CWL	7564	3-Month Home Visit	1.0	complete	3	1	58	58.3	58.3	58.2	4.4							72	
+SUB231076	Atopic	W_CWL	8071	3-Month Home Visit	1.0	missing	.x														
+SUB231076	Atopic	W_CWL	8067	12-Month Clinic Visit	1.0	complete	12	3						2				64.9	7.6	399	129
+SUB231077	Atopic	W_CWL	8090	3-Month Home Visit	1.0	missing	.x														
+SUB231077	Atopic	W_CWL	8086	12-Month Clinic Visit	1.0	missing	.x														
+SUB231078	Atopic	W_CWL	8348	3-Month Home Visit	1.0	missing	.x														
+SUB231078	Atopic	W_CWL	8344	12-Month Clinic Visit	1.0	complete	12	3						1	28.15	18	9			340	152
+SUB231079	Atopic	W_CWL	8364	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	59	58.7	5.2							80	
+SUB231080	Atopic	W_CWL	8380	3-Month Home Visit	1.0	missing	.x														
+SUB231081	Atopic	W_CWL	8396	3-Month Home Visit	1.0	missing	.x														
+SUB231081	Atopic	W_CWL	8392	12-Month Clinic Visit	1.0	missing	.x														
+SUB231082	Atopic	W_CWL	8412	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	61	60.7	5.6							75	
+SUB231083	Atopic	W_CWL	8428	3-Month Home Visit	1.0	complete	3	1	58.5	59	58.5	58.7	6.9							79	
+SUB231084	Atopic	W_CWL	8708	3-Month Home Visit	1.0	missing	.x														
+SUB231084	Atopic	W_CWL	8704	12-Month Clinic Visit	1.0	complete	12	3						2				63.5	7.9	362	118
+SUB231085	Atopic	W_CWL	9226	12-Month Clinic Visit	1.0	missing	.x														
+SUB231085	Atopic	W_CWL	9230	3-Month Home Visit	1.0	missing	.x														
+SUB231086	Atopic	W_CWL	9297	3-Month Home Visit	1.0	complete	3	1	62.5	62.2	62.5	62.4	6.3							102	
+SUB231087	Atopic	W_CWL	9329	3-Month Home Visit	1.0	complete	3	1	67.5	67	67	67.2	7.9							126	
+SUB231088	Atopic	W_CWL	9465	3-Month Home Visit	1.0	missing	.x														
+SUB231088	Atopic	W_CWL	9461	12-Month Clinic Visit	1.0	missing	.x														
+SUB231090	Atopic	W_CWL	9536	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	62.2	62.4	5.7							74	
+SUB231091	Atopic	W_CWL	9552	3-Month Home Visit	1.0	missing	.x														
+SUB231091	Atopic	W_CWL	9548	12-Month Clinic Visit	1.0	complete	12	3						1	24	12	9			361	96
+SUB231092	Atopic	W_CWL	9616	3-Month Home Visit	1.0	missing	.x														
+SUB231092	Atopic	W_CWL	9612	12-Month Clinic Visit	1.0	complete	12	3						2				63.5	5.5	359	100
+SUB231093	Atopic	W_CWL	9648	3-Month Home Visit	1.0	complete	3	1	57.5	57.5	57	57.3	6.1							97	
+SUB231094	Atopic	W_CWL	9966	3-Month Home Visit	1.0	complete	3	1	60.5	61	60.5	60.7	5.6							104	
+SUB231095	Atopic	W_CWL	10484	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	60	59.7	6.5							87	
+SUB231096	Atopic	W_CWL	10504	3-Month Home Visit	1.0	complete	3	1	58.5	58.6	58.5	58.5	7.1							84	
+SUB231097	Atopic	W_CWL	10545	12-Month Clinic Visit	1.0	complete	12	3						2				65.5	6.8	511	116
+SUB231097	Atopic	W_CWL	10549	3-Month Home Visit	1.0	missing	.x														
+SUB231098	Atopic	W_CWL	10741	3-Month Home Visit	1.0	complete	3	1	62	61.5	62.2	61.9	6.7							82	
+SUB231099	Atopic	W_CWL	10757	3-Month Home Visit	1.0	complete	3	1	61	61	61	61	6.1							99	
+SUB231100	Atopic	W_CWL	10773	3-Month Home Visit	1.0	complete	3	1	58	58.5	58.7	58.4	5.7							73	
+SUB231101	Atopic	W_CWL	10789	3-Month Home Visit	1.0	complete	3	1	64.5	64.5	65	64.7	6.7							126	
+SUB231102	Atopic	W_CWL	10806	3-Month Home Visit	1.0	complete	3	1	59	58.5	59	58.8	6							76	
+SUB231103	Atopic	W_CWL	10825	3-Month Home Visit	1.0	complete	3	1	62	62	61.5	61.8	5.7							105	
+SUB231104	Atopic	W_CWL	10844	3-Month Home Visit	1.0	complete	3	1	61.6	61.7	61.6	61.6	5.6							114	
+SUB231105	Atopic	W_CWL	10860	3-Month Home Visit	1.0	complete	3	1	59	59.2	59.2	59.1	6							73	
+SUB231106	Atopic	W_CWL	10902	3-Month Home Visit	1.0	missing	.x														
+SUB231106	Atopic	W_CWL	19110	12-Month Clinic Visit	1.0	missing	.x														
+SUB231107	Atopic	W_CWL	11110	3-Month Home Visit	1.0	complete	3	1	65.5	65.5	65.8	65.6	7.6							117	
+SUB231108	Atopic	W_CWL	11174	3-Month Home Visit	1.0	complete	3	1	65.5	65.5	65	65.3	6.2							133	
+SUB231109	Atopic	W_CWL	11361	3-Month Home Visit	1.0	complete	3	1	62.2	61.5	61.5	61.7	6.1							94	
+SUB231110	Atopic	W_CWL	11489	3-Month Home Visit	1.0	complete	3	1	63	62.5	62.5	62.7	7.4							94	
+SUB231111	Atopic	W_CWL	11602	3-Month Home Visit	1.0	complete	3	1	62	62	61.5	61.8	6.4							99	
+SUB231112	Atopic	W_CWL	11618	3-Month Home Visit	1.0	missing	.x														
+SUB231112	Atopic	W_CWL	11614	12-Month Clinic Visit	1.0	missing	.x														
+SUB231113	Atopic	W_CWL	11655	3-Month Home Visit	1.0	complete	3	1	65.5	65	65	65.2	6.8							86	
+SUB231114	Atopic	W_CWL	11671	3-Month Home Visit	1.0	complete	3	1	58.5	58	58	58.2	6.6							79	
+SUB231115	Atopic	W_CWL	12082	3-Month Home Visit	1.0	complete	3	1	61.8	61.5	61.5	61.6	6.5							81	
+SUB231116	Atopic	W_CWL	12169	3-Month Home Visit	1.0	complete	3	1	61	61.5	62.2	61.6	6							83	
+SUB231117	Atopic	W_CWL	12181	12-Month Clinic Visit	1.0	complete	12	3						2				56.5	4.7	666	61
+SUB231117	Atopic	W_CWL	12185	3-Month Home Visit	1.0	missing	.x														
+SUB231118	Atopic	W_CWL	12201	3-Month Home Visit	1.0	missing	.x														
+SUB231118	Atopic	W_CWL	12197	12-Month Clinic Visit	1.0	missing	.x														
+SUB231119	Atopic	W_CWL	12430	3-Month Home Visit	1.0	complete	3	1	61	61.2	61.2	61.1	5.7							80	
+SUB231120	Atopic	W_CWL	12544	3-Month Home Visit	1.0	complete	3	1	60	60	59.7	59.9	5.7							89	
+SUB231121	Atopic	W_CWL	12567	3-Month Home Visit	1.0	complete	3	1	59.5	59	58.7	59.1	5.6							77	
+SUB231122	Atopic	W_CWL	12583	3-Month Home Visit	1.0	complete	3	1	64	64	63.7	63.9	7.7							77	
+SUB231123	Atopic	W_CWL	12599	3-Month Home Visit	1.0	complete	3	1	63.3	63	63.3	63.2	6							102	
+SUB231124	Atopic	W_CWL	12622	3-Month Home Visit	1.0	missing	.x														
+SUB231125	Atopic	W_CWL	12642	3-Month Home Visit	1.0	missing	.x														
+SUB231125	Atopic	W_CWL	12638	12-Month Clinic Visit	1.0	complete	12	3						2				66.7	6.4	365	122
+SUB231126	Atopic	W_CWL	12808	3-Month Home Visit	1.0	missing	.x														
+SUB231127	Atopic	W_CWL	12824	3-Month Home Visit	1.0	complete	3	1	59	59.5	59.5	59.3	5.7							76	
+SUB231128	Atopic	W_CWL	12872	3-Month Home Visit	1.0	complete	3	1	58.5	59.3	59.5	59.1	5.3							85	
+SUB231129	Non-atopic	W_CWL	12879	3-Month Home Visit	1.0	missing	.x														
+SUB231130	Atopic	W_CWL	12904	3-Month Home Visit	1.0	complete	3	1	57	57.3	57	57.1	5.2							100	
+SUB231131	Atopic	W_CWL	13036	3-Month Home Visit	1.0	complete	3	1	64.5	64.8	64.8	64.7	5.9							125	
+SUB231132	Atopic	W_CWL	13199	3-Month Home Visit	1.0	complete	3	1	65.5	65.5	65.5	65.5	6.4							116	
+SUB231133	Atopic	W_CWL	13286	3-Month Home Visit	1.0	complete	3	1	62.5	63	63	62.8	6							94	
+SUB231134	Atopic	W_CWL	13460	3-Month Home Visit	1.0	complete	3	1	61	61	61.3	61.1	5.5							130	
+SUB231135	Atopic	W_CWL	13528	3-Month Home Visit	1.0	complete	3	1	61	61	60.5	60.8	4.8							98	
+SUB231136	Atopic	W_CWL	13615	3-Month Home Visit	1.0	complete	3	1	55	55.5	55.5	55.3	5.7							77	
+SUB231137	Atopic	W_CWL	13826	3-Month Home Visit	1.0	complete	3	1	66	66.5	66.2	66.2	8.3							134	
+SUB231138	Atopic	W_CWL	13913	3-Month Home Visit	1.0	complete	3	1	57.8	58	58	57.9								78	
+SUB231139	Atopic	W_CWL	13954	12-Month Clinic Visit	1.0	complete	12	3						2				63	7.1	386	136
+SUB231139	Atopic	W_CWL	13958	3-Month Home Visit	1.0	complete	3	1	63	63	63.5	63.2	6.6							104	
+SUB231140	Atopic	W_CWL	14204	3-Month Home Visit	1.0	missing	.x														
+SUB231141	Atopic	W_CWL	14236	3-Month Home Visit	1.0	complete	3	1	63	63.5	64	63.5	5.7							88	
+SUB231142	Atopic	W_CWL	14252	12-Month Clinic Visit	1.0	complete	12	3						2				58.2	5.8	421	111
+SUB231142	Atopic	W_CWL	14256	3-Month Home Visit	1.0	missing	.x														
+SUB231143	Non-atopic	W_CWL	14390	3-Month Home Visit	1.0	missing	.x														
+SUB231143	Non-atopic	W_CWL	14394	12-Month Clinic Visit	1.0	missing	.x														
+SUB231143	Non-atopic	W_CWL	14398	24-Month Clinic Visit	1.0	missing	.x														
+SUB231144	Atopic	W_CWL	14415	3-Month Home Visit	1.0	complete	3	1	61.7	61.7	61.5	61.6	5.9							93	
+SUB231145	Non-atopic	W_CWL	14422	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	58.7	58.6	5.1							80	
+SUB231146	Atopic	W_CWL	14447	3-Month Home Visit	1.0	complete	3	1	62.7	63	62.7	62.8	7							110	
+SUB231147	Non-atopic	W_CWL	14488	3-Month Home Visit	1.0	complete	3	1	64.2	64	64.2	64.1	6.7							119	
+SUB231148	Atopic	W_CWL	14513	3-Month Home Visit	1.0	complete	3	1	64	64	63.7	63.9	6.8							84	
+SUB231149	Atopic	W_CWL	14567	3-Month Home Visit	1.0	complete	3	1	69.5	70	69.5	69.7	6.6							132	
+SUB231150	Atopic	W_CWL	14759	3-Month Home Visit	1.0	complete	3	1	64	64	63.7	63.9	5.7							125	
+SUB231151	Non-atopic	W_CWL	14767	3-Month Home Visit	1.0	complete	3	3						1	23	13	9			130	67
+SUB231152	Atopic	W_CWL	14792	3-Month Home Visit	1.0	missing	.x														
+SUB231153	Non-atopic	W_CWL	14800	3-Month Home Visit	1.0	complete	3	1	61.2	61	61	61.1	6.1							139	
+SUB231154	Non-atopic	W_CWL	14856	3-Month Home Visit	1.0	complete	3	1	64	64.3	64.1	64.1	6							91	
+SUB231155	Atopic	W_CWL	14883	3-Month Home Visit	1.0	complete	3	1	65.2	65	65	65.1	7.4							122	
+SUB231156	Non-atopic	W_CWL	15041	3-Month Home Visit	1.0	complete	3	1	64.5	64	64.5	64.3	6.4							115	
+SUB231157	Non-atopic	W_CWL	15173	3-Month Home Visit	1.0	missing	.x														
+SUB231157	Non-atopic	W_CWL	15177	12-Month Clinic Visit	1.0	missing	.x														
+SUB231158	Non-atopic	W_CWL	15193	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	62.6	62.5	6.7							103	
+SUB231159	Atopic	W_CWL	15220	3-Month Home Visit	1.0	missing	.x														
+SUB231159	Atopic	W_CWL	15216	12-Month Clinic Visit	1.0	missing	.x														
+SUB231159	Atopic	W_CWL	15212	24-Month Clinic Visit	1.0	missing	.x														
+SUB231160	Atopic	W_CWL	15328	3-Month Home Visit	1.0	missing	.x														
+SUB231161	Atopic	W_CWL	15361	3-Month Home Visit	1.0	complete	3	1	61.5	62	61.5	61.7	6							79	
+SUB231162	Atopic	W_CWL	15389	3-Month Home Visit	1.0	missing	.x														
+SUB231163	Atopic	W_CWL	15528	3-Month Home Visit	1.0	complete	3	1	58.2	58.6	58.5	58.4	5.5							80	
+SUB231163	Atopic	W_CWL	15524	12-Month Clinic Visit	1.0	complete	12	3						2				64.8	6	408	134
+SUB231164	Atopic	W_CWL	15544	3-Month Home Visit	1.0	complete	3	1	67.5	67.5	67.5	67.5	6.5							102	
+SUB231165	Atopic	W_CWL	15560	3-Month Home Visit	1.0	complete	3	1	63.5	63.4	63.5	63.5	6.8							110	
+SUB231166	Atopic	W_CWL	15944	3-Month Home Visit	1.0	missing	.x														
+SUB231166	Atopic	W_CWL	15940	12-Month Clinic Visit	1.0	missing	.x														
+SUB231167	Atopic	W_CWL	16014	3-Month Home Visit	1.0	complete	3	1	59.2	59.5	59.5	59.4	4.6							81	
+SUB231168	Atopic	W_CWL	16674	3-Month Home Visit	1.0	complete	3	1	59	59	59.5	59.2	5.2							117	
+SUB231169	Non-atopic	W_CWL	19293	3-Month Home Visit	1.0	complete	3	1	65	65.2	65.5	65.2	5.9							106	
+SUB231170	Non-atopic	W_CWL	17506	3-Month Home Visit	1.0	complete	3	1	55.6	55.5	55.6	55.6	4.6							67	
+SUB231171	Non-atopic	W_CWL	18890	3-Month Home Visit	1.0	complete	3	1	60	65	60	61.7	4.9							66	
+SUB231172	Non-atopic	W_CWL	18972	3-Month Home Visit	1.0	complete	3	1	63	62.5	63	62.8	5.5							78	
+SUB231173	Atopic	W_CWL	494	12-Month Clinic Visit	1.0	complete	12	2						2				66.5	7.8	1540	202
+SUB231174	Atopic	W_CWL	508	12-Month Clinic Visit	1.0	missing	.x														
+SUB231176	Atopic	W_CWL	777	12-Month Clinic Visit	1.0	complete	12	2						1	21	10	12			1469	61
+SUB231177	Atopic	W_CWL	1002	12-Month Clinic Visit	1.0	complete	12	2						1	23.5	7	2			1457	91
+SUB231178	Atopic	W_CWL	1016	12-Month Clinic Visit	1.0	missing	.x														
+SUB231179	Atopic	W_CWL	1046	12-Month Clinic Visit	1.0	complete	12	2						1	23.5	10	9			1444	111
+SUB231180	Atopic	W_CWL	1083	12-Month Clinic Visit	1.0	complete	12	3						1	23.25	13	3			1423	95
+SUB231181	Atopic	W_CWL	1189	12-Month Clinic Visit	1.0	missing	.x														
+SUB231182	Atopic	W_CWL	1420	12-Month Clinic Visit	1.0	missing	.x														
+SUB231183	Atopic	W_CWL	1575	12-Month Clinic Visit	1.0	complete	12	2						1	25.25	14	14			473	78
+SUB231184	Atopic	W_CWL	1685	12-Month Clinic Visit	1.0	complete	12	2						1	24	11	13			465	132
+SUB231185	Atopic	W_CWL	1876	12-Month Clinic Visit	1.0	complete	12	2						1	21	9	5			413	41
+SUB231186	Atopic	W_CWL	2022	12-Month Clinic Visit	1.0	complete	12	2						1	24	11	7			448	70
+SUB231187	Atopic	W_CWL	2301	12-Month Clinic Visit	1.0	complete	12	2						1	23.75	10	11			813	96
+SUB231188	Atopic	W_CWL	2696	12-Month Clinic Visit	1.0	missing	.x														
+SUB231189	Atopic	W_CWL	2766	12-Month Clinic Visit	1.0	complete	12	2						1	22.5	12	9			369	70
+SUB231191	Atopic	W_CWL	3173	12-Month Clinic Visit	1.0	complete	12	3						1	24.5	16	0			382	114
+SUB231192	Atopic	W_CWL	3414	12-Month Clinic Visit	1.0	complete	12	2						1	25.75	18	9			720	116
+SUB231194	Atopic	W_CWL	3822	12-Month Clinic Visit	1.0	missing	.x														
+SUB231196	Atopic	W_CWL	4026	12-Month Clinic Visit	1.0	complete	12	3						1	23.25	14	10			342	83
+SUB231197	Atopic	W_CWL	4136	12-Month Clinic Visit	1.0	missing	.x														
+SUB231198	Atopic	W_CWL	4333	12-Month Clinic Visit	1.0	complete	12	2						1	24.5	18	0			345	141
+SUB231198	Atopic	W_CWL	4337	3-Month Home Visit	1.0	missing	.x														
+SUB231199	Atopic	W_CWL	4834	3-Month Home Visit	1.0	complete	3	1	62	62.5	62.5	62.3	6.6							144	
+SUB231200	Atopic	W_CWL	4881	3-Month Home Visit	1.0	missing	.x														
+SUB231201	Atopic	W_CWL	5169	3-Month Home Visit	1.0	complete	3	1	62	62.5	62	62.2	7.4							108	
+SUB231202	Atopic	W_CWL	5288	12-Month Clinic Visit	1.0	complete	12	3						1	20.88	9	0			1248	52
+SUB231202	Atopic	W_CWL	5292	3-Month Home Visit	1.0	missing	.x														
+SUB231203	Atopic	W_CWL	5305	12-Month Clinic Visit	1.0	complete	12	3						1	23.75	12	3			1292	67
+SUB231203	Atopic	W_CWL	5309	3-Month Home Visit	1.0	missing	.x														
+SUB231204	Atopic	W_CWL	5842	3-Month Home Visit	1.0	missing	.x														
+SUB231205	Atopic	W_CWL	5874	3-Month Home Visit	1.0	missing	.x														
+SUB231206	Atopic	W_CWL	6162	12-Month Clinic Visit	1.0	complete	12	3						2				41	7	1185	112
+SUB231206	Atopic	W_CWL	6166	3-Month Home Visit	1.0	missing	.x														
+SUB231207	Atopic	W_CWL	6182	3-Month Home Visit	1.0	complete	3	1	65.5	66	65.5	65.7	8.1							141	
+SUB231208	Atopic	W_CWL	6261	3-Month Home Visit	1.0	missing	.x														
+SUB231208	Atopic	W_CWL	6257	12-Month Clinic Visit	1.0	missing	.x														
+SUB231209	Atopic	W_CWL	6392	12-Month Clinic Visit	1.0	missing	.x														
+SUB231209	Atopic	W_CWL	6396	3-Month Home Visit	1.0	missing	.x														
+SUB231210	Atopic	W_CWL	6505	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	63	62.7	6.7							125	
+SUB231211	Atopic	W_CWL	6561	24-Month Clinic Visit	1.0	missing	.x														
+SUB231211	Atopic	W_CWL	6565	12-Month Clinic Visit	1.0	missing	.x														
+SUB231211	Atopic	W_CWL	6569	3-Month Home Visit	1.0	missing	.x														
+SUB231212	Atopic	W_CWL	6864	3-Month Home Visit	1.0	complete	3	1	67	67	66	66.7	5.6							109	
+SUB231213	Atopic	W_CWL	7188	3-Month Home Visit	1.0	complete	3	1	60	59.5	60	59.8	5.6							119	
+SUB231214	Atopic	W_CWL	7256	3-Month Home Visit	1.0	complete	3	1	58.5	59	59	58.8	6.1							102	
+SUB231215	Atopic	W_CWL	7424	3-Month Home Visit	1.0	missing	.x														
+SUB231215	Atopic	W_CWL	7420	12-Month Clinic Visit	1.0	missing	.x														
+SUB231216	Atopic	W_CWL	7582	12-Month Clinic Visit	1.0	missing	.x														
+SUB231216	Atopic	W_CWL	7586	3-Month Home Visit	1.0	missing	.x														
+SUB231217	Atopic	W_CWL	7729	12-Month Clinic Visit	1.0	missing	.x														
+SUB231217	Atopic	W_CWL	7733	3-Month Home Visit	1.0	missing	.x														
+SUB231218	Atopic	W_CWL	7763	3-Month Home Visit	1.0	missing	.x														
+SUB231218	Atopic	W_CWL	7759	12-Month Clinic Visit	1.0	missing	.x														
+SUB231219	Atopic	W_CWL	7775	12-Month Clinic Visit	1.0	missing	.x														
+SUB231219	Atopic	W_CWL	7779	3-Month Home Visit	1.0	missing	.x														
+SUB231220	Atopic	W_CWL	7869	3-Month Home Visit	1.0	missing	.x														
+SUB231221	Atopic	W_CWL	7986	3-Month Home Visit	1.0	complete	3	1	68.5	69	69.5	69	7.4							119	
+SUB231222	Atopic	W_CWL	8153	3-Month Home Visit	1.0	missing	.x														
+SUB231222	Atopic	W_CWL	8149	12-Month Clinic Visit	1.0	missing	.x														
+SUB231222	Atopic	W_CWL	8145	24-Month Clinic Visit	1.0	missing	.x														
+SUB231223	Atopic	W_CWL	8318	3-Month Home Visit	1.0	complete	3	1	73	73	73	73	8.1							132	
+SUB231224	Atopic	W_CWL	8518	3-Month Home Visit	1.0	complete	3	1	63.5	62.2	63.5	63.1	6							147	
+SUB231225	Atopic	W_CWL	8540	3-Month Home Visit	1.0	complete	3	1	67	66.5	66.5	66.7	7.1							131	
+SUB231226	Atopic	W_CWL	8763	12-Month Clinic Visit	1.0	complete	12	3						1	24.5	14	2			1138	89
+SUB231226	Atopic	W_CWL	8767	3-Month Home Visit	1.0	missing	.x														
+SUB231227	Atopic	W_CWL	8783	3-Month Home Visit	1.0	complete	3	1	63	63	63	63	5.8							145	
+SUB231228	Atopic	W_CWL	8815	3-Month Home Visit	1.0	missing	.x														
+SUB231229	Atopic	W_CWL	8835	3-Month Home Visit	1.0	missing	.x														
+SUB231229	Atopic	W_CWL	8831	12-Month Clinic Visit	1.0	missing	.x														
+SUB231230	Atopic	W_CWL	8851	3-Month Home Visit	1.0	complete	3	1	65	65.5	65	65.2	6.7							149	
+SUB231232	Atopic	W_CWL	8991	3-Month Home Visit	1.0	complete	3	1	63	63	63	63	6.1							97	
+SUB231233	Atopic	W_CWL	9081	3-Month Home Visit	1.0	complete	3	1	67	67	67	67	7.4							137	
+SUB231234	Atopic	W_CWL	9097	3-Month Home Visit	1.0	complete	3	1	58	57.5	58	57.8	5.5							68	
+SUB231235	Atopic	W_CWL	9309	12-Month Clinic Visit	1.0	missing	.x														
+SUB231235	Atopic	W_CWL	9313	3-Month Home Visit	1.0	missing	.x														
+SUB231236	Atopic	W_CWL	9359	3-Month Home Visit	1.0	missing	.x														
+SUB231237	Atopic	W_CWL	9677	3-Month Home Visit	1.0	complete	3	1	63.5	64	63.5	63.7	7.2							125	
+SUB231238	Atopic	W_CWL	9929	3-Month Home Visit	1.0	complete	3	1	64	63.5	64	63.8	7.6							131	
+SUB231239	Atopic	W_CWL	10049	3-Month Home Visit	1.0	missing	.x														
+SUB231240	Atopic	W_CWL	10180	3-Month Home Visit	1.0	missing	.x														
+SUB231241	Atopic	W_CWL	10249	3-Month Home Visit	1.0	complete	3	3						2				61	13.2	127	99
+SUB231242	Atopic	W_CWL	10429	12-Month Clinic Visit	1.0	missing	.x														
+SUB231242	Atopic	W_CWL	10433	3-Month Home Visit	1.0	missing	.x														
+SUB231242	Atopic	W_CWL	10425	24-Month Clinic Visit	1.0	missing	.x														
+SUB231243	Atopic	W_CWL	10442	24-Month Clinic Visit	1.0	missing	.x														
+SUB231243	Atopic	W_CWL	10446	12-Month Clinic Visit	1.0	missing	.x														
+SUB231243	Atopic	W_CWL	10450	3-Month Home Visit	1.0	missing	.x														
+SUB231244	Atopic	W_CWL	10459	24-Month Clinic Visit	1.0	missing	.x														
+SUB231244	Atopic	W_CWL	10467	3-Month Home Visit	1.0	missing	.x														
+SUB231244	Atopic	W_CWL	10463	12-Month Clinic Visit	1.0	missing	.x														
+SUB231245	Atopic	W_CWL	4477	3-Month Home Visit	1.0	missing	.x														
+SUB231246	Atopic	W_CWL	10970	3-Month Home Visit	1.0	complete	3	1	66.5	66.5	66.5	66.5	7.6							150	
+SUB231247	Atopic	W_CWL	10994	3-Month Home Visit	1.0	complete	3	1	63.5	63	63.5	63.3	7							125	
+SUB231248	Atopic	W_CWL	11193	3-Month Home Visit	1.0	missing	.x														
+SUB231248	Atopic	W_CWL	11189	12-Month Clinic Visit	1.0	missing	.x														
+SUB231249	Atopic	W_CWL	11209	3-Month Home Visit	1.0	missing	.x														
+SUB231250	Atopic	W_CWL	11228	3-Month Home Visit	1.0	missing	.x														
+SUB231251	Atopic	W_CWL	11307	3-Month Home Visit	1.0	complete	3	1	61	61	61	61	7.5							138	
+SUB231252	Atopic	W_CWL	11548	3-Month Home Visit	1.0	complete	3	1	64.5	64.5	64	64.3	6.4							129	
+SUB231253	Atopic	W_CWL	11564	3-Month Home Visit	1.0	complete	3	1	63.5	63.5	63.5	63.5	6.6							91	
+SUB231254	Atopic	W_CWL	11687	3-Month Home Visit	1.0	missing	.x														
+SUB231254	Atopic	W_CWL	11683	12-Month Clinic Visit	1.0	missing	.x														
+SUB231255	Atopic	W_CWL	11719	3-Month Home Visit	1.0	complete	3	1	61.5	61.5	61	61.3	5.9							98	
+SUB231256	Atopic	W_CWL	11758	3-Month Home Visit	1.0	complete	3	1	64	64.5	64	64.2	6.8							128	
+SUB231257	Atopic	W_CWL	11925	3-Month Home Visit	1.0	complete	3	1	67.5	67.5	67.5	67.5	7.9							133	
+SUB231258	Atopic	W_CWL	12041	12-Month Clinic Visit	1.0	complete	12	3						1	21.5	9	5			399	59
+SUB231258	Atopic	W_CWL	12045	3-Month Home Visit	1.0	complete	3	1	64	64	64	64	6.7							132	
+SUB231259	Atopic	W_CWL	12351	24-Month Clinic Visit	1.0	missing	.x														
+SUB231259	Atopic	W_CWL	12355	12-Month Clinic Visit	1.0	missing	.x														
+SUB231259	Atopic	W_CWL	12359	3-Month Home Visit	1.0	missing	.x														
+SUB231260	Atopic	W_CWL	12724	3-Month Home Visit	1.0	complete	3	1	64.5	65.5	64	64.7	6.2							98	
+SUB231261	Atopic	W_CWL	12944	3-Month Home Visit	1.0	missing	.x														
+SUB231262	Atopic	W_CWL	12960	3-Month Home Visit	1.0	complete	3	1	62	62	62	62	6.3							131	
+SUB231263	Atopic	W_CWL	13056	3-Month Home Visit	1.0	complete	3	3						1	24	13	6			1040	92
+SUB231264	Atopic	W_CWL	13261	3-Month Home Visit	1.0	missing	.x														
+SUB231264	Atopic	W_CWL	13257	12-Month Clinic Visit	1.0	complete	12	2						1	24	13	0			545	90
+SUB231265	Atopic	W_CWL	13540	12-Month Clinic Visit	1.0	missing	.x														
+SUB231265	Atopic	W_CWL	13544	3-Month Home Visit	1.0	missing	.x														
+SUB231265	Atopic	W_CWL	13536	24-Month Clinic Visit	1.0	missing	.x														
+SUB231266	Atopic	W_CWL	13660	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	61	60.7	7.2							83	
+SUB231267	Atopic	W_CWL	13676	3-Month Home Visit	1.0	missing	.x														
+SUB231267	Atopic	W_CWL	13668	24-Month Clinic Visit	1.0	missing	.x														
+SUB231267	Atopic	W_CWL	13672	12-Month Clinic Visit	1.0	missing	.x														
+SUB231268	Atopic	W_CWL	13778	3-Month Home Visit	1.0	complete	3	1	69	69	69	69	7.6							129	
+SUB231269	Atopic	W_CWL	13871	3-Month Home Visit	1.0	missing	.x														
+SUB231269	Atopic	W_CWL	13867	12-Month Clinic Visit	1.0	missing	.x														
+SUB231269	Atopic	W_CWL	13863	24-Month Clinic Visit	1.0	missing	.x														
+SUB231270	Atopic	W_CWL	14088	24-Month Clinic Visit	1.0	missing	.x														
+SUB231270	Atopic	W_CWL	14092	12-Month Clinic Visit	1.0	missing	.x														
+SUB231270	Atopic	W_CWL	14096	3-Month Home Visit	1.0	missing	.x														
+SUB231271	Atopic	W_CWL	14114	3-Month Home Visit	1.0	complete	3	1	64.5	64.5	64.5	64.5	6.7							124	
+SUB231272	Atopic	W_CWL	14179	12-Month Clinic Visit	1.0	complete	12	2						2				64	5.9	520	114
+SUB231272	Atopic	W_CWL	14183	3-Month Home Visit	1.0	missing	.x														
+SUB231273	Atopic	W_CWL	14354	3-Month Home Visit	1.0	complete	3	1	67	66.5	66.5	66.7	7.7							134	
+SUB231274	Atopic	W_CWL	14474	3-Month Home Visit	1.0	complete	3	1	57.5	57.5	57.5	57.5	5.7							92	
+SUB231276	Atopic	W_CWL	14661	3-Month Home Visit	1.0	complete	3	3						2				63.5	4.6	130	61
+SUB231277	Non-atopic	W_CWL	14682	3-Month Home Visit	1.0	missing	.x														
+SUB231277	Non-atopic	W_CWL	14686	12-Month Clinic Visit	1.0	complete	12	2						1	26	12	0			422	88
+SUB231278	Non-atopic	W_CWL	14700	3-Month Home Visit	1.0	missing	.x														
+SUB231279	Atopic	W_CWL	14914	12-Month Clinic Visit	1.0	missing	.x														
+SUB231279	Atopic	W_CWL	14918	3-Month Home Visit	1.0	missing	.x														
+SUB231280	Non-atopic	W_CWL	14997	12-Month Clinic Visit	1.0	complete	12	3						2				61	5.9	396	84
+SUB231280	Non-atopic	W_CWL	14993	3-Month Home Visit	1.0	complete	3	1	64.5	64.5	64.5	64.5	8.2							173	
+SUB231282	Atopic	W_CWL	15432	12-Month Clinic Visit	1.0	missing	.x														
+SUB231282	Atopic	W_CWL	15436	3-Month Home Visit	1.0	missing	.x														
+SUB231283	Atopic	W_CWL	15640	3-Month Home Visit	1.0	complete	3	1	69.5	69.5	69.5	69.5	7.6							117	
+SUB231283	Atopic	W_CWL	15636	12-Month Clinic Visit	1.0	complete	12	3						1	27.5	16	10			355	110
+SUB231284	Atopic	W_CWL	15691	3-Month Home Visit	1.0	complete	3	1	64	64	64	64	6.8							87	
+SUB231284	Atopic	W_CWL	15687	12-Month Clinic Visit	1.0	complete	12	3						2				57.1	7.5	381	89
+SUB231285	Non-atopic	W_CWL	15706	3-Month Home Visit	1.0	complete	3	1	66	66	66	66	7.3							149	
+SUB231286	Atopic	W_CWL	15754	3-Month Home Visit	1.0	missing	.x														
+SUB231286	Atopic	W_CWL	15750	12-Month Clinic Visit	1.0	missing	.x														
+SUB231287	Non-atopic	W_CWL	15782	3-Month Home Visit	1.0	missing	.x														
+SUB231287	Non-atopic	W_CWL	15786	12-Month Clinic Visit	1.0	complete	12	3						1	25.25	15	4			456	79
+SUB231289	Atopic	W_CWL	16120	3-Month Home Visit	1.0	complete	3	1	63	63.5	63.5	63.3	7.3							121	
+SUB231290	Atopic	W_CWL	16234	12-Month Clinic Visit	1.0	missing	.x														
+SUB231290	Atopic	W_CWL	16238	3-Month Home Visit	1.0	missing	.x														
+SUB231291	Atopic	W_CWL	16383	3-Month Home Visit	1.0	complete	3	1	66	66	66	66	7.2							120	
+SUB231292	Atopic	W_CWL	16490	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	58.5	58.5	5.4							84	
+SUB231293	Atopic	W_CWL	435	12-Month Clinic Visit	1.0	missing	.x														
+SUB231294	Atopic	W_CWL	452	12-Month Clinic Visit	1.0	missing	.x														
+SUB231295	Atopic	W_CWL	466	12-Month Clinic Visit	1.0	complete	12	3						1	23	12	12			716	84
+SUB231296	Atopic	W_CWL	480	12-Month Clinic Visit	1.0	complete	12	2						1	22	13	0			357	121
+SUB231297	Atopic	W_CWL	556	12-Month Clinic Visit	1.0	complete	12	3						1	23.08	14	7			651	125
+SUB231299	Atopic	W_CWL	689	12-Month Clinic Visit	1.0	complete	12	3						1	23	11	3			648	61
+SUB231302	Atopic	W_CWL	1260	12-Month Clinic Visit	1.0	complete	12	3						1	24	12	13			433	59
+SUB231303	Atopic	W_CWL	1275	12-Month Clinic Visit	1.0	complete	12	3						1	21.25	11	1			705	83
+SUB231304	Atopic	W_CWL	1289	12-Month Clinic Visit	1.0	missing	.x														
+SUB231305	Atopic	W_CWL	1324	12-Month Clinic Visit	1.0	complete	12	3						1	22	12	0			698	75
+SUB231307	Atopic	W_CWL	1448	12-Month Clinic Visit	1.0	complete	12	3						1	23.75	12	1			594	73
+SUB231308	Atopic	W_CWL	1462	12-Month Clinic Visit	1.0	complete	12	3						1	21	11	13			556	62
+SUB231309	Atopic	W_CWL	1558	12-Month Clinic Visit	1.0	complete	12	3						1	23.25	15	11			641	73
+SUB231310	Atopic	W_CWL	1649	12-Month Clinic Visit	1.0	complete	12	3						1	23	12	2			579	79
+SUB231313	Atopic	W_CWL	1910	12-Month Clinic Visit	1.0	complete	12	3						1	24.25	13	2			671	84
+SUB231316	Atopic	W_CWL	2038	12-Month Clinic Visit	1.0	complete	12	3						1	22.5	12	12			609	62
+SUB231318	Atopic	W_CWL	2263	12-Month Clinic Visit	1.0	complete	12	3						1	25	17	2			512	127
+SUB231319	Atopic	W_CWL	2362	12-Month Clinic Visit	1.0	missing	.x														
+SUB231321	Atopic	W_CWL	2441	12-Month Clinic Visit	1.0	missing	.x														
+SUB231323	Atopic	W_CWL	2887	12-Month Clinic Visit	1.0	complete	12	3						1	24	14	0			623	123
+SUB231324	Atopic	W_CWL	2903	12-Month Clinic Visit	1.0	complete	12	3						1	25	15	12			438	118
+SUB231325	Atopic	W_CWL	2923	12-Month Clinic Visit	1.0	complete	12	3						2				57.5	5.6	508	74
+SUB231326	Atopic	W_CWL	3157	12-Month Clinic Visit	1.0	complete	12	3						1	22	10	4			461	43
+SUB231327	Atopic	W_CWL	3189	12-Month Clinic Visit	1.0	complete	12	3						1	20	10	2			591	68
+SUB231329	Atopic	W_CWL	3221	12-Month Clinic Visit	1.0	complete	12	3						1	23	12	2			596	55
+SUB231331	Atopic	W_CWL	3668	12-Month Clinic Visit	1.0	complete	12	3						1	23.12	11	13			490	61
+SUB231332	Atopic	W_CWL	3702	12-Month Clinic Visit	1.0	missing	.x														
+SUB231333	Atopic	W_CWL	3888	12-Month Clinic Visit	1.0	complete	12	3						1	25	17	2			562	123
+SUB231334	Atopic	W_CWL	3923	12-Month Clinic Visit	1.0	complete	12	3						1	24.25	12	10			560	91
+SUB231336	Atopic	W_CWL	3998	Pollution Monitoring Pickup	1.0	missing	.x														
+SUB231336	Atopic	W_CWL	3995	12-Month Clinic Visit	1.0	complete	12	3						1	23	12	12			580	76
+SUB231337	Atopic	W_CWL	4275	Pollution Monitoring Pickup	1.0	missing	.x														
+SUB231338	Atopic	W_CWL	4399	12-Month Clinic Visit	1.0	complete	12	3						1	23	14	8			415	57
+SUB231339	Atopic	W_CWL	4415	12-Month Clinic Visit	1.0	complete	12	3						1	21.6	12	0			501	65
+SUB231339	Atopic	W_CWL	4418	Pollution Monitoring Pickup	1.0	missing	.x														
+SUB231340	Atopic	W_CWL	4446	3-Month Home Visit	1.0	complete	3	1	58.5	59.5	59.5	59.2	5.3							94	
+SUB231341	Atopic	W_CWL	4625	12-Month Clinic Visit	1.0	complete	12	3						2				55.5	5.1	537	85
+SUB231341	Atopic	W_CWL	4629	3-Month Home Visit	1.0	missing	.x														
+SUB231342	Atopic	W_CWL	4694	Pollution Monitoring Pickup	1.0	complete	pm	2						1	21	11	4			83	48
+SUB231343	Atopic	W_CWL	4856	Pollution Monitoring Pickup	1.0	complete	pm	1	60	59.5	59.5	59.7	5.4							94	
+SUB231343	Atopic	W_CWL	4857	3-Month Home Visit	1.0	missing	.x														
+SUB231345	Atopic	W_CWL	4974	Pollution Monitoring Pickup	1.0	complete	pm	1	57	57	57	57	4.9							84	
+SUB231346	Atopic	W_CWL	4995	3-Month Home Visit	1.0	missing	.x														
+SUB231346	Atopic	W_CWL	4991	12-Month Clinic Visit	1.0	complete	12	3						1	22	10	0			344	88
+SUB231347	Atopic	W_CWL	5208	3-Month Home Visit	1.0	complete	3	1	63.5	63.5	64	63.7	8.2							118	
+SUB231348	Atopic	W_CWL	5257	3-Month Home Visit	1.0	missing	.x														
+SUB231350	Atopic	W_CWL	5439	3-Month Home Visit	1.0	missing	.x														
+SUB231351	Atopic	W_CWL	5472	3-Month Home Visit	1.0	missing	.x														
+SUB231352	Atopic	W_CWL	5600	3-Month Home Visit	1.0	missing	.x														
+SUB231353	Atopic	W_CWL	5616	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	60.5	59.8	4.9							92	
+SUB231354	Atopic	W_CWL	5632	3-Month Home Visit	1.0	complete	3	1	65	65	66	65.3	6.8							125	
+SUB231355	Atopic	W_CWL	5664	3-Month Home Visit	1.0	missing	.x														
+SUB231355	Atopic	W_CWL	5660	12-Month Clinic Visit	1.0	missing	.x														
+SUB231356	Atopic	W_CWL	5712	3-Month Home Visit	1.0	complete	3	1	57	56.5	56	56.5	4.3							82	
+SUB231357	Atopic	W_CWL	5858	3-Month Home Visit	1.0	complete	3	1	59	59	58.8	58.9	5.5							106	
+SUB231358	Atopic	W_CWL	10330	12-Month Clinic Visit	1.0	complete	12	3						1		15	13			510	109
+SUB231358	Atopic	W_CWL	5895	3-Month Home Visit	1.0	complete	3	1	66	66	66.5	66.2	7.8							131	
+SUB231359	Atopic	W_CWL	5914	Pollution Monitoring Pickup	1.0	missing	.x														
+SUB231359	Atopic	W_CWL	5915	3-Month Home Visit	1.0	missing	.x														
+SUB231360	Atopic	W_CWL	5968	3-Month Home Visit	1.0	complete	3	1	55.5	54	54.5	54.7	4.9							87	
+SUB231361	Atopic	W_CWL	6028	3-Month Home Visit	1.0	complete	3	1	57	57	57	57	5							89	
+SUB231362	Atopic	W_CWL	6131	3-Month Home Visit	1.0	missing	.x														
+SUB231363	Atopic	W_CWL	6295	12-Month Clinic Visit	1.0	complete	12	3						1	24	13	15			487	112
+SUB231363	Atopic	W_CWL	6299	3-Month Home Visit	1.0	complete	3	1	65.5	65.5	65	65.3	6.8							133	
+SUB231364	Atopic	W_CWL	6331	3-Month Home Visit	1.0	missing	.x														
+SUB231364	Atopic	W_CWL	6327	12-Month Clinic Visit	1.0	missing	.x														
+SUB231364	Atopic	W_CWL	6330	Pollution Monitoring Pickup	1.0	missing	.x														
+SUB231365	Atopic	W_CWL	6431	3-Month Home Visit	1.0	complete	3	1	56	57	57	56.7	5.5							71	
+SUB231366	Atopic	W_CWL	6586	3-Month Home Visit	1.0	complete	3	1	59	58.5	58.5	58.7	4.9							88	
+SUB231367	Atopic	W_CWL	6603	3-Month Home Visit	1.0	missing	.x														
+SUB231368	Atopic	W_CWL	6757	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	59.5	58.8	4.6							90	
+SUB231369	Atopic	W_CWL	6807	3-Month Home Visit	1.0	complete	3	1	56	56	56	56	5							86	
+SUB231370	Atopic	W_CWL	6926	3-Month Home Visit	1.0	missing	.x														
+SUB231371	Atopic	W_CWL	7080	3-Month Home Visit	1.0	complete	3	1	56	57	56	56.3	5.7							84	
+SUB231372	Atopic	W_CWL	7167	3-Month Home Visit	1.0	complete	3	1	56	57	57	56.7	5							89	
+SUB231373	Atopic	W_CWL	7215	3-Month Home Visit	1.0	complete	3	1	63.5	63.5	63.5	63.5	8.3							110	
+SUB231374	Atopic	W_CWL	7329	3-Month Home Visit	1.0	complete	3	1	58.5	59	58.5	58.7	5.5							110	
+SUB231376	Atopic	W_CWL	7713	3-Month Home Visit	1.0	complete	3	1	62.5	63	62.5	62.7	5.6							112	
+SUB231377	Atopic	W_CWL	7809	3-Month Home Visit	1.0	missing	.x														
+SUB231378	Atopic	W_CWL	7853	3-Month Home Visit	1.0	complete	3	1	62	62.5	62.5	62.3	6.6							100	
+SUB231379	Atopic	W_CWL	8022	12-Month Clinic Visit	1.0	missing	.x														
+SUB231380	Atopic	W_CWL	8108	12-Month Clinic Visit	1.0	missing	.x														
+SUB231380	Atopic	W_CWL	8112	3-Month Home Visit	1.0	missing	.x														
+SUB231381	Atopic	W_CWL	8133	3-Month Home Visit	1.0	complete	12	3						1	26.5	14	10			418	142
+SUB231382	Atopic	W_CWL	8445	3-Month Home Visit	1.0	complete	3	1	56	56	56	56	5							82	
+SUB231383	Atopic	W_CWL	8567	3-Month Home Visit	1.0	complete	3	1	61	61.5	61.5	61.3	7							132	
+SUB231384	Atopic	W_CWL	8605	3-Month Home Visit	1.0	missing	.x														
+SUB231385	Atopic	W_CWL	8625	3-Month Home Visit	1.0	missing	.x														
+SUB231386	Atopic	W_CWL	8735	3-Month Home Visit	1.0	complete	3	1	65	65.5	65	65.2	7.3							134	
+SUB231387	Atopic	W_CWL	8747	12-Month Clinic Visit	1.0	complete	12	3						1	25.5	16	4			443	68
+SUB231387	Atopic	W_CWL	8751	3-Month Home Visit	1.0	missing	.x														
+SUB231388	Atopic	W_CWL	9008	3-Month Home Visit	1.0	complete	3	1	58	58.5	58	58.2	4.7							96	
+SUB231389	Atopic	W_CWL	9020	12-Month Clinic Visit	1.0	complete	12	3						1	19	9	5			420	38
+SUB231389	Atopic	W_CWL	9024	3-Month Home Visit	1.0	missing	.x														
+SUB231390	Atopic	W_CWL	9040	3-Month Home Visit	1.0	complete	3	1	59	59.5	60	59.5	5.8							132	
+SUB231391	Atopic	W_CWL	9056	3-Month Home Visit	1.0	complete	3	1	62	60.5	62	61.5	6.5							86	
+SUB231391	Atopic	W_CWL	9052	12-Month Clinic Visit	1.0	complete	12	3						1	24.75	16	8			414	128
+SUB231392	Atopic	W_CWL	9192	3-Month Home Visit	1.0	complete	3	1	62.5	62	62.5	62.3	6.4							120	
+SUB231393	Atopic	W_CWL	9274	12-Month Clinic Visit	1.0	missing	.x														
+SUB231393	Atopic	W_CWL	9270	24-Month Clinic Visit	1.0	missing	.x														
+SUB231393	Atopic	W_CWL	9278	3-Month Home Visit	1.0	missing	.x														
+SUB231394	Atopic	W_CWL	9442	3-Month Home Visit	1.0	complete	pm	1	64	63	63.5	63.5	7.6							131	
+SUB231395	Atopic	W_CWL	9485	3-Month Home Visit	1.0	complete	3	1	59	60.5	58.3	59.3	7.2							111	
+SUB231396	Atopic	W_CWL	9504	3-Month Home Visit	1.0	complete	3	1	61	61.5	61	61.2	5.5							85	
+SUB231397	Atopic	W_CWL	9572	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	60	60.3	6.6							97	
+SUB231398	Atopic	W_CWL	9736	3-Month Home Visit	1.0	missing	.x														
+SUB231398	Atopic	W_CWL	9732	12-Month Clinic Visit	1.0	missing	.x														
+SUB231400	Atopic	W_CWL	9894	3-Month Home Visit	1.0	complete	12	3						1	25					370	139
+SUB231401	Atopic	W_CWL	9986	3-Month Home Visit	1.0	complete	3	1	57	59	59	58.3	6.2							94	
+SUB231402	Atopic	W_CWL	10215	3-Month Home Visit	1.0	missing	.x														
+SUB231403	Atopic	W_CWL	10270	3-Month Home Visit	1.0	complete	3	1	57.5	58.5	58.5	58.2	5.5							95	
+SUB231404	Atopic	W_CWL	10294	3-Month Home Visit	1.0	complete	3	1	64	64	64	64	7.2							131	
+SUB231405	Atopic	W_CWL	10638	3-Month Home Visit	1.0	complete	3	1	60	60.2	60.5	60.2	7							93	
+SUB231406	Atopic	W_CWL	10694	3-Month Home Visit	1.0	complete	3	1	62	62	62.5	62.2	5.3							105	
+SUB231407	Atopic	W_CWL	10886	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	62.5	62.5	6.3							111	
+SUB231408	Atopic	W_CWL	11132	3-Month Home Visit	1.0	complete	3	1	61	62	61	61.3	6.2							99	
+SUB231409	Atopic	W_CWL	11150	3-Month Home Visit	1.0	complete	3	1	58.5	58.5	59.5	58.8	5.7							101	
+SUB231410	Atopic	W_CWL	11446	3-Month Home Visit	1.0	complete	3	1	58	58.5	59.5	58.7	6.5							81	
+SUB231411	Atopic	W_CWL	11703	3-Month Home Visit	1.0	complete	3	1	63.5	63.5	63.5	63.5	6.8							94	
+SUB231412	Atopic	W_CWL	11728	24-Month Clinic Visit	1.0	missing	.x														
+SUB231412	Atopic	W_CWL	11732	12-Month Clinic Visit	1.0	missing	.x														
+SUB231412	Atopic	W_CWL	11736	3-Month Home Visit	1.0	missing	.x														
+SUB231413	Atopic	W_CWL	11825	3-Month Home Visit	1.0	complete	3	1	57.5	58	58	57.8	5.5							86	
+SUB231414	Atopic	W_CWL	12119	3-Month Home Visit	1.0	complete	3	1	60	58.5	59	59.2	5.5							77	
+SUB231415	Non-atopic	W_CWL	12132	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	59.5	59.5	6.4							99	
+SUB231416	Atopic	W_CWL	12312	3-Month Home Visit	1.0	complete	3	1	61.5	62.5	62	62	6.9							73	
+SUB231417	Atopic	W_CWL	12332	3-Month Home Visit	1.0	complete	3	1	62.5	62.5	62.5	62.5	6.1							90	
+SUB231418	Atopic	W_CWL	12454	3-Month Home Visit	1.0	complete	3	1	63.5	63.5	62.5	63.2	6.3							120	
+SUB231419	Atopic	W_CWL	12675	3-Month Home Visit	1.0	complete	3	1	61	61	61.5	61.2	5.3							80	
+SUB231420	Atopic	W_CWL	12691	3-Month Home Visit	1.0	missing	.x														
+SUB231420	Atopic	W_CWL	12687	12-Month Clinic Visit	1.0	missing	.x														
+SUB231421	Atopic	W_CWL	12707	3-Month Home Visit	1.0	complete	3	1	55.5	56	55.5	55.7	4.7							100	
+SUB231422	Atopic	W_CWL	12917	12-Month Clinic Visit	1.0	missing	.x														
+SUB231423	Atopic	W_CWL	12987	3-Month Home Visit	1.0	complete	12	3						2				62	6.8	115	136
+SUB231424	Atopic	W_CWL	13232	3-Month Home Visit	1.0	complete	3	1	66.5	67	67	66.8	6.8							121	
+SUB231425	Non-atopic	W_CWL	13330	3-Month Home Visit	1.0	complete	3	1	62	62.5	62	62.2	6.3							92	
+SUB231426	Atopic	W_CWL	13441	3-Month Home Visit	1.0	complete	3	1	60	59.5	60	59.8	6.5							119	
+SUB231427	Atopic	W_CWL	13562	3-Month Home Visit	1.0	complete	3	1	59	59	58	58.7	6.4							116	
+SUB231428	Atopic	W_CWL	13578	3-Month Home Visit	1.0	complete	3	1	59.5	60	59.5	59.7	5.4							88	
+SUB231429	Non-atopic	W_CWL	13741	12-Month Clinic Visit	1.0	missing	.x														
+SUB231429	Non-atopic	W_CWL	13737	3-Month Home Visit	1.0	missing	.x														
+SUB231430	Non-atopic	W_CWL	13844	3-Month Home Visit	1.0	complete	3	1	57.5	56	57.5	57	5.6							74	
+SUB231431	Non-atopic	W_CWL	13878	3-Month Home Visit	1.0	complete	3	1	56.5	56	56.5	56.3	5.3							73	
+SUB231432	Non-atopic	W_CWL	14009	12-Month Clinic Visit	1.0	missing	.x														
+SUB231432	Non-atopic	W_CWL	14005	3-Month Home Visit	1.0	missing	.x														
+SUB231433	Atopic	W_CWL	14035	3-Month Home Visit	1.0	complete	3	1	56.5	56	55.5	56	3.9							65	
+SUB231434	Non-atopic	W_CWL	14050	3-Month Home Visit	1.0	complete	3	3						1	24	13	0			105	63
+SUB231435	Atopic	W_CWL	14075	12-Month Clinic Visit	1.0	missing	.x														
+SUB231435	Atopic	W_CWL	14079	3-Month Home Visit	1.0	missing	.x														
+SUB231435	Atopic	W_CWL	14071	24-Month Clinic Visit	1.0	missing	.x														
+SUB231436	Atopic	W_CWL	14132	3-Month Home Visit	1.0	complete	3	1	59.5	59	59	59.2	5.6							81	
+SUB231437	Atopic	W_CWL	14613	3-Month Home Visit	1.0	complete	3	1	62	62.5	62	62.2	6.5							128	
+SUB231438	Non-atopic	W_CWL	14624	3-Month Home Visit	1.0	complete	3	1	60	61	60	60.3	6.6							77	
+SUB231440	Atopic	W_CWL	14900	3-Month Home Visit	1.0	complete	3	1	58	60	59.1	59	5.2							88	
+SUB231441	Atopic	W_CWL	14938	3-Month Home Visit	1.0	missing	.x														
+SUB231441	Atopic	W_CWL	14930	24-Month Clinic Visit	1.0	missing	.x														
+SUB231441	Atopic	W_CWL	14934	12-Month Clinic Visit	1.0	missing	.x														
+SUB231442	Atopic	W_CWL	14963	3-Month Home Visit	1.0	complete	3	1	60	60	61	60.3	6.6							96	
+SUB231443	Atopic	W_CWL	14979	3-Month Home Visit	1.0	complete	3	1	57	57	57	57	4.9							77	
+SUB231444	Atopic	W_CWL	15123	3-Month Home Visit	1.0	complete	3	1	65	65	65.5	65.2	6.5							127	
+SUB231445	Atopic	W_CWL	15281	3-Month Home Visit	1.0	complete	3	1	56.5	59.5	59	58.3	6							89	
+SUB231446	Non-atopic	W_CWL	15335	3-Month Home Visit	1.0	complete	3	1	54.5	53.5	53.5	53.8	4.4							66	
+SUB231447	Non-atopic	W_CWL	15853	3-Month Home Visit	1.0	complete	3	1	63.5	63	63	63.2	5.7							112	
+SUB231448	Atopic	W_CWL	16367	3-Month Home Visit	1.0	complete	3	3						1		11	7			99	130
+SUB231449	Atopic	W_CWL	16425	3-Month Home Visit	1.0	complete	3	3						1	22.25	9	14			132	71
+SUB231449	Atopic	W_CWL	16421	12-Month Clinic Visit	1.0	missing	.x														
+SUB231450	Atopic	W_CWL	16594	3-Month Home Visit	1.0	complete	3	1	61	61	61	61	7.5							90	
+SUB231451	Non-atopic	W_CWL	16602	3-Month Home Visit	1.0	complete	3	1	56.5	56.2	57	56.6	5.5							73	
+SUB231452	Non-atopic	W_CWL	17016	3-Month Home Visit	1.0	complete	3	1	54.5	55	54.5	54.7	5.2							75	
+SUB231453	Atopic	W_CWL	17201	3-Month Home Visit	1.0	complete	3	1	57	57.5	58	57.5	5.3							83	
+SUB231454	Atopic	W_CWL	17217	3-Month Home Visit	1.0	complete	3	1	61	61	61.5	61.2	5.3							111	
+SUB231455	Non-atopic	W_CWL	17479	12-Month Clinic Visit	1.0	missing	.x														
+SUB231455	Non-atopic	W_CWL	17475	3-Month Home Visit	1.0	missing	.x														
+SUB231456	Non-atopic	W_CWL	17558	3-Month Home Visit	1.0	missing	.x														
+SUB231456	Non-atopic	W_CWL	17562	12-Month Clinic Visit	1.0	missing	.x														
+SUB231457	Non-atopic	W_CWL	17630	3-Month Home Visit	1.0	complete	3	1	62	62	62	62	6.4							80	
+SUB231458	Atopic	W_CWL	17824	3-Month Home Visit	1.0	complete	3	1	61.5	61.5	62	61.7	6.3							125	
+SUB231459	Non-atopic	W_CWL	18011	3-Month Home Visit	1.0	complete	3	3						1	23	9	14			109	62
+SUB231460	Non-atopic	W_CWL	18032	12-Month Clinic Visit	1.0	missing	.x														
+SUB231460	Non-atopic	W_CWL	18028	3-Month Home Visit	1.0	missing	.x														
+SUB231461	Atopic	W_CWL	18114	3-Month Home Visit	1.0	missing	.x														
+SUB231462	Non-atopic	W_CWL	18170	24-Month Clinic Visit	1.0	missing	.x														
+SUB231462	Non-atopic	W_CWL	18166	12-Month Clinic Visit	1.0	missing	.x														
+SUB231462	Non-atopic	W_CWL	18162	3-Month Home Visit	1.0	missing	.x														
+SUB231463	Atopic	W_CWL	18441	3-Month Home Visit	1.0	complete	3	1	51.5	51.5	51.5	51.5	4.4							70	
+SUB231465	Non-atopic	W_CWL	18542	12-Month Clinic Visit	1.0	missing	.x														
+SUB231465	Non-atopic	W_CWL	18538	3-Month Home Visit	1.0	missing	.x														
+SUB231466	Atopic	W_CWL	18626	3-Month Home Visit	1.0	complete	3	1	59.5	59.5	60	59.7	6.4							86	
+SUB231467	Atopic	W_CWL	18703	3-Month Home Visit	1.0	complete	3	1	61.5	61.5	62.5	61.8	6.4							87	
+SUB231468	Atopic	W_CWL	18920	3-Month Home Visit	1.0	complete	3	1	58.5	60	59.5	59.3	6.5							82	
+SUB231469	Non-atopic	W_CWL	19041	3-Month Home Visit	1.0	complete	3	1	60.5	60.5	60.5	60.5	7.7							92	
+SUB231470	Non-atopic	W_CWL	19395	3-Month Home Visit	1.0	complete	3	1	58.4	58.4	58.4	58.4	5.5							83	

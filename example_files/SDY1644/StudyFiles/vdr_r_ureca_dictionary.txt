@@ -1,0 +1,13 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	608	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""VDR"", ""VDR"")"
+3	4	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+4	5	status	status	chr	character	character	2	0	"c(""complete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	1067	0	"c(""0"", ""895614"")"
+6	7	aVisit	Visit	chr	character	character	3	0	"c(""36"", ""b"")"
+7	8	VDR_q1a1	Vitamin D, 250H, Total (ng/mL)	dbl	numeric	double	16	600	c(4, 21)
+8	9	VDR_q1b1	Vitamin D, 250H, D3 (ng/mL)	dbl	numeric	double	216	141	c(4, 46.7)
+9	10	VDR_q1c1	Vitamin D, 250H, D2 (ng/mL)	dbl	numeric	double	33	1028	c(1.4, 18.1)
+10	11	VDR_q1d1	3 epi (ng/mL)	chr	character	character	30	0	"c("".b"", ""4.2"")"
+11	12	VDR_q1e1	3 epi (ng/mL)	chr	character	character	2	0	"c("".o"", ""0.5"")"

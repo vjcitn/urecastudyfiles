@@ -1,0 +1,12 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	497	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""VS"", ""VS"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	2	0	"c(""complete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	816	0	"c(""0"", ""911193"")"
+6	7	aVisit	Visit	chr	character	character	3	0	"c(""12"", ""48"")"
+7	8	VS_q1	CMV Raw/Cutoff	dbl	numeric	double	156	0	c(0, 3.93)
+8	9	VS_q3	EBV Raw/Cutoff	dbl	numeric	double	344	6	c(0, 8.96)
+9	10	VS_q2DY	CMV Day	dbl	numeric	double	286	467	c(640, 1633)
+10	11	VS_q4DY	EBV Day	dbl	numeric	double	282	467	c(662, 1633)

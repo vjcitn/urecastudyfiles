@@ -1,0 +1,1786 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)    Date(s)      Brief Description of Modifications
+*   C. Visness       08/05/08     Created program
+*   A Hodges         10/14/10     Modified program to account for additional data.
+*   C. Visness       11/05/10     Corrections and additions to hand-coded cases   
+*   K. Jaffee        07/06/11     Change template and format
+*   Maya Barton      08/14/17     Cleanup, Updates getting ready for data lock.
+*   S Lussier        09/19/17     Cleanup, Updates getting ready for data lock.
+*   S Lussier        03/27/20     Add viral typing data
+*   P LeBeau         04/26/20     Update typing definitions
+*   P LeBeau         04/28/20     Add more indicator variables
+*   P LeBeau         04/30/20     Upload latest lab typing spreadsheet (042930.xls)
+*   P LeBeau         05/06/20     Remove 1 illness type sample with score of 3 (should be >=5 per definition)
+*   P LeBeau         05/19/20     Update two samples per Tressa (see Copy of URECA typing results_062619_tep edits.xls)
+*   P LeBeau         05/21/20     Add hardcode for illness onset date in score_all data step
+*   P LeBeau         06/01/20     Hardcode onset dates (based on diff w/ collection & score date)
+*   P LeBeau         06/09/20     Add score card data for home nasal collections (HCSC)
+*   P LeBeau         06/16/20     Add follow-up call data
+*   P LeBeau         07/09/20     Add consistency of missing score card rules:
+                                  * clinic visit, if reported 'NOT sick' --> impute SCORE=0, wheeze=0, cough=0
+                                  * clinic visit, if reported 'sick' (n=15) --> impute SCORE=5, wheeze=., cough=.
+                                  * respiratory illness check/home samples (n=1) --> impute SCORE=5, wheeze=., cough=.
+*   P LeBeau         08/05/20     Add label fu_whz_symp
+*   P LeBeau         12/02/20     Add follow-up bronchiolitis and pneumonia information
+*   C Visness        06/15/21     Removed 'sampleid' variable from DROP statement (thus KEPT this variable)
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=viral_1recwash,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+* Main body of program begins here;
+
+***************************
+ALL SCORECARDS
+***************************;
+*-----------------*;
+* Include Formats *;
+*-----------------*;
+%*include "S:\RhoFED\ICAC\Studies\URECA\Data\Formats\formats.sas" /nosource2;
+
+data ris;
+   set master.ris;
+   if RIS_q1_2=.O then wheeze=RIS_q2_1_2;
+   else wheeze=RIS_q1_2;
+run;
+
+************MB 07AUG2017 dropped aStudyid, aPI , aII - causing length isuues and not kept anyways;
+************MB 07AUG2017 updated cough results for if cough1 or cough2 missing;
+***This includes score/wheeze/cough data up thru age 4 ;
+data score (where=(avisit ne '.x'));
+   length aVisit $14.;
+   set ris          (rename=(ris_q10_2=score ris_q5_1=onset acompletiondate=scoredate 
+                        ris_q5_2=cough1 ris_q5a_2=cough2) drop=aStudyid aPI aII)
+      master.ris_v2  (rename=(ris_v2_q10_2=score ris_v2_q5_1=onset acompletiondate=scoredate 
+                        RIS_V2_q2_1_2=wheeze ris_V2_q5_2=cough1 ris_V2_q5a_2=cough2)drop=aStudyid aPI aII) 
+      master.ris_v3  (rename=(ris_v3_q10_2=score ris_v3_q5_1=onset acompletiondate=scoredate 
+                         RIS_V3_q2_1_2=wheeze ris_V3_q5_2=cough1 ris_V3_q5a_2=cough2)drop=aStudyid aPI aII)
+
+        master.ris2    (rename=(RIS2_q9_2=score RIS2_q5_1=onset acompletiondate=scoredate 
+                         RIS2_q2_1_2=wheeze RIS2_q4_2=cough1 RIS2_q4a_2=cough2)drop=aStudyid aPI aII) ;
+
+   
+   if not missing(cough1) or not missing(cough2) then cough=max(cough1, cough2);
+
+   keep studyid version event avisit scoredate score onset wheeze cough ;
+
+   ***KJ: Need to fix a date here so merge works properly ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+run;
+proc freq data=score; table cough; run;
+/*proc sort data=score; by studyid scoredate; run;*/
+
+***Separate out ris2_v2 because scoring process has changed - this is data for age 5 - 7 ;
+data score_v2 (where=(avisit ne '.x'));
+   set master.ris2_v2 (rename=(RIS2_V2_q9_2=score RIS2_V2_q5_1=onset acompletiondate=scoredate
+                        RIS2_V2_q7_1_1a=cough_whz_indicator  
+                        RIS2_V2_q2_1_2=wheeze aScore4a_2=cough));
+
+   if cough_whz_indicator=0 then do ;
+    wheeze=0 ;
+    cough=0 ;
+    score=0 ;
+   end ;
+/*   else wheeze=wheeze ;*/
+/*    cough=cough ;*/
+/*    score=score ;*/
+   keep studyid event avisit scoredate score onset wheeze cough cough_whz_indicator ;
+run ;
+
+***Separate out ris3 for same reason above - this is data for age 10 ;
+data score_v3 (where=(avisit ne '.x'));
+   set master.ris3 (rename=(RIS3_q9_2=score RIS3_q5_1=onset acompletiondate=scoredate
+                        RIS3_q7_1_1a=cough_whz_indicator  
+                        RIS3_q2_1_2=wheeze aScore4a_2=cough));
+
+   if cough_whz_indicator=0 then do ;
+    wheeze=0 ;
+    cough=0 ;
+    score=0 ;
+   end ;
+/*   else wheeze=wheeze ;*/
+/*    cough=cough ;*/
+/*    score=score ;*/
+   keep studyid event avisit scoredate score onset wheeze cough cough_whz_indicator ;
+run ;
+
+***06/09/20: Add home collection score cards - Form 151;
+data score_h (where=(avisit ne '.x'));
+   set master.hcsc (rename=(HCSC_q3_2=score HCSC_q4_1=onset acompletiondate=scoredate
+                        HCSC_q7a_1=cough_whz_indicator
+                        HCSC_q1_2=wheeze HCSC_q2_2=cough));
+   if cough_whz_indicator=0 then do ;
+    wheeze=0 ;
+    cough=0 ;
+    score=0 ;
+   end ;
+   keep studyid event avisit scoredate score onset wheeze cough cough_whz_indicator ;
+run;
+
+data score_all ;
+   length aVisit $14.;
+   set score score_v2 score_v3 score_h ;
+*hardcodes here have been removed to protect patient confidentiality;
+   /* 06/01/20 hardcodes based on difference with collection or score dates */
+*hardcodes here have been removed to protect patient confidentiality;
+   /* 06/11/20 hardcode per ..\Prog\Derive\Viral_Checks\Date_Hardcodes\homewash_nomatch_score_anno06.10.2020.xlsx */
+*hardcodes here have been removed to protect patient confidentiality;
+run ;
+
+proc sort data=score_all ; by studyid avisit; run;
+proc freq data=score_all; table avisit; run;
+proc freq data=score_all; table event; run;
+
+data test ;
+set score_all; 
+if event = 'Home Nasal Collection'; 
+run;
+
+***************************
+Home Nasal Mucus Sample Collection - added 5/8/19 SL Form 152
+***************************;
+proc sort data=score_all ; by studyid scoredate; run;
+
+data home1 ; 
+   set master.hnmsc; 
+   if hnmsc_q2=1;
+   date_collected=hnmsc_q3a;
+   scoredate=hnmsc_q1;
+   length type $ 8;
+   type='home';
+*hardcodes here have been removed to protect patient confidentiality;
+   rename hnmsc_q5 = visit_comments;
+   keep studyid event avisit date_collected scoredate type hnmsc_q5;
+   format date_collected MMDDYY8. scoredate MMDDYY8.;
+run;
+
+proc sort data=home1 ; by studyid scoredate; run ;
+proc sort data=score_all ; by studyid scoredate; run;
+
+************
+match scorecards to home nasal lavages
+************;
+/*   ** Check for non-matches first - can we hardcode to match? **;*/
+/*   data home_score_ck;*/
+/*   length aVisit $14.;*/
+/*   merge home1 (in=l) score_all (in=b);*/
+/*   if l and not b then flag='No matching score';*/
+/*   by studyid scoredate;*/
+/*   run;*/
+/*   data home_score_ck1;*/
+/*   set home_score_ck;*/
+/*   where flag ne ' ';*/
+/*   run;*/
+/*   ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\homewash_nomatch_score.xlsx';*/
+/*   proc print data=home_score_ck1;*/
+/*   var studyid date_collected scoredate;*/
+/*   run;*/
+/*   ods excel close;*/
+data home2;
+   set home1;
+   ** Add hardcodes per ..\Prog\Derive\Viral_Checks\Date_Hardcodes\homewash_nomatch_score_anno06.09.2020.xlsx **;
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr5_nomatch_sampres_or_noscore_anno06.11.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr6_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr7_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+data home_score;
+   length aVisit $14.;
+   merge home2 (in=l) score_all;
+   if l;
+   by studyid scoredate;
+run;
+
+
+***************************
+CLINIC VISITS - Form 51
+***************************;
+
+data lavage1 (where=(avisit ne '.x'));
+   set master.cnlsc;
+   if cnlsc_q1=1;
+   date_collected=cnlsc_q2a;
+   length type $ 8;
+   type='clinic';
+   **Several 60 month clinic visit dates were flipped ;
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr6_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr7_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr7_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   rename cnlsc_q4 = visit_comments;
+   keep studyid event avisit date_collected type cnlsc_q3 cnlsc_q4;
+   format date_collected MMDDYY8. ;
+run ;
+
+proc sort data=lavage1 nodupkey dupout=dups_clin; by studyid avisit; run ;
+/* Checks on dups */
+/*data dups;set dups_clin;keep studyid avisit;run; */
+/*data test; merge dups (in= a) lavage1; by studyid avisit; if a; run;*/
+/*data test2; set test dups;by studyid avisit; run;*/
+
+************
+match scorecards to clinic nasal lavages
+************;
+proc sort data=score_all ; by studyid avisit; run;
+/*   ** Check for non-matches first - can we hardcode to match? **;*/
+/*   data well_ck;*/
+/*   length aVisit $14.;*/
+/*   merge lavage1 (in=l) score_all (in=b);*/
+/*   if l and not b then flag='No matching score';*/
+/*   by studyid avisit;*/
+/*   run;*/
+/*   data well_ck1;*/
+/*   set well_ck;*/
+/*   where flag ne ' ';*/
+/*   run;*/
+/*   ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\clinicwash_nomatch_score.xlsx';*/
+/*   proc print data=well_ck1;*/
+/*   var studyid avisit date_collected scoredate;*/
+/*   run;*/
+/*   ods excel close;*/
+
+data well;
+   length aVisit $14.;
+   merge lavage1 (in=l) score_all;
+   by studyid avisit;
+   if l;
+run;
+
+
+********************************
+RESPIRATORY ILLNESS VISITS
+********************************;
+
+
+data lavage2 (where=(avisit ne ".x"));
+   set master.rinlsc;
+   if rinlsc_q2=1;
+   date_collected=rinlsc_q4a;
+   onset=rinlsc_q1;
+   length type $ 8;
+   type='illness';
+   ***KJ: Need to fix some dates here so merge works properly ;
+*hardcodes here have been removed to protect patient confidentiality;
+   /* 06/11/2020 Hardcodes per ..\Prog\Derive\Viral_Checks\Date_Hardcodes\respvis_nomatch_score_anno06.10.2020.xlsx */
+*hardcodes here have been removed to protect patient confidentiality;
+   
+   keep studyid event avisit date_collected type onset rinlsc_q5; *7/17/18 - SJL this was commented out and I added it back in;
+   rename RINLSC_q5 = visit_comments;
+   format date_collected onset MMDDYY8. ;
+run;
+
+proc sort data=lavage2 nodupkey dupout=dups; by studyid onset date_collected; run;
+
+data my_event; set master.eset; where studyid ne '.m'; run;
+proc sort data=my_event; by studyid date_occurred; run;
+************
+match scorecards to resp illness nasal lavages
+this is trickier because they were not usually done on the same day
+and the visit code cannot differentiate anything
+for each nasal wash event I am using eset to find the parent resp illness event
+************;
+data wash;
+   set master.eset;
+   if event='nasal wash' and date_occurred ne .m;   *there shouldn't be any .m's but right now there are;
+   matchid=parent_id;
+   date_collected=date_occurred;
+run ;
+proc sort data=wash; by studyid date_collected; run;
+proc sort data=wash ; by matchid; run ;
+
+data resp;
+   set master.eset;
+   if substr(event, 1, 4)='resp';
+   matchid=id;
+   scoredate=date_occurred;
+run ;
+proc sort data=resp; by studyid scoredate; run;
+proc sort data=resp ; by matchid; run;
+
+******** match to scorecard;
+data match;
+   merge wash (in=w) resp;
+   by matchid;
+   if w;
+   ***KJ: Need to fix 2 dates here so merge works properly ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+   /* 06/10/2020 Add missing scorecard dates per ..\Prog\Derive\Viral_Checks\Date_Hardcodes\respvis_nomatch_score_anno06.10.2020.xlsx */
+*hardcodes here have been removed to protect patient confidentiality;
+   /* 06/11/2020 Add hardcodes per ...\Prog\Derive\Viral_Checks\Date_Hardcodes\respsamp_nomatch_score_anno06.10.2020.xlsx */
+*hardcodes here have been removed to protect patient confidentiality;
+
+   keep studyid scoredate date_collected;
+   format date_collected scoredate MMDDYY8. ;
+run;
+
+proc sort data=match ; by studyid scoredate; run ;
+proc sort data=score_all ; by studyid scoredate; run ;
+/*   ** Check for non-matches first - can we hardcode to match? **;*/
+/*   data resp1_ck;*/
+/*   merge match (in=m) score_all (in=b);*/
+/*   if m and not b then flag='No matching score';*/
+/*   by studyid scoredate;*/
+/*   run;*/
+/*   data resp1_ck1;*/
+/*   set resp1_ck;*/
+/*   where flag ne ' ';*/
+/*   run;*/
+/*   ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\respvis_nomatch_score.xlsx';*/
+/*   proc print data=resp1_ck1;*/
+/*   var studyid date_collected scoredate;*/
+/*   run;*/
+/*   ods excel close;*/
+*** Note: update missing scorecard dates in data step for 'match' above';
+data match2;
+   merge match (in=m) score_all;
+   by studyid scoredate;
+   if m;
+run;
+
+proc sort data=match2 ; by studyid scoredate score; run ;
+data match3;
+   set match2;
+   by studyid scoredate score; **get highest score for that day;
+   if last.scoredate;
+   type='illness';
+run;
+
+******** match to collection form;
+proc sort data=match3  ; by studyid date_collected ; run ;
+proc sort data=lavage2 ; by studyid date_collected ; run ;
+/*   ** Check for non-matches first - can we hardcode to match? **;*/
+/*   data resp2_ck;*/
+/*   merge lavage2 (in=l) match3 (in=b);*/
+/*   if l and not b then flag='No matching score';*/
+/*   by studyid date_collected;*/
+/*   run;*/
+/*   data resp2_ck1;*/
+/*   set resp2_ck;*/
+/*   where flag ne ' ';*/
+/*   run;*/
+/*   ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\respsamp_nomatch_score.xlsx';*/
+/*   proc print data=resp2_ck1;*/
+/*   var studyid date_collected scoredate;*/
+/*   run;*/
+/*   ods excel close;*/
+data sick;
+   length aVisit $14.;
+   merge lavage2 (in=l) match3 (in=m);
+   by studyid date_collected;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+***************************************
+STACK ALL NASAL LAVAGES w/ SCORECARDS 
+***************************************;
+data lavages_;
+   set well sick home_score;
+run;
+proc sort data=lavages_ nodupkey out=lavages dupout=dups_lav; by studyid date_collected; run;
+
+
+***************************************
+ADD AGE @ COLLECTION and YEAR OF STUDY
+***************************************;
+data age;
+   set derive.birthrecord ;
+   keep studyid date_birth;
+run ;
+proc sort data=age     ; by studyid ; run ;
+proc sort data=lavages ; by studyid ; run ;
+data age2;
+   merge lavages (in=a) age;
+   by studyid;
+   if a;
+   agemos=int((date_collected-date_birth)/30.4);
+run ;
+proc freq data=age2; table avisit; run;
+
+
+data firstyear;
+   set age2;
+   if avisit='12' or 0<=agemos <= 12;
+   year=1 ;
+run;
+proc sort data=firstyear ; by studyid date_collected ; run ;
+
+data secondyear;
+ set age2;
+ if avisit='24' or (agemos > 12 and agemos <= 24);
+ if avisit='12' then delete; *do not carry forward 12 mo data where child was > 12 mos of age;
+ year=2 ;
+run;
+proc sort data=secondyear ; by studyid date_collected ; run ;
+
+data thirdyear;
+ set age2;
+ if avisit='36' or (agemos > 24 and agemos <=36);
+ if avisit='24' then delete; *do not carry forward 24 mo data where child was > 24 mos of age;
+ year=3 ;
+run;
+proc sort data=thirdyear ; by studyid date_collected ; run ;
+
+data fourthyear;
+ set age2;
+ if avisit='48' or (agemos > 36 and agemos <=48);
+ if avisit='36' then delete; *do not carry forward 36 mo data where child was > 36 mos of age;
+ year=4 ;
+run;
+proc sort data=fourthyear ; by studyid date_collected ; run ;
+
+data fifthyear;
+ set age2;
+ if avisit='60' or (agemos > 48 and agemos <=60);
+ if avisit='48' then delete; *do not carry forward 48 mo data where child was > 48 mos of age;
+ year=5 ;
+run;
+proc sort data=fifthyear ; by studyid date_collected ; run ;
+
+data sixthyear;
+ set age2;
+ if avisit='72' or (agemos > 60 and agemos <=72);
+ if avisit='60' then delete; *do not carry forward 60 mo data where child was > 60 mos of age;
+ year=6 ;
+run;
+proc sort data=sixthyear ; by studyid date_collected ; run ;
+
+data seventhyear;
+ set age2;
+ if avisit in ('84','81') or (agemos > 72 and agemos <=84);
+ if avisit='72' then delete; *do not carry forward 72 mo data where child was > 72 mos of age;
+ year=7 ;
+run;
+proc sort data=seventhyear ; by studyid date_collected ; run ;
+
+***No age 8 clinic vis  ;
+
+data ninthyear;
+ set age2;
+ if avisit='108' or (agemos > 84 and agemos <=108);
+ if avisit in ('84','81') then delete; *do not carry forward 81+84 mo data where child was > 81/84 mos of age;
+ year=9 ;
+run;
+proc sort data=ninthyear nodup dupout=dups; by studyid date_collected ; run ;
+
+data tenthyear;
+ set age2;
+ if avisit='120' or (agemos > 108 and agemos <=120);
+ if avisit='108' then delete; *do not carry forward 108 mo data where child was > 108  mos of age;
+ year=10 ;
+run;
+proc sort data=tenthyear ; by studyid date_collected ; run ;
+
+
+
+***************************************
+GET NASAL LAVAGE SAMPLE VIROLOGY RESULTS 
+***************************************;
+data virus;
+   set master.nlsr;
+   date_collected=aDateCollected;
+*hardcodes here have been removed to protect patient confidentiality;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   * per proc freqs in yearly matches (see below); 
+*hardcodes here have been removed to protect patient confidentiality;
+   * per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr7_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   format date_collected mmddyy8.;
+run ;
+
+/**test for duplicate sampleIDs;*/
+proc sort data=virus nodupkey dupout= dups; by sampleid; run ;
+/* Check duplicate viral samples*/
+/*data dups_id; set dups; keep sampleid;run; */
+/*data test; merge dups_id (in= a) virus; by sampleid; if a; run;*/
+/*data test2; set test dups; by sampleid;run;*/
+
+proc sort data=virus ; by studyid date_collected ; run ;
+*hardcodes here have been removed to protect patient confidentiality;
+proc freq data=virus ; table avisit; run;
+
+
+********************************************
+ADD VIROLOGY RESULTS TO EACH YEAR DATA SET 
+********************************************;
+
+
+* age 1 *;
+data analysis_yr1 ;
+   merge firstyear (in=f) virus;
+   by studyid date_collected;
+   if f;
+   format date_collected mmddyy8.;
+run;
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr1_nomatch_sampres_or_noscore.xlsx';*/
+proc print data=analysis_yr1;
+   id studyid;
+   var event avisit cnlsc_q3 scoredate score date_collected sampleid ;
+   where score=. or score < 0 or date_collected=. or sampleid='  ';
+run;
+/*ods excel close;*/
+***hardcodes per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr1_nomatch_sampres_or_noscore_anno06.11.2020.xlsx;
+data analy_yr1 ;
+   set analysis_yr1;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+   if avisit="12" and cnlsc_q3=0 and score<0 then do; score=0; wheeze=0; cough=0; end;
+run;
+
+
+* age 2 *;
+data analysis_yr2 ;
+   merge secondyear (in=f) virus;
+   by studyid date_collected;
+   if f;
+   format date_collected mmddyy8.;
+run;
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr2_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr2;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr2; table avisit * event/missing; run;*/
+/*proc print data=analysis_yr2; where avisit ne '24' and event = '24-Month Clinic Visit'; run; */
+*hardcodes here have been removed to protect patient confidentiality;
+***hardcodes per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr2_nomatch_sampres_or_noscore_anno06.11.2020.xlsx;
+data analy_yr2 ;
+   set analysis_yr2;
+   /* added by KJ but we don't know what data stream this is based on as there is no scorecard record for this colldt */
+*hardcodes here have been removed to protect patient confidentiality;
+/*   end ;*/
+   if avisit="24" and cnlsc_q3=0 and score<0 then do; score=0; wheeze=0; cough=0; end;
+run;
+
+
+* age 3 *;
+data analysis_yr3 ;
+   merge thirdyear (in=f) virus;
+   by studyid date_collected;
+   if f;
+   format date_collected mmddyy8.;
+run;
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr3_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr3;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr3; table avisit * event/missing; run;*/
+/*proc print data=analysis_yr3; where avisit='36' and event ne '36-Month Clinic Visit'; run; *hardcodes here have been removed to protect patient confidentiality;
+data analy_yr3 ;
+ set analysis_yr3 ;
+*hardcodes here have been removed to protect patient confidentiality; 
+   /* added by KJ but we don't know what data stream this is based on as there is no scorecard record for this colldt */
+*hardcodes here have been removed to protect patient confidentiality;
+/*   end ;*/
+   if avisit="36" and cnlsc_q3=0 and score<0 then do; score=0; wheeze=0; cough=0; end;
+run;
+
+
+* age 4 *;
+data analysis_yr4 ;
+   merge fourthyear (in=f) virus;
+   by studyid date_collected;
+   if f;
+   format date_collected mmddyy8.;
+run;
+      **OLD********ods pdf file="H:\ViralReconcile\viral_brokenlinks.pdf" style=journal *********MB output path;
+      /*ods pdf file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\viralReconcile\viral_brokenlinks.pdf" style=journal ;*/
+      /*proc print data=analysis_yr4;*/
+      /*   id studyid;*/
+      /*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough ;*/
+      /*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+      /*run;*/
+      /*ods pdf close ;*/
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr4_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr4;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr4; table avisit * event/missing; run;*/
+/*proc print data=analysis_yr4; where avisit='36' and event ne '36-Month Clinic Visit'; run; * change in virus data step: 07-02-118-5 01/19/10 --> avisit='r';*/
+***no hardcodes here per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr4_nomatch_sampres_or_noscore_anno06.11.2020.xlsx;
+data analy_yr4 ;
+ set analysis_yr4;
+run;
+
+
+* age 5 *;
+data analysis_yr5 ;
+   merge fifthyear (in=f) virus;
+   by studyid date_collected;
+   if f;
+   format date_collected mmddyy8.;
+   if avisit="60" and cnlsc_q3=0 and score<0 then do; score=0; wheeze=0; cough=0; end;;
+run;
+      /* OLD */
+      /*ods pdf file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\ViralReconcile\viral_brokenlinks_y5.pdf" style=journal ;*/
+      /*proc print data=analysis_yr5;*/
+      /*   id studyid;*/
+      /*   var event avisit  cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough sampleid;*/
+      /*   */
+      /*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+      /*run;*/
+      /*ods pdf close ;*/
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr5_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr5;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr5; table avisit * event/missing; run;*/
+/*proc print data=analysis_yr5; where avisit='60' and event ne '60-Month Clinic Visit'; run; */
+*hardcodes here have been removed to protect patient confidentiality;
+***no hardcodes here per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr5_nomatch_sampres_or_noscore_anno06.11.2020.xlsx;
+data analy_yr5 ;
+ set analysis_yr5;
+run;
+
+
+* age 6 *;
+data analysis_yr6 ;
+   merge sixthyear (in=s) virus ;
+   by studyid date_collected;
+   if s;
+   format date_collected mmddyy8.;
+   if avisit="72" and cnlsc_q3=0 and score<0  then do; score=0; wheeze=0; cough=0; end;
+   if avisit="72" and cnlsc_q3=1 and score<0 then score=5;
+   if avisit="r" and score<0 then score=5;
+run;
+      /* OLD */
+      /*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\ViralReconcile\viral_brokenlinks_y6.csv";*/
+      /*proc print data=analysis_yr6;*/
+      /*   id studyid;*/
+      /*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough sampleid ;*/
+      /*   */
+      /*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+      /*   where also event = "72-Month Clinic Visit" ;*/
+      /*run;*/
+      /*ods csv close ;*/
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr6_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr6;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr6; table avisit * event/missing; run;*/
+*** no hardcodes here per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr6_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+data analy_yr6 ;
+ set analysis_yr6;
+run;
+
+
+* age 7 *;
+data analysis_yr7;
+   merge seventhyear (in=s) virus ;
+   by studyid date_collected;
+   if s;
+   format date_collected mmddyy8.;
+   if avisit in ("81","84") and cnlsc_q3=0 and score<0 then do; score=0; wheeze=0; cough=0; end;
+   * Add info (from lab spreadsheet) for subject with 7yr typing data but no data in MASTER.NLSR *;
+*hardcodes here have been removed to protect patient confidentiality;
+      NLSR_q1=5245; cdna_id=5245;
+      NLSR_q4a1='ev/hrv'; virus1='ev/hrv';
+      NLSR_q4g1='positive'; hrv_status='positive';
+      NLSR_q4h1='rv-a29'; hrv_type='rv-a29';
+      NLSR_q4i1='a'; species='a';
+   end;
+run;
+      /* OLD */
+      /*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\ViralReconcile\viral_brokenlinks_y7.csv";*/
+      /*proc print data=analysis_yr7;*/
+      /*   id studyid;*/
+      /*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough sampleid ;*/
+      /*   */
+      /*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+      /*run;*/
+      /*ods csv close ;*/
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr7_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr7;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr7; table avisit * event/missing; run;*/
+*** no hardcodes here per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr7_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+data analy_yr7 ;
+ set analysis_yr7;
+run;
+
+
+* age 9 *;
+data analysis_yr9;
+   length sampleid $7. avisit $14.;
+   merge ninthyear (in=s) virus ;
+   by studyid date_collected;
+   if s;
+   format date_collected mmddyy8.;
+   if avisit='10' then avisit='108'; *note: avisit is truncated in master.nlsr*;
+   if avisit = "108" and cnlsc_q3=0 and score<0  then do; score=0; wheeze=0; cough=0; end;; 
+   if avisit = "108" and cnlsc_q3=1 and score<0 then score=5;
+run;
+      /* OLD */
+      /*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\ViralReconcile\viral_brokenlinks_y9.csv";*/
+      /*proc print data=analysis_yr9;*/
+      /*   id studyid;*/
+      /*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough sampleid ;*/
+      /*   */
+      /*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+      /*run;*/
+      /*ods csv close ;*/
+***datacheck ;
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr9_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr9;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr9; table avisit * event/missing; run;*/
+*** no hardcodes here per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr9_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+
+data analy_yr9 ;
+ set analysis_yr9;
+run;
+
+
+* age 10 *;
+data analysis_yr10;
+ length avisit $3.;
+   merge tenthyear (in=s) virus ;
+   by studyid date_collected;
+   if s;
+   format date_collected mmddyy8.;
+   if avisit='12' then avisit='120'; *note: avisit is truncated in master.nlsr*;
+   if avisit = "120" and cnlsc_q3=0 and score<0 then do; score=0; wheeze=0; cough=0; end;
+   if avisit = "120" and cnlsc_q3=1 and score<0 then score=5;
+   * Add info (from lab spreadsheet) for subjects with 10yr typing data but no data in MASTER.NLSR *;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+run;
+      /* OLD */
+      /*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\ViralReconcile\viral_brokenlinks_y10.csv";*/
+      /*proc print data=analysis_yr10;*/
+      /*   id studyid;*/
+      /*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough sampleid ;*/
+      /*   */
+      /*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+      /*run;*/
+      /*ods csv close ;*/
+/*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\yr10_nomatch_sampres_or_noscore.xlsx';*/
+/*proc print data=analysis_yr10;*/
+/*   id studyid;*/
+/*   var event avisit cnlsc_q3 scoredate score date_collected sampleid onset wheeze cough;*/
+/*   where score=. or score < 0 or date_collected=. or sampleid='  ';*/
+/*run;*/
+/*ods excel close;*/
+/*proc freq data=analysis_yr10; table avisit * event/missing; run;*/
+*** no hardcodes here per ...Prog\Derive\Viral_Checks\Date_Hardcodes\yr10_nomatch_sampres_or_noscore_anno06.12.2020.xlsx;
+data analy_yr10 ;
+ set analysis_yr10;
+run;
+
+
+********************************************
+STACK YEARLY VIROLOGY SAMPLES 
+********************************************;
+
+
+data viral_1recwash_1 ;
+   length avisit $3.;
+   set analy_yr1 analy_YR2 analy_YR3 analy_YR4 analy_YR5 analy_YR6 analy_YR7 analy_YR9 analy_yr10;
+
+   rename CNLSC_q3=child_sick
+         onset=date_onset 
+         scoredate=date_score
+         NLSR_q1=cdna_id
+         NLSR_q2=batch_no
+         NLSR_q3=volume 
+         NLSR_q4a1=virus1
+         NLSR_q4b1=virus2
+         NLSR_q4c1=virus3
+         NLSR_q4d1=virus4
+         NLSR_q4e1=virus5
+         NLSR_q4f1=virus6 
+         NLSR_q4g1 = hrv_status
+         NLSR_q4h1 = hrv_type
+         NLSR_q4i1 = species
+         NLSR_q4j1 = result_comments
+         ;
+
+   drop adatecollected astudyid recruitid version status;
+
+   label   date_collected='Date nasal sample collected'
+         type='Clinic or illness sample'
+         scoredate='Date of scorecard'
+         agemos='Age of child in months at time of collection';
+run;
+proc sort data=viral_1recwash_1; by studyid date_collected; run;
+proc freq data=viral_1recwash_1; table avisit;run;
+proc freq data=viral_1recwash_1; table event;run;
+proc freq data=viral_1recwash_1; where sampleid='';table year*avisit;run;
+
+data viral_1recwash ;
+   set viral_1recwash_1 ;
+   * remove records w/o associated sample results;
+   if cdna_id ne .; 
+   length virus $12.;
+   if avisit in ('hn','r','ra') then avisitn=.;
+   else avisitn = input(avisit, 3.);
+   
+   ***identify records with only one virus per visit (not multiples) ;
+   *update 7/23/18 to account for records with all missing;
+   if missing(virus1) then multiple = .; 
+      else if  virus2 = '.m' and virus3 = '.m' and virus4 = '.m'
+      and virus5 = '.m' and virus6 = '.m' then multiple = 0 ;
+      else multiple = 1 ;
+
+   ***Adenovirus ;
+   if virus1="adv c" or virus1="adc" or virus1="adv b" or virus1="advc" 
+   or virus1="adv e" or virus1="adv"
+   then virus="ade" ;
+
+   ***Bocavirus ;
+   if virus1="bv" or virus1="bov"
+   then virus="boc" ;
+
+   ***Rhinovirus ;
+   if virus1="hrv" 
+   then virus="hrv" ;
+
+   ***SL - new test does not distinguish ev/hrv ;
+   if virus1="ev/hrv" 
+   then virus="ev/hrv" ;
+
+   ***RSV ;
+   if virus1="rsv a" or virus1="rsv b"
+   then virus="rsv";
+
+   ***Parainfluenza ;
+   if virus1="piv 1" or virus1="piv 2" or virus1="piv 3"  or virus1="piv1" 
+   or virus1="piv2"  or virus1="piv3"  or virus1="piv 4b" or virus1="piv4b" 
+   or virus1="piv 4" 
+   then virus="par" ;
+
+   ***Influenza ;
+   if virus1="inf a" or virus1="infv a" or virus1="infv b" or virus1="inf b" 
+   or virus1="flu a" or virus1="flu b" 
+   then virus="inf" ;
+
+   ***Metapneumovirus ;
+   if virus1="mpv" 
+   then virus="met" ;
+
+   ***Coronavirus ;
+   if virus1="oc43" or virus1="cov oc43" or virus1="cov nl63"
+   or virus1="cov 229e" or virus1="cov hk"
+   then virus="cor" ;
+
+   ***Enterovirus ;
+   if virus1="env" or virus1="ev"
+   then virus="ent" ;
+
+   ***Negatives ;
+   if virus1="negative"
+   then virus="neg" ;
+
+   ***Multiples ;
+   if multiple = 1 then virus="mul" ;
+   
+   label multiple = 'More than 1 virus detected';
+   rename avisitn = avisit; 
+   drop avisit;
+run ;
+
+proc sort data=viral_1recwash nodupkey dupout=dups; by cdna_id ; run;
+proc sort data=viral_1recwash ; by studyid date_collected; run;
+
+
+
+*********************************************
+Add in Viral Typing 
+********************************************;
+
+OPTION VALIDVARNAME=V7;
+proc import out = WORK.typing datafile= "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Virology\Typing\URECA typing results_042920_RHO.xlsx" 
+            dbms=xlsx replace;
+     range="Sheet1$A1:O1347";
+     *sheet="Sheet1"; 
+     getnames=yes;
+     *namerow=2;
+     *startrow=3;
+run;
+
+
+data typing2; 
+   format date_collected date9.;
+   set typing (rename=(cdna_id=cdna_idc)); 
+   studyid = substr(specimen_id, 1, 11); 
+
+   cDNA_ID=cDNA_IDc*1;
+
+   if cDNA_ID=72 then delete; 
+
+   if substr(specimen_id, 13, 5) = "vm120" then event_pcr = "120-Month Clinic Visit";
+   else if substr(specimen_id, 13, 4) = "vm12" then event_pcr = "12-Month Clinic Visit";
+   if substr(specimen_id, 13, 4) = "vm36" then event_pcr = "36-Month Clinic Visit";
+   if substr(specimen_id, 13, 4) = "vm60" then event_pcr = "60-Month Clinic Visit";
+   if substr(specimen_id, 13, 4) = "vm72" then event_pcr = "72-Month Clinic Visit";
+   if substr(specimen_id, 13, 4) = "vm81" then event_pcr = "81-Month Clinic Visit";
+   if substr(specimen_id, 13, 4) = "vm84" then event_pcr = "84-Month Clinic Visit";
+   if substr(specimen_id, 13, 5) = "vm108" then event_pcr = "108-Month Clinic Visit";
+   if substr(specimen_id, 13, 3) = "hnc" then event_pcr = "Home Nasal Collection";
+
+   hrv_species = species;
+   if species in ('NA','Negative') and hrv_pcr = 'No sample remaining' then hrv_species = '';
+   if species = 'C,C' then hrv_species = "C, C";
+
+   if compress(hrv_pcr) not in ("Missing", "redo") or ^missing(FINAL_EV_HRV_TYPE) or ^missing(HRV_SPECIES) then pcr_results = 'Yes';
+   else pcr_results = 'No';
+
+   if HRV_PCR="No sample remaining" and HRV_SPECIES="Enterovirus" then hrv_pcr2 = "Negative";
+   else if  (HRV_PCR="No sample remaining" and HRV_SPECIES in ("A", "B", "C")) or hrv_pcr = "positive" or (^missing(HRV_SPECIES) & HRV_SPECIES ne 'NA') then hrv_pcr2 = 'Positive';
+   else if  HRV_PCR in ("Missing", "No sample remaining", "redo") then hrv_pcr2 = '';
+   else hrv_pcr2 = hrv_pcr;
+
+   hrv_type = final_ev_hrv_type; 
+
+   *hardcodes;
+ date_collected = collected; 
+*hardcodes here have been removed to protect patient confidentiality;
+
+
+   drop  cdna_idc hrv_pcr type Bacteria Wai_Ming var12 VP2_VP4_type Final_EV_HRV_Type ;
+   rename hrv_pcr2 = hrv_pcr;
+   label event_pcr = "Event per Lab xls"
+         hrv_species = "HRV species per lab xls";
+run;
+
+proc sort data=typing2; by cdna_id; run;
+
+         /***************Data Checks;*/
+         /**/
+         /**list of duplicates by studyid and date collected;*/
+         /*proc sort data=typing2; by studyid date_collected; run;*/
+         /*data single dup;     */
+         /*     set typing2;    */
+         /*     where not missing(studyid); */
+         /*     by studyid date_collected;     */
+         /*     if first.date_collected and last.date_collected          */
+         /*          then output single;     */
+         /*          else output dup;*/
+         /*run;*/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck1_duplicates.xlsx';*/
+         /*proc print data=dup;*/
+         /*   title 'Duplicates in Labdata by StudyID and Date Collected';*/
+         /*run;*/
+         /*ods excel close;*/
+         /**/
+         /**frequency tables ;*/
+         /*ods rtf file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck2_frequency_tables_premerge.rtf';*/
+         /*proc freq data=typing2; table HRV_TYPE*PCR_RESULTS  / missing nopercent nocol norow; */
+         /*title 'PCR_RESULTS * HRV_TYPE ';*/
+         /*run;*/
+         /*proc freq data=typing2; table HRV_PCR*hrv_species  / missing; */
+         /*title 'HRV_PCR * HRV_SPECIES ';*/
+         /*run;*/
+         /*proc freq data=typing2; table HRV_TYPE*HRV_SPECIES  / missing list; */
+         /*title 'HRV_TYPE * HRV_SPECIES ';*/
+         /*run;*/
+         /*ods rtf close;*/
+         /**/
+         /**pcr_results yes but type missing;*/
+         /*data pcr_type; */
+         /*   set typing2; */
+         /*   where pcr_results = 'Yes' and missing(hrv_type) and hrv_pcr = 'Positive';*/
+         /*run;*/
+         /**/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck3_results_typemiss_pos.xlsx';*/
+         /*proc print data=pcr_type;*/
+         /*run;*/
+         /*ods excel close;*/
+         /**/
+         /**pcr results and hrv type check ;*/
+         /*proc freq data=typing2; table pcr_results*hrv_type / missing;*/
+         /*data pcr_hrv; */
+         /*   set typing2; */
+         /*   where HRV_TYPE ^='' and HRV_SPECIES='';*/
+         /*   keep studyid date_collected hrv_type hrv_species;*/
+         /*run;*/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck4_pcr_hrv.xlsx';*/
+         /*proc print data=pcr_hrv;*/
+         /*   title 'HRV type present and species missing';*/
+         /*run;*/
+         /*ods excel close;*/
+         /**/
+         /**hrv_pcr and species check;*/
+         /*proc freq data=typing2; table hrv_pcr*hrv_species / missing;*/
+         /*data hrv_species; */
+         /*   set typing2; */
+         /*   where HRV_PCR='Negative' and HRV_SPECIES ^= 'Enterovirus';*/
+         /*   keep studyid date_collected hrv_pcr hrv_species; */
+         /*run;*/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck5_hrv_species.xlsx';*/
+         /*proc print data=hrv_species;*/
+         /*   title 'HRV_PCR Negative and HRV Species Not Enterovirus';*/
+         /*run;*/
+         /*ods excel close;*/
+         /**/
+         /**/
+         /**missing hrv_pcr and species;*/
+         /*data missspectyp; */
+         /*   set typing2; */
+         /*   where missing(hrv_pcr) and missing(species); */
+         /*run;*/
+         /**pcr positive and missing species; */
+         /*data missspec_pcrpos; */
+         /*   set typing2; */
+         /*   where hrv_pcr = 'Positive' and missing(species); */
+         /*run;*/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck6_miss_spec_pcrpos.xlsx';*/
+         /*proc print data=missspec_pcrpos;*/
+         /*run;*/
+         /*ods excel close;*/
+         /**/
+         /**TYPE * SPECIES;*/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck7_miss_type_entero.xlsx';*/
+         /*proc print data=typing2(where=(missing(hrv_type) and hrv_species = 'Enterovirus'));*/
+         /*run;*/
+         /*ods excel close;*/
+         /**/
+         /**pcr positive and entero; */
+         /*data missspec_pcrpos; */
+         /*   set typing2; */
+         /*   where hrv_pcr = 'Positive' and species = "Enterovirus"; */
+         /*run;*/
+         /*ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck8_pcrpos_entero.xlsx';*/
+         /*proc print data=missspec_pcrpos;*/
+         /*run;*/
+         /*ods excel close;*/
+
+
+
+*** Wai-Ming Data **************************************************; 
+
+proc import out = WORK.wmtyping datafile= "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Virology\Typing\Wai Ming typing results_041620.xlsx" 
+            dbms=xlsx replace;
+     sheet="Sheet1"; 
+     getnames=yes;
+     *namerow=2;
+     *startrow=3;
+run;
+
+data wmtyping2; 
+   set wmtyping; 
+   where _6_29_19_spreadsheet = 'N';
+
+   studyid = substr(specimen_id, 1, 11); 
+*hardcodes here have been removed to protect patient confidentiality;
+
+   rename Type_new_nomenclature = wai_type
+          Species = wai_species
+          collected = date_collected; 
+
+   keep cdna_id collected studyid virus_1-virus_4 Type_new_nomenclature Species;
+run;
+
+proc sort data=wmtyping2; by studyid date_collected; run;
+proc sort data=typing2; by studyid date_collected; run;
+
+*** merge typing and viral_1recwash ****************************************************************;
+data prewash; 
+   set viral_1recwash; 
+
+   If hrv_status = 'negataive' then hrv_status='negative';
+
+   rename hrv_status = hrv_status_crf
+          hrv_type = hrv_type_crf
+          species = species_crf;
+run;
+proc freq data=prewash; table hrv_status_crf; run;
+
+proc sort data=prewash; by studyid date_collected; run;
+data typing2;
+   set typing2;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+proc sort data=typing2; by studyid date_collected; run;
+proc sort data=wmtyping2; by studyid date_collected; run;
+
+data pre_viral_1recwash;
+   merge prewash (in=a rename=(cdna_id=cdna_id_crf type=vis_type)) 
+         typing2 (in=b rename=(cdna_id=cdna_id_lab)) 
+         wmtyping2 (in=c rename=(cdna_id=cdna_id_wm)); 
+   by studyid date_collected; 
+
+   if a and b and c then flag = "CRF, Lab, and WM";
+   if a and b and not c then flag = 'CRF and Lab';
+   if a and not b and c then flag = 'CRF and WM';
+   if not a and b and c then flag = 'WM and Lab';
+   if a and not b and not c then flag = 'CRF Only';
+   if not a and b and not c then flag = 'Lab Only';
+   if not a and not b and c then flag = 'WM Only';
+
+   if cdna_id_crf ne . and cdna_id_lab ne . and cdna_id_crf ne cdna_id_lab then flag2='cDNA_ID CRF ne Lab';
+   else if cdna_id_crf ne . and cdna_id_wm ne . and cdna_id_crf ne cdna_id_wm then flag2='cDNA_ID CRF ne WM';
+   else if cdna_id_lab ne . and cdna_id_wm ne . and cdna_id_lab ne cdna_id_wm then flag2='cDNA_ID Lab ne WM';
+
+run;
+
+      /*      * Queries for Kris Grindle - solved*;*/
+      /*      proc print data=pre_viral_1recwash n; */
+      /*      where flag2 ne ' ';*/
+      /*      var flag2 flag studyid date_collected cdna_id_crf cdna_id_wm cdna_id_lab ;*/
+      /*      title 'listing: cdna_ids different between CRF, Lab or WM';*/
+      /*      run; */
+
+data pre_viral_1recwash1; 
+   length final_species final_type $30.;
+   set pre_viral_1recwash (drop=species);
+
+   * Define FINAL_TYPE & FINAL_SPECIES based on flag (same results as above but easier to explain;
+   if flag='CRF Only' then do; 
+      final_species=species_crf; 
+      final_type=hrv_type_crf; cdna_id=cdna_id_crf; 
+      cdna_id=cdna_id_crf;
+   end;
+   else if flag in ('Lab Only', 'CRF and Lab') then do; 
+      final_species=hrv_species; 
+      final_type=hrv_type; 
+      cdna_id=cdna_id_lab;
+   end;
+   else if flag in ('CRF and WM', 'WM Only') then do; 
+      final_species=wai_species; 
+      final_type=wai_type; 
+      cdna_id=cdna_id_wm;
+   end;
+
+   if (missing(virus1) or virus1 = 'negative') and not missing(virus_1) then do; 
+      virus1 = virus_1; 
+      virus2 = virus_2; 
+      virus3 = virus_3; 
+      virus4 = virus_4; 
+   end;
+
+   if final_species='Negative' then final_species=' ';
+   if virus1='Negative' then virus1='negative';
+rename final_species = species
+       final_type = type;
+run;
+
+      /*      data miss_event;*/
+      /*         set pre_viral_1recwash1;*/
+      /*         if missing(event);*/
+      /*      run;*/
+      /*      ods excel file= 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\ck9_missing_event.xlsx';*/
+      /*      proc print data=miss_event n;*/
+      /*      title 'Missing EVENT -- non-merges -- sent queries to lab';*/
+      /*      run;*/
+      /*      ods excel close;*/
+
+
+
+data viral_1recwash2; 
+   set pre_viral_1recwash1; 
+
+   * until resolved, delete non-merges and samples collected without any processing results *;
+   if missing(event) or missing(cdna_id) then delete; 
+
+   *** VIRUS: Single virusses ***;
+   if (missing(virus2) or virus2='.m') and virus1 in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') then do;
+       if species in ('A, C', 'A, A', 'A, B', 'A, C, C', 'B, C', 'C, C', 'C,C', 'C, A', 
+                      'A, Enterovirus', 'B, Enterovirus', 'C, Enterovirus', 'A, C, Enterovirus') then new_virus = 'multiple';
+       else if species in ('A', 'B', 'C', 'a', 'b', 'c') then new_virus = 'hrv'; 
+       else if species in ('Enterovirus') then new_virus = 'ev';
+       else if (missing(species) or species ='.m') then new_virus = 'hrv'; *note: missing typing information, still set as hrv*;
+   end;
+   
+   else if (missing(virus2) or virus2='.m') and virus1 in ('EnV', 'EV', 'ev', 'env') then do;
+       if species in ('Enterovirus', 'enterovirus', '.m') then new_virus = 'ev';
+       else if species in ('A, Enterovirus', 'B, Enterovirus', 'C, Enterovirus','a,enterovirus', 'b,enterovirus', 'c,enterovirus') then new_virus = 'multiple';
+       * one finicky 'C, Enterovirus' that won't recode -- let's hardcode;
+       else if cdna_id=730 then new_virus='multiple';
+       else if species in ('A', 'B', 'C', 'a', 'b', 'c') then new_virus = 'multiple';
+   end; 
+
+   else if (missing(virus2) or virus2='.m') and virus1='negative' and species in ('A','B','C') then new_virus='hrv';
+
+   else if (missing(virus2) or virus2='.m') and (missing(species) or species ='.m') then do;
+       if virus1 in ('adv c','adc','adv b','advc','adv e','adv') then new_virus = 'ade';
+       else if virus1 in ('bv','bov') then new_virus = 'boc';
+       else if virus1 in ('rsv a','rsv b') then new_virus = 'rsv';
+       else if virus1 in ('piv 1','piv 2','piv 3','piv1','piv2','piv3','piv 4b','piv4b','piv 4') then new_virus = 'par';
+       else if virus1 in ('inf a','infv a','infv b','inf b','flu a','flu b' ) then new_virus = 'inf';
+       else if virus1 in ('mpv') then new_virus = 'met';
+       else if virus1 in ('oc43','cov oc43','cov nl63','cov 229e','cov hk') then new_virus = 'cor';
+       else if virus1 in ('negative' ) then new_virus = 'neg';
+   end;
+
+   else if (missing(virus2) or virus2='.m') and species not in ('.m','') then new_virus = 'multiple';
+
+   *** VIRUS: At least 2 virusses ***;
+   if not missing(virus2) and virus2 ^= '.m' then new_virus = 'multiple';
+
+   *** INDICATOR VARIABLES ***;
+   if new_virus='ev' then EV = 1;
+   else EV = 0;
+
+   if new_virus='hrv' and Species in ('A','a') then HRV_A = 1; 
+   else if new_virus = 'hrv' and (missing(species) or species in ('.m','HRV-unable to type')) then HRV_A=.;
+   else HRV_A = 0;
+
+   if new_virus='hrv' and Species in ('B','b') then HRV_B = 1; 
+   else if new_virus = 'hrv' and (missing(species) or species in ('.m','HRV-unable to type')) then HRV_B=.;
+   else HRV_B = 0;
+
+   if new_virus='hrv' and Species in ('C','c') then HRV_C = 1; 
+   else if new_virus = 'hrv' and (missing(species) or species in ('.m','HRV-unable to type')) then HRV_C=.;
+   else HRV_C = 0;
+
+   if new_virus='multiple' and virus1 not in ('env','ev','EnV','EV') and virus2 in (' ', '.m') and 
+      species in ('A, A', 'A, B', 'A, C', 'A, C, C', 'B, B', 'B, C', 'C, A', 'C, C') then HRV_M = 1;
+   else if new_virus = 'hrv' and (missing(species) or species in ('.m','HRV-unable to type')) then HRV_M=.;
+   else HRV_M = 0;
+
+   if sum(HRV_A,HRV_B,HRV_C,HRV_M) > 0 or (new_virus='hrv' and HRV_A=.) then HRV = 1; 
+   else HRV = 0;
+
+   if (missing(virus2) or virus2 = '.m') and  HRV ne 1 and HRV_M ne 1 and new_virus not in ('neg','multiple') then V_OTHER = 1; 
+   else V_OTHER = 0;
+
+   if HRV=1 or EV=1 or HRV_M=1 or V_OTHER=1 or new_virus='multiple' then V_ANY = 1;
+   else V_ANY = 0;
+
+   if new_virus='multiple' then do;
+      if virus1 in ('HRV','EV/HRV','hrv','ev/hrv') and species = 'Enterovirus' then HRVplOTH=0;
+      else if virus1 in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') and virus2 not in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv',' ','.m') then HRVplOTH=1; 
+      else if virus1 in ('HRV','EV/HRV','hrv','ev/hrv') and virus2 in ('','.m') and species in ('A, Enterovirus', 'B, Enterovirus', 'C, Enterovirus', 
+                                                                'a,enterovirus', 'b,enterovirus', 'c,enterovirus',
+                                                                'a', 'b', 'c', 'A', 'B', 'C',
+                                                                'A, C, Enterovirus') then HRVplOTH=1;
+      else if virus1 in ('EnV','EV','env','ev') and species in ('A, Enterovirus', 'B, Enterovirus', 'C, Enterovirus', 
+                                                                'a,enterovirus', 'b,enterovirus', 'c,enterovirus',
+                                                                'a', 'b', 'c', 'A', 'B', 'C') then HRVplOTH=1;
+      else if virus1 = 'piv1' and species='B' then HRVplOTH=1;
+
+      else if virus2 in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') and species='Enterovirus' then HRVplOTH=0;
+      else if virus2 in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') and virus1 not in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') then HRVplOTH=1;
+      else if virus2 in ('EnV','EV','env','ev') and species in ('A, Enterovirus', 'B, Enterovirus', 'C, Enterovirus', 
+                                                                'a,enterovirus', 'b,enterovirus', 'c,enterovirus',
+                                                                'a', 'b', 'c', 'A', 'B', 'C') or cdna_id=730 then HRVplOTH=1;
+
+      else if virus3 in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') and virus1 not in ('HRV', 'EV/HRV', 'hrv', 'ev/hrv') then HRVplOTH=1;
+      else HRVplOTH = 0;
+   end;
+   else HRVplOTH=0;
+
+   if HRV_M = 1 then do;
+      if species='A, A' then hrv2pl_a = 1; else hrv2pl_a=0;
+      if species='B, B' then hrv2pl_b = 1; else hrv2pl_b=0;
+      if species='C, C' then hrv2pl_c= 1; else hrv2pl_c=0;
+      if species not in ('A, A', 'B, B', 'C, C')then HRV2PL_M = 1; else HRV2PL_M=0;
+   end;
+   else if HRV_M=0 then do;
+      hrv2pl_a=0; hrv2pl_b=0; hrv2pl_c=0; HRV2PL_M=0;
+   end;
+
+   if HRV = 1 then do;
+      if HRV_A=1 or hrv2pl_a=1 then hrv1pl_a=1; else if HRV_A=. then hrv1pl_a=.; else hrv1pl_a=0;
+      if HRV_B=1 or hrv2pl_b=1 then hrv1pl_b=1; else if HRV_B=. then hrv1pl_b=.; else hrv1pl_b=0;
+      if HRV_C=1 or hrv2pl_c=1 then hrv1pl_c=1; else if HRV_C=. then hrv1pl_c=.; else hrv1pl_c=0;
+      if hrv2pl_m=1 then hrv1pl_m=1; else if hrv2pl_m=. then hrv1pl_m=.; else hrv1pl_m=0; * note: this is the same as hrv2pl_m. leaving here only for consistency reasons;
+   end;
+   else if HRV = 0 then do;
+      hrv1pl_a=0; hrv1pl_b=0; hrv1pl_c=0; hrv1pl_m=0;
+   end;
+
+   if (virus1='hrv' and species in (' ','.m','HRV-unable to type'))
+         or (virus2='hrv' and species in ('','.m'))
+         or (virus3='hrv' and species in (' ','.m')) then flag_misspecies=1;
+run;
+data test; set viral_1recwash2; where flag_misspecies=1; run;
+
+   * Listing for Jim - VIRUS1 in ('hrv','ev/hrv') and missing SPECIES *;
+   proc print data=viral_1recwash2 n;
+   where flag_misspecies=1;
+   var studyid date_collected flag flag2 cdna_id_crf cdna_id_lab cdna_id_wm cdna_id virus1 virus2 virus3 virus4 type species new_virus;
+   title 'Listing: VIRUS1=hrv or ev/hrv and missing SPECIES';
+   run;
+
+
+
+data viral_1recwash3;
+   set viral_1recwash2;
+
+   * per Jim's directions, leave samples in without PCR typing information (missing species);
+/*   where flag_misspecies ne 1;*/
+
+   ev1 = ev;
+   hrva1 = hrv_a;
+   hrvb1 = hrv_b;
+   hrvc1 = hrv_c;
+   hrv1pl = hrv;
+   hrv2pl = hrv_m;
+   othv1 = v_other;
+   anyv = v_any;
+
+   virus = new_virus;
+
+   label ev1 = 'Single Enterovirus'
+         hrva1 = 'Single HRV-A'
+         hrvb1 = 'Single HRV-B'
+         hrvc1 = 'Single HRV-C'
+         
+         hrv1pl = '1 or more HRV viruses (and no others)'
+         hrv1pl_a = '1 or more HRV-A viruses (and no others)'
+         hrv1pl_b = '1 or more HRV-B viruses (and no others)'
+         hrv1pl_c = '1 or more HRV-C viruses (and no others)'
+         hrv1pl_m = '2 or more HRV viruses with mixed species (and no others)'
+
+         hrv2pl = '2 or more HRV viruses (and no others)'
+         hrv2pl_a = '2 or more HRV-A viruses (and no others)'
+         hrv2pl_b = '2 or more HRV-B viruses (and no others)'
+         hrv2pl_c = '2 or more HRV-C viruses (and no others)'
+         hrv2pl_m = '2 or more HRV viruses with mixed species (and no others)'
+
+         othv1 = 'Single virus other than HRV'
+         anyv = 'Any virus'
+         HRVplOTH = 'HRV plus another virus'
+
+         virus = 'Sample Viral Status'
+         species = 'HRV species per PCR'
+         type = 'HRV type per PCR'
+         year = 'Follow-up year'
+         cdna_id_lab = 'cDNA_ID per 041620 xls'
+         cdna_id_crf = 'cDNA_ID per CRF form (nasal lavage sample result)'
+         cdna_id_wm = 'cDNA_ID per Wai-Ming xls'
+         cdna_id = 'Final cDNA_ID'
+         flag = 'Indicator record origin'
+         flag2 = 'Indicator differing cDNA_IDs'
+;
+run;
+
+proc freq data= viral_1recwash3; table new_virus; table hrvploth; run;
+proc print data=viral_1recwash3;
+   where vis_type='illness' and score < 5;
+   var studyid year event vis_type date_collected date_score score virus;
+run;
+
+data allsamps;
+   retain studyid event vis_type date_collected date_score date_onset
+          child_sick visit_comments score wheeze cough cough_whz_indicator date_birth agemos year
+          sampleid adateextracted adatert cdna_id cdna_id_crf cdna_id_wm cdna_id_lab flag flag2 batch_no volume
+          virus1 virus2 virus3 virus4 type species virus ev1 hrva1 hrvb1 hrvc1 hrv1pl hrv1pl_a hrv1pl_b hrv1pl_c hrv1pl_m
+          hrv2pl hrv2pl_a hrv2pl_b hrv2pl_c hrv2pl_m othv1 anyv hrvploth;
+   set viral_1recwash3; 
+
+   * hardcodes made per KJ for those with a score <5;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+
+   * remove illness records with score <5;
+   if vis_type='illness' and score < 5 then delete;
+
+   * hardcode onse dates per ...\Prog\Derive\Viral_Checks\Date_Hardcodes\FU_call_nosample_results_anno06.16.2020 -- see ck2 below *;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   drop virus5 virus6 hrv_status_crf hrv_type_crf species_crf result_comments new_virus multiple
+        collected specimen_id virus_1-virus_4 event_pcr hrv_species pcr_results hrv_pcr hrv_type wai_type wai_species
+        ev hrv_a hrv_b hrv_c hrv hrv_m v_other v_any
+        avisit flag_misspecies scoredate onset;
+run;
+
+
+
+*********************************************
+Add Cohort and 10-yr Phenotype information 
+********************************************;
+
+**** general ureca population ****;
+proc sort data=derive.groups out=cohort (keep=studyid group) ; 
+ by studyid ; 
+run ;
+
+**** 10-year pheno ****;
+proc import datafile='S:\RhoFED\ICAC\Studies\URECA\Manuscripts\Pheno_10Year\v1.2\dat\der\cluster_data_1.csv'
+  out=pheno10
+  dbms=CSV;
+run;
+proc sort data=pheno10 out=ph10 (keep=studyid pheno_y10);
+by studyid;
+run;
+data cohort;
+merge cohort (in=a)
+      ph10 (in=b);
+by studyid;
+if a;
+run;
+
+data allsamps2;
+merge allsamps (in=a)
+      cohort (in=b);
+by studyid;
+if a;
+run;
+
+
+
+*********************************************
+Add Respiratory Illness Follow-up Call Info 
+********************************************;
+
+proc sort data=master.rifpc out=p1 
+   (keep= studyid acompletiondate event rifpc_q1a rifpc_q1b rifpc_q3g1 rifpc_q3h1 rifpc_q3g2 rifpc_q3h2 rifpc_q3g3 rifpc_q3h3 rifpc_q3g4 rifpc_q3h4
+          rifpc_q4f1 rifpc_q4g1 rifpc_q4f2 rifpc_q4g2 rifpc_q5a2 rifpc_q5a4 rifpc_q5a5 rifpc_q5a6 rifpc_q5a8 rifpc_q5a9 rifpc_q7b 
+    rename=(acompletiondate=date_call rifpc_q1a=date_onset rifpc_q1b=date_collected
+            rifpc_q3g1=docv1_dx1 rifpc_q3h1=docv1_dx2 rifpc_q3g2=docv2_dx1 rifpc_q3h2=docv2_dx2
+            rifpc_q3g3=docv3_dx1 rifpc_q3h3=docv3_dx2 rifpc_q3g4=docv4_dx1 rifpc_q3h4=docv4_dx2
+            rifpc_q4f1=hosp1_dx1 rifpc_q4g1=hosp1_dx2 rifpc_q4f2=hosp2_dx1 rifpc_q4g2=hosp2_dx2 
+            rifpc_q5a2=med_albsyr rifpc_q5a4=med_albinh rifpc_q5a5=med_sterora rifpc_q5a6=med_sterinh rifpc_q5a8=med_leuko rifpc_q5a9=med_longterm 
+            rifpc_q7b=symp_wheeze)
+   );
+where status='complete';
+by studyid rifpc_q1a;
+run;
+
+proc sort data=master.rifpc2 out=p2 
+   (keep= studyid acompletiondate event rifpc2_q1a rifpc2_q1b rifpc2_q3g1 rifpc2_q3h1 rifpc2_q3g2 rifpc2_q3h2 rifpc2_q3g3 rifpc2_q3h3 rifpc2_q3g4 rifpc2_q3h4
+          rifpc2_q4f1 rifpc2_q4g1 rifpc2_q4f2 rifpc2_q4g2 rifpc2_q5a2 rifpc2_q5a4 rifpc2_q5a5 rifpc2_q5a6 rifpc2_q5a8 rifpc2_q5a9 rifpc2_q7b 
+    rename=(acompletiondate=date_call rifpc2_q1a=date_onset rifpc2_q1b=date_collected 
+            rifpc2_q3g1=docv1_dx1 rifpc2_q3h1=docv1_dx2 rifpc2_q3g2=docv2_dx1 rifpc2_q3h2=docv2_dx2
+            rifpc2_q3g3=docv3_dx1 rifpc2_q3h3=docv3_dx2 rifpc2_q3g4=docv4_dx1 rifpc2_q3h4=docv4_dx2
+            rifpc2_q4f1=hosp1_dx1 rifpc2_q4g1=hosp1_dx2 rifpc2_q4f2=hosp2_dx1 rifpc2_q4g2=hosp2_dx2 
+            rifpc2_q5a2=med_albsyr rifpc2_q5a4=med_albinh rifpc2_q5a5=med_sterora rifpc2_q5a6=med_sterinh rifpc2_q5a8=med_leuko rifpc2_q5a9=med_longterm 
+            rifpc2_q7b=symp_wheeze)
+   );
+where status='complete';
+by studyid rifpc2_q1a;
+run;
+
+* Stack follow-up call data sets;
+data p;
+   set p1 p2;
+run;
+proc sort data=p; by studyid date_onset date_collected; run;
+
+
+      * Investigate missing onset dates and how to maybe fill these in *; 
+      data p_missdt;
+      set p;
+      where missing(date_onset);
+      run; 
+      proc sort data=p_missdt (keep=studyid date_collected); by studyid date_collected; run;
+      data p_missdt2;
+      merge p_missdt (in=a)
+            allsamps2;
+      by studyid date_collected;
+      if a;
+      keep studyid event year date_collected date_onset;
+      run;
+      data ck;
+      set allsamps2;
+*hardcodes here have been removed to protect patient confidentiality;
+      run;
+      * what's the average time between date collection and onset date *;
+      proc sort data=allsamps2 out=v1_ck; by studyid date_onset date_collected; run;
+      data v1_ck;
+      set v1_ck;
+      by studyid date_onset;
+      if first.date_onset;
+      tm_onset_coll = date_collected - date_onset;
+      run;
+      data v1_ck_missonset; set v1_ck; where missing(date_onset); run;
+      proc freq data=v1_ck_missonset; table event/missing; run;
+      proc means data=v1_ck n min p25 p50 p75 max mean;
+      var tm_onset_coll;
+      run;
+      proc print data=v1_ck;
+      where tm_onset_coll >90;
+      var studyid date_onset date_collected date_score tm_onset_coll;
+      run;
+
+
+data fu;
+set p;
+   if docv1_dx1 in ('3','4','5','9','10') or docv1_dx2 in ('3','4','5','9','10')  or
+      docv2_dx1 in ('3','4','5','9','10') or docv2_dx2 in ('3','4','5','9','10')  or
+      docv3_dx1 in ('3','4','5','9','10') or docv3_dx2 in ('3','4','5','9','10')  or
+      docv4_dx1 in ('3','4','5','9','10') or docv4_dx2 in ('3','4','5','9','10')  then fu_doc_dx=1;
+   else fu_doc_dx=0;
+
+   if hosp1_dx1 in ('3','4','5','8','9') or hosp1_dx2 in ('3','4','5','8','9') or
+      hosp2_dx1 in ('3','4','5','8','9') or hosp2_dx2 in ('3','4','5','8','9') then fu_hosp_dx=1;
+   else fu_hosp_dx=0;
+
+   if med_albsyr=1 or med_albinh=1 or med_sterora=1 or med_sterinh=1 or med_leuko=1 or med_longterm=1 then fu_meds=1;
+   else fu_meds=0;
+
+   if symp_wheeze=1 then fu_whz_symp=1;
+   else fu_whz_symp=0;
+
+   if fu_doc_dx=1 or fu_hosp_dx=1 or fu_meds=1 or fu_whz_symp=1 then fu_whz=1;
+   else fu_whz=0;
+
+   * Bronchiolitis or pneumonia *;
+   if docv1_dx1 in ('2','4') or docv1_dx2 in ('2','4')  or
+      docv2_dx1 in ('2','4') or docv2_dx2 in ('2','4')  or
+      docv3_dx1 in ('2','4') or docv3_dx2 in ('2','4')  or
+      docv4_dx1 in ('2','4') or docv4_dx2 in ('2','4')  then fu_doc_dx_bronpneu=1;
+   else fu_doc_dx_bronpneu=0;
+
+   if hosp1_dx1 in ('2','4') or hosp1_dx2 in ('2','4') or
+      hosp2_dx1 in ('2','4') or hosp2_dx2 in ('2','4') then fu_hosp_dx_bronpneu=1;
+   else fu_hosp_dx_bronpneu=0;
+
+   if fu_doc_dx_bronpneu=1 or fu_hosp_dx_bronpneu=1 then fu_bronpneu=1;
+   else fu_bronpneu=0;
+
+   * fill in missing onset_date from info scorecard/nasal collection (see p_missdt2 above)*;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   * hardcode onse dates per ...\Prog\Derive\Viral_Checks\Date_Hardcodes\FU_call_nosample_results_anno06.16.2020 -- see ck2 below *;
+*hardcodes here have been removed to protect patient confidentiality;
+
+keep studyid date_call date_onset date_collected fu_doc_dx fu_hosp_dx fu_meds fu_whz_symp fu_whz fu_bronpneu;
+run;
+
+proc sort data=fu; by studyid date_onset; run;
+data fu2;
+set fu;
+   by studyid date_onset;
+   if first.date_onset then count=1;
+   else count+1;
+run;
+
+* calculate if wheezing was reported during at least one follow-up call *;
+proc transpose data=fu2 out=fu2t_ prefix=fu_num;
+   by studyid date_onset;
+   id count;
+   var fu_whz;
+run;
+
+data fu2t;
+set fu2t_;
+   fu_num_calls = N(of fu_num1--fu_num14);
+   if sum(of fu_num1--fu_num14) > 0 then fu_whz=1;
+   else fu_whz=0;
+   keep studyid date_onset fu_num_calls fu_whz;
+run;
+
+* calculate if bronchiolitis was reported during at least one follow-up call *;
+proc transpose data=fu2 out=fu_bp_ prefix=fu_bpnum;
+   by studyid date_onset;
+   id count;
+   var fu_bronpneu;
+run;
+
+data fu_bp;
+set fu_bp_;
+   if sum(of fu_bpnum1--fu_bpnum14) > 0 then fu_bronpneu=1;
+   else fu_bronpneu=0;
+   keep studyid date_onset fu_bronpneu;
+run;
+
+* merge everything back together *;
+proc sort data=fu2t; by studyid date_onset; run;
+proc sort data=fu_bp; by studyid date_onset; run;
+proc sort data=fu2; by studyid date_onset date_collected; run;
+data fu2t2;
+   merge fu2t (in=a)
+         fu_bp (in=b)
+         fu2 (in=c);
+   by studyid date_onset;
+   if c;
+   rename date_collected=fu_date_collected date_call=fu_date_call;
+run;
+
+   proc freq data=fu2t2;
+   table fu_bronpneu * fu_whz /missing;
+   run;
+
+   /*   proc print data=fu2t2 n;*/
+   /*   where missing(date_onset);*/
+   /*   title 'listing: fu call with missing onset date';*/
+   /*   run;*/
+   /*   proc freq data=fu2t2;*/
+   /*   table fu_num_calls/missing;*/
+   /*   run;*/
+
+*** merge back with viral_1recwash ***;
+proc sort data=allsamps2; by studyid date_onset date_collected; run;
+proc sort data=fu2t2 nodupkey out=fu2t2_nd; by studyid date_onset; run;
+      /*data ck2;*/
+      /*merge allsamps2 (in=b)*/
+      /*      fu2t2_nd (in=a);*/
+      /*by studyid date_onset;*/
+      /*if a and not b then flag='In FU only   '; */
+      /*else if b and not a then flag='In SAMPS only';*/
+      /*else flag='In BOTH';*/
+      /*run;*/
+      /*data ck21;*/
+      /*set ck2;*/
+      /*where flag='In FU only';*/
+      /*run;*/
+      /*ods excel file="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\Viral_Checks\Date_Hardcodes\FUcall_nosample_results.xlsx";*/
+      /*proc print data=ck21;*/
+      /*var studyid date_onset date_collected fu_date_collected date_score fu_date_call;*/
+      /*run;*/
+      /*ods excel close;*/
+data allsamps3;
+merge allsamps2 (in=b)
+      fu2t2_nd (in=a);
+by studyid date_onset;
+if b;
+run;
+
+      *Number of samples with score card information yr1-yr3 *;
+      proc freq data=allsamps3;
+      where year <=3; 
+      table vis_type * score / missing nocol norow nopercent;
+      title 'Number of yr1-yr3 samples with score card information';
+      run;
+      proc print data=allsamps3;
+      where year <=3 and missing(score); 
+      title 'Number of yr1-yr3 samples with MISSING score card information';
+      run;
+      * Number of samples with fu information yr1-yr3 *;
+      proc freq data=allsamps3;
+      where year <=3 and score >=5;
+      table year*fu_num_calls / missing nocol norow nopercent;
+      title 'Number of yr1-yr3 illness samples with follow-up calls by year';
+      run;
+
+      *Number of samples with score card information yr1-yr10 *;
+      proc freq data=allsamps3;
+      table vis_type * score / missing nocol norow nopercent;
+      title 'Number of yr1-yr10 samples with score card information';
+      run;
+      proc print data=allsamps3;
+      where missing(score); 
+      title 'Number of yr1-yr10 samples with MISSING score card information';
+      run;
+      * Number of samples with fu information yr1-yr10*;
+      proc freq data=allsamps3;
+      where score >=5;
+      table year*fu_num_calls / missing nocol norow nopercent;
+      title 'Number of yr1-yr10 illness samples with follow-up calls by year';
+      run;
+
+
+
+
+
+
+data final;
+   retain studyid cdna_id vis_type event date_collected date_score date_onset
+          child_sick visit_comments score wheeze cough cough_whz_indicator agemos year group pheno_y10 
+          virus1 virus2 virus3 virus4 type species virus ev1 hrva1 hrvb1 hrvc1 hrv1pl hrv1pl_a hrv1pl_b hrv1pl_c hrv1pl_m
+          hrv2pl hrv2pl_a hrv2pl_b hrv2pl_c hrv2pl_m othv1 anyv hrvploth 
+          fu_num_calls fu_whz fu_doc_dx fu_hosp_dx fu_meds fu_whz_symp fu_bronpneu ;
+
+set allsamps3;
+drop fu_date_call fu_date_collected 
+     adateextracted adatert cdna_id_crf cdna_id_wm cdna_id_lab flag flag2 batch_no volume
+     date_birth count;
+label fu_num_calls = 'Number of follow-up calls'
+      fu_whz = 'Wheezing illness per at least one follow-up call'
+      fu_doc_dx = 'Component of FU_WHZ: doctor dx of bronchitis, bronchiolitis, wheezing illness, asthma, asthma exac, reactive airway disease or RSV'
+      fu_hosp_dx = 'Component of FU_WHZ: hospitalization reason of bronchitis, bronchiolitis, wheezing illness, asthma, asthma exac, reactive airway disease or RSV'
+      fu_meds = 'Component of FU_WHZ: medication since illness of albuterol, steroids, leukotriene modifier, long-term controller' 
+      fu_whz_symp = 'Component of FU_WHZ: wheezing signs or symptoms during the illess'
+      fu_bronpneu = 'Bronchiolitis or Pneumonia reported during at least one follow-up call'
+; 
+run;
+
+
+data derive.viral_1recwash;
+   set final;
+run;
+
+
+*** 3. Codebook ****************************************************************;
+/*%include 'S:\BASESTAT\RhoUtil\gitGot.sas';*/
+/*    %gitGot*/
+/*        (repo = https://github.com/RhoInc/sas-codebook*/
+/*        ,folder = Macros);*/
+/*        */
+/*%codebook_generic*/
+/*        (data = derive.viral_1recwash*/
+/*        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);*/
+/**/
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+ods select Position;
+proc contents data=derive.viral_1recwash position; run;
+run;
+ods select default;

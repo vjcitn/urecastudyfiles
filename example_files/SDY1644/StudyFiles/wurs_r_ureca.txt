@@ -1,0 +1,816 @@
+Accession	group	form	evid	event	version	status	aVst	WURS_q1	WURS_q2	WURS_q3	WURS_q4	WURS_q5	WURS_q6	WURS_q7	WURS_q8	WURS_q9	WURS_q10	WURS_q11	WURS_q12	WURS_q13	WURS_q14	WURS_q15	WURS_q16	aFormDY
+SUB230862	Atopic	WURS	54377	120-Month Clinic Visit	1.2	complete	120	0																3707
+SUB230863	Atopic	WURS	54118	120-Month Clinic Visit	1.2	complete	120	0																3689
+SUB230865	Atopic	WURS	52100	120-Month Clinic Visit	1.2	complete	120	0																3694
+SUB230866	Atopic	WURS	52891	120-Month Clinic Visit	1.2	complete	120	2	1	2	1	0	1	0	0	3	2	0	0	0	0	5	1	3689
+SUB230867	Atopic	WURS	52244	120-Month Clinic Visit	1.2	complete	120	0																3678
+SUB230868	Atopic	WURS	54405	120-Month Clinic Visit	1.2	complete	120	1	1	1	0	0	0	1	1	0	0	0	0	2	0	2	2	3696
+SUB230869	Atopic	WURS	52113	120-Month Clinic Visit	1.2	complete	120	0																3694
+SUB230870	Atopic	WURS	53245	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB230871	Atopic	WURS	53597	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB230872	Atopic	WURS	54333	120-Month Clinic Visit	1.2	missing	.x																	
+SUB230874	Atopic	WURS	53508	120-Month Clinic Visit	1.2	complete	120	1	1	1	1	0	1	0	1	0	0	0	0	0	0	1	1	3692
+SUB230876	Atopic	WURS	53099	120-Month Clinic Visit	1.2	complete	120	0																3689
+SUB230877	Atopic	WURS	53011	120-Month Clinic Visit	1.2	complete	120	0																3728
+SUB230883	Atopic	WURS	59792	120-Month Clinic Visit	1.2	complete	120	0																3726
+SUB230884	Atopic	WURS	54289	120-Month Clinic Visit	1.2	complete	120	1	1	0	1	1	0	1	1	2	0	3	1	0	0	3	2	3638
+SUB230886	Atopic	WURS	51578	120-Month Clinic Visit	1.2	complete	120	3	0	0	2	3	2	1	2	1	3	1	0	3	2	4	2	3636
+SUB230887	Atopic	WURS	56501	120-Month Clinic Visit	1.2	complete	120	0																3737
+SUB230888	Atopic	WURS	51974	120-Month Clinic Visit	1.2	complete	120	0																3693
+SUB230889	Atopic	WURS	60537	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB230890	Atopic	WURS	56093	120-Month Clinic Visit	1.2	complete	120	0																3692
+SUB230890	Atopic	WURS	56089	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	0	0	0	0	0	0	0	3	3	3368
+SUB230891	Atopic	WURS	58503	120-Month Clinic Visit	1.2	complete	120	0																3684
+SUB230894	Atopic	WURS	57492	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB230894	Atopic	WURS	57488	108-Month Clinic Visit	1.2	complete	108	0																3363
+SUB230895	Atopic	WURS	53053	120-Month Clinic Visit	1.2	complete	120	0																3700
+SUB230897	Atopic	WURS	53258	120-Month Clinic Visit	1.2	complete	120	0																3710
+SUB230897	Atopic	WURS	53254	108-Month Clinic Visit	1.2	complete	108	0																3356
+SUB230898	Atopic	WURS	57926	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB230899	Atopic	WURS	53039	120-Month Clinic Visit	1.2	complete	120	0																3702
+SUB230899	Atopic	WURS	53035	108-Month Clinic Visit	1.2	complete	108	0																3343
+SUB230900	Atopic	WURS	53487	108-Month Clinic Visit	1.2	complete	108	0																3356
+SUB230900	Atopic	WURS	53491	120-Month Clinic Visit	1.2	complete	120	2	2	2	3	0	2	3	1	3	1	0	0	0	1	2	1	3706
+SUB230901	Atopic	WURS	53191	120-Month Clinic Visit	1.2	complete	120	0																3698
+SUB230903	Atopic	WURS	56470	108-Month Clinic Visit	1.2	complete	108	0																3361
+SUB230903	Atopic	WURS	56474	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB230904	Atopic	WURS	53613	108-Month Clinic Visit	1.2	complete	108	0																3360
+SUB230904	Atopic	WURS	53617	120-Month Clinic Visit	1.2	complete	120	0																3782
+SUB230905	Atopic	WURS	58249	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB230905	Atopic	WURS	58253	120-Month Clinic Visit	1.2	complete	120	0																3703
+SUB230906	Atopic	WURS	56449	120-Month Clinic Visit	1.2	complete	120	0																3832
+SUB230906	Atopic	WURS	56445	108-Month Clinic Visit	1.1	complete	108	0																3319
+SUB230907	Atopic	WURS	61262	120-Month Clinic Visit	1.2	complete	120	0																3830
+SUB230907	Atopic	WURS	61258	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230908	Atopic	WURS	53670	108-Month Clinic Visit	1.1	complete	108	0																3324
+SUB230908	Atopic	WURS	53674	120-Month Clinic Visit	1.2	complete	120	0																3828
+SUB230909	Atopic	WURS	54192	120-Month Clinic Visit	1.2	complete	120	0																3735
+SUB230909	Atopic	WURS	54188	108-Month Clinic Visit	1.2	complete	108	0																3346
+SUB230911	Atopic	WURS	53330	108-Month Clinic Visit	1.2	complete	108	0																3364
+SUB230911	Atopic	WURS	53334	120-Month Clinic Visit	1.2	complete	120	2	0	1	2	3	2	1	3	1	2	0	1	3	0	4	3	3702
+SUB230913	Atopic	WURS	54246	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB230913	Atopic	WURS	54250	120-Month Clinic Visit	1.2	complete	120	0																3741
+SUB230914	Atopic	WURS	54132	120-Month Clinic Visit	1.2	complete	120	0																3719
+SUB230914	Atopic	WURS	54128	108-Month Clinic Visit	1.2	complete	108	0																3343
+SUB230915	Atopic	WURS	56458	108-Month Clinic Visit	1.2	complete	108	0																3293
+SUB230916	Atopic	WURS	51988	120-Month Clinic Visit	1.2	complete	120	0																3699
+SUB230919	Atopic	WURS	54660	120-Month Clinic Visit	1.2	complete	120	0																3800
+SUB230919	Atopic	WURS	54656	108-Month Clinic Visit	1.2	complete	108	0																3343
+SUB230920	Atopic	WURS	54525	120-Month Clinic Visit	1.2	complete	120	0																3693
+SUB230920	Atopic	WURS	54521	108-Month Clinic Visit	1.2	complete	108	0																3306
+SUB230921	Atopic	WURS	54462	120-Month Clinic Visit	1.2	complete	120	0																3651
+SUB230924	Atopic	WURS	54578	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	3358
+SUB230924	Atopic	WURS	54582	120-Month Clinic Visit	1.2	complete	120	0																3712
+SUB230925	Atopic	WURS	55018	108-Month Clinic Visit	1.2	complete	108	0																3351
+SUB230925	Atopic	WURS	55022	120-Month Clinic Visit	1.2	missing	.x																	
+SUB230927	Atopic	WURS	55031	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB230928	Atopic	WURS	55147	108-Month Clinic Visit	1.2	complete	108	0																3373
+SUB230928	Atopic	WURS	55151	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	0	1	1	0	1	0	0	0	0	0	1	1	3732
+SUB230929	Atopic	WURS	55254	108-Month Clinic Visit	1.2	complete	108	0																3277
+SUB230929	Atopic	WURS	55258	120-Month Clinic Visit	1.2	complete	120	0																3667
+SUB230932	Atopic	WURS	53857	108-Month Clinic Visit	1.2	complete	108	0																3282
+SUB230932	Atopic	WURS	53861	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	1	0	0	0	0	0	0	0	0	3	1	3656
+SUB230933	Atopic	WURS	55334	108-Month Clinic Visit	1.2	complete	108	0																3363
+SUB230933	Atopic	WURS	55338	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	0	0	1	0	0	0	0	0	0	0	2	1	3776
+SUB230934	Atopic	WURS	55164	120-Month Clinic Visit	1.2	complete	120	1	1	0	0	1	1	1	0	0	0	0	0	2	3	1	1	3705
+SUB230934	Atopic	WURS	55160	108-Month Clinic Visit	1.2	complete	108	2	3	1	0	0	2	0	2	3	3	3	3	3	3	5	1	3349
+SUB230935	Atopic	WURS	58456	108-Month Clinic Visit	1.2	complete	108	0																3369
+SUB230936	Atopic	WURS	55241	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	3	0	0	0	0	0	0	0	0	3	2	3367
+SUB230939	Atopic	WURS	59736	108-Month Clinic Visit	1.2	complete	108	0																2952
+SUB230939	Atopic	WURS	59740	120-Month Clinic Visit	1.2	complete	120	0																3702
+SUB230941	Atopic	WURS	55755	108-Month Clinic Visit	1.2	complete	108	0																3325
+SUB230941	Atopic	WURS	55759	120-Month Clinic Visit	1.2	complete	120	0																3696
+SUB230942	Atopic	WURS	56279	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB230942	Atopic	WURS	56275	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230943	Atopic	WURS	55277	108-Month Clinic Visit	1.2	complete	108	1	0	2	0	0	0	1	0	0	0	0	0	0	0	1	3	3328
+SUB230943	Atopic	WURS	55281	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB230944	Atopic	WURS	58826	108-Month Clinic Visit	1.2	complete	108	1	1	2	2	1	1	0	1	3	1	1	1	0	0	3	2	3362
+SUB230944	Atopic	WURS	58830	120-Month Clinic Visit	1.2	complete	120	0																3707
+SUB230945	Atopic	WURS	56380	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	2	0	0	0	1	0	1	0	0	1	2	2	3370
+SUB230945	Atopic	WURS	56384	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	0	0	1	1	1	0	0	0	3	1	2	3723
+SUB230946	Atopic	WURS	56779	108-Month Clinic Visit	1.2	complete	108	0																3333
+SUB230946	Atopic	WURS	56783	120-Month Clinic Visit	1.2	complete	120	0																3727
+SUB230947	Atopic	WURS	56484	108-Month Clinic Visit	1.2	complete	108	0																3309
+SUB230947	Atopic	WURS	56488	120-Month Clinic Visit	1.2	complete	120	0																3734
+SUB230948	Atopic	WURS	56830	120-Month Clinic Visit	1.2	complete	120	0																3698
+SUB230948	Atopic	WURS	56826	108-Month Clinic Visit	1.2	complete	108	0																3341
+SUB230951	Atopic	WURS	58686	108-Month Clinic Visit	1.2	complete	108	0																3323
+SUB230951	Atopic	WURS	58690	120-Month Clinic Visit	1.2	complete	120	1	1	3	1	2	2	0	1	3	0	0	1	1	0	1	1	3630
+SUB230952	Atopic	WURS	58383	120-Month Clinic Visit	1.2	complete	120	0																3719
+SUB230952	Atopic	WURS	58379	108-Month Clinic Visit	1.2	complete	108	0																3335
+SUB230953	Atopic	WURS	57078	108-Month Clinic Visit	1.2	complete	108	0																3304
+SUB230953	Atopic	WURS	57082	120-Month Clinic Visit	1.2	complete	120	0																3717
+SUB230954	Atopic	WURS	57215	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB230954	Atopic	WURS	57219	120-Month Clinic Visit	1.2	complete	120	0																3823
+SUB230955	Atopic	WURS	57052	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230957	Atopic	WURS	57398	108-Month Clinic Visit	1.2	complete	108	0																3367
+SUB230957	Atopic	WURS	57402	120-Month Clinic Visit	1.2	complete	120	1	0	1	0	2	3	0	0	1	0	0	0	0	0	2	2	3740
+SUB230958	Atopic	WURS	59017	120-Month Clinic Visit	1.2	missing	.x																	
+SUB230958	Atopic	WURS	59013	108-Month Clinic Visit	1.2	complete	108	0																3366
+SUB230959	Atopic	WURS	57417	120-Month Clinic Visit	1.2	complete	120	0																3736
+SUB230959	Atopic	WURS	57413	108-Month Clinic Visit	1.2	complete	108	0																3309
+SUB230960	Atopic	WURS	54549	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230961	Atopic	WURS	52516	120-Month Clinic Visit	1.2	complete	120	0																3755
+SUB230961	Atopic	WURS	52512	108-Month Clinic Visit	1.2	complete	108	0																3307
+SUB230962	Atopic	WURS	57532	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230963	Atopic	WURS	59241	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230964	Atopic	WURS	57181	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB230964	Atopic	WURS	57185	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	3710
+SUB230965	Atopic	WURS	57168	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB230965	Atopic	WURS	57172	120-Month Clinic Visit	1.2	complete	120	0																3710
+SUB230966	Atopic	WURS	59053	108-Month Clinic Visit	1.2	complete	108	0																3366
+SUB230966	Atopic	WURS	59057	120-Month Clinic Visit	1.2	complete	120	0																3772
+SUB230967	Atopic	WURS	57780	108-Month Clinic Visit	1.2	complete	108	0																3349
+SUB230967	Atopic	WURS	57784	120-Month Clinic Visit	1.2	complete	120	0																3736
+SUB230968	Atopic	WURS	52524	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230968	Atopic	WURS	52528	120-Month Clinic Visit	1.2	complete	120	0																3775
+SUB230969	Atopic	WURS	56945	108-Month Clinic Visit	1.2	complete	108	0																3356
+SUB230969	Atopic	WURS	56949	120-Month Clinic Visit	1.2	complete	120	0																3692
+SUB230971	Atopic	WURS	57572	108-Month Clinic Visit	1.2	complete	108	0																3278
+SUB230971	Atopic	WURS	57576	120-Month Clinic Visit	1.2	complete	120	2	2	2	1	2	3	2	0	0	1	0	1	0	0	3	1	3740
+SUB230972	Atopic	WURS	58275	108-Month Clinic Visit	1.2	complete	108	0																3367
+SUB230972	Atopic	WURS	58279	120-Month Clinic Visit	1.2	complete	120	0																3745
+SUB230973	Atopic	WURS	52875	108-Month Clinic Visit	1.2	complete	108	0																3357
+SUB230973	Atopic	WURS	52879	120-Month Clinic Visit	1.2	complete	120	0																3784
+SUB230975	Atopic	WURS	58262	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230976	Atopic	WURS	59889	108-Month Clinic Visit	1.2	complete	108	0																3358
+SUB230976	Atopic	WURS	59893	120-Month Clinic Visit	1.2	complete	120	1	1	3	1	3	3	1	0	0	2	1	0	1	3	2	1	3650
+SUB230977	Atopic	WURS	53405	108-Month Clinic Visit	1.2	complete	108	0																3294
+SUB230977	Atopic	WURS	53409	120-Month Clinic Visit	1.2	complete	120	0																3766
+SUB230978	Atopic	WURS	57994	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	0	3	0	0	0	0	0	0	0	1	1	3651
+SUB230978	Atopic	WURS	57990	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	1	3	0	1	0	0	0	2	0	1	1	3311
+SUB230979	Atopic	WURS	53082	120-Month Clinic Visit	1.2	complete	120	0																3720
+SUB230979	Atopic	WURS	53078	108-Month Clinic Visit	1.2	complete	108	0																3337
+SUB230981	Atopic	WURS	53342	108-Month Clinic Visit	1.2	missing	.x																	
+SUB230981	Atopic	WURS	53346	120-Month Clinic Visit	1.2	complete	120	0																3760
+SUB230982	Atopic	WURS	53359	120-Month Clinic Visit	1.2	complete	120	0																3735
+SUB230982	Atopic	WURS	53355	108-Month Clinic Visit	1.2	complete	108	1	1	0	1	0	0	2	0	1	0	0	0	0	0	2	1	3288
+SUB230983	Atopic	WURS	53152	108-Month Clinic Visit	1.2	complete	108	0																3350
+SUB230983	Atopic	WURS	53156	120-Month Clinic Visit	1.2	complete	120	0																3728
+SUB230984	Atopic	WURS	58801	120-Month Clinic Visit	1.2	complete	120	1	1	3	2	0	2	0	0	0	0	0	0	0	0	2	1	3753
+SUB230984	Atopic	WURS	58797	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	1	0	0	0	0	0	0	1	2	1	3355
+SUB230985	Atopic	WURS	58639	120-Month Clinic Visit	1.2	complete	120	0																3816
+SUB230985	Atopic	WURS	58635	108-Month Clinic Visit	1.2	complete	108	0																3357
+SUB230986	Atopic	WURS	57588	108-Month Clinic Visit	1.2	complete	108	0																3342
+SUB230986	Atopic	WURS	57592	120-Month Clinic Visit	1.2	complete	120	1	3	3	1	0	2	3	1	3	1	2	0	0	1	5	2	3657
+SUB230987	Atopic	WURS	52953	120-Month Clinic Visit	1.2	complete	120	0																3751
+SUB230987	Atopic	WURS	52949	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB230988	Atopic	WURS	53642	108-Month Clinic Visit	1.2	complete	108	0																3355
+SUB230988	Atopic	WURS	53646	120-Month Clinic Visit	1.2	complete	120	0																3801
+SUB230989	Atopic	WURS	54263	120-Month Clinic Visit	1.2	complete	120	1	1	2	1	0	0	0	0	1	0	0	0	0	0	3	1	3721
+SUB230989	Atopic	WURS	54259	108-Month Clinic Visit	1.2	complete	108	0																3359
+SUB230990	Atopic	WURS	53951	120-Month Clinic Visit	1.2	complete	120	0																3709
+SUB230990	Atopic	WURS	53947	108-Month Clinic Visit	1.2	complete	108	0																3350
+SUB230991	Atopic	WURS	53870	108-Month Clinic Visit	1.2	complete	108	0																3367
+SUB230991	Atopic	WURS	53874	120-Month Clinic Visit	1.2	complete	120	0																3698
+SUB230993	Atopic	WURS	54388	108-Month Clinic Visit	1.2	complete	108	0																3348
+SUB230993	Atopic	WURS	54392	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	1	0	0	0	0	0	0	0	0	0	2	2	3705
+SUB230994	Atopic	WURS	54105	120-Month Clinic Visit	1.2	complete	120	0																3742
+SUB230994	Atopic	WURS	54101	108-Month Clinic Visit	1.2	complete	108	0																3348
+SUB230995	Atopic	WURS	54361	108-Month Clinic Visit	1.2	complete	108	1	1	1	1	0	1	0	0	0	0	0	0	0	0	2	1	3328
+SUB230995	Atopic	WURS	54365	120-Month Clinic Visit	1.2	complete	120	0																3777
+SUB230997	Atopic	WURS	54564	108-Month Clinic Visit	1.2	complete	108	0																3308
+SUB230997	Atopic	WURS	54568	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	0	1	2	1	2	0	0	2	3	1	3	1	3726
+SUB230998	Atopic	WURS	54874	120-Month Clinic Visit	1.2	complete	120	0																3627
+SUB230998	Atopic	WURS	54870	108-Month Clinic Visit	1.2	complete	108	0																3299
+SUB230999	Non-atopic	WURS	59331	120-Month Clinic Visit	1.2	complete	120	0																3842
+SUB230999	Non-atopic	WURS	59327	108-Month Clinic Visit	1.2	complete	108	0																3330
+SUB231000	Atopic	WURS	58859	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	1	1	0	1	0	0	0	0	0	2	2	3369
+SUB231000	Atopic	WURS	58863	120-Month Clinic Visit	1.2	complete	120	0																3789
+SUB231001	Atopic	WURS	55307	108-Month Clinic Visit	1.2	complete	108	0																3363
+SUB231001	Atopic	WURS	55311	120-Month Clinic Visit	1.2	complete	120	0																3730
+SUB231002	Atopic	WURS	59351	120-Month Clinic Visit	1.2	complete	120	0																3779
+SUB231002	Atopic	WURS	59347	108-Month Clinic Visit	1.2	complete	108	0																3372
+SUB231003	Atopic	WURS	54534	108-Month Clinic Visit	1.2	complete	108	0																3272
+SUB231003	Atopic	WURS	54538	120-Month Clinic Visit	1.2	complete	120	1	1	2	0	1	0	1	0	0	0	0	0	0	0	3	2	3721
+SUB231004	Atopic	WURS	58871	108-Month Clinic Visit	1.2	complete	108	0																3362
+SUB231004	Atopic	WURS	58875	120-Month Clinic Visit	1.2	complete	120	0																3814
+SUB231005	Atopic	WURS	53835	120-Month Clinic Visit	1.2	complete	120	0																3728
+SUB231005	Atopic	WURS	53831	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB231006	Atopic	WURS	55005	108-Month Clinic Visit	1.2	complete	108	0																3322
+SUB231006	Atopic	WURS	55009	120-Month Clinic Visit	1.2	complete	120	0																3634
+SUB231007	Atopic	WURS	55177	120-Month Clinic Visit	1.2	complete	120	0																3679
+SUB231007	Atopic	WURS	55173	108-Month Clinic Visit	1.2	complete	108	0																3385
+SUB231008	Atopic	WURS	55525	108-Month Clinic Visit	1.2	complete	108	0																3369
+SUB231008	Atopic	WURS	55529	120-Month Clinic Visit	1.2	complete	120	0																3842
+SUB231010	Non-atopic	WURS	59699	108-Month Clinic Visit	1.2	complete	108	0																3365
+SUB231010	Non-atopic	WURS	59703	120-Month Clinic Visit	1.2	complete	120	0																3715
+SUB231011	Atopic	WURS	55737	108-Month Clinic Visit	1.2	complete	108	0																3273
+SUB231011	Atopic	WURS	55741	120-Month Clinic Visit	1.2	complete	120	2	1	1	1	2	2	0	0	0	2	1	2	3	2	4	3	3767
+SUB231012	Atopic	WURS	55721	108-Month Clinic Visit	1.2	complete	108	0																3368
+SUB231012	Atopic	WURS	55725	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	1	2	0	0	0	0	0	0	0	3	1	3786
+SUB231013	Atopic	WURS	58883	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	2	0	0	0	1	0	0	0	1	1	3362
+SUB231013	Atopic	WURS	58887	120-Month Clinic Visit	1.2	complete	120	0																3739
+SUB231014	Atopic	WURS	58899	120-Month Clinic Visit	1.2	complete	120	0																3657
+SUB231014	Atopic	WURS	58895	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	0	1	1	0	0	0	0	1	0	2	1	3415
+SUB231015	Non-atopic	WURS	59720	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB231015	Non-atopic	WURS	59724	120-Month Clinic Visit	1.2	complete	120	0																3637
+SUB231016	Atopic	WURS	55919	120-Month Clinic Visit	1.2	complete	120	0																3663
+SUB231016	Atopic	WURS	55915	108-Month Clinic Visit	1.2	complete	108	0																3297
+SUB231017	Non-atopic	WURS	56334	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB231017	Non-atopic	WURS	56338	120-Month Clinic Visit	1.2	complete	120	0																3677
+SUB231019	Atopic	WURS	59971	108-Month Clinic Visit	1.2	complete	108	0																3397
+SUB231021	Atopic	WURS	61270	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231023	Non-atopic	WURS	51266	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231024	Non-atopic	WURS	58911	120-Month Clinic Visit	1.2	complete	120	0																3789
+SUB231024	Non-atopic	WURS	58907	108-Month Clinic Visit	1.2	complete	108	0																3317
+SUB231025	Atopic	WURS	56603	108-Month Clinic Visit	1.2	complete	108	0																3377
+SUB231025	Atopic	WURS	56607	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	2	0	3	3	1	0	3	1	3	3	2	1	3732
+SUB231026	Atopic	WURS	56792	108-Month Clinic Visit	1.2	complete	108	0																3263
+SUB231026	Atopic	WURS	56796	120-Month Clinic Visit	1.2	complete	120	0																3630
+SUB231028	Atopic	WURS	52330	120-Month Clinic Visit	1.2	complete	120	0																3682
+SUB231029	Atopic	WURS	52631	120-Month Clinic Visit	1.2	complete	120	0																3696
+SUB231031	Atopic	WURS	55889	120-Month Clinic Visit	1.2	complete	120	0																3691
+SUB231035	Atopic	WURS	52771	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231036	Atopic	WURS	53478	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231039	Atopic	WURS	53438	120-Month Clinic Visit	1.2	complete	108	0																3679
+SUB231040	Atopic	WURS	55415	120-Month Clinic Visit	1.2	complete	120	0																3708
+SUB231041	Atopic	WURS	55427	120-Month Clinic Visit	1.2	complete	120	0																3697
+SUB231042	Atopic	WURS	54674	108-Month Clinic Visit	1.1	complete	108	0	1	1	1	0	0	0	0	0	0	0	0	0	0	1	2	3291
+SUB231042	Atopic	WURS	54678	120-Month Clinic Visit	1.2	complete	120	0																3658
+SUB231043	Atopic	WURS	55500	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB231044	Atopic	WURS	52968	120-Month Clinic Visit	1.2	complete	120	0																3739
+SUB231044	Atopic	WURS	52964	108-Month Clinic Visit	1.1	complete	108	3	2	2	1	1	0	2	2	0	0	1	3	1	0	4	1	3288
+SUB231045	Atopic	WURS	56659	120-Month Clinic Visit	1.2	complete	120	0																3737
+SUB231047	Atopic	WURS	54917	108-Month Clinic Visit	1.1	missing	.x																	
+SUB231047	Atopic	WURS	54921	120-Month Clinic Visit	1.2	complete	120	0																3649
+SUB231048	Atopic	WURS	55484	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0	0	0	0	0	0	0		2	3286
+SUB231048	Atopic	WURS	55488	120-Month Clinic Visit	1.2	complete	120	0																3688
+SUB231049	Atopic	WURS	55475	120-Month Clinic Visit	1.2	complete	120	0																3644
+SUB231049	Atopic	WURS	55471	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	3287
+SUB231050	Atopic	WURS	53370	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	3274
+SUB231050	Atopic	WURS	53374	120-Month Clinic Visit	1.2	complete	120	0																3666
+SUB231051	Atopic	WURS	52940	120-Month Clinic Visit	1.2	complete	120	0																3686
+SUB231051	Atopic	WURS	52936	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	3273
+SUB231052	Atopic	WURS	53418	108-Month Clinic Visit	1.2	complete	108	0																3291
+SUB231052	Atopic	WURS	53422	120-Month Clinic Visit	1.2	complete	120	1	2	1	0	2	1	1	0	0	1	2	0	0	1	3	2	3673
+SUB231053	Atopic	WURS	53585	120-Month Clinic Visit	1.2	complete	120	0																3705
+SUB231053	Atopic	WURS	53581	108-Month Clinic Visit	1.2	complete	108	0																3286
+SUB231055	Atopic	WURS	54648	120-Month Clinic Visit	1.2	complete	120	0																3628
+SUB231055	Atopic	WURS	54644	108-Month Clinic Visit	1.2	complete	108	0																3270
+SUB231058	Atopic	WURS	58407	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231058	Atopic	WURS	58411	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231059	Atopic	WURS	55463	120-Month Clinic Visit	1.2	complete	120	0																3706
+SUB231059	Atopic	WURS	55459	108-Month Clinic Visit	1.2	complete	108	0																3265
+SUB231060	Atopic	WURS	58194	120-Month Clinic Visit	1.2	complete	120	0																3674
+SUB231060	Atopic	WURS	58190	108-Month Clinic Visit	1.2	complete	108	0																3263
+SUB231061	Atopic	WURS	58740	120-Month Clinic Visit	1.2	complete	120	0																3703
+SUB231061	Atopic	WURS	58736	108-Month Clinic Visit	1.2	complete	108	0																3311
+SUB231063	Atopic	WURS	57367	120-Month Clinic Visit	1.2	complete	120	0																3703
+SUB231063	Atopic	WURS	57363	108-Month Clinic Visit	1.2	complete	108	0																3260
+SUB231064	Atopic	WURS	54442	108-Month Clinic Visit	1.2	complete	108	0																3262
+SUB231064	Atopic	WURS	54446	120-Month Clinic Visit	1.2	complete	120	0																3692
+SUB231065	Atopic	WURS	56105	108-Month Clinic Visit	1.2	complete	108	0																3318
+SUB231065	Atopic	WURS	56109	120-Month Clinic Visit	1.2	complete	120	0																3665
+SUB231067	Atopic	WURS	58763	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231067	Atopic	WURS	58767	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231070	Atopic	WURS	55687	120-Month Clinic Visit	1.2	complete	120	0																3676
+SUB231070	Atopic	WURS	55683	108-Month Clinic Visit	1.2	complete	108	2	0	0	1	0	0	1	0	0	0	0	1	0	0	2	2	3333
+SUB231071	Atopic	WURS	57800	108-Month Clinic Visit	1.2	complete	108	0																3267
+SUB231071	Atopic	WURS	57804	120-Month Clinic Visit	1.2	complete	120	0																3723
+SUB231072	Atopic	WURS	55711	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	1	0	0	1	0	0	0	0	0	2	2	3682
+SUB231072	Atopic	WURS	55707	108-Month Clinic Visit	1.2	complete	108	1	1	0	1	0	0	0	1	0	0	0	0	0	0	2	2	3299
+SUB231073	Atopic	WURS	56254	120-Month Clinic Visit	1.2	complete	120	1	1	0	1	0	0	0	0	0	0	0	0	0	0	2	1	3682
+SUB231073	Atopic	WURS	56250	108-Month Clinic Visit	1.2	complete	108	0																3269
+SUB231074	Atopic	WURS	58705	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231075	Atopic	WURS	57385	108-Month Clinic Visit	1.2	complete	108	0																3452
+SUB231075	Atopic	WURS	57389	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231076	Atopic	WURS	56582	120-Month Clinic Visit	1.2	complete	120	0																3680
+SUB231076	Atopic	WURS	56578	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	0	0	0	3	0	0	0	0	0	2	2	3365
+SUB231078	Atopic	WURS	57247	120-Month Clinic Visit	1.2	complete	120	1	2	0	1	0	0	2	1	1	0	0	0	2	2	1	2	3660
+SUB231078	Atopic	WURS	57243	108-Month Clinic Visit	1.2	complete	108	0																3304
+SUB231079	Atopic	WURS	56810	108-Month Clinic Visit	1.2	complete	108	0																3280
+SUB231079	Atopic	WURS	56814	120-Month Clinic Visit	1.2	complete	120	1	0	1	0	1	0	2	0	1	0	0	0	0	0	3	2	3677
+SUB231080	Atopic	WURS	58312	108-Month Clinic Visit	1.2	complete	108	0																3299
+SUB231080	Atopic	WURS	58316	120-Month Clinic Visit	1.2	complete	120	1	1	0	1	0	1	0	0	0	0	0	0	0	0	2	1	3663
+SUB231081	Atopic	WURS	57506	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231081	Atopic	WURS	57510	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231082	Atopic	WURS	57635	120-Month Clinic Visit	1.2	complete	120	0																3693
+SUB231082	Atopic	WURS	57631	108-Month Clinic Visit	1.2	complete	108	0																3397
+SUB231083	Atopic	WURS	56366	120-Month Clinic Visit	1.2	complete	120	0																3683
+SUB231083	Atopic	WURS	56362	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231084	Atopic	WURS	57693	108-Month Clinic Visit	1.2	complete	108	0																3295
+SUB231084	Atopic	WURS	57697	120-Month Clinic Visit	1.2	complete	120	0																3666
+SUB231086	Atopic	WURS	58077	108-Month Clinic Visit	1.2	complete	108	0																3280
+SUB231086	Atopic	WURS	58081	120-Month Clinic Visit	1.2	complete	120	0																3657
+SUB231087	Atopic	WURS	57673	120-Month Clinic Visit	1.2	complete	120	0																3676
+SUB231087	Atopic	WURS	57669	108-Month Clinic Visit	1.2	complete	108	0																3282
+SUB231091	Atopic	WURS	59153	108-Month Clinic Visit	1.2	complete	108	0																3324
+SUB231091	Atopic	WURS	59157	120-Month Clinic Visit	1.2	complete	120	0																3686
+SUB231092	Atopic	WURS	57947	108-Month Clinic Visit	1.2	complete	108	1	2	3	0	0	1	1	1	0	0	0	0	1	1	2	2	3281
+SUB231092	Atopic	WURS	57951	120-Month Clinic Visit	1.2	complete	120	0																3698
+SUB231094	Atopic	WURS	58179	120-Month Clinic Visit	1.2	complete	120	0																3655
+SUB231094	Atopic	WURS	58175	108-Month Clinic Visit	1.2	complete	108	0																3277
+SUB231095	Atopic	WURS	59132	108-Month Clinic Visit	1.2	complete	108	0																3296
+SUB231095	Atopic	WURS	59136	120-Month Clinic Visit	1.2	complete	120	0																3671
+SUB231096	Atopic	WURS	58367	120-Month Clinic Visit	1.2	complete	120	2	2	3	2	1	1	1	0	1	2	1	1	0	1	3	1	3710
+SUB231096	Atopic	WURS	58363	108-Month Clinic Visit	1.2	complete	108	1	1	0	1	1	0	1	0	1	0	0	0	0	0	2	2	3273
+SUB231097	Atopic	WURS	58723	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231097	Atopic	WURS	58719	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231098	Atopic	WURS	58476	120-Month Clinic Visit	1.2	complete	120	0																3648
+SUB231098	Atopic	WURS	58471	108-Month Clinic Visit	1.2	complete	108	0																3282
+SUB231100	Atopic	WURS	58440	108-Month Clinic Visit	1.2	complete	108	0																3294
+SUB231100	Atopic	WURS	58444	120-Month Clinic Visit	1.2	complete	120	0																3665
+SUB231101	Atopic	WURS	52639	108-Month Clinic Visit	1.2	complete	108	0																3459
+SUB231101	Atopic	WURS	52643	120-Month Clinic Visit	1.2	complete	120	0																3730
+SUB231102	Atopic	WURS	57607	108-Month Clinic Visit	1.2	complete	108	1	1	2	0	0	1	2	1	2	1	0	1	0	1	2	3	3278
+SUB231102	Atopic	WURS	57611	120-Month Clinic Visit	1.2	complete	120	1	1	1	0	0	1	1	0	0	0	0	0	0	0	1	1	3720
+SUB231104	Atopic	WURS	59548	108-Month Clinic Visit	1.2	complete	108	0																3355
+SUB231104	Atopic	WURS	59552	120-Month Clinic Visit	1.2	complete	120	0																3762
+SUB231105	Atopic	WURS	57740	120-Month Clinic Visit	1.2	complete	120	0																3677
+SUB231105	Atopic	WURS	57736	108-Month Clinic Visit	1.2	complete	108	0																3349
+SUB231106	Atopic	WURS	58116	120-Month Clinic Visit	1.2	complete	120	0																3683
+SUB231106	Atopic	WURS	58112	108-Month Clinic Visit	1.2	complete	108	0																3299
+SUB231107	Atopic	WURS	58662	120-Month Clinic Visit	1.2	complete	120	0																3668
+SUB231107	Atopic	WURS	58658	108-Month Clinic Visit	1.2	complete	108	0																3304
+SUB231109	Atopic	WURS	58816	120-Month Clinic Visit	1.2	complete	120	0																3672
+SUB231109	Atopic	WURS	58812	108-Month Clinic Visit	1.2	complete	108	0																3350
+SUB231110	Atopic	WURS	52664	108-Month Clinic Visit	1.2	complete	108	0																3291
+SUB231110	Atopic	WURS	52668	120-Month Clinic Visit	1.2	complete	120	0																3676
+SUB231113	Atopic	WURS	59568	120-Month Clinic Visit	1.2	complete	120	0																3769
+SUB231113	Atopic	WURS	59564	108-Month Clinic Visit	1.2	complete	108	2	0	0	0	0	3	0	0	0	0	0	0	3	0		1	3480
+SUB231114	Atopic	WURS	62045	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231114	Atopic	WURS	62041	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231115	Atopic	WURS	59920	108-Month Clinic Visit	1.2	complete	108	0																3320
+SUB231115	Atopic	WURS	59924	120-Month Clinic Visit	1.2	complete	120	0																3645
+SUB231116	Atopic	WURS	60225	120-Month Clinic Visit	1.2	complete	120	0																3655
+SUB231116	Atopic	WURS	60221	108-Month Clinic Visit	1.2	complete	108	0																3303
+SUB231117	Atopic	WURS	52651	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	3	2	1	3	2	0	0	1	2	0	1	1	3374
+SUB231117	Atopic	WURS	52655	120-Month Clinic Visit	1.2	complete	120	0																3736
+SUB231118	Atopic	WURS	59086	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	0	3	3	2	1	0	1	0	2	1	3	3309
+SUB231118	Atopic	WURS	59090	120-Month Clinic Visit	1.2	complete	120	0																3662
+SUB231119	Atopic	WURS	62028	120-Month Clinic Visit	1.2	complete	120	0																3733
+SUB231119	Atopic	WURS	62024	108-Month Clinic Visit	1.2	complete	108	0																3363
+SUB231120	Atopic	WURS	52801	120-Month Clinic Visit	1.2	complete	120	0																3759
+SUB231120	Atopic	WURS	52797	108-Month Clinic Visit	1.2	complete	108	1	0	1	0	0	0	0	0	0	1	0	0	0	0	2	2	3400
+SUB231121	Atopic	WURS	55215	108-Month Clinic Visit	1.2	complete	108	0																3385
+SUB231121	Atopic	WURS	55219	120-Month Clinic Visit	1.2	complete	120	0																3732
+SUB231122	Atopic	WURS	53139	120-Month Clinic Visit	1.2	complete	120	0																3704
+SUB231122	Atopic	WURS	53135	108-Month Clinic Visit	1.2	complete	108	0																3306
+SUB231125	Atopic	WURS	52318	120-Month Clinic Visit	1.2	complete	120	0																3628
+SUB231125	Atopic	WURS	52314	108-Month Clinic Visit	1.2	complete	108	0																3319
+SUB231127	Atopic	WURS	60234	108-Month Clinic Visit	1.2	complete	108	0																3293
+SUB231127	Atopic	WURS	60238	120-Month Clinic Visit	1.2	complete	120	0																3674
+SUB231128	Atopic	WURS	53560	120-Month Clinic Visit	1.2	complete	120	0																3680
+SUB231128	Atopic	WURS	53556	108-Month Clinic Visit	1.2	complete	108	0																3393
+SUB231130	Atopic	WURS	53991	108-Month Clinic Visit	1.2	complete	108	0																3353
+SUB231130	Atopic	WURS	53995	120-Month Clinic Visit	1.2	complete	120	0																3661
+SUB231131	Atopic	WURS	52785	108-Month Clinic Visit	1.2	complete	108	0																3377
+SUB231131	Atopic	WURS	52789	120-Month Clinic Visit	1.2	complete	120	0																3679
+SUB231132	Atopic	WURS	55435	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231133	Atopic	WURS	53745	120-Month Clinic Visit	1.2	complete	120	1	2	3	3	2	1	2	0	0	0	0	0	0	2	4	2	3659
+SUB231133	Atopic	WURS	53741	108-Month Clinic Visit	1.2	complete	108	0																3310
+SUB231134	Atopic	WURS	53757	120-Month Clinic Visit	1.2	complete	120	0																3667
+SUB231134	Atopic	WURS	53753	108-Month Clinic Visit	1.2	complete	108	0																3317
+SUB231135	Atopic	WURS	54632	108-Month Clinic Visit	1.2	complete	108	0																3282
+SUB231135	Atopic	WURS	54636	120-Month Clinic Visit	1.2	complete	120	0																3653
+SUB231139	Atopic	WURS	59637	120-Month Clinic Visit	1.2	complete	120	0																3645
+SUB231139	Atopic	WURS	59633	108-Month Clinic Visit	1.2	complete	108	0																3274
+SUB231142	Atopic	WURS	55447	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	1	1	0	0	0	0	0	0	0	3	2	3367
+SUB231142	Atopic	WURS	55451	120-Month Clinic Visit	1.2	complete	120	0																3639
+SUB231143	Non-atopic	WURS	54622	120-Month Clinic Visit	1.2	complete	120	0																3623
+SUB231143	Non-atopic	WURS	54618	108-Month Clinic Visit	1.2	complete	108	0																3268
+SUB231144	Atopic	WURS	55695	108-Month Clinic Visit	1.2	complete	108	0																3279
+SUB231144	Atopic	WURS	55699	120-Month Clinic Visit	1.2	complete	120	0																3677
+SUB231145	Non-atopic	WURS	59535	108-Month Clinic Visit	1.2	complete	108	0																3319
+SUB231145	Non-atopic	WURS	59539	120-Month Clinic Visit	1.2	complete	120	2	0	1	1	0	0	0	0	1	0	0	0	0	0	4	1	3678
+SUB231146	Atopic	WURS	55548	120-Month Clinic Visit	1.2	complete	120	0																3672
+SUB231146	Atopic	WURS	55544	108-Month Clinic Visit	1.2	complete	108	1	2	0	3	1	1	1	1	0	0	0	0	0	2	3	2	3366
+SUB231147	Non-atopic	WURS	59496	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	0	0	1	1	0	0	0	0	0	0	2	2	3674
+SUB231147	Non-atopic	WURS	59492	108-Month Clinic Visit	1.2	complete	108	0																3374
+SUB231149	Atopic	WURS	55207	120-Month Clinic Visit	1.2	complete	120	0																3687
+SUB231149	Atopic	WURS	55203	108-Month Clinic Visit	1.2	complete	108	0																3302
+SUB231150	Atopic	WURS	56135	120-Month Clinic Visit	1.2	complete	120	0																3744
+SUB231150	Atopic	WURS	56131	108-Month Clinic Visit	1.2	complete	108	0																3367
+SUB231151	Non-atopic	WURS	56118	108-Month Clinic Visit	1.2	complete	108	1	0	1	3	1	2	3	0	1	1	0	2	1	0	2	2	3324
+SUB231151	Non-atopic	WURS	56122	120-Month Clinic Visit	1.2	complete	120	0																3694
+SUB231153	Non-atopic	WURS	59758	108-Month Clinic Visit	1.2	complete	108	0																3330
+SUB231153	Non-atopic	WURS	59762	120-Month Clinic Visit	1.2	complete	120	0																3695
+SUB231155	Atopic	WURS	60680	108-Month Clinic Visit	1.2	complete	108	0																3327
+SUB231155	Atopic	WURS	60684	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB231156	Non-atopic	WURS	56864	120-Month Clinic Visit	1.2	complete	120	0																3698
+SUB231156	Non-atopic	WURS	56860	108-Month Clinic Visit	1.2	complete	108	2	2	1	1	0	3	0	0	1	2	0	0	0	0	4	2	3332
+SUB231158	Non-atopic	WURS	56238	108-Month Clinic Visit	1.2	complete	108	0																3352
+SUB231158	Non-atopic	WURS	56242	120-Month Clinic Visit	1.2	complete	120	0																3668
+SUB231159	Atopic	WURS	60811	120-Month Clinic Visit	1.2	complete	120	0																3710
+SUB231159	Atopic	WURS	60807	108-Month Clinic Visit	1.2	complete	108	0																3363
+SUB231161	Atopic	WURS	56671	120-Month Clinic Visit	1.2	complete	120	0																3786
+SUB231161	Atopic	WURS	56667	108-Month Clinic Visit	1.2	complete	108	0																3355
+SUB231163	Atopic	WURS	57234	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231163	Atopic	WURS	57230	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231164	Atopic	WURS	58540	120-Month Clinic Visit	1.2	complete	120	0																3667
+SUB231164	Atopic	WURS	58536	108-Month Clinic Visit	1.2	complete	108	0																3448
+SUB231165	Atopic	WURS	56230	120-Month Clinic Visit	1.2	complete	120	0																3673
+SUB231165	Atopic	WURS	56226	108-Month Clinic Visit	1.2	complete	108	2	3	3	1	0	0	0	0	3	3	0	0	0	0	1	1	3387
+SUB231166	Atopic	WURS	55963	108-Month Clinic Visit	1.2	complete	108	0																3283
+SUB231166	Atopic	WURS	55967	120-Month Clinic Visit	1.2	complete	120	0																3660
+SUB231167	Atopic	WURS	56396	108-Month Clinic Visit	1.2	complete	108	1	1	0	0	1	1	0	1	0	0	0	0	0	0	1	2	3365
+SUB231167	Atopic	WURS	56400	120-Month Clinic Visit	1.2	complete	120	0																3672
+SUB231168	Atopic	WURS	60209	108-Month Clinic Visit	1.2	complete	108	0																3355
+SUB231168	Atopic	WURS	60213	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	0	1	1	0	0	0	0	0	0	0	3	1	3652
+SUB231169	Non-atopic	WURS	60327	120-Month Clinic Visit	1.2	complete	120	0																3633
+SUB231169	Non-atopic	WURS	60323	108-Month Clinic Visit	1.2	complete	108	0																3362
+SUB231171	Non-atopic	WURS	59169	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	1	0	0	0	0	0	0	0	0	2	2	3326
+SUB231171	Non-atopic	WURS	59173	120-Month Clinic Visit	1.2	complete	120	1	0	1	1	0	1	0	1	0	0	0	0	0	0	3	2	3633
+SUB231172	Non-atopic	WURS	58023	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	0	1	0	2	0	0	0	0	0	1	1	3654
+SUB231172	Non-atopic	WURS	58019	108-Month Clinic Visit	1.2	complete	108	0																3415
+SUB231173	Atopic	WURS	51335	120-Month Clinic Visit	1.2	complete	120	3	1	1	1	0	0	0	0	1	0	1	2	0	1	2	2	3695
+SUB231176	Atopic	WURS	57835	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	1	0	0	0	0	0	0	0	0	2	2	3846
+SUB231177	Atopic	WURS	51421	120-Month Clinic Visit	1.2	complete	120	0																3666
+SUB231178	Atopic	WURS	51504	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231179	Atopic	WURS	51773	120-Month Clinic Visit	1.2	complete	120	0																3692
+SUB231180	Atopic	WURS	51905	120-Month Clinic Visit	1.2	complete	120	0																3702
+SUB231182	Atopic	WURS	51887	120-Month Clinic Visit	1.2	complete	120	0																3646
+SUB231183	Atopic	WURS	52503	120-Month Clinic Visit	1.2	complete	120	0																3675
+SUB231184	Atopic	WURS	51553	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231185	Atopic	WURS	52346	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231186	Atopic	WURS	52546	120-Month Clinic Visit	1.2	complete	120	0																3624
+SUB231187	Atopic	WURS	54303	120-Month Clinic Visit	1.2	complete	120	0																3659
+SUB231188	Atopic	WURS	51796	120-Month Clinic Visit	1.2	complete	120	0																3624
+SUB231189	Atopic	WURS	52378	120-Month Clinic Visit	1.2	complete	120	0																3668
+SUB231190	Atopic	WURS	51591	120-Month Clinic Visit	1.2	complete	120	0																3640
+SUB231191	Atopic	WURS	52258	120-Month Clinic Visit	1.2	complete	120	0																3662
+SUB231192	Atopic	WURS	52722	108-Month Clinic Visit	1.2	complete	108	0																3295
+SUB231192	Atopic	WURS	52726	120-Month Clinic Visit	1.2	complete	120	0																3666
+SUB231194	Atopic	WURS	52609	108-Month Clinic Visit	1.2	complete	108	0																3280
+SUB231194	Atopic	WURS	52613	120-Month Clinic Visit	1.2	complete	120	0																3703
+SUB231195	Atopic	WURS	52713	120-Month Clinic Visit	1.2	complete	120	1	1	1	0	0	1	2	0	0	0	0	1	0	1	3	2	3631
+SUB231195	Atopic	WURS	52709	108-Month Clinic Visit	1.2	complete	108	1	1	1	1	0	0	1	0	1	0	0	0	0	0	2	2	3277
+SUB231196	Atopic	WURS	52687	120-Month Clinic Visit	1.2	complete	120	0																3637
+SUB231198	Atopic	WURS	55567	108-Month Clinic Visit	1.2	complete	108	2	1	0	2	0	2	0	0	0	0	0	0	0	0	4	3	3306
+SUB231198	Atopic	WURS	55571	120-Month Clinic Visit	1.2	complete	120	0																3684
+SUB231199	Atopic	WURS	53228	108-Month Clinic Visit	1.2	complete	108	0																3271
+SUB231199	Atopic	WURS	53232	120-Month Clinic Visit	1.2	complete	120	0																3629
+SUB231201	Atopic	WURS	53544	120-Month Clinic Visit	1.2	complete	120	1	1	0	0	0	3	0	0	0	0	0	0	0	0	1	2	3623
+SUB231201	Atopic	WURS	53540	108-Month Clinic Visit	1.2	complete	108	0																3257
+SUB231202	Atopic	WURS	53975	108-Month Clinic Visit	1.2	complete	108	0																3264
+SUB231202	Atopic	WURS	53979	120-Month Clinic Visit	1.2	complete	120	0																3627
+SUB231203	Atopic	WURS	53789	120-Month Clinic Visit	1.2	complete	120	0																3631
+SUB231203	Atopic	WURS	53785	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231206	Atopic	WURS	54474	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231206	Atopic	WURS	54478	120-Month Clinic Visit	1.2	complete	120	0																3634
+SUB231207	Atopic	WURS	54719	120-Month Clinic Visit	1.2	complete	120	0																3626
+SUB231207	Atopic	WURS	54715	108-Month Clinic Visit	1.2	complete	108	0																3262
+SUB231208	Atopic	WURS	54179	120-Month Clinic Visit	1.2	complete	120	1	0	2	1	0	1	0	0	2	0	0	1	0	0	2	2	3652
+SUB231208	Atopic	WURS	54175	108-Month Clinic Visit	1.2	complete	108	1	3	2	3	0	3	1	1	0	1	0	1	3	1	2	2	3285
+SUB231210	Atopic	WURS	56319	108-Month Clinic Visit	1.2	complete	108	0																3264
+SUB231210	Atopic	WURS	56323	120-Month Clinic Visit	1.2	complete	120	0																3632
+SUB231213	Atopic	WURS	55584	120-Month Clinic Visit	1.2	complete	120	0																3633
+SUB231213	Atopic	WURS	55580	108-Month Clinic Visit	1.2	complete	108	0																3269
+SUB231214	Atopic	WURS	55320	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	0	1	3	0	0	0	1	0	4	2	3329
+SUB231214	Atopic	WURS	55324	120-Month Clinic Visit	1.2	complete	120	0																3681
+SUB231215	Atopic	WURS	56209	108-Month Clinic Visit	1.2	complete	108	0																3278
+SUB231215	Atopic	WURS	56213	120-Month Clinic Visit	1.2	complete	120	0																3627
+SUB231216	Atopic	WURS	55614	120-Month Clinic Visit	1.2	complete	120	1	2	1	3	0	1	0	0	0	0	0	1	0	0	3	2	3625
+SUB231216	Atopic	WURS	55610	108-Month Clinic Visit	1.2	complete	108	0																3264
+SUB231217	Atopic	WURS	57759	108-Month Clinic Visit	1.2	complete	108	0																3267
+SUB231218	Atopic	WURS	55768	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231218	Atopic	WURS	55772	120-Month Clinic Visit	1.2	complete	120	1	0	1	1	0	0	1	0	2	1	0	0	0	1	2	1	3630
+SUB231219	Atopic	WURS	55785	120-Month Clinic Visit	1.2	complete	120	0																3630
+SUB231219	Atopic	WURS	55781	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231221	Atopic	WURS	55861	120-Month Clinic Visit	1.2	complete	120	1	1	0	1	0	1	0	2	1	0	0	0	0	0	1	1	3634
+SUB231221	Atopic	WURS	55857	108-Month Clinic Visit	1.2	complete	108	1	2	3	0	0	3	0	1	3	0	0	0	0	0	2	2	3262
+SUB231222	Atopic	WURS	59963	120-Month Clinic Visit	1.2	complete	120	1	1	1	0	0	0	1	0	0	0	0	0	0	0	2	1	3690
+SUB231222	Atopic	WURS	59959	108-Month Clinic Visit	1.2	complete	108	0																3334
+SUB231223	Atopic	WURS	56710	120-Month Clinic Visit	1.2	complete	120	0																3641
+SUB231223	Atopic	WURS	56706	108-Month Clinic Visit	1.2	complete	108	1	1	2	1	3	1	0	0	0	0	0	0	0	0	3	2	3271
+SUB231225	Atopic	WURS	56544	120-Month Clinic Visit	1.2	complete	120	0																3624
+SUB231225	Atopic	WURS	56540	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231226	Atopic	WURS	58158	120-Month Clinic Visit	1.2	complete	120	0																3626
+SUB231226	Atopic	WURS	58154	108-Month Clinic Visit	1.2	complete	108	0																3258
+SUB231227	Atopic	WURS	56843	120-Month Clinic Visit	1.2	complete	120	0																3696
+SUB231227	Atopic	WURS	56839	108-Month Clinic Visit	1.2	complete	108	0																3272
+SUB231229	Atopic	WURS	56962	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	3	3630
+SUB231229	Atopic	WURS	56958	108-Month Clinic Visit	1.2	complete	108	0																3266
+SUB231230	Atopic	WURS	56561	120-Month Clinic Visit	1.2	complete	120	0																3627
+SUB231230	Atopic	WURS	56557	108-Month Clinic Visit	1.2	complete	108	0																3272
+SUB231232	Atopic	WURS	56418	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231232	Atopic	WURS	56422	120-Month Clinic Visit	1.2	complete	120	0																3663
+SUB231233	Atopic	WURS	57198	120-Month Clinic Visit	1.2	complete	120	0																3630
+SUB231233	Atopic	WURS	57194	108-Month Clinic Visit	1.2	complete	108	1	1	0	0	0	2	0	2	2	0	0	0	0	0	3	2	3259
+SUB231234	Atopic	WURS	56770	120-Month Clinic Visit	1.2	complete	120	0																3638
+SUB231234	Atopic	WURS	56766	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231235	Atopic	WURS	51513	108-Month Clinic Visit	1.2	complete	108	1	1	1	0	0	1	1	0	0	0	0	0	0	0	3	2	3301
+SUB231235	Atopic	WURS	51517	120-Month Clinic Visit	1.2	complete	120	2	2	2	1	0	3	2	1	2	2	1	2	1	2	4	2	3689
+SUB231236	Atopic	WURS	56638	108-Month Clinic Visit	1.2	complete	108	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	3	3254
+SUB231236	Atopic	WURS	56642	120-Month Clinic Visit	1.2	complete	120	0																3639
+SUB231237	Atopic	WURS	57131	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231237	Atopic	WURS	57127	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231241	Atopic	WURS	57964	120-Month Clinic Visit	1.2	complete	120	0																3626
+SUB231241	Atopic	WURS	57960	108-Month Clinic Visit	1.2	complete	108	0																3283
+SUB231242	Atopic	WURS	51689	108-Month Clinic Visit	1.2	complete	108	1	0	2	0	0	1	1	1	1	1	0	0	0	0	2	2	3269
+SUB231242	Atopic	WURS	51693	120-Month Clinic Visit	1.2	complete	120	0																3633
+SUB231243	Atopic	WURS	51478	108-Month Clinic Visit	1.2	complete	108	0																3298
+SUB231243	Atopic	WURS	51482	120-Month Clinic Visit	1.2	complete	120	0																3761
+SUB231246	Atopic	WURS	51671	120-Month Clinic Visit	1.2	complete	120	0																3636
+SUB231246	Atopic	WURS	51667	108-Month Clinic Visit	1.2	complete	108	0																3264
+SUB231247	Atopic	WURS	51736	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231248	Atopic	WURS	51960	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	1	1	0	0	0	0	0	0	0	1	1	3673
+SUB231248	Atopic	WURS	51956	108-Month Clinic Visit	1.2	complete	108	0																3327
+SUB231249	Atopic	WURS	51940	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231249	Atopic	WURS	51944	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231251	Atopic	WURS	52023	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231252	Atopic	WURS	53965	120-Month Clinic Visit	1.2	complete	120	0																3700
+SUB231252	Atopic	WURS	53961	108-Month Clinic Visit	1.2	complete	108	0																3288
+SUB231253	Atopic	WURS	52128	108-Month Clinic Visit	1.2	complete	120	0																3286
+SUB231253	Atopic	WURS	52132	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231255	Atopic	WURS	52299	108-Month Clinic Visit	1.2	complete	108	0																3254
+SUB231255	Atopic	WURS	52303	120-Month Clinic Visit	1.2	complete	120	0																3636
+SUB231257	Atopic	WURS	52228	120-Month Clinic Visit	1.2	complete	120	0																3653
+SUB231257	Atopic	WURS	52224	108-Month Clinic Visit	1.2	complete	108	1	0	1	1	0	0	1	0	1	1	0	1	0	2	1	2	3262
+SUB231258	Atopic	WURS	52426	120-Month Clinic Visit	1.2	complete	120	0																3634
+SUB231258	Atopic	WURS	52422	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231260	Atopic	WURS	59596	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231260	Atopic	WURS	59600	120-Month Clinic Visit	1.2	complete	120	0																3682
+SUB231262	Atopic	WURS	53391	108-Month Clinic Visit	1.2	complete	108	0																3274
+SUB231262	Atopic	WURS	53395	120-Month Clinic Visit	1.2	complete	120	0																3653
+SUB231263	Atopic	WURS	52981	120-Month Clinic Visit	1.2	complete	120	0																3657
+SUB231263	Atopic	WURS	52977	108-Month Clinic Visit	1.2	complete	108	0																3263
+SUB231264	Atopic	WURS	57070	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231264	Atopic	WURS	57066	108-Month Clinic Visit	1.2	complete	108	0																3357
+SUB231265	Atopic	WURS	53626	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231265	Atopic	WURS	53630	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231266	Atopic	WURS	59910	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231266	Atopic	WURS	59906	108-Month Clinic Visit	1.2	complete	108	0																3315
+SUB231268	Atopic	WURS	53798	108-Month Clinic Visit	1.2	complete	108	0																3265
+SUB231268	Atopic	WURS	53802	120-Month Clinic Visit	1.2	complete	120	0																3623
+SUB231270	Atopic	WURS	53707	120-Month Clinic Visit	1.2	complete	120	0																3652
+SUB231270	Atopic	WURS	53703	108-Month Clinic Visit	1.2	complete	108	0																3267
+SUB231271	Atopic	WURS	53848	120-Month Clinic Visit	1.2	complete	120	0																3652
+SUB231271	Atopic	WURS	53844	108-Month Clinic Visit	1.2	complete	108	0																3268
+SUB231272	Atopic	WURS	54071	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231272	Atopic	WURS	54067	108-Month Clinic Visit	1.2	complete	108	0																3257
+SUB231273	Atopic	WURS	54084	108-Month Clinic Visit	1.2	complete	108	0																3263
+SUB231273	Atopic	WURS	54088	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231274	Atopic	WURS	59301	108-Month Clinic Visit	1.2	complete	108	0																3264
+SUB231274	Atopic	WURS	59305	120-Month Clinic Visit	1.2	complete	120	0																3663
+SUB231275	Atopic	WURS	54232	108-Month Clinic Visit	1.2	complete	108	0																3278
+SUB231275	Atopic	WURS	54236	120-Month Clinic Visit	1.2	complete	120	1	3	3	1	3	0	1	0	1	0	0	0	3	1	3	2	3804
+SUB231276	Atopic	WURS	54317	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231276	Atopic	WURS	54313	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231277	Non-atopic	WURS	54508	120-Month Clinic Visit	1.2	complete	120	0																3824
+SUB231277	Non-atopic	WURS	54504	108-Month Clinic Visit	1.2	complete	108	0																3348
+SUB231278	Non-atopic	WURS	54604	108-Month Clinic Visit	1.2	complete	108	0																3272
+SUB231278	Non-atopic	WURS	54608	120-Month Clinic Visit	1.2	complete	120	2	1	2	0	1	0	3	2	1	3	0	1	1	2	2	2	3592
+SUB231279	Atopic	WURS	54347	120-Month Clinic Visit	1.2	complete	120	0																3629
+SUB231279	Atopic	WURS	54343	108-Month Clinic Visit	1.2	complete	108	0																3262
+SUB231280	Non-atopic	WURS	54801	120-Month Clinic Visit	1.2	complete	120	1	1	1	2	0	3	1	0	1	0	1	0	0	0	2	2	3745
+SUB231280	Non-atopic	WURS	54797	108-Month Clinic Visit	1.2	complete	108	0																3282
+SUB231281	Atopic	WURS	59681	108-Month Clinic Visit	1.2	complete	108	0																3297
+SUB231281	Atopic	WURS	59685	120-Month Clinic Visit	1.2	complete	120	0																3649
+SUB231282	Atopic	WURS	61144	120-Month Clinic Visit	1.2	complete	120	0																3691
+SUB231282	Atopic	WURS	61140	108-Month Clinic Visit	1.2	complete	108	0																3254
+SUB231283	Atopic	WURS	56064	120-Month Clinic Visit	1.2	complete	120	0																3645
+SUB231283	Atopic	WURS	56060	108-Month Clinic Visit	1.2	complete	108	0																3261
+SUB231284	Atopic	WURS	55628	108-Month Clinic Visit	1.2	complete	108	0																3271
+SUB231284	Atopic	WURS	55632	120-Month Clinic Visit	1.2	complete	120	1	0	1	1	0	1	1	2	1	0	0	0	2	3	3	3	3700
+SUB231285	Non-atopic	WURS	55951	120-Month Clinic Visit	1.2	complete	120	0																3668
+SUB231285	Non-atopic	WURS	55947	108-Month Clinic Visit	1.2	complete	108	0																3273
+SUB231286	Atopic	WURS	55298	120-Month Clinic Visit	1.2	complete	120	0																3625
+SUB231286	Atopic	WURS	55294	108-Month Clinic Visit	1.2	complete	108	0																3260
+SUB231287	Non-atopic	WURS	55402	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231287	Non-atopic	WURS	55398	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	0	0	0	0	0	0	0	0	2	2	3259
+SUB231288	Atopic	WURS	57444	120-Month Clinic Visit	1.2	complete	120	0																3580
+SUB231288	Atopic	WURS	57440	108-Month Clinic Visit	1.2	complete	108	1	1	0	0	0	1	0	0	0	0	0	0	0	0	2	2	3340
+SUB231290	Atopic	WURS	56077	120-Month Clinic Visit	1.2	complete	120	0																3637
+SUB231290	Atopic	WURS	56073	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231291	Atopic	WURS	55932	120-Month Clinic Visit	1.2	complete	120	0																3682
+SUB231291	Atopic	WURS	55928	108-Month Clinic Visit	1.2	complete	108	0																3263
+SUB231292	Atopic	WURS	55824	108-Month Clinic Visit	1.2	complete	108	0																3260
+SUB231292	Atopic	WURS	55828	120-Month Clinic Visit	1.2	complete	120	0																3624
+SUB231294	Atopic	WURS	52064	120-Month Clinic Visit	1.2	complete	120	0																3708
+SUB231295	Atopic	WURS	54058	120-Month Clinic Visit	1.2	complete	120	0																3711
+SUB231296	Atopic	WURS	52593	120-Month Clinic Visit	1.2	complete	120	0																3677
+SUB231297	Atopic	WURS	53126	120-Month Clinic Visit	1.2	complete	120	1	0	1	2	0	1	2	0	3	0	0	0	0	0	1	1	3701
+SUB231299	Atopic	WURS	54745	120-Month Clinic Visit	1.2	complete	120	2	1	1	2	0	1	2	1	2	1	0	1	1	2	3	1	3673
+SUB231300	Atopic	WURS	52863	120-Month Clinic Visit	1.2	complete	120	0																3648
+SUB231302	Atopic	WURS	52215	120-Month Clinic Visit	1.2	complete	120	0																3671
+SUB231304	Atopic	WURS	53112	120-Month Clinic Visit	1.2	complete	120	0																3695
+SUB231305	Atopic	WURS	53452	120-Month Clinic Visit	1.2	complete	120	0																3693
+SUB231306	Atopic	WURS	56002	120-Month Clinic Visit	1.2	complete	120	0																3692
+SUB231307	Atopic	WURS	51611	120-Month Clinic Visit	1.2	complete	120	1	0	1	1	1	2	1	1	3	1	0	1	0	0	2	2	3705
+SUB231308	Atopic	WURS	58963	120-Month Clinic Visit	1.2	complete	120	0																3693
+SUB231309	Atopic	WURS	54765	120-Month Clinic Visit	1.2	complete	120	0																3706
+SUB231310	Atopic	WURS	54491	120-Month Clinic Visit	1.2	complete	120	0																3705
+SUB231313	Atopic	WURS	51822	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231314	Atopic	WURS	52145	120-Month Clinic Visit	1.2	complete	120	0																3629
+SUB231316	Atopic	WURS	52041	120-Month Clinic Visit	1.2	complete	120	0																3679
+SUB231318	Atopic	WURS	51706	120-Month Clinic Visit	1.2	complete	120	0																3670
+SUB231319	Atopic	WURS	52008	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231319	Atopic	WURS	52012	120-Month Clinic Visit	1.2	complete	120	0																3672
+SUB231320	Atopic	WURS	52742	120-Month Clinic Visit	1.2	complete	120	0																3669
+SUB231323	Atopic	WURS	53178	120-Month Clinic Visit	1.2	complete	120	1	2	1	3	0	3	2	2	3	1	2	1	2	3	2	2	3690
+SUB231324	Atopic	WURS	52832	120-Month Clinic Visit	1.2	complete	120	0																3658
+SUB231325	Atopic	WURS	53214	120-Month Clinic Visit	1.2	complete	120	0																3666
+SUB231325	Atopic	WURS	53210	108-Month Clinic Visit	1.2	complete	108	0																3349
+SUB231326	Atopic	WURS	55135	120-Month Clinic Visit	1.2	complete	120	0																3668
+SUB231327	Atopic	WURS	52559	120-Month Clinic Visit	1.2	complete	120	0																3673
+SUB231328	Atopic	WURS	52447	108-Month Clinic Visit	1.2	complete	108	0																3318
+SUB231328	Atopic	WURS	52451	120-Month Clinic Visit	1.2	complete	120	0																3704
+SUB231329	Atopic	WURS	53026	120-Month Clinic Visit	1.2	complete	120	0																3720
+SUB231330	Atopic	WURS	53775	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	1	1	3	0	0	0	0	0	0	0	1	1	3656
+SUB231332	Atopic	WURS	54023	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231333	Atopic	WURS	54010	120-Month Clinic Visit	1.2	complete	120	0																3693
+SUB231333	Atopic	WURS	54006	108-Month Clinic Visit	1.2	complete	108	0																3300
+SUB231334	Atopic	WURS	54705	120-Month Clinic Visit	1.2	complete	120	0																3655
+SUB231334	Atopic	WURS	54701	108-Month Clinic Visit	1.2	complete	108	0																3278
+SUB231336	Atopic	WURS	54220	120-Month Clinic Visit	1.2	complete	120	0																3652
+SUB231336	Atopic	WURS	54216	108-Month Clinic Visit	1.2	complete	108	0																3295
+SUB231338	Atopic	WURS	53063	108-Month Clinic Visit	1.2	complete	108	2	1	1	1	0	2	0	0	0	0	1	0	0	0	2	2	3263
+SUB231338	Atopic	WURS	53067	120-Month Clinic Visit	1.2	complete	120	1	0	1	0	1	1	1	0	1	0	0	0	0	0	3	1	3648
+SUB231339	Atopic	WURS	53720	108-Month Clinic Visit	1.2	complete	108	0																3265
+SUB231339	Atopic	WURS	53724	120-Month Clinic Visit	1.2	complete	120	0																3663
+SUB231341	Atopic	WURS	54414	108-Month Clinic Visit	1.2	complete	108	0																3263
+SUB231341	Atopic	WURS	54418	120-Month Clinic Visit	1.2	complete	120	0																3701
+SUB231342	Atopic	WURS	56018	108-Month Clinic Visit	1.2	complete	108	1	1	1	2	1	3	3	1	1	3	1	3	1	3	2	2	3304
+SUB231343	Atopic	WURS	54834	120-Month Clinic Visit	1.2	complete	120	0																3652
+SUB231343	Atopic	WURS	54830	108-Month Clinic Visit	1.2	complete	108	0																3327
+SUB231345	Atopic	WURS	57911	108-Month Clinic Visit	1.2	complete	108	0																3275
+SUB231345	Atopic	WURS	57915	120-Month Clinic Visit	1.2	complete	120	1	1	1	2	0	1	3	1	2	0	1	0	0	0	2	2	3694
+SUB231346	Atopic	WURS	55382	108-Month Clinic Visit	1.2	complete	108	0																3264
+SUB231346	Atopic	WURS	55386	120-Month Clinic Visit	1.2	complete	120	0																3676
+SUB231347	Atopic	WURS	55669	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231347	Atopic	WURS	55673	120-Month Clinic Visit	1.2	complete	120	1	1	1	1	2	0	1	1	1	1	2	1	3	2	4	1	3820
+SUB231352	Atopic	WURS	55363	108-Month Clinic Visit	1.2	complete	108	0																3366
+SUB231353	Atopic	WURS	55654	120-Month Clinic Visit	1.2	complete	120	1	3	3	1	0	1	0	0	2	1	0	0	0	1	2	1	3689
+SUB231353	Atopic	WURS	55650	108-Month Clinic Visit	1.2	complete	108	1	0	0	1	0	3	2	0	1	3	0	0	0	3	4	1	3267
+SUB231355	Atopic	WURS	55815	120-Month Clinic Visit	1.2	complete	120	0																3659
+SUB231355	Atopic	WURS	55811	108-Month Clinic Visit	1.2	complete	108	1	3	2	3	3	3	3	3	3	3	3	3	3	3	5	3	3288
+SUB231356	Atopic	WURS	55595	108-Month Clinic Visit	1.2	complete	108	1	0	2	0	0	0	1	1	2	2	1	0	0	1	2	1	3259
+SUB231357	Atopic	WURS	56303	108-Month Clinic Visit	1.2	complete	108	2	1	0	3	0	0	2	0	1	0	0	1	1	2	3	1	3267
+SUB231357	Atopic	WURS	56307	120-Month Clinic Visit	1.2	complete	120	2	1	3	1	0	3	2	1	3	2	0	0	0	2	3	1	3673
+SUB231359	Atopic	WURS	55902	108-Month Clinic Visit	1.2	complete	108	0																3281
+SUB231360	Atopic	WURS	55800	120-Month Clinic Visit	1.2	complete	120	0																3596
+SUB231360	Atopic	WURS	55796	108-Month Clinic Visit	1.2	complete	108	0																3268
+SUB231363	Atopic	WURS	56171	108-Month Clinic Visit	1.2	complete	108	0																3289
+SUB231365	Atopic	WURS	56290	108-Month Clinic Visit	1.2	complete	108	0																3348
+SUB231365	Atopic	WURS	56294	120-Month Clinic Visit	1.2	complete	120	0																3769
+SUB231366	Atopic	WURS	55054	120-Month Clinic Visit	1.2	complete	120	0																3673
+SUB231366	Atopic	WURS	55050	108-Month Clinic Visit	1.2	complete	108	0																3262
+SUB231368	Atopic	WURS	55987	120-Month Clinic Visit	1.2	complete	120	0																3773
+SUB231368	Atopic	WURS	55983	108-Month Clinic Visit	1.2	complete	108	0																3365
+SUB231369	Atopic	WURS	56753	120-Month Clinic Visit	1.2	complete	120	0																3663
+SUB231369	Atopic	WURS	56749	108-Month Clinic Visit	1.2	complete	108	0																3262
+SUB231372	Atopic	WURS	56527	108-Month Clinic Visit	1.2	complete	108	0																3273
+SUB231373	Atopic	WURS	56184	108-Month Clinic Visit	1.2	complete	108	0																3308
+SUB231373	Atopic	WURS	56188	120-Month Clinic Visit	1.2	complete	120	0																3656
+SUB231374	Atopic	WURS	55353	120-Month Clinic Visit	1.2	complete	120	0																3800
+SUB231374	Atopic	WURS	55349	108-Month Clinic Visit	1.2	complete	108	0																3269
+SUB231376	Atopic	WURS	55840	108-Month Clinic Visit	1.2	complete	108	1	1	1	0	0	1	1	1	1	1	0	0	0	1	2	1	3345
+SUB231376	Atopic	WURS	55844	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231377	Atopic	WURS	58333	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231377	Atopic	WURS	58337	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231378	Atopic	WURS	52483	108-Month Clinic Visit	1.2	complete	108	0																3265
+SUB231378	Atopic	WURS	52487	120-Month Clinic Visit	1.2	complete	120	0																3747
+SUB231379	Atopic	WURS	56736	120-Month Clinic Visit	1.2	complete	120	0																3718
+SUB231379	Atopic	WURS	56732	108-Month Clinic Visit	1.2	complete	108	0																3271
+SUB231380	Atopic	WURS	57458	120-Month Clinic Visit	1.2	complete	120	0																3691
+SUB231380	Atopic	WURS	57454	108-Month Clinic Visit	1.2	complete	108	0																3318
+SUB231381	Atopic	WURS	57107	108-Month Clinic Visit	1.2	complete	108	0																3366
+SUB231381	Atopic	WURS	57111	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231382	Atopic	WURS	56929	120-Month Clinic Visit	1.2	complete	120	0																3652
+SUB231382	Atopic	WURS	56925	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231383	Atopic	WURS	52077	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231383	Atopic	WURS	52073	108-Month Clinic Visit	1.2	complete	108	1	1	1	1	0	2	0	0	1	2	0	1	0	1	2	2	3374
+SUB231384	Atopic	WURS	56514	108-Month Clinic Visit	1.2	complete	108	0																3347
+SUB231384	Atopic	WURS	56518	120-Month Clinic Visit	1.2	complete	120	0																3786
+SUB231387	Atopic	WURS	57334	120-Month Clinic Visit	1.2	complete	120	1	0	1	0	0	0	2	0	0	0	0	0	0	0	1	1	3626
+SUB231387	Atopic	WURS	57330	108-Month Clinic Visit	1.2	complete	108	2	1	3	3	0	2	0	1	0	1	0	2	0	0	4	2	3290
+SUB231388	Atopic	WURS	57294	120-Month Clinic Visit	1.2	complete	120	0																3723
+SUB231388	Atopic	WURS	57290	108-Month Clinic Visit	1.2	complete	108	0																3337
+SUB231389	Atopic	WURS	57973	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	1	1	0	0	1	0	0	0	1	1	1	1	3340
+SUB231389	Atopic	WURS	57977	120-Month Clinic Visit	1.2	complete	120	0																3711
+SUB231390	Atopic	WURS	59472	120-Month Clinic Visit	1.2	complete	120	0																3782
+SUB231390	Atopic	WURS	59468	108-Month Clinic Visit	1.2	complete	108	0																3355
+SUB231391	Atopic	WURS	57855	120-Month Clinic Visit	1.2	complete	120	0																3761
+SUB231391	Atopic	WURS	57851	108-Month Clinic Visit	1.2	complete	108	1	2	3	1	0	1	0	0	0	0	0	0	0	0	3	3	3288
+SUB231392	Atopic	WURS	57725	120-Month Clinic Visit	1.2	complete	120	1	1	1	0	0	1	0	0	1	0	0	0	0	0	2	2	3670
+SUB231392	Atopic	WURS	57721	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	3285
+SUB231393	Atopic	WURS	57896	120-Month Clinic Visit	1.2	complete	120	0																3786
+SUB231393	Atopic	WURS	57892	108-Month Clinic Visit	1.2	complete	108	0																3341
+SUB231394	Atopic	WURS	51536	108-Month Clinic Visit	1.2	complete	108	0																3378
+SUB231395	Atopic	WURS	58609	120-Month Clinic Visit	1.2	complete	120	0																3683
+SUB231395	Atopic	WURS	58605	108-Month Clinic Visit	1.2	complete	108	0																3282
+SUB231396	Atopic	WURS	57708	108-Month Clinic Visit	1.2	complete	108	0																3369
+SUB231397	Atopic	WURS	52364	120-Month Clinic Visit	1.2	complete	120	0																3639
+SUB231397	Atopic	WURS	52360	108-Month Clinic Visit	1.2	complete	108	0																3287
+SUB231398	Atopic	WURS	58991	120-Month Clinic Visit	1.2	complete	120	1	1	0	2	0	0	0	0	0	1	0	1	0	0	1	1	3752
+SUB231398	Atopic	WURS	58987	108-Month Clinic Visit	1.2	complete	108	0																3349
+SUB231401	Atopic	WURS	51628	108-Month Clinic Visit	1.2	complete	108	0																3341
+SUB231401	Atopic	WURS	51632	120-Month Clinic Visit	1.2	complete	120	0																3746
+SUB231402	Atopic	WURS	51721	108-Month Clinic Visit	1.2	complete	108	0																3368
+SUB231402	Atopic	WURS	51725	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	3	0	0	0	0	0	0	0	0	0	1	1	3731
+SUB231403	Atopic	WURS	51658	120-Month Clinic Visit	1.2	complete	120	1	0	0	0	0	0	1	1	1	0	1	0	1	0	1	1	3756
+SUB231403	Atopic	WURS	51654	108-Month Clinic Visit	1.2	complete	108	0																3272
+SUB231404	Atopic	WURS	51931	120-Month Clinic Visit	1.2	complete	120	1	0	1	1	0	1	2	0	2	0	0	3	0	0	2	2	3755
+SUB231404	Atopic	WURS	51927	108-Month Clinic Visit	1.2	complete	108	0																3335
+SUB231405	Atopic	WURS	51854	108-Month Clinic Visit	1.2	complete	108	1	0	1	0	3	0	3	3	0	3	0	0	0	0	5	2	3340
+SUB231406	Atopic	WURS	52393	120-Month Clinic Visit	1.2	complete	120	0																3732
+SUB231406	Atopic	WURS	52389	108-Month Clinic Visit	1.2	complete	108	0																3352
+SUB231409	Atopic	WURS	60177	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231409	Atopic	WURS	60181	120-Month Clinic Visit	1.2	complete	120	0																3727
+SUB231410	Atopic	WURS	52903	108-Month Clinic Visit	1.2	complete	108	3	2	3	3	0	1	1	0	3	1	0	0	0	1	3	1	3279
+SUB231410	Atopic	WURS	52907	120-Month Clinic Visit	1.2	complete	120	0																3656
+SUB231411	Atopic	WURS	53689	108-Month Clinic Visit	1.2	complete	108	1	1	1	0	1	0	0	0	2	0	0	0	0	0	2	2	3349
+SUB231411	Atopic	WURS	53693	120-Month Clinic Visit	1.2	complete	120	0																3710
+SUB231412	Atopic	WURS	52921	108-Month Clinic Visit	1.2	complete	108	0																3339
+SUB231412	Atopic	WURS	52925	120-Month Clinic Visit	1.2	complete	120	0																3716
+SUB231413	Atopic	WURS	53276	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	1	1	1	1	2	0	0	0	0	0	3	1	3710
+SUB231413	Atopic	WURS	53272	108-Month Clinic Visit	1.2	complete	108	0																3373
+SUB231414	Atopic	WURS	52849	120-Month Clinic Visit	1.2	complete	120	0																3640
+SUB231414	Atopic	WURS	52845	108-Month Clinic Visit	1.2	complete	108	1	1	2	3	0	1	0	1	0	0	0	0	0	0	2	1	3270
+SUB231415	Non-atopic	WURS	52994	120-Month Clinic Visit	1.2	complete	120	1	2	2	1	1	1	1	0	0	0	0	1	0	0	4	2	3736
+SUB231415	Non-atopic	WURS	52990	108-Month Clinic Visit	1.2	complete	108	1	0	0	0	0	1	1	0	1	1	1	0	0	0	3	2	3284
+SUB231417	Atopic	WURS	53523	108-Month Clinic Visit	1.2	complete	108	0																3295
+SUB231417	Atopic	WURS	53527	120-Month Clinic Visit	1.2	complete	120	0																3654
+SUB231418	Atopic	WURS	53316	108-Month Clinic Visit	1.2	complete	108	1	2	0	3	0	2	0	0	0	0	0	1	0	0	2	1	3318
+SUB231418	Atopic	WURS	53320	120-Month Clinic Visit	1.2	complete	120	1	0	2	0	3	1	3	0	3	1	1	3	0	0	3	1	3838
+SUB231419	Atopic	WURS	53906	120-Month Clinic Visit	1.2	complete	120	0																3692
+SUB231419	Atopic	WURS	53902	108-Month Clinic Visit	1.2	complete	108	0																3348
+SUB231420	Atopic	WURS	54040	108-Month Clinic Visit	1.2	complete	108	0																3329
+SUB231420	Atopic	WURS	54044	120-Month Clinic Visit	1.2	complete	120	0																3699
+SUB231421	Atopic	WURS	53919	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231421	Atopic	WURS	53915	108-Month Clinic Visit	1.2	complete	108	3	3	3	3	0	3	3	3	3	0	1	0	3	3	5	1	3373
+SUB231423	Atopic	WURS	53290	120-Month Clinic Visit	1.2	complete	120	1	1	1	2	1	1	1	0	0	0	0	0	0	0	3	1	3709
+SUB231423	Atopic	WURS	53286	108-Month Clinic Visit	1.2	complete	108	0																3260
+SUB231424	Atopic	WURS	56145	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231424	Atopic	WURS	56149	120-Month Clinic Visit	1.2	complete	120	0																3726
+SUB231425	Non-atopic	WURS	59509	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231425	Non-atopic	WURS	59513	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231426	Atopic	WURS	54892	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	3	1	1	0	1	0	2	1	0	2	4	2	3728
+SUB231426	Atopic	WURS	54888	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB231427	Atopic	WURS	54858	120-Month Clinic Visit	1.2	complete	120	0																3830
+SUB231427	Atopic	WURS	54854	108-Month Clinic Visit	1.2	complete	108	0																3368
+SUB231428	Atopic	WURS	53932	108-Month Clinic Visit	1.2	complete	108	0																3293
+SUB231428	Atopic	WURS	53936	120-Month Clinic Visit	1.2	complete	120	0																3690
+SUB231429	Non-atopic	WURS	53883	108-Month Clinic Visit	1.2	complete	108	0																3323
+SUB231429	Non-atopic	WURS	53887	120-Month Clinic Visit	1.2	complete	120	0																3686
+SUB231430	Non-atopic	WURS	55104	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB231430	Non-atopic	WURS	55108	120-Month Clinic Visit	1.2	complete	120	0																3686
+SUB231431	Non-atopic	WURS	54203	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231431	Non-atopic	WURS	54207	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231432	Non-atopic	WURS	56624	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB231432	Non-atopic	WURS	56628	120-Month Clinic Visit	1.2	complete	120	0																3680
+SUB231433	Atopic	WURS	56352	120-Month Clinic Visit	1.2	complete	120	0																3745
+SUB231433	Atopic	WURS	56348	108-Month Clinic Visit	1.2	complete	108	0																3375
+SUB231434	Non-atopic	WURS	56719	108-Month Clinic Visit	1.2	complete	108	0																3366
+SUB231434	Non-atopic	WURS	56723	120-Month Clinic Visit	1.2	complete	120	0																3703
+SUB231435	Atopic	WURS	54781	108-Month Clinic Visit	1.2	complete	108	3	3	3	1	1	2	1	2	2	3	0	1	1	0	5	1	3364
+SUB231435	Atopic	WURS	54785	120-Month Clinic Visit	1.2	complete	120	0																3700
+SUB231436	Atopic	WURS	54687	108-Month Clinic Visit	1.2	complete	108	0																3371
+SUB231436	Atopic	WURS	54691	120-Month Clinic Visit	1.2	complete	120	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	3770
+SUB231437	Atopic	WURS	54816	120-Month Clinic Visit	1.2	complete	120	0																3725
+SUB231437	Atopic	WURS	54812	108-Month Clinic Visit	1.2	complete	108	0																3293
+SUB231439	Non-atopic	WURS	54955	120-Month Clinic Visit	1.2	complete	120	0																3728
+SUB231439	Non-atopic	WURS	54951	108-Month Clinic Visit	1.2	complete	108	0																3259
+SUB231440	Atopic	WURS	54595	120-Month Clinic Visit	1.2	complete	120	0																3720
+SUB231440	Atopic	WURS	54591	108-Month Clinic Visit	1.2	complete	108	0																3294
+SUB231441	Atopic	WURS	57038	108-Month Clinic Visit	1.2	complete	108	0																3370
+SUB231441	Atopic	WURS	57042	120-Month Clinic Visit	1.2	complete	120	0																3717
+SUB231442	Atopic	WURS	52471	108-Month Clinic Visit	1.2	complete	108	0																3365
+SUB231442	Atopic	WURS	52475	120-Month Clinic Visit	1.2	complete	120	0																3729
+SUB231443	Atopic	WURS	54978	108-Month Clinic Visit	1.2	complete	108	0																3362
+SUB231443	Atopic	WURS	54982	120-Month Clinic Visit	1.2	complete	120	1	1	0	2	0	1	3	0	1	0	2	3	3	0	3	1	3732
+SUB231444	Atopic	WURS	56889	120-Month Clinic Visit	1.2	complete	120	0																3696
+SUB231444	Atopic	WURS	56885	108-Month Clinic Visit	1.2	complete	108	0																3302
+SUB231445	Atopic	WURS	57022	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231445	Atopic	WURS	57026	120-Month Clinic Visit	1.2	complete	120	0																3728
+SUB231446	Non-atopic	WURS	55095	120-Month Clinic Visit	1.2	complete	120	0																3667
+SUB231446	Non-atopic	WURS	55091	108-Month Clinic Visit	1.2	complete	108	0																3325
+SUB231448	Atopic	WURS	55076	108-Month Clinic Visit	1.2	complete	108	0																3329
+SUB231448	Atopic	WURS	55080	120-Month Clinic Visit	1.2	complete	120	0																3661
+SUB231449	Atopic	WURS	63231	120-Month Clinic Visit	1.2	missing	.x																	
+SUB231449	Atopic	WURS	63227	108-Month Clinic Visit	1.2	complete	108	1	0	1	0	0	0	0	0	0	0	0	0	0	0	3	1	3381
+SUB231450	Atopic	WURS	56033	108-Month Clinic Visit	1.2	complete	108	0																3303
+SUB231450	Atopic	WURS	56037	120-Month Clinic Visit	1.2	complete	120	0																3681
+SUB231451	Non-atopic	WURS	61104	108-Month Clinic Visit	1.2	complete	108	0																3334
+SUB231451	Non-atopic	WURS	61108	120-Month Clinic Visit	1.2	complete	120	0																3721
+SUB231452	Non-atopic	WURS	57348	108-Month Clinic Visit	1.2	complete	108	2	3	1	2	3	1	0	0	0	1	0	0	0	0	4	1	3350
+SUB231452	Non-atopic	WURS	57352	120-Month Clinic Visit	1.2	complete	120	1	1	1	1	0	1	0	0	0	0	0	0	0	0	2	2	3771
+SUB231453	Atopic	WURS	56432	108-Month Clinic Visit	1.2	complete	108	1	1	0	0	1	1	0	1	0	1	0	1	0	0	2	2	3287
+SUB231453	Atopic	WURS	56436	120-Month Clinic Visit	1.2	complete	120	0																3679
+SUB231454	Atopic	WURS	57263	120-Month Clinic Visit	1.2	complete	120	0																3685
+SUB231454	Atopic	WURS	57259	108-Month Clinic Visit	1.2	complete	108	1	0	1	0	0	1	0	1	0	0	1	1	2	1	2	1	3295
+SUB231455	Non-atopic	WURS	57150	108-Month Clinic Visit	1.2	complete	108	0																3283
+SUB231455	Non-atopic	WURS	57154	120-Month Clinic Visit	1.2	complete	120	0																3704
+SUB231456	Non-atopic	WURS	57273	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231457	Non-atopic	WURS	57309	108-Month Clinic Visit	1.2	complete	108	0																3277
+SUB231457	Non-atopic	WURS	57313	120-Month Clinic Visit	1.2	complete	120	0																3677
+SUB231460	Non-atopic	WURS	57875	120-Month Clinic Visit	1.2	complete	120	1	0	0	1	0	0	1	0	1	0	0	1	1	0	3	3	3697
+SUB231460	Non-atopic	WURS	57871	108-Month Clinic Visit	1.2	complete	108	0																3326
+SUB231462	Non-atopic	WURS	61415	120-Month Clinic Visit	1.2	complete	120	0																3708
+SUB231462	Non-atopic	WURS	61411	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231463	Atopic	WURS	58045	120-Month Clinic Visit	1.2	complete	120	0																3638
+SUB231463	Atopic	WURS	58041	108-Month Clinic Visit	1.2	complete	108	0																3273
+SUB231465	Non-atopic	WURS	57818	120-Month Clinic Visit	1.2	complete	120	0																3657
+SUB231465	Non-atopic	WURS	57814	108-Month Clinic Visit	1.2	complete	108	0																3358
+SUB231466	Atopic	WURS	58233	108-Month Clinic Visit	1.2	complete	108	0																3320
+SUB231466	Atopic	WURS	58237	120-Month Clinic Visit	1.2	complete	120	0																3669
+SUB231467	Atopic	WURS	57650	108-Month Clinic Visit	1.2	complete	108	0																3342
+SUB231467	Atopic	WURS	57654	120-Month Clinic Visit	1.2	complete	120	0																3648
+SUB231468	Atopic	WURS	52463	120-Month Clinic Visit	1.2	complete	120	0																3763
+SUB231468	Atopic	WURS	52459	108-Month Clinic Visit	1.2	missing	.x																	
+SUB231469	Non-atopic	WURS	58212	108-Month Clinic Visit	1.2	complete	108	1	0	1	0	0	0	1	0	3	0	0	0	0	0	1	1	3303
+SUB231469	Non-atopic	WURS	58216	120-Month Clinic Visit	1.2	complete	120	0																3644
+SUB231470	Non-atopic	WURS	58570	120-Month Clinic Visit	1.2	complete	120	0																3651
+SUB231470	Non-atopic	WURS	58566	108-Month Clinic Visit	1.2	complete	108	0																3295

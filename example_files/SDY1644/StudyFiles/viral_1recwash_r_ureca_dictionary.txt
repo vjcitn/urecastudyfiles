@@ -1,0 +1,35 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	529	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	529	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	event	event	chr	character	character	12	0	"c(""108-Month Clinic Visit"", ""Respiratory Illness Followup Call"")"
+4	5	child_sick	Child Was Sick	dbl	numeric	double	3	1720	c(0, 1)
+5	6	type	Clinic or illness sample	chr	character	character	2	0	"c(""clinic"", ""illness"")"
+6	7	score	Total Nasal Score	dbl	numeric	double	22	13	c(0, 20)
+7	8	wheeze	Child Has Wheezing or Whistling in Chest - Last 3 Days	dbl	numeric	double	3	771	c(0, 1)
+8	9	cough	Cough - Score	dbl	numeric	double	6	799	c(0, 5)
+9	10	cough_whz_indicator	Did the reported symptoms include cough or wheeze	dbl	numeric	double	3	3164	c(0, 1)
+10	11	agemos	Age of child in months at time of collection	dbl	numeric	double	107	0	c(0, 126)
+11	12	year		dbl	numeric	double	9	0	c(1, 10)
+12	13	SampleID	SampleID	chr	character	character	5039	0	"c(""1042429"", ""987699"")"
+13	14	cdna_id	cDNA ID	dbl	numeric	double	4993	46	c(1, 6095)
+14	15	batch_no	Batch Number	dbl	numeric	double	348	46	c(173, 7455)
+15	16	volume	Volume	dbl	numeric	double	8	46	c(110, 400)
+16	17	virus1	Virus 1	chr	character	character	31	0	"c("""", ""rsv b"")"
+17	18	virus2	Virus 2	chr	character	character	28	0	"c("""", ""rsv b"")"
+18	19	virus3	Virus 3	chr	character	character	13	0	"c("""", ""piv2"")"
+19	20	virus4	Virus 4	chr	character	character	6	0	"c("""", ""env"")"
+20	21	virus5	Virus 5	chr	character	character	2	0	"c("""", "".m"")"
+21	22	virus6	Virus 6	chr	character	character	2	0	"c("""", "".m"")"
+22	23	hrv_status	HRV PCR	chr	character	character	6	0	"c("""", ""positive"")"
+23	24	hrv_type	Type	chr	character	character	92	0	"c("""", ""w48*"")"
+24	25	species	Species	chr	character	character	12	0	"c("""", ""enterovirus"")"
+25	26	virus		chr	character	character	13	0	"c("""", ""rsv"")"
+26	27	avisit		dbl	numeric	double	10	1847	c(12, 120)
+27	28	multiple	More than 1 virus detected	dbl	numeric	double	3	46	c(0, 1)
+28	29	DATE_COLLECTED_DY		dbl	numeric	double	2065	0	c(7, 3841)
+29	30	DATE_SCORE_DY		dbl	numeric	double	2051	6	c(6, 3841)
+30	31	DATE_ONSET_DY		dbl	numeric	double	1406	2713	c(-30398, 3826)
+31	32	DATE_BIRTH_DY		dbl	numeric	double	41	0	c(-81, 0)
+32	33	ADATEEXTRACTED_DY		dbl	numeric	double	2224	46	c(58, 4015)
+33	34	ADATERT_DY		dbl	numeric	double	2227	46	c(58, 4015)

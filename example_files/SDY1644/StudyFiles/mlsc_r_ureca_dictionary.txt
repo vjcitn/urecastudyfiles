@@ -1,0 +1,36 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	490	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""MLSC"", ""MLSC"")"
+3	4	evid	evid	dbl	numeric	double	984	0	c(30732, 63227)
+4	5	event	event	chr	character	character	3	0	"c(""108-Month Clinic Visit"", ""72-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	4	0	"c("".x"", ""72"")"
+8	9	MLSC_q1	Been In A Serious Disaster	dbl	numeric	double	3	46	c(0, 1)
+9	10	MLSC_q2	Been In A Serious Accident	dbl	numeric	double	3	46	c(0, 1)
+10	11	MLSC_q3	Served In A War Zone Or Noncombat Job	dbl	numeric	double	3	46	c(0, 1)
+11	12	MLSC_q4	Witnessed Violence Between Family Members	dbl	numeric	double	3	46	c(0, 1)
+12	13	MLSC_q5	Someone Close Died Suddenly Or Unexpectedly	dbl	numeric	double	3	46	c(0, 1)
+13	14	MLSC_q6	Parents Separate Or Divorce When You Were Living With Them	dbl	numeric	double	3	46	c(0, 1)
+14	15	MLSC_q7	Put In Foster Care Or Put Up For Adoption	dbl	numeric	double	3	46	c(0, 1)
+15	16	MLSC_q8	Ever Been Robbed Mugged Or Physically Attacked By Someone You Did Not Know	dbl	numeric	double	3	47	c(0, 1)
+16	17	MLSC_q9	Ever Been Abused Or Physically Attacked By Someone You Knew	dbl	numeric	double	3	47	c(0, 1)
+17	18	MLSC_q10	Ever Had A Life Threatening Illness	dbl	numeric	double	3	46	c(0, 1)
+18	19	MLSC_q11	Ever Experienced A Seriously Traumatic Event	dbl	numeric	double	3	46	c(0, 1)
+19	20	MLSC_q12	Were You Seriously Injured Or Fear You Might Be Seriously Injured	dbl	numeric	double	3	298	c(0, 1)
+20	21	MLSC_q13	Witness A Situation In Which Someone Was Seriously Injured Or Killed Or Feared Someone Else Would Be Seriously Injured Or Killed	dbl	numeric	double	3	298	c(0, 1)
+21	22	MLSC_q14a1	Prior to when you were pregnant with child?	dbl	numeric	double	3	327	c(0, 1)
+22	23	MLSC_q14a2	During the time when you were pregnant with child?	dbl	numeric	double	3	327	c(0, 1)
+23	24	MLSC_q14a3	When child was less than 1 year old	dbl	numeric	double	3	325	c(0, 1)
+24	25	MLSC_q14a4	From the time child was age 1 year to 3 years	dbl	numeric	double	3	325	c(0, 1)
+25	26	MLSC_q14a5	From the time child was older than 3 years	dbl	numeric	double	3	325	c(0, 1)
+26	27	MLSC_q15	Avoid Being Reminded Of Experience	dbl	numeric	double	3	322	c(0, 1)
+27	28	MLSC_q16	Lose Interest In Activities That Were Once Important Or Enjoyable	dbl	numeric	double	3	322	c(0, 1)
+28	29	MLSC_q17	Begin To Feel More Isolated Or Distant From Other People	dbl	numeric	double	3	322	c(0, 1)
+29	30	MLSC_q18	Find It Hard To Feel Love Or Affection For Other People	dbl	numeric	double	3	322	c(0, 1)
+30	31	MLSC_q19	Begin To Feel There Was No Point In Planning For The Future	dbl	numeric	double	3	323	c(0, 1)
+31	32	MLSC_q20	Having More Trouble Than Usual Falling Asleep Or Staying Asleep	dbl	numeric	double	3	325	c(0, 1)
+32	33	MLSC_q21	Become Jumpy Or Get Easily Startled	dbl	numeric	double	3	323	c(0, 1)
+33	34	MLSC_q22	Affected Life In The Past Year	dbl	numeric	double	6	323	c(1, 5)
+34	35	aCompletionDY	Completion Day	dbl	numeric	double	259	45	c(1531, 3459)

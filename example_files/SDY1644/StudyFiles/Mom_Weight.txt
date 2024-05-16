@@ -1,0 +1,207 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2012 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C Visness           06/01/06        Created Program as part of BirthRecord
+*   C Visness           06/01/17        Separated out maternal weight component and
+*                                       included maternal weight from all annual visits
+*                                       Creates a wide dataset of maternal weight from all time points
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=MaternalWeight,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+proc sort data=master.mrah out=mrah; by studyid;
+proc sort data=master.mw out=mw; by studyid;
+proc sort data=master.sem out=sem; by studyid;
+proc sort data=master.br out=br; by studyid;
+
+
+**maternal weight and pregnancy weight gain;
+proc sort data=mrah nodupkey out=mrah2 ; by studyid;
+proc sort data=mw nodupkey out=mw2 ; by studyid;
+proc sort data=sem nodupkey out=sem2 ; by studyid;
+proc sort data=br nodupkey out=br2 ; by studyid;
+
+
+data weight;
+merge    mw2 (keep=studyid mw_q1--mw_q4) 
+      mrah2 (keep=studyid mrah_q12) 
+      br2 (keep=studyid studyid br_q2a br_q19 in=b) 
+      sem2 (keep=studyid sem_q6_3 sem_q5_2);
+by studyid;
+if b;
+if studyid='.m' then delete; 
+ 
+site=substr(studyid, 4, 2); 
+
+if sem_q5_2=1 then group='Atopic    ';
+else if sem_q5_2=2 then group='Non-atopic';
+
+if nmiss (br_q19,mrah_q12) = 0 then preg_gain1=br_q19-mrah_q12;  
+if nmiss (br_q19,mw_q1) = 0 then preg_gain2=br_q19-(mw_q1*2.2);    
+if nmiss (br_q19,mw_q2) = 0 then preg_gain3=br_q19-(mw_q2*2.2);
+if nmiss (br_q19,mw_q3) = 0 then preg_gain4=br_q19-(mw_q3*2.2); 
+if nmiss(mw_q1) = 0 then pre_wt=mw_q1*2.2;
+if nmiss(mw_q2) = 0 then frst_wt=mw_q2*2.2;
+if nmiss(mw_q3) = 0 then wk20_wt=mw_q3*2.2;
+
+if nmiss(sem_q6_3, mw_q1a) = 0 then wkgest_prepreg=int(40-((sem_q6_3-mw_q1a)/7));
+if nmiss(sem_q6_3, mw_q2a) = 0 then wkgest_1stpren=int(40-((sem_q6_3-mw_q2a)/7));
+if nmiss(sem_q6_3, mw_q3a) = 0 then wkgest_20weeks=int(40-((sem_q6_3-mw_q3a)/7));
+
+label preg_gain1='Pregnancy weight gain based on maternal report of pre-pregnancy weight'
+      preg_gain2='Pregnancy weight gain based on medical record'
+      preg_gain3='Pregnancy weight gain from first prenatal visit'
+      preg_gain4='Pregnancy weight gain from 20 weeks gestation'
+      pre_wt='Pre-pregnancy weight from medical record'
+      frst_wt='Weight at first prenatal visit'
+      wk20_wt='Weight at 20 weeks'
+      wkgest_prepreg='Week before gestation when non-pregnant recorded'
+      wkgest_1stpren='Week of gestation first weight taken'
+      wkgest_20weeks='Week closest to 20 weight taken';
+
+rename   mrah_q12=prepreg_wt
+         br_q2a=date_birth
+         br_q19=deliv_wt
+         sem_q6_3=due_date;
+
+/*NOTE: The medical record pre-pregnancy data is really problematic and is excluded from the derived dataset */
+
+keep studyid group mrah_q12 sem_q6_3 br_q2a br_q19 preg_gain1 frst_wt wkgest_1stpren preg_gain3 wkgest_20weeks wk20_wt preg_gain4;
+
+proc freq;
+tables group;
+run;
+
+proc print label data=weight (obs=20);
+var studyid group prepreg_wt due_date date_birth deliv_wt preg_gain1 frst_wt wkgest_1stpren preg_gain3 wkgest_20weeks wk20_wt preg_gain4;
+run;
+
+**get maternal weight from annual visits in first 3 years (stopped measuring moms at that point);
+
+proc sort data=master.pe out=pe; by studyid avisit;
+
+data pe12 pe24 pe36;
+set pe;
+if studyid ne '.m' and avisit ne '.x';
+keep studyid aCompletionDate pe_q1a pe_q1b pe_q2 mom_bmi;
+if nmiss(pe_q1b,pe_q1a) = 0 then mom_bmi=pe_q1b/((pe_q1a/100)**2);
+if avisit='12' then output pe12;
+if avisit='24' then output pe24;
+if avisit='36' then output pe36;
+label mom_bmi='Mother BMI';
+run;
+
+data pe_all;
+merge pe12 (rename= (aCompletionDate=m12_date pe_q1a=mom_height12 pe_q1b=mom_weight12 pe_q2=mom_preg12 mom_bmi=mom_bmi12))
+      pe24 (rename= (aCompletionDate=m24_date pe_q1a=mom_height24 pe_q1b=mom_weight24 pe_q2=mom_preg24 mom_bmi=mom_bmi24))
+      pe36 (rename= (aCompletionDate=m36_date pe_q1a=mom_height36 pe_q1b=mom_weight36 pe_q2=mom_preg36 mom_bmi=mom_bmi36));
+by studyid;
+
+if nmiss(mom_height12, mom_height24, mom_height36) ^= 3 then mean_ht=mean(mom_height12, mom_height24, mom_height36);  *just to be sure we get a height, some are missed;
+format mean_ht 5.1;
+
+run;
+
+**save derived dataset;
+
+data mom_weight;
+merge weight pe_all;
+by studyid;
+
+if nmiss(prepreg_wt, mean_ht) = 0 
+   then mom_bmi_pre=(prepreg_wt/2.2)/((mean_ht/100)**2);  *Pre-pregnancy weight collected in pounds, not kilos;
+
+label mom_bmi_pre = 'Mother pre-pregnancy BMI'
+      mean_ht = 'Mean height of 3 visits'
+      m12_date =   'Completion Date (12 month visit)'                                    
+      mom_height12 ='Mothers Exam - Height (12 month visit)'                              
+      mom_weight12 ='Mothers Exam - Weight (12 month visit)'                             
+      mom_preg12 =  'Mother is Currently Pregnant (12 month visit)'                     
+      mom_bmi12  =  'Mother BMI (12 month visit)'                                        
+      m24_date   =  'Completion Date (24 month visit)'                                   
+      mom_height24= 'Mothers Exam - Height (24 month visit)'                              
+      mom_weight24= 'Mothers Exam - Weight (24 month visit)'                              
+      mom_preg24 =  'Mother is Currently Pregnant (24 month visit)'                      
+      mom_bmi24  =  'Mother BMI (24 month visit)'                                       
+      m36_date   =  'Completion Date (36 month visit)'                                   
+      mom_height36= 'Mothers Exam - Height (36 month visit)'                              
+      mom_weight36 ='Mothers Exam - Weight (36 month visit)'                              
+      mom_preg36 =  'Mother is Currently Pregnant (36 month visit)'                       
+      mom_bmi36= 'Mother BMI (36 month visit)';
+run;                           
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisitn = 0 ;
+  if avisitn =0 then year=1;
+  output;
+ end;
+ keep studyid recruitid site ;
+run;
+
+ /*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=mom_weight       ; by studyid ; run ;
+proc sort data=shell     ; by studyid ; run ;
+
+data derive.mom_weight;
+ merge shell mom_weight(in=b) ;
+ by studyid  ;
+ if b=1 then mom_weight = 1 ; else mom_weight = 0 ;
+run;
+
+
+ods select Position;
+proc contents data=derive.mom_weight position; run;
+run;
+ods select default;
+
+* Save log and output files, must be ordered out then log;
+dm WPGM "out; print file=output replace;" WPGM;
+dm WPGM "log; print file=log replace;" WPGM;
+
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.mom_weight
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+

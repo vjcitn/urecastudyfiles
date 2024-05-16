@@ -1,0 +1,39 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	3	0	c(60, 108)
+5	6	year		dbl	numeric	double	3	0	c(5, 9)
+6	7	evid	evid	dbl	numeric	double	940	888	c(30732, 63227)
+7	8	event	event	chr	character	character	4	0	"c("""", ""72-Month Clinic Visit"")"
+8	9	version	version	chr	character	character	3	0	"c("""", ""1.1"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	aStudyID	Study ID	chr	character	character	484	0	"c("""", ""[ID Redacted]"")"
+11	12	MLSC_q1	Been In A Serious Disaster	dbl	numeric	double	3	889	c(0, 1)
+12	13	MLSC_q2	Been In A Serious Accident	dbl	numeric	double	3	889	c(0, 1)
+13	14	MLSC_q3	Served In A War Zone Or Noncombat Job	dbl	numeric	double	3	889	c(0, 1)
+14	15	MLSC_q4	Witnessed Violence Between Family Members	dbl	numeric	double	3	889	c(0, 1)
+15	16	MLSC_q5	Someone Close Died Suddenly Or Unexpectedly	dbl	numeric	double	3	889	c(0, 1)
+16	17	MLSC_q6	Parents Separate Or Divorce When You Were Living With Them	dbl	numeric	double	3	889	c(0, 1)
+17	18	MLSC_q7	Put In Foster Care Or Put Up For Adoption	dbl	numeric	double	3	889	c(0, 1)
+18	19	MLSC_q8	Ever Been Robbed Mugged Or Physically Attacked By Someone You Did Not Know	dbl	numeric	double	3	890	c(0, 1)
+19	20	MLSC_q9	Ever Been Abused Or Physically Attacked By Someone You Knew	dbl	numeric	double	3	890	c(0, 1)
+20	21	MLSC_q10	Ever Had A Life Threatening Illness	dbl	numeric	double	3	889	c(0, 1)
+21	22	MLSC_q11	Ever Experienced A Seriously Traumatic Event	dbl	numeric	double	3	889	c(0, 1)
+22	23	MLSC_q12	Were You Seriously Injured Or Fear You Might Be Seriously Injured	dbl	numeric	double	3	1141	c(0, 1)
+23	24	MLSC_q13	Witness A Situation In Which Someone Was Seriously Injured Or Killed Or Feared Someone Else Would Be Seriously Injured Or Killed	dbl	numeric	double	3	1141	c(0, 1)
+24	25	MLSC_q15	Avoid Being Reminded Of Experience	dbl	numeric	double	3	1165	c(0, 1)
+25	26	MLSC_q16	Lose Interest In Activities That Were Once Important Or Enjoyable	dbl	numeric	double	3	1165	c(0, 1)
+26	27	MLSC_q17	Begin To Feel More Isolated Or Distant From Other People	dbl	numeric	double	3	1165	c(0, 1)
+27	28	MLSC_q18	Find It Hard To Feel Love Or Affection For Other People	dbl	numeric	double	3	1165	c(0, 1)
+28	29	MLSC_q19	Begin To Feel There Was No Point In Planning For The Future	dbl	numeric	double	3	1166	c(0, 1)
+29	30	MLSC_q20	Having More Trouble Than Usual Falling Asleep Or Staying Asleep	dbl	numeric	double	3	1168	c(0, 1)
+30	31	MLSC_q21	Become Jumpy Or Get Easily Startled	dbl	numeric	double	3	1166	c(0, 1)
+31	32	affected_life	Affected Life In The Past Year	dbl	numeric	double	6	1166	c(1, 5)
+32	33	lifestress_score		dbl	numeric	double	11	889	c(0, 9)
+33	34	worst_event_score		dbl	numeric	double	9	1165	c(0, 7)
+34	35	traumatic_score		dbl	numeric	double	4	1141	c(0, 2)
+35	36	worst_event_timing		chr	character	character	7	0	"c("""", ""prior to pregnancy"")"
+36	37	mom_lifestress		dbl	numeric	double	2	0	c(0, 1)
+37	38	ACOMPLETIONDATE_DY		dbl	numeric	double	282	888	c(1531, 3429)

@@ -1,0 +1,29 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	studyid	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	recruitid	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	1	0	c(12, 12)
+5	6	stimulant		chr	character	character	6	0	"c(""CR"", ""TT"")"
+6	7	il_4		dbl	numeric	double	1405	879	c(0.12, 5000)
+7	8	rep_il_4		dbl	numeric	double	2	0	c(1, 2)
+8	9	il_5		dbl	numeric	double	1290	879	c(0.12, 2131.37)
+9	10	rep_il_5		dbl	numeric	double	2	0	c(1, 2)
+10	11	il_10		dbl	numeric	double	1552	879	c(0.12, 13923.18)
+11	12	rep_il_10		dbl	numeric	double	2	0	c(1, 2)
+12	13	il_13		dbl	numeric	double	1512	879	c(0.12, 19680.66)
+13	14	rep_il_13		dbl	numeric	double	2	0	c(1, 2)
+14	15	ifn_g		dbl	numeric	double	1678	879	c(0.12, 81500)
+15	16	rep_ifn_g		dbl	numeric	double	2	0	c(1, 2)
+16	17	D_il_4		dbl	numeric	double	3	879	c(0, 1)
+17	18	D_il_5		dbl	numeric	double	3	879	c(0, 1)
+18	19	D_il_10		dbl	numeric	double	3	879	c(0, 1)
+19	20	D_il_13		dbl	numeric	double	3	879	c(0, 1)
+20	21	D_ifn_g		dbl	numeric	double	3	879	c(0, 1)
+21	22	il_4_l		dbl	numeric	double	1405	879	c(-0.920818753952375, 3.69897000433602)
+22	23	il_5_l		dbl	numeric	double	1290	879	c(-0.920818753952375, 3.32865884859262)
+23	24	il_10_l		dbl	numeric	double	1552	879	c(-0.920818753952375, 4.14373843776926)
+24	25	il_13_l		dbl	numeric	double	1512	879	c(-0.920818753952375, 4.29403965860507)
+25	26	ifn_g_l		dbl	numeric	double	1678	879	c(-0.920818753952375, 4.91115760873998)
+26	27	momcytoadaptive		dbl	numeric	double	2	0	c(0, 1)
+27	28	APROCDATE_DY		dbl	numeric	double	1	3654	

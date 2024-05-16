@@ -1,0 +1,55 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	505	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ML2"", ""ML2"")"
+3	4	evid	evid	dbl	numeric	double	12042	0	c(24972, 66484)
+4	5	event	event	chr	character	character	26	0	"c(""102-Month Call"", ""Adverse Events"")"
+5	6	version	version	chr	character	character	5	0	"c(""1.0"", ""1.4"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	26	0	"c("".x"", ""99"")"
+8	9	ML2_q1	Medications Since Last Visit?	dbl	numeric	double	3	12073	c(0, 1)
+9	10	ML2_q1_1	Other Medications Since Last Visit?	dbl	numeric	double	3	530	c(0, 1)
+10	11	ML2_q1a	Total Number of Medications	dbl	numeric	double	13	6242	c(1, 13)
+11	12	ML2_q2b	Medication # 1 - Dose	chr	character	character	101	0	"c("",a"", ""tsp"")"
+12	13	ML2_q2c	Medication # 1 - Freq	chr	character	character	10	0	"c("".a"", ""tid"")"
+13	14	ML2_q2d	Medication #1 - Route	chr	character	character	8	0	"c("".a"", ""to"")"
+14	15	ML2_q2e	Medication #1 - Number of Days Taken	chr	character	character	640	0	"c(""'2 days'"", ""was 3x's a week. now everyday"")"
+15	16	ML2_q2f	Medication #1 - Total Days Taken	dbl	numeric	double	156	6244	c(0, 270)
+16	17	ML2_q2g	Medication # 1 - Indication	dbl	numeric	double	3	6242	c(1, 2)
+17	18	ML2_q3b	Medication # 2 - Dose	chr	character	character	85	0	"c("",a"", ""top"")"
+18	19	ML2_q3c	Medication # 2 - Freq	chr	character	character	10	0	"c("".a"", ""tid"")"
+19	20	ML2_q3d	Medication #2 - Route	chr	character	character	9	0	"c("".a"", ""to"")"
+20	21	ML2_q3e	Medication #2 - Number of Days Taken	chr	character	character	437	0	"c(""'3 days'"", ""when needed"")"
+21	22	ML2_q3f	Medication #2 - Total Days Taken	dbl	numeric	double	144	9005	c(0, 270)
+22	23	ML2_q3g	Medication # 2 - Indication	dbl	numeric	double	3	9002	c(1, 2)
+23	24	ML2_q4b	Medication # 3 - Dose	chr	character	character	58	0	"c("".a"", ""tb/2"")"
+24	25	ML2_q4c	Medication # 3 - Freq	chr	character	character	10	0	"c("".a"", ""tid"")"
+25	26	ML2_q4d	Medication #3 - Route	chr	character	character	7	0	"c("".a"", ""to"")"
+26	27	ML2_q4e	Medication #3 - Number of Days Taken	chr	character	character	299	0	"c(""'1 dose'"", ""week and a half"")"
+27	28	ML2_q4f	Medication #3 - Total Days Taken	dbl	numeric	double	136	10416	c(1, 270)
+28	29	ML2_q4g	Medication #3 - Indication	dbl	numeric	double	3	10414	c(1, 2)
+29	30	ML2_q5b	Medication #4 - Dose	chr	character	character	49	0	"c("""", ""tb"")"
+30	31	ML2_q5c	Medication #4 - Freq	chr	character	character	9	0	"c("".a"", ""tid"")"
+31	32	ML2_q5d	Medication #4 - Route	chr	character	character	6	0	"c("".a"", ""to"")"
+32	33	ML2_q5e	Medication #4 - Number of Days Taken	chr	character	character	190	0	"c(""'5 days a week'"", ""x1"")"
+33	34	ML2_q5f	Medication #4 - Total Days Taken	dbl	numeric	double	113	11238	c(0, 175)
+34	35	ML2_q5g	Medication #4 - Indication	dbl	numeric	double	3	11234	c(1, 2)
+35	36	ML2_q6b	Medication #5 - Dose	chr	character	character	29	0	"c("",a"", ""tab/1"")"
+36	37	ML2_q6c	Medication #5 - Freq	chr	character	character	9	0	"c("".a"", ""tid"")"
+37	38	ML2_q6d	Medication #5 - Route	chr	character	character	6	0	"c("".a"", ""to"")"
+38	39	ML2_q6e	Medication #5- Number of Days Taken	chr	character	character	135	0	"c(""'daily'"", ""two"")"
+39	40	ML2_q6f	Medication #5 - Total Days Taken	dbl	numeric	double	98	11640	c(1, 228)
+40	41	ML2_q6g	Medication #5 - Indication	dbl	numeric	double	3	11640	c(1, 2)
+41	42	ML2_q7b	Medication #6 - Dose	chr	character	character	14	0	"c("".a"", ""tab"")"
+42	43	ML2_q7c	Medication #6 - Freq	chr	character	character	7	0	"c("".a"", ""tid"")"
+43	44	ML2_q7d	Medication #6 - Route	chr	character	character	5	0	"c("".a"", ""to"")"
+44	45	ML2_q7e	Medication #6 -Number of Days Taken	chr	character	character	87	0	"c(""'daily'"", ""two times"")"
+45	46	ML2_q7f	Medication #6 - Total Days Taken	dbl	numeric	double	61	11857	c(1, 165)
+46	47	ML2_q7g	Medication #6 - Indication	dbl	numeric	double	3	11857	c(1, 2)
+47	48	ML2_q8b	Medication #7 - Dose	chr	character	character	12	0	"c("".a"", ""tab/1"")"
+48	49	ML2_q8c	Medication #7 - Freq	chr	character	character	6	0	"c("".a"", ""tid"")"
+49	50	ML2_q8d	Medication #7 - Route	chr	character	character	4	0	"c("".a"", ""po"")"
+50	51	ML2_q8e	Medication #7 - Number of Days Taken	chr	character	character	60	0	"c(""'every day'"", ""twice per week"")"
+51	52	ML2_q8f	Medication #7 - Total Days Taken	dbl	numeric	double	53	11966	c(1, 165)
+52	53	ML2_q8g	Medication #7 - Indication	dbl	numeric	double	3	11966	c(1, 2)
+53	54	aVisitDY	Visit Day	dbl	numeric	double	1985	513	c(1343, 3871)

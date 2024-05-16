@@ -1,0 +1,35 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	592	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PMF"", ""PMF"")"
+3	4	evid	evid	dbl	numeric	double	1056	0	c(293, 49959)
+4	5	event	event	chr	character	character	1	0	"c(""Pollution Monitoring Pickup"", ""Pollution Monitoring Pickup"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	3	0	"c("".x"", ""pm"")"
+8	9	PMF_q1	Number of Persons Smoking in Home in Past 14 days	dbl	numeric	double	14	112	c(0, 50)
+9	10	PMF_q1a1	Smoker 1 - Number of Cigarettes Smoked in Home Per Day	dbl	numeric	double	22	617	c(0, 60)
+10	11	PMF_q1a2	Smoker 2 - Number of Cigarettes Smoked in Home Per Day	dbl	numeric	double	18	836	c(0, 40)
+11	12	PMF_q1b1	Smoker 1 - Number of Cigars Smoked in Home Per Day	dbl	numeric	double	11	611	c(0, 20)
+12	13	PMF_q1b2	Smoker 2 - Number of Cigars Smoked in Home Per Day	dbl	numeric	double	9	834	c(0, 20)
+13	14	PMF_q2	Gas, Kerosene Space Heater, or Gas Log Fireplace Used in Home Past 14 Days	dbl	numeric	double	3	111	c(0, 1)
+14	15	PMF_q2a	Gas or Kerosene Space Heater Vented To Outside	dbl	numeric	double	3	1037	c(0, 1)
+15	16	PMF_q2b	Number of Hours Per Day Gas or Kerosene Space Heater Used	dbl	numeric	double	9	1037	c(1, 24)
+16	17	PMF_q3	Gas Oven or Stove Used to Heat Home in Past 14 Days	dbl	numeric	double	3	111	c(0, 1)
+17	18	PMF_q3a	Number of Hours Per Day Gas Oven or Stove Used	dbl	numeric	double	11	986	c(1, 24)
+18	19	PMF_q4	Windows Open in Past 14 Days	dbl	numeric	double	3	111	c(0, 1)
+19	20	PMF_q4a	Number of Hours Per Day Windows Were Open	dbl	numeric	double	21	458	c(1, 24)
+20	21	PMF_q5	Air Conditioner Used in Home Past 14 Days	dbl	numeric	double	3	111	c(0, 1)
+21	22	PMF_q5a	Number of Hours Per Day Air Conditioner Used	dbl	numeric	double	21	709	c(1, 24)
+22	23	PMF_q6	Air Cleaner Used in Home Past 14 Days	dbl	numeric	double	3	111	c(0, 1)
+23	24	PMF_q6a	Number of Hours Per Day Air Cleaner Was Used	dbl	numeric	double	10	1033	c(1, 24)
+24	25	PMF_q6b1	Type of Air Cleaner - Ozone Generator	dbl	numeric	double	2	1033	c(0, 0)
+25	26	PMF_q6b2	Type of Air Cleaner - HEPA Filter	dbl	numeric	double	3	1033	c(0, 1)
+26	27	PMF_q6b3	Type of Air Cleaner - Electrostatic	dbl	numeric	double	3	1033	c(0, 1)
+27	28	PMF_q6b4	Type of Air Cleaner - Negative Ion Generator	dbl	numeric	double	3	1033	c(0, 1)
+28	29	PMF_q6b5	Type of Air Cleaner - Other/Unable To Determine Type	dbl	numeric	double	3	1033	c(0, 1)
+29	30	PMF_q6c	Air Cleaner in Same Room as Pollution Monitoring Devices	dbl	numeric	double	3	1033	c(0, 1)
+30	31	PMF_q7	Exhaust Fan Used For Cooking Activity in Past 7 Days	dbl	numeric	double	3	111	c(0, 1)
+31	32	PMF_q8	Nicotine Sampler - Time Returned to Storage Bottle	time	"c(""hms"", ""difftime"")"	double	331	109	c(3300, 83580)
+32	33	PMF_q11	Ogawa Monitor - Time Returned to Storage Bottle	time	"c(""hms"", ""difftime"")"	double	410	108	c(3300, 83580)
+33	34	aCompletionDY	Completion Day	dbl	numeric	double	365	105	c(78, 1863)

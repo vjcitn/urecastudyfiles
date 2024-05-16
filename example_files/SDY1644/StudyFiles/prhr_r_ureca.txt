@@ -1,0 +1,598 @@
+Accession	group	form	evid	event	version	status	aVisit	PRHR_q1	PRHR_q1a	PRHR_q1b1	PRHR_q1b2	PRHR_q1b3	PRHR_q1b4	PRHR_q2a	PRHR_q2b	PRHR_q3a	PRHR_q3b	PRHR_q3c	PRHR_q3d	PRHR_q3e	PRHR_q4	PRHR_q4a	PRHR_q4b	PRHR_q5	PRHR_q6a	PRHR_q6b	PRHR_q6c	PRHR_q6d	PRHR_q6e	PRHR_q6f	PRHR_q7	PRHR_q8a	PRHR_q8b	PRHR_q8c	PRHR_q9	PRHR_q9a	PRHR_q10b1	PRHR_q10b2	PRHR_q10b3	PRHR_q10b4	PRHR_q10b5	PRHR_q10b6	PRHR_q10b7	PRHR_q10b8	PRHR_q10b9	PRHR_q10b10	PRHR_q10b11	PRHR_q11	PRHR_q12a	PRHR_q13b	PRHR_q14	aCompletionDY
+SUB230862	Atopic	PRHR	292	3-Month Home Visit	1.1	complete	3	1	1					0	1	0	0	0	0	0	1	0	1	0							0				1	1	1	0	0	0	0	0	0	0	0	0	0		.o			92
+SUB230863	Atopic	PRHR	306	3-Month Home Visit	1.1	complete	3	1	3	0	1	1	0	0	1	0	0	1	1	0	0			0							1	0	0	0	1	2	0	0	0	0	0	1	0	0	0	0	0		.o			111
+SUB230864	Atopic	PRHR	320	3-Month Home Visit	1.1	missing	.x																																										.o			
+SUB230865	Atopic	PRHR	334	3-Month Home Visit	1.1	complete	3	1	3	1	1	0	0	1	0	0	0	0	0	1	1	1	1	0							0				0		0	0	0	0	0	1	0	0	0	0	0		.o			95
+SUB230866	Atopic	PRHR	575	3-Month Home Visit	1.2	complete	3	0						0	1	0	0	0	0	0	1	0	1	0							0				1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			101
+SUB230867	Atopic	PRHR	589	3-Month Home Visit	1.2	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	1	0	0	0	0	0	1	0	0	0	0	0		.n			98
+SUB230868	Atopic	PRHR	787	3-Month Home Visit	1.2	complete	3	1	3	1	1	0	1	0	0	0	0	0	0	0	0			0							0				0		0	0	0	0	0	1	0	0	0	0	0		.n			92
+SUB230869	Atopic	PRHR	801	3-Month Home Visit	1.1	complete	3	1	3	1	1	0	0	1	0	0	0	0	0	1	1	1	1	0							0				0		0	0	0	0	0	1	0	0	0	0	0		.o			95
+SUB230870	Atopic	PRHR	837	3-Month Home Visit	1.3	complete	3	1	2					0	0	0	0	0	0	0	0			0							0				1	1	0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB230871	Atopic	PRHR	852	3-Month Home Visit	1.2	complete	3	0						0	1	0	0	0	1	1	1	1	1	1	1	1	0	0	0	0	1	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0		.n			81
+SUB230872	Atopic	PRHR	874	3-Month Home Visit	1.2	complete	3	0						0	1	0	0	0	0	0	1	1	0	0							0				1	2	0	0	0	0	0	1	0	0	0	1	0	0	.a			73
+SUB230873	Atopic	PRHR	888	3-Month Home Visit	1.2	complete	3	0						1	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	1	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0		.n			81
+SUB230874	Atopic	PRHR	902	3-Month Home Visit	1.3	complete	3	1	3	1	1	0	0	1	1	0	0	1	1	0	0			0							1	0	1	1	1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			83
+SUB230875	Atopic	PRHR	916	3-Month Home Visit	1.1	complete	3	0						0	1	0	0	0	0	0	1	0	1	0							1	0	0	0	1	2	0	0	0	0	0	1	0	0	0	0	0		.o			69
+SUB230876	Atopic	PRHR	971	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0				1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			69
+SUB230877	Atopic	PRHR	1063	3-Month Home Visit	1.3	complete	3	0						0	1	0	0	0	0	0	0			0							1	1	0	0	1	2	0	0	0	0	0	0	1	0	0	0	0	0	.a			78
+SUB230880	Atopic	PRHR	1492	3-Month Home Visit	1.3	complete	3	1	3	1	1	1	0	1	1	0	0	1	0	0	0			0							1	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB230881	Atopic	PRHR	1594	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	1	0			0							0				1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			95
+SUB230882	Atopic	PRHR	1768	3-Month Home Visit	1.3	complete	3	1	3	1	1	0	0	0	0	0	0	0	0	0	0			0							1	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	.a			65
+SUB230883	Atopic	PRHR	1782	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							0				0		0	0	0	0	0	1	0	0	0	0	0	0	.a			106
+SUB230884	Atopic	PRHR	1808	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	1	1	0	1	1	1	1	0	0	0	0	0				1	2	0	0	0	0	0	1	0	0	0	1	0	0	.a			85
+SUB230885	Atopic	PRHR	1848	3-Month Home Visit	1.3	complete	3	1	1					1	1	0	0	0	0	0	0			0							0				1	4	0	0	0	0	0	1	0	0	0	0	0	0	.a			76
+SUB230886	Atopic	PRHR	2103	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	2	0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	2	0	86
+SUB230887	Atopic	PRHR	2119	3-Month Home Visit	1.3	complete	3	1	3	1	1	0	0	0	1	0	0	1	0	0	1	0	1	0							1	0	0	1	1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			93
+SUB230888	Atopic	PRHR	2171	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB230889	Atopic	PRHR	2187	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	1	0	0	1	1	0	1	1	1	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB230890	Atopic	PRHR	2203	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1	1	3	0	0	0	0	0	0	1	0	0	0	0	0	.a			74
+SUB230891	Atopic	PRHR	2225	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			116
+SUB230892	Atopic	PRHR	2283	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			103
+SUB230893	Atopic	PRHR	2465	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			109
+SUB230894	Atopic	PRHR	2629	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			100
+SUB230895	Atopic	PRHR	2645	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			89
+SUB230896	Atopic	PRHR	2671	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	0	120
+SUB230897	Atopic	PRHR	2749	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	1	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB230898	Atopic	PRHR	2787	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			74
+SUB230899	Atopic	PRHR	2998	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			81
+SUB230900	Atopic	PRHR	3014	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	1	0	1	1	1	1	1	1	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			66
+SUB230901	Atopic	PRHR	3030	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			127
+SUB230902	Atopic	PRHR	3046	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			108
+SUB230903	Atopic	PRHR	3105	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			68
+SUB230904	Atopic	PRHR	3127	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	1	0	0	1	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			91
+SUB230905	Atopic	PRHR	3274	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			106
+SUB230906	Atopic	PRHR	3310	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	0	0	0	1	0	0	0	0	0	0	0	.a			116
+SUB230907	Atopic	PRHR	3350	3-Month Home Visit	1.4	complete	3	0						0	1	0	1	0	1	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB230908	Atopic	PRHR	3377	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB230909	Atopic	PRHR	3461	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			78
+SUB230910	Atopic	PRHR	3477	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	0	1	0	0	0	1	0	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			162
+SUB230911	Atopic	PRHR	3542	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	6	0	95
+SUB230912	Atopic	PRHR	3588	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			90
+SUB230913	Atopic	PRHR	3615	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			129
+SUB230914	Atopic	PRHR	3631	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			129
+SUB230915	Atopic	PRHR	3650	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			74
+SUB230916	Atopic	PRHR	3723	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	0	1	0	0	0	1	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			109
+SUB230917	Atopic	PRHR	3743	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			124
+SUB230918	Atopic	PRHR	3783	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	1	0			1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			104
+SUB230919	Atopic	PRHR	3799	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB230920	Atopic	PRHR	3848	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			101
+SUB230921	Atopic	PRHR	3909	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			79
+SUB230922	Atopic	PRHR	3963	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	1	1	1	0	0	0	0	1	1	1	1	1	1	1	1	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	77
+SUB230923	Atopic	PRHR	4060	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB230924	Atopic	PRHR	4086	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			72
+SUB230925	Atopic	PRHR	4214	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			108
+SUB230926	Atopic	PRHR	4357	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB230927	Atopic	PRHR	4650	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230928	Atopic	PRHR	4675	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	1	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			85
+SUB230929	Atopic	PRHR	4715	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230930	Atopic	PRHR	4802	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230932	Atopic	PRHR	5189	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			88
+SUB230933	Atopic	PRHR	5337	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							1	0	0	0			0	0	0	0	0	0	0	0	0	0	1	0	.a			66
+SUB230934	Atopic	PRHR	5353	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	72
+SUB230935	Atopic	PRHR	5372	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			79
+SUB230936	Atopic	PRHR	5525	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			83
+SUB230937	Atopic	PRHR	5648	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	1	1	1	1	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			69
+SUB230938	Atopic	PRHR	5797	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	0	0	0	0	0	1	0	.a			71
+SUB230939	Atopic	PRHR	5932	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	1	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			74
+SUB230940	Atopic	PRHR	5950	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	0	0	1	0	0	0	0	1	0			0							0						0	0	0	0	0	0	0	1	0	0	0	0	.a			80
+SUB230941	Atopic	PRHR	6063	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			114
+SUB230942	Atopic	PRHR	6079	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	1	0	1	1	1	1	1	0	0	0	0	0	1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB230943	Atopic	PRHR	6096	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			75
+SUB230944	Atopic	PRHR	6113	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230945	Atopic	PRHR	6198	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	1	1	0	0	0	0	0	1	1	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			121
+SUB230946	Atopic	PRHR	6360	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	100
+SUB230947	Atopic	PRHR	6449	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	0	0	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			68
+SUB230948	Atopic	PRHR	6466	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	0	1	1	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			123
+SUB230949	Atopic	PRHR	6487	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	1	1	0	0	1	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			129
+SUB230950	Atopic	PRHR	6620	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	0	1	1	1	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			104
+SUB230951	Atopic	PRHR	6645	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	83
+SUB230952	Atopic	PRHR	6714	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			113
+SUB230953	Atopic	PRHR	6731	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	80
+SUB230954	Atopic	PRHR	6901	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			98
+SUB230955	Atopic	PRHR	7033	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			75
+SUB230956	Atopic	PRHR	7108	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB230957	Atopic	PRHR	7401	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	0	1	0	1	1	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			80
+SUB230958	Atopic	PRHR	7485	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			110
+SUB230959	Atopic	PRHR	7509	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			83
+SUB230960	Atopic	PRHR	7543	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	0			0							0						0	0	0	0	0	0	0	1	0	0	0	0	.a			86
+SUB230961	Atopic	PRHR	7616	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	0	0	0	0	0	1	0	.a			127
+SUB230962	Atopic	PRHR	7927	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			89
+SUB230963	Atopic	PRHR	7959	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			122
+SUB230964	Atopic	PRHR	8010	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	1	0			1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB230965	Atopic	PRHR	8042	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	1	0			1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB230966	Atopic	PRHR	8176	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			103
+SUB230967	Atopic	PRHR	8218	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			83
+SUB230968	Atopic	PRHR	8257	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230969	Atopic	PRHR	8584	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	76
+SUB230970	Atopic	PRHR	8883	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	0	0	1	0	0	0						0	0	0	0	0	0	0	1	0	0	0	0	.a			83
+SUB230971	Atopic	PRHR	8899	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230972	Atopic	PRHR	9136	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			113
+SUB230973	Atopic	PRHR	9152	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	1	0	1	1	0	1	1	1	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB230974	Atopic	PRHR	9208	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	1	0	0	0	0	0	0	0	0	0	.a			114
+SUB230975	Atopic	PRHR	9256	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			125
+SUB230976	Atopic	PRHR	9406	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			88
+SUB230977	Atopic	PRHR	9632	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			95
+SUB230978	Atopic	PRHR	9719	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB230979	Atopic	PRHR	9776	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230980	Atopic	PRHR	9829	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			98
+SUB230981	Atopic	PRHR	10065	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	0	1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			112
+SUB230982	Atopic	PRHR	10096	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			103
+SUB230983	Atopic	PRHR	10114	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	0	1	0	0	0	0	1	0	1	1	1	1	1	1	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			122
+SUB230984	Atopic	PRHR	10164	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230985	Atopic	PRHR	10365	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230986	Atopic	PRHR	10382	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	1	0	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB230987	Atopic	PRHR	10604	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	1	0	0	0	0	.a			94
+SUB230988	Atopic	PRHR	10715	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB230989	Atopic	PRHR	11324	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			94
+SUB230990	Atopic	PRHR	11340	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			84
+SUB230991	Atopic	PRHR	11377	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB230992	Atopic	PRHR	11515	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB230993	Atopic	PRHR	11531	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			116
+SUB230994	Atopic	PRHR	11841	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			80
+SUB230995	Atopic	PRHR	11871	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			94
+SUB230996	Atopic	PRHR	11887	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			126
+SUB230997	Atopic	PRHR	12021	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB230998	Atopic	PRHR	12061	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	1	0	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			91
+SUB230999	Non-atopic	PRHR	12089	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			85
+SUB231000	Atopic	PRHR	12250	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			136
+SUB231001	Atopic	PRHR	12269	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB231002	Atopic	PRHR	12380	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			117
+SUB231003	Atopic	PRHR	12414	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			106
+SUB231004	Atopic	PRHR	12499	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			98
+SUB231005	Atopic	PRHR	12659	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			91
+SUB231006	Atopic	PRHR	12740	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			93
+SUB231007	Atopic	PRHR	12761	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			89
+SUB231008	Atopic	PRHR	13004	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	1	1	1	1	1	1	1	0	0	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			108
+SUB231009	Atopic	PRHR	13082	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	1	1	0	1	1	1	0	0	0	0	0	1	0	0	0			1	0	1	0	0	0	0	0	0	0	0	0	.a			77
+SUB231010	Non-atopic	PRHR	13118	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			76
+SUB231011	Atopic	PRHR	13144	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			100
+SUB231012	Atopic	PRHR	13179	3-Month Home Visit	1.4	complete	3	0						1	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			79
+SUB231013	Atopic	PRHR	13386	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	0	0	0	0	0	1	0	.a			98
+SUB231014	Atopic	PRHR	13405	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			115
+SUB231015	Non-atopic	PRHR	13468	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			84
+SUB231016	Atopic	PRHR	13634	3-Month Home Visit	1.4	complete	3	1	3	1	1	0	0	1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB231017	Non-atopic	PRHR	13693	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			94
+SUB231018	Atopic	PRHR	13725	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231019	Atopic	PRHR	13937	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB231020	Atopic	PRHR	14158	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231021	Atopic	PRHR	14307	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	0	99
+SUB231022	Non-atopic	PRHR	14316	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			93
+SUB231023	Non-atopic	PRHR	15400	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB231024	Non-atopic	PRHR	16269	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			101
+SUB231025	Atopic	PRHR	16697	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	0	1	1	1	0	0	0	0	1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB231026	Atopic	PRHR	16731	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			81
+SUB231027	Atopic	PRHR	399	3-Month Home Visit	1.2	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	4	0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB231028	Atopic	PRHR	1098	3-Month Home Visit	1.3	complete	3	1	2					1	1	0	0	0	0	0	1	0	1	0							0				1	1	0	0	0	0	0	1	0	0	0	0	0	0	.a			78
+SUB231029	Atopic	PRHR	1215	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	0	1	1	1	1	1	1	0	0	0	0	1	0	0	0	1	4	0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231030	Atopic	PRHR	1430	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			167
+SUB231031	Atopic	PRHR	1472	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	1	0	0	0	0	0	0	1	0	0	0	0	0	.a			96
+SUB231032	Atopic	PRHR	1508	3-Month Home Visit	1.3	complete	3	1	3	1	0	1	0	0	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	1	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	.a			119
+SUB231033	Atopic	PRHR	1731	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	0	1	0	0	0	0	0	.a			127
+SUB231035	Atopic	PRHR	1828	3-Month Home Visit	1.3	complete	3	1	3	1	0	0	0	1	1	0	0	0	0	0	0			1	1	0	0	0	1	0	0				1	2	0	0	0	0	1	0	0	1	0	0	1	0	.a			90
+SUB231036	Atopic	PRHR	1937	3-Month Home Visit	1.4	complete	3	1	3	0	1	1	0	0	1	0	0	0	0	0	1	0	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			118
+SUB231037	Atopic	PRHR	2325	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231038	Atopic	PRHR	2343	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231039	Atopic	PRHR	2427	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	1	0	0	0	0			1	0	0	0	0	0	0	1	0	0	0			0	0	0	0	0	1	1	0	0	0	0	0	.a			84
+SUB231040	Atopic	PRHR	2525	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	1	0	.a			101
+SUB231041	Atopic	PRHR	2718	3-Month Home Visit	1.4	complete	3	0						0	0	0	1	0	0	0	1	1	0	1	1	1	0	1	0	0	0						0	0	0	0	0	0	1	0	0	0	0	0	.a			71
+SUB231042	Atopic	PRHR	2838	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			88
+SUB231043	Atopic	PRHR	2856	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			83
+SUB231044	Atopic	PRHR	2872	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	1	0	0	0	0	0	0	0	0	0	0	.a			90
+SUB231045	Atopic	PRHR	3067	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	1	0	0	0	0	0	.a			75
+SUB231046	Atopic	PRHR	3083	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231047	Atopic	PRHR	3143	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			107
+SUB231048	Atopic	PRHR	3294	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	0	0	0	0	1	1	1	1	0	1	1	1	0	0	0	0	0						0	0	0	0	0	1	0	1	0	0	0	0	.a			80
+SUB231049	Atopic	PRHR	3493	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231050	Atopic	PRHR	3509	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231051	Atopic	PRHR	3525	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0						0	0	0	0	0	1	0	0	0	1	0	0	.a			81
+SUB231052	Atopic	PRHR	4493	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	1	0	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			85
+SUB231053	Atopic	PRHR	4509	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	1	0	0	0	0	.a			81
+SUB231054	Atopic	PRHR	4526	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	0	1	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			132
+SUB231055	Atopic	PRHR	4543	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			93
+SUB231056	Atopic	PRHR	4946	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231057	Atopic	PRHR	9664	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231058	Atopic	PRHR	5419	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	0	0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			107
+SUB231059	Atopic	PRHR	5544	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	1	1	[ID Redacted]	3	0	73
+SUB231060	Atopic	PRHR	5560	3-Month Home Visit	1.4	complete	3	0						1	1	1	0	0	0	0	1	1	0	1	1	0	1	0	1	0	0						1	0	0	0	0	0	0	0	0	0	0	0	.a			131
+SUB231061	Atopic	PRHR	5580	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			64
+SUB231062	Atopic	PRHR	5680	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231063	Atopic	PRHR	5696	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	1	1	0	0	0	1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231064	Atopic	PRHR	5815	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	1	0	0	1	1	1	1	1	1	0	0	0	0	1	1	0	0			0	0	0	0	0	0	1	0	0	1	0	0	.a			83
+SUB231065	Atopic	PRHR	6045	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231066	Atopic	PRHR	6682	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231067	Atopic	PRHR	6698	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	0	1	0	0	0	0	0	.a			130
+SUB231068	Atopic	PRHR	6942	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	0	0	0	0	1	0	0	0	0	0	0	.a			90
+SUB231069	Atopic	PRHR	6958	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231070	Atopic	PRHR	6974	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231071	Atopic	PRHR	7057	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			69
+SUB231072	Atopic	PRHR	7273	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	1	1	1	1	1	1	0	0	0	0	0						1	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB231073	Atopic	PRHR	7289	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231074	Atopic	PRHR	7356	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231075	Atopic	PRHR	7564	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	1	1	0	1	1	0	1	1	1	1	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			72
+SUB231076	Atopic	PRHR	8071	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231077	Atopic	PRHR	8090	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231078	Atopic	PRHR	8348	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231079	Atopic	PRHR	8364	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	0	0	0	0	0	0	0	0			1	1	0	0	0	0	0	0						1	0	0	0	0	0	0	0	0	0	1	0	.a			80
+SUB231080	Atopic	PRHR	8380	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231081	Atopic	PRHR	8396	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231082	Atopic	PRHR	8412	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	0	0	0	0	0	0	0	.a			75
+SUB231083	Atopic	PRHR	8428	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			79
+SUB231084	Atopic	PRHR	8708	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231085	Atopic	PRHR	9230	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	1	0	0	0			0							0						0	0	1	0	0	0	0	0	0	0	0	0	.a			150
+SUB231086	Atopic	PRHR	9297	3-Month Home Visit	1.4	complete	3	1	3	0	1	1	0	0	1	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			102
+SUB231087	Atopic	PRHR	9329	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	1	1	0	0	1	1	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			126
+SUB231088	Atopic	PRHR	9465	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231090	Atopic	PRHR	9536	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			74
+SUB231091	Atopic	PRHR	9552	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231092	Atopic	PRHR	9616	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231093	Atopic	PRHR	9648	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB231094	Atopic	PRHR	9966	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	1	0	0			0							0						1	0	0	0	0	1	0	0	0	0	0	0	.a			104
+SUB231095	Atopic	PRHR	10484	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	0	1	1	0	0	0	0	1	1	1	1	1	1	1	0	0	0	0	1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231096	Atopic	PRHR	10504	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	0	1	1	0			0							0						0	0	0	0	1	0	0	0	0	0	0	0	.a			84
+SUB231097	Atopic	PRHR	10549	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231098	Atopic	PRHR	10741	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	0	1	1	0	0	0	0	0	1	0	1	1	1	1	1	0	0	0	0						0	0	0	1	0	0	0	0	0	0	0	0	.a			82
+SUB231099	Atopic	PRHR	10757	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	1	0	0	0			1	0	0	0	0	0	0	0	0	0	0	0	.a			99
+SUB231100	Atopic	PRHR	10773	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			73
+SUB231101	Atopic	PRHR	10789	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	0	1	0	0	0	0	0	.a			126
+SUB231102	Atopic	PRHR	10806	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	1	1	1	0	0	0	0	0	1	0	1	0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			76
+SUB231103	Atopic	PRHR	10825	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	0	0	0	0			0							0						0	0	0	0	1	1	0	0	0	0	0	0	.a			105
+SUB231104	Atopic	PRHR	10844	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			114
+SUB231105	Atopic	PRHR	10860	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231106	Atopic	PRHR	10902	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231107	Atopic	PRHR	11110	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	1	0	1	0	0	0	0	1	1	1	1	0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			117
+SUB231108	Atopic	PRHR	11174	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	1	0	0	0	0	0	0	0	.a			133
+SUB231109	Atopic	PRHR	11361	3-Month Home Visit	1.4	complete	3	1	3	1	1	0	0	1	1	0	0	1	0	0	1	0	1	1	1	0	0	0	0	0	1	1	0	0			0	0	0	0	0	1	0	1	0	0	0	0	.a			94
+SUB231110	Atopic	PRHR	11489	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	0	0	0	0	0	0	0	.a			94
+SUB231111	Atopic	PRHR	11602	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB231112	Atopic	PRHR	11618	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231113	Atopic	PRHR	11655	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	0	1	0	0	0	0	0	.a			86
+SUB231114	Atopic	PRHR	11671	3-Month Home Visit	1.4	complete	3	1	2					0	0	1	0	1	0	1	1	1	1	1	1	1	1	0	0	0	0						0	0	0	0	0	0	1	1	0	0	0	0	.a			79
+SUB231115	Atopic	PRHR	12082	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			81
+SUB231116	Atopic	PRHR	12169	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			83
+SUB231117	Atopic	PRHR	12185	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	1	0	.a			139
+SUB231118	Atopic	PRHR	12201	3-Month Home Visit	1.4	complete	3	1	3	1	1	0	0	0	1	0	0	0	0	1	1	1	1	0							0						1	0	0	0	0	1	0	0	0	0	0	0	.a			132
+SUB231119	Atopic	PRHR	12430	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	0	1	1	1	0	0	1	0	1	1	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			80
+SUB231120	Atopic	PRHR	12544	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	0	0	0	0	0	0	0	1	1	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			89
+SUB231121	Atopic	PRHR	12567	3-Month Home Visit	1.4	complete	3	0						1	0	0	0	0	1	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231122	Atopic	PRHR	12583	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231123	Atopic	PRHR	12599	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	1	0	0	0	0	0	0	.a			102
+SUB231124	Atopic	PRHR	12622	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	0	0	1	0	0	0	0	.a			137
+SUB231125	Atopic	PRHR	12642	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	1	1	0	1	1	1	1	1	0	0	0	0	0	1	1	0	0			0	0	0	0	0	0	0	0	0	1	1	1	[ID Redacted]	1	0	142
+SUB231126	Atopic	PRHR	12808	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231127	Atopic	PRHR	12824	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	0	1	0	0	1	0	0	0			0							0						0	0	0	0	0	0	1	0	0	0	0	0	.a			76
+SUB231128	Atopic	PRHR	12872	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	1	0							0						0	1	0	0	0	0	0	0	0	0	0	0	.a			85
+SUB231129	Non-atopic	PRHR	12879	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231130	Atopic	PRHR	12904	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			100
+SUB231131	Atopic	PRHR	13036	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	0	0	0	0	1	0	1	[ID Redacted]	1	0	125
+SUB231132	Atopic	PRHR	13199	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	1	0	0	0			0							0						1	0	0	0	1	0	0	0	0	0	0	0	.a			116
+SUB231133	Atopic	PRHR	13286	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	1	0	0			0							0						0	0	0	0	1	0	0	0	0	0	0	0	.a			94
+SUB231134	Atopic	PRHR	13460	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			130
+SUB231135	Atopic	PRHR	13528	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			98
+SUB231136	Atopic	PRHR	13615	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	1	0	0	1	0	1	0							1	0	0	1			1	0	0	0	0	0	0	0	0	0	0	0	.a			77
+SUB231137	Atopic	PRHR	13826	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			134
+SUB231138	Atopic	PRHR	13913	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	1	0	0	1	1	1	1	1	0	0	0	0	0	1	0	0	0			1	1	0	0	0	0	0	0	0	0	0	0	.a			78
+SUB231139	Atopic	PRHR	13958	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	0	0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			104
+SUB231140	Atopic	PRHR	14204	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	0	1	0	0	0	0	0	.a			82
+SUB231141	Atopic	PRHR	14236	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	1	0	1	0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			88
+SUB231142	Atopic	PRHR	14256	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231143	Non-atopic	PRHR	14390	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231144	Atopic	PRHR	14415	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	1	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			93
+SUB231145	Non-atopic	PRHR	14422	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			80
+SUB231146	Atopic	PRHR	14447	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	1	0	1	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			110
+SUB231147	Non-atopic	PRHR	14488	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	1	0	.a			119
+SUB231148	Atopic	PRHR	14513	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	0	1	0	1	1	0						0	0	0	0	0	0	0	1	0	0	0	0	.a			84
+SUB231149	Atopic	PRHR	14567	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	0	0	0	1	1	1	1	1	1	0	0	0	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			132
+SUB231150	Atopic	PRHR	14759	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	1	0	0	0	0	0	.a			125
+SUB231151	Non-atopic	PRHR	14767	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	0	0	0	0	0	0	0	.a			91
+SUB231152	Atopic	PRHR	14792	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231153	Non-atopic	PRHR	14800	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			124
+SUB231154	Non-atopic	PRHR	14856	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			91
+SUB231155	Atopic	PRHR	14883	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	0	0	0	1	0	0	0	.a			122
+SUB231156	Non-atopic	PRHR	15041	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			115
+SUB231157	Non-atopic	PRHR	15173	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			112
+SUB231158	Non-atopic	PRHR	15193	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			103
+SUB231159	Atopic	PRHR	15220	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231160	Atopic	PRHR	15328	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231161	Atopic	PRHR	15361	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	1	0	0	1	0	1	0							0						0	0	0	0	0	0	0	1	0	0	1	0	.a			79
+SUB231162	Atopic	PRHR	15389	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231163	Atopic	PRHR	15528	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	1	0	0	0	0	.a			80
+SUB231164	Atopic	PRHR	15544	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	0	0	1	0	0	0	0	.a			102
+SUB231165	Atopic	PRHR	15560	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			110
+SUB231166	Atopic	PRHR	15944	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231167	Atopic	PRHR	16014	3-Month Home Visit	1.4	complete	3	1	3	0	1	1	0	0	1	0	0	0	0	0	0			0							0						0	1	0	0	0	0	0	0	0	0	0	0	.a			81
+SUB231168	Atopic	PRHR	16674	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			117
+SUB231169	Non-atopic	PRHR	19293	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			106
+SUB231170	Non-atopic	PRHR	17506	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			67
+SUB231171	Non-atopic	PRHR	18890	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	1	0	0	0	0	0	.a			66
+SUB231172	Non-atopic	PRHR	18972	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	1	0	0	0	0	0	0	0	0	0	.a			78
+SUB231173	Atopic	PRHR	490	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	1	0	0	0	0	0	1	0	0	0	0	0	0	.a			113
+SUB231174	Atopic	PRHR	504	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0				1	3	0	0	0	0	0	1	1	0	0	0	0	0	.a			100
+SUB231175	Atopic	PRHR	759	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	1	1	0	1	1	1	1	0	0	0	0	0				1	1	1	0	0	1	0	0	0	0	0	0	0	0	.a			110
+SUB231176	Atopic	PRHR	773	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	1	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	13	0	0	0	0	0	1	0	0	0	0	1	0	.a			105
+SUB231177	Atopic	PRHR	998	3-Month Home Visit	1.3	complete	3	1	3	1	0	1	1	0	0	0	0	0	0	0	0			0							1	1	0	0	1	2	1	0	0	0	0	0	0	0	0	0	0	0	.a			111
+SUB231178	Atopic	PRHR	1012	3-Month Home Visit	1.3	complete	3	1	3	0	1	0	0	0	1	0	0	0	1	1	0			0							1	1	0	0	1	7	1	0	0	1	0	0	0	0	0	0	0	0	.a			118
+SUB231179	Atopic	PRHR	1042	3-Month Home Visit	1.3	complete	3	1	2					0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0				1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			114
+SUB231180	Atopic	PRHR	1079	3-Month Home Visit	1.3	complete	3	1	3	1	0	0	0	0	0	0	0	0	0	0	0			0							0				1	2	1	0	0	0	0	1	0	0	0	0	0	0	.a			118
+SUB231181	Atopic	PRHR	1185	3-Month Home Visit	1.3	missing	.x																																										.x			
+SUB231182	Atopic	PRHR	1416	3-Month Home Visit	1.3	complete	3	0						1	0	0	0	0	0	0	0			0							0				1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB231183	Atopic	PRHR	1571	3-Month Home Visit	1.3	complete	3	1	1					1	1	0	0	0	0	0	0			1	1	1	0	0	1	0	1	0	0	0	1	4	1	0	0	0	0	0	0	1	0	0	0	0	.a			92
+SUB231184	Atopic	PRHR	1681	3-Month Home Visit	1.3	complete	3	1	2					1	1	0	0	0	0	0	0			0							0				1	2	0	0	0	0	0	1	1	1	0	0	0	0	.a			91
+SUB231185	Atopic	PRHR	1880	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	1	1	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						1	0	0	0	0	0	0	0	0	0	0	0	.a			120
+SUB231186	Atopic	PRHR	2026	3-Month Home Visit	1.4	complete	3	1	1					1	1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	1	0	1	0			1	0	0	0	1	0	0	0	0	0	0	0	.a			90
+SUB231187	Atopic	PRHR	2305	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	0	0	1	1	0	0	0	0	0	0	0	.a			89
+SUB231188	Atopic	PRHR	2700	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	0			1	0	0	0	0	1	0	0	0	0		0	.a			81
+SUB231189	Atopic	PRHR	2770	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231190	Atopic	PRHR	2949	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	1	0	0	0			1	0	1	0	0	0	0	0	0	0	0	0	.a			70
+SUB231191	Atopic	PRHR	3177	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	0	0	0	1	1	0	1	0	1	1	1	1	1	1	1	1	0	0	0						1	0	0	0	0	1	0	0	0	0	0	0	.a			121
+SUB231192	Atopic	PRHR	3418	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	0							0						0	1	0	1	0	0	0	0	0	0	0	0	.a			117
+SUB231193	Atopic	PRHR	3688	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231194	Atopic	PRHR	3826	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	1	0	0	0	0	0	0	.a			102
+SUB231195	Atopic	PRHR	3983	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231196	Atopic	PRHR	4030	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			91
+SUB231197	Atopic	PRHR	4140	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	1	1	1	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			112
+SUB231198	Atopic	PRHR	4337	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			126
+SUB231199	Atopic	PRHR	4834	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	1	0	0			1	0	0	0	0	1	0	0	0	0	0	0	.a			134
+SUB231200	Atopic	PRHR	4881	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231201	Atopic	PRHR	5169	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	1	1	1	0	0	1	0	0	1	0	0	1	1	1	1	0	1	1	1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			94
+SUB231202	Atopic	PRHR	5292	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231203	Atopic	PRHR	5309	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231204	Atopic	PRHR	5842	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	0			1	1	0	1	1	0	0	0						1	0	0	0	0	1	0	0	0	0	0	0	.a			131
+SUB231205	Atopic	PRHR	5874	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231206	Atopic	PRHR	6166	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	1	0	0	0			0							0						1	0	1	0	0	0	0	0	0	0	0	0	.a			132
+SUB231207	Atopic	PRHR	6182	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	1	0	0	0	0	0	0	.a			128
+SUB231208	Atopic	PRHR	6261	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231209	Atopic	PRHR	6396	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231210	Atopic	PRHR	6505	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			125
+SUB231211	Atopic	PRHR	6569	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231212	Atopic	PRHR	6864	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			109
+SUB231213	Atopic	PRHR	7188	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	1	1	0	0	0	0	0	0			1	1	0	0	0	0	0	0						1	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB231214	Atopic	PRHR	7256	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						1	0	0	0	0	0	0	0	0	0	0	1	[ID Redacted]	3	0	88
+SUB231215	Atopic	PRHR	7424	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231216	Atopic	PRHR	7586	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231217	Atopic	PRHR	7733	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231218	Atopic	PRHR	7763	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231219	Atopic	PRHR	7779	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231220	Atopic	PRHR	7869	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231221	Atopic	PRHR	7986	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							1	0	0	0			1	0	0	0	1	1	0	0	0	0	0	0	.a			119
+SUB231222	Atopic	PRHR	8153	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231223	Atopic	PRHR	8318	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	1	0	0	0	0	0	0						0	0	0	0	0	1	1	0	0	0	0	0	.a			132
+SUB231224	Atopic	PRHR	8518	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	1	1	0	0	0	.a			134
+SUB231225	Atopic	PRHR	8540	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	1	0	0	0	0	0	0						1	0	0	0	0	0	0	0	0	0	0	1	[ID Redacted]	3	0	131
+SUB231226	Atopic	PRHR	8767	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231227	Atopic	PRHR	8783	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			1	1	0	0	0	0	0	0						1	1	0	0	0	0	0	0	0	0	0	0	.a			133
+SUB231228	Atopic	PRHR	8815	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231229	Atopic	PRHR	8835	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231230	Atopic	PRHR	8851	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						0	1	0	0	0	0	0	1	0	0	0	0	.a			135
+SUB231232	Atopic	PRHR	8991	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB231233	Atopic	PRHR	9081	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	1	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			123
+SUB231234	Atopic	PRHR	9097	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0						1	0	0	0	0	1	0	0	0	0	0	0	.a			68
+SUB231235	Atopic	PRHR	9313	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231236	Atopic	PRHR	9359	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231237	Atopic	PRHR	9677	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	1	0	0			1	0	0	0	0	0	0	0	0	0	0	0	.a			125
+SUB231238	Atopic	PRHR	9929	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	1	1	0	0	1	0	0	.a			131
+SUB231239	Atopic	PRHR	10049	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231240	Atopic	PRHR	10180	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231241	Atopic	PRHR	10249	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	1	0	0	0	0	0	0	0	.a			127
+SUB231242	Atopic	PRHR	10433	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231243	Atopic	PRHR	10450	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	1	0	0	1	0	0	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	0			0	0	0	0	0	1	1	0	0	0	0	0	.a			118
+SUB231244	Atopic	PRHR	10467	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231245	Atopic	PRHR	4477	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231246	Atopic	PRHR	10970	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	0	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			136
+SUB231247	Atopic	PRHR	10994	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			125
+SUB231248	Atopic	PRHR	11193	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231249	Atopic	PRHR	11209	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231250	Atopic	PRHR	11228	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231251	Atopic	PRHR	11307	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	0	1	1	0	0	1	0	0	1	0	1	1	1	1	0	0	0	0	0						1	0	0	0	0	0	0	0	0	0	0	0	.a			138
+SUB231252	Atopic	PRHR	11548	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	0	0	0	0	0	1	1	0	1	1	1	1	1	0	1	0	0	0	1	1	0	0			1	0	0	0	0	1	0	0	0	1	0	0	.a			129
+SUB231253	Atopic	PRHR	11564	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	1	0	0	0	0	0	0	0	0	.a			91
+SUB231254	Atopic	PRHR	11687	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231255	Atopic	PRHR	11719	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			98
+SUB231256	Atopic	PRHR	11758	3-Month Home Visit	1.4	complete	3	1	3	1	1	0	0	0	0	0	0	0	0	0	1	0	1	1	1	0	1	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			128
+SUB231257	Atopic	PRHR	11925	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB231258	Atopic	PRHR	12045	3-Month Home Visit	1.4	complete	3	0						1	0	0	0	0	0	0	1	0	1	1	1	0	1	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			132
+SUB231259	Atopic	PRHR	12359	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231260	Atopic	PRHR	12724	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	0	1	1	0	0	0	0	0	1	1	1	0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			98
+SUB231261	Atopic	PRHR	12944	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	0			0							0						0	1	0	0	0	1	0	0	0	0	0	0	.a			134
+SUB231262	Atopic	PRHR	12960	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	0	0	0	0	0	0	0	.a			131
+SUB231263	Atopic	PRHR	13056	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			130
+SUB231264	Atopic	PRHR	13261	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231265	Atopic	PRHR	13544	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231266	Atopic	PRHR	13660	3-Month Home Visit	1.4	complete	3	1	3	1	0	1	0	1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0						1	0	0	0	1	0	0	1	0	0	0	0	.a			83
+SUB231267	Atopic	PRHR	13676	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231268	Atopic	PRHR	13778	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			129
+SUB231269	Atopic	PRHR	13871	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231270	Atopic	PRHR	14096	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231271	Atopic	PRHR	14114	3-Month Home Visit	1.4	complete	3	1	3	0	1	1	0	1	1	0	0	0	0	0	0			0							0						1	0	0	0	1	0	0	0	0	0	0	0	.a			124
+SUB231272	Atopic	PRHR	14183	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231273	Atopic	PRHR	14354	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			134
+SUB231274	Atopic	PRHR	14474	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231275	Atopic	PRHR	14550	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			132
+SUB231276	Atopic	PRHR	14661	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			130
+SUB231277	Non-atopic	PRHR	14682	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231278	Non-atopic	PRHR	14700	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	1	0	0	0	0	0	0	0	0	0	0	.a			120
+SUB231279	Atopic	PRHR	14918	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	1	0	.a			133
+SUB231280	Non-atopic	PRHR	14993	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	0	1	0	0	0	0	0	0	0	0	0	.a			131
+SUB231281	Atopic	PRHR	15103	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231282	Atopic	PRHR	15436	3-Month Home Visit	1.4	complete	3	0						1	1	1	0	0	0	0	1	0	1	1	1	0	0	1	1	0	0						1	0	0	0	0	1	0	0	0	0	0	0	.a			118
+SUB231283	Atopic	PRHR	15640	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			117
+SUB231284	Atopic	PRHR	15691	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						1	1	0	0	0	0	0	0	0	0	0	0	.a			87
+SUB231285	Non-atopic	PRHR	15706	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	1	0	0	0	0	0	0	0	0	0	0	.a			133
+SUB231286	Atopic	PRHR	15754	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	1	1	0	1	1	1	0	0	0	0	0						1	0	0	0	0	0	0	1	0	0	1	0	.a			133
+SUB231287	Non-atopic	PRHR	15782	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	1	0	1	0	.a			102
+SUB231288	Atopic	PRHR	16089	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						1	1	0	0	0	0	0	0	0	0	0	0	.a			113
+SUB231289	Atopic	PRHR	16120	3-Month Home Visit	1.4	complete	3	1	2					1	0	0	0	0	0	0	0			0							0						1	0	0	0	0	1	1	0	0	0	0	0	.a			108
+SUB231290	Atopic	PRHR	16238	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	1	0	0	0	1	0	0			0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231291	Atopic	PRHR	16383	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			104
+SUB231292	Atopic	PRHR	16490	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	0			0							0						0	0	0	0	1	0	1	0	0	0	0	0	.a			84
+SUB231293	Atopic	PRHR	431	3-Month Home Visit	1.2	complete	3	1	2					0	0	0	0	0	0	0	0			0							0				1	3	0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	0	99
+SUB231294	Atopic	PRHR	448	3-Month Home Visit	1.2	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB231295	Atopic	PRHR	462	3-Month Home Visit	1.3	complete	3	1	3	1	1	1	1	1	1	1	0	0	0	1	1	1	1	1	1	0	1	0	0	0	0				1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			143
+SUB231296	Atopic	PRHR	476	3-Month Home Visit	1.3	complete	3	0						1	0	0	0	1	0	0	1	1	1	1	1	1	1	0	1	0	0				1	9	0	0	0	0	0	1	0	0	0	0	0	0	.a			109
+SUB231297	Atopic	PRHR	552	3-Month Home Visit	1.3	complete	3	1	3	0	1	1	1	1	1	0	0	1	1	1	1	0	1	1	1	0	0	0	1	0	0				1	4	0	0	0	0	0	1	0	0	0	0	0	0	.a			101
+SUB231298	Atopic	PRHR	671	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	1	0	0	1	0	1	0							1	0	0	1	1	2	0	0	0	0	0	0	0	1	0	0	0	0	.a			88
+SUB231299	Atopic	PRHR	685	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0				1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231300	Atopic	PRHR	1112	3-Month Home Visit	1.3	complete	3	1	3	1	0	0	0	1	1	1	0	1	0	1	1	1	1	1	1	0	1	0	1	1	1	0	0	0	1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			93
+SUB231301	Atopic	PRHR	1126	3-Month Home Visit	1.3	complete	3	0						1	0	0	0	0	0	0	0			0							0				1	4	0	0	0	0	0	1	0	1	0	1	0	0	.a			88
+SUB231302	Atopic	PRHR	1256	3-Month Home Visit	1.3	complete	3	1	2					0	0	0	0	0	1	0	0			0							0				1	4	0	0	0	0	0	1	0	0	0	0	0	0	.a			81
+SUB231303	Atopic	PRHR	1271	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	1	1	2	0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB231304	Atopic	PRHR	1285	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	1	0			0							0				1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			114
+SUB231305	Atopic	PRHR	1320	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	1	0	1	1	0	1	1	1	1	0	0	0	1	0				1	5	0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231306	Atopic	PRHR	1360	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							0				1	4	0	0	0	0	0	1	0	0	0	0	0	0	.a			78
+SUB231307	Atopic	PRHR	1444	3-Month Home Visit	1.3	complete	3	0						0	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0	1	1	7	0	0	0	0	0	1	0	0	0	0	0	0	.a			109
+SUB231308	Atopic	PRHR	1458	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	0	0	0			0							0				1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB231309	Atopic	PRHR	1554	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231310	Atopic	PRHR	1645	3-Month Home Visit	1.3	complete	3	0						0	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0				1	3	0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB231311	Atopic	PRHR	1864	3-Month Home Visit	1.3	complete	3	0						1	1	0	0	0	1	0	1	1	1	1	1	0	0	0	1	0	0				1	6	0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB231312	Atopic	PRHR	1896	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			109
+SUB231313	Atopic	PRHR	1914	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	0	0							1	1	0	0			0	0	0	0	0	1	0	0	0	1	0	0	.a			115
+SUB231314	Atopic	PRHR	1953	3-Month Home Visit	1.4	complete	3	0						1	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB231315	Atopic	PRHR	2001	3-Month Home Visit	1.4	complete	3	0						0	1	0	1	0	0	0	1	1	0	1	1	0	0	1	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB231316	Atopic	PRHR	2042	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0				1	2	0	0	0	0	0	1	0	0	0	1	0	1	[ID Redacted]	1	0	75
+SUB231317	Atopic	PRHR	2075	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			103
+SUB231318	Atopic	PRHR	2267	3-Month Home Visit	1.3	complete	3	0						0	0	0	0	0	0	0	0			0							0				0		0	0	0	0	0	1	0	0	0	0	0	0	.a			64
+SUB231319	Atopic	PRHR	2366	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			95
+SUB231320	Atopic	PRHR	2395	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	1	1	1	1	1	1	1	1	1	0	0	1	1	1	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231321	Atopic	PRHR	2445	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231322	Atopic	PRHR	2567	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231323	Atopic	PRHR	2891	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	1	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			76
+SUB231324	Atopic	PRHR	2907	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	1	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			66
+SUB231325	Atopic	PRHR	2927	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			76
+SUB231326	Atopic	PRHR	3161	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			98
+SUB231327	Atopic	PRHR	3193	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			95
+SUB231328	Atopic	PRHR	3209	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			90
+SUB231329	Atopic	PRHR	3225	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	0	0	0	0	0	0	0	1	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231330	Atopic	PRHR	3445	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			66
+SUB231331	Atopic	PRHR	3672	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	0	1	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			90
+SUB231332	Atopic	PRHR	3706	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	1	1	1	1	1	1	0	0	0	0	1	0	0	1			0	0	0	0	0	1	0	1	0	0	0	0	.a			80
+SUB231333	Atopic	PRHR	3892	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231334	Atopic	PRHR	3927	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			72
+SUB231336	Atopic	PRHR	3999	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			102
+SUB231337	Atopic	PRHR	4276	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			79
+SUB231338	Atopic	PRHR	4403	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	1	1	1	0	1	0	0	0	0	0	0	1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			74
+SUB231339	Atopic	PRHR	4419	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB231340	Atopic	PRHR	4446	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						1	0	0	0	0	0	0	0	0	0	0	0	.a			94
+SUB231341	Atopic	PRHR	4629	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB231342	Atopic	PRHR	4695	3-Month Home Visit	1.4	complete	3	0						1	1	1	1	0	1	1	1	1	0	1	1	0	1	0	1	1	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			71
+SUB231343	Atopic	PRHR	4857	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	1	0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	1	0	0	0	0	.a			79
+SUB231345	Atopic	PRHR	4975	3-Month Home Visit	1.4	complete	3	1	3	1	1	0	0	1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	0	70
+SUB231346	Atopic	PRHR	4995	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			128
+SUB231347	Atopic	PRHR	5208	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			118
+SUB231348	Atopic	PRHR	5257	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231350	Atopic	PRHR	5439	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231351	Atopic	PRHR	5472	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231352	Atopic	PRHR	5600	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231353	Atopic	PRHR	5616	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	0	1	1	1	1	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231354	Atopic	PRHR	5632	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	1	0	0	0	0	.a			125
+SUB231355	Atopic	PRHR	5664	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231356	Atopic	PRHR	5712	3-Month Home Visit	1.4	complete	3	1	1					0	0	1	0	1	0	0	1	0	1	1	1	0	1	0	0	0	0						0	0	0	0	0	0	0	1	0	0	1	0	.a			82
+SUB231357	Atopic	PRHR	5858	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	1	1	1	1	0	1	1	0	1	1	1	1	1	0	1	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			106
+SUB231358	Atopic	PRHR	5895	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	1	1	1	1	1	1	1	0	1	1	1	0	0						0	0	0	0	0	1	0	0	0	1	0	0	.a			131
+SUB231359	Atopic	PRHR	5915	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	1	0	0	1	0	1	0	1	0	0	.a			72
+SUB231360	Atopic	PRHR	5968	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231361	Atopic	PRHR	6028	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			89
+SUB231362	Atopic	PRHR	6131	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231363	Atopic	PRHR	6299	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB231364	Atopic	PRHR	6331	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			128
+SUB231365	Atopic	PRHR	6431	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			71
+SUB231366	Atopic	PRHR	6586	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			88
+SUB231367	Atopic	PRHR	6603	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			125
+SUB231368	Atopic	PRHR	6757	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			90
+SUB231369	Atopic	PRHR	6807	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			86
+SUB231370	Atopic	PRHR	6926	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231371	Atopic	PRHR	7080	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	1	1	1	0	1	0	0	0	1	1	1	1	1	1	0	1	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			84
+SUB231372	Atopic	PRHR	7167	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	1	89
+SUB231373	Atopic	PRHR	7215	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	110
+SUB231374	Atopic	PRHR	7329	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	0	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			110
+SUB231376	Atopic	PRHR	7713	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			112
+SUB231377	Atopic	PRHR	7809	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	1	1	1	1	0	0	0	0	0	1	1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231378	Atopic	PRHR	7853	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	1	1	1	0			0							0						0	0	0	0	0	0	1	1	1	1	1	0	.a			100
+SUB231379	Atopic	PRHR	8026	3-Month Home Visit	1.4	complete	3	1	3	1	0	0	1	0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			108
+SUB231380	Atopic	PRHR	8112	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231381	Atopic	PRHR	8133	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	1	0	0	1	0	1	1	1	1	1	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			131
+SUB231382	Atopic	PRHR	8445	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	1	1	1	1	0	1	1	0	0	0	1	0	1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB231383	Atopic	PRHR	8567	3-Month Home Visit	1.4	complete	3	1	3	0	1	1	1	1	1	0	0	0	0	1	1	0	1	1	1	0	1	0	1	0	1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			132
+SUB231384	Atopic	PRHR	8605	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231385	Atopic	PRHR	8625	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231386	Atopic	PRHR	8735	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			1	1	0	0	0	0	0	1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			134
+SUB231387	Atopic	PRHR	8751	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231388	Atopic	PRHR	9008	3-Month Home Visit	1.4	complete	3	1	3	0	0	0	1	0	0	0	0	1	1	0	1	1	1	1	1	1	1	0	1	1	1	1	1	1			0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	96
+SUB231389	Atopic	PRHR	9024	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231390	Atopic	PRHR	9040	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	1	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			119
+SUB231391	Atopic	PRHR	9056	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			86
+SUB231392	Atopic	PRHR	9192	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	1	120
+SUB231393	Atopic	PRHR	9278	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231394	Atopic	PRHR	9442	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			115
+SUB231395	Atopic	PRHR	9485	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	1	0	1	1	1	1	1	1	1	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			111
+SUB231396	Atopic	PRHR	9504	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	1	0	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			85
+SUB231397	Atopic	PRHR	9572	3-Month Home Visit	1.4	complete	3	1	3	1	1	0	0	1	1	0	0	1	0	1	0			0							1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			97
+SUB231398	Atopic	PRHR	9736	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231400	Atopic	PRHR	9894	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			127
+SUB231401	Atopic	PRHR	9986	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	1	0	1	1	1	0	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			94
+SUB231402	Atopic	PRHR	10215	3-Month Home Visit	1.4	complete	3	0						1	1	1	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB231403	Atopic	PRHR	10270	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	1	1	1	1	1	0	0	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			95
+SUB231404	Atopic	PRHR	10294	3-Month Home Visit	1.4	complete	3	0						1	1	0	1	0	0	0	1	1	0	1	1	1	1	1	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			131
+SUB231405	Atopic	PRHR	10638	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	1	0	0	0	0	.a			93
+SUB231406	Atopic	PRHR	10694	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB231407	Atopic	PRHR	10886	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			111
+SUB231408	Atopic	PRHR	11132	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	1	0	0	0	0	.a			99
+SUB231409	Atopic	PRHR	11150	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	0			0	0	1	0	0	0	0	0	0	0	0	0	.a			101
+SUB231410	Atopic	PRHR	11446	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			81
+SUB231411	Atopic	PRHR	11703	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			94
+SUB231412	Atopic	PRHR	11736	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231413	Atopic	PRHR	11825	3-Month Home Visit	1.4	complete	3	1	3	1	1	1	1	1	1	0	0	0	1	0	1	1	1	1	1	0	1	0	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			86
+SUB231414	Atopic	PRHR	12119	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231415	Non-atopic	PRHR	12132	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB231416	Atopic	PRHR	12312	3-Month Home Visit	1.4	complete	3	0						1	1	1	0	1	1	1	1	1	0	1	1	0	0	0	0	0	1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231417	Atopic	PRHR	12332	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	90
+SUB231418	Atopic	PRHR	12454	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	1	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			120
+SUB231419	Atopic	PRHR	12675	3-Month Home Visit	1.4	complete	3	0						1	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			80
+SUB231420	Atopic	PRHR	12691	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231421	Atopic	PRHR	12707	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			100
+SUB231422	Atopic	PRHR	12921	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	1	1	1	0	1	1	0	0	0	0	0	0						0	0	0	0	1	1	0	0	0	0	1	0	.a			137
+SUB231423	Atopic	PRHR	12987	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			115
+SUB231424	Atopic	PRHR	13232	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			121
+SUB231425	Non-atopic	PRHR	13330	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			92
+SUB231426	Atopic	PRHR	13441	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			119
+SUB231427	Atopic	PRHR	13562	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			116
+SUB231428	Atopic	PRHR	13578	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	0	0	1			0	0	0	0	0	1	0	0	0	1	0	0	.a			88
+SUB231429	Non-atopic	PRHR	13737	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231430	Non-atopic	PRHR	13844	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			74
+SUB231431	Non-atopic	PRHR	13878	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	1	0	0	1	1	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231432	Non-atopic	PRHR	14005	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231433	Atopic	PRHR	14035	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			65
+SUB231434	Non-atopic	PRHR	14050	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			105
+SUB231435	Atopic	PRHR	14079	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231436	Atopic	PRHR	14132	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	1	0	0			1	0	1	0	0	0	0							0	0	0	0	0	1	0	0	0	0	0	0	.a			81
+SUB231437	Atopic	PRHR	14613	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231438	Non-atopic	PRHR	14624	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231439	Non-atopic	PRHR	14819	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							1	1	0	0			0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	77
+SUB231440	Atopic	PRHR	14900	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			88
+SUB231441	Atopic	PRHR	14938	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			133
+SUB231442	Atopic	PRHR	14963	3-Month Home Visit	1.4	complete	3	0						0	0	1	1	0	1	0	1	1	1	1	1	0	1	1	1	0	0						0	0	0	0	0	1	0	0	0	0	0	0	.a			96
+SUB231443	Atopic	PRHR	14979	3-Month Home Visit	1.4	complete	3	1	1					0	1	0	0	1	0	1	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			77
+SUB231444	Atopic	PRHR	15123	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			111
+SUB231445	Atopic	PRHR	15281	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	1	0	89
+SUB231446	Non-atopic	PRHR	15335	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			66
+SUB231447	Non-atopic	PRHR	15853	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			112
+SUB231448	Atopic	PRHR	16367	3-Month Home Visit	1.4	complete	3	1	2					0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0						0	0	0	0	0	0	0	1	0	0	0	0	.a			99
+SUB231449	Atopic	PRHR	16425	3-Month Home Visit	1.4	complete	3	1	3	0	1	0	0	0	0	0	0	0	0	1	0			0							0						0	0	0	0	0	1	0	1	0	0	0	0	.a			132
+SUB231450	Atopic	PRHR	16594	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			90
+SUB231451	Non-atopic	PRHR	16602	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			73
+SUB231452	Non-atopic	PRHR	17016	3-Month Home Visit	1.4	complete	3	0						1	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			75
+SUB231453	Atopic	PRHR	17201	3-Month Home Visit	1.4	complete	3	0						0	1	0	0	1	0	0	0			0							1	0	0	0			0	0	0	0	0	1	0	0	0	0	0	0	.a			68
+SUB231454	Atopic	PRHR	17217	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	1	1	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			111
+SUB231455	Non-atopic	PRHR	17475	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231456	Non-atopic	PRHR	17558	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			99
+SUB231457	Non-atopic	PRHR	17630	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			80
+SUB231458	Atopic	PRHR	17824	3-Month Home Visit	1.4	complete	3	1	3	0	0	1	0	1	1	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	0						0	0	0	0	0	1	0	1	0	0	0	0	.a			125
+SUB231459	Non-atopic	PRHR	18011	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			76
+SUB231460	Non-atopic	PRHR	18028	3-Month Home Visit	1.4	complete	3	1	2					0	1	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			113
+SUB231461	Atopic	PRHR	18114	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231462	Non-atopic	PRHR	18162	3-Month Home Visit	1.4	missing	.x																																										.x			
+SUB231463	Atopic	PRHR	18441	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			70
+SUB231465	Non-atopic	PRHR	18538	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	100
+SUB231466	Atopic	PRHR	18626	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			86
+SUB231467	Atopic	PRHR	18703	3-Month Home Visit	1.4	complete	3	1	2					1	1	0	0	0	0	0	1	1	0	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			87
+SUB231468	Atopic	PRHR	18920	3-Month Home Visit	1.4	complete	3	1	1					1	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0	0	1	1	0	1			0	0	0	0	0	1	0	0	0	0	0	0	.a			82
+SUB231469	Non-atopic	PRHR	19041	3-Month Home Visit	1.4	complete	3	0						0	0	0	0	0	0	0	0			0							0						0	0	0	0	0	1	0	0	0	0	0	1	[ID Redacted]	3	0	92
+SUB231470	Non-atopic	PRHR	19395	3-Month Home Visit	1.4	complete	3	1	1					0	0	0	0	0	0	0	1	0	1	0							0						0	0	0	0	0	1	0	0	0	0	0	0	.a			83

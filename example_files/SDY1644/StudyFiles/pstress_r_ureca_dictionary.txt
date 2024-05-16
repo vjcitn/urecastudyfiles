@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	24	0	c(0, 120)
+5	6	year		dbl	numeric	double	9	0	c(0, 10)
+6	7	evid	evid	dbl	numeric	double	10060	4557	c(2, 63231)
+7	8	event	event	chr	character	character	25	0	"c("""", ""Prenatal Visit"")"
+8	9	version	version	chr	character	character	2	0	"c("""", ""1.0"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	pss_score	Perceived Stress Scale	dbl	numeric	double	23	4558	c(0, 16)
+11	12	pstress		dbl	numeric	double	2	0	c(0, 1)
+12	13	ACOMPLETIONDATE_DY		dbl	numeric	double	2265	4558	c(-443, 3895)

@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	502	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PRD"", ""PRD"")"
+3	4	evid	evid	dbl	numeric	double	1767	0	c(7751, 59027)
+4	5	event	event	chr	character	character	6	0	"c(""36-Month Clinic Visit"", ""84-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	7	0	"c("".x"", ""84"")"
+8	9	PRD_q1	Is child of Hispanic or Latino background	dbl	numeric	double	3	139	c(0, 1)
+9	10	PRD_q1a1	Ethnic Background - Puerto Rican	dbl	numeric	double	3	1392	c(0, 1)
+10	11	PRD_q1a2	Ethnic Background - Dominican	dbl	numeric	double	3	1393	c(0, 1)
+11	12	PRD_q1a3	Ethnic Background - Mexican/Mexican American	dbl	numeric	double	3	1393	c(0, 1)
+12	13	PRD_q1a4	Ethnic Background - Central American	dbl	numeric	double	3	1392	c(0, 1)
+13	14	PRD_q1a5	Ethnic Background - Other Hispanic	dbl	numeric	double	3	1391	c(0, 1)
+14	15	PRD_q2a	Racial Background - African American/Black American	dbl	numeric	double	3	141	c(0, 1)
+15	16	PRD_q2b	Racial Background - Afro-Caribbean	dbl	numeric	double	3	141	c(0, 1)
+16	17	PRD_q2c	Racial Background - Other black	dbl	numeric	double	3	141	c(0, 1)
+17	18	PRD_q2d	Racial Background - White	dbl	numeric	double	3	142	c(0, 1)
+18	19	PRD_q2e	Racial Background - Asian	dbl	numeric	double	3	141	c(0, 1)
+19	20	PRD_q2f	Racial Background - Native American	dbl	numeric	double	3	141	c(0, 1)
+20	21	PRD_q2g	Racial Background - Other	dbl	numeric	double	3	142	c(0, 1)
+21	22	aCompDY	Completion Day	dbl	numeric	double	564	138	c(1020, 2738)

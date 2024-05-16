@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	370	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PGMF"", ""PGMF"")"
+3	4	evid	evid	dbl	numeric	double	833	0	c(51262, 63231)
+4	5	event	event	chr	character	character	3	0	"c(""108-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	PGMF_q1	Prenatal care visits	dbl	numeric	double	1	833	
+8	9	PGMF_q1b	Month prenatal care began	dbl	numeric	double	1	833	
+9	10	PGMF_q2	Pregnancy result in live birth	dbl	numeric	double	1	833	
+10	11	PGMF_q2a	How pregnancy ended	dbl	numeric	double	1	833	
+11	12	PGMF_q2b	Month termination occurred	dbl	numeric	double	1	833	
+12	13	PGMF_q3	Full-term pregnancy	dbl	numeric	double	1	833	
+13	14	PGMF_q3a	Weeks of gestation	dbl	numeric	double	1	833	
+14	15	PGMF_q5a	Birth weight - Pounds	dbl	numeric	double	1	833	
+15	16	PGMF_q5b	Birth weight - Ounces	dbl	numeric	double	1	833	
+16	17	PGMF_q6	Birth length	dbl	numeric	double	1	833	
+17	18	PGMF_q7	Clinical problems	dbl	numeric	double	1	833	
+18	19	PGMF_q8	Congenital anomaly	dbl	numeric	double	1	833	
+19	20	aFormDY	Follow-Up Day	dbl	numeric	double	2	832	c(2906, 2906)
+20	21	PGMF_q4DY	Birth date	dbl	numeric	double	1	833	
+21	22	PGMF_q9dDY	Study Physician - Day	dbl	numeric	double	1	833	

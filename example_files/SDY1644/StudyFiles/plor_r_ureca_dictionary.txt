@@ -1,0 +1,112 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	104	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PLOR"", ""PLOR"")"
+3	4	evid	evid	dbl	numeric	double	104	0	c(30752, 59031)
+4	5	event	event	chr	character	character	2	0	"c(""84-Month Clinic Visit"", ""Rescheduled Allergen Skin Testing"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.1"", ""1.2"")"
+6	7	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+7	8	PLOR_q3	Age of Participant	dbl	numeric	double	2	0	c(6, 7)
+8	9	PLOR_q4	Lung Volume - Testing procedure	dbl	numeric	double	3	1	c(1, 2)
+9	10	PLOR_q5	Lung Volume - Acceptability Evaluation	dbl	numeric	double	5	0	c(0, 4)
+10	11	PLOR_q6a	Lung Volume - FRCpl: Acceptable with 5% of the total mean	dbl	numeric	double	3	24	c(0, 1)
+11	12	PLOR_q7	Lung Volume - Was the technicianâs evaluation acceptable	dbl	numeric	double	2	0	c(0, 1)
+12	13	PLOR_q8	Lung Volume - Which values should be used for data analysis	dbl	numeric	double	3	0	c(0, 2)
+13	14	PLOR_q9a1a1	Lung volumes - Function Residual Capacity (FRCpl)	dbl	numeric	double	3	108	c(0, 1.15)
+14	15	PLOR_q9a1a2	Lung volumes - Residual volume (RV)	dbl	numeric	double	3	108	c(0, 0.97)
+15	16	PLOR_q9a1a3	Lung volumes - Total lung capacity (TLC)	dbl	numeric	double	3	108	c(0, 1.61)
+16	17	PLOR_q9a1a4	Lung volumes - RV/TLC %	dbl	numeric	double	3	108	c(0, 60)
+17	18	PLOR_q9a2a1	Lung volumes (Modified) - Function Residual Capacity (FRCpl)	dbl	numeric	double	35	67	c(0, 1.72)
+18	19	PLOR_q9a2a2	Lung volumes (Modified) - Residual volume (RV)	dbl	numeric	double	33	66	c(0, 2.78)
+19	20	PLOR_q9a2a3	Lung volumes (Modified) - Total lung capacity (TLC)	dbl	numeric	double	33	67	c(0, 2.64)
+20	21	PLOR_q9a2a4	Lung volumes (Modified) - RV/TLC %	dbl	numeric	double	38	65	c(0, 53)
+21	22	PLOR_q11	Does technician need to review this session	dbl	numeric	double	2	0	c(0, 1)
+22	23	PLOR_q12	Did technician need to review this session	dbl	numeric	double	2	107	c(1, 1)
+23	24	PLOR_q13	Resistance Overreading - Acceptability eval of test session	dbl	numeric	double	4	0	c(1, 4)
+24	25	PLOR_q14	Resistance - Eval of test session	dbl	numeric	double	3	1	c(0, 1)
+25	26	PLOR_q15	Resistance - Technician's eval of session acceptable	dbl	numeric	double	2	0	c(0, 1)
+26	27	PLOR_q16	Resistance - Which values should be used for data analysis	dbl	numeric	double	2	0	c(1, 2)
+27	28	PLOR_q16a1	Loop Number a1	dbl	numeric	double	5	24	c(1, 4)
+28	29	PLOR_q16a2	Trial Number a2	dbl	numeric	double	7	24	c(1, 6)
+29	30	PLOR_q16a3	Raw Value a3	dbl	numeric	double	77	24	c(2.18, 7.64)
+30	31	PLOR_q16a4	Vtg a4	dbl	numeric	double	56	24	c(0.96, 2.06)
+31	32	PLOR_q16b1	Loop Number b1	dbl	numeric	double	5	24	c(1, 4)
+32	33	PLOR_q16b2	Trial Number b2	dbl	numeric	double	8	24	c(1, 8)
+33	34	PLOR_q16b3	Raw Value b3	dbl	numeric	double	80	24	c(2.46, 7.84)
+34	35	PLOR_q16b4	Vtg b4	dbl	numeric	double	54	24	c(0.96, 1.94)
+35	36	PLOR_q16c1	Loop Number c1	dbl	numeric	double	5	25	c(1, 4)
+36	37	PLOR_q16c2	Trial Number c2	dbl	numeric	double	8	25	c(1, 8)
+37	38	PLOR_q16c3	Raw Value c3	dbl	numeric	double	77	24	c(2.85, 7.53)
+38	39	PLOR_q16c4	Vtg c4	dbl	numeric	double	52	25	c(0.96, 1.94)
+39	40	PLOR_q16d1	Loop Number d1	dbl	numeric	double	6	26	c(1, 5)
+40	41	PLOR_q16d2	Trial Number d2	dbl	numeric	double	9	26	c(1, 8)
+41	42	PLOR_q16d3	Raw Value d3	dbl	numeric	double	73	26	c(2.59, 7.97)
+42	43	PLOR_q16d4	Vtg d4	dbl	numeric	double	52	26	c(0.96, 1.94)
+43	44	PLOR_q16e1	Loop Number e1	dbl	numeric	double	6	28	c(1, 5)
+44	45	PLOR_q16e2	Trial Number e2	dbl	numeric	double	9	28	c(1, 8)
+45	46	PLOR_q16e3	Raw Value e3	dbl	numeric	double	73	28	c(2.3, 7.55)
+46	47	PLOR_q16e4	Vtg e4	dbl	numeric	double	52	28	c(1.05, 1.94)
+47	48	PLOR_q16f1	Loop Number f1	dbl	numeric	double	6	64	c(1, 5)
+48	49	PLOR_q16f2	Trial Number f2	dbl	numeric	double	8	64	c(1, 7)
+49	50	PLOR_q16f3	Raw Value f3	dbl	numeric	double	40	64	c(2.82, 7.68)
+50	51	PLOR_q16f4	Vtg f4	dbl	numeric	double	35	64	c(1.06, 1.94)
+51	52	PLOR_q16g1	Loop Number g1	dbl	numeric	double	6	87	c(1, 5)
+52	53	PLOR_q16g2	Trial Number g2	dbl	numeric	double	6	87	c(2, 7)
+53	54	PLOR_q16g3	Raw Value g3	dbl	numeric	double	24	87	c(2.41, 7.44)
+54	55	PLOR_q16g4	Vtg g4	dbl	numeric	double	21	87	c(1.07, 1.88)
+55	56	PLOR_q16h1	Loop Number h1	dbl	numeric	double	4	101	c(2, 5)
+56	57	PLOR_q16h2	Trial Number h2	dbl	numeric	double	5	101	c(2, 5)
+57	58	PLOR_q16h3	Raw Value h3	dbl	numeric	double	10	101	c(3.61, 7.18)
+58	59	PLOR_q16h4	Vtg h4	dbl	numeric	double	10	101	c(1.07, 1.68)
+59	60	PLOR_q16i1	Loop Number i1	dbl	numeric	double	2	109	c(1, 1)
+60	61	PLOR_q16i2	Trial Number i2	dbl	numeric	double	2	109	c(3, 3)
+61	62	PLOR_q16i3	Raw Value i3	dbl	numeric	double	2	109	c(7.26, 7.26)
+62	63	PLOR_q16i4	Vtg i4	dbl	numeric	double	2	109	c(1.07, 1.07)
+63	64	PLOR_q16j1	Loop Number j1	dbl	numeric	double	1	110	
+64	65	PLOR_q16j2	Trial Number j2	dbl	numeric	double	1	110	
+65	66	PLOR_q16j3	Raw Value j3	dbl	numeric	double	1	110	
+66	67	PLOR_q16j4	Vtg j4	dbl	numeric	double	1	110	
+67	68	PLOR_q16k1	Loop Number k1	dbl	numeric	double	1	110	
+68	69	PLOR_q16k2	Trial Number k2	dbl	numeric	double	1	110	
+69	70	PLOR_q16k3	Raw Value k3	dbl	numeric	double	1	110	
+70	71	PLOR_q16k4	Vtg k4	dbl	numeric	double	1	110	
+71	72	PLOR_q16l1	Loop Number l1	dbl	numeric	double	1	110	
+72	73	PLOR_q16l2	Trial Number l2	dbl	numeric	double	1	110	
+73	74	PLOR_q16l3	Raw Value l3	dbl	numeric	double	1	110	
+74	75	PLOR_q16l4	Vtg l4	dbl	numeric	double	1	110	
+75	76	PLOR_q16m1	Loop Number m1	dbl	numeric	double	1	110	
+76	77	PLOR_q16m2	Trial Number m2	dbl	numeric	double	1	110	
+77	78	PLOR_q16m3	Raw Value m3	dbl	numeric	double	1	110	
+78	79	PLOR_q16m4	Vtg m4	dbl	numeric	double	1	110	
+79	80	PLOR_q16n1	Loop Number n1	dbl	numeric	double	1	110	
+80	81	PLOR_q16n2	Trial Number n2	dbl	numeric	double	1	110	
+81	82	PLOR_q16n3	Raw Value n3	dbl	numeric	double	1	110	
+82	83	PLOR_q16n4	Vtg n4	dbl	numeric	double	1	110	
+83	84	PLOR_q16o1	Loop Number o1	dbl	numeric	double	1	110	
+84	85	PLOR_q16o2	Trial Number o2	dbl	numeric	double	1	110	
+85	86	PLOR_q16o3	Raw Value o3	dbl	numeric	double	1	110	
+86	87	PLOR_q16o4	Vtg o4	dbl	numeric	double	1	110	
+87	88	PLOR_q16p1	Loop Number p1	dbl	numeric	double	1	110	
+88	89	PLOR_q16p2	Trial Number p2	dbl	numeric	double	1	110	
+89	90	PLOR_q16p3	Raw Value p3	dbl	numeric	double	1	110	
+90	91	PLOR_q16p4	Vtg p4	dbl	numeric	double	1	110	
+91	92	PLOR_q16q1	Loop Number q1	dbl	numeric	double	1	110	
+92	93	PLOR_q16q2	Trial Number q2	dbl	numeric	double	1	110	
+93	94	PLOR_q16q3	Raw Value q3	dbl	numeric	double	1	110	
+94	95	PLOR_q16q4	Vtg q4	dbl	numeric	double	1	110	
+95	96	PLOR_q16r1	Loop Number r1	dbl	numeric	double	1	110	
+96	97	PLOR_q16r2	Trial Number r2	dbl	numeric	double	1	110	
+97	98	PLOR_q16r3	Raw Value r3	dbl	numeric	double	1	110	
+98	99	PLOR_q16r4	Vtg r4	dbl	numeric	double	1	110	
+99	100	PLOR_q16s1	Loop Number s1	dbl	numeric	double	1	110	
+100	101	PLOR_q16s2	Trial Number s2	dbl	numeric	double	1	110	
+101	102	PLOR_q16s3	Raw Value s3	dbl	numeric	double	1	110	
+102	103	PLOR_q16s4	Vtg s4	dbl	numeric	double	1	110	
+103	104	PLOR_q16t1	Loop Number t1	dbl	numeric	double	1	110	
+104	105	PLOR_q16t2	Trial Number t2	dbl	numeric	double	1	110	
+105	106	PLOR_q16t3	Raw Value t3	dbl	numeric	double	1	110	
+106	107	PLOR_q16t4	Vtg t4	dbl	numeric	double	1	110	
+107	108	PLOR_q18	Resistance - Does technicial need to review session	dbl	numeric	double	2	0	c(0, 1)
+108	109	PLOR_q19	Resistance - Did technicial review session	dbl	numeric	double	2	108	c(1, 1)
+109	110	aTestDY	Test Day	dbl	numeric	double	75	0	c(2526, 2773)
+110	111	PLOR_q1DY	Day Overread	dbl	numeric	double	80	0	c(2533, 3097)

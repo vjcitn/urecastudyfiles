@@ -1,0 +1,828 @@
+Accession	group	form	evid	event	version	status	aVisit	PTR_q1_1	PTR_q1	PTR_q2	PTR_q3	aFormDY	PTR_q1aDY	PTR_q3cDY	PTR_q3eDY
+SUB230862	Atopic	PTR	54369	96-Month Clinic Visit	1.0	missing	.x								
+SUB230862	Atopic	PTR	54373	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	3352	3255	3352	3352
+SUB230862	Atopic	PTR	54377	120-Month Clinic Visit	1.2	complete	120	1		1	0	3707		3707	3707
+SUB230863	Atopic	PTR	54118	120-Month Clinic Visit	1.2	complete	120	1		1	0	3689		3689	3689
+SUB230863	Atopic	PTR	54114	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	3353	3347	3353	3353
+SUB230863	Atopic	PTR	54110	96-Month Clinic Visit	1.0	complete	96		0			3056			
+SUB230865	Atopic	PTR	52092	96-Month Clinic Visit	1.0	complete	96		0			3074			
+SUB230866	Atopic	PTR	52883	96-Month Clinic Visit	1.0	complete	96		0			3049			
+SUB230867	Atopic	PTR	52236	96-Month Clinic Visit	1.0	complete	96		0			3059			
+SUB230867	Atopic	PTR	52244	120-Month Clinic Visit	1.2	complete	120	0	0			3678			
+SUB230867	Atopic	PTR	52240	108-Month Clinic Visit	1.1	complete	108	0	0			3352			
+SUB230868	Atopic	PTR	54397	96-Month Clinic Visit	1.0	missing	.x								
+SUB230869	Atopic	PTR	52105	96-Month Clinic Visit	1.0	complete	96		0			3073			
+SUB230870	Atopic	PTR	53237	96-Month Clinic Visit	1.0	complete	96		0			2990			
+SUB230871	Atopic	PTR	53597	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3701	3385	3701	3701
+SUB230871	Atopic	PTR	53593	108-Month Clinic Visit	1.0	complete	108		0			3286			
+SUB230871	Atopic	PTR	53589	96-Month Clinic Visit	1.0	complete	96		0			3002			
+SUB230872	Atopic	PTR	54329	108-Month Clinic Visit	1.1	complete	108	0	0			3289			
+SUB230872	Atopic	PTR	54333	120-Month Clinic Visit	1.2	missing	.x								
+SUB230872	Atopic	PTR	54325	96-Month Clinic Visit	1.0	complete	96		0			2985			
+SUB230874	Atopic	PTR	53500	96-Month Clinic Visit	1.0	complete	96		0			3037			
+SUB230876	Atopic	PTR	53099	120-Month Clinic Visit	1.2	complete	120	0	0			3689			
+SUB230876	Atopic	PTR	53095	108-Month Clinic Visit	1.1	complete	108	0	0			3302			
+SUB230876	Atopic	PTR	53091	96-Month Clinic Visit	1.0	complete	96		0			3001			
+SUB230877	Atopic	PTR	53007	108-Month Clinic Visit	1.1	complete	108	0	0			3332			
+SUB230877	Atopic	PTR	53003	96-Month Clinic Visit	1.0	complete	96		0			3007			
+SUB230877	Atopic	PTR	53011	120-Month Clinic Visit	1.2	complete	120	0	0			3708			
+SUB230881	Atopic	PTR	55508	96-Month Clinic Visit	1.0	missing	.x								
+SUB230881	Atopic	PTR	55516	120-Month Clinic Visit	1.2	missing	.x								
+SUB230881	Atopic	PTR	55512	108-Month Clinic Visit	1.1	complete	108	0	0			3264			
+SUB230883	Atopic	PTR	59784	96-Month Clinic Visit	1.0	complete	96		0			3005			
+SUB230886	Atopic	PTR	51574	108-Month Clinic Visit	1.1	complete	108	0	0			3284			
+SUB230886	Atopic	PTR	51570	96-Month Clinic Visit	1.0	complete	96		0			2999			
+SUB230886	Atopic	PTR	51578	120-Month Clinic Visit	1.2	complete	120	0	0			3636			
+SUB230887	Atopic	PTR	56501	120-Month Clinic Visit	1.2	complete	120	0	0			3737			
+SUB230887	Atopic	PTR	56493	96-Month Clinic Visit	1.0	complete	96		0			3006			
+SUB230887	Atopic	PTR	56497	108-Month Clinic Visit	1.1	complete	108	0	0			3275			
+SUB230888	Atopic	PTR	51966	96-Month Clinic Visit	1.0	complete	96		0			2997			
+SUB230889	Atopic	PTR	60529	96-Month Clinic Visit	1.0	complete	96		0			3028			
+SUB230890	Atopic	PTR	56093	120-Month Clinic Visit	1.2	complete	120	0	0			3692			
+SUB230890	Atopic	PTR	56089	108-Month Clinic Visit	1.2	complete	108	0	0			3368			
+SUB230890	Atopic	PTR	56085	96-Month Clinic Visit	1.0	complete	96		0			2931			
+SUB230891	Atopic	PTR	58499	108-Month Clinic Visit	1.1	complete	108	0	0			3350			
+SUB230891	Atopic	PTR	58495	96-Month Clinic Visit	1.0	complete	96		0			3005			
+SUB230891	Atopic	PTR	58503	120-Month Clinic Visit	1.2	complete	120	0	0			3684			
+SUB230892	Atopic	PTR	52263	96-Month Clinic Visit	1.0	complete	96		0			3002			
+SUB230894	Atopic	PTR	57484	96-Month Clinic Visit	1.0	complete	96		0			3006			
+SUB230895	Atopic	PTR	53045	96-Month Clinic Visit	1.0	complete	96		0			3000			
+SUB230895	Atopic	PTR	53049	108-Month Clinic Visit	1.1	complete	108	0	0			3268			
+SUB230895	Atopic	PTR	53053	120-Month Clinic Visit	1.2	complete	120	0	0			3700			
+SUB230897	Atopic	PTR	53250	96-Month Clinic Visit	1.0	complete	96		0			2979			
+SUB230898	Atopic	PTR	57922	96-Month Clinic Visit	1.0	missing	.x								
+SUB230899	Atopic	PTR	53039	120-Month Clinic Visit	1.2	complete	120	0	0			3702			
+SUB230899	Atopic	PTR	53035	108-Month Clinic Visit	1.2	complete	108	0	0			3343			
+SUB230899	Atopic	PTR	53031	96-Month Clinic Visit	1.0	missing	.x								
+SUB230900	Atopic	PTR	53483	96-Month Clinic Visit	1.0	missing	.x								
+SUB230900	Atopic	PTR	53491	120-Month Clinic Visit	1.2	complete	120	1		1	0	3706		3706	3706
+SUB230900	Atopic	PTR	53487	108-Month Clinic Visit	1.2	complete	108	0	1	1	0	3356	3355	3356	3356
+SUB230901	Atopic	PTR	53183	96-Month Clinic Visit	1.0	missing	.x								
+SUB230903	Atopic	PTR	56466	96-Month Clinic Visit	1.0	complete	96		0			3004			
+SUB230903	Atopic	PTR	56474	120-Month Clinic Visit	1.2	complete	120	0	0			3701			
+SUB230903	Atopic	PTR	56470	108-Month Clinic Visit	1.2	complete	108	0	0			3361			
+SUB230904	Atopic	PTR	53609	96-Month Clinic Visit	1.0	complete	96		0			3005			
+SUB230905	Atopic	PTR	58245	96-Month Clinic Visit	1.0	complete	96		0			2901			
+SUB230906	Atopic	PTR	56441	96-Month Clinic Visit	1.0	missing	.x								
+SUB230907	Atopic	PTR	61254	96-Month Clinic Visit	1.0	missing	.x								
+SUB230908	Atopic	PTR	53666	96-Month Clinic Visit	1.0	missing	.x								
+SUB230909	Atopic	PTR	54184	96-Month Clinic Visit	1.0	missing	.x								
+SUB230911	Atopic	PTR	53330	108-Month Clinic Visit	1.2	complete	108	0	0			3364			
+SUB230911	Atopic	PTR	53334	120-Month Clinic Visit	1.2	complete	120	0	0			3702			
+SUB230911	Atopic	PTR	53326	96-Month Clinic Visit	1.0	missing	.x								
+SUB230912	Atopic	PTR	54153	96-Month Clinic Visit	1.0	missing	.x								
+SUB230913	Atopic	PTR	54250	120-Month Clinic Visit	1.2	complete	120	0	0			3741			
+SUB230913	Atopic	PTR	54242	96-Month Clinic Visit	1.0	complete	96		0			3003			
+SUB230913	Atopic	PTR	54246	108-Month Clinic Visit	1.2	complete	108	0	0			3370			
+SUB230914	Atopic	PTR	54132	120-Month Clinic Visit	1.2	complete	120	0	0			3719			
+SUB230914	Atopic	PTR	54124	96-Month Clinic Visit	1.0	complete	96		0			3002			
+SUB230914	Atopic	PTR	54128	108-Month Clinic Visit	1.2	complete	108	0	0			3343			
+SUB230915	Atopic	PTR	56454	96-Month Clinic Visit	1.0	complete	96		0			3006			
+SUB230915	Atopic	PTR	56458	108-Month Clinic Visit	1.2	complete	108	0	0			3293			
+SUB230915	Atopic	PTR	56462	120-Month Clinic Visit	1.2	missing	.x								
+SUB230916	Atopic	PTR	51980	96-Month Clinic Visit	1.0	complete	96		0			2939			
+SUB230919	Atopic	PTR	54652	96-Month Clinic Visit	1.0	complete	96		0			2997			
+SUB230920	Atopic	PTR	54517	96-Month Clinic Visit	1.0	complete	96		0			2918			
+SUB230921	Atopic	PTR	54454	96-Month Clinic Visit	1.0	complete	96		0			3000			
+SUB230922	Atopic	PTR	53814	96-Month Clinic Visit	1.0	missing	.x								
+SUB230924	Atopic	PTR	54574	96-Month Clinic Visit	1.0	complete	96		0			2998			
+SUB230925	Atopic	PTR	55014	96-Month Clinic Visit	1.0	complete	96		0			2992			
+SUB230927	Atopic	PTR	55035	120-Month Clinic Visit	1.2	missing	.x								
+SUB230927	Atopic	PTR	55031	108-Month Clinic Visit	1.2	complete	108	0	0			3371			
+SUB230927	Atopic	PTR	55027	96-Month Clinic Visit	1.0	complete	96		0			3001			
+SUB230928	Atopic	PTR	55151	120-Month Clinic Visit	1.2	complete	120	0	0			3732			
+SUB230928	Atopic	PTR	55147	108-Month Clinic Visit	1.2	complete	108	0	0			3373			
+SUB230928	Atopic	PTR	55143	96-Month Clinic Visit	1.0	missing	.x								
+SUB230929	Atopic	PTR	55250	96-Month Clinic Visit	1.0	complete	96		0			2998			
+SUB230932	Atopic	PTR	53861	120-Month Clinic Visit	1.2	complete	120	0	0			3656			
+SUB230932	Atopic	PTR	53853	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB230932	Atopic	PTR	53857	108-Month Clinic Visit	1.2	complete	108	0	0			3282			
+SUB230933	Atopic	PTR	55334	108-Month Clinic Visit	1.2	complete	108	0	0			3363			
+SUB230933	Atopic	PTR	55330	96-Month Clinic Visit	1.0	complete	96		0			2931			
+SUB230933	Atopic	PTR	55338	120-Month Clinic Visit	1.2	complete	120	0	0			3776			
+SUB230934	Atopic	PTR	55164	120-Month Clinic Visit	1.2	complete	120	0	0			3705			
+SUB230934	Atopic	PTR	55156	96-Month Clinic Visit	1.0	complete	96		0			2978			
+SUB230934	Atopic	PTR	55160	108-Month Clinic Visit	1.2	complete	108	0	0			3349			
+SUB230935	Atopic	PTR	58452	96-Month Clinic Visit	1.0	complete	96		0			3005			
+SUB230936	Atopic	PTR	55237	96-Month Clinic Visit	1.0	complete	96		0			2939			
+SUB230939	Atopic	PTR	59732	96-Month Clinic Visit	1.0	complete	96		0			2967			
+SUB230941	Atopic	PTR	55751	96-Month Clinic Visit	1.0	complete	96		0			2917			
+SUB230942	Atopic	PTR	56279	120-Month Clinic Visit	1.2	complete	120	0	0			3701			
+SUB230942	Atopic	PTR	56271	96-Month Clinic Visit	1.0	missing	.x								
+SUB230942	Atopic	PTR	56275	108-Month Clinic Visit	1.2	missing	.x								
+SUB230943	Atopic	PTR	55273	96-Month Clinic Visit	1.0	complete	96		0			2980			
+SUB230944	Atopic	PTR	58826	108-Month Clinic Visit	1.2	complete	108	0	0			3362			
+SUB230944	Atopic	PTR	58822	96-Month Clinic Visit	1.0	complete	96		0			2977			
+SUB230944	Atopic	PTR	58830	120-Month Clinic Visit	1.2	complete	120	0	0			3707			
+SUB230945	Atopic	PTR	56376	96-Month Clinic Visit	1.0	complete	96		0			2941			
+SUB230946	Atopic	PTR	56775	96-Month Clinic Visit	1.0	complete	96		0			2942			
+SUB230947	Atopic	PTR	56480	96-Month Clinic Visit	1.0	complete	96		0			2938			
+SUB230947	Atopic	PTR	56484	108-Month Clinic Visit	1.2	complete	108	0	0			3309			
+SUB230947	Atopic	PTR	56488	120-Month Clinic Visit	1.2	complete	120	0	0			3734			
+SUB230948	Atopic	PTR	56822	96-Month Clinic Visit	1.0	complete	96		0			2942			
+SUB230951	Atopic	PTR	58682	96-Month Clinic Visit	1.0	complete	96		0			2951			
+SUB230952	Atopic	PTR	58375	96-Month Clinic Visit	1.0	complete	96		0			2901			
+SUB230953	Atopic	PTR	57074	96-Month Clinic Visit	1.0	complete	96		0			2961			
+SUB230954	Atopic	PTR	57215	108-Month Clinic Visit	1.2	complete	108	0	0			3370			
+SUB230954	Atopic	PTR	57211	96-Month Clinic Visit	1.0	missing	.x								
+SUB230954	Atopic	PTR	57219	120-Month Clinic Visit	1.2	complete	120	0	0			3823			
+SUB230955	Atopic	PTR	57052	108-Month Clinic Visit	1.2	missing	.x								
+SUB230955	Atopic	PTR	57048	96-Month Clinic Visit	1.0	complete	96		0			2951			
+SUB230957	Atopic	PTR	57398	108-Month Clinic Visit	1.2	complete	108	0	0			3367			
+SUB230957	Atopic	PTR	57394	96-Month Clinic Visit	1.0	complete	96		0			2935			
+SUB230957	Atopic	PTR	57402	120-Month Clinic Visit	1.2	complete	120	0	0			3740			
+SUB230958	Atopic	PTR	59017	120-Month Clinic Visit	1.2	missing	.x								
+SUB230958	Atopic	PTR	59009	96-Month Clinic Visit	1.1	missing	.x								
+SUB230958	Atopic	PTR	59013	108-Month Clinic Visit	1.2	complete	108	0	0			3366			
+SUB230959	Atopic	PTR	57409	96-Month Clinic Visit	1.0	complete	96		0			2971			
+SUB230959	Atopic	PTR	57417	120-Month Clinic Visit	1.2	complete	120	0	0			3736			
+SUB230959	Atopic	PTR	57413	108-Month Clinic Visit	1.2	complete	108	0	0			3309			
+SUB230960	Atopic	PTR	54549	108-Month Clinic Visit	1.2	missing	.x								
+SUB230960	Atopic	PTR	54553	120-Month Clinic Visit	1.2	missing	.x								
+SUB230960	Atopic	PTR	54545	96-Month Clinic Visit	1.0	missing	.x								
+SUB230961	Atopic	PTR	52512	108-Month Clinic Visit	1.2	complete	108	0	0			3307			
+SUB230961	Atopic	PTR	52508	96-Month Clinic Visit	1.0	complete	96		0			2939			
+SUB230961	Atopic	PTR	52516	120-Month Clinic Visit	1.2	complete	120	0	0			3755			
+SUB230963	Atopic	PTR	59237	96-Month Clinic Visit	1.1	missing	.x								
+SUB230963	Atopic	PTR	59245	120-Month Clinic Visit	1.2	missing	.x								
+SUB230963	Atopic	PTR	59241	108-Month Clinic Visit	1.2	missing	.x								
+SUB230964	Atopic	PTR	57177	96-Month Clinic Visit	1.0	complete	96		0			2905			
+SUB230965	Atopic	PTR	57164	96-Month Clinic Visit	1.0	complete	96		0			2905			
+SUB230966	Atopic	PTR	59049	96-Month Clinic Visit	1.0	complete	96		0			2902			
+SUB230967	Atopic	PTR	57776	96-Month Clinic Visit	1.0	complete	96		0			2922			
+SUB230968	Atopic	PTR	52520	96-Month Clinic Visit	1.0	complete	96		0			2902			
+SUB230969	Atopic	PTR	56945	108-Month Clinic Visit	1.2	complete	108	0	0			3356			
+SUB230969	Atopic	PTR	56941	96-Month Clinic Visit	1.0	complete	96		0			2897			
+SUB230969	Atopic	PTR	56949	120-Month Clinic Visit	1.2	complete	120	0	0			3692			
+SUB230971	Atopic	PTR	57576	120-Month Clinic Visit	1.2	complete	120	0	0			3740			
+SUB230971	Atopic	PTR	57572	108-Month Clinic Visit	1.2	complete	108	0	0			3278			
+SUB230971	Atopic	PTR	57568	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB230972	Atopic	PTR	58275	108-Month Clinic Visit	1.2	complete	108	0	0			3367			
+SUB230972	Atopic	PTR	58279	120-Month Clinic Visit	1.2	complete	120	0	0			3745			
+SUB230972	Atopic	PTR	58271	96-Month Clinic Visit	1.1	complete	96	0	0			2928			
+SUB230973	Atopic	PTR	52879	120-Month Clinic Visit	1.2	complete	120	0	0			3784			
+SUB230973	Atopic	PTR	52875	108-Month Clinic Visit	1.2	complete	108	0	0			3357			
+SUB230973	Atopic	PTR	52871	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB230975	Atopic	PTR	58258	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB230978	Atopic	PTR	57986	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB230981	Atopic	PTR	53338	96-Month Clinic Visit	1.1	complete	96	0	0			2965			
+SUB230981	Atopic	PTR	53346	120-Month Clinic Visit	1.2	complete	120	0	0			3760			
+SUB230981	Atopic	PTR	53342	108-Month Clinic Visit	1.2	missing	.x								
+SUB230984	Atopic	PTR	58801	120-Month Clinic Visit	1.2	complete	120	0	0			3753			
+SUB230984	Atopic	PTR	58797	108-Month Clinic Visit	1.2	complete	108	0	0			3355			
+SUB230984	Atopic	PTR	58793	96-Month Clinic Visit	1.1	complete	96	0	0			2960			
+SUB230986	Atopic	PTR	57584	96-Month Clinic Visit	1.1	complete	96	0	0			2953			
+SUB230986	Atopic	PTR	57592	120-Month Clinic Visit	1.2	complete	120	0	0			3657			
+SUB230986	Atopic	PTR	57588	108-Month Clinic Visit	1.2	complete	108	0	0			3342			
+SUB230988	Atopic	PTR	53646	120-Month Clinic Visit	1.2	complete	120	0	0			3801			
+SUB230988	Atopic	PTR	53638	96-Month Clinic Visit	1.1	complete	96	0	0			2896			
+SUB230988	Atopic	PTR	53642	108-Month Clinic Visit	1.2	complete	108	0	0			3355			
+SUB230989	Atopic	PTR	54255	96-Month Clinic Visit	1.1	complete	96	0	0			2923			
+SUB230989	Atopic	PTR	54263	120-Month Clinic Visit	1.2	complete	120	0	0			3721			
+SUB230989	Atopic	PTR	54259	108-Month Clinic Visit	1.2	complete	108	0	0			3359			
+SUB230993	Atopic	PTR	54388	108-Month Clinic Visit	1.2	complete	108	0	0			3348			
+SUB230993	Atopic	PTR	54392	120-Month Clinic Visit	1.2	complete	120	0	0			3705			
+SUB230993	Atopic	PTR	54384	96-Month Clinic Visit	1.1	complete	96	0	0			2897			
+SUB230994	Atopic	PTR	54105	120-Month Clinic Visit	1.2	complete	120	0	0			3742			
+SUB230994	Atopic	PTR	54101	108-Month Clinic Visit	1.2	complete	108	0	0			3348			
+SUB230994	Atopic	PTR	54097	96-Month Clinic Visit	1.1	complete	96	0	0			2909			
+SUB230998	Atopic	PTR	54874	120-Month Clinic Visit	1.2	complete	120	0	0			3627			
+SUB230998	Atopic	PTR	54866	96-Month Clinic Visit	1.1	complete	96	0	0			2920			
+SUB230998	Atopic	PTR	54870	108-Month Clinic Visit	1.2	complete	108	0	0			3299			
+SUB231001	Atopic	PTR	55303	96-Month Clinic Visit	1.1	complete	96	0	0			2906			
+SUB231001	Atopic	PTR	55307	108-Month Clinic Visit	1.2	complete	108	0	0			3363			
+SUB231001	Atopic	PTR	55311	120-Month Clinic Visit	1.2	complete	120	0	0			3730			
+SUB231003	Atopic	PTR	54530	96-Month Clinic Visit	1.1	complete	96	0	0			2909			
+SUB231003	Atopic	PTR	54534	108-Month Clinic Visit	1.2	complete	108	0	0			3272			
+SUB231003	Atopic	PTR	54538	120-Month Clinic Visit	1.2	complete	120	0	0			3721			
+SUB231004	Atopic	PTR	58875	120-Month Clinic Visit	1.2	complete	120	0	0			3814			
+SUB231004	Atopic	PTR	58871	108-Month Clinic Visit	1.2	complete	108	0	0			3362			
+SUB231004	Atopic	PTR	58867	96-Month Clinic Visit	1.1	complete	96	0	0			2907			
+SUB231005	Atopic	PTR	53831	108-Month Clinic Visit	1.2	complete	108	0	0			3371			
+SUB231005	Atopic	PTR	53827	96-Month Clinic Visit	1.1	complete	96	0	0			2944			
+SUB231005	Atopic	PTR	53835	120-Month Clinic Visit	1.2	complete	120	0	0			3728			
+SUB231006	Atopic	PTR	55005	108-Month Clinic Visit	1.2	complete	108	0	0			3322			
+SUB231006	Atopic	PTR	55009	120-Month Clinic Visit	1.2	complete	120	0	0			3634			
+SUB231006	Atopic	PTR	55001	96-Month Clinic Visit	1.1	complete	96	0	0			2922			
+SUB231007	Atopic	PTR	55173	108-Month Clinic Visit	1.2	complete	108	0	0			3385			
+SUB231007	Atopic	PTR	55177	120-Month Clinic Visit	1.2	complete	120	0	0			3679			
+SUB231007	Atopic	PTR	55173	108-Month Clinic Visit	1.2	complete	108	0	0			3369			
+SUB231007	Atopic	PTR	55169	96-Month Clinic Visit	1.2	complete	96	0	0			3002			
+SUB231008	Atopic	PTR	55521	96-Month Clinic Visit	1.1	complete	96	0	0			2917			
+SUB231008	Atopic	PTR	55529	120-Month Clinic Visit	1.2	complete	120	0	0			3842			
+SUB231008	Atopic	PTR	55525	108-Month Clinic Visit	1.2	complete	108	0	0			3369			
+SUB231011	Atopic	PTR	55741	120-Month Clinic Visit	1.2	complete	120	0	0			3767			
+SUB231011	Atopic	PTR	55737	108-Month Clinic Visit	1.2	complete	108	0	0			3273			
+SUB231011	Atopic	PTR	55733	96-Month Clinic Visit	1.2	complete	96	0	0			3001			
+SUB231012	Atopic	PTR	55725	120-Month Clinic Visit	1.2	complete	120	0	0			3786			
+SUB231012	Atopic	PTR	55721	108-Month Clinic Visit	1.2	complete	108	0	0			3368			
+SUB231012	Atopic	PTR	55717	96-Month Clinic Visit	1.2	complete	96	0	0			2997			
+SUB231013	Atopic	PTR	58887	120-Month Clinic Visit	1.2	complete	120	0	0			3739			
+SUB231013	Atopic	PTR	58879	96-Month Clinic Visit	1.1	complete	96	0	0			2935			
+SUB231013	Atopic	PTR	58883	108-Month Clinic Visit	1.2	complete	108	0	0			3362			
+SUB231014	Atopic	PTR	58895	108-Month Clinic Visit	1.2	complete	108	0	0			3415			
+SUB231014	Atopic	PTR	58899	120-Month Clinic Visit	1.2	complete	120	0	0			3657			
+SUB231014	Atopic	PTR	58891	96-Month Clinic Visit	1.1	complete	96	0	0			2932			
+SUB231015	Non-atopic	PTR	59724	120-Month Clinic Visit	1.2	complete	120	0	0			3637			
+SUB231015	Non-atopic	PTR	59716	96-Month Clinic Visit	1.1	complete	96	0	0			2930			
+SUB231015	Non-atopic	PTR	59720	108-Month Clinic Visit	1.2	complete	108	0	0			3371			
+SUB231016	Atopic	PTR	55915	108-Month Clinic Visit	1.2	complete	108	0	0			3297			
+SUB231016	Atopic	PTR	55919	120-Month Clinic Visit	1.2	complete	120	0	0			3663			
+SUB231016	Atopic	PTR	55911	96-Month Clinic Visit	1.1	complete	96	0	0			2919			
+SUB231017	Non-atopic	PTR	56338	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3677	3294	3677	3677
+SUB231017	Non-atopic	PTR	56334	108-Month Clinic Visit	1.2	complete	108	0	0			3371			
+SUB231017	Non-atopic	PTR	56330	96-Month Clinic Visit	1.1	complete	96	0	0			2942			
+SUB231023	Non-atopic	PTR	51266	108-Month Clinic Visit	1.2	missing	.x								
+SUB231023	Non-atopic	PTR	51262	96-Month Clinic Visit	1.2	missing	.x								
+SUB231026	Atopic	PTR	56788	96-Month Clinic Visit	1.2	complete	96	0	0			2943			
+SUB231026	Atopic	PTR	56792	108-Month Clinic Visit	1.2	complete	108	0	0			3263			
+SUB231026	Atopic	PTR	56796	120-Month Clinic Visit	1.2	complete	120	0	0			3630			
+SUB231028	Atopic	PTR	52326	108-Month Clinic Visit	1.1	complete	108	0	0			3316			
+SUB231028	Atopic	PTR	52322	96-Month Clinic Visit	1.0	complete	96		0			2905			
+SUB231028	Atopic	PTR	52330	120-Month Clinic Visit	1.2	complete	120	0	0			3682			
+SUB231029	Atopic	PTR	52623	96-Month Clinic Visit	1.0	missing	.x								
+SUB231031	Atopic	PTR	55881	96-Month Clinic Visit	1.0	missing	.x								
+SUB231035	Atopic	PTR	52763	96-Month Clinic Visit	1.0	complete	96		0			2905			
+SUB231036	Atopic	PTR	53470	96-Month Clinic Visit	1.0	complete	96		0			2987			
+SUB231039	Atopic	PTR	53430	96-Month Clinic Visit	1.0	complete	96		0			2995			
+SUB231040	Atopic	PTR	55407	96-Month Clinic Visit	1.0	complete	96		0			3006			
+SUB231041	Atopic	PTR	55419	96-Month Clinic Visit	1.0	complete	96		0			3003			
+SUB231042	Atopic	PTR	54670	96-Month Clinic Visit	1.0	complete	96		0			2934			
+SUB231043	Atopic	PTR	55492	96-Month Clinic Visit	1.0	complete	96		0			2966			
+SUB231044	Atopic	PTR	52960	96-Month Clinic Visit	1.0	complete	96		0			2997			
+SUB231044	Atopic	PTR	52968	120-Month Clinic Visit	1.2	complete	120	0	0			3739			
+SUB231044	Atopic	PTR	52964	108-Month Clinic Visit	1.2	complete	108	0	0			3288			
+SUB231045	Atopic	PTR	56651	96-Month Clinic Visit	1.0	complete	96		0			2998			
+SUB231047	Atopic	PTR	54921	120-Month Clinic Visit	1.2	complete	120	0	0			3649			
+SUB231047	Atopic	PTR	54917	108-Month Clinic Visit	1.2	missing	.x								
+SUB231047	Atopic	PTR	54913	96-Month Clinic Visit	1.0	complete	96		0			2940			
+SUB231048	Atopic	PTR	55480	96-Month Clinic Visit	1.0	complete	96		0			2957			
+SUB231049	Atopic	PTR	55471	108-Month Clinic Visit	1.2	complete	108	0	0			3287			
+SUB231049	Atopic	PTR	55467	96-Month Clinic Visit	1.0	complete	96		0			2980			
+SUB231049	Atopic	PTR	55475	120-Month Clinic Visit	1.2	complete	120	0	0			3644			
+SUB231050	Atopic	PTR	53366	96-Month Clinic Visit	1.0	complete	96		0			2936			
+SUB231051	Atopic	PTR	52932	96-Month Clinic Visit	1.0	complete	96		0			2972			
+SUB231052	Atopic	PTR	53418	108-Month Clinic Visit	1.2	complete	108	0	0			3291			
+SUB231052	Atopic	PTR	53422	120-Month Clinic Visit	1.2	complete	120	0	0			3673			
+SUB231052	Atopic	PTR	53414	96-Month Clinic Visit	1.0	complete	96		0			2926			
+SUB231053	Atopic	PTR	53581	108-Month Clinic Visit	1.2	complete	108	0	0			3286			
+SUB231053	Atopic	PTR	53585	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3705	3606	3705	3705
+SUB231053	Atopic	PTR	53577	96-Month Clinic Visit	1.0	complete	96		0			2899			
+SUB231055	Atopic	PTR	54640	96-Month Clinic Visit	1.0	complete	96		0			2976			
+SUB231058	Atopic	PTR	58411	120-Month Clinic Visit	1.2	complete	120	0	0			3691			
+SUB231058	Atopic	PTR	58407	108-Month Clinic Visit	1.2	missing	.x								
+SUB231058	Atopic	PTR	58403	96-Month Clinic Visit	1.0	missing	.x								
+SUB231059	Atopic	PTR	55455	96-Month Clinic Visit	1.0	complete	96		0			2921			
+SUB231059	Atopic	PTR	55459	108-Month Clinic Visit	1.2	complete	108	0	0			3265			
+SUB231059	Atopic	PTR	55463	120-Month Clinic Visit	1.2	complete	120	0	0			3706			
+SUB231060	Atopic	PTR	58186	96-Month Clinic Visit	1.0	complete	96		0			2930			
+SUB231061	Atopic	PTR	58732	96-Month Clinic Visit	1.0	complete	96		0			2981			
+SUB231061	Atopic	PTR	58740	120-Month Clinic Visit	1.2	complete	120	0	0			3703			
+SUB231061	Atopic	PTR	58736	108-Month Clinic Visit	1.2	complete	108	0	0			3311			
+SUB231063	Atopic	PTR	57359	96-Month Clinic Visit	1.0	complete	96		0			2932			
+SUB231064	Atopic	PTR	54442	108-Month Clinic Visit	1.2	complete	108	0	0			3262			
+SUB231064	Atopic	PTR	54438	96-Month Clinic Visit	1.0	complete	96		0			2958			
+SUB231064	Atopic	PTR	54446	120-Month Clinic Visit	1.2	complete	120	0	0			3692			
+SUB231065	Atopic	PTR	56101	96-Month Clinic Visit	1.0	complete	96		0			2926			
+SUB231066	Atopic	PTR	55869	96-Month Clinic Visit	1.0	complete	96		0			2987			
+SUB231066	Atopic	PTR	55873	108-Month Clinic Visit	1.0	missing	.x								
+SUB231067	Atopic	PTR	58763	108-Month Clinic Visit	1.2	complete	108	0	0			3361			
+SUB231067	Atopic	PTR	58767	120-Month Clinic Visit	1.2	missing	.x								
+SUB231067	Atopic	PTR	58759	96-Month Clinic Visit	1.0	complete	96		0			2928			
+SUB231070	Atopic	PTR	55683	108-Month Clinic Visit	1.2	complete	108	0	0			3333			
+SUB231070	Atopic	PTR	55687	120-Month Clinic Visit	1.2	complete	120	0	0			3676			
+SUB231070	Atopic	PTR	55679	96-Month Clinic Visit	1.0	complete	96		0			2919			
+SUB231071	Atopic	PTR	57796	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB231072	Atopic	PTR	55707	108-Month Clinic Visit	1.2	complete	108	0	0			3299			
+SUB231072	Atopic	PTR	55711	120-Month Clinic Visit	1.2	complete	120	0	0			3682			
+SUB231072	Atopic	PTR	55703	96-Month Clinic Visit	1.0	complete	96		0			2918			
+SUB231073	Atopic	PTR	56246	96-Month Clinic Visit	1.0	complete	96		0			2969			
+SUB231075	Atopic	PTR	57381	96-Month Clinic Visit	1.0	complete	96		0			2912			
+SUB231076	Atopic	PTR	56574	96-Month Clinic Visit	1.0	complete	96		0			2928			
+SUB231078	Atopic	PTR	57239	96-Month Clinic Visit	1.0	complete	96		0			2899			
+SUB231079	Atopic	PTR	56806	96-Month Clinic Visit	1.0	complete	96		0			2915			
+SUB231080	Atopic	PTR	58316	120-Month Clinic Visit	1.2	complete	120	0	0			3663			
+SUB231080	Atopic	PTR	58308	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB231080	Atopic	PTR	58312	108-Month Clinic Visit	1.2	complete	108	0	0			3299			
+SUB231081	Atopic	PTR	57502	96-Month Clinic Visit	1.0	complete	96		0			2911			
+SUB231082	Atopic	PTR	57627	96-Month Clinic Visit	1.0	complete	96		0			2901			
+SUB231082	Atopic	PTR	57635	120-Month Clinic Visit	1.2	complete	120	0	0			3693			
+SUB231082	Atopic	PTR	57631	108-Month Clinic Visit	1.2	complete	108	0	0			3397			
+SUB231083	Atopic	PTR	56358	96-Month Clinic Visit	1.0	complete	96		0			2899			
+SUB231083	Atopic	PTR	56366	120-Month Clinic Visit	1.2	complete	120	0	0			3683			
+SUB231083	Atopic	PTR	56362	108-Month Clinic Visit	1.2	complete	108	0	0			3261			
+SUB231084	Atopic	PTR	57689	96-Month Clinic Visit	1.0	complete	96		0			2916			
+SUB231086	Atopic	PTR	58073	96-Month Clinic Visit	1.0	complete	96		0			2901			
+SUB231087	Atopic	PTR	57665	96-Month Clinic Visit	1.0	complete	96		0			2898			
+SUB231091	Atopic	PTR	59149	96-Month Clinic Visit	1.0	complete	96		0			2897			
+SUB231092	Atopic	PTR	57947	108-Month Clinic Visit	1.2	complete	108	0	0			3281			
+SUB231092	Atopic	PTR	57943	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB231092	Atopic	PTR	57951	120-Month Clinic Visit	1.2	complete	120	0	0			3698			
+SUB231093	Atopic	PTR	58616	96-Month Clinic Visit	1.0	missing	.x								
+SUB231093	Atopic	PTR	58620	108-Month Clinic Visit	1.0	missing	.x								
+SUB231094	Atopic	PTR	58171	96-Month Clinic Visit	1.0	complete	96		0			2898			
+SUB231096	Atopic	PTR	58363	108-Month Clinic Visit	1.2	complete	108	0	0			3273			
+SUB231096	Atopic	PTR	58367	120-Month Clinic Visit	1.2	complete	120	0	0			3710			
+SUB231096	Atopic	PTR	58359	96-Month Clinic Visit	1.1	complete	96	0	0			2918			
+SUB231100	Atopic	PTR	58440	108-Month Clinic Visit	1.2	complete	108	0	0			3294			
+SUB231100	Atopic	PTR	58444	120-Month Clinic Visit	1.2	complete	120	0	0			3665			
+SUB231100	Atopic	PTR	58436	96-Month Clinic Visit	1.1	complete	96	0	0			2926			
+SUB231104	Atopic	PTR	59552	120-Month Clinic Visit	1.2	complete	120	0	0			3762			
+SUB231104	Atopic	PTR	59544	96-Month Clinic Visit	1.1	complete	96	0	0			2913			
+SUB231104	Atopic	PTR	59548	108-Month Clinic Visit	1.2	complete	108	0	0			3355			
+SUB231105	Atopic	PTR	57736	108-Month Clinic Visit	1.2	complete	108	0	0			3349			
+SUB231105	Atopic	PTR	57740	120-Month Clinic Visit	1.2	complete	120	0	0			3677			
+SUB231105	Atopic	PTR	57732	96-Month Clinic Visit	1.1	complete	96	0	0			2900			
+SUB231106	Atopic	PTR	58108	96-Month Clinic Visit	1.1	complete	96	0	0			2898			
+SUB231106	Atopic	PTR	58116	120-Month Clinic Visit	1.2	complete	120	0	0			3683			
+SUB231106	Atopic	PTR	58112	108-Month Clinic Visit	1.2	complete	108	0	0			3296			
+SUB231109	Atopic	PTR	58816	120-Month Clinic Visit	1.2	complete	120	0	0			3672			
+SUB231109	Atopic	PTR	58812	108-Month Clinic Visit	1.2	complete	108	0	0			3350			
+SUB231109	Atopic	PTR	58808	96-Month Clinic Visit	1.1	complete	96	0	0			2901			
+SUB231114	Atopic	PTR	62045	120-Month Clinic Visit	1.2	missing	.x								
+SUB231114	Atopic	PTR	62041	108-Month Clinic Visit	1.2	missing	.x								
+SUB231114	Atopic	PTR	62037	96-Month Clinic Visit	1.2	missing	.x								
+SUB231115	Atopic	PTR	59916	96-Month Clinic Visit	1.1	complete	96	0	0			2902			
+SUB231115	Atopic	PTR	59920	108-Month Clinic Visit	1.2	complete	108	0	0			3320			
+SUB231115	Atopic	PTR	59924	120-Month Clinic Visit	1.2	complete	120	0	0			3645			
+SUB231116	Atopic	PTR	60221	108-Month Clinic Visit	1.2	complete	108	0	0			3303			
+SUB231116	Atopic	PTR	60217	96-Month Clinic Visit	1.1	missing	.x								
+SUB231116	Atopic	PTR	60225	120-Month Clinic Visit	1.2	complete	120	0	0			3655			
+SUB231117	Atopic	PTR	52651	108-Month Clinic Visit	1.2	complete	108	0	0			3374			
+SUB231117	Atopic	PTR	52647	96-Month Clinic Visit	1.1	complete	96	0	0			2918			
+SUB231117	Atopic	PTR	52655	120-Month Clinic Visit	1.2	complete	120	0	0			3736			
+SUB231118	Atopic	PTR	59086	108-Month Clinic Visit	1.2	complete	108	0	0			3309			
+SUB231118	Atopic	PTR	59090	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3662	3517		3662
+SUB231118	Atopic	PTR	59082	96-Month Clinic Visit	1.1	complete	96	0	0			2906			
+SUB231120	Atopic	PTR	52797	108-Month Clinic Visit	1.2	complete	108	0	0			3400			
+SUB231120	Atopic	PTR	52793	96-Month Clinic Visit	1.2	complete	96	0	0			3009			
+SUB231120	Atopic	PTR	52801	120-Month Clinic Visit	1.2	complete	120	0	0			3759			
+SUB231121	Atopic	PTR	55211	96-Month Clinic Visit	1.1	complete	96	0	0			2922			
+SUB231121	Atopic	PTR	55219	120-Month Clinic Visit	1.2	complete	120	0	0			3732			
+SUB231121	Atopic	PTR	55215	108-Month Clinic Visit	1.2	complete	108	0	0			3385			
+SUB231127	Atopic	PTR	60238	120-Month Clinic Visit	1.2	complete	120	0	0			3674			
+SUB231127	Atopic	PTR	60230	96-Month Clinic Visit	1.1	complete	96	0	0			2930			
+SUB231127	Atopic	PTR	60234	108-Month Clinic Visit	1.2	complete	108	0	0			3293			
+SUB231128	Atopic	PTR	53560	120-Month Clinic Visit	1.2	complete	120	0	0			3680			
+SUB231128	Atopic	PTR	53556	108-Month Clinic Visit	1.2	complete	108	0	0			3393			
+SUB231128	Atopic	PTR	53552	96-Month Clinic Visit	1.2	complete	96	0	0			2977			
+SUB231130	Atopic	PTR	53987	96-Month Clinic Visit	1.1	missing	.x								
+SUB231130	Atopic	PTR	53991	108-Month Clinic Visit	1.2	complete	108	0	0			3353			
+SUB231130	Atopic	PTR	53995	120-Month Clinic Visit	1.2	complete	120	0	0			3661			
+SUB231133	Atopic	PTR	53745	120-Month Clinic Visit	1.2	complete	120	0	0			3659			
+SUB231133	Atopic	PTR	53737	96-Month Clinic Visit	1.2	complete	96	0	0			2967			
+SUB231133	Atopic	PTR	53741	108-Month Clinic Visit	1.2	complete	108	0	0			3310			
+SUB231134	Atopic	PTR	53753	108-Month Clinic Visit	1.2	complete	108	0	0			3317			
+SUB231134	Atopic	PTR	53749	96-Month Clinic Visit	1.1	complete	96	0	0			2917			
+SUB231134	Atopic	PTR	53757	120-Month Clinic Visit	1.2	complete	120	0	0			3667			
+SUB231135	Atopic	PTR	54632	108-Month Clinic Visit	1.2	complete	108	0	0			3282			
+SUB231135	Atopic	PTR	54636	120-Month Clinic Visit	1.2	complete	120	0	0			3653			
+SUB231135	Atopic	PTR	54628	96-Month Clinic Visit	1.1	missing	.x								
+SUB231138	Atopic	PTR	55185	96-Month Clinic Visit	1.1	complete	96	0	0			2904			
+SUB231138	Atopic	PTR	55189	108-Month Clinic Visit	1.0	missing	.x								
+SUB231141	Atopic	PTR	56687	108-Month Clinic Visit	1.0	missing	.x								
+SUB231141	Atopic	PTR	56683	96-Month Clinic Visit	1.0	missing	.x								
+SUB231142	Atopic	PTR	55451	120-Month Clinic Visit	1.2	complete	120	0	0			3640			
+SUB231142	Atopic	PTR	55443	96-Month Clinic Visit	1.1	complete	96	0	0			2903			
+SUB231142	Atopic	PTR	55447	108-Month Clinic Visit	1.2	complete	108	0	0			3367			
+SUB231144	Atopic	PTR	55695	108-Month Clinic Visit	1.2	complete	108	0	0			3279			
+SUB231144	Atopic	PTR	55699	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3677	3314	3677	3677
+SUB231144	Atopic	PTR	55691	96-Month Clinic Visit	1.2	complete	96	0	0			2906			
+SUB231145	Non-atopic	PTR	59531	96-Month Clinic Visit	1.2	complete	96	0	0			2936			
+SUB231145	Non-atopic	PTR	59539	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3678	3650		3678
+SUB231145	Non-atopic	PTR	59535	108-Month Clinic Visit	1.2	complete	108	0	0			3319			
+SUB231147	Non-atopic	PTR	59488	96-Month Clinic Visit	1.2	complete	96	0	0			2960			
+SUB231147	Non-atopic	PTR	59492	108-Month Clinic Visit	1.2	complete	108	0	0			3374			
+SUB231147	Non-atopic	PTR	59496	120-Month Clinic Visit	1.2	complete	120	0	0			3674			
+SUB231150	Atopic	PTR	56131	108-Month Clinic Visit	1.2	complete	108	0	0			3367			
+SUB231150	Atopic	PTR	56127	96-Month Clinic Visit	1.2	complete	96	0	0			2903			
+SUB231150	Atopic	PTR	56135	120-Month Clinic Visit	1.2	complete	120	0	0			3744			
+SUB231153	Non-atopic	PTR	59754	96-Month Clinic Visit	1.2	complete	96	0	0			2937			
+SUB231153	Non-atopic	PTR	59762	120-Month Clinic Visit	1.2	complete	120	0	0			3695			
+SUB231153	Non-atopic	PTR	59758	108-Month Clinic Visit	1.2	complete	108	0	0			3330			
+SUB231156	Non-atopic	PTR	56856	96-Month Clinic Visit	1.2	complete	96	0	0			2928			
+SUB231156	Non-atopic	PTR	56864	120-Month Clinic Visit	1.2	complete	120	0	0			3698			
+SUB231156	Non-atopic	PTR	56860	108-Month Clinic Visit	1.2	complete	108	0	0			3332			
+SUB231159	Atopic	PTR	60803	96-Month Clinic Visit	1.2	complete	96	0	0			2941			
+SUB231159	Atopic	PTR	60807	108-Month Clinic Visit	1.2	complete	108	0	0			3363			
+SUB231159	Atopic	PTR	60811	120-Month Clinic Visit	1.2	complete	120	0	0			3710			
+SUB231165	Atopic	PTR	56230	120-Month Clinic Visit	1.2	complete	120	0	0			3673			
+SUB231165	Atopic	PTR	56222	96-Month Clinic Visit	1.2	complete	96	0	0			2909			
+SUB231165	Atopic	PTR	56226	108-Month Clinic Visit	1.2	complete	108	0	0			3387			
+SUB231167	Atopic	PTR	56392	96-Month Clinic Visit	1.2	complete	96	0	0			2951			
+SUB231167	Atopic	PTR	56396	108-Month Clinic Visit	1.2	complete	108	0	0			3365			
+SUB231167	Atopic	PTR	56400	120-Month Clinic Visit	1.2	complete	120	0	0			3672			
+SUB231168	Atopic	PTR	60213	120-Month Clinic Visit	1.2	complete	120	0	0			3652			
+SUB231168	Atopic	PTR	60205	96-Month Clinic Visit	1.2	complete	96	0	0			2923			
+SUB231168	Atopic	PTR	60209	108-Month Clinic Visit	1.2	complete	108	0	0			3358			
+SUB231169	Non-atopic	PTR	60319	96-Month Clinic Visit	1.2	complete	96	0	0			2907			
+SUB231169	Non-atopic	PTR	60323	108-Month Clinic Visit	1.2	complete	108	0	0			3362			
+SUB231169	Non-atopic	PTR	60327	120-Month Clinic Visit	1.2	complete	120	0	0			3633			
+SUB231171	Non-atopic	PTR	59165	96-Month Clinic Visit	1.2	complete	96	0	0			2954			
+SUB231171	Non-atopic	PTR	59169	108-Month Clinic Visit	1.2	complete	108	0	0			3326			
+SUB231171	Non-atopic	PTR	59173	120-Month Clinic Visit	1.2	complete	120	0	0			3633			
+SUB231172	Non-atopic	PTR	58019	108-Month Clinic Visit	1.2	complete	108	0	0			3415			
+SUB231172	Non-atopic	PTR	58015	96-Month Clinic Visit	1.2	complete	96	0	0			2982			
+SUB231172	Non-atopic	PTR	58023	120-Month Clinic Visit	1.2	complete	120	0	0			3654			
+SUB231173	Atopic	PTR	51331	108-Month Clinic Visit	1.1	complete	108	0	0			3290			
+SUB231173	Atopic	PTR	51335	120-Month Clinic Visit	1.2	complete	120	0	0			3695			
+SUB231173	Atopic	PTR	51327	96-Month Clinic Visit	1.0	complete	96		0			2906			
+SUB231176	Atopic	PTR	57831	108-Month Clinic Visit	1.1	complete	108	0	0			3302			
+SUB231176	Atopic	PTR	57827	96-Month Clinic Visit	1.0	missing	.x								
+SUB231176	Atopic	PTR	57835	120-Month Clinic Visit	1.2	missing	.x								
+SUB231177	Atopic	PTR	51417	108-Month Clinic Visit	1.1	complete	108	0	0			3276			
+SUB231177	Atopic	PTR	51421	120-Month Clinic Visit	1.2	complete	120	0	0			3666			
+SUB231177	Atopic	PTR	51413	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB231178	Atopic	PTR	51496	96-Month Clinic Visit	1.0	complete	96		0			2912			
+SUB231179	Atopic	PTR	51769	108-Month Clinic Visit	1.1	complete	108	0	0			3275			
+SUB231179	Atopic	PTR	51765	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB231179	Atopic	PTR	51773	120-Month Clinic Visit	1.2	complete	120	0	0			3692			
+SUB231180	Atopic	PTR	51897	96-Month Clinic Visit	1.0	complete	96		0			2967			
+SUB231182	Atopic	PTR	51879	96-Month Clinic Visit	1.0	complete	96		0			2896			
+SUB231183	Atopic	PTR	52495	96-Month Clinic Visit	1.0	complete	96		0			2906			
+SUB231184	Atopic	PTR	51549	108-Month Clinic Visit	1.1	complete	108	0	0			3265			
+SUB231184	Atopic	PTR	51553	120-Month Clinic Visit	1.2	complete	120	0	0			3625			
+SUB231184	Atopic	PTR	51545	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB231185	Atopic	PTR	52338	96-Month Clinic Visit	1.0	complete	96		0			2902			
+SUB231186	Atopic	PTR	52538	96-Month Clinic Visit	1.0	complete	96		0			2898			
+SUB231187	Atopic	PTR	54295	96-Month Clinic Visit	1.0	complete	96		0			2908			
+SUB231188	Atopic	PTR	51788	96-Month Clinic Visit	1.0	missing	.x								
+SUB231189	Atopic	PTR	52370	96-Month Clinic Visit	1.0	missing	.x								
+SUB231190	Atopic	PTR	51583	96-Month Clinic Visit	1.0	missing	.x								
+SUB231191	Atopic	PTR	52250	96-Month Clinic Visit	1.0	missing	.x								
+SUB231192	Atopic	PTR	52718	96-Month Clinic Visit	1.0	complete	96		0			2928			
+SUB231194	Atopic	PTR	52613	120-Month Clinic Visit	1.2	complete	120	0	0			3703			
+SUB231194	Atopic	PTR	52605	96-Month Clinic Visit	1.0	complete	96		0			2896			
+SUB231194	Atopic	PTR	52609	108-Month Clinic Visit	1.2	complete	108	0	0			3280			
+SUB231195	Atopic	PTR	52713	120-Month Clinic Visit	1.2	complete	120	0	0			3631			
+SUB231195	Atopic	PTR	52705	96-Month Clinic Visit	1.0	complete	96		0			2892			
+SUB231195	Atopic	PTR	52709	108-Month Clinic Visit	1.2	complete	108	0	0			3277			
+SUB231196	Atopic	PTR	52679	96-Month Clinic Visit	1.0	complete	96		0			2897			
+SUB231196	Atopic	PTR	52687	120-Month Clinic Visit	1.2	complete	120	0	0			3637			
+SUB231196	Atopic	PTR	52683	108-Month Clinic Visit	1.1	complete	108	0	0			3260			
+SUB231198	Atopic	PTR	55563	96-Month Clinic Visit	1.0	complete	96		0			2916			
+SUB231199	Atopic	PTR	53224	96-Month Clinic Visit	1.0	complete	96		0			2906			
+SUB231201	Atopic	PTR	53540	108-Month Clinic Visit	1.2	complete	108	0	0			3257			
+SUB231201	Atopic	PTR	53544	120-Month Clinic Visit	1.2	complete	120	0	0			3623			
+SUB231201	Atopic	PTR	53536	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB231202	Atopic	PTR	53971	96-Month Clinic Visit	1.0	complete	96		0			2898			
+SUB231203	Atopic	PTR	53781	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB231206	Atopic	PTR	54478	120-Month Clinic Visit	1.2	complete	120	0	0			3634			
+SUB231206	Atopic	PTR	54474	108-Month Clinic Visit	1.2	complete	108	0	0			3261			
+SUB231206	Atopic	PTR	54470	96-Month Clinic Visit	1.0	complete	96		0			2906			
+SUB231207	Atopic	PTR	54711	96-Month Clinic Visit	1.0	complete	96		0			2897			
+SUB231208	Atopic	PTR	54171	96-Month Clinic Visit	1.0	complete	96		0			2907			
+SUB231210	Atopic	PTR	56319	108-Month Clinic Visit	1.2	complete	108	0	0			3264			
+SUB231210	Atopic	PTR	56315	96-Month Clinic Visit	1.0	complete	96		0			2976			
+SUB231210	Atopic	PTR	56323	120-Month Clinic Visit	1.2	complete	120	0	0			3632			
+SUB231213	Atopic	PTR	55576	96-Month Clinic Visit	1.0	complete	96		0			2906			
+SUB231214	Atopic	PTR	55316	96-Month Clinic Visit	1.0	complete	96		0			2902			
+SUB231215	Atopic	PTR	56213	120-Month Clinic Visit	1.2	complete	120	0	0			3627			
+SUB231215	Atopic	PTR	56205	96-Month Clinic Visit	1.0	complete	96		0			2915			
+SUB231215	Atopic	PTR	56209	108-Month Clinic Visit	1.2	complete	108	0	0			3278			
+SUB231216	Atopic	PTR	55606	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB231216	Atopic	PTR	55614	120-Month Clinic Visit	1.2	complete	120	0	0			3625			
+SUB231216	Atopic	PTR	55610	108-Month Clinic Visit	1.2	complete	108	0	0			3264			
+SUB231217	Atopic	PTR	57759	108-Month Clinic Visit	1.2	complete	108	0	0			3267			
+SUB231217	Atopic	PTR	57763	120-Month Clinic Visit	1.2	missing	.x								
+SUB231217	Atopic	PTR	57755	96-Month Clinic Visit	1.0	complete	96		0			2909			
+SUB231218	Atopic	PTR	55768	108-Month Clinic Visit	1.2	complete	108	0	0			3259			
+SUB231218	Atopic	PTR	55772	120-Month Clinic Visit	1.2	complete	120	0	0			3630			
+SUB231218	Atopic	PTR	55764	96-Month Clinic Visit	1.0	complete	96		0			2912			
+SUB231219	Atopic	PTR	55785	120-Month Clinic Visit	1.2	complete	120	0	0			3630			
+SUB231219	Atopic	PTR	55781	108-Month Clinic Visit	1.2	complete	108	0	0			3259			
+SUB231219	Atopic	PTR	55777	96-Month Clinic Visit	1.0	complete	96		0			2912			
+SUB231221	Atopic	PTR	55853	96-Month Clinic Visit	1.0	complete	96		0			2904			
+SUB231222	Atopic	PTR	59955	96-Month Clinic Visit	1.0	complete	96		0			2898			
+SUB231222	Atopic	PTR	59959	108-Month Clinic Visit	1.2	complete	108	0	0			3334			
+SUB231222	Atopic	PTR	59963	120-Month Clinic Visit	1.2	complete	120	0	0			3690			
+SUB231223	Atopic	PTR	56702	96-Month Clinic Visit	1.0	complete	96		0			2897			
+SUB231225	Atopic	PTR	56536	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB231226	Atopic	PTR	58150	96-Month Clinic Visit	1.0	complete	96		0			2894			
+SUB231227	Atopic	PTR	56839	108-Month Clinic Visit	1.2	complete	108	0	0			3272			
+SUB231227	Atopic	PTR	56843	120-Month Clinic Visit	1.2	complete	120	0	0			3696			
+SUB231227	Atopic	PTR	56835	96-Month Clinic Visit	1.0	complete	96		0			2919			
+SUB231229	Atopic	PTR	56954	96-Month Clinic Visit	1.0	complete	96		0			2903			
+SUB231229	Atopic	PTR	56962	120-Month Clinic Visit	1.2	complete	120	0	0			3630			
+SUB231229	Atopic	PTR	56958	108-Month Clinic Visit	1.2	complete	108	0	0			3266			
+SUB231230	Atopic	PTR	56553	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB231232	Atopic	PTR	56422	120-Month Clinic Visit	1.2	complete	120	0	0			3663			
+SUB231232	Atopic	PTR	56418	108-Month Clinic Visit	1.2	complete	108	0	0			3261			
+SUB231232	Atopic	PTR	56414	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB231233	Atopic	PTR	57190	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB231234	Atopic	PTR	56766	108-Month Clinic Visit	1.2	complete	108	0	0			3259			
+SUB231234	Atopic	PTR	56770	120-Month Clinic Visit	1.2	complete	120	0	0			3638			
+SUB231234	Atopic	PTR	56762	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB231235	Atopic	PTR	51513	108-Month Clinic Visit	1.2	complete	108	0	0			3301			
+SUB231235	Atopic	PTR	51517	120-Month Clinic Visit	1.2	complete	120	0	0			3689			
+SUB231235	Atopic	PTR	51509	96-Month Clinic Visit	1.0	complete	96		0			2890			
+SUB231236	Atopic	PTR	56638	108-Month Clinic Visit	1.2	complete	108	0	0			3254			
+SUB231236	Atopic	PTR	56642	120-Month Clinic Visit	1.2	complete	120	0	0			3639			
+SUB231236	Atopic	PTR	56634	96-Month Clinic Visit	1.0	complete	96		0			2896			
+SUB231237	Atopic	PTR	57123	96-Month Clinic Visit	1.0	complete	96		0			2898			
+SUB231243	Atopic	PTR	51478	108-Month Clinic Visit	1.2	complete	108	0	0			3298			
+SUB231243	Atopic	PTR	51474	96-Month Clinic Visit	1.1	complete	96	0	0			2899			
+SUB231243	Atopic	PTR	51482	120-Month Clinic Visit	1.2	complete	120	0	0			3761			
+SUB231252	Atopic	PTR	53957	96-Month Clinic Visit	1.1	complete	96	0	0			3014			
+SUB231252	Atopic	PTR	53961	108-Month Clinic Visit	1.2	complete	108	0	0			3288			
+SUB231252	Atopic	PTR	53965	120-Month Clinic Visit	1.2	complete	120	1		1	0	3700		3700	
+SUB231253	Atopic	PTR	52132	120-Month Clinic Visit	1.2	complete	120	0	0			3625			
+SUB231253	Atopic	PTR	52128	108-Month Clinic Visit	1.2	complete	108	0	0			3286			
+SUB231253	Atopic	PTR	52124	96-Month Clinic Visit	1.1	complete	96	0	0			2894			
+SUB231255	Atopic	PTR	52295	96-Month Clinic Visit	1.1	complete	96	0	0			2896			
+SUB231255	Atopic	PTR	52303	120-Month Clinic Visit	1.2	complete	120	0	0			3636			
+SUB231255	Atopic	PTR	52299	108-Month Clinic Visit	1.2	complete	108	0	0			3254			
+SUB231260	Atopic	PTR	59592	96-Month Clinic Visit	1.1	complete	96	0	0			2901			
+SUB231260	Atopic	PTR	59600	120-Month Clinic Visit	1.2	complete	120	0	0			3682			
+SUB231260	Atopic	PTR	59596	108-Month Clinic Visit	1.2	complete	108	0	0			3261			
+SUB231262	Atopic	PTR	53395	120-Month Clinic Visit	1.2	complete	120	0	0			3653			
+SUB231262	Atopic	PTR	53391	108-Month Clinic Visit	1.2	complete	108	0	0			3274			
+SUB231262	Atopic	PTR	53387	96-Month Clinic Visit	1.1	complete	96	0	0			2897			
+SUB231263	Atopic	PTR	52977	108-Month Clinic Visit	1.2	complete	108	0	0			3263			
+SUB231263	Atopic	PTR	52973	96-Month Clinic Visit	1.1	complete	96	0	0			2919			
+SUB231263	Atopic	PTR	52981	120-Month Clinic Visit	1.2	complete	120	0	0			3657			
+SUB231264	Atopic	PTR	57066	108-Month Clinic Visit	1.2	complete	108	0	0			3357			
+SUB231264	Atopic	PTR	57070	120-Month Clinic Visit	1.2	missing	.x								
+SUB231264	Atopic	PTR	57062	96-Month Clinic Visit	1.1	missing	.x								
+SUB231270	Atopic	PTR	53707	120-Month Clinic Visit	1.2	complete	120	0	0			3652			
+SUB231270	Atopic	PTR	53703	108-Month Clinic Visit	1.2	complete	108	0	0			3267			
+SUB231270	Atopic	PTR	53699	96-Month Clinic Visit	1.1	complete	96	0	0			2897			
+SUB231272	Atopic	PTR	54071	120-Month Clinic Visit	1.2	complete	120	0	0			3625			
+SUB231272	Atopic	PTR	54063	96-Month Clinic Visit	1.1	complete	96	0	0			2896			
+SUB231272	Atopic	PTR	54067	108-Month Clinic Visit	1.2	complete	108	0	0			3257			
+SUB231274	Atopic	PTR	59297	96-Month Clinic Visit	1.1	complete	96	0	0			2907			
+SUB231274	Atopic	PTR	59301	108-Month Clinic Visit	1.2	complete	108	0	0			3264			
+SUB231274	Atopic	PTR	59305	120-Month Clinic Visit	1.2	complete	120	0	0			3663			
+SUB231275	Atopic	PTR	54228	96-Month Clinic Visit	1.1	complete	96	0	0			2897			
+SUB231275	Atopic	PTR	54236	120-Month Clinic Visit	1.2	complete	120	0	0			3804			
+SUB231275	Atopic	PTR	54232	108-Month Clinic Visit	1.2	complete	108	0	0			3278			
+SUB231276	Atopic	PTR	54317	120-Month Clinic Visit	1.2	missing	.x								
+SUB231276	Atopic	PTR	54309	96-Month Clinic Visit	1.1	complete	96	0	0			2894			
+SUB231276	Atopic	PTR	54313	108-Month Clinic Visit	1.2	complete	108	0	0			3259			
+SUB231277	Non-atopic	PTR	54504	108-Month Clinic Visit	1.2	complete	108	0	0			3348			
+SUB231277	Non-atopic	PTR	54500	96-Month Clinic Visit	1.1	complete	96	0	0			2900			
+SUB231277	Non-atopic	PTR	54508	120-Month Clinic Visit	1.2	complete	120	0	0			3824			
+SUB231281	Atopic	PTR	59685	120-Month Clinic Visit	1.2	complete	120	0	0			3649			
+SUB231281	Atopic	PTR	59677	96-Month Clinic Visit	1.1	complete	96	0	0			2884			
+SUB231281	Atopic	PTR	59681	108-Month Clinic Visit	1.2	complete	108	0	0			3297			
+SUB231286	Atopic	PTR	55298	120-Month Clinic Visit	1.2	complete	120	0	0			3625			
+SUB231286	Atopic	PTR	55290	96-Month Clinic Visit	1.2	complete	96	0	0			2896			
+SUB231286	Atopic	PTR	55294	108-Month Clinic Visit	1.2	complete	108	0	0			3260			
+SUB231288	Atopic	PTR	57436	96-Month Clinic Visit	1.2	complete	96	0	0			2982			
+SUB231288	Atopic	PTR	57444	120-Month Clinic Visit	1.2	complete	120	0	0			3580			
+SUB231288	Atopic	PTR	57440	108-Month Clinic Visit	1.2	complete	108	0	0			3340			
+SUB231291	Atopic	PTR	55924	96-Month Clinic Visit	1.2	complete	96	0	0			2905			
+SUB231291	Atopic	PTR	55928	108-Month Clinic Visit	1.2	complete	108	0	0			3263			
+SUB231291	Atopic	PTR	55932	120-Month Clinic Visit	1.2	complete	120	0	0			3682			
+SUB231293	Atopic	PTR	53653	96-Month Clinic Visit	1.0	missing	.x								
+SUB231294	Atopic	PTR	52064	120-Month Clinic Visit	1.2	complete	120	0	0			3698			
+SUB231294	Atopic	PTR	52060	108-Month Clinic Visit	1.1	complete	108	0	0			3345			
+SUB231294	Atopic	PTR	52056	96-Month Clinic Visit	1.0	complete	96		0			2983			
+SUB231295	Atopic	PTR	54058	120-Month Clinic Visit	1.2	complete	120	1		1	0	3711			
+SUB231295	Atopic	PTR	54054	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	3319	3262	3319	3319
+SUB231295	Atopic	PTR	54050	96-Month Clinic Visit	1.0	missing	.x								
+SUB231297	Atopic	PTR	53118	96-Month Clinic Visit	1.0	missing	.x								
+SUB231299	Atopic	PTR	54737	96-Month Clinic Visit	1.0	missing	.x								
+SUB231299	Atopic	PTR	54741	108-Month Clinic Visit	1.0	missing	.x								
+SUB231302	Atopic	PTR	52215	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3671	3593		
+SUB231302	Atopic	PTR	52211	108-Month Clinic Visit	1.1	complete	108	0	0			3295			
+SUB231302	Atopic	PTR	52207	96-Month Clinic Visit	1.0	complete	96		0			2947			
+SUB231304	Atopic	PTR	53104	96-Month Clinic Visit	1.0	missing	.x								
+SUB231305	Atopic	PTR	53448	108-Month Clinic Visit	1.1	complete	108	0	0			3300			
+SUB231305	Atopic	PTR	53452	120-Month Clinic Visit	1.2	complete	120	0	0			3693			
+SUB231305	Atopic	PTR	53444	96-Month Clinic Visit	1.0	complete	96		0			2915			
+SUB231306	Atopic	PTR	55998	108-Month Clinic Visit	1.1	complete	108	0	0			3336			
+SUB231306	Atopic	PTR	55994	96-Month Clinic Visit	1.0	complete	96		0			2929			
+SUB231306	Atopic	PTR	56002	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3692	3626		
+SUB231307	Atopic	PTR	51603	96-Month Clinic Visit	1.0	missing	.x								
+SUB231308	Atopic	PTR	58955	96-Month Clinic Visit	1.0	missing	.x								
+SUB231309	Atopic	PTR	54761	108-Month Clinic Visit	1.1	complete	108	0	0			3273			
+SUB231309	Atopic	PTR	54757	96-Month Clinic Visit	1.0	complete	96		0			2910			
+SUB231309	Atopic	PTR	54765	120-Month Clinic Visit	1.2	complete	120	0	0			3706			
+SUB231310	Atopic	PTR	54483	96-Month Clinic Visit	1.0	missing	.x								
+SUB231313	Atopic	PTR	51818	108-Month Clinic Visit	1.1	complete	108	0	0			3261			
+SUB231313	Atopic	PTR	51814	96-Month Clinic Visit	1.0	complete	96		0			2975			
+SUB231313	Atopic	PTR	51822	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3654	3182		
+SUB231314	Atopic	PTR	52137	96-Month Clinic Visit	1.0	missing	.x								
+SUB231316	Atopic	PTR	52033	96-Month Clinic Visit	1.0	complete	96		0			2945			
+SUB231316	Atopic	PTR	52041	120-Month Clinic Visit	1.2	complete	120	0	0			3679			
+SUB231316	Atopic	PTR	52037	108-Month Clinic Visit	1.1	complete	108	0	0			3269			
+SUB231318	Atopic	PTR	51698	96-Month Clinic Visit	1.0	complete	96		0			2936			
+SUB231318	Atopic	PTR	51706	120-Month Clinic Visit	1.2	complete	120	0	0			3670			
+SUB231318	Atopic	PTR	51702	108-Month Clinic Visit	1.1	complete	108	0	0			3262			
+SUB231319	Atopic	PTR	52012	120-Month Clinic Visit	1.2	complete	120	0	0			3672			
+SUB231319	Atopic	PTR	52008	108-Month Clinic Visit	1.2	complete	108	0	0			3345			
+SUB231319	Atopic	PTR	52004	96-Month Clinic Visit	1.0	complete	96		0			2966			
+SUB231320	Atopic	PTR	52734	96-Month Clinic Visit	1.0	missing	.x								
+SUB231323	Atopic	PTR	53174	108-Month Clinic Visit	1.1	complete	108	0	0			3268			
+SUB231323	Atopic	PTR	53170	96-Month Clinic Visit	1.0	complete	96		0			2923			
+SUB231323	Atopic	PTR	53178	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3690	3482		
+SUB231324	Atopic	PTR	52824	96-Month Clinic Visit	1.0	complete	96		0			2918			
+SUB231325	Atopic	PTR	53206	96-Month Clinic Visit	1.0	missing	.x								
+SUB231326	Atopic	PTR	55127	96-Month Clinic Visit	1.0	missing	.x								
+SUB231327	Atopic	PTR	52555	108-Month Clinic Visit	1.1	complete	108	0	0			3267			
+SUB231327	Atopic	PTR	52551	96-Month Clinic Visit	1.0	complete	96		0			2902			
+SUB231327	Atopic	PTR	52559	120-Month Clinic Visit	1.2	complete	120	0	0			3673			
+SUB231328	Atopic	PTR	52443	96-Month Clinic Visit	1.0	complete	96		0			2942			
+SUB231329	Atopic	PTR	53018	96-Month Clinic Visit	1.0	missing	.x								
+SUB231330	Atopic	PTR	53767	96-Month Clinic Visit	1.0	missing	.x								
+SUB231332	Atopic	PTR	54019	96-Month Clinic Visit	1.0	missing	.x								
+SUB231333	Atopic	PTR	54006	108-Month Clinic Visit	1.2	complete	108	0	0			3300			
+SUB231333	Atopic	PTR	54002	96-Month Clinic Visit	1.0	complete	96		0			2992			
+SUB231333	Atopic	PTR	54010	120-Month Clinic Visit	1.2	complete	120	0	0			3693			
+SUB231334	Atopic	PTR	54705	120-Month Clinic Visit	1.2	complete	120	0	0			3655			
+SUB231334	Atopic	PTR	54701	108-Month Clinic Visit	1.2	complete	108	0	0			3278			
+SUB231334	Atopic	PTR	54697	96-Month Clinic Visit	1.0	complete	96		0			2907			
+SUB231336	Atopic	PTR	54212	96-Month Clinic Visit	1.0	complete	96		0			2932			
+SUB231338	Atopic	PTR	53059	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB231339	Atopic	PTR	53716	96-Month Clinic Visit	1.0	complete	96		0			2913			
+SUB231341	Atopic	PTR	54410	96-Month Clinic Visit	1.0	complete	96		0			2920			
+SUB231342	Atopic	PTR	56014	96-Month Clinic Visit	1.0	complete	96		0			2974			
+SUB231343	Atopic	PTR	54826	96-Month Clinic Visit	1.0	complete	96		0			2929			
+SUB231345	Atopic	PTR	57907	96-Month Clinic Visit	1.0	complete	96		0			3009			
+SUB231345	Atopic	PTR	57911	108-Month Clinic Visit	1.2	complete	108	0	0			3275			
+SUB231345	Atopic	PTR	57915	120-Month Clinic Visit	1.2	complete	120	0	0			3694			
+SUB231346	Atopic	PTR	55382	108-Month Clinic Visit	1.2	complete	108	0	0			3264			
+SUB231346	Atopic	PTR	55386	120-Month Clinic Visit	1.2	complete	120	0	0			3676			
+SUB231346	Atopic	PTR	55378	96-Month Clinic Visit	1.0	complete	96		0			2928			
+SUB231347	Atopic	PTR	55665	96-Month Clinic Visit	1.0	missing	.x								
+SUB231352	Atopic	PTR	55359	96-Month Clinic Visit	1.0	complete	96		0			3003			
+SUB231353	Atopic	PTR	55654	120-Month Clinic Visit	1.2	complete	120	0	0			3689			
+SUB231353	Atopic	PTR	55650	108-Month Clinic Visit	1.2	complete	108	0	0			3267			
+SUB231353	Atopic	PTR	55646	96-Month Clinic Visit	1.0	complete	96		0			2925			
+SUB231355	Atopic	PTR	55815	120-Month Clinic Visit	1.2	complete	120	0	0			3659			
+SUB231355	Atopic	PTR	55807	96-Month Clinic Visit	1.0	complete	96		0			2902			
+SUB231355	Atopic	PTR	55811	108-Month Clinic Visit	1.2	complete	108	0	0			3288			
+SUB231356	Atopic	PTR	55591	96-Month Clinic Visit	1.0	complete	96		0			3000			
+SUB231357	Atopic	PTR	56299	96-Month Clinic Visit	1.0	missing	.x								
+SUB231359	Atopic	PTR	55898	96-Month Clinic Visit	1.0	complete	96		0			2934			
+SUB231360	Atopic	PTR	55792	96-Month Clinic Visit	1.0	complete	96		0			2995			
+SUB231363	Atopic	PTR	56167	96-Month Clinic Visit	1.0	complete	96		0			2930			
+SUB231365	Atopic	PTR	56294	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3769	3768		
+SUB231365	Atopic	PTR	56290	108-Month Clinic Visit	1.2	complete	108	0	0			3348			
+SUB231365	Atopic	PTR	56286	96-Month Clinic Visit	1.1	complete	96	0	0			3005			
+SUB231366	Atopic	PTR	55046	96-Month Clinic Visit	1.0	missing	.x								
+SUB231366	Atopic	PTR	55054	120-Month Clinic Visit	1.2	complete	120	0	0			3673			
+SUB231366	Atopic	PTR	55050	108-Month Clinic Visit	1.2	complete	108	0	0			3262			
+SUB231368	Atopic	PTR	55983	108-Month Clinic Visit	1.2	complete	108	0	0			3365			
+SUB231368	Atopic	PTR	55979	96-Month Clinic Visit	1.1	missing	.x								
+SUB231368	Atopic	PTR	55987	120-Month Clinic Visit	1.2	complete	120	0	0			3773			
+SUB231369	Atopic	PTR	56749	108-Month Clinic Visit	1.2	complete	108	0	0			3262			
+SUB231369	Atopic	PTR	56745	96-Month Clinic Visit	1.0	complete	96		0			2897			
+SUB231369	Atopic	PTR	56753	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3663	3430		
+SUB231372	Atopic	PTR	56527	108-Month Clinic Visit	1.2	complete	108	0	0			3273			
+SUB231372	Atopic	PTR	56531	120-Month Clinic Visit	1.2	complete	120	0	0			3727			
+SUB231372	Atopic	PTR	56523	96-Month Clinic Visit	1.0	complete	96		0			2958			
+SUB231373	Atopic	PTR	56180	96-Month Clinic Visit	1.0	complete	96		0			2971			
+SUB231374	Atopic	PTR	55345	96-Month Clinic Visit	1.0	complete	96		0			2895			
+SUB231374	Atopic	PTR	55353	120-Month Clinic Visit	1.2	complete	120	0	0			3798			
+SUB231374	Atopic	PTR	55349	108-Month Clinic Visit	1.2	complete	108	0	0			3269			
+SUB231376	Atopic	PTR	55840	108-Month Clinic Visit	1.2	complete	108	0	0			3345			
+SUB231376	Atopic	PTR	55844	120-Month Clinic Visit	1.2	missing	.x								
+SUB231376	Atopic	PTR	55836	96-Month Clinic Visit	1.0	complete	96		0			2901			
+SUB231377	Atopic	PTR	58337	120-Month Clinic Visit	1.2	missing	.x								
+SUB231377	Atopic	PTR	58333	108-Month Clinic Visit	1.2	missing	.x								
+SUB231377	Atopic	PTR	58329	96-Month Clinic Visit	1.0	missing	.x								
+SUB231378	Atopic	PTR	52487	120-Month Clinic Visit	1.2	complete	120	0	0			3747			
+SUB231378	Atopic	PTR	52483	108-Month Clinic Visit	1.2	complete	108	0	0			3265			
+SUB231378	Atopic	PTR	52479	96-Month Clinic Visit	1.0	complete	96		0			2951			
+SUB231379	Atopic	PTR	56728	96-Month Clinic Visit	1.1	missing	.x								
+SUB231379	Atopic	PTR	56732	108-Month Clinic Visit	1.2	complete	108	0	0			3271			
+SUB231379	Atopic	PTR	56736	120-Month Clinic Visit	1.2	complete	120	0	0			3718			
+SUB231380	Atopic	PTR	57454	108-Month Clinic Visit	1.2	complete	108	0	0			3318			
+SUB231380	Atopic	PTR	57450	96-Month Clinic Visit	1.1	complete	96	0	0			2985			
+SUB231380	Atopic	PTR	57458	120-Month Clinic Visit	1.2	complete	120	0	0			3690			
+SUB231381	Atopic	PTR	57107	108-Month Clinic Visit	1.2	complete	108	0	0			3366			
+SUB231381	Atopic	PTR	57111	120-Month Clinic Visit	1.2	missing	.x								
+SUB231381	Atopic	PTR	57103	96-Month Clinic Visit	1.0	missing	.x								
+SUB231382	Atopic	PTR	56925	108-Month Clinic Visit	1.2	complete	108	0	0			3264			
+SUB231382	Atopic	PTR	56921	96-Month Clinic Visit	1.0	complete	96		0			2900			
+SUB231382	Atopic	PTR	56929	120-Month Clinic Visit	1.2	complete	120	0	0			3652			
+SUB231384	Atopic	PTR	56518	120-Month Clinic Visit	1.2	complete	120	0	0			3786			
+SUB231384	Atopic	PTR	56514	108-Month Clinic Visit	1.2	complete	108	0	0			3347			
+SUB231384	Atopic	PTR	56510	96-Month Clinic Visit	1.1	complete	96	0	0			2961			
+SUB231387	Atopic	PTR	57326	96-Month Clinic Visit	1.0	complete	96		0			2931			
+SUB231388	Atopic	PTR	57294	120-Month Clinic Visit	1.2	complete	120	0	0			3723			
+SUB231388	Atopic	PTR	57286	96-Month Clinic Visit	1.1	complete	96	0	0			2959			
+SUB231388	Atopic	PTR	57290	108-Month Clinic Visit	1.2	complete	108	0	0			3337			
+SUB231389	Atopic	PTR	57977	120-Month Clinic Visit	1.2	complete	120	0	0			3711			
+SUB231389	Atopic	PTR	57973	108-Month Clinic Visit	1.2	complete	108	0	0			3340			
+SUB231389	Atopic	PTR	57969	96-Month Clinic Visit	1.1	complete	96	0	0			2948			
+SUB231390	Atopic	PTR	59464	96-Month Clinic Visit	1.1	complete	96	0	0			2983			
+SUB231390	Atopic	PTR	59472	120-Month Clinic Visit	1.2	complete	120	0	0			3782			
+SUB231390	Atopic	PTR	59468	108-Month Clinic Visit	1.2	complete	108	0	0			3355			
+SUB231393	Atopic	PTR	57892	108-Month Clinic Visit	1.2	complete	108	0	0			3341			
+SUB231393	Atopic	PTR	57888	96-Month Clinic Visit	1.1	missing	.x								
+SUB231393	Atopic	PTR	57896	120-Month Clinic Visit	1.2	complete	120	0	0			3786			
+SUB231396	Atopic	PTR	57704	96-Month Clinic Visit	1.1	complete	96	0	0			2971			
+SUB231396	Atopic	PTR	57708	108-Month Clinic Visit	1.2	complete	108	0	0			3369			
+SUB231397	Atopic	PTR	52364	120-Month Clinic Visit	1.2	complete	120	0	0			3639			
+SUB231397	Atopic	PTR	52360	108-Month Clinic Visit	1.2	complete	108	0	0			3287			
+SUB231397	Atopic	PTR	52356	96-Month Clinic Visit	1.1	complete	96	0	0			2918			
+SUB231401	Atopic	PTR	51628	108-Month Clinic Visit	1.2	complete	108	0	0			3341			
+SUB231401	Atopic	PTR	51624	96-Month Clinic Visit	1.1	complete	96	0	0			2909			
+SUB231401	Atopic	PTR	51632	120-Month Clinic Visit	1.2	complete	120	0	0			3746			
+SUB231402	Atopic	PTR	51725	120-Month Clinic Visit	1.2	complete	120	0	0			3731			
+SUB231402	Atopic	PTR	51721	108-Month Clinic Visit	1.2	complete	108	0	0			3368			
+SUB231402	Atopic	PTR	51717	96-Month Clinic Visit	1.1	complete	96	0	0			2997			
+SUB231403	Atopic	PTR	51658	120-Month Clinic Visit	1.2	complete	120	0	0			3756			
+SUB231403	Atopic	PTR	51654	108-Month Clinic Visit	1.2	complete	108	0	0			3272			
+SUB231403	Atopic	PTR	51650	96-Month Clinic Visit	1.1	complete	96	0	0			2938			
+SUB231404	Atopic	PTR	51931	120-Month Clinic Visit	1.2	complete	120	0	0			3755			
+SUB231404	Atopic	PTR	51927	108-Month Clinic Visit	1.2	complete	108	0	0			3335			
+SUB231404	Atopic	PTR	51923	96-Month Clinic Visit	1.1	complete	96	0	0			2943			
+SUB231406	Atopic	PTR	52385	96-Month Clinic Visit	1.1	complete	96	0	0			2942			
+SUB231406	Atopic	PTR	52393	120-Month Clinic Visit	1.2	complete	120	0	0			3732			
+SUB231406	Atopic	PTR	52389	108-Month Clinic Visit	1.2	complete	108	0	0			3352			
+SUB231410	Atopic	PTR	52907	120-Month Clinic Visit	1.2	complete	120	0	0			3656			
+SUB231410	Atopic	PTR	52903	108-Month Clinic Visit	1.2	complete	108	0	0			3279			
+SUB231410	Atopic	PTR	52899	96-Month Clinic Visit	1.1	complete	96	0	0			2919			
+SUB231411	Atopic	PTR	53689	108-Month Clinic Visit	1.2	complete	108	0	0			3349			
+SUB231411	Atopic	PTR	53693	120-Month Clinic Visit	1.2	complete	120	0	0			3710			
+SUB231411	Atopic	PTR	53685	96-Month Clinic Visit	1.1	complete	96	0	0			2926			
+SUB231412	Atopic	PTR	52925	120-Month Clinic Visit	1.2	complete	120	0	0			3716			
+SUB231412	Atopic	PTR	52917	96-Month Clinic Visit	1.1	complete	96	0	0			2920			
+SUB231412	Atopic	PTR	52921	108-Month Clinic Visit	1.2	complete	108	0	0			3339			
+SUB231413	Atopic	PTR	53276	120-Month Clinic Visit	1.2	complete	120	0	0			3710			
+SUB231413	Atopic	PTR	53268	96-Month Clinic Visit	1.1	complete	96	0	0			2932			
+SUB231413	Atopic	PTR	53272	108-Month Clinic Visit	1.2	complete	108	0	0			3373			
+SUB231414	Atopic	PTR	52841	96-Month Clinic Visit	1.1	complete	96	0	0			2919			
+SUB231414	Atopic	PTR	52849	120-Month Clinic Visit	1.2	complete	120	0	0			3640			
+SUB231414	Atopic	PTR	52845	108-Month Clinic Visit	1.2	complete	108	0	0			3270			
+SUB231415	Non-atopic	PTR	52994	120-Month Clinic Visit	1.2	complete	120	0	0			3736			
+SUB231415	Non-atopic	PTR	52986	96-Month Clinic Visit	1.1	complete	96	0	0			2934			
+SUB231415	Non-atopic	PTR	52990	108-Month Clinic Visit	1.2	complete	108	0	0			3284			
+SUB231417	Atopic	PTR	53519	96-Month Clinic Visit	1.1	complete	96	0	0			2896			
+SUB231417	Atopic	PTR	53527	120-Month Clinic Visit	1.2	complete	120	0	0			3654			
+SUB231417	Atopic	PTR	53523	108-Month Clinic Visit	1.2	complete	108	0	0			3295			
+SUB231419	Atopic	PTR	53902	108-Month Clinic Visit	1.2	complete	108	0	0			3348			
+SUB231419	Atopic	PTR	53906	120-Month Clinic Visit	1.2	complete	120	0	0			3692			
+SUB231419	Atopic	PTR	53898	96-Month Clinic Visit	1.1	complete	96	0	0			2947			
+SUB231421	Atopic	PTR	53919	120-Month Clinic Visit	1.2	missing	.x								
+SUB231421	Atopic	PTR	53911	96-Month Clinic Visit	1.1	complete	96	0	0			2946			
+SUB231421	Atopic	PTR	53915	108-Month Clinic Visit	1.2	complete	108	0	0			3373			
+SUB231422	Atopic	PTR	58946	108-Month Clinic Visit	1.0	missing	.x								
+SUB231423	Atopic	PTR	53286	108-Month Clinic Visit	1.2	complete	108	0	0			3260			
+SUB231423	Atopic	PTR	53290	120-Month Clinic Visit	1.2	complete	120	0	0			3709			
+SUB231423	Atopic	PTR	53282	96-Month Clinic Visit	1.1	complete	96	0	0			2903			
+SUB231426	Atopic	PTR	54892	120-Month Clinic Visit	1.2	complete	120	0	0			3728			
+SUB231426	Atopic	PTR	54888	108-Month Clinic Visit	1.2	complete	108	0	0			3370			
+SUB231426	Atopic	PTR	54884	96-Month Clinic Visit	1.2	complete	96	0	0			2979			
+SUB231428	Atopic	PTR	53932	108-Month Clinic Visit	1.2	complete	108	0	0			3293			
+SUB231428	Atopic	PTR	53936	120-Month Clinic Visit	1.2	complete	120	0	0			3690			
+SUB231428	Atopic	PTR	53928	96-Month Clinic Visit	1.1	complete	96	0	0			2899			
+SUB231430	Non-atopic	PTR	55100	96-Month Clinic Visit	1.1	complete	96	0	0			2909			
+SUB231430	Non-atopic	PTR	55104	108-Month Clinic Visit	1.2	complete	108	0	0			3371			
+SUB231430	Non-atopic	PTR	55108	120-Month Clinic Visit	1.2	complete	120	0	0			3686			
+SUB231431	Non-atopic	PTR	54207	120-Month Clinic Visit	1.2	missing	.x								
+SUB231431	Non-atopic	PTR	54203	108-Month Clinic Visit	1.2	missing	.x								
+SUB231431	Non-atopic	PTR	54199	96-Month Clinic Visit	1.1	missing	.x								
+SUB231432	Non-atopic	PTR	56628	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3681	3656		
+SUB231432	Non-atopic	PTR	56620	96-Month Clinic Visit	1.1	complete	96	0	0			2902			
+SUB231432	Non-atopic	PTR	56624	108-Month Clinic Visit	1.2	complete	108	0	0			3370			
+SUB231435	Atopic	PTR	54785	120-Month Clinic Visit	1.2	complete	120	0	0			3700			
+SUB231435	Atopic	PTR	54777	96-Month Clinic Visit	1.1	complete	96	0	0			2894			
+SUB231435	Atopic	PTR	54781	108-Month Clinic Visit	1.2	complete	108	0	0			3364			
+SUB231437	Atopic	PTR	54812	108-Month Clinic Visit	1.2	complete	108	0	0			3293			
+SUB231437	Atopic	PTR	54816	120-Month Clinic Visit	1.2	complete	120	0	0			3725			
+SUB231437	Atopic	PTR	54808	96-Month Clinic Visit	1.1	complete	96	0	0			2913			
+SUB231438	Non-atopic	PTR	54272	108-Month Clinic Visit	1.0	missing	.x								
+SUB231440	Atopic	PTR	54587	96-Month Clinic Visit	1.2	complete	96	0	0			2908			
+SUB231440	Atopic	PTR	54595	120-Month Clinic Visit	1.2	complete	120	0	0			3720			
+SUB231440	Atopic	PTR	54591	108-Month Clinic Visit	1.2	complete	108	0	0			3294			
+SUB231443	Atopic	PTR	54982	120-Month Clinic Visit	1.2	complete	120	0	1	1	0	3732	3710		
+SUB231443	Atopic	PTR	54978	108-Month Clinic Visit	1.2	complete	108	0	0			3362			
+SUB231443	Atopic	PTR	54974	96-Month Clinic Visit	1.2	complete	96	0	0			2906			
+SUB231445	Atopic	PTR	57022	108-Month Clinic Visit	1.2	missing	.x								
+SUB231445	Atopic	PTR	57026	120-Month Clinic Visit	1.2	complete	120	0	0			3728			
+SUB231445	Atopic	PTR	57018	96-Month Clinic Visit	1.2	complete	96	0	0			2936			
+SUB231446	Non-atopic	PTR	55091	108-Month Clinic Visit	1.2	complete	108	0	0			3325			
+SUB231446	Non-atopic	PTR	55095	120-Month Clinic Visit	1.2	complete	120	0	0			3667			
+SUB231446	Non-atopic	PTR	55087	96-Month Clinic Visit	1.2	complete	96	0	0			2922			
+SUB231449	Atopic	PTR	63223	96-Month Clinic Visit	1.2	complete	96	0	0			2995			
+SUB231449	Atopic	PTR	63227	108-Month Clinic Visit	1.2	complete	108	0	0			3381			
+SUB231449	Atopic	PTR	63231	120-Month Clinic Visit	1.2	missing	.x								
+SUB231452	Non-atopic	PTR	57348	108-Month Clinic Visit	1.2	complete	108	0	0			3350			
+SUB231452	Non-atopic	PTR	57352	120-Month Clinic Visit	1.2	complete	120	0	0			3771			
+SUB231452	Non-atopic	PTR	57344	96-Month Clinic Visit	1.2	complete	96	0	0			2902			
+SUB231453	Atopic	PTR	56432	108-Month Clinic Visit	1.2	complete	108	0	0			3287			
+SUB231453	Atopic	PTR	56428	96-Month Clinic Visit	1.2	complete	96	0	0			2901			
+SUB231453	Atopic	PTR	56436	120-Month Clinic Visit	1.2	complete	120	0	0			3679			
+SUB231454	Atopic	PTR	57263	120-Month Clinic Visit	1.2	complete	120	0	0			3685			
+SUB231454	Atopic	PTR	57259	108-Month Clinic Visit	1.2	complete	108	0	0			3295			
+SUB231454	Atopic	PTR	57255	96-Month Clinic Visit	1.2	complete	96	0	0			2924			
+SUB231457	Non-atopic	PTR	57309	108-Month Clinic Visit	1.2	complete	108	0	0			3277			
+SUB231457	Non-atopic	PTR	57313	120-Month Clinic Visit	1.2	complete	120	0	0			3677			
+SUB231457	Non-atopic	PTR	57305	96-Month Clinic Visit	1.2	complete	96	0	0			2975			
+SUB231463	Atopic	PTR	58041	108-Month Clinic Visit	1.2	complete	108	0	0			3273			
+SUB231463	Atopic	PTR	58045	120-Month Clinic Visit	1.2	complete	120	0	0			3638			
+SUB231463	Atopic	PTR	58037	96-Month Clinic Visit	1.2	complete	96	0	0			2896			
+SUB231465	Non-atopic	PTR	57810	96-Month Clinic Visit	1.2	complete	96	0	0			2915			
+SUB231465	Non-atopic	PTR	57818	120-Month Clinic Visit	1.2	complete	120	0	0			3657			
+SUB231465	Non-atopic	PTR	57814	108-Month Clinic Visit	1.2	complete	108	0	0			3358			
+SUB231467	Atopic	PTR	57646	96-Month Clinic Visit	1.2	complete	96	0	0			2900			
+SUB231467	Atopic	PTR	57650	108-Month Clinic Visit	1.2	complete	108	0	0			3342			
+SUB231467	Atopic	PTR	57654	120-Month Clinic Visit	1.2	complete	120	0	0			3648			
+SUB231470	Non-atopic	PTR	58570	120-Month Clinic Visit	1.2	complete	120	0	0			3651			
+SUB231470	Non-atopic	PTR	58562	96-Month Clinic Visit	1.2	complete	96	0	0			2910			
+SUB231470	Non-atopic	PTR	58566	108-Month Clinic Visit	1.2	complete	108	0	0			3295			

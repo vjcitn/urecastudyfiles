@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	601	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PPSCD14"", ""PPSCD14"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	2	0	"c(""complete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	1772	0	"c(""475601"", ""911193"")"
+6	7	aVisit	Visit	chr	character	character	5	0	"c(""12"", ""b"")"
+7	8	PPSCD14_q1	Mean Concentration	dbl	numeric	double	1520	59	c(0.326, 13.274)
+8	9	PPSCD14_q2	Standard Deviation of Concentration	dbl	numeric	double	369	58	c(0, 0.817)
+9	10	PPSCD14_q3	CV%	dbl	numeric	double	101	58	c(0, 106)
+10	11	PPSCD14_q4	Dilution	dbl	numeric	double	49	58	c(100, 770)
+11	12	PPSCD14_q5	Adj Concentration	dbl	numeric	double	1780	0	c(65.251, 3374.1)
+12	13	aProcDY	Processing Day	dbl	numeric	double	1104	59	c(34, 2030)

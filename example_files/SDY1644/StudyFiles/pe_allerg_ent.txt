@@ -1,0 +1,276 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K. Jaffee         05/24/11      Create
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=pe_allerg_ent,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.pe  out=pe1 ; by studyid ; run ;
+proc sort data=master.pe2 out=pe2 ; by studyid ; run ;
+
+***Rename all variables ;
+data pe1_1 ;
+   set pe1 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   if aCompletionDate<0 then delete ;
+
+   rename PE_q10=drink_milk 
+         PE_q10a=rxn_milk 
+         PE_q10a1=rxn_spec_milk
+         PE_q10b=rxn_docsay_milk 
+         PE_q11=eats_eggs 
+         PE_q11a=rxn_eggs 
+         PE_q11a1=rxn_spec_eggs
+         PE_q11b=rxn_docsay_eggs
+         PE_q12=eats_peanut
+         PE_q12a=rxn_peanut
+         PE_q12a1=rxn_spec_peanut
+         PE_q12b=rxn_docsay_peanut
+         PE_q13=chest_ausc_clear 
+         PE_q13a1=chest_ausc_inwhz
+         PE_q13a2=chest_ausc_exwhz
+         PE_q13a3=chest_ausc_rales
+         PE_q13a4=chest_ausc_inrhonc
+         PE_q13a5=chest_ausc_exrhonc
+         PE_q13a6=chest_ausc_other
+         PE_q13a6a=chest_ausc_specother
+         PE_q14a1=skin_eczema
+         PE_q14a2=skin_sebor
+         PE_q14a3=skin_other
+         PE_q14a3a=skin_specother
+         PE_q14a4=skin_comments
+         PE_q14b1=eye_conjunc
+         PE_q14b2=eye_dennies
+         PE_q14b3=eye_comments
+         PE_q14c1=nose_rhinor
+         PE_q14c2=nose_mucos
+         PE_q14c3=nose_comments
+         PE_q14d1=throat_tonsil
+         PE_q14d2=throat_comments
+         PE_q14e=othersite
+         PE_q14e1=othersite_spec
+         PE_q14e2=other_comments
+         PE_q15=pe_notcomplete
+         PE_q15a=pe_notcomplete_reas ;
+
+   PE_vers=1 ;
+
+   drop aStudyID recruitid aPI aII PE_q1a -- PE_q9 avisit_char PE_q16a PE_q16b PE_q16c PE_q16d ;
+run ;
+
+proc freq data=pe2 ;
+   tables event avisit; 
+run ;
+
+***Rename and work on skip patterns ;
+data pe2_1 ;
+   set pe2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   if aCompletionDate<0 then delete ;
+
+   ***For newer versions, subsequent q10 questions are left missing if q10_1 is answered 'no' 
+      so make all of these = no ;
+   if version not in ('1.0','1.1') and PE2_q10_1=0 then do ;
+      PE2_q10a1_1=0 ;
+      PE2_q10b1_1=0 ;
+      PE2_q10c1_1=0 ;
+      PE2_q10d1_1=0 ;
+      PE2_q10e1_1=0 ;
+      PE2_q10f1_1=0 ;
+      PE2_q10g1_1=0 ;
+      PE2_q10h1_1=0 ;
+      PE2_q10i1_1=0 ;
+   end ;
+
+   ***For older versions - 1.0 and 1.1 - we have PE questions filled for "ever reaction to 
+      milk/egg/peanut" so grab these and replace where the newer questions are missing ;
+   if version in ('1.0','1.1') then do ;
+      PE2_q10a1_1=PE2_q10a ;
+      PE2_q10c1_1=PE2_q12a ;
+      PE2_q10b1_1=PE2_q11a ;
+   end ;
+
+
+   rename PE2_q10=drink_milk 
+         PE2_q10a=rxn_milk_old 
+         PE2_q10a1=rxn_spec_milk
+         PE2_q10b=rxn_docsay_milk 
+
+         PE2_q10_1=child_anyfoodprobs
+         PE2_q10a1_1=rxn_milk
+         PE2_q10a2_1=foodallerg_milk
+         PE2_q10b1_1=rxn_eggs
+         PE2_q10b2_1=foodallerg_egg
+         PE2_q10c1_1=rxn_peanut
+         PE2_q10c2_1=foodallerg_peanut
+         PE2_q10d1_1=parentrep_allerg_soy
+         PE2_q10d2_1=foodallerg_soy
+         PE2_q10e1_1=parentrep_allerg_wheat
+         PE2_q10e2_1=foodallerg_wheat
+         PE2_q10f1_1=parentrep_allerg_fish
+         PE2_q10f2_1=foodallerg_fish
+         PE2_q10g1_1=parentrep_allerg_shellfish
+         PE2_q10g2_1=foodallerg_shellfish
+         PE2_q10h1_1=parentrep_allerg_nuts
+         PE2_q10h2_1=foodallerg_nuts
+         PE2_q10i_1=foodallerg_spec
+         PE2_q10i1_1=parentrep_allerg_other
+         PE2_q10i2_1=foodallerg_other
+
+         PE2_q11=eats_eggs 
+         PE2_q11a=rxn_eggs_old 
+         PE2_q11a1=rxn_spec_eggs
+         PE2_q11b=rxn_docsay_eggs
+         PE2_q12=eats_peanut
+         PE2_q12a=rxn_peanut_old
+         PE2_q12a1=rxn_spec_peanut
+         PE2_q12b=rxn_docsay_peanut
+         PE2_q13=chest_ausc_clear 
+         PE2_q13a1=chest_ausc_inwhz
+         PE2_q13a2=chest_ausc_exwhz
+         PE2_q13a3=chest_ausc_rales
+         PE2_q13a4=chest_ausc_inrhonc
+         PE2_q13a5=chest_ausc_exrhonc
+         PE2_q13a6=chest_ausc_other
+         PE2_q13a6a=chest_ausc_specother
+         PE2_q14a1=skin_eczema
+         PE2_q14a2=skin_sebor
+         PE2_q14a3=skin_other
+         PE2_q14a3a=skin_specother
+         PE2_q14a4=skin_comments
+         PE2_q14b1=eye_conjunc
+         PE2_q14b2=eye_dennies
+         PE2_q14b3=eye_comments
+         PE2_q14c1=nose_rhinor
+         PE2_q14c2=nose_mucos
+         PE2_q14c3=nose_comments
+         PE2_q14d1=throat_tonsil
+         PE2_q14d2=throat_comments
+         PE2_q14e=othersite
+         PE2_q14e1=othersite_spec
+         PE2_q14e2=other_comments
+         PE2_q15=pe_notcomplete
+         PE2_q15a=pe_notcomplete_reas ;
+
+   PE_vers=2 ;
+
+   drop aStudyID recruitid aPI aII PE2_q1a -- PE2_q9 avisit_char PE2_q16a PE2_q16b PE2_q16c PE2_q16d ;
+run ;
+
+data pe_all ;
+   set pe1_1 pe2_1 ;
+
+   avisit_actual=avisit ;
+    if avisit=81 then avisit=84;
+
+   ***Delete 84m visits if child already had 81 - unless 81 visit wasnt truly complete ;
+   ***IDs and visits verified by C. Visness 6/23/17 ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run ;
+proc sort; by studyid event; run;
+***Make sure all 84 mo visits are called 81 mo visits and there are no unknown visits (ex: RASTR) 
+   everything looks fine 9/8/2014 ;
+proc freq data=pe_all ;
+   tables avisit ; 
+run ;
+proc freq data=pe_all ;
+   tables avisit * avisit_actual/list missing; 
+run ;
+***Check for duplicates at each visit - make sure to take care of these. visit 84s
+   are a mistake if they have a visit 81 so deleting them above ;
+proc sort data=pe_all out=test dupout=dups nodupkey ; by studyid avisit ; run ;
+
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell72;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 12,24,36,48,60,72,84,96,108,120 ;
+  if avisit =12 then year=1;
+  if avisit =24 then year=2;
+  if avisit =36 then year=3;
+  if avisit =48 then year=4;
+  if avisit =60 then year=5;
+  if avisit =72 then year=6;
+  if avisit =84 then year=7;
+  if avisit =96 then year=8;
+  if avisit =108 then year=9;
+  if avisit =120 then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=pe_all      ; by studyid avisit; run ;
+proc sort data=shell72     ; by studyid avisit; run ;
+
+data derive.pe_allerg_ent ;
+ merge shell72 pe_all(in=b) ;
+ by studyid avisit ;
+ if b=1 then pe_allerg_ent = 1 ; else pe_allerg_ent = 0 ;
+run;
+/**/
+/*data locked.pe_allerg_ent;*/
+/*   set derive.pe_allerg_ent;*/
+/*run;*/
+
+*** 3. Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.pe_allerg_ent
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+ods select Position;
+proc contents data=derive.pe_allerg_ent position; run;
+run;
+ods select default;

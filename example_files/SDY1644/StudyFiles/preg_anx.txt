@@ -1,0 +1,116 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         05/24/06        Created Program
+*                  06/07/07      Changed score from sum to mean per article
+*   A. Calatroni      03/21/11      Modifications Shell/Format/Codebook
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=preg_anx,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+data anx;
+ set master.pas;
+ if studyid ne '.m';
+ if nmiss(of pas_q1-pas_q7) ^= 7 then pas_score=MEAN(of pas_q1-pas_q7);
+ label pas_score="Pregnancy Anxiety Scale";
+ **twin duplicated records - take out theones that arent in blood dataset ;
+*hardcodes here have been removed to protect patient confidentiality;
+ drop avisit ;
+run;
+
+/*************************************************************************************
+ Check Duplicates
+**************************************************************************************/
+proc sort nodupkey data=anx out=clean dupout=dups; by studyid ;
+run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else flag_twin=0 ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 0;
+  if avisit in ( 0) then year=0;
+  output;
+ end;
+
+keep studyid recruitid site avisit year flag_twin ;
+run;
+
+/*************************************************************************************
+ Merge with Shell
+**************************************************************************************/
+proc sort data=shell ; by studyid ; run ;
+data derive.preg_anx;
+ merge shell clean (in=c);
+ by studyid ;
+ if c=1 then preg_anx=1; else preg_anx=0;
+ drop astudyid arcrtid aPI;
+run;
+/**/
+/*data locked.preg_anx;*/
+/* merge shell clean (in=c);*/
+/* by studyid ;*/
+/* if c=1 then preg_anx=1; else preg_anx=0;*/
+/* drop astudyid arcrtid;*/
+/*run;*/
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+ %gitGot(repo = https://github.com/RhoInc/sas-codebook,
+         folder = Macros);
+
+%codebook_generic
+        (data = derive.preg_anx,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.preg_anx,*/
+/*          pdfname=preg_anx,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+ods select Position;
+proc contents data=derive.preg_anx position; run;
+run;
+ods select default;

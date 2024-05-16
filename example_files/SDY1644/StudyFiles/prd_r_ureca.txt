@@ -1,0 +1,1768 @@
+Accession	group	form	evid	event	version	status	aVisit	PRD_q1	PRD_q1a1	PRD_q1a2	PRD_q1a3	PRD_q1a4	PRD_q1a5	PRD_q2a	PRD_q2b	PRD_q2c	PRD_q2d	PRD_q2e	PRD_q2f	PRD_q2g	aCompDY
+SUB230862	Atopic	PRD	32871	60-Month Clinic Visit	1.0	missing	.x														
+SUB230862	Atopic	PRD	32879	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2737
+SUB230862	Atopic	PRD	32875	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2349
+SUB230863	Atopic	PRD	34118	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1831
+SUB230863	Atopic	PRD	34122	72-Month Clinic Visit	1.0	missing	.x														
+SUB230863	Atopic	PRD	34126	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2738
+SUB230865	Atopic	PRD	34757	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1888
+SUB230865	Atopic	PRD	34761	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2278
+SUB230865	Atopic	PRD	34765	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2645
+SUB230866	Atopic	PRD	33310	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2236
+SUB230866	Atopic	PRD	33306	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB230866	Atopic	PRD	33314	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2655
+SUB230867	Atopic	PRD	35723	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2628
+SUB230867	Atopic	PRD	35715	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1802
+SUB230867	Atopic	PRD	35719	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB230868	Atopic	PRD	35861	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2248
+SUB230868	Atopic	PRD	35857	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1876
+SUB230868	Atopic	PRD	35865	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2714
+SUB230869	Atopic	PRD	34745	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1888
+SUB230869	Atopic	PRD	34753	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2645
+SUB230869	Atopic	PRD	34749	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2278
+SUB230870	Atopic	PRD	33527	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2221
+SUB230870	Atopic	PRD	33531	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2637
+SUB230870	Atopic	PRD	25150	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1540
+SUB230870	Atopic	PRD	33523	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1839
+SUB230871	Atopic	PRD	36479	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2553
+SUB230871	Atopic	PRD	36475	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2281
+SUB230871	Atopic	PRD	36471	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1811
+SUB230872	Atopic	PRD	33576	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2260
+SUB230872	Atopic	PRD	33572	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1807
+SUB230872	Atopic	PRD	33580	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2684
+SUB230873	Atopic	PRD	43625	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1877
+SUB230873	Atopic	PRD	43629	72-Month Clinic Visit	1.0	missing	.x														
+SUB230874	Atopic	PRD	33598	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1851
+SUB230874	Atopic	PRD	33602	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2232
+SUB230874	Atopic	PRD	33606	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2644
+SUB230874	Atopic	PRD	25162	48-Month Clinic Visit	1.0	missing	.x														
+SUB230875	Atopic	PRD	36064	60-Month Clinic Visit	1.0	missing	.x														
+SUB230876	Atopic	PRD	33096	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2617
+SUB230876	Atopic	PRD	25166	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1543
+SUB230876	Atopic	PRD	33088	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1795
+SUB230876	Atopic	PRD	33092	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2173
+SUB230877	Atopic	PRD	34046	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2233
+SUB230877	Atopic	PRD	25170	48-Month Clinic Visit	1.0	missing	.x														
+SUB230877	Atopic	PRD	34050	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2605
+SUB230877	Atopic	PRD	34042	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1831
+SUB230881	Atopic	PRD	38948	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2671
+SUB230881	Atopic	PRD	38944	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2279
+SUB230881	Atopic	PRD	38940	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1808
+SUB230882	Atopic	PRD	36517	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2277
+SUB230882	Atopic	PRD	36513	60-Month Clinic Visit	1.0	missing	.x														
+SUB230882	Atopic	PRD	36509	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1640
+SUB230883	Atopic	PRD	43867	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2282
+SUB230883	Atopic	PRD	43863	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB230883	Atopic	PRD	43871	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2590
+SUB230884	Atopic	PRD	36790	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2267
+SUB230884	Atopic	PRD	36794	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2612
+SUB230884	Atopic	PRD	36786	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1834
+SUB230884	Atopic	PRD	25178	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1536
+SUB230886	Atopic	PRD	36798	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1842
+SUB230886	Atopic	PRD	25182	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1537
+SUB230886	Atopic	PRD	36806	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2570
+SUB230886	Atopic	PRD	36802	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2213
+SUB230887	Atopic	PRD	36394	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2268
+SUB230887	Atopic	PRD	25108	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1537
+SUB230887	Atopic	PRD	36390	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1994
+SUB230888	Atopic	PRD	36776	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2603
+SUB230888	Atopic	PRD	36772	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2255
+SUB230888	Atopic	PRD	25186	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1538
+SUB230888	Atopic	PRD	36768	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1840
+SUB230889	Atopic	PRD	33040	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1551
+SUB230889	Atopic	PRD	37116	84-Month Clinic Visit	1.0	missing	.x														
+SUB230889	Atopic	PRD	37108	60-Month Clinic Visit	1.0	missing	.x														
+SUB230889	Atopic	PRD	37112	72-Month Clinic Visit	1.0	missing	.x														
+SUB230890	Atopic	PRD	40454	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2281
+SUB230890	Atopic	PRD	40450	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	1	1865
+SUB230890	Atopic	PRD	25190	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1592
+SUB230891	Atopic	PRD	25194	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1626
+SUB230891	Atopic	PRD	38952	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1815
+SUB230891	Atopic	PRD	38956	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2261
+SUB230892	Atopic	PRD	40462	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1843
+SUB230892	Atopic	PRD	40466	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2260
+SUB230892	Atopic	PRD	26739	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1556
+SUB230893	Atopic	PRD	44418	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1922
+SUB230893	Atopic	PRD	26546	48-Month Clinic Visit	1.0	missing	.x														
+SUB230893	Atopic	PRD	44422	72-Month Clinic Visit	1.0	missing	.x														
+SUB230894	Atopic	PRD	37550	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2239
+SUB230894	Atopic	PRD	25198	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1460
+SUB230894	Atopic	PRD	37546	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1823
+SUB230895	Atopic	PRD	40325	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1822
+SUB230895	Atopic	PRD	25202	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1549
+SUB230895	Atopic	PRD	40329	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2235
+SUB230896	Atopic	PRD	35798	72-Month Clinic Visit	1.0	missing	.x														
+SUB230896	Atopic	PRD	35794	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1840
+SUB230896	Atopic	PRD	35790	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1553
+SUB230897	Atopic	PRD	42869	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2233
+SUB230897	Atopic	PRD	42865	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1925
+SUB230898	Atopic	PRD	36453	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1816
+SUB230898	Atopic	PRD	36457	72-Month Clinic Visit	1.0	missing	.x														
+SUB230899	Atopic	PRD	40990	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2225
+SUB230899	Atopic	PRD	40986	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1805
+SUB230900	Atopic	PRD	32857	72-Month Clinic Visit	1.0	missing	.x														
+SUB230900	Atopic	PRD	32853	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1807
+SUB230900	Atopic	PRD	25218	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1550
+SUB230901	Atopic	PRD	37825	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2228
+SUB230901	Atopic	PRD	25222	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1535
+SUB230901	Atopic	PRD	37821	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB230902	Atopic	PRD	36723	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1908
+SUB230902	Atopic	PRD	25226	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1538
+SUB230903	Atopic	PRD	41455	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1853
+SUB230903	Atopic	PRD	41459	72-Month Clinic Visit	1.0	missing	.x														
+SUB230904	Atopic	PRD	42557	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1806
+SUB230904	Atopic	PRD	42561	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2234
+SUB230905	Atopic	PRD	27095	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1637
+SUB230905	Atopic	PRD	41106	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1916
+SUB230905	Atopic	PRD	41110	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2250
+SUB230906	Atopic	PRD	43879	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	0	1	0	0	0	0	0	0	1	2287
+SUB230906	Atopic	PRD	43875	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	1	0	0	0	2038
+SUB230907	Atopic	PRD	25234	48-Month Clinic Visit	1.0	missing	.x														
+SUB230907	Atopic	PRD	37237	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2285
+SUB230907	Atopic	PRD	37233	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1863
+SUB230908	Atopic	PRD	39771	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1805
+SUB230908	Atopic	PRD	25238	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1536
+SUB230908	Atopic	PRD	39775	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2202
+SUB230909	Atopic	PRD	34004	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2202
+SUB230909	Atopic	PRD	25242	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1628
+SUB230909	Atopic	PRD	34000	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1841
+SUB230910	Atopic	PRD	25246	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1537
+SUB230910	Atopic	PRD	37081	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB230910	Atopic	PRD	37085	72-Month Clinic Visit	1.0	missing	.x														
+SUB230911	Atopic	PRD	37531	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1910
+SUB230911	Atopic	PRD	25250	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1442
+SUB230911	Atopic	PRD	37535	72-Month Clinic Visit	1.0	missing	.x														
+SUB230912	Atopic	PRD	25254	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1657
+SUB230912	Atopic	PRD	34431	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1896
+SUB230912	Atopic	PRD	34435	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2244
+SUB230913	Atopic	PRD	38964	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1874
+SUB230913	Atopic	PRD	25258	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1557
+SUB230913	Atopic	PRD	38968	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2187
+SUB230914	Atopic	PRD	32376	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1857
+SUB230914	Atopic	PRD	32380	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2211
+SUB230914	Atopic	PRD	25262	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1633
+SUB230915	Atopic	PRD	38976	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1858
+SUB230915	Atopic	PRD	25266	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1634
+SUB230915	Atopic	PRD	38980	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2173
+SUB230916	Atopic	PRD	25270	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1545
+SUB230916	Atopic	PRD	39678	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2604
+SUB230916	Atopic	PRD	39674	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2210
+SUB230916	Atopic	PRD	39670	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1839
+SUB230917	Atopic	PRD	29094	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1659
+SUB230917	Atopic	PRD	41312	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1974
+SUB230917	Atopic	PRD	41320	84-Month Clinic Visit	1.0	missing	.x														
+SUB230917	Atopic	PRD	41316	72-Month Clinic Visit	1.0	missing	.x														
+SUB230919	Atopic	PRD	32481	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2239
+SUB230919	Atopic	PRD	32477	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1847
+SUB230919	Atopic	PRD	27592	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1581
+SUB230920	Atopic	PRD	40144	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB230920	Atopic	PRD	40140	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1857
+SUB230920	Atopic	PRD	25274	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1479
+SUB230921	Atopic	PRD	25278	48-Month Clinic Visit	1.0	missing	.x														
+SUB230921	Atopic	PRD	39799	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1862
+SUB230921	Atopic	PRD	39803	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2196
+SUB230922	Atopic	PRD	33424	72-Month Clinic Visit	1.0	missing	.x														
+SUB230922	Atopic	PRD	33420	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1848
+SUB230922	Atopic	PRD	33044	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1510
+SUB230924	Atopic	PRD	39698	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB230924	Atopic	PRD	39694	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1899
+SUB230924	Atopic	PRD	25282	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1537
+SUB230925	Atopic	PRD	25286	48-Month Clinic Visit	1.0	missing	.x														
+SUB230925	Atopic	PRD	33564	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2189
+SUB230925	Atopic	PRD	33560	60-Month Clinic Visit	1.0	missing	.x														
+SUB230926	Atopic	PRD	25290	48-Month Clinic Visit	1.0	missing	.x														
+SUB230927	Atopic	PRD	25294	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1553
+SUB230927	Atopic	PRD	40692	72-Month Clinic Visit	1.0	missing	.x														
+SUB230927	Atopic	PRD	40688	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1894
+SUB230928	Atopic	PRD	38988	60-Month Clinic Visit	1.0	missing	.x														
+SUB230928	Atopic	PRD	25298	48-Month Clinic Visit	1.0	missing	.x														
+SUB230928	Atopic	PRD	38992	72-Month Clinic Visit	1.0	missing	.x														
+SUB230928	Atopic	PRD	38995	81-Month Clinic Visit	1.0	complete	81	0						1	0	0	0	0	0	0	2519
+SUB230929	Atopic	PRD	25302	48-Month Clinic Visit	1.0	missing	.x														
+SUB230929	Atopic	PRD	40676	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1863
+SUB230929	Atopic	PRD	40680	72-Month Clinic Visit	1.0	missing	.x														
+SUB230932	Atopic	PRD	34028	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1810
+SUB230932	Atopic	PRD	34032	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2169
+SUB230932	Atopic	PRD	25306	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1511
+SUB230933	Atopic	PRD	25310	48-Month Clinic Visit	1.0	missing	.x														
+SUB230933	Atopic	PRD	34365	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2195
+SUB230933	Atopic	PRD	34361	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1837
+SUB230934	Atopic	PRD	25314	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1547
+SUB230934	Atopic	PRD	41218	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2236
+SUB230934	Atopic	PRD	41214	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1834
+SUB230935	Atopic	PRD	41518	60-Month Clinic Visit	1.0	missing	.x														
+SUB230935	Atopic	PRD	41522	72-Month Clinic Visit	1.0	missing	.x														
+SUB230935	Atopic	PRD	25318	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1493
+SUB230936	Atopic	PRD	25322	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1535
+SUB230936	Atopic	PRD	35208	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2226
+SUB230936	Atopic	PRD	35204	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1943
+SUB230937	Atopic	PRD	32252	72-Month Clinic Visit	1.0	missing	.x														
+SUB230937	Atopic	PRD	32248	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1836
+SUB230937	Atopic	PRD	25326	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1548
+SUB230938	Atopic	PRD	39004	72-Month Clinic Visit	1.0	missing	.x														
+SUB230938	Atopic	PRD	39000	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1901
+SUB230938	Atopic	PRD	25330	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1535
+SUB230939	Atopic	PRD	39016	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2218
+SUB230939	Atopic	PRD	28052	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1488
+SUB230939	Atopic	PRD	39012	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1829
+SUB230941	Atopic	PRD	39024	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1804
+SUB230941	Atopic	PRD	39028	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2275
+SUB230941	Atopic	PRD	25334	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1447
+SUB230942	Atopic	PRD	32648	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1876
+SUB230942	Atopic	PRD	32652	72-Month Clinic Visit	1.0	missing	.x														
+SUB230942	Atopic	PRD	25338	48-Month Clinic Visit	1.0	missing	.x														
+SUB230943	Atopic	PRD	25342	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1533
+SUB230943	Atopic	PRD	32091	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1846
+SUB230943	Atopic	PRD	32095	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2267
+SUB230944	Atopic	PRD	33337	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1843
+SUB230944	Atopic	PRD	25346	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1542
+SUB230944	Atopic	PRD	33341	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2280
+SUB230945	Atopic	PRD	25350	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1525
+SUB230945	Atopic	PRD	39040	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2281
+SUB230945	Atopic	PRD	39036	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1954
+SUB230946	Atopic	PRD	41716	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1833
+SUB230946	Atopic	PRD	25354	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1532
+SUB230946	Atopic	PRD	41720	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2225
+SUB230947	Atopic	PRD	25358	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1531
+SUB230947	Atopic	PRD	32424	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1858
+SUB230947	Atopic	PRD	32428	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2222
+SUB230948	Atopic	PRD	32598	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2228
+SUB230948	Atopic	PRD	25362	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1463
+SUB230948	Atopic	PRD	32594	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1857
+SUB230951	Atopic	PRD	25370	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1537
+SUB230951	Atopic	PRD	32754	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1976
+SUB230951	Atopic	PRD	32758	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2218
+SUB230952	Atopic	PRD	25374	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1463
+SUB230952	Atopic	PRD	39048	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1878
+SUB230952	Atopic	PRD	39052	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2205
+SUB230953	Atopic	PRD	27678	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1500
+SUB230953	Atopic	PRD	32585	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2223
+SUB230953	Atopic	PRD	32581	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1932
+SUB230954	Atopic	PRD	25378	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1500
+SUB230954	Atopic	PRD	39787	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2255
+SUB230954	Atopic	PRD	39783	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1870
+SUB230955	Atopic	PRD	34615	72-Month Clinic Visit	1.0	missing	.x														
+SUB230955	Atopic	PRD	25382	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1495
+SUB230955	Atopic	PRD	34611	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1831
+SUB230957	Atopic	PRD	25386	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1547
+SUB230957	Atopic	PRD	39060	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1834
+SUB230957	Atopic	PRD	39064	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2268
+SUB230958	Atopic	PRD	25390	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1518
+SUB230958	Atopic	PRD	43356	72-Month Clinic Visit	1.0	missing	.x														
+SUB230958	Atopic	PRD	43352	60-Month Clinic Visit	1.0	missing	.x														
+SUB230959	Atopic	PRD	43069	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2243
+SUB230959	Atopic	PRD	43065	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1797
+SUB230959	Atopic	PRD	25394	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1508
+SUB230960	Atopic	PRD	34848	72-Month Clinic Visit	1.0	missing	.x														
+SUB230960	Atopic	PRD	34844	60-Month Clinic Visit	1.0	missing	.x														
+SUB230960	Atopic	PRD	30062	48-Month Clinic Visit	1.0	complete	48	0						0	0	0	1	0	0	0	1502
+SUB230961	Atopic	PRD	35347	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2277
+SUB230961	Atopic	PRD	35343	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1828
+SUB230961	Atopic	PRD	25398	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1520
+SUB230962	Atopic	PRD	33878	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1838
+SUB230962	Atopic	PRD	25402	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1535
+SUB230962	Atopic	PRD	33882	72-Month Clinic Visit	1.0	missing	.x														
+SUB230963	Atopic	PRD	39072	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1838
+SUB230963	Atopic	PRD	39076	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2263
+SUB230963	Atopic	PRD	25406	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1481
+SUB230964	Atopic	PRD	32895	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1885
+SUB230964	Atopic	PRD	32899	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB230964	Atopic	PRD	25410	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1498
+SUB230965	Atopic	PRD	32887	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB230965	Atopic	PRD	25414	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1498
+SUB230965	Atopic	PRD	32883	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1885
+SUB230966	Atopic	PRD	39088	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2192
+SUB230966	Atopic	PRD	39084	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1959
+SUB230966	Atopic	PRD	25939	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1432
+SUB230967	Atopic	PRD	39096	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1811
+SUB230967	Atopic	PRD	25418	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1510
+SUB230967	Atopic	PRD	39100	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB230968	Atopic	PRD	38805	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2265
+SUB230968	Atopic	PRD	38797	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1530
+SUB230968	Atopic	PRD	38801	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1929
+SUB230969	Atopic	PRD	25422	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1515
+SUB230969	Atopic	PRD	39112	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2222
+SUB230969	Atopic	PRD	39108	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1837
+SUB230970	Atopic	PRD	26612	48-Month Clinic Visit	1.0	missing	.x														
+SUB230970	Atopic	PRD	35640	60-Month Clinic Visit	1.0	missing	.x														
+SUB230971	Atopic	PRD	34260	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1822
+SUB230971	Atopic	PRD	34264	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2176
+SUB230971	Atopic	PRD	25426	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1529
+SUB230972	Atopic	PRD	25430	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1500
+SUB230972	Atopic	PRD	35066	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2207
+SUB230972	Atopic	PRD	35062	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1855
+SUB230973	Atopic	PRD	39124	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2284
+SUB230973	Atopic	PRD	28843	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1500
+SUB230973	Atopic	PRD	39120	60-Month Clinic Visit	1.0	missing	.x														
+SUB230975	Atopic	PRD	34876	60-Month Clinic Visit	1.0	missing	.x														
+SUB230975	Atopic	PRD	34880	72-Month Clinic Visit	1.0	missing	.x														
+SUB230975	Atopic	PRD	25434	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1513
+SUB230976	Atopic	PRD	35049	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1809
+SUB230976	Atopic	PRD	25079	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1459
+SUB230976	Atopic	PRD	35053	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2201
+SUB230977	Atopic	PRD	34801	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1801
+SUB230977	Atopic	PRD	25438	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1472
+SUB230977	Atopic	PRD	34805	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2293
+SUB230978	Atopic	PRD	26450	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1474
+SUB230978	Atopic	PRD	33119	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB230978	Atopic	PRD	33123	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB230979	Atopic	PRD	31808	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1645
+SUB230979	Atopic	PRD	36353	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2273
+SUB230979	Atopic	PRD	36349	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1928
+SUB230981	Atopic	PRD	33588	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2274
+SUB230981	Atopic	PRD	33584	60-Month Clinic Visit	1.0	missing	.x														
+SUB230981	Atopic	PRD	10053	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB230981	Atopic	PRD	31791	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1532
+SUB230982	Atopic	PRD	36974	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2272
+SUB230982	Atopic	PRD	36970	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1915
+SUB230982	Atopic	PRD	25442	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB230982	Atopic	PRD	10084	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB230983	Atopic	PRD	10102	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB230983	Atopic	PRD	25446	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1468
+SUB230983	Atopic	PRD	37487	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1873
+SUB230983	Atopic	PRD	37491	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2260
+SUB230984	Atopic	PRD	33552	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2164
+SUB230984	Atopic	PRD	10152	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1198
+SUB230984	Atopic	PRD	33548	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1800
+SUB230984	Atopic	PRD	33048	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1436
+SUB230985	Atopic	PRD	32403	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2272
+SUB230985	Atopic	PRD	32399	60-Month Clinic Visit	1.0	missing	.x														
+SUB230985	Atopic	PRD	25450	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB230986	Atopic	PRD	32281	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1480
+SUB230986	Atopic	PRD	33477	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1853
+SUB230986	Atopic	PRD	33481	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB230987	Atopic	PRD	32494	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2238
+SUB230987	Atopic	PRD	29414	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	1	1458
+SUB230987	Atopic	PRD	10592	36-Month Clinic Visit	1.0	missing	.x														
+SUB230987	Atopic	PRD	32490	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1943
+SUB230988	Atopic	PRD	33489	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1895
+SUB230988	Atopic	PRD	27563	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1491
+SUB230988	Atopic	PRD	33493	72-Month Clinic Visit	1.0	missing	.x														
+SUB230989	Atopic	PRD	11312	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1165
+SUB230989	Atopic	PRD	33104	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1808
+SUB230989	Atopic	PRD	33108	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2265
+SUB230989	Atopic	PRD	29688	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1472
+SUB230990	Atopic	PRD	35737	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1910
+SUB230990	Atopic	PRD	35741	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2255
+SUB230990	Atopic	PRD	26778	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1476
+SUB230991	Atopic	PRD	28044	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1444
+SUB230991	Atopic	PRD	11365	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1164
+SUB230991	Atopic	PRD	33179	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB230991	Atopic	PRD	33183	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2249
+SUB230992	Atopic	PRD	11503	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1173
+SUB230992	Atopic	PRD	27569	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1551
+SUB230993	Atopic	PRD	11519	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1166
+SUB230993	Atopic	PRD	34206	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2260
+SUB230993	Atopic	PRD	34202	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1801
+SUB230993	Atopic	PRD	33052	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1488
+SUB230994	Atopic	PRD	34462	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2246
+SUB230994	Atopic	PRD	28822	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1574
+SUB230994	Atopic	PRD	11829	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB230994	Atopic	PRD	34458	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1894
+SUB230995	Atopic	PRD	33627	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1829
+SUB230995	Atopic	PRD	33056	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1460
+SUB230995	Atopic	PRD	11859	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1173
+SUB230995	Atopic	PRD	33631	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2251
+SUB230996	Atopic	PRD	11875	36-Month Clinic Visit	1.0	missing	.x														
+SUB230996	Atopic	PRD	40766	48-Month Clinic Visit	1.0	missing	.x														
+SUB230997	Atopic	PRD	38285	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1885
+SUB230997	Atopic	PRD	38289	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2250
+SUB230997	Atopic	PRD	29135	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1487
+SUB230997	Atopic	PRD	12009	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1156
+SUB230998	Atopic	PRD	33060	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1448
+SUB230998	Atopic	PRD	36491	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2262
+SUB230998	Atopic	PRD	36487	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1821
+SUB230999	Non-atopic	PRD	43843	72-Month Clinic Visit	1.0	missing	.x														
+SUB230999	Non-atopic	PRD	12101	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1146
+SUB230999	Non-atopic	PRD	31305	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1470
+SUB230999	Non-atopic	PRD	43839	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1902
+SUB231000	Atopic	PRD	12238	36-Month Clinic Visit	1.0	missing	.x														
+SUB231000	Atopic	PRD	42577	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2286
+SUB231000	Atopic	PRD	27347	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1446
+SUB231000	Atopic	PRD	42573	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1796
+SUB231001	Atopic	PRD	29997	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1490
+SUB231001	Atopic	PRD	36920	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2281
+SUB231001	Atopic	PRD	12257	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1126
+SUB231001	Atopic	PRD	36916	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1814
+SUB231002	Atopic	PRD	12368	36-Month Clinic Visit	1.0	missing	.x														
+SUB231002	Atopic	PRD	36816	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2279
+SUB231002	Atopic	PRD	26900	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231002	Atopic	PRD	36812	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1887
+SUB231003	Atopic	PRD	41670	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2235
+SUB231003	Atopic	PRD	12402	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1173
+SUB231003	Atopic	PRD	41666	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1813
+SUB231003	Atopic	PRD	28612	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1536
+SUB231004	Atopic	PRD	37804	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2264
+SUB231004	Atopic	PRD	37800	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1812
+SUB231004	Atopic	PRD	33064	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1457
+SUB231004	Atopic	PRD	12487	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1126
+SUB231005	Atopic	PRD	12647	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1089
+SUB231005	Atopic	PRD	43772	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231005	Atopic	PRD	43768	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1819
+SUB231005	Atopic	PRD	30027	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1467
+SUB231006	Atopic	PRD	34305	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2252
+SUB231006	Atopic	PRD	34301	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1828
+SUB231006	Atopic	PRD	12728	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1179
+SUB231006	Atopic	PRD	28624	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1488
+SUB231007	Atopic	PRD	35492	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2263
+SUB231007	Atopic	PRD	12749	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1145
+SUB231007	Atopic	PRD	27117	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1489
+SUB231007	Atopic	PRD	35488	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1871
+SUB231008	Atopic	PRD	43944	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2265
+SUB231008	Atopic	PRD	12992	36-Month Clinic Visit	1.0	missing	.x														
+SUB231008	Atopic	PRD	33068	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1479
+SUB231008	Atopic	PRD	43940	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1803
+SUB231010	Non-atopic	PRD	13130	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1186
+SUB231010	Non-atopic	PRD	34449	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2278
+SUB231010	Non-atopic	PRD	34445	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1860
+SUB231010	Non-atopic	PRD	28572	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1497
+SUB231011	Atopic	PRD	27390	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1494
+SUB231011	Atopic	PRD	35922	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2264
+SUB231011	Atopic	PRD	35918	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1856
+SUB231011	Atopic	PRD	13132	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1128
+SUB231012	Atopic	PRD	13167	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB231012	Atopic	PRD	39132	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1917
+SUB231012	Atopic	PRD	39136	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2263
+SUB231012	Atopic	PRD	26945	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1479
+SUB231013	Atopic	PRD	36575	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2270
+SUB231013	Atopic	PRD	36571	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1849
+SUB231013	Atopic	PRD	31109	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1472
+SUB231013	Atopic	PRD	13374	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1147
+SUB231014	Atopic	PRD	27477	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1471
+SUB231014	Atopic	PRD	13393	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1079
+SUB231014	Atopic	PRD	37248	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1889
+SUB231014	Atopic	PRD	37252	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2290
+SUB231015	Non-atopic	PRD	13480	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1152
+SUB231015	Non-atopic	PRD	37694	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1889
+SUB231015	Non-atopic	PRD	28588	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1477
+SUB231015	Non-atopic	PRD	37698	72-Month Clinic Visit	1.0	missing	.x														
+SUB231016	Atopic	PRD	36651	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1881
+SUB231016	Atopic	PRD	28955	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1527
+SUB231016	Atopic	PRD	13622	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1107
+SUB231016	Atopic	PRD	36655	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2254
+SUB231017	Non-atopic	PRD	39739	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2272
+SUB231017	Non-atopic	PRD	13705	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1143
+SUB231017	Non-atopic	PRD	28687	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1467
+SUB231017	Non-atopic	PRD	39735	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1829
+SUB231019	Atopic	PRD	39148	72-Month Clinic Visit	1.0	missing	.x														
+SUB231019	Atopic	PRD	13925	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB231019	Atopic	PRD	39144	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1820
+SUB231019	Atopic	PRD	29988	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1458
+SUB231021	Atopic	PRD	14295	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1273
+SUB231021	Atopic	PRD	42853	60-Month Clinic Visit	1.0	missing	.x														
+SUB231021	Atopic	PRD	42857	72-Month Clinic Visit	1.0	missing	.x														
+SUB231021	Atopic	PRD	30176	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1659
+SUB231022	Non-atopic	PRD	29080	48-Month Clinic Visit	1.0	missing	.x														
+SUB231022	Non-atopic	PRD	14328	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1079
+SUB231022	Non-atopic	PRD	38180	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1872
+SUB231022	Non-atopic	PRD	38184	72-Month Clinic Visit	1.0	missing	.x														
+SUB231023	Non-atopic	PRD	15412	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1186
+SUB231023	Non-atopic	PRD	43855	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2241
+SUB231023	Non-atopic	PRD	29676	48-Month Clinic Visit	1.0	missing	.x														
+SUB231023	Non-atopic	PRD	43851	60-Month Clinic Visit	1.0	missing	.x														
+SUB231024	Non-atopic	PRD	35880	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2217
+SUB231024	Non-atopic	PRD	16281	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1172
+SUB231024	Non-atopic	PRD	30502	48-Month Clinic Visit	1.0	missing	.x														
+SUB231024	Non-atopic	PRD	35876	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1801
+SUB231025	Atopic	PRD	39156	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1807
+SUB231025	Atopic	PRD	30031	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1543
+SUB231025	Atopic	PRD	39160	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2185
+SUB231025	Atopic	PRD	16685	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1231
+SUB231026	Atopic	PRD	41092	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2192
+SUB231026	Atopic	PRD	30001	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1432
+SUB231026	Atopic	PRD	16719	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1109
+SUB231026	Atopic	PRD	41088	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1532
+SUB231028	Atopic	PRD	34494	84-Month Clinic Visit	1.0	complete	84	0						1	1	0	0	0	1	0	2597
+SUB231028	Atopic	PRD	25454	48-Month Clinic Visit	1.0	complete	48	0						0	0	1	0	0	0	0	1489
+SUB231028	Atopic	PRD	34490	72-Month Clinic Visit	1.0	complete	72	0						1	0	1	0	0	1	0	2204
+SUB231028	Atopic	PRD	34486	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB231029	Atopic	PRD	33298	84-Month Clinic Visit	1.0	complete	84	0						1	0	1	0	0	0	0	2585
+SUB231029	Atopic	PRD	33290	60-Month Clinic Visit	1.0	missing	.x														
+SUB231029	Atopic	PRD	33294	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2233
+SUB231031	Atopic	PRD	34343	84-Month Clinic Visit	1.0	complete	84	1	0	0	0	1	0	1	0	0	0	0	0	0	2585
+SUB231031	Atopic	PRD	34335	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	1	0	0	0	0	0	0	1829
+SUB231031	Atopic	PRD	25462	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	1	1	0	0	0	0	0	0	1465
+SUB231031	Atopic	PRD	34339	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	1	0	0	0	0	2221
+SUB231035	Atopic	PRD	30793	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	1	1	0	0	0	2261
+SUB231035	Atopic	PRD	25466	48-Month Clinic Visit	1.0	missing	.x														
+SUB231035	Atopic	PRD	30797	84-Month Clinic Visit	1.0	complete	84	1	0	0	0	1	0	0	0	0	1	0	0	0	2553
+SUB231035	Atopic	PRD	30789	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	1	0	0	1	0	0	0	1804
+SUB231036	Atopic	PRD	37909	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB231036	Atopic	PRD	37913	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231036	Atopic	PRD	37917	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2604
+SUB231036	Atopic	PRD	25470	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1533
+SUB231039	Atopic	PRD	30777	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1804
+SUB231039	Atopic	PRD	30781	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2196
+SUB231039	Atopic	PRD	30785	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2560
+SUB231039	Atopic	PRD	25474	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1460
+SUB231040	Atopic	PRD	30872	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	1	0	1844
+SUB231040	Atopic	PRD	30876	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	1	0	2187
+SUB231040	Atopic	PRD	30880	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	1	0	1	0	2607
+SUB231040	Atopic	PRD	28117	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	1	0	1486
+SUB231041	Atopic	PRD	25478	48-Month Clinic Visit	1.0	complete	48	0						0	1	1	0	0	0	0	1518
+SUB231041	Atopic	PRD	34223	84-Month Clinic Visit	1.0	complete	84	0						1	1	1	0	0	0	0	2576
+SUB231041	Atopic	PRD	34215	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1805
+SUB231041	Atopic	PRD	34219	72-Month Clinic Visit	1.0	complete	72	0						1	1	1	0	0	0	0	2204
+SUB231042	Atopic	PRD	33789	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1799
+SUB231042	Atopic	PRD	33793	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2191
+SUB231042	Atopic	PRD	33797	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2562
+SUB231042	Atopic	PRD	25482	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1464
+SUB231043	Atopic	PRD	36365	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2181
+SUB231043	Atopic	PRD	36361	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1802
+SUB231043	Atopic	PRD	25486	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1516
+SUB231043	Atopic	PRD	36369	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2587
+SUB231044	Atopic	PRD	34862	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	0	0	0	1	0	0	0	2213
+SUB231044	Atopic	PRD	27734	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	0	0	0	0	0	0	0	0	1	1463
+SUB231044	Atopic	PRD	34858	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	0	0	0	0	0	0	1	1870
+SUB231045	Atopic	PRD	32512	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1850
+SUB231045	Atopic	PRD	27497	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1523
+SUB231045	Atopic	PRD	32516	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2235
+SUB231047	Atopic	PRD	32847	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2570
+SUB231047	Atopic	PRD	28191	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1477
+SUB231047	Atopic	PRD	32843	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2170
+SUB231047	Atopic	PRD	32839	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1842
+SUB231048	Atopic	PRD	26029	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	1	0	1487
+SUB231048	Atopic	PRD	37044	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	1	0	1859
+SUB231048	Atopic	PRD	37052	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	1	0	0	0	2609
+SUB231048	Atopic	PRD	37048	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2195
+SUB231049	Atopic	PRD	36605	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2209
+SUB231049	Atopic	PRD	36601	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	1	1810
+SUB231049	Atopic	PRD	25490	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1488
+SUB231049	Atopic	PRD	36609	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2574
+SUB231050	Atopic	PRD	35076	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1867
+SUB231050	Atopic	PRD	26956	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231050	Atopic	PRD	35084	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2563
+SUB231050	Atopic	PRD	35080	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231051	Atopic	PRD	33221	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2195
+SUB231051	Atopic	PRD	25494	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1482
+SUB231051	Atopic	PRD	33217	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1860
+SUB231052	Atopic	PRD	35678	84-Month Clinic Visit	1.0	complete	84	0						1	1	0	0	0	0	0	2561
+SUB231052	Atopic	PRD	35670	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	1	0	0	1839
+SUB231052	Atopic	PRD	25498	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1463
+SUB231052	Atopic	PRD	35674	72-Month Clinic Visit	1.0	complete	72	0						1	1	1	0	0	0	0	2212
+SUB231053	Atopic	PRD	37292	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1848
+SUB231053	Atopic	PRD	27106	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1451
+SUB231053	Atopic	PRD	37296	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2164
+SUB231053	Atopic	PRD	37300	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	1	0	0	0	2551
+SUB231055	Atopic	PRD	32918	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1842
+SUB231055	Atopic	PRD	32926	84-Month Clinic Visit	1.0	complete	84	0						0	1	0	0	0	0	0	2552
+SUB231055	Atopic	PRD	32914	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1493
+SUB231055	Atopic	PRD	32922	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2250
+SUB231057	Atopic	PRD	38627	84-Month Clinic Visit	1.0	missing	.x														
+SUB231057	Atopic	PRD	27043	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1482
+SUB231057	Atopic	PRD	38623	72-Month Clinic Visit	1.0	missing	.x														
+SUB231057	Atopic	PRD	38619	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1812
+SUB231058	Atopic	PRD	42352	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1866
+SUB231058	Atopic	PRD	26454	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1559
+SUB231058	Atopic	PRD	42356	72-Month Clinic Visit	1.0	missing	.x														
+SUB231059	Atopic	PRD	37517	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2164
+SUB231059	Atopic	PRD	37513	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	1	0	1829
+SUB231059	Atopic	PRD	25502	48-Month Clinic Visit	1.0	complete	48	0						1	0	1	1	0	1	0	1485
+SUB231060	Atopic	PRD	25506	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	0	1478
+SUB231060	Atopic	PRD	32055	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1884
+SUB231060	Atopic	PRD	32059	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2248
+SUB231061	Atopic	PRD	39313	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	1	0	0	1	1839
+SUB231061	Atopic	PRD	25510	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	1	0	0	0	1476
+SUB231061	Atopic	PRD	39317	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2197
+SUB231063	Atopic	PRD	25514	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1483
+SUB231063	Atopic	PRD	37733	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2175
+SUB231063	Atopic	PRD	37729	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1825
+SUB231064	Atopic	PRD	26568	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1473
+SUB231064	Atopic	PRD	38519	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2203
+SUB231064	Atopic	PRD	38515	60-Month Clinic Visit	1.0	complete	60	0						0	0	1	0	0	1	1	1858
+SUB231065	Atopic	PRD	39642	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2169
+SUB231065	Atopic	PRD	39638	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1817
+SUB231065	Atopic	PRD	25518	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1447
+SUB231066	Atopic	PRD	25522	48-Month Clinic Visit	1.0	complete	48	1					1	1	0	0	0	0	0	0	1457
+SUB231066	Atopic	PRD	37603	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2235
+SUB231066	Atopic	PRD	37599	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1871
+SUB231067	Atopic	PRD	41350	60-Month Clinic Visit	1.0	complete	60	0						0	1	1	0	0	1	1	1813
+SUB231067	Atopic	PRD	41354	72-Month Clinic Visit	1.0	complete	72	0						0	1	1	0	0	0	1	2164
+SUB231067	Atopic	PRD	25526	48-Month Clinic Visit	1.0	complete	48	0						0	1	0	0	0	0	0	1471
+SUB231070	Atopic	PRD	25530	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231070	Atopic	PRD	37222	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2164
+SUB231070	Atopic	PRD	37218	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB231071	Atopic	PRD	25534	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1437
+SUB231071	Atopic	PRD	37847	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1801
+SUB231071	Atopic	PRD	37851	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2165
+SUB231072	Atopic	PRD	37859	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	1	0	0	0	0	0	1797
+SUB231072	Atopic	PRD	37863	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2218
+SUB231072	Atopic	PRD	25538	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	1	0	0	0	0	0	1483
+SUB231073	Atopic	PRD	37352	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB231073	Atopic	PRD	37356	72-Month Clinic Visit	1.0	complete	72	0						0	1	0	0	0	0	0	2170
+SUB231073	Atopic	PRD	25542	48-Month Clinic Visit	1.0	complete	48	0						0	1	0	0	0	0	0	1445
+SUB231074	Atopic	PRD	37871	60-Month Clinic Visit	1.0	missing	.x														
+SUB231074	Atopic	PRD	25996	48-Month Clinic Visit	1.0	missing	.x														
+SUB231074	Atopic	PRD	37875	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2202
+SUB231075	Atopic	PRD	37156	72-Month Clinic Visit	1.0	missing	.x														
+SUB231075	Atopic	PRD	37152	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1786
+SUB231075	Atopic	PRD	25546	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1492
+SUB231076	Atopic	PRD	38635	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2200
+SUB231076	Atopic	PRD	38631	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1806
+SUB231076	Atopic	PRD	30300	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1553
+SUB231076	Atopic	PRD	28013	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1211
+SUB231078	Atopic	PRD	25550	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB231078	Atopic	PRD	38072	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2238
+SUB231078	Atopic	PRD	38068	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1838
+SUB231079	Atopic	PRD	25554	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	0	0	1431
+SUB231079	Atopic	PRD	38887	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	0	0	2264
+SUB231079	Atopic	PRD	38883	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	0	1837
+SUB231080	Atopic	PRD	38647	72-Month Clinic Visit	1.0	complete	72	1	1			0	0	1	0	0	0	0	0	0	2164
+SUB231080	Atopic	PRD	38643	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1799
+SUB231080	Atopic	PRD	27767	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1486
+SUB231081	Atopic	PRD	40870	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	0	1826
+SUB231081	Atopic	PRD	40874	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	0	0	2240
+SUB231081	Atopic	PRD	26396	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	0	0	1494
+SUB231082	Atopic	PRD	42514	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	1	0	0	0	0	0	0	2243
+SUB231082	Atopic	PRD	27771	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1473
+SUB231082	Atopic	PRD	42510	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1795
+SUB231083	Atopic	PRD	38655	60-Month Clinic Visit	1.0	complete	60	0						1	0	1	0	0	0	0	1929
+SUB231083	Atopic	PRD	38659	72-Month Clinic Visit	1.0	complete	72	0						1	0	1	0	0	1	0	2246
+SUB231083	Atopic	PRD	26337	48-Month Clinic Visit	1.0	missing	.x														
+SUB231084	Atopic	PRD	38667	60-Month Clinic Visit	1.0	complete	60	0						1	1	1	0	0	0	0	1830
+SUB231084	Atopic	PRD	25558	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB231084	Atopic	PRD	38671	72-Month Clinic Visit	1.0	complete	72	0						1	1	1	0	0	0	0	2244
+SUB231086	Atopic	PRD	37887	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2207
+SUB231086	Atopic	PRD	27775	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1451
+SUB231086	Atopic	PRD	37883	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1829
+SUB231087	Atopic	PRD	25562	48-Month Clinic Visit	1.0	complete	48	0						1	0	1	0	0	0	0	1469
+SUB231087	Atopic	PRD	38680	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1812
+SUB231087	Atopic	PRD	38684	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231091	Atopic	PRD	25566	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1446
+SUB231091	Atopic	PRD	31906	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1826
+SUB231091	Atopic	PRD	31910	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2216
+SUB231092	Atopic	PRD	9604	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1270
+SUB231092	Atopic	PRD	27779	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1472
+SUB231092	Atopic	PRD	30899	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1809
+SUB231092	Atopic	PRD	30903	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2167
+SUB231093	Atopic	PRD	31505	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2222
+SUB231093	Atopic	PRD	31497	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1440
+SUB231093	Atopic	PRD	31501	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1837
+SUB231094	Atopic	PRD	31271	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1813
+SUB231094	Atopic	PRD	27783	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1455
+SUB231094	Atopic	PRD	9954	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	1	1224
+SUB231094	Atopic	PRD	31275	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	1	2184
+SUB231095	Atopic	PRD	10472	36-Month Clinic Visit	1.0	complete	36	0						1	1	0	1	0	0	0	1213
+SUB231095	Atopic	PRD	31876	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	1	0	0	0	2187
+SUB231095	Atopic	PRD	31872	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1808
+SUB231095	Atopic	PRD	27787	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1438
+SUB231096	Atopic	PRD	41037	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	1	0	0	0	0	0	0	1	2167
+SUB231096	Atopic	PRD	41033	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	0	1	0	1	0	0	0	1818
+SUB231096	Atopic	PRD	30189	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	0	0	0	1	0	0	0	1446
+SUB231097	Atopic	PRD	32070	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	0	1	0	1	0	0	0	0	0	1457
+SUB231097	Atopic	PRD	10537	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	0	1	0	1	0	0	0	0	0	1184
+SUB231097	Atopic	PRD	43577	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	0	1	0	1	0	0	0	0	0	2206
+SUB231097	Atopic	PRD	43573	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	0	1	1	1	1	0	0	0	0	1860
+SUB231098	Atopic	PRD	30579	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	0	0	0	1	1432
+SUB231098	Atopic	PRD	10729	36-Month Clinic Visit	1.0	missing	.x														
+SUB231098	Atopic	PRD	42501	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2182
+SUB231098	Atopic	PRD	42497	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	0	0	0	1	1805
+SUB231099	Atopic	PRD	37135	48-Month Clinic Visit	1.0	missing	.x														
+SUB231099	Atopic	PRD	37139	60-Month Clinic Visit	1.0	missing	.x														
+SUB231099	Atopic	PRD	37143	72-Month Clinic Visit	1.0	missing	.x														
+SUB231099	Atopic	PRD	37147	84-Month Clinic Visit	1.0	missing	.x														
+SUB231099	Atopic	PRD	10745	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	0	1184
+SUB231100	Atopic	PRD	40027	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2222
+SUB231100	Atopic	PRD	40023	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	1	0	0	0	1796
+SUB231100	Atopic	PRD	31195	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	1	0	0	0	1440
+SUB231100	Atopic	PRD	10761	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	1	0	0	0	1278
+SUB231101	Atopic	PRD	39832	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	1	0	1	0	0	0	0	1798
+SUB231101	Atopic	PRD	10777	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	1	0	0	0	0	1274
+SUB231101	Atopic	PRD	24995	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	1	0	1	0	0	0	0	1517
+SUB231101	Atopic	PRD	39836	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	1	0	1	0	0	0	0	2246
+SUB231102	Atopic	PRD	24972	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	1	0	1445
+SUB231102	Atopic	PRD	42238	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2187
+SUB231102	Atopic	PRD	42234	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1801
+SUB231102	Atopic	PRD	10794	36-Month Clinic Visit	1.0	complete	36	0						1	1	0	0	0	0	0	1122
+SUB231104	Atopic	PRD	32262	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1919
+SUB231104	Atopic	PRD	32266	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2192
+SUB231104	Atopic	PRD	27791	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1513
+SUB231104	Atopic	PRD	10832	36-Month Clinic Visit	1.0	complete	36	0						0	1	0	0	0	0	0	1162
+SUB231105	Atopic	PRD	38696	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2178
+SUB231105	Atopic	PRD	29201	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231105	Atopic	PRD	38692	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1822
+SUB231105	Atopic	PRD	10848	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1169
+SUB231106	Atopic	PRD	19102	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1156
+SUB231106	Atopic	PRD	36244	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2205
+SUB231106	Atopic	PRD	36240	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1798
+SUB231106	Atopic	PRD	30057	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1441
+SUB231107	Atopic	PRD	42380	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	0	0	0	1	1844
+SUB231107	Atopic	PRD	42384	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	1	0	0	0	2191
+SUB231107	Atopic	PRD	37033	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	1	0	0	0	1449
+SUB231107	Atopic	PRD	11098	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	1	0	0	0	1120
+SUB231108	Atopic	PRD	40091	72-Month Clinic Visit	1.0	missing	.x														
+SUB231108	Atopic	PRD	40087	60-Month Clinic Visit	1.0	missing	.x														
+SUB231108	Atopic	PRD	11162	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	0	1	0	0	0	1	0	0	0	1245
+SUB231108	Atopic	PRD	30403	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	0	1	0	0	0	1	0	0	0	1433
+SUB231109	Atopic	PRD	32672	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1460
+SUB231109	Atopic	PRD	38315	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	1	0	1809
+SUB231109	Atopic	PRD	38319	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	1	0	2173
+SUB231109	Atopic	PRD	11349	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	0	0	1172
+SUB231110	Atopic	PRD	38704	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	1	0	0	0	1822
+SUB231110	Atopic	PRD	27742	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	1	0	0	0	1437
+SUB231110	Atopic	PRD	38708	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	1	0	0	0	2193
+SUB231110	Atopic	PRD	11477	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	0	0	0	0	0	0	1	1170
+SUB231113	Atopic	PRD	27738	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1435
+SUB231113	Atopic	PRD	32986	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2167
+SUB231113	Atopic	PRD	32982	60-Month Clinic Visit	1.0	complete	60	0						1	0	1	0	0	1	0	1801
+SUB231113	Atopic	PRD	11643	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	1	0	1149
+SUB231114	Atopic	PRD	31741	72-Month Clinic Visit	1.0	missing	.x														
+SUB231114	Atopic	PRD	31737	60-Month Clinic Visit	1.0	missing	.x														
+SUB231114	Atopic	PRD	27795	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	1	0	0	0	1525
+SUB231114	Atopic	PRD	21461	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	0	0	1147
+SUB231115	Atopic	PRD	34249	72-Month Clinic Visit	1.0	complete	72	0						0	1	0	0	0	0	0	2201
+SUB231115	Atopic	PRD	34245	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1802
+SUB231115	Atopic	PRD	27750	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1431
+SUB231115	Atopic	PRD	12070	36-Month Clinic Visit	1.0	complete	36	0						0	1	0	0	0	0	0	1166
+SUB231116	Atopic	PRD	27799	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	0	0	0	1	1447
+SUB231116	Atopic	PRD	12157	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	0	0	0	1	1118
+SUB231116	Atopic	PRD	38716	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	0	0	0	1	1840
+SUB231116	Atopic	PRD	38720	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2196
+SUB231117	Atopic	PRD	27803	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1434
+SUB231117	Atopic	PRD	32219	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2183
+SUB231117	Atopic	PRD	12173	36-Month Clinic Visit	1.0	missing	.x														
+SUB231117	Atopic	PRD	32215	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	0	1	1	0	0	0	0	0	0	1799
+SUB231118	Atopic	PRD	27807	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1545
+SUB231118	Atopic	PRD	34348	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1912
+SUB231118	Atopic	PRD	12189	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	0	1221
+SUB231118	Atopic	PRD	34352	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2164
+SUB231119	Atopic	PRD	12418	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0		1171
+SUB231119	Atopic	PRD	34718	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	0	0	1	1	1801
+SUB231119	Atopic	PRD	34722	72-Month Clinic Visit	1.0	missing	.x														
+SUB231119	Atopic	PRD	34714	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1501
+SUB231120	Atopic	PRD	27811	48-Month Clinic Visit	1.0	complete	48	0						1	1	1	0	0	1	0	1453
+SUB231120	Atopic	PRD	12532	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1145
+SUB231120	Atopic	PRD	38732	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	0	1	1	1	0	0	0	0	0	2168
+SUB231120	Atopic	PRD	38728	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	1	0	1	0	0	0	0	0	0	1832
+SUB231121	Atopic	PRD	34477	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2263
+SUB231121	Atopic	PRD	27815	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1456
+SUB231121	Atopic	PRD	34473	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1800
+SUB231121	Atopic	PRD	12555	36-Month Clinic Visit	1.0	complete	36	0						1	1	0	0	0	0	0	1252
+SUB231122	Atopic	PRD	12571	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1204
+SUB231122	Atopic	PRD	27819	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1455
+SUB231122	Atopic	PRD	34735	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2163
+SUB231122	Atopic	PRD	34731	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1806
+SUB231123	Atopic	PRD	33841	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	1	0	0	0	0	0	0	1898
+SUB231123	Atopic	PRD	12587	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	1	0	0	0	0	0	1106
+SUB231123	Atopic	PRD	28011	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	1	0	0	0	0	0	0	1490
+SUB231123	Atopic	PRD	33845	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	1	0	0	0	0	0	0	2291
+SUB231125	Atopic	PRD	12630	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	1	0	1	1	1148
+SUB231125	Atopic	PRD	32944	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	1	1	2163
+SUB231125	Atopic	PRD	27823	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	1	0	1	1	1436
+SUB231125	Atopic	PRD	32940	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	1	1	1800
+SUB231127	Atopic	PRD	12812	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1074
+SUB231127	Atopic	PRD	36374	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1524
+SUB231127	Atopic	PRD	36378	60-Month Clinic Visit	1.0	complete	60	0						1	0	1	0	0	0	0	1825
+SUB231127	Atopic	PRD	36382	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2182
+SUB231128	Atopic	PRD	32544	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	1	0	1	0	0	0	0	0	0	2197
+SUB231128	Atopic	PRD	12860	36-Month Clinic Visit	1.0	complete	36	1	0	1	0	0	1	1	0	0	0	0	0	0	1153
+SUB231128	Atopic	PRD	32540	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	1	1	1	1	0	0	0	0	1827
+SUB231128	Atopic	PRD	27598	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	1	0	1	0	0	0	0	0	0	1433
+SUB231130	Atopic	PRD	27827	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1516
+SUB231130	Atopic	PRD	35096	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231130	Atopic	PRD	12892	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1169
+SUB231130	Atopic	PRD	35092	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1820
+SUB231131	Atopic	PRD	26895	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	1	1	1	1431
+SUB231131	Atopic	PRD	13024	36-Month Clinic Visit	1.0	complete	36	0						1	0	1	0	0	0	1	1110
+SUB231131	Atopic	PRD	32558	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	1	1	2167
+SUB231131	Atopic	PRD	32554	60-Month Clinic Visit	1.0	complete	60	0						0	1	0	0	0	1	1	1867
+SUB231132	Atopic	PRD	28525	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	1	1	0	0	0	0	0	1439
+SUB231132	Atopic	PRD	37644	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	0	1	0	0	0	0	0	1874
+SUB231132	Atopic	PRD	13187	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	1	0	1	0	0	0	0	0	1188
+SUB231132	Atopic	PRD	37648	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	1	0	1	0	0	0	0	0	2231
+SUB231133	Atopic	PRD	33750	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	1	0	0	0	0	0	0	1890
+SUB231133	Atopic	PRD	13274	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	1	0	0	0	0	0	0	1116
+SUB231133	Atopic	PRD	33754	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	1	0	0	0	0	0	0	2194
+SUB231133	Atopic	PRD	33746	48-Month Clinic Visit	1.0	complete	48														1445
+SUB231134	Atopic	PRD	28654	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1459
+SUB231134	Atopic	PRD	36218	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2188
+SUB231134	Atopic	PRD	13448	36-Month Clinic Visit	1.0	complete	36	0						1	1	0	0	0	0	0	1117
+SUB231134	Atopic	PRD	36214	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1796
+SUB231135	Atopic	PRD	13516	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1181
+SUB231135	Atopic	PRD	40216	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231135	Atopic	PRD	40224	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2219
+SUB231135	Atopic	PRD	40220	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1804
+SUB231138	Atopic	PRD	33709	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2228
+SUB231138	Atopic	PRD	13901	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	1	0	0	0	1	0	0	1146
+SUB231138	Atopic	PRD	32678	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	1	1	0	1	0	1	0	1	1457
+SUB231138	Atopic	PRD	33705	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	1	1	0	0	1	1	0	0	1811
+SUB231139	Atopic	PRD	31671	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	1	0	0	0	1431
+SUB231139	Atopic	PRD	37095	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	1	0	0	0	1838
+SUB231139	Atopic	PRD	13946	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	1	0	0	0	1131
+SUB231139	Atopic	PRD	37099	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2204
+SUB231141	Atopic	PRD	14224	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	0	1129
+SUB231141	Atopic	PRD	40377	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	1	0	0	0	0	0	1500
+SUB231141	Atopic	PRD	40381	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	1	0	0	0	0	0	1837
+SUB231141	Atopic	PRD	40385	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	1	0	0	0	0	0	2270
+SUB231142	Atopic	PRD	14244	36-Month Clinic Visit	1.0	complete	36	0						0	1	0	1	0	1	0	1146
+SUB231142	Atopic	PRD	28383	48-Month Clinic Visit	1.0	complete	48	0						0	1	0	1	0	1	0	1512
+SUB231142	Atopic	PRD	36331	60-Month Clinic Visit	1.0	complete	60	0						0	1	0	1	0	1	1	1813
+SUB231142	Atopic	PRD	36335	72-Month Clinic Visit	1.0	complete	72	0						0	1	0	1	0	1	0	2220
+SUB231143	Non-atopic	PRD	14402	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1161
+SUB231143	Non-atopic	PRD	33011	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2184
+SUB231143	Non-atopic	PRD	33007	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1797
+SUB231143	Non-atopic	PRD	29312	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1495
+SUB231144	Atopic	PRD	36182	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1879
+SUB231144	Atopic	PRD	29892	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1436
+SUB231144	Atopic	PRD	36186	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2223
+SUB231144	Atopic	PRD	14403	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1149
+SUB231145	Non-atopic	PRD	14434	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	1	0	0	0	1113
+SUB231145	Non-atopic	PRD	30338	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	0	0	0	1	1430
+SUB231145	Non-atopic	PRD	40662	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2180
+SUB231145	Non-atopic	PRD	40658	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	0	0	0	1	1836
+SUB231146	Atopic	PRD	27363	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1527
+SUB231146	Atopic	PRD	35655	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1832
+SUB231146	Atopic	PRD	14435	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1116
+SUB231146	Atopic	PRD	35659	72-Month Clinic Visit	1.0	complete	72	1	0	0	1	0	0	1	0	0	0	0	0	0	2225
+SUB231147	Non-atopic	PRD	14500	36-Month Clinic Visit	1.0	complete	36	0						0	1	0	0	0	0	1	1105
+SUB231147	Non-atopic	PRD	34546	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2218
+SUB231147	Non-atopic	PRD	32771	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	1	1440
+SUB231147	Non-atopic	PRD	34542	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	1	1833
+SUB231148	Atopic	PRD	14501	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	1	0	0	0	1211
+SUB231148	Atopic	PRD	40432	48-Month Clinic Visit	1.0	missing	.x														
+SUB231148	Atopic	PRD	41614	60-Month Clinic Visit	1.0	missing	.x														
+SUB231149	Atopic	PRD	30451	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1431
+SUB231149	Atopic	PRD	14555	36-Month Clinic Visit	1.0	complete	36	0						0	1	1	0	0	0	0	1151
+SUB231149	Atopic	PRD	36098	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	1	1867
+SUB231149	Atopic	PRD	36102	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2209
+SUB231150	Atopic	PRD	32775	48-Month Clinic Visit	1.0	complete	48	0						1	0	1	0	0	0	0	1453
+SUB231150	Atopic	PRD	42002	72-Month Clinic Visit	1.0	complete	72	0						1	1	1	0	0	0	0	2232
+SUB231150	Atopic	PRD	14747	36-Month Clinic Visit	1.0	complete	36	0						1	1	0	0	0	0	1	1141
+SUB231150	Atopic	PRD	41998	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1874
+SUB231151	Non-atopic	PRD	14779	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	0	0	0	0	0	0	0	1146
+SUB231151	Non-atopic	PRD	32779	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1474
+SUB231151	Non-atopic	PRD	38772	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2233
+SUB231151	Non-atopic	PRD	38768	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1860
+SUB231153	Non-atopic	PRD	14812	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	1	1159
+SUB231153	Non-atopic	PRD	35422	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	1	1	1853
+SUB231153	Non-atopic	PRD	35426	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	0	1	1	1	0	0	0	1	0	2202
+SUB231153	Non-atopic	PRD	32783	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231154	Non-atopic	PRD	27900	48-Month Clinic Visit	1.0	missing	.x														
+SUB231154	Non-atopic	PRD	14868	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	1	0	0	0	1145
+SUB231155	Atopic	PRD	42529	72-Month Clinic Visit	1.0	complete	72	0						0	0	0	0	1	0	0	2273
+SUB231155	Atopic	PRD	28769	48-Month Clinic Visit	1.0	complete	48	0						0	0	0	0	1	0	0	1479
+SUB231155	Atopic	PRD	14871	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	0	1	0	0	1257
+SUB231155	Atopic	PRD	42525	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	0	1	0	0	1901
+SUB231156	Non-atopic	PRD	44869	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2264
+SUB231156	Non-atopic	PRD	40979	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	1	0	0	0	1475
+SUB231156	Non-atopic	PRD	15053	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	0	0	1	0	0	0	1169
+SUB231156	Non-atopic	PRD	44865	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	1	0	0	0	1842
+SUB231158	Non-atopic	PRD	36135	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1840
+SUB231158	Non-atopic	PRD	36139	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2226
+SUB231158	Non-atopic	PRD	32787	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1432
+SUB231158	Non-atopic	PRD	15205	36-Month Clinic Visit	1.0	complete	36	0						0	0	1	0	0	0	0	1138
+SUB231159	Atopic	PRD	36318	60-Month Clinic Visit	1.0	complete	60	0						0	1	0	0	0	1	0	1842
+SUB231159	Atopic	PRD	15208	36-Month Clinic Visit	1.0	complete	36	0						1	1	1	0	0	1	0	1164
+SUB231159	Atopic	PRD	36322	72-Month Clinic Visit	1.0	complete	72	0						1	1	1	0	0	1	0	2284
+SUB231159	Atopic	PRD	33003	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	1	0	1441
+SUB231161	Atopic	PRD	15349	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	1	0	0	1	1129
+SUB231161	Atopic	PRD	37975	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	1	0	0	0	1889
+SUB231161	Atopic	PRD	37979	72-Month Clinic Visit	1.0	complete	72	0						0	0	0	1	0	0	0	2239
+SUB231161	Atopic	PRD	28407	48-Month Clinic Visit	1.0	complete	48	0						0	0	0	1	0	0	0	1497
+SUB231163	Atopic	PRD	32791	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1443
+SUB231163	Atopic	PRD	41247	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1899
+SUB231163	Atopic	PRD	41251	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2264
+SUB231163	Atopic	PRD	15516	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	0	0	1164
+SUB231164	Atopic	PRD	35705	72-Month Clinic Visit	1.0	complete	72	0						0	0	0	1	0	0	0	2253
+SUB231164	Atopic	PRD	35701	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	1	0	0	0	1875
+SUB231164	Atopic	PRD	15532	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	1	0	0	0	1151
+SUB231164	Atopic	PRD	28759	48-Month Clinic Visit	1.0	complete	48	0						0	0	0	1	0	0	0	1437
+SUB231165	Atopic	PRD	38217	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1840
+SUB231165	Atopic	PRD	38221	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231165	Atopic	PRD	15548	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1138
+SUB231165	Atopic	PRD	30041	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1432
+SUB231166	Atopic	PRD	35007	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1800
+SUB231166	Atopic	PRD	15932	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1126
+SUB231166	Atopic	PRD	35011	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2186
+SUB231166	Atopic	PRD	32994	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1450
+SUB231167	Atopic	PRD	40200	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	0	1	0	0	0	0	0	1831
+SUB231167	Atopic	PRD	40204	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	0	1	0	0	0	0	0	2210
+SUB231167	Atopic	PRD	32795	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	0	0	0	1	0	0	0	0	0	1472
+SUB231167	Atopic	PRD	16002	36-Month Clinic Visit	1.0	complete	36	1	0	1	0	0	0	0	1	0	1	0	0	0	1101
+SUB231168	Atopic	PRD	16662	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1108
+SUB231168	Atopic	PRD	38744	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2209
+SUB231168	Atopic	PRD	32799	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231168	Atopic	PRD	38740	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1801
+SUB231169	Non-atopic	PRD	31216	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	0	0	0	1	1434
+SUB231169	Non-atopic	PRD	40756	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	0	0	0	0	0	1	2227
+SUB231169	Non-atopic	PRD	19305	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	0	1	0	0	0	0	0	1076
+SUB231169	Non-atopic	PRD	40752	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	0	0	0	0	0	1	1841
+SUB231171	Non-atopic	PRD	32803	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1465
+SUB231171	Non-atopic	PRD	38752	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1807
+SUB231171	Non-atopic	PRD	38756	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	1	2264
+SUB231171	Non-atopic	PRD	18902	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	1	1066
+SUB231172	Non-atopic	PRD	18984	36-Month Clinic Visit	1.0	complete	36	1	0	0	1	0	0	0	0	0		0	0	0	1070
+SUB231172	Non-atopic	PRD	40044	72-Month Clinic Visit	1.0	complete	72	1	0	0	1	0	0	0	0	0	0	0	0	1	2164
+SUB231172	Non-atopic	PRD	32807	48-Month Clinic Visit	1.0	complete	48	1	0	0	1	0	0	0	0	0	0	0	0	1	1433
+SUB231172	Non-atopic	PRD	40040	60-Month Clinic Visit	1.0	complete	60	1	0	0	1	0	0	0	0	0	0	0	0	1	1827
+SUB231173	Atopic	PRD	35434	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1854
+SUB231173	Atopic	PRD	26153	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1540
+SUB231173	Atopic	PRD	35442	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2567
+SUB231173	Atopic	PRD	35438	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2192
+SUB231176	Atopic	PRD	25054	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1987
+SUB231176	Atopic	PRD	33272	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1844
+SUB231176	Atopic	PRD	33280	84-Month Clinic Visit	1.0	missing	.x														
+SUB231176	Atopic	PRD	33276	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	1	2161
+SUB231177	Atopic	PRD	36152	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2165
+SUB231177	Atopic	PRD	36156	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2532
+SUB231177	Atopic	PRD	36148	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1827
+SUB231177	Atopic	PRD	26817	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1517
+SUB231178	Atopic	PRD	32697	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2535
+SUB231178	Atopic	PRD	25570	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	1	0	0	0	0	0	0	0	1	1476
+SUB231178	Atopic	PRD	32689	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	0	1846
+SUB231178	Atopic	PRD	32693	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2176
+SUB231179	Atopic	PRD	33683	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	1	0	0	0	2544
+SUB231179	Atopic	PRD	33675	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	1	0	1883
+SUB231179	Atopic	PRD	33679	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	1	0	2176
+SUB231180	Atopic	PRD	33027	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2169
+SUB231180	Atopic	PRD	33031	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	1	0	0	0	0	0	0	2561
+SUB231180	Atopic	PRD	33023	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1840
+SUB231180	Atopic	PRD	25960	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1535
+SUB231182	Atopic	PRD	37396	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1811
+SUB231182	Atopic	PRD	25578	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1520
+SUB231182	Atopic	PRD	37400	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2161
+SUB231182	Atopic	PRD	37404	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	1	0	0	0	0	0	0	2528
+SUB231183	Atopic	PRD	30732	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2151
+SUB231183	Atopic	PRD	30724	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	0	1478
+SUB231183	Atopic	PRD	30728	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1808
+SUB231183	Atopic	PRD	30736	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2555
+SUB231184	Atopic	PRD	31121	60-Month Clinic Visit	1.0	complete	60	0						0	1	0	1	0	0	0	1795
+SUB231184	Atopic	PRD	31129	84-Month Clinic Visit	1.0	complete	84	0						1	1	0	1	0	0	0	2527
+SUB231184	Atopic	PRD	25582	48-Month Clinic Visit	1.0	complete	48	0						0	1	0	1	0	0	0	1434
+SUB231184	Atopic	PRD	31125	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	1	0	0	0	2166
+SUB231185	Atopic	PRD	34819	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1824
+SUB231185	Atopic	PRD	34827	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2527
+SUB231185	Atopic	PRD	34823	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2163
+SUB231185	Atopic	PRD	25586	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	0	1455
+SUB231186	Atopic	PRD	31472	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2531
+SUB231186	Atopic	PRD	31468	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	1	0	0	0	0	1	0	0	1	2163
+SUB231186	Atopic	PRD	31464	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	1	0	0	0	0	1	0	0	1	1811
+SUB231186	Atopic	PRD	25590	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	1	0	0	0	0	0	0	0	1	1432
+SUB231187	Atopic	PRD	37072	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2587
+SUB231187	Atopic	PRD	37064	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	0	0	0	0	0	0	1	1807
+SUB231187	Atopic	PRD	25594	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	0	0	0	0	0	0	0	1472
+SUB231187	Atopic	PRD	37068	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	1	0	0	0	0	0	0	1	2179
+SUB231188	Atopic	PRD	25598	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	1	1433
+SUB231188	Atopic	PRD	32359	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2165
+SUB231188	Atopic	PRD	32355	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1802
+SUB231188	Atopic	PRD	32363	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	1	0	0	0	0	0	1	2529
+SUB231189	Atopic	PRD	32046	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2547
+SUB231189	Atopic	PRD	25602	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1435
+SUB231189	Atopic	PRD	32038	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1804
+SUB231189	Atopic	PRD	32042	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231190	Atopic	PRD	34538	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2526
+SUB231190	Atopic	PRD	34534	72-Month Clinic Visit	1.0	complete	72	1	1	0	1	0	0	0	0	0	0	0	0	1	2190
+SUB231190	Atopic	PRD	34530	60-Month Clinic Visit	1.0	complete	60	1	1	0	1	0	0	0	0	0	0	0	0	1	1819
+SUB231190	Atopic	PRD	29748	48-Month Clinic Visit	1.0	complete	48	1	1	0	1	0	0	0	0	0	0	0	0	1	1450
+SUB231191	Atopic	PRD	33264	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2167
+SUB231191	Atopic	PRD	27714	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1446
+SUB231191	Atopic	PRD	33268	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	0	0	0	0	0	0	1	2527
+SUB231191	Atopic	PRD	33260	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1801
+SUB231192	Atopic	PRD	37383	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	1	0	1	0	0	0	0	0	1809
+SUB231192	Atopic	PRD	27243	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	1	0	0	0	0	0	0	0	0	1437
+SUB231192	Atopic	PRD	37391	84-Month Clinic Visit	1.0	complete	84	1	0	1	0	1	0	0	1	0	0	0	0	0	2537
+SUB231192	Atopic	PRD	37387	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	1	0	0	1	0	0	0	0	0	2173
+SUB231194	Atopic	PRD	28071	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	0	1	1	0	0	0	0	0	1	1441
+SUB231194	Atopic	PRD	32116	84-Month Clinic Visit	1.0	complete	84	1	0	0	0	1	1	1	0	0	0	0	0	1	2536
+SUB231194	Atopic	PRD	32112	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2180
+SUB231194	Atopic	PRD	32108	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1815
+SUB231195	Atopic	PRD	42690	48-Month Clinic Visit	1.0	missing	.x														
+SUB231195	Atopic	PRD	42694	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	0	0	0	0	0	0	1	1799
+SUB231195	Atopic	PRD	42702	84-Month Clinic Visit	1.0	complete	84	1	0	1	0	0	0	0	0	0	0	0	0	1	2528
+SUB231195	Atopic	PRD	42698	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	0	0	0	0	0	0	1	2162
+SUB231196	Atopic	PRD	26910	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231196	Atopic	PRD	34067	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2533
+SUB231196	Atopic	PRD	34063	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231196	Atopic	PRD	34059	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1797
+SUB231198	Atopic	PRD	26989	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1506
+SUB231198	Atopic	PRD	39901	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1817
+SUB231198	Atopic	PRD	39909	84-Month Clinic Visit	1.0	complete	84	0						1	1	0	0	0	0	0	2545
+SUB231198	Atopic	PRD	39905	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2251
+SUB231199	Atopic	PRD	35777	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	1	0	0	0	0	0	1	2531
+SUB231199	Atopic	PRD	35773	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2160
+SUB231199	Atopic	PRD	35769	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1799
+SUB231199	Atopic	PRD	35765	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	1	0	0	0	0	1	0	1430
+SUB231201	Atopic	PRD	32720	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2160
+SUB231201	Atopic	PRD	32724	84-Month Clinic Visit	1.0	complete	84	1	1	0	0	0	0	1	0	0	0	0	0	0	2525
+SUB231201	Atopic	PRD	27139	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1436
+SUB231201	Atopic	PRD	32716	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1795
+SUB231202	Atopic	PRD	33514	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2163
+SUB231202	Atopic	PRD	33510	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1800
+SUB231202	Atopic	PRD	25606	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1430
+SUB231202	Atopic	PRD	33518	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2530
+SUB231203	Atopic	PRD	36198	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2165
+SUB231203	Atopic	PRD	29752	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1430
+SUB231203	Atopic	PRD	36194	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1795
+SUB231206	Atopic	PRD	40079	72-Month Clinic Visit	1.0	complete	72	1	1	0	1	0	0	0	0	0	0	0	0	1	2162
+SUB231206	Atopic	PRD	27964	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1431
+SUB231206	Atopic	PRD	40075	60-Month Clinic Visit	1.0	complete	60	1	1	0	1	0	0	0	0	0	0	0	0	1	1805
+SUB231207	Atopic	PRD	27462	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0								1428
+SUB231207	Atopic	PRD	38111	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1807
+SUB231207	Atopic	PRD	38115	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2163
+SUB231208	Atopic	PRD	27009	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1462
+SUB231208	Atopic	PRD	39540	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1811
+SUB231208	Atopic	PRD	39544	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2185
+SUB231209	Atopic	PRD	39370	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2166
+SUB231209	Atopic	PRD	39362	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1431
+SUB231209	Atopic	PRD	39366	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	1	1802
+SUB231210	Atopic	PRD	30844	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1848
+SUB231210	Atopic	PRD	30848	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2162
+SUB231210	Atopic	PRD	25614	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	0	1430
+SUB231213	Atopic	PRD	33807	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2171
+SUB231213	Atopic	PRD	33803	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1806
+SUB231213	Atopic	PRD	25618	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1452
+SUB231214	Atopic	PRD	27445	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	0	1440
+SUB231214	Atopic	PRD	32443	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	0	1803
+SUB231214	Atopic	PRD	32447	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	0	0	2168
+SUB231215	Atopic	PRD	25622	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	0	0	0	0	0	0	1	1434
+SUB231215	Atopic	PRD	39344	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	0	1	0	0	0	0	0	1813
+SUB231215	Atopic	PRD	39348	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	0	1	0	0	0	0	0	2169
+SUB231216	Atopic	PRD	39993	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1799
+SUB231216	Atopic	PRD	39997	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2162
+SUB231216	Atopic	PRD	25058	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231217	Atopic	PRD	33200	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1804
+SUB231217	Atopic	PRD	33196	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	0	0	1522
+SUB231217	Atopic	PRD	33204	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2156
+SUB231218	Atopic	PRD	7751	36-Month Clinic Visit	1.0	complete	36	1	1	1	1	1	0	0	0	0	0	0	0	1	1293
+SUB231218	Atopic	PRD	33857	72-Month Clinic Visit	1.0	complete	72	1	1	1	1	0	1	0	0	0	0	0	0	1	2160
+SUB231218	Atopic	PRD	33853	60-Month Clinic Visit	1.0	complete	60	1	1	1	1	0	1	0	0	0	0	0	0	1	1795
+SUB231218	Atopic	PRD	25090	48-Month Clinic Visit	1.0	complete	48	1	1	1	1	1	0	0	1	0	0	0	0	1	1434
+SUB231219	Atopic	PRD	30863	72-Month Clinic Visit	1.0	complete	72	1	1	1	1	0	1	0	0	0	0	0	0	1	2160
+SUB231219	Atopic	PRD	25100	48-Month Clinic Visit	1.0	complete	48	1	1	1	1	1	0	0	1	0	0	0	0	1	1434
+SUB231219	Atopic	PRD	30859	60-Month Clinic Visit	1.0	complete	60	1	1	1	1	0	1	0	0	0	0	0	0	1	1795
+SUB231219	Atopic	PRD	7767	36-Month Clinic Visit	1.0	complete	36	1	1	1	1	1	0	0	0	0	0	0	0	1	1293
+SUB231221	Atopic	PRD	39939	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	1	0	0	0	0	0	2166
+SUB231221	Atopic	PRD	25626	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1438
+SUB231221	Atopic	PRD	39935	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	1	1	0	0	0	0	1	1800
+SUB231222	Atopic	PRD	36878	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	0	1	1440
+SUB231222	Atopic	PRD	36882	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	1	1812
+SUB231222	Atopic	PRD	36886	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	0	1	2176
+SUB231222	Atopic	PRD	36661	36-Month Clinic Visit	1.0	missing	.x														
+SUB231223	Atopic	PRD	25630	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	0	0	0	1429
+SUB231223	Atopic	PRD	33865	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1799
+SUB231223	Atopic	PRD	33869	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2177
+SUB231224	Atopic	PRD	26004	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	1	0	1	1474
+SUB231224	Atopic	PRD	33894	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	1	0	0	2246
+SUB231224	Atopic	PRD	33890	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	1	0	0	1831
+SUB231225	Atopic	PRD	32703	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1801
+SUB231225	Atopic	PRD	32707	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2168
+SUB231225	Atopic	PRD	25634	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1433
+SUB231226	Atopic	PRD	33820	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	1	0	0	0	0	0	0	2170
+SUB231226	Atopic	PRD	33816	60-Month Clinic Visit	1.0	complete	60	0						0	1	0	0	0	0	0	1846
+SUB231226	Atopic	PRD	25062	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1474
+SUB231227	Atopic	PRD	32952	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1834
+SUB231227	Atopic	PRD	29726	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1484
+SUB231227	Atopic	PRD	32956	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2163
+SUB231229	Atopic	PRD	36840	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2165
+SUB231229	Atopic	PRD	25878	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231229	Atopic	PRD	36836	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1801
+SUB231230	Atopic	PRD	31296	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	0	0	0	0	0	0	1	2166
+SUB231230	Atopic	PRD	31292	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	0	0	0	0	0	0	1	1799
+SUB231230	Atopic	PRD	29756	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	0	0	0	0	0	0	0	0	0	1437
+SUB231232	Atopic	PRD	36852	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2170
+SUB231232	Atopic	PRD	36848	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1806
+SUB231232	Atopic	PRD	25070	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1443
+SUB231233	Atopic	PRD	33914	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1808
+SUB231233	Atopic	PRD	28304	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	0	1437
+SUB231233	Atopic	PRD	33918	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2168
+SUB231234	Atopic	PRD	29958	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	1	1553
+SUB231234	Atopic	PRD	9085	36-Month Clinic Visit	1.0	missing	.x														
+SUB231234	Atopic	PRD	39434	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	1	1921
+SUB231234	Atopic	PRD	39438	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2181
+SUB231235	Atopic	PRD	25638	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1551
+SUB231235	Atopic	PRD	9301	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1236
+SUB231235	Atopic	PRD	37939	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2206
+SUB231235	Atopic	PRD	37935	60-Month Clinic Visit	1.0	missing	.x														
+SUB231236	Atopic	PRD	42162	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231236	Atopic	PRD	42154	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1460
+SUB231236	Atopic	PRD	42158	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB231236	Atopic	PRD	42136	36-Month Clinic Visit	1.0	missing	.x														
+SUB231237	Atopic	PRD	32969	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2163
+SUB231237	Atopic	PRD	32965	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1799
+SUB231237	Atopic	PRD	25642	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1434
+SUB231241	Atopic	PRD	25852	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	0	0	0	0	0	0	0	1430
+SUB231241	Atopic	PRD	33828	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1798
+SUB231241	Atopic	PRD	33832	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2166
+SUB231242	Atopic	PRD	30456	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1439
+SUB231242	Atopic	PRD	33989	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2178
+SUB231242	Atopic	PRD	33985	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1806
+SUB231242	Atopic	PRD	10421	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	0	0	0	0	0	0	1	1122
+SUB231243	Atopic	PRD	35602	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	1	2164
+SUB231243	Atopic	PRD	35594	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	1	1	0	1452
+SUB231243	Atopic	PRD	35598	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	1	1856
+SUB231243	Atopic	PRD	10438	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	1	1133
+SUB231246	Atopic	PRD	10958	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	1	1168
+SUB231246	Atopic	PRD	34947	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1800
+SUB231246	Atopic	PRD	34951	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2162
+SUB231246	Atopic	PRD	27332	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1438
+SUB231247	Atopic	PRD	26119	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231247	Atopic	PRD	30979	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2164
+SUB231247	Atopic	PRD	30975	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1800
+SUB231247	Atopic	PRD	10982	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1099
+SUB231248	Atopic	PRD	34016	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	0	0	2167
+SUB231248	Atopic	PRD	34012	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	0	1800
+SUB231248	Atopic	PRD	11181	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	0	1088
+SUB231248	Atopic	PRD	29760	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	0	0	1432
+SUB231249	Atopic	PRD	37450	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2170
+SUB231249	Atopic	PRD	37442	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	1	0	0	0	0	0	0	0	1	1432
+SUB231249	Atopic	PRD	37446	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1796
+SUB231249	Atopic	PRD	37261	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	1	0	0	0	0	0	0	0	1161
+SUB231251	Atopic	PRD	35687	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	1	0	0	0	0	0	0	1	2166
+SUB231251	Atopic	PRD	11295	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	1	0	0	0	0	0	0	0	1104
+SUB231251	Atopic	PRD	29764	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	1	0	0	0	0	0	0	0	1	1433
+SUB231251	Atopic	PRD	35683	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	1	0	0	0	0	0	0	0	1	1797
+SUB231252	Atopic	PRD	11536	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	1	1109
+SUB231252	Atopic	PRD	29730	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	1	1428
+SUB231252	Atopic	PRD	33769	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1797
+SUB231252	Atopic	PRD	33773	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2250
+SUB231253	Atopic	PRD	11552	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	1	0	1	0	0	0	0	0	0	1279
+SUB231253	Atopic	PRD	41172	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	1	0	1	0	0	0	0	0	0	1803
+SUB231253	Atopic	PRD	26974	48-Month Clinic Visit	1.0	complete	48	1	0	0	0	1	0	1	0	0	0	0	0	0	1434
+SUB231253	Atopic	PRD	41176	72-Month Clinic Visit	1.0	complete	72	1	0	0	0	1	0	1	0	0	0	0	0	0	2166
+SUB231255	Atopic	PRD	36824	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	1	0	1797
+SUB231255	Atopic	PRD	36828	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2175
+SUB231255	Atopic	PRD	26694	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1434
+SUB231255	Atopic	PRD	11707	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	1	0	1111
+SUB231256	Atopic	PRD	36942	48-Month Clinic Visit	1.0	missing	.x														
+SUB231256	Atopic	PRD	11746	36-Month Clinic Visit	1.0	missing	.x														
+SUB231257	Atopic	PRD	29768	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1434
+SUB231257	Atopic	PRD	31614	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2162
+SUB231257	Atopic	PRD	11913	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	1	0	1093
+SUB231257	Atopic	PRD	31610	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1798
+SUB231258	Atopic	PRD	31863	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2165
+SUB231258	Atopic	PRD	31859	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1799
+SUB231258	Atopic	PRD	26725	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231258	Atopic	PRD	12033	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1070
+SUB231260	Atopic	PRD	32573	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2163
+SUB231260	Atopic	PRD	12712	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0								1067
+SUB231260	Atopic	PRD	32569	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	1	0	0	0	0	0	1	1797
+SUB231260	Atopic	PRD	32505	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	1	0	0	0	0	0	0	1435
+SUB231262	Atopic	PRD	29772	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1449
+SUB231262	Atopic	PRD	12948	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	0	0	0	0	0	0	1	1109
+SUB231262	Atopic	PRD	35560	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2187
+SUB231262	Atopic	PRD	35556	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1797
+SUB231263	Atopic	PRD	35141	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2163
+SUB231263	Atopic	PRD	35137	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1799
+SUB231263	Atopic	PRD	35133	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1438
+SUB231263	Atopic	PRD	13044	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1079
+SUB231264	Atopic	PRD	33962	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1881
+SUB231264	Atopic	PRD	13249	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	1	1075
+SUB231264	Atopic	PRD	29776	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1477
+SUB231264	Atopic	PRD	33966	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2276
+SUB231265	Atopic	PRD	13532	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	1	0	0	0	0	0	0	0	0	1065
+SUB231265	Atopic	PRD	34563	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	1	0	0	0	0	1	0	0	0	1800
+SUB231265	Atopic	PRD	34567	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	1	0	0	0	0	0	0	0	1	2172
+SUB231265	Atopic	PRD	29734	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	0	0	0	0	0	0	1	1430
+SUB231266	Atopic	PRD	29162	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	0	0	0	1	0	0	1	1435
+SUB231266	Atopic	PRD	33954	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2232
+SUB231266	Atopic	PRD	33950	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	0	0	0	1	0	0	1	1797
+SUB231266	Atopic	PRD	13648	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	1	0	0	0	1	0	0	0	1077
+SUB231268	Atopic	PRD	27383	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1432
+SUB231268	Atopic	PRD	33536	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1796
+SUB231268	Atopic	PRD	13766	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	0	1073
+SUB231268	Atopic	PRD	33540	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2174
+SUB231269	Atopic	PRD	13859	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	1	1069
+SUB231269	Atopic	PRD	36418	48-Month Clinic Visit	1.0	missing	.x														
+SUB231270	Atopic	PRD	14084	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	1	1	0	0	0	0	0	0	1076
+SUB231270	Atopic	PRD	35298	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	1	0	0	0	0	0	1797
+SUB231270	Atopic	PRD	35302	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2161
+SUB231270	Atopic	PRD	35294	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1446
+SUB231271	Atopic	PRD	36086	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2162
+SUB231271	Atopic	PRD	36082	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	0	0	0	0	0	0	1	1865
+SUB231271	Atopic	PRD	36078	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	1	1	1376
+SUB231271	Atopic	PRD	14102	36-Month Clinic Visit	1.0	missing	.x														
+SUB231272	Atopic	PRD	34324	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2164
+SUB231272	Atopic	PRD	34320	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1797
+SUB231272	Atopic	PRD	14171	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1071
+SUB231272	Atopic	PRD	34055	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1430
+SUB231273	Atopic	PRD	14342	36-Month Clinic Visit	1.0	complete	36	0						1	1	0	0	0	0	0	1065
+SUB231273	Atopic	PRD	27862	48-Month Clinic Visit	1.0	complete	48	0						1	1	0	0	1	1	0	1486
+SUB231273	Atopic	PRD	33942	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231273	Atopic	PRD	33938	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1795
+SUB231274	Atopic	PRD	14462	36-Month Clinic Visit	1.0	complete	36	1	0	1	0	0	0	1	0	0	0	0	0	0	1106
+SUB231274	Atopic	PRD	33725	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	0	0	1	0	0	0	0	0	0	1430
+SUB231274	Atopic	PRD	33729	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	1	0	0	0	0	0	0	1854
+SUB231274	Atopic	PRD	33733	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	1	0	0	0	0	0	1	2162
+SUB231275	Atopic	PRD	37025	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2163
+SUB231275	Atopic	PRD	37021	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	1	1	0	0	0	0	0	0	1799
+SUB231275	Atopic	PRD	29663	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	1	1	0	0	0	0	0	0	1433
+SUB231275	Atopic	PRD	14538	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	0	1069
+SUB231276	Atopic	PRD	37630	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1807
+SUB231276	Atopic	PRD	37634	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231276	Atopic	PRD	14649	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1079
+SUB231276	Atopic	PRD	29780	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1431
+SUB231277	Non-atopic	PRD	37591	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2165
+SUB231277	Non-atopic	PRD	37587	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1785
+SUB231277	Non-atopic	PRD	14694	36-Month Clinic Visit	1.0	complete	36	0						1	0	1	0	0	0	0	1141
+SUB231277	Non-atopic	PRD	29739	48-Month Clinic Visit	1.0	complete	48	0						1	0	1	0	0	0	0	1432
+SUB231278	Non-atopic	PRD	34386	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	0	0	0	0	0	0	1	2167
+SUB231278	Non-atopic	PRD	34382	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	0	0	0	0	0	0	1	1808
+SUB231278	Non-atopic	PRD	29743	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	0	0	1	0	0	1	0	0	0	1430
+SUB231278	Non-atopic	PRD	14712	36-Month Clinic Visit	1.0	complete	36	1	0	1	0	0	0	0	0	0	0	0	0	0	1128
+SUB231279	Atopic	PRD	29784	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1411
+SUB231279	Atopic	PRD	14906	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	1	1092
+SUB231279	Atopic	PRD	44445	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1785
+SUB231279	Atopic	PRD	44449	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2156
+SUB231280	Non-atopic	PRD	29704	48-Month Clinic Visit	1.0	complete	48	1	1	0	1	0	0	0	0	0	0	0	0	1	1434
+SUB231280	Non-atopic	PRD	15005	36-Month Clinic Visit	1.0	complete	36	1	1	0	1	0	0	0	0	0	0	0	0	1	1070
+SUB231280	Non-atopic	PRD	36272	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2163
+SUB231280	Non-atopic	PRD	36268	60-Month Clinic Visit	1.0	complete	60	1	1	0	1	0	0	0	0	0	0	0	0	1	1796
+SUB231281	Atopic	PRD	29788	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1431
+SUB231281	Atopic	PRD	36861	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1794
+SUB231281	Atopic	PRD	15091	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	1	0	1	0	0	0	0	1	1136
+SUB231281	Atopic	PRD	36865	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	1	0	0	0	0	0	2164
+SUB231282	Atopic	PRD	37312	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1343
+SUB231282	Atopic	PRD	37320	72-Month Clinic Visit	1.0	missing	.x														
+SUB231282	Atopic	PRD	37316	60-Month Clinic Visit	1.0	missing	.x														
+SUB231282	Atopic	PRD	15424	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	0	1020
+SUB231283	Atopic	PRD	35952	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	1	0	0	0	0	0	0	1441
+SUB231283	Atopic	PRD	35956	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	1	0	0	0	0	0	0	1796
+SUB231283	Atopic	PRD	15628	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	1	0	0	0	0	0	0	1075
+SUB231283	Atopic	PRD	35960	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	0	0	0	0	0	0	2197
+SUB231284	Atopic	PRD	35568	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	1	0	0	0	0	0	1799
+SUB231284	Atopic	PRD	15679	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	0	0	0	1	0	0	0	1072
+SUB231284	Atopic	PRD	29797	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1436
+SUB231284	Atopic	PRD	35572	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2178
+SUB231285	Non-atopic	PRD	30291	48-Month Clinic Visit	1.0	complete	48	1	0	1	0	0	0	0	0	0	0	0	0	1	1442
+SUB231285	Non-atopic	PRD	15718	36-Month Clinic Visit	1.0	complete	36	1	0	1	0	0	0	0	0	0	0	0	0	1	1066
+SUB231285	Non-atopic	PRD	35392	72-Month Clinic Visit	1.0	complete	72	1	0	1	0	0	0	0	0	0	0	0	0	1	2187
+SUB231285	Non-atopic	PRD	35388	60-Month Clinic Visit	1.0	complete	60	1	0	1	0	0	0	0	0	0	0	0	0	1	1806
+SUB231286	Atopic	PRD	37660	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	1	0	0	1	1800
+SUB231286	Atopic	PRD	37664	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	1	0	0	1	2167
+SUB231286	Atopic	PRD	15742	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	1	0	0	1	1068
+SUB231286	Atopic	PRD	29801	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	1	0	0	1	1433
+SUB231287	Non-atopic	PRD	33930	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2169
+SUB231287	Non-atopic	PRD	33926	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1810
+SUB231287	Non-atopic	PRD	15794	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	1	0	1075
+SUB231287	Non-atopic	PRD	29792	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	1	1434
+SUB231288	Atopic	PRD	37964	72-Month Clinic Visit	1.0	complete	72	1	1	1	0	0	0	0	0	0	0	0	0	1	2249
+SUB231288	Atopic	PRD	37960	60-Month Clinic Visit	1.0	complete	60	1	1	1	0	0	0	0	0	0	0	0	0	1	1871
+SUB231288	Atopic	PRD	16077	36-Month Clinic Visit	1.0	complete	36	1	1	1	0	0	0	0	0	0	0	0	0	1	1149
+SUB231288	Atopic	PRD	29805	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	0	0	0	0	0	1	1467
+SUB231290	Atopic	PRD	30537	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231290	Atopic	PRD	16226	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1068
+SUB231290	Atopic	PRD	33902	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1796
+SUB231290	Atopic	PRD	33906	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2175
+SUB231291	Atopic	PRD	16371	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	0	0	0	0	0	0	1079
+SUB231291	Atopic	PRD	37562	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	0	0	0	0	0	0	0	0	1	1799
+SUB231291	Atopic	PRD	29022	48-Month Clinic Visit	1.0	complete	48	1	1	0	0	0	0	0	0	0	0	0	0	1	1434
+SUB231291	Atopic	PRD	37566	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	0	0	0	0	0	0	1	2165
+SUB231292	Atopic	PRD	16478	36-Month Clinic Visit	1.0	complete	36	1	1	0	0	0	0	0	1	0	0	0	0	0	1070
+SUB231292	Atopic	PRD	28802	48-Month Clinic Visit	1.0	complete	48	1	1	1	0	0	0	0	1	0	0	0	0	0	1430
+SUB231292	Atopic	PRD	36260	72-Month Clinic Visit	1.0	complete	72	1	1	0	0	0	0	1	1	0	0	0	0	1	2162
+SUB231292	Atopic	PRD	36256	60-Month Clinic Visit	1.0	complete	60	1	1	0	0	1	0	0	1	0	0	0	0	0	1797
+SUB231293	Atopic	PRD	31178	60-Month Clinic Visit	1.0	missing	.x														
+SUB231293	Atopic	PRD	31186	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2645
+SUB231293	Atopic	PRD	31182	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2232
+SUB231294	Atopic	PRD	31692	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2639
+SUB231294	Atopic	PRD	31684	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1881
+SUB231294	Atopic	PRD	31688	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2269
+SUB231295	Atopic	PRD	35028	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2233
+SUB231295	Atopic	PRD	35032	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2551
+SUB231295	Atopic	PRD	35024	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1884
+SUB231295	Atopic	PRD	25650	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1534
+SUB231296	Atopic	PRD	31757	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2229
+SUB231296	Atopic	PRD	31753	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1842
+SUB231297	Atopic	PRD	38000	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2645
+SUB231297	Atopic	PRD	37996	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2273
+SUB231297	Atopic	PRD	37992	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1893
+SUB231299	Atopic	PRD	32744	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	1	0	2692
+SUB231299	Atopic	PRD	32736	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1825
+SUB231299	Atopic	PRD	32740	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2267
+SUB231300	Atopic	PRD	31021	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2605
+SUB231300	Atopic	PRD	31013	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1861
+SUB231300	Atopic	PRD	31017	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2262
+SUB231302	Atopic	PRD	25662	48-Month Clinic Visit	1.0	missing	.x														
+SUB231302	Atopic	PRD	34502	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2222
+SUB231302	Atopic	PRD	34498	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1804
+SUB231302	Atopic	PRD	34506	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2565
+SUB231304	Atopic	PRD	25666	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1492
+SUB231304	Atopic	PRD	35903	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1812
+SUB231304	Atopic	PRD	35907	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2233
+SUB231304	Atopic	PRD	35911	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2599
+SUB231305	Atopic	PRD	25670	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1488
+SUB231305	Atopic	PRD	34786	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2250
+SUB231305	Atopic	PRD	34782	60-Month Clinic Visit	1.0	missing	.x														
+SUB231305	Atopic	PRD	34790	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2615
+SUB231306	Atopic	PRD	36314	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2710
+SUB231306	Atopic	PRD	36306	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1802
+SUB231306	Atopic	PRD	36310	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2243
+SUB231306	Atopic	PRD	25674	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1494
+SUB231307	Atopic	PRD	37337	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2644
+SUB231307	Atopic	PRD	25678	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1517
+SUB231307	Atopic	PRD	37329	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1873
+SUB231307	Atopic	PRD	37333	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2188
+SUB231308	Atopic	PRD	38404	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1843
+SUB231308	Atopic	PRD	25682	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1556
+SUB231308	Atopic	PRD	38408	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2250
+SUB231309	Atopic	PRD	35807	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1865
+SUB231309	Atopic	PRD	35811	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2266
+SUB231309	Atopic	PRD	35815	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2642
+SUB231309	Atopic	PRD	25901	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1467
+SUB231310	Atopic	PRD	35939	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2628
+SUB231310	Atopic	PRD	35935	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2230
+SUB231310	Atopic	PRD	25686	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1465
+SUB231310	Atopic	PRD	35931	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB231313	Atopic	PRD	33650	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	1	0	1826
+SUB231313	Atopic	PRD	33658	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	1	0	2633
+SUB231313	Atopic	PRD	26713	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1484
+SUB231313	Atopic	PRD	33654	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	1	0	2229
+SUB231314	Atopic	PRD	35899	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2664
+SUB231314	Atopic	PRD	35895	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2224
+SUB231314	Atopic	PRD	35891	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1850
+SUB231314	Atopic	PRD	25025	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1453
+SUB231316	Atopic	PRD	36440	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2223
+SUB231316	Atopic	PRD	36444	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2596
+SUB231316	Atopic	PRD	27026	48-Month Clinic Visit	1.0	complete	48	1	0	0	1	0	0	1	0	0	0	0	0	0	1460
+SUB231316	Atopic	PRD	36436	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1846
+SUB231318	Atopic	PRD	33617	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2207
+SUB231318	Atopic	PRD	33613	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1876
+SUB231318	Atopic	PRD	25690	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1435
+SUB231318	Atopic	PRD	33621	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2640
+SUB231319	Atopic	PRD	26012	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1510
+SUB231319	Atopic	PRD	35106	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1889
+SUB231319	Atopic	PRD	35110	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	1	0	2280
+SUB231320	Atopic	PRD	27227	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1527
+SUB231320	Atopic	PRD	39492	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2234
+SUB231320	Atopic	PRD	39488	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1890
+SUB231321	Atopic	PRD	36585	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1847
+SUB231321	Atopic	PRD	36593	84-Month Clinic Visit	1.0	missing	.x														
+SUB231321	Atopic	PRD	36589	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2218
+SUB231321	Atopic	PRD	26531	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231323	Atopic	PRD	28056	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1548
+SUB231323	Atopic	PRD	35182	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2189
+SUB231323	Atopic	PRD	35178	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1875
+SUB231323	Atopic	PRD	35186	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2602
+SUB231324	Atopic	PRD	39186	72-Month Clinic Visit	1.0	complete	72	0						0	0	1	0	0	0	0	2218
+SUB231324	Atopic	PRD	25804	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1503
+SUB231324	Atopic	PRD	39182	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1832
+SUB231325	Atopic	PRD	25694	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1446
+SUB231325	Atopic	PRD	35506	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1796
+SUB231325	Atopic	PRD	35510	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2161
+SUB231326	Atopic	PRD	27090	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1456
+SUB231326	Atopic	PRD	34966	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2199
+SUB231326	Atopic	PRD	34962	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1862
+SUB231326	Atopic	PRD	34970	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2582
+SUB231327	Atopic	PRD	34836	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2175
+SUB231327	Atopic	PRD	34832	60-Month Clinic Visit	1.0	complete	60	0						1	0	1	0	0	0	0	1811
+SUB231327	Atopic	PRD	34840	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2573
+SUB231327	Atopic	PRD	27586	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1445
+SUB231328	Atopic	PRD	26644	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1486
+SUB231328	Atopic	PRD	35612	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1870
+SUB231328	Atopic	PRD	35616	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2193
+SUB231329	Atopic	PRD	27082	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1548
+SUB231329	Atopic	PRD	40895	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1830
+SUB231329	Atopic	PRD	40899	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2188
+SUB231330	Atopic	PRD	26333	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1460
+SUB231330	Atopic	PRD	38858	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2167
+SUB231330	Atopic	PRD	38854	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1802
+SUB231332	Atopic	PRD	39234	60-Month Clinic Visit	1.0	missing	.x														
+SUB231332	Atopic	PRD	39238	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2177
+SUB231332	Atopic	PRD	39230	48-Month Clinic Visit	1.0	missing	.x														
+SUB231333	Atopic	PRD	35624	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1878
+SUB231333	Atopic	PRD	27355	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1479
+SUB231333	Atopic	PRD	35628	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2252
+SUB231334	Atopic	PRD	39273	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1478
+SUB231334	Atopic	PRD	39281	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2167
+SUB231334	Atopic	PRD	39277	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1822
+SUB231336	Atopic	PRD	27232	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1453
+SUB231336	Atopic	PRD	35521	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1832
+SUB231336	Atopic	PRD	35525	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2252
+SUB231338	Atopic	PRD	35154	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1794
+SUB231338	Atopic	PRD	35158	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2164
+SUB231338	Atopic	PRD	25912	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	1	0	1440
+SUB231339	Atopic	PRD	26179	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1474
+SUB231339	Atopic	PRD	39194	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1802
+SUB231339	Atopic	PRD	39198	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2172
+SUB231341	Atopic	PRD	37685	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB231341	Atopic	PRD	37681	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1848
+SUB231341	Atopic	PRD	27193	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1504
+SUB231342	Atopic	PRD	38171	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2552
+SUB231342	Atopic	PRD	27700	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1473
+SUB231342	Atopic	PRD	38167	72-Month Clinic Visit	1.0	missing	.x														
+SUB231342	Atopic	PRD	38163	60-Month Clinic Visit	1.0	missing	.x														
+SUB231343	Atopic	PRD	39206	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1838
+SUB231343	Atopic	PRD	39210	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2187
+SUB231343	Atopic	PRD	27063	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1448
+SUB231345	Atopic	PRD	27187	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231345	Atopic	PRD	39886	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1833
+SUB231345	Atopic	PRD	39890	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB231346	Atopic	PRD	28300	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231346	Atopic	PRD	38242	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2205
+SUB231346	Atopic	PRD	38238	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1848
+SUB231347	Atopic	PRD	34164	72-Month Clinic Visit	1.0	missing	.x														
+SUB231347	Atopic	PRD	34156	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1551
+SUB231352	Atopic	PRD	32202	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2273
+SUB231352	Atopic	PRD	32198	60-Month Clinic Visit	1.0	missing	.x														
+SUB231352	Atopic	PRD	31174	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1554
+SUB231353	Atopic	PRD	31002	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2197
+SUB231353	Atopic	PRD	27517	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1441
+SUB231353	Atopic	PRD	30998	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1909
+SUB231355	Atopic	PRD	44931	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1879
+SUB231355	Atopic	PRD	28670	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1437
+SUB231355	Atopic	PRD	44935	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2260
+SUB231356	Atopic	PRD	30817	72-Month Clinic Visit	1.0	complete	72	0						0	0	0	1	1	0	1	2270
+SUB231356	Atopic	PRD	30813	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	1	1	0	1	1854
+SUB231356	Atopic	PRD	28882	48-Month Clinic Visit	1.0	complete	48	0						0	0	0	0	0	0	1	1453
+SUB231357	Atopic	PRD	41020	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2189
+SUB231357	Atopic	PRD	41016	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1832
+SUB231357	Atopic	PRD	27439	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1455
+SUB231359	Atopic	PRD	28176	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1439
+SUB231359	Atopic	PRD	40843	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1851
+SUB231359	Atopic	PRD	40847	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2251
+SUB231360	Atopic	PRD	31651	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2211
+SUB231360	Atopic	PRD	31643	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1441
+SUB231360	Atopic	PRD	31647	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1830
+SUB231363	Atopic	PRD	25702	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1484
+SUB231363	Atopic	PRD	31078	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1826
+SUB231363	Atopic	PRD	31082	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231365	Atopic	PRD	34181	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2227
+SUB231365	Atopic	PRD	34177	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1872
+SUB231365	Atopic	PRD	34173	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1486
+SUB231366	Atopic	PRD	39222	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2174
+SUB231366	Atopic	PRD	39218	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1804
+SUB231366	Atopic	PRD	27973	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1460
+SUB231367	Atopic	PRD	32025	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2282
+SUB231367	Atopic	PRD	25706	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1462
+SUB231367	Atopic	PRD	32021	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1882
+SUB231368	Atopic	PRD	27928	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1539
+SUB231368	Atopic	PRD	37897	60-Month Clinic Visit	1.0	missing	.x														
+SUB231368	Atopic	PRD	37901	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2260
+SUB231369	Atopic	PRD	31720	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1879
+SUB231369	Atopic	PRD	25710	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1478
+SUB231369	Atopic	PRD	31724	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231372	Atopic	PRD	32415	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2197
+SUB231372	Atopic	PRD	29245	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1446
+SUB231372	Atopic	PRD	32411	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1865
+SUB231373	Atopic	PRD	29141	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1446
+SUB231373	Atopic	PRD	32290	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1913
+SUB231373	Atopic	PRD	32294	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2202
+SUB231374	Atopic	PRD	40057	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1784
+SUB231374	Atopic	PRD	40061	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2169
+SUB231374	Atopic	PRD	25714	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231376	Atopic	PRD	28497	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1448
+SUB231376	Atopic	PRD	33244	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1833
+SUB231376	Atopic	PRD	33248	72-Month Clinic Visit	1.0	missing	.x														
+SUB231377	Atopic	PRD	34990	60-Month Clinic Visit	1.0	missing	.x														
+SUB231377	Atopic	PRD	34994	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2195
+SUB231377	Atopic	PRD	28705	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB231378	Atopic	PRD	34627	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1912
+SUB231378	Atopic	PRD	26066	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1449
+SUB231378	Atopic	PRD	7841	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	0	0	1186
+SUB231378	Atopic	PRD	34631	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2174
+SUB231379	Atopic	PRD	34683	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1474
+SUB231379	Atopic	PRD	8014	36-Month Clinic Visit	1.0	missing	.x														
+SUB231379	Atopic	PRD	34691	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2208
+SUB231379	Atopic	PRD	34687	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1857
+SUB231380	Atopic	PRD	38441	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1903
+SUB231380	Atopic	PRD	38445	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2225
+SUB231380	Atopic	PRD	30283	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1473
+SUB231381	Atopic	PRD	25718	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1455
+SUB231381	Atopic	PRD	32531	72-Month Clinic Visit	1.0	complete	72	0						1	0	1	0	0	0	0	2198
+SUB231381	Atopic	PRD	32527	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1895
+SUB231382	Atopic	PRD	44967	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	1	2187
+SUB231382	Atopic	PRD	44963	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1795
+SUB231382	Atopic	PRD	25722	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1453
+SUB231383	Atopic	PRD	50450	60-Month Clinic Visit	1.0	missing	.x														
+SUB231383	Atopic	PRD	50446	48-Month Clinic Visit	1.0	missing	.x														
+SUB231383	Atopic	PRD	50454	72-Month Clinic Visit	1.0	missing	.x														
+SUB231383	Atopic	PRD	50458	84-Month Clinic Visit	1.0	complete	84	0						1	0	0	0	0	0	0	2371
+SUB231384	Atopic	PRD	25726	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231384	Atopic	PRD	39254	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1909
+SUB231384	Atopic	PRD	39258	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2172
+SUB231387	Atopic	PRD	39388	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1825
+SUB231387	Atopic	PRD	25730	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1442
+SUB231387	Atopic	PRD	39392	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2197
+SUB231388	Atopic	PRD	32609	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1893
+SUB231388	Atopic	PRD	29104	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1465
+SUB231388	Atopic	PRD	32613	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2202
+SUB231389	Atopic	PRD	32305	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1899
+SUB231389	Atopic	PRD	25734	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1436
+SUB231389	Atopic	PRD	32309	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2206
+SUB231390	Atopic	PRD	32170	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1925
+SUB231390	Atopic	PRD	32166	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1455
+SUB231390	Atopic	PRD	32174	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2277
+SUB231391	Atopic	PRD	29319	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1456
+SUB231391	Atopic	PRD	31567	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1825
+SUB231391	Atopic	PRD	31571	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2177
+SUB231392	Atopic	PRD	25738	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1445
+SUB231392	Atopic	PRD	33410	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2193
+SUB231392	Atopic	PRD	33406	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1884
+SUB231393	Atopic	PRD	30614	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1475
+SUB231393	Atopic	PRD	44478	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2191
+SUB231393	Atopic	PRD	9266	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1162
+SUB231393	Atopic	PRD	44474	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1918
+SUB231394	Atopic	PRD	34418	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2208
+SUB231394	Atopic	PRD	9430	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1194
+SUB231394	Atopic	PRD	34414	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1908
+SUB231394	Atopic	PRD	26407	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1557
+SUB231395	Atopic	PRD	32013	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2186
+SUB231395	Atopic	PRD	32009	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1862
+SUB231395	Atopic	PRD	29464	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1442
+SUB231396	Atopic	PRD	31524	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2187
+SUB231396	Atopic	PRD	24986	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB231396	Atopic	PRD	31520	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1911
+SUB231397	Atopic	PRD	25742	48-Month Clinic Visit	1.0	missing	.x														
+SUB231397	Atopic	PRD	9560	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1138
+SUB231397	Atopic	PRD	34575	60-Month Clinic Visit	1.0	missing	.x														
+SUB231397	Atopic	PRD	34579	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2251
+SUB231398	Atopic	PRD	25746	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1450
+SUB231398	Atopic	PRD	34588	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1887
+SUB231398	Atopic	PRD	9724	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1145
+SUB231398	Atopic	PRD	34592	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB231400	Atopic	PRD	35547	72-Month Clinic Visit	1.0	missing	.x														
+SUB231400	Atopic	PRD	35551	84-Month Clinic Visit	1.0	missing	.x														
+SUB231400	Atopic	PRD	22597	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1154
+SUB231400	Atopic	PRD	35543	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1903
+SUB231400	Atopic	PRD	26419	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1443
+SUB231401	Atopic	PRD	30920	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2188
+SUB231401	Atopic	PRD	30916	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1899
+SUB231401	Atopic	PRD	25750	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1443
+SUB231402	Atopic	PRD	25896	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1468
+SUB231402	Atopic	PRD	34897	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2191
+SUB231402	Atopic	PRD	10203	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1126
+SUB231402	Atopic	PRD	34893	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1897
+SUB231403	Atopic	PRD	30828	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1879
+SUB231403	Atopic	PRD	10258	36-Month Clinic Visit	1.0	missing	.x														
+SUB231403	Atopic	PRD	25754	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231403	Atopic	PRD	30832	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2186
+SUB231404	Atopic	PRD	39866	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1893
+SUB231404	Atopic	PRD	39870	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2203
+SUB231404	Atopic	PRD	30573	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1466
+SUB231405	Atopic	PRD	10626	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	0	0	0	1	1112
+SUB231405	Atopic	PRD	32463	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1874
+SUB231405	Atopic	PRD	25968	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1449
+SUB231405	Atopic	PRD	32467	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2185
+SUB231406	Atopic	PRD	33376	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2212
+SUB231406	Atopic	PRD	25118	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1441
+SUB231406	Atopic	PRD	33372	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1896
+SUB231408	Atopic	PRD	26436	48-Month Clinic Visit	1.0	missing	.x														
+SUB231408	Atopic	PRD	11120	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	0	0	1147
+SUB231409	Atopic	PRD	41782	60-Month Clinic Visit	1.0	missing	.x														
+SUB231409	Atopic	PRD	59027	72-Month Clinic Visit	1.0	missing	.x														
+SUB231409	Atopic	PRD	11138	36-Month Clinic Visit	1.0	complete	36	1	0	0	1	0	0	0	0	0	0	0	0	0	1189
+SUB231409	Atopic	PRD	31446	48-Month Clinic Visit	1.0	complete	48	1	0	0	1	0	0	0	0	0	1	0	0	0	1501
+SUB231410	Atopic	PRD	26506	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1465
+SUB231410	Atopic	PRD	31974	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1870
+SUB231410	Atopic	PRD	31978	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2208
+SUB231410	Atopic	PRD	11434	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1106
+SUB231411	Atopic	PRD	11691	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1146
+SUB231411	Atopic	PRD	37469	60-Month Clinic Visit	1.0	complete	60	0						1	1	0	0	0	0	0	1880
+SUB231411	Atopic	PRD	37465	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1490
+SUB231411	Atopic	PRD	37473	72-Month Clinic Visit	1.0	complete	72	0						1	1	0	0	0	0	0	2243
+SUB231412	Atopic	PRD	30748	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2208
+SUB231412	Atopic	PRD	30744	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1862
+SUB231412	Atopic	PRD	26630	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1444
+SUB231412	Atopic	PRD	11724	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1154
+SUB231413	Atopic	PRD	11813	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1084
+SUB231413	Atopic	PRD	31402	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2219
+SUB231413	Atopic	PRD	26265	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1436
+SUB231413	Atopic	PRD	31398	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1867
+SUB231414	Atopic	PRD	31991	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2183
+SUB231414	Atopic	PRD	12107	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1098
+SUB231414	Atopic	PRD	31987	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1853
+SUB231414	Atopic	PRD	27688	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1426
+SUB231415	Non-atopic	PRD	31339	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1432
+SUB231415	Non-atopic	PRD	31343	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1870
+SUB231415	Non-atopic	PRD	12144	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	1	1080
+SUB231415	Non-atopic	PRD	31347	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2192
+SUB231416	Atopic	PRD	12300	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1100
+SUB231417	Atopic	PRD	26635	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1455
+SUB231417	Atopic	PRD	12320	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1168
+SUB231417	Atopic	PRD	35278	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2209
+SUB231417	Atopic	PRD	35274	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1853
+SUB231418	Atopic	PRD	31596	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2199
+SUB231418	Atopic	PRD	31592	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1867
+SUB231418	Atopic	PRD	31588	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231418	Atopic	PRD	12442	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1069
+SUB231419	Atopic	PRD	33466	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2216
+SUB231419	Atopic	PRD	33462	60-Month Clinic Visit	1.0	complete	60	1	0	0	1	0	0	1	0	0	0	0	0	0	1877
+SUB231419	Atopic	PRD	33458	48-Month Clinic Visit	1.0	complete	48	1	0	0	1	0	0	1	0	0	0	0	0	0	1463
+SUB231419	Atopic	PRD	12663	36-Month Clinic Visit	1.0	complete	36	1	0	0	1	0	0	1	0	0	0	0	0	0	1107
+SUB231420	Atopic	PRD	12679	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1067
+SUB231420	Atopic	PRD	31775	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2223
+SUB231420	Atopic	PRD	31771	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1872
+SUB231420	Atopic	PRD	31767	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1439
+SUB231421	Atopic	PRD	34288	60-Month Clinic Visit	1.0	complete	60	0						0	0	1	0	0	0	0	1875
+SUB231421	Atopic	PRD	12695	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1190
+SUB231421	Atopic	PRD	34292	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2215
+SUB231421	Atopic	PRD	34284	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1457
+SUB231422	Atopic	PRD	32344	72-Month Clinic Visit	1.0	missing	.x														
+SUB231422	Atopic	PRD	12909	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	0	1	1	0	0	0	0	0	0	1103
+SUB231422	Atopic	PRD	32340	60-Month Clinic Visit	1.0	complete	60	1	0	0	0	0	1	1	0	0	0	0	0	0	1875
+SUB231422	Atopic	PRD	28135	48-Month Clinic Visit	1.0	complete	48	1	0	0	1	0	0	1	0	0	0	0	1	1	1551
+SUB231423	Atopic	PRD	36120	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2182
+SUB231423	Atopic	PRD	12975	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1135
+SUB231423	Atopic	PRD	36116	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1846
+SUB231423	Atopic	PRD	26969	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1487
+SUB231424	Atopic	PRD	33667	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2281
+SUB231424	Atopic	PRD	25758	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1452
+SUB231424	Atopic	PRD	13220	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1085
+SUB231424	Atopic	PRD	33663	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1882
+SUB231425	Non-atopic	PRD	37780	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2284
+SUB231425	Non-atopic	PRD	37776	60-Month Clinic Visit	1.0	missing	.x														
+SUB231425	Non-atopic	PRD	28511	48-Month Clinic Visit	1.0	missing	.x														
+SUB231425	Non-atopic	PRD	13342	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1105
+SUB231426	Atopic	PRD	36746	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1827
+SUB231426	Atopic	PRD	36742	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1451
+SUB231426	Atopic	PRD	36750	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2221
+SUB231426	Atopic	PRD	13429	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1078
+SUB231427	Atopic	PRD	27272	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1551
+SUB231427	Atopic	PRD	13550	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1086
+SUB231427	Atopic	PRD	34640	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1907
+SUB231427	Atopic	PRD	34644	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2215
+SUB231428	Atopic	PRD	28711	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1486
+SUB231428	Atopic	PRD	35410	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2184
+SUB231428	Atopic	PRD	35406	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1857
+SUB231428	Atopic	PRD	13566	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1079
+SUB231429	Non-atopic	PRD	34141	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1817
+SUB231429	Non-atopic	PRD	34145	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2176
+SUB231429	Non-atopic	PRD	27277	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1461
+SUB231429	Non-atopic	PRD	13749	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1102
+SUB231430	Non-atopic	PRD	36556	60-Month Clinic Visit	1.0	complete	60	0						1	0	1	0	0	0	0	1839
+SUB231430	Non-atopic	PRD	13856	36-Month Clinic Visit	1.0	complete	36	0						1	0	1	0	0	0	0	1069
+SUB231430	Non-atopic	PRD	27261	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1446
+SUB231430	Non-atopic	PRD	36560	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2220
+SUB231431	Non-atopic	PRD	40116	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1535
+SUB231431	Non-atopic	PRD	40124	72-Month Clinic Visit	1.0	missing	.x														
+SUB231431	Non-atopic	PRD	40120	60-Month Clinic Visit	1.0	missing	.x														
+SUB231431	Non-atopic	PRD	13890	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1154
+SUB231432	Non-atopic	PRD	36031	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1902
+SUB231432	Non-atopic	PRD	14017	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1090
+SUB231432	Non-atopic	PRD	27377	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1447
+SUB231432	Non-atopic	PRD	36035	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2278
+SUB231433	Atopic	PRD	28488	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1455
+SUB231433	Atopic	PRD	34190	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1841
+SUB231433	Atopic	PRD	14023	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1065
+SUB231433	Atopic	PRD	34194	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2263
+SUB231434	Non-atopic	PRD	14062	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1099
+SUB231434	Non-atopic	PRD	27693	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1484
+SUB231434	Non-atopic	PRD	36293	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2280
+SUB231434	Non-atopic	PRD	36289	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1853
+SUB231435	Atopic	PRD	14067	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1089
+SUB231435	Atopic	PRD	34099	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1461
+SUB231435	Atopic	PRD	34103	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1893
+SUB231435	Atopic	PRD	34107	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2190
+SUB231436	Atopic	PRD	35226	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2202
+SUB231436	Atopic	PRD	35222	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1840
+SUB231436	Atopic	PRD	14120	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1091
+SUB231436	Atopic	PRD	35218	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1456
+SUB231437	Atopic	PRD	28031	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1435
+SUB231437	Atopic	PRD	35245	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1828
+SUB231437	Atopic	PRD	14601	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1073
+SUB231437	Atopic	PRD	35249	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2181
+SUB231438	Non-atopic	PRD	36903	72-Month Clinic Visit	1.0	complete	72	0						1	0	1	0	0	0	0	2163
+SUB231438	Non-atopic	PRD	36899	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1845
+SUB231438	Non-atopic	PRD	36895	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1441
+SUB231438	Non-atopic	PRD	14636	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1070
+SUB231439	Non-atopic	PRD	34918	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1824
+SUB231439	Non-atopic	PRD	34922	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	1	0	2183
+SUB231439	Non-atopic	PRD	14831	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1089
+SUB231439	Non-atopic	PRD	34914	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1450
+SUB231440	Atopic	PRD	35451	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1831
+SUB231440	Atopic	PRD	35447	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1434
+SUB231440	Atopic	PRD	35455	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2163
+SUB231440	Atopic	PRD	14888	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1076
+SUB231441	Atopic	PRD	38586	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1451
+SUB231441	Atopic	PRD	38590	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1911
+SUB231441	Atopic	PRD	38594	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2278
+SUB231442	Atopic	PRD	37185	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2218
+SUB231442	Atopic	PRD	14951	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1096
+SUB231442	Atopic	PRD	37181	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1880
+SUB231442	Atopic	PRD	37177	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1460
+SUB231443	Atopic	PRD	27981	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1443
+SUB231443	Atopic	PRD	35263	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2180
+SUB231443	Atopic	PRD	14967	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1101
+SUB231443	Atopic	PRD	35259	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1883
+SUB231444	Atopic	PRD	15111	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1161
+SUB231444	Atopic	PRD	36705	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1441
+SUB231444	Atopic	PRD	36709	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1845
+SUB231444	Atopic	PRD	36713	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2255
+SUB231445	Atopic	PRD	29172	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1481
+SUB231445	Atopic	PRD	15269	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1094
+SUB231445	Atopic	PRD	37721	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2252
+SUB231445	Atopic	PRD	37717	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1859
+SUB231446	Non-atopic	PRD	15347	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1118
+SUB231446	Non-atopic	PRD	35477	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2177
+SUB231446	Non-atopic	PRD	28979	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1438
+SUB231446	Non-atopic	PRD	35473	60-Month Clinic Visit	1.0	complete	60	0						0	0	1	0	0	0	0	1816
+SUB231448	Atopic	PRD	35837	60-Month Clinic Visit	1.0	complete	60	0						0	0	0	1	0	0	0	1831
+SUB231448	Atopic	PRD	16355	36-Month Clinic Visit	1.0	complete	36	0						0	0	0	1	0	0	0	1180
+SUB231448	Atopic	PRD	35841	72-Month Clinic Visit	1.0	complete	72	0						0	0	0	1	0	0	0	2163
+SUB231448	Atopic	PRD	28370	48-Month Clinic Visit	1.0	complete	48	0						0	0	0	1	0	0	0	1432
+SUB231449	Atopic	PRD	29064	48-Month Clinic Visit	1.0	complete	48	1	0	0	1	0	0	1	0	0	1	0	0	0	1499
+SUB231449	Atopic	PRD	16413	36-Month Clinic Visit	1.0	complete	36	1	0	0	0	0	1	1	0	0	1	0	0	0	1096
+SUB231449	Atopic	PRD	36546	72-Month Clinic Visit	1.0	missing	.x														
+SUB231449	Atopic	PRD	36542	60-Month Clinic Visit	1.0	missing	.x														
+SUB231450	Atopic	PRD	16582	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1089
+SUB231450	Atopic	PRD	38274	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2168
+SUB231450	Atopic	PRD	38270	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1847
+SUB231450	Atopic	PRD	28856	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1534
+SUB231451	Non-atopic	PRD	40797	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1849
+SUB231451	Non-atopic	PRD	30313	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1458
+SUB231451	Non-atopic	PRD	40801	72-Month Clinic Visit	1.0	missing	.x														
+SUB231451	Non-atopic	PRD	16614	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1101
+SUB231452	Non-atopic	PRD	36020	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2216
+SUB231452	Non-atopic	PRD	28872	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1518
+SUB231452	Non-atopic	PRD	17028	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1067
+SUB231452	Non-atopic	PRD	36016	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1843
+SUB231453	Atopic	PRD	29056	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1433
+SUB231453	Atopic	PRD	17189	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1080
+SUB231453	Atopic	PRD	38028	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2165
+SUB231453	Atopic	PRD	38024	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1816
+SUB231454	Atopic	PRD	17205	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1095
+SUB231454	Atopic	PRD	41135	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1830
+SUB231454	Atopic	PRD	41131	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1505
+SUB231454	Atopic	PRD	41139	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2197
+SUB231455	Non-atopic	PRD	29521	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1453
+SUB231455	Non-atopic	PRD	17487	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1087
+SUB231455	Non-atopic	PRD	38155	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2186
+SUB231455	Non-atopic	PRD	38151	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1806
+SUB231456	Non-atopic	PRD	38298	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1486
+SUB231456	Non-atopic	PRD	38306	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2186
+SUB231456	Non-atopic	PRD	17570	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1133
+SUB231456	Non-atopic	PRD	38302	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1860
+SUB231457	Non-atopic	PRD	37370	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2184
+SUB231457	Non-atopic	PRD	37366	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1877
+SUB231457	Non-atopic	PRD	33441	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1471
+SUB231457	Non-atopic	PRD	17642	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1143
+SUB231459	Non-atopic	PRD	31212	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1547
+SUB231459	Non-atopic	PRD	41832	72-Month Clinic Visit	1.0	missing	.x														
+SUB231459	Non-atopic	PRD	18023	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1118
+SUB231459	Non-atopic	PRD	41828	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1859
+SUB231460	Non-atopic	PRD	37006	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1876
+SUB231460	Non-atopic	PRD	37010	72-Month Clinic Visit	1.0	complete	72	0						0	0	1	0	0	0	0	2213
+SUB231460	Non-atopic	PRD	18040	36-Month Clinic Visit	1.0	complete	36	0						0	0	1	0	0	0	0	1146
+SUB231460	Non-atopic	PRD	29399	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1519
+SUB231462	Non-atopic	PRD	31253	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1532
+SUB231462	Non-atopic	PRD	42927	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2238
+SUB231462	Non-atopic	PRD	42923	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1873
+SUB231462	Non-atopic	PRD	18174	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1208
+SUB231463	Atopic	PRD	39759	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2201
+SUB231463	Atopic	PRD	18429	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1081
+SUB231463	Atopic	PRD	30145	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1459
+SUB231463	Atopic	PRD	39755	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1879
+SUB231465	Non-atopic	PRD	40407	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1843
+SUB231465	Non-atopic	PRD	18550	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1086
+SUB231465	Non-atopic	PRD	40411	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2179
+SUB231465	Non-atopic	PRD	31140	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1466
+SUB231466	Atopic	PRD	39972	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1868
+SUB231466	Atopic	PRD	32811	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1490
+SUB231466	Atopic	PRD	18614	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1085
+SUB231466	Atopic	PRD	39976	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2204
+SUB231467	Atopic	PRD	40486	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	1	0	0	0	2163
+SUB231467	Atopic	PRD	40482	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	1	0	0	0	1800
+SUB231467	Atopic	PRD	30296	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	1	0	0	0	1436
+SUB231467	Atopic	PRD	18691	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	1	0	0	0	1079
+SUB231468	Atopic	PRD	30411	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1432
+SUB231468	Atopic	PRD	39407	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2170
+SUB231468	Atopic	PRD	39403	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1811
+SUB231468	Atopic	PRD	18908	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1075
+SUB231469	Non-atopic	PRD	19053	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1090
+SUB231469	Non-atopic	PRD	42462	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2178
+SUB231469	Non-atopic	PRD	42458	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	0	0	1838
+SUB231469	Non-atopic	PRD	30673	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1491
+SUB231470	Non-atopic	PRD	41600	72-Month Clinic Visit	1.0	complete	72	0						1	0	0	0	0	0	0	2183
+SUB231470	Non-atopic	PRD	19407	36-Month Clinic Visit	1.0	complete	36	0						1	0	0	0	0	0	0	1088
+SUB231470	Non-atopic	PRD	33174	48-Month Clinic Visit	1.0	complete	48	0						1	0	0	0	0	0	0	1446
+SUB231470	Non-atopic	PRD	41596	60-Month Clinic Visit	1.0	complete	60	0						1	0	0	0	0	1	0	1836

@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PSS"", ""PSS"")"
+3	4	evid	evid	dbl	numeric	double	11597	0	c(2, 63231)
+4	5	event	event	chr	character	character	24	0	"c(""12-Month Clinic Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	25	0	"c("".x"", ""p"")"
+8	9	PSS_q1	Participant Felt Unable to Control Important Things in Life	dbl	numeric	double	6	1337	c(0, 4)
+9	10	PSS_q2	Participant Felt Confident About Their Ability to Handle Personal Problems	dbl	numeric	double	6	1336	c(0, 4)
+10	11	PSS_q3	Participant Felt that Things Were Going Their Way	dbl	numeric	double	6	1333	c(0, 4)
+11	12	PSS_q4	Participant Felt Difficulties Were Piling up so High	dbl	numeric	double	6	1333	c(0, 4)
+12	13	aCompletionDY	Completion Day	dbl	numeric	double	2121	1539	c(-443, 3896)

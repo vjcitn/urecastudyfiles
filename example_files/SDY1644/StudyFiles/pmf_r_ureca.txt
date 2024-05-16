@@ -1,0 +1,1057 @@
+Accession	group	form	evid	event	version	status	aVisit	PMF_q1	PMF_q1a1	PMF_q1a2	PMF_q1b1	PMF_q1b2	PMF_q2	PMF_q2a	PMF_q2b	PMF_q3	PMF_q3a	PMF_q4	PMF_q4a	PMF_q5	PMF_q5a	PMF_q6	PMF_q6a	PMF_q6b1	PMF_q6b2	PMF_q6b3	PMF_q6b4	PMF_q6b5	PMF_q6c	PMF_q7	PMF_q8	PMF_q11	aCompletionDY
+SUB230862	Atopic	PMF	293	Pollution Monitoring Pickup	1.0	complete	pm	1	12		1		0			0		0		0		0								1	15:40:00	15:42:00	106
+SUB230863	Atopic	PMF	307	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	18	0		0								0	20:45:00	20:48:00	125
+SUB230864	Atopic	PMF	321	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB230865	Atopic	PMF	335	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		1	3	0		0								0			109
+SUB230866	Atopic	PMF	37610	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		1	8	0								1	15:01:00	15:07:00	1593
+SUB230866	Atopic	PMF	576	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	15:07:00	15:11:00	115
+SUB230867	Atopic	PMF	40672	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	19:00:00	19:10:00	1722
+SUB230867	Atopic	PMF	590	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	1	24	0								0	16:17:00	16:20:00	112
+SUB230868	Atopic	PMF	41384	Pollution Monitoring Pickup	1.0	complete	pm	2	8	5	0	0	0			0		0		0		0								0	19:00:00	19:05:00	1750
+SUB230868	Atopic	PMF	788	Pollution Monitoring Pickup	1.0	complete	pm	5	5	15	0	0	0			0		1	24	1	10	0								0	16:00:00	16:03:00	106
+SUB230869	Atopic	PMF	41446	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		0		0								0	14:10:00	14:16:00	1750
+SUB230869	Atopic	PMF	802	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		1	3	0		0								0	14:50:00	14:54:00	109
+SUB230870	Atopic	PMF	838	Pollution Monitoring Pickup	1.0	complete	pm	3	3	4	0	0	0			0		1	24	1	24	0								0	12:30:00	12:32:00	106
+SUB230870	Atopic	PMF	37811	Pollution Monitoring Pickup	1.0	complete	pm	4	15	10	0	0	1	1	3	0		0		1	24	0								1	13:10:00	13:10:00	1574
+SUB230871	Atopic	PMF	853	Pollution Monitoring Pickup	1.0	complete	pm	3	5	8	0	0	0			0		0		1		0								1	14:32:00	14:34:00	95
+SUB230872	Atopic	PMF	37812	Pollution Monitoring Pickup	1.0	complete	pm	5	1	1	0	0	0			1	4	1	10	1	24	0								0	12:40:00	12:43:00	1582
+SUB230872	Atopic	PMF	875	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	1	24	0								0	13:08:00	13:10:00	87
+SUB230873	Atopic	PMF	889	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	0	0	0			0		1	24	1	12	0								0	19:05:00	19:08:00	96
+SUB230874	Atopic	PMF	903	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	0		0								0	15:05:00	15:08:00	97
+SUB230874	Atopic	PMF	37813	Pollution Monitoring Pickup	1.0	complete	pm	8	4	7	0	0	0			1	1	1	10	1	10	0								1	14:00:00	14:05:00	1572
+SUB230875	Atopic	PMF	917	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	24	0								0	08:05:00	08:07:00	83
+SUB230876	Atopic	PMF	972	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	24	1	20	0								0	12:10:00	12:12:00	97
+SUB230877	Atopic	PMF	42346	Pollution Monitoring Pickup	1.0	complete	pm	1	10		10		0			0		0		0		0								0	20:00:00	20:07:00	1749
+SUB230877	Atopic	PMF	1064	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	12	0								0	16:00:00	16:04:00	92
+SUB230880	Atopic	PMF	1493	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	14:43:00	14:45:00	91
+SUB230881	Atopic	PMF	1595	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	3	1	10	0								0	10:02:00	10:05:00	109
+SUB230881	Atopic	PMF	43002	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								1	13:00:00	13:15:00	1747
+SUB230882	Atopic	PMF	43078	Pollution Monitoring Pickup	1.0	complete	ap	0					0			0		1	3	0		0								1	18:30:00	18:34:00	1750
+SUB230882	Atopic	PMF	1769	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	2	1	22	0								1	14:00:00	14:05:00	79
+SUB230883	Atopic	PMF	44043	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	5	1	14	0								0	18:10:00	18:06:00	1838
+SUB230883	Atopic	PMF	1783	Pollution Monitoring Pickup	1.0	complete	pm	2	1	1	0	0	0			0		1	24	1	8	0								1	17:30:00	17:37:00	120
+SUB230884	Atopic	PMF	43104	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	13:30:00	13:35:00	1746
+SUB230884	Atopic	PMF	1807	Pollution Monitoring Pickup	1.0	complete	pm	1			0		0			0		0		1	2	0								0	09:45:00	09:49:00	99
+SUB230885	Atopic	PMF	1847	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			0		1	24	0		0								0	08:15:00	08:15:00	97
+SUB230886	Atopic	PMF	5060	Pollution Monitoring Pickup	1.0	complete	ap	4	2	5	0	0	0			0		0		0		0								0	16:05:00	16:09:00	135
+SUB230886	Atopic	PMF	2102	Pollution Monitoring Pickup	1.0	complete	pm	4	20	4	0	0	0			0		0		0		0								0	16:30:00	16:35:00	87
+SUB230886	Atopic	PMF	43405	Pollution Monitoring Pickup	1.0	complete	pm	2	7	5	0	0	0			0		1	5	0		0								0	16:20:00	16:24:00	1751
+SUB230887	Atopic	PMF	43079	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	12:00:00	12:10:00	1747
+SUB230887	Atopic	PMF	2118	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	14:00:00	13:55:00	107
+SUB230888	Atopic	PMF	2170	Pollution Monitoring Pickup	1.0	complete	pm	4	5	5	0	0	0			1	1	1	3	0		0								0	14:20:00	14:23:00	119
+SUB230888	Atopic	PMF	43455	Pollution Monitoring Pickup	1.0	complete	pm	2	8	4	0	0	0			0		1	5	0		0								0	17:30:00	17:34:00	1756
+SUB230889	Atopic	PMF	43407	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:35:00	09:30:00	1748
+SUB230889	Atopic	PMF	2186	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	12:45:00	12:48:00	110
+SUB230890	Atopic	PMF	43458	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:10:00	16:19:00	1751
+SUB230890	Atopic	PMF	2202	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	16:00:00	16:05:00	89
+SUB230891	Atopic	PMF	2224	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	16:30:00	16:35:00	130
+SUB230891	Atopic	PMF	43400	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								0	18:00:00	18:10:00	1748
+SUB230892	Atopic	PMF	43406	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	12:30:00	12:37:00	1749
+SUB230892	Atopic	PMF	2282	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								1	09:45:00	09:48:00	117
+SUB230893	Atopic	PMF	2464	Pollution Monitoring Pickup	1.0	complete	pm																								13:15:00	13:15:00	123
+SUB230894	Atopic	PMF	2628	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:15:00	17:15:00	114
+SUB230894	Atopic	PMF	43698	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	20:30:00	20:35:00	1751
+SUB230895	Atopic	PMF	2644	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	1	0		0		0		0								0	14:40:00	14:43:00	103
+SUB230895	Atopic	PMF	43699	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	13:30:00	13:34:00	1750
+SUB230896	Atopic	PMF	2670	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	15:33:00	15:35:00	135
+SUB230896	Atopic	PMF	44117	Pollution Monitoring Pickup	1.0	complete	pm	1	8		0		0			0		0		1	24	0								0	18:29:00	18:31:00	1802
+SUB230897	Atopic	PMF	2748	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	1	24	0								0	14:00:00	14:05:00	87
+SUB230897	Atopic	PMF	44005	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	24	0		0								0	15:00:00	15:10:00	1768
+SUB230898	Atopic	PMF	43898	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	10	0								0	09:30:00	09:37:00	1764
+SUB230898	Atopic	PMF	2786	Pollution Monitoring Pickup	1.0	complete	pm	5	10	5	0	0	0			0		0		0		0								0	15:10:00	15:12:00	88
+SUB230899	Atopic	PMF	44737	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	6	0								0	17:20:00	17:25:00	1840
+SUB230899	Atopic	PMF	2997	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			1	1	1	1	0		0								0	17:15:00	17:15:00	95
+SUB230900	Atopic	PMF	3013	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		0		0								0	15:38:00	15:40:00	80
+SUB230900	Atopic	PMF	44739	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								0	17:00:00	17:05:00	1839
+SUB230901	Atopic	PMF	43704	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		1	3	0								0	08:00:00	08:05:00	1745
+SUB230901	Atopic	PMF	3029	Pollution Monitoring Pickup	1.0	complete	pm	6	4	4	0	0	0			0		1	2	0		0								1	15:59:00	16:02:00	141
+SUB230902	Atopic	PMF	3045	Pollution Monitoring Pickup	1.0	complete	pm	4	5	5	0	1	0			0		1	8	0		0								0	16:00:00	16:05:00	122
+SUB230903	Atopic	PMF	44118	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	15:00:00	15:04:00	1772
+SUB230903	Atopic	PMF	3104	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	15:30:00	15:35:00	82
+SUB230904	Atopic	PMF	44738	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	19:00:00	19:04:00	1840
+SUB230904	Atopic	PMF	6218	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	15:15:00	15:18:00	134
+SUB230904	Atopic	PMF	3126	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1			111
+SUB230905	Atopic	PMF	45104	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:15:00	15:19:00	1841
+SUB230905	Atopic	PMF	3273	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	2	0		0								0	13:00:00	13:03:00	118
+SUB230906	Atopic	PMF	44837	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:20:00	17:24:00	1841
+SUB230906	Atopic	PMF	3309	Pollution Monitoring Pickup	1.0	complete	pm	2	1	5	0	2	0			0		0		0		0								0	15:20:00	15:24:00	130
+SUB230907	Atopic	PMF	44832	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								1	19:30:00	19:25:00	1840
+SUB230907	Atopic	PMF	3349	Pollution Monitoring Pickup	1.0	complete	pm	2	5	1	0	0	0			0		1	3	0		0								1	20:00:00	20:04:00	112
+SUB230908	Atopic	PMF	3376	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		0		0								1	12:57:00	13:00:00	147
+SUB230908	Atopic	PMF	44831	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	15:25:00	15:29:00	1838
+SUB230909	Atopic	PMF	44838	Pollution Monitoring Pickup	1.0	complete	pm	2	6	3	0	0	0			0		0		1	5	0								0	16:00:00	16:08:00	1833
+SUB230909	Atopic	PMF	3460	Pollution Monitoring Pickup	1.0	complete	pm	2	4	6	0	0	0			0		0		1	2	0								0	15:45:00	15:47:00	92
+SUB230910	Atopic	PMF	3476	Pollution Monitoring Pickup	1.0	complete	pm	2	20	5	0	0	0			0		1	24	0		0								0	15:35:00	15:38:00	176
+SUB230910	Atopic	PMF	44836	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	7	0		0								0	14:15:00	14:17:00	1839
+SUB230911	Atopic	PMF	43565	Pollution Monitoring Pickup	1.0	complete	pm	1	30		0		0			0		1	7	0		0								0	17:20:00	17:27:00	1728
+SUB230911	Atopic	PMF	3541	Pollution Monitoring Pickup	1.0	complete	pm	3	4	4	0	0	0			0		1	3	0		0								0	14:17:00	14:19:00	109
+SUB230912	Atopic	PMF	3587	Pollution Monitoring Pickup	1.0	complete	pm	10	15	4	0	0	0			0		1	4	0		0								0	15:15:00	15:18:00	105
+SUB230912	Atopic	PMF	44112	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	4	1	10	0								0	14:00:00	14:05:00	1750
+SUB230913	Atopic	PMF	3614	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								0	15:45:00	15:48:00	143
+SUB230913	Atopic	PMF	44159	Pollution Monitoring Pickup	1.0	complete	pm	2	7	0	3	0	0			0		0		1	24	0								0	17:30:00	17:34:00	1756
+SUB230914	Atopic	PMF	3630	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		0		0								1	15:30:00	15:33:00	143
+SUB230914	Atopic	PMF	44841	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	6	0								0	16:40:00	16:45:00	1828
+SUB230915	Atopic	PMF	3649	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	15:33:00	15:35:00	88
+SUB230916	Atopic	PMF	3722	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		0		0		0								0	15:29:00	15:31:00	123
+SUB230916	Atopic	PMF	43453	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	6	0		0								0	11:30:00	11:35:00	1750
+SUB230917	Atopic	PMF	3742	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		0		0								0	16:22:00	16:25:00	137
+SUB230917	Atopic	PMF	44978	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	5	0		0								0	16:30:00	16:33:00	1838
+SUB230918	Atopic	PMF	3782	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:30:00	15:33:00	118
+SUB230919	Atopic	PMF	45008	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	17:20:00	17:24:00	1840
+SUB230919	Atopic	PMF	3798	Pollution Monitoring Pickup	1.0	complete	pm	2	6	6	0	0	0			0		0		0		0								0	13:36:00	13:45:00	98
+SUB230920	Atopic	PMF	43949	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	8	0								0	18:00:00	18:04:00	1722
+SUB230920	Atopic	PMF	3847	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:40:00	15:36:00	115
+SUB230921	Atopic	PMF	3908	Pollution Monitoring Pickup	1.0	complete	pm	3	4	6	0	0	0			0		0		0		0								0	14:00:00	14:05:00	94
+SUB230921	Atopic	PMF	45053	Pollution Monitoring Pickup	1.0	complete	pm	2	7	2	0	0	0			0		0		0		0								0	12:30:00	12:35:00	1836
+SUB230922	Atopic	PMF	3962	Pollution Monitoring Pickup	1.0	complete	pm	3	5	3	0	0	0			1	5	0		0		0								0	16:07:00	16:09:00	91
+SUB230922	Atopic	PMF	44835	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		1	3	0								0	13:05:00	13:11:00	1837
+SUB230923	Atopic	PMF	4059	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		1	1	0		0								0	13:15:00	13:17:00	88
+SUB230924	Atopic	PMF	45202	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:00:00	16:04:00	1839
+SUB230924	Atopic	PMF	4085	Pollution Monitoring Pickup	1.0	complete	pm	2	5	2	0	0	0			0		1	1	0		0								0	15:55:00	15:59:00	87
+SUB230925	Atopic	PMF	45106	Pollution Monitoring Pickup	1.0	complete	pm	6	10	6	4	5	0			0		1	6	0		0								0	15:26:00	15:27:00	1834
+SUB230925	Atopic	PMF	4213	Pollution Monitoring Pickup	1.0	complete	pm	8	5	15	0	0	0			0		1	1	0		0								1	15:24:00	15:26:00	122
+SUB230926	Atopic	PMF	4356	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	8	0		1	4	0		0								1	20:16:00	20:18:00	112
+SUB230927	Atopic	PMF	9881	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	24	0		0								0	15:30:00	15:35:00	181
+SUB230927	Atopic	PMF	45456	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		0		1	1	0								0	18:15:00	18:20:00	1839
+SUB230928	Atopic	PMF	4674	Pollution Monitoring Pickup	1.0	complete	pm	2	6	20	0	0	0			0		1	4	1	24	0								0	15:40:00	15:44:00	99
+SUB230929	Atopic	PMF	4714	Pollution Monitoring Pickup	1.0	complete	pm	3	60	20	0	0	0			0		1	12	0		0								0	15:40:00	15:44:00	153
+SUB230929	Atopic	PMF	45586	Pollution Monitoring Pickup	1.0	complete	pm	3	10	0	10	0	0			0		1	8	0		0								0	12:00:00	12:04:00	1837
+SUB230930	Atopic	PMF	4801	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB230932	Atopic	PMF	5188	Pollution Monitoring Pickup	1.0	complete	pm	2	5	12	0	0	0			0		1	1	0		0								1	14:25:00	14:30:00	102
+SUB230932	Atopic	PMF	45314	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			0		1	24	0		0								1	11:37:00	11:38:00	1811
+SUB230933	Atopic	PMF	5336	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		0		0		0								0	15:30:00	15:33:00	81
+SUB230933	Atopic	PMF	45315	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		0		0								0	17:10:00	17:15:00	1822
+SUB230934	Atopic	PMF	46023	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	18:10:00	18:14:00	1836
+SUB230934	Atopic	PMF	5352	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	2	0		0		0		0								0	16:30:00	16:34:00	86
+SUB230935	Atopic	PMF	45419	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	13:35:00	13:36:00	1809
+SUB230935	Atopic	PMF	5371	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:26:00	15:30:00	93
+SUB230936	Atopic	PMF	45961	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:10:00	17:06:00	1828
+SUB230936	Atopic	PMF	5524	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	24	0		0		0								0	12:35:00	12:38:00	98
+SUB230937	Atopic	PMF	5647	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	16:15:00	16:17:00	83
+SUB230937	Atopic	PMF	46094	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	14:30:00	15:34:00	1841
+SUB230938	Atopic	PMF	46021	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	18:30:00	18:24:00	1827
+SUB230938	Atopic	PMF	5796	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	11:41:00	11:43:00	85
+SUB230939	Atopic	PMF	5931	Pollution Monitoring Pickup	1.0	complete	pm	2	3	4	0	0	0			0		0		0		0								1	15:00:00	15:03:00	89
+SUB230939	Atopic	PMF	45342	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	12:12:00	12:13:00	1790
+SUB230940	Atopic	PMF	5949	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								1	15:35:00	15:37:00	95
+SUB230941	Atopic	PMF	46153	Pollution Monitoring Pickup	1.0	complete	ap	1	3		0		0			0		1	1	0		0								0	11:15:00	11:15:00	1833
+SUB230941	Atopic	PMF	6062	Pollution Monitoring Pickup	1.0	complete	pm	2	10	0	0	3	0			0		0		0		0								0	14:15:00	14:17:00	126
+SUB230942	Atopic	PMF	6078	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	24	0		1	9	0		0								0	15:43:00	15:40:00	91
+SUB230942	Atopic	PMF	46061	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	3	0		0								0	16:00:00	16:07:00	1829
+SUB230943	Atopic	PMF	45809	Pollution Monitoring Pickup	1.0	complete	ap	0					0			0		0		0		0								1	11:04:00	11:06:00	1803
+SUB230943	Atopic	PMF	6095	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	4	0		0								0	15:20:00	15:23:00	89
+SUB230944	Atopic	PMF	6112	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		0		0								0	15:18:00	15:20:00	107
+SUB230944	Atopic	PMF	46322	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								0	16:30:00	16:36:00	1831
+SUB230945	Atopic	PMF	6197	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	24	0		0								0	15:10:00	15:14:00	135
+SUB230945	Atopic	PMF	46381	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:30:00	16:34:00	1475
+SUB230946	Atopic	PMF	46097	Pollution Monitoring Pickup	1.0	complete	ap	5	3	8	1	0	0			0		0		0		0								0	11:19:00	11:21:00	1819
+SUB230946	Atopic	PMF	6359	Pollution Monitoring Pickup	1.0	complete	pm	15	15	6	0	0	0			1	4	1	5	0		0								1	15:40:00	15:43:00	128
+SUB230947	Atopic	PMF	6448	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	6	1	6	0								0	15:41:00	15:43:00	82
+SUB230947	Atopic	PMF	46535	Pollution Monitoring Pickup	1.0	complete	pm	1	7		3		0			0		0		0		0								0	19:00:00	19:05:00	1839
+SUB230948	Atopic	PMF	6465	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	15:40:00	15:44:00	137
+SUB230948	Atopic	PMF	45974	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	14:30:00	14:26:00	1795
+SUB230949	Atopic	PMF	6486	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	15:30:00	15:33:00	143
+SUB230950	Atopic	PMF	6619	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	6	0		0								0	12:20:00	12:24:00	119
+SUB230951	Atopic	PMF	45975	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	12:00:00	12:03:00	1790
+SUB230951	Atopic	PMF	6644	Pollution Monitoring Pickup	1.0	complete	pm	1	8		0		0			0		1	24	0		0								0	15:40:00	15:43:00	100
+SUB230952	Atopic	PMF	46207	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:43:00	11:43:00	1808
+SUB230952	Atopic	PMF	6713	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	24	0		0								0	15:40:00	15:43:00	127
+SUB230953	Atopic	PMF	6730	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	14:43:00	14:45:00	99
+SUB230953	Atopic	PMF	46654	Pollution Monitoring Pickup	1.0	complete	pm	3	2	2	0	0	0			0		0		0		0								0	16:30:00	16:34:00	1837
+SUB230954	Atopic	PMF	6900	Pollution Monitoring Pickup	1.0	complete	pm	3	20	20	0	0	0			0		0		0		0								0	15:45:00	15:47:00	113
+SUB230954	Atopic	PMF	46762	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:10:00	16:03:00	1840
+SUB230955	Atopic	PMF	46698	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:00:00	17:05:00	1835
+SUB230955	Atopic	PMF	7032	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	8	0								0	17:00:00	17:03:00	89
+SUB230956	Atopic	PMF	7107	Pollution Monitoring Pickup	1.0	complete	pm	1	14		0		0			0		1	2	0		0								1	11:00:00	11:02:00	111
+SUB230957	Atopic	PMF	7400	Pollution Monitoring Pickup	1.0	complete	pm	1	2		1		0			0		1	24	0		0								0	14:38:00	14:43:00	94
+SUB230957	Atopic	PMF	46857	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:10:00	17:00:00	1838
+SUB230958	Atopic	PMF	7484	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								0	16:10:00	16:13:00	125
+SUB230958	Atopic	PMF	46754	Pollution Monitoring Pickup	1.0	complete	pm	1	5		2		0			0		0		0		0								0	17:35:00	17:40:00	1824
+SUB230959	Atopic	PMF	7508	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	15:30:00	15:34:00	97
+SUB230959	Atopic	PMF	46148	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			1	1	0		0		0								0	12:53:00	12:53:00	1782
+SUB230960	Atopic	PMF	7542	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB230961	Atopic	PMF	47115	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:30:00	16:35:00	1841
+SUB230961	Atopic	PMF	7615	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	15:00:00	15:03:00	141
+SUB230962	Atopic	PMF	47166	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		0		0								0	16:50:00	16:54:00	1841
+SUB230962	Atopic	PMF	7926	Pollution Monitoring Pickup	1.0	complete	pm	2	3	2	0	0	0			0		1	5	1	10	0								1	16:10:00	16:14:00	109
+SUB230963	Atopic	PMF	7958	Pollution Monitoring Pickup	1.0	complete	pm	7	4	4	0	5	0			0		0		1	24	0								1	18:25:00	18:21:00	137
+SUB230963	Atopic	PMF	47214	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								1	13:00:00	13:04:00	1841
+SUB230964	Atopic	PMF	47158	Pollution Monitoring Pickup	1.0	complete	pm	2	3	1	0	0	0			0		0		0		0								0	15:15:00	15:19:00	1838
+SUB230964	Atopic	PMF	8009	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	18:45:00	18:45:00	113
+SUB230965	Atopic	PMF	8041	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0			113
+SUB230966	Atopic	PMF	47216	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:00:00	17:04:00	1850
+SUB230966	Atopic	PMF	8175	Pollution Monitoring Pickup	1.0	complete	pm	2	4	4	0	0	0			0		1	24	1	24	0								1	15:30:00	15:35:00	117
+SUB230967	Atopic	PMF	8217	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	10	1	24	0								0	15:40:00	15:43:00	97
+SUB230967	Atopic	PMF	47217	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	18:30:00	18:29:00	1841
+SUB230968	Atopic	PMF	47165	Pollution Monitoring Pickup	1.0	complete	pm	2	7	5	0	0	0			0		0		0		0								0	13:15:00	13:17:00	1833
+SUB230968	Atopic	PMF	18450	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:35:00	15:38:00	355
+SUB230968	Atopic	PMF	38793	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB230969	Atopic	PMF	8583	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		1	10	0								0	16:30:00	16:34:00	91
+SUB230969	Atopic	PMF	47326	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								0	15:20:00	15:21:00	1839
+SUB230970	Atopic	PMF	8882	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	1	24	1	1	0	0	0	0	0	0	1	15:30:00	15:33:00	97
+SUB230971	Atopic	PMF	47436	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	4	0		0								0	16:28:00	16:28:00	1839
+SUB230971	Atopic	PMF	18939	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								1	15:44:00	15:40:00	370
+SUB230972	Atopic	PMF	47622	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								0	12:10:00	12:12:00	1839
+SUB230972	Atopic	PMF	9135	Pollution Monitoring Pickup	1.0	complete	pm	2	10	15	0	0	0			0		1	10	0		0								1	16:13:00	16:15:00	127
+SUB230973	Atopic	PMF	9151	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	12	0								0	15:55:00	15:58:00	88
+SUB230973	Atopic	PMF	47437	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:43:00	17:44:00	1830
+SUB230974	Atopic	PMF	9207	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		1	24	0								0	15:30:00	15:33:00	128
+SUB230975	Atopic	PMF	9255	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		1	24	0								1	10:15:00	10:15:00	141
+SUB230975	Atopic	PMF	47434	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:25:00	16:27:00	1828
+SUB230976	Atopic	PMF	47643	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		0		0								0	13:00:00	13:07:00	1840
+SUB230976	Atopic	PMF	9405	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	24	1	24	0								0	16:00:00	16:03:00	103
+SUB230977	Atopic	PMF	9631	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	4	0								0	10:15:00	10:18:00	113
+SUB230977	Atopic	PMF	47678	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:40:00	15:43:00	1838
+SUB230978	Atopic	PMF	47759	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	13:43:00	13:40:00	1841
+SUB230978	Atopic	PMF	9718	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	8	0								0	15:15:00	15:17:00	110
+SUB230979	Atopic	PMF	18419	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:30:00	16:34:00	314
+SUB230979	Atopic	PMF	48602	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	10	0		0								0	09:00:00	09:03:00	1839
+SUB230980	Atopic	PMF	9828	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	10:10:00	10:13:00	119
+SUB230981	Atopic	PMF	47865	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								1	18:30:00	18:34:00	1841
+SUB230981	Atopic	PMF	10064	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	24	0								1	16:10:00	16:13:00	126
+SUB230982	Atopic	PMF	10095	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	16:15:00	16:19:00	117
+SUB230982	Atopic	PMF	47863	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	7	0		0								0	09:46:00	09:49:00	1840
+SUB230983	Atopic	PMF	10113	Pollution Monitoring Pickup	1.0	complete	pm	1	4		2		0			0		1	24	0		0								0	17:30:00	17:37:00	137
+SUB230983	Atopic	PMF	47705	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								0	16:30:00	16:27:00	1826
+SUB230984	Atopic	PMF	21518	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB230984	Atopic	PMF	47792	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:05:00	17:03:00	1830
+SUB230985	Atopic	PMF	17618	Pollution Monitoring Pickup	1.0	complete	pm																								09:50:00	09:50:00	351
+SUB230985	Atopic	PMF	47904	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								1	16:30:00	16:32:00	1841
+SUB230986	Atopic	PMF	10381	Pollution Monitoring Pickup	1.0	complete	pm	2	1	3	0	0	0			1	5	1	5	1	24	0								1	17:03:00	17:06:00	96
+SUB230986	Atopic	PMF	47902	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	4	0		0								0	16:30:00	16:33:00	1834
+SUB230987	Atopic	PMF	10603	Pollution Monitoring Pickup	1.0	complete	pm	2	20	15	0	0	0			0		1	24	1	24	0								0	15:58:00	15:54:00	108
+SUB230987	Atopic	PMF	48179	Pollution Monitoring Pickup	1.0	complete	pm	1	8		0		0			0		1	24	1	5	0								0	15:30:00	15:33:00	1840
+SUB230988	Atopic	PMF	47866	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	09:30:00	09:33:00	1808
+SUB230988	Atopic	PMF	10714	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	10	0								0	15:10:00	15:12:00	91
+SUB230989	Atopic	PMF	48603	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	16:30:00	16:34:00	1831
+SUB230989	Atopic	PMF	11323	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	4	1	6	0								0	15:00:00	15:03:00	109
+SUB230990	Atopic	PMF	48166	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	17:30:00	17:33:00	1834
+SUB230990	Atopic	PMF	11339	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	16:06:00	16:09:00	98
+SUB230991	Atopic	PMF	48604	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	19:00:00	19:05:00	1829
+SUB230991	Atopic	PMF	11376	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	15:50:00	15:54:00	87
+SUB230992	Atopic	PMF	17292	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB230993	Atopic	PMF	48361	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	16:00:00	16:03:00	1840
+SUB230993	Atopic	PMF	11530	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	18:15:00	18:20:00	130
+SUB230994	Atopic	PMF	48334	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	20	1	6	0								0	11:29:00	11:29:00	1833
+SUB230994	Atopic	PMF	11840	Pollution Monitoring Pickup	1.0	complete	pm	2	6	6	0	0	0			0		0		1	3	0								0	20:30:00	20:33:00	96
+SUB230995	Atopic	PMF	11870	Pollution Monitoring Pickup	1.0	complete	pm	6	10	10	2	2	0			0		1	24	1	24	0								0	15:30:00	15:34:00	108
+SUB230995	Atopic	PMF	48513	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		1	24	0								0	17:46:00	17:49:00	1838
+SUB230996	Atopic	PMF	11886	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	08:40:00	08:43:00	141
+SUB230997	Atopic	PMF	48511	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	24	0								0	14:15:00	14:17:00	1817
+SUB230997	Atopic	PMF	12020	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:25:00	11:25:00	157
+SUB230998	Atopic	PMF	12060	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								1	16:10:00	16:14:00	105
+SUB230998	Atopic	PMF	48018	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	18:30:00	18:33:00	1793
+SUB230999	Non-atopic	PMF	48579	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	09:50:00	09:52:00	1836
+SUB230999	Non-atopic	PMF	12090	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	1	10	0								1	16:10:00	16:14:00	99
+SUB231000	Atopic	PMF	12249	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	1	0		0								0	15:00:00	15:33:00	159
+SUB231000	Atopic	PMF	48607	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231001	Atopic	PMF	48725	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	16:30:00	16:33:00	1837
+SUB231001	Atopic	PMF	12268	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	14:30:00	14:35:00	147
+SUB231002	Atopic	PMF	48383	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	8	0								1	17:00:00	17:00:00	1816
+SUB231002	Atopic	PMF	12379	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	1	0		0								0	20:00:00	20:04:00	132
+SUB231003	Atopic	PMF	48674	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:37:00	17:40:00	1839
+SUB231003	Atopic	PMF	12413	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		0		0								0	10:15:00	10:18:00	121
+SUB231004	Atopic	PMF	48639	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	3	1	24	0								0	10:40:00	10:43:00	1837
+SUB231004	Atopic	PMF	12498	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			1	2	0		0		0								1	15:40:00	15:45:00	112
+SUB231005	Atopic	PMF	12658	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	17:50:00	17:53:00	104
+SUB231005	Atopic	PMF	48669	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		1	24	0								0	19:30:00	19:33:00	1838
+SUB231006	Atopic	PMF	48658	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	13:45:00	13:45:00	1836
+SUB231006	Atopic	PMF	12739	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	4	0		0								0	13:40:00	13:37:00	113
+SUB231007	Atopic	PMF	12760	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			1	2	1	24	0		0								0	14:00:00	14:04:00	104
+SUB231007	Atopic	PMF	47910	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	24	0		0								0	12:50:00	12:50:00	1763
+SUB231008	Atopic	PMF	13003	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:25:00	15:29:00	136
+SUB231008	Atopic	PMF	48815	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	8	0		0								0	20:30:00	20:32:00	1851
+SUB231009	Atopic	PMF	13081	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:10:00	16:14:00	90
+SUB231010	Non-atopic	PMF	13119	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	17:10:00	17:13:00	89
+SUB231010	Non-atopic	PMF	48729	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	14:00:00	14:03:00	1827
+SUB231011	Atopic	PMF	48724	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	24	0		0								0	12:30:00	12:32:00	1825
+SUB231011	Atopic	PMF	13143	Pollution Monitoring Pickup	1.0	complete	pm	2	6	10	0	0	0			0		1	12	0		0								0	16:00:00	16:03:00	128
+SUB231012	Atopic	PMF	13178	Pollution Monitoring Pickup	1.0	complete	pm	4	20	1	4	0	0			1	1	1	2	0		0								0	14:25:00	14:28:00	94
+SUB231012	Atopic	PMF	48637	Pollution Monitoring Pickup	1.0	complete	pm	1	20		0		0			0		1	8	1	24	0								0	16:00:00	16:03:00	1817
+SUB231013	Atopic	PMF	13385	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	16:13:00	16:16:00	112
+SUB231013	Atopic	PMF	48870	Pollution Monitoring Pickup	1.0	complete	pm	2	1	0	0	2	0			0		1	10	1	24	0								1	10:25:00	10:25:00	1835
+SUB231014	Atopic	PMF	48887	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	10	1	8	0								0	10:45:00	10:45:00	1835
+SUB231014	Atopic	PMF	13404	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:30:00	16:33:00	132
+SUB231015	Non-atopic	PMF	48657	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	13:03:00	13:03:00	1811
+SUB231015	Non-atopic	PMF	13469	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	1	0		0								0	16:00:00	16:04:00	99
+SUB231016	Atopic	PMF	48915	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231016	Atopic	PMF	13633	Pollution Monitoring Pickup	1.0	complete	pm	2	8	8	1	0	0			0		1	2	0		0								0	14:10:00	14:14:00	111
+SUB231017	Non-atopic	PMF	13694	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	16:30:00	16:34:00	108
+SUB231017	Non-atopic	PMF	48819	Pollution Monitoring Pickup	1.0	complete	pm	2	5	8	0	0	0			0		1	24	0		0								0	14:30:00	14:31:00	1824
+SUB231018	Atopic	PMF	21520	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231019	Atopic	PMF	13936	Pollution Monitoring Pickup	1.0	complete	pm	3	20	15	0	0	0			0		0		0		0								1	16:00:00	16:04:00	114
+SUB231019	Atopic	PMF	48948	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	5	1	10	0								0	17:10:00	17:13:00	1817
+SUB231021	Atopic	PMF	14306	Pollution Monitoring Pickup	1.0	complete	pm	1	7		0		0			0		1	4	0		0								0	16:30:00	16:30:00	113
+SUB231021	Atopic	PMF	48923	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	19:05:00	19:07:00	1811
+SUB231022	Non-atopic	PMF	14317	Pollution Monitoring Pickup	1.0	complete	pm	2	20	20	0	0	0			1	5	0		0		0								0	15:30:00	15:35:00	108
+SUB231022	Non-atopic	PMF	48950	Pollution Monitoring Pickup	1.0	complete	pm	1	7		0		0			0		1	24	1	3	0								0	18:33:00	18:35:00	1804
+SUB231023	Non-atopic	PMF	48814	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		1	15	0								0	19:30:00	19:32:00	1770
+SUB231023	Non-atopic	PMF	15401	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			1	1	0		0		0								0	16:29:00	16:32:00	119
+SUB231024	Non-atopic	PMF	16270	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:00:00	15:04:00	115
+SUB231024	Non-atopic	PMF	48906	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	1	10	0								1	12:00:00	12:03:00	1743
+SUB231025	Atopic	PMF	48949	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	15:15:00	15:17:00	1732
+SUB231025	Atopic	PMF	16696	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	14:37:00	14:40:00	112
+SUB231026	Atopic	PMF	48820	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	3	0								0	07:20:00	07:22:00	1725
+SUB231026	Atopic	PMF	16730	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:30:00	15:33:00	96
+SUB231027	Atopic	PMF	400	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	8	1	24	1	24	0								0	10:30:00	10:30:00	110
+SUB231028	Atopic	PMF	39531	Pollution Monitoring Pickup	1.0	complete	pm	7	3	5	3	0	0			0		1	6	0		0								1	09:10:00	09:10:00	1639
+SUB231028	Atopic	PMF	1099	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	24	0		0								0	11:20:00	11:20:00	90
+SUB231029	Atopic	PMF	1216	Pollution Monitoring Pickup	1.0	complete	pm	3	7	5	0	0	0			0		1	24	1	24	0								0	11:20:00	11:20:00	87
+SUB231030	Atopic	PMF	1431	Pollution Monitoring Pickup	1.0	complete	pm	3	3	3	0	0	0			0		1	2	0		0								1	10:10:00	10:10:00	181
+SUB231031	Atopic	PMF	1473	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	5	0								0	08:40:00	08:40:00	110
+SUB231031	Atopic	PMF	40879	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	12	0		0		0		0								0	15:15:00	15:15:00	1674
+SUB231032	Atopic	PMF	1509	Pollution Monitoring Pickup	1.0	complete	pm	3	1	1	0	0	0			0		1	4	1	8	1	8	0	0	0	0	1	1	1	18:19:00	18:19:00	133
+SUB231033	Atopic	PMF	1732	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	15:05:00	15:05:00	141
+SUB231035	Atopic	PMF	39663	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	12:00:00	12:00:00	1582
+SUB231035	Atopic	PMF	1827	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	22	0								0	15:43:00	15:43:00	104
+SUB231036	Atopic	PMF	1936	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	17:00:00	17:00:00	133
+SUB231037	Atopic	PMF	7936	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231038	Atopic	PMF	5215	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231039	Atopic	PMF	40565	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:20:00	10:20:00	1588
+SUB231039	Atopic	PMF	2426	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:10:00	10:10:00	98
+SUB231040	Atopic	PMF	40817	Pollution Monitoring Pickup	1.0	complete	pm	5	7	7	0	0	0			0		1	2	1	2	0								1	10:25:00	10:25:00	1593
+SUB231040	Atopic	PMF	2524	Pollution Monitoring Pickup	1.0	complete	pm	2	4	4	0	0	0			0		1	3	1	10	0								1	09:30:00	09:30:00	115
+SUB231041	Atopic	PMF	43377	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	2	0								0	11:40:00	11:40:00	1718
+SUB231041	Atopic	PMF	2717	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	11:10:00	11:10:00	85
+SUB231042	Atopic	PMF	2837	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	12:20:00	12:20:00	102
+SUB231042	Atopic	PMF	42389	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	10:15:00	10:15:00	1662
+SUB231043	Atopic	PMF	41773	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		0		0		0								1	10:55:00	10:55:00	1622
+SUB231043	Atopic	PMF	2855	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	10	0		0								0	09:45:00	09:45:00	96
+SUB231044	Atopic	PMF	44157	Pollution Monitoring Pickup	1.0	complete	pm																								09:05:00	09:06:00	1790
+SUB231044	Atopic	PMF	2871	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:35:00	10:35:00	109
+SUB231045	Atopic	PMF	3066	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	0		0								1	09:50:00	09:50:00	89
+SUB231045	Atopic	PMF	42937	Pollution Monitoring Pickup	1.0	complete	pm	1	0		5		0			0		1	6	0		0								0	08:05:00	20:05:00	1687
+SUB231046	Atopic	PMF	3082	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231047	Atopic	PMF	41653	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:20:00	10:20:00	1619
+SUB231047	Atopic	PMF	3142	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:05:00	10:05:00	121
+SUB231048	Atopic	PMF	41891	Pollution Monitoring Pickup	1.0	complete	pm	2	2	1	0	0	0			0		1	2	0		0								0	11:30:00	11:30:00	1628
+SUB231048	Atopic	PMF	3293	Pollution Monitoring Pickup	1.0	complete	pm	1	8		0		0			0		1	4	0		0								0	10:53:00	10:53:00	94
+SUB231049	Atopic	PMF	43785	Pollution Monitoring Pickup	1.0	complete	pm	4	2	2	0	0	0			0		1	24	0		0								0	10:15:00	10:15:00	1734
+SUB231049	Atopic	PMF	7934	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	13:30:00	13:30:00	208
+SUB231050	Atopic	PMF	41652	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	12	0		0								0	09:50:00	09:50:00	1597
+SUB231050	Atopic	PMF	3508	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:15:00	10:15:00	106
+SUB231051	Atopic	PMF	42044	Pollution Monitoring Pickup	1.0	complete	pm	2	20	10	0	0	0			1	1	1	2	0		0								1	10:40:00	10:40:00	1622
+SUB231051	Atopic	PMF	3524	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:05:00	10:05:00	97
+SUB231052	Atopic	PMF	4492	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:35:00	10:35:00	98
+SUB231052	Atopic	PMF	41867	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:45:00	10:45:00	1568
+SUB231053	Atopic	PMF	4508	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		1	5	0	0	0	1	0	0	1	12:15:00	12:15:00	94
+SUB231053	Atopic	PMF	42220	Pollution Monitoring Pickup	1.0	complete	pm	2	25	10	1	0	0			0		1	15	0		0								1	10:35:00	10:40:00	1592
+SUB231054	Atopic	PMF	7939	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	11:05:00	11:05:00	257
+SUB231055	Atopic	PMF	43398	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	10	0		0								1	09:50:00	09:50:00	1656
+SUB231055	Atopic	PMF	4542	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	10:15:00	10:15:00	108
+SUB231056	Atopic	PMF	9682	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								0	09:35:00	09:35:00	294
+SUB231057	Atopic	PMF	42478	Pollution Monitoring Pickup	1.0	complete	pm	2	10	3	0	0	0			0		1	3	0		0								1	10:50:00	10:50:00	1582
+SUB231057	Atopic	PMF	13798	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231058	Atopic	PMF	5418	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								1	10:35:00	10:35:00	121
+SUB231059	Atopic	PMF	5543	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		1	3	0	1	0	1	0	0	0	15:10:00	15:10:00	87
+SUB231059	Atopic	PMF	43235	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		1	6	0	1	0	0	0	0	0	09:15:00	09:15:00	1593
+SUB231060	Atopic	PMF	9701	Pollution Monitoring Pickup	1.0	complete	ap	0					0			0		0		0		0								0	08:10:00	08:10:00	168
+SUB231060	Atopic	PMF	43399	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	10:10:00	10:10:00	1609
+SUB231061	Atopic	PMF	43929	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	3	0								1	09:40:00	09:40:00	1666
+SUB231061	Atopic	PMF	5579	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	11:30:00	11:30:00	78
+SUB231062	Atopic	PMF	11001	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231063	Atopic	PMF	43208	Pollution Monitoring Pickup	1.0	complete	pm	3	6	6	0	0	0			0		1	5	0		0								1	10:30:00	10:30:00	1603
+SUB231063	Atopic	PMF	5695	Pollution Monitoring Pickup	1.0	complete	pm	3	5	8	0	0	0			0		1	1	0		0								1	10:30:00	10:30:00	106
+SUB231064	Atopic	PMF	5814	Pollution Monitoring Pickup	1.0	complete	pm	3	5	3	0	0	0			1	4	1	1	0		0								1	12:30:00	12:30:00	117
+SUB231064	Atopic	PMF	43930	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	24	0		0								0	10:35:00	10:35:00	1692
+SUB231065	Atopic	PMF	42711	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	1	1	0			0		0		0		0								1	10:20:00	10:20:00	1567
+SUB231065	Atopic	PMF	6044	Pollution Monitoring Pickup	1.0	complete	pm	3	15	5	4	0	0			0		1	24	0		0								1	12:06:00	12:06:00	91
+SUB231066	Atopic	PMF	15286	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231066	Atopic	PMF	43234	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	12	0		0								0	10:40:00	10:40:00	1581
+SUB231067	Atopic	PMF	9905	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	6	1	6	0								0	10:40:00	10:40:00	221
+SUB231067	Atopic	PMF	43329	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	1	0	0			0		1	12	0		0								0	11:30:00	11:30:00	1592
+SUB231068	Atopic	PMF	6941	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	2	0								0	13:50:00	13:50:00	104
+SUB231069	Atopic	PMF	12525	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231070	Atopic	PMF	15294	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231070	Atopic	PMF	13325	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	6	1	8	0								0	13:00:00	13:00:00	265
+SUB231070	Atopic	PMF	47102	Pollution Monitoring Pickup	1.0	complete	pm	10	20	10	6	3	0			0		0		0		0								0	09:27:00	09:27:00	1863
+SUB231071	Atopic	PMF	44156	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	12	0								0	09:40:00	09:40:00	1648
+SUB231071	Atopic	PMF	7056	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	09:40:00	09:40:00	82
+SUB231072	Atopic	PMF	7272	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	11:45:00	11:45:00	111
+SUB231072	Atopic	PMF	44484	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	5	0								0	10:53:00	10:53:00	1680
+SUB231073	Atopic	PMF	43642	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	10:00:00	10:00:00	1603
+SUB231073	Atopic	PMF	10917	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	10:40:00	10:40:00	244
+SUB231074	Atopic	PMF	12531	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		0		1	24	0								0	09:50:00	09:50:00	206
+SUB231075	Atopic	PMF	7563	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:15:00	10:15:00	86
+SUB231076	Atopic	PMF	12768	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			1	1	0		0		0								0	12:00:00	12:00:00	324
+SUB231076	Atopic	PMF	45208	Pollution Monitoring Pickup	1.0	complete	pm	2	4	7	0	0	0			0		1	4	0		0								0	10:30:00	10:30:00	1717
+SUB231076	Atopic	PMF	28016	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231077	Atopic	PMF	12776	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		1	1	0	0	0	0	1	0	0	14:45:00	14:45:00	281
+SUB231078	Atopic	PMF	12781	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	13	1	12	0								1	10:50:00	10:50:00	216
+SUB231078	Atopic	PMF	44202	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	24	0		0								0	09:46:00	09:46:00	1623
+SUB231079	Atopic	PMF	44583	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	1	0								1	09:20:00	09:20:00	1656
+SUB231079	Atopic	PMF	8363	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	10:30:00	10:30:00	94
+SUB231080	Atopic	PMF	21496	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231080	Atopic	PMF	12774	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231080	Atopic	PMF	47090	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	09:40:00	09:40:00	1830
+SUB231081	Atopic	PMF	12785	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	24	1	12	0								1	08:40:00	08:40:00	176
+SUB231081	Atopic	PMF	44026	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	3	1	10	0								0	09:15:00	09:15:00	1583
+SUB231082	Atopic	PMF	44104	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	10:56:00	10:56:00	1600
+SUB231082	Atopic	PMF	8411	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:30:00	10:30:00	89
+SUB231083	Atopic	PMF	8427	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	10:15:00	10:15:00	93
+SUB231083	Atopic	PMF	44984	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	10:58:00	10:58:00	1696
+SUB231084	Atopic	PMF	44251	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	7	1	24	0								0	09:49:00	09:49:00	1609
+SUB231084	Atopic	PMF	12790	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	24	1	24	0								0	08:50:00	08:50:00	160
+SUB231085	Atopic	PMF	12847	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	21	0								0	09:20:00	09:20:00	164
+SUB231086	Atopic	PMF	44208	Pollution Monitoring Pickup	1.0	complete	pm	3	1	1	0	0	0			0		1	3	1	13	0								0	09:30:00	09:30:00	1586
+SUB231086	Atopic	PMF	9296	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	1	6	0								0	10:15:00	10:15:00	116
+SUB231087	Atopic	PMF	44277	Pollution Monitoring Pickup	1.0	complete	pm	2	40	40	0	0	0			0		1	16	1	12	0								0	09:10:00	09:11:00	1590
+SUB231087	Atopic	PMF	9328	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	4	0								0	12:00:00	12:00:00	133
+SUB231088	Atopic	PMF	13919	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231090	Atopic	PMF	9535	Pollution Monitoring Pickup	1.0	complete	pm	2	3	8	0	0	0			0		1		1		0								0	10:10:00	10:10:00	88
+SUB231091	Atopic	PMF	44483	Pollution Monitoring Pickup	1.0	complete	pm	2	4	1	0	0	0			0		1	24	1	3	0								0	09:05:00	09:05:00	1631
+SUB231091	Atopic	PMF	17431	Pollution Monitoring Pickup	1.0	complete	ap	3	5	5	0	0	0			0		1	2	0		0								0	11:30:00	11:30:00	300
+SUB231091	Atopic	PMF	13421	Pollution Monitoring Pickup	1.0	complete	pm	3	10	10	0	0	0			0		1	24	0		0								0	09:30:00	09:30:00	168
+SUB231092	Atopic	PMF	44322	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	4	0								0	10:05:00	10:05:00	1601
+SUB231092	Atopic	PMF	18503	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:50:00	09:50:00	348
+SUB231093	Atopic	PMF	44287	Pollution Monitoring Pickup	1.0	complete	pm	3	13	20	8	0	0			0		1	6	1	10	0								1	10:00:00	10:00:00	1610
+SUB231093	Atopic	PMF	9647	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	6	0								1	10:35:00	10:35:00	111
+SUB231094	Atopic	PMF	9965	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	0		0								0	11:45:00	11:45:00	117
+SUB231094	Atopic	PMF	44582	Pollution Monitoring Pickup	1.0	complete	pm	2	3	5	0	0	0			0		1	5	0		0								0	09:31:00	09:31:00	1610
+SUB231095	Atopic	PMF	10483	Pollution Monitoring Pickup	1.0	complete	pm	1	0		2		0			0		1	24	0		0								0	10:40:00	10:40:00	101
+SUB231095	Atopic	PMF	44917	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	24	0		0								1	09:15:00	09:14:00	1628
+SUB231096	Atopic	PMF	44314	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	1	24	0	0	0	0	1	1	1	10:30:00	10:30:00	1567
+SUB231096	Atopic	PMF	10503	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		1	24	0								1	12:15:00	12:15:00	98
+SUB231097	Atopic	PMF	14572	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:45:00	10:45:00	169
+SUB231097	Atopic	PMF	46589	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	10:26:00	10:26:00	1724
+SUB231098	Atopic	PMF	44777	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	6	0								0	10:45:00	10:45:00	1616
+SUB231098	Atopic	PMF	10740	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	10	0								0	10:15:00	10:15:00	96
+SUB231099	Atopic	PMF	10756	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	0		0								0	11:00:00	11:00:00	113
+SUB231100	Atopic	PMF	10772	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	10:12:00	10:13:00	87
+SUB231100	Atopic	PMF	45535	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		1	12	0	1	0	0	0	0	0	12:00:00	12:00:00	1666
+SUB231101	Atopic	PMF	46766	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	09:08:00	09:08:00	1764
+SUB231101	Atopic	PMF	15660	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231101	Atopic	PMF	10788	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	5	0								0	10:20:00	10:20:00	140
+SUB231102	Atopic	PMF	44698	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	5	0								0	10:42:00	10:42:00	1586
+SUB231102	Atopic	PMF	10805	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	5	0								0	11:15:00	11:15:00	89
+SUB231103	Atopic	PMF	10824	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	4	0								0	10:20:00	10:20:00	119
+SUB231104	Atopic	PMF	10843	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	16:10:00	16:10:00	155
+SUB231104	Atopic	PMF	45902	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	08:28:00	08:28:00	1667
+SUB231105	Atopic	PMF	10859	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	24	0		0								1	12:45:00	12:45:00	86
+SUB231105	Atopic	PMF	44697	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			1		1	24	0		0								0	10:09:00	10:09:00	1584
+SUB231106	Atopic	PMF	19112	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231106	Atopic	PMF	44779	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	1	1	3	0								0	10:00:00	10:02:00	1612
+SUB231106	Atopic	PMF	14670	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231107	Atopic	PMF	11109	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								1	10:17:00	10:17:00	131
+SUB231107	Atopic	PMF	44679	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	1	10	0								1	11:06:00	11:06:00	1565
+SUB231108	Atopic	PMF	11173	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	1	5	0								0	09:55:00	09:55:00	147
+SUB231109	Atopic	PMF	11360	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	09:50:00	09:50:00	108
+SUB231109	Atopic	PMF	46844	Pollution Monitoring Pickup	1.0	complete	pm	1	0		0		0			1	1	1		0		0								0	09:20:00	09:20:00	1712
+SUB231110	Atopic	PMF	11488	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231110	Atopic	PMF	44994	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	5	0		0								0	09:34:00	09:32:00	1599
+SUB231111	Atopic	PMF	11601	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:00:00	10:00:00	113
+SUB231112	Atopic	PMF	15230	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231113	Atopic	PMF	11654	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	10:35:00	10:35:00	100
+SUB231113	Atopic	PMF	44912	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	08:55:00	08:55:00	1599
+SUB231114	Atopic	PMF	11670	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	15	0								0	11:00:00	11:00:00	92
+SUB231115	Atopic	PMF	12081	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	3	0								0	10:20:00	10:20:00	95
+SUB231115	Atopic	PMF	44846	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	10:40:00	10:40:00	1565
+SUB231116	Atopic	PMF	12168	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	7	0								1	09:40:00	09:40:00	98
+SUB231116	Atopic	PMF	44746	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								1	10:37:00	09:37:00	1546
+SUB231117	Atopic	PMF	15702	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231118	Atopic	PMF	12200	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231118	Atopic	PMF	45534	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	0		0		0								0	10:51:00	10:52:00	1604
+SUB231119	Atopic	PMF	44696	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	24	0								1	09:45:00	09:45:00	1538
+SUB231119	Atopic	PMF	12429	Pollution Monitoring Pickup	1.0	complete	pm																								11:00:00	11:00:00	94
+SUB231120	Atopic	PMF	12543	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	09:30:00	09:30:00	103
+SUB231120	Atopic	PMF	46147	Pollution Monitoring Pickup	1.0	complete	pm	3	20	10	3	0	0			0		1	24	0		0								0	10:02:00	10:03:00	1630
+SUB231121	Atopic	PMF	12566	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	1	3	0								1	10:00:00	10:00:00	91
+SUB231121	Atopic	PMF	47635	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	09:12:00	09:12:00	1745
+SUB231122	Atopic	PMF	12582	Pollution Monitoring Pickup	1.0	complete	pm	1			0		0			0		1	24	0		0								1	10:15:00	10:15:00	91
+SUB231122	Atopic	PMF	45072	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	24	0		0								1	10:08:00	10:06:00	1568
+SUB231123	Atopic	PMF	12598	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	15:00:00	15:00:00	115
+SUB231123	Atopic	PMF	44776	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								1	11:16:00	11:16:00	1542
+SUB231124	Atopic	PMF	12621	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231125	Atopic	PMF	16304	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	10:10:00	10:10:00	253
+SUB231125	Atopic	PMF	45099	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	09:05:00	09:05:00	1582
+SUB231126	Atopic	PMF	17942	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231127	Atopic	PMF	44855	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								0	10:24:00	10:23:00	1545
+SUB231127	Atopic	PMF	12823	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								1	10:10:00	10:10:00	91
+SUB231128	Atopic	PMF	44845	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	6	1	24	0								0	09:55:00	09:55:00	1533
+SUB231128	Atopic	PMF	12871	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								1	09:20:00	09:20:00	100
+SUB231130	Atopic	PMF	45209	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	09:20:00	09:20:00	1562
+SUB231130	Atopic	PMF	12903	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	09:45:00	09:45:00	114
+SUB231131	Atopic	PMF	13035	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	08:51:00	08:51:00	137
+SUB231131	Atopic	PMF	46650	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	11:03:00	11:03:00	1664
+SUB231132	Atopic	PMF	13198	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	09:45:00	09:45:00	130
+SUB231132	Atopic	PMF	45837	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	08:38:00	08:38:00	1586
+SUB231133	Atopic	PMF	45332	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	09:40:00	09:41:00	1557
+SUB231133	Atopic	PMF	13285	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								0	10:00:00	10:00:00	108
+SUB231134	Atopic	PMF	13459	Pollution Monitoring Pickup	1.0	complete	pm	3	3	2	0	0	0			0		1	24	0		0								0	10:35:00	10:35:00	145
+SUB231134	Atopic	PMF	48115	Pollution Monitoring Pickup	1.0	complete	pm	2	3	3	0	0	0			0		1	12	1	24	0								1	09:35:00	09:45:00	1762
+SUB231135	Atopic	PMF	45614	Pollution Monitoring Pickup	1.0	complete	pm	3	4	1	0	0	0			1	2	1	12	0		0								1	10:21:00	10:21:00	1575
+SUB231135	Atopic	PMF	13527	Pollution Monitoring Pickup	1.0	complete	pm	2	4	3	0	0	0			0		1	3	0		0								1	12:00:00	12:00:00	111
+SUB231136	Atopic	PMF	13614	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:10:00	09:10:00	84
+SUB231137	Atopic	PMF	13825	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:08:00	09:08:00	148
+SUB231138	Atopic	PMF	47164	Pollution Monitoring Pickup	1.0	complete	pm	1			4		0			0		1	1	0		0								0	07:00:00	07:00:00	1658
+SUB231138	Atopic	PMF	13912	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:40:00	11:40:00	92
+SUB231139	Atopic	PMF	45597	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:29:00	09:28:00	1540
+SUB231139	Atopic	PMF	13957	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	09:50:00	09:50:00	117
+SUB231140	Atopic	PMF	16348	Pollution Monitoring Pickup	1.0	complete	pm	0					1	1	3	0		0		0		0								1	08:15:00	08:15:00	114
+SUB231141	Atopic	PMF	47120	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	11:30:00	10:30:00	1634
+SUB231141	Atopic	PMF	14235	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								1	10:17:00	10:17:00	102
+SUB231142	Atopic	PMF	21522	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231142	Atopic	PMF	46056	Pollution Monitoring Pickup	1.0	complete	pm	3	1	0	1	1	0			0		1	3	0		0								1	10:15:00	10:14:00	1568
+SUB231143	Non-atopic	PMF	18529	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	07:00:00	07:00:00	190
+SUB231143	Non-atopic	PMF	45334	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	3	1	5	0		0		0								0	09:20:00	09:21:00	1524
+SUB231144	Atopic	PMF	47489	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								1	15:30:00	15:30:00	1663
+SUB231144	Atopic	PMF	14414	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	4	0		0								1	11:00:00	11:00:00	108
+SUB231145	Non-atopic	PMF	14423	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:28:00	10:28:00	94
+SUB231145	Non-atopic	PMF	46149	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:45:00	10:45:00	1563
+SUB231146	Atopic	PMF	48529	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	24	1	24	0								0	11:45:00	11:45:00	1785
+SUB231146	Atopic	PMF	14446	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	15:15:00	15:15:00	125
+SUB231147	Non-atopic	PMF	45605	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	09:37:00	09:37:00	1533
+SUB231147	Non-atopic	PMF	14489	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								1	15:30:00	15:30:00	134
+SUB231148	Atopic	PMF	14512	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		0		0								0	10:05:00	10:05:00	98
+SUB231149	Atopic	PMF	14566	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231149	Atopic	PMF	46069	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:03:00	11:02:00	1559
+SUB231150	Atopic	PMF	14758	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:40:00	09:40:00	139
+SUB231150	Atopic	PMF	47420	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	09:51:00	09:51:00	1650
+SUB231151	Non-atopic	PMF	14768	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	11:25:00	11:25:00	104
+SUB231151	Non-atopic	PMF	47100	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:43:00	10:43:00	1623
+SUB231152	Atopic	PMF	18473	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231153	Non-atopic	PMF	14801	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	23:05:00	11:05:00	153
+SUB231153	Non-atopic	PMF	47968	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:45:00	09:45:00	1706
+SUB231154	Non-atopic	PMF	14857	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:55:00	10:55:00	126
+SUB231155	Atopic	PMF	14882	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	10:15:00	10:15:00	210
+SUB231155	Atopic	PMF	45606	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	09:55:00	09:56:00	1523
+SUB231156	Non-atopic	PMF	15042	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	0	0	0			0		0		0		0								0	10:20:00	10:20:00	129
+SUB231156	Non-atopic	PMF	48153	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	09:21:00	09:21:00	1723
+SUB231157	Non-atopic	PMF	15174	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231158	Non-atopic	PMF	45946	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	10	0		0								0	08:56:00	08:56:00	1526
+SUB231158	Non-atopic	PMF	15194	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:25:00	09:25:00	117
+SUB231159	Atopic	PMF	47548	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			1	6	1	1	0		0								0	10:03:00	10:03:00	1646
+SUB231159	Atopic	PMF	18726	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	4	1	14	0								0	08:00:00	08:00:00	296
+SUB231160	Atopic	PMF	19059	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231161	Atopic	PMF	15360	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	1	0		0								0	10:40:00	10:40:00	94
+SUB231161	Atopic	PMF	47614	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	08:58:00	08:58:00	1651
+SUB231162	Atopic	PMF	18719	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231163	Atopic	PMF	15527	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	09:30:00	09:30:00	95
+SUB231163	Atopic	PMF	47198	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	11:22:00	11:22:00	1619
+SUB231164	Atopic	PMF	47615	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	09:35:00	09:35:00	1637
+SUB231164	Atopic	PMF	15543	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	08:30:00	08:30:00	117
+SUB231165	Atopic	PMF	15559	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	24	1	1	0		0								0	10:30:00	10:30:00	125
+SUB231165	Atopic	PMF	47634	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	0		0								1	11:16:00	11:16:00	1644
+SUB231166	Atopic	PMF	47782	Pollution Monitoring Pickup	1.0	complete	pm	3	20	1	0	0	0			0		1	24	1	3	0								1	09:18:00	09:18:00	1647
+SUB231166	Atopic	PMF	18782	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:40:00	15:40:00	139
+SUB231167	Atopic	PMF	47807	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	10:30:00	10:30:00	1648
+SUB231167	Atopic	PMF	16013	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	15:00:00	15:00:00	88
+SUB231168	Atopic	PMF	47835	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:10:00	11:10:00	1627
+SUB231168	Atopic	PMF	16673	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	1	0		0								0	08:45:00	08:45:00	131
+SUB231169	Non-atopic	PMF	49015	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	2	0								0	03:35:00	08:35:00	1723
+SUB231169	Non-atopic	PMF	19294	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:15:00	10:15:00	120
+SUB231170	Non-atopic	PMF	17507	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	09:30:00	09:30:00	81
+SUB231171	Non-atopic	PMF	18891	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	1	0								0	09:00:00	09:00:00	80
+SUB231172	Non-atopic	PMF	18973	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								1	11:50:00	11:50:00	92
+SUB231172	Non-atopic	PMF	47897	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								1	10:07:00	10:07:00	1540
+SUB231173	Atopic	PMF	38879	Pollution Monitoring Pickup	1.0	complete	pm	1	20		0		0			1	2	1	1	1	1	0								0	10:35:00	10:35:00	1660
+SUB231173	Atopic	PMF	491	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	0		1	24	0								0	10:45:00	10:45:00	127
+SUB231174	Atopic	PMF	505	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	3	1	22	0								1	10:15:00	10:15:00	114
+SUB231175	Atopic	PMF	760	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	24	1	6	0								0	12:10:00	12:10:00	125
+SUB231176	Atopic	PMF	38555	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	0		0								0	11:22:00	11:21:00	1622
+SUB231176	Atopic	PMF	774	Pollution Monitoring Pickup	1.0	complete	pm	8	7	7	0	0	0			0		1	2	1	23	0								0	23:13:00	23:13:00	117
+SUB231177	Atopic	PMF	999	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	20	1	8	0								0	13:12:00	13:12:00	125
+SUB231177	Atopic	PMF	40305	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	9	0		0								0	11:05:00	11:06:00	1654
+SUB231178	Atopic	PMF	38508	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	1	3	0								1	11:05:00	11:06:00	1610
+SUB231178	Atopic	PMF	1013	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	0		1	20	0								0	11:15:00	11:15:00	133
+SUB231179	Atopic	PMF	40494	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	6	1	1	0		0								0	15:34:00	15:34:00	1653
+SUB231179	Atopic	PMF	1043	Pollution Monitoring Pickup	1.0	complete	pm	1	6		1		0			1	3	1	24	1	24	0								0	11:00:00	11:00:00	129
+SUB231180	Atopic	PMF	38924	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	24	0		0								1	12:08:00	12:07:00	1618
+SUB231180	Atopic	PMF	1080	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	2	1	24	0								0	10:45:00	10:45:00	134
+SUB231181	Atopic	PMF	1186	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	0		0		1	24	0	1	0	0	0	1	0	13:00:00	13:00:00	201
+SUB231182	Atopic	PMF	1417	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	7	0								0	11:10:00	11:10:00	119
+SUB231182	Atopic	PMF	40492	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	14:20:00	14:20:00	1632
+SUB231183	Atopic	PMF	1572	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	6	1	2	1	24	1	24	0	1	0	0	0	1	0	10:30:00	10:30:00	106
+SUB231183	Atopic	PMF	38841	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	1	0		1	24	1	1	0								0	13:14:00	13:15:00	1571
+SUB231184	Atopic	PMF	1682	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	24	0		0								0	15:28:00	15:28:00	104
+SUB231184	Atopic	PMF	39428	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	0		1	8	0								0	09:23:00	09:24:00	1571
+SUB231185	Atopic	PMF	39456	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	1	0		0								0	10:30:00	10:30:00	1566
+SUB231185	Atopic	PMF	1879	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								0	11:23:00	11:24:00	134
+SUB231186	Atopic	PMF	40254	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	12	0		0								0	11:05:00	11:05:00	1589
+SUB231186	Atopic	PMF	2025	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	5	1	24	0		0								0	11:15:00	11:15:00	104
+SUB231187	Atopic	PMF	40255	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:19:00	11:19:00	1572
+SUB231187	Atopic	PMF	2304	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	7	0								0	11:01:00	11:01:00	103
+SUB231188	Atopic	PMF	40828	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	14:44:00	14:44:00	1579
+SUB231188	Atopic	PMF	2699	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:15:00	11:15:00	95
+SUB231189	Atopic	PMF	2769	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	11:03:00	11:03:00	106
+SUB231189	Atopic	PMF	41237	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	1	1	8	0								0	13:59:00	14:01:00	1589
+SUB231190	Atopic	PMF	2948	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	1	0	0			0		1	1	0		0								0	00:55:00	00:55:00	83
+SUB231190	Atopic	PMF	41189	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	0	0	0			0		0		1	10	0								0	14:12:00	14:13:00	1582
+SUB231191	Atopic	PMF	3176	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	4	1	24	0		0								0	11:10:00	11:10:00	140
+SUB231191	Atopic	PMF	41415	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		1	24	0	1	0	0	1	1	0	15:17:00	15:17:00	1585
+SUB231192	Atopic	PMF	3417	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								0	11:15:00	11:15:00	131
+SUB231192	Atopic	PMF	41407	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	15:28:00	15:27:00	1571
+SUB231194	Atopic	PMF	41728	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:47:00	11:48:00	1572
+SUB231194	Atopic	PMF	3825	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:24:00	11:24:00	116
+SUB231195	Atopic	PMF	42716	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:44:00	10:45:00	1626
+SUB231195	Atopic	PMF	3982	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231196	Atopic	PMF	4029	Pollution Monitoring Pickup	1.0	complete	pm	3	2	2	1	0	0			1	3	1	12	1	4	0								1	13:50:00	13:50:00	106
+SUB231196	Atopic	PMF	42038	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	11:33:00	11:34:00	1586
+SUB231197	Atopic	PMF	4139	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:01:00	11:01:00	126
+SUB231198	Atopic	PMF	14576	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231199	Atopic	PMF	42043	Pollution Monitoring Pickup	1.0	complete	pm	3	0	0	0	0	0			0		1	1	0		0								0	16:55:00	16:55:00	1554
+SUB231199	Atopic	PMF	4833	Pollution Monitoring Pickup	1.0	complete	pm	1	20		1		0			1	2	1	2	0		0								0	10:25:00	10:25:00	148
+SUB231200	Atopic	PMF	14376	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231201	Atopic	PMF	42260	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	11:44:00	11:44:00	1557
+SUB231201	Atopic	PMF	5168	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	1	0		0								0	10:55:00	10:55:00	108
+SUB231202	Atopic	PMF	12779	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	0		0								0	10:50:00	10:50:00	316
+SUB231202	Atopic	PMF	42344	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	9	0		0								0	16:26:00	16:25:00	1564
+SUB231203	Atopic	PMF	14578	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231203	Atopic	PMF	43311	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	10	0		0								0	09:43:00	09:43:00	1600
+SUB231204	Atopic	PMF	5841	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	1	0		1	1	0		0								0	11:34:00	11:34:00	157
+SUB231205	Atopic	PMF	5873	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231206	Atopic	PMF	42116	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	0		0								0	09:50:00	09:49:00	1520
+SUB231206	Atopic	PMF	6165	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	12:11:00	12:15:00	147
+SUB231207	Atopic	PMF	42077	Pollution Monitoring Pickup	1.0	complete	pm	3	5	0	0	0	0			0		1	8	0		0								0	11:14:00	11:16:00	1514
+SUB231207	Atopic	PMF	6181	Pollution Monitoring Pickup	1.0	complete	pm	3	2	3	1	1	0			0		0		1	1	1	24	0	1	0	0	0	1	0	11:55:00	11:55:00	141
+SUB231208	Atopic	PMF	42646	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:30:00	11:31:00	1548
+SUB231208	Atopic	PMF	16202	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231209	Atopic	PMF	14580	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231209	Atopic	PMF	42042	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:55:00	10:55:00	1500
+SUB231210	Atopic	PMF	6504	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	7	0		0								0	11:02:00	11:04:00	139
+SUB231211	Atopic	PMF	19695	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231211	Atopic	PMF	14582	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231212	Atopic	PMF	6863	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	11:34:00	11:36:00	129
+SUB231213	Atopic	PMF	7187	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	3	0		0								0	11:09:00	11:10:00	119
+SUB231213	Atopic	PMF	42302	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	11	0		0								0	08:25:00	08:25:00	1498
+SUB231214	Atopic	PMF	7255	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			1	4	1	8	0		0								0	11:20:00	11:20:00	102
+SUB231214	Atopic	PMF	43239	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	6	1	4	0								0	11:01:00	11:01:00	1531
+SUB231215	Atopic	PMF	15809	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231215	Atopic	PMF	42703	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	12:56:00	12:57:00	1511
+SUB231216	Atopic	PMF	42644	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	12:07:00	12:07:00	1504
+SUB231216	Atopic	PMF	14363	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231217	Atopic	PMF	43299	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	6	0		0								0	11:25:00	11:26:00	1522
+SUB231217	Atopic	PMF	14584	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231218	Atopic	PMF	12788	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231218	Atopic	PMF	42300	Pollution Monitoring Pickup	1.0	complete	pm	1	7		0		0			0		1	2	0		0								1	11:32:00	11:33:00	1483
+SUB231219	Atopic	PMF	42299	Pollution Monitoring Pickup	1.0	complete	pm	1	7		0		0			0		1	2	0		0								1	11:29:00	11:29:00	1483
+SUB231219	Atopic	PMF	12793	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231220	Atopic	PMF	14211	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231221	Atopic	PMF	42298	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								0	11:00:00	11:02:00	1477
+SUB231221	Atopic	PMF	7985	Pollution Monitoring Pickup	1.0	complete	pm	6	2	1	0	0	0			1	3	1	6	0		0								0	14:15:00	14:00:00	133
+SUB231222	Atopic	PMF	42645	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	0	0	0			0		1	2	0		0								0	12:09:00	12:10:00	1483
+SUB231222	Atopic	PMF	14586	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231222	Atopic	PMF	36662	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231223	Atopic	PMF	42687	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	24	0		0								0	10:22:00	10:23:00	1480
+SUB231223	Atopic	PMF	8317	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		1	24	1	20	0								1	11:32:00	11:33:00	147
+SUB231224	Atopic	PMF	43333	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	10:38:00	10:38:00	1505
+SUB231224	Atopic	PMF	8517	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		1	24	0								1	11:50:00	11:50:00	147
+SUB231225	Atopic	PMF	8539	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	12:25:00	12:26:00	143
+SUB231225	Atopic	PMF	42766	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	3	0		0								0	14:10:00	14:10:00	1482
+SUB231226	Atopic	PMF	14588	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231226	Atopic	PMF	43393	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								0	09:09:00	09:09:00	1508
+SUB231227	Atopic	PMF	8782	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	11:45:00	11:45:00	145
+SUB231228	Atopic	PMF	14590	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231229	Atopic	PMF	44047	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	20	1	12	0								0	09:19:00	09:19:00	1573
+SUB231229	Atopic	PMF	14592	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231230	Atopic	PMF	42943	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								0	11:24:00	11:24:00	1478
+SUB231230	Atopic	PMF	8850	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	4	1	24	0		0								1	10:41:00	10:41:00	149
+SUB231232	Atopic	PMF	42944	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	7	0		1	3	0								0	11:45:00	11:45:00	1477
+SUB231232	Atopic	PMF	8990	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	12	0		0								0	14:00:00	14:02:00	113
+SUB231233	Atopic	PMF	9080	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	15	0								1	11:04:00	11:05:00	137
+SUB231233	Atopic	PMF	42996	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								0	14:32:00	14:33:00	1473
+SUB231234	Atopic	PMF	9096	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	1	1	0								0	11:20:00	11:20:00	81
+SUB231235	Atopic	PMF	15155	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231236	Atopic	PMF	14594	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231236	Atopic	PMF	42146	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231236	Atopic	PMF	43487	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	0		0								0	16:22:00	16:22:00	1512
+SUB231237	Atopic	PMF	9676	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	10:21:00	10:21:00	140
+SUB231237	Atopic	PMF	43658	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	1	0								0	11:00:00	11:00:00	1508
+SUB231238	Atopic	PMF	9928	Pollution Monitoring Pickup	1.0	complete	pm	3	2	2	0	0	0			0		1	24	0		0								0	14:02:00	14:02:00	145
+SUB231239	Atopic	PMF	14596	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231240	Atopic	PMF	14598	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231241	Atopic	PMF	10248	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	6	1	5	1	6	0								1	11:13:00	11:13:00	139
+SUB231241	Atopic	PMF	43562	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	6	1	3	1	4	0								0	09:10:00	09:10:00	1478
+SUB231242	Atopic	PMF	21524	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231242	Atopic	PMF	43670	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								0	09:48:00	09:48:00	1481
+SUB231243	Atopic	PMF	10449	Pollution Monitoring Pickup	1.0	complete	pm	2	15	15	0	0	0			0		1	8	1	8	0								0	10:30:00	10:30:00	132
+SUB231243	Atopic	PMF	43807	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	10	1	10	0								0	13:19:00	13:19:00	1498
+SUB231244	Atopic	PMF	19683	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231246	Atopic	PMF	43790	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	17:02:00	17:02:00	1478
+SUB231246	Atopic	PMF	10969	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	6	0		1	9	0								0	10:10:00	10:10:00	150
+SUB231247	Atopic	PMF	10993	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	2	0								0	10:00:00	10:00:00	139
+SUB231247	Atopic	PMF	43791	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	2	0		0								0	09:37:00	09:37:00	1483
+SUB231248	Atopic	PMF	15662	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	11:10:00	11:10:00	263
+SUB231248	Atopic	PMF	43956	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	1	8	0								0	10:15:00	10:16:00	1482
+SUB231249	Atopic	PMF	37271	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231249	Atopic	PMF	43894	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	13:25:00	13:25:00	1476
+SUB231249	Atopic	PMF	15664	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231251	Atopic	PMF	16318	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231251	Atopic	PMF	44034	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	24	1	24	0								0	12:05:00	12:05:00	1489
+SUB231252	Atopic	PMF	11547	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	2	1	4	0		0								0	10:15:00	10:15:00	143
+SUB231253	Atopic	PMF	43998	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	12	0								0	13:55:00	13:56:00	1477
+SUB231253	Atopic	PMF	11563	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	3	0								0	10:25:00	10:25:00	105
+SUB231254	Atopic	PMF	16191	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231255	Atopic	PMF	44015	Pollution Monitoring Pickup	1.0	complete	pm	2	4	4	0	0	0			0		1	24	0		0								0	09:40:00	09:40:00	1488
+SUB231255	Atopic	PMF	11718	Pollution Monitoring Pickup	1.0	complete	pm	3	5	2	0	0	0			0		0		0		0								0	10:25:00	10:25:00	115
+SUB231256	Atopic	PMF	11757	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	12:08:00	12:08:00	142
+SUB231257	Atopic	PMF	11924	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								1	11:45:00	11:45:00	146
+SUB231257	Atopic	PMF	44108	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		1	3	1	4	1	14	0	1	0	0	0	0	1	11:35:00	11:36:00	1479
+SUB231258	Atopic	PMF	12044	Pollution Monitoring Pickup	1.0	complete	pm	2	3	10	0	0	0			0		1	24	0		0								0	11:04:00	11:04:00	146
+SUB231258	Atopic	PMF	44224	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	0	0	0			0		1	12	1	12	0								0	11:16:00	11:16:00	1485
+SUB231259	Atopic	PMF	19685	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231260	Atopic	PMF	12723	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	3	0		0								0	14:37:00	14:37:00	111
+SUB231260	Atopic	PMF	44301	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	12	0		0								0	12:05:00	12:06:00	1483
+SUB231261	Atopic	PMF	19689	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231262	Atopic	PMF	44699	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	24	0								0	10:05:00	10:05:00	1512
+SUB231262	Atopic	PMF	12959	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		0		0		1	24	0	0	1	0	0	1	0	11:45:00	11:45:00	145
+SUB231263	Atopic	PMF	44428	Pollution Monitoring Pickup	1.0	complete	pm	1	20		0		0			0		1	24	0		0								0	16:25:00	16:25:00	1487
+SUB231263	Atopic	PMF	19687	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231264	Atopic	PMF	44995	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								1	10:50:00	10:50:00	1537
+SUB231264	Atopic	PMF	17864	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								1	10:08:00	10:08:00	260
+SUB231265	Atopic	PMF	19693	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231265	Atopic	PMF	44675	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	14:48:00	14:49:00	1484
+SUB231266	Atopic	PMF	13659	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	10:25:00	10:25:00	95
+SUB231266	Atopic	PMF	45195	Pollution Monitoring Pickup	1.0	complete	pm	2	5	8	0	0	0			0		1	24	0		0								0	16:20:00	16:20:00	1531
+SUB231267	Atopic	PMF	19691	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231268	Atopic	PMF	44674	Pollution Monitoring Pickup	1.0	complete	pm	3	3	3	0	0	0			0		1	12	1	6	0								0	15:10:00	15:10:00	1480
+SUB231268	Atopic	PMF	18877	Pollution Monitoring Pickup	1.0	complete	pm	2	4	3	0	0	1	0	3	1	2	1	6	0		0								0	11:02:00	11:03:00	201
+SUB231269	Atopic	PMF	19697	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231270	Atopic	PMF	18346	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231270	Atopic	PMF	44752	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	8	0								0	10:07:00	10:07:00	1478
+SUB231271	Atopic	PMF	14113	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	11:45:00	11:45:00	167
+SUB231271	Atopic	PMF	44751	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	12	1	8	0								0	10:38:00	10:39:00	1477
+SUB231272	Atopic	PMF	44823	Pollution Monitoring Pickup	1.0	complete	pm	3	3	4	0	0	0			0		1	24	1	4	0								0	10:51:00	10:51:00	1482
+SUB231272	Atopic	PMF	18369	Pollution Monitoring Pickup	1.0	complete	pm	4	5	2	0	0	0			1	3	1	24	0		0								1	12:14:00	12:14:00	203
+SUB231273	Atopic	PMF	45194	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	16:47:00	16:46:00	1507
+SUB231273	Atopic	PMF	14353	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	5	0		0		0								1	12:20:00	12:22:00	150
+SUB231274	Atopic	PMF	14473	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:13:00	11:13:00	92
+SUB231274	Atopic	PMF	44834	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	1	1	0								1	11:55:00	11:55:00	1477
+SUB231275	Atopic	PMF	19701	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231275	Atopic	PMF	44833	Pollution Monitoring Pickup	1.0	complete	pm	2	3	20	0	4	0			0		1	24	1	4	0								0	10:29:00	10:29:00	1475
+SUB231276	Atopic	PMF	19717	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231276	Atopic	PMF	44920	Pollution Monitoring Pickup	1.0	complete	pm	2	3	3	0	0	0			0		1	5	1	5	0								0	16:52:00	16:52:00	1481
+SUB231277	Non-atopic	PMF	44918	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	24	0		0								0	10:09:00	10:09:00	1480
+SUB231277	Non-atopic	PMF	19705	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231278	Non-atopic	PMF	19699	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231278	Non-atopic	PMF	44919	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	7	0								0	10:52:00	10:52:00	1480
+SUB231279	Atopic	PMF	19709	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231280	Non-atopic	PMF	45871	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:08:00	11:08:00	1517
+SUB231280	Non-atopic	PMF	19086	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:09:00	10:10:00	173
+SUB231281	Atopic	PMF	19703	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231281	Atopic	PMF	45870	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	17:51:00	17:52:00	1513
+SUB231282	Atopic	PMF	19314	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	10:38:00	10:39:00	175
+SUB231283	Atopic	PMF	45397	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	09:35:00	09:35:00	1478
+SUB231283	Atopic	PMF	15639	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		0								0	10:05:00	10:05:00	132
+SUB231284	Atopic	PMF	45804	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	3	0		0								0	16:33:00	16:33:00	1488
+SUB231284	Atopic	PMF	15690	Pollution Monitoring Pickup	1.0	complete	pm	6	5	5	5	5	0			0		1	3	0		0								0	11:30:00	11:30:00	101
+SUB231285	Non-atopic	PMF	45916	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	1	1	0		0								0	10:18:00	10:18:00	1501
+SUB231285	Non-atopic	PMF	15707	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	0		0		0								0	10:30:00	10:30:00	149
+SUB231286	Atopic	PMF	19487	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								0	10:40:00	10:40:00	229
+SUB231286	Atopic	PMF	45588	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	10	0		0								0	16:08:00	16:09:00	1481
+SUB231287	Non-atopic	PMF	19707	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231287	Non-atopic	PMF	45568	Pollution Monitoring Pickup	1.0	complete	ap	2	6	4	0	0	0			0		1	24	0		0								0	14:56:00	14:56:00	1477
+SUB231288	Atopic	PMF	16088	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	10:25:00	10:25:00	128
+SUB231289	Atopic	PMF	16119	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		0		0		0								0	11:30:00	11:30:00	121
+SUB231290	Atopic	PMF	45869	Pollution Monitoring Pickup	1.0	complete	pm	1	8		0		0			0		1	23	1	6	0								0	11:30:00	11:30:00	1474
+SUB231290	Atopic	PMF	19711	Pollution Monitoring Pickup	1.0	complete	pm	1	12		0		0			0		1	24	1	24	1	24	0	1	0	0	0	1	0	10:56:00	10:56:00	277
+SUB231291	Atopic	PMF	16382	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	0		1	3	0	0	0	0	0	0	1	11:00:00	11:00:00	120
+SUB231291	Atopic	PMF	45917	Pollution Monitoring Pickup	1.0	complete	pm	1	7		0		0			0		1	1	0		0								1	10:50:00	10:50:00	1479
+SUB231292	Atopic	PMF	45915	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	14	0		0								1	11:11:00	11:11:00	1478
+SUB231292	Atopic	PMF	16489	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	10:51:00	10:51:00	98
+SUB231293	Atopic	PMF	432	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	13:08:00	13:08:00	113
+SUB231294	Atopic	PMF	449	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	24	0								0	08:05:00	08:05:00	118
+SUB231295	Atopic	PMF	463	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	20	1	3	0	0	0	0	1	0	1	10:55:00	10:57:00	157
+SUB231296	Atopic	PMF	40651	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	14:55:00	14:55:00	1711
+SUB231296	Atopic	PMF	477	Pollution Monitoring Pickup	1.0	complete	pm	5	20	20	0	0	0			0		1	10	1	24	0								1	11:07:00	11:06:00	123
+SUB231297	Atopic	PMF	553	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		0		1	24	0								0	10:40:00	10:41:00	115
+SUB231298	Atopic	PMF	672	Pollution Monitoring Pickup	1.0	complete	pm	3	20	20	0	0	0			0		1	24	1	24	0								1	10:43:00	10:44:00	103
+SUB231299	Atopic	PMF	39337	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	7	0		0								0	12:49:00	12:50:00	1616
+SUB231299	Atopic	PMF	686	Pollution Monitoring Pickup	1.0	complete	pm	4	20	20	20	20	0			0		0		1	24	0								0	10:14:00	10:15:00	101
+SUB231300	Atopic	PMF	37817	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			0		0		1	24	0								1	10:00:00	10:00:00	1574
+SUB231300	Atopic	PMF	1113	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	8	0								0	14:53:00	14:56:00	107
+SUB231301	Atopic	PMF	1127	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	13:00:00	13:05:00	104
+SUB231302	Atopic	PMF	39590	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	3	0		0								1	09:40:00	09:40:00	1613
+SUB231302	Atopic	PMF	1257	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	24	1	24	0								1	12:15:00	12:14:00	96
+SUB231303	Atopic	PMF	1272	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	1	24	0								0	14:45:00	14:46:00	111
+SUB231304	Atopic	PMF	1286	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	2	1	8	0								1	08:58:00	08:59:00	128
+SUB231304	Atopic	PMF	43753	Pollution Monitoring Pickup	1.0	complete	pm	1	1		0		0			0		0		1	24	0								1	08:30:00	08:31:00	1841
+SUB231305	Atopic	PMF	39851	Pollution Monitoring Pickup	1.0	complete	pm	3	4	5	0	0	0			0		1	12	0		0								1	09:40:00	09:40:00	1615
+SUB231305	Atopic	PMF	1321	Pollution Monitoring Pickup	1.0	complete	pm	5	5	3	3	4	0			0		0		1	24	0								0	08:07:00	08:15:00	101
+SUB231306	Atopic	PMF	39589	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	10:55:00	10:55:00	1600
+SUB231306	Atopic	PMF	1361	Pollution Monitoring Pickup	1.0	complete	pm	2	4	1	0	0	0			1	1	0		1	24	0								1	11:20:00	11:25:00	92
+SUB231307	Atopic	PMF	1445	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	06:50:00	06:51:00	125
+SUB231307	Atopic	PMF	42026	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	17:02:00	17:03:00	1716
+SUB231308	Atopic	PMF	1459	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	3	0								0	14:34:00	14:35:00	96
+SUB231308	Atopic	PMF	43777	Pollution Monitoring Pickup	1.0	complete	pm	2	8	3	0	0	0			0		1	23	1	5	0								1	09:30:00	09:30:00	1831
+SUB231309	Atopic	PMF	39662	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	0		0								1	11:10:00	11:10:00	1592
+SUB231309	Atopic	PMF	7463	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231310	Atopic	PMF	1646	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	4	0		0								1	09:10:00	09:07:00	110
+SUB231310	Atopic	PMF	39247	Pollution Monitoring Pickup	1.0	complete	pm	3	3	2	0	0	0			0		1	24	0		0								1	10:50:00	10:50:00	1569
+SUB231311	Atopic	PMF	1863	Pollution Monitoring Pickup	1.0	complete	pm	7	30	30	0	10	0			0		1	4	1	20	0								0	16:20:00	16:25:00	98
+SUB231312	Atopic	PMF	1895	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231313	Atopic	PMF	1913	Pollution Monitoring Pickup	1.0	complete	pm	3	10	10	0	0	0			0		1	8	0		0								1	09:35:00	09:36:00	129
+SUB231313	Atopic	PMF	39914	Pollution Monitoring Pickup	1.0	complete	pm						0			0		0		0		0								0	10:39:00	10:40:00	1591
+SUB231314	Atopic	PMF	1952	Pollution Monitoring Pickup	1.0	complete	pm	10	20	5	2	0	0			0		1	7	1	12	0								1	08:50:00	08:55:00	110
+SUB231314	Atopic	PMF	40836	Pollution Monitoring Pickup	1.0	complete	pm	3	5	5	0	0	0			0		1	5	0		0								0	12:45:00	12:46:00	1621
+SUB231315	Atopic	PMF	2000	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	13:20:00	13:18:00	96
+SUB231316	Atopic	PMF	40813	Pollution Monitoring Pickup	1.0	complete	pm	2	4	4	0	0	0			0		1	1	0		0								1	15:00:00	15:00:00	1615
+SUB231316	Atopic	PMF	2041	Pollution Monitoring Pickup	1.0	complete	pm	7	20	20	0	0	0			0		1	6	1	24	0								0	10:06:00	10:09:00	89
+SUB231317	Atopic	PMF	2074	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								0	12:14:00	12:13:00	123
+SUB231318	Atopic	PMF	2266	Pollution Monitoring Pickup	1.0	complete	pm	5	15	15	0	0	0			0		1	20	1	12	0								1	09:00:00	09:05:00	78
+SUB231318	Atopic	PMF	40209	Pollution Monitoring Pickup	1.0	complete	pm	3	5	3	0	0	0			0		1	6	0		0								1	10:15:00	10:16:00	1577
+SUB231319	Atopic	PMF	2365	Pollution Monitoring Pickup	1.0	complete	pm	2	10	5	3	0	1	0	12	0		0		0		0								1	10:45:00	10:50:00	158
+SUB231319	Atopic	PMF	40391	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	6	0		0								0	13:30:00	13:31:00	1583
+SUB231320	Atopic	PMF	2394	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	12	0								1	08:05:00	08:04:00	87
+SUB231320	Atopic	PMF	43323	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	12:00:00	12:00:00	1726
+SUB231321	Atopic	PMF	5776	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		0		0								0	10:08:00	10:07:00	196
+SUB231321	Atopic	PMF	40477	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	0		0								1	10:05:00	10:05:00	1577
+SUB231322	Atopic	PMF	5774	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231323	Atopic	PMF	43317	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	14:45:00	14:45:00	1695
+SUB231323	Atopic	PMF	2890	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			0		0		0		0								0	07:35:00	07:37:00	90
+SUB231324	Atopic	PMF	2906	Pollution Monitoring Pickup	1.0	complete	pm	2	3	1	0	0	0			0		1	24	0		0								1	09:20:00	09:22:00	81
+SUB231324	Atopic	PMF	43316	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	2	0								1	15:25:00	15:25:00	1694
+SUB231325	Atopic	PMF	2926	Pollution Monitoring Pickup	1.0	complete	pm	3	7	7	0	0	0			0		1	12	0		0								1	14:46:00	14:47:00	90
+SUB231325	Atopic	PMF	43320	Pollution Monitoring Pickup	1.0	complete	pm	6	10	10	1	0	0			0		1	12	1	1	0								0	11:25:00	11:25:00	1694
+SUB231326	Atopic	PMF	43701	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	12	1	6	0								1	11:44:00	11:45:00	1729
+SUB231326	Atopic	PMF	3160	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1		0		0								0	11:10:00	11:10:00	112
+SUB231327	Atopic	PMF	3192	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	09:30:00	09:30:00	110
+SUB231327	Atopic	PMF	43752	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	11:45:00	11:45:00	1729
+SUB231328	Atopic	PMF	43778	Pollution Monitoring Pickup	1.0	complete	pm	1	16		8		0			0		1	7	1	10	0								1	11:30:00	11:30:00	1729
+SUB231328	Atopic	PMF	3208	Pollution Monitoring Pickup	1.0	complete	pm	4	7	4	0	0	0			0		0		0		0								0	09:16:00	09:16:00	106
+SUB231329	Atopic	PMF	3224	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	10	0		0								0	10:10:00	10:09:00	87
+SUB231329	Atopic	PMF	44726	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	24	0		0								0	12:05:00	12:05:00	1841
+SUB231330	Atopic	PMF	43645	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		0		0		0								1	07:35:00	07:35:00	1706
+SUB231330	Atopic	PMF	3444	Pollution Monitoring Pickup	1.0	complete	pm	1			0		0			0		0		0		0								0	10:50:00	10:51:00	81
+SUB231331	Atopic	PMF	3671	Pollution Monitoring Pickup	1.0	complete	pm	5	20	4	0	0	0			0		0		0		0								1	11:30:00	11:31:00	110
+SUB231332	Atopic	PMF	42078	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								0	10:28:00	10:29:00	1599
+SUB231332	Atopic	PMF	3705	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	10:32:00	10:32:00	94
+SUB231333	Atopic	PMF	3891	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	1	0		0		0								0	10:20:00	10:20:00	89
+SUB231333	Atopic	PMF	44331	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	12:54:00	12:54:00	1769
+SUB231334	Atopic	PMF	44753	Pollution Monitoring Pickup	1.0	complete	pm	1	0		3		0			0		1	8	1	12	0								0	09:32:00	09:33:00	1809
+SUB231334	Atopic	PMF	3926	Pollution Monitoring Pickup	1.0	complete	pm	2	4	4	0	0	0			0		1	2	0		0								0	11:39:00	11:38:00	87
+SUB231336	Atopic	PMF	43702	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	1	24	0								1	09:30:00	09:30:00	1699
+SUB231336	Atopic	PMF	3998	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		1	8	0	1	0	0	0	1	1	10:42:00	10:40:00	117
+SUB231337	Atopic	PMF	4275	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	0	0	0			0		1	1	0		0								1	11:00:00	11:02:00	94
+SUB231338	Atopic	PMF	42736	Pollution Monitoring Pickup	1.0	complete	pm	2	1	1	0	1	0			0		0		0		0								1	09:35:00	09:35:00	1606
+SUB231338	Atopic	PMF	4402	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231339	Atopic	PMF	4418	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			1	1	0		0		0								0	10:24:00	10:25:00	96
+SUB231339	Atopic	PMF	44773	Pollution Monitoring Pickup	1.0	complete	pm	2	5	2	0	0	0			0		1	1	0		0								0	10:45:00	10:45:00	1789
+SUB231340	Atopic	PMF	4445	Pollution Monitoring Pickup	1.0	complete	pm	1	6		1		0			0		1	4	0		0								0	10:42:00	10:46:00	108
+SUB231341	Atopic	PMF	43798	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	13:00:00	13:00:00	1685
+SUB231341	Atopic	PMF	8720	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	10:14:00	10:14:00	273
+SUB231342	Atopic	PMF	4694	Pollution Monitoring Pickup	1.0	complete	pm	2	3	5	0	0	0			0		0		0		0								1	16:25:00	16:30:00	83
+SUB231342	Atopic	PMF	45306	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	07:02:00	07:03:00	1827
+SUB231343	Atopic	PMF	4856	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		0		0								1	08:23:00	08:24:00	94
+SUB231343	Atopic	PMF	43779	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			0		1	6	1	3	0								0	09:10:00	09:10:00	1670
+SUB231345	Atopic	PMF	43901	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								1	13:20:00	13:21:00	1731
+SUB231345	Atopic	PMF	4974	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:15:00	09:15:00	84
+SUB231346	Atopic	PMF	8944	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	10:45:00	10:50:00	162
+SUB231346	Atopic	PMF	43737	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	24	0								0	11:30:00	11:30:00	1662
+SUB231347	Atopic	PMF	5207	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	1	8	0								0	14:30:00	14:35:00	132
+SUB231348	Atopic	PMF	10950	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231350	Atopic	PMF	10390	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231351	Atopic	PMF	10954	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231352	Atopic	PMF	45357	Pollution Monitoring Pickup	1.0	complete	pm	4	20	20	1	2	0			1	2	1	1	0		0								0	11:15:00	11:16:00	1799
+SUB231352	Atopic	PMF	31169	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231352	Atopic	PMF	10952	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231353	Atopic	PMF	5615	Pollution Monitoring Pickup	1.0	complete	pm	1	0		2		0			0		1	12	0		0								1	10:10:00	10:09:00	106
+SUB231353	Atopic	PMF	44848	Pollution Monitoring Pickup	1.0	complete	pm	1	1		8		0			0		1	12	1	12	0								1	08:35:00	08:35:00	1763
+SUB231354	Atopic	PMF	5631	Pollution Monitoring Pickup	1.0	complete	pm	3	3	3	0	0	0			0		1	24	1	3	0								0	12:09:00	12:10:00	139
+SUB231355	Atopic	PMF	44953	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		1	24	1	12	0								0	08:45:00	08:45:00	1773
+SUB231355	Atopic	PMF	10255	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0		10:38:00	277
+SUB231356	Atopic	PMF	5711	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	14:17:00	14:16:00	96
+SUB231356	Atopic	PMF	45339	Pollution Monitoring Pickup	1.0	complete	pm	3	5	5	0	0	0			0		1	24	0		1	24	0	1	0	0	0	0	0	12:50:00	12:50:00	1789
+SUB231357	Atopic	PMF	44255	Pollution Monitoring Pickup	1.0	complete	pm	1	6		2		0			0		0		1	24	0								1	10:00:00	10:01:00	1693
+SUB231357	Atopic	PMF	5857	Pollution Monitoring Pickup	1.0	complete	pm	1	15		0		0			0		1	10	0		0								0	09:59:00	10:00:00	120
+SUB231358	Atopic	PMF	10333	Pollution Monitoring Pickup	1.0	complete	pm	2	20	20	0	0	0			0		1	24	0		0								0	09:20:00	09:22:00	145
+SUB231359	Atopic	PMF	5914	Pollution Monitoring Pickup	1.0	complete	pm	0					1	1	1	0		1	10	0		0								1	09:25:00	09:25:00	86
+SUB231360	Atopic	PMF	5967	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:50:00	09:50:00	101
+SUB231360	Atopic	PMF	45996	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	08:45:00	08:45:00	1833
+SUB231361	Atopic	PMF	6027	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	20	0								0	13:30:00	13:35:00	105
+SUB231362	Atopic	PMF	10956	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231363	Atopic	PMF	45585	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	09:08:00	09:08:00	1793
+SUB231363	Atopic	PMF	6298	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	4	1	6	0								1	11:49:00	11:49:00	146
+SUB231364	Atopic	PMF	6330	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	12:28:00	12:28:00	142
+SUB231365	Atopic	PMF	6430	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	1	0								1	16:57:00	16:58:00	87
+SUB231365	Atopic	PMF	45770	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	1	8	0								1	09:45:00	09:46:00	1782
+SUB231366	Atopic	PMF	6585	Pollution Monitoring Pickup	1.0	complete	pm	4	20	20	0	0	0			0		1	24	0		0								0	10:05:00	10:07:00	103
+SUB231366	Atopic	PMF	43781	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	24	0								0	11:10:00	11:10:00	1608
+SUB231367	Atopic	PMF	46337	Pollution Monitoring Pickup	1.0	complete	pm																								09:35:00	09:35:00	1825
+SUB231367	Atopic	PMF	10909	Pollution Monitoring Pickup	1.0	complete	pm	1	15		2		0			0		1	4	1	19	0								0	10:07:00	10:09:00	146
+SUB231368	Atopic	PMF	6756	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	8	1	24	0								1	08:05:00	08:08:00	106
+SUB231368	Atopic	PMF	43728	Pollution Monitoring Pickup	1.0	complete	pm	2	2	1	0	0	0			0		1	24	1	24	0								0	10:00:00	10:00:00	1610
+SUB231369	Atopic	PMF	44148	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			1	1	0		1	24	0								0	11:40:00	11:40:00	1645
+SUB231369	Atopic	PMF	6806	Pollution Monitoring Pickup	1.0	complete	pm	3	2	10	0	0	0			0		1	24	1	12	0								0	08:40:00	08:45:00	113
+SUB231370	Atopic	PMF	11453	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231371	Atopic	PMF	7079	Pollution Monitoring Pickup	1.0	complete	pm	3	10	10	0	0	0			0		1	24	1	6	0								0	08:51:00	08:51:00	100
+SUB231372	Atopic	PMF	7166	Pollution Monitoring Pickup	1.0	complete	pm	2	28	28	0	0	0			0		0		0		0								0	08:10:00	08:12:00	102
+SUB231372	Atopic	PMF	44440	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	0	0	0			0		0		1	24	0								0	09:00:00	09:01:00	1672
+SUB231373	Atopic	PMF	7214	Pollution Monitoring Pickup	1.0	complete	pm	3	2	4	1	1	0			0		1	1	1	8	0								0	11:25:00	11:30:00	122
+SUB231373	Atopic	PMF	45510	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	1	1	1	0	10	0		1	4	0		0								0	10:05:00	10:05:00	1755
+SUB231374	Atopic	PMF	7328	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	8	0								0	11:17:00	11:17:00	126
+SUB231374	Atopic	PMF	43585	Pollution Monitoring Pickup	1.0	complete	pm	2	5	10	0	0	0			0		0		1	12	0								0	11:05:00	11:05:00	1565
+SUB231376	Atopic	PMF	45771	Pollution Monitoring Pickup	1.0	complete	pm	10	20	20	1	1	0			0		0		0		0								0	13:40:00	13:40:00	1756
+SUB231376	Atopic	PMF	7712	Pollution Monitoring Pickup	1.0	complete	pm																								13:24:00	13:24:00	149
+SUB231377	Atopic	PMF	7808	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	3	0								1	10:30:00	10:31:00	100
+SUB231377	Atopic	PMF	45772	Pollution Monitoring Pickup	1.0	complete	pm	1	10		1		0			0		1	3	0		0								0	10:20:00	10:20:00	1741
+SUB231378	Atopic	PMF	45599	Pollution Monitoring Pickup	1.0	complete	pm	1	2		1		0			0		0		0		0								1	09:32:00	09:33:00	1737
+SUB231378	Atopic	PMF	7852	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		1	24	0								0	05:52:00	09:52:00	115
+SUB231379	Atopic	PMF	8025	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	24	0								0	10:03:00	10:03:00	120
+SUB231379	Atopic	PMF	45449	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								1	09:20:00	09:21:00	1725
+SUB231380	Atopic	PMF	13214	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		1	24	0								0	09:15:00	09:15:00	182
+SUB231380	Atopic	PMF	44492	Pollution Monitoring Pickup	1.0	complete	pm	3	10	5	0	0	0			0		1	4	1	24	0								0	15:00:00	15:05:00	1648
+SUB231381	Atopic	PMF	44673	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	1	1	8	0								1	13:35:00	13:36:00	1654
+SUB231381	Atopic	PMF	12229	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	12	0								0	11:28:00	11:28:00	181
+SUB231382	Atopic	PMF	8444	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1		1		0								0	10:41:00	10:41:00	95
+SUB231382	Atopic	PMF	45156	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	11:45:00	11:45:00	1698
+SUB231383	Atopic	PMF	8566	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	24	0								1	11:27:00	11:27:00	144
+SUB231384	Atopic	PMF	8604	Pollution Monitoring Pickup	1.0	complete	pm	3			0	0	0			0		0		0		0								0	11:29:00	11:29:00	106
+SUB231384	Atopic	PMF	47080	Pollution Monitoring Pickup	1.0	complete	pm	2	20	10	1	1	0			0		0		0		0								0	10:35:00	10:36:00	1819
+SUB231385	Atopic	PMF	13149	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231386	Atopic	PMF	8734	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	16	1	24	0								0	10:57:00	11:02:00	154
+SUB231387	Atopic	PMF	46340	Pollution Monitoring Pickup	1.0	complete	pm	1	0		0		0			0		0		0		0								0	09:05:00	09:06:00	1762
+SUB231387	Atopic	PMF	13151	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231388	Atopic	PMF	9007	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	13:00:00	13:00:00	111
+SUB231388	Atopic	PMF	46584	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	10:17:00	10:17:00	1776
+SUB231389	Atopic	PMF	18072	Pollution Monitoring Pickup	1.0	complete	pm	8	13	6	0	0	0			0		0		0		0								0	10:50:00	10:55:00	329
+SUB231389	Atopic	PMF	44439	Pollution Monitoring Pickup	1.0	complete	pm	2	25	25	0	0	0			0		0		1	24	1	24	0	0	0	0	1	0	0	09:31:00	09:32:00	1621
+SUB231390	Atopic	PMF	46587	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		0		0								1	09:38:00	09:38:00	1773
+SUB231390	Atopic	PMF	9039	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	24	0								0	10:47:00	10:47:00	132
+SUB231391	Atopic	PMF	46625	Pollution Monitoring Pickup	1.0	complete	pm	1	5		1		0			0		0		0		0								0	10:45:00	10:45:00	1771
+SUB231391	Atopic	PMF	9055	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								0	11:27:00	11:27:00	103
+SUB231392	Atopic	PMF	9191	Pollution Monitoring Pickup	1.0	complete	pm	2	6	6	0	0	0			0		1	24	1	24	0								0	14:56:00	14:56:00	135
+SUB231392	Atopic	PMF	44073	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	10:50:00	10:50:00	1562
+SUB231393	Atopic	PMF	14452	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	24	0								1	10:15:00	10:17:00	211
+SUB231394	Atopic	PMF	47487	Pollution Monitoring Pickup	1.0	complete	pm	2	12	12	1	1	0			0		1	3	1	2	0								0	10:50:00	10:51:00	1827
+SUB231394	Atopic	PMF	9441	Pollution Monitoring Pickup	1.0	complete	pm	3	12	12	0	0	0			0		0		1	24	0								0	13:37:00	13:37:00	131
+SUB231395	Atopic	PMF	47079	Pollution Monitoring Pickup	1.0	complete	pm	1	5		1		0			0		1	2	0		0								1	12:05:00	12:06:00	1792
+SUB231395	Atopic	PMF	9484	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	14:31:00	14:31:00	127
+SUB231396	Atopic	PMF	9503	Pollution Monitoring Pickup	1.0	complete	pm	15	10		0	0	0			0		0		1	24	0								1	13:23:00	13:23:00	106
+SUB231396	Atopic	PMF	44671	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	8	1	24	0								1	12:35:00	12:36:00	1627
+SUB231397	Atopic	PMF	9571	Pollution Monitoring Pickup	1.0	complete	pm	4	7	7	0	0	0			0		0		1	24	0								0	08:27:00	08:27:00	110
+SUB231398	Atopic	PMF	16449	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231398	Atopic	PMF	44913	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	2	0								0	11:08:00	11:08:00	1644
+SUB231400	Atopic	PMF	22606	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231400	Atopic	PMF	14213	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231400	Atopic	PMF	47486	Pollution Monitoring Pickup	1.0	complete	pm	1	5		1		0			0		0		0		0								0	10:15:00	10:25:00	1809
+SUB231401	Atopic	PMF	9985	Pollution Monitoring Pickup	1.0	complete	pm	2	5	3	0	0	0			0		1	1	1	24	0								1	14:07:00	14:07:00	108
+SUB231401	Atopic	PMF	45160	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	1	1	0			0		1	8	1	1	0								0	12:15:00	12:16:00	1649
+SUB231402	Atopic	PMF	12974	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	13:09:00	13:09:00	279
+SUB231402	Atopic	PMF	47526	Pollution Monitoring Pickup	1.0	complete	pm	2	10	10	1	1	0			0		0		0		0								1	14:40:00	14:42:00	1806
+SUB231403	Atopic	PMF	45600	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	09:32:00	09:32:00	1669
+SUB231403	Atopic	PMF	10269	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	11:37:00	11:42:00	107
+SUB231404	Atopic	PMF	10293	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								1	09:41:00	09:41:00	146
+SUB231404	Atopic	PMF	47182	Pollution Monitoring Pickup	1.0	complete	pm	2	4	4	0	0	0			0		0		0		0								1	10:46:00	10:46:00	1782
+SUB231405	Atopic	PMF	10637	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	1	24	0								1	09:52:00	09:52:00	107
+SUB231405	Atopic	PMF	45193	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	3	1	8	0								1	15:25:00	15:26:00	1636
+SUB231406	Atopic	PMF	47527	Pollution Monitoring Pickup	1.0	complete	pm	4	6	6	1	1	0			0		1	3	0		0								1	13:10:00	13:12:00	1786
+SUB231406	Atopic	PMF	10693	Pollution Monitoring Pickup	1.0	complete	pm	2	1	1	0	0	0			0		1	2	1	24	0								1	09:50:00	09:50:00	120
+SUB231407	Atopic	PMF	10885	Pollution Monitoring Pickup	1.0	complete	pm	1			0		0			0		1	3	1		0								0	11:04:00	11:04:00	150
+SUB231408	Atopic	PMF	11131	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	1	24	1	24	0	0	0	0	1	0	1	10:58:00	10:58:00	111
+SUB231409	Atopic	PMF	11149	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	09:07:00	09:07:00	116
+SUB231410	Atopic	PMF	11445	Pollution Monitoring Pickup	1.0	complete	pm	4	5	5	3	2	0			0		1	24	1	6	0								0	09:41:00	09:43:00	115
+SUB231410	Atopic	PMF	47378	Pollution Monitoring Pickup	1.0	complete	pm	1	4		1		0			0		0		1	6	0								0	12:08:00	12:09:00	1747
+SUB231411	Atopic	PMF	47629	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	24	0								1	10:31:00	10:32:00	1768
+SUB231411	Atopic	PMF	11702	Pollution Monitoring Pickup	1.0	complete	pm	0					1	0	7	0		0		1	24	0								1	11:15:00	11:15:00	116
+SUB231412	Atopic	PMF	15650	Pollution Monitoring Pickup	1.0	complete	pm	3	1	1	0	0	0			0		1	10	0		0								0	14:21:00	14:21:00	293
+SUB231412	Atopic	PMF	47597	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		0		0		0								0	11:40:00	11:41:00	1767
+SUB231413	Atopic	PMF	48145	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	12	0								0	09:05:00	09:07:00	1815
+SUB231413	Atopic	PMF	11824	Pollution Monitoring Pickup	1.0	complete	pm	5	8	5	0	0	0			0		0		1	3	0								0	09:20:00	09:20:00	106
+SUB231414	Atopic	PMF	47715	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	4	0		0								1	09:49:00	09:49:00	1759
+SUB231414	Atopic	PMF	12118	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	09:27:00	09:32:00	106
+SUB231415	Non-atopic	PMF	44847	Pollution Monitoring Pickup	1.0	complete	pm	2	7	4	0	0	0			0		1	3	1	4	0								1	11:34:00	11:34:00	1558
+SUB231415	Non-atopic	PMF	12133	Pollution Monitoring Pickup	1.0	complete	pm	2	20	20	0	0	0			0		1	24	0		0								0	09:25:00	09:25:00	114
+SUB231416	Atopic	PMF	12311	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	15:02:00	15:04:00	87
+SUB231417	Atopic	PMF	12331	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	2	0								1	10:02:00	10:02:00	106
+SUB231417	Atopic	PMF	47108	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	1	0		0								0	12:15:00	12:16:00	1698
+SUB231418	Atopic	PMF	47596	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	1	0		0								0	08:05:00	08:06:00	1738
+SUB231418	Atopic	PMF	12453	Pollution Monitoring Pickup	1.0	complete	pm	3	6	0	0	2	0			0		0		0		0								0	14:07:00	14:07:00	134
+SUB231419	Atopic	PMF	12674	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		1	16	1	1	0								0	08:56:00	08:56:00	94
+SUB231419	Atopic	PMF	48211	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	2	2	0			0		1	24	1	24	0								1	13:30:00	13:32:00	1796
+SUB231420	Atopic	PMF	19770	Pollution Monitoring Pickup	1.0	complete	pm	2	3	3	0	0	0			0		1	5	0		0								0	14:47:00	14:47:00	312
+SUB231420	Atopic	PMF	48055	Pollution Monitoring Pickup	1.0	complete	pm	2	2	2	1	1	0			0		1	8	0		0								1	08:37:00	08:37:00	1784
+SUB231421	Atopic	PMF	45197	Pollution Monitoring Pickup	1.0	complete	pm	1	0		0		0			0		1	1	1	9	0								1	11:30:00	11:30:00	1567
+SUB231421	Atopic	PMF	12706	Pollution Monitoring Pickup	1.0	complete	pm	4	10	10	0	0	0			0		1	24	1	1	0								1	11:22:00	11:22:00	115
+SUB231422	Atopic	PMF	48214	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		1	8	1	24	0								1	09:45:00	09:46:00	1788
+SUB231422	Atopic	PMF	17186	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231423	Atopic	PMF	48218	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	12	1	12	0								1	09:05:00	09:06:00	1785
+SUB231423	Atopic	PMF	16289	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	1	0		0								1	15:14:00	15:14:00	195
+SUB231424	Atopic	PMF	48481	Pollution Monitoring Pickup	1.0	complete	pm	1	2		1		0			0		0		1	24	0								1	19:30:00	19:31:00	1794
+SUB231424	Atopic	PMF	13231	Pollution Monitoring Pickup	1.0	complete	pm	0					0			1	13	0		0		0								1	10:08:00	10:08:00	136
+SUB231425	Non-atopic	PMF	13331	Pollution Monitoring Pickup	1.0	complete	pm	1	0		3		0			0		1	6	0		0								1	12:41:00	12:41:00	113
+SUB231425	Non-atopic	PMF	48436	Pollution Monitoring Pickup	1.0	complete	pm	1	2		1		0			0		0		1	24	0								0	14:02:00	14:03:00	1795
+SUB231426	Atopic	PMF	13440	Pollution Monitoring Pickup	1.0	complete	pm	1	12		0		0			0		0		0		0								0	14:02:00	14:02:00	129
+SUB231426	Atopic	PMF	48993	Pollution Monitoring Pickup	1.0	complete	pm	1	3		1		0			0		1	24	0		0								1	13:45:00	13:46:00	1842
+SUB231427	Atopic	PMF	13561	Pollution Monitoring Pickup	1.0	complete	pm	2	7	3	0	0	0			1	8	1	4	0		0								0	08:40:00	08:40:00	128
+SUB231427	Atopic	PMF	48234	Pollution Monitoring Pickup	1.0	complete	pm	2	10	3	0	2	0			0		1	24	1	24	0								1	14:31:00	14:33:00	1767
+SUB231428	Atopic	PMF	13577	Pollution Monitoring Pickup	1.0	complete	pm	1	10		0		0			0		1	5	1	1	0								1	16:00:00	16:00:00	107
+SUB231428	Atopic	PMF	48143	Pollution Monitoring Pickup	1.0	complete	pm	2	20	20	0	0	0			0		0		1	24	0								1	09:31:00	09:32:00	1754
+SUB231429	Non-atopic	PMF	18447	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231429	Non-atopic	PMF	48233	Pollution Monitoring Pickup	1.0	complete	pm	5	4	4	1	1	0			0		1	6	1	24	0								1	12:45:00	12:46:00	1762
+SUB231430	Non-atopic	PMF	13845	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	13:25:00	13:25:00	89
+SUB231430	Non-atopic	PMF	48491	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	12:35:00	12:36:00	1771
+SUB231431	Non-atopic	PMF	13879	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		0		0		0								0	07:28:00	07:28:00	101
+SUB231432	Non-atopic	PMF	19772	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231432	Non-atopic	PMF	48991	Pollution Monitoring Pickup	1.0	complete	pm	2	10	5	1	1	0			0		0		0		0								0	11:10:00	11:10:00	1831
+SUB231433	Atopic	PMF	14034	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		0		0		0								0	12:46:00	12:46:00	79
+SUB231433	Atopic	PMF	48215	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	5	0								0	10:30:00	10:32:00	1746
+SUB231434	Non-atopic	PMF	17284	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	5	1	1	0								1	14:01:00	14:01:00	238
+SUB231434	Non-atopic	PMF	48964	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		1	5	1	3	0								1	09:50:00	09:51:00	1827
+SUB231435	Atopic	PMF	48492	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	07:31:00	07:32:00	1763
+SUB231435	Atopic	PMF	19783	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231436	Atopic	PMF	14131	Pollution Monitoring Pickup	1.0	complete	pm	3	2	0	0	1	0			0		1	1	0		0								1	13:52:00	13:52:00	96
+SUB231436	Atopic	PMF	48144	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	10	0								0	10:30:00	10:35:00	1751
+SUB231437	Atopic	PMF	14612	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	11:23:00	11:23:00	144
+SUB231437	Atopic	PMF	48722	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	13:20:00	13:21:00	1782
+SUB231438	Non-atopic	PMF	14625	Pollution Monitoring Pickup	1.0	complete	pm	2	6	8	0	0	0			0		1	1	0		1	24	0	1	0	0	0	0	1	14:28:00	14:28:00	89
+SUB231438	Non-atopic	PMF	48720	Pollution Monitoring Pickup	1.0	complete	pm	1	6		1		0			0		1	24	1	24	0								1	13:55:00	13:55:00	1779
+SUB231439	Non-atopic	PMF	47698	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	6	1	1	0								0	10:27:00	10:27:00	1674
+SUB231439	Non-atopic	PMF	14820	Pollution Monitoring Pickup	1.0	complete	pm	3	7	2	0	0	0			0		0		0		0								0	09:18:00	09:18:00	89
+SUB231440	Atopic	PMF	14899	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		0		0								0	10:18:00	10:18:00	103
+SUB231440	Atopic	PMF	48549	Pollution Monitoring Pickup	1.0	complete	pm	1	20		0		0			0		0		1	24	0								0	12:02:00	12:03:00	1750
+SUB231441	Atopic	PMF	48717	Pollution Monitoring Pickup	1.0	complete	pm	1	1		1		0			0		0		1	24	0								1	15:05:00	15:06:00	1781
+SUB231441	Atopic	PMF	18597	Pollution Monitoring Pickup	1.0	complete	pm	2	3	3	0	0	0			0		1	2	0		0								1	09:30:00	09:30:00	178
+SUB231442	Atopic	PMF	47638	Pollution Monitoring Pickup	1.0	complete	pm	1	4		1		0			0		1	2	0		0								1	09:45:00	09:46:00	1684
+SUB231442	Atopic	PMF	14962	Pollution Monitoring Pickup	1.0	complete	pm	3	7	6	0	0	0			0		0		0		0								0	11:58:00	11:58:00	111
+SUB231443	Atopic	PMF	48623	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								1	15:45:00	15:45:00	1760
+SUB231443	Atopic	PMF	14978	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		1	4	0	0	0	0	1	0	1	11:53:00	11:53:00	92
+SUB231444	Atopic	PMF	15122	Pollution Monitoring Pickup	1.0	complete	pm	4	20	10	0	0	1	0	24	1	24	0		0		0								0	12:06:00	12:06:00	127
+SUB231444	Atopic	PMF	49215	Pollution Monitoring Pickup	1.0	complete	pm	2	30	5	1	1	0			0		1	12	1	24	0								0	09:00:00	09:01:00	1814
+SUB231445	Atopic	PMF	15280	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			1	8	0		0		0								0	14:21:00	14:21:00	117
+SUB231445	Atopic	PMF	49214	Pollution Monitoring Pickup	1.0	complete	pm	1	14		0		0			0		1	8	1	24	0								1	13:35:00	13:36:00	1805
+SUB231446	Non-atopic	PMF	15336	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	14:40:00	14:40:00	89
+SUB231446	Non-atopic	PMF	47721	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	2	1	3	0								1	09:20:00	09:20:00	1659
+SUB231447	Non-atopic	PMF	18581	Pollution Monitoring Pickup	1.0	complete	pm	4	3	3	0	0	0			0		0		0		0								0	14:08:00	14:08:00	135
+SUB231448	Atopic	PMF	48662	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	3	1	24	0								0	10:15:00	10:15:00	1735
+SUB231448	Atopic	PMF	19775	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231449	Atopic	PMF	49147	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	1	24	0								1	08:35:00	08:35:00	1773
+SUB231449	Atopic	PMF	19777	Pollution Monitoring Pickup	1.0	complete	pm	3	13	4	1	0	0			0		0		1	24	0								0	17:02:00	17:02:00	278
+SUB231450	Atopic	PMF	49327	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	12:32:00	12:33:00	1779
+SUB231450	Atopic	PMF	18687	Pollution Monitoring Pickup	1.0	complete	pm	1	2		0		0			0		0		0		0								0	09:40:00	09:40:00	106
+SUB231451	Non-atopic	PMF	16603	Pollution Monitoring Pickup	1.0	complete	pm	1	30		0		0			0		0		0		0								0	10:32:00	10:32:00	87
+SUB231451	Non-atopic	PMF	48545	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		1	24	0								0	08:00:00	08:01:00	1700
+SUB231452	Non-atopic	PMF	17017	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	13:23:00	13:23:00	90
+SUB231452	Non-atopic	PMF	49212	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	12:31:00	12:32:00	1756
+SUB231453	Atopic	PMF	49658	Pollution Monitoring Pickup	1.0	complete	pm	0					1	1	8	0		1	8	1	8	0								0	15:15:00	15:16:00	1770
+SUB231453	Atopic	PMF	17200	Pollution Monitoring Pickup	1.0	complete	pm	1	20		0		0			0		0		0		0								1	08:30:00	08:30:00	82
+SUB231454	Atopic	PMF	17216	Pollution Monitoring Pickup	1.0	complete	pm	1	4		0		0			0		1	24	1	20	0								1	14:15:00	14:20:00	133
+SUB231454	Atopic	PMF	49648	Pollution Monitoring Pickup	1.0	complete	pm	1	10		1		0			0		1	5	0		0								1	09:35:00	09:36:00	1771
+SUB231455	Non-atopic	PMF	49697	Pollution Monitoring Pickup	1.0	complete	pm	2	5	5	1	1	0			0		0		0		0								0	13:50:00	13:51:00	1768
+SUB231455	Non-atopic	PMF	20537	Pollution Monitoring Pickup	1.0	complete	pm	20	10	10	0	0	0			0		1	4	0		0								0	09:45:00	09:45:00	305
+SUB231456	Non-atopic	PMF	19785	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	13:15:00	13:15:00	295
+SUB231456	Non-atopic	PMF	49695	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	08:55:00	08:56:00	1766
+SUB231457	Non-atopic	PMF	17631	Pollution Monitoring Pickup	1.0	complete	pm	1	0		3		0			0		1	3	1	4	0								1	11:09:00	11:09:00	94
+SUB231457	Non-atopic	PMF	48624	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	24	0								0	16:00:00	16:01:00	1668
+SUB231458	Atopic	PMF	17823	Pollution Monitoring Pickup	1.0	complete	pm	1	3		0		0			0		1	16	1	24	0								0	14:30:00	14:30:00	139
+SUB231459	Non-atopic	PMF	49647	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		1	6	0								0	09:00:00	09:01:00	1754
+SUB231459	Non-atopic	PMF	19494	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231460	Non-atopic	PMF	19800	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	24	0		0								0	11:18:00	11:18:00	280
+SUB231460	Non-atopic	PMF	49694	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		1	8	0		0								1	08:40:00	08:41:00	1755
+SUB231461	Atopic	PMF	20470	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231462	Non-atopic	PMF	47751	Pollution Monitoring Pickup	1.0	complete	pm	3	10	10	0	0	0			0		1	4	0		0								0	11:16:00	11:16:00	1615
+SUB231462	Non-atopic	PMF	19779	Pollution Monitoring Pickup	1.0	missing	.x																										
+SUB231463	Atopic	PMF	49959	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								1	10:15:00	10:15:00	1750
+SUB231463	Atopic	PMF	18440	Pollution Monitoring Pickup	1.0	complete	pm	1	5		0		0			0		0		0		0								1	11:20:00	11:30:00	84
+SUB231465	Non-atopic	PMF	20265	Pollution Monitoring Pickup	1.0	complete	pm	3	10	5	0	0	0			0		1	24	1	24	0								0	10:25:00	10:25:00	221
+SUB231465	Non-atopic	PMF	49921	Pollution Monitoring Pickup	1.0	complete	pm	5	5	5	1	1	0			0		1	24	0		0								1	15:41:00	15:40:00	1732
+SUB231466	Atopic	PMF	49918	Pollution Monitoring Pickup	1.0	complete	pm	1	6		1		0			0		0		1	4	0								0	14:35:00	14:36:00	1730
+SUB231466	Atopic	PMF	18625	Pollution Monitoring Pickup	1.0	complete	pm	2	6	6	0	0	0			0		1	24	1	5	0								0	15:08:00	15:08:00	99
+SUB231467	Atopic	PMF	18702	Pollution Monitoring Pickup	1.0	complete	pm	1	6		0		0			0		1	24	1	24	0								0	11:25:00	11:27:00	100
+SUB231467	Atopic	PMF	47883	Pollution Monitoring Pickup	1.0	complete	pm	1	2		1		0			0		1	5	1	4	0								0	10:10:00	10:10:00	1549
+SUB231468	Atopic	PMF	48656	Pollution Monitoring Pickup	1.0	complete	pm	2	20	20	0	0	0			0		0		1	24	0								0	11:05:00	11:06:00	1609
+SUB231468	Atopic	PMF	18919	Pollution Monitoring Pickup	1.0	complete	pm	1	15		0		0			0		1	15	1	15	0								0	14:10:00	14:15:00	99
+SUB231469	Non-atopic	PMF	19042	Pollution Monitoring Pickup	1.0	complete	pm	0					0			0		0		0		0								0	13:32:00	13:32:00	104
+SUB231469	Non-atopic	PMF	49325	Pollution Monitoring Pickup	1.0	complete	pm	0					1	1	8	0		0		0		0								0	12:01:00	12:02:00	1674
+SUB231470	Non-atopic	PMF	19396	Pollution Monitoring Pickup	1.0	complete	pm	50	10	1	0	0	0			0		1	1	1	24	0								0	16:00:00	16:00:00	101
+SUB231470	Non-atopic	PMF	49915	Pollution Monitoring Pickup	1.0	complete	pm	3	5	5	0	0	1	1	24	0		0		0		0								0	14:45:00	14:46:00	1684

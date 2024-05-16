@@ -1,0 +1,125 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	443	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""RIFPC"", ""RIFPC"")"
+3	4	evid	evid	dbl	numeric	double	2061	0	c(990, 47074)
+4	5	event	event	chr	character	character	1	0	"c(""Respiratory Illness Followup Call"", ""Respiratory Illness Followup Call"")"
+5	6	version	version	chr	character	character	11	0	"c(""1.10"", ""1.9"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""r"")"
+8	9	RIFPC_q2	Child Still Sick	dbl	numeric	double	3	462	c(0, 1)
+9	10	RIFPC_q2a	Number of Days Illness Lasted	dbl	numeric	double	47	1061	c(1, 90)
+10	11	RIFPC_q3	Child See Doctor for Illness	dbl	numeric	double	3	462	c(0, 1)
+11	12	RIFPC_q3a	Number of Times Seen By Doctor For Illness	dbl	numeric	double	5	1546	c(1, 4)
+12	13	RIFPC_q3c1	Most Recent Visit To Doctor - Month Estimated	dbl	numeric	double	3	1546	c(0, 1)
+13	14	RIFPC_q3d1	Most Recent Visit To Doctor - Day Estimated	dbl	numeric	double	3	1546	c(0, 1)
+14	15	RIFPC_q3e1	Most Recent Visit to Doctor - Scheduled/Unscheduled	dbl	numeric	double	5	1546	c(1, 4)
+15	16	RIFPC_q3f1	Most Recent Visit to Doctor - Well Child/Sick	dbl	numeric	double	4	1546	c(1, 3)
+16	17	RIFPC_q3g1	Most Recent Visit to Doctor - First Diagnosis	dbl	numeric	double	16	1548	c(0, 17)
+17	18	RIFPC_q3h1	Most Recent Visit to Doctor - Second Diagnosis	dbl	numeric	double	14	1902	c(0, 17)
+18	19	RIFPC_q3i1	Most Recent Visit to Doctor - Third Diagnosis	dbl	numeric	double	3	2059	c(0, 8)
+19	20	RIFPC_q3i_1_1	Most Recent Visit to Doctor - Nebulizer/Inhaler Treatment	dbl	numeric	double	3	1636	c(0, 1)
+20	21	RIFPC_q3k1	Most Recent Visit To Doctor - Completion of Form 54	dbl	numeric	double	3	2006	c(0, 1)
+21	22	RIFPC_q3c2	Visit #2 to Doctor - Month Estimated	dbl	numeric	double	3	1991	c(0, 1)
+22	23	RIFPC_q3d2	Visit #2 to Doctor - Day Estimated	dbl	numeric	double	3	1991	c(0, 1)
+23	24	RIFPC_q3e2	Visit #2 to Doctor - Scheduled/Unscheduled	dbl	numeric	double	5	1991	c(1, 4)
+24	25	RIFPC_q3f2	Visit #2 to Doctor - Well Child/Sick	dbl	numeric	double	4	1991	c(1, 3)
+25	26	RIFPC_q3g2	Visit #2 to Doctor - First Diagnosis	dbl	numeric	double	15	1991	c(0, 17)
+26	27	RIFPC_q3h2	Visit #2 to Doctor - Second Diagnosis	dbl	numeric	double	9	2027	c(0, 15)
+27	28	RIFPC_q3i2	Visit #2 to Doctor - Third Diagnosis	dbl	numeric	double	1	2061	
+28	29	RIFPC_q3i_1_2	Visit #2 to Doctor - Nebulizer/Inhaler Treatment	dbl	numeric	double	3	2001	c(0, 1)
+29	30	RIFPC_q3k2	Visit #2 to Doctor - Completion of Form 54	dbl	numeric	double	3	2046	c(0, 1)
+30	31	RIFPC_q3c3	Visit #3 to Doctor - Month Estimated	dbl	numeric	double	2	2048	c(0, 0)
+31	32	RIFPC_q3d3	Visit #3 to Doctor - Day Estimated	dbl	numeric	double	3	2048	c(0, 1)
+32	33	RIFPC_q3e3	Visit #3 to Doctor - Scheduled/Unscheduled	dbl	numeric	double	5	2048	c(1, 4)
+33	34	RIFPC_q3f3	Visit #3 to Doctor - Well Child/Sick	dbl	numeric	double	3	2048	c(1, 2)
+34	35	RIFPC_q3g3	Visit #3 to Doctor - First Diagnosis	dbl	numeric	double	8	2048	c(0, 15)
+35	36	RIFPC_q3h3	Visit #3 to Doctor - Second Diagnosis	dbl	numeric	double	3	2056	c(0, 8)
+36	37	RIFPC_q3i3	Visit #3 to Doctor - Thrid Diagnosis	dbl	numeric	double	1	2061	
+37	38	RIFPC_q3i_1_3	Visit #3 to Doctor - Nebulizer/Inhaler Treatment	dbl	numeric	double	3	2051	c(0, 1)
+38	39	RIFPC_q3k3	Visit #3 to Doctor - Completion of Form 54	dbl	numeric	double	2	2058	c(0, 0)
+39	40	RIFPC_q3c4	Visit #4 to Doctor - Month Estimated	dbl	numeric	double	2	2058	c(0, 0)
+40	41	RIFPC_q3d4	Visit #4 to Doctor - Day Estimated	dbl	numeric	double	2	2058	c(0, 0)
+41	42	RIFPC_q3e4	Visit #4 to Doctor - Scheduled/Unscheduled	dbl	numeric	double	3	2058	c(2, 4)
+42	43	RIFPC_q3f4	Visit #4 to Doctor - Well Child/Sick	dbl	numeric	double	2	2058	c(1, 1)
+43	44	RIFPC_q3g4	Visit #4 to Doctor - First Diagnosis	dbl	numeric	double	3	2058	c(7, 8)
+44	45	RIFPC_q3h4	Visit #4 to Doctor - Second Diagnosis	dbl	numeric	double	2	2060	c(14, 14)
+45	46	RIFPC_q3i4	Visit #4 to Doctor - Third Diagnosis	dbl	numeric	double	1	2061	
+46	47	RIFPC_q3i_1_4	Visit #4 to Doctor - Nebulizer/Inhaler Treatment	dbl	numeric	double	2	2060	c(0, 0)
+47	48	RIFPC_q3k4	Visit #4 to Doctor - Completion of Form 54	dbl	numeric	double	2	2060	c(0, 0)
+48	49	RIFPC_q4	Overnight Stay in Hospital	dbl	numeric	double	3	462	c(0, 1)
+49	50	RIFPC_q4a	Number of Different Admissions to Hospital	dbl	numeric	double	2	2047	c(1, 1)
+50	51	RIFPC_q4c1	Most Recent Hospitalization - Month Estimated	dbl	numeric	double	2	2047	c(0, 0)
+51	52	RIFPC_q4d1	Most Recent Hospitalization - Day Estimated	dbl	numeric	double	2	2047	c(0, 0)
+52	53	RIFPC_q4e1	Most Recent Hospitalization - Number of Days	dbl	numeric	double	7	2047	c(1, 7)
+53	54	RIFPC_q4f1	Most Recent Hospitalization - First Reason	dbl	numeric	double	8	2047	c(1, 13)
+54	55	RIFPC_q4g1	Most Recent Hospitalization - Second Reason	dbl	numeric	double	4	2056	c(0, 13)
+55	56	RIFPC_q4g1a1	Most Recent Hospitalization - Specify Other Second Reason	chr	character	character	3	0	"c("".a"", ""rapidly breathing"")"
+56	57	RIFPC_q4h1	Most Recent Hospitalization - Third Reason	dbl	numeric	double	1	2061	
+57	58	RIFPC_q4h_1_1	Most Recent Hospitalization - Nebulizer/Inhaler Treatment	dbl	numeric	double	3	2049	c(0, 1)
+58	59	RIFPC_q4i1	Most Recent Hospitalization - Child Was in ICU	dbl	numeric	double	3	2047	c(0, 1)
+59	60	RIFPC_q4i1a	Most Recent Hospitalization - Number of Days in ICU	dbl	numeric	double	4	2058	c(2, 4)
+60	61	RIFPC_q4k1	Most Recent Hospitalization - Completion of Form 54	dbl	numeric	double	3	2052	c(0, 1)
+61	62	RIFPC_q4l1	Most Recent Hospitalization - Related to Study	dbl	numeric	double	2	2056	c(0, 0)
+62	63	RIFPC_q4c2	Admission #2 in Hospital - Month Estimated	dbl	numeric	double	1	2061	
+63	64	RIFPC_q4d2	Admission #2 in Hospital - Day Estimated	dbl	numeric	double	1	2061	
+64	65	RIFPC_q4e2	Admission #2 in Hospital - Number of Days	dbl	numeric	double	1	2061	
+65	66	RIFPC_q4f2	Admission #2 in Hospital - First Reason	dbl	numeric	double	1	2061	
+66	67	RIFPC_q4g2	Admission #2 in Hospital - Second Reason	dbl	numeric	double	1	2061	
+67	68	RIFPC_q4g1b	Admission #2 in Hospital - Specify Other Second Reason	chr	character	character	2	0	"c("".a"", "".x"")"
+68	69	RIFPC_q4h2	Admission #2 in Hospital - Third Reason	dbl	numeric	double	1	2061	
+69	70	RIFPC_q4h_1_2	Admission #2 in Hospital - Nebulizer/Inhaler Treatment	dbl	numeric	double	1	2061	
+70	71	RIFPC_q4i2	Admission #2 in Hospital - Child Was in ICU	dbl	numeric	double	1	2061	
+71	72	RIFPC_q4i1b	Admission #2 in Hospital - Number of Days in ICU	dbl	numeric	double	1	2061	
+72	73	RIFPC_q4k2	Admission #2 - Completion of Form 54	dbl	numeric	double	1	2061	
+73	74	RIFPC_q4l2	Admission #2 - Related to Study	dbl	numeric	double	1	2061	
+74	75	RIFPC_q5	Medicine Given To Child for Illness	dbl	numeric	double	3	647	c(0, 1)
+75	76	RIFPC_q5a1	Medicine/Treatments - Antihistamine	dbl	numeric	double	3	1119	c(0, 1)
+76	77	RIFPC_q5a2	Medicine/Treatments - Albuterol Syrup	dbl	numeric	double	3	935	c(0, 1)
+77	78	RIFPC_q5a3	Medicine/Treatments - Antibiotic	dbl	numeric	double	3	1119	c(0, 1)
+78	79	RIFPC_q5a4	Medicine/Treatments - Albuterol Inhaled	dbl	numeric	double	3	935	c(0, 1)
+79	80	RIFPC_q5a5	Medicine/Treatments - Oral Corticosteroid	dbl	numeric	double	3	935	c(0, 1)
+80	81	RIFPC_q5a6	Medicine/Treatments - Inhaled Steroids	dbl	numeric	double	3	935	c(0, 1)
+81	82	RIFPC_q5a7	Medicine/Treatments - Nasal Steroid	dbl	numeric	double	3	1119	c(0, 1)
+82	83	RIFPC_q5a8	Medicine/Treatments - Leukotriene Modifier	dbl	numeric	double	3	935	c(0, 1)
+83	84	RIFPC_q5a9	Medicine/Treatments - Long Term Controller Medication	dbl	numeric	double	3	935	c(0, 1)
+84	85	RIFPC_q5a10	Medicine/Treatments - Tylenol	dbl	numeric	double	3	1120	c(0, 1)
+85	86	RIFPC_q5a11	Medicine/Treatments - Ibuprofen	dbl	numeric	double	3	1121	c(0, 1)
+86	87	RIFPC_q5a12	Medicine/Treatments - Cough Syrup	dbl	numeric	double	3	1119	c(0, 1)
+87	88	RIFPC_q5a13	Medicine/Treatments - Combination Cold Medication	dbl	numeric	double	3	1119	c(0, 1)
+88	89	RIFPC_q5a14	Medicine/Treatments - Oxygen	dbl	numeric	double	3	1119	c(0, 1)
+89	90	RIFPC_q5a15	Medicine/Treatments - Other	dbl	numeric	double	3	1119	c(0, 1)
+90	91	RIFPC_q6	Child has a Cough	dbl	numeric	double	3	463	c(0, 1)
+91	92	RIFPC_q6a1	Descriptions of Cough - Daytime	dbl	numeric	double	3	824	c(0, 1)
+92	93	RIFPC_q6a2	Descriptions of Cough - Nighttime	dbl	numeric	double	3	825	c(0, 1)
+93	94	RIFPC_q6a3	Descriptions of Cough - Barky	dbl	numeric	double	3	825	c(0, 1)
+94	95	RIFPC_q6a4	Descriptions of Cough - Coughs so Hard that Child Gags/Vomits	dbl	numeric	double	3	824	c(0, 1)
+95	96	RIFPC_q6a5	Descriptions of Cough - Interferes with Eating	dbl	numeric	double	3	824	c(0, 1)
+96	97	RIFPC_q6a6	Descriptions of Cough - Interferes with Sleeping	dbl	numeric	double	3	824	c(0, 1)
+97	98	RIFPC_q6b	Number of Days Cough Lasted	dbl	numeric	double	51	675	c(1, 120)
+98	99	RIFPC_q7a	Symtoms During Illness - Diarrhea	dbl	numeric	double	3	649	c(0, 1)
+99	100	RIFPC_q7b	Symtoms During Illness - Wheezing	dbl	numeric	double	3	464	c(0, 1)
+100	101	RIFPC_q7c	Symtoms During Illness - Retractions	dbl	numeric	double	3	465	c(0, 1)
+101	102	RIFPC_q7d	Symtoms During Illness - Shortness of Breath	dbl	numeric	double	3	465	c(0, 1)
+102	103	RIFPC_q7e	Symtoms During Illness - Rapid Breathing	dbl	numeric	double	3	464	c(0, 1)
+103	104	RIFPC_q7f	Symtoms During Illness - Turned Blue	dbl	numeric	double	3	464	c(0, 1)
+104	105	RIFPC_q7g	Symtoms During Illness - Hoarse voice	dbl	numeric	double	3	464	c(0, 1)
+105	106	RIFPC_q7h	Symtoms During Illness - Runny Nose	dbl	numeric	double	3	464	c(0, 1)
+106	107	RIFPC_q7i	Symtoms During Illness - Stuffy Nose	dbl	numeric	double	3	464	c(0, 1)
+107	108	RIFPC_q7j	Symtoms During Illness - Sneezing	dbl	numeric	double	3	465	c(0, 1)
+108	109	RIFPC_q7k	Symtoms During Illness - Sore Throat	dbl	numeric	double	3	498	c(0, 1)
+109	110	RIFPC_q7l	Symtoms During Illness - Vomiting	dbl	numeric	double	3	464	c(0, 1)
+110	111	RIFPC_q8	Child Has Other Symptoms	dbl	numeric	double	3	464	c(0, 1)
+111	112	RIFPC_q9	Taken Childs Temperature During This Illness	dbl	numeric	double	3	648	c(0, 1)
+112	113	RIFPC_q9a	Childs Temperature	dbl	numeric	double	89	1328	c(92.8, 108)
+113	114	RIFPC_q9a1	Number of Days Child Has Had Fever	dbl	numeric	double	15	1574	c(1, 20)
+114	115	aCompletionDY	Completion Day	dbl	numeric	double	956	462	c(21, 1509)
+115	116	RIFPC_q1DY	Day of Nasal Wash	dbl	numeric	double	1	2061	
+116	117	RIFPC_q1aDY	Day of Illness Onset	dbl	numeric	double	796	469	c(0, 1492)
+117	118	RIFPC_q1bDY	Day of Nasal Wash	dbl	numeric	double	818	495	c(14, 1494)
+118	119	RIFPC_q3b1DY	Most Recent Visit to Doctor - Day	dbl	numeric	double	421	1546	c(12, 1499)
+119	120	RIFPC_q3b2DY	Visit #2 to Doctor - Day	dbl	numeric	double	67	1992	c(57, 1444)
+120	121	RIFPC_q3b3DY	Visit #3 to Doctor - Day	dbl	numeric	double	14	2048	c(12, 1344)
+121	122	RIFPC_q3b4DY	Visit #4 to Doctor - Day	dbl	numeric	double	4	2058	c(11, 349)
+122	123	RIFPC_q4b1DY	Most Recent Hospitalization - Day	dbl	numeric	double	15	2047	c(30, 1199)
+123	124	RIFPC_q4b2DY	Admission #2 in Hospital - Day	dbl	numeric	double	1	2061	

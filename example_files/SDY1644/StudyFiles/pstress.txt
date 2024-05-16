@@ -1,0 +1,142 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         06/01/05        Created Program
+*                  05/24/06      Added code to look by visit
+*   A. Calatroni      03/21/11      Modifications Shell/Format/Codebook
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=pstress,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+data pstress;
+ set master.pss (rename=(avisit=avisit_old));
+
+ if studyid ne '.m';
+ if status = "missing" then delete;
+
+ ****  REVERSE CODE THE THINGS THAT ARE POSITIVE ON STRESS FORM;
+ array rev (2) pss_q2 pss_q3;
+  do i=1 to 2;
+        IF rev(i) < 0 THEN rev(i)=.;
+   ELSE IF rev(i) = 0 THEN rev(i)=4;
+   ELSE IF rev(i)=1 THEN rev(i)=3;
+   ELSE IF rev(i)=3 THEN rev(i)=1;
+   ELSE IF rev(i)=4 THEN rev(i)=0;
+ end;
+
+ ****  CORRECT A WRONG AVISIT ****;
+ *hardcodes here have been removed to protect patient confidentiality;
+
+ ****  RECODE AVISTS ****;
+ if avisit_old ne "p" then avisit = input(avisit_old, 8.);
+ if avisit_old="p"    then avisit=0;
+ if avisit_old="81"   then avisit=84 ;
+
+ ****  CODE STRESS ****;
+ if nmiss(of pss_q1-pss_q4)^=4 then pss_score=(MEAN(of pss_q1-pss_q4)*4);
+ label pss_score="Perceived Stress Scale";
+
+ drop i avisit_old;
+run;
+
+proc freq data=pstress ; 
+   tables avisit ; 
+run ;
+
+/*************************************************************************************
+ Check Duplicates - no dups as of 02/10/2017
+**************************************************************************************/
+proc sort nodupkey data=pstress out=clean dupout=dups; by studyid avisit;
+run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,84,96,120;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (87, 90, 93, 96) then year=8;
+  if avisit in (120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge with Shell
+**************************************************************************************/
+proc sort data=pstress; by studyid avisit;
+proc sort data=shell; by studyid avisit; 
+
+data derive.pstress;
+ merge shell pstress (in=c);
+ by studyid avisit;
+ if c=1 then pstress=1; else pstress=0;
+ drop astudyid arcrtid pss_q1 -- pss_q4 aPI;
+run;
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.pstress
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.pstress,*/
+/*          pdfname=pstress,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+ods select Position;
+proc contents data=derive.pstress position; run;
+run;
+ods select default;
+

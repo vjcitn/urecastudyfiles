@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	491	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SS2"", ""SS2"")"
+3	4	evid	evid	dbl	numeric	double	1892	0	c(30728, 63231)
+4	5	event	event	chr	character	character	4	0	"c(""120-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	5	0	"c("".x"", ""96"")"
+8	9	SS2_q1	Difficulty Living on Total Household Income	dbl	numeric	double	6	60	c(0, 4)
+9	10	SS2_q1_1	Day When You Went Hungry Did Not have enough Money for Food	dbl	numeric	double	3	61	c(0, 1)
+10	11	SS2_q2	Family will Experience Hardships in Next Two Months	dbl	numeric	double	7	60	c(0, 5)
+11	12	SS2_q3	Family will Have to Reduce Standard of Living	dbl	numeric	double	7	61	c(0, 5)
+12	13	aCompletionDY	Completion Day	dbl	numeric	double	540	59	c(812, 3842)

@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	148	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""TRSP"", ""TRSP"")"
+3	4	evid	evid	dbl	numeric	double	593	0	c(28, 37909)
+4	5	event	event	chr	character	character	7	0	"c(""12-Month Clinic Visit"", ""Birth"")"
+5	6	version	version	chr	character	character	3	0	"c(""1.0"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aTI	Processing Tech Initials	chr	character	character	9	0	"c("".x"", ""wwc"")"
+8	9	aVisit	Visit	chr	character	character	7	0	"c("".x"", ""b"")"
+9	10	TRSP_q1b	Time Blood Sample Was Collected	time	"c(""hms"", ""difftime"")"	double	218	139	c(1380, 86280)
+10	11	TRSP_q2b	Time Processing Was Started - CBMC	time	"c(""hms"", ""difftime"")"	double	112	139	c(16200, 68400)
+11	12	TRSP_q3	CBMC Prepared for T-Regulatory Proliferation Assay	dbl	numeric	double	2	586	c(1, 1)
+12	13	TRSP_q3_1	CBMC Prepared for T-Regulatory Proliferation Assay and mRNA Isolation	dbl	numeric	double	3	146	c(0, 1)
+13	14	TRSP_q3a	Number of Cells in the Aliquot for T-Regulatory Proliferation Assay	dbl	numeric	double	4	586	c(0.16, 4)
+14	15	TRSP_q3a_1	Number of Cells in the Aliquot for T-Regulatory Proliferation Assay and mRNA Isolation	dbl	numeric	double	74	206	c(1, 23.8)
+15	16	TRSP_q4	CBMC Prepared for T-Regulatory mRNA Isolation	dbl	numeric	double	2	586	c(1, 1)
+16	17	TRSP_q4a	Number of Cells in the Aliquot for T-Regulatory mRNA Isolation	dbl	numeric	double	4	586	c(0.04, 1)
+17	18	TRSP_q5	CBMC Prepared for T-Regulatory Flow Cytometry Assay	dbl	numeric	double	3	139	c(0, 1)
+18	19	TRSP_q5a	Number of Cells in the Aliquot for T-Regulatory Flow Cytometry Assay	dbl	numeric	double	41	178	c(0.08, 14)
+19	20	aCompletionDY	Completion Day	dbl	numeric	double	228	140	c(0, 1850)
+20	21	TRSP_q1aDY	Day Sample Was Collected	dbl	numeric	double	223	140	c(-1, 1850)
+21	22	TRSP_q2aDY	Day Processing Was Started - CBMC	dbl	numeric	double	224	140	c(0, 1850)

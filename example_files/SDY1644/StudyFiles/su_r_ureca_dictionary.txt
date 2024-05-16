@@ -1,0 +1,22 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	597	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SU"", ""SU"")"
+3	4	evid	evid	dbl	numeric	double	20185	0	c(292, 63231)
+4	5	event	event	chr	character	character	40	0	"c(""102-Month Call"", ""99-Month Call"")"
+5	6	version	version	chr	character	character	7	0	"c(""1.1"", ""1.7"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	42	0	"c("".m"", ""99"")"
+8	9	SU_q1	Smoking Cigarettes, Even Occasionally	dbl	numeric	double	3	1686	c(0, 1)
+9	10	SU_q1a	Number of Cigarettes Smoked	dbl	numeric	double	36	14424	c(1, 200)
+10	11	SU_q1a1	Time Frame of Cigarrettes Smoked	time	"c(""hms"", ""difftime"")"	double	5	14423	c(1, 4)
+11	12	SU_q1a1a	Specify Time Frame	chr	character	character	34	0	"c("".a"", ""year"")"
+12	13	SU_q1a2	Number of Cigarettes Smoked in Home	dbl	numeric	double	29	14424	c(0, 100)
+13	14	SU_q1a3	Time Frame of Cigarrettes Smoked in Home	time	"c(""hms"", ""difftime"")"	double	5	17020	c(1, 4)
+14	15	SU_q1a3a	Specify Time Frame of Cigaretters Smoked in Home	chr	character	character	17	0	"c("".a"", ""unknown how many per day"")"
+15	16	SU_q1_1	Anyone in the home smoke electronic cigarettes	dbl	numeric	double	3	17153	c(0, 1)
+16	17	SU_q2	Smokers at Home	dbl	numeric	double	17	1689	c(0, 23)
+17	18	SU_q3	Other Caretakers Who Take Care of Child Smoke	dbl	numeric	double	3	1757	c(0, 1)
+18	19	SU_q4	Participant Has Problems Keeping Participant Away from Smokers	dbl	numeric	double	3	1723	c(0, 1)
+19	20	SU_q5	How Often Participant is Around Smokers	dbl	numeric	double	5	1687	c(1, 4)
+20	21	aCompletionDY	Completion Day	dbl	numeric	double	3178	1684	c(-139, 4798)

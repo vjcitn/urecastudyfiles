@@ -1,0 +1,2459 @@
+Accession	group	form	evid	event	version	status	aVisit	SS_q1	SS_q2	SS_q3	SS_q4	SS_q4a	SS_q4b	SS_q4c	SS_q4d	SS_q5	aCompletionDY
+		SS	4590	Prenatal Visit	1.2	complete	p	0	0	0	0					8	
+		SS	566	Prenatal Visit	1.2	complete	p	3	1	3	0					7	
+		SS	4924	Prenatal Visit	1.2	complete	p	4	3	3	0					4	
+		SS	68	Prenatal Visit	1.2	complete	p	1	0	1	0					6	
+		SS	1095	Prenatal Visit	1.2	complete	p	3	0	5	0					4	
+		SS	6539	Prenatal Visit	1.2	complete	p	1	0	0	0					7	
+		SS	11047	Prenatal Visit	1.2	complete	p	1	0	1	1	0	1	1	1	7	
+		SS	44	Prenatal Visit	1.2	complete	p	0	0	1	0					3	
+		SS	13091	Prenatal Visit	1.2	complete	p	1	1	1	0					6	
+		SS	11247	Prenatal Visit	1.2	complete	p	4	0	2	0					6	
+		SS	9686	Prenatal Visit	1.2	complete	p	4	1	3	0					6	
+		SS	4068	Prenatal Visit	1.2	complete	p	0	1	0	0					7	
+		SS	2485	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	0	1	9	
+		SS	6993	Prenatal Visit	1.2	complete	p	3	0	0	0					6	
+		SS	11811	Prenatal Visit	1.2	complete	p	3	2	2	0					5	
+		SS	3866	Prenatal Visit	1.2	complete	p	3	2	3	1	1	1	1	0	1	
+		SS	1925	Prenatal Visit	1.2	complete	p	4	0	0	0					4	
+		SS	987	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	5	
+		SS	17	Prenatal Visit	1.2	complete	p	3	5	5	0					5	
+		SS	12459	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	9	
+		SS	205	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	5497	Prenatal Visit	1.2	complete	p	1	1	1	0					6	
+		SS	6742	Prenatal Visit	1.2	complete	p	4	0	0	1	0	1	1	0	5	
+		SS	1486	Prenatal Visit	1.2	missing	.x										
+		SS	10396	Prenatal Visit	1.2	complete	p	0	0	0	0					5	
+		SS	425	Prenatal Visit	1.2	complete	p	2	2	0	0					6	
+		SS	8	Prenatal Visit	1.2	complete	p	4	0	1	0					6	
+		SS	2479	Prenatal Visit	1.2	complete	p	3	2	0	0					3	
+		SS	10138	Prenatal Visit	1.2	complete	p	2	2	0	0					6	
+		SS	9907	Prenatal Visit	1.2	complete	p	1	0	0	0					7	
+		SS	15576	Prenatal Visit	1.2	complete	p	2	1	2	1	1	0	0	0	7	
+		SS	10008	Prenatal Visit	1.2	complete	p	1	0	2	0					8	
+		SS	54	Prenatal Visit	1.2	complete	p	1	0	1	0					7	
+		SS	14833	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	0	8	
+		SS	16646	Prenatal Visit	1.2	complete	p	1	1	0	0					2	
+		SS	2213	Prenatal Visit	1.2	complete	p	2	0	0	0					6	
+		SS	2614	Prenatal Visit	1.2	complete	p	2	2	1	0					5	
+		SS	16144	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	3765	Prenatal Visit	1.2	complete	p	3	3	2	0					6	
+		SS	2082	Prenatal Visit	1.2	complete	p	1	0	1	1	0	0	1	1	7	
+		SS	8906	Prenatal Visit	1.2	complete	p	3	2	3	0					1	
+		SS	4048	Prenatal Visit	1.2	complete	p	1	2	2	0					6	
+		SS	701	Prenatal Visit	1.2	complete	p	2	2	3	0					5	
+		SS	941	Prenatal Visit	1.2	complete	p	0	0	0	0					7	
+		SS	17702	Prenatal Visit	1.2	complete	p	0	0	0	0					4	
+		SS	10675	Prenatal Visit	1.2	complete	p	1	0	0	0					5	
+		SS	1551	Prenatal Visit	1.2	complete	p	4	1	2	0					6	
+		SS	6242	Prenatal Visit	1.2	complete	p	2	1	0	1	1	1	1	1	4	
+		SS	11961	Prenatal Visit	1.2	complete	p	0	1	0	1	1	1	1	1	7	
+		SS	10563	Prenatal Visit	1.2	complete	p	4	3	3	0					5	
+		SS	125	Prenatal Visit	1.2	complete	p	0	0	0	0					9	
+		SS	1668	Prenatal Visit	1.2	complete	p	0	3	0	0					7	
+		SS	1384	Prenatal Visit	1.2	complete	p	4	1	1	1	0	1	0	0	6	
+		SS	1921	Prenatal Visit	1.2	complete	p	1	1	1	0					3	
+		SS	217	Prenatal Visit	1.2	complete	p	1	2	2	0					5	
+		SS	351	Prenatal Visit	1.2	complete	p	2	0	0	0					7	
+		SS	27	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	1	1	6	
+		SS	6239	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	546	Prenatal Visit	1.2	complete	p	2	2	2	1	1	1	1	1	7	
+		SS	7641	Prenatal Visit	1.2	complete	p	4	0	0	0					9	
+		SS	9159	Prenatal Visit	1.2	complete	p	4	1	1	1	1	1	1	1	5	
+		SS	4571	Prenatal Visit	1.2	complete	p	2	2	2	0					1	
+		SS	4150	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	0	0	7	
+		SS	196	Prenatal Visit	1.2	complete	p	0	0	0	0					5	
+		SS	14141	Prenatal Visit	1.2	complete	p	1	1	1	0					4	
+		SS	8650	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	8	
+		SS	9741	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	6	
+		SS	8966	Prenatal Visit	1.2	complete	p	4	2	4	1	1	1	1	1	9	
+		SS	2598	Prenatal Visit	1.2	complete	p	4	4	4	1	0	1	1	0	7	
+		SS	5382	Prenatal Visit	1.2	complete	p	1	1	1	0					3	
+		SS	8328	Prenatal Visit	1.2	complete	p	2	1	0	1	0	0	0	1	6	
+		SS	10979	Prenatal Visit	1.2	complete	p	1	0	0	0					5	
+		SS	6215	Prenatal Visit	1.2	complete	p	0	0	0	0					6	
+		SS	665	Prenatal Visit	1.2	complete	p	2	1	0	0					8	
+		SS	7836	Prenatal Visit	1.2	complete	p	4	4	3	0					1	
+		SS	4764	Prenatal Visit	1.2	complete	p	3	0	0	0					6	
+		SS	128	Prenatal Visit	1.2	complete	p	0	0	0	0					9	
+		SS	161	Prenatal Visit	1.2	complete	p	1	0	0	0					8	
+		SS	13205	Prenatal Visit	1.2	complete	p	2	0	1	0					6	
+		SS	15824	Prenatal Visit	1.2	complete	p	1	2	2	1	0	1	1	1	5	
+		SS	11053	Prenatal Visit	1.2	complete	p	0	1	1	1	0	1	1	1	7	
+		SS	1298	Prenatal Visit	1.2	complete	p	2	1	1	1	1	1	1	1	8	
+		SS	10192	Prenatal Visit	1.2	missing	.x										
+		SS	90	Prenatal Visit	1.2	complete	p	1	2	2	0					5	
+		SS	11013	Prenatal Visit	1.2	complete	p	1	0	0	1	0	0	1	1	8	
+		SS	248	Prenatal Visit	1.2	complete	p	4	1	1	1	1	1	0	0	2	
+		SS	5737	Prenatal Visit	1.2	complete	p	4	3	3	1	0	0	1	1	5	
+		SS	3112	Prenatal Visit	1.2	complete	p	3	0	1	0					5	
+		SS	8200	Prenatal Visit	1.2	complete	p	1	0	0	0					7	
+		SS	1391	Prenatal Visit	1.2	complete	p	2	1	2	1	1	1	1	1	5	
+		SS	12438	Prenatal Visit	1.2	complete	p	0	0	0	0					7	
+		SS	7660	Prenatal Visit	1.2	complete	p	2	1	0	1	1	0	0	0	6	
+		SS	4657	Prenatal Visit	1.2	complete	p	0	0	0	0					6	
+		SS	6824	Prenatal Visit	1.2	complete	p	1	1	1	0					9	
+		SS	9424	Prenatal Visit	1.2	complete	p	1	0	0	0					7	
+		SS	1336	Prenatal Visit	1.2	complete	p	3	1	2	0					3	
+		SS	3432	Prenatal Visit	1.2	complete	p	1	1	1	0					1	
+		SS	12506	Prenatal Visit	1.2	complete	p	3	3	3	0					9	
+		SS	3247	Prenatal Visit	1.2	complete	p	1	1	1	0					5	
+		SS	9113	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	0	9	
+		SS	10019	Prenatal Visit	1.2	complete	p	1	2	1	0					5	
+		SS	7694	Prenatal Visit	1.2	complete	p	4	0	1	1	0	0	0	0	6	
+		SS	10555	Prenatal Visit	1.2	complete	p	2	1	0	0					5	
+		SS	101	Prenatal Visit	1.2	complete	p	4	0	0	0					5	
+		SS	1630	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	0	9	
+		SS	7460	Prenatal Visit	1.2	complete	p	3	1	1	1	1	1	1	0	4	
+		SS	2126	Prenatal Visit	1.2	complete	p	3	1	1	1	1	1	1	1	2	
+		SS	12481	Prenatal Visit	1.2	complete	p	1	1	1	1	0	1	1	1	7	
+		SS	4286	Prenatal Visit	1.2	complete	p	3	2	1	1	1	1	1	1	5	
+		SS	2726	Prenatal Visit	1.2	complete	p	3	1	1	0					8	
+		SS	11974	Prenatal Visit	1.2	complete	p	4	4	4	0					5	
+		SS	376	Prenatal Visit	1.2	complete	p	1	0	1	0					7	
+		SS	4953	Prenatal Visit	1.2	complete	p	3	2	4	1	1	1	1	1	5	
+		SS	10643	Prenatal Visit	1.2	complete	p	0	1	1	1	1	1	1	1	9	
+		SS	2810	Prenatal Visit	1.2	complete	p	3	4	4	0					4	
+		SS	4160	Prenatal Visit	1.2	complete	p	4	4	4	1	1	1	0	0	8	
+		SS	7431	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	10830	Prenatal Visit	1.2	complete	p	3	1	3	1	1	0	0	0	4	
+		SS	1170	Prenatal Visit	1.2	complete	p	3	1	2	0					6	
+		SS	2354	Prenatal Visit	1.2	complete	p	3	5	4	0					4	
+		SS	8920	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	8688	Prenatal Visit	1.2	complete	p	1	0	0	0					5	
+		SS	13831	Prenatal Visit	1.2	complete	p	0	0	0	1	0	1	1	1	4	
+		SS	1529	Prenatal Visit	1.2	complete	p	4	0	0	0					1	
+		SS	13944	Prenatal Visit	1.2	complete	p	2	1	0	0					9	
+		SS	7002	Prenatal Visit	1.2	complete	p	1	3	3	0					7	
+		SS	9998	Prenatal Visit	1.2	complete	p	0	0	0	0					6	
+		SS	1487	Prenatal Visit	1.2	missing	.x										
+		SS	2244	Prenatal Visit	1.2	complete	p	1	0	0	0					8	
+		SS	15302	Prenatal Visit	1.2	complete	p	0	0	1	1	1	1	1	1	7	
+		SS	4200	Prenatal Visit	1.2	complete	p	2	0	0	0					7	
+		SS	3232	Prenatal Visit	1.2	complete	p	2	0	1	0					6	
+		SS	15848	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	0	6	
+		SS	396	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	9	
+		SS	748	Prenatal Visit	1.2	complete	p	0	0	0	0					9	
+		SS	5221	Prenatal Visit	1.2	complete	p	2	0	0	0					5	
+		SS	176	Prenatal Visit	1.2	complete	p	3	3	3	1	1	1	1	1	7	
+		SS	6989	Prenatal Visit	1.2	complete	p	1	0	1	1	0	0	1	0	6	
+		SS	9992	Prenatal Visit	1.2	complete	p	1	0	1	1	0	0	1	1	5	
+		SS	1548	Prenatal Visit	1.2	complete	p	1	1	1	0					3	
+		SS	37	Prenatal Visit	1.2	complete	p	1	0	1	0					5	
+		SS	745	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	717	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	7	
+		SS	8938	Prenatal Visit	1.2	complete	p	4	3	4	0					8	
+		SS	5075	Prenatal Visit	1.2	complete	p	3	2	1	1	0	0	1	0	4	
+		SS	3872	Prenatal Visit	1.2	complete	p	0	0	0	0					6	
+		SS	134	Prenatal Visit	1.2	complete	p	2	0	1	1	1	1	0	0	7	
+		SS	656	Prenatal Visit	1.2	complete	p	1	1	3	1	1	0	0	0	5	
+		SS	8633	Prenatal Visit	1.2	complete	p	2	0	0	0					7	
+		SS	5451	Prenatal Visit	1.2	complete	p	4	3	3	0					6	
+		SS	6871	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	7	
+		SS	3880	Prenatal Visit	1.2	complete	p	3	1	1	0					6	
+		SS	1745	Prenatal Visit	1.2	complete	p	1	0	0	1	0	0	0	1	6	
+		SS	7197	Prenatal Visit	1.2	complete	p	2	2	2	0					5	
+		SS	3598	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	4	
+		SS	5989	Prenatal Visit	1.2	complete	p	3	0	0	1	1	1	1	1	3	
+		SS	13271	Prenatal Visit	1.2	complete	p	4	0	0	1	1	1	1	1	5	
+		SS	11420	Prenatal Visit	1.2	complete	p	1	2	0	1	1	1	1	1	9	
+		SS	14042	Prenatal Visit	1.2	complete	p	3	0	0	0					8	
+		SS	2235	Prenatal Visit	1.2	complete	p	1	1	0	0					7	
+		SS	12255	Prenatal Visit	1.2	complete	p	0	0	0	0					7	
+		SS	3326	Prenatal Visit	1.2	complete	p	4	1	0	0					4	
+		SS	230	Prenatal Visit	1.2	complete	p	0	0	0	0					8	
+		SS	9169	Prenatal Visit	1.2	complete	p	3	1	3	0					7	
+		SS	11284	Prenatal Visit	1.2	complete	p	2	1	0	0					8	
+		SS	10351	Prenatal Visit	1.2	complete	p	2	0	2	0					7	
+		SS	239	Prenatal Visit	1.2	complete	p	1	1	1	0					7	
+		SS	17709	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	6	
+		SS	4841	Prenatal Visit	1.2	complete	p	1	0	0	0					8	
+		SS	11498	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	7	
+		SS	7680	Prenatal Visit	1.2	complete	p	2	2	2	1	1	1	1	1	2	
+		SS	3573	Prenatal Visit	1.2	complete	p	4	4	0	1	1	1	1	1	9	
+		SS	1485	Prenatal Visit	1.2	missing	.x										
+		SS	2472	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	1	1	5	
+		SS	9380	Prenatal Visit	1.2	complete	p	1	2	1	1	1	1	1	1	5	
+		SS	7303	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	208	Prenatal Visit	1.2	complete	p	2	0	1	0					4	
+		SS	543	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	1	7	
+		SS	10865	Prenatal Visit	1.2	complete	p	1	1	1	0					9	
+		SS	5072	Prenatal Visit	1.2	complete	p	0	0	0	0					6	
+		SS	6212	Prenatal Visit	1.2	complete	p	0	0	0	0					3	
+		SS	8678	Prenatal Visit	1.2	complete	p	1	2	0	0					8	
+		SS	9242	Prenatal Visit	1.2	complete	p	1	0	0	1	1	0	0	0	9	
+		SS	10940	Prenatal Visit	1.2	complete	p	1	2	3	1	1	1	1	1	5	
+		SS	2240	Prenatal Visit	1.2	complete	p	1	2	1	0					5	
+		SS	3808	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	0	7	
+		SS	15989	Prenatal Visit	1.2	complete	p	3	1	1	0					4	
+		SS	4106	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	
+		SS	7142	Prenatal Visit	1.2	complete	p	1	3	3	0					9	
+		SS	17593	Prenatal Visit	1.2	complete	p	1	1	1	0					5	
+		SS	8269	Prenatal Visit	1.2	complete	p	1	0	0	0					8	
+		SS	4257	Prenatal Visit	1.2	complete	p	1	1	1	0					7	
+		SS	5731	Prenatal Visit	1.2	complete	p	0	1	1	0					5	
+		SS	4617	Prenatal Visit	1.2	complete	p	2	0	0	1	1	1	1	1	7	
+		SS	11959	Prenatal Visit	1.2	complete	p	0	4	1	0					7	
+		SS	8335	Prenatal Visit	1.2	missing	.x										
+		SS	2937	Prenatal Visit	1.2	complete	p	0	0	0	0					1	
+		SS	2407	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	3	
+		SS	11855	Prenatal Visit	1.2	complete	p	1	1	1	0					9	
+		SS	9762	Prenatal Visit	1.2	complete	p	1	0	0	0					9	
+		SS	233	Prenatal Visit	1.2	complete	p	4	1	1	0					7	
+		SS	15131	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	0	1	5	
+		SS	634	Prenatal Visit	1.2	complete	p	4	1	3	0					6	
+		SS	15485	Prenatal Visit	1.2	complete	p	2	3	3	0					3	
+		SS	12225	Prenatal Visit	1.2	complete	p	1	0	0	0					9	
+		SS	11239	Prenatal Visit	1.2	complete	p	1	1	4	1	1	1	1	0	8	
+		SS	10584	Prenatal Visit	1.2	complete	p	1	1	0	1	1	1	1	1	9	
+		SS	3855	Prenatal Visit	1.2	complete	p	1	1	1	1	0	1	1	1	7	
+		SS	2551	Prenatal Visit	1.2	complete	p	4	3	2	1	0	0	1	1	5	
+		SS	541	Prenatal Visit	1.2	complete	p	0	0	0	0					7	
+		SS	944	Prenatal Visit	1.2	complete	p	0	3	4	0					8	
+		SS	4301	Prenatal Visit	1.2	complete	p	0	1	0	0					5	
+		SS	59	Prenatal Visit	1.2	complete	p	1	0	0	0					9	
+		SS	947	Prenatal Visit	1.2	complete	p	0	0	0	0					2	
+		SS	2973	Prenatal Visit	1.2	complete	p	3	1	0	1	0	0	1	1	6	
+		SS	603	Prenatal Visit	1.2	complete	p	1	1	1	0					5	
+		SS	2237	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	
+		SS	6470	Prenatal Visit	1.2	complete	p	1	1	1	0					7	
+		SS	14	Prenatal Visit	1.2	complete	p	1	1	1	1	0	0	1	0	5	
+		SS	8477	Prenatal Visit	1.2	complete	p	1	1	1	0					8	
+		SS	4593	Prenatal Visit	1.2	complete	p	1	0	1	1	0	1	1	0	7	
+		SS	9577	Prenatal Visit	1.2	complete	p	1	0	0	0					6	
+		SS	7517	Prenatal Visit	1.2	complete	p	2	2	1	1	1	1	1	1	5	
+		SS	15573	Prenatal Visit	1.2	complete	p	1	0	1	1	0	1	1	1	6	
+SUB230862	Atopic	SS	304	36-Month Clinic Visit	1.2	missing	.x										
+SUB230862	Atopic	SS	300	24-Month Clinic Visit	1.2	complete	24	1	1	0	0					8	817
+SUB230862	Atopic	SS	296	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	368
+SUB230862	Atopic	SS	39	Prenatal Visit	1.2	complete	p	0	0	0	0					8	-7
+SUB230863	Atopic	SS	34	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	9	0
+SUB230863	Atopic	SS	310	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	0	0	0	9	368
+SUB230863	Atopic	SS	318	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1153
+SUB230863	Atopic	SS	314	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					9	732
+SUB230864	Atopic	SS	122	Prenatal Visit	1.2	complete	p	2	0	0	1	1	1	1	1	7	-1
+SUB230865	Atopic	SS	338	12-Month Clinic Visit	1.2	complete	12	4	0	1	1	1	0	0	1	6	396
+SUB230865	Atopic	SS	346	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	9	1160
+SUB230865	Atopic	SS	62	Prenatal Visit	1.2	complete	p	1	0	2	0					9	0
+SUB230865	Atopic	SS	342	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	9	726
+SUB230866	Atopic	SS	587	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					3	1122
+SUB230866	Atopic	SS	583	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					4	735
+SUB230866	Atopic	SS	47	Prenatal Visit	1.2	complete	p	3	1	1	1	0	1	1	1	5	-33
+SUB230866	Atopic	SS	579	12-Month Clinic Visit	1.2	complete	12	3	1	0	0					2	406
+SUB230867	Atopic	SS	601	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	1	1	1	4	1109
+SUB230867	Atopic	SS	148	Prenatal Visit	1.2	complete	p	1	0	1	1	0	1	1	1	5	-14
+SUB230867	Atopic	SS	593	12-Month Clinic Visit	1.2	complete	12	2	0	0	1	0	1	1	1	5	383
+SUB230867	Atopic	SS	597	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	5	740
+SUB230868	Atopic	SS	145	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-13
+SUB230868	Atopic	SS	795	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					6	741
+SUB230868	Atopic	SS	791	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					3	362
+SUB230868	Atopic	SS	799	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1185
+SUB230869	Atopic	SS	809	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	9	726
+SUB230869	Atopic	SS	65	Prenatal Visit	1.2	complete	p	1	0	2	0					9	0
+SUB230869	Atopic	SS	805	12-Month Clinic Visit	1.2	complete	12	4	0	1	1	1	0	0	1	6	396
+SUB230869	Atopic	SS	813	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	9	1160
+SUB230870	Atopic	SS	42	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	0	0	9	-71
+SUB230870	Atopic	SS	841	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	0	0	0	9	355
+SUB230870	Atopic	SS	849	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1119
+SUB230870	Atopic	SS	845	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	0	0	0	9	747
+SUB230871	Atopic	SS	860	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	0	0	0	6	754
+SUB230871	Atopic	SS	856	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	0	0	3	362
+SUB230871	Atopic	SS	864	36-Month Clinic Visit	1.2	missing	.x										
+SUB230871	Atopic	SS	50	Prenatal Visit	1.2	complete	p	1	1	0	1	1	0	0	0	4	-43
+SUB230872	Atopic	SS	131	Prenatal Visit	1.2	complete	p	1	2	2	0					3	-50
+SUB230872	Atopic	SS	882	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					6	783
+SUB230872	Atopic	SS	878	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					4	358
+SUB230872	Atopic	SS	886	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1165
+SUB230873	Atopic	SS	900	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					9	1187
+SUB230873	Atopic	SS	896	24-Month Clinic Visit	1.2	complete	24	3	0	1	0					5	752
+SUB230873	Atopic	SS	95	Prenatal Visit	1.2	complete	p	1	0	1	0					5	-45
+SUB230873	Atopic	SS	892	12-Month Clinic Visit	1.2	complete	12	1	2	1	0					5	358
+SUB230874	Atopic	SS	867	Prenatal Visit	1.2	complete	p	1	1	0	0					8	-8
+SUB230874	Atopic	SS	906	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					7	348
+SUB230874	Atopic	SS	914	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1154
+SUB230874	Atopic	SS	910	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	738
+SUB230875	Atopic	SS	199	Prenatal Visit	1.2	complete	p	0	4	4	0					3	-7
+SUB230875	Atopic	SS	928	36-Month Clinic Visit	1.2	complete	36	4	4	4	1	1	1	1	1	4	1131
+SUB230875	Atopic	SS	920	12-Month Clinic Visit	1.2	complete	12	4	3	1	0					4	374
+SUB230875	Atopic	SS	924	24-Month Clinic Visit	1.2	missing	.x										
+SUB230876	Atopic	SS	983	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1116
+SUB230876	Atopic	SS	975	12-Month Clinic Visit	1.2	complete	12	3	0	5	0					9	374
+SUB230876	Atopic	SS	937	Prenatal Visit	1.2	complete	p	1	1	0	0					9	-11
+SUB230876	Atopic	SS	979	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					7	782
+SUB230877	Atopic	SS	1067	12-Month Clinic Visit	1.2	complete	12	2	1	1	0					7	340
+SUB230877	Atopic	SS	1071	24-Month Clinic Visit	1.2	complete	24	0	0	1	0					7	741
+SUB230877	Atopic	SS	1075	36-Month Clinic Visit	1.2	missing	.x										
+SUB230877	Atopic	SS	930	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-20
+SUB230878	Atopic	SS	933	Prenatal Visit	1.2	complete	p	0	1	2	0					8	-17
+SUB230879	Atopic	SS	256	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-32
+SUB230880	Atopic	SS	625	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	1	1	7	-48
+SUB230881	Atopic	SS	393	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-68
+SUB230881	Atopic	SS	1606	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1110
+SUB230881	Atopic	SS	1602	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					5	714
+SUB230881	Atopic	SS	1598	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					5	345
+SUB230882	Atopic	SS	1776	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	819
+SUB230882	Atopic	SS	1772	12-Month Clinic Visit	1.2	complete	12	3	0	0	0					5	373
+SUB230882	Atopic	SS	1780	36-Month Clinic Visit	1.2	missing	.x										
+SUB230882	Atopic	SS	668	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-67
+SUB230883	Atopic	SS	951	Prenatal Visit	1.2	complete	p	1	0	0	0					9	-46
+SUB230883	Atopic	SS	1786	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	420
+SUB230883	Atopic	SS	1790	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	1	9	822
+SUB230883	Atopic	SS	1794	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	1	9	1187
+SUB230884	Atopic	SS	1813	36-Month Clinic Visit	1.2	complete	36	0	1	0	1	0	0	1	0	5	1169
+SUB230884	Atopic	SS	115	Prenatal Visit	1.2	complete	p	2	0	0	1	0	0	1	1	5	-119
+SUB230884	Atopic	SS	1800	24-Month Clinic Visit	1.2	complete	24	0	2	2	1	0	0	1	1	6	700
+SUB230884	Atopic	SS	1804	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	0	6	425
+SUB230885	Atopic	SS	1844	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	7	390
+SUB230885	Atopic	SS	1840	24-Month Clinic Visit	1.2	complete	24	4	4	0	0					5	707
+SUB230885	Atopic	SS	1853	36-Month Clinic Visit	1.2	complete	36	4	4	4	0					6	1161
+SUB230885	Atopic	SS	56	Prenatal Visit	1.2	complete	p	0	3	0	0					1	-132
+SUB230886	Atopic	SS	2095	24-Month Clinic Visit	1.2	complete	24	1	4	2	0					2	708
+SUB230886	Atopic	SS	98	Prenatal Visit	1.2	complete	p	2	4	4	0					7	-137
+SUB230886	Atopic	SS	2108	36-Month Clinic Visit	1.2	complete	36	4	2	3	0					5	1126
+SUB230886	Atopic	SS	2099	12-Month Clinic Visit	1.2	complete	12	2	3	3	0					7	337
+SUB230887	Atopic	SS	2111	24-Month Clinic Visit	1.2	complete	24	4	0	0	0					7	748
+SUB230887	Atopic	SS	2115	12-Month Clinic Visit	1.2	complete	12	2	0	1	0					7	337
+SUB230887	Atopic	SS	2124	36-Month Clinic Visit	1.2	complete	36	4	0	2	0					7	1148
+SUB230887	Atopic	SS	939	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-64
+SUB230888	Atopic	SS	157	Prenatal Visit	1.2	complete	p	1	0	2	0					5	-125
+SUB230888	Atopic	SS	2176	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					5	1160
+SUB230888	Atopic	SS	2163	24-Month Clinic Visit	1.2	complete	24	0	1	2	0					7	741
+SUB230888	Atopic	SS	2167	12-Month Clinic Visit	1.2	complete	12	1	1	3	0					5	340
+SUB230889	Atopic	SS	2179	24-Month Clinic Visit	1.2	complete	24	2	1	2	0					6	738
+SUB230889	Atopic	SS	2192	36-Month Clinic Visit	1.2	missing	.x										
+SUB230889	Atopic	SS	2183	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					5	351
+SUB230889	Atopic	SS	662	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-88
+SUB230890	Atopic	SS	2208	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1095
+SUB230890	Atopic	SS	31	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-153
+SUB230890	Atopic	SS	2195	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	759
+SUB230890	Atopic	SS	2199	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	6	456
+SUB230891	Atopic	SS	2221	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	394
+SUB230891	Atopic	SS	1143	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-68
+SUB230891	Atopic	SS	2230	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1129
+SUB230891	Atopic	SS	2217	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					9	714
+SUB230892	Atopic	SS	1410	Prenatal Visit	1.2	complete	p	3	0	1	1	0	1	1	1	6	-44
+SUB230892	Atopic	SS	2275	24-Month Clinic Visit	1.2	complete	24	1	1	0	1	0	0	1	1	9	818
+SUB230892	Atopic	SS	2279	12-Month Clinic Visit	1.2	complete	12	4	0	0	1	0	0	1	1	6	340
+SUB230892	Atopic	SS	2288	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	6	1187
+SUB230893	Atopic	SS	2457	24-Month Clinic Visit	1.2	missing	.x										
+SUB230893	Atopic	SS	2470	36-Month Clinic Visit	1.2	missing	.x										
+SUB230893	Atopic	SS	202	Prenatal Visit	1.2	complete	p	2	3	3	0					8	-134
+SUB230893	Atopic	SS	2461	12-Month Clinic Visit	1.2	missing	.x										
+SUB230894	Atopic	SS	2621	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	9	821
+SUB230894	Atopic	SS	1970	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	5	-33
+SUB230894	Atopic	SS	2634	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	9	1184
+SUB230894	Atopic	SS	2625	12-Month Clinic Visit	1.2	complete	12	0	0	1	1	1	1	1	1	9	444
+SUB230895	Atopic	SS	2637	24-Month Clinic Visit	1.2	complete	24	3	1	2	0					5	739
+SUB230895	Atopic	SS	2650	36-Month Clinic Visit	1.2	complete	36	2	0	2	0					3	1164
+SUB230895	Atopic	SS	2641	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					5	354
+SUB230895	Atopic	SS	2089	Prenatal Visit	1.2	complete	p	1	0	2	0					6	-23
+SUB230896	Atopic	SS	348	Prenatal Visit	1.2	complete	p	0	0	0	1	0	1	1	0	6	-131
+SUB230896	Atopic	SS	2667	12-Month Clinic Visit	1.2	missing	.x										
+SUB230896	Atopic	SS	2676	36-Month Clinic Visit	1.2	missing	.x										
+SUB230896	Atopic	SS	2663	24-Month Clinic Visit	1.2	complete	24	2	2	1	1	1	1	1	0	6	798
+SUB230897	Atopic	SS	2745	12-Month Clinic Visit	1.2	complete	12	1	1	0	1	0	1	1	1	7	401
+SUB230897	Atopic	SS	2741	24-Month Clinic Visit	1.2	complete	24	1	1	0	1	1	1	0	0	7	826
+SUB230897	Atopic	SS	1209	Prenatal Visit	1.2	complete	p	0	1	0	0					4	-95
+SUB230897	Atopic	SS	2754	36-Month Clinic Visit	1.2	complete	36	1	1	0	1	1	1	1	1	5	1141
+SUB230898	Atopic	SS	1702	Prenatal Visit	1.2	complete	p	2	0	0	0					5	-57
+SUB230898	Atopic	SS	2792	36-Month Clinic Visit	1.2	missing	.x										
+SUB230898	Atopic	SS	2783	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					5	369
+SUB230898	Atopic	SS	2779	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	818
+SUB230899	Atopic	SS	3003	36-Month Clinic Visit	1.2	missing	.x										
+SUB230899	Atopic	SS	2994	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	0	0	0	9	347
+SUB230899	Atopic	SS	1317	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	6	-93
+SUB230899	Atopic	SS	2990	24-Month Clinic Visit	1.2	complete	24	2	1	1	0					7	732
+SUB230900	Atopic	SS	1341	Prenatal Visit	1.2	complete	p	3	2	1	1	0	0	1	0	6	-100
+SUB230900	Atopic	SS	3010	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					3	423
+SUB230900	Atopic	SS	3019	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					6	1150
+SUB230900	Atopic	SS	3006	24-Month Clinic Visit	1.2	complete	24	3	0	3	0					5	787
+SUB230901	Atopic	SS	3026	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					9	350
+SUB230901	Atopic	SS	3035	36-Month Clinic Visit	1.2	complete	36	4	2	0	0					9	1163
+SUB230901	Atopic	SS	637	Prenatal Visit	1.2	complete	p	2	1	0	0					9	-117
+SUB230901	Atopic	SS	3022	24-Month Clinic Visit	1.2	complete	24	2	0	1	0					9	799
+SUB230902	Atopic	SS	3038	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					7	821
+SUB230902	Atopic	SS	3051	36-Month Clinic Visit	1.2	missing	.x										
+SUB230902	Atopic	SS	2507	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-25
+SUB230902	Atopic	SS	3042	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					5	359
+SUB230903	Atopic	SS	3097	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	729
+SUB230903	Atopic	SS	3110	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1148
+SUB230903	Atopic	SS	3101	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	371
+SUB230903	Atopic	SS	1152	Prenatal Visit	1.2	complete	p	0	0	2	0					9	-110
+SUB230904	Atopic	SS	1333	Prenatal Visit	1.2	complete	p	2	0	1	1	1	1	1	1	6	-104
+SUB230904	Atopic	SS	3132	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	1	8	1188
+SUB230904	Atopic	SS	3119	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	1	1	1	9	821
+SUB230904	Atopic	SS	3123	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	0	0	1	1	7	406
+SUB230905	Atopic	SS	2758	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-7
+SUB230905	Atopic	SS	3270	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	451
+SUB230905	Atopic	SS	3279	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					7	1151
+SUB230905	Atopic	SS	3266	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	768
+SUB230906	Atopic	SS	3306	12-Month Clinic Visit	1.2	complete	12	2	0	1	1	1	1	1	1	7	444
+SUB230906	Atopic	SS	3302	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	6	779
+SUB230906	Atopic	SS	3315	36-Month Clinic Visit	1.2	missing	.x										
+SUB230906	Atopic	SS	1394	Prenatal Visit	1.2	complete	p	1	2	1	1	1	1	1	1	5	-108
+SUB230907	Atopic	SS	3346	12-Month Clinic Visit	1.2	complete	12	2	1	2	1	0	1	1	0	7	447
+SUB230907	Atopic	SS	1146	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	0	8	-125
+SUB230907	Atopic	SS	3355	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1147
+SUB230907	Atopic	SS	3342	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					8	779
+SUB230908	Atopic	SS	1029	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	1	1	7	-125
+SUB230908	Atopic	SS	3369	24-Month Clinic Visit	1.2	complete	24	2	2	2	1	0	1	1	1	5	723
+SUB230908	Atopic	SS	3382	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1155
+SUB230908	Atopic	SS	3373	12-Month Clinic Visit	1.2	missing	.x										
+SUB230909	Atopic	SS	2247	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	1	8	-66
+SUB230909	Atopic	SS	3453	24-Month Clinic Visit	1.2	complete	24	0	2	2	1	1	1	1	1	7	784
+SUB230909	Atopic	SS	3457	12-Month Clinic Visit	1.2	complete	12	2	3	0	1	1	1	1	1	7	345
+SUB230909	Atopic	SS	3466	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	7	1156
+SUB230910	Atopic	SS	1060	Prenatal Visit	1.2	complete	p	4	1	0	0					6	-126
+SUB230910	Atopic	SS	3473	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	394
+SUB230910	Atopic	SS	3469	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	801
+SUB230910	Atopic	SS	3482	36-Month Clinic Visit	1.2	complete	36	4	3	3	0					5	1141
+SUB230911	Atopic	SS	3547	36-Month Clinic Visit	1.2	complete	36	4	4	4	0					1	1121
+SUB230911	Atopic	SS	3538	12-Month Clinic Visit	1.2	complete	12	4	2	1	0					6	384
+SUB230911	Atopic	SS	3534	24-Month Clinic Visit	1.2	complete	24	3	2	1	1	0	1	1	1	4	774
+SUB230911	Atopic	SS	2159	Prenatal Visit	1.2	complete	p	4	3	3	0					4	-38
+SUB230912	Atopic	SS	3580	24-Month Clinic Visit	1.2	complete	24	4	1	0	0					9	795
+SUB230912	Atopic	SS	2504	Prenatal Visit	1.2	complete	p	1	1	0	1	1	0	0	0	6	-51
+SUB230912	Atopic	SS	3584	12-Month Clinic Visit	1.2	complete	12	3	1	2	1	1	0	0	0	4	354
+SUB230912	Atopic	SS	3593	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	0	0	0	6	1139
+SUB230913	Atopic	SS	3611	12-Month Clinic Visit	1.2	missing	.x										
+SUB230913	Atopic	SS	3620	36-Month Clinic Visit	1.2	complete	36	0	0	1	0					5	1146
+SUB230913	Atopic	SS	3607	24-Month Clinic Visit	1.2	complete	24	1	3	3	0					7	836
+SUB230913	Atopic	SS	2063	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-80
+SUB230914	Atopic	SS	3623	24-Month Clinic Visit	1.2	complete	24	3	3	1	0					9	774
+SUB230914	Atopic	SS	3636	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	0	0	6	1151
+SUB230914	Atopic	SS	2232	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	0	9	-68
+SUB230914	Atopic	SS	3627	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					9	352
+SUB230915	Atopic	SS	3642	24-Month Clinic Visit	1.2	complete	24	0	1	0	0					7	792
+SUB230915	Atopic	SS	3655	36-Month Clinic Visit	1.2	complete	36	2	1	1	0					7	1186
+SUB230915	Atopic	SS	3646	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					6	428
+SUB230915	Atopic	SS	2966	Prenatal Visit	1.2	complete	p	3	1	0	0					6	-27
+SUB230916	Atopic	SS	619	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-88
+SUB230916	Atopic	SS	3728	36-Month Clinic Visit	1.2	missing	.x										
+SUB230916	Atopic	SS	3719	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					8	339
+SUB230916	Atopic	SS	3715	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	745
+SUB230917	Atopic	SS	3739	12-Month Clinic Visit	1.2	complete	12	3	3	3	0					5	371
+SUB230917	Atopic	SS	3748	36-Month Clinic Visit	1.2	complete	36	3	2	3	0					5	1150
+SUB230917	Atopic	SS	1149	Prenatal Visit	1.2	complete	p	3	2	3	0					5	-137
+SUB230917	Atopic	SS	3735	24-Month Clinic Visit	1.2	complete	24	2	3	2	0					5	791
+SUB230918	Atopic	SS	1357	Prenatal Visit	1.2	complete	p	1	2	3	1	1	1	1	1	6	-128
+SUB230918	Atopic	SS	3779	12-Month Clinic Visit	1.2	missing	.x										
+SUB230919	Atopic	SS	3795	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	448
+SUB230919	Atopic	SS	3804	36-Month Clinic Visit	1.2	missing	.x										
+SUB230919	Atopic	SS	3791	24-Month Clinic Visit	1.2	missing	.x										
+SUB230919	Atopic	SS	2492	Prenatal Visit	1.2	complete	p	3	0	0	1	0	1	1	1	7	-62
+SUB230920	Atopic	SS	3840	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	9	765
+SUB230920	Atopic	SS	3853	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	0	9	1150
+SUB230920	Atopic	SS	1339	Prenatal Visit	1.2	complete	p	1	0	0	1	0	0	1	1	8	-130
+SUB230920	Atopic	SS	3844	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	9	415
+SUB230921	Atopic	SS	2499	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-68
+SUB230921	Atopic	SS	3901	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	807
+SUB230921	Atopic	SS	3905	12-Month Clinic Visit	1.2	complete	12	1	0	4	0					9	392
+SUB230921	Atopic	SS	3914	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					7	1173
+SUB230922	Atopic	SS	3955	24-Month Clinic Visit	1.2	complete	24	3	3	3	0					5	783
+SUB230922	Atopic	SS	3968	36-Month Clinic Visit	1.2	missing	.x										
+SUB230922	Atopic	SS	3055	Prenatal Visit	1.2	complete	p	4	4	3	0					7	-7
+SUB230922	Atopic	SS	3959	12-Month Clinic Visit	1.2	complete	12	4	4	3	0					9	432
+SUB230923	Atopic	SS	4056	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	382
+SUB230923	Atopic	SS	2617	Prenatal Visit	1.2	complete	p	2	0	0	0					7	-58
+SUB230923	Atopic	SS	4065	36-Month Clinic Visit	1.2	missing	.x										
+SUB230923	Atopic	SS	4052	24-Month Clinic Visit	1.2	missing	.x										
+SUB230924	Atopic	SS	1618	Prenatal Visit	1.2	complete	p	0	0	1	0					7	-106
+SUB230924	Atopic	SS	4082	12-Month Clinic Visit	1.2	complete	12	1	2	1	0					7	431
+SUB230924	Atopic	SS	4091	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1187
+SUB230924	Atopic	SS	4078	24-Month Clinic Visit	1.2	complete	24	1	1	1	1	1	1	0	0	7	822
+SUB230925	Atopic	SS	4219	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					4	1155
+SUB230925	Atopic	SS	2553	Prenatal Visit	1.2	complete	p	2	1	1	0					7	-78
+SUB230925	Atopic	SS	4210	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	451
+SUB230925	Atopic	SS	4206	24-Month Clinic Visit	1.2	complete	24	1	0	2	0					4	789
+SUB230926	Atopic	SS	169	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	1	5	-107
+SUB230926	Atopic	SS	4353	12-Month Clinic Visit	1.2	missing	.x										
+SUB230926	Atopic	SS	4349	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	1	1	1	1	7	806
+SUB230926	Atopic	SS	4362	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	8	1155
+SUB230927	Atopic	SS	4646	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					3	403
+SUB230927	Atopic	SS	4642	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					9	806
+SUB230927	Atopic	SS	4655	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1156
+SUB230927	Atopic	SS	4197	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-1
+SUB230928	Atopic	SS	4671	12-Month Clinic Visit	1.2	complete	12	3	1	0	0					4	393
+SUB230928	Atopic	SS	4667	24-Month Clinic Visit	1.2	complete	24	0	2	0	0					8	748
+SUB230928	Atopic	SS	4680	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					5	1168
+SUB230928	Atopic	SS	4169	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-18
+SUB230929	Atopic	SS	4720	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1145
+SUB230929	Atopic	SS	4711	12-Month Clinic Visit	1.2	complete	12	3	4	2	0					4	405
+SUB230929	Atopic	SS	4707	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					2	741
+SUB230929	Atopic	SS	3391	Prenatal Visit	1.2	complete	p	2	0	0	1	0	0	0	1	2	-46
+SUB230930	Atopic	SS	4798	12-Month Clinic Visit	1.2	missing	.x										
+SUB230930	Atopic	SS	4807	36-Month Clinic Visit	1.2	missing	.x										
+SUB230930	Atopic	SS	4683	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-7
+SUB230930	Atopic	SS	4794	24-Month Clinic Visit	1.2	missing	.x										
+SUB230931	Atopic	SS	4309	Prenatal Visit	1.2	complete	p	4	0	1	0					6	-27
+SUB230932	Atopic	SS	3052	Prenatal Visit	1.2	complete	p	3	4	4	0					1	-86
+SUB230932	Atopic	SS	5181	24-Month Clinic Visit	1.2	complete	24	4	1	2	0					3	740
+SUB230932	Atopic	SS	5177	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1074
+SUB230932	Atopic	SS	5185	12-Month Clinic Visit	1.2	complete	12	4	3	1	0					4	382
+SUB230933	Atopic	SS	5325	36-Month Clinic Visit	1.2	complete	36	4	3	3	1	0	0	0	1	7	1173
+SUB230933	Atopic	SS	2934	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-94
+SUB230933	Atopic	SS	5333	12-Month Clinic Visit	1.2	complete	12	3	0	0	1	0	0	0	1	8	353
+SUB230933	Atopic	SS	5329	24-Month Clinic Visit	1.2	complete	24	4	0	1	1	0	0	0	1	8	806
+SUB230934	Atopic	SS	2609	Prenatal Visit	1.2	complete	p	2	2	2	0					5	-115
+SUB230934	Atopic	SS	5349	12-Month Clinic Visit	1.2	complete	12	2	1	1	0					8	387
+SUB230934	Atopic	SS	5345	24-Month Clinic Visit	1.2	complete	24	1	0	2	0					7	819
+SUB230934	Atopic	SS	5341	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1170
+SUB230935	Atopic	SS	3388	Prenatal Visit	1.2	complete	p	1	2	0	1	0	0	0	1	7	-72
+SUB230935	Atopic	SS	5360	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	8	1171
+SUB230935	Atopic	SS	5368	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	1	0	1	9	352
+SUB230935	Atopic	SS	5364	24-Month Clinic Visit	1.2	complete	24	0	3	0	1	0	1	0	1	7	814
+SUB230936	Atopic	SS	5521	12-Month Clinic Visit	1.2	complete	12	4	3	3	0					2	384
+SUB230936	Atopic	SS	5513	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					6	1169
+SUB230936	Atopic	SS	2603	Prenatal Visit	1.2	complete	p	2	0	0	0					7	-115
+SUB230936	Atopic	SS	5517	24-Month Clinic Visit	1.2	complete	24	4	0	4	0					3	816
+SUB230937	Atopic	SS	5640	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					5	809
+SUB230937	Atopic	SS	4586	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-32
+SUB230937	Atopic	SS	5636	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					5	1166
+SUB230937	Atopic	SS	5644	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	380
+SUB230938	Atopic	SS	5793	12-Month Clinic Visit	1.2	missing	.x										
+SUB230938	Atopic	SS	5785	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	5	1124
+SUB230938	Atopic	SS	5789	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	7	760
+SUB230938	Atopic	SS	4920	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	6	-28
+SUB230939	Atopic	SS	5928	12-Month Clinic Visit	1.2	complete	12	3	1	2	1	1	1	1	1	5	403
+SUB230939	Atopic	SS	2979	Prenatal Visit	1.2	complete	p	1	2	2	1	1	1	1	1	5	-101
+SUB230939	Atopic	SS	5920	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	9	1171
+SUB230939	Atopic	SS	5924	24-Month Clinic Visit	1.2	complete	24	2	1	2	1	1	1	1	1	4	807
+SUB230940	Atopic	SS	3759	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	7	-72
+SUB230940	Atopic	SS	5942	24-Month Clinic Visit	1.2	missing	.x										
+SUB230940	Atopic	SS	5946	12-Month Clinic Visit	1.2	complete	12	2	0	0	1	0	1	1	1	7	410
+SUB230941	Atopic	SS	6051	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	8	1171
+SUB230941	Atopic	SS	6059	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	0	1	1	1	5	355
+SUB230941	Atopic	SS	5782	Prenatal Visit	1.2	complete	p	0	0	0	1	0	1	1	1	9	-5
+SUB230941	Atopic	SS	6055	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	1	6	805
+SUB230942	Atopic	SS	4247	Prenatal Visit	1.2	complete	p	0	1	1	1	0	0	1	0	9	-57
+SUB230942	Atopic	SS	6071	24-Month Clinic Visit	1.2	complete	24	0	0	1	1	1	1	1	1	9	805
+SUB230942	Atopic	SS	6075	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	9	406
+SUB230942	Atopic	SS	6067	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	1	9	1181
+SUB230943	Atopic	SS	6084	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1161
+SUB230943	Atopic	SS	5825	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-7
+SUB230943	Atopic	SS	6088	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	808
+SUB230943	Atopic	SS	6092	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	1	1	1	7	432
+SUB230944	Atopic	SS	3869	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-73
+SUB230944	Atopic	SS	6109	12-Month Clinic Visit	1.2	complete	12	1	4	3	0					7	445
+SUB230944	Atopic	SS	6105	24-Month Clinic Visit	1.2	complete	24	1	2	3	0					5	814
+SUB230944	Atopic	SS	6101	36-Month Clinic Visit	1.2	complete	36	1	2	3	0					5	1171
+SUB230945	Atopic	SS	6186	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1157
+SUB230945	Atopic	SS	6190	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	814
+SUB230945	Atopic	SS	6194	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	400
+SUB230945	Atopic	SS	5019	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-36
+SUB230946	Atopic	SS	6352	24-Month Clinic Visit	1.2	complete	24	0	1	1	0					8	748
+SUB230946	Atopic	SS	6356	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					8	372
+SUB230946	Atopic	SS	1674	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-196
+SUB230946	Atopic	SS	6348	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1170
+SUB230947	Atopic	SS	6445	12-Month Clinic Visit	1.2	missing	.x										
+SUB230947	Atopic	SS	6437	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	0	1	1	1	5	1164
+SUB230947	Atopic	SS	6441	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	1	1	1	5	812
+SUB230947	Atopic	SS	5082	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	1	1	7	-38
+SUB230948	Atopic	SS	3093	Prenatal Visit	1.2	complete	p	3	1	1	0					5	-122
+SUB230948	Atopic	SS	6462	12-Month Clinic Visit	1.2	complete	12	1	3	3	0					5	371
+SUB230948	Atopic	SS	6458	24-Month Clinic Visit	1.2	complete	24	1	0	2	0					5	793
+SUB230948	Atopic	SS	6454	36-Month Clinic Visit	1.2	complete	36	0	1	1	1	1	1	1	1	9	1166
+SUB230949	Atopic	SS	6479	24-Month Clinic Visit	1.2	complete	24	4	4	3	0					2	814
+SUB230949	Atopic	SS	6483	12-Month Clinic Visit	1.2	complete	12	4	2	1	0					1	370
+SUB230949	Atopic	SS	5742	Prenatal Visit	1.2	complete	p	4	3	1	0					1	-27
+SUB230950	Atopic	SS	6209	Prenatal Visit	1.2	complete	p	4	0	4	0					9	-16
+SUB230950	Atopic	SS	6608	36-Month Clinic Visit	1.2	missing	.x										
+SUB230950	Atopic	SS	6612	24-Month Clinic Visit	1.2	complete	24	2	2	0	0					8	805
+SUB230950	Atopic	SS	6616	12-Month Clinic Visit	1.2	missing	.x										
+SUB230951	Atopic	SS	6641	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	375
+SUB230951	Atopic	SS	6633	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1159
+SUB230951	Atopic	SS	6637	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					9	803
+SUB230951	Atopic	SS	3660	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-102
+SUB230952	Atopic	SS	5982	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	6	-26
+SUB230952	Atopic	SS	6706	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	1	1	1	7	816
+SUB230952	Atopic	SS	6702	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	1	1	1	1	6	1151
+SUB230952	Atopic	SS	6710	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	4	359
+SUB230953	Atopic	SS	6220	Prenatal Visit	1.2	complete	p	0	1	1	0					4	-19
+SUB230953	Atopic	SS	6727	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					3	422
+SUB230953	Atopic	SS	6719	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					5	1163
+SUB230953	Atopic	SS	6723	24-Month Clinic Visit	1.2	missing	.x										
+SUB230954	Atopic	SS	6827	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-6
+SUB230954	Atopic	SS	6893	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					6	801
+SUB230954	Atopic	SS	6897	12-Month Clinic Visit	1.2	complete	12	0	0	2	0					5	393
+SUB230954	Atopic	SS	6889	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1171
+SUB230955	Atopic	SS	7021	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1160
+SUB230955	Atopic	SS	7029	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	5	398
+SUB230955	Atopic	SS	7025	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	776
+SUB230955	Atopic	SS	6816	Prenatal Visit	1.2	complete	p	0	0	0	0					3	-6
+SUB230956	Atopic	SS	7096	36-Month Clinic Visit	1.2	missing	.x										
+SUB230956	Atopic	SS	6668	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-11
+SUB230956	Atopic	SS	7100	24-Month Clinic Visit	1.2	missing	.x										
+SUB230956	Atopic	SS	7104	12-Month Clinic Visit	1.2	missing	.x										
+SUB230957	Atopic	SS	7389	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1152
+SUB230957	Atopic	SS	7393	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	1	1	1	9	786
+SUB230957	Atopic	SS	7397	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	401
+SUB230957	Atopic	SS	3860	Prenatal Visit	1.2	complete	p	0	0	0	1	0	1	1	1	8	-118
+SUB230958	Atopic	SS	7477	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	776
+SUB230958	Atopic	SS	7481	12-Month Clinic Visit	1.2	complete	12	4	3	1	0					8	454
+SUB230958	Atopic	SS	7473	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1184
+SUB230958	Atopic	SS	6813	Prenatal Visit	1.2	complete	p	4	3	2	0					7	-22
+SUB230959	Atopic	SS	5500	Prenatal Visit	1.2	complete	p	2	1	0	0					5	-56
+SUB230959	Atopic	SS	7505	12-Month Clinic Visit	1.2	missing	.x										
+SUB230959	Atopic	SS	7501	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	768
+SUB230959	Atopic	SS	7497	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1138
+SUB230960	Atopic	SS	5098	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	7	-56
+SUB230960	Atopic	SS	7531	36-Month Clinic Visit	1.2	complete	36	1	0	5	1	1	1	1	1	7	1164
+SUB230960	Atopic	SS	7535	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	7	805
+SUB230960	Atopic	SS	7539	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	7	458
+SUB230961	Atopic	SS	7608	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	799
+SUB230961	Atopic	SS	3875	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-125
+SUB230961	Atopic	SS	7612	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	377
+SUB230961	Atopic	SS	7604	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1141
+SUB230962	Atopic	SS	7648	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	0	1	7	-9
+SUB230962	Atopic	SS	7919	24-Month Clinic Visit	1.2	complete	24	0	1	0	0					7	720
+SUB230962	Atopic	SS	7915	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1167
+SUB230962	Atopic	SS	7923	12-Month Clinic Visit	1.2	missing	.x										
+SUB230963	Atopic	SS	7955	12-Month Clinic Visit	1.2	complete	12	3	2	1	1	1	1	1	1	5	375
+SUB230963	Atopic	SS	7951	24-Month Clinic Visit	1.2	complete	24	2	0	0	1	1	1	1	1	9	789
+SUB230963	Atopic	SS	7947	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	9	1170
+SUB230963	Atopic	SS	5095	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	9	-64
+SUB230964	Atopic	SS	8006	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	429
+SUB230964	Atopic	SS	5379	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	1	1	7	-77
+SUB230964	Atopic	SS	7998	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	0	1	1	7	1085
+SUB230964	Atopic	SS	8002	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	7	820
+SUB230965	Atopic	SS	8034	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	7	820
+SUB230965	Atopic	SS	8038	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	429
+SUB230965	Atopic	SS	8030	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	0	1	1	7	1085
+SUB230965	Atopic	SS	7967	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	1	1	7	-77
+SUB230966	Atopic	SS	4818	Prenatal Visit	1.2	complete	p	0	0	0	0					8	-108
+SUB230966	Atopic	SS	8168	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					8	791
+SUB230966	Atopic	SS	8164	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					9	1154
+SUB230966	Atopic	SS	8172	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	375
+SUB230967	Atopic	SS	8210	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					8	745
+SUB230967	Atopic	SS	5061	Prenatal Visit	1.2	complete	p	0	0	0	0					8	-101
+SUB230967	Atopic	SS	8206	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1165
+SUB230967	Atopic	SS	8214	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	355
+SUB230968	Atopic	SS	6144	Prenatal Visit	1.2	complete	p	3	4	2	1	0	0	1	0	7	-71
+SUB230968	Atopic	SS	8253	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	0	0	1	1	9	408
+SUB230968	Atopic	SS	8249	24-Month Clinic Visit	1.2	missing	.x										
+SUB230968	Atopic	SS	8245	36-Month Clinic Visit	1.2	missing	.x										
+SUB230969	Atopic	SS	8580	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	381
+SUB230969	Atopic	SS	8576	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	801
+SUB230969	Atopic	SS	7119	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-44
+SUB230969	Atopic	SS	8572	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1174
+SUB230970	Atopic	SS	8871	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	7	1187
+SUB230970	Atopic	SS	8875	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	7	822
+SUB230970	Atopic	SS	8879	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	6	374
+SUB230970	Atopic	SS	5101	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	-86
+SUB230971	Atopic	SS	8891	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					5	732
+SUB230971	Atopic	SS	8504	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-9
+SUB230971	Atopic	SS	8895	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	368
+SUB230971	Atopic	SS	8887	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					7	1150
+SUB230972	Atopic	SS	9124	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1164
+SUB230972	Atopic	SS	9132	12-Month Clinic Visit	1.2	complete	12	3	0	2	0					8	392
+SUB230972	Atopic	SS	8460	Prenatal Visit	1.2	complete	p	4	2	1	0					5	-18
+SUB230972	Atopic	SS	9128	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					8	808
+SUB230973	Atopic	SS	8197	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	9	-24
+SUB230973	Atopic	SS	9140	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	7	1141
+SUB230973	Atopic	SS	9144	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	1	8	779
+SUB230973	Atopic	SS	9148	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	8	371
+SUB230974	Atopic	SS	9200	24-Month Clinic Visit	1.2	missing	.x										
+SUB230974	Atopic	SS	9204	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					5	370
+SUB230974	Atopic	SS	8642	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-14
+SUB230974	Atopic	SS	9196	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1168
+SUB230975	Atopic	SS	9252	12-Month Clinic Visit	1.2	complete	12	0	0	1	1	0	1	1	1	6	396
+SUB230975	Atopic	SS	9244	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1174
+SUB230975	Atopic	SS	5393	Prenatal Visit	1.2	complete	p	1	0	1	1	0	1	1	1	7	-78
+SUB230975	Atopic	SS	9248	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	7	746
+SUB230976	Atopic	SS	9402	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					7	416
+SUB230976	Atopic	SS	9398	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					6	752
+SUB230976	Atopic	SS	6819	Prenatal Visit	1.2	complete	p	2	1	3	0					5	-70
+SUB230976	Atopic	SS	9394	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1160
+SUB230977	Atopic	SS	9624	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	1	1	1	7	807
+SUB230977	Atopic	SS	9628	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	6	392
+SUB230977	Atopic	SS	9620	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1142
+SUB230977	Atopic	SS	8645	Prenatal Visit	1.2	complete	p	0	0	0	1	0	1	1	1	7	-27
+SUB230978	Atopic	SS	9715	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	356
+SUB230978	Atopic	SS	9707	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					7	1133
+SUB230978	Atopic	SS	9711	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	0	1	1	1	6	760
+SUB230978	Atopic	SS	8675	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-27
+SUB230979	Atopic	SS	9768	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	804
+SUB230979	Atopic	SS	9764	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1172
+SUB230979	Atopic	SS	9772	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					6	395
+SUB230979	Atopic	SS	5131	Prenatal Visit	1.2	complete	p	4	0	0	0					6	-136
+SUB230980	Atopic	SS	9825	12-Month Clinic Visit	1.2	missing	.x										
+SUB230980	Atopic	SS	9821	24-Month Clinic Visit	1.2	missing	.x										
+SUB230980	Atopic	SS	8454	Prenatal Visit	1.2	complete	p	1	0	0	0					9	-26
+SUB230981	Atopic	SS	10061	12-Month Clinic Visit	1.2	complete	12	4	1	3	0					9	396
+SUB230981	Atopic	SS	5388	Prenatal Visit	1.2	complete	p	4	0	3	0					9	-113
+SUB230981	Atopic	SS	10057	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					4	729
+SUB230981	Atopic	SS	10053	36-Month Clinic Visit	1.2	complete	36	4	2	2	0					7	1172
+SUB230982	Atopic	SS	10084	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					5	1172
+SUB230982	Atopic	SS	6653	Prenatal Visit	1.2	complete	p	1	0	1	0					9	-106
+SUB230982	Atopic	SS	10088	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					5	711
+SUB230982	Atopic	SS	10092	12-Month Clinic Visit	1.2	complete	12	2	0	1	0					9	396
+SUB230983	Atopic	SS	10110	12-Month Clinic Visit	1.2	complete	12	0	1	3	0					4	408
+SUB230983	Atopic	SS	10102	36-Month Clinic Visit	1.2	complete	36	0	0	1	0					4	1172
+SUB230983	Atopic	SS	9420	Prenatal Visit	1.2	complete	p	4	0	2	0					1	-24
+SUB230983	Atopic	SS	10106	24-Month Clinic Visit	1.2	complete	24	0	0	1	0					4	706
+SUB230984	Atopic	SS	10160	12-Month Clinic Visit	1.2	missing	.x										
+SUB230984	Atopic	SS	8684	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-47
+SUB230984	Atopic	SS	10156	24-Month Clinic Visit	1.2	missing	.x										
+SUB230984	Atopic	SS	10152	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1172
+SUB230985	Atopic	SS	9471	Prenatal Visit	1.2	complete	p	4	0	4	0					9	-28
+SUB230985	Atopic	SS	10353	36-Month Clinic Visit	1.2	complete	36	2	1	1	0					9	1068
+SUB230985	Atopic	SS	10361	12-Month Clinic Visit	1.2	missing	.x										
+SUB230985	Atopic	SS	10357	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					9	707
+SUB230986	Atopic	SS	10378	12-Month Clinic Visit	1.2	complete	12	1	3	1	0					7	381
+SUB230986	Atopic	SS	8670	Prenatal Visit	1.2	complete	p	3	3	3	0					8	-49
+SUB230986	Atopic	SS	10370	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					2	1146
+SUB230986	Atopic	SS	10374	24-Month Clinic Visit	1.2	complete	24	4	3	3	0					7	761
+SUB230987	Atopic	SS	10600	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	375
+SUB230987	Atopic	SS	8466	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-64
+SUB230987	Atopic	SS	10592	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1172
+SUB230987	Atopic	SS	10596	24-Month Clinic Visit	1.2	complete	24	1	1	0	0					5	753
+SUB230988	Atopic	SS	10707	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	7	726
+SUB230988	Atopic	SS	6739	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	8	-119
+SUB230988	Atopic	SS	10703	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	7	1139
+SUB230988	Atopic	SS	10711	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	6	392
+SUB230989	Atopic	SS	11312	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1165
+SUB230989	Atopic	SS	11320	12-Month Clinic Visit	1.2	complete	12	1	2	1	0					5	375
+SUB230989	Atopic	SS	9584	Prenatal Visit	1.2	complete	p	1	2	1	0					6	-64
+SUB230989	Atopic	SS	11316	24-Month Clinic Visit	1.2	complete	24	3	2	2	0					7	716
+SUB230990	Atopic	SS	11003	Prenatal Visit	1.2	complete	p	0	0	1	0					7	-13
+SUB230990	Atopic	SS	11328	36-Month Clinic Visit	1.2	complete	36	0	1	0	0					5	1120
+SUB230990	Atopic	SS	11332	24-Month Clinic Visit	1.2	complete	24	0	1	1	0					5	750
+SUB230990	Atopic	SS	11336	12-Month Clinic Visit	1.2	complete	12	0	1	1	0					7	382
+SUB230991	Atopic	SS	11365	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	8	1164
+SUB230991	Atopic	SS	11373	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	0	1	6	413
+SUB230991	Atopic	SS	11009	Prenatal Visit	1.2	complete	p	0	0	0	1	0	0	0	1	8	-17
+SUB230991	Atopic	SS	11369	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	0	1	6	823
+SUB230992	Atopic	SS	7465	Prenatal Visit	1.2	complete	p	4	1	3	1	0	0	1	0	3	-126
+SUB230992	Atopic	SS	11511	12-Month Clinic Visit	1.2	missing	.x										
+SUB230992	Atopic	SS	11503	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1173
+SUB230992	Atopic	SS	11507	24-Month Clinic Visit	1.2	complete	24	3	3	3	1	0	1	0	1	8	823
+SUB230993	Atopic	SS	11527	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	375
+SUB230993	Atopic	SS	5457	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-141
+SUB230993	Atopic	SS	11523	24-Month Clinic Visit	1.2	complete	24	4	0	0	0					5	704
+SUB230993	Atopic	SS	11519	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1166
+SUB230994	Atopic	SS	11829	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1172
+SUB230994	Atopic	SS	11006	Prenatal Visit	1.2	complete	p	3	1	1	0					7	-29
+SUB230994	Atopic	SS	11837	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	387
+SUB230994	Atopic	SS	11833	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					7	769
+SUB230995	Atopic	SS	11867	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	0	0	0	1	6	413
+SUB230995	Atopic	SS	11863	24-Month Clinic Visit	1.2	complete	24	3	0	2	1	0	0	0	1	5	799
+SUB230995	Atopic	SS	11157	Prenatal Visit	1.2	complete	p	3	3	3	1	0	0	0	1	5	-25
+SUB230995	Atopic	SS	11859	36-Month Clinic Visit	1.2	complete	36	3	0	2	1	0	0	0	0	6	1173
+SUB230996	Atopic	SS	11875	36-Month Clinic Visit	1.2	missing	.x										
+SUB230996	Atopic	SS	11879	24-Month Clinic Visit	1.2	missing	.x										
+SUB230996	Atopic	SS	6874	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	9	-144
+SUB230996	Atopic	SS	11883	12-Month Clinic Visit	1.2	missing	.x										
+SUB230997	Atopic	SS	12009	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					6	1156
+SUB230997	Atopic	SS	9694	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-81
+SUB230997	Atopic	SS	12013	24-Month Clinic Visit	1.2	complete	24	2	1	0	0					4	702
+SUB230997	Atopic	SS	12017	12-Month Clinic Visit	1.2	complete	12	3	0	0	0					3	359
+SUB230998	Atopic	SS	12053	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					7	714
+SUB230998	Atopic	SS	12049	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	0	9	1098
+SUB230998	Atopic	SS	12057	12-Month Clinic Visit	1.2	complete	12	1	1	4	1	0	0	0	1	8	349
+SUB230998	Atopic	SS	11948	Prenatal Visit	1.2	complete	p	3	1	3	1	1	0	0	0	9	-5
+SUB230999	Non-atopic	SS	12093	12-Month Clinic Visit	1.2	complete	12	2	0	1	1	1	1	1	1	7	453
+SUB230999	Non-atopic	SS	12097	24-Month Clinic Visit	1.2	missing	.x										
+SUB230999	Non-atopic	SS	11056	Prenatal Visit	1.2	complete	p	1	0	3	0					8	-36
+SUB230999	Non-atopic	SS	12101	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1146
+SUB231000	Atopic	SS	12246	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	375
+SUB231000	Atopic	SS	12238	36-Month Clinic Visit	1.2	missing	.x										
+SUB231000	Atopic	SS	9119	Prenatal Visit	1.2	complete	p	1	0	0	0					9	-102
+SUB231000	Atopic	SS	12242	24-Month Clinic Visit	1.2	complete	24	1	0	2	0					9	765
+SUB231001	Atopic	SS	12265	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	0	1	5	379
+SUB231001	Atopic	SS	12261	24-Month Clinic Visit	1.2	missing	.x										
+SUB231001	Atopic	SS	12257	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1126
+SUB231001	Atopic	SS	8452	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-124
+SUB231002	Atopic	SS	12298	Prenatal Visit	1.2	complete	p	4	2	1	1	0	1	1	1	1	-1
+SUB231002	Atopic	SS	12376	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	0	1	1	1	2	423
+SUB231002	Atopic	SS	12372	24-Month Clinic Visit	1.2	complete	24	2	0	2	1	0	1	1	1	4	723
+SUB231002	Atopic	SS	12368	36-Month Clinic Visit	1.2	complete	36	3	0	0	1	0	1	1	1	9	1096
+SUB231003	Atopic	SS	12402	36-Month Clinic Visit	1.2	complete	36	3	0	2	0					3	1173
+SUB231003	Atopic	SS	12410	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					3	422
+SUB231003	Atopic	SS	12406	24-Month Clinic Visit	1.2	complete	24	3	0	2	0					2	823
+SUB231003	Atopic	SS	10977	Prenatal Visit	1.2	complete	p	4	1	1	0					5	-54
+SUB231004	Atopic	SS	12495	12-Month Clinic Visit	1.2	complete	12	2	0	0	1	1	1	1	1	3	412
+SUB231004	Atopic	SS	11293	Prenatal Visit	1.2	complete	p	1	0	0	1	1	0	0	1	5	-40
+SUB231004	Atopic	SS	12487	36-Month Clinic Visit	1.2	complete	36	4	1	1	1	1	0	0	0	7	1126
+SUB231004	Atopic	SS	12491	24-Month Clinic Visit	1.2	complete	24	4	0	1	1	1	0	0	0	8	735
+SUB231005	Atopic	SS	12647	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1089
+SUB231005	Atopic	SS	12651	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	726
+SUB231005	Atopic	SS	11944	Prenatal Visit	1.2	complete	p	0	1	0	0					7	-22
+SUB231005	Atopic	SS	12655	12-Month Clinic Visit	1.2	complete	12	0	2	1	0					8	384
+SUB231006	Atopic	SS	12728	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					4	1179
+SUB231006	Atopic	SS	12736	12-Month Clinic Visit	1.2	complete	12	3	1	0	1	1	1	1	1	6	386
+SUB231006	Atopic	SS	12732	24-Month Clinic Visit	1.2	complete	24	4	1	1	1	0	1	1	1	4	823
+SUB231006	Atopic	SS	8499	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	0	0	4	-135
+SUB231007	Atopic	SS	12757	12-Month Clinic Visit	1.2	complete	12	1	2	2	0					6	417
+SUB231007	Atopic	SS	12749	36-Month Clinic Visit	1.2	complete	36	1	2	1	1	0	1	0	0	1	1145
+SUB231007	Atopic	SS	11264	Prenatal Visit	1.2	complete	p	4	3	4	1	1	1	1	0	6	-44
+SUB231007	Atopic	SS	12753	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					1	732
+SUB231008	Atopic	SS	12996	24-Month Clinic Visit	1.2	complete	24	0	1	1	0					5	815
+SUB231008	Atopic	SS	13000	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					1	415
+SUB231008	Atopic	SS	12992	36-Month Clinic Visit	1.2	missing	.x										
+SUB231008	Atopic	SS	10588	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-82
+SUB231009	Atopic	SS	13078	12-Month Clinic Visit	1.2	missing	.x										
+SUB231009	Atopic	SS	12206	Prenatal Visit	1.2	complete	p	1	1	1	0					9	-25
+SUB231010	Non-atopic	SS	13122	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	412
+SUB231010	Non-atopic	SS	13126	24-Month Clinic Visit	1.2	complete	24	4	4	3	0					9	808
+SUB231010	Non-atopic	SS	12386	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-18
+SUB231010	Non-atopic	SS	13130	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1186
+SUB231011	Atopic	SS	13132	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					6	1128
+SUB231011	Atopic	SS	12391	Prenatal Visit	1.2	complete	p	1	2	2	1	0	1	1	1	3	-18
+SUB231011	Atopic	SS	13140	12-Month Clinic Visit	1.2	complete	12	0	0	2	1	0	1	1	0	4	432
+SUB231011	Atopic	SS	13136	24-Month Clinic Visit	1.2	complete	24	3	0	2	1	0	1	1	0	4	738
+SUB231012	Atopic	SS	13167	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	7	1172
+SUB231012	Atopic	SS	9698	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	1	1	4	-117
+SUB231012	Atopic	SS	13175	12-Month Clinic Visit	1.2	complete	12	3	1	1	0					5	386
+SUB231012	Atopic	SS	13171	24-Month Clinic Visit	1.2	complete	24	0	1	1	0					1	706
+SUB231013	Atopic	SS	13382	12-Month Clinic Visit	1.2	complete	12	4	1	0	0					5	379
+SUB231013	Atopic	SS	13378	24-Month Clinic Visit	1.2	complete	24	0	0	1	0					8	776
+SUB231013	Atopic	SS	9341	Prenatal Visit	1.2	complete	p	4	2	1	0					7	-130
+SUB231013	Atopic	SS	13374	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					4	1147
+SUB231014	Atopic	SS	13401	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	463
+SUB231014	Atopic	SS	13397	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	734
+SUB231014	Atopic	SS	12066	Prenatal Visit	1.2	complete	p	3	0	1	0					8	-40
+SUB231014	Atopic	SS	13393	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1079
+SUB231015	Non-atopic	SS	13480	36-Month Clinic Visit	1.2	complete	36	0	2	2	0					9	1152
+SUB231015	Non-atopic	SS	13472	12-Month Clinic Visit	1.2	complete	12	1	2	2	0					9	398
+SUB231015	Non-atopic	SS	11495	Prenatal Visit	1.2	complete	p	1	2	0	0					7	-62
+SUB231015	Non-atopic	SS	13476	24-Month Clinic Visit	1.2	complete	24	1	1	2	0					9	795
+SUB231016	Atopic	SS	13626	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					9	819
+SUB231016	Atopic	SS	13622	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					9	1107
+SUB231016	Atopic	SS	13630	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	425
+SUB231016	Atopic	SS	9860	Prenatal Visit	1.2	complete	p	2	2	1	0					9	-124
+SUB231017	Non-atopic	SS	13697	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	389
+SUB231017	Non-atopic	SS	13705	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1143
+SUB231017	Non-atopic	SS	11091	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	5	-85
+SUB231017	Non-atopic	SS	13701	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	793
+SUB231018	Atopic	SS	13721	12-Month Clinic Visit	1.2	missing	.x										
+SUB231018	Atopic	SS	8963	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-157
+SUB231019	Atopic	SS	13925	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					5	1172
+SUB231019	Atopic	SS	13933	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					9	413
+SUB231019	Atopic	SS	9283	Prenatal Visit	1.2	complete	p	4	4	2	0					1	-157
+SUB231019	Atopic	SS	13929	24-Month Clinic Visit	1.2	complete	24	4	0	0	0					5	743
+SUB231020	Atopic	SS	12236	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-54
+SUB231021	Atopic	SS	14303	12-Month Clinic Visit	1.2	complete	12	1	1	1						4	405
+SUB231021	Atopic	SS	11051	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-107
+SUB231021	Atopic	SS	14295	36-Month Clinic Visit	1.2	complete	36	3	3	3	0					5	1170
+SUB231021	Atopic	SS	14299	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					6	748
+SUB231022	Non-atopic	SS	11807	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	0	0	9	-86
+SUB231022	Non-atopic	SS	14324	24-Month Clinic Visit	1.2	complete	24	1	3	3	0					7	793
+SUB231022	Non-atopic	SS	14320	12-Month Clinic Visit	1.2	complete	12	0	4	0	0					5	446
+SUB231022	Non-atopic	SS	14328	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1079
+SUB231023	Non-atopic	SS	15404	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	424
+SUB231023	Non-atopic	SS	15408	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	9	791
+SUB231023	Non-atopic	SS	15064	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-13
+SUB231023	Non-atopic	SS	15412	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1186
+SUB231024	Non-atopic	SS	16277	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	1	9	808
+SUB231024	Non-atopic	SS	16273	12-Month Clinic Visit	1.2	complete	12	1	3	3	1	0	0	1	1	7	389
+SUB231024	Non-atopic	SS	13988	Prenatal Visit	1.2	complete	p	1	3	0	1	0	0	1	1	8	-74
+SUB231024	Non-atopic	SS	16281	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1172
+SUB231025	Atopic	SS	16689	24-Month Clinic Visit	1.2	complete	24	3	0	0	1	1	1	0	0	7	823
+SUB231025	Atopic	SS	15245	Prenatal Visit	1.2	complete	p	0	2	2	1	1	1	0	0	2	-46
+SUB231025	Atopic	SS	16685	36-Month Clinic Visit	1.2	complete	36	4	0	0	1	1	1	0	0	5	1231
+SUB231025	Atopic	SS	16693	12-Month Clinic Visit	1.2	missing	.x										
+SUB231026	Atopic	SS	16723	24-Month Clinic Visit	1.2	complete	24	1	1	3	0					3	750
+SUB231026	Atopic	SS	16719	36-Month Clinic Visit	1.2	complete	36	4	5	4	0					5	1109
+SUB231026	Atopic	SS	16173	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-18
+SUB231026	Atopic	SS	16727	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	345
+SUB231027	Atopic	SS	403	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					1	388
+SUB231027	Atopic	SS	83	Prenatal Visit	1.2	complete	p	4	4	3	0					1	-2
+SUB231027	Atopic	SS	407	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					5	800
+SUB231028	Atopic	SS	1106	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					5	700
+SUB231028	Atopic	SS	1110	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					4	1099
+SUB231028	Atopic	SS	1102	12-Month Clinic Visit	1.2	complete	12	3	0	0	0					5	407
+SUB231028	Atopic	SS	535	Prenatal Visit	1.2	complete	p	1	0	1	0					9	-1
+SUB231029	Atopic	SS	4466	36-Month Clinic Visit	1.2	complete	36	3	1	2	0					8	1122
+SUB231029	Atopic	SS	4461	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	455
+SUB231029	Atopic	SS	33290	60-Month Clinic Visit	1.2	complete	60	4	0	1	0					9	1802
+SUB231029	Atopic	SS	4457	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					2	708
+SUB231029	Atopic	SS	648	Prenatal Visit	1.2	complete	p	2	0	1	0					4	-13
+SUB231030	Atopic	SS	1438	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	3	719
+SUB231030	Atopic	SS	382	Prenatal Visit	1.2	complete	p	2	2	2	1	1	1	1	1	5	-33
+SUB231030	Atopic	SS	1434	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	5	456
+SUB231031	Atopic	SS	1476	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	8	454
+SUB231031	Atopic	SS	1484	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	8	1171
+SUB231031	Atopic	SS	1480	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	6	709
+SUB231031	Atopic	SS	935	Prenatal Visit	1.2	complete	p	0	0	1	1	1	1	1	1	8	-6
+SUB231032	Atopic	SS	164	Prenatal Visit	1.2	complete	p	3	0	0	0					7	-43
+SUB231032	Atopic	SS	1512	12-Month Clinic Visit	1.2	missing	.x										
+SUB231032	Atopic	SS	1516	24-Month Clinic Visit	1.2	complete	24	3	1	1	1	1	0	0	1	5	822
+SUB231032	Atopic	SS	1520	36-Month Clinic Visit	1.2	missing	.x										
+SUB231033	Atopic	SS	752	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	-45
+SUB231034	Atopic	SS	1522	Prenatal Visit	1.2	missing	.x										
+SUB231035	Atopic	SS	139	Prenatal Visit	1.2	complete	p	4	2	4	0					1	-104
+SUB231035	Atopic	SS	1833	36-Month Clinic Visit	1.2	complete	36	4	3	4	0						1083
+SUB231035	Atopic	SS	1820	24-Month Clinic Visit	1.2	complete	24	4	3	5	0					1	733
+SUB231035	Atopic	SS	1824	12-Month Clinic Visit	1.2	complete	12	4	3	3	0					1	418
+SUB231036	Atopic	SS	1933	12-Month Clinic Visit	1.2	missing	.x										
+SUB231036	Atopic	SS	1929	24-Month Clinic Visit	1.2	complete	24	2	0	0	1	1	1	0	0	5	713
+SUB231036	Atopic	SS	1942	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	5	1111
+SUB231036	Atopic	SS	532	Prenatal Visit	1.2	complete	p	0	0	1	1	1	0	0	1	5	-47
+SUB231037	Atopic	SS	1979	Prenatal Visit	1.2	missing	.x										
+SUB231038	Atopic	SS	1374	Prenatal Visit	1.2	complete	p	1	1	2	0					8	-39
+SUB231039	Atopic	SS	2432	36-Month Clinic Visit	1.2	complete	36	0	0	1	0					7	1105
+SUB231039	Atopic	SS	2419	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					6	748
+SUB231039	Atopic	SS	2423	12-Month Clinic Visit	1.2	complete	12	4	3	2	0					5	456
+SUB231039	Atopic	SS	1607	Prenatal Visit	1.2	complete	p	1	0	1	0					5	-27
+SUB231040	Atopic	SS	1543	Prenatal Visit	1.2	complete	p	2	0	0	1	0	1	1		4	-44
+SUB231040	Atopic	SS	2521	12-Month Clinic Visit	1.2	complete	12	2	1	1	1	0	1	1	1	4	382
+SUB231040	Atopic	SS	2530	36-Month Clinic Visit	1.2	complete	36	1	1	0	1		1	1	1	5	1150
+SUB231040	Atopic	SS	2517	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	1	1	1	5	769
+SUB231041	Atopic	SS	2723	36-Month Clinic Visit	1.2	complete	36	2	2	1	0					5	1168
+SUB231041	Atopic	SS	2710	24-Month Clinic Visit	1.2	complete	24	4	4	3	1	1	1	1	1	8	715
+SUB231041	Atopic	SS	2714	12-Month Clinic Visit	1.2	complete	12	2	2	1	1	1	1	1	1	6	393
+SUB231041	Atopic	SS	2055	Prenatal Visit	1.2	complete	p	2	0	1	1	1	1	1	1	5	-25
+SUB231042	Atopic	SS	2843	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					5	1182
+SUB231042	Atopic	SS	2583	Prenatal Visit	1.2	complete	p	1	0	1	0					5	-8
+SUB231042	Atopic	SS	2834	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	406
+SUB231042	Atopic	SS	2830	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	729
+SUB231043	Atopic	SS	2861	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1282
+SUB231043	Atopic	SS	2848	24-Month Clinic Visit	1.2	complete	24	4	1	1	0					7	725
+SUB231043	Atopic	SS	2852	12-Month Clinic Visit	1.2	complete	12	4	1	0	0					8	377
+SUB231043	Atopic	SS	2495	Prenatal Visit	1.2	complete	p	3	0	1	0					6	-11
+SUB231044	Atopic	SS	2868	12-Month Clinic Visit	1.2	complete	12	1	0	5	0					8	437
+SUB231044	Atopic	SS	2864	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	718
+SUB231044	Atopic	SS	2253	Prenatal Visit	1.2	complete	p	2	0	5	0					5	-29
+SUB231044	Atopic	SS	2877	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					6	1090
+SUB231045	Atopic	SS	3059	24-Month Clinic Visit	1.2	complete	24	2	1	0	0					3	776
+SUB231045	Atopic	SS	3063	12-Month Clinic Visit	1.2	missing	.x										
+SUB231045	Atopic	SS	173	Prenatal Visit	1.2	complete	p	1	1	0	0					2	-115
+SUB231045	Atopic	SS	3072	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					5	1157
+SUB231046	Atopic	SS	2580	Prenatal Visit	1.2	complete	p	2	2	2	1	1	1	1	1	4	-10
+SUB231047	Atopic	SS	3135	24-Month Clinic Visit	1.2	complete	24	1	1	1	1	1	1	1	0	1	735
+SUB231047	Atopic	SS	112	Prenatal Visit	1.2	complete	p	4	3	4	1	1	1	1	0	1	-97
+SUB231047	Atopic	SS	3148	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1128
+SUB231047	Atopic	SS	3139	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	1	1	1	0	4	398
+SUB231048	Atopic	SS	1717	Prenatal Visit	1.2	complete	p	0	1	3	0					8	-61
+SUB231048	Atopic	SS	3286	24-Month Clinic Visit	1.2	complete	24	4	3	3	0					6	724
+SUB231048	Atopic	SS	3290	12-Month Clinic Visit	1.2	complete	12	2	1	4	0					7	380
+SUB231048	Atopic	SS	3299	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					9	1108
+SUB231049	Atopic	SS	3485	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	815
+SUB231049	Atopic	SS	1705	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-57
+SUB231049	Atopic	SS	3498	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1150
+SUB231049	Atopic	SS	3489	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	429
+SUB231050	Atopic	SS	711	Prenatal Visit	1.2	complete	p	3	1	1	0					6	-78
+SUB231050	Atopic	SS	3514	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					7	1182
+SUB231050	Atopic	SS	3501	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	706
+SUB231050	Atopic	SS	3505	12-Month Clinic Visit	1.2	complete	12	4	1	1	0					6	412
+SUB231051	Atopic	SS	365	Prenatal Visit	1.2	complete	p	4	1	0	0					9	-93
+SUB231051	Atopic	SS	3517	24-Month Clinic Visit	1.2	complete	24	1	4	1	0					8	726
+SUB231051	Atopic	SS	3530	36-Month Clinic Visit	1.2	complete	36	0	0	1	0					5	1104
+SUB231051	Atopic	SS	3521	12-Month Clinic Visit	1.2	complete	12	4	1	1	0					8	460
+SUB231052	Atopic	SS	4489	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	397
+SUB231052	Atopic	SS	4485	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	783
+SUB231052	Atopic	SS	755	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-86
+SUB231052	Atopic	SS	4498	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1097
+SUB231053	Atopic	SS	4264	Prenatal Visit	1.2	complete	p	3	1	4	0					5	2
+SUB231053	Atopic	SS	4501	24-Month Clinic Visit	1.2	complete	24	4	4	3	0					7	716
+SUB231053	Atopic	SS	4505	12-Month Clinic Visit	1.2	complete	12	3	2	1	1	1	1	0	0	4	366
+SUB231053	Atopic	SS	4514	36-Month Clinic Visit	1.2	complete	36	4	4	1	0					5	1101
+SUB231054	Atopic	SS	1714	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	6	-80
+SUB231054	Atopic	SS	4531	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	0	0	7	1195
+SUB231054	Atopic	SS	4522	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	0	0	7	374
+SUB231054	Atopic	SS	4518	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	0	0	7	724
+SUB231055	Atopic	SS	4548	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	9	1081
+SUB231055	Atopic	SS	2963	Prenatal Visit	1.2	complete	p	4	0	0	0					5	-30
+SUB231055	Atopic	SS	4535	24-Month Clinic Visit	1.2	missing	.x										
+SUB231055	Atopic	SS	4539	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	6	366
+SUB231056	Atopic	SS	4938	24-Month Clinic Visit	1.2	missing	.x										
+SUB231056	Atopic	SS	4942	12-Month Clinic Visit	1.2	complete	12	1	0	4	1	1	1	1	1	3	384
+SUB231056	Atopic	SS	1610	Prenatal Visit	1.2	complete	p	2	1	1	1	1	1	1	1	1	-83
+SUB231057	Atopic	SS	9652	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	0	5	1119
+SUB231057	Atopic	SS	9656	24-Month Clinic Visit	1.2	complete	24	3	0	0	1	1	1	1	0	5	727
+SUB231057	Atopic	SS	9660	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	0	6	384
+SUB231057	Atopic	SS	2821	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	0	0	6	1
+SUB231058	Atopic	SS	5415	12-Month Clinic Visit	1.2	complete	12	2	0	1	1	0	1	1	1	5	339
+SUB231058	Atopic	SS	517	Prenatal Visit	1.2	complete	p	2	0	1	1		1	1	1	3	-114
+SUB231058	Atopic	SS	5411	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	1	1	1	6	744
+SUB231058	Atopic	SS	5407	36-Month Clinic Visit	1.2	complete	36	3	0	2	1	0	0	1	1	9	1114
+SUB231059	Atopic	SS	1795	Prenatal Visit	1.2	complete	p	1	0	0	0					9	-96
+SUB231059	Atopic	SS	5540	12-Month Clinic Visit	1.2	complete	12	4	0	0	1	1	1	0	0	4	352
+SUB231059	Atopic	SS	5536	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	1	1	0	0	5	730
+SUB231059	Atopic	SS	5532	36-Month Clinic Visit	1.2	complete	36	3	0	0	1	1	1	0	0	4	1114
+SUB231060	Atopic	SS	2383	Prenatal Visit	1.2	complete	p	1	2	3	0					8	-92
+SUB231060	Atopic	SS	5552	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					5	712
+SUB231060	Atopic	SS	5548	36-Month Clinic Visit	1.2	complete	36	2	1	1	0					7	1212
+SUB231060	Atopic	SS	5556	12-Month Clinic Visit	1.2	complete	12	2	1	0	0					6	355
+SUB231061	Atopic	SS	5572	24-Month Clinic Visit	1.2	complete	24	2	1	1	1	1	1	1	1	5	756
+SUB231061	Atopic	SS	2654	Prenatal Visit	1.2	complete	p	2	2	2	1	1	1	1	1	5	-76
+SUB231061	Atopic	SS	5568	36-Month Clinic Visit	1.2	complete	36	1	2	3	1	1	1	1	1	7	1170
+SUB231061	Atopic	SS	5576	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	1	1	1	1	8	369
+SUB231062	Atopic	SS	1538	Prenatal Visit	1.2	complete	p	2	0	1	0					5	-102
+SUB231063	Atopic	SS	714	Prenatal Visit	1.2	complete	p	4	0	1	0					7	-79
+SUB231063	Atopic	SS	5684	36-Month Clinic Visit	1.2	complete	36	4	0	4	0					5	1084
+SUB231063	Atopic	SS	5692	12-Month Clinic Visit	1.2	complete	12	4	1	0	0					3	447
+SUB231063	Atopic	SS	5688	24-Month Clinic Visit	1.2	complete	24	4	0	0	0					7	818
+SUB231064	Atopic	SS	5807	24-Month Clinic Visit	1.2	complete	24	3	1	3	0					7	732
+SUB231064	Atopic	SS	955	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-59
+SUB231064	Atopic	SS	5803	36-Month Clinic Visit	1.2	complete	36	3	2	0	0					8	1138
+SUB231064	Atopic	SS	5811	12-Month Clinic Visit	1.2	complete	12	4	2	0	0					7	368
+SUB231065	Atopic	SS	6037	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					9	736
+SUB231065	Atopic	SS	3638	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-66
+SUB231065	Atopic	SS	6041	12-Month Clinic Visit	1.2	complete	12	2	1	5	0					9	363
+SUB231065	Atopic	SS	6033	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1096
+SUB231066	Atopic	SS	3262	Prenatal Visit	1.2	complete	p		0	0	0					6	-49
+SUB231066	Atopic	SS	6674	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	7	760
+SUB231066	Atopic	SS	6670	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	0	6	1199
+SUB231066	Atopic	SS	6678	12-Month Clinic Visit	1.2	complete	12	0	1	0	0					1	453
+SUB231067	Atopic	SS	6690	24-Month Clinic Visit	1.2	complete	24	4	2	2	0					9	784
+SUB231067	Atopic	SS	6694	12-Month Clinic Visit	1.2	complete	12	4	2	1	0					5	371
+SUB231067	Atopic	SS	6686	36-Month Clinic Visit	1.2	complete	36	4	4	4	0					6	1108
+SUB231067	Atopic	SS	4156	Prenatal Visit	1.2	complete	p	4	3	2	0					6	-49
+SUB231068	Atopic	SS	5065	Prenatal Visit	1.2	complete	p	2	0	1	0					4	-15
+SUB231069	Atopic	SS	5766	Prenatal Visit	1.2	complete	p	3	3	3	1	1	1	1	1	2	1
+SUB231070	Atopic	SS	13315	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1210
+SUB231070	Atopic	SS	13323	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	378
+SUB231070	Atopic	SS	13319	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					6	734
+SUB231070	Atopic	SS	5478	Prenatal Visit	1.2	complete	p	1	0	0	0					5	1
+SUB231071	Atopic	SS	7049	24-Month Clinic Visit	1.2	complete	24	3	1	1	1	1	1	1	1	7	795
+SUB231071	Atopic	SS	5105	Prenatal Visit	1.2	complete	p	1			1	1	1	0	1	5	-23
+SUB231071	Atopic	SS	7053	12-Month Clinic Visit	1.2	complete	12	1		0	1	1	0	1	1	9	402
+SUB231071	Atopic	SS	7045	36-Month Clinic Visit	1.2	complete	36	3	1	1	1	1	1	1	1	8	1066
+SUB231072	Atopic	SS	7269	12-Month Clinic Visit	1.2	complete	12	3	1	2	0					5	335
+SUB231072	Atopic	SS	7261	36-Month Clinic Visit	1.2	complete	36	3	2	3	0					4	1133
+SUB231072	Atopic	SS	7265	24-Month Clinic Visit	1.2	complete	24	1	2	1	0					5	740
+SUB231072	Atopic	SS	6231	Prenatal Visit	1.2	complete	p	1	0	0	1	1	0	0	0	5	1
+SUB231073	Atopic	SS	6269	Prenatal Visit	1.2	complete	p	1	0	0	1	1	0	0	0	6	27
+SUB231073	Atopic	SS	7281	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	0	0	0	6	776
+SUB231073	Atopic	SS	7277	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	0	0	0	7	1136
+SUB231073	Atopic	SS	7285	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	1	0	0	0	6	349
+SUB231074	Atopic	SS	5506	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0		8	-40
+SUB231074	Atopic	SS	7352	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	401
+SUB231074	Atopic	SS	7344	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1162
+SUB231074	Atopic	SS	7348	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	827
+SUB231075	Atopic	SS	3254	Prenatal Visit	1.2	complete	p	3	0	0	0					1	-39
+SUB231075	Atopic	SS	7560	12-Month Clinic Visit	1.2	complete	12	3	0	2	0					5	343
+SUB231075	Atopic	SS	7556	24-Month Clinic Visit	1.2	complete	24	4	1	2	0					8	707
+SUB231075	Atopic	SS	7552	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1058
+SUB231076	Atopic	SS	3550	Prenatal Visit	1.2	complete	p	2	1	1	1	1	1	1	1	7	-70
+SUB231076	Atopic	SS	8067	12-Month Clinic Visit	1.2	complete	12	3	4		1	1	1	1	1	5	394
+SUB231076	Atopic	SS	28013	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					5	1211
+SUB231076	Atopic	SS	8063	24-Month Clinic Visit	1.2	missing	.x										
+SUB231077	Atopic	SS	4182	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-9
+SUB231077	Atopic	SS	8086	12-Month Clinic Visit	1.2	missing	.x										
+SUB231078	Atopic	SS	5233	Prenatal Visit	1.2	complete	p	1	1	1	0					1	-56
+SUB231078	Atopic	SS	8336	36-Month Clinic Visit	1.2	complete	36	3	3	2	1	0	0	0	1	5	1131
+SUB231078	Atopic	SS	8344	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					5	334
+SUB231078	Atopic	SS	8340	24-Month Clinic Visit	1.2	complete	24	4	2	1	1	0	0	1	1	4	754
+SUB231079	Atopic	SS	4176	Prenatal Visit	1.2	complete	p	1	1	0	0					5	-81
+SUB231079	Atopic	SS	8352	36-Month Clinic Visit	1.2	complete	36	4	0	1	0					5	1080
+SUB231079	Atopic	SS	8360	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					1	353
+SUB231079	Atopic	SS	8356	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					5	723
+SUB231080	Atopic	SS	21490	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	801
+SUB231080	Atopic	SS	21494	12-Month Clinic Visit	1.2	missing	.x										
+SUB231080	Atopic	SS	3330	Prenatal Visit	1.2	complete	p	0	1	0	1	0	1	1	1	7	-26
+SUB231080	Atopic	SS	21486	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1160
+SUB231081	Atopic	SS	8384	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	1	1	1	8	1112
+SUB231081	Atopic	SS	8392	12-Month Clinic Visit	1.2	complete	12	2	1	1	1	1	1	1	1	7	370
+SUB231081	Atopic	SS	8388	24-Month Clinic Visit	1.2	complete	24	2	1	2	1	1	1	1	1	5	820
+SUB231081	Atopic	SS	4179	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-71
+SUB231082	Atopic	SS	8404	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	818
+SUB231082	Atopic	SS	8408	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					3	354
+SUB231082	Atopic	SS	8400	36-Month Clinic Visit	1.2	missing	.x										
+SUB231082	Atopic	SS	4566	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-94
+SUB231083	Atopic	SS	8424	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					5	357
+SUB231083	Atopic	SS	8416	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					8	1162
+SUB231083	Atopic	SS	8420	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	820
+SUB231083	Atopic	SS	4194	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-103
+SUB231084	Atopic	SS	8696	36-Month Clinic Visit	1.2	complete	36	4	0	1	0					7	1110
+SUB231084	Atopic	SS	8704	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	360
+SUB231084	Atopic	SS	4752	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-80
+SUB231084	Atopic	SS	8700	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					7	718
+SUB231085	Atopic	SS	9222	24-Month Clinic Visit	1.2	missing	.x										
+SUB231085	Atopic	SS	8480	Prenatal Visit	1.2	complete	p	2	1	2	1	1	1	0	1	3	8
+SUB231085	Atopic	SS	9226	12-Month Clinic Visit	1.2	complete	12	2	1	4	1	1	1	1	1	3	365
+SUB231086	Atopic	SS	4173	Prenatal Visit	1.2	complete	p	4	2	0	0					6	-67
+SUB231086	Atopic	SS	9293	12-Month Clinic Visit	1.2	complete	12	4	3	2	0					6	366
+SUB231086	Atopic	SS	9289	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					5	723
+SUB231086	Atopic	SS	9285	36-Month Clinic Visit	1.2	complete	36	1	3	3	0					3	1115
+SUB231087	Atopic	SS	9325	12-Month Clinic Visit	1.2	complete	12	4	4	2	0					2	349
+SUB231087	Atopic	SS	9317	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					4	1120
+SUB231087	Atopic	SS	9321	24-Month Clinic Visit	1.2	complete	24	4	3	2	0					2	713
+SUB231087	Atopic	SS	8228	Prenatal Visit	1.2	complete	p	3	4	1	0					5	3
+SUB231088	Atopic	SS	9461	12-Month Clinic Visit	1.2	missing	.x										
+SUB231088	Atopic	SS	4429	Prenatal Visit	1.2	complete	p	1	1	0	1	1	1	0	1	6	-100
+SUB231089	Atopic	SS	7528	Prenatal Visit	1.2	missing	.x										
+SUB231090	Atopic	SS	9532	12-Month Clinic Visit	1.2	complete	12	4	2	3	0					7	397
+SUB231090	Atopic	SS	4016	Prenatal Visit	1.2	complete	p	4	1	3	0					7	-106
+SUB231091	Atopic	SS	9540	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					5	1131
+SUB231091	Atopic	SS	4777	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-100
+SUB231091	Atopic	SS	9548	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					9	340
+SUB231091	Atopic	SS	9544	24-Month Clinic Visit	1.2	complete	24	4	0	1	0					7	718
+SUB231092	Atopic	SS	9604	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	0	1	1	7	1270
+SUB231092	Atopic	SS	5068	Prenatal Visit	1.2	complete	p	4	0	2	1	1	1	1	1	6	-79
+SUB231092	Atopic	SS	9608	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	1	1	1	4	766
+SUB231092	Atopic	SS	9612	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	1	353
+SUB231093	Atopic	SS	27295	36-Month Clinic Visit	1.2	complete	36	4	0	2	1	1	0	0	0	5	1068
+SUB231093	Atopic	SS	9640	24-Month Clinic Visit	1.2	missing	.x										
+SUB231093	Atopic	SS	4767	Prenatal Visit	1.2	complete	p	2	0	0	0					1	-109
+SUB231093	Atopic	SS	9644	12-Month Clinic Visit	1.2	complete	12	3	0	1	0					5	347
+SUB231094	Atopic	SS	9962	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	0	0	8	447
+SUB231094	Atopic	SS	4596	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-77
+SUB231094	Atopic	SS	9954	36-Month Clinic Visit	1.2	complete	36	3	0	0	1	1	1	0	0	6	1224
+SUB231094	Atopic	SS	9958	24-Month Clinic Visit	1.2	complete	24	3	2	1	0					6	741
+SUB231095	Atopic	SS	10476	24-Month Clinic Visit	1.2	complete	24	4	2	2	0					2	774
+SUB231095	Atopic	SS	10480	12-Month Clinic Visit	1.2	complete	12	1	2	3	0					1	360
+SUB231095	Atopic	SS	5724	Prenatal Visit	1.2	complete	p	3	2	2	0					3	-92
+SUB231095	Atopic	SS	10472	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					2	1173
+SUB231096	Atopic	SS	10500	12-Month Clinic Visit	1.2	complete	12	1	1	2	1	1	1	1	1	8	382
+SUB231096	Atopic	SS	7521	Prenatal Visit	1.2	complete	p	1	2	1	1	1	1	1	1	8	-70
+SUB231096	Atopic	SS	10492	36-Month Clinic Visit	1.2	complete	36	3	1	3	1	1	1	1	1	6	1083
+SUB231096	Atopic	SS	10496	24-Month Clinic Visit	1.2	complete	24	1	3	2	1	1	1	1	1	7	726
+SUB231097	Atopic	SS	7064	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-81
+SUB231097	Atopic	SS	10545	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	0	1	0	0	7	385
+SUB231097	Atopic	SS	10537	36-Month Clinic Visit	1.2	complete	36	2	0	1	1	0	1	1	1	7	1184
+SUB231097	Atopic	SS	10541	24-Month Clinic Visit	1.2	missing	.x										
+SUB231098	Atopic	SS	10733	24-Month Clinic Visit	1.2	complete	24	2	1	1	1	1	1	0	0	6	704
+SUB231098	Atopic	SS	10729	36-Month Clinic Visit	1.2	complete	36	3	5	1	1	1	1	0	0	6	1118
+SUB231098	Atopic	SS	8637	Prenatal Visit	1.2	complete	p	3	0	0	1	1	1	1	0	5	-15
+SUB231098	Atopic	SS	10737	12-Month Clinic Visit	1.2	complete	12	2	2	2	1	1	1	1	0	4	368
+SUB231099	Atopic	SS	10749	24-Month Clinic Visit	1.2	missing	.x										
+SUB231099	Atopic	SS	7911	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-50
+SUB231099	Atopic	SS	10753	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					5	377
+SUB231099	Atopic	SS	10745	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					4	1184
+SUB231100	Atopic	SS	7674	Prenatal Visit	1.2	complete	p	4	3	2	1	1	1	1	1	5	-25
+SUB231100	Atopic	SS	10765	24-Month Clinic Visit	1.2	missing	.x										
+SUB231100	Atopic	SS	10761	36-Month Clinic Visit	1.2	complete	36	3	4	4	1	1	1	1	1	4	1278
+SUB231100	Atopic	SS	10769	12-Month Clinic Visit	1.2	complete	12	4	3	1	1	1	1	1	1	5	359
+SUB231101	Atopic	SS	7086	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-72
+SUB231101	Atopic	SS	10777	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1274
+SUB231101	Atopic	SS	10785	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	341
+SUB231101	Atopic	SS	10781	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	727
+SUB231102	Atopic	SS	10798	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	702
+SUB231102	Atopic	SS	10802	12-Month Clinic Visit	1.2	complete	12	0	0	1	0					5	373
+SUB231102	Atopic	SS	6228	Prenatal Visit	1.2	complete	p	2	0	0	0					3	-94
+SUB231102	Atopic	SS	10794	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1122
+SUB231103	Atopic	SS	10821	12-Month Clinic Visit	1.2	missing	.x										
+SUB231103	Atopic	SS	6272	Prenatal Visit	1.2	complete	p	4	0	1	0					7	-91
+SUB231104	Atopic	SS	7012	Prenatal Visit	1.2	complete	p	4	4	4	1	0	1	1	1	6	-104
+SUB231104	Atopic	SS	10832	36-Month Clinic Visit	1.2	complete	36	4	2	4	1	0	1	1	1	6	1162
+SUB231104	Atopic	SS	10836	24-Month Clinic Visit	1.2	complete	24	4	1	4	1	0	1	1	1	7	715
+SUB231104	Atopic	SS	10840	12-Month Clinic Visit	1.2	complete	12	4	0	1	1	0	1	1	1	5	450
+SUB231105	Atopic	SS	10852	24-Month Clinic Visit	1.2	complete	24	2	0	0	1	1	0	0	0	7	736
+SUB231105	Atopic	SS	6223	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	6	-104
+SUB231105	Atopic	SS	10848	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	0	0	0	8	1169
+SUB231105	Atopic	SS	10856	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	1	0	0	0	7	399
+SUB231106	Atopic	SS	19102	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1156
+SUB231106	Atopic	SS	19110	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					5	414
+SUB231106	Atopic	SS	19106	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	791
+SUB231106	Atopic	SS	5503	Prenatal Visit	1.2	missing	.x										
+SUB231107	Atopic	SS	11102	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	8	805
+SUB231107	Atopic	SS	9451	Prenatal Visit	1.2	complete	p	0	0	1	1	0	1	1	1	5	-46
+SUB231107	Atopic	SS	11106	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	5	380
+SUB231107	Atopic	SS	11098	36-Month Clinic Visit	1.2	complete	36	0	0	1	1	1	1	1	1	6	1120
+SUB231108	Atopic	SS	11170	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	8	363
+SUB231108	Atopic	SS	11162	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	1	7	1245
+SUB231108	Atopic	SS	11166	24-Month Clinic Visit	1.2	missing	.x										
+SUB231108	Atopic	SS	10027	Prenatal Visit	1.2	complete	p	0	0	0	1	0	1	1	0	8	-22
+SUB231109	Atopic	SS	11349	36-Month Clinic Visit	1.2	complete	36	3	2	2	1	1	1	1	0	7	1172
+SUB231109	Atopic	SS	8948	Prenatal Visit	1.2	complete	p	4	0	0	1	0	1	1	0	6	-64
+SUB231109	Atopic	SS	11357	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	1	1	1	0	5	367
+SUB231109	Atopic	SS	11353	24-Month Clinic Visit	1.2	complete	24	4	0	2	1	1	1	1	1	6	709
+SUB231110	Atopic	SS	11477	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					3	1170
+SUB231110	Atopic	SS	11485	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					4	345
+SUB231110	Atopic	SS	11481	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					4	739
+SUB231110	Atopic	SS	8716	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-74
+SUB231111	Atopic	SS	11598	12-Month Clinic Visit	1.2	complete	12	4	1	3	0					1	400
+SUB231111	Atopic	SS	11594	24-Month Clinic Visit	1.2	complete	24	4	2	0	0					3	799
+SUB231111	Atopic	SS	6278	Prenatal Visit	1.2	complete	p	3	0	3	0					1	-77
+SUB231112	Atopic	SS	11614	12-Month Clinic Visit	1.2	complete	12	0	1	0	0					1	344
+SUB231112	Atopic	SS	11610	24-Month Clinic Visit	1.2	missing	.x										
+SUB231112	Atopic	SS	11606	36-Month Clinic Visit	1.2	missing	.x										
+SUB231112	Atopic	SS	8545	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	6	-43
+SUB231113	Atopic	SS	11651	12-Month Clinic Visit	1.2	complete	12	3	3	1	0					4	448
+SUB231113	Atopic	SS	11647	24-Month Clinic Visit	1.2	complete	24	4	5	5	0					6	778
+SUB231113	Atopic	SS	11643	36-Month Clinic Visit	1.2	complete	36	1	1	2	0					5	1149
+SUB231113	Atopic	SS	9109	Prenatal Visit	1.2	complete	p	3	1	0	0					6	-53
+SUB231114	Atopic	SS	10307	Prenatal Visit	1.2	complete	p	4	1	1	1	1	1	1	1	4	-40
+SUB231114	Atopic	SS	21469	12-Month Clinic Visit	1.2	complete	12	1	0	0			0	0	0	5	484
+SUB231114	Atopic	SS	21465	24-Month Clinic Visit	1.2	complete	24	2	1	0	0					3	728
+SUB231114	Atopic	SS	21461	36-Month Clinic Visit	1.2	complete	36	4	2	2	1	1	1	0	0	2	1147
+SUB231115	Atopic	SS	7009	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	9	-96
+SUB231115	Atopic	SS	12070	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	8	1166
+SUB231115	Atopic	SS	12078	12-Month Clinic Visit	1.2	complete	12	1	2	3	0					7	422
+SUB231115	Atopic	SS	12074	24-Month Clinic Visit	1.2	complete	24	1	3	0	1	1	1	1	1	8	803
+SUB231116	Atopic	SS	12165	12-Month Clinic Visit	1.2	complete	12	0	1	1	1	0	1	1	1	7	355
+SUB231116	Atopic	SS	10590	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	1	1	7	-43
+SUB231116	Atopic	SS	12161	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	6	719
+SUB231116	Atopic	SS	12157	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	1	1	1	7	1118
+SUB231117	Atopic	SS	8184	Prenatal Visit	1.2	complete	p	4	0	4	0					6	-103
+SUB231117	Atopic	SS	12173	36-Month Clinic Visit	1.2	complete	36	1	1	2	1	1	1	1	0	5	1077
+SUB231117	Atopic	SS	12177	24-Month Clinic Visit	1.2	complete	24	4	2	1	1	1	1	1	0	6	720
+SUB231117	Atopic	SS	12181	12-Month Clinic Visit	1.2	complete	12	4	4	4	1	1	1	1	0	7	356
+SUB231118	Atopic	SS	12193	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					2	760
+SUB231118	Atopic	SS	12189	36-Month Clinic Visit	1.2	complete	36	1	1	2	0					3	1221
+SUB231118	Atopic	SS	10001	Prenatal Visit	1.2	complete	p	3	2	4	0					2	-44
+SUB231118	Atopic	SS	12197	12-Month Clinic Visit	1.2	complete	12	4	0	4	0					2	349
+SUB231119	Atopic	SS	12426	12-Month Clinic Visit	1.2	complete	12	3	3	3	1	1	1	0	0	2	360
+SUB231119	Atopic	SS	12418	36-Month Clinic Visit	1.2	complete	36	3	3	4	1	1	1	0	0	5	1171
+SUB231119	Atopic	SS	11970	Prenatal Visit	1.2	complete	p	4	3	4	1	1	1	0	0	7	22
+SUB231119	Atopic	SS	12422	24-Month Clinic Visit	1.2	missing	.x										
+SUB231120	Atopic	SS	12536	24-Month Clinic Visit	1.2	complete	24	4	0	3	1	1	1	1	1	8	712
+SUB231120	Atopic	SS	12532	36-Month Clinic Visit	1.2	complete	36	3	0	4	1	1	1	1	1	5	1145
+SUB231120	Atopic	SS	12540	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	1	1	1	1	7	368
+SUB231120	Atopic	SS	11061	Prenatal Visit	1.2	complete	p	0	0	1	1	1	0	0	0	8	-35
+SUB231121	Atopic	SS	12559	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	0	0	4	708
+SUB231121	Atopic	SS	12555	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1252
+SUB231121	Atopic	SS	8052	Prenatal Visit	1.2	complete	p	2	2	2	0					6	-98
+SUB231121	Atopic	SS	12563	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					3	363
+SUB231122	Atopic	SS	8288	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-116
+SUB231122	Atopic	SS	12575	24-Month Clinic Visit	1.2	complete	24	4	0	1	0					3	750
+SUB231122	Atopic	SS	12579	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	379
+SUB231122	Atopic	SS	12571	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1204
+SUB231123	Atopic	SS	12591	24-Month Clinic Visit	1.2	complete	24	1	1	1	1	1	0	0	0	7	798
+SUB231123	Atopic	SS	12587	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	0	0	0	3	1106
+SUB231123	Atopic	SS	7671	Prenatal Visit	1.2	complete	p	3	2	3	1	1	0	0	0	6	-97
+SUB231123	Atopic	SS	12595	12-Month Clinic Visit	1.2	complete	12	1	2	1	1	1	0	0	0	4	400
+SUB231124	Atopic	SS	7311	Prenatal Visit	1.2	missing	.x										
+SUB231124	Atopic	SS	12618	12-Month Clinic Visit	1.2	missing	.x										
+SUB231124	Atopic	SS	12614	24-Month Clinic Visit	1.2	missing	.x										
+SUB231125	Atopic	SS	12634	24-Month Clinic Visit	1.2	complete	24	4	2	3	0					7	707
+SUB231125	Atopic	SS	7015	Prenatal Visit	1.2	complete	p	4	0	1	0					2	-88
+SUB231125	Atopic	SS	12638	12-Month Clinic Visit	1.2	complete	12	3	1	1	0					7	365
+SUB231125	Atopic	SS	12630	36-Month Clinic Visit	1.2	complete	36	3	1	0	0					8	1148
+SUB231126	Atopic	SS	8926	Prenatal Visit	1.2	missing	.x										
+SUB231127	Atopic	SS	12820	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	0	0	1	1	8	381
+SUB231127	Atopic	SS	12816	24-Month Clinic Visit	1.2	complete	24	1	3	1	1	1	1	1	1	3	767
+SUB231127	Atopic	SS	12812	36-Month Clinic Visit	1.2	complete	36	0	3	0	1	1	1	1	1	5	1074
+SUB231127	Atopic	SS	11898	Prenatal Visit	1.2	complete	p	1	1	1	1	0	0	1	1	5	-11
+SUB231128	Atopic	SS	12152	Prenatal Visit	1.2	complete	p	3	0	3	0					1	-19
+SUB231128	Atopic	SS	12868	12-Month Clinic Visit	1.2	complete	12	3	3	3	0					1	357
+SUB231128	Atopic	SS	12860	36-Month Clinic Visit	1.2	complete	36	2	2	2	0					6	1153
+SUB231128	Atopic	SS	12864	24-Month Clinic Visit	1.2	complete	24	3	1	3	0					1	756
+SUB231129	Non-atopic	SS	11852	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	7	-26
+SUB231130	Atopic	SS	10005	Prenatal Visit	1.2	complete	p	3	1	2	1	0	1	1	1	3	-83
+SUB231130	Atopic	SS	12896	24-Month Clinic Visit	1.2	complete	24	1	3	3	1	0	1	1	1	6	707
+SUB231130	Atopic	SS	12892	36-Month Clinic Visit	1.2	complete	36	4	1	1	1	0	1	1	1	5	1169
+SUB231130	Atopic	SS	12900	12-Month Clinic Visit	1.2	complete	12	4	0	0	1	0	1	1	1	5	457
+SUB231131	Atopic	SS	13028	24-Month Clinic Visit	1.2	complete	24	1	1	1						4	725
+SUB231131	Atopic	SS	13032	12-Month Clinic Visit	1.2	complete	12	3	1	5	0					4	374
+SUB231131	Atopic	SS	13024	36-Month Clinic Visit	1.2	complete	36	3	1	5	0					8	1110
+SUB231131	Atopic	SS	9587	Prenatal Visit	1.2	complete	p	4	1	1						7	-64
+SUB231132	Atopic	SS	13191	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	0	0	0	7	811
+SUB231132	Atopic	SS	8589	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-113
+SUB231132	Atopic	SS	13187	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	0	0	0	6	1188
+SUB231132	Atopic	SS	13195	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					5	361
+SUB231133	Atopic	SS	10410	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-86
+SUB231133	Atopic	SS	13274	36-Month Clinic Visit	1.2	complete	36	4	1	3	1	1	1	1	1	4	1116
+SUB231133	Atopic	SS	13278	24-Month Clinic Visit	1.2	missing	.x										
+SUB231133	Atopic	SS	13282	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					7	454
+SUB231134	Atopic	SS	13456	12-Month Clinic Visit	1.2	complete	12	2	2	2	0					7	416
+SUB231134	Atopic	SS	12930	Prenatal Visit	1.2	complete	p	3	1	3	0					8	-7
+SUB231134	Atopic	SS	13448	36-Month Clinic Visit	1.2	complete	36	4	2	2	0					7	1117
+SUB231134	Atopic	SS	13452	24-Month Clinic Visit	1.2	complete	24	1	1	2	0					3	803
+SUB231135	Atopic	SS	13516	36-Month Clinic Visit	1.2	complete	36	4	4	4	0					4	1181
+SUB231135	Atopic	SS	13524	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					5	375
+SUB231135	Atopic	SS	13520	24-Month Clinic Visit	1.2	missing	.x										
+SUB231135	Atopic	SS	8553	Prenatal Visit	1.2	complete	p	1	4	2	0					6	-97
+SUB231136	Atopic	SS	24106	24-Month Clinic Visit	1.2	missing	.x										
+SUB231136	Atopic	SS	10577	Prenatal Visit	1.2	complete	p	3	0	0	0					4	-91
+SUB231136	Atopic	SS	13611	12-Month Clinic Visit	1.2	complete	12	3	0	4	0					2	405
+SUB231137	Atopic	SS	13822	12-Month Clinic Visit	1.2	missing	.x										
+SUB231137	Atopic	SS	8189	Prenatal Visit	1.2	missing	.x										
+SUB231138	Atopic	SS	13901	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	8	1146
+SUB231138	Atopic	SS	8932	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	1	0	4	-153
+SUB231138	Atopic	SS	13905	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	8	828
+SUB231138	Atopic	SS	13909	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	404
+SUB231139	Atopic	SS	9850	Prenatal Visit	1.2	complete	p	1	3	2	1	0	1	1	1	6	-84
+SUB231139	Atopic	SS	13946	36-Month Clinic Visit	1.2	complete	36	2	0	3	1	1	1	1	1	6	1131
+SUB231139	Atopic	SS	13950	24-Month Clinic Visit	1.2	complete	24	3	2	3	1	1	1	1	1	6	820
+SUB231139	Atopic	SS	13954	12-Month Clinic Visit	1.2	complete	12	1	2	3	1	1	1	1	1	7	355
+SUB231140	Atopic	SS	10341	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	-73
+SUB231141	Atopic	SS	14228	24-Month Clinic Visit	1.2	missing	.x										
+SUB231141	Atopic	SS	9784	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	1	8	-90
+SUB231141	Atopic	SS	14232	12-Month Clinic Visit	1.2	complete	12	1	0	2	1	1	1	1	1	7	407
+SUB231141	Atopic	SS	14224	36-Month Clinic Visit	1.2	complete	36	3	1	4	1	1	1	1	1	6	1129
+SUB231142	Atopic	SS	11389	Prenatal Visit	1.2	complete	p	3	2	2	0					3	-82
+SUB231142	Atopic	SS	14244	36-Month Clinic Visit	1.2	complete	36	4	4	3	0					1	1146
+SUB231142	Atopic	SS	14252	12-Month Clinic Visit	1.2	complete	12	3	3	5	0					4	420
+SUB231142	Atopic	SS	14248	24-Month Clinic Visit	1.2	complete	24	4	4	5	0					1	762
+SUB231143	Non-atopic	SS	14402	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					6	1161
+SUB231143	Non-atopic	SS	14398	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	818
+SUB231143	Non-atopic	SS	10338	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-99
+SUB231143	Non-atopic	SS	14394	12-Month Clinic Visit	1.2	missing	.x										
+SUB231144	Atopic	SS	14403	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					7	1149
+SUB231144	Atopic	SS	14411	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	1	1	1	1	6	394
+SUB231144	Atopic	SS	14407	24-Month Clinic Visit	1.2	complete	24	2	2	2	0					5	702
+SUB231144	Atopic	SS	12155	Prenatal Visit	1.2	complete	p	1	2	2	0					5	-48
+SUB231145	Non-atopic	SS	14434	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	1	1	1	1	6	1113
+SUB231145	Non-atopic	SS	14430	24-Month Clinic Visit	1.2	complete	24	2	2	1	1	1	1	1	1	7	793
+SUB231145	Non-atopic	SS	14426	12-Month Clinic Visit	1.2	complete	12	2	1	3	1	1	1	1	1	7	385
+SUB231145	Non-atopic	SS	10234	Prenatal Visit	1.2	complete	p	2	1	0	1	1	1	1	1	7	-48
+SUB231146	Atopic	SS	14435	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					3	1116
+SUB231146	Atopic	SS	9216	Prenatal Visit	1.2	complete	p	4	3	4	0					3	-93
+SUB231146	Atopic	SS	14439	24-Month Clinic Visit	1.2	complete	24	4	1	1	0					5	704
+SUB231146	Atopic	SS	14443	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					3	417
+SUB231147	Non-atopic	SS	14500	36-Month Clinic Visit	1.2	complete	36	3	1	1	1	1	1	1	1	3	1105
+SUB231147	Non-atopic	SS	14496	24-Month Clinic Visit	1.2	complete	24	4	2	5	1	1	1	1	1	7	747
+SUB231147	Non-atopic	SS	14492	12-Month Clinic Visit	1.2	missing	.x										
+SUB231147	Non-atopic	SS	13364	Prenatal Visit	1.2	complete	p	4	2	2	1	1	1	1	1	5	-26
+SUB231148	Atopic	SS	14509	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	1	1	1	1	1	440
+SUB231148	Atopic	SS	14501	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	3	1211
+SUB231148	Atopic	SS	10011	Prenatal Visit	1.2	complete	p	2	0	0	1	1	1	1	1	3	-76
+SUB231148	Atopic	SS	14505	24-Month Clinic Visit	1.2	missing	.x										
+SUB231149	Atopic	SS	14563	12-Month Clinic Visit	1.2	complete	12	1	1	0	1	1	1	1	1	7	361
+SUB231149	Atopic	SS	14559	24-Month Clinic Visit	1.2	missing	.x										
+SUB231149	Atopic	SS	14555	36-Month Clinic Visit	1.2	complete	36	1	2	1	0					5	1151
+SUB231149	Atopic	SS	9843	Prenatal Visit	1.2	complete	p	4	0	0	0					1	-80
+SUB231150	Atopic	SS	14747	36-Month Clinic Visit	1.2	complete	36	3	0	0	1	1	1	1	1	8	1141
+SUB231150	Atopic	SS	14755	12-Month Clinic Visit	1.2	missing	.x										
+SUB231150	Atopic	SS	10413	Prenatal Visit	1.2	complete	p	3	0	1	1	1	1	1	1	8	-70
+SUB231150	Atopic	SS	14751	24-Month Clinic Visit	1.2	complete	24	3	0	2	1	1	1	1	1	7	746
+SUB231151	Non-atopic	SS	14775	24-Month Clinic Visit	1.2	complete	24	0	0	1	0					9	755
+SUB231151	Non-atopic	SS	14771	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	403
+SUB231151	Non-atopic	SS	10521	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-83
+SUB231151	Non-atopic	SS	14779	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1146
+SUB231152	Atopic	SS	8234	Prenatal Visit	1.2	complete	p	3	3	0	0					5	-99
+SUB231153	Non-atopic	SS	14804	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					7	439
+SUB231153	Non-atopic	SS	14808	24-Month Clinic Visit	1.2	complete	24	0	2	1	0					6	801
+SUB231153	Non-atopic	SS	10622	Prenatal Visit	1.2	complete	p	0	3	2	0					6	-119
+SUB231153	Non-atopic	SS	14812	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					6	1159
+SUB231154	Non-atopic	SS	10220	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	-70
+SUB231154	Non-atopic	SS	14868	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1				5	1145
+SUB231154	Non-atopic	SS	14860	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	6	410
+SUB231154	Non-atopic	SS	14864	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	7	712
+SUB231155	Atopic	SS	14871	36-Month Clinic Visit	1.2	complete	36	4	2	2	1	1	1	1	1	4	1257
+SUB231155	Atopic	SS	14875	24-Month Clinic Visit	1.2	complete	24	4	3	3	1	1	1	1	0	2	766
+SUB231155	Atopic	SS	14879	12-Month Clinic Visit	1.2	complete	12	3	1	0	1	1	1	1	1	3	410
+SUB231155	Atopic	SS	11785	Prenatal Visit	1.2	complete	p	2	1	0	1	1	1	1	1	3	-43
+SUB231156	Non-atopic	SS	11902	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-41
+SUB231156	Non-atopic	SS	15053	36-Month Clinic Visit	1.2	complete	36	1	0	3	1	1	1	1	1	5	1169
+SUB231156	Non-atopic	SS	15049	24-Month Clinic Visit	1.2	missing	.x										
+SUB231156	Non-atopic	SS	15045	12-Month Clinic Visit	1.2	complete	12	0	3	1	1	1	1	1	1	5	458
+SUB231157	Non-atopic	SS	15177	12-Month Clinic Visit	1.2	missing	.x										
+SUB231157	Non-atopic	SS	11932	Prenatal Visit	1.2	complete	p	1	2	3	1	0	1	1	1	7	-81
+SUB231158	Non-atopic	SS	15205	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					5	1138
+SUB231158	Non-atopic	SS	10930	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	-50
+SUB231158	Non-atopic	SS	15201	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	1	5	747
+SUB231158	Non-atopic	SS	15197	12-Month Clinic Visit	1.2	complete	12	1	2	1						5	447
+SUB231159	Atopic	SS	11017	Prenatal Visit	1.2	complete	p	3	2	0	0					4	-98
+SUB231159	Atopic	SS	15212	24-Month Clinic Visit	1.2	missing	.x										
+SUB231159	Atopic	SS	15216	12-Month Clinic Visit	1.2	missing	.x										
+SUB231159	Atopic	SS	15208	36-Month Clinic Visit	1.2	complete	36	4	3	3	0					4	1164
+SUB231160	Atopic	SS	11793	Prenatal Visit	1.2	complete	p	3	1	1	0					3	-82
+SUB231161	Atopic	SS	10418	Prenatal Visit	1.2	complete	p	2	2	3	0					3	-117
+SUB231161	Atopic	SS	15353	24-Month Clinic Visit	1.2	complete	24	2	0	1	0					1	723
+SUB231161	Atopic	SS	15349	36-Month Clinic Visit	1.2	complete	36	4	2	2	0					4	1129
+SUB231161	Atopic	SS	15357	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					2	381
+SUB231162	Atopic	SS	11116	Prenatal Visit	1.2	complete	p	3	1	1	1	1	1	1	1	6	-113
+SUB231163	Atopic	SS	15516	36-Month Clinic Visit	1.2	complete	36	2	1	1	0					5	1164
+SUB231163	Atopic	SS	15524	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	407
+SUB231163	Atopic	SS	15520	24-Month Clinic Visit	1.2	complete	24	2	1	0	0					6	736
+SUB231163	Atopic	SS	11274	Prenatal Visit	1.2	complete	p	2	0	1	0					7	-47
+SUB231164	Atopic	SS	15532	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	1	1	1	6	1151
+SUB231164	Atopic	SS	15536	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	1	1	1	7	737
+SUB231164	Atopic	SS	12397	Prenatal Visit	1.2	complete	p	1	0	3	1	0	1	1	0	6	-60
+SUB231164	Atopic	SS	15540	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	1	1	1	7	429
+SUB231165	Atopic	SS	15548	36-Month Clinic Visit	1.2	complete	36	1	0	2	0					7	1138
+SUB231165	Atopic	SS	11629	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-83
+SUB231165	Atopic	SS	15552	24-Month Clinic Visit	1.2	complete	24	3	0	3	0					4	768
+SUB231165	Atopic	SS	15556	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	377
+SUB231166	Atopic	SS	11768	Prenatal Visit	1.2	complete	p	4	0	1	0					5	-96
+SUB231166	Atopic	SS	15932	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					5	1126
+SUB231166	Atopic	SS	15936	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					8	714
+SUB231166	Atopic	SS	15940	12-Month Clinic Visit	1.2	complete	12	4	0	1	0					3	455
+SUB231167	Atopic	SS	16010	12-Month Clinic Visit	1.2	complete	12	4	1	1	0					7	415
+SUB231167	Atopic	SS	16006	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					1	787
+SUB231167	Atopic	SS	10659	Prenatal Visit	1.2	complete	p	2	0	0	0					9	-95
+SUB231167	Atopic	SS	16002	36-Month Clinic Visit	1.2	complete	36	4	3	3	0					8	1101
+SUB231168	Atopic	SS	13064	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-115
+SUB231168	Atopic	SS	16666	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					3	829
+SUB231168	Atopic	SS	16670	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					3	457
+SUB231168	Atopic	SS	16662	36-Month Clinic Visit	1.2	complete	36	4	2	2	0					3	1108
+SUB231169	Non-atopic	SS	19297	12-Month Clinic Visit	1.2	missing	.x										
+SUB231169	Non-atopic	SS	16392	Prenatal Visit	1.2	complete	p	4	1	0	1	1	1	1	1	6	-15
+SUB231169	Non-atopic	SS	19305	36-Month Clinic Visit	1.2	complete	36	1	3	3	1	1	1	1	1	7	1076
+SUB231169	Non-atopic	SS	19301	24-Month Clinic Visit	1.2	complete	24	3	3	1	1	0	1	1	1	7	828
+SUB231170	Non-atopic	SS	17514	24-Month Clinic Visit	1.2	missing	.x										
+SUB231170	Non-atopic	SS	15910	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-31
+SUB231170	Non-atopic	SS	17510	12-Month Clinic Visit	1.2	missing	.x										
+SUB231171	Non-atopic	SS	18902	36-Month Clinic Visit	1.2	complete	36	2	1	2	0					4	1066
+SUB231171	Non-atopic	SS	16960	Prenatal Visit	1.2	complete	p	1	1	0	0					6	-74
+SUB231171	Non-atopic	SS	18898	24-Month Clinic Visit	1.2	complete	24	0	3	2	1	0	1	1	1	5	729
+SUB231171	Non-atopic	SS	18894	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	449
+SUB231172	Non-atopic	SS	18980	24-Month Clinic Visit	1.2	complete	24	2	1	3	1	1	1	1	1	5	747
+SUB231172	Non-atopic	SS	18976	12-Month Clinic Visit	1.2	complete	12	2	1	2	1	1	1	1	1	4	440
+SUB231172	Non-atopic	SS	18984	36-Month Clinic Visit	1.2	complete	36	2	1	3	1	1	1	1	1	5	1070
+SUB231172	Non-atopic	SS	17580	Prenatal Visit	1.2	complete	p	2	1	2	1	1	1	1	1	5	-49
+SUB231173	Atopic	SS	498	24-Month Clinic Visit	1.2	complete	24	1	4	3	0					4	768
+SUB231173	Atopic	SS	502	36-Month Clinic Visit	1.2	complete	36	3	2	4	0					4	1154
+SUB231173	Atopic	SS	179	Prenatal Visit	1.2	complete	p	2	3	3	0					4	-5
+SUB231173	Atopic	SS	494	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					6	464
+SUB231173	Atopic	SS	35434	60-Month Clinic Visit	1.2	complete	60	4	3	3	0					5	1854
+SUB231174	Atopic	SS	516	36-Month Clinic Visit	1.2	missing	.x										
+SUB231174	Atopic	SS	245	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	6	-11
+SUB231174	Atopic	SS	512	24-Month Clinic Visit	1.2	missing	.x										
+SUB231174	Atopic	SS	508	12-Month Clinic Visit	1.2	complete	12	0	0	5	1	1	1	1	1	7	416
+SUB231175	Atopic	SS	767	24-Month Clinic Visit	1.2	missing	.x										
+SUB231175	Atopic	SS	771	36-Month Clinic Visit	1.2	missing	.x										
+SUB231175	Atopic	SS	622	Prenatal Visit	1.2	complete	p	2	2	3	1	0	0	1	1	7	-1
+SUB231175	Atopic	SS	763	12-Month Clinic Visit	1.2	missing	.x										
+SUB231176	Atopic	SS	785	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1097
+SUB231176	Atopic	SS	610	Prenatal Visit	1.2	complete	p	3	0	3	0					7	-2
+SUB231176	Atopic	SS	781	24-Month Clinic Visit	1.2	complete	24	2	1	1	0					8	745
+SUB231176	Atopic	SS	777	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	398
+SUB231177	Atopic	SS	418	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-23
+SUB231177	Atopic	SS	1006	24-Month Clinic Visit	1.2	complete	24	3	3	3	0					6	748
+SUB231177	Atopic	SS	1010	36-Month Clinic Visit	1.2	complete	36	4	4	1	0					4	1155
+SUB231177	Atopic	SS	1002	12-Month Clinic Visit	1.2	complete	12	3	0	1	0					5	455
+SUB231178	Atopic	SS	242	Prenatal Visit	1.2	complete	p	1	0	1	0					9	-9
+SUB231178	Atopic	SS	1020	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					9	747
+SUB231178	Atopic	SS	1024	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1160
+SUB231178	Atopic	SS	1016	12-Month Clinic Visit	1.2	missing	.x										
+SUB231179	Atopic	SS	1050	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					6	729
+SUB231179	Atopic	SS	1046	12-Month Clinic Visit	1.2	complete	12	2	0	1	0					7	442
+SUB231179	Atopic	SS	1054	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					6	1169
+SUB231179	Atopic	SS	227	Prenatal Visit	1.2	complete	p	1	0	1	0					6	-32
+SUB231180	Atopic	SS	1083	12-Month Clinic Visit	1.2	complete	12	1	2	2	0					4	442
+SUB231180	Atopic	SS	1091	36-Month Clinic Visit	1.2	complete	36	2	0	1	0					1	1098
+SUB231180	Atopic	SS	523	Prenatal Visit	1.2	complete	p	4	0	0	0					3	-5
+SUB231180	Atopic	SS	1087	24-Month Clinic Visit	1.2	complete	24	3	2	3	0					5	743
+SUB231181	Atopic	SS	289	Prenatal Visit	1.2	complete	p	3	0	2	1	1	1	1	1	6	-24
+SUB231181	Atopic	SS	1193	24-Month Clinic Visit	1.2	missing	.x										
+SUB231181	Atopic	SS	1189	12-Month Clinic Visit	1.2	missing	.x										
+SUB231182	Atopic	SS	1428	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					6	1077
+SUB231182	Atopic	SS	1420	12-Month Clinic Visit	1.2	complete	12	1	0	5	0					3	393
+SUB231182	Atopic	SS	1424	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					9	726
+SUB231182	Atopic	SS	1235	Prenatal Visit	1.2	complete	p	1	0	1	0					4	-2
+SUB231183	Atopic	SS	1575	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					8	373
+SUB231183	Atopic	SS	1583	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1086
+SUB231183	Atopic	SS	1579	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	791
+SUB231183	Atopic	SS	659	Prenatal Visit	1.2	complete	p	2	0	0	0					5	-24
+SUB231184	Atopic	SS	1685	12-Month Clinic Visit	1.2	complete	12	4	1	4	1	1	1	1	0	1	372
+SUB231184	Atopic	SS	1198	Prenatal Visit	1.2	complete	p	4	4	4	1	1	1	1	1	4	-25
+SUB231184	Atopic	SS	1693	36-Month Clinic Visit	1.2	complete	36	4	1	2	1	1	1	1	1	1	1079
+SUB231184	Atopic	SS	1689	24-Month Clinic Visit	1.2	complete	24	4	1	1	1	0	1	1	1	5	770
+SUB231185	Atopic	SS	1876	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					2	413
+SUB231185	Atopic	SS	286	Prenatal Visit	1.2	complete	p	4	0	0	0					2	-79
+SUB231185	Atopic	SS	1885	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					2	1083
+SUB231185	Atopic	SS	1872	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	762
+SUB231186	Atopic	SS	2031	36-Month Clinic Visit	1.2	complete	36	2	3	2	0					4	1126
+SUB231186	Atopic	SS	2022	12-Month Clinic Visit	1.2	complete	12	4	3	3	0					2	370
+SUB231186	Atopic	SS	1177	Prenatal Visit	1.2	complete	p	3	4	4	0					5	-44
+SUB231186	Atopic	SS	2018	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					3	818
+SUB231187	Atopic	SS	2310	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1081
+SUB231187	Atopic	SS	2297	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	745
+SUB231187	Atopic	SS	223	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-86
+SUB231187	Atopic	SS	2301	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	374
+SUB231188	Atopic	SS	2705	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1088
+SUB231188	Atopic	SS	1967	Prenatal Visit	1.2	complete	p	2	4	4	0					7	-19
+SUB231188	Atopic	SS	2692	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					4	821
+SUB231188	Atopic	SS	2696	12-Month Clinic Visit	1.2	complete	12	2	1	0	0					1	454
+SUB231189	Atopic	SS	2775	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1119
+SUB231189	Atopic	SS	2762	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	762
+SUB231189	Atopic	SS	2766	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	369
+SUB231189	Atopic	SS	2140	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	4	-29
+SUB231190	Atopic	SS	220	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-119
+SUB231190	Atopic	SS	2945	12-Month Clinic Visit	1.2	missing	.x										
+SUB231190	Atopic	SS	2954	36-Month Clinic Visit	1.2	missing	.x										
+SUB231190	Atopic	SS	2941	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	729
+SUB231191	Atopic	SS	3182	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1099
+SUB231191	Atopic	SS	3173	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					8	382
+SUB231191	Atopic	SS	3169	24-Month Clinic Visit	1.2	complete	24	0	1	1	0					7	729
+SUB231191	Atopic	SS	1229	Prenatal Visit	1.2	complete	p	1	0	1	0					5	-105
+SUB231192	Atopic	SS	3414	12-Month Clinic Visit	1.2	complete	12	0	1	0	1	1	1	1	1	7	457
+SUB231192	Atopic	SS	3410	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	7	724
+SUB231192	Atopic	SS	3423	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	7	1102
+SUB231192	Atopic	SS	1388	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	1	1	6	-74
+SUB231193	Atopic	SS	3595	Prenatal Visit	1.2	complete	p	2	1	0	1	1	1	1	1	5	-2
+SUB231194	Atopic	SS	3831	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					5	1165
+SUB231194	Atopic	SS	3818	24-Month Clinic Visit	1.2	missing	.x										
+SUB231194	Atopic	SS	3822	12-Month Clinic Visit	1.2	missing	.x										
+SUB231194	Atopic	SS	1036	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-37
+SUB231195	Atopic	SS	42659	36-Month Clinic Visit	1.2	missing	.x										
+SUB231195	Atopic	SS	42663	24-Month Clinic Visit	1.2	missing	.x										
+SUB231195	Atopic	SS	42667	12-Month Clinic Visit	1.2	missing	.x										
+SUB231195	Atopic	SS	1397	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	0
+SUB231196	Atopic	SS	445	Prenatal Visit	1.2	complete	p	4	4	2	0					5	-59
+SUB231196	Atopic	SS	4022	24-Month Clinic Visit	1.2	complete	24	4	1	2	0					4	818
+SUB231196	Atopic	SS	4026	12-Month Clinic Visit	1.2	complete	12	3	3	3	0					5	342
+SUB231196	Atopic	SS	4035	36-Month Clinic Visit	1.2	complete	36	4	1	1	0					5	1084
+SUB231197	Atopic	SS	2150	Prenatal Visit	1.2	complete	p	3	1	0	0					5	-49
+SUB231197	Atopic	SS	4145	36-Month Clinic Visit	1.2	missing	.x										
+SUB231197	Atopic	SS	4136	12-Month Clinic Visit	1.2	complete	12	4	3	4	0					7	454
+SUB231197	Atopic	SS	4132	24-Month Clinic Visit	1.2	missing	.x										
+SUB231198	Atopic	SS	1525	Prenatal Visit	1.2	complete	p	2	3	3	0					5	-101
+SUB231198	Atopic	SS	4342	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					5	1090
+SUB231198	Atopic	SS	4333	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	345
+SUB231198	Atopic	SS	4329	24-Month Clinic Visit	1.2	complete	24	1	1	2	0					7	778
+SUB231199	Atopic	SS	4830	12-Month Clinic Visit	1.2	missing	.x										
+SUB231199	Atopic	SS	4826	24-Month Clinic Visit	1.2	missing	.x										
+SUB231199	Atopic	SS	4839	36-Month Clinic Visit	1.2	missing	.x										
+SUB231199	Atopic	SS	1671	Prenatal Visit	1.2	complete	p	4	0	3	0					7	-19
+SUB231200	Atopic	SS	4252	Prenatal Visit	1.2	complete	p	1	0	1	0					7	1
+SUB231201	Atopic	SS	5157	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					9	1067
+SUB231201	Atopic	SS	5161	24-Month Clinic Visit	1.2	complete	24	4	1	0	0					9	759
+SUB231201	Atopic	SS	1232	Prenatal Visit	1.2	complete	p	3	1	1	0					7	-170
+SUB231201	Atopic	SS	5165	12-Month Clinic Visit	1.2	complete	12	2	3	0	0					9	380
+SUB231202	Atopic	SS	5280	36-Month Clinic Visit	1.2	complete	36	0	0	1	0					5	1065
+SUB231202	Atopic	SS	4312	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-32
+SUB231202	Atopic	SS	5284	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	735
+SUB231202	Atopic	SS	5288	12-Month Clinic Visit	1.2	complete	12	0	0	1	0					4	373
+SUB231203	Atopic	SS	5297	36-Month Clinic Visit	1.2	complete	36	2	0	1	0					4	1073
+SUB231203	Atopic	SS	2156	Prenatal Visit	1.2	complete	p	3	2	0	0					3	-8
+SUB231203	Atopic	SS	5301	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					4	723
+SUB231203	Atopic	SS	5305	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					6	432
+SUB231204	Atopic	SS	5830	36-Month Clinic Visit	1.2	complete	36	4	3	5	0					3	1178
+SUB231204	Atopic	SS	5838	12-Month Clinic Visit	1.2	missing	.x										
+SUB231204	Atopic	SS	5834	24-Month Clinic Visit	1.2	complete	24	4	3	2	0					3	816
+SUB231204	Atopic	SS	2147	Prenatal Visit	1.2	complete	p	3	1	1	0					9	-72
+SUB231205	Atopic	SS	3971	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-44
+SUB231206	Atopic	SS	2540	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-78
+SUB231206	Atopic	SS	6154	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	1	1	1	1	8	1084
+SUB231206	Atopic	SS	6158	24-Month Clinic Visit	1.2	complete	24	2	0	0	1	1	1	1	1	9	714
+SUB231206	Atopic	SS	6162	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	7	441
+SUB231207	Atopic	SS	6170	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1064
+SUB231207	Atopic	SS	6174	24-Month Clinic Visit	1.2	complete	24	1	1	0	0					5	713
+SUB231207	Atopic	SS	6178	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	396
+SUB231207	Atopic	SS	5138	Prenatal Visit	1.2	complete	p	2	0	0	0					4	-18
+SUB231208	Atopic	SS	6253	24-Month Clinic Visit	1.2	missing	.x										
+SUB231208	Atopic	SS	6257	12-Month Clinic Visit	1.2	missing	.x										
+SUB231208	Atopic	SS	6249	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					5	1119
+SUB231208	Atopic	SS	4559	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-42
+SUB231209	Atopic	SS	6384	36-Month Clinic Visit	1.2	missing	.x										
+SUB231209	Atopic	SS	6388	24-Month Clinic Visit	1.2	missing	.x										
+SUB231209	Atopic	SS	5141	Prenatal Visit	1.2	complete	p	0	0	0	0					8	-29
+SUB231209	Atopic	SS	6392	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	417
+SUB231210	Atopic	SS	6501	12-Month Clinic Visit	1.2	complete	12	1	0	3	0					7	395
+SUB231210	Atopic	SS	6497	24-Month Clinic Visit	1.2	complete	24	3	0	3	0					6	813
+SUB231210	Atopic	SS	6493	36-Month Clinic Visit	1.2	complete	36	4	1	3	0					8	1120
+SUB231210	Atopic	SS	4037	Prenatal Visit	1.2	complete	p	1	0	2	0					6	-67
+SUB231211	Atopic	SS	6565	12-Month Clinic Visit	1.2	complete	12	4	3	3	1	1	0	0	0	9	456
+SUB231211	Atopic	SS	2293	Prenatal Visit	1.2	complete	p	1	0	1	0					6	-68
+SUB231211	Atopic	SS	6561	24-Month Clinic Visit	1.2	missing	.x										
+SUB231211	Atopic	SS	6557	36-Month Clinic Visit	1.2	missing	.x										
+SUB231212	Atopic	SS	4426	Prenatal Visit	1.2	complete	p	2	1	0	0					6	-57
+SUB231212	Atopic	SS	6856	24-Month Clinic Visit	1.2	missing	.x										
+SUB231212	Atopic	SS	6860	12-Month Clinic Visit	1.2	missing	.x										
+SUB231213	Atopic	SS	7176	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1123
+SUB231213	Atopic	SS	7184	12-Month Clinic Visit	1.2	complete	12	2	0	1	0					4	450
+SUB231213	Atopic	SS	3863	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-63
+SUB231213	Atopic	SS	7180	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	0	6	773
+SUB231214	Atopic	SS	6658	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-19
+SUB231214	Atopic	SS	7244	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1158
+SUB231214	Atopic	SS	7252	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					5	452
+SUB231214	Atopic	SS	7248	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	719
+SUB231215	Atopic	SS	7416	24-Month Clinic Visit	1.2	complete	24	1	2	1	0					4	770
+SUB231215	Atopic	SS	7420	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	427
+SUB231215	Atopic	SS	6542	Prenatal Visit	1.2	complete	p	2	2	2	0					5	-13
+SUB231215	Atopic	SS	7412	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					9	1106
+SUB231216	Atopic	SS	7574	36-Month Clinic Visit	1.2	complete	36	4	2	0	0					5	1100
+SUB231216	Atopic	SS	7582	12-Month Clinic Visit	1.2	missing	.x										
+SUB231216	Atopic	SS	7578	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	717
+SUB231216	Atopic	SS	7220	Prenatal Visit	1.2	complete	p	3	1	0	0					5	-12
+SUB231217	Atopic	SS	7721	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1146
+SUB231217	Atopic	SS	7729	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	363
+SUB231217	Atopic	SS	7725	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	718
+SUB231217	Atopic	SS	7094	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-14
+SUB231218	Atopic	SS	7755	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	0	0	6	795
+SUB231218	Atopic	SS	7759	12-Month Clinic Visit	1.2	missing	.x										
+SUB231218	Atopic	SS	7751	36-Month Clinic Visit	1.2	complete	36	1	0	2	1	1	0	0	0	7	1293
+SUB231218	Atopic	SS	4889	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-81
+SUB231219	Atopic	SS	7775	12-Month Clinic Visit	1.2	missing	.x										
+SUB231219	Atopic	SS	5194	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-81
+SUB231219	Atopic	SS	7767	36-Month Clinic Visit	1.2	complete	36	1	0	2	1	1	0	0	0	7	1293
+SUB231219	Atopic	SS	7771	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	0	0	6	795
+SUB231220	Atopic	SS	6736	Prenatal Visit	1.2	complete	p	1	0	2	0					1	-29
+SUB231221	Atopic	SS	7978	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	757
+SUB231221	Atopic	SS	7982	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					5	421
+SUB231221	Atopic	SS	7453	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-8
+SUB231221	Atopic	SS	7974	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1121
+SUB231222	Atopic	SS	36661	36-Month Clinic Visit	1.2	missing	.x										
+SUB231222	Atopic	SS	5134	Prenatal Visit	1.2	complete	p	2	0	0	0					8	-96
+SUB231222	Atopic	SS	8149	12-Month Clinic Visit	1.2	missing	.x										
+SUB231222	Atopic	SS	8145	24-Month Clinic Visit	1.2	missing	.x										
+SUB231223	Atopic	SS	8310	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	1	1	1	5	736
+SUB231223	Atopic	SS	8314	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	1	1	0	2	393
+SUB231223	Atopic	SS	8306	36-Month Clinic Visit	1.2	complete	36	3	1	0	0					1	1078
+SUB231223	Atopic	SS	5760	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	7	-29
+SUB231224	Atopic	SS	8514	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	431
+SUB231224	Atopic	SS	6778	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-41
+SUB231224	Atopic	SS	8506	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	1	7	1090
+SUB231224	Atopic	SS	8510	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	7	790
+SUB231225	Atopic	SS	8536	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	444
+SUB231225	Atopic	SS	8528	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1122
+SUB231225	Atopic	SS	8532	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	760
+SUB231225	Atopic	SS	6625	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-54
+SUB231226	Atopic	SS	8759	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	0	1	5	714
+SUB231226	Atopic	SS	8755	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	6	1138
+SUB231226	Atopic	SS	5005	Prenatal Visit	1.2	complete	p	2	0	0	1	1	0	0	0	7	-88
+SUB231226	Atopic	SS	8763	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					6	414
+SUB231227	Atopic	SS	7602	Prenatal Visit	1.2	complete	p	4	4	2	1	0	0	1	1	9	-31
+SUB231227	Atopic	SS	8775	24-Month Clinic Visit	1.2	complete	24	4	0	3	1	0	0	1	1	2	711
+SUB231227	Atopic	SS	8771	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	0	1	1	1	1125
+SUB231227	Atopic	SS	8779	12-Month Clinic Visit	1.2	complete	12	2	0	3	1	1	1	1	1	8	403
+SUB231228	Atopic	SS	4983	Prenatal Visit	1.2	complete	p	1	0	0	0					1	-50
+SUB231229	Atopic	SS	8831	12-Month Clinic Visit	1.2	complete	12	1	0	3	1	0	1	1	1	7	437
+SUB231229	Atopic	SS	8823	36-Month Clinic Visit	1.2	complete	36	3	1	3	1	0	1	1	1	7	1094
+SUB231229	Atopic	SS	8827	24-Month Clinic Visit	1.2	complete	24	4	1	1	1	0	1	1	1	4	773
+SUB231229	Atopic	SS	4963	Prenatal Visit	1.2	complete	p	3	0	1	1	0	0	1	1	8	-79
+SUB231230	Atopic	SS	8847	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	9	352
+SUB231230	Atopic	SS	8843	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	9	716
+SUB231230	Atopic	SS	8839	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1080
+SUB231230	Atopic	SS	4928	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-48
+SUB231231	Atopic	SS	5936	Prenatal Visit	1.2	complete	p	4	0	1	0					6	-39
+SUB231232	Atopic	SS	8987	12-Month Clinic Visit	1.2	complete	12	4	2	4	1	1	1	1	1	3	409
+SUB231232	Atopic	SS	4728	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	5	-71
+SUB231232	Atopic	SS	8983	24-Month Clinic Visit	1.2	complete	24	1	2	4	0					4	706
+SUB231232	Atopic	SS	8979	36-Month Clinic Visit	1.2	complete	36	4	0	1	0					8	1098
+SUB231233	Atopic	SS	9077	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	9	366
+SUB231233	Atopic	SS	9073	24-Month Clinic Visit	1.2	complete	24	0	1	1	1	1	1	1	1	9	717
+SUB231233	Atopic	SS	9069	36-Month Clinic Visit	1.2	complete	36	0	0	1	1	1	1	1	1	9	1068
+SUB231233	Atopic	SS	7628	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	9	-18
+SUB231234	Atopic	SS	7875	Prenatal Visit	1.2	complete	p	3	0	1	0					6	-12
+SUB231234	Atopic	SS	9093	12-Month Clinic Visit	1.2	missing	.x										
+SUB231234	Atopic	SS	9089	24-Month Clinic Visit	1.2	missing	.x										
+SUB231234	Atopic	SS	9085	36-Month Clinic Visit	1.2	missing	.x										
+SUB231235	Atopic	SS	9309	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	424
+SUB231235	Atopic	SS	7591	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-42
+SUB231235	Atopic	SS	9305	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	718
+SUB231235	Atopic	SS	9301	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1111
+SUB231236	Atopic	SS	42140	24-Month Clinic Visit	1.2	missing	.x										
+SUB231236	Atopic	SS	42144	12-Month Clinic Visit	1.2	missing	.x										
+SUB231236	Atopic	SS	7631	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-23
+SUB231236	Atopic	SS	42136	36-Month Clinic Visit	1.2	missing	.x										
+SUB231237	Atopic	SS	4722	Prenatal Visit	1.2	complete	p	4	2	0	0					8	-85
+SUB231237	Atopic	SS	9673	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					7	385
+SUB231237	Atopic	SS	9669	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	713
+SUB231237	Atopic	SS	9665	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					4	1128
+SUB231238	Atopic	SS	9925	12-Month Clinic Visit	1.2	missing	.x										
+SUB231238	Atopic	SS	9921	24-Month Clinic Visit	1.2	missing	.x										
+SUB231238	Atopic	SS	7749	Prenatal Visit	1.2	complete	p	4	1	4	0					5	-61
+SUB231239	Atopic	SS	7130	Prenatal Visit	1.2	complete	p	0	0	1	0					7	-65
+SUB231240	Atopic	SS	7594	Prenatal Visit	1.2	complete	p	0	0	1	0					5	-66
+SUB231241	Atopic	SS	10241	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					4	729
+SUB231241	Atopic	SS	10237	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1071
+SUB231241	Atopic	SS	10245	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	8	365
+SUB231241	Atopic	SS	8280	Prenatal Visit	1.2	complete	p	0	0	2	0					9	-39
+SUB231242	Atopic	SS	10425	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	827
+SUB231242	Atopic	SS	10421	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1122
+SUB231242	Atopic	SS	9411	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-33
+SUB231242	Atopic	SS	10429	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					8	455
+SUB231243	Atopic	SS	10446	12-Month Clinic Visit	1.2	missing	.x										
+SUB231243	Atopic	SS	10438	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					4	1133
+SUB231243	Atopic	SS	10442	24-Month Clinic Visit	1.2	missing	.x										
+SUB231243	Atopic	SS	7888	Prenatal Visit	1.2	complete	p	3	0	1	0					7	-1
+SUB231244	Atopic	SS	7152	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-76
+SUB231244	Atopic	SS	10463	12-Month Clinic Visit	1.2	missing	.x										
+SUB231244	Atopic	SS	10459	24-Month Clinic Visit	1.2	missing	.x										
+SUB231245	Atopic	SS	1815	Prenatal Visit	1.2	complete	p	1	2	4	0					5	-84
+SUB231246	Atopic	SS	4228	Prenatal Visit	1.2	complete	p	1	0	1	0					7	-95
+SUB231246	Atopic	SS	10962	24-Month Clinic Visit	1.2	complete	24	2	1	2	0					6	807
+SUB231246	Atopic	SS	10966	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	363
+SUB231246	Atopic	SS	10958	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					4	1168
+SUB231247	Atopic	SS	10986	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	727
+SUB231247	Atopic	SS	10982	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1099
+SUB231247	Atopic	SS	10990	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					5	455
+SUB231247	Atopic	SS	5511	Prenatal Visit	1.2	complete	p	2	0	0	0					7	-61
+SUB231248	Atopic	SS	11181	36-Month Clinic Visit	1.2	complete	36	2	1	1	0					2	1088
+SUB231248	Atopic	SS	11185	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					9	808
+SUB231248	Atopic	SS	11189	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					3	408
+SUB231248	Atopic	SS	5088	Prenatal Visit	1.2	complete	p	2	1	1	0					6	-107
+SUB231249	Atopic	SS	37269	12-Month Clinic Visit	1.2	missing	.x										
+SUB231249	Atopic	SS	37261	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1161
+SUB231249	Atopic	SS	37265	24-Month Clinic Visit	1.2	missing	.x										
+SUB231249	Atopic	SS	5751	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-7
+SUB231250	Atopic	SS	8458	Prenatal Visit	1.2	complete	p	3	0	1	0					6	-88
+SUB231251	Atopic	SS	7897	Prenatal Visit	1.2	complete	p	4	1	1	0					9	-45
+SUB231251	Atopic	SS	11295	36-Month Clinic Visit	1.2	complete	36	4	2	3	0					7	1104
+SUB231251	Atopic	SS	11299	24-Month Clinic Visit	1.2	complete	24	2	2	3	0					6	773
+SUB231251	Atopic	SS	11303	12-Month Clinic Visit	1.2	complete	12	2	3	1	0					9	452
+SUB231252	Atopic	SS	11540	24-Month Clinic Visit	1.2	complete	24	4	3	3	1	1	0	0	0	9	831
+SUB231252	Atopic	SS	10922	Prenatal Visit	1.2	complete	p	4	3	3	1	0	1	1	0	5	-24
+SUB231252	Atopic	SS	11536	36-Month Clinic Visit	1.2	complete	36	3	1	1	1	1	0	0	0	4	1109
+SUB231252	Atopic	SS	11544	12-Month Clinic Visit	1.2	complete	12	4	1	1	1	0	1	1	0	7	341
+SUB231253	Atopic	SS	11552	36-Month Clinic Visit	1.2	complete	36	2	2	1	0					6	1279
+SUB231253	Atopic	SS	9490	Prenatal Visit	1.2	complete	p	3	1	0	0					4	-56
+SUB231253	Atopic	SS	11560	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					5	455
+SUB231253	Atopic	SS	11556	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					3	761
+SUB231254	Atopic	SS	11683	12-Month Clinic Visit	1.2	missing	.x										
+SUB231254	Atopic	SS	8272	Prenatal Visit	1.2	complete	p	2	3	4	0					5	-54
+SUB231255	Atopic	SS	7490	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-112
+SUB231255	Atopic	SS	11715	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	445
+SUB231255	Atopic	SS	11711	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					5	738
+SUB231255	Atopic	SS	11707	36-Month Clinic Visit	1.2	complete	36	3	0	5	0					4	1111
+SUB231256	Atopic	SS	11754	12-Month Clinic Visit	1.2	missing	.x										
+SUB231256	Atopic	SS	11746	36-Month Clinic Visit	1.2	missing	.x										
+SUB231256	Atopic	SS	7495	Prenatal Visit	1.2	complete	p	2	1	1	0					5	-39
+SUB231256	Atopic	SS	11750	24-Month Clinic Visit	1.2	missing	.x										
+SUB231257	Atopic	SS	11921	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					1	419
+SUB231257	Atopic	SS	7173	Prenatal Visit	1.2	complete	p	1	0	1	0					4	-32
+SUB231257	Atopic	SS	11913	36-Month Clinic Visit	1.2	complete	36	2	1	2	0					9	1093
+SUB231257	Atopic	SS	11917	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					1	729
+SUB231258	Atopic	SS	12041	12-Month Clinic Visit	1.2	complete	12	1	2	4	1	1	1	0	0	8	399
+SUB231258	Atopic	SS	12037	24-Month Clinic Visit	1.2	complete	24	3	3	3	1	1	1	0	0	9	722
+SUB231258	Atopic	SS	6880	Prenatal Visit	1.2	complete	p	4	1	2	1	1	1	0	0	8	-105
+SUB231258	Atopic	SS	12033	36-Month Clinic Visit	1.2	complete	36	3	3	3	1	1	1	1	0	8	1070
+SUB231259	Atopic	SS	12351	24-Month Clinic Visit	1.2	missing	.x										
+SUB231259	Atopic	SS	7622	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-83
+SUB231259	Atopic	SS	12355	12-Month Clinic Visit	1.2	missing	.x										
+SUB231260	Atopic	SS	12720	12-Month Clinic Visit	1.2	missing	.x										
+SUB231260	Atopic	SS	12276	Prenatal Visit	1.2	complete	p	2	2	2	0					6	-8
+SUB231260	Atopic	SS	12716	24-Month Clinic Visit	1.2	missing	.x										
+SUB231260	Atopic	SS	12712	36-Month Clinic Visit	1.2	complete	36	0	1	0	0					7	1067
+SUB231261	Atopic	SS	9062	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-87
+SUB231261	Atopic	SS	12940	12-Month Clinic Visit	1.2	missing	.x										
+SUB231261	Atopic	SS	12936	24-Month Clinic Visit	1.2	missing	.x										
+SUB231262	Atopic	SS	7833	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	5	-106
+SUB231262	Atopic	SS	12956	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	0	0	9	389
+SUB231262	Atopic	SS	12948	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	9	1109
+SUB231262	Atopic	SS	12952	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	0	0	9	738
+SUB231263	Atopic	SS	13048	24-Month Clinic Visit	1.2	missing	.x										
+SUB231263	Atopic	SS	8295	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-34
+SUB231263	Atopic	SS	13052	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					6	393
+SUB231263	Atopic	SS	13044	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					5	1079
+SUB231264	Atopic	SS	7839	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-91
+SUB231264	Atopic	SS	13257	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	425
+SUB231264	Atopic	SS	13253	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	8	789
+SUB231264	Atopic	SS	13249	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	8	1075
+SUB231265	Atopic	SS	13536	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					5	770
+SUB231265	Atopic	SS	13532	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					8	1065
+SUB231265	Atopic	SS	7133	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-1
+SUB231265	Atopic	SS	13540	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					7	449
+SUB231266	Atopic	SS	13486	Prenatal Visit	1.2	complete	p	0	2	3	0					5	-6
+SUB231266	Atopic	SS	13648	36-Month Clinic Visit	1.2	complete	36	3	3	3	0					5	1077
+SUB231266	Atopic	SS	13656	12-Month Clinic Visit	1.2	missing	.x										
+SUB231266	Atopic	SS	13652	24-Month Clinic Visit	1.2	complete	24	0	1	1	0					7	824
+SUB231267	Atopic	SS	13668	24-Month Clinic Visit	1.2	missing	.x										
+SUB231267	Atopic	SS	7234	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-87
+SUB231267	Atopic	SS	13672	12-Month Clinic Visit	1.2	missing	.x										
+SUB231267	Atopic	SS	13664	36-Month Clinic Visit	1.2	missing	.x										
+SUB231268	Atopic	SS	13766	36-Month Clinic Visit	1.2	complete	36	3	1	0	0					8	1073
+SUB231268	Atopic	SS	13770	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					9	718
+SUB231268	Atopic	SS	11469	Prenatal Visit	1.2	complete	p	3	2	3	0					9	-44
+SUB231268	Atopic	SS	13774	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	424
+SUB231269	Atopic	SS	13867	12-Month Clinic Visit	1.2	missing	.x										
+SUB231269	Atopic	SS	13859	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1069
+SUB231269	Atopic	SS	13863	24-Month Clinic Visit	1.2	missing	.x										
+SUB231269	Atopic	SS	8298	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	0	0	6	-46
+SUB231270	Atopic	SS	14084	36-Month Clinic Visit	1.2	complete	36	2	1	3	1	1	1	0	0	7	1076
+SUB231270	Atopic	SS	11256	Prenatal Visit	1.2	complete	p	2	2	2	0					9	-8
+SUB231270	Atopic	SS	14088	24-Month Clinic Visit	1.2	missing	.x										
+SUB231270	Atopic	SS	14092	12-Month Clinic Visit	1.2	missing	.x										
+SUB231271	Atopic	SS	14110	12-Month Clinic Visit	1.2	missing	.x										
+SUB231271	Atopic	SS	14102	36-Month Clinic Visit	1.2	missing	.x										
+SUB231271	Atopic	SS	11289	Prenatal Visit	1.2	complete	p	1	1	1	0					9	-25
+SUB231271	Atopic	SS	14106	24-Month Clinic Visit	1.2	missing	.x										
+SUB231272	Atopic	SS	14171	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					5	1071
+SUB231272	Atopic	SS	14179	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					6	371
+SUB231272	Atopic	SS	14175	24-Month Clinic Visit	1.2	complete	24	2	1	1	0					5	707
+SUB231272	Atopic	SS	13994	Prenatal Visit	1.2	complete	p	0	1	0	0					8	-6
+SUB231273	Atopic	SS	14346	24-Month Clinic Visit	1.2	complete	24	2	0	0	1	1	1	1	1	9	723
+SUB231273	Atopic	SS	14342	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	9	1065
+SUB231273	Atopic	SS	14350	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	9	395
+SUB231273	Atopic	SS	14065	Prenatal Visit	1.2	complete	p	2	0	0	0					9	-9
+SUB231274	Atopic	SS	14470	12-Month Clinic Visit	1.2	missing	.x										
+SUB231274	Atopic	SS	14462	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					5	1106
+SUB231274	Atopic	SS	10195	Prenatal Visit	1.2	complete	p	3	0	0	0					5	-84
+SUB231274	Atopic	SS	14466	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	0	0	0	7	770
+SUB231275	Atopic	SS	14546	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	432
+SUB231275	Atopic	SS	14538	36-Month Clinic Visit	1.2	complete	36	3	1	2	0					5	1069
+SUB231275	Atopic	SS	11964	Prenatal Visit	1.2	complete	p	3	2	2	0					5	-61
+SUB231275	Atopic	SS	14542	24-Month Clinic Visit	1.2	complete	24	3	2	1	0					5	824
+SUB231276	Atopic	SS	14657	12-Month Clinic Visit	1.2	complete	12	2	1	0	0					7	421
+SUB231276	Atopic	SS	14649	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1079
+SUB231276	Atopic	SS	14653	24-Month Clinic Visit	1.2	complete	24	1	1	0	0					5	752
+SUB231276	Atopic	SS	13240	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-10
+SUB231277	Non-atopic	SS	12294	Prenatal Visit	1.2	complete	p	1	1	0	1	1	0	0	0	7	-26
+SUB231277	Non-atopic	SS	14686	12-Month Clinic Visit	1.2	complete	12	1	1	0	0					8	422
+SUB231277	Non-atopic	SS	14694	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					3	1141
+SUB231277	Non-atopic	SS	14690	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					4	729
+SUB231278	Non-atopic	SS	14708	24-Month Clinic Visit	1.2	complete	24	3	0	1	1	0	0	1	1	6	728
+SUB231278	Non-atopic	SS	12470	Prenatal Visit	1.2	complete	p	2	0	1	0					5	-26
+SUB231278	Non-atopic	SS	14704	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	0	0	1	1	7	378
+SUB231278	Non-atopic	SS	14712	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					6	1128
+SUB231279	Atopic	SS	14914	12-Month Clinic Visit	1.2	complete	12	2	1	3	1	0	1	1	1	7	358
+SUB231279	Atopic	SS	14906	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	1	8	1092
+SUB231279	Atopic	SS	14910	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	1	1	1	8	715
+SUB231279	Atopic	SS	13784	Prenatal Visit	1.2	complete	p	2	0	0	1	1	1	1	1	7	-33
+SUB231280	Non-atopic	SS	15005	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					4	1070
+SUB231280	Non-atopic	SS	11415	Prenatal Visit	1.2	complete	p	4	2	3	0					4	-38
+SUB231280	Non-atopic	SS	15001	24-Month Clinic Visit	1.2	complete	24	1	0	2	0					3	812
+SUB231280	Non-atopic	SS	14997	12-Month Clinic Visit	1.2	complete	12	4	1	1	0					7	396
+SUB231281	Atopic	SS	15099	12-Month Clinic Visit	1.2	missing	.x										
+SUB231281	Atopic	SS	15095	24-Month Clinic Visit	1.2	complete	24	4	0	1	1	1	1	0	0	1	729
+SUB231281	Atopic	SS	11040	Prenatal Visit	1.2	complete	p	3	1	3	0					6	-68
+SUB231281	Atopic	SS	15091	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	5	1136
+SUB231282	Atopic	SS	11763	Prenatal Visit	1.2	complete	p	0	0	0	0					2	-79
+SUB231282	Atopic	SS	15424	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1020
+SUB231282	Atopic	SS	15432	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	392
+SUB231282	Atopic	SS	15428	24-Month Clinic Visit	1.2	missing	.x										
+SUB231283	Atopic	SS	11578	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	7	-44
+SUB231283	Atopic	SS	15632	24-Month Clinic Visit	1.2	missing	.x										
+SUB231283	Atopic	SS	15636	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	0	0	0	6	355
+SUB231283	Atopic	SS	15628	36-Month Clinic Visit	1.2	complete	36	1	1	3	0					6	1075
+SUB231284	Atopic	SS	13964	Prenatal Visit	1.2	complete	p	0	1	0	0					5	-27
+SUB231284	Atopic	SS	15687	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	381
+SUB231284	Atopic	SS	15683	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					5	709
+SUB231284	Atopic	SS	15679	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1072
+SUB231285	Non-atopic	SS	15710	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	8	345
+SUB231285	Non-atopic	SS	13812	Prenatal Visit	1.2	complete	p	0	0	0	1	1	0	0	0	8	-59
+SUB231285	Non-atopic	SS	15714	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	0	6	821
+SUB231285	Non-atopic	SS	15718	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	8	1066
+SUB231286	Atopic	SS	15746	24-Month Clinic Visit	1.2	complete	24	3	1	0	0					7	720
+SUB231286	Atopic	SS	15750	12-Month Clinic Visit	1.2	complete	12	3	0	0	0					5	383
+SUB231286	Atopic	SS	12003	Prenatal Visit	1.2	complete	p	3	1	0	0					5	-111
+SUB231286	Atopic	SS	15742	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					7	1068
+SUB231287	Non-atopic	SS	15786	12-Month Clinic Visit	1.2	complete	12	1	2	2	0					7	456
+SUB231287	Non-atopic	SS	13513	Prenatal Visit	1.2	complete	p	4	4	4	0					4	1
+SUB231287	Non-atopic	SS	15790	24-Month Clinic Visit	1.2	complete	24	3	2	1	0					8	833
+SUB231287	Non-atopic	SS	15794	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					4	1075
+SUB231288	Atopic	SS	16085	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	351
+SUB231288	Atopic	SS	16077	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1149
+SUB231288	Atopic	SS	15157	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-12
+SUB231288	Atopic	SS	16081	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					7	744
+SUB231289	Atopic	SS	12291	Prenatal Visit	1.2	complete	p	0	0	0	0					6	-69
+SUB231289	Atopic	SS	16108	36-Month Clinic Visit	1.2	missing	.x										
+SUB231289	Atopic	SS	16112	24-Month Clinic Visit	1.2	missing	.x										
+SUB231289	Atopic	SS	16116	12-Month Clinic Visit	1.2	missing	.x										
+SUB231290	Atopic	SS	14369	Prenatal Visit	1.2	complete	p	3	5	4	0					5	-59
+SUB231290	Atopic	SS	16230	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					6	724
+SUB231290	Atopic	SS	16234	12-Month Clinic Visit	1.2	complete	12	3	3	3	0					3	354
+SUB231290	Atopic	SS	16226	36-Month Clinic Visit	1.2	complete	36	3	1	1	0					6	1068
+SUB231291	Atopic	SS	16379	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	378
+SUB231291	Atopic	SS	16375	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					6	727
+SUB231291	Atopic	SS	16371	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1079
+SUB231291	Atopic	SS	13349	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-81
+SUB231292	Atopic	SS	15966	Prenatal Visit	1.2	complete	p	1	1	1	0					1	-12
+SUB231292	Atopic	SS	16486	12-Month Clinic Visit	1.2	complete	12	3	0	0	0					7	397
+SUB231292	Atopic	SS	16482	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					5	712
+SUB231292	Atopic	SS	16478	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					3	1070
+SUB231293	Atopic	SS	87	Prenatal Visit	1.2	complete	p	4	1	1	0					4	-20
+SUB231293	Atopic	SS	443	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					6	1092
+SUB231293	Atopic	SS	435	12-Month Clinic Visit	1.2	complete	12	2	2	2	0					7	375
+SUB231293	Atopic	SS	439	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					7	775
+SUB231294	Atopic	SS	456	24-Month Clinic Visit	1.2	complete	24	1	2	2	0					7	762
+SUB231294	Atopic	SS	460	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					6	1177
+SUB231294	Atopic	SS	2	Prenatal Visit	1.2	complete	p	4	0	1	0					1	-12
+SUB231294	Atopic	SS	452	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					4	390
+SUB231295	Atopic	SS	466	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					8	386
+SUB231295	Atopic	SS	470	24-Month Clinic Visit	1.2	missing	.x										
+SUB231295	Atopic	SS	5	Prenatal Visit	1.2	complete	p	1	1	0	0					5	-28
+SUB231295	Atopic	SS	474	36-Month Clinic Visit	1.2	missing	.x										
+SUB231296	Atopic	SS	480	12-Month Clinic Visit	1.2	complete	12	2	1	1	0					4	357
+SUB231296	Atopic	SS	484	24-Month Clinic Visit	1.2	complete	24	1	1	3	0					9	749
+SUB231296	Atopic	SS	31753	60-Month Clinic Visit	1.2	complete	60	2	2	1	0					7	1842
+SUB231296	Atopic	SS	488	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1157
+SUB231296	Atopic	SS	353	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	4	-6
+SUB231297	Atopic	SS	560	24-Month Clinic Visit	1.2	missing	.x										
+SUB231297	Atopic	SS	142	Prenatal Visit	1.2	complete	p	2	1	1	0					3	-29
+SUB231297	Atopic	SS	556	12-Month Clinic Visit	1.2	complete	12	3	0	1	0					6	390
+SUB231297	Atopic	SS	564	36-Month Clinic Visit	1.2	complete	36	4	0	1	0					1	1184
+SUB231298	Atopic	SS	629	Prenatal Visit	1.2	complete	p	2	3	3	0					3	-1
+SUB231299	Atopic	SS	697	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	7	1103
+SUB231299	Atopic	SS	32736	60-Month Clinic Visit	1.2	complete	60	1	1	1	0					7	1825
+SUB231299	Atopic	SS	689	12-Month Clinic Visit	1.2	complete	12	3	3	3	1	1	1	1	1	9	402
+SUB231299	Atopic	SS	693	24-Month Clinic Visit	1.2	complete	24	3	2	0	1	0	0	1	1	9	761
+SUB231299	Atopic	SS	11	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	7	-59
+SUB231300	Atopic	SS	1124	36-Month Clinic Visit	1.2	complete	36	1	2	1	1	1	1	1	0	7	1126
+SUB231300	Atopic	SS	1116	12-Month Clinic Visit	1.2	missing	.x										
+SUB231300	Atopic	SS	1032	Prenatal Visit	1.2	complete	p	4	2	2	1	1	1	0	0	6	0
+SUB231300	Atopic	SS	1120	24-Month Clinic Visit	1.2	complete	24	4	1	3	1	1	1	1	0	7	812
+SUB231301	Atopic	SS	865	Prenatal Visit	1.2	complete	p	3	3	3	1	0	1	1	1	7	-9
+SUB231302	Atopic	SS	1268	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					5	1104
+SUB231302	Atopic	SS	1264	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	759
+SUB231302	Atopic	SS	281	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-43
+SUB231302	Atopic	SS	1260	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					5	423
+SUB231303	Atopic	SS	1283	36-Month Clinic Visit	1.2	missing	.x										
+SUB231303	Atopic	SS	1275	12-Month Clinic Visit	1.2	complete	12	3	0	1	1	1	1	1	1	7	472
+SUB231303	Atopic	SS	650	Prenatal Visit	1.2	complete	p	0	3	4	1	1	1	1	1	5	-29
+SUB231303	Atopic	SS	1279	24-Month Clinic Visit	1.2	complete	24	3	0	0	1	1	1	1	1	8	733
+SUB231304	Atopic	SS	1289	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					4	379
+SUB231304	Atopic	SS	1297	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					2	1094
+SUB231304	Atopic	SS	268	Prenatal Visit	1.2	complete	p	1	0	1	0					6	-36
+SUB231304	Atopic	SS	1293	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	728
+SUB231305	Atopic	SS	24	Prenatal Visit	1.2	complete	p	2	0	0	0					7	-84
+SUB231305	Atopic	SS	1324	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					8	383
+SUB231305	Atopic	SS	1332	36-Month Clinic Visit	1.2	missing	.x										
+SUB231305	Atopic	SS	1328	24-Month Clinic Visit	1.2	complete	24	1	2	3	1	1	1	0	0	8	705
+SUB231306	Atopic	SS	1372	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					9	1158
+SUB231306	Atopic	SS	538	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-33
+SUB231306	Atopic	SS	1368	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					9	789
+SUB231306	Atopic	SS	1364	12-Month Clinic Visit	1.2	missing	.x										
+SUB231307	Atopic	SS	186	Prenatal Visit	1.2	complete	p	1	1	1	1	0	0	1	1	5	-32
+SUB231307	Atopic	SS	1456	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	0	1	1	6	1091
+SUB231307	Atopic	SS	1452	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	1	1	7	737
+SUB231307	Atopic	SS	1448	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	0	1	1	1	5	433
+SUB231308	Atopic	SS	1212	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-10
+SUB231308	Atopic	SS	1462	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					9	368
+SUB231308	Atopic	SS	15673	24-Month Clinic Visit	1.2	complete	24	4	0	1	0					7	795
+SUB231308	Atopic	SS	15669	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					7	1081
+SUB231309	Atopic	SS	1562	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					6	731
+SUB231309	Atopic	SS	569	Prenatal Visit	1.2	complete	p	1	0	0	1	0	0	1	0	6	-33
+SUB231309	Atopic	SS	1558	12-Month Clinic Visit	1.2	complete	12	3	0	0	1	0	1	1	0	4	430
+SUB231309	Atopic	SS	1566	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	1	1	0	9	1096
+SUB231310	Atopic	SS	1649	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					8	365
+SUB231310	Atopic	SS	420	Prenatal Visit	1.2	complete	p	3	1	2	0					8	-48
+SUB231310	Atopic	SS	1653	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					9	739
+SUB231310	Atopic	SS	1657	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	9	1102
+SUB231311	Atopic	SS	1665	Prenatal Visit	1.2	complete	p	3	2	2	1	0	0	1	0	6	-1
+SUB231312	Atopic	SS	822	Prenatal Visit	1.2	complete	p	3	0	0	0					4	-52
+SUB231313	Atopic	SS	1919	36-Month Clinic Visit	1.2	complete	36	2	0	0	1	0	1	1	0	8	1099
+SUB231313	Atopic	SS	1906	24-Month Clinic Visit	1.2	complete	24	4	1	1	0					2	751
+SUB231313	Atopic	SS	1621	Prenatal Visit	1.2	complete	p	1	2	2	1	0	0	1	1	5	-4
+SUB231313	Atopic	SS	1910	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					7	357
+SUB231314	Atopic	SS	1949	12-Month Clinic Visit	1.2	missing	.x										
+SUB231314	Atopic	SS	1945	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	0	0	0	0	7	725
+SUB231314	Atopic	SS	1958	36-Month Clinic Visit	1.2	complete	36	1	3	2	0					1	1087
+SUB231314	Atopic	SS	1588	Prenatal Visit	1.2	complete	p	1	1	0	1	1	0	0	0	6	-11
+SUB231315	Atopic	SS	31035	36-Month Clinic Visit	1.2	missing	.x										
+SUB231315	Atopic	SS	814	Prenatal Visit	1.2	complete	p	1	1	1	0					1	-62
+SUB231315	Atopic	SS	31039	24-Month Clinic Visit	1.2	missing	.x										
+SUB231315	Atopic	SS	31043	12-Month Clinic Visit	1.2	missing	.x										
+SUB231316	Atopic	SS	2047	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	0	0	0	4	1111
+SUB231316	Atopic	SS	2034	24-Month Clinic Visit	1.2	missing	.x										
+SUB231316	Atopic	SS	816	Prenatal Visit	1.2	complete	p	1	1	1	1	0	1	1	1	7	-41
+SUB231316	Atopic	SS	2038	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	0	0	0	8	362
+SUB231317	Atopic	SS	1964	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	5	-2
+SUB231318	Atopic	SS	2263	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	1	4	364
+SUB231318	Atopic	SS	653	Prenatal Visit	1.2	complete	p	2	0	0	1	1	1	1	1	5	-87
+SUB231318	Atopic	SS	2272	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	0	1	9	1066
+SUB231318	Atopic	SS	2259	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	5	736
+SUB231319	Atopic	SS	1405	Prenatal Visit	1.2	complete	p	1	1	2	1	0	0	1	1	5	-34
+SUB231319	Atopic	SS	2362	12-Month Clinic Visit	1.2	complete	12	1	1	3	1	1	0	0	0	6	454
+SUB231319	Atopic	SS	2371	36-Month Clinic Visit	1.2	complete	36	2	0	3	1	1	1	1	1	6	1091
+SUB231319	Atopic	SS	2358	24-Month Clinic Visit	1.2	complete	24	1	0	3	0					9	728
+SUB231320	Atopic	SS	2391	12-Month Clinic Visit	1.2	missing	.x										
+SUB231320	Atopic	SS	2400	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					1	1106
+SUB231320	Atopic	SS	964	Prenatal Visit	1.2	complete	p	2	2	1	0					1	-76
+SUB231320	Atopic	SS	2387	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					5	735
+SUB231321	Atopic	SS	644	Prenatal Visit	1.2	complete	p	3	2	0	1	1	1	0	0	5	-41
+SUB231321	Atopic	SS	2437	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	7	734
+SUB231321	Atopic	SS	2450	36-Month Clinic Visit	1.2	complete	36	3	0	0	1	1	1	1	1	8	1098
+SUB231321	Atopic	SS	2441	12-Month Clinic Visit	1.2	missing	.x										
+SUB231322	Atopic	SS	21	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	1	4	-106
+SUB231323	Atopic	SS	2896	36-Month Clinic Visit	1.2	complete	36	3	4	4	1	1	1	1	1	1	1082
+SUB231323	Atopic	SS	1141	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-72
+SUB231323	Atopic	SS	2883	24-Month Clinic Visit	1.2	complete	24	4	4	4	1	1	1	1	1	1	798
+SUB231323	Atopic	SS	2887	12-Month Clinic Visit	1.2	complete	12	4	4	4	1	1	1	1	1	4	368
+SUB231324	Atopic	SS	2899	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					4	731
+SUB231324	Atopic	SS	818	Prenatal Visit	1.2	complete	p	1	1	0	0					7	-3
+SUB231324	Atopic	SS	2912	36-Month Clinic Visit	1.2	complete	36	1	2	0	0					8	1096
+SUB231324	Atopic	SS	2903	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					4	438
+SUB231325	Atopic	SS	1489	Prenatal Visit	1.2	complete	p	3	3	3	1	1	1	1	1	7	-79
+SUB231325	Atopic	SS	2919	24-Month Clinic Visit	1.2	complete	24	3	3	3	1	1	1	1	1	7	781
+SUB231325	Atopic	SS	2932	36-Month Clinic Visit	1.2	complete	36	4	0	1	1	1	1	1	0	6	1103
+SUB231325	Atopic	SS	2923	12-Month Clinic Visit	1.2	complete	12	4	3	2	0					1	383
+SUB231326	Atopic	SS	253	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	9	-54
+SUB231326	Atopic	SS	3157	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					6	377
+SUB231326	Atopic	SS	3166	36-Month Clinic Visit	1.2	complete	36	1	0	1	0					8	1085
+SUB231326	Atopic	SS	3153	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					4	744
+SUB231327	Atopic	SS	3189	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					6	362
+SUB231327	Atopic	SS	3185	24-Month Clinic Visit	1.2	complete	24	2	0	1	0					5	734
+SUB231327	Atopic	SS	2513	Prenatal Visit	1.2	complete	p	3	4	4	1	0	0	0	1	6	-25
+SUB231327	Atopic	SS	3198	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					6	1081
+SUB231328	Atopic	SS	422	Prenatal Visit	1.2	complete	p	4	0	0	0					5	-131
+SUB231328	Atopic	SS	3214	36-Month Clinic Visit	1.2	complete	36	2	1	1	1	0	0	1	1	3	1079
+SUB231328	Atopic	SS	3201	24-Month Clinic Visit	1.2	missing	.x										
+SUB231328	Atopic	SS	3205	12-Month Clinic Visit	1.2	missing	.x										
+SUB231329	Atopic	SS	3221	12-Month Clinic Visit	1.2	complete	12	3	1	1	1	1	1	1	1	7	437
+SUB231329	Atopic	SS	3217	24-Month Clinic Visit	1.2	complete	24	3	1	2	1	0	1	1	1	8	758
+SUB231329	Atopic	SS	2578	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-24
+SUB231329	Atopic	SS	3230	36-Month Clinic Visit	1.2	complete	36	1	2	3	0					7	1095
+SUB231330	Atopic	SS	3437	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	710
+SUB231330	Atopic	SS	2970	Prenatal Visit	1.2	complete	p	1	1	1	0					6	-2
+SUB231330	Atopic	SS	3441	12-Month Clinic Visit	1.2	missing	.x										
+SUB231330	Atopic	SS	3450	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	6	1075
+SUB231331	Atopic	SS	2956	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-28
+SUB231331	Atopic	SS	3668	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	6	348
+SUB231332	Atopic	SS	3115	Prenatal Visit	1.2	complete	p	4	4	4	0					8	0
+SUB231332	Atopic	SS	3711	36-Month Clinic Visit	1.2	missing	.x										
+SUB231332	Atopic	SS	3698	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					1	799
+SUB231332	Atopic	SS	3702	12-Month Clinic Visit	1.2	complete	12	3	2	3	0					7	427
+SUB231333	Atopic	SS	3897	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					5	1080
+SUB231333	Atopic	SS	3768	Prenatal Visit	1.2	complete	p	1	0	2	0					5	-2
+SUB231333	Atopic	SS	3884	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	0	0	1	1	6	800
+SUB231333	Atopic	SS	3888	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	0	0	1	1	7	430
+SUB231334	Atopic	SS	641	Prenatal Visit	1.2	complete	p	0	1	1	0					8	-60
+SUB231334	Atopic	SS	3919	24-Month Clinic Visit	1.2	complete	24	1	2	0	0					7	765
+SUB231334	Atopic	SS	3923	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	387
+SUB231334	Atopic	SS	3932	36-Month Clinic Visit	1.2	missing	.x										
+SUB231335	Atopic	SS	2813	Prenatal Visit	1.2	complete	p	3	4	4	1	0	0	1	1	7	-24
+SUB231336	Atopic	SS	4004	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					7	1165
+SUB231336	Atopic	SS	2960	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-32
+SUB231336	Atopic	SS	3995	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	389
+SUB231336	Atopic	SS	3991	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	824
+SUB231337	Atopic	SS	1614	Prenatal Visit	1.2	complete	p	4	4	4	0					5	-132
+SUB231337	Atopic	SS	4272	12-Month Clinic Visit	1.2	missing	.x										
+SUB231338	Atopic	SS	3754	Prenatal Visit	1.2	complete	p	1	2	2	1	0	0	1	1	7	-27
+SUB231338	Atopic	SS	4395	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					1	710
+SUB231338	Atopic	SS	4399	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					1	358
+SUB231338	Atopic	SS	4408	36-Month Clinic Visit	1.2	complete	36	4	4	4	0					1	1066
+SUB231339	Atopic	SS	572	Prenatal Visit	1.2	complete	p	3	4	4	1	1	1	0	0	5	-68
+SUB231339	Atopic	SS	4411	24-Month Clinic Visit	1.2	complete	24	4	4	4	1	1	1	1	0	5	757
+SUB231339	Atopic	SS	4424	36-Month Clinic Visit	1.2	complete	36	2	1	2	0					5	1067
+SUB231339	Atopic	SS	4415	12-Month Clinic Visit	1.2	complete	12	4	0	2	1	1	1	1	0	5	414
+SUB231340	Atopic	SS	1413	Prenatal Visit	1.2	complete	p	1	0	0	1	0	1	0	0	9	-101
+SUB231341	Atopic	SS	4625	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	7	357
+SUB231341	Atopic	SS	4634	36-Month Clinic Visit	1.2	complete	36	1	1	0	1	0	0	1	1	7	1097
+SUB231341	Atopic	SS	4621	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	5	706
+SUB231341	Atopic	SS	960	Prenatal Visit	1.2	complete	p	1	1	1	1	0	1	1	1	7	-8
+SUB231342	Atopic	SS	4700	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	1	1	1	1	6	1082
+SUB231342	Atopic	SS	4254	Prenatal Visit	1.2	complete	p	2	0	2	1	0	1	0	1	5	-3
+SUB231342	Atopic	SS	4691	12-Month Clinic Visit	1.2	missing	.x										
+SUB231342	Atopic	SS	4687	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	1	1	0	0	5	717
+SUB231343	Atopic	SS	4662	Prenatal Visit	1.2	complete	p	2	0	0	1	1	0	0	0	5	-2
+SUB231343	Atopic	SS	4862	36-Month Clinic Visit	1.2	complete	36	2	1	1	0					6	1073
+SUB231343	Atopic	SS	4849	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	0	0	6	716
+SUB231343	Atopic	SS	4853	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	0	7	361
+SUB231344	Atopic	SS	4638	Prenatal Visit	1.2	complete	p	1	1	3	0					9	-2
+SUB231345	Atopic	SS	4971	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	376
+SUB231345	Atopic	SS	4980	36-Month Clinic Visit	1.2	complete	36	1	1	2	1	0	0	1	1	7	1069
+SUB231345	Atopic	SS	3428	Prenatal Visit	1.2	complete	p	1	0	0	0					4	-29
+SUB231345	Atopic	SS	4967	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					6	714
+SUB231346	Atopic	SS	4987	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					3	709
+SUB231346	Atopic	SS	4991	12-Month Clinic Visit	1.2	complete	12	2	1	2	1	1	1	1	1	7	344
+SUB231346	Atopic	SS	5000	36-Month Clinic Visit	1.2	complete	36	1	1	0	0					6	1108
+SUB231346	Atopic	SS	4821	Prenatal Visit	1.2	complete	p	4	3	3	0					5	0
+SUB231347	Atopic	SS	5003	Prenatal Visit	1.2	complete	p	3	0	0	1	0	0	1	1	4	-6
+SUB231347	Atopic	SS	5204	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	3	375
+SUB231347	Atopic	SS	5196	36-Month Clinic Visit	1.2	missing	.x										
+SUB231347	Atopic	SS	5200	24-Month Clinic Visit	1.2	complete	24	1	1	0	1	0	1	1	1	3	719
+SUB231348	Atopic	SS	4956	Prenatal Visit	1.2	complete	p	4	1	1	0					9	-11
+SUB231349	Atopic	SS	4261	Prenatal Visit	1.2	complete	p	1	3	2	0					7	-31
+SUB231350	Atopic	SS	4864	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-17
+SUB231351	Atopic	SS	4783	Prenatal Visit	1.2	complete	p	4	4	3	0					3	25
+SUB231352	Atopic	SS	31159	36-Month Clinic Visit	1.2	complete	36	3	2	2	0					5	1224
+SUB231352	Atopic	SS	31167	12-Month Clinic Visit	1.2	missing	.x										
+SUB231352	Atopic	SS	31163	24-Month Clinic Visit	1.2	missing	.x										
+SUB231352	Atopic	SS	3243	Prenatal Visit	1.2	complete	p	4	2	2	0					7	-86
+SUB231353	Atopic	SS	5604	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	9	1174
+SUB231353	Atopic	SS	3323	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	2	-80
+SUB231353	Atopic	SS	5608	24-Month Clinic Visit	1.2	complete	24	1	1	4	1	1	1	1	1	1	712
+SUB231353	Atopic	SS	5612	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	1	1	1	9	335
+SUB231354	Atopic	SS	5628	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					4	439
+SUB231354	Atopic	SS	5624	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	825
+SUB231354	Atopic	SS	5620	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1186
+SUB231354	Atopic	SS	4745	Prenatal Visit	1.2	complete	p	3	1	1	0					5	-28
+SUB231355	Atopic	SS	5656	24-Month Clinic Visit	1.2	complete	24	4	1	0	0					5	724
+SUB231355	Atopic	SS	5652	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					4	1158
+SUB231355	Atopic	SS	5660	12-Month Clinic Visit	1.2	missing	.x										
+SUB231355	Atopic	SS	3731	Prenatal Visit	1.2	complete	p	1	1	2	0					7	-68
+SUB231356	Atopic	SS	5708	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	4	377
+SUB231356	Atopic	SS	4295	Prenatal Visit	1.2	complete	p	4	0	5	1	1	1	1	1	5	-41
+SUB231356	Atopic	SS	5704	24-Month Clinic Visit	1.2	complete	24	1	1	1	1	1	1	1	1	3	706
+SUB231356	Atopic	SS	5700	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	5	1168
+SUB231357	Atopic	SS	5850	24-Month Clinic Visit	1.2	complete	24	2	1	1	0					4	734
+SUB231357	Atopic	SS	5846	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					4	1099
+SUB231357	Atopic	SS	5854	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					3	378
+SUB231357	Atopic	SS	4013	Prenatal Visit	1.2	complete	p	1	1	1	0					6	-62
+SUB231358	Atopic	SS	10326	24-Month Clinic Visit	1.2	complete	24	1	0	2	1	0	1	1	1	6	781
+SUB231358	Atopic	SS	10330	12-Month Clinic Visit	1.2	complete	12	3	2	2	1	1	1	1	1	5	411
+SUB231358	Atopic	SS	2732	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-91
+SUB231359	Atopic	SS	5903	36-Month Clinic Visit	1.2	complete	36	4	0	4	1	1	1	1	1	4	1087
+SUB231359	Atopic	SS	5907	24-Month Clinic Visit	1.2	complete	24	0	0	1	1	1	1	1	1	8	715
+SUB231359	Atopic	SS	5911	12-Month Clinic Visit	1.2	complete	12	1	0	3	1	1	1	1	1	5	393
+SUB231359	Atopic	SS	4147	Prenatal Visit	1.2	complete	p	2	1	0	1	1	1	1		6	1
+SUB231360	Atopic	SS	5960	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	6	738
+SUB231360	Atopic	SS	2378	Prenatal Visit	1.2	complete	p	1	0	0	1	0	0	1	1	5	-133
+SUB231360	Atopic	SS	5956	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	0	1	1	1	5	1148
+SUB231360	Atopic	SS	5964	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	9	461
+SUB231361	Atopic	SS	6024	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					7	369
+SUB231361	Atopic	SS	6020	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	720
+SUB231361	Atopic	SS	2976	Prenatal Visit	1.2	complete	p	1	1	1	0					6	-89
+SUB231362	Atopic	SS	4321	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-58
+SUB231363	Atopic	SS	6291	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					5	811
+SUB231363	Atopic	SS	6295	12-Month Clinic Visit	1.2	complete	12	3	0	1	1	1	1	1	1	4	404
+SUB231363	Atopic	SS	4739	Prenatal Visit	1.2	complete	p	4	1	1	0					4	-28
+SUB231363	Atopic	SS	6287	36-Month Clinic Visit	1.2	complete	36	2	3	3	1	1	1	1	0	5	1161
+SUB231364	Atopic	SS	6139	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-6
+SUB231364	Atopic	SS	6327	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	381
+SUB231365	Atopic	SS	25879	36-Month Clinic Visit	1.2	missing	.x										
+SUB231365	Atopic	SS	25883	24-Month Clinic Visit	1.2	missing	.x										
+SUB231365	Atopic	SS	6427	12-Month Clinic Visit	1.2	complete	12	3	3	3	0					1	400
+SUB231365	Atopic	SS	5488	Prenatal Visit	1.2	complete	p	2	0	0	0					2	-25
+SUB231366	Atopic	SS	6574	36-Month Clinic Visit	1.2	complete	36	3	0	3	1	1	1	0	0	4	1097
+SUB231366	Atopic	SS	6582	12-Month Clinic Visit	1.2	complete	12	2	1	2	1	1	0	0	0	5	370
+SUB231366	Atopic	SS	6578	24-Month Clinic Visit	1.2	complete	24	0	0	1	1	1	1	0	0	5	701
+SUB231366	Atopic	SS	4734	Prenatal Visit	1.2	complete	p	3	3	3	1	1	1	1	1	3	-65
+SUB231367	Atopic	SS	6595	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	819
+SUB231367	Atopic	SS	6591	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	0	0	7	1169
+SUB231367	Atopic	SS	4601	Prenatal Visit	1.2	complete	p	0	2	3	1	1	1	0	0	5	-57
+SUB231367	Atopic	SS	6599	12-Month Clinic Visit	1.2	missing	.x										
+SUB231368	Atopic	SS	6744	36-Month Clinic Visit	1.2	complete	36	2	0	0	1	0	1	1	0	6	1098
+SUB231368	Atopic	SS	6752	12-Month Clinic Visit	1.2	complete	12	3	0	1	0					8	370
+SUB231368	Atopic	SS	6748	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					9	818
+SUB231368	Atopic	SS	4931	Prenatal Visit	1.2	complete	p	2	0	0	0					9	-36
+SUB231369	Atopic	SS	6795	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	6	1155
+SUB231369	Atopic	SS	4291	Prenatal Visit	1.2	complete	p	2	2	3	1	1	1	1	1	4	-57
+SUB231369	Atopic	SS	6799	24-Month Clinic Visit	1.2	complete	24	1	1	0	1	1	1	1	1	5	744
+SUB231369	Atopic	SS	6803	12-Month Clinic Visit	1.2	complete	12	3	0	2	1	1	1	1	1	5	387
+SUB231370	Atopic	SS	6512	Prenatal Visit	1.2	complete	p	1	1	1	0					6	-12
+SUB231371	Atopic	SS	6547	Prenatal Visit	1.2	complete	p	1	0	0	0					7	-12
+SUB231371	Atopic	SS	7076	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	0	1	1	1	7	386
+SUB231371	Atopic	SS	7072	24-Month Clinic Visit	1.2	missing	.x										
+SUB231371	Atopic	SS	7068	36-Month Clinic Visit	1.2	missing	.x										
+SUB231372	Atopic	SS	7163	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					5	373
+SUB231372	Atopic	SS	7159	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					7	717
+SUB231372	Atopic	SS	5454	Prenatal Visit	1.2	complete	p	3	3	3	0					6	-53
+SUB231372	Atopic	SS	7155	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					9	1164
+SUB231373	Atopic	SS	7207	24-Month Clinic Visit	1.2	complete	24	4	2	1	0					1	781
+SUB231373	Atopic	SS	7211	12-Month Clinic Visit	1.2	complete	12	2	0	1	0					2	395
+SUB231373	Atopic	SS	7203	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					4	1159
+SUB231373	Atopic	SS	6830	Prenatal Visit	1.2	complete	p	1	1	1	0					2	-8
+SUB231374	Atopic	SS	7325	12-Month Clinic Visit	1.2	complete	12	0	1	2	1	0	0	1	1	6	348
+SUB231374	Atopic	SS	5037	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-71
+SUB231374	Atopic	SS	7321	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	0	1	7	706
+SUB231374	Atopic	SS	7317	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1082
+SUB231375	Atopic	SS	5152	Prenatal Visit	1.2	complete	p	1	2	1	1	1	1	1	1	6	-72
+SUB231376	Atopic	SS	7701	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					5	1163
+SUB231376	Atopic	SS	6850	Prenatal Visit	1.2	complete	p	3	2	3	0					4	-19
+SUB231376	Atopic	SS	7709	12-Month Clinic Visit	1.2	complete	12	1	2	1	0					3	454
+SUB231376	Atopic	SS	7705	24-Month Clinic Visit	1.2	complete	24	4	4	2	0					5	822
+SUB231377	Atopic	SS	6336	Prenatal Visit	1.2	complete	p	1	1	2	0					5	-33
+SUB231377	Atopic	SS	7801	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	729
+SUB231377	Atopic	SS	7797	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1073
+SUB231377	Atopic	SS	7805	12-Month Clinic Visit	1.2	complete	12	4	1	1	0					9	369
+SUB231378	Atopic	SS	7845	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					4	812
+SUB231378	Atopic	SS	7849	12-Month Clinic Visit	1.2	complete	12	3	1	2	0					7	380
+SUB231378	Atopic	SS	7451	Prenatal Visit	1.2	complete	p	1	1	1	0					4	-6
+SUB231378	Atopic	SS	7841	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1186
+SUB231379	Atopic	SS	8014	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1183
+SUB231379	Atopic	SS	7790	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	0	0	6	-6
+SUB231379	Atopic	SS	8018	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	759
+SUB231379	Atopic	SS	8022	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	350
+SUB231380	Atopic	SS	3771	Prenatal Visit	1.2	complete	p	4	2	1	0					1	-119
+SUB231380	Atopic	SS	8104	24-Month Clinic Visit	1.2	missing	.x										
+SUB231380	Atopic	SS	8100	36-Month Clinic Visit	1.2	complete	36	2	1	0	0					4	1065
+SUB231380	Atopic	SS	8108	12-Month Clinic Visit	1.2	complete	12	3	2	1	0					4	414
+SUB231381	Atopic	SS	7970	Prenatal Visit	1.2	complete	p	0	0	0	0					5	-1
+SUB231381	Atopic	SS	8129	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	371
+SUB231381	Atopic	SS	8125	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	721
+SUB231381	Atopic	SS	8121	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1134
+SUB231382	Atopic	SS	8441	12-Month Clinic Visit	1.2	complete	12	2	0	1	1	0	0	1	1	9	381
+SUB231382	Atopic	SS	7201	Prenatal Visit	1.2	complete	p	2	2	2	0					5	-32
+SUB231382	Atopic	SS	8433	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	0	1	1	1	4	1072
+SUB231382	Atopic	SS	8437	24-Month Clinic Visit	1.2	complete	24	2	4	4	1	0	0	1	1	5	731
+SUB231383	Atopic	SS	5040	Prenatal Visit	1.2	complete	p	1	1	1	0					8	-20
+SUB231383	Atopic	SS	8563	12-Month Clinic Visit	1.2	complete	12	4	2	0	0					5	356
+SUB231383	Atopic	SS	8559	24-Month Clinic Visit	1.2	missing	.x										
+SUB231383	Atopic	SS	8555	36-Month Clinic Visit	1.2	missing	.x										
+SUB231384	Atopic	SS	6014	Prenatal Visit	1.2	complete	p	2	2	2	0					4	-78
+SUB231384	Atopic	SS	8601	12-Month Clinic Visit	1.2	complete	12	0	1	1	0					3	350
+SUB231384	Atopic	SS	8597	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					4	735
+SUB231384	Atopic	SS	8593	36-Month Clinic Visit	1.2	complete	36	0	1	0	0					4	1133
+SUB231385	Atopic	SS	7894	Prenatal Visit	1.2	complete	p	2	2	2	0					5	-16
+SUB231386	Atopic	SS	7668	Prenatal Visit	1.2	complete	p	1	1	0	0					5	-17
+SUB231386	Atopic	SS	8731	12-Month Clinic Visit	1.2	missing	.x										
+SUB231387	Atopic	SS	8739	36-Month Clinic Visit	1.2	complete	36	3	1	3	1	0	1	0	0	6	1133
+SUB231387	Atopic	SS	8747	12-Month Clinic Visit	1.2	complete	12	3	1	1	1	1	1	0	0	8	441
+SUB231387	Atopic	SS	8743	24-Month Clinic Visit	1.2	complete	24	4	2	2	1	1	1	0	0	4	743
+SUB231387	Atopic	SS	7688	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	6	-27
+SUB231388	Atopic	SS	2805	Prenatal Visit	1.2	complete	p	2	1	1	0					7	-204
+SUB231388	Atopic	SS	8996	36-Month Clinic Visit	1.2	complete	36	2	0	0	0					6	1117
+SUB231388	Atopic	SS	9004	12-Month Clinic Visit	1.2	complete	12	4	0	1	0					5	381
+SUB231388	Atopic	SS	9000	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					4	716
+SUB231389	Atopic	SS	9012	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					7	1108
+SUB231389	Atopic	SS	9020	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	365
+SUB231389	Atopic	SS	6664	Prenatal Visit	1.2	complete	p	1	1	2	0					6	-66
+SUB231389	Atopic	SS	9016	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	730
+SUB231390	Atopic	SS	9028	36-Month Clinic Visit	1.2	complete	36	2	3	3	1	1	1	1	1	5	1106
+SUB231390	Atopic	SS	9032	24-Month Clinic Visit	1.2	missing	.x										
+SUB231390	Atopic	SS	9036	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	6	399
+SUB231390	Atopic	SS	5174	Prenatal Visit	1.2	complete	p	3	2	2	1	0	1	1	1	1	-102
+SUB231391	Atopic	SS	9044	36-Month Clinic Visit	1.2	complete	36	1	1	1	0					7	1085
+SUB231391	Atopic	SS	6529	Prenatal Visit	1.2	complete	p	1	1	2	1	1	1	0	0	6	-70
+SUB231391	Atopic	SS	9052	12-Month Clinic Visit	1.2	complete	12	1	3	2	0					5	356
+SUB231391	Atopic	SS	9048	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					5	707
+SUB231392	Atopic	SS	6844	Prenatal Visit	1.2	complete	p	2	1	0	0					7	-53
+SUB231392	Atopic	SS	9180	36-Month Clinic Visit	1.2	complete	36	4	0	2	0					1	1129
+SUB231392	Atopic	SS	9188	12-Month Clinic Visit	1.2	complete	12	4	1	0	0					5	366
+SUB231392	Atopic	SS	9184	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	717
+SUB231393	Atopic	SS	9270	24-Month Clinic Visit	1.2	complete	24	3	4	3	1	1	1	0	1	6	819
+SUB231393	Atopic	SS	9274	12-Month Clinic Visit	1.2	missing	.x										
+SUB231393	Atopic	SS	2914	Prenatal Visit	1.2	complete	p	3	3	3	0					5	-161
+SUB231393	Atopic	SS	9266	36-Month Clinic Visit	1.2	complete	36	4	4	3	0					4	1155
+SUB231394	Atopic	SS	9438	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	0	0	0	3	410
+SUB231394	Atopic	SS	8284	Prenatal Visit	1.2	complete	p	1	0	1	0					7	-22
+SUB231394	Atopic	SS	9430	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					7	1144
+SUB231394	Atopic	SS	9434	24-Month Clinic Visit	1.2	complete	24	3	0	1	0					6	789
+SUB231395	Atopic	SS	9481	12-Month Clinic Visit	1.2	complete	12	1	0	1	1	1	1	1	1	5	342
+SUB231395	Atopic	SS	9473	36-Month Clinic Visit	1.2	complete	36	0	1	0	1	1	1	1	1	1	1086
+SUB231395	Atopic	SS	9477	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	4	722
+SUB231395	Atopic	SS	9264	Prenatal Visit	1.2	complete	p	3	3	3	1	1	1	1	1	1	-5
+SUB231396	Atopic	SS	9500	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	9	366
+SUB231396	Atopic	SS	9492	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	0	0	1	1	7	1073
+SUB231396	Atopic	SS	9496	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					6	743
+SUB231396	Atopic	SS	8463	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	6	-26
+SUB231397	Atopic	SS	8161	Prenatal Visit	1.2	complete	p	4	1	0	1	1	0	1	1	6	-1
+SUB231397	Atopic	SS	9568	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	0	0	1	6	368
+SUB231397	Atopic	SS	9560	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	0	0	1	6	1138
+SUB231397	Atopic	SS	9564	24-Month Clinic Visit	1.2	complete	24	1	1	0	1	1	1	0	0	6	725
+SUB231398	Atopic	SS	9732	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	0	0	0	0	5	368
+SUB231398	Atopic	SS	9557	Prenatal Visit	1.2	complete	p	1	1	1	0					5	0
+SUB231398	Atopic	SS	9724	36-Month Clinic Visit	1.2	complete	36	2	0	1	0					4	1138
+SUB231398	Atopic	SS	9728	24-Month Clinic Visit	1.2	complete	24	4	1	0	1	1	1	0	1	5	719
+SUB231399	Atopic	SS	9178	Prenatal Visit	1.2	complete	p	1	1	1	0					8	-14
+SUB231400	Atopic	SS	22605	12-Month Clinic Visit	1.2	missing	.x										
+SUB231400	Atopic	SS	9174	Prenatal Visit	1.2	complete	p	1	0	0	0					5	-21
+SUB231400	Atopic	SS	22601	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					5	777
+SUB231400	Atopic	SS	22597	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1154
+SUB231401	Atopic	SS	9600	Prenatal Visit	1.2	complete	p	1	0	1	0					5	-10
+SUB231401	Atopic	SS	9978	24-Month Clinic Visit	1.2	complete	24	1	2	2	0					5	716
+SUB231401	Atopic	SS	9982	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					5	359
+SUB231401	Atopic	SS	9974	36-Month Clinic Visit	1.2	complete	36	2	1	0	0					6	1087
+SUB231402	Atopic	SS	10203	36-Month Clinic Visit	1.2	complete	36	1	1	2	0					6	1126
+SUB231402	Atopic	SS	8694	Prenatal Visit	1.2	complete	p	1	1	1	0					6	-41
+SUB231402	Atopic	SS	10207	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					6	735
+SUB231402	Atopic	SS	10211	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	348
+SUB231403	Atopic	SS	10258	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					5	1130
+SUB231403	Atopic	SS	8792	Prenatal Visit	1.2	complete	p	2	0	0	0					4	-32
+SUB231403	Atopic	SS	10266	12-Month Clinic Visit	1.2	complete	12	0	1	0	0					6	368
+SUB231403	Atopic	SS	10262	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					4	711
+SUB231404	Atopic	SS	10290	12-Month Clinic Visit	1.2	complete	12	2	1	3	0					6	367
+SUB231404	Atopic	SS	10282	36-Month Clinic Visit	1.2	complete	36	2	0	1	0					5	1067
+SUB231404	Atopic	SS	7468	Prenatal Visit	1.2	complete	p	1	1	2	0					7	-24
+SUB231404	Atopic	SS	10286	24-Month Clinic Visit	1.2	complete	24	0	1	2	0					5	762
+SUB231405	Atopic	SS	10348	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-5
+SUB231405	Atopic	SS	10626	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					9	1112
+SUB231405	Atopic	SS	10634	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					9	349
+SUB231405	Atopic	SS	10630	24-Month Clinic Visit	1.2	complete	24	3	0	3	0					5	723
+SUB231406	Atopic	SS	10682	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					5	1078
+SUB231406	Atopic	SS	10078	Prenatal Visit	1.2	complete	p	3	1	2	0					7	-19
+SUB231406	Atopic	SS	10690	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					7	448
+SUB231406	Atopic	SS	10686	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					5	708
+SUB231407	Atopic	SS	9385	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-41
+SUB231407	Atopic	SS	10882	12-Month Clinic Visit	1.2	missing	.x										
+SUB231408	Atopic	SS	10022	Prenatal Visit	1.2	complete	p	4	3	3	1	1	1	1	1	8	-24
+SUB231408	Atopic	SS	11128	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	1	0	3	355
+SUB231408	Atopic	SS	11124	24-Month Clinic Visit	1.2	complete	24	0	0	1	1	1	1	1	0	4	740
+SUB231408	Atopic	SS	11120	36-Month Clinic Visit	1.2	complete	36	2	0	1	1	1	1	1	0	4	1147
+SUB231409	Atopic	SS	11138	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1189
+SUB231409	Atopic	SS	11146	12-Month Clinic Visit	1.2	complete	12	4	0	0	0					3	450
+SUB231409	Atopic	SS	10072	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-30
+SUB231409	Atopic	SS	11142	24-Month Clinic Visit	1.2	complete	24	4	1	1	0					6	699
+SUB231410	Atopic	SS	9597	Prenatal Visit	1.2	complete	p	2	2	1	0					9	-55
+SUB231410	Atopic	SS	11442	12-Month Clinic Visit	1.2	complete	12	2	0	0	1	1	1	1	1	7	422
+SUB231410	Atopic	SS	11438	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	0	0	7	728
+SUB231410	Atopic	SS	11434	36-Month Clinic Visit	1.2	complete	36	2	0	1	1	1	1	0	0	6	1106
+SUB231411	Atopic	SS	11695	24-Month Clinic Visit	1.2	missing	.x										
+SUB231411	Atopic	SS	11400	Prenatal Visit	1.2	complete	p	2	0	1	0					5	-4
+SUB231411	Atopic	SS	11699	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					5	362
+SUB231411	Atopic	SS	11691	36-Month Clinic Visit	1.2	complete	36	0	1	1	0					5	1146
+SUB231412	Atopic	SS	11732	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					4	380
+SUB231412	Atopic	SS	11724	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1154
+SUB231412	Atopic	SS	11078	Prenatal Visit	1.2	complete	p	1	1	2	1	1	1	1	1	7	-13
+SUB231412	Atopic	SS	11728	24-Month Clinic Visit	1.2	complete	24	3	0	0	0					1	734
+SUB231413	Atopic	SS	11813	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	1	1	1	5	1084
+SUB231413	Atopic	SS	11821	12-Month Clinic Visit	1.2	complete	12	2	1	1	1	0	1	0	0	5	350
+SUB231413	Atopic	SS	11817	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	1	1	1	1	5	705
+SUB231413	Atopic	SS	11095	Prenatal Visit	1.2	complete	p	2	1	2	0					6	-15
+SUB231414	Atopic	SS	12107	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	1	0	1	5	1098
+SUB231414	Atopic	SS	12111	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	0	1	6	750
+SUB231414	Atopic	SS	8181	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	5	-97
+SUB231414	Atopic	SS	12115	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	1	0	0	7	350
+SUB231415	Non-atopic	SS	11382	Prenatal Visit	1.2	complete	p	2	2	2	1	1	1	1	1	6	-17
+SUB231415	Non-atopic	SS	12136	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	1	1	6	381
+SUB231415	Non-atopic	SS	12140	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	1	1	8	703
+SUB231415	Non-atopic	SS	12144	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	7	1080
+SUB231416	Atopic	SS	12308	12-Month Clinic Visit	1.2	complete	12	3	0	0	1	1	1	0	0	6	394
+SUB231416	Atopic	SS	12304	24-Month Clinic Visit	1.2	complete	24	2	1	0	0					6	722
+SUB231416	Atopic	SS	12300	36-Month Clinic Visit	1.2	complete	36	1	2	0	0					6	1100
+SUB231416	Atopic	SS	7297	Prenatal Visit	1.2	complete	p	1	0	0	0					8	-116
+SUB231417	Atopic	SS	12320	36-Month Clinic Visit	1.2	complete	36	1	0	1	1	1	1	1	1	7	1168
+SUB231417	Atopic	SS	10614	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	6	-62
+SUB231417	Atopic	SS	12324	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					5	705
+SUB231417	Atopic	SS	12328	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					4	375
+SUB231418	Atopic	SS	12442	36-Month Clinic Visit	1.2	complete	36	0	0	1	0					9	1069
+SUB231418	Atopic	SS	12446	24-Month Clinic Visit	1.2	complete	24	2	0	0	0					9	713
+SUB231418	Atopic	SS	12450	12-Month Clinic Visit	1.2	complete	12	1	0	1	0					4	379
+SUB231418	Atopic	SS	12126	Prenatal Visit	1.2	complete	p	2	2	1	0					6	-6
+SUB231419	Atopic	SS	12667	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	730
+SUB231419	Atopic	SS	12006	Prenatal Visit	1.2	complete	p	3	4	4	0					3	-12
+SUB231419	Atopic	SS	12663	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1107
+SUB231419	Atopic	SS	12671	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	338
+SUB231420	Atopic	SS	12683	24-Month Clinic Visit	1.2	complete	24	4	3	2	0					3	717
+SUB231420	Atopic	SS	12687	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					6	366
+SUB231420	Atopic	SS	10082	Prenatal Visit	1.2	complete	p	2	2	1	0					8	-75
+SUB231420	Atopic	SS	12679	36-Month Clinic Visit	1.2	complete	36	4	1	1	0					7	1067
+SUB231421	Atopic	SS	12699	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					3	715
+SUB231421	Atopic	SS	12695	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					1	1190
+SUB231421	Atopic	SS	12703	12-Month Clinic Visit	1.2	complete	12	3	0	0	0					2	379
+SUB231421	Atopic	SS	10721	Prenatal Visit	1.2	complete	p	4	0	1	0					2	-63
+SUB231422	Atopic	SS	11632	Prenatal Visit	1.2	complete	p	1	0	2	0					9	-35
+SUB231422	Atopic	SS	12909	36-Month Clinic Visit	1.2	complete	36	3	0	2	0					5	1103
+SUB231422	Atopic	SS	12913	24-Month Clinic Visit	1.2	complete	24	4	0	3	0					7	789
+SUB231422	Atopic	SS	12917	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					8	454
+SUB231423	Atopic	SS	12979	24-Month Clinic Visit	1.2	complete	24	2	4	3	0					4	718
+SUB231423	Atopic	SS	12983	12-Month Clinic Visit	1.2	complete	12	2	1	0	0					5	360
+SUB231423	Atopic	SS	7718	Prenatal Visit	1.2	complete	p	2	0	2	0					3	-30
+SUB231423	Atopic	SS	12975	36-Month Clinic Visit	1.2	complete	36	3	1	3	0					2	1135
+SUB231424	Atopic	SS	6907	Prenatal Visit	1.2	complete	p	4	5	5	0					7	-69
+SUB231424	Atopic	SS	13228	12-Month Clinic Visit	1.2	complete	12	4	1	2	0					1	349
+SUB231424	Atopic	SS	13220	36-Month Clinic Visit	1.2	complete	36	4	3	2	0					5	1085
+SUB231424	Atopic	SS	13224	24-Month Clinic Visit	1.2	complete	24	1	2	2	0					6	713
+SUB231425	Non-atopic	SS	13109	Prenatal Visit	1.2	complete	p	3	0	0	0					6	-4
+SUB231425	Non-atopic	SS	13338	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					3	799
+SUB231425	Non-atopic	SS	13342	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					7	1105
+SUB231425	Non-atopic	SS	13334	12-Month Clinic Visit	1.2	complete	12	1	0	0	0					7	364
+SUB231426	Atopic	SS	11989	Prenatal Visit	1.2	complete	p	2	1	1	1	1	0	0	0	1	-10
+SUB231426	Atopic	SS	13437	12-Month Clinic Visit	1.2	complete	12	4	1	1	1	0	1	1	0	5	346
+SUB231426	Atopic	SS	13429	36-Month Clinic Visit	1.2	complete	36	4	3	2	0					4	1078
+SUB231426	Atopic	SS	13433	24-Month Clinic Visit	1.2	missing	.x										
+SUB231427	Atopic	SS	13558	12-Month Clinic Visit	1.2	complete	12	3	2	3	1	1	1	1	1	4	345
+SUB231427	Atopic	SS	13554	24-Month Clinic Visit	1.2	complete	24	3	2	4	1	1	1	1	1	3	717
+SUB231427	Atopic	SS	13550	36-Month Clinic Visit	1.2	complete	36	3	2	3	1	1	1	1	1	4	1086
+SUB231427	Atopic	SS	11997	Prenatal Visit	1.2	complete	p	1	1	3	0					5	-47
+SUB231428	Atopic	SS	13574	12-Month Clinic Visit	1.2	complete	12	4	4	4	1	1	1	1	0	2	436
+SUB231428	Atopic	SS	13566	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	0	1	1	3	1079
+SUB231428	Atopic	SS	13570	24-Month Clinic Visit	1.2	complete	24	0	1	0	1	1	1	1	0	4	799
+SUB231428	Atopic	SS	12836	Prenatal Visit	1.2	complete	p	3	0	1	1	1	1	0	0	8	-26
+SUB231429	Non-atopic	SS	13741	12-Month Clinic Visit	1.2	complete	12	1	1	2	1	1	1	1	1	8	347
+SUB231429	Non-atopic	SS	13499	Prenatal Visit	1.2	complete	p	4	0	0	1	0	1	1	1	9	-4
+SUB231429	Non-atopic	SS	13749	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	8	1102
+SUB231429	Non-atopic	SS	13745	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	1	1	8	712
+SUB231430	Non-atopic	SS	13856	36-Month Clinic Visit	1.2	complete	36	2	0	0	1	0	1	0	0	5	1069
+SUB231430	Non-atopic	SS	13852	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	0	1	0	0	7	705
+SUB231430	Non-atopic	SS	13848	12-Month Clinic Visit	1.2	complete	12	1	2	2	1	0	1	1	1	8	349
+SUB231430	Non-atopic	SS	11779	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-70
+SUB231431	Non-atopic	SS	13890	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1154
+SUB231431	Non-atopic	SS	13886	24-Month Clinic Visit	1.2	missing	.x										
+SUB231431	Non-atopic	SS	13882	12-Month Clinic Visit	1.2	complete	12	1	0	2	1	0	0	1	1	5	335
+SUB231431	Non-atopic	SS	11804	Prenatal Visit	1.2	complete	p	1	1	1	0					8	-67
+SUB231432	Non-atopic	SS	14009	12-Month Clinic Visit	1.2	complete	12	0	1	0	1	1	1	1	1	9	444
+SUB231432	Non-atopic	SS	14017	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	1	1	1	1	8	1090
+SUB231432	Non-atopic	SS	14013	24-Month Clinic Visit	1.2	complete	24	4	4	2	1	1	1	0	0	4	711
+SUB231432	Non-atopic	SS	13185	Prenatal Visit	1.2	complete	p	2	2	2	0					5	-23
+SUB231433	Atopic	SS	14027	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					7	770
+SUB231433	Atopic	SS	14031	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					9	435
+SUB231433	Atopic	SS	12832	Prenatal Visit	1.2	complete	p	0	0	0	0					4	-29
+SUB231433	Atopic	SS	14023	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					8	1065
+SUB231434	Non-atopic	SS	11461	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	1	5	-83
+SUB231434	Non-atopic	SS	14058	24-Month Clinic Visit	1.2	complete	24	1	0	0	1	1	1	0	0	1	726
+SUB231434	Non-atopic	SS	14062	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	1	1	1	1	6	1099
+SUB231434	Non-atopic	SS	14054	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	1	1	0	0	1	397
+SUB231435	Atopic	SS	12476	Prenatal Visit	1.2	complete	p	1	1	1	0					9	-50
+SUB231435	Atopic	SS	14075	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					4	391
+SUB231435	Atopic	SS	14067	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					9	1089
+SUB231435	Atopic	SS	14071	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					5	739
+SUB231436	Atopic	SS	14128	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					4	350
+SUB231436	Atopic	SS	9950	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-120
+SUB231436	Atopic	SS	14120	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	0	0	0	6	1091
+SUB231436	Atopic	SS	14124	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					6	753
+SUB231437	Atopic	SS	14601	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					6	1073
+SUB231437	Atopic	SS	13165	Prenatal Visit	1.2	complete	p	2	2	1	0					5	-20
+SUB231437	Atopic	SS	14605	24-Month Clinic Visit	1.2	complete	24	3	1	1	0					4	730
+SUB231437	Atopic	SS	14609	12-Month Clinic Visit	1.2	complete	12	3	1	0	0					6	351
+SUB231438	Non-atopic	SS	14636	36-Month Clinic Visit	1.2	complete	36	4	4	3	0					9	1070
+SUB231438	Non-atopic	SS	14628	12-Month Clinic Visit	1.2	complete	12	4	4	4	0					7	433
+SUB231438	Non-atopic	SS	14632	24-Month Clinic Visit	1.2	complete	24	4	4	4	0					9	809
+SUB231438	Non-atopic	SS	14240	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-7
+SUB231439	Non-atopic	SS	13491	Prenatal Visit	1.2	complete	p	1	0	0	0					6	-31
+SUB231439	Non-atopic	SS	14823	12-Month Clinic Visit	1.2	complete	12	2	0	0	0					7	376
+SUB231439	Non-atopic	SS	14831	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					2	1089
+SUB231439	Non-atopic	SS	14827	24-Month Clinic Visit	1.2	complete	24	1	0	3	0					4	720
+SUB231440	Atopic	SS	14892	24-Month Clinic Visit	1.2	complete	24	1	1	1	1	1	1	1	1	9	731
+SUB231440	Atopic	SS	14888	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	0	0	9	1076
+SUB231440	Atopic	SS	14896	12-Month Clinic Visit	1.2	missing	.x										
+SUB231440	Atopic	SS	12858	Prenatal Visit	1.2	complete	p	1	0	1	1	1	1	0	0	3	-65
+SUB231441	Atopic	SS	14930	24-Month Clinic Visit	1.2	missing	.x										
+SUB231441	Atopic	SS	10200	Prenatal Visit	1.2	complete	p	1	2	2	0					7	-139
+SUB231441	Atopic	SS	14934	12-Month Clinic Visit	1.2	missing	.x										
+SUB231441	Atopic	SS	14926	36-Month Clinic Visit	1.2	missing	.x										
+SUB231442	Atopic	SS	14959	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	370
+SUB231442	Atopic	SS	14951	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					6	1096
+SUB231442	Atopic	SS	10514	Prenatal Visit	1.2	complete	p	0	0	0	0					9	-108
+SUB231442	Atopic	SS	14955	24-Month Clinic Visit	1.2	complete	24	1	0	0	0					4	705
+SUB231443	Atopic	SS	14975	12-Month Clinic Visit	1.2	complete	12	1	0	0	1	1	0	0	1	7	352
+SUB231443	Atopic	SS	12485	Prenatal Visit	1.2	complete	p	2	1	3	1	1	0	0	0	7	-47
+SUB231443	Atopic	SS	14971	24-Month Clinic Visit	1.2	complete	24	3	1	4	1	1	0	0	0	4	714
+SUB231443	Atopic	SS	14967	36-Month Clinic Visit	1.2	complete	36	3	1	1	1	1	0	0	0	4	1101
+SUB231444	Atopic	SS	15119	12-Month Clinic Visit	1.2	complete	12	4	4	3	0					4	390
+SUB231444	Atopic	SS	15115	24-Month Clinic Visit	1.2	complete	24	4	2	2	1	0	0	1	1	7	705
+SUB231444	Atopic	SS	15111	36-Month Clinic Visit	1.2	complete	36	4	3	3	1	0	0	0	1	4	1161
+SUB231444	Atopic	SS	10726	Prenatal Visit	1.2	complete	p	4	2	2	0					8	-44
+SUB231445	Atopic	SS	13588	Prenatal Visit	1.2	complete	p	4	1	4	0					1	-51
+SUB231445	Atopic	SS	15277	12-Month Clinic Visit	1.2	complete	12	3	2	4	0					3	458
+SUB231445	Atopic	SS	15273	24-Month Clinic Visit	1.2	complete	24	4	3	3	0					2	773
+SUB231445	Atopic	SS	15269	36-Month Clinic Visit	1.2	complete	36	4	2	4	0					3	1094
+SUB231446	Non-atopic	SS	15347	36-Month Clinic Visit	1.2	complete	36	4	1	1	0					6	1118
+SUB231446	Non-atopic	SS	15339	12-Month Clinic Visit	1.2	complete	12	4	1	4	0					3	402
+SUB231446	Non-atopic	SS	15343	24-Month Clinic Visit	1.2	complete	24	4	0	2	0					5	761
+SUB231446	Non-atopic	SS	13391	Prenatal Visit	1.2	complete	p	1	0	0	1	1	1	1	0	3	-38
+SUB231447	Non-atopic	SS	15366	Prenatal Visit	1.2	complete	p	1	0	1	1	0	1	0	0	9	1
+SUB231448	Atopic	SS	12967	Prenatal Visit	1.2	complete	p	3	5	2	0					4	-8
+SUB231448	Atopic	SS	16355	36-Month Clinic Visit	1.2	complete	36	3	5	3	0					5	1180
+SUB231448	Atopic	SS	16359	24-Month Clinic Visit	1.2	complete	24	1	1	1	0					8	711
+SUB231448	Atopic	SS	16363	12-Month Clinic Visit	1.2	complete	12	3	1	2	0					8	354
+SUB231449	Atopic	SS	16417	24-Month Clinic Visit	1.2	complete	24	1	1	1	1	1	0	0	0	6	740
+SUB231449	Atopic	SS	16413	36-Month Clinic Visit	1.2	complete	36	1	1	1	1	1	0	0	0	7	1096
+SUB231449	Atopic	SS	16421	12-Month Clinic Visit	1.2	complete	12	1	1	1	1	1	0	1	0	3	361
+SUB231449	Atopic	SS	13020	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	0	0	7	-80
+SUB231450	Atopic	SS	16586	24-Month Clinic Visit	1.2	complete	24	1	0	1	0					5	711
+SUB231450	Atopic	SS	16590	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					6	413
+SUB231450	Atopic	SS	15767	Prenatal Visit	1.2	complete	p	3	0	0	0					7	-14
+SUB231450	Atopic	SS	16582	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					6	1089
+SUB231451	Non-atopic	SS	16610	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	0	0	1	1	6	794
+SUB231451	Non-atopic	SS	16614	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					4	1101
+SUB231451	Non-atopic	SS	15457	Prenatal Visit	1.2	complete	p	3	0	0	0					7	-26
+SUB231451	Non-atopic	SS	16606	12-Month Clinic Visit	1.2	missing	.x										
+SUB231452	Non-atopic	SS	17020	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					6	359
+SUB231452	Non-atopic	SS	17028	36-Month Clinic Visit	1.2	complete	36	1	1	0	1	0	0	1	1	9	1067
+SUB231452	Non-atopic	SS	15307	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	5	-44
+SUB231452	Non-atopic	SS	17024	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	702
+SUB231453	Atopic	SS	17197	12-Month Clinic Visit	1.2	complete	12	1	2	2	1	1	1	1	0	5	353
+SUB231453	Atopic	SS	17189	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	0	1	1	9	1080
+SUB231453	Atopic	SS	17193	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	1	1	0	1	2	702
+SUB231453	Atopic	SS	15481	Prenatal Visit	1.2	complete	p	3	0	0	1	1	0	0	0	3	-32
+SUB231454	Atopic	SS	16628	Prenatal Visit	1.2	complete	p	1	0	1	0					5	-3
+SUB231454	Atopic	SS	17209	24-Month Clinic Visit	1.2	missing	.x										
+SUB231454	Atopic	SS	17205	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					7	1095
+SUB231454	Atopic	SS	17213	12-Month Clinic Visit	1.2	complete	12	1	1	1	0					5	342
+SUB231455	Non-atopic	SS	15256	Prenatal Visit	1.2	complete	p	0	0	0	1	1	1	1	0	9	-27
+SUB231455	Non-atopic	SS	17487	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1087
+SUB231455	Non-atopic	SS	17483	24-Month Clinic Visit	1.2	complete	24	0	0	1	0					8	722
+SUB231455	Non-atopic	SS	17479	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					7	345
+SUB231456	Non-atopic	SS	17350	Prenatal Visit	1.2	missing	.x										
+SUB231456	Non-atopic	SS	17562	12-Month Clinic Visit	1.2	complete	12	4	1	0	0					3	356
+SUB231456	Non-atopic	SS	17566	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					8	768
+SUB231456	Non-atopic	SS	17570	36-Month Clinic Visit	1.2	complete	36	0	0	0	0					9	1113
+SUB231457	Non-atopic	SS	17638	24-Month Clinic Visit	1.2	complete	24	3	2	1	0					7	708
+SUB231457	Non-atopic	SS	16164	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-45
+SUB231457	Non-atopic	SS	17634	12-Month Clinic Visit	1.2	complete	12	4	1	1	0					6	399
+SUB231457	Non-atopic	SS	17642	36-Month Clinic Visit	1.2	complete	36	1	0	0	0					5	1143
+SUB231458	Atopic	SS	17816	24-Month Clinic Visit	1.2	missing	.x										
+SUB231458	Atopic	SS	16106	Prenatal Visit	1.2	complete	p	3	3	3	1	1	1	1	0	7	-36
+SUB231458	Atopic	SS	17820	12-Month Clinic Visit	1.2	missing	.x										
+SUB231459	Non-atopic	SS	18015	12-Month Clinic Visit	1.2	complete	12	0	0	0	1	0	0	1	1	6	454
+SUB231459	Non-atopic	SS	18023	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	0	0	1	1	7	1118
+SUB231459	Non-atopic	SS	18019	24-Month Clinic Visit	1.2	complete	24	0	0	0	1	0	0	1	1	7	785
+SUB231459	Non-atopic	SS	15611	Prenatal Visit	1.2	complete	p	1	1	1	0					7	-65
+SUB231460	Non-atopic	SS	18032	12-Month Clinic Visit	1.2	complete	12	0	1	1	0					6	336
+SUB231460	Non-atopic	SS	15615	Prenatal Visit	1.2	complete	p	1	1	1	1	0	0	1	1	5	-76
+SUB231460	Non-atopic	SS	18036	24-Month Clinic Visit	1.2	complete	24	1	0	1	1	0	0	1	1	7	700
+SUB231460	Non-atopic	SS	18040	36-Month Clinic Visit	1.2	missing	.x										
+SUB231461	Atopic	SS	17347	Prenatal Visit	1.2	complete	p	1	2	0	1	1	1	1	0	5	-26
+SUB231462	Non-atopic	SS	18170	24-Month Clinic Visit	1.2	complete	24	2	0	0	1	0	1	1	1	3	819
+SUB231462	Non-atopic	SS	18174	36-Month Clinic Visit	1.2	complete	36	1	0	0	1	0	1	1	1	5	1208
+SUB231462	Non-atopic	SS	18166	12-Month Clinic Visit	1.2	missing	.x										
+SUB231462	Non-atopic	SS	15394	Prenatal Visit	1.2	complete	p	2	1	1	1	0	1	1	1	1	-36
+SUB231463	Atopic	SS	18437	12-Month Clinic Visit	1.2	complete	12	3	0	1	0					1	353
+SUB231463	Atopic	SS	18433	24-Month Clinic Visit	1.2	complete	24	4	1	1	1	0	1	0	0	1	717
+SUB231463	Atopic	SS	18429	36-Month Clinic Visit	1.2	complete	36	4	0	0	0					6	1081
+SUB231463	Atopic	SS	18056	Prenatal Visit	1.2	complete	p	1	1	1	0					8	-1
+SUB231464	Non-atopic	SS	17233	Prenatal Visit	1.2	complete	p	3	0	0	0					6	-41
+SUB231465	Non-atopic	SS	18546	24-Month Clinic Visit	1.2	complete	24	0	1	2	0					5	745
+SUB231465	Non-atopic	SS	18550	36-Month Clinic Visit	1.2	complete	36	3	2	2	0					5	1086
+SUB231465	Non-atopic	SS	16954	Prenatal Visit	1.2	complete	p	4	3	3	0					8	-66
+SUB231465	Non-atopic	SS	18542	12-Month Clinic Visit	1.2	complete	12	2	0	2	0					8	345
+SUB231466	Atopic	SS	18618	24-Month Clinic Visit	1.2	complete	24	0	0	1	1	1	1	1	1	7	790
+SUB231466	Atopic	SS	18622	12-Month Clinic Visit	1.2	complete	12	0	1	1	1	1	1	1	1	5	398
+SUB231466	Atopic	SS	18614	36-Month Clinic Visit	1.2	complete	36	0	0	0	1	1	1	1	1	8	1085
+SUB231466	Atopic	SS	16851	Prenatal Visit	1.2	complete	p	1	1	1	1	1	1	1	1	7	-29
+SUB231467	Atopic	SS	18695	24-Month Clinic Visit	1.2	complete	24	0	0	0	0					7	709
+SUB231467	Atopic	SS	17713	Prenatal Visit	1.2	complete	p	0	0	0	0					7	-47
+SUB231467	Atopic	SS	18691	36-Month Clinic Visit	1.2	complete	36	3	0	1	0					6	1079
+SUB231467	Atopic	SS	18699	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					8	338
+SUB231468	Atopic	SS	18916	12-Month Clinic Visit	1.2	complete	12	3	5	5	0					4	335
+SUB231468	Atopic	SS	18912	24-Month Clinic Visit	1.2	complete	24	4	2	1	0					3	704
+SUB231468	Atopic	SS	16307	Prenatal Visit	1.2	complete	p	1	1	1	0					5	-100
+SUB231468	Atopic	SS	18908	36-Month Clinic Visit	1.2	complete	36	4	1	4	0					9	1075
+SUB231469	Non-atopic	SS	19053	36-Month Clinic Visit	1.2	complete	36	3	0	0	0					6	1090
+SUB231469	Non-atopic	SS	17419	Prenatal Visit	1.2	complete	p	2	2	3	0					4	-70
+SUB231469	Non-atopic	SS	19049	24-Month Clinic Visit	1.2	complete	24	4	0	0	0					3	711
+SUB231469	Non-atopic	SS	19045	12-Month Clinic Visit	1.2	complete	12	3	1	1	0					7	348
+SUB231470	Non-atopic	SS	16634	Prenatal Visit	1.2	complete	p	4	1	0	0					5	-101
+SUB231470	Non-atopic	SS	19403	24-Month Clinic Visit	1.2	complete	24	2	2	5	0					3	753
+SUB231470	Non-atopic	SS	19399	12-Month Clinic Visit	1.2	complete	12	0	0	0	0					9	458
+SUB231470	Non-atopic	SS	19407	36-Month Clinic Visit	1.2	complete	36	4	1	3	0					2	1088

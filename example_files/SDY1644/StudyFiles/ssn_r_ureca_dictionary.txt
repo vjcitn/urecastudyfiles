@@ -1,0 +1,17 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SSN"", ""SSN"")"
+3	4	evid	evid	dbl	numeric	double	2454	0	c(2, 42667)
+4	5	event	event	chr	character	character	4	0	"c(""12-Month Clinic Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	5	0	"c("".x"", ""p"")"
+8	9	SSN_q1	Participant Attends Religious Meetings or Services	dbl	numeric	double	6	240	c(0, 4)
+9	10	SSN_q2	Hours Each Week Participant attends Social Group Activities	dbl	numeric	double	7	240	c(0, 5)
+10	11	SSN_q3	Relatives Participant Feels Close To	dbl	numeric	double	6	240	c(0, 4)
+11	12	SSN_q4	Number of Close Relatives Participant Sees at Least Once a Month	dbl	numeric	double	6	350	c(0, 4)
+12	13	SSN_q5	Number of Close Friends Participant Has	dbl	numeric	double	6	240	c(0, 4)
+13	14	SSN_q6	Number of Close Friends Participant Sees at Least Once a Month	dbl	numeric	double	6	561	c(0, 4)
+14	15	SSN_q7	Participant Has Someone He/She Can Talk Openly With	dbl	numeric	double	3	240	c(0, 1)
+15	16	aCompletionDY	Completion Day	dbl	numeric	double	545	459	c(-9407, 1293)

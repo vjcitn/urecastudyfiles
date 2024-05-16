@@ -1,0 +1,594 @@
+Accession	group	form	evid	event	version	status	aTI	aVisit	TRSP_q1b	TRSP_q2b	TRSP_q3	TRSP_q3_1	TRSP_q3a	TRSP_q3a_1	TRSP_q4	TRSP_q4a	TRSP_q5	TRSP_q5a	aCompletionDY	TRSP_q1aDY	TRSP_q2aDY
+		TRSP	10585	Birth	1.2	missing	.x	.x													
+		TRSP	6243	Birth	1.2	missing	.x	.x													
+		TRSP	9425	Birth	1.2	missing	.x	.x													
+		TRSP	11975	Birth	1.2	missing	.x	.x													
+		TRSP	702	Birth	1.1	missing	.x	.x													
+		TRSP	8689	Birth	1.2	missing	.x	.x													
+		TRSP	5990	Birth	1.1	missing	.x	.x													
+		TRSP	2552	Birth	1.1	missing	.x	.x													
+		TRSP	7681	Birth	1.2	missing	.x	.x													
+		TRSP	5732	Birth	1.1	missing	.x	.x													
+		TRSP	6240	Birth	1.2	missing	.x	.x													
+		TRSP	10397	Birth	1.2	missing	.x	.x													
+		TRSP	5738	Birth	1.2	missing	.x	.x													
+		TRSP	9687	Birth	1.2	missing	.x	.x													
+		TRSP	11248	Birth	1.2	missing	.x	.x													
+		TRSP	994	Birth	1.0	missing	.x	.x													
+		TRSP	9114	Birth	1.2	missing	.x	.x													
+		TRSP	5073	Birth	1.1	missing	.x	.x													
+		TRSP	3327	Birth	1.1	missing	.x	.x													
+		TRSP	4842	Birth	1.2	missing	.x	.x													
+		TRSP	4954	Birth	1.1	missing	.x	.x													
+		TRSP	8334	Birth	1.2	missing	.x	.x													
+		TRSP	7003	Birth	1.2	missing	.x	.x													
+		TRSP	10139	Birth	1.2	missing	.x	.x													
+		TRSP	547	Birth	1.0	missing	.x	.x													
+		TRSP	9999	Birth	1.2	missing	.x	.x													
+		TRSP	9993	Birth	1.2	missing	.x	.x													
+		TRSP	16647	Birth	1.2	missing	.x	.x													
+		TRSP	6990	Birth	1.1	missing	.x	.x													
+		TRSP	2355	Birth	1.1	missing	.x	.x													
+		TRSP	12520	Birth	1.2	missing	.x	.x													
+		TRSP	28	Birth	1.0	missing	.x	.x													
+		TRSP	15303	Birth	1.2	missing	.x	.x													
+		TRSP	2599	Birth	1.1	missing	.x	.x													
+		TRSP	8939	Birth	1.2	missing	.x	.x													
+		TRSP	7886	Birth	1.2	missing	.x	.x													
+		TRSP	1171	Birth	1.1	missing	.x	.x													
+		TRSP	635	Birth	1.1	missing	.x	.x													
+		TRSP	9170	Birth	1.2	missing	.x	.x													
+		TRSP	718	Birth	1.1	complete	hy	b	09:15:00	11:00:00		1		11.6			1	2			
+		TRSP	4765	Birth	1.2	missing	.x	.x													
+		TRSP	3574	Birth	1.1	missing	.x	.x													
+		TRSP	1746	Birth	1.1	missing	.x	.x													
+		TRSP	209	Birth	1.0	missing	.x	.x													
+		TRSP	11240	Birth	1.2	missing	.x	.x													
+		TRSP	7304	Birth	1.2	missing	.x	.x													
+SUB231027	Atopic	TRSP	403	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231027	Atopic	TRSP	407	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231027	Atopic	TRSP	84	Birth	1.0	complete	hy	b	09:54:00	11:20:00	1		4		1	1	1	2	65	0	0
+SUB231028	Atopic	TRSP	34493	81-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231028	Atopic	TRSP	1110	36-Month Clinic Visit	1.2	complete	mt	36	12:05:00	16:20:00		1		8			1	8	1099	1099	1099
+SUB231028	Atopic	TRSP	1106	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231028	Atopic	TRSP	34486	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231028	Atopic	TRSP	1102	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231028	Atopic	TRSP	536	Birth	1.0	complete	baa	b	03:20:00	12:00:00	1		0.16		1	0.08	1	0.08	0	0	0
+SUB231029	Atopic	TRSP	649	Birth	1.0	complete	baa	b	16:50:00	18:30:00	1		0.36		1	0.04	1	0.08	1	0	0
+SUB231029	Atopic	TRSP	4461	12-Month Clinic Visit	1.2	complete	mt	12	16:30:00	08:30:00		1		6.28			1	2	456	455	456
+SUB231029	Atopic	TRSP	4466	36-Month Clinic Visit	1.2	complete	mt	36	09:50:00	12:55:00		1		8			1	7	1122	1122	1122
+SUB231029	Atopic	TRSP	4457	24-Month Clinic Visit	1.2	complete	mt	24	10:08:00	14:45:00		1		6			1	3.6	708	708	708
+SUB231029	Atopic	TRSP	33290	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231030	Atopic	TRSP	1438	24-Month Clinic Visit	1.2	complete	mt	24	10:30:00	13:30:00		0					0		719	719	719
+SUB231030	Atopic	TRSP	1434	12-Month Clinic Visit	1.2	complete	mt	12	12:30:00	14:00:00		1		8			1	2	456	456	456
+SUB231030	Atopic	TRSP	383	Birth	1.0	complete	hy	b	01:41:00	10:00:00	1		4		1	1	1	2	0	0	0
+SUB231031	Atopic	TRSP	34335	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231031	Atopic	TRSP	936	Birth	1.0	complete	baa	b	18:16:00	10:00:00	1		4		1	1	1	2	1	0	1
+SUB231031	Atopic	TRSP	1484	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231031	Atopic	TRSP	1480	24-Month Clinic Visit	1.2	complete	mt	24	09:07:00	10:00:00		1		10			1	7.6	726	726	726
+SUB231031	Atopic	TRSP	25462	48-Month Clinic Visit	1.2	complete	jmr	48	10:40:00	12:14:00		1		6			1	2	1465	1465	1465
+SUB231031	Atopic	TRSP	1476	12-Month Clinic Visit	1.2	complete	mt	12	09:30:00	11:00:00		1		8			1	2	462	462	462
+SUB231032	Atopic	TRSP	1516	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231032	Atopic	TRSP	165	Birth	1.0	complete	baa	b	06:00:00	11:30:00	1		4		1	1	1	10	0	0	0
+SUB231032	Atopic	TRSP	1520	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231032	Atopic	TRSP	1512	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231033	Atopic	TRSP	753	Birth	1.1	complete	hy	b	20:19:00	09:00:00		1		5.4			1	2	1	0	1
+SUB231034	Atopic	TRSP	1523	Birth	1.1	complete	hy	b	14:25:00	15:00:00		1		5			1	2	1	0	0
+SUB231035	Atopic	TRSP	1824	12-Month Clinic Visit	1.2	complete	mt	12	13:17:00	07:00:00		1		8			1	2	419	418	419
+SUB231035	Atopic	TRSP	140	Birth	1.1	complete	hy	b	15:07:00	07:00:00		1		7.2			1	2	1	0	1
+SUB231035	Atopic	TRSP	1833	36-Month Clinic Visit	1.2	complete	mt	36	13:10:00	14:55:00		1		10			1	10	1083	1083	1083
+SUB231035	Atopic	TRSP	30789	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231035	Atopic	TRSP	1820	24-Month Clinic Visit	1.2	complete	mt	24	10:20:00	12:30:00		1		12.1			1	10	733	733	733
+SUB231036	Atopic	TRSP	1942	36-Month Clinic Visit	1.2	complete	mt	36	13:00:00	14:00:00		1		2			1	1	1111	1111	1111
+SUB231036	Atopic	TRSP	1933	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231036	Atopic	TRSP	1929	24-Month Clinic Visit	1.2	complete	mt	24	10:50:00	14:00:00		1		10			1	10	713	713	713
+SUB231036	Atopic	TRSP	533	Birth	1.0	complete	hy	b	11:52:00	13:30:00	1		4		1	1	1	2	0	0	0
+SUB231036	Atopic	TRSP	37909	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231037	Atopic	TRSP	1980	Birth	1.1	complete	hy	b	19:48:00	08:48:00		1		6.6			1	2	4	0	1
+SUB231038	Atopic	TRSP	1375	Birth	1.1	complete	hy	b	11:00:00	11:50:00		1		6			1	2	0	0	0
+SUB231039	Atopic	TRSP	1608	Birth	1.1	complete	hy	b	16:45:00	07:45:00		1		8.4			1	2	4	0	1
+SUB231039	Atopic	TRSP	2423	12-Month Clinic Visit	1.2	complete	mt	12	13:45:00	15:00:00		1		8			1	2	456	456	456
+SUB231039	Atopic	TRSP	30777	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231039	Atopic	TRSP	2432	36-Month Clinic Visit	1.2	complete	mt	36	09:50:00	18:00:00		1		11			1	10	1105	1105	1105
+SUB231039	Atopic	TRSP	2419	24-Month Clinic Visit	1.2	complete	mt	24	13:35:00	14:00:00		1		4.1			1	3	748	748	748
+SUB231040	Atopic	TRSP	2530	36-Month Clinic Visit	1.2	complete	mt	36	11:45:00	12:35:00		1		10			1	10	1150	1150	1150
+SUB231040	Atopic	TRSP	1544	Birth	1.1	complete	hy	b	08:20:00	12:10:00		1		8			1	2	0	0	0
+SUB231040	Atopic	TRSP	2521	12-Month Clinic Visit	1.2	complete	mt	12	16:30:00	08:30:00		1		8			1	2	369	369	370
+SUB231040	Atopic	TRSP	2517	24-Month Clinic Visit	1.2	complete	mt	24	13:05:00	14:30:00		1		12.5			1	10	774	774	774
+SUB231040	Atopic	TRSP	30872	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231041	Atopic	TRSP	34215	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231041	Atopic	TRSP	2723	36-Month Clinic Visit	1.2	complete	sk	36	11:20:00	13:40:00		0					1	1	1168	1168	1168
+SUB231041	Atopic	TRSP	2056	Birth	1.1	complete	jmc	b	13:00:00	05:00:00		1		13			1	2	1	0	1
+SUB231041	Atopic	TRSP	2714	12-Month Clinic Visit	1.2	complete	hy	12	10:30:00	14:00:00		1		2			1	2	393	393	393
+SUB231041	Atopic	TRSP	2710	24-Month Clinic Visit	1.2	complete	mt	24	13:05:00	14:00:00		1		9			1	9	715	715	715
+SUB231042	Atopic	TRSP	2584	Birth	1.1	complete	jmc	b	11:35:00	17:00:00		1		13			1	2	0	0	0
+SUB231042	Atopic	TRSP	2830	24-Month Clinic Visit	1.2	complete	mt	24	09:15:00	14:30:00		1		10			1	10	729	729	729
+SUB231042	Atopic	TRSP	2834	12-Month Clinic Visit	1.2	complete	hy	12	13:55:00	15:10:00		1		4.7			1	2	406	406	406
+SUB231042	Atopic	TRSP	2843	36-Month Clinic Visit	1.2	complete	mt	36	15:40:00	08:30:00		1		15			1	14	1184	1182	1183
+SUB231042	Atopic	TRSP	33789	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231043	Atopic	TRSP	2848	24-Month Clinic Visit	1.2	complete	mt	24	10:30:00	12:30:00		1		10			1	10	725	725	725
+SUB231043	Atopic	TRSP	2861	36-Month Clinic Visit	1.2	complete	jmr	36	10:52:00	11:28:00		1		13.5			1	13	1283	1282	1282
+SUB231043	Atopic	TRSP	36361	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231043	Atopic	TRSP	2852	12-Month Clinic Visit	1.2	complete	mt	12	14:00:00	15:00:00		1		8			1	2	377	377	377
+SUB231043	Atopic	TRSP	2496	Birth	1.1	complete	jmc	b	15:20:00	15:30:00		1		8			1	2	0	0	0
+SUB231044	Atopic	TRSP	34858	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231044	Atopic	TRSP	2254	Birth	1.1	complete	jmc	b	06:08:00	15:30:00		1		8			1	2	0	0	0
+SUB231044	Atopic	TRSP	2877	36-Month Clinic Visit	1.2	complete	mt	36	13:45:00	16:45:00		1		11			1	7.2	1090	1090	1090
+SUB231044	Atopic	TRSP	2864	24-Month Clinic Visit	1.2	complete	mt	24	13:15:00	14:15:00		1		7			1	7	718	718	718
+SUB231044	Atopic	TRSP	2868	12-Month Clinic Visit	1.2	complete	mt	12	13:15:00	05:00:00		1		8			1	2	437	437	438
+SUB231045	Atopic	TRSP	3059	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231045	Atopic	TRSP	3063	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231045	Atopic	TRSP	32512	60-Month Clinic Visit	1.2	complete	jmr	60	10:55:00	11:30:00		0					0		1850	1850	1850
+SUB231045	Atopic	TRSP	3072	36-Month Clinic Visit	1.2	complete	sk	36	13:20:00	14:30:00		1		14			1	14	1157	1157	1157
+SUB231045	Atopic	TRSP	174	Birth	1.1	complete	jmc	b	05:00:00	13:00:00		1		8			1	2	0	0	0
+SUB231046	Atopic	TRSP	2581	Birth	1.1	complete	jmc	b	11:00:00	13:00:00		1		8			1	2	0	0	0
+SUB231047	Atopic	TRSP	3135	24-Month Clinic Visit	1.2	complete	mt	24	12:26:00	13:00:00		1		7.5			1	7.5	735	735	735
+SUB231047	Atopic	TRSP	32839	60-Month Clinic Visit	1.2	complete	jmr	60	14:05:00	15:15:00		0					0		1842	1842	1842
+SUB231047	Atopic	TRSP	3148	36-Month Clinic Visit	1.2	complete	mt	36	14:30:00	15:40:00		1		10.8			1	10	1128	1128	1128
+SUB231047	Atopic	TRSP	113	Birth	1.1	complete	jmc	b	22:30:00	13:00:00		1		13			1	2	1	0	1
+SUB231047	Atopic	TRSP	3139	12-Month Clinic Visit	1.2	complete	hy	12	10:28:00	12:20:00		0					1	2	398	398	398
+SUB231048	Atopic	TRSP	3286	24-Month Clinic Visit	1.2	complete	mt	24	11:00:00	13:00:00		1		6			1	6	724	724	724
+SUB231048	Atopic	TRSP	1718	Birth	1.1	complete	jmc	b	21:30:00	13:00:00		1		5			1	2	1	0	1
+SUB231048	Atopic	TRSP	3299	36-Month Clinic Visit	1.2	complete	mt	36	15:10:00	16:40:00		1		12			1	10	1108	1108	1108
+SUB231048	Atopic	TRSP	37044	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231048	Atopic	TRSP	3290	12-Month Clinic Visit	1.2	complete	hy	12	13:51:00	15:00:00		0					0		380	380	380
+SUB231049	Atopic	TRSP	1706	Birth	1.1	complete	hy	b	16:50:00	07:40:00		0					0		1	0	1
+SUB231049	Atopic	TRSP	36601	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231049	Atopic	TRSP	3498	36-Month Clinic Visit	1.2	complete	mt	36	14:35:00	15:15:00		1		8.5			1	8.5	1150	1150	1150
+SUB231049	Atopic	TRSP	3485	24-Month Clinic Visit	1.2	complete	mt	24	13:10:00	14:10:00		0					0		815	815	815
+SUB231049	Atopic	TRSP	3489	12-Month Clinic Visit	1.2	complete	mt	12	13:29:00	15:00:00		1		8			1	2	429	429	429
+SUB231050	Atopic	TRSP	3505	12-Month Clinic Visit	1.2	complete	mt	12	10:50:00	13:00:00		1		8			1	2	412	412	412
+SUB231050	Atopic	TRSP	712	Birth	1.1	complete	jmc	b	23:00:00	08:00:00		1		8			1	2	1	0	1
+SUB231050	Atopic	TRSP	3501	24-Month Clinic Visit	1.2	complete	mt	24	11:10:00	12:30:00		1		10			1	10	706	706	706
+SUB231050	Atopic	TRSP	3514	36-Month Clinic Visit	1.2	complete	mt	36	13:10:00	14:48:00		1		7			1	5	1182	1182	1182
+SUB231051	Atopic	TRSP	33217	60-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231051	Atopic	TRSP	3530	36-Month Clinic Visit	1.2	complete	mt	36	14:30:00	16:15:00		0					0		1104	1104	1104
+SUB231051	Atopic	TRSP	25494	48-Month Clinic Visit	1.2	complete	mt	48	14:45:00	15:47:00		1		10			1	10	1482	1482	1482
+SUB231051	Atopic	TRSP	366	Birth	1.1	complete	hy	b	14:30:00	15:00:00		1		23.8			1	2	0	0	0
+SUB231051	Atopic	TRSP	3521	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231051	Atopic	TRSP	3517	24-Month Clinic Visit	1.2	complete	mt	24	12:34:00	15:30:00		1		10			1	10	726	726	726
+SUB231052	Atopic	TRSP	4489	12-Month Clinic Visit	1.2	complete	mt	12	13:51:00	15:00:00		0					0		397	397	397
+SUB231052	Atopic	TRSP	4498	36-Month Clinic Visit	1.2	complete	sk	36	13:11:00	13:40:00		0					1	4	1097	1097	1097
+SUB231052	Atopic	TRSP	4485	24-Month Clinic Visit	1.2	complete	mt	24	14:18:00	15:20:00		1		23.6			1	10	783	783	783
+SUB231052	Atopic	TRSP	756	Birth	1.1	complete	jmc	b	11:30:00	07:30:00		0					1	2	1	0	1
+SUB231053	Atopic	TRSP	4265	Birth	1.1	complete	jmc	b	13:00:00	19:00:00		0					1	5	0	0	0
+SUB231053	Atopic	TRSP	4501	24-Month Clinic Visit	1.2	complete	mt	24	13:00:00	15:45:00		1		10			1	10	716	716	716
+SUB231053	Atopic	TRSP	4514	36-Month Clinic Visit	1.2	complete	mt	36	15:06:00	16:30:00		1		12.4			1	10	1101	1101	1101
+SUB231053	Atopic	TRSP	4505	12-Month Clinic Visit	1.2	complete	mt	12	10:10:00	14:00:00		1		3.3			1	2	366	366	366
+SUB231054	Atopic	TRSP	4531	36-Month Clinic Visit	1.2	complete	mt	36	13:41:00	15:26:00		1		10			1	7.4	1201	1201	1201
+SUB231054	Atopic	TRSP	4522	12-Month Clinic Visit	1.2	complete	mt	12	10:45:00	12:00:00		1		8			1	2	374	374	374
+SUB231054	Atopic	TRSP	1715	Birth	1.1	complete	hy	b	20:40:00	08:20:00		0					1	3.6	3	0	1
+SUB231054	Atopic	TRSP	4518	24-Month Clinic Visit	1.2	complete	wwc	24	10:35:00	12:00:00		1		10			1	5	724	724	724
+SUB231055	Atopic	TRSP	4535	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231055	Atopic	TRSP	32914	48-Month Clinic Visit	1.2	complete	mt	48	14:00:00	14:45:00		1		10			1	10	1493	1493	1493
+SUB231055	Atopic	TRSP	4548	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231055	Atopic	TRSP	2964	Birth	1.1	complete	hy	b	11:40:00	12:15:00		0					1	2	2	0	0
+SUB231055	Atopic	TRSP	4539	12-Month Clinic Visit	1.2	complete	mt	12	10:11:00	12:30:00		1		8.9			1	2	366	366	366
+SUB231056	Atopic	TRSP	1611	Birth	1.1	complete	jmc	b	14:30:00	09:00:00		1		8			1	2	1	0	1
+SUB231056	Atopic	TRSP	4938	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231056	Atopic	TRSP	4942	12-Month Clinic Visit	1.2	complete	mt	12	14:00:00	06:00:00		0					0		384	384	385
+SUB231057	Atopic	TRSP	9656	24-Month Clinic Visit	1.2	complete	mt	24	09:52:00	12:05:00		1		7			1	5	727	727	727
+SUB231057	Atopic	TRSP	9660	12-Month Clinic Visit	1.2	complete	mt	12	10:50:00	13:30:00		0					0		384	384	384
+SUB231057	Atopic	TRSP	9652	36-Month Clinic Visit	1.2	complete	mt	36	10:10:00	14:48:00		1		10			1	8	1119	1119	1119
+SUB231057	Atopic	TRSP	4909	Birth	1.1	complete	hy	b	13:20:00	16:00:00		1		8.04			1	2	1	0	0
+SUB231058	Atopic	TRSP	5411	24-Month Clinic Visit	1.2	complete	mt	24	10:15:00	12:27:00		1		2.6			1	1	744	744	744
+SUB231058	Atopic	TRSP	5407	36-Month Clinic Visit	1.2	complete	mt	36	13:12:00	15:50:00		1		4			1	3	1114	1114	1114
+SUB231058	Atopic	TRSP	518	Birth	1.1	complete	hy	b	19:10:00	07:30:00		1		4			1	2	1	0	1
+SUB231058	Atopic	TRSP	5415	12-Month Clinic Visit	1.2	complete	mt	12	13:10:00	14:00:00		0					0		339	339	339
+SUB231059	Atopic	TRSP	5540	12-Month Clinic Visit	1.2	complete	mt	12	13:15:00	15:00:00		1		6.4			1	2	352	352	352
+SUB231059	Atopic	TRSP	1796	Birth	1.1	complete	hy	b	04:15:00	08:00:00		0					0		0	0	0
+SUB231059	Atopic	TRSP	5532	36-Month Clinic Visit	1.2	complete	mt	36	13:15:00	14:05:00		1		5			1	4	1114	1114	1114
+SUB231059	Atopic	TRSP	5536	24-Month Clinic Visit	1.2	complete	mt	24	09:47:00	13:48:00		0					0		731	731	731
+SUB231060	Atopic	TRSP	2384	Birth	1.1	complete	hy	b	18:18:00	08:00:00		0					1	2	1	0	1
+SUB231060	Atopic	TRSP	5556	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231060	Atopic	TRSP	5552	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231060	Atopic	TRSP	25506	48-Month Clinic Visit	1.2	complete	jmr	48	11:55:00	14:30:00		1		2			1	6	1478	1478	1478
+SUB231060	Atopic	TRSP	5548	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231061	Atopic	TRSP	5572	24-Month Clinic Visit	1.2	complete	mt	24	10:10:00	14:50:00		1		8			1	5	756	756	756
+SUB231061	Atopic	TRSP	5568	36-Month Clinic Visit	1.2	complete	mt	36	11:15:00	13:36:00		1		10			1	8	1176	1176	1176
+SUB231061	Atopic	TRSP	5576	12-Month Clinic Visit	1.2	complete	mt	12	10:55:00	13:00:00		1		8			1	2	369	369	369
+SUB231061	Atopic	TRSP	2655	Birth	1.1	complete	hy	b	02:40:00	08:20:00		0					1	2.2	0	0	0
+SUB231062	Atopic	TRSP	1539	Birth	1.1	complete	hy	b	22:40:00	09:00:00		1		10.04			1	2	1	0	1
+SUB231063	Atopic	TRSP	715	Birth	1.1	complete	hy	b	14:24:00	15:00:00		1		14.04			1	2	0	0	0
+SUB231063	Atopic	TRSP	5684	36-Month Clinic Visit	1.2	complete	mt	36	12:54:00	14:05:00		1		4			1	4	1084	1084	1084
+SUB231063	Atopic	TRSP	5692	12-Month Clinic Visit	1.2	complete	mt	12	10:39:00	14:00:00		1		7.6			1	2	447	447	447
+SUB231063	Atopic	TRSP	5688	24-Month Clinic Visit	1.2	complete	mt	24	10:19:00	14:40:00		1		1			1	1	818	818	818
+SUB231064	Atopic	TRSP	5807	24-Month Clinic Visit	1.2	complete	mt	24	10:55:00	13:49:00		1		7			1	5	732	732	732
+SUB231064	Atopic	TRSP	5811	12-Month Clinic Visit	1.2	complete	mt	12	10:49:00	12:30:00		1		7.6			1	2	368	368	368
+SUB231064	Atopic	TRSP	5803	36-Month Clinic Visit	1.2	complete	mt	36	17:45:00	18:20:00		1		3			1	2	1138	1138	1138
+SUB231064	Atopic	TRSP	956	Birth	1.1	complete	hy	b	10:15:00	10:45:00		1		6.6			1	2	0	0	0
+SUB231065	Atopic	TRSP	6037	24-Month Clinic Visit	1.2	complete	mt	24	09:20:00	12:30:00		1		10			1	6.1	734	734	734
+SUB231065	Atopic	TRSP	6041	12-Month Clinic Visit	1.2	complete	mt	12	10:40:00	14:00:00		1		8			1	2	363	363	363
+SUB231065	Atopic	TRSP	3639	Birth	1.1	complete	hy	b	14:23:00	15:00:00		1		7.8			1	2	0	0	0
+SUB231065	Atopic	TRSP	6033	36-Month Clinic Visit	1.2	complete	mt	36	13:15:00	16:25:00		1		3			1	1	1096	1096	1096
+SUB231066	Atopic	TRSP	6670	36-Month Clinic Visit	1.2	complete	jmr	36	11:20:00	12:20:00		1		4.2			1	4.85	1199	1199	1199
+SUB231066	Atopic	TRSP	6678	12-Month Clinic Visit	1.2	complete	mt	12	12:57:00	16:30:00		1		8			1	8	453	453	453
+SUB231066	Atopic	TRSP	6674	24-Month Clinic Visit	1.2	complete	mt	24	10:12:00	12:45:00		1		15			1	10	760	760	760
+SUB231066	Atopic	TRSP	3263	Birth	1.1	complete	hy	b	20:20:00	08:00:00		1		11.64			1	2	1	0	1
+SUB231067	Atopic	TRSP	6694	12-Month Clinic Visit	1.2	complete	mt	12	09:50:00	12:30:00		1		8			1	2	371	371	371
+SUB231067	Atopic	TRSP	6686	36-Month Clinic Visit	1.2	complete	mt	36	12:00:00	13:45:00		1		7			1	7	1108	1108	1108
+SUB231067	Atopic	TRSP	6690	24-Month Clinic Visit	1.2	complete	mt	24	12:20:00	15:00:00		1		12.5			1	10	784	784	784
+SUB231067	Atopic	TRSP	4157	Birth	1.1	complete	hy	b	17:45:00	08:00:00		1		9.8			1	2	1	0	1
+SUB231068	Atopic	TRSP	5066	Birth	1.1	complete	mt	b	11:46:00	14:00:00		1		8			1	2	1	0	0
+SUB231069	Atopic	TRSP	5767	Birth	1.1	complete	mt	b	11:20:00	12:30:00		1		8			1	2	0	0	0
+SUB231070	Atopic	TRSP	5479	Birth	1.1	complete	mt	b	03:12:00	08:50:00		1		8			1	2	0	0	0
+SUB231070	Atopic	TRSP	13315	36-Month Clinic Visit	1.2	complete	mt	36	09:50:00	17:00:00		1		10			1	6	1210	1210	1210
+SUB231070	Atopic	TRSP	13319	24-Month Clinic Visit	1.2	complete	mt	24	10:30:00	14:00:00		1		10.1			1	10	742	742	742
+SUB231070	Atopic	TRSP	13323	12-Month Clinic Visit	1.2	complete	mt	12	10:45:00	13:00:00		1		8			1	2	378	378	378
+SUB231071	Atopic	TRSP	7049	24-Month Clinic Visit	1.2	complete	mt	24	11:00:00	12:05:00		1		4			1	4	815	815	815
+SUB231071	Atopic	TRSP	7045	36-Month Clinic Visit	1.2	complete	mt	36	10:00:00	18:20:00		1		7			1	7	1066	1066	1066
+SUB231071	Atopic	TRSP	5106	Birth	1.1	complete	mt	b	17:00:00	07:30:00		1		8			1	2	1	0	1
+SUB231071	Atopic	TRSP	7053	12-Month Clinic Visit	1.2	complete	mt	12	10:40:00	13:30:00		0					0		402	402	402
+SUB231072	Atopic	TRSP	7269	12-Month Clinic Visit	1.2	complete	mt	12	13:07:00	15:00:00		1		8			1	2	335	335	335
+SUB231072	Atopic	TRSP	6232	Birth	1.1	complete	mt	b	16:30:00	07:30:00		1		8			1	2	1	0	1
+SUB231072	Atopic	TRSP	7261	36-Month Clinic Visit	1.2	complete	mt	36	10:10:00	14:30:00		1		15			1	12	1133	1133	1133
+SUB231072	Atopic	TRSP	7265	24-Month Clinic Visit	1.2	complete	mt	24	10:05:00	15:00:00		1		11.9			1	10	740	740	740
+SUB231073	Atopic	TRSP	7285	12-Month Clinic Visit	1.2	complete	mt	12	10:15:00	14:00:00		1		8			1	2	349	349	349
+SUB231073	Atopic	TRSP	7281	24-Month Clinic Visit	1.2	complete	mt	24	12:40:00	14:40:00		1		10			1	8	776	776	776
+SUB231073	Atopic	TRSP	6270	Birth	1.1	complete	mt	b	15:00:00	15:45:00		1		8			1	2	0	0	0
+SUB231073	Atopic	TRSP	7277	36-Month Clinic Visit	1.2	complete	mt	36	10:18:00	17:45:00		1		10			1	7	1132	1132	1132
+SUB231074	Atopic	TRSP	7352	12-Month Clinic Visit	1.2	complete	mt	12	10:38:00	15:00:00		1		8			1	8	401	401	401
+SUB231074	Atopic	TRSP	5507	Birth	1.1	complete	mt	b	11:37:00	12:30:00		1		8			1	2	0	0	0
+SUB231074	Atopic	TRSP	7344	36-Month Clinic Visit	1.2	complete	mt	36	14:25:00	18:00:00		1		12			1	12	1162	1162	1162
+SUB231074	Atopic	TRSP	7348	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231075	Atopic	TRSP	25546	48-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231075	Atopic	TRSP	7560	12-Month Clinic Visit	1.2	complete	mt	12	10:36:00	13:00:00		1		8			1	2	343	343	343
+SUB231075	Atopic	TRSP	7556	24-Month Clinic Visit	1.2	complete	mt	24	09:16:00	10:30:00		1		10			1	7	708	708	708
+SUB231075	Atopic	TRSP	3255	Birth	1.1	complete	mt	b	16:30:00	07:30:00		1		8			1	2	1	0	1
+SUB231075	Atopic	TRSP	7552	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231076	Atopic	TRSP	28013	36-Month Clinic Visit	1.2	complete	mt	36	13:30:00	14:15:00		1		12			1	7	1211	1211	1211
+SUB231076	Atopic	TRSP	8067	12-Month Clinic Visit	1.2	complete	mt	12	11:57:00	15:00:00		1		10			1	10	394	394	394
+SUB231076	Atopic	TRSP	3551	Birth	1.2	complete	mt	b	13:00:00	13:30:00		1		8			1	2	0	0	0
+SUB231076	Atopic	TRSP	8063	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231077	Atopic	TRSP	4183	Birth	1.1	complete	mt	b	20:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231077	Atopic	TRSP	8086	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231078	Atopic	TRSP	8344	12-Month Clinic Visit	1.2	complete	mt	12	11:39:00	14:00:00		1		8			1	2	334	334	334
+SUB231078	Atopic	TRSP	5234	Birth	1.2	complete	mt	b	07:00:00	09:00:00		1		8			1	2	0	0	0
+SUB231078	Atopic	TRSP	8340	24-Month Clinic Visit	1.2	complete	mt	24	11:30:00	14:00:00		0					0		754	754	754
+SUB231078	Atopic	TRSP	8336	36-Month Clinic Visit	1.2	complete	mt	36	14:33:00	17:45:00		1		10			1	10	1131	1131	1131
+SUB231079	Atopic	TRSP	8356	24-Month Clinic Visit	1.2	complete	mt	24	10:22:00	12:30:00		1		8.1			1	8	723	723	723
+SUB231079	Atopic	TRSP	8352	36-Month Clinic Visit	1.2	complete	mt	36	13:08:00	17:45:00		1		7			1	7	1080	1080	1080
+SUB231079	Atopic	TRSP	4177	Birth	1.2	complete	hy	b	12:05:00	15:10:00		1		8.4			1	2	0	0	0
+SUB231079	Atopic	TRSP	8360	12-Month Clinic Visit	1.2	complete	mt	12	10:24:00	14:00:00		1		8			1	2	353	353	353
+SUB231080	Atopic	TRSP	21486	36-Month Clinic Visit	1.2	complete	jmr	36	11:45:00	13:10:00		1		2			1	6	1161	1160	1160
+SUB231080	Atopic	TRSP	3331	Birth	1.2	complete	mt	b	17:00:00	08:30:00		1		8			1	2	1	0	1
+SUB231080	Atopic	TRSP	21490	24-Month Clinic Visit	1.2	complete	mt	24	10:00:00	13:56:00		1		10			1	10	820	820	820
+SUB231080	Atopic	TRSP	21494	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231081	Atopic	TRSP	8388	24-Month Clinic Visit	1.2	complete	mt	24	11:10:00	14:55:00		1		8			1	8	831	831	831
+SUB231081	Atopic	TRSP	8384	36-Month Clinic Visit	1.2	complete	mt	36	10:00:00	12:30:00		1		15			1	10	1112	1112	1112
+SUB231081	Atopic	TRSP	4180	Birth	1.2	complete	mt	b	01:00:00	08:30:00		1		8			1	2	0	0	0
+SUB231081	Atopic	TRSP	8392	12-Month Clinic Visit	1.2	complete	mt	12	13:00:00	14:30:00		1		8			1	2	370	370	370
+SUB231082	Atopic	TRSP	8404	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231082	Atopic	TRSP	8400	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231082	Atopic	TRSP	27771	48-Month Clinic Visit	1.2	complete	mt	48	16:30:00	17:25:00		0					0		1473	1473	1473
+SUB231082	Atopic	TRSP	4567	Birth	1.2	complete	hy	b	18:51:00	08:00:00		1		9			1	2	1	0	1
+SUB231082	Atopic	TRSP	8408	12-Month Clinic Visit	1.2	complete	mt	12	10:37:00	14:00:00		1		8			1	2	354	354	354
+SUB231083	Atopic	TRSP	8424	12-Month Clinic Visit	1.2	complete	mt	12	10:30:00	13:00:00		1		8			1	2	357	357	357
+SUB231083	Atopic	TRSP	8420	24-Month Clinic Visit	1.2	complete	mt	24	13:25:00	14:26:00		1		10			1	7.5	820	820	820
+SUB231083	Atopic	TRSP	8416	36-Month Clinic Visit	1.2	complete	mt	36	09:56:00	12:00:00		1		8			1	2	1162	1162	1162
+SUB231083	Atopic	TRSP	4195	Birth	1.2	complete	mt	b	17:00:00	08:30:00		1		8			1	2	1	0	1
+SUB231084	Atopic	TRSP	4753	Birth	1.2	complete	hy	b	19:00:00	08:00:00		1		10.6			1	2	1	0	1
+SUB231084	Atopic	TRSP	8696	36-Month Clinic Visit	1.2	complete	mt	36	13:45:00	15:15:00		1		15			1	10	1110	1110	1110
+SUB231084	Atopic	TRSP	8704	12-Month Clinic Visit	1.2	complete	mt	12	10:15:00	14:00:00		1		8			1	2	360	360	360
+SUB231084	Atopic	TRSP	8700	24-Month Clinic Visit	1.2	complete	mt	24	11:20:00	13:35:00		1		10			1	10	718	718	718
+SUB231085	Atopic	TRSP	9226	12-Month Clinic Visit	1.2	complete	mt	12	10:09:00	16:30:00		1		10			1	10	365	365	365
+SUB231085	Atopic	TRSP	9222	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231085	Atopic	TRSP	8481	Birth	1.2	complete	mt	b	11:00:00	11:30:00		1		8			1	2	0	0	0
+SUB231086	Atopic	TRSP	4174	Birth	1.2	complete	hy	b	04:00:00	13:10:00		1		9.4			1	2	0	0	0
+SUB231086	Atopic	TRSP	9289	24-Month Clinic Visit	1.2	complete	mt	24	11:00:00	14:00:00		1		10			1	10	723	723	723
+SUB231086	Atopic	TRSP	9293	12-Month Clinic Visit	1.2	complete	mt	12	10:46:00	14:00:00		1		8			1	8	366	366	366
+SUB231086	Atopic	TRSP	9285	36-Month Clinic Visit	1.2	complete	mt	36	10:15:00	11:20:00		1		12			1	10	1115	1115	1115
+SUB231087	Atopic	TRSP	9317	36-Month Clinic Visit	1.2	complete	mt	36	13:25:00	15:20:00		1		10			1	10	1120	1120	1120
+SUB231087	Atopic	TRSP	9321	24-Month Clinic Visit	1.2	complete	mt	24	15:20:00	15:50:00		1		10			1	10	713	713	713
+SUB231087	Atopic	TRSP	8229	Birth	1.2	complete	mt	b	18:40:00	09:00:00		1		8			1	2	0	-1	0
+SUB231087	Atopic	TRSP	9325	12-Month Clinic Visit	1.2	complete	mt	12	13:40:00	15:00:00		0					1	5.2	349	349	349
+SUB231088	Atopic	TRSP	4430	Birth	1.2	complete	mt	b	11:50:00	12:30:00		1		8			1	2	0	0	0
+SUB231088	Atopic	TRSP	9461	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231089	Atopic	TRSP	7529	Birth	1.2	complete	mt	b	18:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231090	Atopic	TRSP	4017	Birth	1.2	complete	mt	b	11:50:00	13:00:00		1		8			1	2	0	0	0
+SUB231090	Atopic	TRSP	9532	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231091	Atopic	TRSP	4778	Birth	1.2	complete	mt	b	20:30:00	09:00:00		1		8			1	2	1	0	1
+SUB231091	Atopic	TRSP	9540	36-Month Clinic Visit	1.2	complete	mt	36	14:15:00	17:14:00		1		10			1	7.4	1131	1131	1131
+SUB231091	Atopic	TRSP	9548	12-Month Clinic Visit	1.2	complete	mt	12	12:57:00	15:00:00		1		8.4			1	2	340	340	340
+SUB231091	Atopic	TRSP	9544	24-Month Clinic Visit	1.2	complete	mt	24	09:40:00	13:55:00		1		1.2			1	1	718	718	718
+SUB231092	Atopic	TRSP	9608	24-Month Clinic Visit	1.2	complete	mt	24	11:30:00	15:10:00		1		3.4			1	3.4	766	766	766
+SUB231092	Atopic	TRSP	5069	Birth	1.2	complete	hy	b	16:00:00	07:00:00		1		8.8			1	2	1	0	1
+SUB231092	Atopic	TRSP	9604	36-Month Clinic Visit	1.2	complete	mt	36	13:55:00	14:30:00		1		8			1	6	1270	1270	1270
+SUB231092	Atopic	TRSP	9612	12-Month Clinic Visit	1.2	complete	mt	12	11:10:00	15:00:00		0					1	6.4	353	353	353
+SUB231093	Atopic	TRSP	9644	12-Month Clinic Visit	1.2	complete	mt	12	10:55:00	15:00:00		1		8			1	2	347	347	347
+SUB231093	Atopic	TRSP	9640	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231093	Atopic	TRSP	27295	36-Month Clinic Visit	1.2	complete	mt	36	11:55:00	13:05:00		1		7.4			1	6	1068	1068	1068
+SUB231093	Atopic	TRSP	4768	Birth	1.2	complete	mt	b	06:00:00	09:00:00		1		8			1	2	0	0	0
+SUB231094	Atopic	TRSP	9954	36-Month Clinic Visit	1.2	complete	mt	36	13:15:00	14:15:00		1		8			1	5	1224	1224	1224
+SUB231094	Atopic	TRSP	9962	12-Month Clinic Visit	1.2	complete	mt	12	10:54:00	14:00:00		1		10			1	10	447	447	447
+SUB231094	Atopic	TRSP	4597	Birth	1.2	complete	mt	b	23:00:00	09:00:00		0					1	2	1	0	1
+SUB231094	Atopic	TRSP	9958	24-Month Clinic Visit	1.2	complete	mt	24	10:00:00	11:30:00		1		6.7			1	6.7	741	741	741
+SUB231095	Atopic	TRSP	10480	12-Month Clinic Visit	1.2	complete	mt	12	10:54:00	12:40:00		1		10.1			1	10.1	360	360	360
+SUB231095	Atopic	TRSP	10476	24-Month Clinic Visit	1.2	complete	mt	24	14:00:00	15:20:00		1		8			1	8	774	774	774
+SUB231095	Atopic	TRSP	10472	36-Month Clinic Visit	1.2	complete	jmr	36	10:05:00	13:45:00		1		2			1	6	1213	1213	1213
+SUB231095	Atopic	TRSP	5725	Birth	1.2	complete	hy	b	03:30:00	13:30:00		1		6.4			1	2	0	0	0
+SUB231096	Atopic	TRSP	10496	24-Month Clinic Visit	1.2	complete	mt	24	11:10:00	13:10:00		1		10			1	10	726	726	726
+SUB231096	Atopic	TRSP	10500	12-Month Clinic Visit	1.2	complete	mt	12	13:51:00	15:30:00		0					0		382	382	382
+SUB231096	Atopic	TRSP	7522	Birth	1.2	complete	mt	b	03:20:00	09:00:00		1		8			1	2	0	0	0
+SUB231096	Atopic	TRSP	10492	36-Month Clinic Visit	1.2	complete	mt	36	09:55:00	15:20:00		1		12			1	10	1083	1083	1083
+SUB231097	Atopic	TRSP	10545	12-Month Clinic Visit	1.2	complete	mt	12	10:03:00	12:45:00		1		10			1	9.4	385	385	385
+SUB231097	Atopic	TRSP	10541	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231097	Atopic	TRSP	10537	36-Month Clinic Visit	1.2	complete	mt	36	14:05:00	14:35:00		1		10			1	10	1184	1184	1184
+SUB231097	Atopic	TRSP	7065	Birth	1.2	complete	mt	b	15:05:00	15:30:00		1		8			1	2	0	0	0
+SUB231098	Atopic	TRSP	10729	36-Month Clinic Visit	1.2	complete	jmr	36	09:35:00	13:15:00		1		6			1	2	1118	1118	1118
+SUB231098	Atopic	TRSP	8638	Birth	1.2	complete	mt	b	10:40:00	11:00:00		1		8			1	2	0	0	0
+SUB231098	Atopic	TRSP	10733	24-Month Clinic Visit	1.2	complete	mt	24	09:50:00	12:00:00		1		10			1	10	704	704	704
+SUB231098	Atopic	TRSP	10737	12-Month Clinic Visit	1.2	complete	mt	12	10:40:00	13:30:00		1		10			1	10	368	368	368
+SUB231099	Atopic	TRSP	7912	Birth	1.2	complete	mt	b	21:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231099	Atopic	TRSP	10749	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231099	Atopic	TRSP	10753	12-Month Clinic Visit	1.2	complete	mt	12	13:06:00	16:00:00		0					0		377	377	377
+SUB231099	Atopic	TRSP	10745	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231100	Atopic	TRSP	10769	12-Month Clinic Visit	1.2	complete	mt	12	10:04:00	12:15:00		0					1	6.8	359	359	359
+SUB231100	Atopic	TRSP	7675	Birth	1.2	complete	hy	b	13:00:00	13:50:00		0					1	2	0	0	0
+SUB231100	Atopic	TRSP	10765	24-Month Clinic Visit	1.2	complete	mt	24	13:15:00	14:00:00		1		7			1	7	717	717	717
+SUB231100	Atopic	TRSP	10761	36-Month Clinic Visit	1.2	complete	jmr	36	10:30:00	11:15:00		1		2			1	6	1267	1267	1267
+SUB231101	Atopic	TRSP	10781	24-Month Clinic Visit	1.2	complete	mt	24	11:50:00	14:45:00		1		5.5			1	5.5	727	727	727
+SUB231101	Atopic	TRSP	10785	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231101	Atopic	TRSP	10777	36-Month Clinic Visit	1.2	complete	mt	36	10:30:00	11:45:00		1		7			1	6	1274	1274	1274
+SUB231101	Atopic	TRSP	7087	Birth	1.2	complete	mt	b	15:00:00	15:30:00		1		8			1	2	0	0	0
+SUB231102	Atopic	TRSP	10798	24-Month Clinic Visit	1.2	complete	mt	24	12:05:00	14:15:00		1		12.4			1	8	702	702	702
+SUB231102	Atopic	TRSP	10802	12-Month Clinic Visit	1.2	complete	mt	12	12:15:00	15:30:00		1		10			1	10	373	373	373
+SUB231102	Atopic	TRSP	6229	Birth	1.2	complete	hy	b	03:00:00	15:00:00		0					1	2.4	0	0	0
+SUB231102	Atopic	TRSP	10794	36-Month Clinic Visit	1.2	complete	mt	36	09:47:00	11:03:00		1		11			1	10	1122	1122	1122
+SUB231103	Atopic	TRSP	6273	Birth	1.2	complete	mt	b	16:00:00	08:00:00		1		8			1	2	1	0	1
+SUB231103	Atopic	TRSP	10821	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231104	Atopic	TRSP	10840	12-Month Clinic Visit	1.2	complete	mt	12	10:10:00	14:00:00		1		9			1	9	450	450	450
+SUB231104	Atopic	TRSP	10836	24-Month Clinic Visit	1.2	complete	mt	24	12:33:00	13:10:00		1		10			1	10	715	715	715
+SUB231104	Atopic	TRSP	7013	Birth	1.2	complete	mt	b	21:30:00	07:30:00		1		8			1	2	1	0	1
+SUB231104	Atopic	TRSP	10832	36-Month Clinic Visit	1.2	complete	mt	36	13:30:00	14:15:00		1		4.4			1	4.4	1162	1162	1162
+SUB231105	Atopic	TRSP	10848	36-Month Clinic Visit	1.2	complete	mt	36	13:33:00	13:48:00		1		1			1	1	1169	1169	1169
+SUB231105	Atopic	TRSP	10856	12-Month Clinic Visit	1.2	complete	mt	12	14:05:00	15:20:00		1		10			1	10	399	399	399
+SUB231105	Atopic	TRSP	6224	Birth	1.2	complete	mt	b	16:00:00	07:30:00		1		8			1	2	1	0	1
+SUB231105	Atopic	TRSP	10852	24-Month Clinic Visit	1.2	complete	mt	24	09:21:00	14:24:00		1		8			1	8	736	736	736
+SUB231106	Atopic	TRSP	19110	12-Month Clinic Visit	1.2	complete	mt	12	11:40:00	13:45:00		0					1	10	414	414	414
+SUB231106	Atopic	TRSP	5504	Birth	1.2	complete	mt	b	16:30:00	08:30:00		1		8			1	2	1	0	1
+SUB231106	Atopic	TRSP	19106	24-Month Clinic Visit	1.2	complete	mt	24	09:15:00	14:15:00		1		8			1	8	791	791	791
+SUB231106	Atopic	TRSP	19102	36-Month Clinic Visit	1.2	complete	mt	36	09:55:00	14:15:00		1		8			1	5	1203	1203	1203
+SUB231107	Atopic	TRSP	9452	Birth	1.2	complete	hy	b	13:30:00	15:40:00		1		11			1	2	1	0	0
+SUB231107	Atopic	TRSP	11102	24-Month Clinic Visit	1.2	complete	sk	24	09:35:00	10:30:00		1		1.3			1	1.3	812	812	812
+SUB231107	Atopic	TRSP	11098	36-Month Clinic Visit	1.2	complete	wwc	36	11:00:00	12:00:00		1		10			1	10	1120	1120	1120
+SUB231107	Atopic	TRSP	11106	12-Month Clinic Visit	1.2	complete	mt	12	09:50:00	15:50:00		1		10			1	10	380	380	380
+SUB231108	Atopic	TRSP	10028	Birth	1.2	complete	mt	b	22:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231108	Atopic	TRSP	11170	12-Month Clinic Visit	1.2	complete	mt	12	13:55:00	15:30:00		1		10			1	10	364	363	363
+SUB231108	Atopic	TRSP	11162	36-Month Clinic Visit	1.2	complete	mt	36	13:45:00	14:06:00		1		10			1	10	1245	1245	1245
+SUB231108	Atopic	TRSP	11166	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231109	Atopic	TRSP	11349	36-Month Clinic Visit	1.2	complete	jmr	36	14:00:00	15:40:00		1		2			1	6	1172	1172	1172
+SUB231109	Atopic	TRSP	11357	12-Month Clinic Visit	1.2	complete	mt	12	10:23:00	13:00:00		1		10			1	10	367	367	367
+SUB231109	Atopic	TRSP	11353	24-Month Clinic Visit	1.2	complete	mt	24	12:00:00	14:35:00		1		4.4			1	4.4	709	709	709
+SUB231109	Atopic	TRSP	8949	Birth	1.2	complete	hy	b	04:00:00	14:00:00		1		10.2			1	2	0	0	0
+SUB231110	Atopic	TRSP	11477	36-Month Clinic Visit	1.2	complete	mt	36	13:30:00	14:15:00		1		10			1	10	1170	1170	1170
+SUB231110	Atopic	TRSP	11485	12-Month Clinic Visit	1.2	complete	mt	12	13:27:00	15:00:00		1		10			1	10	345	345	345
+SUB231110	Atopic	TRSP	8717	Birth	1.2	complete	hy	b	04:30:00	14:30:00		1		16			1	2	0	0	0
+SUB231110	Atopic	TRSP	11481	24-Month Clinic Visit	1.2	complete	mt	24	10:40:00	12:45:00		1		12			1	10	744	744	744
+SUB231111	Atopic	TRSP	11598	12-Month Clinic Visit	1.2	complete	mt	12	13:15:00	15:00:00		1		15.2			1	10	400	400	400
+SUB231111	Atopic	TRSP	11594	24-Month Clinic Visit	1.2	complete	mt	24	10:10:00	13:40:00		1		8			1	6	799	799	799
+SUB231111	Atopic	TRSP	6279	Birth	1.2	complete	mt	b	12:30:00	13:00:00		1		8			1	2	0	0	0
+SUB231112	Atopic	TRSP	8546	Birth	1.2	complete	hy	b	15:20:00	15:40:00		1		7			1	2	1	0	0
+SUB231112	Atopic	TRSP	11614	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231112	Atopic	TRSP	11610	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231112	Atopic	TRSP	11606	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231113	Atopic	TRSP	11647	24-Month Clinic Visit	1.2	complete	mt	24	13:55:00	15:10:00		1		15			1	10	778	778	778
+SUB231113	Atopic	TRSP	11643	36-Month Clinic Visit	1.2	complete	jmr	36	13:35:00	15:00:00		1		2			1	6	1149	1149	1149
+SUB231113	Atopic	TRSP	9110	Birth	1.2	complete	mt	b	22:00:00	08:00:00		1		8			1	2	1	0	1
+SUB231113	Atopic	TRSP	11651	12-Month Clinic Visit	1.2	complete	mt	12	10:30:00	14:15:00		1		10			1	10	448	448	448
+SUB231114	Atopic	TRSP	10308	Birth	1.2	complete	mt	b	14:00:00	15:30:00		1		8			1	2	0	0	0
+SUB231114	Atopic	TRSP	21469	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231114	Atopic	TRSP	21465	24-Month Clinic Visit	1.2	complete	mt	24	09:15:00	15:10:00		1		1.3			1	1.3	728	728	728
+SUB231114	Atopic	TRSP	21461	36-Month Clinic Visit	1.2	complete	mt	36	12:50:00	15:07:00		0					0		1147	1147	1147
+SUB231114	Atopic	TRSP	27795	48-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231115	Atopic	TRSP	12070	36-Month Clinic Visit	1.2	complete	mt	36	14:45:00	15:30:00		1		10			1	10	1192	1192	1192
+SUB231115	Atopic	TRSP	12078	12-Month Clinic Visit	1.2	complete	mt	12	09:25:00	14:15:00		1		10			1	10	422	422	422
+SUB231115	Atopic	TRSP	7010	Birth	1.2	complete	hy	b	06:00:00	15:00:00		1		6.4			1	2	0	0	0
+SUB231115	Atopic	TRSP	12074	24-Month Clinic Visit	1.2	complete	mt	24	10:50:00	16:40:00		1		12.2			1	10	814	814	814
+SUB231116	Atopic	TRSP	12157	36-Month Clinic Visit	1.2	complete	jmr	36	09:45:00	15:00:00		1		1			1	1	1118	1118	1118
+SUB231116	Atopic	TRSP	12165	12-Month Clinic Visit	1.2	complete	mt	12	10:15:00	14:30:00		1		10			1	10	355	355	355
+SUB231116	Atopic	TRSP	10591	Birth	1.2	complete	mt	b	20:00:00	08:00:00		1		8			1	2	1	0	1
+SUB231116	Atopic	TRSP	12161	24-Month Clinic Visit	1.2	complete	mt	24	11:45:00	12:45:00		1		9			1	8	719	719	719
+SUB231117	Atopic	TRSP	12177	24-Month Clinic Visit	1.2	complete	mt	24	12:05:00	13:45:00		1		15			1	8	720	720	720
+SUB231117	Atopic	TRSP	12181	12-Month Clinic Visit	1.2	complete	mt	12	10:02:00	12:30:00		1		10			1	5.2	356	356	356
+SUB231117	Atopic	TRSP	8185	Birth	1.2	complete	mt	b	21:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231117	Atopic	TRSP	12173	36-Month Clinic Visit	1.2	complete	mt	36	13:15:00	14:50:00		1		11			1	10	1077	1077	1077
+SUB231118	Atopic	TRSP	12197	12-Month Clinic Visit	1.2	complete	mt	12	14:55:00	16:00:00		0					0		349	349	349
+SUB231118	Atopic	TRSP	10002	Birth	1.2	complete	mt	b	01:00:00	09:00:00		1		8			1	2	0	0	0
+SUB231118	Atopic	TRSP	12193	24-Month Clinic Visit	1.2	complete	mt	24	11:00:00	12:45:00		0					0		760	760	760
+SUB231118	Atopic	TRSP	12189	36-Month Clinic Visit	1.2	complete	mt	36	10:05:00	14:45:00		1		10			1	10	1221	1221	1221
+SUB231119	Atopic	TRSP	12426	12-Month Clinic Visit	1.2	complete	mt	12	11:35:00	14:40:00		1		10			1	8	360	360	360
+SUB231119	Atopic	TRSP	11971	Birth	1.2	complete	mt	b	19:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231119	Atopic	TRSP	12418	36-Month Clinic Visit	1.2	complete	mt	36	14:12:00	15:14:00		1		15			1	10	1171	1171	1171
+SUB231119	Atopic	TRSP	12422	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231120	Atopic	TRSP	11062	Birth	1.2	complete	mt	b	12:00:00	14:00:00		1		8			1	2	0	0	0
+SUB231120	Atopic	TRSP	12532	36-Month Clinic Visit	1.2	complete	jmr	36	10:00:00	13:00:00		1		2			1	6	1145	1145	1145
+SUB231120	Atopic	TRSP	12536	24-Month Clinic Visit	1.2	complete	mt	24	13:10:00	14:15:00		1		16			1	10	712	712	712
+SUB231120	Atopic	TRSP	12540	12-Month Clinic Visit	1.2	complete	mt	12	10:30:00	13:30:00		1		10			1	10	368	368	368
+SUB231121	Atopic	TRSP	12563	12-Month Clinic Visit	1.2	complete	mt	12	11:00:00	13:30:00		1		10			1	10	363	363	363
+SUB231121	Atopic	TRSP	12559	24-Month Clinic Visit	1.2	complete	mt	24	13:40:00	15:00:00		1		14			1	10	708	708	708
+SUB231121	Atopic	TRSP	8053	Birth	1.2	complete	mt	b	13:30:00	14:00:00		1		8			1	2	0	0	0
+SUB231121	Atopic	TRSP	12555	36-Month Clinic Visit	1.2	complete	mt	36	10:30:00	12:50:00		1		10			1	10	1252	1252	1252
+SUB231122	Atopic	TRSP	12575	24-Month Clinic Visit	1.2	complete	mt	24	16:10:00	18:00:00		1		14			1	10	750	750	750
+SUB231122	Atopic	TRSP	12571	36-Month Clinic Visit	1.2	complete	mt	36	14:15:00	15:15:00		1		12			1	10	1204	1204	1204
+SUB231122	Atopic	TRSP	12579	12-Month Clinic Visit	1.2	complete	mt	12	12:19:00	15:00:00		1		14.2			1	10	379	379	379
+SUB231122	Atopic	TRSP	8289	Birth	1.2	complete	mt	b	11:00:00	13:00:00		1		8			1	2	1	0	0
+SUB231123	Atopic	TRSP	12591	24-Month Clinic Visit	1.2	complete	mt	24	12:15:00	13:15:00		1		6.1			1	6	798	798	798
+SUB231123	Atopic	TRSP	7672	Birth	1.2	complete	mt	b	11:00:00	13:00:00		1		8			1	2	1	0	0
+SUB231123	Atopic	TRSP	12595	12-Month Clinic Visit	1.2	complete	mt	12	10:15:00	14:00:00		1		10			1	10	400	400	400
+SUB231123	Atopic	TRSP	12587	36-Month Clinic Visit	1.2	complete	jmr	36	13:10:00	15:00:00		1		2			1	6	1106	1106	1106
+SUB231124	Atopic	TRSP	7312	Birth	1.2	complete	mt	b	23:30:00	09:00:00		1		8			1	2	1	0	1
+SUB231124	Atopic	TRSP	12618	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231124	Atopic	TRSP	12614	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231125	Atopic	TRSP	12638	12-Month Clinic Visit	1.2	complete	mt	12	10:15:00	14:40:00		1		17			1	10	365	365	365
+SUB231125	Atopic	TRSP	7016	Birth	1.2	complete	mt	b	23:30:00	09:00:00		1		8			1	2	1	0	1
+SUB231125	Atopic	TRSP	12630	36-Month Clinic Visit	1.2	complete	mt	36	10:15:00	14:15:00		1		7			1	5	1148	1148	1148
+SUB231125	Atopic	TRSP	12634	24-Month Clinic Visit	1.2	complete	mt	24	09:30:00	13:45:00		1		8			1	7	707	707	707
+SUB231126	Atopic	TRSP	8927	Birth	1.2	complete	mt	b	18:00:00	09:00:00		1		8			1	2	1	0	1
+SUB231127	Atopic	TRSP	12820	12-Month Clinic Visit	1.2	complete	mt	12	10:35:00	13:00:00		1		14			1	10	381	381	381
+SUB231127	Atopic	TRSP	12816	24-Month Clinic Visit	1.2	complete	mt	24	10:06:00	15:00:00		1		12			1	10	767	767	767
+SUB231127	Atopic	TRSP	12812	36-Month Clinic Visit	1.2	complete	mt	36	13:30:00	14:10:00		1		10			1	7	1074	1074	1074
+SUB231127	Atopic	TRSP	11899	Birth	1.2	complete	mt	b	14:30:00	15:00:00		0					1	2	0	0	0
+SUB231128	Atopic	TRSP	12860	36-Month Clinic Visit	1.2	complete	mt	36	10:22:00	14:35:00		1		16			1	10	1153	1153	1153
+SUB231128	Atopic	TRSP	12153	Birth	1.2	complete	mt	b	05:03:00	09:00:00		1		8			1	2	1	0	0
+SUB231128	Atopic	TRSP	12864	24-Month Clinic Visit	1.2	complete	mt	24	11:15:00	16:45:00		1		15.7			1	10	756	756	756
+SUB231128	Atopic	TRSP	12868	12-Month Clinic Visit	1.2	complete	mt	12	10:30:00	14:30:00		1		7			1	6	357	357	357
+SUB231129	Non-atopic	TRSP	11853	Birth	1.2	complete	mt	b	13:20:00	14:30:00		1		8			1	2	1	0	0
+SUB231130	Atopic	TRSP	12896	24-Month Clinic Visit	1.2	complete	mt	24	11:50:00	14:15:00		1		4			1	4	707	707	707
+SUB231130	Atopic	TRSP	12892	36-Month Clinic Visit	1.2	complete	mt	36	14:00:00	15:15:00		1		10			1	10	1169	1169	1169
+SUB231130	Atopic	TRSP	12900	12-Month Clinic Visit	1.2	complete	mt	12	10:00:00	15:00:00		1		8			1	7	455	455	455
+SUB231130	Atopic	TRSP	10006	Birth	1.2	complete	mt	b	21:49:00	09:00:00		0					1	2	2	0	1
+SUB231131	Atopic	TRSP	13032	12-Month Clinic Visit	1.2	complete	mt	12	10:45:00	13:00:00		1		8			1	8	374	374	374
+SUB231131	Atopic	TRSP	13028	24-Month Clinic Visit	1.2	complete	sk	24	13:15:00	14:00:00		1		5.9			1	5.9	725	725	725
+SUB231131	Atopic	TRSP	13024	36-Month Clinic Visit	1.2	complete	mt	36	12:46:00	14:50:00		1		5			1	5	1110	1110	1110
+SUB231131	Atopic	TRSP	9588	Birth	1.2	complete	hy	b	23:50:00	11:50:00		1		10.6			1	2	1	0	1
+SUB231132	Atopic	TRSP	13195	12-Month Clinic Visit	1.2	complete	mt	12	11:05:00	13:00:00		1		6.45			1	6.45	361	361	361
+SUB231132	Atopic	TRSP	13191	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231132	Atopic	TRSP	13187	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231132	Atopic	TRSP	28525	48-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231132	Atopic	TRSP	8590	Birth	1.2	complete	mt	b	03:30:00	09:00:00		1		8			1	2	0	0	0
+SUB231133	Atopic	TRSP	13274	36-Month Clinic Visit	1.2	complete	jmr	36	09:45:00	15:40:00		1		2			1	6	1116	1116	1116
+SUB231133	Atopic	TRSP	13282	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231133	Atopic	TRSP	13278	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231133	Atopic	TRSP	10411	Birth	1.2	complete	hy	b	03:36:00	11:50:00		1		8			1	2	0	0	0
+SUB231134	Atopic	TRSP	13456	12-Month Clinic Visit	1.2	complete	wwc	12	10:40:00	14:30:00		1		10			1	2	416	416	416
+SUB231134	Atopic	TRSP	13452	24-Month Clinic Visit	1.2	complete	mt	24	09:55:00	15:15:00		0					1	1.2	815	815	815
+SUB231134	Atopic	TRSP	13448	36-Month Clinic Visit	1.2	complete	jmr	36	09:30:00	11:00:00		1		2			1	6	1117	1117	1117
+SUB231134	Atopic	TRSP	12931	Birth	1.2	complete	mt	b	00:30:00	09:00:00		1		8			1	2	0	0	0
+SUB231135	Atopic	TRSP	13524	12-Month Clinic Visit	1.2	complete	mt	12	13:10:00	14:00:00		1		10			1	10	375	375	375
+SUB231135	Atopic	TRSP	13520	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231135	Atopic	TRSP	8554	Birth	1.2	complete	mt	b	18:53:00	08:30:00		1		8			1	2	1	0	1
+SUB231135	Atopic	TRSP	13516	36-Month Clinic Visit	1.2	complete	mt	36	10:43:00	15:15:00		1		10			1	10	1181	1181	1181
+SUB231136	Atopic	TRSP	24106	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231136	Atopic	TRSP	13611	12-Month Clinic Visit	1.2	complete	wwc	12	14:15:00	15:30:00		1		5			0		405	405	405
+SUB231136	Atopic	TRSP	10578	Birth	1.2	complete	mt	b	21:45:00	10:00:00		1		8			1	2	1	0	1
+SUB231137	Atopic	TRSP	8190	Birth	1.2	complete	mt	b	06:22:00	09:00:00		1		8			1	2	0	0	0
+SUB231137	Atopic	TRSP	13822	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231138	Atopic	TRSP	13905	24-Month Clinic Visit	1.2	complete	mt	24	10:55:00	12:45:00		1		3			1	2.6	828	828	828
+SUB231138	Atopic	TRSP	13909	12-Month Clinic Visit	1.2	complete	wwc	12	09:20:00	12:00:00		1		6			0		404	404	404
+SUB231138	Atopic	TRSP	13901	36-Month Clinic Visit	1.2	complete	mt	36	14:15:00	15:25:00		1		8			1	4	1146	1146	1146
+SUB231138	Atopic	TRSP	8933	Birth	1.2	complete	mt	b	20:07:00	09:00:00		0					0		1	0	1
+SUB231139	Atopic	TRSP	9851	Birth	1.2	complete	mt	b	01:21:00	09:00:00		1		8			1	2	0	0	0
+SUB231139	Atopic	TRSP	13946	36-Month Clinic Visit	1.2	complete	mt	36	12:20:00	15:15:00		1		14			1	10	1131	1131	1131
+SUB231139	Atopic	TRSP	13950	24-Month Clinic Visit	1.2	complete	mt	24	11:10:00	12:45:00		1		2			1	1.2	820	820	820
+SUB231139	Atopic	TRSP	13954	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231140	Atopic	TRSP	10342	Birth	1.2	complete	hy	b	15:05:00	16:20:00		1		6			1	2	0	0	0
+SUB231141	Atopic	TRSP	14232	12-Month Clinic Visit	1.2	complete	mt	12	11:10:00	14:05:00		1		10			1	10	407	407	407
+SUB231141	Atopic	TRSP	14228	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231141	Atopic	TRSP	14224	36-Month Clinic Visit	1.2	complete	mt	36	10:00:00	15:25:00		1		8			1	8	1129	1129	1129
+SUB231141	Atopic	TRSP	9785	Birth	1.2	complete	mt	b	23:58:00	09:00:00		1		8			1	2	2	0	1
+SUB231142	Atopic	TRSP	14248	24-Month Clinic Visit	1.2	complete	mt	24	15:00:00	16:20:00		1		12.4			1	10	762	762	762
+SUB231142	Atopic	TRSP	11390	Birth	1.2	complete	wwc	b	17:48:00	09:00:00		1		8			1	2	1	0	1
+SUB231142	Atopic	TRSP	14244	36-Month Clinic Visit	1.2	complete	mt	36	11:00:00	14:45:00		1		15			1	10	1146	1146	1146
+SUB231142	Atopic	TRSP	14252	12-Month Clinic Visit	1.2	complete	mt	12	12:53:00	16:55:00		1		13			1	10	420	420	420
+SUB231143	Non-atopic	TRSP	14402	36-Month Clinic Visit	1.2	complete	mt	36	13:45:00	14:15:00		1		9			1	9	1237	1237	1237
+SUB231143	Non-atopic	TRSP	10339	Birth	1.2	complete	mt	b	06:40:00	09:00:00		1		8			1	2	0	0	0
+SUB231143	Non-atopic	TRSP	14394	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231143	Non-atopic	TRSP	14398	24-Month Clinic Visit	1.2	complete	mt	24	09:45:00	14:48:00		1		13			1	10	824	824	824
+SUB231144	Atopic	TRSP	14411	12-Month Clinic Visit	1.2	complete	mt	12	11:05:00	15:15:00		1		10			1	10	394	394	394
+SUB231144	Atopic	TRSP	14407	24-Month Clinic Visit	1.2	complete	mt	24	12:00:00	15:00:00		1		6			1	5	702	702	702
+SUB231144	Atopic	TRSP	12156	Birth	1.2	complete	hy	b	12:18:00	14:00:00		1		3.4			1	2	0	0	0
+SUB231144	Atopic	TRSP	14403	36-Month Clinic Visit	1.2	complete	mt	36	09:45:00	10:47:00		1		11			1	10	1149	1149	1149
+SUB231145	Non-atopic	TRSP	10235	Birth	1.2	complete	hy	b	07:23:00	10:23:00		1		4.8			1	2	0	0	0
+SUB231145	Non-atopic	TRSP	14426	12-Month Clinic Visit	1.2	complete	wwc	12	10:50:00	14:00:00		1		10			1	8	385	385	385
+SUB231145	Non-atopic	TRSP	14430	24-Month Clinic Visit	1.2	complete	mt	24	17:05:00	09:00:00		1		6.8			1	6	794	793	794
+SUB231145	Non-atopic	TRSP	14434	36-Month Clinic Visit	1.2	complete	mt	36	13:40:00	14:20:00		1		10			1	8	1113	1113	1113
+SUB231146	Atopic	TRSP	9217	Birth	1.2	complete	hy	b	17:17:00	08:17:00		1		6			1	2	1	0	1
+SUB231146	Atopic	TRSP	14439	24-Month Clinic Visit	1.2	complete	mt	24	09:41:00	12:15:00		1		16			1	10	704	704	704
+SUB231146	Atopic	TRSP	14443	12-Month Clinic Visit	1.2	complete	mt	12	10:20:00	13:50:00		1		12			1	10	417	417	417
+SUB231146	Atopic	TRSP	14435	36-Month Clinic Visit	1.2	complete	mt	36	14:15:00	15:30:00		1		12			1	10	1116	1116	1116
+SUB231147	Non-atopic	TRSP	14496	24-Month Clinic Visit	1.2	complete	mt	24	12:35:00	13:25:00		1		13.5			1	9	747	747	747
+SUB231147	Non-atopic	TRSP	14492	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231147	Non-atopic	TRSP	14500	36-Month Clinic Visit	1.2	complete	mt	36	14:00:00	14:30:00		1		12			1	10	1105	1105	1105
+SUB231147	Non-atopic	TRSP	13365	Birth	1.2	complete	wwc	b	20:41:00	10:30:00		1		8			1	2	1	0	1
+SUB231148	Atopic	TRSP	10012	Birth	1.2	complete	hy	b	10:19:00	12:19:00		1		3.6			1	2	0	0	0
+SUB231148	Atopic	TRSP	14501	36-Month Clinic Visit	1.2	complete	jmr	36	09:50:00	14:00:00		1		2			1	6	1211	1211	1211
+SUB231148	Atopic	TRSP	14505	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231148	Atopic	TRSP	14509	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231149	Atopic	TRSP	14563	12-Month Clinic Visit	1.2	complete	mt	12	09:07:00	14:00:00		1		7.5			1	7.5	361	361	361
+SUB231149	Atopic	TRSP	14555	36-Month Clinic Visit	1.2	complete	mt	36	10:10:00	14:45:00		1		7			1	3	1180	1180	1180
+SUB231149	Atopic	TRSP	14559	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231149	Atopic	TRSP	9844	Birth	1.2	complete	hy	b	17:15:00	17:45:00		0					0		0	0	0
+SUB231150	Atopic	TRSP	14755	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231150	Atopic	TRSP	14747	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231150	Atopic	TRSP	10414	Birth	1.2	complete	hy	b	03:52:00	10:40:00		0					0		0	0	0
+SUB231150	Atopic	TRSP	14751	24-Month Clinic Visit	1.2	complete	mt	24	10:40:00	14:30:00		1		8.1			1	5	746	746	746
+SUB231151	Non-atopic	TRSP	14771	12-Month Clinic Visit	1.2	complete	mt	12	10:24:00	13:37:00		1		14			1	8	403	403	403
+SUB231151	Non-atopic	TRSP	14779	36-Month Clinic Visit	1.2	complete	mt	36	13:40:00	14:50:00		1		7			1	7	1146	1146	1146
+SUB231151	Non-atopic	TRSP	10522	Birth	1.2	complete	wwc	b	03:53:00	10:30:00		0					0		0	0	0
+SUB231151	Non-atopic	TRSP	14775	24-Month Clinic Visit	1.2	complete	mt	24	12:45:00	15:35:00		1		4			1	1.2	755	755	755
+SUB231152	Atopic	TRSP	8235	Birth	1.2	complete	wwc	b	21:13:00	10:30:00		0					0		1	0	1
+SUB231153	Non-atopic	TRSP	14808	24-Month Clinic Visit	1.2	complete	mt	24	11:50:00	13:30:00		0					0		801	801	801
+SUB231153	Non-atopic	TRSP	14812	36-Month Clinic Visit	1.2	complete	mt	36	13:45:00	13:55:00		1		6			1	6	1159	1159	1159
+SUB231153	Non-atopic	TRSP	10623	Birth	1.2	complete	hy	b	16:20:00	08:00:00		0					0		1	0	1
+SUB231153	Non-atopic	TRSP	14804	12-Month Clinic Visit	1.2	complete	mt	12	10:25:00	13:47:00		1		6.6			1	3	439	439	439
+SUB231154	Non-atopic	TRSP	14868	36-Month Clinic Visit	1.2	complete	mt	36	10:00:00	12:30:00		1		10			1	10	1229	1229	1229
+SUB231154	Non-atopic	TRSP	14860	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231154	Non-atopic	TRSP	14864	24-Month Clinic Visit	1.2	complete	mt	24	10:50:00	14:30:00		0					0		712	712	712
+SUB231154	Non-atopic	TRSP	10221	Birth	1.2	complete	wwc	b	13:28:00	05:00:00		1		8			1	2	1	0	1
+SUB231155	Atopic	TRSP	11786	Birth	1.2	complete	hy	b	07:50:00	09:10:00		0					0		0	0	0
+SUB231155	Atopic	TRSP	14871	36-Month Clinic Visit	1.2	complete	mt	36	14:15:00	16:00:00		1		10			1	10	1257	1257	1257
+SUB231155	Atopic	TRSP	14875	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231155	Atopic	TRSP	14879	12-Month Clinic Visit	1.2	complete	mt	12	10:05:00	13:40:00		1		12			1	10	410	410	410
+SUB231156	Non-atopic	TRSP	11903	Birth	1.2	complete	hy	b	12:03:00	12:30:00		1		13			1	2	0	0	0
+SUB231156	Non-atopic	TRSP	15045	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231156	Non-atopic	TRSP	15053	36-Month Clinic Visit	1.2	complete	mt	36	13:40:00	14:55:00		1		10			1	8	1169	1169	1169
+SUB231156	Non-atopic	TRSP	15049	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231157	Non-atopic	TRSP	15177	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231157	Non-atopic	TRSP	11933	Birth	1.2	complete	hy	b	11:02:00	11:42:00		1		10.6			1	2	0	0	0
+SUB231158	Non-atopic	TRSP	15197	12-Month Clinic Visit	1.2	complete	mt	12	12:23:00	14:50:00		1		17.5			1	10	447	447	447
+SUB231158	Non-atopic	TRSP	10931	Birth	1.2	complete	wwc	b	07:33:00	10:30:00		1		8			1	2	0	0	0
+SUB231158	Non-atopic	TRSP	15205	36-Month Clinic Visit	1.2	complete	mt	36	09:45:00	12:45:00		1		10			1	10	1138	1138	1138
+SUB231158	Non-atopic	TRSP	15201	24-Month Clinic Visit	1.2	complete	mt	24	09:20:00	13:30:00		1		10			1	5.4	747	747	747
+SUB231159	Atopic	TRSP	11018	Birth	1.2	complete	wwc	b	11:29:00	14:00:00		1		8			1	2	0	0	0
+SUB231159	Atopic	TRSP	15216	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231159	Atopic	TRSP	15212	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231159	Atopic	TRSP	15208	36-Month Clinic Visit	1.2	complete	jmr	36	10:40:00	14:30:00		1		2			1	6	1166	1166	1166
+SUB231160	Atopic	TRSP	11794	Birth	1.2	complete	mt	b	10:43:00	15:30:00		1		8			1	2	1	0	0
+SUB231161	Atopic	TRSP	15357	12-Month Clinic Visit	1.2	complete	mt	12	10:51:00	13:30:00		1		10			1	10	381	381	381
+SUB231161	Atopic	TRSP	15353	24-Month Clinic Visit	1.2	complete	mt	24	14:35:00	16:00:00		1		19.2			1	10	723	723	723
+SUB231161	Atopic	TRSP	15349	36-Month Clinic Visit	1.2	complete	mt	36	10:15:00	14:50:00		1		10			1	6	1129	1129	1129
+SUB231161	Atopic	TRSP	10419	Birth	1.2	complete	hy	b	09:58:00	13:30:00		0					0		0	0	0
+SUB231162	Atopic	TRSP	11117	Birth	1.2	complete	hy	b	22:48:00	13:30:00		1		13			1	2	1	0	1
+SUB231163	Atopic	TRSP	15524	12-Month Clinic Visit	1.2	complete	mt	12	13:32:00	16:30:00		1		9			1	5	407	407	407
+SUB231163	Atopic	TRSP	11275	Birth	1.2	complete	hy	b	12:07:00	13:30:00		0					0		0	0	0
+SUB231163	Atopic	TRSP	15520	24-Month Clinic Visit	1.2	complete	mt	24	15:00:00	15:10:00		1		10			1	8.1	736	736	736
+SUB231163	Atopic	TRSP	15516	36-Month Clinic Visit	1.2	complete	mt	36	16:30:00	17:15:00		1		7			1	7	1164	1164	1164
+SUB231164	Atopic	TRSP	12398	Birth	1.2	complete	mt	b	02:00:00	18:00:00		1		8			1	2	1	0	0
+SUB231164	Atopic	TRSP	28759	48-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231164	Atopic	TRSP	15536	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231164	Atopic	TRSP	15540	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231164	Atopic	TRSP	15532	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231165	Atopic	TRSP	15552	24-Month Clinic Visit	1.2	complete	mt	24	14:20:00	15:30:00		1		8			1	5	768	768	768
+SUB231165	Atopic	TRSP	15556	12-Month Clinic Visit	1.2	complete	mt	12	13:49:00	16:55:00		0					0		377	377	377
+SUB231165	Atopic	TRSP	11630	Birth	1.2	complete	wwc	b	13:09:00	04:30:00		0					1	2	1	0	1
+SUB231165	Atopic	TRSP	15548	36-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231165	Atopic	TRSP	30041	48-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231166	Atopic	TRSP	15936	24-Month Clinic Visit	1.2	complete	mt	24	09:55:00	15:10:00		1		12.5			1	10	714	714	714
+SUB231166	Atopic	TRSP	15940	12-Month Clinic Visit	1.2	complete	mt	12	11:10:00	14:00:00		1		12.9			1	10	455	455	455
+SUB231166	Atopic	TRSP	15932	36-Month Clinic Visit	1.2	complete	mt	36	13:45:00	14:55:00		1		10			1	5	1126	1126	1126
+SUB231166	Atopic	TRSP	11769	Birth	1.2	complete	mt	b	06:15:00	09:30:00		0					1	2	0	0	0
+SUB231167	Atopic	TRSP	10660	Birth	1.2	complete	mt	b	07:21:00	18:00:00		0					1	2	0	0	0
+SUB231167	Atopic	TRSP	16010	12-Month Clinic Visit	1.2	complete	wwc	12	10:40:00	14:00:00		0					0		415	415	415
+SUB231167	Atopic	TRSP	16002	36-Month Clinic Visit	1.2	complete	mt	36	10:08:00	10:25:00		1		15			1	10	1101	1101	1101
+SUB231167	Atopic	TRSP	16006	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231168	Atopic	TRSP	13065	Birth	1.2	complete	wwc	b	00:23:00	14:15:00		1		8			1	2	1	0	0
+SUB231168	Atopic	TRSP	16666	24-Month Clinic Visit	1.2	complete	mt	24	14:08:00	15:50:00		1		12			1	12	829	829	829
+SUB231168	Atopic	TRSP	16670	12-Month Clinic Visit	1.2	complete	mt	12	16:50:00	18:00:00		0					0		465	465	465
+SUB231168	Atopic	TRSP	16662	36-Month Clinic Visit	1.2	complete	mt	36	14:15:00	14:45:00		1		8			1	8	1108	1108	1108
+SUB231169	Non-atopic	TRSP	19297	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231169	Non-atopic	TRSP	16393	Birth	1.2	complete	mt	b	02:41:00	09:00:00		1		8			1	2	0	0	0
+SUB231169	Non-atopic	TRSP	19305	36-Month Clinic Visit	1.2	complete	mt	36	10:15:00	11:15:00		1		6			1	4	1076	1076	1076
+SUB231169	Non-atopic	TRSP	19301	24-Month Clinic Visit	1.2	complete	mt	24	12:37:00	15:45:00		1		10			1	5	819	819	819
+SUB231170	Non-atopic	TRSP	17514	24-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231170	Non-atopic	TRSP	15911	Birth	1.2	complete	mt	b	11:27:00	12:30:00		0					0		0	0	0
+SUB231170	Non-atopic	TRSP	17510	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231171	Non-atopic	TRSP	16961	Birth	1.2	complete	rw	b	03:55:00	09:00:00		1		8			1	2	0	0	0
+SUB231171	Non-atopic	TRSP	18902	36-Month Clinic Visit	1.2	complete	mt	36	14:30:00	15:15:00		0					0		1066	1066	1066
+SUB231171	Non-atopic	TRSP	18898	24-Month Clinic Visit	1.2	complete	mt	24	13:41:00	17:30:00		1		5			1	2	729	729	729
+SUB231171	Non-atopic	TRSP	18894	12-Month Clinic Visit	1.2	complete	mt	12	11:35:00	14:24:00		1		9			1	9	449	449	449
+SUB231172	Non-atopic	TRSP	18984	36-Month Clinic Visit	1.2	complete	mt	36	10:05:00	12:57:00		1		10			1	10	1070	1070	1070
+SUB231172	Non-atopic	TRSP	18980	24-Month Clinic Visit	1.2	complete	mt	24	10:20:00	12:45:00		1		10			1	10	747	747	747
+SUB231172	Non-atopic	TRSP	18976	12-Month Clinic Visit	1.2	missing	.x	.x													
+SUB231172	Non-atopic	TRSP	17581	Birth	1.2	complete	mt	b	15:41:00	16:45:00		1		8			1	2	0	0	0
+SUB231245	Atopic	TRSP	1816	Birth	1.1	complete	jmc	b	09:30:00	06:00:00		0					1	5	1	0	1

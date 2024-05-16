@@ -1,0 +1,570 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         05/07/09        Created Program
+*   A. Calatroni      03/23/11      Modified Format
+*   K. Jaffee         02/11/15      Add in newer data (HS2) 
+*   S. Lussier        05/30/18      Add in pstress data 
+*   C. Visness        07/10/19      Add in yearly average and maximum pstress data
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=stress,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+/*************************************************************************************
+* NB: THIS PROGRAM INCLUDES ALL THE STRESS FORMS FROM URECA I EXCEPT :
+* PREGNANCY ANXIETY (SEE THE PRENATALSTRESS DATASET)
+* AND PERCEIVED STRESS (SINCE THAT IS COLLECTED QUARTERLY AND NOT ANNUALLY LIKE THE REST OF THESE)
+**************************************************************************************/
+
+/*************************************************************************************
+ EPDS: Edinburgh Postnatal Depression Scale
+**************************************************************************************/
+
+/*proc sort data=master.epds nodupkey out=epdsremdup ; by studyid ; run;*/
+
+data edpsremdup; 
+   set master.epds; 
+   if status = 'complete' and StudyID ^= '.m'; 
+run;
+
+proc sort data=edpsremdup nodupkey out=epdsremdup dupout=test; by studyid avisit;
+proc freq data=epdsremdup; table event; run;
+
+data epds1;
+ set epdsremdup;
+ if studyid='.m' then delete;        **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+**reverse score first two items, which were not scored properly on versions 1.0 and 1.1;
+ if input(version, 8.)=1.0 or input(version, 8.)=1.1 then do;
+   array score (2) epds_q1 epds_q2;
+   do i=1 to 2;
+   if score(i)=0 then score(i)=3;
+   else if score(i)=1 then score(i)=2;
+   else if score(i)=2 then score(i)=1;
+   else if score(i)=3 then score(i)=0;
+   end;
+ end;
+run;
+
+data epds2;
+ set epds1;
+
+ **combine the form versions of same questions;
+ if input(version, 8.)>=1.2 then epds_q1=epds_q1_1;
+ if input(version, 8.)>=1.2 then epds_q2=epds_q2_1;
+
+ epds_score=sum(epds_q1, epds_q2, epds_q3, epds_q4, epds_q5, epds_q6, epds_q7, epds_q8, epds_q9, epds_q10);
+
+      if epds_score >= 12 then hi_epds=1;
+ else if epds_score >.z   then hi_epds=0;
+
+label hi_epds='EPDS Score >= 12'
+      epds_score='EPDS Total Score';
+
+ drop epds_q1_1 epds_q2_1 i;
+run;
+ 
+proc freq data=epds2; table event; run;
+**Note: if version=1.1 and our score is 6 less than their score, our score is correct;
+/*************************************************************************************
+ DLC: Difficult Life Circumstances
+**************************************************************************************/
+data diff;
+ set master.dlc;
+ if studyid='.m' then delete;        **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ if nmiss(of dlc_q1a, dlc_q1b, dlc_q1c, dlc_q1d, dlc_q1e, dlc_q1f,
+              dlc_q2, dlc_q3, dlc_q4a, dlc_q5, dlc_q6, dlc_q7, dlc_q8, dlc_q9,
+              dlc_q10, dlc_q11, dlc_q12, dlc_q13, dlc_q14, dlc_q15, dlc_q16,
+              dlc_q17, dlc_q18, dlc_q19, dlc_q20a, dlc_q20b) ^= 26
+ then dlc_score=SUM(of dlc_q1a, dlc_q1b, dlc_q1c, dlc_q1d, dlc_q1e, dlc_q1f,
+              dlc_q2, dlc_q3, dlc_q4a, dlc_q5, dlc_q6, dlc_q7, dlc_q8, dlc_q9,
+              dlc_q10, dlc_q11, dlc_q12, dlc_q13, dlc_q14, dlc_q15, dlc_q16,
+              dlc_q17, dlc_q18, dlc_q19, dlc_q20a, dlc_q20b);
+
+
+ if nmiss(of dlc_q1a, dlc_q1b, dlc_q1c, dlc_q1d, dlc_q1e, dlc_q1f,
+               dlc_q2, dlc_q3, dlc_q4a, dlc_q5, dlc_q6, dlc_q7, /*dlc_q8, dlc_q9,
+               dlc_q10, dlc_q11,*/ dlc_q12, dlc_q13, dlc_q14, dlc_q15, dlc_q16,
+               dlc_q17, dlc_q18, dlc_q19, dlc_q20a, dlc_q20b) ^= 22
+ then dlc_score2=SUM(of dlc_q1a, dlc_q1b, dlc_q1c, dlc_q1d, dlc_q1e, dlc_q1f,
+               dlc_q2, dlc_q3, dlc_q4a, dlc_q5, dlc_q6, dlc_q7, /*dlc_q8, dlc_q9,
+               dlc_q10, dlc_q11,*/ dlc_q12, dlc_q13, dlc_q14, dlc_q15, dlc_q16,
+               dlc_q17, dlc_q18, dlc_q19, dlc_q20a, dlc_q20b);
+
+ label dlc_score="Difficult Life Circumstances Score"
+       dlc_score2="Difficult Life Circumstances Score - housing questions removed";
+run;
+
+
+proc freq data=diff; table event; run;
+/*************************************************************************************
+ Neighborhood/Block Conditions
+**************************************************************************************/
+data block;
+ set master.nbc;
+ if studyid='.m' then delete;        **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ if nmiss(of nbc_q1_1--nbc_q12_1) ^= 12 then hood_score=SUM(of nbc_q1_1--nbc_q12_1);
+ if nmiss(of nbc_q1_1--nbc_q12_1) ^= 12 and missing(nbc_q11_1)=0 then hood_score2=SUM(of nbc_q1_1--nbc_q12_1)-nbc_q11_1;
+ if nmiss(of nbc_q1_2--nbc_q6_2)  ^= 6  then belong_score=SUM(of nbc_q1_2--nbc_q6_2);
+ block_score=hood_score+belong_score;
+ if nmiss(of nbc_q2_1, nbc_q3_1, nbc_q4_1, nbc_q5_1, nbc_q6_1, nbc_q9_1, nbc_q11_1)  ^= 7  
+   then safety_score=SUM(of nbc_q2_1, nbc_q3_1, nbc_q4_1, nbc_q5_1, nbc_q6_1, nbc_q9_1, nbc_q11_1);
+
+ label    hood_score="Neighborhood Problems Score"
+      hood_score2="Neighborhood Problems Score--unsafe in your home removed"
+      belong_score="Belonging Problems Score"
+      block_score="Total Neighborhood Score"
+      safety_score="Safety Problems Score";
+run;
+
+proc freq data=block; table event; run;
+/*************************************************************************************
+ Neighborhood Violence
+**************************************************************************************/
+data viol;
+ set master.nv;
+ if studyid='.m' then delete;        **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+if nmiss(of nv_q3a, nv_q3b, nv_q3c, nv_q3d, nv_q3e) ^= 5 
+   then viol_score=SUM(of nv_q3a, nv_q3b, nv_q3c, nv_q3d, nv_q3e);
+ label viol_score="Violence Score";
+run;
+
+proc freq data=block; table event; run;
+/*************************************************************************************
+Housing Problems
+**************************************************************************************/
+data house;
+ set master.hs;
+ if studyid='.m' then delete;        **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ if nmiss(of hs_q1a, hs_q1b, hs_q1c, hs_q1d, hs_q1e, hs_q1f, hs_q1g, hs_q1h, hs_q1i, hs_q1j, hs_q1k) ^= 11
+   then house_score=SUM(of hs_q1a, hs_q1b, hs_q1c, hs_q1d, hs_q1e, hs_q1f, hs_q1g, hs_q1h, hs_q1i, hs_q1j, hs_q1k);
+ if nmiss(of hs_q1a1, hs_q1b1, hs_q1c1, hs_q1d1, hs_q1e1, hs_q1f1, hs_q1g1, hs_q1h1, hs_q1i1, hs_q1j1, hs_q1k2) ^= 11
+   then move_score=SUM(of hs_q1a1, hs_q1b1, hs_q1c1, hs_q1d1, hs_q1e1, hs_q1f1, hs_q1g1, hs_q1h1, hs_q1i1, hs_q1j1, hs_q1k2);
+
+ label house_score="Housing Problems Score"
+      move_score="Want to Move Score";
+run;
+
+proc freq data=house; table event; run;
+/*************************************************************************************
+Housing Problems2 - data post 36m 
+**************************************************************************************/
+data house2 ;
+ set master.hs2;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ rename hs2_q1a=hs_q1a
+        hs2_q1b=hs_q1b 
+      hs2_q1c=hs_q1c
+      hs2_q1d=hs_q1d
+      hs2_q1e=hs_q1e
+      hs2_q1f=hs_q1f
+      hs2_q1g=hs_q1g
+      hs2_q1h=hs_q1h
+      hs2_q1i=hs_q1i
+      hs2_q1j=hs_q1j
+      hs2_q1k=hs_q1k 
+      hs2_q2=hs_q2
+      HS2_q3=HS_q3
+      HS2_q6=HS_q6
+      HS2_q7=HS_q7 ;
+
+ house_score=SUM(of hs2_q1a, hs2_q1b, hs2_q1c, hs2_q1d, hs2_q1e, hs2_q1f, hs2_q1g, hs2_q1h, hs2_q1i, hs2_q1j, hs2_q1k);
+
+ label house_score="Housing Problems Score" ;
+run;
+
+data house_all ;
+   length aStudyID $ 14;
+   set house house2 ;
+run ;
+
+proc freq data=house_all; table event; run;
+/*************************************************************************************
+ Social Support
+**************************************************************************************/
+proc sort data=master.ssn nodupkey out=ssn; by studyid avisit;
+proc sort data=master.df  out=df; by studyid avisit;
+
+data ssn;
+ length avisit $ 14;
+ merge ssn df (in= in1 keep=studyid avisit df_q5);
+ by studyid avisit;
+ if in1;
+ if studyid='.m' then delete;         **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ *fix skip patterns;
+ if ssn_q3=0 then ssn_q4=0;
+ if ssn_q5=0 then ssn_q6=0;
+
+ **** code received from Roz Wright;
+ **** I removed the coding for marital status because we have that on Form 3;
+ *---------------------------------------------------------------------*
+         Data Step: VARIABLE CREATION 
+ *---------------------------------------------------------------------*
+         Berkman-Syme Social Network Index 2001 
+ *---------------------------------------------------------------------*;
+ /*DELETING MISSING VALUES*/
+ /*ARRAY SIXseven{10} ssn_q1 NLDAU01S NLSON01S NSCHD01S ssn_q3 ssn_q4
+                   ssn_q5 ssn_q6 TCONF01S CESUP01S ;
+ DO i=1 to 10;
+ If sixseven{i}=6 then sixseven{i}=.;
+ End;
+ if ssn_q2=7 then ssn_q2=.;
+ if CONFI01S=3 then CONFI01S=.; 
+ if NESUP01S=4 then NESUP01S =.;*/
+
+/*COMBINING RELATIVES AND FRIENDS*/
+ relfri=.;
+ if (ssn_q5=0 and (ssn_q3=0 or ssn_q3=1 or ssn_q3=2))
+ or (ssn_q5=1 and (ssn_q3=0 or ssn_q3=1))
+ or (ssn_q5=2 and  ssn_q3=0)
+ then relfri=1;
+
+ if (ssn_q5=0 and  ssn_q3=3)
+ or (ssn_q5=1 and (ssn_q3=2 or ssn_q3=3))
+ or (ssn_q5=2 and (ssn_q3=1 or ssn_q3=2))
+ or (ssn_q5=1 and (ssn_q3=2 or ssn_q3=3))
+ or (ssn_q5=2 and (ssn_q3=1 or ssn_q3=2))
+ or (ssn_q5=3 and (ssn_q3=0 or ssn_q3=1))
+ then relfri=2;
+
+ if (ssn_q5=0 and  ssn_q3=4)
+ or (ssn_q5=1 and  ssn_q3=4)
+ or (ssn_q5=2 and  ssn_q3=3)
+ or (ssn_q5=3 and (ssn_q3=2 or ssn_q3=3))
+ or (ssn_q5=4 and (ssn_q3=0 or ssn_q3=1))
+ then relfri=3;
+
+ if (ssn_q5=2 and  ssn_q3=4)
+ or (ssn_q5=3 and  ssn_q3=4)
+ or (ssn_q5=4 and (ssn_q3=2 or ssn_q3=3 or ssn_q3=4))
+ then relfri=4;
+
+*---------------------------------------------------------------------*
+        Social Isolation Index
+*---------------------------------------------------------------------*;
+ sociali=.;
+ if (relfri=1 and (0=<ssn_q4=<4 and 0=<ssn_q6=<4)) 
+ then sociali=1;
+
+ if (relfri=2 and (0=<ssn_q4=<4 and 0=<ssn_q6=<4))
+ or (relfri=3 and (0=<ssn_q4=<4 and 0=<ssn_q6=<4))
+ or (relfri=4 and (ssn_q4=0 and 0=<ssn_q6=<2))
+ or (relfri=4 and (ssn_q4=1 and 0=<ssn_q6=<1))
+ or (relfri=4 and (ssn_q4=2 and ssn_q6=0))
+ then sociali=2;
+
+ if (relfri=4 and (ssn_q4=0 and 3=<ssn_q6=<4))
+ or (relfri=4 and (ssn_q4=1 and 2=<ssn_q6=<4))
+ or (relfri=4 and (ssn_q4=2 and 1=<ssn_q6=<4))
+ or (relfri=4 and (ssn_q4=3 and 0=<ssn_q6=<4))
+ or (relfri=4 and (ssn_q4=4 and 0=<ssn_q6=<4))
+ then sociali=3;
+
+ /*--------------------------------------------------------------------*
+         Isolation Index (?)
+ *---------------------------------------------------------------------*
+ marsta01='0=marry,1=divorce,2=separ,3=widow,4=nvmarry'
+ *---------------------------------------------------------------------*/
+ ***CV: recode df_q5 to match marsta01;
+ if df_q5 in (2, 3, 4) then marsta01=0; **living with and common-law coded as married;
+ if df_q5=6 then marsta01=1;
+ if df_q5=5 then marsta01=2;
+ if df_q5=7 then marsta01=3;
+ if df_q5=1 then marsta01=4;
+
+ if (sociali=1 and (0<=marsta01<=4)) 
+ or (sociali=2 and (1<=marsta01<=4)) 
+ then indexi=1;
+
+ if (sociali=2 and marsta01=0)
+ or (sociali=3 and (1<=marsta01<=4)) 
+ then indexi=2;
+
+ if (sociali=3 and marsta01=0)
+ then indexi=3;
+
+ *---------------------------------------------------------------------*
+         Social Network Index
+ *---------------------------------------------------------------------*;
+ **Note: Q1 was reverse coded on URECA form compared to ACCESS;
+ if (indexi=2 and (1=<ssn_q1<=4 and 1=<ssn_q2<=6))
+ or (indexi=3 and (1=<ssn_q1<=4 and 1=<ssn_q2<=6))
+ or (indexi=3 and (1=<ssn_q1<=4 and ssn_q2=0))
+ or (indexi=3 and (ssn_q1=0 and 0=<ssn_q2<=6))
+ then network=4;
+
+ if (indexi=2 and (ssn_q1=0 and 1=<ssn_q2<=5))
+ or (indexi=2 and (1=<ssn_q1<=4 and ssn_q2=0))
+ then network=3;
+
+ if (indexi=1 and ssn_q1=0 and 1=<ssn_q2<=5)
+ or (indexi=1 and (1=<ssn_q1<=4 and ssn_q2=0)) 
+ or (indexi=1 and (1=<ssn_q1<=4 and 1=<ssn_q2<=5))
+ or (indexi=2 and (ssn_q1=0 and ssn_q2=0))
+ then network=2;
+
+ if (indexi=1 and (ssn_q1=0 and ssn_q2=0))
+ then network=1;
+
+ *---------------------------------------------------------------------*;
+ msnetw=0; if network=. then msnetw=1;   /*missing*/
+ lonetw=0; if network=1 then lonetw=1;   /*low SN*/
+ mlonetw=0; if network=2 then mlonetw=1; /*mid-low*/
+ mhinetw=0; if network=3 then mhinetw=1; /*mid-high*/
+ hinetw=0; if network=4 then hinetw=1;   /*high*/
+
+ NETWORKM=NETWORK;
+ IF network=. then networkm=0;
+
+ /*making dichotomous variable: high vs. mid-hi, mid-low, low*/
+ if network ne . then do;
+ networkc=0; if network>2 then networkc=1; /*0=low, mid-low mid-hi, 1=hi*/
+ lonetwd=0; if network in (1,2,3) then lonetwd=1;
+ hinetwd=0; if network=4 then hinetwd=1;
+ end;
+
+ label network= 'Social Network Index, 01'
+       networkm='SNI 0=missing, 1=low, 4=high'
+       sociali ='Social Isolation Index, 01'
+       hinetwd='0=low, mid-low, mid-hi, 1=hi'
+       lonetwd='1=low, mid-low, mid-hi, 0=hi';
+run;
+
+proc freq data=ssn; table event; run;
+/*************************************************************************************
+ Socio-economic Status
+**************************************************************************************/
+data ss;
+ set master.ss;
+ if studyid='.m' then delete;        **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ if ss_q4=0 then do;
+   ss_q4a=0;
+   ss_q4b=0;
+   ss_q4c=0;
+   ss_q4d=0;
+ end;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+ hardship_score=SUM(of ss_q1, ss_q2, ss_q3);
+run;
+
+proc freq data=ss; table event; run;
+/*************************************************************************************
+ Socio-economic Status2 - visits after 36m 
+**************************************************************************************/
+data ss2;
+ set master.ss2;
+ if acompletiondate=.x then delete;  **missed visit;
+  ***There is no question 4 series in the second SS form ;
+ rename ss2_q1=ss_q1
+        ss2_q2=ss_q2
+      ss2_q3=ss_q3 ;
+
+ if nmiss(of ss2_q1, ss2_q2, ss2_q3) ^= 3 then hardship_score=SUM(of ss2_q1, ss2_q2, ss2_q3);
+run;
+
+proc freq data=ss2; table event; run;
+proc contents data =  ss;run;
+
+data ss_all ;
+   length aStudyID $ 14 aPI $ 14 aII $ 14 aVisit $ 14;
+   set ss ss2 ;
+run ;
+
+proc freq data=ss_all; table event; run;
+/*************************************************************************************
+ Brief COPE
+**************************************************************************************/
+data cope;
+ set master.bc;
+ if studyid='.m' then delete;  **not enrolled;
+ if acompletiondate=.x then delete;  **missed visit;
+
+ **Each scale is composed of two questions;
+ if nmiss(bc_q1, bc_q5) = 0   then active=bc_q1+bc_q5;
+ if nmiss(bc_q2, bc_q6) = 0   then denial=bc_q2+bc_q6;
+ if nmiss(bc_q3, bc_q9) = 0   then emosupport=bc_q3+bc_q9;
+ if nmiss(bc_q4, bc_q10) = 0  then disengage=bc_q4+bc_q10;
+ if nmiss(bc_q7, bc_q12) = 0  then venting=bc_q7+bc_q12;
+ if nmiss(bc_q8, bc_q15) = 0  then blame=bc_q8+bc_q15;
+ if nmiss(bc_q11, bc_q14) = 0 then accept=bc_q11+bc_q14;
+ if nmiss(bc_q13, bc_q16) = 0 then religion=bc_q13+bc_q16;
+
+label   active="COPE: Active coping scale"
+      denial="COPE: Denial scale"
+      emosupport="COPE: Emotional support scale"
+      disengage="COPE: Disengagement scale"
+      venting="COPE: Venting scale"
+      blame="COPE: Self-blame scale"
+      accept="COPE: Acceptance scale"
+      religion="COPE: Religion scale";
+run;
+ 
+proc freq data=cope; table event; run;
+/*************************************************************************************
+ PSTRESS
+**************************************************************************************/
+data pstress; 
+   set derive.pstress; 
+   keep StudyID avisit pss_score; 
+   if avisit in (0,3,12,24,36,60,84,96,120);
+run;
+
+*Get average and max PSS by year - since it was measured quarterly ;
+proc means data=derive.pstress noprint;
+ by studyid year ;
+ var pss_score;
+ id avisit ;
+ output out=pss_yr(drop=_TYPE_ _FREQ_) mean=mn_pss max=max_pss;
+run;
+
+
+/*************************************************************************************
+ Combine ALL
+**************************************************************************************/
+proc sort data=epds2; by studyid avisit;
+proc sort data=diff; by studyid avisit;
+proc sort data=block; by studyid avisit;
+proc sort data=viol; by studyid avisit;
+proc sort data=house_all; by studyid avisit;
+proc sort data=cope; by studyid avisit;
+proc sort data=ss_all; by studyid avisit;
+proc sort data=ssn; by studyid avisit;
+proc sort data=pstress; by studyid avisit; 
+proc sort data=pss_yr; by studyid avisit; run;
+
+data stress;
+length avisit $ 14;
+merge epds2 (keep=studyid avisit epds_score hi_epds)
+      diff  (keep=studyid avisit dlc_score dlc_score2)
+      block (keep=studyid avisit hood_score hood_score2 belong_score block_score safety_score)
+      viol  (keep=studyid avisit viol_score)
+      house_all (keep=studyid avisit house_score move_score hs_q2--hs_q7)
+      cope  (keep=studyid avisit active denial emosupport disengage venting
+               blame accept religion)
+      ss_all 
+      ssn (keep=studyid avisit sociali indexi network);
+ by studyid avisit;
+ if avisit ne '.a';
+ if avisit='p' then avisit="0";
+run;
+
+proc freq data=stress; table event; run;
+
+data stress;
+ retain studyid avisit event evid version status api aii acompletiondate; 
+ set stress (rename=(avisit=avisit_char));
+ avisit = input(put(avisit_char,$8.),8.);
+ if avisit=81 then avisit=84 ;
+ drop avisit_char astudyid arcrtid;
+run;
+
+proc freq data=stress ;
+   tables avisit ; 
+run ;
+
+/*************************************************************************************
+ Check Duplicates - none as of 2/10/2017 
+**************************************************************************************/
+proc sort nodupkey data=stress out=clean dupout=dups; by studyid avisit;
+run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 0,3,12,24,36,60,84,96,120;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (87, 90, 93, 96) then year=8;
+  if avisit in (120)            then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge with Shell
+**************************************************************************************/
+proc sort data=stress; by studyid avisit;
+proc sort data=shell; by studyid avisit; 
+
+data derive.stress;
+ merge shell stress (drop=recruitid in=c) pstress pss_yr;
+ by studyid avisit;
+ if c=1 then stress=1; else stress=0;
+run;
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.stress
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.stress,*/
+/*          pdfname=stress,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+

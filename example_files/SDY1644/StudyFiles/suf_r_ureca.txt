@@ -1,0 +1,1855 @@
+Accession	group	form	evid	event	version	status	aVisit	SUF_q1	aCompletionDY
+		SUF	4122	Synagis Check	1.0	missing	.x		
+SUB230862	Atopic	SUF	291	Synagis Check	1.0	missing	.x		
+SUB230862	Atopic	SUF	294	6-Month Call	1.0	complete	6	0	161
+SUB230862	Atopic	SUF	292	3-Month Home Visit	1.0	missing	.x		
+SUB230863	Atopic	SUF	306	3-Month Home Visit	1.0	complete	3	0	111
+SUB230863	Atopic	SUF	308	6-Month Call	1.0	complete	6	0	154
+SUB230863	Atopic	SUF	305	Synagis Check	1.0	missing	.x		
+SUB230864	Atopic	SUF	320	3-Month Home Visit	1.0	missing	.x		
+SUB230864	Atopic	SUF	319	Synagis Check	1.0	missing	.x		
+SUB230865	Atopic	SUF	333	Synagis Check	1.0	missing	.x		
+SUB230865	Atopic	SUF	336	6-Month Call	1.0	complete	6	0	153
+SUB230865	Atopic	SUF	334	3-Month Home Visit	1.0	complete	3	0	95
+SUB230866	Atopic	SUF	575	3-Month Home Visit	1.0	complete	3	0	101
+SUB230866	Atopic	SUF	574	Synagis Check	1.0	complete	s	0	98
+SUB230866	Atopic	SUF	577	6-Month Call	1.0	complete	6	0	161
+SUB230867	Atopic	SUF	588	Synagis Check	1.0	missing	.x		
+SUB230867	Atopic	SUF	589	3-Month Home Visit	1.0	complete	3	0	98
+SUB230867	Atopic	SUF	591	6-Month Call	1.0	complete	6	0	159
+SUB230868	Atopic	SUF	789	6-Month Call	1.0	complete	6	0	160
+SUB230868	Atopic	SUF	786	Synagis Check	1.0	complete	s	0	91
+SUB230868	Atopic	SUF	787	3-Month Home Visit	1.0	missing	.x		
+SUB230869	Atopic	SUF	800	Synagis Check	1.0	missing	.x		
+SUB230869	Atopic	SUF	803	6-Month Call	1.0	complete	6	0	159
+SUB230869	Atopic	SUF	801	3-Month Home Visit	1.0	complete	3	0	95
+SUB230870	Atopic	SUF	836	Synagis Check	1.0	complete	s	0	71
+SUB230870	Atopic	SUF	837	3-Month Home Visit	1.0	complete	3	0	92
+SUB230870	Atopic	SUF	839	6-Month Call	1.0	complete	6	0	169
+SUB230871	Atopic	SUF	854	6-Month Call	1.0	complete	6	0	173
+SUB230871	Atopic	SUF	852	3-Month Home Visit	1.0	complete	3	0	81
+SUB230871	Atopic	SUF	851	Synagis Check	1.0	complete	s	0	77
+SUB230872	Atopic	SUF	876	6-Month Call	1.0	complete	6	0	168
+SUB230872	Atopic	SUF	873	Synagis Check	1.0	complete	s	0	64
+SUB230872	Atopic	SUF	874	3-Month Home Visit	1.0	complete	3	0	73
+SUB230873	Atopic	SUF	890	6-Month Call	1.0	complete	6	0	178
+SUB230873	Atopic	SUF	888	3-Month Home Visit	1.0	complete	3	0	81
+SUB230873	Atopic	SUF	887	Synagis Check	1.0	missing	.x		
+SUB230874	Atopic	SUF	902	3-Month Home Visit	1.0	complete	3	0	83
+SUB230874	Atopic	SUF	904	6-Month Call	1.0	complete	6	0	173
+SUB230874	Atopic	SUF	901	Synagis Check	1.0	complete	s	0	80
+SUB230875	Atopic	SUF	915	Synagis Check	1.0	complete	s	0	69
+SUB230875	Atopic	SUF	916	3-Month Home Visit	1.0	complete	3	0	69
+SUB230875	Atopic	SUF	918	6-Month Call	1.0	complete	6	0	196
+SUB230876	Atopic	SUF	970	Synagis Check	1.0	missing	.x		
+SUB230876	Atopic	SUF	973	6-Month Call	1.0	complete	6	0	160
+SUB230876	Atopic	SUF	971	3-Month Home Visit	1.0	complete	3	0	69
+SUB230877	Atopic	SUF	1065	6-Month Call	1.0	complete	6	0	197
+SUB230877	Atopic	SUF	1062	Synagis Check	1.0	missing	.x		
+SUB230877	Atopic	SUF	1063	3-Month Home Visit	1.0	complete	3	0	78
+SUB230880	Atopic	SUF	1492	3-Month Home Visit	1.0	complete	3	0	73
+SUB230880	Atopic	SUF	1494	6-Month Call	1.0	missing	.x		
+SUB230880	Atopic	SUF	1491	Synagis Check	1.0	missing	.x		
+SUB230881	Atopic	SUF	1594	3-Month Home Visit	1.0	complete	3	0	95
+SUB230881	Atopic	SUF	1593	Synagis Check	1.0	missing	.x		
+SUB230881	Atopic	SUF	1596	6-Month Call	1.0	complete	6	0	205
+SUB230882	Atopic	SUF	1770	6-Month Call	1.0	complete	6	0	203
+SUB230882	Atopic	SUF	1768	3-Month Home Visit	1.0	complete	3	0	65
+SUB230882	Atopic	SUF	1767	Synagis Check	1.0	complete	s	0	64
+SUB230883	Atopic	SUF	1781	Synagis Check	1.0	complete	s	0	105
+SUB230883	Atopic	SUF	1782	3-Month Home Visit	1.0	complete	3	0	106
+SUB230883	Atopic	SUF	1784	6-Month Call	1.0	complete	6	0	176
+SUB230884	Atopic	SUF	1808	3-Month Home Visit	1.0	complete	3	0	85
+SUB230884	Atopic	SUF	1806	6-Month Call	1.0	complete	6	0	224
+SUB230884	Atopic	SUF	1811	Synagis Check	1.0	complete	s	0	77
+SUB230885	Atopic	SUF	1846	6-Month Call	1.0	complete	6	0	169
+SUB230885	Atopic	SUF	1851	Synagis Check	1.0	complete	s	0	71
+SUB230885	Atopic	SUF	1848	3-Month Home Visit	1.0	complete	3	0	76
+SUB230886	Atopic	SUF	2103	3-Month Home Visit	1.0	complete	3	0	86
+SUB230886	Atopic	SUF	2106	Synagis Check	1.0	complete	s	0	65
+SUB230886	Atopic	SUF	2101	6-Month Call	1.0	complete	6	0	196
+SUB230887	Atopic	SUF	2117	6-Month Call	1.0	complete	6	0	167
+SUB230887	Atopic	SUF	2122	Synagis Check	1.0	complete	s	0	78
+SUB230887	Atopic	SUF	2119	3-Month Home Visit	1.0	complete	3	0	93
+SUB230888	Atopic	SUF	2171	3-Month Home Visit	1.0	complete	3	0	105
+SUB230888	Atopic	SUF	2174	Synagis Check	1.0	complete	s	0	97
+SUB230888	Atopic	SUF	2169	6-Month Call	1.0	complete	6	0	209
+SUB230889	Atopic	SUF	2187	3-Month Home Visit	1.0	complete	3	0	96
+SUB230889	Atopic	SUF	2185	6-Month Call	1.0	complete	6	0	225
+SUB230889	Atopic	SUF	2190	Synagis Check	1.0	complete	s	0	74
+SUB230890	Atopic	SUF	2201	6-Month Call	1.0	complete	6	0	219
+SUB230890	Atopic	SUF	2203	3-Month Home Visit	1.0	complete	3	0	74
+SUB230890	Atopic	SUF	2206	Synagis Check	1.0	complete	s	0	65
+SUB230891	Atopic	SUF	2225	3-Month Home Visit	1.0	complete	3	0	116
+SUB230891	Atopic	SUF	2223	6-Month Call	1.0	complete	6	0	196
+SUB230891	Atopic	SUF	2228	Synagis Check	1.0	complete	s	0	115
+SUB230892	Atopic	SUF	2286	Synagis Check	1.0	complete	s	0	79
+SUB230892	Atopic	SUF	2283	3-Month Home Visit	1.0	complete	3	0	103
+SUB230892	Atopic	SUF	2281	6-Month Call	1.0	complete	6	0	158
+SUB230893	Atopic	SUF	2468	Synagis Check	1.0	missing	.x		
+SUB230893	Atopic	SUF	2463	6-Month Call	1.0	complete	6	0	172
+SUB230893	Atopic	SUF	2465	3-Month Home Visit	1.0	complete	3	0	109
+SUB230894	Atopic	SUF	2629	3-Month Home Visit	1.0	complete	3	0	100
+SUB230894	Atopic	SUF	2627	6-Month Call	1.0	complete	6	0	203
+SUB230894	Atopic	SUF	2632	Synagis Check	1.0	complete	s	0	94
+SUB230895	Atopic	SUF	2648	Synagis Check	1.0	complete	s	0	65
+SUB230895	Atopic	SUF	2645	3-Month Home Visit	1.0	complete	3	0	89
+SUB230895	Atopic	SUF	2643	6-Month Call	1.0	complete	6	0	178
+SUB230896	Atopic	SUF	2674	Synagis Check	1.0	complete	s	0	118
+SUB230896	Atopic	SUF	2671	3-Month Home Visit	1.0	complete	3	0	120
+SUB230896	Atopic	SUF	2669	6-Month Call	1.0	complete	6	0	197
+SUB230896	Atopic	SUF	2666	15-Month Call	1.0	missing	.x		
+SUB230897	Atopic	SUF	2749	3-Month Home Visit	1.0	complete	3	0	73
+SUB230897	Atopic	SUF	2747	6-Month Call	1.0	complete	6	0	177
+SUB230897	Atopic	SUF	2752	Synagis Check	1.0	complete	s	0	70
+SUB230898	Atopic	SUF	2787	3-Month Home Visit	1.0	complete	3	0	74
+SUB230898	Atopic	SUF	2785	6-Month Call	1.0	complete	6	0	186
+SUB230898	Atopic	SUF	2790	Synagis Check	1.0	complete	s	0	68
+SUB230899	Atopic	SUF	3001	Synagis Check	1.0	complete	s	0	77
+SUB230899	Atopic	SUF	2996	6-Month Call	1.0	complete	6	0	173
+SUB230899	Atopic	SUF	2998	3-Month Home Visit	1.0	complete	3	0	81
+SUB230900	Atopic	SUF	3012	6-Month Call	1.0	complete	6	0	-139
+SUB230900	Atopic	SUF	3014	3-Month Home Visit	1.0	complete	3	0	66
+SUB230900	Atopic	SUF	3017	Synagis Check	1.0	complete	s	0	64
+SUB230901	Atopic	SUF	3033	Synagis Check	1.0	complete	s	0	121
+SUB230901	Atopic	SUF	3028	6-Month Call	1.0	complete	6	0	168
+SUB230901	Atopic	SUF	3030	3-Month Home Visit	1.0	complete	3	0	127
+SUB230902	Atopic	SUF	3049	Synagis Check	1.0	complete	s	0	73
+SUB230902	Atopic	SUF	3044	6-Month Call	1.0	complete	6	0	177
+SUB230902	Atopic	SUF	3046	3-Month Home Visit	1.0	complete	3	0	108
+SUB230903	Atopic	SUF	3105	3-Month Home Visit	1.0	complete	3	0	68
+SUB230903	Atopic	SUF	3103	6-Month Call	1.0	complete	6	0	178
+SUB230903	Atopic	SUF	3108	Synagis Check	1.0	complete	s	0	61
+SUB230904	Atopic	SUF	3130	Synagis Check	1.0	complete	s	0	70
+SUB230904	Atopic	SUF	3127	3-Month Home Visit	1.0	complete	3	0	91
+SUB230904	Atopic	SUF	3125	6-Month Call	1.0	complete	6	0	184
+SUB230905	Atopic	SUF	3274	3-Month Home Visit	1.0	complete	3	0	106
+SUB230905	Atopic	SUF	3277	Synagis Check	1.0	complete	s	0	59
+SUB230905	Atopic	SUF	3272	6-Month Call	1.0	complete	6	0	193
+SUB230906	Atopic	SUF	3310	3-Month Home Visit	1.0	complete	3	0	116
+SUB230906	Atopic	SUF	3313	Synagis Check	1.0	complete	s	0	86
+SUB230906	Atopic	SUF	3308	6-Month Call	1.0	complete	6	0	222
+SUB230907	Atopic	SUF	3350	3-Month Home Visit	1.0	complete	3	0	97
+SUB230907	Atopic	SUF	3348	6-Month Call	1.0	complete	6	0	216
+SUB230907	Atopic	SUF	3353	Synagis Check	1.0	complete	s	0	90
+SUB230908	Atopic	SUF	3375	6-Month Call	1.0	complete	6	0	218
+SUB230908	Atopic	SUF	3380	Synagis Check	1.0	complete	s	0	122
+SUB230908	Atopic	SUF	3377	3-Month Home Visit	1.0	complete	3	0	133
+SUB230909	Atopic	SUF	3459	6-Month Call	1.0	complete	6	0	177
+SUB230909	Atopic	SUF	3464	Synagis Check	1.0	complete	s	0	73
+SUB230909	Atopic	SUF	3461	3-Month Home Visit	1.0	complete	3	0	78
+SUB230910	Atopic	SUF	3480	Synagis Check	1.0	complete	s	0	127
+SUB230910	Atopic	SUF	3477	3-Month Home Visit	1.0	complete	3	0	162
+SUB230910	Atopic	SUF	3475	6-Month Call	1.0	complete	6	0	224
+SUB230911	Atopic	SUF	3540	6-Month Call	1.0	complete	6	0	181
+SUB230911	Atopic	SUF	3545	Synagis Check	1.0	missing	.x		
+SUB230911	Atopic	SUF	3542	3-Month Home Visit	1.0	complete	3	0	95
+SUB230912	Atopic	SUF	3591	Synagis Check	1.0	complete	s	0	84
+SUB230912	Atopic	SUF	3586	6-Month Call	1.0	complete	6	0	180
+SUB230912	Atopic	SUF	3588	3-Month Home Visit	1.0	complete	3	0	90
+SUB230913	Atopic	SUF	3615	3-Month Home Visit	1.0	complete	3	0	129
+SUB230913	Atopic	SUF	3618	Synagis Check	1.0	complete	s	0	68
+SUB230913	Atopic	SUF	3613	6-Month Call	1.0	complete	6	0	214
+SUB230914	Atopic	SUF	3629	6-Month Call	1.0	complete	6	0	214
+SUB230914	Atopic	SUF	3631	3-Month Home Visit	1.0	complete	3	0	129
+SUB230914	Atopic	SUF	3634	Synagis Check	1.0	complete	s	0	67
+SUB230915	Atopic	SUF	3648	6-Month Call	1.0	complete	6	0	213
+SUB230915	Atopic	SUF	3650	3-Month Home Visit	1.0	complete	3	0	74
+SUB230915	Atopic	SUF	3653	Synagis Check	1.0	complete	s	0	66
+SUB230916	Atopic	SUF	3723	3-Month Home Visit	1.0	complete	3	0	109
+SUB230916	Atopic	SUF	3726	Synagis Check	1.0	complete	s	0	108
+SUB230916	Atopic	SUF	3721	6-Month Call	1.0	complete	6	0	207
+SUB230917	Atopic	SUF	3743	3-Month Home Visit	1.0	complete	3	0	124
+SUB230917	Atopic	SUF	3746	Synagis Check	1.0	complete	s	0	65
+SUB230917	Atopic	SUF	3741	6-Month Call	1.0	complete	6	0	204
+SUB230918	Atopic	SUF	3786	Synagis Check	1.0	complete	s	0	61
+SUB230918	Atopic	SUF	3781	6-Month Call	1.0	complete	6	0	188
+SUB230918	Atopic	SUF	3783	3-Month Home Visit	1.0	complete	3	0	104
+SUB230919	Atopic	SUF	3799	3-Month Home Visit	1.0	complete	3	0	82
+SUB230919	Atopic	SUF	3797	6-Month Call	1.0	complete	6	0	209
+SUB230919	Atopic	SUF	3802	Synagis Check	1.0	complete	s	0	61
+SUB230920	Atopic	SUF	3846	6-Month Call	1.0	complete	6	0	212
+SUB230920	Atopic	SUF	3848	3-Month Home Visit	1.0	complete	3	0	101
+SUB230920	Atopic	SUF	3851	Synagis Check	1.0	complete	s	0	67
+SUB230921	Atopic	SUF	3909	3-Month Home Visit	1.0	complete	3	0	79
+SUB230921	Atopic	SUF	3907	6-Month Call	1.0	complete	6	0	227
+SUB230921	Atopic	SUF	3912	Synagis Check	1.0	complete	s	0	70
+SUB230922	Atopic	SUF	3966	Synagis Check	1.0	complete	s	0	70
+SUB230922	Atopic	SUF	3961	6-Month Call	1.0	complete	6	0	173
+SUB230922	Atopic	SUF	3963	3-Month Home Visit	1.0	complete	3	0	77
+SUB230923	Atopic	SUF	4063	Synagis Check	1.0	complete	s	0	65
+SUB230923	Atopic	SUF	4058	6-Month Call	1.0	complete	6	0	173
+SUB230923	Atopic	SUF	4060	3-Month Home Visit	1.0	complete	3	0	73
+SUB230924	Atopic	SUF	4084	6-Month Call	1.0	complete	6	0	212
+SUB230924	Atopic	SUF	4089	Synagis Check	1.0	complete	s	0	65
+SUB230924	Atopic	SUF	4086	3-Month Home Visit	1.0	complete	3	0	72
+SUB230925	Atopic	SUF	4217	Synagis Check	1.0	complete	s	0	103
+SUB230925	Atopic	SUF	4214	3-Month Home Visit	1.0	complete	3	0	108
+SUB230925	Atopic	SUF	4212	6-Month Call	1.0	complete	6	0	207
+SUB230926	Atopic	SUF	4355	6-Month Call	1.0	complete	6	0	200
+SUB230926	Atopic	SUF	4360	Synagis Check	1.0	complete	s	0	80
+SUB230926	Atopic	SUF	4357	3-Month Home Visit	1.0	complete	3	0	99
+SUB230927	Atopic	SUF	4653	Synagis Check	1.0	complete	s	0	94
+SUB230927	Atopic	SUF	4650	3-Month Home Visit	1.0	missing	.x		
+SUB230927	Atopic	SUF	4648	6-Month Call	1.0	complete	6	0	179
+SUB230928	Atopic	SUF	4673	6-Month Call	1.0	complete	6	0	195
+SUB230928	Atopic	SUF	4675	3-Month Home Visit	1.0	complete	3	0	85
+SUB230928	Atopic	SUF	4678	Synagis Check	1.0	complete	s	0	78
+SUB230929	Atopic	SUF	4713	6-Month Call	1.0	complete	6	0	191
+SUB230929	Atopic	SUF	4718	Synagis Check	1.0	complete	s	0	78
+SUB230929	Atopic	SUF	4715	3-Month Home Visit	1.0	complete	3	0	139
+SUB230930	Atopic	SUF	4802	3-Month Home Visit	1.0	complete	3	0	81
+SUB230930	Atopic	SUF	4800	6-Month Call	1.0	complete	6	0	179
+SUB230930	Atopic	SUF	4805	Synagis Check	1.0	complete	s	0	77
+SUB230931	Atopic	SUF	5056	Synagis Check	1.0	complete	s	0	77
+SUB230932	Atopic	SUF	5187	6-Month Call	1.0	complete	6	0	185
+SUB230932	Atopic	SUF	5190	Synagis Check	1.0	complete	s	0	68
+SUB230932	Atopic	SUF	5189	3-Month Home Visit	1.0	complete	3	0	88
+SUB230933	Atopic	SUF	5337	3-Month Home Visit	1.0	complete	3	0	66
+SUB230933	Atopic	SUF	5335	6-Month Call	1.0	complete	6	0	200
+SUB230933	Atopic	SUF	5338	Synagis Check	1.0	complete	s	0	64
+SUB230934	Atopic	SUF	5353	3-Month Home Visit	1.0	complete	3	0	72
+SUB230934	Atopic	SUF	5351	6-Month Call	1.0	complete	6	0	203
+SUB230934	Atopic	SUF	5354	Synagis Check	1.0	complete	s	0	67
+SUB230935	Atopic	SUF	5373	Synagis Check	1.0	complete	s	0	73
+SUB230935	Atopic	SUF	5372	3-Month Home Visit	1.0	complete	3	0	79
+SUB230935	Atopic	SUF	5370	6-Month Call	1.0	complete	6	0	201
+SUB230936	Atopic	SUF	5526	Synagis Check	1.0	complete	s	0	62
+SUB230936	Atopic	SUF	5523	6-Month Call	1.0	complete	6	0	229
+SUB230936	Atopic	SUF	5525	3-Month Home Visit	1.0	complete	3	0	83
+SUB230937	Atopic	SUF	5646	6-Month Call	1.0	complete	6	0	227
+SUB230937	Atopic	SUF	5649	Synagis Check	1.0	complete	s	0	62
+SUB230937	Atopic	SUF	5648	3-Month Home Visit	1.0	complete	3	0	69
+SUB230938	Atopic	SUF	5795	6-Month Call	1.0	missing	.x		
+SUB230938	Atopic	SUF	5798	Synagis Check	1.0	complete	s	0	63
+SUB230938	Atopic	SUF	5797	3-Month Home Visit	1.0	complete	3	0	71
+SUB230939	Atopic	SUF	5930	6-Month Call	1.0	complete	6	0	233
+SUB230939	Atopic	SUF	5932	3-Month Home Visit	1.0	complete	3	0	74
+SUB230939	Atopic	SUF	5933	Synagis Check	1.0	complete	s	0	62
+SUB230940	Atopic	SUF	5950	3-Month Home Visit	1.0	complete	3	0	80
+SUB230940	Atopic	SUF	5951	Synagis Check	1.0	complete	s	0	76
+SUB230940	Atopic	SUF	5948	6-Month Call	1.0	complete	6	0	205
+SUB230941	Atopic	SUF	6061	6-Month Call	1.0	complete	6	0	209
+SUB230941	Atopic	SUF	6064	Synagis Check	1.0	complete	s	0	113
+SUB230941	Atopic	SUF	6063	3-Month Home Visit	1.0	complete	3	0	114
+SUB230942	Atopic	SUF	6080	Synagis Check	1.0	complete	s	0	69
+SUB230942	Atopic	SUF	6079	3-Month Home Visit	1.0	complete	3	0	77
+SUB230942	Atopic	SUF	6077	6-Month Call	1.0	complete	6	0	198
+SUB230943	Atopic	SUF	6097	Synagis Check	1.0	complete	s	0	67
+SUB230943	Atopic	SUF	6094	6-Month Call	1.0	complete	6	0	172
+SUB230943	Atopic	SUF	6096	3-Month Home Visit	1.0	complete	3	0	75
+SUB230944	Atopic	SUF	6111	6-Month Call	1.0	complete	6	0	222
+SUB230944	Atopic	SUF	6114	Synagis Check	1.0	complete	s	0	88
+SUB230944	Atopic	SUF	6113	3-Month Home Visit	1.0	complete	3	0	93
+SUB230945	Atopic	SUF	6196	6-Month Call	1.0	complete	6	0	226
+SUB230945	Atopic	SUF	6199	Synagis Check	1.0	complete	s	0	118
+SUB230945	Atopic	SUF	6198	3-Month Home Visit	1.0	complete	3	0	121
+SUB230946	Atopic	SUF	6361	Synagis Check	1.0	complete	s	0	65
+SUB230946	Atopic	SUF	6360	3-Month Home Visit	1.0	complete	3	0	100
+SUB230946	Atopic	SUF	6358	6-Month Call	1.0	complete	6	0	212
+SUB230947	Atopic	SUF	6449	3-Month Home Visit	1.0	complete	3	0	68
+SUB230947	Atopic	SUF	6450	Synagis Check	1.0	complete	s	0	62
+SUB230947	Atopic	SUF	6447	6-Month Call	1.0	complete	6	0	222
+SUB230948	Atopic	SUF	6466	3-Month Home Visit	1.0	complete	3	0	123
+SUB230948	Atopic	SUF	6464	6-Month Call	1.0	complete	6	0	221
+SUB230948	Atopic	SUF	6467	Synagis Check	1.0	complete	s	0	106
+SUB230949	Atopic	SUF	6487	3-Month Home Visit	1.0	complete	3	0	129
+SUB230949	Atopic	SUF	6485	6-Month Call	1.0	complete	6	0	219
+SUB230949	Atopic	SUF	6488	Synagis Check	1.0	missing	.x		
+SUB230950	Atopic	SUF	6620	3-Month Home Visit	1.0	complete	3	0	104
+SUB230950	Atopic	SUF	6618	6-Month Call	1.0	complete	6	0	224
+SUB230950	Atopic	SUF	6621	Synagis Check	1.0	complete	s	0	99
+SUB230951	Atopic	SUF	6643	6-Month Call	1.0	complete	6	0	186
+SUB230951	Atopic	SUF	6645	3-Month Home Visit	1.0	complete	3	0	83
+SUB230951	Atopic	SUF	6646	Synagis Check	1.0	complete	s	0	79
+SUB230952	Atopic	SUF	6715	Synagis Check	1.0	complete	s	0	113
+SUB230952	Atopic	SUF	6714	3-Month Home Visit	1.0	complete	3	0	113
+SUB230952	Atopic	SUF	6712	6-Month Call	1.0	complete	6	0	220
+SUB230953	Atopic	SUF	6729	6-Month Call	1.0	complete	6	0	248
+SUB230953	Atopic	SUF	6731	3-Month Home Visit	1.0	complete	3	0	80
+SUB230953	Atopic	SUF	6732	Synagis Check	1.0	complete	s	0	74
+SUB230954	Atopic	SUF	6899	6-Month Call	1.0	complete	6	0	209
+SUB230954	Atopic	SUF	6902	Synagis Check	1.0	complete	s	0	90
+SUB230954	Atopic	SUF	6901	3-Month Home Visit	1.0	complete	3	0	98
+SUB230955	Atopic	SUF	7031	6-Month Call	1.0	complete	6	0	195
+SUB230955	Atopic	SUF	7034	Synagis Check	1.0	complete	s	0	60
+SUB230955	Atopic	SUF	7033	3-Month Home Visit	1.0	complete	3	0	75
+SUB230956	Atopic	SUF	7106	6-Month Call	1.0	complete	6	0	206
+SUB230956	Atopic	SUF	7108	3-Month Home Visit	1.0	complete	3	0	97
+SUB230956	Atopic	SUF	7109	Synagis Check	1.0	complete	s	0	87
+SUB230957	Atopic	SUF	7401	3-Month Home Visit	1.0	complete	3	0	80
+SUB230957	Atopic	SUF	7402	Synagis Check	1.0	complete	s	0	59
+SUB230957	Atopic	SUF	7399	6-Month Call	1.0	complete	6	0	197
+SUB230958	Atopic	SUF	7485	3-Month Home Visit	1.0	complete	3	0	110
+SUB230958	Atopic	SUF	7483	6-Month Call	1.0	complete	6	0	193
+SUB230958	Atopic	SUF	7486	Synagis Check	1.0	complete	s	0	74
+SUB230959	Atopic	SUF	7507	6-Month Call	1.0	complete	6	0	209
+SUB230959	Atopic	SUF	7509	3-Month Home Visit	1.0	complete	3	0	83
+SUB230959	Atopic	SUF	7510	Synagis Check	1.0	complete	s	0	73
+SUB230960	Atopic	SUF	7543	3-Month Home Visit	1.0	complete	3	0	86
+SUB230960	Atopic	SUF	7544	Synagis Check	1.0	missing	.x		
+SUB230960	Atopic	SUF	7541	6-Month Call	1.0	complete	6	0	207
+SUB230961	Atopic	SUF	7614	6-Month Call	1.0	complete	6	0	197
+SUB230961	Atopic	SUF	7616	3-Month Home Visit	1.0	complete	3	0	127
+SUB230961	Atopic	SUF	7617	Synagis Check	1.0	complete	s	0	90
+SUB230962	Atopic	SUF	7928	Synagis Check	1.0	complete	s	0	81
+SUB230962	Atopic	SUF	7927	3-Month Home Visit	1.0	complete	3	0	89
+SUB230962	Atopic	SUF	7925	6-Month Call	1.0	missing	.x		
+SUB230963	Atopic	SUF	7959	3-Month Home Visit	1.0	complete	3	0	122
+SUB230963	Atopic	SUF	7957	6-Month Call	1.0	complete	6	0	216
+SUB230963	Atopic	SUF	7960	Synagis Check	1.0	complete	s	0	82
+SUB230964	Atopic	SUF	8011	Synagis Check	1.0	complete	s	0	93
+SUB230964	Atopic	SUF	8010	3-Month Home Visit	1.0	complete	3	0	99
+SUB230964	Atopic	SUF	8008	6-Month Call	1.0	complete	6	0	212
+SUB230965	Atopic	SUF	8042	3-Month Home Visit	1.0	complete	3	0	99
+SUB230965	Atopic	SUF	8043	Synagis Check	1.0	complete	s	0	93
+SUB230965	Atopic	SUF	8040	6-Month Call	1.0	complete	6	0	212
+SUB230966	Atopic	SUF	8177	Synagis Check	1.0	complete	s	0	85
+SUB230966	Atopic	SUF	8174	6-Month Call	1.0	complete	6	0	195
+SUB230966	Atopic	SUF	8176	3-Month Home Visit	1.0	complete	3	0	103
+SUB230967	Atopic	SUF	8216	6-Month Call	1.0	complete	6	0	215
+SUB230967	Atopic	SUF	8218	3-Month Home Visit	1.0	complete	3	0	83
+SUB230967	Atopic	SUF	8219	Synagis Check	1.0	complete	s	0	76
+SUB230968	Atopic	SUF	8257	3-Month Home Visit	1.0	missing	.x		
+SUB230968	Atopic	SUF	8258	Synagis Check	1.0	missing	.x		
+SUB230968	Atopic	SUF	8255	6-Month Call	1.0	complete	6	0	215
+SUB230969	Atopic	SUF	8585	Synagis Check	1.0	complete	s	0	61
+SUB230969	Atopic	SUF	8582	6-Month Call	1.0	complete	6	0	193
+SUB230969	Atopic	SUF	8584	3-Month Home Visit	1.0	complete	3	0	76
+SUB230970	Atopic	SUF	8884	Synagis Check	1.0	complete	s	0	70
+SUB230970	Atopic	SUF	8881	6-Month Call	1.0	complete	6	0	187
+SUB230970	Atopic	SUF	8883	3-Month Home Visit	1.0	complete	3	0	83
+SUB230971	Atopic	SUF	8899	3-Month Home Visit	1.0	missing	.x		
+SUB230971	Atopic	SUF	8897	6-Month Call	1.0	complete	6	0	173
+SUB230971	Atopic	SUF	8900	Synagis Check	1.0	complete	s	0	69
+SUB230972	Atopic	SUF	9137	Synagis Check	1.0	complete	s	0	99
+SUB230972	Atopic	SUF	9136	3-Month Home Visit	1.0	complete	3	0	113
+SUB230972	Atopic	SUF	9134	6-Month Call	1.0	complete	6	0	191
+SUB230973	Atopic	SUF	9152	3-Month Home Visit	1.0	complete	3	0	73
+SUB230973	Atopic	SUF	9150	6-Month Call	1.0	complete	6	0	193
+SUB230973	Atopic	SUF	9153	Synagis Check	1.0	complete	s	0	63
+SUB230974	Atopic	SUF	9208	3-Month Home Visit	1.0	complete	3	0	114
+SUB230974	Atopic	SUF	9206	6-Month Call	1.0	complete	6	0	227
+SUB230974	Atopic	SUF	9209	Synagis Check	1.0	complete	s	0	111
+SUB230975	Atopic	SUF	9254	6-Month Call	1.0	complete	6	0	228
+SUB230975	Atopic	SUF	9256	3-Month Home Visit	1.0	complete	3	0	125
+SUB230975	Atopic	SUF	9257	Synagis Check	1.0	complete	s	0	111
+SUB230976	Atopic	SUF	9406	3-Month Home Visit	1.0	complete	3	0	88
+SUB230976	Atopic	SUF	9407	Synagis Check	1.0	complete	s	0	76
+SUB230976	Atopic	SUF	9404	6-Month Call	1.0	complete	6	0	178
+SUB230977	Atopic	SUF	9630	6-Month Call	1.0	complete	6	0	203
+SUB230977	Atopic	SUF	9633	Synagis Check	1.0	complete	s	0	87
+SUB230977	Atopic	SUF	9632	3-Month Home Visit	1.0	complete	3	0	95
+SUB230978	Atopic	SUF	9719	3-Month Home Visit	1.0	complete	3	0	96
+SUB230978	Atopic	SUF	9717	6-Month Call	1.0	complete	6	0	183
+SUB230978	Atopic	SUF	9720	Synagis Check	1.0	complete	s	0	90
+SUB230979	Atopic	SUF	9774	6-Month Call	1.0	complete	6	0	194
+SUB230979	Atopic	SUF	9776	3-Month Home Visit	1.0	missing	.x		
+SUB230979	Atopic	SUF	9777	Synagis Check	1.0	missing	.x		
+SUB230980	Atopic	SUF	9830	Synagis Check	1.0	complete	s	0	98
+SUB230980	Atopic	SUF	9829	3-Month Home Visit	1.0	complete	3	0	98
+SUB230980	Atopic	SUF	9827	6-Month Call	1.0	complete	6	0	189
+SUB230981	Atopic	SUF	10065	3-Month Home Visit	1.0	complete	3	0	112
+SUB230981	Atopic	SUF	10066	Synagis Check	1.0	complete	s	0	111
+SUB230981	Atopic	SUF	10063	6-Month Call	1.2	complete	6	0	232
+SUB230982	Atopic	SUF	10097	Synagis Check	1.0	complete	s	0	90
+SUB230982	Atopic	SUF	10094	6-Month Call	1.0	complete	6	0	181
+SUB230982	Atopic	SUF	10096	3-Month Home Visit	1.0	complete	3	0	103
+SUB230983	Atopic	SUF	10115	Synagis Check	1.0	complete	s	0	116
+SUB230983	Atopic	SUF	10114	3-Month Home Visit	1.0	complete	3	0	122
+SUB230983	Atopic	SUF	10112	6-Month Call	1.0	complete	6	0	181
+SUB230984	Atopic	SUF	10160	12-Month Clinic Visit	1.3	missing	.x		
+SUB230984	Atopic	SUF	10158	18-Month Call	1.3	complete	s	0	548
+SUB230984	Atopic	SUF	10165	Synagis Check	1.0	missing	.x		
+SUB230984	Atopic	SUF	10164	3-Month Home Visit	1.0	missing	.x		
+SUB230984	Atopic	SUF	10161	9-Month Call	1.2	missing	.x		
+SUB230984	Atopic	SUF	10162	6-Month Call	1.2	missing	.x		
+SUB230984	Atopic	SUF	10159	15-Month Call	1.3	missing	.x		
+SUB230985	Atopic	SUF	10363	6-Month Call	1.2	complete	6	0	201
+SUB230985	Atopic	SUF	10365	3-Month Home Visit	1.0	missing	.x		
+SUB230985	Atopic	SUF	10366	Synagis Check	1.0	missing	.x		
+SUB230986	Atopic	SUF	10380	6-Month Call	1.0	complete	6	0	168
+SUB230986	Atopic	SUF	10383	Synagis Check	1.0	complete	s	0	76
+SUB230986	Atopic	SUF	10382	3-Month Home Visit	1.0	complete	3	0	82
+SUB230987	Atopic	SUF	10605	Synagis Check	1.0	complete	s	0	87
+SUB230987	Atopic	SUF	10602	6-Month Call	1.0	complete	6	0	177
+SUB230987	Atopic	SUF	10604	3-Month Home Visit	1.0	complete	3	0	94
+SUB230988	Atopic	SUF	10716	Synagis Check	1.0	complete	s	0	71
+SUB230988	Atopic	SUF	10715	3-Month Home Visit	1.0	complete	3	0	77
+SUB230988	Atopic	SUF	10713	6-Month Call	1.0	complete	6	0	177
+SUB230989	Atopic	SUF	11322	6-Month Call	1.2	complete	6	0	215
+SUB230989	Atopic	SUF	11325	Synagis Check	1.0	complete	s	0	89
+SUB230989	Atopic	SUF	11324	3-Month Home Visit	1.0	complete	3	0	94
+SUB230990	Atopic	SUF	11341	Synagis Check	1.0	complete	s	0	76
+SUB230990	Atopic	SUF	11338	6-Month Call	1.2	complete	6	0	180
+SUB230990	Atopic	SUF	11340	3-Month Home Visit	1.0	complete	3	0	84
+SUB230991	Atopic	SUF	11378	Synagis Check	1.0	complete	s	0	71
+SUB230991	Atopic	SUF	11375	6-Month Call	1.2	complete	6	0	184
+SUB230991	Atopic	SUF	11377	3-Month Home Visit	1.0	complete	3	0	73
+SUB230992	Atopic	SUF	11516	Synagis Check	1.0	complete	s	0	96
+SUB230992	Atopic	SUF	11513	6-Month Call	1.2	complete	6	0	188
+SUB230992	Atopic	SUF	11515	3-Month Home Visit	1.0	missing	.x		
+SUB230993	Atopic	SUF	11529	6-Month Call	1.2	complete	6	0	227
+SUB230993	Atopic	SUF	11531	3-Month Home Visit	1.0	complete	3	0	116
+SUB230993	Atopic	SUF	11532	Synagis Check	1.0	missing	.x		
+SUB230994	Atopic	SUF	11841	3-Month Home Visit	1.0	complete	3	0	80
+SUB230994	Atopic	SUF	11842	Synagis Check	1.0	complete	s	0	75
+SUB230994	Atopic	SUF	11839	6-Month Call	1.2	complete	6	0	171
+SUB230995	Atopic	SUF	11871	3-Month Home Visit	1.0	complete	3	0	94
+SUB230995	Atopic	SUF	11872	Synagis Check	1.0	complete	s	0	92
+SUB230995	Atopic	SUF	11869	6-Month Call	1.2	complete	6	0	184
+SUB230996	Atopic	SUF	11888	Synagis Check	1.0	complete	s	0	112
+SUB230996	Atopic	SUF	11885	6-Month Call	1.2	complete	6	0	174
+SUB230996	Atopic	SUF	11887	3-Month Home Visit	1.0	complete	3	0	126
+SUB230997	Atopic	SUF	12019	6-Month Call	1.2	complete	6	0	190
+SUB230997	Atopic	SUF	12022	Synagis Check	1.0	complete	s	0	79
+SUB230997	Atopic	SUF	12021	3-Month Home Visit	1.0	complete	3	0	133
+SUB230998	Atopic	SUF	12059	6-Month Call	1.2	complete	6	0	170
+SUB230998	Atopic	SUF	12061	3-Month Home Visit	1.0	complete	3	0	91
+SUB230998	Atopic	SUF	12062	Synagis Check	1.0	complete	s	0	78
+SUB230999	Non-atopic	SUF	12091	6-Month Call	1.2	missing	.x		
+SUB230999	Non-atopic	SUF	12089	3-Month Home Visit	1.0	complete	3	0	85
+SUB230999	Non-atopic	SUF	12088	Synagis Check	1.0	complete	s	0	77
+SUB230999	Non-atopic	SUF	12092	9-Month Call	1.2	complete	9	0	281
+SUB231000	Atopic	SUF	12248	6-Month Call	1.2	complete	6	0	223
+SUB231000	Atopic	SUF	12250	3-Month Home Visit	1.2	complete	3	0	136
+SUB231000	Atopic	SUF	12251	Synagis Check	1.0	complete	s	0	132
+SUB231001	Atopic	SUF	12269	3-Month Home Visit	1.2	complete	3	0	133
+SUB231001	Atopic	SUF	12266	9-Month Call	1.2	complete	9	0	293
+SUB231001	Atopic	SUF	12267	6-Month Call	1.2	missing	.x		
+SUB231001	Atopic	SUF	12270	Synagis Check	1.0	complete	s	0	129
+SUB231002	Atopic	SUF	12380	3-Month Home Visit	1.0	complete	3	0	117
+SUB231002	Atopic	SUF	12378	6-Month Call	1.2	complete	6	0	173
+SUB231002	Atopic	SUF	12381	Synagis Check	1.0	complete	s	0	100
+SUB231003	Atopic	SUF	12412	6-Month Call	1.2	complete	6	0	224
+SUB231003	Atopic	SUF	12415	Synagis Check	1.0	complete	s	0	91
+SUB231003	Atopic	SUF	12414	3-Month Home Visit	1.0	complete	3	0	106
+SUB231004	Atopic	SUF	12500	Synagis Check	1.0	complete	s	0	86
+SUB231004	Atopic	SUF	12497	6-Month Call	1.2	complete	6	0	195
+SUB231004	Atopic	SUF	12499	3-Month Home Visit	1.0	complete	3	0	98
+SUB231005	Atopic	SUF	12659	3-Month Home Visit	1.0	complete	3	0	91
+SUB231005	Atopic	SUF	12657	6-Month Call	1.2	complete	6	0	210
+SUB231005	Atopic	SUF	12660	Synagis Check	1.0	complete	s	0	82
+SUB231006	Atopic	SUF	12741	Synagis Check	1.0	complete	s	0	79
+SUB231006	Atopic	SUF	12738	6-Month Call	1.2	complete	6	0	218
+SUB231006	Atopic	SUF	12740	3-Month Home Visit	1.0	complete	3	0	93
+SUB231007	Atopic	SUF	12761	3-Month Home Visit	1.0	complete	3	0	89
+SUB231007	Atopic	SUF	12762	Synagis Check	1.0	complete	s	0	80
+SUB231007	Atopic	SUF	12759	6-Month Call	1.2	complete	6	0	222
+SUB231008	Atopic	SUF	13005	Synagis Check	1.0	complete	s	0	89
+SUB231008	Atopic	SUF	13004	3-Month Home Visit	1.0	complete	3	0	108
+SUB231008	Atopic	SUF	13002	6-Month Call	1.2	complete	6	0	223
+SUB231009	Atopic	SUF	13080	6-Month Call	1.2	complete	6	0	166
+SUB231009	Atopic	SUF	13082	3-Month Home Visit	1.0	complete	3	0	77
+SUB231009	Atopic	SUF	13083	Synagis Check	1.0	complete	s	0	58
+SUB231010	Non-atopic	SUF	13120	6-Month Call	1.2	complete	6	0	213
+SUB231010	Non-atopic	SUF	13118	3-Month Home Visit	1.0	complete	3	0	76
+SUB231010	Non-atopic	SUF	13117	Synagis Check	1.0	complete	s	0	67
+SUB231011	Atopic	SUF	13142	6-Month Call	1.2	complete	6	0	213
+SUB231011	Atopic	SUF	13145	Synagis Check	1.0	complete	s	0	81
+SUB231011	Atopic	SUF	13144	3-Month Home Visit	1.0	complete	3	0	100
+SUB231012	Atopic	SUF	13177	6-Month Call	1.2	complete	6	0	210
+SUB231012	Atopic	SUF	13179	3-Month Home Visit	1.0	complete	3	0	79
+SUB231012	Atopic	SUF	13180	Synagis Check	1.0	complete	s	0	63
+SUB231013	Atopic	SUF	13384	6-Month Call	1.2	complete	6	0	174
+SUB231013	Atopic	SUF	13387	Synagis Check	1.0	complete	s	0	93
+SUB231013	Atopic	SUF	13386	3-Month Home Visit	1.2	complete	3	0	98
+SUB231014	Atopic	SUF	13403	6-Month Call	1.2	complete	6	0	225
+SUB231014	Atopic	SUF	13405	3-Month Home Visit	1.2	complete	3	0	115
+SUB231014	Atopic	SUF	13406	Synagis Check	1.2	complete	s	0	104
+SUB231015	Non-atopic	SUF	13468	3-Month Home Visit	1.0	complete	3	0	84
+SUB231015	Non-atopic	SUF	13470	6-Month Call	1.2	complete	6	0	214
+SUB231015	Non-atopic	SUF	13467	Synagis Check	1.0	complete	s	0	61
+SUB231016	Atopic	SUF	13635	Synagis Check	1.2	complete	s	0	92
+SUB231016	Atopic	SUF	13634	3-Month Home Visit	1.2	complete	3	0	97
+SUB231016	Atopic	SUF	13632	6-Month Call	1.2	complete	6	0	184
+SUB231017	Non-atopic	SUF	13693	3-Month Home Visit	1.2	complete	3	0	94
+SUB231017	Non-atopic	SUF	13695	6-Month Call	1.2	complete	6	0	205
+SUB231017	Non-atopic	SUF	13692	Synagis Check	1.2	complete	s	0	86
+SUB231018	Atopic	SUF	13723	6-Month Call	1.2	missing	.x		
+SUB231018	Atopic	SUF	13721	12-Month Clinic Visit	1.3	missing	.x		
+SUB231018	Atopic	SUF	13720	15-Month Call	1.3	missing	.x		
+SUB231018	Atopic	SUF	13726	Synagis Check	1.0	missing	.x		
+SUB231018	Atopic	SUF	13722	9-Month Call	1.3	missing	.x		
+SUB231018	Atopic	SUF	13725	3-Month Home Visit	1.2	missing	.x		
+SUB231019	Atopic	SUF	13938	Synagis Check	1.2	complete	s	0	95
+SUB231019	Atopic	SUF	13935	6-Month Call	1.2	complete	6	0	196
+SUB231019	Atopic	SUF	13937	3-Month Home Visit	1.2	complete	3	0	99
+SUB231020	Atopic	SUF	14159	Synagis Check	1.2	complete	s	0	87
+SUB231020	Atopic	SUF	14158	3-Month Home Visit	1.2	missing	.x		
+SUB231021	Atopic	SUF	14308	Synagis Check	1.2	complete	s	0	92
+SUB231021	Atopic	SUF	14307	3-Month Home Visit	1.2	complete	3	0	99
+SUB231021	Atopic	SUF	14305	6-Month Call	1.2	complete	6	0	218
+SUB231022	Non-atopic	SUF	14318	6-Month Call	1.2	complete	6	0	218
+SUB231022	Non-atopic	SUF	14316	3-Month Home Visit	1.2	complete	3	0	93
+SUB231022	Non-atopic	SUF	14315	Synagis Check	1.2	complete	s	0	88
+SUB231023	Non-atopic	SUF	15399	Synagis Check	1.2	complete	s	0	88
+SUB231023	Non-atopic	SUF	15402	6-Month Call	1.2	complete	6	0	183
+SUB231023	Non-atopic	SUF	15400	3-Month Home Visit	1.2	complete	3	0	105
+SUB231024	Non-atopic	SUF	16268	Synagis Check	1.2	complete	s	0	97
+SUB231024	Non-atopic	SUF	16271	6-Month Call	1.3	complete	6	0	222
+SUB231024	Non-atopic	SUF	16269	3-Month Home Visit	1.2	complete	3	0	101
+SUB231025	Atopic	SUF	16695	6-Month Call	1.3	complete	6	0	213
+SUB231025	Atopic	SUF	16697	3-Month Home Visit	1.2	complete	3	0	97
+SUB231025	Atopic	SUF	16698	Synagis Check	1.2	complete	s	0	71
+SUB231026	Atopic	SUF	16729	6-Month Call	1.3	complete	6	0	194
+SUB231026	Atopic	SUF	16731	3-Month Home Visit	1.2	complete	3	0	81
+SUB231026	Atopic	SUF	16732	Synagis Check	1.2	complete	s	0	60
+SUB231027	Atopic	SUF	401	6-Month Call	1.0	complete	6	0	212
+SUB231027	Atopic	SUF	398	Synagis Check	1.0	complete	s	0	94
+SUB231027	Atopic	SUF	399	3-Month Home Visit	1.0	complete	3	0	96
+SUB231028	Atopic	SUF	1097	Synagis Check	1.0	complete	s	0	64
+SUB231028	Atopic	SUF	1100	6-Month Call	1.0	complete	6	0	194
+SUB231028	Atopic	SUF	1098	3-Month Home Visit	1.0	complete	3	0	78
+SUB231029	Atopic	SUF	1214	Synagis Check	1.0	complete	s	0	58
+SUB231029	Atopic	SUF	1217	6-Month Call	1.0	complete	6	0	175
+SUB231029	Atopic	SUF	1215	3-Month Home Visit	1.0	complete	3	0	73
+SUB231030	Atopic	SUF	1430	3-Month Home Visit	1.0	complete	3	0	167
+SUB231030	Atopic	SUF	1429	Synagis Check	1.0	complete	s	0	92
+SUB231030	Atopic	SUF	1432	6-Month Call	1.0	complete	6	0	216
+SUB231031	Atopic	SUF	1471	Synagis Check	1.0	complete	s	0	67
+SUB231031	Atopic	SUF	1472	3-Month Home Visit	1.0	complete	3	0	96
+SUB231031	Atopic	SUF	1474	6-Month Call	1.0	complete	6	0	172
+SUB231032	Atopic	SUF	1507	Synagis Check	1.0	complete	s	0	113
+SUB231032	Atopic	SUF	1510	6-Month Call	1.0	complete	6	0	174
+SUB231032	Atopic	SUF	1508	3-Month Home Visit	1.0	complete	3	0	119
+SUB231033	Atopic	SUF	1733	6-Month Call	1.0	missing	.x		
+SUB231033	Atopic	SUF	1731	3-Month Home Visit	1.0	complete	3	0	127
+SUB231033	Atopic	SUF	1730	Synagis Check	1.0	complete	s	0	112
+SUB231035	Atopic	SUF	1831	Synagis Check	1.0	complete	s	0	62
+SUB231035	Atopic	SUF	1826	6-Month Call	1.0	complete	6	0	180
+SUB231035	Atopic	SUF	1828	3-Month Home Visit	1.0	complete	3	0	90
+SUB231036	Atopic	SUF	1937	3-Month Home Visit	1.0	complete	3	0	118
+SUB231036	Atopic	SUF	1935	6-Month Call	1.0	complete	6	0	168
+SUB231036	Atopic	SUF	1940	Synagis Check	1.0	complete	s	0	71
+SUB231037	Atopic	SUF	2323	6-Month Call	1.0	missing	.x		
+SUB231037	Atopic	SUF	2328	Synagis Check	1.0	complete	s	0	80
+SUB231037	Atopic	SUF	2325	3-Month Home Visit	1.0	missing	.x		
+SUB231038	Atopic	SUF	2341	6-Month Call	1.0	missing	.x		
+SUB231038	Atopic	SUF	2346	Synagis Check	1.0	complete	s	0	76
+SUB231038	Atopic	SUF	2343	3-Month Home Visit	1.0	missing	.x		
+SUB231039	Atopic	SUF	2430	Synagis Check	1.0	complete	s	0	70
+SUB231039	Atopic	SUF	2425	6-Month Call	1.0	complete	6	0	174
+SUB231039	Atopic	SUF	2427	3-Month Home Visit	1.0	complete	3	0	84
+SUB231040	Atopic	SUF	2523	6-Month Call	1.0	complete	6	0	166
+SUB231040	Atopic	SUF	2528	Synagis Check	1.0	complete	s	0	74
+SUB231040	Atopic	SUF	2525	3-Month Home Visit	1.0	complete	3	0	101
+SUB231041	Atopic	SUF	2716	6-Month Call	1.0	complete	6	0	163
+SUB231041	Atopic	SUF	2721	Synagis Check	1.0	complete	s	0	69
+SUB231041	Atopic	SUF	2718	3-Month Home Visit	1.0	complete	3	0	71
+SUB231042	Atopic	SUF	2836	6-Month Call	1.0	complete	6	0	199
+SUB231042	Atopic	SUF	2838	3-Month Home Visit	1.0	complete	3	0	88
+SUB231042	Atopic	SUF	2841	Synagis Check	1.0	complete	s	0	62
+SUB231043	Atopic	SUF	2859	Synagis Check	1.0	complete	s	0	70
+SUB231043	Atopic	SUF	2854	6-Month Call	1.0	complete	6	0	180
+SUB231043	Atopic	SUF	2856	3-Month Home Visit	1.0	complete	3	0	83
+SUB231044	Atopic	SUF	2872	3-Month Home Visit	1.0	complete	3	0	90
+SUB231044	Atopic	SUF	2870	6-Month Call	1.0	complete	6	0	165
+SUB231044	Atopic	SUF	2875	Synagis Check	1.0	complete	s	0	61
+SUB231045	Atopic	SUF	3067	3-Month Home Visit	1.0	complete	3	0	75
+SUB231045	Atopic	SUF	3065	6-Month Call	1.0	complete	6	0	161
+SUB231045	Atopic	SUF	3070	Synagis Check	1.0	complete	s	0	60
+SUB231046	Atopic	SUF	3086	Synagis Check	1.0	missing	.x		
+SUB231046	Atopic	SUF	3081	6-Month Call	1.0	missing	.x		
+SUB231046	Atopic	SUF	3083	3-Month Home Visit	1.0	missing	.x		
+SUB231047	Atopic	SUF	3141	6-Month Call	1.0	complete	6	0	155
+SUB231047	Atopic	SUF	3146	Synagis Check	1.0	complete	s	0	90
+SUB231047	Atopic	SUF	3143	3-Month Home Visit	1.0	complete	3	0	107
+SUB231048	Atopic	SUF	3297	Synagis Check	1.0	complete	s	0	61
+SUB231048	Atopic	SUF	3294	3-Month Home Visit	1.0	complete	3	0	80
+SUB231048	Atopic	SUF	3292	6-Month Call	1.0	complete	6	0	164
+SUB231049	Atopic	SUF	3493	3-Month Home Visit	1.0	missing	.x		
+SUB231049	Atopic	SUF	3496	Synagis Check	1.0	complete	s	0	100
+SUB231049	Atopic	SUF	3491	6-Month Call	1.0	missing	.x		
+SUB231050	Atopic	SUF	3509	3-Month Home Visit	1.0	complete	3	0	92
+SUB231050	Atopic	SUF	3507	6-Month Call	1.0	complete	6	0	160
+SUB231050	Atopic	SUF	3512	Synagis Check	1.0	complete	s	0	61
+SUB231051	Atopic	SUF	3525	3-Month Home Visit	1.0	complete	3	0	81
+SUB231051	Atopic	SUF	3523	6-Month Call	1.0	missing	.x		
+SUB231051	Atopic	SUF	3528	Synagis Check	1.0	complete	s	0	73
+SUB231051	Atopic	SUF	3519	18-Month Call	1.3	complete	18	0	553
+SUB231052	Atopic	SUF	4493	3-Month Home Visit	1.0	complete	3	0	85
+SUB231052	Atopic	SUF	4491	6-Month Call	1.0	complete	6	0	168
+SUB231052	Atopic	SUF	4496	Synagis Check	1.0	complete	s	0	78
+SUB231053	Atopic	SUF	4512	Synagis Check	1.0	complete	s	0	80
+SUB231053	Atopic	SUF	4507	6-Month Call	1.0	complete	6	0	177
+SUB231053	Atopic	SUF	4509	3-Month Home Visit	1.0	complete	3	0	81
+SUB231054	Atopic	SUF	4529	Synagis Check	1.0	complete	s	0	132
+SUB231054	Atopic	SUF	4526	3-Month Home Visit	1.0	complete	3	0	132
+SUB231054	Atopic	SUF	4524	6-Month Call	1.0	complete	6	0	173
+SUB231055	Atopic	SUF	4541	6-Month Call	1.0	complete	6	0	166
+SUB231055	Atopic	SUF	4543	3-Month Home Visit	1.0	complete	3	0	93
+SUB231055	Atopic	SUF	4546	Synagis Check	1.0	complete	s	0	88
+SUB231056	Atopic	SUF	4946	3-Month Home Visit	1.0	missing	.x		
+SUB231056	Atopic	SUF	4944	6-Month Call	1.0	missing	.x		
+SUB231056	Atopic	SUF	4949	Synagis Check	1.0	complete	s	0	261
+SUB231057	Atopic	SUF	5124	Synagis Check	1.0	complete	s	0	86
+SUB231057	Atopic	SUF	9664	3-Month Home Visit	1.0	missing	.x		
+SUB231057	Atopic	SUF	9662	6-Month Call	1.0	complete	6	0	195
+SUB231058	Atopic	SUF	5419	3-Month Home Visit	1.0	complete	3	0	107
+SUB231058	Atopic	SUF	5417	6-Month Call	1.0	complete	6	0	213
+SUB231058	Atopic	SUF	5420	Synagis Check	1.0	complete	s	0	96
+SUB231059	Atopic	SUF	5545	Synagis Check	1.0	complete	s	0	68
+SUB231059	Atopic	SUF	5542	6-Month Call	1.0	complete	6	0	184
+SUB231059	Atopic	SUF	5544	3-Month Home Visit	1.0	complete	3	0	73
+SUB231060	Atopic	SUF	5560	3-Month Home Visit	1.0	complete	3	0	131
+SUB231060	Atopic	SUF	5561	Synagis Check	1.0	complete	s	0	131
+SUB231060	Atopic	SUF	5558	6-Month Call	1.0	missing	.x		
+SUB231061	Atopic	SUF	5581	Synagis Check	1.0	complete	s	0	62
+SUB231061	Atopic	SUF	5578	6-Month Call	1.0	complete	6	0	189
+SUB231061	Atopic	SUF	5580	3-Month Home Visit	1.0	complete	3	0	64
+SUB231062	Atopic	SUF	5678	6-Month Call	1.0	missing	.x		
+SUB231062	Atopic	SUF	5681	Synagis Check	1.0	complete	s	0	269
+SUB231062	Atopic	SUF	5680	3-Month Home Visit	1.0	missing	.x		
+SUB231063	Atopic	SUF	5697	Synagis Check	1.0	complete	s	0	86
+SUB231063	Atopic	SUF	5694	6-Month Call	1.0	complete	6	0	166
+SUB231063	Atopic	SUF	5696	3-Month Home Visit	1.0	complete	3	0	92
+SUB231064	Atopic	SUF	5813	6-Month Call	1.0	complete	6	0	161
+SUB231064	Atopic	SUF	5816	Synagis Check	1.0	complete	s	0	81
+SUB231064	Atopic	SUF	5815	3-Month Home Visit	1.0	complete	3	0	83
+SUB231065	Atopic	SUF	6043	6-Month Call	1.0	complete	6	0	187
+SUB231065	Atopic	SUF	6046	Synagis Check	1.0	complete	s	0	64
+SUB231065	Atopic	SUF	6045	3-Month Home Visit	1.0	complete	3	0	77
+SUB231066	Atopic	SUF	6682	3-Month Home Visit	1.0	missing	.x		
+SUB231066	Atopic	SUF	6683	Synagis Check	1.0	complete	s	0	306
+SUB231066	Atopic	SUF	6680	6-Month Call	1.0	missing	.x		
+SUB231067	Atopic	SUF	6696	6-Month Call	1.0	missing	.x		
+SUB231067	Atopic	SUF	6698	3-Month Home Visit	1.0	complete	3	0	130
+SUB231067	Atopic	SUF	6699	Synagis Check	1.0	complete	s	0	126
+SUB231068	Atopic	SUF	6942	3-Month Home Visit	1.0	complete	3	0	90
+SUB231068	Atopic	SUF	6940	6-Month Call	1.0	missing	.x		
+SUB231068	Atopic	SUF	6943	Synagis Check	1.0	complete	s	0	83
+SUB231069	Atopic	SUF	6958	3-Month Home Visit	1.0	missing	.x		
+SUB231069	Atopic	SUF	6956	6-Month Call	1.0	missing	.x		
+SUB231069	Atopic	SUF	6959	Synagis Check	1.0	missing	.x		
+SUB231070	Atopic	SUF	6975	Synagis Check	1.0	complete	s	0	192
+SUB231070	Atopic	SUF	6974	3-Month Home Visit	1.0	missing	.x		
+SUB231070	Atopic	SUF	6972	6-Month Call	1.0	complete	6	0	206
+SUB231071	Atopic	SUF	7057	3-Month Home Visit	1.0	complete	3	0	69
+SUB231071	Atopic	SUF	7058	Synagis Check	1.0	complete	s	0	60
+SUB231071	Atopic	SUF	7055	6-Month Call	1.0	complete	6	0	186
+SUB231072	Atopic	SUF	7274	Synagis Check	1.0	complete	s	0	92
+SUB231072	Atopic	SUF	7271	6-Month Call	1.0	complete	6	0	182
+SUB231072	Atopic	SUF	7273	3-Month Home Visit	1.0	complete	3	0	97
+SUB231073	Atopic	SUF	7290	Synagis Check	1.0	complete	s	0	82
+SUB231073	Atopic	SUF	7289	3-Month Home Visit	1.0	missing	.x		
+SUB231073	Atopic	SUF	7287	6-Month Call	1.0	complete	6	0	209
+SUB231074	Atopic	SUF	7357	Synagis Check	1.0	complete	s	0	171
+SUB231074	Atopic	SUF	7354	6-Month Call	1.0	complete	6	0	183
+SUB231074	Atopic	SUF	7356	3-Month Home Visit	1.0	missing	.x		
+SUB231075	Atopic	SUF	7562	6-Month Call	1.0	complete	6	0	195
+SUB231075	Atopic	SUF	7564	3-Month Home Visit	1.0	complete	3	0	72
+SUB231075	Atopic	SUF	7565	Synagis Check	1.0	complete	s	0	64
+SUB231076	Atopic	SUF	8072	Synagis Check	1.0	complete	s	0	154
+SUB231076	Atopic	SUF	8071	3-Month Home Visit	1.0	missing	.x		
+SUB231076	Atopic	SUF	8069	6-Month Call	1.0	missing	.x		
+SUB231077	Atopic	SUF	8088	6-Month Call	1.0	missing	.x		
+SUB231077	Atopic	SUF	8091	Synagis Check	1.0	complete	s	0	193
+SUB231077	Atopic	SUF	8090	3-Month Home Visit	1.0	missing	.x		
+SUB231078	Atopic	SUF	8348	3-Month Home Visit	1.0	missing	.x		
+SUB231078	Atopic	SUF	8346	6-Month Call	1.0	complete	6	0	180
+SUB231078	Atopic	SUF	8349	Synagis Check	1.0	complete	s	0	180
+SUB231079	Atopic	SUF	8362	6-Month Call	1.0	complete	6	0	170
+SUB231079	Atopic	SUF	8364	3-Month Home Visit	1.0	complete	3	0	80
+SUB231079	Atopic	SUF	8365	Synagis Check	1.0	complete	s	0	65
+SUB231080	Atopic	SUF	21497	Synagis Check	1.3	complete	s	0	631
+SUB231080	Atopic	SUF	8378	6-Month Call	1.0	missing	.x		
+SUB231080	Atopic	SUF	8380	3-Month Home Visit	1.0	missing	.x		
+SUB231081	Atopic	SUF	8394	6-Month Call	1.0	complete	6	0	197
+SUB231081	Atopic	SUF	8397	Synagis Check	1.0	complete	s	0	146
+SUB231081	Atopic	SUF	8396	3-Month Home Visit	1.0	missing	.x		
+SUB231082	Atopic	SUF	8413	Synagis Check	1.0	complete	s	0	65
+SUB231082	Atopic	SUF	8412	3-Month Home Visit	1.0	complete	3	0	75
+SUB231082	Atopic	SUF	8410	6-Month Call	1.0	complete	6	0	209
+SUB231083	Atopic	SUF	8426	6-Month Call	1.0	complete	6	0	185
+SUB231083	Atopic	SUF	8428	3-Month Home Visit	1.0	complete	3	0	79
+SUB231083	Atopic	SUF	8429	Synagis Check	1.0	complete	s	0	62
+SUB231084	Atopic	SUF	8706	6-Month Call	1.0	complete	6	0	186
+SUB231084	Atopic	SUF	8708	3-Month Home Visit	1.0	missing	.x		
+SUB231084	Atopic	SUF	8709	Synagis Check	1.0	complete	s	0	136
+SUB231085	Atopic	SUF	9230	3-Month Home Visit	1.0	complete	3	0	134
+SUB231085	Atopic	SUF	9228	6-Month Call	1.0	complete	6	0	207
+SUB231085	Atopic	SUF	9231	Synagis Check	1.0	complete	3	0	134
+SUB231086	Atopic	SUF	9297	3-Month Home Visit	1.0	complete	3	0	102
+SUB231086	Atopic	SUF	9298	Synagis Check	1.0	complete	s	0	95
+SUB231086	Atopic	SUF	9295	6-Month Call	1.0	complete	6	0	185
+SUB231087	Atopic	SUF	9329	3-Month Home Visit	1.0	complete	3	0	126
+SUB231087	Atopic	SUF	9327	6-Month Call	1.0	complete	6	0	203
+SUB231087	Atopic	SUF	9330	Synagis Check	1.0	complete	s	0	114
+SUB231088	Atopic	SUF	9465	3-Month Home Visit	1.0	missing	.x		
+SUB231088	Atopic	SUF	9463	6-Month Call	1.0	complete	6	0	223
+SUB231088	Atopic	SUF	9466	Synagis Check	1.0	complete	s	0	69
+SUB231090	Atopic	SUF	9537	Synagis Check	1.0	complete	s	0	61
+SUB231090	Atopic	SUF	9534	6-Month Call	1.0	complete	6	0	178
+SUB231090	Atopic	SUF	9536	3-Month Home Visit	1.0	complete	3	0	74
+SUB231091	Atopic	SUF	9550	6-Month Call	1.0	complete	6	0	172
+SUB231091	Atopic	SUF	9552	3-Month Home Visit	1.0	missing	.x		
+SUB231091	Atopic	SUF	9553	Synagis Check	1.0	complete	s	0	134
+SUB231092	Atopic	SUF	9617	Synagis Check	1.0	missing	.x		
+SUB231092	Atopic	SUF	9613	9-Month Call	1.3	complete	9	0	313
+SUB231092	Atopic	SUF	9616	3-Month Home Visit	1.0	missing	.x		
+SUB231092	Atopic	SUF	9614	6-Month Call	1.0	missing	.x		
+SUB231093	Atopic	SUF	9646	6-Month Call	1.0	complete	6	0	172
+SUB231093	Atopic	SUF	9648	3-Month Home Visit	1.0	complete	3	0	97
+SUB231093	Atopic	SUF	9649	Synagis Check	1.0	complete	s	0	94
+SUB231094	Atopic	SUF	9964	6-Month Call	1.1	complete	6	0	210
+SUB231094	Atopic	SUF	9966	3-Month Home Visit	1.0	complete	3	0	104
+SUB231094	Atopic	SUF	9967	Synagis Check	1.0	complete	s	0	86
+SUB231095	Atopic	SUF	10482	6-Month Call	1.0	complete	6	0	179
+SUB231095	Atopic	SUF	10485	Synagis Check	1.0	complete	s	0	83
+SUB231095	Atopic	SUF	10484	3-Month Home Visit	1.0	complete	3	0	87
+SUB231096	Atopic	SUF	10505	Synagis Check	1.0	complete	s	0	64
+SUB231096	Atopic	SUF	10504	3-Month Home Visit	1.0	complete	3	0	84
+SUB231096	Atopic	SUF	10502	6-Month Call	1.0	complete	6	0	180
+SUB231097	Atopic	SUF	10549	3-Month Home Visit	1.0	missing	.x		
+SUB231097	Atopic	SUF	10547	6-Month Call	1.2	complete	6	0	192
+SUB231097	Atopic	SUF	10550	Synagis Check	1.0	complete	s	0	141
+SUB231098	Atopic	SUF	10742	Synagis Check	1.0	complete	s	0	64
+SUB231098	Atopic	SUF	10739	6-Month Call	1.0	complete	6	0	190
+SUB231098	Atopic	SUF	10741	3-Month Home Visit	1.0	complete	3	0	82
+SUB231099	Atopic	SUF	10758	Synagis Check	1.0	complete	s	0	86
+SUB231099	Atopic	SUF	10757	3-Month Home Visit	1.0	complete	3	0	99
+SUB231099	Atopic	SUF	10755	6-Month Call	1.0	complete	6	0	182
+SUB231100	Atopic	SUF	10774	Synagis Check	1.0	complete	s	0	62
+SUB231100	Atopic	SUF	10771	6-Month Call	1.0	complete	6	0	180
+SUB231100	Atopic	SUF	10773	3-Month Home Visit	1.0	complete	3	0	73
+SUB231101	Atopic	SUF	10789	3-Month Home Visit	1.0	complete	3	0	126
+SUB231101	Atopic	SUF	10787	6-Month Call	1.0	complete	6	0	167
+SUB231101	Atopic	SUF	10790	Synagis Check	1.0	complete	s	0	124
+SUB231102	Atopic	SUF	10807	Synagis Check	1.0	complete	s	0	68
+SUB231102	Atopic	SUF	10804	6-Month Call	1.0	complete	6	0	159
+SUB231102	Atopic	SUF	10806	3-Month Home Visit	1.0	complete	3	0	76
+SUB231103	Atopic	SUF	10826	Synagis Check	1.0	complete	s	0	104
+SUB231103	Atopic	SUF	10823	6-Month Call	1.0	missing	.x		
+SUB231103	Atopic	SUF	10825	3-Month Home Visit	1.0	complete	3	0	105
+SUB231103	Atopic	SUF	10821	12-Month Clinic Visit	1.3	missing	.x		
+SUB231103	Atopic	SUF	10822	9-Month Call	1.3	missing	.x		
+SUB231104	Atopic	SUF	10845	Synagis Check	1.0	complete	s	0	98
+SUB231104	Atopic	SUF	10842	6-Month Call	1.3	complete	6	0	213
+SUB231104	Atopic	SUF	10844	3-Month Home Visit	1.0	complete	3	0	114
+SUB231105	Atopic	SUF	10858	6-Month Call	1.0	complete	6	0	162
+SUB231105	Atopic	SUF	10860	3-Month Home Visit	1.0	complete	3	0	73
+SUB231105	Atopic	SUF	10861	Synagis Check	1.0	complete	s	0	64
+SUB231106	Atopic	SUF	10903	Synagis Check	1.0	complete	s	0	147
+SUB231106	Atopic	SUF	10902	3-Month Home Visit	1.0	missing	.x		
+SUB231106	Atopic	SUF	10900	6-Month Call	1.0	missing	.x		
+SUB231107	Atopic	SUF	11110	3-Month Home Visit	1.0	complete	3	0	117
+SUB231107	Atopic	SUF	11111	Synagis Check	1.0	complete	s	0	96
+SUB231107	Atopic	SUF	11108	6-Month Call	1.1	complete	6	0	165
+SUB231108	Atopic	SUF	11172	6-Month Call	1.2	complete	6	0	174
+SUB231108	Atopic	SUF	11175	Synagis Check	1.0	complete	s	0	124
+SUB231108	Atopic	SUF	11174	3-Month Home Visit	1.0	complete	3	0	133
+SUB231109	Atopic	SUF	11362	Synagis Check	1.0	complete	s	0	82
+SUB231109	Atopic	SUF	11359	6-Month Call	1.2	complete	6	0	170
+SUB231109	Atopic	SUF	11361	3-Month Home Visit	1.0	complete	3	0	94
+SUB231110	Atopic	SUF	11489	3-Month Home Visit	1.0	complete	3	0	94
+SUB231110	Atopic	SUF	11487	6-Month Call	1.2	complete	6	0	171
+SUB231110	Atopic	SUF	11490	Synagis Check	1.0	complete	s	0	86
+SUB231111	Atopic	SUF	11598	12-Month Clinic Visit	1.3	complete	12	0	400
+SUB231111	Atopic	SUF	11603	Synagis Check	1.0	complete	s	0	88
+SUB231111	Atopic	SUF	11602	3-Month Home Visit	1.0	complete	3	0	99
+SUB231111	Atopic	SUF	11600	6-Month Call	1.2	missing	.x		
+SUB231111	Atopic	SUF	11599	9-Month Call	1.3	missing	.x		
+SUB231112	Atopic	SUF	11615	9-Month Call	1.3	complete	9	0	294
+SUB231112	Atopic	SUF	11618	3-Month Home Visit	1.0	missing	.x		
+SUB231112	Atopic	SUF	11616	6-Month Call	1.2	missing	.x		
+SUB231112	Atopic	SUF	11619	Synagis Check	1.0	complete	s	0	96
+SUB231113	Atopic	SUF	11655	3-Month Home Visit	1.0	complete	3	0	86
+SUB231113	Atopic	SUF	11653	6-Month Call	1.2	complete	6	0	182
+SUB231113	Atopic	SUF	11656	Synagis Check	1.0	complete	s	0	80
+SUB231114	Atopic	SUF	11671	3-Month Home Visit	1.0	complete	3	0	79
+SUB231114	Atopic	SUF	11672	Synagis Check	1.0	complete	s	0	79
+SUB231114	Atopic	SUF	11669	6-Month Call	1.2	missing	.x		
+SUB231115	Atopic	SUF	12080	6-Month Call	1.3	complete	6	0	173
+SUB231115	Atopic	SUF	12082	3-Month Home Visit	1.0	complete	3	0	81
+SUB231115	Atopic	SUF	12083	Synagis Check	1.0	complete	s	0	68
+SUB231116	Atopic	SUF	12169	3-Month Home Visit	1.0	complete	3	0	83
+SUB231116	Atopic	SUF	12167	6-Month Call	1.3	complete	6	0	173
+SUB231116	Atopic	SUF	12170	Synagis Check	1.0	complete	s	0	78
+SUB231117	Atopic	SUF	12186	Synagis Check	1.0	complete	s	0	139
+SUB231118	Atopic	SUF	12199	6-Month Call	1.2	complete	6	0	168
+SUB231118	Atopic	SUF	12202	Synagis Check	1.0	complete	s	0	116
+SUB231118	Atopic	SUF	12201	3-Month Home Visit	1.0	complete	3	0	132
+SUB231119	Atopic	SUF	12430	3-Month Home Visit	1.0	complete	3	0	80
+SUB231119	Atopic	SUF	12431	Synagis Check	1.0	complete	s	0	60
+SUB231119	Atopic	SUF	12426	12-Month Clinic Visit	1.3	complete	12	0	360
+SUB231119	Atopic	SUF	12428	6-Month Call	1.3	complete	6	0	211
+SUB231120	Atopic	SUF	12545	Synagis Check	1.0	complete	s	0	63
+SUB231120	Atopic	SUF	12542	6-Month Call	1.3	complete	6	0	187
+SUB231120	Atopic	SUF	12544	3-Month Home Visit	1.0	complete	3	0	89
+SUB231121	Atopic	SUF	12567	3-Month Home Visit	1.0	complete	3	0	77
+SUB231121	Atopic	SUF	12568	Synagis Check	1.0	complete	s	0	66
+SUB231121	Atopic	SUF	12565	6-Month Call	1.3	complete	6	0	177
+SUB231122	Atopic	SUF	12583	3-Month Home Visit	1.0	complete	3	0	77
+SUB231122	Atopic	SUF	12584	Synagis Check	1.0	complete	s	0	63
+SUB231122	Atopic	SUF	12581	6-Month Call	1.3	complete	6	0	192
+SUB231123	Atopic	SUF	12599	3-Month Home Visit	1.0	complete	3	0	102
+SUB231123	Atopic	SUF	12597	6-Month Call	1.3	complete	6	0	190
+SUB231123	Atopic	SUF	12600	Synagis Check	1.0	complete	s	0	77
+SUB231124	Atopic	SUF	12622	3-Month Home Visit	1.1	complete	3	0	137
+SUB231124	Atopic	SUF	12620	6-Month Call	1.3	complete	6	0	199
+SUB231124	Atopic	SUF	12623	Synagis Check	1.0	complete	s	0	67
+SUB231125	Atopic	SUF	12642	3-Month Home Visit	1.2	complete	3	0	142
+SUB231125	Atopic	SUF	12640	6-Month Call	1.3	complete	6	0	182
+SUB231125	Atopic	SUF	12643	Synagis Check	1.0	complete	s	0	65
+SUB231126	Atopic	SUF	12808	3-Month Home Visit	1.0	missing	.x		
+SUB231126	Atopic	SUF	12809	Synagis Check	1.0	missing	.x		
+SUB231127	Atopic	SUF	12825	Synagis Check	1.0	complete	s	0	62
+SUB231127	Atopic	SUF	12822	6-Month Call	1.3	complete	6	0	195
+SUB231127	Atopic	SUF	12824	3-Month Home Visit	1.0	complete	3	0	76
+SUB231128	Atopic	SUF	12873	Synagis Check	1.0	complete	s	0	68
+SUB231128	Atopic	SUF	12872	3-Month Home Visit	1.0	complete	3	0	85
+SUB231128	Atopic	SUF	12870	6-Month Call	1.3	complete	6	0	170
+SUB231129	Non-atopic	SUF	12878	Synagis Check	1.0	missing	.x		
+SUB231129	Non-atopic	SUF	12879	3-Month Home Visit	1.2	missing	.x		
+SUB231130	Atopic	SUF	12904	3-Month Home Visit	1.0	complete	3	0	100
+SUB231130	Atopic	SUF	12902	6-Month Call	1.3	complete	6	0	188
+SUB231130	Atopic	SUF	12905	Synagis Check	1.0	complete	s	0	72
+SUB231131	Atopic	SUF	13034	6-Month Call	1.3	complete	6	0	181
+SUB231131	Atopic	SUF	13037	Synagis Check	1.0	complete	s	0	84
+SUB231131	Atopic	SUF	13036	3-Month Home Visit	1.2	complete	3	0	125
+SUB231132	Atopic	SUF	13199	3-Month Home Visit	1.2	complete	3	0	116
+SUB231132	Atopic	SUF	13197	6-Month Call	1.3	complete	6	0	168
+SUB231132	Atopic	SUF	13200	Synagis Check	1.1	complete	s	0	104
+SUB231133	Atopic	SUF	13287	Synagis Check	1.0	complete	s	0	79
+SUB231133	Atopic	SUF	13286	3-Month Home Visit	1.1	complete	3	0	94
+SUB231133	Atopic	SUF	13284	6-Month Call	1.3	complete	6	0	180
+SUB231134	Atopic	SUF	13461	Synagis Check	1.3	complete	s	0	130
+SUB231134	Atopic	SUF	13458	6-Month Call	1.3	complete	6	0	168
+SUB231134	Atopic	SUF	13460	3-Month Home Visit	1.3	complete	3	0	130
+SUB231135	Atopic	SUF	13528	3-Month Home Visit	1.1	complete	3	0	98
+SUB231135	Atopic	SUF	13526	6-Month Call	1.3	complete	6	0	208
+SUB231135	Atopic	SUF	13529	Synagis Check	1.0	complete	s	0	81
+SUB231136	Atopic	SUF	13616	Synagis Check	1.0	complete	s	0	67
+SUB231136	Atopic	SUF	13613	6-Month Call	1.3	complete	6	0	218
+SUB231136	Atopic	SUF	13615	3-Month Home Visit	1.0	complete	3	0	77
+SUB231137	Atopic	SUF	13827	Synagis Check	1.3	complete	s	0	111
+SUB231137	Atopic	SUF	13824	6-Month Call	1.3	complete	6	0	211
+SUB231137	Atopic	SUF	13826	3-Month Home Visit	1.3	complete	3	0	134
+SUB231138	Atopic	SUF	13914	Synagis Check	1.0	complete	s	0	67
+SUB231138	Atopic	SUF	13911	6-Month Call	1.3	complete	6	0	181
+SUB231138	Atopic	SUF	13913	3-Month Home Visit	1.1	complete	3	0	78
+SUB231139	Atopic	SUF	13959	Synagis Check	1.2	complete	s	0	81
+SUB231139	Atopic	SUF	13958	3-Month Home Visit	1.3	complete	3	0	104
+SUB231139	Atopic	SUF	13956	6-Month Call	1.3	complete	6	0	174
+SUB231140	Atopic	SUF	14204	3-Month Home Visit	1.1	complete	3	0	82
+SUB231140	Atopic	SUF	14205	Synagis Check	1.0	complete	s	0	71
+SUB231140	Atopic	SUF	14202	6-Month Call	1.3	complete	6	0	162
+SUB231141	Atopic	SUF	14234	6-Month Call	1.3	complete	6	0	155
+SUB231141	Atopic	SUF	14236	3-Month Home Visit	1.2	complete	3	0	88
+SUB231141	Atopic	SUF	14237	Synagis Check	1.2	complete	s	0	72
+SUB231142	Atopic	SUF	14256	3-Month Home Visit	1.3	missing	.x		
+SUB231142	Atopic	SUF	14254	6-Month Call	1.3	complete	6	0	203
+SUB231142	Atopic	SUF	14257	Synagis Check	1.3	complete	s	0	104
+SUB231143	Non-atopic	SUF	14390	3-Month Home Visit	1.3	missing	.x		
+SUB231143	Non-atopic	SUF	14392	6-Month Call	1.3	complete	6	0	159
+SUB231143	Non-atopic	SUF	14389	Synagis Check	1.2	complete	s	0	90
+SUB231144	Atopic	SUF	14416	Synagis Check	1.2	complete	s	0	85
+SUB231144	Atopic	SUF	14413	6-Month Call	1.3	complete	6	0	178
+SUB231144	Atopic	SUF	14415	3-Month Home Visit	1.3	complete	3	0	93
+SUB231145	Non-atopic	SUF	14421	Synagis Check	1.2	complete	s	0	64
+SUB231145	Non-atopic	SUF	14422	3-Month Home Visit	1.2	complete	3	0	80
+SUB231145	Non-atopic	SUF	14424	6-Month Call	1.3	complete	6	0	156
+SUB231146	Atopic	SUF	14445	6-Month Call	1.3	missing	.x		
+SUB231146	Atopic	SUF	14447	3-Month Home Visit	1.3	complete	3	0	110
+SUB231146	Atopic	SUF	14448	Synagis Check	1.3	complete	s	0	102
+SUB231146	Atopic	SUF	14444	9-Month Call	1.3	complete	9	0	287
+SUB231147	Non-atopic	SUF	14488	3-Month Home Visit	1.3	complete	3	0	119
+SUB231147	Non-atopic	SUF	14490	6-Month Call	1.3	missing	.x		
+SUB231147	Non-atopic	SUF	14487	Synagis Check	1.3	complete	s	0	119
+SUB231147	Non-atopic	SUF	14491	9-Month Call	1.3	complete	9	0	315
+SUB231148	Atopic	SUF	14513	3-Month Home Visit	1.2	complete	3	0	84
+SUB231148	Atopic	SUF	14511	6-Month Call	1.3	complete	6	0	176
+SUB231148	Atopic	SUF	14514	Synagis Check	1.2	complete	s	0	78
+SUB231149	Atopic	SUF	14567	3-Month Home Visit	1.3	complete	3	0	132
+SUB231149	Atopic	SUF	14568	Synagis Check	1.3	complete	s	0	96
+SUB231149	Atopic	SUF	14565	6-Month Call	1.3	complete	6	0	208
+SUB231150	Atopic	SUF	14757	6-Month Call	1.3	complete	6	0	175
+SUB231150	Atopic	SUF	14760	Synagis Check	1.3	complete	s	0	88
+SUB231150	Atopic	SUF	14759	3-Month Home Visit	1.3	complete	3	0	125
+SUB231151	Non-atopic	SUF	14766	Synagis Check	1.2	complete	s	0	63
+SUB231151	Non-atopic	SUF	14767	3-Month Home Visit	1.3	complete	3	0	91
+SUB231151	Non-atopic	SUF	14769	6-Month Call	1.3	complete	6	0	154
+SUB231152	Atopic	SUF	14790	6-Month Call	1.3	missing	.x		
+SUB231152	Atopic	SUF	14792	3-Month Home Visit	1.3	missing	.x		
+SUB231152	Atopic	SUF	14793	Synagis Check	1.3	complete	s	0	108
+SUB231152	Atopic	SUF	14789	9-Month Call	1.3	missing	.x		
+SUB231153	Non-atopic	SUF	14802	6-Month Call	1.3	complete	6	0	174
+SUB231153	Non-atopic	SUF	14799	Synagis Check	1.3	complete	s	0	90
+SUB231153	Non-atopic	SUF	14800	3-Month Home Visit	1.3	complete	3	0	124
+SUB231154	Non-atopic	SUF	14856	3-Month Home Visit	1.3	complete	3	0	91
+SUB231154	Non-atopic	SUF	14855	Synagis Check	1.2	complete	s	0	62
+SUB231154	Non-atopic	SUF	14858	6-Month Call	1.3	complete	6	0	168
+SUB231155	Atopic	SUF	14884	Synagis Check	1.3	complete	s	0	87
+SUB231155	Atopic	SUF	14883	3-Month Home Visit	1.3	complete	3	0	122
+SUB231155	Atopic	SUF	14881	6-Month Call	1.3	complete	6	0	191
+SUB231156	Non-atopic	SUF	15041	3-Month Home Visit	1.3	complete	3	0	115
+SUB231156	Non-atopic	SUF	15043	6-Month Call	1.3	complete	6	0	178
+SUB231156	Non-atopic	SUF	15040	Synagis Check	1.2	complete	s	0	63
+SUB231157	Non-atopic	SUF	15173	3-Month Home Visit	1.0	complete	3	0	-253
+SUB231157	Non-atopic	SUF	15172	Synagis Check	1.3	complete	s	0	73
+SUB231157	Non-atopic	SUF	15175	6-Month Call	1.3	complete	6	0	197
+SUB231158	Non-atopic	SUF	15192	Synagis Check	1.2	complete	s	0	61
+SUB231158	Non-atopic	SUF	15193	3-Month Home Visit	1.3	complete	3	0	103
+SUB231158	Non-atopic	SUF	15195	6-Month Call	1.3	complete	6	0	161
+SUB231159	Atopic	SUF	15217	9-Month Call	1.3	complete	9	0	265
+SUB231159	Atopic	SUF	15218	6-Month Call	1.3	missing	.x		
+SUB231159	Atopic	SUF	15220	3-Month Home Visit	1.3	missing	.x		
+SUB231159	Atopic	SUF	15221	Synagis Check	1.3	complete	s	0	77
+SUB231160	Atopic	SUF	15329	Synagis Check	1.3	complete	s	0	63
+SUB231160	Atopic	SUF	15328	3-Month Home Visit	1.3	missing	.x		
+SUB231161	Atopic	SUF	15362	Synagis Check	1.2	complete	s	0	61
+SUB231161	Atopic	SUF	15359	6-Month Call	1.3	complete	6	0	185
+SUB231161	Atopic	SUF	15361	3-Month Home Visit	1.3	complete	3	0	79
+SUB231162	Atopic	SUF	15387	6-Month Call	1.3	missing	.x		
+SUB231162	Atopic	SUF	15389	3-Month Home Visit	1.3	missing	.x		
+SUB231162	Atopic	SUF	15390	Synagis Check	1.3	complete	s	0	72
+SUB231163	Atopic	SUF	15528	3-Month Home Visit	1.3	complete	3	0	80
+SUB231163	Atopic	SUF	15526	6-Month Call	1.3	complete	6	0	161
+SUB231163	Atopic	SUF	15529	Synagis Check	1.2	complete	s	0	63
+SUB231164	Atopic	SUF	15545	Synagis Check	1.3	complete	s	0	61
+SUB231164	Atopic	SUF	15542	6-Month Call	1.3	complete	6	0	158
+SUB231164	Atopic	SUF	15544	3-Month Home Visit	1.3	complete	3	0	102
+SUB231165	Atopic	SUF	15560	3-Month Home Visit	1.3	complete	3	0	110
+SUB231165	Atopic	SUF	15561	Synagis Check	1.3	complete	s	0	68
+SUB231165	Atopic	SUF	15558	6-Month Call	1.3	complete	6	0	154
+SUB231166	Atopic	SUF	15942	6-Month Call	1.3	complete	6	0	176
+SUB231166	Atopic	SUF	15944	3-Month Home Visit	1.3	complete	3	0	92
+SUB231166	Atopic	SUF	15945	Synagis Check	1.3	complete	s	0	87
+SUB231167	Atopic	SUF	16012	6-Month Call	1.3	complete	6	0	156
+SUB231167	Atopic	SUF	16014	3-Month Home Visit	1.3	complete	3	0	81
+SUB231167	Atopic	SUF	16015	Synagis Check	1.3	complete	s	0	62
+SUB231168	Atopic	SUF	16672	6-Month Call	1.3	complete	6	0	172
+SUB231168	Atopic	SUF	16674	3-Month Home Visit	1.3	complete	3	0	117
+SUB231168	Atopic	SUF	16675	Synagis Check	1.3	complete	s	0	112
+SUB231169	Non-atopic	SUF	19296	9-Month Call	1.3	missing	.x		
+SUB231169	Non-atopic	SUF	19295	6-Month Call	1.3	missing	.x		
+SUB231169	Non-atopic	SUF	19297	12-Month Clinic Visit	1.3	missing	.x		
+SUB231169	Non-atopic	SUF	19293	3-Month Home Visit	1.3	complete	3	0	106
+SUB231169	Non-atopic	SUF	19298	15-Month Call	1.3	missing	.x		
+SUB231169	Non-atopic	SUF	19299	18-Month Call	1.3	complete	18	0	586
+SUB231169	Non-atopic	SUF	17324	Synagis Check	1.3	complete	s	0	99
+SUB231170	Non-atopic	SUF	17508	6-Month Call	1.3	complete	6	0	179
+SUB231170	Non-atopic	SUF	17506	3-Month Home Visit	1.3	complete	3	0	67
+SUB231170	Non-atopic	SUF	17505	Synagis Check	1.3	complete	s	0	61
+SUB231171	Non-atopic	SUF	18889	Synagis Check	1.3	complete	s	0	59
+SUB231171	Non-atopic	SUF	18890	3-Month Home Visit	1.3	complete	3	0	66
+SUB231171	Non-atopic	SUF	18892	6-Month Call	1.3	complete	6	0	155
+SUB231172	Non-atopic	SUF	18974	6-Month Call	1.3	complete	6	0	153
+SUB231172	Non-atopic	SUF	18972	3-Month Home Visit	1.3	complete	3	0	78
+SUB231172	Non-atopic	SUF	18971	Synagis Check	1.3	complete	s	0	61
+SUB231173	Atopic	SUF	492	6-Month Call	1.0	complete	6	0	188
+SUB231173	Atopic	SUF	490	3-Month Home Visit	1.0	complete	3	0	113
+SUB231173	Atopic	SUF	489	Synagis Check	1.0	complete	s	0	47
+SUB231174	Atopic	SUF	506	6-Month Call	1.0	complete	6	0	191
+SUB231174	Atopic	SUF	504	3-Month Home Visit	1.0	complete	3	0	100
+SUB231174	Atopic	SUF	503	Synagis Check	1.0	missing	.x		
+SUB231175	Atopic	SUF	759	3-Month Home Visit	1.0	complete	3	0	110
+SUB231175	Atopic	SUF	758	Synagis Check	1.0	complete	s	0	103
+SUB231175	Atopic	SUF	761	6-Month Call	1.0	complete	6	0	187
+SUB231176	Atopic	SUF	775	6-Month Call	1.0	complete	6	0	185
+SUB231176	Atopic	SUF	773	3-Month Home Visit	1.0	complete	3	0	105
+SUB231176	Atopic	SUF	772	Synagis Check	1.0	complete	s	0	90
+SUB231177	Atopic	SUF	1000	6-Month Call	1.0	complete	6	0	208
+SUB231177	Atopic	SUF	997	Synagis Check	1.0	complete	s	0	99
+SUB231177	Atopic	SUF	998	3-Month Home Visit	1.0	complete	3	0	111
+SUB231178	Atopic	SUF	1012	3-Month Home Visit	1.0	complete	3	0	118
+SUB231178	Atopic	SUF	1017	15-Month Call	1.0	missing	.x		
+SUB231178	Atopic	SUF	1014	6-Month Call	1.0	complete	6	0	180
+SUB231178	Atopic	SUF	1011	Synagis Check	1.0	complete	s	0	93
+SUB231179	Atopic	SUF	1041	Synagis Check	1.0	complete	s	0	86
+SUB231179	Atopic	SUF	1044	6-Month Call	1.0	complete	6	0	189
+SUB231179	Atopic	SUF	1042	3-Month Home Visit	1.0	complete	3	0	114
+SUB231180	Atopic	SUF	1079	3-Month Home Visit	1.0	complete	3	0	118
+SUB231180	Atopic	SUF	1078	Synagis Check	1.0	complete	s	0	97
+SUB231180	Atopic	SUF	1081	6-Month Call	1.0	complete	6	0	191
+SUB231181	Atopic	SUF	1187	6-Month Call	1.0	complete	6	0	171
+SUB231181	Atopic	SUF	1185	3-Month Home Visit	1.0	missing	.x		
+SUB231181	Atopic	SUF	1184	Synagis Check	1.0	complete	s	0	98
+SUB231182	Atopic	SUF	1418	6-Month Call	1.0	complete	6	0	165
+SUB231182	Atopic	SUF	1416	3-Month Home Visit	1.0	complete	3	0	105
+SUB231182	Atopic	SUF	1415	Synagis Check	1.0	complete	s	0	70
+SUB231183	Atopic	SUF	1573	6-Month Call	1.0	complete	6	0	183
+SUB231183	Atopic	SUF	1571	3-Month Home Visit	1.0	complete	3	0	92
+SUB231183	Atopic	SUF	1570	Synagis Check	1.0	complete	s	0	73
+SUB231184	Atopic	SUF	1683	6-Month Call	1.0	complete	6	0	175
+SUB231184	Atopic	SUF	1681	3-Month Home Visit	1.0	complete	3	0	91
+SUB231184	Atopic	SUF	1680	Synagis Check	1.0	complete	s	0	69
+SUB231185	Atopic	SUF	1878	6-Month Call	1.0	complete	6	0	200
+SUB231185	Atopic	SUF	1880	3-Month Home Visit	1.0	complete	3	0	120
+SUB231185	Atopic	SUF	1883	Synagis Check	1.0	complete	s	0	119
+SUB231186	Atopic	SUF	2024	6-Month Call	1.0	complete	6	0	167
+SUB231186	Atopic	SUF	2026	3-Month Home Visit	1.0	complete	3	0	90
+SUB231186	Atopic	SUF	2029	Synagis Check	1.0	complete	s	0	77
+SUB231187	Atopic	SUF	2305	3-Month Home Visit	1.0	complete	3	0	89
+SUB231187	Atopic	SUF	2303	6-Month Call	1.0	complete	6	0	185
+SUB231187	Atopic	SUF	2308	Synagis Check	1.0	complete	s	0	75
+SUB231188	Atopic	SUF	2700	3-Month Home Visit	1.0	complete	3	0	81
+SUB231188	Atopic	SUF	2698	6-Month Call	1.0	complete	6	0	209
+SUB231188	Atopic	SUF	2703	Synagis Check	1.0	complete	s	0	66
+SUB231189	Atopic	SUF	2770	3-Month Home Visit	1.0	complete	3	0	92
+SUB231189	Atopic	SUF	2773	Synagis Check	1.0	complete	s	0	68
+SUB231189	Atopic	SUF	2768	6-Month Call	1.0	complete	6	0	188
+SUB231190	Atopic	SUF	2943	18-Month Call	1.3	complete	15	0	538
+SUB231190	Atopic	SUF	2947	6-Month Call	1.0	missing	.x		
+SUB231190	Atopic	SUF	2952	Synagis Check	1.0	complete	s	0	62
+SUB231190	Atopic	SUF	2944	15-Month Call	1.3	missing	.x		
+SUB231190	Atopic	SUF	2949	3-Month Home Visit	1.0	complete	3	0	70
+SUB231191	Atopic	SUF	3180	Synagis Check	1.0	complete	s	0	72
+SUB231191	Atopic	SUF	3175	6-Month Call	1.0	complete	6	0	185
+SUB231191	Atopic	SUF	3177	3-Month Home Visit	1.0	complete	3	0	121
+SUB231192	Atopic	SUF	3416	6-Month Call	1.0	complete	6	0	208
+SUB231192	Atopic	SUF	3418	3-Month Home Visit	1.0	complete	3	0	117
+SUB231192	Atopic	SUF	3421	Synagis Check	1.0	complete	s	0	75
+SUB231193	Atopic	SUF	3691	Synagis Check	1.0	missing	.x		
+SUB231193	Atopic	SUF	3688	3-Month Home Visit	1.0	missing	.x		
+SUB231194	Atopic	SUF	3824	6-Month Call	1.0	missing	.x		
+SUB231194	Atopic	SUF	3826	3-Month Home Visit	1.0	complete	3	0	102
+SUB231194	Atopic	SUF	3829	Synagis Check	1.0	complete	s	0	68
+SUB231195	Atopic	SUF	3983	3-Month Home Visit	1.0	missing	.x		
+SUB231195	Atopic	SUF	3981	6-Month Call	1.0	missing	.x		
+SUB231195	Atopic	SUF	3986	Synagis Check	1.0	missing	.x		
+SUB231196	Atopic	SUF	4030	3-Month Home Visit	1.0	complete	3	0	91
+SUB231196	Atopic	SUF	4028	6-Month Call	1.0	complete	6	0	245
+SUB231196	Atopic	SUF	4033	Synagis Check	1.0	complete	s	0	74
+SUB231197	Atopic	SUF	4140	3-Month Home Visit	1.0	complete	3	0	112
+SUB231197	Atopic	SUF	4143	Synagis Check	1.0	complete	s	0	91
+SUB231197	Atopic	SUF	4138	6-Month Call	1.0	complete	6	0	248
+SUB231198	Atopic	SUF	4335	6-Month Call	1.0	complete	6	0	221
+SUB231198	Atopic	SUF	4340	Synagis Check	1.0	complete	s	0	62
+SUB231198	Atopic	SUF	4337	3-Month Home Visit	1.0	complete	3	0	126
+SUB231199	Atopic	SUF	4832	6-Month Call	1.0	complete	6	0	206
+SUB231199	Atopic	SUF	4837	Synagis Check	1.0	complete	s	0	72
+SUB231199	Atopic	SUF	4834	3-Month Home Visit	1.0	complete	3	0	134
+SUB231200	Atopic	SUF	4881	3-Month Home Visit	1.0	missing	.x		
+SUB231200	Atopic	SUF	4879	6-Month Call	1.0	missing	.x		
+SUB231200	Atopic	SUF	4884	Synagis Check	1.0	missing	.x		
+SUB231201	Atopic	SUF	5167	6-Month Call	1.0	complete	6	0	192
+SUB231201	Atopic	SUF	5169	3-Month Home Visit	1.0	complete	3	0	94
+SUB231201	Atopic	SUF	5170	Synagis Check	1.0	complete	s	0	64
+SUB231202	Atopic	SUF	5290	6-Month Call	1.0	complete	6	0	239
+SUB231202	Atopic	SUF	5293	Synagis Check	1.0	complete	s	0	198
+SUB231202	Atopic	SUF	5292	3-Month Home Visit	1.0	missing	.x		
+SUB231203	Atopic	SUF	5310	Synagis Check	1.0	complete	s	0	90
+SUB231203	Atopic	SUF	5309	3-Month Home Visit	1.3	missing	.x		
+SUB231203	Atopic	SUF	5307	6-Month Call	1.0	complete	6	0	223
+SUB231204	Atopic	SUF	5842	3-Month Home Visit	1.0	complete	3	0	131
+SUB231204	Atopic	SUF	5840	6-Month Call	1.0	missing	.x		
+SUB231204	Atopic	SUF	5843	Synagis Check	1.0	complete	s	0	66
+SUB231205	Atopic	SUF	5875	Synagis Check	1.0	missing	.x		
+SUB231205	Atopic	SUF	5874	3-Month Home Visit	1.0	missing	.x		
+SUB231206	Atopic	SUF	6167	Synagis Check	1.0	complete	s	0	66
+SUB231206	Atopic	SUF	6166	3-Month Home Visit	1.0	complete	3	0	132
+SUB231206	Atopic	SUF	6164	6-Month Call	1.0	complete	6	0	237
+SUB231207	Atopic	SUF	6178	12-Month Clinic Visit	1.3	complete	12	0	396
+SUB231207	Atopic	SUF	6182	3-Month Home Visit	1.0	complete	3	0	128
+SUB231207	Atopic	SUF	6180	6-Month Call	1.0	complete	6	0	227
+SUB231207	Atopic	SUF	6183	Synagis Check	1.0	complete	s	0	105
+SUB231208	Atopic	SUF	6259	6-Month Call	1.0	complete	6	0	184
+SUB231208	Atopic	SUF	6256	15-Month Call	1.3	missing	.x		
+SUB231208	Atopic	SUF	6255	18-Month Call	1.3	missing	.x		
+SUB231208	Atopic	SUF	6251	30-Month Call	1.3	complete	30	0	922
+SUB231208	Atopic	SUF	6262	Synagis Check	1.0	complete	s	0	162
+SUB231208	Atopic	SUF	6253	24-Month Clinic Visit	1.3	missing	.x		
+SUB231208	Atopic	SUF	6257	12-Month Clinic Visit	1.3	missing	.x		
+SUB231208	Atopic	SUF	6261	3-Month Home Visit	1.0	missing	.x		
+SUB231208	Atopic	SUF	6254	21-Month Call	1.3	missing	.x		
+SUB231208	Atopic	SUF	6252	27-Month Call	1.3	missing	.x		
+SUB231209	Atopic	SUF	6394	6-Month Call	1.0	complete	6	0	194
+SUB231209	Atopic	SUF	6397	Synagis Check	1.0	complete	s	0	117
+SUB231209	Atopic	SUF	6396	3-Month Home Visit	1.0	missing	.x		
+SUB231210	Atopic	SUF	6506	Synagis Check	1.0	complete	s	0	120
+SUB231210	Atopic	SUF	6503	6-Month Call	1.0	complete	6	0	223
+SUB231210	Atopic	SUF	6505	3-Month Home Visit	1.0	complete	3	0	125
+SUB231211	Atopic	SUF	6570	Synagis Check	1.0	complete	s	0	113
+SUB231211	Atopic	SUF	6569	3-Month Home Visit	1.0	missing	.x		
+SUB231211	Atopic	SUF	6567	6-Month Call	1.0	missing	.x		
+SUB231211	Atopic	SUF	6565	12-Month Clinic Visit	1.3	complete	12	0	456
+SUB231212	Atopic	SUF	6857	21-Month Call	1.3	missing	.x		
+SUB231212	Atopic	SUF	6856	24-Month Clinic Visit	1.3	missing	.x		
+SUB231212	Atopic	SUF	6858	18-Month Call	1.3	missing	.x		
+SUB231212	Atopic	SUF	6860	12-Month Clinic Visit	1.3	missing	.x		
+SUB231212	Atopic	SUF	6865	Synagis Check	1.0	complete	s	0	73
+SUB231212	Atopic	SUF	6864	3-Month Home Visit	1.0	complete	3	0	109
+SUB231212	Atopic	SUF	6859	15-Month Call	1.3	missing	.x		
+SUB231212	Atopic	SUF	6862	6-Month Call	1.0	missing	.x		
+SUB231212	Atopic	SUF	6855	27-Month Call	1.3	missing	.x		
+SUB231213	Atopic	SUF	7188	3-Month Home Visit	1.0	complete	3	0	105
+SUB231213	Atopic	SUF	7186	6-Month Call	1.0	complete	6	0	203
+SUB231213	Atopic	SUF	7189	Synagis Check	1.0	complete	s	0	62
+SUB231214	Atopic	SUF	7257	Synagis Check	1.0	complete	s	0	74
+SUB231214	Atopic	SUF	7254	6-Month Call	1.0	complete	6	0	221
+SUB231214	Atopic	SUF	7256	3-Month Home Visit	1.0	complete	3	0	88
+SUB231215	Atopic	SUF	7424	3-Month Home Visit	1.0	missing	.x		
+SUB231215	Atopic	SUF	7425	Synagis Check	1.0	missing	.x		
+SUB231215	Atopic	SUF	7422	6-Month Call	1.0	complete	6	0	175
+SUB231216	Atopic	SUF	7586	3-Month Home Visit	1.0	missing	.x		
+SUB231216	Atopic	SUF	7584	6-Month Call	1.0	complete	6	0	156
+SUB231216	Atopic	SUF	7587	Synagis Check	1.0	complete	s	0	114
+SUB231217	Atopic	SUF	7734	Synagis Check	1.0	missing	.x		
+SUB231217	Atopic	SUF	7733	3-Month Home Visit	1.0	missing	.x		
+SUB231217	Atopic	SUF	7731	6-Month Call	1.0	missing	.x		
+SUB231218	Atopic	SUF	7761	6-Month Call	1.0	complete	6	0	158
+SUB231218	Atopic	SUF	7763	3-Month Home Visit	1.0	missing	.x		
+SUB231218	Atopic	SUF	7764	Synagis Check	1.0	complete	s	0	117
+SUB231219	Atopic	SUF	7779	3-Month Home Visit	1.0	missing	.x		
+SUB231219	Atopic	SUF	7780	Synagis Check	1.0	complete	s	0	117
+SUB231219	Atopic	SUF	7777	6-Month Call	1.0	complete	6	0	158
+SUB231220	Atopic	SUF	7867	6-Month Call	1.0	complete	6	0	196
+SUB231220	Atopic	SUF	7869	3-Month Home Visit	1.0	missing	.x		
+SUB231220	Atopic	SUF	7870	Synagis Check	1.0	missing	.x		
+SUB231221	Atopic	SUF	7984	6-Month Call	1.0	complete	6	0	191
+SUB231221	Atopic	SUF	7986	3-Month Home Visit	1.0	complete	3	0	119
+SUB231221	Atopic	SUF	7987	Synagis Check	1.0	complete	s	0	112
+SUB231222	Atopic	SUF	8151	6-Month Call	1.0	missing	.x		
+SUB231222	Atopic	SUF	8153	3-Month Home Visit	1.0	missing	.x		
+SUB231222	Atopic	SUF	8154	Synagis Check	1.0	missing	.x		
+SUB231223	Atopic	SUF	8319	Synagis Check	1.0	complete	s	0	97
+SUB231223	Atopic	SUF	8316	6-Month Call	1.0	complete	6	0	168
+SUB231223	Atopic	SUF	8318	3-Month Home Visit	1.0	complete	3	0	132
+SUB231224	Atopic	SUF	8519	Synagis Check	1.0	complete	s	0	91
+SUB231224	Atopic	SUF	8518	3-Month Home Visit	1.0	complete	3	0	134
+SUB231224	Atopic	SUF	8516	6-Month Call	1.0	missing	.x		
+SUB231225	Atopic	SUF	8540	3-Month Home Visit	1.0	complete	3	0	131
+SUB231225	Atopic	SUF	8541	Synagis Check	1.0	complete	s	0	131
+SUB231225	Atopic	SUF	8538	6-Month Call	1.0	complete	6	0	229
+SUB231226	Atopic	SUF	8765	6-Month Call	1.0	complete	6	0	227
+SUB231226	Atopic	SUF	8768	Synagis Check	1.0	complete	s	0	83
+SUB231226	Atopic	SUF	8767	3-Month Home Visit	1.0	missing	.x		
+SUB231227	Atopic	SUF	8781	6-Month Call	1.0	complete	6	0	159
+SUB231227	Atopic	SUF	8783	3-Month Home Visit	1.0	complete	3	0	133
+SUB231227	Atopic	SUF	8784	Synagis Check	1.0	complete	s	0	84
+SUB231228	Atopic	SUF	8816	Synagis Check	1.0	missing	.x		
+SUB231228	Atopic	SUF	8815	3-Month Home Visit	1.0	missing	.x		
+SUB231228	Atopic	SUF	8813	6-Month Call	1.0	complete	6	0	165
+SUB231229	Atopic	SUF	8836	Synagis Check	1.0	missing	.x		
+SUB231229	Atopic	SUF	8833	6-Month Call	1.0	complete	6	0	178
+SUB231229	Atopic	SUF	8835	3-Month Home Visit	1.0	missing	.x		
+SUB231230	Atopic	SUF	8848	9-Month Call	1.2	complete	9	0	262
+SUB231230	Atopic	SUF	8849	6-Month Call	1.0	missing	.x		
+SUB231230	Atopic	SUF	8852	Synagis Check	1.0	complete	s	0	120
+SUB231230	Atopic	SUF	8851	3-Month Home Visit	1.0	complete	3	0	135
+SUB231232	Atopic	SUF	8991	3-Month Home Visit	1.0	complete	3	0	97
+SUB231232	Atopic	SUF	8992	Synagis Check	1.0	complete	s	0	90
+SUB231232	Atopic	SUF	8989	6-Month Call	1.0	complete	6	0	166
+SUB231233	Atopic	SUF	9079	6-Month Call	1.0	complete	6	0	186
+SUB231233	Atopic	SUF	9081	3-Month Home Visit	1.0	complete	3	0	123
+SUB231233	Atopic	SUF	9082	Synagis Check	1.0	complete	s	0	61
+SUB231234	Atopic	SUF	9095	6-Month Call	1.0	complete	6	0	166
+SUB231234	Atopic	SUF	9098	Synagis Check	1.0	complete	s	0	61
+SUB231234	Atopic	SUF	9097	3-Month Home Visit	1.0	complete	3	0	68
+SUB231235	Atopic	SUF	9314	Synagis Check	1.0	complete	s	0	77
+SUB231235	Atopic	SUF	9310	9-Month Call	1.3	complete	9	0	300
+SUB231235	Atopic	SUF	9313	3-Month Home Visit	1.0	missing	.x		
+SUB231235	Atopic	SUF	9311	6-Month Call	1.0	missing	.x		
+SUB231236	Atopic	SUF	9360	Synagis Check	1.0	complete	s	0	111
+SUB231236	Atopic	SUF	9359	3-Month Home Visit	1.0	missing	.x		
+SUB231236	Atopic	SUF	9357	6-Month Call	1.0	missing	.x		
+SUB231237	Atopic	SUF	9675	6-Month Call	1.0	complete	6	0	196
+SUB231237	Atopic	SUF	9677	3-Month Home Visit	1.0	complete	3	0	125
+SUB231237	Atopic	SUF	9678	Synagis Check	1.0	complete	s	0	118
+SUB231238	Atopic	SUF	9929	3-Month Home Visit	1.0	complete	3	0	131
+SUB231238	Atopic	SUF	9927	6-Month Call	1.0	complete	6	0	170
+SUB231238	Atopic	SUF	9930	Synagis Check	1.0	complete	s	0	54
+SUB231239	Atopic	SUF	10047	6-Month Call	1.0	missing	.x		
+SUB231239	Atopic	SUF	10050	Synagis Check	1.0	missing	.x		
+SUB231239	Atopic	SUF	10049	3-Month Home Visit	1.0	missing	.x		
+SUB231240	Atopic	SUF	10181	Synagis Check	1.0	missing	.x		
+SUB231240	Atopic	SUF	10178	6-Month Call	1.0	missing	.x		
+SUB231240	Atopic	SUF	10180	3-Month Home Visit	1.0	missing	.x		
+SUB231241	Atopic	SUF	10249	3-Month Home Visit	1.0	complete	3	0	127
+SUB231241	Atopic	SUF	10250	Synagis Check	1.0	complete	s	0	111
+SUB231241	Atopic	SUF	10247	6-Month Call	1.2	complete	6	0	218
+SUB231242	Atopic	SUF	10433	3-Month Home Visit	1.0	missing	.x		
+SUB231242	Atopic	SUF	10434	Synagis Check	1.0	complete	s	0	43
+SUB231242	Atopic	SUF	10431	6-Month Call	1.2	complete	6	0	190
+SUB231243	Atopic	SUF	10451	Synagis Check	1.0	complete	s	0	118
+SUB231243	Atopic	SUF	10448	6-Month Call	1.3	complete	6	0	231
+SUB231243	Atopic	SUF	10450	3-Month Home Visit	1.0	complete	3	0	118
+SUB231244	Atopic	SUF	10468	Synagis Check	1.0	missing	.x		
+SUB231244	Atopic	SUF	10460	21-Month Call	1.3	complete	21	0	639
+SUB231244	Atopic	SUF	10461	18-Month Call	1.3	missing	.x		
+SUB231244	Atopic	SUF	10467	3-Month Home Visit	1.0	missing	.x		
+SUB231244	Atopic	SUF	10462	15-Month Call	1.3	missing	.x		
+SUB231244	Atopic	SUF	10464	9-Month Call	1.3	missing	.x		
+SUB231244	Atopic	SUF	10463	12-Month Clinic Visit	1.3	missing	.x		
+SUB231244	Atopic	SUF	10465	6-Month Call	1.3	missing	.x		
+SUB231245	Atopic	SUF	4477	3-Month Home Visit	1.0	missing	.x		
+SUB231246	Atopic	SUF	10968	6-Month Call	1.0	complete	6	0	156
+SUB231246	Atopic	SUF	10971	Synagis Check	1.0	complete	s	0	63
+SUB231246	Atopic	SUF	10970	3-Month Home Visit	1.0	complete	3	0	136
+SUB231247	Atopic	SUF	10995	Synagis Check	1.0	complete	s	0	114
+SUB231247	Atopic	SUF	10994	3-Month Home Visit	1.0	complete	3	0	125
+SUB231247	Atopic	SUF	10992	6-Month Call	1.3	complete	6	0	211
+SUB231248	Atopic	SUF	11193	3-Month Home Visit	1.0	missing	.x		
+SUB231248	Atopic	SUF	11194	Synagis Check	1.0	complete	s	0	123
+SUB231248	Atopic	SUF	11191	6-Month Call	1.3	complete	6	0	226
+SUB231249	Atopic	SUF	11210	Synagis Check	1.0	missing	.x		
+SUB231249	Atopic	SUF	11207	6-Month Call	1.3	missing	.x		
+SUB231249	Atopic	SUF	11209	3-Month Home Visit	1.0	missing	.x		
+SUB231250	Atopic	SUF	11229	Synagis Check	1.0	missing	.x		
+SUB231250	Atopic	SUF	11226	6-Month Call	1.3	missing	.x		
+SUB231250	Atopic	SUF	11228	3-Month Home Visit	1.0	missing	.x		
+SUB231251	Atopic	SUF	11307	3-Month Home Visit	1.0	complete	3	0	138
+SUB231251	Atopic	SUF	11305	6-Month Call	1.2	complete	6	0	160
+SUB231251	Atopic	SUF	11308	Synagis Check	1.0	complete	s	0	119
+SUB231252	Atopic	SUF	11549	Synagis Check	1.0	complete	s	0	97
+SUB231252	Atopic	SUF	11546	6-Month Call	1.3	complete	6	0	185
+SUB231252	Atopic	SUF	11548	3-Month Home Visit	1.0	complete	3	0	129
+SUB231253	Atopic	SUF	11565	Synagis Check	1.0	complete	s	0	83
+SUB231253	Atopic	SUF	11564	3-Month Home Visit	1.0	complete	3	0	91
+SUB231253	Atopic	SUF	11561	9-Month Call	1.3	complete	9	0	284
+SUB231253	Atopic	SUF	11562	6-Month Call	1.3	missing	.x		
+SUB231254	Atopic	SUF	11688	Synagis Check	1.0	complete	s	0	101
+SUB231254	Atopic	SUF	11687	3-Month Home Visit	1.0	missing	.x		
+SUB231254	Atopic	SUF	11680	21-Month Call	1.3	missing	.x		
+SUB231254	Atopic	SUF	11685	6-Month Call	1.3	missing	.x		
+SUB231254	Atopic	SUF	11683	12-Month Clinic Visit	1.3	missing	.x		
+SUB231254	Atopic	SUF	11684	9-Month Call	1.3	missing	.x		
+SUB231254	Atopic	SUF	11681	18-Month Call	1.3	missing	.x		
+SUB231254	Atopic	SUF	11682	15-Month Call	1.3	missing	.x		
+SUB231255	Atopic	SUF	11719	3-Month Home Visit	1.0	complete	3	0	98
+SUB231255	Atopic	SUF	11720	Synagis Check	1.0	complete	s	0	61
+SUB231255	Atopic	SUF	11717	6-Month Call	1.2	complete	6	0	157
+SUB231256	Atopic	SUF	11759	Synagis Check	1.0	complete	s	0	77
+SUB231256	Atopic	SUF	11756	6-Month Call	1.3	complete	6	0	181
+SUB231256	Atopic	SUF	11758	3-Month Home Visit	1.0	complete	3	0	128
+SUB231257	Atopic	SUF	11923	6-Month Call	1.3	complete	6	0	217
+SUB231257	Atopic	SUF	11925	3-Month Home Visit	1.1	complete	3	0	133
+SUB231257	Atopic	SUF	11926	Synagis Check	1.0	complete	s	0	132
+SUB231258	Atopic	SUF	12046	Synagis Check	1.0	complete	s	0	99
+SUB231258	Atopic	SUF	12045	3-Month Home Visit	1.2	complete	3	0	132
+SUB231258	Atopic	SUF	12043	6-Month Call	1.3	complete	6	0	210
+SUB231259	Atopic	SUF	12359	3-Month Home Visit	1.0	missing	.x		
+SUB231259	Atopic	SUF	12360	Synagis Check	1.0	complete	s	0	65
+SUB231259	Atopic	SUF	12357	6-Month Call	1.3	complete	6	0	183
+SUB231260	Atopic	SUF	12725	Synagis Check	1.0	complete	s	0	68
+SUB231260	Atopic	SUF	12722	6-Month Call	1.3	complete	6	0	180
+SUB231260	Atopic	SUF	12724	3-Month Home Visit	1.0	complete	3	0	98
+SUB231261	Atopic	SUF	12944	3-Month Home Visit	1.2	complete	3	0	134
+SUB231261	Atopic	SUF	12942	6-Month Call	1.3	complete	6	0	193
+SUB231261	Atopic	SUF	12945	Synagis Check	1.0	complete	s	0	62
+SUB231262	Atopic	SUF	12960	3-Month Home Visit	1.2	complete	3	0	131
+SUB231262	Atopic	SUF	12961	Synagis Check	1.2	complete	s	0	129
+SUB231262	Atopic	SUF	12958	6-Month Call	1.3	complete	6	0	199
+SUB231263	Atopic	SUF	13054	6-Month Call	1.3	complete	6	0	177
+SUB231263	Atopic	SUF	13057	Synagis Check	1.0	complete	s	0	65
+SUB231263	Atopic	SUF	13056	3-Month Home Visit	1.2	complete	3	0	130
+SUB231264	Atopic	SUF	13261	3-Month Home Visit	1.0	missing	.x		
+SUB231264	Atopic	SUF	13262	Synagis Check	1.0	complete	s	0	82
+SUB231264	Atopic	SUF	13259	6-Month Call	1.3	complete	6	0	173
+SUB231265	Atopic	SUF	13545	Synagis Check	1.0	complete	s	0	69
+SUB231265	Atopic	SUF	13542	6-Month Call	1.3	complete	6	0	183
+SUB231265	Atopic	SUF	13544	3-Month Home Visit	1.3	missing	.x		
+SUB231266	Atopic	SUF	13660	3-Month Home Visit	1.2	complete	3	0	83
+SUB231266	Atopic	SUF	13658	6-Month Call	1.3	missing	.x		
+SUB231266	Atopic	SUF	13661	Synagis Check	1.0	complete	s	0	68
+SUB231266	Atopic	SUF	13657	9-Month Call	1.3	complete	9	0	292
+SUB231267	Atopic	SUF	13677	Synagis Check	1.0	complete	s	0	70
+SUB231267	Atopic	SUF	13674	6-Month Call	1.3	missing	.x		
+SUB231267	Atopic	SUF	13676	3-Month Home Visit	1.2	missing	.x		
+SUB231267	Atopic	SUF	13673	9-Month Call	1.3	complete	9	0	259
+SUB231268	Atopic	SUF	13778	3-Month Home Visit	1.3	complete	3	0	129
+SUB231268	Atopic	SUF	13776	6-Month Call	1.3	complete	6	0	186
+SUB231268	Atopic	SUF	13779	Synagis Check	1.0	complete	s	0	66
+SUB231269	Atopic	SUF	13871	3-Month Home Visit	1.3	missing	.x		
+SUB231269	Atopic	SUF	13872	Synagis Check	1.0	missing	.x		
+SUB231269	Atopic	SUF	13869	6-Month Call	1.3	complete	6	0	178
+SUB231270	Atopic	SUF	14091	15-Month Call	1.3	complete	15	0	467
+SUB231270	Atopic	SUF	14096	3-Month Home Visit	1.3	missing	.x		
+SUB231270	Atopic	SUF	14097	Synagis Check	1.1	missing	.x		
+SUB231270	Atopic	SUF	14094	6-Month Call	1.3	missing	.x		
+SUB231270	Atopic	SUF	14093	9-Month Call	1.3	missing	.x		
+SUB231270	Atopic	SUF	14092	12-Month Clinic Visit	1.3	missing	.x		
+SUB231271	Atopic	SUF	14114	3-Month Home Visit	1.3	complete	3	0	124
+SUB231271	Atopic	SUF	14115	Synagis Check	1.1	complete	s	0	61
+SUB231271	Atopic	SUF	14112	6-Month Call	1.3	complete	6	0	206
+SUB231272	Atopic	SUF	14184	Synagis Check	1.2	complete	s	0	75
+SUB231272	Atopic	SUF	14183	3-Month Home Visit	1.3	missing	.x		
+SUB231272	Atopic	SUF	14181	6-Month Call	1.3	complete	6	0	167
+SUB231273	Atopic	SUF	14352	6-Month Call	1.3	complete	6	0	172
+SUB231273	Atopic	SUF	14355	Synagis Check	1.2	complete	s	0	64
+SUB231273	Atopic	SUF	14354	3-Month Home Visit	1.3	complete	3	0	134
+SUB231274	Atopic	SUF	14472	6-Month Call	1.3	missing	.x		
+SUB231274	Atopic	SUF	14474	3-Month Home Visit	1.2	complete	3	0	77
+SUB231274	Atopic	SUF	14471	9-Month Call	1.3	complete	9	0	300
+SUB231274	Atopic	SUF	14475	Synagis Check	1.2	complete	s	0	69
+SUB231275	Atopic	SUF	14551	Synagis Check	1.3	complete	s	0	84
+SUB231275	Atopic	SUF	14548	6-Month Call	1.3	complete	6	0	189
+SUB231275	Atopic	SUF	14550	3-Month Home Visit	1.3	complete	3	0	132
+SUB231276	Atopic	SUF	14658	9-Month Call	1.3	complete	9	0	282
+SUB231276	Atopic	SUF	14661	3-Month Home Visit	1.3	complete	3	0	130
+SUB231276	Atopic	SUF	14659	6-Month Call	1.3	missing	.x		
+SUB231276	Atopic	SUF	14662	Synagis Check	1.2	complete	s	0	64
+SUB231277	Non-atopic	SUF	14681	Synagis Check	1.2	complete	s	0	63
+SUB231277	Non-atopic	SUF	14684	6-Month Call	1.3	complete	6	0	177
+SUB231277	Non-atopic	SUF	14682	3-Month Home Visit	1.3	missing	.x		
+SUB231278	Non-atopic	SUF	14699	Synagis Check	1.3	complete	s	0	86
+SUB231278	Non-atopic	SUF	14702	6-Month Call	1.3	complete	6	0	169
+SUB231278	Non-atopic	SUF	14700	3-Month Home Visit	1.3	complete	3	0	120
+SUB231279	Atopic	SUF	14916	6-Month Call	1.3	missing	.x		
+SUB231279	Atopic	SUF	14918	3-Month Home Visit	1.3	complete	3	0	133
+SUB231279	Atopic	SUF	14915	9-Month Call	1.3	complete	9	0	317
+SUB231279	Atopic	SUF	14919	Synagis Check	1.2	complete	s	0	63
+SUB231280	Non-atopic	SUF	14992	Synagis Check	1.2	complete	s	0	63
+SUB231280	Non-atopic	SUF	14993	3-Month Home Visit	1.3	complete	3	0	131
+SUB231280	Non-atopic	SUF	14995	6-Month Call	1.3	complete	6	0	197
+SUB231281	Atopic	SUF	15104	Synagis Check	1.3	complete	s	0	65
+SUB231281	Atopic	SUF	15103	3-Month Home Visit	1.3	missing	.x		
+SUB231281	Atopic	SUF	15101	6-Month Call	1.3	complete	6	0	162
+SUB231282	Atopic	SUF	15434	6-Month Call	1.3	complete	6	0	161
+SUB231282	Atopic	SUF	15436	3-Month Home Visit	1.3	complete	3	0	118
+SUB231282	Atopic	SUF	15437	Synagis Check	1.3	complete	s	0	118
+SUB231283	Atopic	SUF	15641	Synagis Check	1.3	complete	s	0	95
+SUB231283	Atopic	SUF	15638	6-Month Call	1.3	complete	6	0	158
+SUB231283	Atopic	SUF	15640	3-Month Home Visit	1.3	complete	3	0	117
+SUB231284	Atopic	SUF	15692	Synagis Check	1.3	complete	s	0	79
+SUB231284	Atopic	SUF	15689	6-Month Call	1.3	complete	6	0	169
+SUB231284	Atopic	SUF	15691	3-Month Home Visit	1.3	complete	3	0	87
+SUB231285	Non-atopic	SUF	15705	Synagis Check	1.0	complete	s	0	-279
+SUB231285	Non-atopic	SUF	15708	6-Month Call	1.3	complete	6	0	163
+SUB231285	Non-atopic	SUF	15706	3-Month Home Visit	1.3	complete	3	0	133
+SUB231286	Atopic	SUF	15755	Synagis Check	1.3	complete	s	0	83
+SUB231286	Atopic	SUF	15752	6-Month Call	1.3	complete	6	0	209
+SUB231286	Atopic	SUF	15754	3-Month Home Visit	1.3	complete	3	0	133
+SUB231287	Non-atopic	SUF	15785	9-Month Call	1.3	missing	.x		
+SUB231287	Non-atopic	SUF	15786	12-Month Clinic Visit	1.3	complete	12	0	456
+SUB231287	Non-atopic	SUF	15784	6-Month Call	1.3	missing	.x		
+SUB231287	Non-atopic	SUF	15781	Synagis Check	1.3	complete	s	0	97
+SUB231287	Non-atopic	SUF	15782	3-Month Home Visit	1.3	complete	3	0	102
+SUB231288	Atopic	SUF	16089	3-Month Home Visit	1.3	complete	3	0	113
+SUB231288	Atopic	SUF	16087	6-Month Call	1.3	complete	6	0	154
+SUB231288	Atopic	SUF	16090	Synagis Check	1.3	complete	s	0	80
+SUB231289	Atopic	SUF	16120	3-Month Home Visit	1.3	complete	3	0	108
+SUB231289	Atopic	SUF	16118	6-Month Call	1.3	complete	6	0	154
+SUB231289	Atopic	SUF	16121	Synagis Check	1.3	complete	s	0	72
+SUB231290	Atopic	SUF	16236	6-Month Call	1.3	complete	6	0	166
+SUB231290	Atopic	SUF	16238	3-Month Home Visit	1.3	complete	3	0	87
+SUB231290	Atopic	SUF	16239	Synagis Check	1.3	complete	s	0	76
+SUB231291	Atopic	SUF	16383	3-Month Home Visit	1.3	complete	3	0	104
+SUB231291	Atopic	SUF	16384	Synagis Check	1.3	complete	s	0	71
+SUB231291	Atopic	SUF	16381	6-Month Call	1.3	complete	6	0	153
+SUB231292	Atopic	SUF	16488	6-Month Call	1.3	complete	6	0	217
+SUB231292	Atopic	SUF	16490	3-Month Home Visit	1.3	complete	3	0	84
+SUB231292	Atopic	SUF	16491	Synagis Check	1.3	complete	s	0	58
+SUB231293	Atopic	SUF	431	3-Month Home Visit	1.0	complete	3	0	99
+SUB231293	Atopic	SUF	433	6-Month Call	1.0	complete	6	0	188
+SUB231293	Atopic	SUF	430	Synagis Check	1.0	complete	s	0	83
+SUB231294	Atopic	SUF	448	3-Month Home Visit	1.0	complete	3	0	105
+SUB231294	Atopic	SUF	447	Synagis Check	1.0	complete	s	0	97
+SUB231294	Atopic	SUF	450	6-Month Call	1.0	complete	6	0	174
+SUB231295	Atopic	SUF	464	6-Month Call	1.0	complete	6	0	209
+SUB231295	Atopic	SUF	462	3-Month Home Visit	1.0	complete	3	0	143
+SUB231295	Atopic	SUF	461	Synagis Check	1.0	complete	s	0	70
+SUB231296	Atopic	SUF	478	6-Month Call	1.0	complete	6	0	156
+SUB231296	Atopic	SUF	476	3-Month Home Visit	1.0	complete	3	0	109
+SUB231296	Atopic	SUF	475	Synagis Check	1.0	complete	s	0	102
+SUB231297	Atopic	SUF	552	3-Month Home Visit	1.0	complete	3	0	101
+SUB231297	Atopic	SUF	554	6-Month Call	1.0	complete	6	0	167
+SUB231297	Atopic	SUF	551	Synagis Check	1.0	complete	s	0	68
+SUB231298	Atopic	SUF	673	6-Month Call	1.0	complete	6	0	166
+SUB231298	Atopic	SUF	671	3-Month Home Visit	1.0	complete	3	0	88
+SUB231298	Atopic	SUF	670	Synagis Check	1.0	complete	s	0	60
+SUB231299	Atopic	SUF	684	Synagis Check	1.0	complete	s	0	54
+SUB231299	Atopic	SUF	687	6-Month Call	1.0	complete	6	0	165
+SUB231299	Atopic	SUF	685	3-Month Home Visit	1.0	complete	3	0	87
+SUB231300	Atopic	SUF	1114	6-Month Call	1.0	complete	6	0	198
+SUB231300	Atopic	SUF	1111	Synagis Check	1.0	complete	s	0	84
+SUB231300	Atopic	SUF	1112	3-Month Home Visit	1.0	complete	3	0	93
+SUB231301	Atopic	SUF	1125	Synagis Check	1.0	complete	s	0	78
+SUB231301	Atopic	SUF	1126	3-Month Home Visit	1.0	complete	3	0	88
+SUB231302	Atopic	SUF	1255	Synagis Check	1.0	complete	s	0	70
+SUB231302	Atopic	SUF	1256	3-Month Home Visit	1.0	complete	3	0	81
+SUB231302	Atopic	SUF	1258	6-Month Call	1.0	complete	6	0	164
+SUB231303	Atopic	SUF	1271	3-Month Home Visit	1.0	complete	3	0	96
+SUB231303	Atopic	SUF	1273	6-Month Call	1.0	complete	6	0	175
+SUB231303	Atopic	SUF	1270	Synagis Check	1.0	complete	s	0	90
+SUB231304	Atopic	SUF	1287	6-Month Call	1.0	complete	6	0	178
+SUB231304	Atopic	SUF	1284	Synagis Check	1.0	complete	s	0	98
+SUB231304	Atopic	SUF	1285	3-Month Home Visit	1.0	complete	3	0	114
+SUB231305	Atopic	SUF	1320	3-Month Home Visit	1.0	complete	3	0	87
+SUB231305	Atopic	SUF	1319	Synagis Check	1.0	complete	s	0	67
+SUB231305	Atopic	SUF	1322	6-Month Call	1.0	complete	6	0	185
+SUB231306	Atopic	SUF	1360	3-Month Home Visit	1.0	complete	3	0	78
+SUB231306	Atopic	SUF	1359	Synagis Check	1.0	complete	s	0	65
+SUB231306	Atopic	SUF	1362	6-Month Call	1.0	complete	6	0	166
+SUB231307	Atopic	SUF	1446	6-Month Call	1.0	complete	6	0	172
+SUB231307	Atopic	SUF	1443	Synagis Check	1.0	complete	s	0	82
+SUB231307	Atopic	SUF	1444	3-Month Home Visit	1.0	complete	3	0	109
+SUB231308	Atopic	SUF	1460	6-Month Call	1.0	complete	6	0	157
+SUB231308	Atopic	SUF	1458	3-Month Home Visit	1.0	complete	3	0	82
+SUB231308	Atopic	SUF	1457	Synagis Check	1.0	complete	s	0	60
+SUB231309	Atopic	SUF	1553	Synagis Check	1.0	complete	s	0	233
+SUB231309	Atopic	SUF	1556	6-Month Call	1.0	complete	6	0	234
+SUB231309	Atopic	SUF	1554	3-Month Home Visit	1.0	missing	.x		
+SUB231310	Atopic	SUF	1645	3-Month Home Visit	1.0	complete	3	0	96
+SUB231310	Atopic	SUF	1647	6-Month Call	1.0	complete	6	0	170
+SUB231310	Atopic	SUF	1644	Synagis Check	1.0	complete	s	0	92
+SUB231311	Atopic	SUF	1867	Synagis Check	1.0	complete	s	0	74
+SUB231311	Atopic	SUF	1864	3-Month Home Visit	1.0	complete	3	0	82
+SUB231311	Atopic	SUF	1862	6-Month Call	1.0	complete	6	0	179
+SUB231312	Atopic	SUF	1894	6-Month Call	1.0	complete	6	0	167
+SUB231312	Atopic	SUF	1896	3-Month Home Visit	1.0	complete	3	0	109
+SUB231312	Atopic	SUF	1899	Synagis Check	1.0	complete	s	0	78
+SUB231313	Atopic	SUF	1912	6-Month Call	1.0	complete	6	0	160
+SUB231313	Atopic	SUF	1914	3-Month Home Visit	1.0	complete	3	0	115
+SUB231313	Atopic	SUF	1917	Synagis Check	1.0	complete	s	0	114
+SUB231314	Atopic	SUF	1953	3-Month Home Visit	1.0	complete	3	0	96
+SUB231314	Atopic	SUF	1956	Synagis Check	1.0	complete	s	0	94
+SUB231314	Atopic	SUF	1951	6-Month Call	1.0	complete	6	0	179
+SUB231315	Atopic	SUF	2004	Synagis Check	1.0	complete	s	0	70
+SUB231315	Atopic	SUF	2001	3-Month Home Visit	1.0	complete	3	0	82
+SUB231315	Atopic	SUF	1999	6-Month Call	1.0	missing	.x		
+SUB231316	Atopic	SUF	2042	3-Month Home Visit	1.0	complete	3	0	75
+SUB231316	Atopic	SUF	2045	Synagis Check	1.0	complete	s	0	63
+SUB231316	Atopic	SUF	2040	6-Month Call	1.0	missing	.x		
+SUB231317	Atopic	SUF	2078	Synagis Check	1.0	complete	s	0	97
+SUB231317	Atopic	SUF	2073	6-Month Call	1.0	complete	6	0	180
+SUB231317	Atopic	SUF	2075	3-Month Home Visit	1.0	complete	3	0	103
+SUB231318	Atopic	SUF	2265	6-Month Call	1.0	complete	6	0	172
+SUB231318	Atopic	SUF	2270	Synagis Check	1.0	complete	s	0	52
+SUB231318	Atopic	SUF	2267	3-Month Home Visit	1.0	complete	3	0	64
+SUB231319	Atopic	SUF	2366	3-Month Home Visit	1.0	complete	3	0	95
+SUB231319	Atopic	SUF	2369	Synagis Check	1.0	complete	s	0	78
+SUB231319	Atopic	SUF	2364	6-Month Call	1.0	complete	6	0	195
+SUB231320	Atopic	SUF	2393	6-Month Call	1.0	complete	6	0	184
+SUB231320	Atopic	SUF	2395	3-Month Home Visit	1.0	complete	3	0	73
+SUB231320	Atopic	SUF	2398	Synagis Check	1.0	complete	s	0	58
+SUB231321	Atopic	SUF	2440	15-Month Call	1.2	complete	15	0	478
+SUB231321	Atopic	SUF	2445	3-Month Home Visit	1.0	missing	.x		
+SUB231321	Atopic	SUF	2443	6-Month Call	1.0	complete	6	0	180
+SUB231321	Atopic	SUF	2448	Synagis Check	1.0	missing	.x		
+SUB231322	Atopic	SUF	2570	Synagis Check	1.0	missing	.x		
+SUB231322	Atopic	SUF	2567	3-Month Home Visit	1.0	missing	.x		
+SUB231323	Atopic	SUF	2894	Synagis Check	1.0	complete	s	0	67
+SUB231323	Atopic	SUF	2891	3-Month Home Visit	1.0	complete	3	0	76
+SUB231323	Atopic	SUF	2889	6-Month Call	1.0	complete	6	0	166
+SUB231324	Atopic	SUF	2905	6-Month Call	1.0	complete	6	0	188
+SUB231324	Atopic	SUF	2910	Synagis Check	1.0	complete	s	0	61
+SUB231324	Atopic	SUF	2907	3-Month Home Visit	1.0	complete	3	0	66
+SUB231325	Atopic	SUF	2930	Synagis Check	1.0	complete	s	0	61
+SUB231325	Atopic	SUF	2927	3-Month Home Visit	1.0	complete	3	0	76
+SUB231325	Atopic	SUF	2925	6-Month Call	1.0	complete	6	0	152
+SUB231326	Atopic	SUF	3164	Synagis Check	1.0	complete	s	0	97
+SUB231326	Atopic	SUF	3161	3-Month Home Visit	1.0	complete	3	0	98
+SUB231326	Atopic	SUF	3159	6-Month Call	1.0	complete	6	0	188
+SUB231327	Atopic	SUF	3196	Synagis Check	1.0	complete	s	0	62
+SUB231327	Atopic	SUF	3191	6-Month Call	1.0	complete	6	0	154
+SUB231327	Atopic	SUF	3193	3-Month Home Visit	1.0	complete	3	0	95
+SUB231328	Atopic	SUF	3207	6-Month Call	1.0	missing	.x		
+SUB231328	Atopic	SUF	3209	3-Month Home Visit	1.0	complete	3	0	90
+SUB231328	Atopic	SUF	3212	Synagis Check	1.0	complete	s	0	76
+SUB231329	Atopic	SUF	3223	6-Month Call	1.0	complete	6	0	179
+SUB231329	Atopic	SUF	3225	3-Month Home Visit	1.0	complete	3	0	73
+SUB231329	Atopic	SUF	3228	Synagis Check	1.0	complete	s	0	68
+SUB231330	Atopic	SUF	3443	6-Month Call	1.0	complete	6	0	223
+SUB231330	Atopic	SUF	3448	Synagis Check	1.0	complete	s	0	62
+SUB231330	Atopic	SUF	3445	3-Month Home Visit	1.0	complete	3	0	66
+SUB231331	Atopic	SUF	3675	Synagis Check	1.0	complete	s	0	60
+SUB231331	Atopic	SUF	3672	3-Month Home Visit	1.0	complete	3	0	90
+SUB231331	Atopic	SUF	3670	6-Month Call	1.0	complete	6	0	167
+SUB231332	Atopic	SUF	3704	6-Month Call	1.0	complete	6	0	211
+SUB231332	Atopic	SUF	3706	3-Month Home Visit	1.0	complete	3	0	80
+SUB231332	Atopic	SUF	3709	Synagis Check	1.0	complete	s	0	77
+SUB231333	Atopic	SUF	3890	6-Month Call	1.0	complete	6	0	224
+SUB231333	Atopic	SUF	3892	3-Month Home Visit	1.0	complete	3	0	73
+SUB231333	Atopic	SUF	3895	Synagis Check	1.0	complete	s	0	66
+SUB231334	Atopic	SUF	3925	6-Month Call	1.0	missing	.x		
+SUB231334	Atopic	SUF	3930	Synagis Check	1.0	complete	s	0	65
+SUB231334	Atopic	SUF	3927	3-Month Home Visit	1.0	complete	3	0	72
+SUB231335	Atopic	SUF	3947	Synagis Check	1.0	complete	s	0	94
+SUB231336	Atopic	SUF	3999	3-Month Home Visit	1.0	complete	3	0	102
+SUB231336	Atopic	SUF	3997	6-Month Call	1.0	complete	6	0	161
+SUB231336	Atopic	SUF	4002	Synagis Check	1.0	complete	s	0	89
+SUB231337	Atopic	SUF	4274	6-Month Call	1.0	complete	6	0	183
+SUB231337	Atopic	SUF	4276	3-Month Home Visit	1.0	complete	3	0	79
+SUB231337	Atopic	SUF	4279	Synagis Check	1.0	complete	s	0	64
+SUB231338	Atopic	SUF	4401	6-Month Call	1.0	complete	6	0	194
+SUB231338	Atopic	SUF	4406	Synagis Check	1.0	complete	s	0	68
+SUB231338	Atopic	SUF	4403	3-Month Home Visit	1.0	complete	3	0	74
+SUB231339	Atopic	SUF	4419	3-Month Home Visit	1.0	complete	3	0	82
+SUB231339	Atopic	SUF	4417	6-Month Call	1.0	complete	6	0	170
+SUB231339	Atopic	SUF	4422	Synagis Check	1.0	complete	s	0	60
+SUB231340	Atopic	SUF	4444	6-Month Call	1.0	complete	6	0	213
+SUB231340	Atopic	SUF	4446	3-Month Home Visit	1.0	complete	3	0	94
+SUB231340	Atopic	SUF	4449	Synagis Check	1.0	complete	s	0	74
+SUB231341	Atopic	SUF	4627	6-Month Call	1.0	complete	6	0	163
+SUB231341	Atopic	SUF	4632	Synagis Check	1.0	complete	s	0	129
+SUB231341	Atopic	SUF	4629	3-Month Home Visit	1.0	complete	3	0	133
+SUB231342	Atopic	SUF	4695	3-Month Home Visit	1.0	complete	3	0	71
+SUB231342	Atopic	SUF	4693	6-Month Call	1.0	missing	.x		
+SUB231342	Atopic	SUF	4698	Synagis Check	1.0	complete	s	0	66
+SUB231343	Atopic	SUF	4855	6-Month Call	1.0	complete	6	0	172
+SUB231343	Atopic	SUF	4860	Synagis Check	1.0	complete	s	0	61
+SUB231343	Atopic	SUF	4857	3-Month Home Visit	1.0	complete	3	0	79
+SUB231344	Atopic	SUF	4904	Synagis Check	1.0	complete	s	1	25
+SUB231345	Atopic	SUF	4978	Synagis Check	1.0	complete	s	0	65
+SUB231345	Atopic	SUF	4975	3-Month Home Visit	1.0	complete	3	0	70
+SUB231345	Atopic	SUF	4973	6-Month Call	1.0	complete	6	0	209
+SUB231346	Atopic	SUF	4993	6-Month Call	1.0	complete	6	0	219
+SUB231346	Atopic	SUF	4998	Synagis Check	1.0	complete	s	0	65
+SUB231346	Atopic	SUF	4995	3-Month Home Visit	1.0	complete	3	0	128
+SUB231347	Atopic	SUF	5209	Synagis Check	1.0	complete	s	0	63
+SUB231347	Atopic	SUF	5208	3-Month Home Visit	1.0	complete	3	0	118
+SUB231347	Atopic	SUF	5206	6-Month Call	1.0	missing	.x		
+SUB231348	Atopic	SUF	5258	Synagis Check	1.0	missing	.x		
+SUB231348	Atopic	SUF	5257	3-Month Home Visit	1.0	missing	.x		
+SUB231350	Atopic	SUF	5437	6-Month Call	1.0	complete	6	0	200
+SUB231350	Atopic	SUF	5440	Synagis Check	1.0	complete	s	0	47
+SUB231350	Atopic	SUF	5439	3-Month Home Visit	1.0	missing	.x		
+SUB231351	Atopic	SUF	5473	Synagis Check	1.0	complete	s	0	75
+SUB231351	Atopic	SUF	5472	3-Month Home Visit	1.0	missing	.x		
+SUB231352	Atopic	SUF	5601	Synagis Check	1.0	complete	s	0	93
+SUB231352	Atopic	SUF	5600	3-Month Home Visit	1.0	missing	.x		
+SUB231352	Atopic	SUF	5598	6-Month Call	1.0	missing	.x		
+SUB231353	Atopic	SUF	5617	Synagis Check	1.0	complete	s	0	74
+SUB231353	Atopic	SUF	5616	3-Month Home Visit	1.0	complete	3	0	92
+SUB231353	Atopic	SUF	5614	6-Month Call	1.0	complete	6	0	228
+SUB231354	Atopic	SUF	5633	Synagis Check	1.0	complete	s	0	62
+SUB231354	Atopic	SUF	5632	3-Month Home Visit	1.0	complete	3	0	125
+SUB231354	Atopic	SUF	5630	6-Month Call	1.0	missing	.x		
+SUB231355	Atopic	SUF	5662	6-Month Call	1.0	complete	6	0	157
+SUB231355	Atopic	SUF	5664	3-Month Home Visit	1.0	missing	.x		
+SUB231355	Atopic	SUF	5665	Synagis Check	1.0	complete	s	0	117
+SUB231356	Atopic	SUF	5713	Synagis Check	1.0	complete	s	0	77
+SUB231356	Atopic	SUF	5712	3-Month Home Visit	1.0	complete	3	0	82
+SUB231356	Atopic	SUF	5710	6-Month Call	1.0	complete	6	0	-178
+SUB231357	Atopic	SUF	5859	Synagis Check	1.0	complete	s	0	68
+SUB231357	Atopic	SUF	5858	3-Month Home Visit	1.0	complete	3	0	106
+SUB231357	Atopic	SUF	5856	6-Month Call	1.0	complete	6	0	175
+SUB231358	Atopic	SUF	5896	Synagis Check	1.0	complete	s	0	67
+SUB231358	Atopic	SUF	5895	3-Month Home Visit	1.0	complete	3	0	131
+SUB231358	Atopic	SUF	10332	6-Month Call	1.0	complete	6	0	226
+SUB231359	Atopic	SUF	5916	Synagis Check	1.0	complete	s	0	65
+SUB231359	Atopic	SUF	5913	6-Month Call	1.0	complete	6	0	211
+SUB231359	Atopic	SUF	5915	3-Month Home Visit	1.0	complete	3	0	72
+SUB231360	Atopic	SUF	5968	3-Month Home Visit	1.0	complete	3	0	87
+SUB231360	Atopic	SUF	5969	Synagis Check	1.0	complete	s	0	66
+SUB231360	Atopic	SUF	5966	6-Month Call	1.0	complete	6	0	228
+SUB231361	Atopic	SUF	6026	6-Month Call	1.0	complete	6	0	188
+SUB231361	Atopic	SUF	6028	3-Month Home Visit	1.0	complete	3	0	89
+SUB231361	Atopic	SUF	6029	Synagis Check	1.0	complete	s	0	86
+SUB231362	Atopic	SUF	6131	3-Month Home Visit	1.0	missing	.x		
+SUB231362	Atopic	SUF	6132	Synagis Check	1.0	complete	s	0	68
+SUB231363	Atopic	SUF	6299	3-Month Home Visit	1.0	complete	3	0	133
+SUB231363	Atopic	SUF	6297	6-Month Call	1.0	complete	6	0	190
+SUB231363	Atopic	SUF	6300	Synagis Check	1.0	complete	s	0	124
+SUB231364	Atopic	SUF	6332	Synagis Check	1.0	complete	s	0	109
+SUB231364	Atopic	SUF	6331	3-Month Home Visit	1.0	complete	3	0	128
+SUB231364	Atopic	SUF	6329	6-Month Call	1.0	complete	6	0	179
+SUB231365	Atopic	SUF	6432	Synagis Check	1.0	complete	s	0	64
+SUB231365	Atopic	SUF	6429	6-Month Call	1.0	complete	6	0	176
+SUB231365	Atopic	SUF	6431	3-Month Home Visit	1.0	complete	3	0	71
+SUB231366	Atopic	SUF	6586	3-Month Home Visit	1.0	complete	3	0	88
+SUB231366	Atopic	SUF	6584	6-Month Call	1.0	complete	6	0	158
+SUB231366	Atopic	SUF	6587	Synagis Check	1.0	complete	s	0	83
+SUB231367	Atopic	SUF	6604	Synagis Check	1.0	complete	s	0	63
+SUB231367	Atopic	SUF	6603	3-Month Home Visit	1.0	complete	3	0	125
+SUB231367	Atopic	SUF	6601	6-Month Call	1.0	missing	.x		
+SUB231367	Atopic	SUF	6599	12-Month Clinic Visit	1.3	missing	.x		
+SUB231368	Atopic	SUF	6758	Synagis Check	1.0	complete	s	0	61
+SUB231368	Atopic	SUF	6757	3-Month Home Visit	1.0	complete	3	0	90
+SUB231368	Atopic	SUF	6755	6-Month Call	1.0	complete	6	0	189
+SUB231369	Atopic	SUF	6808	Synagis Check	1.0	complete	s	0	79
+SUB231369	Atopic	SUF	6807	3-Month Home Visit	1.0	complete	3	0	86
+SUB231369	Atopic	SUF	6805	6-Month Call	1.0	complete	6	0	164
+SUB231370	Atopic	SUF	6927	Synagis Check	1.0	complete	s	0	74
+SUB231370	Atopic	SUF	6924	6-Month Call	1.0	missing	.x		
+SUB231370	Atopic	SUF	6926	3-Month Home Visit	1.0	missing	.x		
+SUB231371	Atopic	SUF	7081	Synagis Check	1.0	complete	s	0	72
+SUB231371	Atopic	SUF	7080	3-Month Home Visit	1.0	complete	3	0	84
+SUB231371	Atopic	SUF	7078	6-Month Call	1.0	complete	6	0	181
+SUB231372	Atopic	SUF	7165	6-Month Call	1.0	complete	6	0	173
+SUB231372	Atopic	SUF	7167	3-Month Home Visit	1.0	complete	3	0	89
+SUB231372	Atopic	SUF	7168	Synagis Check	1.0	complete	s	0	65
+SUB231373	Atopic	SUF	7215	3-Month Home Visit	1.0	complete	3	0	110
+SUB231373	Atopic	SUF	7213	6-Month Call	1.0	complete	6	0	228
+SUB231373	Atopic	SUF	7216	Synagis Check	1.0	complete	s	0	94
+SUB231374	Atopic	SUF	7330	Synagis Check	1.0	complete	s	0	63
+SUB231374	Atopic	SUF	7327	6-Month Call	1.0	missing	.x		
+SUB231374	Atopic	SUF	7329	3-Month Home Visit	1.0	complete	3	0	110
+SUB231376	Atopic	SUF	7714	Synagis Check	1.0	complete	s	0	98
+SUB231376	Atopic	SUF	7713	3-Month Home Visit	1.0	complete	3	0	112
+SUB231376	Atopic	SUF	7711	6-Month Call	1.0	missing	.x		
+SUB231377	Atopic	SUF	7807	6-Month Call	1.0	complete	6	0	163
+SUB231377	Atopic	SUF	7809	3-Month Home Visit	1.0	complete	3	0	87
+SUB231377	Atopic	SUF	7810	Synagis Check	1.0	complete	s	0	59
+SUB231378	Atopic	SUF	7853	3-Month Home Visit	1.0	complete	3	0	100
+SUB231378	Atopic	SUF	7854	Synagis Check	1.0	complete	s	0	85
+SUB231378	Atopic	SUF	7851	6-Month Call	1.0	complete	6	0	193
+SUB231379	Atopic	SUF	8026	3-Month Home Visit	1.0	complete	3	0	108
+SUB231379	Atopic	SUF	8024	6-Month Call	1.0	complete	6	0	155
+SUB231379	Atopic	SUF	8027	Synagis Check	1.0	complete	s	0	59
+SUB231380	Atopic	SUF	8112	3-Month Home Visit	1.0	missing	.x		
+SUB231380	Atopic	SUF	8110	6-Month Call	1.0	complete	6	0	163
+SUB231380	Atopic	SUF	8113	Synagis Check	1.0	missing	.x		
+SUB231381	Atopic	SUF	8133	3-Month Home Visit	1.0	complete	3	0	131
+SUB231381	Atopic	SUF	8131	6-Month Call	1.0	complete	6	0	169
+SUB231381	Atopic	SUF	8134	Synagis Check	1.0	complete	s	0	59
+SUB231382	Atopic	SUF	8443	6-Month Call	1.0	complete	6	0	163
+SUB231382	Atopic	SUF	8445	3-Month Home Visit	1.0	complete	3	0	82
+SUB231382	Atopic	SUF	8446	Synagis Check	1.0	complete	s	0	65
+SUB231383	Atopic	SUF	8568	Synagis Check	1.0	complete	s	0	117
+SUB231383	Atopic	SUF	8567	3-Month Home Visit	1.0	complete	3	0	132
+SUB231383	Atopic	SUF	8565	6-Month Call	1.0	complete	6	0	215
+SUB231384	Atopic	SUF	8603	6-Month Call	1.0	complete	6	0	202
+SUB231384	Atopic	SUF	8605	3-Month Home Visit	1.0	complete	3	0	92
+SUB231384	Atopic	SUF	8606	Synagis Check	1.0	complete	s	0	65
+SUB231385	Atopic	SUF	8625	3-Month Home Visit	1.0	missing	.x		
+SUB231386	Atopic	SUF	8733	6-Month Call	1.0	missing	.x		
+SUB231386	Atopic	SUF	8736	Synagis Check	1.0	complete	s	0	130
+SUB231386	Atopic	SUF	8735	3-Month Home Visit	1.0	complete	3	0	134
+SUB231387	Atopic	SUF	8751	3-Month Home Visit	1.0	missing	.x		
+SUB231387	Atopic	SUF	8752	Synagis Check	1.0	complete	s	0	96
+SUB231387	Atopic	SUF	8749	6-Month Call	1.0	missing	.x		
+SUB231388	Atopic	SUF	9009	Synagis Check	1.0	missing	.x		
+SUB231388	Atopic	SUF	9006	6-Month Call	1.0	complete	6	0	163
+SUB231388	Atopic	SUF	9008	3-Month Home Visit	1.0	complete	3	0	96
+SUB231389	Atopic	SUF	9021	9-Month Call	1.3	complete	9	0	282
+SUB231389	Atopic	SUF	9024	3-Month Home Visit	1.0	missing	.x		
+SUB231389	Atopic	SUF	9025	Synagis Check	1.0	missing	.x		
+SUB231389	Atopic	SUF	9022	6-Month Call	1.0	missing	.x		
+SUB231390	Atopic	SUF	9040	3-Month Home Visit	1.0	complete	3	0	119
+SUB231390	Atopic	SUF	9041	Synagis Check	1.0	complete	s	0	92
+SUB231390	Atopic	SUF	9038	6-Month Call	1.0	complete	6	0	202
+SUB231391	Atopic	SUF	9057	Synagis Check	1.0	complete	s	0	64
+SUB231391	Atopic	SUF	9056	3-Month Home Visit	1.0	complete	3	0	86
+SUB231391	Atopic	SUF	9054	6-Month Call	1.0	complete	6	0	176
+SUB231392	Atopic	SUF	9193	Synagis Check	1.0	missing	.x		
+SUB231392	Atopic	SUF	9192	3-Month Home Visit	1.0	complete	3	0	120
+SUB231392	Atopic	SUF	9190	6-Month Call	1.0	complete	6	0	170
+SUB231393	Atopic	SUF	9276	6-Month Call	1.0	complete	6	0	187
+SUB231393	Atopic	SUF	9278	3-Month Home Visit	1.0	missing	.x		
+SUB231393	Atopic	SUF	9279	Synagis Check	1.0	missing	.x		
+SUB231394	Atopic	SUF	9440	6-Month Call	1.0	complete	6	0	189
+SUB231394	Atopic	SUF	9442	3-Month Home Visit	1.0	complete	3	0	115
+SUB231394	Atopic	SUF	9443	Synagis Check	1.0	complete	s	0	103
+SUB231395	Atopic	SUF	9485	3-Month Home Visit	1.0	complete	3	0	111
+SUB231395	Atopic	SUF	9483	6-Month Call	1.0	complete	6	0	156
+SUB231395	Atopic	SUF	9486	Synagis Check	1.0	missing	.x		
+SUB231396	Atopic	SUF	9504	3-Month Home Visit	1.0	complete	3	0	85
+SUB231396	Atopic	SUF	9502	6-Month Call	1.0	complete	6	0	165
+SUB231396	Atopic	SUF	9505	Synagis Check	1.0	complete	s	0	70
+SUB231397	Atopic	SUF	9570	6-Month Call	1.0	complete	6	0	160
+SUB231397	Atopic	SUF	9573	Synagis Check	1.0	complete	s	0	61
+SUB231397	Atopic	SUF	9572	3-Month Home Visit	1.0	complete	3	0	97
+SUB231398	Atopic	SUF	9736	3-Month Home Visit	1.0	missing	.x		
+SUB231398	Atopic	SUF	9734	6-Month Call	1.0	complete	6	0	180
+SUB231398	Atopic	SUF	9737	Synagis Check	1.0	complete	s	0	139
+SUB231400	Atopic	SUF	9892	6-Month Call	1.0	complete	6	0	199
+SUB231400	Atopic	SUF	9894	3-Month Home Visit	1.0	complete	3	0	127
+SUB231400	Atopic	SUF	9895	Synagis Check	1.0	complete	s	0	127
+SUB231401	Atopic	SUF	9987	Synagis Check	1.0	complete	s	0	72
+SUB231401	Atopic	SUF	9986	3-Month Home Visit	1.0	complete	3	0	94
+SUB231401	Atopic	SUF	9984	6-Month Call	1.0	complete	6	0	155
+SUB231402	Atopic	SUF	10213	6-Month Call	1.0	complete	6	0	180
+SUB231402	Atopic	SUF	10215	3-Month Home Visit	1.0	complete	3	0	96
+SUB231402	Atopic	SUF	10216	Synagis Check	1.0	complete	s	0	68
+SUB231403	Atopic	SUF	10271	Synagis Check	1.0	complete	s	0	66
+SUB231403	Atopic	SUF	10270	3-Month Home Visit	1.0	complete	3	0	95
+SUB231403	Atopic	SUF	10268	6-Month Call	1.0	complete	6	0	171
+SUB231404	Atopic	SUF	10294	3-Month Home Visit	1.0	complete	3	0	131
+SUB231404	Atopic	SUF	10292	6-Month Call	1.0	complete	6	0	168
+SUB231404	Atopic	SUF	10295	Synagis Check	1.0	complete	s	0	108
+SUB231405	Atopic	SUF	10639	Synagis Check	1.0	complete	s	0	79
+SUB231405	Atopic	SUF	10636	6-Month Call	1.1	complete	6	0	181
+SUB231405	Atopic	SUF	10638	3-Month Home Visit	1.0	complete	3	0	93
+SUB231406	Atopic	SUF	10692	6-Month Call	1.0	complete	6	0	170
+SUB231406	Atopic	SUF	10695	Synagis Check	1.0	missing	.x		
+SUB231406	Atopic	SUF	10694	3-Month Home Visit	1.0	complete	3	0	105
+SUB231407	Atopic	SUF	10886	3-Month Home Visit	1.0	complete	3	0	111
+SUB231407	Atopic	SUF	10884	6-Month Call	1.3	missing	.x		
+SUB231407	Atopic	SUF	10883	9-Month Call	1.3	missing	.x		
+SUB231407	Atopic	SUF	10882	12-Month Clinic Visit	1.3	missing	.x		
+SUB231407	Atopic	SUF	10887	Synagis Check	1.0	complete	s	0	90
+SUB231407	Atopic	SUF	10881	15-Month Call	1.3	missing	.x		
+SUB231408	Atopic	SUF	11133	Synagis Check	1.0	complete	s	0	98
+SUB231408	Atopic	SUF	11130	6-Month Call	1.2	complete	6	0	179
+SUB231408	Atopic	SUF	11132	3-Month Home Visit	1.0	complete	3	0	99
+SUB231409	Atopic	SUF	11148	6-Month Call	1.0	complete	6	0	157
+SUB231409	Atopic	SUF	11150	3-Month Home Visit	1.0	complete	3	0	101
+SUB231409	Atopic	SUF	11151	Synagis Check	1.0	complete	s	0	96
+SUB231410	Atopic	SUF	11446	3-Month Home Visit	1.0	complete	3	0	81
+SUB231410	Atopic	SUF	11447	Synagis Check	1.0	complete	s	0	71
+SUB231410	Atopic	SUF	11444	6-Month Call	1.2	complete	6	0	162
+SUB231411	Atopic	SUF	11704	Synagis Check	1.0	complete	s	0	62
+SUB231411	Atopic	SUF	11701	6-Month Call	1.3	complete	6	0	188
+SUB231411	Atopic	SUF	11703	3-Month Home Visit	1.0	complete	3	0	94
+SUB231412	Atopic	SUF	11736	3-Month Home Visit	1.0	missing	.x		
+SUB231412	Atopic	SUF	11737	Synagis Check	1.0	complete	s	0	105
+SUB231412	Atopic	SUF	11734	6-Month Call	1.3	complete	6	0	204
+SUB231413	Atopic	SUF	11823	6-Month Call	1.3	complete	6	0	175
+SUB231413	Atopic	SUF	11825	3-Month Home Visit	1.0	complete	3	0	86
+SUB231413	Atopic	SUF	11826	Synagis Check	1.0	complete	s	0	64
+SUB231414	Atopic	SUF	12119	3-Month Home Visit	1.0	complete	3	0	77
+SUB231414	Atopic	SUF	12117	6-Month Call	1.3	complete	6	0	205
+SUB231414	Atopic	SUF	12120	Synagis Check	1.0	complete	s	0	63
+SUB231415	Non-atopic	SUF	12132	3-Month Home Visit	1.0	complete	3	0	99
+SUB231415	Non-atopic	SUF	12131	Synagis Check	1.0	complete	s	0	72
+SUB231415	Non-atopic	SUF	12134	6-Month Call	1.2	complete	6	0	157
+SUB231416	Atopic	SUF	12310	6-Month Call	1.3	complete	6	0	163
+SUB231416	Atopic	SUF	12313	Synagis Check	1.0	complete	s	0	64
+SUB231416	Atopic	SUF	12312	3-Month Home Visit	1.0	complete	3	0	73
+SUB231417	Atopic	SUF	12330	6-Month Call	1.3	complete	6	0	159
+SUB231417	Atopic	SUF	12333	Synagis Check	1.0	complete	s	0	69
+SUB231417	Atopic	SUF	12332	3-Month Home Visit	1.0	complete	3	0	90
+SUB231418	Atopic	SUF	12455	Synagis Check	1.0	complete	s	0	76
+SUB231418	Atopic	SUF	12452	6-Month Call	1.3	complete	6	0	182
+SUB231418	Atopic	SUF	12454	3-Month Home Visit	1.1	complete	3	0	120
+SUB231419	Atopic	SUF	12673	6-Month Call	1.3	complete	6	0	160
+SUB231419	Atopic	SUF	12675	3-Month Home Visit	1.0	complete	3	0	80
+SUB231419	Atopic	SUF	12676	Synagis Check	1.0	complete	s	0	63
+SUB231420	Atopic	SUF	12691	3-Month Home Visit	1.2	missing	.x		
+SUB231420	Atopic	SUF	12689	6-Month Call	1.3	complete	6	0	220
+SUB231420	Atopic	SUF	12692	Synagis Check	1.0	missing	.x		
+SUB231421	Atopic	SUF	12705	6-Month Call	1.3	complete	6	0	181
+SUB231421	Atopic	SUF	12708	Synagis Check	1.0	complete	s	0	84
+SUB231421	Atopic	SUF	12707	3-Month Home Visit	1.0	complete	3	0	100
+SUB231422	Atopic	SUF	12919	6-Month Call	1.3	complete	6	0	168
+SUB231422	Atopic	SUF	12922	Synagis Check	1.0	complete	s	0	61
+SUB231422	Atopic	SUF	12921	3-Month Home Visit	1.2	complete	3	0	137
+SUB231423	Atopic	SUF	12987	3-Month Home Visit	1.2	complete	3	0	115
+SUB231423	Atopic	SUF	12988	Synagis Check	1.2	complete	s	0	111
+SUB231423	Atopic	SUF	12985	6-Month Call	1.3	complete	6	0	174
+SUB231424	Atopic	SUF	13233	Synagis Check	1.2	complete	s	0	104
+SUB231424	Atopic	SUF	13232	3-Month Home Visit	1.2	complete	3	0	121
+SUB231424	Atopic	SUF	13230	6-Month Call	1.3	complete	6	0	168
+SUB231425	Non-atopic	SUF	13330	3-Month Home Visit	1.1	complete	3	0	92
+SUB231425	Non-atopic	SUF	13329	Synagis Check	1.0	complete	s	0	64
+SUB231425	Non-atopic	SUF	13332	6-Month Call	1.3	complete	6	0	170
+SUB231426	Atopic	SUF	13439	6-Month Call	1.3	complete	6	0	177
+SUB231426	Atopic	SUF	13442	Synagis Check	1.0	complete	s	0	71
+SUB231426	Atopic	SUF	13441	3-Month Home Visit	1.2	complete	3	0	119
+SUB231427	Atopic	SUF	13562	3-Month Home Visit	1.3	complete	3	0	116
+SUB231427	Atopic	SUF	13563	Synagis Check	1.1	complete	s	0	81
+SUB231427	Atopic	SUF	13560	6-Month Call	1.3	complete	6	0	180
+SUB231428	Atopic	SUF	13579	Synagis Check	1.0	complete	s	0	63
+SUB231428	Atopic	SUF	13576	6-Month Call	1.3	complete	6	0	177
+SUB231428	Atopic	SUF	13578	3-Month Home Visit	1.2	complete	3	0	88
+SUB231429	Non-atopic	SUF	13737	3-Month Home Visit	1.3	missing	.x		
+SUB231429	Non-atopic	SUF	13739	6-Month Call	1.3	complete	6	0	165
+SUB231429	Non-atopic	SUF	13736	Synagis Check	1.3	complete	s	0	140
+SUB231430	Non-atopic	SUF	13843	Synagis Check	1.1	complete	s	0	70
+SUB231430	Non-atopic	SUF	13846	6-Month Call	1.3	complete	6	0	173
+SUB231430	Non-atopic	SUF	13844	3-Month Home Visit	1.2	complete	3	0	74
+SUB231431	Non-atopic	SUF	13878	3-Month Home Visit	1.1	complete	3	0	73
+SUB231431	Non-atopic	SUF	13877	Synagis Check	1.0	complete	s	0	62
+SUB231431	Non-atopic	SUF	13880	6-Month Call	1.3	complete	6	0	169
+SUB231432	Non-atopic	SUF	14005	3-Month Home Visit	1.3	missing	.x		
+SUB231432	Non-atopic	SUF	14007	6-Month Call	1.3	complete	6	0	161
+SUB231432	Non-atopic	SUF	14004	Synagis Check	1.2	complete	s	0	81
+SUB231433	Atopic	SUF	14036	Synagis Check	1.0	complete	s	0	61
+SUB231433	Atopic	SUF	14033	6-Month Call	1.3	complete	6	0	160
+SUB231433	Atopic	SUF	14035	3-Month Home Visit	1.1	complete	3	0	65
+SUB231434	Non-atopic	SUF	14049	Synagis Check	1.3	complete	s	0	105
+SUB231434	Non-atopic	SUF	14052	6-Month Call	1.3	complete	6	0	184
+SUB231434	Non-atopic	SUF	14050	3-Month Home Visit	1.3	complete	3	0	105
+SUB231435	Atopic	SUF	14079	3-Month Home Visit	1.3	missing	.x		
+SUB231435	Atopic	SUF	14076	9-Month Call	1.3	missing	.x		
+SUB231435	Atopic	SUF	14075	12-Month Clinic Visit	1.3	complete	12	0	398
+SUB231435	Atopic	SUF	14080	Synagis Check	1.1	missing	.x		
+SUB231435	Atopic	SUF	14077	6-Month Call	1.3	missing	.x		
+SUB231436	Atopic	SUF	14130	6-Month Call	1.3	complete	6	0	167
+SUB231436	Atopic	SUF	14133	Synagis Check	1.0	complete	s	0	67
+SUB231436	Atopic	SUF	14132	3-Month Home Visit	1.2	complete	3	0	81
+SUB231437	Atopic	SUF	14611	6-Month Call	1.3	complete	6	0	214
+SUB231437	Atopic	SUF	14613	3-Month Home Visit	1.3	missing	.x		
+SUB231437	Atopic	SUF	14614	Synagis Check	1.3	complete	s	0	99
+SUB231438	Non-atopic	SUF	14626	6-Month Call	1.3	complete	6	0	203
+SUB231438	Non-atopic	SUF	14623	Synagis Check	1.2	complete	s	0	60
+SUB231438	Non-atopic	SUF	14624	3-Month Home Visit	1.2	complete	3	0	77
+SUB231439	Non-atopic	SUF	14818	Synagis Check	1.2	complete	s	0	61
+SUB231439	Non-atopic	SUF	14819	3-Month Home Visit	1.3	complete	3	0	77
+SUB231439	Non-atopic	SUF	14821	6-Month Call	1.3	complete	6	0	154
+SUB231440	Atopic	SUF	14901	Synagis Check	1.2	complete	s	0	67
+SUB231440	Atopic	SUF	14900	3-Month Home Visit	1.3	complete	3	0	88
+SUB231440	Atopic	SUF	14898	6-Month Call	1.3	complete	6	0	186
+SUB231441	Atopic	SUF	14938	3-Month Home Visit	1.3	complete	3	0	133
+SUB231441	Atopic	SUF	14936	6-Month Call	1.3	complete	6	0	189
+SUB231441	Atopic	SUF	14939	Synagis Check	1.3	complete	s	0	133
+SUB231442	Atopic	SUF	14963	3-Month Home Visit	1.3	complete	3	0	96
+SUB231442	Atopic	SUF	14961	6-Month Call	1.3	complete	6	0	158
+SUB231442	Atopic	SUF	14964	Synagis Check	1.2	complete	s	0	68
+SUB231443	Atopic	SUF	14977	6-Month Call	1.3	complete	6	0	178
+SUB231443	Atopic	SUF	14979	3-Month Home Visit	1.3	complete	3	0	77
+SUB231443	Atopic	SUF	14980	Synagis Check	1.3	complete	s	0	72
+SUB231444	Atopic	SUF	15123	3-Month Home Visit	1.3	complete	3	0	111
+SUB231444	Atopic	SUF	15121	6-Month Call	1.3	complete	6	0	167
+SUB231444	Atopic	SUF	15124	Synagis Check	1.3	complete	s	0	81
+SUB231445	Atopic	SUF	15282	Synagis Check	1.3	complete	s	0	73
+SUB231445	Atopic	SUF	15279	6-Month Call	1.3	complete	6	0	157
+SUB231445	Atopic	SUF	15281	3-Month Home Visit	1.3	complete	3	0	89
+SUB231446	Non-atopic	SUF	15335	3-Month Home Visit	1.3	complete	3	0	66
+SUB231446	Non-atopic	SUF	15334	Synagis Check	1.3	complete	s	0	61
+SUB231446	Non-atopic	SUF	15337	6-Month Call	1.3	complete	6	0	164
+SUB231447	Non-atopic	SUF	15855	6-Month Call	1.3	complete	6	0	191
+SUB231447	Non-atopic	SUF	15852	Synagis Check	1.3	complete	s	0	105
+SUB231447	Non-atopic	SUF	15853	3-Month Home Visit	1.3	complete	3	0	112
+SUB231448	Atopic	SUF	16368	Synagis Check	1.3	complete	s	0	95
+SUB231448	Atopic	SUF	16365	6-Month Call	1.3	complete	6	0	169
+SUB231448	Atopic	SUF	16367	3-Month Home Visit	1.3	complete	3	0	99
+SUB231449	Atopic	SUF	16425	3-Month Home Visit	1.3	complete	3	0	132
+SUB231449	Atopic	SUF	16426	Synagis Check	1.3	complete	s	0	103
+SUB231449	Atopic	SUF	16423	6-Month Call	1.3	complete	6	0	195
+SUB231450	Atopic	SUF	16594	3-Month Home Visit	1.3	complete	3	0	90
+SUB231450	Atopic	SUF	16592	6-Month Call	1.3	complete	6	0	166
+SUB231450	Atopic	SUF	16595	Synagis Check	1.3	complete	s	0	67
+SUB231451	Non-atopic	SUF	16604	6-Month Call	1.3	missing	.x		
+SUB231451	Non-atopic	SUF	16602	3-Month Home Visit	1.3	complete	3	0	73
+SUB231451	Non-atopic	SUF	16605	9-Month Call	1.3	complete	9	0	290
+SUB231451	Non-atopic	SUF	16601	Synagis Check	1.3	complete	s	0	62
+SUB231452	Non-atopic	SUF	17016	3-Month Home Visit	1.3	complete	3	0	75
+SUB231452	Non-atopic	SUF	17018	6-Month Call	1.3	complete	6	0	178
+SUB231452	Non-atopic	SUF	17015	Synagis Check	1.3	complete	s	0	80
+SUB231453	Atopic	SUF	17201	3-Month Home Visit	1.3	complete	3	0	68
+SUB231453	Atopic	SUF	17199	6-Month Call	1.3	complete	6	0	157
+SUB231453	Atopic	SUF	17202	Synagis Check	1.3	complete	s	0	67
+SUB231454	Atopic	SUF	17218	Synagis Check	1.3	complete	s	0	66
+SUB231454	Atopic	SUF	17215	6-Month Call	1.3	complete	6	0	164
+SUB231454	Atopic	SUF	17217	3-Month Home Visit	1.3	complete	3	0	111
+SUB231455	Non-atopic	SUF	17475	3-Month Home Visit	1.3	missing	.x		
+SUB231455	Non-atopic	SUF	17477	6-Month Call	1.3	complete	6	0	205
+SUB231455	Non-atopic	SUF	17474	Synagis Check	1.3	complete	s	0	65
+SUB231456	Non-atopic	SUF	17557	Synagis Check	1.3	complete	s	0	68
+SUB231456	Non-atopic	SUF	17560	6-Month Call	1.3	complete	6	0	208
+SUB231456	Non-atopic	SUF	17558	3-Month Home Visit	1.3	complete	3	0	99
+SUB231457	Non-atopic	SUF	17632	6-Month Call	1.3	complete	6	0	164
+SUB231457	Non-atopic	SUF	17629	Synagis Check	1.3	complete	s	0	63
+SUB231457	Non-atopic	SUF	17630	3-Month Home Visit	1.3	complete	3	0	80
+SUB231458	Atopic	SUF	17824	3-Month Home Visit	1.3	complete	3	0	125
+SUB231458	Atopic	SUF	17822	6-Month Call	1.3	complete	6	0	166
+SUB231458	Atopic	SUF	17825	Synagis Check	1.3	complete	s	0	100
+SUB231459	Non-atopic	SUF	18013	6-Month Call	1.3	complete	6	0	200
+SUB231459	Non-atopic	SUF	18010	Synagis Check	1.3	complete	s	0	76
+SUB231459	Non-atopic	SUF	18011	3-Month Home Visit	1.3	complete	3	0	76
+SUB231460	Non-atopic	SUF	18027	Synagis Check	1.3	complete	s	0	63
+SUB231460	Non-atopic	SUF	18030	6-Month Call	1.3	complete	6	0	196
+SUB231460	Non-atopic	SUF	18028	3-Month Home Visit	1.3	complete	3	0	113
+SUB231461	Atopic	SUF	18112	6-Month Call	1.3	missing	.x		
+SUB231461	Atopic	SUF	18114	3-Month Home Visit	1.3	missing	.x		
+SUB231461	Atopic	SUF	18115	Synagis Check	1.3	complete	s	0	68
+SUB231461	Atopic	SUF	18111	9-Month Call	1.3	missing	.x		
+SUB231462	Non-atopic	SUF	18162	3-Month Home Visit	1.3	missing	.x		
+SUB231462	Non-atopic	SUF	18161	Synagis Check	1.3	complete	s	0	81
+SUB231462	Non-atopic	SUF	18164	6-Month Call	1.3	complete	6	0	231
+SUB231463	Atopic	SUF	18442	Synagis Check	1.3	complete	s	0	66
+SUB231463	Atopic	SUF	18439	6-Month Call	1.3	complete	6	0	154
+SUB231463	Atopic	SUF	18441	3-Month Home Visit	1.3	complete	3	0	70
+SUB231465	Non-atopic	SUF	18540	6-Month Call	1.3	complete	6	0	158
+SUB231465	Non-atopic	SUF	18537	Synagis Check	1.3	complete	s	0	85
+SUB231465	Non-atopic	SUF	18538	3-Month Home Visit	1.3	complete	3	0	100
+SUB231466	Atopic	SUF	18624	6-Month Call	1.3	complete	6	0	155
+SUB231466	Atopic	SUF	18626	3-Month Home Visit	1.3	complete	3	0	86
+SUB231466	Atopic	SUF	18627	Synagis Check	1.3	complete	s	0	76
+SUB231467	Atopic	SUF	18704	Synagis Check	1.3	complete	s	0	71
+SUB231467	Atopic	SUF	18701	6-Month Call	1.3	complete	6	0	157
+SUB231467	Atopic	SUF	18703	3-Month Home Visit	1.3	complete	3	0	87
+SUB231468	Atopic	SUF	18920	3-Month Home Visit	1.3	complete	3	0	82
+SUB231468	Atopic	SUF	18918	6-Month Call	1.3	complete	6	0	158
+SUB231468	Atopic	SUF	18921	Synagis Check	1.3	complete	s	0	66
+SUB231469	Non-atopic	SUF	19040	Synagis Check	1.3	complete	s	0	76
+SUB231469	Non-atopic	SUF	19041	3-Month Home Visit	1.3	complete	3	0	92
+SUB231469	Non-atopic	SUF	19043	6-Month Call	1.3	complete	6	0	159
+SUB231470	Non-atopic	SUF	19395	3-Month Home Visit	1.3	complete	3	0	83
+SUB231470	Non-atopic	SUF	19394	Synagis Check	1.3	complete	s	0	62
+SUB231470	Non-atopic	SUF	19397	6-Month Call	1.3	complete	6	0	160

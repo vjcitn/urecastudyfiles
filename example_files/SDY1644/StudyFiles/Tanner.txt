@@ -1,0 +1,124 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness          06/30/17        Create
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=tanner,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.tsb out=tsb(keep=studyid aFormDate avst TSB_q1 TSB_q2); by studyid avst; where avst ne '.x'; run;  
+proc sort data=master.tsg out=tsg(keep=studyid aFormdate avst TSG_q1 TSG_q2); by studyid avst; where avst ne '.x'; run;
+
+data tanner;
+   set tsb (rename=(TSB_q1=develop TSB_q2=phair ) in=M)
+       tsg (rename=(TSG_q1=develop TSG_q2=phair ) in=F);
+
+avisit=input(avst, 3.); drop avst;
+if M then formtype='M';
+if F then formtype='F';
+if nmiss(develop, phair)^=2 then t_stage=max (develop, phair);
+
+label develop='Breast/penis development'
+      phair='Pubic hair development'
+      t_stage='Tanner Stage (max of 2 scores)'
+      formtype='Type of Form: Male or Female';
+run;
+
+proc freq data=tanner;
+   tables avisit * formtype * (develop phair)/list missing;
+   run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell72;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 108,120 ;
+  if avisit =108 then year=9;
+  if avisit =120 then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+proc sort data = derive.demog_1rec out = demog_1rec(keep = studyid  baby_gender_c); by studyid ; run;
+proc sort data=shell72    ; by studyid ; run ;
+
+data shell2;
+   merge shell72 demog_1rec; 
+   by studyid; 
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=tanner      ; by studyid avisit; run ;
+proc sort data=shell2    ; by studyid avisit; run ;
+
+data derive.tanner ;
+ merge shell2 tanner (in=b) ;
+ by studyid avisit ;
+ if b=1 then tanner = 1 ; else tanner = 0 ; 
+ LABEL baby_gender_c = 'Gender';
+run;
+/**/
+/*data locked.tanner;*/
+/*   set derive.tanner;*/
+/*run;*/
+*** 3. Codebook ****************************************************************;
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.tanner,*/
+/*          pdfname=tanner,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.tanner
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+ods select Position;
+proc contents data=derive.tanner position; run;
+run;
+ods select default;

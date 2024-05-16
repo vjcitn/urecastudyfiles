@@ -1,0 +1,465 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K. Jaffee         05/20/11      Create
+*   K. Jaffee         06/21/11      Add more data - any infec, etc
+*   K. Jaffee         02/29/12      Add data about tylenol
+*   Alexandre Lockhart 06/16/17     Re-ran for 10 year data
+*   Alexandre Lockhart 12/12/17     Updated visit 81 to 84
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=symptoms_yr,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=derive.symptoms out=s ; by studyid avisit ; run ;
+proc sort data=derive.pe_allerg_ent out=pe ; by studyid avisit ; run ;
+proc sort data=derive.easi out=e ; by studyid year ; run ;
+
+**Get max easi score for year one (all years, but only year one has more than one measure);
+proc means data=e noprint;
+   by studyid year ;
+    var easi_score ;
+    output out=easi mean=mn_easi max=max_easi;
+run;
+
+data easi2 ;
+   set easi ;
+   drop _TYPE_ _FREQ_ ;
+   label mn_easi="Mean EASI score (will be same as max for years 2-10)" 
+          max_easi="Max EASI score (will be same as mean for years 2-10)" ;
+run ; 
+
+data pe_data ;
+   set pe ;
+   if avisit=12 and version = '1.2' then delete;
+   if chest_ausc_clear = 1 then do;
+      chest_ausc_inwhz   =0 ;
+      chest_ausc_exwhz   =0 ; 
+      chest_ausc_rales   =0 ; 
+      chest_ausc_inrhonc =0 ; 
+       chest_ausc_exrhonc =0 ; 
+      chest_ausc_other   =0 ; 
+    end;
+
+    if chest_ausc_inwhz=1 or chest_ausc_exwhz=1       then exam_wheeze=1 ; 
+
+    else if chest_ausc_inwhz=0 and chest_ausc_exwhz=0 then exam_wheeze=0 ;
+   
+    exam_eczema=skin_eczema ;
+
+    format exam_wheeze exam_eczema yesnofm. ;
+
+   label  exam_wheeze   ='Wheeze noted on physical exam'
+         exam_eczema   ='Childs Exam - Skin - Eczema Present' ;
+
+    keep studyid year exam_wheeze exam_eczema ;
+run;
+
+data ras_data ;
+   set s ;
+   if vis_stat=1;
+   if wheeze=0 then wheeze_docsaid=0;
+   rep_lri=sum(croup, pneu_bronc);
+run;
+
+proc sort data=ras_data ; by studyid year ; run ;
+
+proc means data=ras_data noprint;
+   by studyid year;
+   var num_colds wheeze wheeze_numillness wheeze_docsaid rep_lri 
+      eczema tot_resp tot_lri tot_wheeze 
+      cough cough_nocold sinus_infec ear_infec croup pneu_bronc chixpox 
+      stomach_flu unex_fever 
+      throat_tonsil otherillness itchyrash 
+      hosp dayhosp hospresp dayresp hosplri daylri hospwheeze daywheeze 
+      tylenol ;
+   output out = outcome 
+         mean = mn_colds mn_wheeze mn_illness mn_docsay mn_lri 
+                mn_eczema mn_resp mn_doclri mn_docwheez 
+              mn_cough mn_cough_nocold mn_sinus_infec mn_earinfec mn_croup mn_pneu mn_chixpox
+              mn_stom_flu mn_fever 
+              mn_throat_tonsil mn_otherillness mn_itchyrash
+              mn_hosp mn_dayhosp mn_hospresp mn_dayresp mn_hosplri mn_daylri mn_hospwheeze mn_daywheeze
+              mn_tylenoluse 
+         sum  = sum_colds sum_wheeze sum_illness sum_docsay sum_lri 
+               sum_eczema sum_respillness sum_doclri sum_docwheeze 
+              sum_cough sum_cough_nocold sum_sinus_infec sum_earinfec sum_croup sum_pneu sum_chixpox
+              sum_stom_flu sum_fever 
+              sum_throat_tonsil sum_otherillness sum_itchyrash 
+              sum_hosp sum_dayhosp sum_hospresp sum_dayresp sum_hosplri sum_daylri sum_hospwheeze sum_daywheeze 
+              sum_tylenoluse ;
+run;
+
+data outcome2 ;
+    set outcome ;
+
+     if mn_colds > 0 then anycold=1 ;
+      else if mn_colds=0 then anycold=0 ;
+
+      if mn_wheeze > 0 then anyrepwheeze=1 ;
+      else if mn_wheeze=0 then anyrepwheeze=0 ;
+
+      if mn_lri > 0 then anyreplri=1 ;
+      else if mn_lri=0 then anyreplri=0 ;
+
+      if mn_docsay > 0 then anydocsay=1 ;
+      else if mn_docsay=0 then anydocsay=0 ;
+
+      if mn_eczema > 0 then anyrepeczema=1 ;
+      else if mn_eczema=0 then anyrepeczema=0 ;
+
+     if mn_cough > 0 then anycough=1;
+     else if mn_cough=0 then anycough=0;
+
+     if mn_sinus_infec > 0 then anysinusinfec=1;
+     else if mn_sinus_infec=0 then anysinusinfec=0;
+
+     if mn_earinfec > 0 then anyearinf=1;
+     else if mn_earinfec=0 then anyearinf=0;
+
+     if mn_croup > 0 then anycroup=1;
+     else if mn_croup=0 then anycroup=0;
+
+     if mn_pneu > 0 then anypneu=1;
+     else if mn_pneu=0 then anypneu=0;
+
+     if mn_stom_flu > 0 then anystomflu=1;
+     else if mn_stom_flu=0 then anystomflu=0;
+
+     if mn_fever > 0 then anyfever=1;
+     else if mn_fever=0 then anyfever=0;
+
+     if mn_hosp > 0 then anyhosp=1;
+     else if mn_hosp=0 then anyhosp=0;
+     
+     if mn_hospresp > 0 then anyhospresp=1;
+     else if mn_hospresp=0 then anyhospresp=0;
+
+     if mn_hospwheeze > 0 then anyhospwheeze=1;
+     else if mn_hospwheeze=0 then anyhospwheeze=0;
+
+     if mn_tylenoluse > 0 then anytylenol=1;
+     else if mn_tylenoluse=0 then anytylenol=0;
+   
+     num_calls=_freq_ ;
+
+      if sum_docwheeze > 0  then any_doc_wheeze=1 ;
+      if sum_docwheeze = 0  then any_doc_wheeze=0 ;
+      if sum_doclri    > 0  then any_doc_lri   =1 ;
+      if sum_doclri    = 0  then any_doc_lri   =0 ;
+
+      if anyreplri=1 or sum_doclri > 0 then any_lri=1;
+      else if max(anyreplri,sum_doclri)=0 then any_lri=0;          
+
+     drop _type_ _freq_ mn_colds mn_wheeze mn_illness mn_docsay mn_lri 
+         mn_eczema mn_resp mn_doclri mn_docwheez 
+         mn_cough mn_cough_nocold mn_sinus_infec mn_earinfec mn_croup mn_pneu 
+         mn_stom_flu mn_fever mn_throat_tonsil mn_otherillness mn_itchyrash
+         mn_hosp mn_dayhosp mn_hospresp mn_dayresp mn_hosplri mn_daylri mn_hospwheeze mn_daywheeze
+         sum_throat_tonsil sum_otherillness sum_itchyrash 
+         sum_hosp sum_dayhosp sum_hospresp sum_dayresp sum_hosplri sum_daylri sum_daywheeze ;
+
+     label   anyrepwheeze      ='Any report of wheeze in year'
+         anyreplri         ='Any report of LRI in year'
+         anyrepeczema      ='Any report of eczema in year'
+         anydocsay         ='Any report of doctor said wheezing'
+         any_lri            ='Any LRI by report or doc visit'
+         sum_colds         ='Number of colds reported in year'
+         sum_illness         ='Number of wheezing illnesses reported in year'
+         sum_wheeze         ='Number of calls with wheeze reported'
+         sum_docsay         ='Number of calls with dr said wheeze reported'
+         sum_eczema         ='Number of calls with eczema reported'
+         sum_lri            ='Number of calls with LRI reported'
+         num_calls         ='Number of calls/visits completed in year'
+         sum_respillness      ='Number of dr visits for resp illness'
+         sum_docwheeze      ='Number of dr visits for wheezing'
+         sum_doclri         ='Number of dr visits for LRI'
+         any_doc_wheeze      ='At Least One Dr Visit for Wheeze'
+         any_doc_lri         ='At least one dr visit for LRI'
+         sum_cough         ='Total coughing illnesses in year' 
+         sum_cough_nocold    ='Total coughing illnesses without a cold in year' 
+         sum_sinus_infec     ='Total sinus infections in year' 
+         sum_earinfec      ='Total ear infections in year' 
+         sum_croup         ='Total croup in year' 
+         sum_pneu         ='Total pneumonia illnesses in year'
+         sum_stom_flu      ='Total stomach flu illnesses in year' 
+         sum_fever         ='Total number of unexplained fevers in year' 
+         sum_tylenoluse      ='Total number of times tylenol given for any reason in year' 
+         sum_hospwheeze      ='Number of hospital visits for wheeze/asthma' 
+         anyhosp            ='Any hospitalization in year'
+         anyhospresp         ='Any hospitalization for resp illness in year'
+         anyhospwheeze      ='Any hospitalization for wheeze in year'
+         anyearinf         ='Any ear infection in year'
+         anycroup         ='Croup in year'
+         anypneu            ='Pneumonia or bronchitis in year'
+         anystomflu         ='Any stomach flu in year'
+         anyfever         ='Any unexplained fever in year'
+         anysinusinfec      ='Any sinus infection in year'
+         anycold            ='Any cold in year' 
+         anycough         ='Any cough in year'
+           anytylenol         ='Any use of tylenol for any reason in year'
+         mn_tylenoluse       ='Mean number of times tylenol given for any reason in year' 
+         ;
+
+      format anyrepwheeze anyrepeczema anydocsay any_doc_wheeze any_doc_lri anyhosp anyhospresp anyhospwheeze 
+            anyearinf anycroup anypneu anystomflu anyfever anysinusinfec anycold anycough anytylenol yesnofm. 
+          sum_wheeze;
+run;
+
+proc sort data=outcome2 ; by studyid year ; run ;
+proc sort data=pe_data  ; by studyid year ; run ;
+proc sort data=easi2    ; by studyid year ; run ;
+
+data outcome3 ;
+   merge outcome2 pe_data easi2 ;
+   by studyid year ;
+
+   if anyrepwheeze=1 or sum_docwheeze > 0 or exam_wheeze=1 
+    or anyhospwheeze=1 or anydocsay=1 then any_wheeze=1 ;
+    else if max(anyrepwheeze,sum_docwheeze,exam_wheeze,anyhospwheeze,anydocsay)=0        then any_wheeze=0 ;
+   
+     ***KJ comment: there are participants who answered "yes" to any wheeze but 0 to # wheeze illnesses
+       we will set these to 1 ;
+    if any_wheeze=1 and sum_illness=0 then sum_illness=1 ;
+
+   *decided on PI call that scores < 1 were inconsequential;
+   if max_easi>=1 then ecz_easi = 1 ;
+   if 0<=max_easi<1 then ecz_easi = 0 ;
+
+   if exam_eczema in (.x,.n,.a) then exam_eczema=.;
+
+   if (anyrepeczema>0 or exam_eczema>0) then eczema_report=1;    *Add eczema reported score variable;
+   if (max(anyrepeczema,exam_eczema)=0) then eczema_report=0;
+
+   any_eczema=max(anyrepeczema, ecz_easi, exam_eczema);
+
+   if sum_illness>1 or sum_docwheeze>1 then wheeze_2plus=1;
+   else if sum_illness in (0, 1) and sum_docwheeze in (0, 1) then wheeze_2plus=0;
+
+   **to fix Boston data - we were told to 'go with' the EASI score when score and exam were discrepant;
+   *if site='02' and exam_eczema=0 and ecz_easi=1 then exam_eczema=1;
+
+   format ecz_easi any_wheeze any_eczema exam_eczema wheeze_2plus yesnofm.;
+
+   label exam_wheeze   ='Wheeze noted on physical exam'
+          ecz_easi      ='Eczema noted on EASI exam (EASI>=1)'
+          any_eczema   ='Report of eczema or EASI >= 1'
+          eczema_report   ='Any Reported Eczema (Dr. or parent)'
+          exam_eczema   ='Childs Exam - Skin - Eczema Present'
+        wheeze_2plus  ='>1 wheezing illness/>1 dr visit for wheeze'
+        any_wheeze   ='Any wheeze by report or doc visit';
+run ;
+
+***Transpose variables to create high level and recurrent wheeze ;
+proc transpose data=outcome3 out=threeyroutcomes_whz prefix=any_wheeze ;
+   by studyid ; 
+   id year ;
+   var any_wheeze ;
+   where year <=3 ;
+run ;
+
+proc transpose data=outcome3 out=threeyroutcomes_rec prefix=whz_2plus ;
+   by studyid ; 
+   id year ;
+   var wheeze_2plus ;
+   where year <=3 ;
+run ;
+
+proc transpose data=outcome3 out=threeyroutcomes_sumwhz prefix=sum_illness ;
+   by studyid ; 
+   id year ;
+   var sum_illness ;
+   where year <=3 ;
+run ;
+
+proc transpose data=outcome3 out=threeyroutcomes_docsay prefix=anydocsay ;
+   by studyid ; 
+   id year ;
+   var anydocsay ;
+   where year <=3 ;
+run ;
+
+proc transpose data=outcome3 out=threeyroutcomes_exmwhz prefix=exam_wheeze ;
+   by studyid ; 
+   id year ;
+   var exam_wheeze ;
+   where year <=3 ;
+run ;
+
+proc transpose data=outcome3 out=threeyroutcomes_docwhz prefix=any_doc_wheeze ;
+   by studyid ; 
+   id year ;
+   var any_doc_wheeze ;
+   where year <=3 ;
+run ;
+
+proc sort data=threeyroutcomes_whz    ; by studyid ; run ;
+proc sort data=threeyroutcomes_rec    ; by studyid ; run ;
+proc sort data=threeyroutcomes_sumwhz ; by studyid ; run ;
+proc sort data=threeyroutcomes_docsay ; by studyid ; run ;
+proc sort data=threeyroutcomes_exmwhz ; by studyid ; run ;
+proc sort data=threeyroutcomes_docwhz ; by studyid ; run ;
+
+data threeyroutcomes_whz2 ;
+   merge threeyroutcomes_whz threeyroutcomes_rec threeyroutcomes_sumwhz threeyroutcomes_docsay 
+        threeyroutcomes_exmwhz threeyroutcomes_docwhz ;
+   by studyid ;
+
+   if any_wheeze3=1 and (any_wheeze1=1 or any_wheeze2=1)  then rec_wheeze_y3 = 1 ;
+   if any_wheeze3=1 and whz_2plus3=1                      then rec_wheeze_y3 = 1 ;
+   if any_wheeze3=1 and whz_2plus3=0 and any_wheeze1=0 and any_wheeze2=0  then rec_wheeze_y3 = 0 ;
+   if any_wheeze3=0 then rec_wheeze_y3 = 0 ;
+
+   if nmiss(sum_illness1,sum_illness2,sum_illness3) ^= 3 then do;
+      if sum(sum_illness1,sum_illness2,sum_illness3)>=4 
+      and sum_illness3>=1 
+      and max(anydocsay1,anydocsay2,anydocsay3,
+            any_doc_wheeze1,any_doc_wheeze2,any_doc_wheeze3,
+            exam_wheeze1,exam_wheeze2,exam_wheeze3)>0
+   then hilev_wheeze=1 ; 
+   end; 
+
+   if nmiss(sum_illness1,sum_illness2,sum_illness3) ^= 3 then do;
+   if (0<=sum(sum_illness1,sum_illness2,sum_illness3)<4 
+      or sum_illness3=0) 
+      or max(anydocsay1,anydocsay2,anydocsay3,
+            any_doc_wheeze1,any_doc_wheeze2,any_doc_wheeze3,
+            exam_wheeze1,exam_wheeze2,exam_wheeze3)=0
+   then hilev_wheeze=0 ; 
+   end; 
+
+   label hilev_wheeze ="High level wheeze at age 3: 4+episodes, >=1 doc diag, >=1 in year 3" ;
+   label rec_wheeze_y3="Recurrent wheeze at age 3" ;
+run ;
+
+proc sort data=threeyroutcomes_whz2 ; by studyid ; run ;
+proc sort data=outcome3             ; by studyid ; run ;
+
+data outcome4 ;
+   merge threeyroutcomes_whz2 outcome3 ;
+   by studyid ; 
+   
+   drop _NAME_ _LABEL_ any_wheeze1 any_wheeze2 any_wheeze3 whz_2plus1 whz_2plus2 whz_2plus3 
+       sum_illness1 sum_illness2 sum_illness3 anydocsay1 anydocsay2 anydocsay3 
+       any_doc_wheeze1 any_doc_wheeze2 any_doc_wheeze3 exam_wheeze1 exam_wheeze2 exam_wheeze3 ;
+run ;
+
+proc freq data=outcome4 ;
+   tables year ; 
+run ;
+
+***No dups as of 2/13/2017 ;
+proc sort data=outcome4 out=test dupout=dups nodupkey ; by studyid year ; run ;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell72;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do year = 1,2,3,4,5,6,7,8,9,10 ;
+  if year =1 then avisit=12;
+  if year =2 then avisit=24;
+  if year =3 then avisit=36;
+  if year =4 then avisit=48;
+  if year =5 then avisit=60;
+  if year =6 then avisit=72;
+  if year =7 then avisit=84;
+  if year =8 then avisit=96;
+  if year =9 then avisit=108;
+  if year =10 then avisit=120;
+  output;
+ end;
+ keep studyid recruitid site avisit year group ;
+run;
+
+/*/**************************************************************************************/
+/* Merge and derive*/
+/***************************************************************************************/
+proc sort data=outcome4     ; by studyid year; run ;
+proc sort data=shell72      ; by studyid year; run ;
+
+data temp_symptoms_yr;
+ merge shell72 outcome4(in=b) ;
+ by studyid year ;
+ if nmiss( sum_wheeze,sum_tylenoluse,sum_stom_flu,sum_sinus_infec,sum_respillness,sum_pneu,sum_lri,sum_illness,
+ sum_hospwheeze,sum_fever,sum_eczema,sum_earinfec,sum_docwheeze,sum_docsay,sum_doclri,sum_croup,sum_cough_nocold,
+ sum_cough,sum_colds,sum_chixpox, rec_wheeze_y3,num_calls,mn_tylenoluse,mn_easi,mn_chixpox,max_easi,
+ hilev_wheeze,exam_wheeze,exam_eczema,eczema_report,ecz_easi,anytylenol,anystomflu,anysinusinfec,anyrepwheeze,
+ anyreplri,anyrepeczema,anypneu,anyhospwheeze,anyhospresp,anyhosp,anyfever,anyearinf,anydocsay,anycroup,anycough,
+ anycold,any_wheeze,any_lri,wheeze_2plus,any_eczema,any_doc_wheeze,any_doc_lri)=53 then symptoms_yr = 0 ; else symptoms_yr = 1;
+run;
+
+proc contents data=temp_symptoms_yr; run;
+
+proc freq data=temp_symptoms_yr;
+   tables avisit;
+run;
+
+
+data derive.symptoms_yr;
+ set temp_symptoms_yr;
+run;
+
+proc sort data=derive.symptoms_yr out=test2 nodupkey dupout=dups2 ; by studyid year ; run ;
+
+*** 3. Codebook ****************************************************************;
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";
+%codebook(file=derive.symptoms_yr,
+          pdfname=symptoms_yr,
+          formats=library,
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK)); */
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.symptoms_yr
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+proc freq data= derive.symptoms_yr; tables avisit*symptoms_yr; run;
+
+
+ods select Position;
+proc contents data=derive.symptoms_yr position; run;
+run;
+ods select default;

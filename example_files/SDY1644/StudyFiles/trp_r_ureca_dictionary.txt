@@ -1,0 +1,52 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	145	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""TRP"", ""TRP"")"
+3	4	version	version	chr	character	character	2	0	"c(""1.0"", ""1.4"")"
+4	5	status	status	chr	character	character	4	0	"c(""complete"", ""unresolved"")"
+5	6	SampleID	SampleID	chr	character	character	410	0	"c(""105408"", ""96918"")"
+6	7	aTI	Processing Tech Initials	chr	character	character	11	0	"c("".m"", ""tmd"")"
+7	8	aVisit	Visit	chr	character	character	5	0	"c(""12"", ""b"")"
+8	9	TRP_q1b	Time Sample Collected	time	"c(""hms"", ""difftime"")"	double	175	44	c(0, 84600)
+9	10	TRP_q2b	Time Sample Started Processing	chr	character	character	96	0	"c("".m"", ""12:57pm"")"
+10	11	TRP_q3b	Time Sample Received By Harvard Lab	time	"c(""hms"", ""difftime"")"	double	132	44	c(32280, 85500)
+11	12	TRP_q4b	Time Proliferation Assay was Conducted	time	"c(""hms"", ""difftime"")"	double	128	45	c(3000, 81240)
+12	13	TRP_q4_1	Number of Cells Used for Proliferation Assay	dbl	numeric	double	120	52	c(0, 19.4)
+13	14	TRP_q4c1b	Day Three - Undepleted Media	dbl	numeric	double	61	349	c(94, 4679)
+14	15	TRP_q4c2b	Day Three - Depleted Media	dbl	numeric	double	59	349	c(48, 3823)
+15	16	TRP_q4c3b	Day Three - Undepleted PHA	dbl	numeric	double	61	349	c(6983, 291960)
+16	17	TRP_q4c4b	Day Three - Depleted PHA	dbl	numeric	double	61	349	c(3697, 284428)
+17	18	TRP_q4d1b	Day Four - Undepleted Media	dbl	numeric	double	264	90	c(24, 327686)
+18	19	TRP_q4d2b	Day Four - Depleted Media	dbl	numeric	double	247	90	c(14, 352631)
+19	20	TRP_q4d3b	Day Four - Undepleted PHA	dbl	numeric	double	321	90	c(65, 436527)
+20	21	TRP_q4d4b	Day Four - Depleted PHA	dbl	numeric	double	320	90	c(19, 400656)
+21	22	TRP_q4e1b	Day Five - Undepleted Media	dbl	numeric	double	57	353	c(64, 4082)
+22	23	TRP_q4e2b	Day Five - Depleted Media	dbl	numeric	double	58	353	c(75, 2892)
+23	24	TRP_q4e3b	Day Five - Undepleted PHA	dbl	numeric	double	58	353	c(695, 172913)
+24	25	TRP_q4e4b	Day Five - Depleted PHA	dbl	numeric	double	57	353	c(901, 138426)
+25	26	TRP_q5b	Time mRNA was Isolated	time	"c(""hms"", ""difftime"")"	double	124	51	c(3000, 70200)
+26	27	TRP_q5_1	Number of Cells Used for mRNA Isolation	dbl	numeric	double	7	52	c(0, 10)
+27	28	TRP_q5c1	CD45 Lymphogate - %CD3CD4CD25	dbl	numeric	double	121	46	c(0.1, 47.8)
+28	29	TRP_q5c2	CD45 Lymphogate - %CD3CD4CD25 Bright	dbl	numeric	double	55	46	c(0, 7.5)
+29	30	TRP_q5c3	CD45 Lymphogate - %CD3CD4CD25Foxp3	dbl	numeric	double	57	101	c(0, 9.2)
+30	31	TRP_q5c4	CD45 Lymphogate - %CD3CD4 CD25br CD45RO+	dbl	numeric	double	42	264	c(0, 5.2)
+31	32	TRP_q5c5	CD45 Lymphogate - %CD3CD4 CD25 CD127-	dbl	numeric	double	43	264	c(0, 9)
+32	33	TRP_q5c6	CD45 Lymphogate - %CD3CD4 CD25 CD127-CD45RO+	dbl	numeric	double	40	264	c(0, 6.8)
+33	34	TRP_q5c7	CD45 Lymphogate - %CD3CD4 CD25 FOXP3+ CD45RO+	dbl	numeric	double	40	265	c(0, 7.2)
+34	35	TRP_q5c8	CD45 Lymphogate - %CD3CD4 CD25 FOXP3+CD127-	dbl	numeric	double	41	265	c(0, 13)
+35	36	TRP_q5c9	CD45 Lymphogate - %CD3CD4 CD25 CD127- FOXP3+ CD45RO+	dbl	numeric	double	37	265	c(0, 6.6)
+36	37	TRP_q5d1	CD3 Gate - %CD3CD4CD25	dbl	numeric	double	149	46	c(0.1, 85.7)
+37	38	TRP_q5d2	CD3 Gate - %CD3CD4CD25 Bright	dbl	numeric	double	67	46	c(0, 8.5)
+38	39	TRP_q5d3	CD3 Gate - %CD3CD4CD25Foxp3	dbl	numeric	double	69	101	c(0.1, 10.3)
+39	40	TRP_q5d4	CD3 Gate - %CD3CD4 CD25br CD45RO+	dbl	numeric	double	50	264	c(0, 7.5)
+40	41	TRP_q5d5	CD3 Gate - %CD3CD4 CD25 CD127-	dbl	numeric	double	50	264	c(0, 10.2)
+41	42	TRP_q5d6	CD3 Gate - %CD3CD4 CD25 CD127-CD45RO+	dbl	numeric	double	51	264	c(0, 7.9)
+42	43	TRP_q5d7	CD3 Gate - %CD3CD4 CD25 FOXP3+CD45RO+	dbl	numeric	double	47	265	c(0, 8.1)
+43	44	TRP_q5d8	CD3 Gate - %CD3CD4 CD25 FOXP3+CD127-	dbl	numeric	double	48	265	c(0, 9.4)
+44	45	TRP_q5d9	CD3 Gate - %CD3CD4CD25CD127- FOXP3+ CD45RO+	dbl	numeric	double	45	266	c(0, 7.4)
+45	46	aCompletionDY	Completion Day	dbl	numeric	double	208	45	c(0, 1494)
+46	47	TRP_q1aDY	Day Sample Collected	dbl	numeric	double	199	45	c(-1, 1493)
+47	48	TRP_q2aDY	Day Sample Started Processing	dbl	numeric	double	200	45	c(0, 1493)
+48	49	TRP_q3aDY	Day Sample Received By Harvard Lab	dbl	numeric	double	199	45	c(0, 1494)
+49	50	TRP_q4aDY	Day Proliferation Assay was Conducted	dbl	numeric	double	197	46	c(0, 1494)
+50	51	TRP_q5aDY	Day mRNA was Isolated	dbl	numeric	double	193	52	c(0, 1494)

@@ -1,0 +1,1019 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K. Jaffee         05/10/11      Create
+*   Alexandre Lockhart 05/25/2017   Worked on data checks and cleaning for all data up to 10 year visits
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=symptoms,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+
+
+
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.ras  out=ras1 ; by studyid ; run ;
+proc sort data=master.ras2 out=ras2 ; by studyid ; run ;
+proc sort data=master.ras3 out=ras3 ; by studyid ; run ;
+
+proc freq data=ras1 ; 
+   tables event aVisit;
+run ;
+proc freq data=ras2 ; 
+   tables event aVisit;
+run ;
+proc freq data=ras3 ; 
+   tables event aVisit;
+run ;
+
+data ras1_1 ;
+   set ras1 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename RAS_q1=num_colds
+         RAS_q2=stuffynose_nocold
+         RAS_q2a=stuffynose_freq
+         RAS_q3=stuffnose_meds 
+         RAS_q3_1=stuffynose_homerems 
+         RAS_q4=cough 
+         RAS_q4a=cough_numillness
+         RAS_q4b=cold_cough_totdays 
+         RAS_q5=cough_nocold 
+         RAS_q6=cough_meds 
+         RAS_q6_1=cough_homerems 
+         RAS_q7=cough_timeofday 
+         RAS_q8=wheeze
+         RAS_q8a=wheeze_numillness
+         RAS_q8a1=hardbreathe_numillness
+         RAS_q8b=wheeze_totdays 
+         RAS_q9=wheeze_timeofday
+         RAS_q10=wheeze_nocold 
+         RAS_q11=wheeze_docsaid
+         RAS_q12=wheeze_meds 
+         RAS_q12_1=wheeze_homerems 
+         RAS_q13a=sinus_infec 
+         RAS_q13a1=sinus_infec_freq
+         RAS_q13a1a=sinus_infec_meds
+         RAS_q13b=ear_infec
+         RAS_q13b1=ear_infec_freq
+         RAS_q13b1a=ear_infec_meds 
+         RAS_q13c=croup
+         RAS_q13c1=croup_meds
+         RAS_q13d=pneu_bronc 
+         RAS_q13d1=pneu_bronc_freq 
+         RAS_q13d1a=pneu_bronc_meds
+         RAS_q13e=chixpox 
+         RAS_q13e1=chixpox_meds
+         RAS_q13f=stomach_flu 
+         RAS_q13f1=stomach_flu_meds 
+         RAS_q13g=unex_fever 
+         RAS_q13g1=unex_fever_freq
+         RAS_q13g1a=unex_fever_meds
+         RAS_q13g_1=throat_tonsil 
+         RAS_q13g_1a=throat_tonsil_meds
+         RAS_q13h=otherillness
+         RAS_q13h1=otherillness_specify
+         RAS_q13h1a=otherillness_meds
+         RAS_q14=itchyrash
+         RAS_q15a=ecz_diagnose
+         RAS_q15a1=ecz_meds 
+         RAS_q15b=hives_diagnose
+         RAS_q15b1=hives_meds
+         RAS_q15c=cradlecap_diagnose 
+         RAS_q15c1=cradlecap_meds
+         RAS_q16=otherrash 
+         RAS_q16a=otherrash_specify
+         RAS_q16b=otherrash_meds
+         RAS_q16c=rash_homerems
+         RAS_q17=tylenol
+
+         RAS_q18=hosp_overnight
+         RAS_q18a=hosp_freq
+
+         RAS_q18b1=admiss1_date
+         RAS_q18c1=admiss1_month
+         RAS_q18d1=admiss1_day
+         RAS_q18e1=admiss1_numdays
+         RAS_q18f1=admiss1_reason1 
+         RAS_q18f1a=admiss1_reason1spec
+         RAS_q18g1=admiss1_reason2
+         RAS_q18g1a=admiss1_reason2spec
+         RAS_q18h_1_1=admiss1_nebinhaler
+         RAS_q18h1=admiss1_reason3
+         RAS_q18h1a=admiss1_reason3spec
+         RAS_q18i1=admiss1_icu
+         RAS_q18i1a=admiss1_icu_numdays
+         RAS_q18j1=admiss1_namehosp
+         RAS_q18k1=admiss1_form54comp
+         RAS_q18l1=admiss1_relatedtostudy
+         RAS_q18m1=admiss1_pi_initial
+
+         RAS_q18b2=admiss2_date
+         RAS_q18c2=admiss2_month
+         RAS_q18d2=admiss2_day
+         RAS_q18e2=admiss2_numdays
+         RAS_q18f2=admiss2_reason1 
+         RAS_q18f1b=admiss2_reason1spec
+         RAS_q18g2=admiss2_reason2
+         RAS_q18g1b=admiss2_reason2spec
+         RAS_q18h_1_2=admiss2_nebinhaler
+         RAS_q18h2=admiss2_reason3
+         RAS_q18h1b=admiss2_reason3spec
+         RAS_q18i2=admiss2_icu
+         RAS_q18i1b=admiss2_icu_numdays
+         RAS_q18j2=admiss2_namehosp
+         RAS_q18k2=admiss2_form54comp
+         RAS_q18l2=admiss2_relatedtostudy
+         RAS_q18m2=admiss2_pi_initial
+
+         RAS_q18b3=admiss3_date
+         RAS_q18c3=admiss3_month
+         RAS_q18d3=admiss3_day
+         RAS_q18e3=admiss3_numdays
+         RAS_q18f3=admiss3_reason1 
+         RAS_q18f1c=admiss3_reason1spec
+         RAS_q18g3=admiss3_reason2
+         RAS_q18g1c=admiss3_reason2spec
+         RAS_q18h_1_3=admiss3_nebinhaler
+         RAS_q18h3=admiss3_reason3
+         RAS_q18h1c=admiss3_reason3spec
+         RAS_q18i3=admiss3_icu
+         RAS_q18i1c=admiss3_icu_numdays
+         RAS_q18j3=admiss3_namehosp
+         RAS_q18k3=admiss3_form54comp
+         RAS_q18l3=admiss3_relatedtostudy
+         RAS_q18m3=admiss3_pi_initial
+
+         RAS_q18b4=admiss4_date
+         RAS_q18c4=admiss4_month
+         RAS_q18d4=admiss4_day
+         RAS_q18e4=admiss4_numdays
+         RAS_q18f4=admiss4_reason1 
+         RAS_q18f1d=admiss4_reason1spec
+         RAS_q18g4=admiss4_reason2
+         RAS_q18g1d=admiss4_reason2spec
+         RAS_q18h_1_4=admiss4_nebinhaler
+         RAS_q18h4=admiss4_reason3
+         RAS_q18h1d=admiss4_reason3spec
+         RAS_q18i4=admiss4_icu
+         RAS_q18i1d=admiss4_icu_numdays
+         RAS_q18j4=admiss4_namehosp
+         RAS_q18k4=admiss4_form54comp
+         RAS_q18l4=admiss4_relatedtostudy
+         RAS_q18m4=admiss4_pi_initial
+
+         RAS_q19=docvis
+         RAS_q19a=docvis_freq
+
+         RAS_q19b1=vis1_date
+         RAS_q19c1=vis1_month 
+         RAS_q19d1=vis1_day
+         RAS_q19e1=vis1_sched
+         RAS_q19f1=vis1_childsick
+         RAS_q19g1=vis1_diag1
+         RAS_q19g1a=vis1_diag1spec
+         RAS_q19h1=vis1_diag2 
+         RAS_q19h1a=vis1_diag2spec
+         RAS_q19i_1_1=vis1_nebinhaler
+         RAS_q19i1=vis1_diag3 
+         RAS_q19i1a=vis1_diag3spec
+         RAS_q19j1=vis1_nameclin
+         RAS_q19k1=vis1_form54comp
+
+         RAS_q19b2=vis2_date
+         RAS_q19c2=vis2_month 
+         RAS_q19d2=vis2_day
+         RAS_q19e2=vis2_sched
+         RAS_q19f2=vis2_childsick
+         RAS_q19g2=vis2_diag1
+         RAS_q19g1b=vis2_diag1spec
+         RAS_q19h2=vis2_diag2 
+         RAS_q19h1b=vis2_diag2spec
+         RAS_q19i_1_2=vis2_nebinhaler
+         RAS_q19i2=vis2_diag3 
+         RAS_q19i1b=vis2_diag3spec
+         RAS_q19j2=vis2_nameclin
+         RAS_q19k2=vis2_form54comp
+
+         RAS_q19b3=vis3_date
+         RAS_q19c3=vis3_month 
+         RAS_q19d3=vis3_day
+         RAS_q19e3=vis3_sched
+         RAS_q19f3=vis3_childsick
+         RAS_q19g3=vis3_diag1
+         RAS_q19g1c=vis3_diag1spec
+         RAS_q19h3=vis3_diag2 
+         RAS_q19h1c=vis3_diag2spec
+         RAS_q19i_1_3=vis3_nebinhaler
+         RAS_q19i3=vis3_diag3 
+         RAS_q19i1c=vis3_diag3spec
+         RAS_q19j3=vis3_nameclin
+         RAS_q19k3=vis3_form54comp
+
+         RAS_q19b4=vis4_date
+         RAS_q19c4=vis4_month 
+         RAS_q19d4=vis4_day
+         RAS_q19e4=vis4_sched
+         RAS_q19f4=vis4_childsick
+         RAS_q19g4=vis4_diag1
+         RAS_q19g1d=vis4_diag1spec
+         RAS_q19h4=vis4_diag2 
+         RAS_q19h1d=vis4_diag2spec
+         RAS_q19i_1_4=vis4_nebinhaler
+         RAS_q19i4=vis4_diag3 
+         RAS_q19i1d=vis4_diag3spec
+         RAS_q19j4=vis4_nameclin
+         RAS_q19k4=vis4_form54comp
+
+         RAS_q19b5=vis5_date
+         RAS_q19c5=vis5_month 
+         RAS_q19d5=vis5_day
+         RAS_q19e5=vis5_sched
+         RAS_q19f5=vis5_childsick
+         RAS_q19g5=vis5_diag1
+         RAS_q19g1e=vis5_diag1spec
+         RAS_q19h5=vis5_diag2 
+         RAS_q19h1e=vis5_diag2spec
+         RAS_q19i_1_5=vis5_nebinhaler
+         RAS_q19i5=vis5_diag3 
+         RAS_q19i1e=vis5_diag3spec
+         RAS_q19j5=vis5_nameclin
+         RAS_q19k5=vis5_form54comp
+
+         RAS_q19b6=vis6_date
+         RAS_q19c6=vis6_month 
+         RAS_q19d6=vis6_day
+         RAS_q19e6=vis6_sched
+         RAS_q19f6=vis6_childsick
+         RAS_q19g6=vis6_diag1
+         RAS_q19g1f=vis6_diag1spec
+         RAS_q19h6=vis6_diag2 
+         RAS_q19h1f=vis6_diag2spec
+         RAS_q19i_1_6=vis6_nebinhaler
+         RAS_q19i6=vis6_diag3 
+         RAS_q19i1f=vis6_diag3spec
+         RAS_q19j6=vis6_nameclin
+         RAS_q19k6=vis6_form54comp
+
+         RAS_q19b7=vis7_date
+         RAS_q19c7=vis7_month 
+         RAS_q19d7=vis7_day
+         RAS_q19e7=vis7_sched
+         RAS_q19f7=vis7_childsick
+         RAS_q19g7=vis7_diag1
+         RAS_q19g1g=vis7_diag1spec
+         RAS_q19h7=vis7_diag2 
+         RAS_q19h1g=vis7_diag2spec
+         RAS_q19i_1_7=vis7_nebinhaler
+         RAS_q19i7=vis7_diag3 
+         RAS_q19i1g=vis7_diag3spec
+         RAS_q19j7=vis7_nameclin
+         RAS_q19k7=vis7_form54comp
+
+         RAS_q19b8=vis8_date
+         RAS_q19c8=vis8_month 
+         RAS_q19d8=vis8_day
+         RAS_q19e8=vis8_sched
+         RAS_q19f8=vis8_childsick
+         RAS_q19g8=vis8_diag1
+         RAS_q19g1h=vis8_diag1spec
+         RAS_q19h8=vis8_diag2 
+         RAS_q19h1h=vis8_diag2spec
+         RAS_q19i_1_8=vis8_nebinhaler
+         RAS_q19i8=vis8_diag3 
+         RAS_q19i1h=vis8_diag3spec
+         RAS_q19j8=vis8_nameclin
+         RAS_q19k8=vis8_form54comp
+
+         ;
+
+   if acompletiondate=.X then delete ;
+
+   drop astudyid avisit_char recruitid ;
+run ;
+
+data ras2_1 ;
+   set ras2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename RAS2_q1=num_colds
+
+         RAS2_q2=stuffynose_nocold
+         RAS2_q2a=stuffynose_freq
+         RAS2_q3=stuffnose_meds 
+         RAS2_q3_1=stuffynose_homerems 
+
+         RAS2_q4=cough 
+         RAS2_q4a=cough_numillness
+         RAS2_q4b=cold_cough_totdays 
+         RAS2_q5=cough_nocold 
+         RAS2_q6=cough_meds 
+         RAS2_q6_1=cough_homerems 
+         RAS2_q7=cough_timeofday 
+
+         RAS2_q8=wheeze
+         RAS2_q8a=wheeze_numillness
+         RAS2_q8a1=hardbreathe_numillness
+         RAS2_q8b=wheeze_totdays 
+         RAS2_q9=wheeze_timeofday
+         RAS2_q10=wheeze_nocold 
+         RAS2_q10_1=wheeze_exercise
+         RAS2_q10_2=wheeze_coldair
+         RAS2_q11=wheeze_docsaid
+
+         RAS2_q12=wheeze_meds 
+         RAS2_q12_1=wheeze_homerems 
+         RAS2_q12_2=slowplay_totdays
+         RAS2_q12_3=awaken_totnights
+
+         RAS2_q13a=sinus_infec 
+         RAS2_q13a1=sinus_infec_freq
+         RAS2_q13a1a=sinus_infec_meds
+         RAS2_q13b=ear_infec
+         RAS2_q13b1=ear_infec_freq
+         RAS2_q13b1a=ear_infec_meds 
+         RAS2_q13c=croup
+         RAS2_q13c1=croup_meds
+         RAS2_q13d=pneu_bronc 
+         RAS2_q13d1=pneu_bronc_freq 
+         RAS2_q13d1a=pneu_bronc_meds
+         RAS2_q13e=chixpox 
+         RAS2_q13e1=chixpox_meds
+         RAS2_q13f=stomach_flu 
+         RAS2_q13f1=stomach_flu_meds 
+         RAS2_q13g=unex_fever 
+         RAS2_q13g1=unex_fever_freq
+         RAS2_q13g1a=unex_fever_meds
+         RAS2_q13g_1=throat_tonsil 
+         RAS2_q13g_1a=throat_tonsil_meds
+         RAS2_q13h=otherillness
+         RAS2_q13h1=otherillness_specify
+         RAS2_q13h1a=otherillness_meds
+      
+         RAS2_q15a=ecz_diagnose
+         RAS2_q15a1=ecz_meds 
+         RAS2_q15b=hives_diagnose
+         RAS2_q15b1=hives_meds
+   
+         RAS2_q16=otherrash 
+         RAS2_q16a=otherrash_specify
+         RAS2_q16b=otherrash_meds
+         RAS2_q16c=rash_homerems
+
+         RAS2_q17=tylenol
+         RAS2_q17_1=steroids_forwhz
+
+         RAS2_q18=hosp_overnight
+         RAS2_q18a=hosp_freq
+
+         RAS2_q18b1=admiss1_date
+         RAS2_q18c1=admiss1_month
+         RAS2_q18d1=admiss1_day
+         RAS2_q18e1=admiss1_numdays
+         RAS2_q18f1=admiss1_reason1 
+         RAS2_q18f1a=admiss1_reason1spec
+         RAS2_q18g1=admiss1_reason2
+         RAS2_q18g1a=admiss1_reason2spec
+         RAS2_q18h_1_1=admiss1_nebinhaler
+         RAS2_q18i1=admiss1_icu
+         RAS2_q18i1a=admiss1_icu_numdays
+         RAS2_q18j1=admiss1_namehosp
+         RAS2_q18l1=admiss1_relatedtostudy
+         RAS2_q18m1=admiss1_pi_initial
+
+         RAS2_q18b2=admiss2_date
+         RAS2_q18c2=admiss2_month
+         RAS2_q18d2=admiss2_day
+         RAS2_q18e2=admiss2_numdays
+         RAS2_q18f2=admiss2_reason1 
+         RAS2_q18f1b=admiss2_reason1spec
+         RAS2_q18g2=admiss2_reason2
+         RAS2_q18g1b=admiss2_reason2spec
+         RAS2_q18h_1_2=admiss2_nebinhaler      
+         RAS2_q18i2=admiss2_icu
+         RAS2_q18i1b=admiss2_icu_numdays
+         RAS2_q18j2=admiss2_namehosp
+         RAS2_q18l2=admiss2_relatedtostudy
+         RAS2_q18m2=admiss2_pi_initial
+
+         RAS2_q18b3=admiss3_date
+         RAS2_q18c3=admiss3_month
+         RAS2_q18d3=admiss3_day
+         RAS2_q18e3=admiss3_numdays
+         RAS2_q18f3=admiss3_reason1 
+         RAS2_q18f1c=admiss3_reason1spec
+         RAS2_q18g3=admiss3_reason2
+         RAS2_q18g1c=admiss3_reason2spec
+         RAS2_q18h_1_3=admiss3_nebinhaler
+         RAS2_q18i3=admiss3_icu
+         RAS2_q18i1c=admiss3_icu_numdays
+         RAS2_q18j3=admiss3_namehosp
+         RAS2_q18l3=admiss3_relatedtostudy
+         RAS2_q18m3=admiss3_pi_initial
+
+         RAS2_q18b4=admiss4_date
+         RAS2_q18c4=admiss4_month
+         RAS2_q18d4=admiss4_day
+         RAS2_q18e4=admiss4_numdays
+         RAS2_q18f4=admiss4_reason1 
+         RAS2_q18f1d=admiss4_reason1spec
+         RAS2_q18g4=admiss4_reason2
+         RAS2_q18g1d=admiss4_reason2spec
+         RAS2_q18h_1_4=admiss4_nebinhaler
+         RAS2_q18i4=admiss4_icu
+         RAS2_q18i1d=admiss4_icu_numdays
+         RAS2_q18j4=admiss4_namehosp
+         RAS2_q18l4=admiss4_relatedtostudy
+         RAS2_q18m4=admiss4_pi_initial
+
+         RAS2_q19=docvis
+         RAS2_q19a=docvis_freq
+        
+         RAS2_q19b1=vis1_date
+         RAS2_q19c1=vis1_month 
+         RAS2_q19d1=vis1_day
+         RAS2_q19e1=vis1_sched
+         RAS2_q19f1=vis1_childsick
+         RAS2_q19g1=vis1_diag1
+         RAS2_q19g1a=vis1_diag1spec
+         RAS2_q19h1=vis1_diag2 
+         RAS2_q19h1a=vis1_diag2spec
+         RAS2_q19i_1_1=vis1_nebinhaler
+         RAS2_q19j1=vis1_nameclin
+        
+         RAS2_q19b2=vis2_date
+         RAS2_q19c2=vis2_month 
+         RAS2_q19d2=vis2_day
+         RAS2_q19e2=vis2_sched
+         RAS2_q19f2=vis2_childsick
+         RAS2_q19g2=vis2_diag1
+         RAS2_q19g1b=vis2_diag1spec
+         RAS2_q19h2=vis2_diag2 
+         RAS2_q19h1b=vis2_diag2spec
+         RAS2_q19i_1_2=vis2_nebinhaler
+         RAS2_q19j2=vis2_nameclin
+   
+         RAS2_q19b3=vis3_date
+         RAS2_q19c3=vis3_month 
+         RAS2_q19d3=vis3_day
+         RAS2_q19e3=vis3_sched
+         RAS2_q19f3=vis3_childsick
+         RAS2_q19g3=vis3_diag1
+         RAS2_q19g1c=vis3_diag1spec
+         RAS2_q19h3=vis3_diag2 
+         RAS2_q19h1c=vis3_diag2spec
+         RAS2_q19i_1_3=vis3_nebinhaler
+         RAS2_q19j3=vis3_nameclin
+      
+         RAS2_q19b4=vis4_date
+         RAS2_q19c4=vis4_month 
+         RAS2_q19d4=vis4_day
+         RAS2_q19e4=vis4_sched
+         RAS2_q19f4=vis4_childsick
+         RAS2_q19g4=vis4_diag1
+         RAS2_q19g1d=vis4_diag1spec
+         RAS2_q19h4=vis4_diag2 
+         RAS2_q19h1d=vis4_diag2spec
+         RAS2_q19i_1_4=vis4_nebinhaler
+         RAS2_q19j4=vis4_nameclin
+       
+         RAS2_q19b5=vis5_date
+         RAS2_q19c5=vis5_month 
+         RAS2_q19d5=vis5_day
+         RAS2_q19e5=vis5_sched
+         RAS2_q19f5=vis5_childsick
+         RAS2_q19g5=vis5_diag1
+         RAS2_q19g1e=vis5_diag1spec
+         RAS2_q19h5=vis5_diag2 
+         RAS2_q19h1e=vis5_diag2spec
+         RAS2_q19i_1_5=vis5_nebinhaler
+         RAS2_q19j5=vis5_nameclin     
+
+         RAS2_q19b6=vis6_date
+         RAS2_q19c6=vis6_month 
+         RAS2_q19d6=vis6_day
+         RAS2_q19e6=vis6_sched
+         RAS2_q19f6=vis6_childsick
+         RAS2_q19g6=vis6_diag1
+         RAS2_q19g1f=vis6_diag1spec
+         RAS2_q19h6=vis6_diag2 
+         RAS2_q19h1f=vis6_diag2spec
+         RAS2_q19i_1_6=vis6_nebinhaler       
+         RAS2_q19j6=vis6_nameclin
+
+         RAS2_q19b7=vis7_date
+         RAS2_q19c7=vis7_month 
+         RAS2_q19d7=vis7_day
+         RAS2_q19e7=vis7_sched
+         RAS2_q19f7=vis7_childsick
+         RAS2_q19g7=vis7_diag1
+         RAS2_q19g1g=vis7_diag1spec
+         RAS2_q19h7=vis7_diag2 
+         RAS2_q19h1g=vis7_diag2spec
+         RAS2_q19i_1_7=vis7_nebinhaler     
+         RAS2_q19j7=vis7_nameclin
+   
+         RAS2_q19b8=vis8_date
+         RAS2_q19c8=vis8_month 
+         RAS2_q19d8=vis8_day
+         RAS2_q19e8=vis8_sched
+         RAS2_q19f8=vis8_childsick
+         RAS2_q19g8=vis8_diag1
+         RAS2_q19g1h=vis8_diag1spec
+         RAS2_q19h8=vis8_diag2 
+         RAS2_q19h1h=vis8_diag2spec
+         RAS2_q19i_1_8=vis8_nebinhaler 
+         RAS2_q19j8=vis8_nameclin
+   
+   
+         ;
+
+   if acompletiondate=.X then delete ;
+
+   drop avisit_char astudyid recruitid ras2_q20 ras2_q20a ras2_q20a1 ;
+run ;
+
+data ras3_1 ;
+   set ras3 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename RAS3_q1=num_colds
+
+         RAS3_q2=stuffynose_nocold
+         RAS3_q2a=stuffynose_freq
+         RAS3_q3=stuffnose_meds 
+
+         RAS3_q4=cough 
+         RAS3_q4a=cough_numillness
+         RAS3_q4b=cold_cough_totdays 
+         RAS3_q5=cough_nocold 
+         RAS3_q6=cough_meds 
+
+         RAS3_q8=wheeze
+         RAS3_q8a=wheeze_numillness
+         RAS3_q8a1=hardbreathe_numillness
+         RAS3_q8b=wheeze_totdays 
+         RAS3_q10=wheeze_nocold 
+         RAS3_q10_1=wheeze_exercise
+         RAS3_q10_2=wheeze_coldair
+         RAS3_q11=wheeze_docsaid
+
+         RAS3_q12=wheeze_meds 
+         RAS3_q12_2=slowplay_totdays
+         RAS3_q12_3=awaken_totnights
+
+         RAS3_q13a=sinus_infec 
+         RAS3_q13a1=sinus_infec_freq
+         RAS3_q13a1a=sinus_infec_meds
+         RAS3_q13b=ear_infec
+         RAS3_q13b1=ear_infec_freq
+         RAS3_q13b1a=ear_infec_meds 
+         RAS3_q13c=croup
+         RAS3_q13c1=croup_meds
+         RAS3_q13d=pneu_bronc 
+         RAS3_q13d1=pneu_bronc_freq 
+         RAS3_q13d1a=pneu_bronc_meds
+         RAS3_q13e=chixpox 
+         RAS3_q13e1=chixpox_meds
+         RAS3_q13f=stomach_flu 
+         RAS3_q13f1=stomach_flu_meds 
+         RAS3_q13g_1=throat_tonsil 
+         RAS3_q13g_1a=throat_tonsil_meds
+         RAS3_q13h=otherillness
+         RAS3_q13h1=otherillness_specify
+         RAS3_q13h1a=otherillness_meds
+      
+         RAS3_q15a=ecz_diagnose
+         RAS3_q15a1=ecz_meds 
+         RAS3_q15b=hives_diagnose
+         RAS3_q15b1=hives_meds
+   
+         RAS3_q16=otherrash 
+         RAS3_q16a=otherrash_specify
+         RAS3_q16b=otherrash_meds
+
+         RAS3_q17=tylenol
+         RAS3_q17_1=steroids_forwhz
+
+         RAS3_q18=hosp_overnight
+         RAS3_q18a=hosp_freq
+
+         RAS3_q18b1=admiss1_date
+         RAS3_q18c1=admiss1_month
+         RAS3_q18d1=admiss1_day
+         RAS3_q18e1=admiss1_numdays
+         RAS3_q18f1=admiss1_reason1 
+         RAS3_q18f1a=admiss1_reason1spec
+         RAS3_q18g1=admiss1_reason2
+         RAS3_q18g1a=admiss1_reason2spec
+         RAS3_q18h_1_1=admiss1_nebinhaler
+         RAS3_q18i1=admiss1_icu
+         RAS3_q18i1a=admiss1_icu_numdays
+         RAS3_q18j1=admiss1_namehosp
+         RAS3_q18l1=admiss1_relatedtostudy
+         RAS3_q18m1=admiss1_pi_initial
+
+         RAS3_q18b2=admiss2_date
+         RAS3_q18c2=admiss2_month
+         RAS3_q18d2=admiss2_day
+         RAS3_q18e2=admiss2_numdays
+         RAS3_q18f2=admiss2_reason1 
+         RAS3_q18f1b=admiss2_reason1spec
+         RAS3_q18g2=admiss2_reason2
+         RAS3_q18g1b=admiss2_reason2spec
+         RAS3_q18h_1_2=admiss2_nebinhaler      
+         RAS3_q18i2=admiss2_icu
+         RAS3_q18i1b=admiss2_icu_numdays
+         RAS3_q18j2=admiss2_namehosp
+         RAS3_q18l2=admiss2_relatedtostudy
+         RAS3_q18m2=admiss2_pi_initial
+
+         RAS3_q18b3=admiss3_date
+         RAS3_q18c3=admiss3_month
+         RAS3_q18d3=admiss3_day
+         RAS3_q18e3=admiss3_numdays
+         RAS3_q18f3=admiss3_reason1 
+         RAS3_q18f1c=admiss3_reason1spec
+         RAS3_q18g3=admiss3_reason2
+         RAS3_q18g1c=admiss3_reason2spec
+         RAS3_q18h_1_3=admiss3_nebinhaler
+         RAS3_q18i3=admiss3_icu
+         RAS3_q18i1c=admiss3_icu_numdays
+         RAS3_q18j3=admiss3_namehosp
+         RAS3_q18l3=admiss3_relatedtostudy
+         RAS3_q18m3=admiss3_pi_initial
+
+         RAS3_q18b4=admiss4_date
+         RAS3_q18c4=admiss4_month
+         RAS3_q18d4=admiss4_day
+         RAS3_q18e4=admiss4_numdays
+         RAS3_q18f4=admiss4_reason1 
+         RAS3_q18f1d=admiss4_reason1spec
+         RAS3_q18g4=admiss4_reason2
+         RAS3_q18g1d=admiss4_reason2spec
+         RAS3_q18h_1_4=admiss4_nebinhaler
+         RAS3_q18i4=admiss4_icu
+         RAS3_q18i1d=admiss4_icu_numdays
+         RAS3_q18j4=admiss4_namehosp
+         RAS3_q18l4=admiss4_relatedtostudy
+         RAS3_q18m4=admiss4_pi_initial
+
+         RAS3_q19=docvis
+         RAS3_q19a=docvis_freq
+        
+         RAS3_q19b1=vis1_date
+         RAS3_q19c1=vis1_month 
+         RAS3_q19d1=vis1_day
+         RAS3_q19e1=vis1_sched
+         RAS3_q19f1=vis1_childsick
+         RAS3_q19g1=vis1_diag1
+         RAS3_q19g1a=vis1_diag1spec
+         RAS3_q19h1=vis1_diag2 
+         RAS3_q19h1a=vis1_diag2spec
+         RAS3_q19i_1_1=vis1_nebinhaler
+         RAS3_q19j1=vis1_nameclin
+        
+         RAS3_q19b2=vis2_date
+         RAS3_q19c2=vis2_month 
+         RAS3_q19d2=vis2_day
+         RAS3_q19e2=vis2_sched
+         RAS3_q19f2=vis2_childsick
+         RAS3_q19g2=vis2_diag1
+         RAS3_q19g1b=vis2_diag1spec
+         RAS3_q19h2=vis2_diag2 
+         RAS3_q19h1b=vis2_diag2spec
+         RAS3_q19i_1_2=vis2_nebinhaler
+         RAS3_q19j2=vis2_nameclin
+   
+         RAS3_q19b3=vis3_date
+         RAS3_q19c3=vis3_month 
+         RAS3_q19d3=vis3_day
+         RAS3_q19e3=vis3_sched
+         RAS3_q19f3=vis3_childsick
+         RAS3_q19g3=vis3_diag1
+         RAS3_q19g1c=vis3_diag1spec
+         RAS3_q19h3=vis3_diag2 
+         RAS3_q19h1c=vis3_diag2spec
+         RAS3_q19i_1_3=vis3_nebinhaler
+         RAS3_q19j3=vis3_nameclin
+      
+         RAS3_q19b4=vis4_date
+         RAS3_q19c4=vis4_month 
+         RAS3_q19d4=vis4_day
+         RAS3_q19e4=vis4_sched
+         RAS3_q19f4=vis4_childsick
+         RAS3_q19g4=vis4_diag1
+         RAS3_q19g1d=vis4_diag1spec
+         RAS3_q19h4=vis4_diag2 
+         RAS3_q19h1d=vis4_diag2spec
+         RAS3_q19i_1_4=vis4_nebinhaler
+         RAS3_q19j4=vis4_nameclin
+       
+         RAS3_q19b5=vis5_date
+         RAS3_q19c5=vis5_month 
+         RAS3_q19d5=vis5_day
+         RAS3_q19e5=vis5_sched
+         RAS3_q19f5=vis5_childsick
+         RAS3_q19g5=vis5_diag1
+         RAS3_q19g1e=vis5_diag1spec
+         RAS3_q19h5=vis5_diag2 
+         RAS3_q19h1e=vis5_diag2spec
+         RAS3_q19i_1_5=vis5_nebinhaler
+         RAS3_q19j5=vis5_nameclin     
+
+         RAS3_q19b6=vis6_date
+         RAS3_q19c6=vis6_month 
+         RAS3_q19d6=vis6_day
+         RAS3_q19e6=vis6_sched
+         RAS3_q19f6=vis6_childsick
+         RAS3_q19g6=vis6_diag1
+         RAS3_q19g1f=vis6_diag1spec
+         RAS3_q19h6=vis6_diag2 
+         RAS3_q19h1f=vis6_diag2spec
+         RAS3_q19i_1_6=vis6_nebinhaler       
+         RAS3_q19j6=vis6_nameclin
+
+         RAS3_q19b7=vis7_date
+         RAS3_q19c7=vis7_month 
+         RAS3_q19d7=vis7_day
+         RAS3_q19e7=vis7_sched
+         RAS3_q19f7=vis7_childsick
+         RAS3_q19g7=vis7_diag1
+         RAS3_q19g1g=vis7_diag1spec
+         RAS3_q19h7=vis7_diag2 
+         RAS3_q19h1g=vis7_diag2spec
+         RAS3_q19i_1_7=vis7_nebinhaler     
+         RAS3_q19j7=vis7_nameclin
+   
+         RAS3_q19b8=vis8_date
+         RAS3_q19c8=vis8_month 
+         RAS3_q19d8=vis8_day
+         RAS3_q19e8=vis8_sched
+         RAS3_q19f8=vis8_childsick
+         RAS3_q19g8=vis8_diag1
+         RAS3_q19g1h=vis8_diag1spec
+         RAS3_q19h8=vis8_diag2 
+         RAS3_q19h1h=vis8_diag2spec
+         RAS3_q19i_1_8=vis8_nebinhaler 
+         RAS3_q19j8=vis8_nameclin
+   
+   
+         ;
+
+   if acompletiondate=.X then delete ;
+
+   drop avisit_char astudyid recruitid ;
+run ;
+
+data ras_all ;
+   set ras1_1 ras2_1 ras3_1 ;
+
+   if acompletiondate=.x then vis_stat=0; else vis_stat=1;
+
+    label vis_stat="Visit Completed";
+    format vis_stat yesnofm.;
+
+   *** CALCULATE NUMBER OF HOSPITALIZATIONS ***;
+   *** COUNT ACROSS RECORDS ***;
+
+     hosp=0; dayhosp=0; hospresp=0; dayresp=0; hosplri=0; daylri=0; hospwheeze=0; daywheeze=0; inicu=0; dayicu=0;
+     array reasn(4)  admiss1_reason1 admiss2_reason1 admiss3_reason1 admiss4_reason1 ;
+   array reasn2(4) admiss1_reason2 admiss2_reason2 admiss3_reason2 admiss4_reason2 ;
+   array reasn3(4) admiss1_reason3 admiss2_reason3 admiss3_reason3 admiss4_reason3 ;
+     array hday(4)   admiss1_numdays admiss2_numdays admiss3_numdays admiss4_numdays ;
+     array icu(4)    admiss1_icu admiss2_icu admiss3_icu admiss4_icu ;
+     array iday(4)   admiss1_icu_numdays admiss2_icu_numdays admiss3_icu_numdays admiss4_icu_numdays ;
+    do i=1 to 4;
+      if reasn(i) > 0 then do; *so don't count delivery if it is mentioned;
+      hosp=hosp+1;
+        dayhosp=dayhosp+hday(i);
+     end;
+     if reasn(i) in (2, 3, 4, 5, 7, 8, 9) or reasn2(i) in (2, 3, 4, 5, 7, 8, 9)
+     or reasn3(i) in (2, 3, 4, 5, 7, 8, 9) then do; *the ones we do med records for;
+        hospresp=hospresp+1;
+      dayresp=dayresp+hday(i);
+     end;
+     if reasn(i) in (1, 2, 3, 4) or reasn2(i) in (1, 2, 3, 4) 
+     or reasn3(i) in (1, 2, 3, 4) then do; *lower resp infection;
+        hosplri=hosplri+1;
+      daylri=daylri+hday(i);
+     end;
+     if reasn(i) in (5, 8) or reasn2(i) in (5, 8) or reasn3(i) in (5, 8) then do; *wheezing or asthma;
+        hospwheeze=hospwheeze+1;
+      daywheeze=daywheeze+hday(i);
+     end;
+      if icu(i)=1 then do;
+      inicu=inicu+1;
+      dayicu=dayicu+iday(i);
+      end;
+    end;
+
+     if hosp_overnight < 0 THEN DO;
+       hosp=.; dayhosp=.; hospresp=.; dayresp=.; hosplri=.; daylri=.; hospwheeze=.; daywheeze=.; inicu=.; dayicu=.; 
+                        END;
+
+   *** CALCULATE MEDICAL VISITS ***;
+
+   tot_docvis=0; tot_er=0; tot_unsc=0; tot_sick=0; tot_fup=0; tot_well=0;
+     tot_resp=0; tot_lri=0; tot_wheeze=0;
+
+     array sched  (8) vis1_sched vis2_sched vis3_sched vis4_sched 
+                  vis5_sched vis6_sched vis7_sched vis8_sched ;
+     array type   (8) vis1_childsick vis2_childsick vis3_childsick vis4_childsick 
+                 vis5_childsick vis6_childsick vis7_childsick vis8_childsick ;
+     array reas  (8)  vis1_diag1 vis2_diag1 vis3_diag1 vis4_diag1 
+                 vis5_diag1 vis6_diag1 vis7_diag1 vis8_diag1 ;
+   array reas2 (8)  vis1_diag2 vis2_diag2 vis3_diag2 vis4_diag2 
+                 vis5_diag2 vis6_diag2 vis7_diag2 vis8_diag2 ;
+   array reas3 (8)  vis1_diag3 vis2_diag3 vis3_diag3 vis4_diag3 
+                 vis5_diag3 vis6_diag3 vis7_diag3 vis8_diag3 ;
+
+     do i=1 to 8;
+     if type(i) > 0 then tot_docvis+1;
+    if sched(i) in (2, 3) then tot_er+1;
+    if sched(i) in (2, 3, 4) then tot_unsc+1;
+
+    if type(i)=1 then tot_sick+1;
+    if type(i)=2 then tot_fup+1;
+    if type(i)=3 then tot_well+1;
+    if reas(i) in (1, 2, 3, 4, 5, 9, 10) or reas2(i) in (1, 2, 3, 4, 5, 9, 10) 
+    or reas3(i) in (1, 2, 3, 4, 5, 9, 10) then tot_resp+1;
+    if reas(i) in (1, 2, 3, 4) or reas2(i) in (1, 2, 3, 4) or reas3(i) in (1, 2, 3, 4) then tot_lri+1;
+    if reas(i) in (5, 9) or reas2(i) in (5, 9) or reas3(i) in (5, 9) then tot_wheeze+1;  *wheezing or asthma;
+   end;
+
+   if docvis < 0 then do;
+     tot_docvis=.; tot_er=.; tot_unsc=.;
+     tot_sick=.; tot_fup=.; tot_well=.; tot_resp=.; tot_lri=.; tot_wheeze=.;
+                   end;
+
+   **skip patterns for wheeze and eczema;
+   if wheeze=0  then wheeze_numillness=0;
+   if itchyrash=0 then do;
+      ecz_diagnose=0; hives_diagnose=0; cradlecap_diagnose=0; otherrash=0; otherrash_meds=0; rash_homerems=0; 
+                   end;
+   oth_eczema=(indexw(otherrash_specify, 'eczema'));
+   if oth_eczema>0 then oth_eczema=1; 
+   if ecz_diagnose=1 or oth_eczema=1 then eczema=1;
+   else if ecz_diagnose=0 and oth_eczema=0 then eczema=0;
+
+   label    hosp      ='Number of hospitalizations'
+         dayhosp    ='Number of days in hospital'
+         hospresp   ='Number of hosp for resp illness'
+         dayresp    ='Number of days hosp for resp illness'
+         hosplri      ='Number of hosp for LRI'
+         daylri     ='Number of days hosp for LRI'
+         hospwheeze   ='Number of hosp for wheezing illness'
+         daywheeze    ='Number of days hosp for wheezing illness'
+         inicu       ='Number of times in icu'
+         dayicu      ='Number of days in icu'
+         tot_docvis   ='Number of doctor visits'
+         tot_er       ='Number of ED visits'
+         tot_unsc   ='Number of unshceduled visits'
+         tot_sick   ='Number of sick visits'
+         tot_fup    ='Number of follow-up visits'
+         tot_well   ='Number of well-baby visits'
+         tot_resp   ='Number of resp illness visits'
+         tot_lri      ='Number of LRI visits'
+         tot_wheeze   ='Number of visits for wheezing'
+      /*AL label updates */
+          eczema      ='Eczema diagnosis'
+         oth_eczema   ='Other Eczema diagnosis' ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+   ***Manually fix avisit because it truncates ;
+   if event="102-Month Call" then avisit=102 ;
+   if event="105-Month Call" then avisit=105 ;
+   if event="108-Month Clinic Visit" then avisit=108 ;
+   if event="111-Month Call" then avisit=111 ;
+   if event="114-Month Call" then avisit=114 ;
+   if event="117-Month Call" then avisit=117 ;
+   if event in ("120-Month Call","120-Month Clinic Visit") then avisit=120 ;
+
+   drop RAS3_q12_4 -- RAS3_q17_2b i ;
+
+run ;
+
+***Check for duplicates at each visit  - none as of 5/30/2017 ;
+proc sort data=ras_all out=clean dupout=dups nodupkey ; by studyid avisit  ; run ;
+
+proc freq data=ras_all ;
+   tables avisit ; 
+run ;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell72;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,
+             87,90,93,96,99,102,105,108,111,114,117,120;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (87, 90, 93, 96) then year=8;
+  if avisit in (99, 102, 105, 108) then year=9;
+  if avisit in (111, 114, 117, 120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=ras_all     ; by studyid avisit; run ;
+proc sort data=shell72     ; by studyid avisit; run ;
+
+/*data temp;
+ merge shell72 ras_all(in=b) ;
+ by studyid avisit ;
+ if b=1 then symptoms = 1 ; else symptoms = 0 ;
+
+ label symptoms= 'Symptoms at visit';
+run; 
+proc freq data=temp ;
+   tables avisit ; 
+run ;
+*/
+
+*End temporary dataset;
+
+
+data derive.symptoms;
+ merge shell72 ras_all(in=b) derive.respondent;
+ by studyid avisit ;
+ if b=1 then symptoms = 1 ; else symptoms = 0 ;
+
+ label symptoms= 'Symptoms at visit';
+ drop api;
+run;
+
+proc freq data=derive.symptoms; table symptoms; run;
+
+*** 3. Codebook ****************************************************************;
+
+/*AL: Updated codebooks reference*/
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.symptoms
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+proc freq data=master.ras ;   tables  aVisit; run ;
+proc freq data=master.ras2 ;   tables  aVisit; run ;
+proc freq data=master.ras3 ;   tables  aVisit; run ;
+
+proc freq data=derive.symptoms ;   tables  aVisit; run ;
+
+
+ods select Position;
+proc contents data=derive.symptoms position; run;
+run;
+ods select default;

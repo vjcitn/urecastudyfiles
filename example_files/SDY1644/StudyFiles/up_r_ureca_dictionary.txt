@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	477	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""UP"", ""UP"")"
+3	4	evid	evid	dbl	numeric	double	1326	0	c(30751, 63231)
+4	5	event	event	chr	character	character	4	0	"c(""120-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVst	Visit	chr	character	character	5	0	"c("".x"", ""96"")"
+8	9	UP_q1	NicAlert test done	dbl	numeric	double	3	155	c(0, 1)
+9	10	UP_q1a	NicAlert test result	dbl	numeric	double	8	176	c(0, 6)
+10	11	UP_q2a	Time urine collected	time	"c(""hms"", ""difftime"")"	double	328	177	c(3000, 85980)
+11	12	aFormDY	Completion Day	dbl	numeric	double	416	155	c(2413, 3842)
+12	13	UP_q2DY	Day urine collected	dbl	numeric	double	414	174	c(2413, 3842)

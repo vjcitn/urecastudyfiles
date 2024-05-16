@@ -1,0 +1,462 @@
+Accession	group	form	evid	event	version	status	aVst	TSB_q1	TSB_q2	aFormDY
+SUB230865	Atopic	TSB	52096	108-Month Clinic Visit	1.1	complete	108	2	1	3339
+SUB230865	Atopic	TSB	52100	120-Month Clinic Visit	1.2	complete	120	2	2	3694
+SUB230866	Atopic	TSB	52891	120-Month Clinic Visit	1.2	complete	120	2	2	3689
+SUB230866	Atopic	TSB	52887	108-Month Clinic Visit	1.1	complete	108	2	2	3332
+SUB230868	Atopic	TSB	54405	120-Month Clinic Visit	1.2	complete	120	3	2	3696
+SUB230868	Atopic	TSB	54401	108-Month Clinic Visit	1.1	missing	.x			
+SUB230869	Atopic	TSB	52113	120-Month Clinic Visit	1.2	complete	120	2	2	3694
+SUB230869	Atopic	TSB	52109	108-Month Clinic Visit	1.1	complete	108	1	1	3339
+SUB230870	Atopic	TSB	53241	108-Month Clinic Visit	1.1	complete	108	2	2	3262
+SUB230870	Atopic	TSB	53245	120-Month Clinic Visit	1.2	complete	120	2	2	3654
+SUB230874	Atopic	TSB	53508	120-Month Clinic Visit	1.2	complete	120	2	1	3692
+SUB230874	Atopic	TSB	53504	108-Month Clinic Visit	1.1	complete	108	1	1	3260
+SUB230883	Atopic	TSB	59788	108-Month Clinic Visit	1.2	complete	108	1	1	3348
+SUB230883	Atopic	TSB	59792	120-Month Clinic Visit	1.2	complete	120	1	1	3726
+SUB230884	Atopic	TSB	54285	108-Month Clinic Visit	1.2	complete	108	2	2	3323
+SUB230884	Atopic	TSB	54289	120-Month Clinic Visit	1.2	complete	120	1	1	3638
+SUB230888	Atopic	TSB	51974	120-Month Clinic Visit	1.2	complete	120	4	2	3693
+SUB230888	Atopic	TSB	51970	108-Month Clinic Visit	1.2	complete	108	2	2	3317
+SUB230889	Atopic	TSB	60533	108-Month Clinic Visit	1.2	complete	108	2	1	3272
+SUB230889	Atopic	TSB	60537	120-Month Clinic Visit	1.2	complete	120	2	2	3701
+SUB230892	Atopic	TSB	52267	108-Month Clinic Visit	1.2	complete	108	2	1	3292
+SUB230894	Atopic	TSB	57492	120-Month Clinic Visit	1.2	complete	120	2	1	3701
+SUB230894	Atopic	TSB	57488	108-Month Clinic Visit	1.2	complete	108	3	1	3363
+SUB230897	Atopic	TSB	53254	108-Month Clinic Visit	1.2	complete	108	2	3	3356
+SUB230897	Atopic	TSB	53258	120-Month Clinic Visit	1.2	complete	120	2	1	3710
+SUB230898	Atopic	TSB	57930	120-Month Clinic Visit	1.2	missing	.x			
+SUB230898	Atopic	TSB	57926	108-Month Clinic Visit	1.2	complete	108	2	2	3370
+SUB230901	Atopic	TSB	53191	120-Month Clinic Visit	1.2	complete	120	2	2	3698
+SUB230901	Atopic	TSB	53187	108-Month Clinic Visit	1.2	complete	108	3	1	3279
+SUB230904	Atopic	TSB	53613	108-Month Clinic Visit	1.2	complete	108	2	5	3360
+SUB230904	Atopic	TSB	53617	120-Month Clinic Visit	1.2	complete	120	1	1	3782
+SUB230905	Atopic	TSB	58253	120-Month Clinic Visit	1.2	complete	120	2	1	3703
+SUB230905	Atopic	TSB	58249	108-Month Clinic Visit	1.2	complete	108	2	1	3370
+SUB230906	Atopic	TSB	56449	120-Month Clinic Visit	1.2	complete	120	3	1	3832
+SUB230906	Atopic	TSB	56445	108-Month Clinic Visit	1.2	complete	108	1	2	3319
+SUB230907	Atopic	TSB	61258	108-Month Clinic Visit	1.2	missing	.x			
+SUB230907	Atopic	TSB	61262	120-Month Clinic Visit	1.2	complete	120	4	1	3830
+SUB230908	Atopic	TSB	53674	120-Month Clinic Visit	1.2	complete	120	2	2	3828
+SUB230908	Atopic	TSB	53670	108-Month Clinic Visit	1.2	complete	108	1	1	3324
+SUB230909	Atopic	TSB	54192	120-Month Clinic Visit	1.2	complete	120	1	2	3735
+SUB230909	Atopic	TSB	54188	108-Month Clinic Visit	1.2	complete	108	1	1	3346
+SUB230916	Atopic	TSB	51984	108-Month Clinic Visit	1.2	complete	108	3	4	3288
+SUB230916	Atopic	TSB	51988	120-Month Clinic Visit	1.2	complete	120	4	5	3699
+SUB230919	Atopic	TSB	54656	108-Month Clinic Visit	1.2	complete	108	2	1	3343
+SUB230919	Atopic	TSB	54660	120-Month Clinic Visit	1.2	complete	120	2	1	3800
+SUB230920	Atopic	TSB	54521	108-Month Clinic Visit	1.2	complete	108	2	1	3306
+SUB230920	Atopic	TSB	54525	120-Month Clinic Visit	1.2	complete	120	2	2	3693
+SUB230921	Atopic	TSB	54458	108-Month Clinic Visit	1.2	complete	108	1	1	3269
+SUB230921	Atopic	TSB	54462	120-Month Clinic Visit	1.2	complete	120	2	2	3651
+SUB230924	Atopic	TSB	54582	120-Month Clinic Visit	1.2	complete	120	3	1	3712
+SUB230924	Atopic	TSB	54578	108-Month Clinic Visit	1.2	complete	108	1	1	3358
+SUB230925	Atopic	TSB	55022	120-Month Clinic Visit	1.2	missing	.x			
+SUB230925	Atopic	TSB	55018	108-Month Clinic Visit	1.2	complete	108	3	3	3351
+SUB230929	Atopic	TSB	55254	108-Month Clinic Visit	1.2	complete	108	2	2	3277
+SUB230929	Atopic	TSB	55258	120-Month Clinic Visit	1.2	complete	120	1	1	3667
+SUB230935	Atopic	TSB	58456	108-Month Clinic Visit	1.2	complete	108	1	2	3369
+SUB230935	Atopic	TSB	58460	120-Month Clinic Visit	1.2	missing	.x			
+SUB230936	Atopic	TSB	55245	120-Month Clinic Visit	1.2	missing	.x			
+SUB230936	Atopic	TSB	55241	108-Month Clinic Visit	1.2	complete	108	2	2	3367
+SUB230939	Atopic	TSB	59740	120-Month Clinic Visit	1.2	complete	120	2	4	3702
+SUB230939	Atopic	TSB	59736	108-Month Clinic Visit	1.2	complete	108	4	5	3317
+SUB230941	Atopic	TSB	55755	108-Month Clinic Visit	1.2	complete	108	3	1	3325
+SUB230941	Atopic	TSB	55759	120-Month Clinic Visit	1.2	complete	120	4	2	3696
+SUB230943	Atopic	TSB	55277	108-Month Clinic Visit	1.2	complete	108	2	3	3328
+SUB230943	Atopic	TSB	55281	120-Month Clinic Visit	1.2	complete	120	2	3	3701
+SUB230945	Atopic	TSB	56384	120-Month Clinic Visit	1.2	complete	120	2	2	3723
+SUB230945	Atopic	TSB	56380	108-Month Clinic Visit	1.2	complete	108	4	2	3370
+SUB230946	Atopic	TSB	56779	108-Month Clinic Visit	1.2	complete	108	2	1	3333
+SUB230946	Atopic	TSB	56783	120-Month Clinic Visit	1.2	complete	120	1	1	3727
+SUB230948	Atopic	TSB	56830	120-Month Clinic Visit	1.2	complete	120	2	3	3698
+SUB230948	Atopic	TSB	56826	108-Month Clinic Visit	1.2	complete	108	2	3	3341
+SUB230951	Atopic	TSB	58690	120-Month Clinic Visit	1.2	complete	120	2	1	3630
+SUB230951	Atopic	TSB	58686	108-Month Clinic Visit	1.2	complete	108	2	2	3323
+SUB230952	Atopic	TSB	58379	108-Month Clinic Visit	1.2	complete	108	2	1	3335
+SUB230952	Atopic	TSB	58383	120-Month Clinic Visit	1.2	complete	120	3	1	3719
+SUB230953	Atopic	TSB	57078	108-Month Clinic Visit	1.2	complete	108	3	3	3304
+SUB230953	Atopic	TSB	57082	120-Month Clinic Visit	1.2	complete	120	3	3	3717
+SUB230962	Atopic	TSB	57532	108-Month Clinic Visit	1.2	missing	.x			
+SUB230962	Atopic	TSB	57536	120-Month Clinic Visit	1.2	missing	.x			
+SUB230964	Atopic	TSB	57181	108-Month Clinic Visit	1.2	complete	108	2	1	3370
+SUB230964	Atopic	TSB	57185	120-Month Clinic Visit	1.2	complete	120	3	2	3710
+SUB230965	Atopic	TSB	57172	120-Month Clinic Visit	1.2	complete	120	2	1	3710
+SUB230965	Atopic	TSB	57168	108-Month Clinic Visit	1.2	complete	108	1	1	3370
+SUB230966	Atopic	TSB	59053	108-Month Clinic Visit	1.2	complete	108	1	1	3366
+SUB230966	Atopic	TSB	59057	120-Month Clinic Visit	1.2	complete	120	2	1	3772
+SUB230967	Atopic	TSB	57784	120-Month Clinic Visit	1.2	complete	120	3	5	3736
+SUB230967	Atopic	TSB	57780	108-Month Clinic Visit	1.2	complete	108	3	1	3349
+SUB230968	Atopic	TSB	52524	108-Month Clinic Visit	1.2	missing	.x			
+SUB230968	Atopic	TSB	52528	120-Month Clinic Visit	1.2	complete	120	2	2	3775
+SUB230975	Atopic	TSB	58266	120-Month Clinic Visit	1.2	missing	.x			
+SUB230975	Atopic	TSB	58262	108-Month Clinic Visit	1.2	missing	.x			
+SUB230976	Atopic	TSB	59889	108-Month Clinic Visit	1.2	complete	108	2	2	3358
+SUB230976	Atopic	TSB	59893	120-Month Clinic Visit	1.2	complete	120	1	1	3650
+SUB230977	Atopic	TSB	53405	108-Month Clinic Visit	1.2	complete	108	1	2	3294
+SUB230977	Atopic	TSB	53409	120-Month Clinic Visit	1.2	complete	120	2	2	3766
+SUB230978	Atopic	TSB	57990	108-Month Clinic Visit	1.2	complete	108	1	1	3311
+SUB230978	Atopic	TSB	57994	120-Month Clinic Visit	1.2	complete	120	1	2	3651
+SUB230979	Atopic	TSB	53078	108-Month Clinic Visit	1.2	complete	108	3	1	3337
+SUB230979	Atopic	TSB	53082	120-Month Clinic Visit	1.2	complete	120	2	1	3720
+SUB230982	Atopic	TSB	53359	120-Month Clinic Visit	1.2	complete	120	2	1	3735
+SUB230982	Atopic	TSB	53355	108-Month Clinic Visit	1.2	complete	108	3	1	3288
+SUB230983	Atopic	TSB	53152	108-Month Clinic Visit	1.2	complete	108	3	1	3350
+SUB230983	Atopic	TSB	53156	120-Month Clinic Visit	1.2	complete	120	2	2	3728
+SUB230985	Atopic	TSB	58639	120-Month Clinic Visit	1.2	complete	120	2	1	3816
+SUB230985	Atopic	TSB	58635	108-Month Clinic Visit	1.2	complete	108	4	1	3357
+SUB230987	Atopic	TSB	52949	108-Month Clinic Visit	1.2	complete	108	2	2	3371
+SUB230987	Atopic	TSB	52953	120-Month Clinic Visit	1.2	complete	120	1	1	3751
+SUB230990	Atopic	TSB	53947	108-Month Clinic Visit	1.2	complete	108	2	2	3350
+SUB230990	Atopic	TSB	53951	120-Month Clinic Visit	1.2	complete	120	2	1	3709
+SUB230991	Atopic	TSB	53870	108-Month Clinic Visit	1.2	complete	108	2	1	3367
+SUB230991	Atopic	TSB	53874	120-Month Clinic Visit	1.2	complete	120	3	2	3698
+SUB230995	Atopic	TSB	54361	108-Month Clinic Visit	1.2	complete	108	3	2	3328
+SUB230995	Atopic	TSB	54365	120-Month Clinic Visit	1.2	complete	120	2	1	3896
+SUB230997	Atopic	TSB	54564	108-Month Clinic Visit	1.2	complete	108	3	3	3308
+SUB230997	Atopic	TSB	54568	120-Month Clinic Visit	1.2	complete	120	2	2	3726
+SUB230999	Non-atopic	TSB	59327	108-Month Clinic Visit	1.2	complete	108	1	2	3330
+SUB230999	Non-atopic	TSB	59331	120-Month Clinic Visit	1.2	complete	120	2	2	3842
+SUB231000	Atopic	TSB	58859	108-Month Clinic Visit	1.2	complete	108	2	2	3369
+SUB231000	Atopic	TSB	58863	120-Month Clinic Visit	1.2	complete	120	2	1	3789
+SUB231002	Atopic	TSB	59351	120-Month Clinic Visit	1.2	complete	120	3	1	3779
+SUB231002	Atopic	TSB	59347	108-Month Clinic Visit	1.2	complete	108	4	1	3372
+SUB231010	Non-atopic	TSB	59699	108-Month Clinic Visit	1.2	complete	108	3	2	3365
+SUB231010	Non-atopic	TSB	59703	120-Month Clinic Visit	1.2	complete	120	4	4	3715
+SUB231019	Atopic	TSB	59975	120-Month Clinic Visit	1.2	missing	.x			
+SUB231019	Atopic	TSB	59971	108-Month Clinic Visit	1.2	complete	108	2	1	3397
+SUB231021	Atopic	TSB	61270	108-Month Clinic Visit	1.2	missing	.x			
+SUB231024	Non-atopic	TSB	58911	120-Month Clinic Visit	1.2	complete	120	2	1	3789
+SUB231024	Non-atopic	TSB	58907	108-Month Clinic Visit	1.2	complete	108	4	1	3317
+SUB231025	Atopic	TSB	56607	120-Month Clinic Visit	1.2	complete	120	3	5	3732
+SUB231025	Atopic	TSB	56603	108-Month Clinic Visit	1.2	complete	108	2	2	3377
+SUB231029	Atopic	TSB	52631	120-Month Clinic Visit	1.2	complete	120	2	3	3696
+SUB231029	Atopic	TSB	52627	108-Month Clinic Visit	1.1	complete	108	1	2	3334
+SUB231031	Atopic	TSB	55889	120-Month Clinic Visit	1.2	complete	120	2	2	3691
+SUB231031	Atopic	TSB	55885	108-Month Clinic Visit	1.1	complete	108	2	1	3320
+SUB231035	Atopic	TSB	52767	108-Month Clinic Visit	1.1	complete	108	1	1	3283
+SUB231035	Atopic	TSB	52771	120-Month Clinic Visit	1.2	complete	120	2	1	3654
+SUB231036	Atopic	TSB	53478	120-Month Clinic Visit	1.2	complete	120	2	2	3654
+SUB231036	Atopic	TSB	53474	108-Month Clinic Visit	1.1	complete	108	3	1	3289
+SUB231039	Atopic	TSB	53438	120-Month Clinic Visit	1.2	complete	120	3	3	3679
+SUB231039	Atopic	TSB	53434	108-Month Clinic Visit	1.1	complete	108	2	1	3260
+SUB231040	Atopic	TSB	55411	108-Month Clinic Visit	1.2	complete	108	1	1	3299
+SUB231040	Atopic	TSB	55415	120-Month Clinic Visit	1.2	complete	120	2	1	3708
+SUB231041	Atopic	TSB	55423	108-Month Clinic Visit	1.2	complete	108	1	1	3284
+SUB231041	Atopic	TSB	55427	120-Month Clinic Visit	1.2	complete	120	1	1	3697
+SUB231042	Atopic	TSB	54674	108-Month Clinic Visit	1.2	complete	108	2	2	3291
+SUB231042	Atopic	TSB	54678	120-Month Clinic Visit	1.2	complete	120	2	2	3658
+SUB231043	Atopic	TSB	55496	108-Month Clinic Visit	1.2	complete	108	3	1	3281
+SUB231043	Atopic	TSB	55500	120-Month Clinic Visit	1.2	complete	120	3	2	3701
+SUB231045	Atopic	TSB	56659	120-Month Clinic Visit	1.2	complete	120	2	3	3737
+SUB231045	Atopic	TSB	56655	108-Month Clinic Visit	1.2	complete	108	2	2	3261
+SUB231048	Atopic	TSB	55488	120-Month Clinic Visit	1.2	complete	120	2	2	3688
+SUB231048	Atopic	TSB	55484	108-Month Clinic Visit	1.2	complete	108	1	1	3286
+SUB231050	Atopic	TSB	53374	120-Month Clinic Visit	1.2	complete	120	2	2	3666
+SUB231050	Atopic	TSB	53370	108-Month Clinic Visit	1.2	complete	108	2	1	3274
+SUB231051	Atopic	TSB	52940	120-Month Clinic Visit	1.2	complete	120	3	3	3686
+SUB231051	Atopic	TSB	52936	108-Month Clinic Visit	1.2	complete	108	2	2	3273
+SUB231055	Atopic	TSB	54644	108-Month Clinic Visit	1.2	complete	108	3	3	3270
+SUB231055	Atopic	TSB	54648	120-Month Clinic Visit	1.2	missing	.x			
+SUB231060	Atopic	TSB	58190	108-Month Clinic Visit	1.2	complete	108	2	1	3263
+SUB231060	Atopic	TSB	58194	120-Month Clinic Visit	1.2	complete	120	1	1	3674
+SUB231063	Atopic	TSB	57363	108-Month Clinic Visit	1.2	complete	108	1	1	3260
+SUB231063	Atopic	TSB	57367	120-Month Clinic Visit	1.2	complete	120	2	2	3703
+SUB231065	Atopic	TSB	56105	108-Month Clinic Visit	1.2	complete	108	2	1	3318
+SUB231065	Atopic	TSB	56109	120-Month Clinic Visit	1.2	complete	120	3	2	3665
+SUB231071	Atopic	TSB	57804	120-Month Clinic Visit	1.2	complete	120	1	1	3723
+SUB231071	Atopic	TSB	57800	108-Month Clinic Visit	1.2	complete	108	1	1	3267
+SUB231073	Atopic	TSB	56254	120-Month Clinic Visit	1.2	complete	120	2	1	3682
+SUB231073	Atopic	TSB	56250	108-Month Clinic Visit	1.2	complete	108	1	1	3269
+SUB231074	Atopic	TSB	58709	120-Month Clinic Visit	1.2	missing	.x			
+SUB231074	Atopic	TSB	58705	108-Month Clinic Visit	1.2	complete	108	2	1	3436
+SUB231075	Atopic	TSB	57389	120-Month Clinic Visit	1.2	missing	.x			
+SUB231075	Atopic	TSB	57385	108-Month Clinic Visit	1.2	complete	108	2	2	3313
+SUB231076	Atopic	TSB	56578	108-Month Clinic Visit	1.2	complete	108	2	2	3365
+SUB231076	Atopic	TSB	56582	120-Month Clinic Visit	1.2	complete	120	2	2	3680
+SUB231078	Atopic	TSB	57243	108-Month Clinic Visit	1.2	complete	108	2	1	3304
+SUB231078	Atopic	TSB	57247	120-Month Clinic Visit	1.2	complete	120	3	1	3660
+SUB231079	Atopic	TSB	56814	120-Month Clinic Visit	1.2	complete	120	1	1	3677
+SUB231079	Atopic	TSB	56810	108-Month Clinic Visit	1.2	complete	108	2	1	3280
+SUB231081	Atopic	TSB	57510	120-Month Clinic Visit	1.2	missing	.x			
+SUB231081	Atopic	TSB	57506	108-Month Clinic Visit	1.2	missing	.x			
+SUB231084	Atopic	TSB	57697	120-Month Clinic Visit	1.2	complete	120	2	2	3666
+SUB231084	Atopic	TSB	57693	108-Month Clinic Visit	1.2	complete	108	1	1	3295
+SUB231086	Atopic	TSB	58081	120-Month Clinic Visit	1.2	complete	120	2	1	3657
+SUB231086	Atopic	TSB	58077	108-Month Clinic Visit	1.2	complete	108	2	1	3280
+SUB231087	Atopic	TSB	57669	108-Month Clinic Visit	1.2	complete	108	2	2	3282
+SUB231087	Atopic	TSB	57673	120-Month Clinic Visit	1.2	complete	120	2	2	3676
+SUB231091	Atopic	TSB	59157	120-Month Clinic Visit	1.2	complete	120	3	2	3686
+SUB231091	Atopic	TSB	59153	108-Month Clinic Visit	1.2	complete	108	2	1	3325
+SUB231094	Atopic	TSB	58175	108-Month Clinic Visit	1.2	complete	108	1	1	3277
+SUB231094	Atopic	TSB	58179	120-Month Clinic Visit	1.2	complete	120	1	1	3655
+SUB231095	Atopic	TSB	59132	108-Month Clinic Visit	1.2	complete	108	1	1	3296
+SUB231095	Atopic	TSB	59136	120-Month Clinic Visit	1.2	complete	120	2	1	3671
+SUB231097	Atopic	TSB	58719	108-Month Clinic Visit	1.2	missing	.x			
+SUB231097	Atopic	TSB	58723	120-Month Clinic Visit	1.2	missing	.x			
+SUB231098	Atopic	TSB	58476	120-Month Clinic Visit	1.2	complete	120	2	1	3648
+SUB231098	Atopic	TSB	58471	108-Month Clinic Visit	1.2	complete	108	2	1	3282
+SUB231101	Atopic	TSB	52639	108-Month Clinic Visit	1.2	complete	108	2	2	3459
+SUB231101	Atopic	TSB	52643	120-Month Clinic Visit	1.2	complete	120	3	1	3730
+SUB231102	Atopic	TSB	57607	108-Month Clinic Visit	1.2	complete	108	3	3	3278
+SUB231102	Atopic	TSB	57611	120-Month Clinic Visit	1.2	complete	120	2	3	3720
+SUB231107	Atopic	TSB	58658	108-Month Clinic Visit	1.2	complete	108	1	1	3304
+SUB231107	Atopic	TSB	58662	120-Month Clinic Visit	1.2	complete	120	2	2	3668
+SUB231110	Atopic	TSB	52664	108-Month Clinic Visit	1.2	complete	108	2	1	3291
+SUB231110	Atopic	TSB	52668	120-Month Clinic Visit	1.2	complete	120	3	1	3676
+SUB231113	Atopic	TSB	59564	108-Month Clinic Visit	1.2	complete	108	2	1	3480
+SUB231113	Atopic	TSB	59568	120-Month Clinic Visit	1.2	complete	120	3	3	3769
+SUB231119	Atopic	TSB	62028	120-Month Clinic Visit	1.2	complete	120	2	2	3733
+SUB231119	Atopic	TSB	62024	108-Month Clinic Visit	1.2	complete	108	3	2	3363
+SUB231122	Atopic	TSB	53135	108-Month Clinic Visit	1.2	complete	108	1	1	3306
+SUB231122	Atopic	TSB	53139	120-Month Clinic Visit	1.2	complete	120	1	1	3704
+SUB231125	Atopic	TSB	52314	108-Month Clinic Visit	1.2	complete	108	2	2	3319
+SUB231125	Atopic	TSB	52318	120-Month Clinic Visit	1.2	complete	120	2	1	3628
+SUB231131	Atopic	TSB	52785	108-Month Clinic Visit	1.2	complete	108	2	2	3377
+SUB231131	Atopic	TSB	52789	120-Month Clinic Visit	1.2	complete	120	2	2	3679
+SUB231132	Atopic	TSB	55435	108-Month Clinic Visit	1.2	missing	.x			
+SUB231139	Atopic	TSB	59637	120-Month Clinic Visit	1.2	complete	120	2	1	3645
+SUB231139	Atopic	TSB	59633	108-Month Clinic Visit	1.2	complete	108	1	1	3274
+SUB231143	Non-atopic	TSB	54618	108-Month Clinic Visit	1.2	complete	108	2	2	3268
+SUB231143	Non-atopic	TSB	54622	120-Month Clinic Visit	1.2	complete	120	2	3	3623
+SUB231146	Atopic	TSB	55548	120-Month Clinic Visit	1.2	complete	120	2	2	3672
+SUB231146	Atopic	TSB	55544	108-Month Clinic Visit	1.2	complete	108	3	3	3366
+SUB231149	Atopic	TSB	55207	120-Month Clinic Visit	1.2	complete	120	1	1	3687
+SUB231149	Atopic	TSB	55203	108-Month Clinic Visit	1.2	complete	108	1	1	3302
+SUB231151	Non-atopic	TSB	56118	108-Month Clinic Visit	1.2	complete	108	1	1	3324
+SUB231151	Non-atopic	TSB	56122	120-Month Clinic Visit	1.2	complete	120	2	2	3694
+SUB231155	Atopic	TSB	60684	120-Month Clinic Visit	1.2	missing	.x			
+SUB231155	Atopic	TSB	60680	108-Month Clinic Visit	1.2	complete	108	2	1	3327
+SUB231158	Non-atopic	TSB	56238	108-Month Clinic Visit	1.2	complete	108	1	1	3352
+SUB231158	Non-atopic	TSB	56242	120-Month Clinic Visit	1.2	complete	120	2	1	3668
+SUB231161	Atopic	TSB	56667	108-Month Clinic Visit	1.2	complete	108	2	1	3355
+SUB231161	Atopic	TSB	56671	120-Month Clinic Visit	1.2	complete	120	2	1	3786
+SUB231163	Atopic	TSB	57230	108-Month Clinic Visit	1.2	missing	.x			
+SUB231163	Atopic	TSB	57234	120-Month Clinic Visit	1.2	missing	.x			
+SUB231164	Atopic	TSB	58536	108-Month Clinic Visit	1.2	complete	108	2	1	3443
+SUB231164	Atopic	TSB	58540	120-Month Clinic Visit	1.2	complete	120	1	1	3667
+SUB231166	Atopic	TSB	55963	108-Month Clinic Visit	1.2	complete	108	2	1	3284
+SUB231166	Atopic	TSB	55967	120-Month Clinic Visit	1.2	complete	120	2	2	3660
+SUB231178	Atopic	TSB	51500	108-Month Clinic Visit	1.1	complete	108	1	1	3284
+SUB231178	Atopic	TSB	51504	120-Month Clinic Visit	1.2	complete	120	1	1	3654
+SUB231180	Atopic	TSB	51901	108-Month Clinic Visit	1.2	complete	108	2	1	3355
+SUB231180	Atopic	TSB	51905	120-Month Clinic Visit	1.2	complete	120	2	2	3702
+SUB231182	Atopic	TSB	51883	108-Month Clinic Visit	1.1	complete	108	2	1	3260
+SUB231182	Atopic	TSB	51887	120-Month Clinic Visit	1.2	complete	120	2	2	3646
+SUB231183	Atopic	TSB	52503	120-Month Clinic Visit	1.2	complete	120	1	1	3675
+SUB231183	Atopic	TSB	52499	108-Month Clinic Visit	1.2	complete	108	2	1	3286
+SUB231185	Atopic	TSB	52346	120-Month Clinic Visit	1.2	complete	120	2	2	3654
+SUB231185	Atopic	TSB	52342	108-Month Clinic Visit	1.2	complete	108	1	1	3273
+SUB231186	Atopic	TSB	52546	120-Month Clinic Visit	1.2	complete	120	1	1	3624
+SUB231186	Atopic	TSB	52542	108-Month Clinic Visit	1.2	complete	108	2	2	3295
+SUB231187	Atopic	TSB	54299	108-Month Clinic Visit	1.2	complete	108	2	1	3258
+SUB231187	Atopic	TSB	54303	120-Month Clinic Visit	1.2	complete	120	3	1	3659
+SUB231188	Atopic	TSB	51796	120-Month Clinic Visit	1.2	complete	120	1	2	3624
+SUB231188	Atopic	TSB	51792	108-Month Clinic Visit	1.2	complete	108	2	1	3260
+SUB231189	Atopic	TSB	52374	108-Month Clinic Visit	1.2	complete	108	1	1	3295
+SUB231189	Atopic	TSB	52378	120-Month Clinic Visit	1.2	complete	120	3	3	3668
+SUB231190	Atopic	TSB	51591	120-Month Clinic Visit	1.2	complete	120	1	1	3640
+SUB231190	Atopic	TSB	51587	108-Month Clinic Visit	1.2	complete	108	1	1	3260
+SUB231191	Atopic	TSB	52254	108-Month Clinic Visit	1.2	complete	108	2	3	3263
+SUB231191	Atopic	TSB	52258	120-Month Clinic Visit	1.2	complete	120	2	3	3662
+SUB231192	Atopic	TSB	52722	108-Month Clinic Visit	1.2	complete	108	3	3	3295
+SUB231192	Atopic	TSB	52726	120-Month Clinic Visit	1.2	complete	120	2	1	3666
+SUB231198	Atopic	TSB	55571	120-Month Clinic Visit	1.2	complete	120	3	1	3684
+SUB231198	Atopic	TSB	55567	108-Month Clinic Visit	1.2	complete	108	3	3	3306
+SUB231199	Atopic	TSB	53228	108-Month Clinic Visit	1.2	complete	108	2	2	3271
+SUB231199	Atopic	TSB	53232	120-Month Clinic Visit	1.2	complete	120	2	2	3629
+SUB231202	Atopic	TSB	53975	108-Month Clinic Visit	1.2	complete	108	3	1	3264
+SUB231202	Atopic	TSB	53979	120-Month Clinic Visit	1.2	complete	120	2	2	3627
+SUB231203	Atopic	TSB	53785	108-Month Clinic Visit	1.2	complete	108	3	1	3259
+SUB231203	Atopic	TSB	53789	120-Month Clinic Visit	1.2	complete	120	2	2	3631
+SUB231207	Atopic	TSB	54719	120-Month Clinic Visit	1.2	complete	120	1	1	3626
+SUB231207	Atopic	TSB	54715	108-Month Clinic Visit	1.2	complete	108	1	1	3262
+SUB231208	Atopic	TSB	54179	120-Month Clinic Visit	1.2	complete	120	2	2	3652
+SUB231208	Atopic	TSB	54175	108-Month Clinic Visit	1.2	complete	108	1	1	3285
+SUB231213	Atopic	TSB	55584	120-Month Clinic Visit	1.2	complete	120	3	1	3633
+SUB231213	Atopic	TSB	55580	108-Month Clinic Visit	1.2	complete	108	2	1	3269
+SUB231214	Atopic	TSB	55324	120-Month Clinic Visit	1.2	complete	120	2	2	3681
+SUB231214	Atopic	TSB	55320	108-Month Clinic Visit	1.2	complete	108	1	2	3329
+SUB231221	Atopic	TSB	55861	120-Month Clinic Visit	1.2	complete	120	2	2	3634
+SUB231221	Atopic	TSB	55857	108-Month Clinic Visit	1.2	complete	108	2	2	3262
+SUB231223	Atopic	TSB	56706	108-Month Clinic Visit	1.2	complete	108	1	1	3271
+SUB231223	Atopic	TSB	56710	120-Month Clinic Visit	1.2	complete	120	2	2	3641
+SUB231225	Atopic	TSB	56540	108-Month Clinic Visit	1.2	complete	108	3	2	3259
+SUB231225	Atopic	TSB	56544	120-Month Clinic Visit	1.2	complete	120	3	1	3624
+SUB231226	Atopic	TSB	58158	120-Month Clinic Visit	1.2	complete	120	2	2	3626
+SUB231226	Atopic	TSB	58154	108-Month Clinic Visit	1.2	complete	108	1	3	3258
+SUB231230	Atopic	TSB	56561	120-Month Clinic Visit	1.2	complete	120	3	3	3627
+SUB231230	Atopic	TSB	56557	108-Month Clinic Visit	1.2	complete	108	2	2	3272
+SUB231233	Atopic	TSB	57194	108-Month Clinic Visit	1.2	complete	108	1	1	3259
+SUB231233	Atopic	TSB	57198	120-Month Clinic Visit	1.2	complete	120	2	2	3630
+SUB231237	Atopic	TSB	57127	108-Month Clinic Visit	1.2	complete	108	1	2	3261
+SUB231237	Atopic	TSB	57131	120-Month Clinic Visit	1.2	complete	120	2	2	3625
+SUB231241	Atopic	TSB	57960	108-Month Clinic Visit	1.2	complete	108	1	1	3283
+SUB231241	Atopic	TSB	57964	120-Month Clinic Visit	1.2	complete	120	1	1	3626
+SUB231242	Atopic	TSB	51693	120-Month Clinic Visit	1.2	complete	120	2	2	3633
+SUB231242	Atopic	TSB	51689	108-Month Clinic Visit	1.2	complete	108	2	2	3269
+SUB231246	Atopic	TSB	51667	108-Month Clinic Visit	1.2	complete	108	1	1	3264
+SUB231246	Atopic	TSB	51671	120-Month Clinic Visit	1.2	complete	120	2	1	3636
+SUB231247	Atopic	TSB	51736	108-Month Clinic Visit	1.2	missing	.x			
+SUB231247	Atopic	TSB	51740	120-Month Clinic Visit	1.2	missing	.x			
+SUB231248	Atopic	TSB	51960	120-Month Clinic Visit	1.2	complete	120	1	1	3673
+SUB231248	Atopic	TSB	51956	108-Month Clinic Visit	1.2	complete	108	3	2	3327
+SUB231249	Atopic	TSB	51944	120-Month Clinic Visit	1.2	complete	120	2	1	3625
+SUB231249	Atopic	TSB	51940	108-Month Clinic Visit	1.2	complete	108	2	2	3259
+SUB231251	Atopic	TSB	52023	108-Month Clinic Visit	1.2	missing	.x			
+SUB231251	Atopic	TSB	52027	120-Month Clinic Visit	1.2	missing	.x			
+SUB231257	Atopic	TSB	52224	108-Month Clinic Visit	1.2	complete	108	1	2	3262
+SUB231257	Atopic	TSB	52228	120-Month Clinic Visit	1.2	complete	120	2	2	3653
+SUB231258	Atopic	TSB	52422	108-Month Clinic Visit	1.2	complete	108	1	1	3261
+SUB231258	Atopic	TSB	52426	120-Month Clinic Visit	1.2	complete	120	2	1	3634
+SUB231265	Atopic	TSB	53630	120-Month Clinic Visit	1.2	complete	120	2	2	3625
+SUB231265	Atopic	TSB	53626	108-Month Clinic Visit	1.2	complete	108	2	1	3261
+SUB231266	Atopic	TSB	59906	108-Month Clinic Visit	1.2	complete	108	2	1	3315
+SUB231266	Atopic	TSB	59910	120-Month Clinic Visit	1.2	missing	.x			
+SUB231268	Atopic	TSB	53802	120-Month Clinic Visit	1.2	complete	120	1	2	3623
+SUB231268	Atopic	TSB	53798	108-Month Clinic Visit	1.2	complete	108	3	2	3265
+SUB231271	Atopic	TSB	53844	108-Month Clinic Visit	1.2	complete	108	1	2	3268
+SUB231271	Atopic	TSB	53848	120-Month Clinic Visit	1.2	complete	120	2	2	3652
+SUB231273	Atopic	TSB	54084	108-Month Clinic Visit	1.2	complete	108	1	2	3263
+SUB231273	Atopic	TSB	54088	120-Month Clinic Visit	1.2	missing	.x			
+SUB231278	Non-atopic	TSB	54604	108-Month Clinic Visit	1.2	complete	108	1	2	3272
+SUB231278	Non-atopic	TSB	54608	120-Month Clinic Visit	1.2	complete	120	2	2	3592
+SUB231279	Atopic	TSB	54347	120-Month Clinic Visit	1.2	complete	120	1	1	3629
+SUB231279	Atopic	TSB	54343	108-Month Clinic Visit	1.2	complete	108	1	1	3262
+SUB231280	Non-atopic	TSB	54801	120-Month Clinic Visit	1.2	complete	120	3	4	3745
+SUB231280	Non-atopic	TSB	54797	108-Month Clinic Visit	1.2	complete	108	2	1	3282
+SUB231282	Atopic	TSB	61140	108-Month Clinic Visit	1.2	complete	108	2	1	3254
+SUB231282	Atopic	TSB	61144	120-Month Clinic Visit	1.2	complete	120	2	2	3691
+SUB231283	Atopic	TSB	56060	108-Month Clinic Visit	1.2	complete	108	1	1	3261
+SUB231283	Atopic	TSB	56064	120-Month Clinic Visit	1.2	complete	120	1	1	3645
+SUB231284	Atopic	TSB	55632	120-Month Clinic Visit	1.2	complete	120	3	1	3700
+SUB231284	Atopic	TSB	55628	108-Month Clinic Visit	1.2	complete	108	3	1	3271
+SUB231285	Non-atopic	TSB	55947	108-Month Clinic Visit	1.2	complete	108	2	2	3273
+SUB231285	Non-atopic	TSB	55951	120-Month Clinic Visit	1.2	complete	120	2	2	3668
+SUB231287	Non-atopic	TSB	55402	120-Month Clinic Visit	1.2	complete	120	1	1	3654
+SUB231287	Non-atopic	TSB	55398	108-Month Clinic Visit	1.2	complete	108	1	2	3259
+SUB231290	Atopic	TSB	56073	108-Month Clinic Visit	1.2	complete	108	2	1	3259
+SUB231290	Atopic	TSB	56077	120-Month Clinic Visit	1.2	complete	120	2	1	3637
+SUB231292	Atopic	TSB	55828	120-Month Clinic Visit	1.2	complete	120	1	1	3624
+SUB231292	Atopic	TSB	55824	108-Month Clinic Visit	1.2	complete	108	1	1	3260
+SUB231293	Atopic	TSB	53661	120-Month Clinic Visit	1.2	missing	.x			
+SUB231293	Atopic	TSB	53657	108-Month Clinic Visit	1.2	missing	.x			
+SUB231296	Atopic	TSB	52593	120-Month Clinic Visit	1.2	complete	120	3	3	3677
+SUB231296	Atopic	TSB	52589	108-Month Clinic Visit	1.1	complete	108	4	4	3299
+SUB231297	Atopic	TSB	53122	108-Month Clinic Visit	1.1	complete	108	1	2	3308
+SUB231297	Atopic	TSB	53126	120-Month Clinic Visit	1.2	complete	120	2	2	3701
+SUB231299	Atopic	TSB	54745	120-Month Clinic Visit	1.2	complete	120	1	2	3673
+SUB231300	Atopic	TSB	52859	108-Month Clinic Visit	1.1	complete	108	2	1	3276
+SUB231300	Atopic	TSB	52863	120-Month Clinic Visit	1.2	complete	120	1	1	3648
+SUB231304	Atopic	TSB	53108	108-Month Clinic Visit	1.2	complete	108	2	3	3279
+SUB231304	Atopic	TSB	53112	120-Month Clinic Visit	1.2	complete	120	2	1	3695
+SUB231307	Atopic	TSB	51607	108-Month Clinic Visit	1.2	complete	108	2	2	3303
+SUB231307	Atopic	TSB	51611	120-Month Clinic Visit	1.2	complete	120	1	1	3705
+SUB231308	Atopic	TSB	58963	120-Month Clinic Visit	1.2	complete	120	2	2	3693
+SUB231308	Atopic	TSB	58959	108-Month Clinic Visit	1.2	complete	108	1	1	3260
+SUB231310	Atopic	TSB	54491	120-Month Clinic Visit	1.2	complete	120	1	1	3705
+SUB231310	Atopic	TSB	54487	108-Month Clinic Visit	1.2	complete	108	1	1	3263
+SUB231314	Atopic	TSB	52145	120-Month Clinic Visit	1.2	complete	120	2	3	3629
+SUB231314	Atopic	TSB	52141	108-Month Clinic Visit	1.2	complete	108	2	2	3265
+SUB231320	Atopic	TSB	52742	120-Month Clinic Visit	1.2	complete	120	2	3	3669
+SUB231320	Atopic	TSB	52738	108-Month Clinic Visit	1.2	complete	108	4	4	3300
+SUB231324	Atopic	TSB	52828	108-Month Clinic Visit	1.2	complete	108	2	1	3261
+SUB231324	Atopic	TSB	52832	120-Month Clinic Visit	1.2	complete	120	2	3	3658
+SUB231325	Atopic	TSB	53214	120-Month Clinic Visit	1.2	complete	120	2	2	3666
+SUB231325	Atopic	TSB	53210	108-Month Clinic Visit	1.2	complete	108	3	2	3349
+SUB231326	Atopic	TSB	55135	120-Month Clinic Visit	1.2	complete	120	3	1	3668
+SUB231326	Atopic	TSB	55131	108-Month Clinic Visit	1.2	complete	108	4	3	3269
+SUB231328	Atopic	TSB	52451	120-Month Clinic Visit	1.2	complete	120	2	3	3704
+SUB231328	Atopic	TSB	52447	108-Month Clinic Visit	1.2	complete	108	2	2	3318
+SUB231329	Atopic	TSB	53026	120-Month Clinic Visit	1.2	complete	120	2	2	3720
+SUB231329	Atopic	TSB	53022	108-Month Clinic Visit	1.2	complete	108	4	2	3285
+SUB231330	Atopic	TSB	53771	108-Month Clinic Visit	1.2	complete	108	3	3	3266
+SUB231330	Atopic	TSB	53775	120-Month Clinic Visit	1.2	complete	120	3	3	3656
+SUB231332	Atopic	TSB	54023	108-Month Clinic Visit	1.2	missing	.x			
+SUB231336	Atopic	TSB	54216	108-Month Clinic Visit	1.2	complete	108	1	1	3295
+SUB231336	Atopic	TSB	54220	120-Month Clinic Visit	1.2	complete	120	3	1	3652
+SUB231338	Atopic	TSB	53063	108-Month Clinic Visit	1.2	complete	108	3	2	3263
+SUB231338	Atopic	TSB	53067	120-Month Clinic Visit	1.2	complete	120	3	3	3648
+SUB231339	Atopic	TSB	53720	108-Month Clinic Visit	1.2	complete	108	2	1	3265
+SUB231339	Atopic	TSB	53724	120-Month Clinic Visit	1.2	complete	120	3	1	3663
+SUB231341	Atopic	TSB	54414	108-Month Clinic Visit	1.2	complete	108	3	3	3263
+SUB231341	Atopic	TSB	54418	120-Month Clinic Visit	1.2	complete	120	4	4	3701
+SUB231342	Atopic	TSB	56018	108-Month Clinic Visit	1.2	complete	108	5	2	3304
+SUB231342	Atopic	TSB	56022	120-Month Clinic Visit	1.2	missing	.x			
+SUB231343	Atopic	TSB	54830	108-Month Clinic Visit	1.2	complete	108	1	1	3327
+SUB231343	Atopic	TSB	54834	120-Month Clinic Visit	1.2	complete	120	2	2	3652
+SUB231347	Atopic	TSB	55669	108-Month Clinic Visit	1.2	complete	108	1	1	3308
+SUB231347	Atopic	TSB	55673	120-Month Clinic Visit	1.2	complete	120	5	1	3820
+SUB231352	Atopic	TSB	55363	108-Month Clinic Visit	1.2	complete	108	3	3	3366
+SUB231356	Atopic	TSB	55595	108-Month Clinic Visit	1.2	complete	108	2	1	3259
+SUB231357	Atopic	TSB	56307	120-Month Clinic Visit	1.2	complete	120	5	2	3673
+SUB231357	Atopic	TSB	56303	108-Month Clinic Visit	1.2	complete	108	1	2	3267
+SUB231359	Atopic	TSB	55906	120-Month Clinic Visit	1.2	missing	.x			
+SUB231359	Atopic	TSB	55902	108-Month Clinic Visit	1.2	complete	108	2	1	3281
+SUB231360	Atopic	TSB	55796	108-Month Clinic Visit	1.2	complete	108	3	3	3268
+SUB231360	Atopic	TSB	55800	120-Month Clinic Visit	1.2	complete	120	4	4	3657
+SUB231363	Atopic	TSB	56171	108-Month Clinic Visit	1.2	complete	108	2	1	3289
+SUB231363	Atopic	TSB	56175	120-Month Clinic Visit	1.2	complete	120	2	2	3681
+SUB231373	Atopic	TSB	56184	108-Month Clinic Visit	1.2	complete	108	2	2	3308
+SUB231373	Atopic	TSB	56188	120-Month Clinic Visit	1.2	complete	120	2	2	3656
+SUB231383	Atopic	TSB	52073	108-Month Clinic Visit	1.2	complete	108	1	2	3374
+SUB231383	Atopic	TSB	52077	120-Month Clinic Visit	1.2	complete	120	3	3	3757
+SUB231387	Atopic	TSB	57334	120-Month Clinic Visit	1.2	complete	120	3	3	3626
+SUB231387	Atopic	TSB	57330	108-Month Clinic Visit	1.2	complete	108	2	2	3290
+SUB231391	Atopic	TSB	57855	120-Month Clinic Visit	1.2	complete	120	3	3	3761
+SUB231391	Atopic	TSB	57851	108-Month Clinic Visit	1.2	complete	108			3288
+SUB231392	Atopic	TSB	57725	120-Month Clinic Visit	1.2	complete	120	2	4	3669
+SUB231392	Atopic	TSB	57721	108-Month Clinic Visit	1.2	complete	108	2	3	3285
+SUB231394	Atopic	TSB	51536	108-Month Clinic Visit	1.2	complete	108	2	2	3378
+SUB231395	Atopic	TSB	58609	120-Month Clinic Visit	1.2	complete	120	3	2	3683
+SUB231395	Atopic	TSB	58605	108-Month Clinic Visit	1.2	complete	108	1	2	3282
+SUB231398	Atopic	TSB	58987	108-Month Clinic Visit	1.2	complete	108	2	3	3349
+SUB231398	Atopic	TSB	58991	120-Month Clinic Visit	1.2	complete	120	3	2	3752
+SUB231405	Atopic	TSB	51854	108-Month Clinic Visit	1.2	complete	108	2	3	3340
+SUB231409	Atopic	TSB	60177	108-Month Clinic Visit	1.2	missing	.x			
+SUB231409	Atopic	TSB	60181	120-Month Clinic Visit	1.2	complete	120	1	1	3727
+SUB231418	Atopic	TSB	53320	120-Month Clinic Visit	1.2	complete	120	1	1	3838
+SUB231418	Atopic	TSB	53316	108-Month Clinic Visit	1.2	complete	108	1	1	3318
+SUB231420	Atopic	TSB	54040	108-Month Clinic Visit	1.2	complete	108	2	1	3329
+SUB231420	Atopic	TSB	54044	120-Month Clinic Visit	1.2	complete	120	3	3	3699
+SUB231422	Atopic	TSB	58950	120-Month Clinic Visit	1.2	missing	.x			
+SUB231424	Atopic	TSB	56149	120-Month Clinic Visit	1.2	complete	120	4	3	3726
+SUB231424	Atopic	TSB	56145	108-Month Clinic Visit	1.2	missing	.x			
+SUB231425	Non-atopic	TSB	59513	120-Month Clinic Visit	1.2	missing	.x			
+SUB231425	Non-atopic	TSB	59509	108-Month Clinic Visit	1.2	missing	.x			
+SUB231427	Atopic	TSB	54858	120-Month Clinic Visit	1.2	complete	120	1	1	3830
+SUB231427	Atopic	TSB	54854	108-Month Clinic Visit	1.2	complete	108	1	1	3368
+SUB231429	Non-atopic	TSB	53883	108-Month Clinic Visit	1.2	complete	108	1	2	3323
+SUB231429	Non-atopic	TSB	53887	120-Month Clinic Visit	1.2	complete	120	2	3	3686
+SUB231433	Atopic	TSB	56348	108-Month Clinic Visit	1.2	complete	108	2	2	3375
+SUB231433	Atopic	TSB	56352	120-Month Clinic Visit	1.2	complete	120	2	2	3745
+SUB231434	Non-atopic	TSB	56719	108-Month Clinic Visit	1.2	complete	108	2	2	3366
+SUB231434	Non-atopic	TSB	56723	120-Month Clinic Visit	1.2	complete	120	2	2	3703
+SUB231436	Atopic	TSB	54691	120-Month Clinic Visit	1.2	complete	120	3	3	3770
+SUB231436	Atopic	TSB	54687	108-Month Clinic Visit	1.2	complete	108	2	4	3371
+SUB231439	Non-atopic	TSB	54955	120-Month Clinic Visit	1.2	complete	120	2	1	3728
+SUB231439	Non-atopic	TSB	54951	108-Month Clinic Visit	1.2	complete	108	1	1	3259
+SUB231441	Atopic	TSB	57042	120-Month Clinic Visit	1.2	complete	120	3	3	3717
+SUB231441	Atopic	TSB	57038	108-Month Clinic Visit	1.2	complete	108	2	2	3370
+SUB231442	Atopic	TSB	52475	120-Month Clinic Visit	1.2	complete	120	4	4	3729
+SUB231442	Atopic	TSB	52471	108-Month Clinic Visit	1.2	complete	108	4	4	3365
+SUB231444	Atopic	TSB	56885	108-Month Clinic Visit	1.2	complete	108	2	1	3302
+SUB231444	Atopic	TSB	56889	120-Month Clinic Visit	1.2	complete	120	2	1	3696
+SUB231448	Atopic	TSB	55076	108-Month Clinic Visit	1.2	complete	108	3	2	3329
+SUB231448	Atopic	TSB	55080	120-Month Clinic Visit	1.2	complete	120	4	3	3661
+SUB231450	Atopic	TSB	56033	108-Month Clinic Visit	1.2	complete	108	3	3	3303
+SUB231450	Atopic	TSB	56037	120-Month Clinic Visit	1.2	complete	120	1	1	3681
+SUB231451	Non-atopic	TSB	61108	120-Month Clinic Visit	1.2	complete	120	1	2	3721
+SUB231451	Non-atopic	TSB	61104	108-Month Clinic Visit	1.2	complete	108	1	2	3334
+SUB231455	Non-atopic	TSB	57154	120-Month Clinic Visit	1.2	complete	120	2	2	3704
+SUB231455	Non-atopic	TSB	57150	108-Month Clinic Visit	1.2	complete	108	1	1	3283
+SUB231456	Non-atopic	TSB	57273	108-Month Clinic Visit	1.2	missing	.x			
+SUB231460	Non-atopic	TSB	57875	120-Month Clinic Visit	1.2	complete	120	2	2	3697
+SUB231460	Non-atopic	TSB	57871	108-Month Clinic Visit	1.2	complete	108	2	2	3326
+SUB231462	Non-atopic	TSB	61415	120-Month Clinic Visit	1.2	complete	120	3	3	3698
+SUB231462	Non-atopic	TSB	61411	108-Month Clinic Visit	1.2	missing	.x			
+SUB231466	Atopic	TSB	58237	120-Month Clinic Visit	1.2	complete	120	1	1	3669
+SUB231466	Atopic	TSB	58233	108-Month Clinic Visit	1.2	complete	108	4	1	3320
+SUB231468	Atopic	TSB	52463	120-Month Clinic Visit	1.2	complete	120	3	3	3763
+SUB231468	Atopic	TSB	52459	108-Month Clinic Visit	1.2	missing	.x			
+SUB231469	Non-atopic	TSB	58212	108-Month Clinic Visit	1.2	complete	108	2	2	3303
+SUB231469	Non-atopic	TSB	58216	120-Month Clinic Visit	1.2	complete	120	2	2	3644

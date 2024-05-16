@@ -1,0 +1,1511 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2017 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   S Lussier           06/21/13         rewrite program
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=spiro_anly,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.ioss out=ioss (where=(status notin ('missing')) ); by studyid acompletiondate; run; *data from form 66;
+
+proc sort data=master.isr out=isr (where=(status notin ('missing'))); by studyid acompletiondate; run; *data from form 166;
+
+***Check on events - 3 allergy skin testing visits to be fixed below  ;
+proc freq data=ioss ;
+   tables event ;
+run ;
+
+***Rename all SPIRO data variables ;
+data spiro ;
+ set ioss;
+keep studyid recruitid evid event version status aStudyID
+      api all aCompletionDate avisit avisit_n IOSS_q1-IOSS_q5 IOSS_q5_1
+      IOSS_q17 IOSS_q18a ioss_q18b IOSS_q18b_1
+     IOSS_q6 IOSS_q7 IOSS_q18c IOSS_q18d IOSS_q19 IOSS_q19a IOSS_q19a1 IOSS_q19a_1
+      IOSS_q19b1-IOSS_q19b6 IOSS_q19b6a IOSS_q20; *keep only spiro variables;
+ rename IOSS_q1=inh_cortico_24h 
+       IOSS_q2=broncho_24h          
+      IOSS_q3=montelu_24h                   
+      IOSS_q4=albut_8h              
+      IOSS_q5=theop_24h           
+      IOSS_q5_1=antichol_24h        
+      IOSS_q6=resp_infec_2wk
+      IOSS_q7=child_height 
+
+      IOSS_q17=spiro_done 
+      IOSS_q18a=spiro_FVC
+      IOSS_q18b=spiro_FEV1
+      IOSS_q18b_1=spiro_FEVp5
+      IOSS_q18c=spiro_FEVp75
+      IOSS_q18d=spiro_FEF2575
+      IOSS_q19=spiro_technique_accept
+
+      IOSS_q19a=spiro_technique
+      IOSS_q19a_1=spiro_ats
+      IOSS_q19b1=spiro_bad_inspir
+      IOSS_q19b2=spiro_bad_expir
+      IOSS_q19b3=spiro_bad_dur
+      IOSS_q19b4=spiro_cough 
+      IOSS_q19b5=spiro_refuse
+      IOSS_q19b6=spiro_other
+      IOSS_q19b6a=spiro_spec_other
+      IOSS_q20=spiro_comments     ;
+
+   ***Hard codes as of 6/21/2013 - fixing the "allergy skin testing" events - call them actual visits
+       (printed in last proc) ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+   ***Make avisit numeric ;
+   avisit_n=input(scan(event, 1, '-'),2.);
+
+
+run;
+
+/*REVERSIBILITY*/
+
+***Check on events - 1 allergy skin testing visit - fix below in datastep ;
+proc freq data=isr ;
+   tables event ;
+run ;
+
+***Rename all ISR SPIRO data variables ;
+data spiro_rev ;   
+   set isr ;
+   keep studyid recruitid evid event version status aStudyID
+      api  aCompletionDate avisit avisit_n ISR_q1_1_1 ISR_q1_1 ISR_q4a ISR_q4b
+         ISR_q4c ISR_q4d ISR_q4e ISR_q5 ISR_q5a ISR_q5a1 ISR_q5b1-ISR_q5b6
+         ISR_q5b6a;
+   rename aCompletionDate=aCompletionDate_post
+         ISR_q1_1_1=albut_4h_post
+         ISR_q1_1=broncho_yes_post
+         ISR_q4a=spiro_FVC_post 
+         ISR_q4b=spiro_FEV1_post
+         ISR_q4c=spiro_FEVp5_post
+         ISR_q4d=spiro_FEVp75_post
+         ISR_q4e=spiro_FEF2575_post
+         ISR_q5=spiro_technique_accept_post
+         ISR_q5a=spiro_technique_post
+         ISR_q5a1=spiro_spec_probs_post 
+         ISR_q5b1=spiro_bad_inspir_post
+         ISR_q5b2=spiro_bad_expir_post
+         ISR_q5b3=spiro_bad_dur_post
+         ISR_q5b4=spiro_cough_post 
+         ISR_q5b5=spiro_refuse_post
+         ISR_q5b6=spiro_other_post
+         ISR_q5b6a=spiro_spec_other_post
+          ;
+
+   ***Hardcodes based on above FREQ - fixing the "allergy skin testing" events - call them actual visits ;
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+   ***Make avisit numeric ;
+   avisit_n=input(scan(event, 1, '-'),2.);
+
+   ***Keep only those children who QUALIFIED for post-bronchodilator (q1_1 =1) OR the question is OBSOLETE (q1_1=.O, based 
+      on a previous version of the form) , otherwise there should be no data here ;
+   if ISR_q1_1 ne 0 ;
+run ;
+
+
+data misspost; 
+   set spiro_rev; 
+   if broncho_yes_post = 1 and missing(spiro_fev1_post) and missing(spiro_fvc_post); 
+run;
+
+
+***Check on events - should be no allergy skin tests in ISR2 : ok as of 9/4/2014 ;
+proc freq data=spiro_rev ;
+   tables event ;
+run ;
+/**/
+/**WHY IS THIS DUP HERE?;*/
+/*data test;*/
+/*   set spiro;*/
+*hardcodes here have been removed to protect patient confidentiality;
+/*run;*/
+
+proc sort data=spiro nodupkey dupout=dups_spiro; by studyid avisit_n ; run ; *1 dup 11/8/17 -- appears to have two acceptable visits for mo84 ?;
+proc sort data=spiro_rev nodupkey dupout=dups_spiro_rev  ; by studyid avisit_n ; run ;
+
+
+***Merge IOSS pre and ISR post data based on the visit ;
+data spiro_pre_post ;
+   format spiro_spec_probs $24.;
+   merge spiro spiro_rev ; 
+   by studyid avisit_n ; 
+   if aVisit = '.m' then delete; *remove 1 missing entry;
+run ;
+***Check on the events. Note that 81 and 84 are really the "same" visit - each child should have either 81 or 84 (sometimes
+   they got both if the site messed up), but we should make sure that when we merge pre and post, there is only 1 7year record for each person ;
+proc freq data=spiro_pre_post ;
+   tables event ;
+run ;
+
+
+/***********************************/
+/***********Add in 8+ Data ********/
+/***********************************/
+proc sort data=master.ioss3 out=ioss (where=(status notin ('missing'))); by studyid acompletiondate; run;
+proc sort data=master.isr3 out=isr (where=(status notin ('missing'))); by studyid acompletiondate; run;
+proc sort data=master.isr10_v2 out=isr10 (where=(status notin ('missing'))); by studyid acompletiondate; run;
+
+
+
+
+data spirob ;
+ set ioss;
+keep studyid recruitid evid event version status aStudyID
+      api  aCompletionDate avisit avisit_n
+   IOSS3_q1-IOSS3_q7 IOSS3_q17 IOSS3_q18a IOSS3_q18b IOSS3_q18d IOSS3_q19 IOSS3_q19
+      IOSS3_q19a_1 IOSS3_q19a IOSS3_q19a1 IOSS3_q19b1-IOSS3_q19b6
+      IOSS3_q19b6a IOSS3_q20;
+
+ rename IOSS3_q1=inh_cortico_24h 
+       IOSS3_q2=broncho_24h          /*ABH - Should be 24hr?*/
+      IOSS3_q3=montelu_24h            /*ABH - Should be 24hr?*/         
+      IOSS3_q4=albut_8h            /*ABH - Should be 8hr?*/   
+      IOSS3_q5=theop_24h           /*ABH - missing q5_1?*/
+      IOSS3_q5_1=anticholin_24h 
+      IOSS3_q6=resp_infec_2wk
+      IOSS3_q7=child_height 
+      
+      IOSS3_q17=spiro_done 
+      IOSS3_q18a=spiro_FVC
+      IOSS3_q18b=spiro_FEV1
+                                   /*KFJ - Q18b_1 and 18c (FEV0.5, FEV0.75) are no longer part of this form*/
+      IOSS3_q18d=spiro_FEF2575
+     
+      IOSS3_q19=spiro_technique_accept
+      IOSS3_q19a_1=spiro_notacc_spec 
+      IOSS3_q19a=spiro_technique
+      IOSS3_q19a1=spiro_spec_probs
+      IOSS3_q19b1=spiro_bad_inspir
+      IOSS3_q19b2=spiro_bad_expir
+      IOSS3_q19b3=spiro_bad_dur
+      IOSS3_q19b4=spiro_cough 
+      IOSS3_q19b5=spiro_refuse
+      IOSS3_q19b6=spiro_other
+      IOSS3_q19b6a=spiro_spec_other
+      IOSS3_q20=spiro_comments     ;
+
+   ***Make avisit numeric ;
+   avisit_n=input(scan(event, 1, '-'),3.);
+
+run;
+
+
+proc freq data=spirob; table event; run;
+
+proc means data=spirob; var spiro_fev1; run;
+
+
+
+***Rename all ISR data variables ;
+data spiro_revb ;   
+   set isr ;
+   keep studyid recruitid evid event version status aStudyID
+      api  aCompletionDate avisit avisit_n
+         ISR3_q1_1_1 ISR3_q1_1 ISR3_q1_2  ISR3_q1
+         ISR3_q2 ISR3_q3 ISR3_q3a ISR3_q4a ISR3_q4b ISR3_q4e ISR3_q5
+         ISR3_q5a_1 ISR3_q5a ISR3_q5a1 ISR3_q5b1 ISR3_q5b2 ISR3_q5b3
+         ISR3_q5b4 ISR3_q5b5 ISR3_q5b6 ISR3_q5b6a ISR3_q4_1
+   ;
+   rename aCompletionDate=aCompletionDate_post
+         ISR3_q1_1_1=albut_4h_post
+         ISR3_q1_1=broncho_yes_post
+         ISR3_q1_2=bronchospiro_yes_post
+         ISR3_q1=broncho_time
+         ISR3_q2=spiro_time_post
+         ISR3_q3=spiro_albutwindow
+         ISR3_q3a=spiro_notalbutwindow_reas
+         ISR3_q4a=spiro_FVC_post 
+         ISR3_q4b=spiro_FEV1_post
+                                             /*KFJ - Q4c, 4d have been removed from ISR form */
+         ISR3_q4e=spiro_FEF2575_post
+         ISR3_q5=spiro_technique_accept_post
+         ISR3_q5a_1=spiro_ATS_post
+         ISR3_q5a=spiro_technique_post
+         ISR3_q5a1=spiro_spec_probs_post 
+         ISR3_q5b1=spiro_bad_inspir_post
+         ISR3_q5b2=spiro_bad_expir_post
+         ISR3_q5b3=spiro_bad_dur_post
+         ISR3_q5b4=spiro_cough_post 
+         ISR3_q5b5=spiro_refuse_post
+         ISR3_q5b6=spiro_other_post
+         ISR3_q5b6a=spiro_spec_other_post
+
+         ISR3_q4_1=spiro_comments_post;
+
+
+   *Make avisit numeric ;
+   avisit_n=input(scan(event, 1, '-'),3.);
+
+   ***Keep only those children who QUALIFIED for post-bronchodilator (q1_1 =1) OR the question is OBSOLETE (q1_1=.O, based 
+      on a previous version of the form) , otherwise there should be no data here ;
+   if ISR3_q1_1 ne 0 ;
+
+   *remove met challenge;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run ;
+
+proc freq data=spiro_revb; table event; run;
+
+
+***Rename all ISR data variables  - from 10 year dataset ;
+data spiro_revb_10 ;   
+   set isr10 ;
+   keep studyid recruitid evid event version status aStudyID
+         api  aCompletionDate avisit avisit_n
+         ISR10_v2_q1_1_1 ISR10_v2_q1_1 ISR10_v2_q1_2 ISR10_v2_q1
+         ISR10_v2_q2 ISR10_v2_q3 ISR10_v2_q3a ISR10_v2_q4a ISR10_v2_q4b ISR10_v2_q4e
+         ISR10_v2_q5 ISR10_v2_q5a_1 ISR10_v2_q5a ISR10_v2_q5a1 ISR10_v2_q5b1 
+         ISR10_v2_q5b2 ISR10_v2_q5b3 ISR10_v2_q5b4 ISR10_v2_q5b5 ISR10_v2_q5b6
+         ISR10_v2_q5b6a ISR10_v2_q4_1;
+   rename aCompletionDate=aCompletionDate_post
+         ISR10_v2_q1_1_1=albut_4h_post
+         ISR10_v2_q1_1=broncho_yes_post
+         ISR10_v2_q1_2=bronchospiro_yes_post
+         ISR10_v2_q1=broncho_time
+         ISR10_v2_q2=spiro_time_post
+         ISR10_v2_q3=spiro_albutwindow
+         ISR10_v2_q3a=spiro_notalbutwindow_reas
+         ISR10_v2_q4a=spiro_FVC_post 
+         ISR10_v2_q4b=spiro_FEV1_post
+                                             /*KFJ - Q4c, 4d have been removed from ISR form */
+         ISR10_v2_q4e=spiro_FEF2575_post
+         ISR10_v2_q5=spiro_technique_accept_post
+         ISR10_v2_q5a_1=spiro_ATS_post
+         ISR10_v2_q5a=spiro_technique_post
+         ISR10_v2_q5a1=spiro_spec_probs_post 
+         ISR10_v2_q5b1=spiro_bad_inspir_post
+         ISR10_v2_q5b2=spiro_bad_expir_post
+         ISR10_v2_q5b3=spiro_bad_dur_post
+         ISR10_v2_q5b4=spiro_cough_post 
+         ISR10_v2_q5b5=spiro_refuse_post
+         ISR10_v2_q5b6=spiro_other_post
+         ISR10_v2_q5b6a=spiro_spec_other_post
+
+         ISR10_v2_q4_1=spiro_comments_post
+ ;
+
+   ***Make avisit numeric ;
+   avisit_n=input(scan(event, 1, '-'),3.);
+
+   ***Keep only those children who QUALIFIED for post-bronchodilator (q1_1 =1) OR the question is OBSOLETE (q1_1=.O, based 
+      on a previous version of the form) , otherwise there should be no data here ;
+   if ISR10_v2_q1_1 ne 0 ;
+run ;
+
+proc freq data=spiro_revb_10; table event; run;
+
+data spiro_revb2; 
+   set spiro_revb spiro_revb_10;
+run;
+
+proc freq data=spiro_revb2; table event; run;
+
+
+
+proc sort data=spirob ; by studyid avisit_n ; run ;
+proc sort data=spiro_revb2  ; by studyid avisit_n ; run ;
+
+***Merge spiro pre and ISR post data based on the visit ;
+data spiro_pre_postb ;
+   merge spirob spiro_revb2 ; 
+   by studyid avisit_n ; 
+run ;
+proc freq data=spiro_pre_postb; table event; run;
+
+*put all spiro data together;
+data spiro_final ;
+   set spiro_pre_post spiro_pre_postb ;
+run ;
+proc freq data=spiro_final; table event; run;
+
+
+
+ proc contents data=master.sor;run;
+***Rename SOR (spiro overread) variables ;
+proc sort data=master.sor 
+   out=spiro_over_pre (keep=studyid event aPI aTestDate SOR_q3 SOR_q5 SOR_q5_1 SOR_q6a SOR_q6b SOR_q6c SOR_q6d SOR_q6e 
+              SOR_q6a1 SOR_q7a_1 SOR_q7b_1 SOR_q7c_1 SOR_q11 SOR_q13
+                  SOR_q13a1-SOR_q13a5 SOR_q4_1
+          rename=(aTestDate=aCompletionDate 
+                 SOR_q3=age_of_participant 
+                 SOR_q5=spiro_evaluation
+                SOR_q5_1=spiro_tech_success
+                 SOR_q6a=spiro_eval_satis
+                SOR_q6b=spiro_eval_pf
+                SOR_q6c=spiro_eval_fet
+                SOR_q6d=spiro_eval_cough
+                SOR_q6e=spiro_eval_abrupt
+                SOR_q6a1=spiro_num_acceptman
+               SOR_q7a_1=spiro_fvc_repeatable
+                SOR_q7b_1=spiro_fevp5_repeatable
+                SOR_q7c_1=spiro_fev1_repeatable
+                 sor_q11=spiro_or_accept
+                SOR_q13=spiro_vals_anly
+                SOR_q13a1=spiro_or_FVC
+                SOR_q13a2=spiro_or_FEV1
+                SOR_q13a3=spiro_or_FEVp5
+                SOR_q13a4=spiro_or_FEVp75
+                SOR_q13a5=spiro_or_FEF2575
+                 SOR_q4_1=spiro_test_type ));
+   by studyid aTestDate; 
+   ***Keeping only those where Q4_1 (type of session) is PRE or OBSOLETE ;
+   where SOR_q4_1 ne 2 ;
+run;
+
+***Rename SOR - Post broncho ;
+proc sort data=master.sor 
+   out=spiro_over_post (keep=studyid event aPI aTestDate SOR_q3 SOR_q5 SOR_q5_1 SOR_q6a SOR_q6b SOR_q6c SOR_q6d SOR_q6e 
+              SOR_q6a1 SOR_q7a_1 SOR_q7b_1 SOR_q7c_1 SOR_q11 SOR_q13
+                  SOR_q13a1-SOR_q13a5 SOR_q4_1
+          rename=(aTestDate=aCompletionDate 
+                 SOR_q3=age_of_participant 
+                 SOR_q5=spiro_evaluation_post
+                SOR_q5_1=spiro_tech_success_post
+                 SOR_q6a=spiro_eval_satis_post
+                SOR_q6b=spiro_eval_pf_post
+                SOR_q6c=spiro_eval_fet_post
+                SOR_q6d=spiro_eval_cough_post
+                SOR_q6e=spiro_eval_abrupt_post
+                SOR_q6a1=spiro_num_acceptman_post
+                SOR_q7a_1=spiro_fvc_repeatable_post
+                SOR_q7b_1=spiro_fevp5_repeatable_post
+                SOR_q7c_1=spiro_fev1_repeatable_post
+                 sor_q11=spiro_or_accept_post
+                SOR_q13=spiro_vals_anly_post
+                SOR_q13a1=spiro_or_FVC_post
+                SOR_q13a2=spiro_or_FEV1_post
+                SOR_q13a3=spiro_or_FEVp5_post
+                SOR_q13a4=spiro_or_FEVp75_post
+                SOR_q13a5=spiro_or_FEF2575_post
+                SOR_q4_1=spiro_test_type_post ));
+   by studyid aTestDate; 
+   ***Keeping only those where Q4_1 (type of session) is POST ;
+   where SOR_q4_1 = 2 ;
+run;
+
+
+
+***Methacholine : some participants had their spiro overread in this MCOR dataset so we will bring this in ;
+proc sort data=master.mcor 
+   out=mcor (keep=studyid event aFormDate MCOR_q11
+          rename=(aFormDate=aCompletionDate 
+                 MCOR_q11=spiro_vals_anly_meth
+               ));
+   by studyid aFormDate; 
+run;
+
+
+
+data spiro_over_pre2;
+ set spiro_over_pre;
+  by studyid acompletiondate;
+
+  ***More hardcodes ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  **Delete dups ;
+*hardcodes here have been removed to protect patient confidentiality;
+ ***These have been checked with Sue ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+  if event='Overreading' and age_of_participant=3 then event='36-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=4 then event='48-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=5 then event='60-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=6 then event='72-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=7 then event='84-Month Clinic Visit' ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+ ***These won't be overread per KJaffee and SDoyle cleaning (below): ;
+
+ ***ERRORS WITH 36 MONTH DATA ;
+ *hardcodes here have been removed to protect patient confidentiality;
+
+ ***ERRORS WITH 48 MONTH DATA ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+ ***ERRORS WITH 60 MONTH DATA ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+ ***ERRORS WITH 72 MONTH DATA ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+
+ ***ERRORS WITH 81/84 MONTH DATA ;
+    **all below are POST sessions that were filled out but they are really PRE sessions , they wont be OR'ed then : 
+*hardcodes here have been removed to protect patient confidentiality;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+   
+ *correct dates;
+*hardcodes here have been removed to protect patient confidentiality;
+
+ *sl - change met chall event to 120;
+*hardcodes here have been removed to protect patient confidentiality;
+
+  vis=input(scan(event, 1, '-'),2.);
+
+run;
+
+
+proc freq data=spiro_over_pre2 ;
+   tables event ;
+run ;
+
+data spiro_over_post2;
+ set spiro_over_post;
+  by studyid acompletiondate;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  **Delete dups ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+  if event='Overreading' and age_of_participant=3 then event='36-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=4 then event='48-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=5 then event='60-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=6 then event='72-Month Clinic Visit' ;
+  if event='Overreading' and age_of_participant=7 then event='84-Month Clinic Visit' ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ 
+ *correct dates;
+*hardcodes here have been removed to protect patient confidentiality;
+
+  vis=input(scan(event, 1, '-'),2.);
+
+run;
+
+proc freq data=spiro_over_post2 ;
+   tables event ;
+run ;
+
+
+data mcor2 ;
+   set mcor ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+run ;
+
+proc freq data=mcor2 ;
+   tables event*spiro_vals_anly_meth ;
+run ;
+
+
+***Check to make sure all events are 36,48, etc and not overreading or skin tests ;
+proc freq data=spiro_over_pre2 ;
+   tables event ;
+run ;
+proc freq data=spiro_over_post2 ;
+   tables event ;
+run ;
+proc freq data=mcor2 ;
+   tables event ;
+run ;
+
+***Fix these in above step ;
+proc print  data=mcor2 ;
+   var studyid  event acompletiondate ;
+   where event="Methacholine Challenge" ;
+run ;
+
+proc sort data=spiro_over_pre2 ; by studyid event ; run ;
+proc sort data=spiro_over_post2 ; by studyid event ; run ;
+proc sort data=mcor2 ; by studyid event ; run ;
+
+***Merge all spiro overread and make note of those that were overread at MC ;
+data spiro_over_all ;
+ merge spiro_over_pre2 spiro_over_post2 mcor2(in=c) ;
+  by studyid event;
+  if c=1 then overread_source="Meth" ;
+
+
+  *remove dups;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+proc freq data=spiro_over_all ;
+   tables event ;
+run ;
+
+proc freq data=spiro_over_all ;
+   tables event*spiro_tech_success ;
+run ;
+proc freq data=spiro_over_all ;
+   tables event*spiro_tech_success_post ;
+run ;
+
+***Data check for methacholine visits ;
+ods pdf file="S:\RhoFED\ICAC\Studies\URECA\Prog\QualityMonitoring\Overreading\metha_IDs_toQC.pdf" style=journal ;
+proc print data=spiro_over_all ;
+   var studyid ;
+   where overread_source="Meth" and spiro_vals_anly_meth=2 ;
+run ;
+ods pdf close ;
+
+proc sort data=spiro_final ; by studyid event ; run ;
+proc sort data=spiro_over_all  ; by studyid event ; run ;
+
+
+***Delete exact dups - 3/28/2018 there are 40 dups for overreading;
+proc sort data=spiro_final nodupkey out=spiro_final dupout=dups_spiro_final ; by studyid event  ; run ;
+proc sort data=spiro_over_all nodupkey out=spiro_over_all dupout=dups_spiro_over_all ; by studyid event  ; run ;
+   
+
+
+***Merge spiro data with overreading data - if overreading data is present replace original values with OR values;
+data spiro_pre_post_over;
+  length aPI $14.;
+  merge spiro_final (in=ioss) spiro_over_all (in=sor) ;
+  by studyid event; 
+
+  avisit2=INPUT(avisit,4.) ;
+  drop avisit ;
+
+
+  
+  ***Create variable to indicate where there is spiro but no overreading, overreading but no spiro (never sure how THIS happens) 
+     or BOTH spiro and overreading are present ;
+  if ioss=1 and sor=0 then spiro_sor="Spiro but no overreading"  ;
+  if ioss=1 and sor=1 then spiro_sor="Overreading and Spiro   "  ;
+  if ioss=0 and sor=1 then spiro_sor="Overreading but no Spiro" ;
+
+   *replace bad spiro values with overreader corrected values; *updated april 2018 to include values to indicate overreading for report;
+  if spiro_or_FVC >=0 or spiro_or_FVC=.m  then do; 
+         if missing(spiro_or_FVC) then over_diff_FVC = spiro_FVC/spiro_FVC; 
+            else if missing(spiro_FVC) then over_diff_FVC = 1;
+            else over_diff_FVC = abs(spiro_FVC - spiro_or_FVC)/spiro_FVC;
+       changed_FVC = 1;
+      if spiro_technique_accept = 0 then ats_crit_over_FVC = 'Overread and Not ATS Acceptable';
+         else if  spiro_technique_accept = 1 then ats_crit_over_FVC = 'Overread and ATS Acceptable';
+      before_overread_fvc = spiro_FVC;
+      spiro_FVC = spiro_or_FVC; 
+  end;
+  else do ;
+      over_diff_FVC  = .;
+      changed_FVC  = 0;
+      if spiro_technique_accept = 0 then ats_crit_over_FVC = 'Not Overread and Not ATS Acceptable';
+         else if  spiro_technique_accept = 1 then ats_crit_over_FVC = 'Not Overread and ATS Acceptable';
+      before_overread_fvc = spiro_FVC;
+      spiro_FVC=spiro_FVC;
+   end; 
+  if spiro_or_FEV1 >=0 or spiro_or_FEV1=.m then do; 
+         if missing(spiro_or_FEV1) then over_diff_FEV1 = spiro_FEV1/spiro_FEV1; 
+            else if missing(spiro_FEV1) then over_diff_FEV1 = 1;
+            else over_diff_FEV1 = abs(spiro_FEV1 - spiro_or_FEV1)/spiro_FEV1;
+          changed_FEV1 = 1;
+         if spiro_technique_accept = 0 then ats_crit_over_FEV1 = 'Overread and Not ATS Acceptable';
+            else if  spiro_technique_accept = 1 then ats_crit_over_FEV1 = 'Overread and ATS Acceptable';
+         before_overread_fev1 = spiro_FEV1;
+         spiro_FEV1 = spiro_or_FEV1; 
+   end; 
+   else do; 
+      over_diff_FEV1  = .;
+      changed_FEV1  = 0;
+      if spiro_technique_accept = 0 then ats_crit_over_FEV1 = 'Not Overread and Not ATS Acceptable';
+         else if  spiro_technique_accept = 1 then ats_crit_over_FEV1 = 'Not Overread and ATS Acceptable';
+      before_overread_fev1 = spiro_FEV1;
+      spiro_FEV1=spiro_FEV1;
+   end;
+
+
+  if spiro_or_FEVp5 >=0 or spiro_or_FEVp5=.m then spiro_FEVp5 = spiro_or_FEVp5; else spiro_FEVp5=spiro_FEVp5;
+  if spiro_or_FEVp75 >=0 or spiro_or_FEVp75=.m then spiro_FEVp75 = spiro_or_FEVp75; else spiro_FEVp75=spiro_FEVp75;
+  if spiro_or_FEF2575 >=0 or spiro_or_FEF2575=.m then spiro_FEF2575 = spiro_or_FEF2575; else spiro_FEF2575=spiro_FEF2575;
+
+     *replace bad spiro values with overreader corrected values - post broncho ;
+/*  if spiro_or_FVC_post >=0 or spiro_or_FVC_post=.m then spiro_FVC_post = spiro_or_FVC_post; else spiro_FVC_post=spiro_FVC_post;*/
+/*  if spiro_or_FEV1_post >=0 or spiro_or_FEV1_post=.m then spiro_FEV1_post = spiro_or_FEV1_post; else spiro_FEV1_post=spiro_FEV1_post;*/
+
+if spiro_or_FVC_post >=0 or spiro_or_FVC_post=.m  then do; 
+         if missing(spiro_or_FVC_post) then over_diff_FVC_post = spiro_FVC_post/spiro_FVC_post; 
+            else if missing(spiro_FVC_post) then over_diff_FVC_post = 1;
+            else over_diff_FVC_post = abs(spiro_FVC_post - spiro_or_FVC_post)/spiro_FVC_post;
+          changed_FVC_post = 1;
+      if spiro_technique_accept_post = 0 then ats_crit_over_FVC_post = 'Overread and Not ATS Acceptable';
+         else if  spiro_technique_accept_post = 1 then ats_crit_over_FVC_post = 'Overread and ATS Acceptable';
+      before_overread_fvc_post = spiro_FVC_post;
+      spiro_FVC_post = spiro_or_FVC_post; 
+  end;
+  else do ;
+      over_diff_FVC_post  = .;
+      changed_FVC_post  = 0;
+      if spiro_technique_accept_post = 0  then ats_crit_over_FVC_post = 'Not Overread and Not ATS Acceptable';
+         else if spiro_technique_accept_post = 1  then ats_crit_over_FVC_post = 'Not Overread and ATS Acceptable';
+      before_overread_fvc_post = spiro_FVC_post;
+      spiro_FVC_post=spiro_FVC_post;
+   end; 
+  if spiro_or_FEV1_post >=0 or spiro_or_FEV1_post=.m then do; 
+         if missing(spiro_or_FEV1_post) then over_diff_FEV1_post = spiro_FEV1_post/spiro_FEV1_post; 
+            else if missing(spiro_FEV1_post) then over_diff_FEV1_post = 1;
+            else over_diff_FEV1_post = abs(spiro_FEV1_post - spiro_or_FEV1_post)/spiro_FEV1_post;
+          changed_FEV1_post = 1;
+         if spiro_technique_accept_post = 0  then ats_crit_over_FEV1_post = 'Overread and Not ATS Acceptable';
+            else if  spiro_technique_accept_post = 1 then ats_crit_over_FEV1_post = 'Overread and ATS Acceptable';
+         before_overread_fev1_post = spiro_FEV1_post;
+         spiro_FEV1_post = spiro_or_FEV1_post; 
+   end; 
+   else do; 
+      over_diff_FEV1_post  = .;
+      changed_FEV1_post  = 0;
+       if spiro_technique_accept_post = 0  then ats_crit_over_FEV1_post = 'Not Overread and Not ATS Acceptable';
+         else if  spiro_technique_accept_post = 1 then ats_crit_over_FEV1_post = 'Not Overread and ATS Acceptable';
+      before_overread_fev1_post = spiro_FEV1_post;
+     spiro_FEV1_post=spiro_FEV1_post;
+   end;
+
+
+
+  if spiro_or_FEVp5_post >=0 or spiro_or_FEVp5_post=.m then spiro_FEVp5_post = spiro_or_FEVp5_post; else spiro_FEVp5_post=spiro_FEVp5_post;
+  if spiro_or_FEVp75_post >=0 or spiro_or_FEVp75_post=.m then spiro_FEVp75_post = spiro_or_FEVp75_post; else spiro_FEVp75_post=spiro_FEVp75_post;
+  if spiro_or_FEF2575_post >=0 or spiro_or_FEF2575_post=.m then spiro_FEF2575_post = spiro_or_FEF2575_post; else spiro_FEF2575_post=spiro_FEF2575_post;
+
+
+  ***Per Sue, need the values to indicate that they were either correct by site original values or overread 
+     provided new correct values for session to be acceptable ;
+  if spiro_vals_anly in (0,1) then spiro_acceptable=1 ;
+  if spiro_vals_anly =2 then spiro_acceptable=0 ;
+  ***Same rule applies for POST ;
+  if spiro_vals_anly_post in (0,1) then spiro_acceptable_post=1 ;
+  if spiro_vals_anly_post =2 then spiro_acceptable_post=0 ;
+
+
+  rename avisit2=avisit 
+        aCompletionDate=aCompletionDate_spiro ;
+  keep studyid recruitid event acompletiondate vis avisit2 spiro_done -- spiro_technique_accept spiro_technique 
+        spiro_FVC_post -- spiro_technique_accept_post spiro_technique_post spiro_evaluation
+        spiro_fvc_repeatable -- spiro_or_FEF2575 spiro_evaluation_post spiro_fvc_repeatable_post -- spiro_or_FEF2575_post  
+      spiro_sor spiro_acceptable spiro_acceptable_post spiro_tech_success spiro_tech_success_post broncho_yes_post 
+over_diff_FVC changed_FVC ats_crit_over_FVC 
+over_diff_FEV1 changed_FEV1 ats_crit_over_FEV1
+over_diff_FVC_post changed_FVC_post ats_crit_over_FVC_post 
+over_diff_FEV1_post changed_FEV1_post ats_crit_over_FEV1_post before_overread_fvc before_overread_fvc_post
+before_overread_fev1 before_overread_fev1_post
+spiro_ats
+         ;
+
+run;
+/**/
+/*data spiro_pre_post_over_meth; */
+/*   merge spiro_pre_post_over methc; */
+/*   by studyid event; */
+/*  if missing(spiro_FEV1) and not missing(methc_FEV1) then spiro_FEV1 = methc_FEV1;*/
+/*run;*/
+
+
+
+/************ Overreading Report *****************/
+
+
+
+data overread_pre;
+   set spiro_pre_post_over; 
+   if event = '120-Month Clinic Visit';
+   pre_post = 'pre';
+   keep studyid
+   spiro_FVC  spiro_FEV1 spiro_or_FVC
+over_diff_FVC changed_FVC spiro_ats ats_crit_over_FVC 
+over_diff_FEV1 changed_FEV1 ats_crit_over_FEV1 pre_post before_overread_fvc before_overread_fev1
+spiro_technique_accept
+;
+
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+data overread_post;
+   set spiro_pre_post_over; 
+   if event = '120-Month Clinic Visit';
+   pre_post = 'post';
+   keep studyid
+   spiro_FVC_post spiro_FEV1_post  spiro_or_FVC
+over_diff_FVC_post changed_FVC_post ats_crit_over_FVC_post 
+over_diff_FEV1_post changed_FEV1_post ats_crit_over_FEV1_post pre_post before_overread_fvc_post before_overread_fev1_post spiro_technique_accept_post
+;
+rename over_diff_FVC_post = over_diff_FVC
+changed_FVC_post= changed_FVC
+ats_crit_over_FVC_post = ats_crit_over_FVC
+over_diff_FEV1_post = over_diff_FEV1
+changed_FEV1_post = changed_FEV1
+ats_crit_over_FEV1_post = ats_crit_over_FEV1
+before_overread_fvc_post = before_overread_fvc
+before_overread_fev1_post = before_overread_fev1
+spiro_FVC_post = spiro_FVC
+spiro_FEV1_post = spiro_FEV1
+spiro_technique_accept_post = spiro_technique_accept
+;
+run;
+
+data overread; 
+   set overread_pre overread_post;
+   over_diff_FVC = over_diff_FVC*100; 
+   over_diff_FEV1 = over_diff_FEV1*100;
+
+   if missing(spiro_fvc) and missing(before_overread_fvc) then changed_FVC = 0; 
+   if missing(spiro_fev1) and missing(before_overread_fev1) then changed_FEV1 = 0; 
+   label changed_FVC = 'Was FVC changed by overread form?'
+         changed_FEV1 = 'Was FEV1 changed by overread form?'
+         over_diff_FVC = 'Percent Change in FVC'
+         over_diff_FEV1 = 'Percent Change in FEV1'
+         before_overread_fvc = 'FVC Before Overreading Changes'
+         before_overread_fev1 = 'FEV1 Before Overreading Changes'
+         spiro_fvc = 'FVC After Overreading Changes'
+         spiro_fev1 = 'FEV1 After Overreading Changes'
+;
+run;
+
+data acceptable; 
+   set overread; 
+   if spiro_technique_accept = 1; 
+run;
+
+data unaccept; 
+   set overread; 
+   if spiro_technique_accept = 0; 
+run;
+
+proc template;
+   define style styles.mimictitle;
+   parent=styles.pearl;
+   class usertext from systemtitle / 
+     just=c;
+   end;
+run;
+
+ods pdf file="S:\RhoFED\ICAC\Studies\URECA\Prog\Analysis\OverreadingReport\OverreadingReport.pdf" notoc  style=styles.mimictitle;
+
+title "Overreading in URECA Year 10";
+ods text="Frequency of Change by Overreader";
+ods noproctitle;
+
+proc freq data=overread;
+tables changed_FVC changed_FEV1 / NOCUM ; run;
+
+ODS PDF STARTPAGE=YES;
+*ods text="Frequency of Change by Overreader within Manuevers Meeting ATS Criteria";
+
+proc freq data=acceptable;
+title2 "Frequency of Change by Overreader within Manuevers Meeting ATS Criteria";
+table changed_FVC changed_FEV1  / NOCUM ; run;
+
+ODS PDF STARTPAGE=No;
+ods text="Frequency of Change by Overreader within Manuevers Not Meeting ATS Criteria";
+
+proc freq data=unaccept; 
+*title2 "Frequency of Change by Overreader within Manuevers Not Meeting ATS Criteria";
+table changed_FVC changed_FEV1  / NOCUM ; run;
+
+ODS PDF STARTPAGE=YES;
+*ods text="Average Percent Change within Values Changed by Overreader";
+proc means data=overread mean std maxdec=2; 
+ title2 "Average Percent Change within Values Changed by Overreader";
+ var over_diff_FVC over_diff_FEV1 ; 
+run;
+
+ODS PDF STARTPAGE=No;
+ods text="Overall Means Before and After Overreading";
+proc means data=overread mean std maxdec=5; 
+*title3 "Overall Means Before and After Overreading";
+ var before_overread_fvc spiro_FVC before_overread_fev1 spiro_FEV1; 
+run;
+
+ods pdf close;
+
+
+
+/************ END Overreading Report *****************/
+
+
+*12/20/18 SL - add in methacholine data for more FEV1 at Year 8 and 10;
+proc sort data=derive.methacholine_challenge out=mc (where=( not missing(event))); by studyid avisit; run;
+
+*fev1 from methacholine visits - already overread;
+data methc; 
+   set mc;
+   if methacholine_challenge=1;
+   spiro_acceptable = 1;
+   spiro_done = 1;
+   keep StudyID aformdate event methc_FEV1 spiro_acceptable avisit spiro_done;
+run;
+
+proc freq data=methc ;
+   tables event ;
+run ;
+
+data methc_10; 
+   set methc; 
+   if avisit = 120; 
+run;
+
+proc sort data=methc; by studyid descending avisit; run;
+
+data methc_7; 
+   set methc; 
+   if avisit in (81, 84); 
+   by studyid descending avisit;
+   retain yr7counter;
+   if avisit in (81 84) then yr7counter = sum(yr7counter, 1); 
+   else yr7counter = 0;
+   if yr7counter = 2 then delete; *if both m81 and m84 results exist, delete m81;
+   if yr7counter = . and avisit = 81 then delete; *if neither m81 nor m84 results exist, delete record for m81;
+   if yr7counter = 1 and avisit = 81 and not up_q1 then delete; *if m84 results exist but not m81, delete record for m81;
+   drop yr7counter;
+   if avisit = 81 then avisit = 84;
+
+
+run;
+
+/*proc freq data=spiro_pre_post_over_meth ; */
+/*   tables event ; */
+/*run ;*/
+
+proc freq data=spiro_pre_post_over ; 
+   tables event*spiro_tech_success ; 
+run ;
+proc freq data=spiro_pre_post_over ; 
+   tables event*spiro_tech_success_post  ; 
+run ;
+
+*select all spiro that are not 81/84;
+data spiro_not80 ;
+   set spiro_pre_post_over;
+  * where spiro_done =1 ;
+   where  event in 
+         ("36-Month Clinic Visit",
+          "48-Month Clinic Visit",
+          "60-Month Clinic Visit",
+          "72-Month Clinic Visit",
+          "96-Month Clinic Visit",
+          "108-Month Clinic Visit",
+          "120-Month Clinic Visit");
+
+   if missing(spiro_FEV1) then missfev = 1; 
+run ;
+
+proc freq data=spiro_not80; table event ; run;
+proc freq data=spiro_not80; table event*missfev ; run;
+
+*merge spiro with methacholine from year 10;
+proc sort data=spiro_not80; by studyid  avisit; run;
+proc sort data=methc_10; by studyid  avisit; run;
+
+data spiro_not80_meth; 
+   merge methc_10 spiro_not80 ; 
+   by studyid avisit; 
+   if missing(spiro_FEV1) and not missing(methc_FEV1) then spiro_FEV1 = methc_FEV1;
+
+   if missing(spiro_FEV1) then missfev = 1; 
+run;
+proc freq data=spiro_not80_meth; table event*missfev ; run;
+
+
+*select all spiro that are 81/84;
+data spiro_8184 ;
+   set spiro_pre_post_over ;
+   by studyid ; 
+   *where spiro_done=1 ;
+   where  avisit in (81,84) ;
+
+   lag_spiro_acceptable=lag(spiro_acceptable) ;
+   lag_spiro_acceptable_post=lag(spiro_acceptable_post) ;
+
+   if first.studyid and not last.studyid and spiro_acceptable = . and spiro_acceptable_post = . then delete ;
+   if not first.studyid and last.studyid and spiro_acceptable = . and spiro_acceptable_post = . then delete ;
+   if not first.studyid and last.studyid and spiro_acceptable = . or spiro_acceptable_post = . then delete ;
+
+   if not first.studyid and last.studyid and lag_spiro_acceptable = 1 and lag_spiro_acceptable_post = 1 then delete ;
+run ;
+
+proc sort data=spiro_8184 nodupkey out=spiro_8184 dupout=dups_spiro_8184 ; by studyid   ; run ; *no dups 11/8/17;
+proc freq data=spiro_8184; table event ; run;
+
+
+
+*merge spiro with methacholine from year 7;
+proc sort data=spiro_8184; by studyid  avisit; run;
+proc sort data=methc_7; by studyid  avisit; run;
+
+data spiro_8184_meth; 
+   merge methc_7 (in=a) spiro_8184 (in= b); 
+   by studyid ; 
+   if missing(spiro_FEV1) and not missing(methc_FEV1) then do; 
+         spiro_FEV1 = methc_FEV1;
+         acompletiondate_spiro = aformdate;
+         end;
+   if avisit = 81 then avisit = 84;
+run;
+proc freq data=spiro_8184_meth; table event; run;
+
+
+data spiro_pre_post_over3 ;
+   set spiro_not80_meth spiro_8184_meth ;
+run ;
+
+proc freq data=spiro_pre_post_over3; table event ; run;
+
+
+
+***Check to make sure no duplicate events by ID - there are 6 as of 11/1/2017 that are dealt with below ;
+proc sort data=spiro_pre_post_over3 nodupkey out=spiro_test1 dupout=dups_spiro1; by studyid avisit ; run ;
+
+***DUP FIX ;
+data spiro_anly_predemog ;
+   set spiro_pre_post_over3 ;
+
+   **Manually delete useless duplicates ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   
+   *there is no 81/84 overlap so set 81 to 84;
+   if event = "81-Month Clinic Visit" then do;
+      event = "84-Month Clinic Visit";
+   end;
+
+   *need avisit for shell;
+   if event = "36-Month Clinic Visit" then do; avisit = 36; end;
+   if event = "48-Month Clinic Visit" then do; avisit = 48; end;
+   if event = "60-Month Clinic Visit" then do; avisit = 60; end;
+   if event = "72-Month Clinic Visit" then do; avisit = 72; end;
+   if event = "84-Month Clinic Visit" then do; avisit = 84; end;
+   if event = "96-Month Clinic Visit" then do; avisit = 96; end;
+   if event = "108-Month Clinic Visit" then do; avisit = 108; end;
+   if event = "120-Month Clinic Visit" then do; avisit = 120; end;
+run ;
+
+***11/8/17 - 1 dup is exact dup;
+proc sort data=spiro_anly_predemog nodupkey  dupout=dups_spiro2; by studyid avisit ; run ;
+
+proc freq data=spiro_anly_predemog; table event avisit; run;
+proc freq data=spiro_anly_predemog; table event*spiro_acceptable ; run;
+
+***Bring in relevant demog info ;
+proc sort data=derive.demog_1rec    out=demog ; by studyid ; run ;
+proc sort data=derive.birthrecord   (keep= studyid date_birth)  out=br ; by studyid ; run ;
+proc sort data=derive.child_bmi     out=bmi   ; by studyid ; run ;
+proc sort data=master.p_study_data     out=pdata (where=(rec_status='consented') 
+                                                   keep= studyid pft_race rec_status)  ; by studyid ; run ;
+
+data demog_2 ;
+   merge demog br;
+   by studyid;
+   if      baby_hispanic=1                  then race="Hispanic" ;
+   else if baby_hispanic=0 and baby_black=1 then race="Black"    ;
+   else if baby_hispanic=0 and baby_black=0 then race="White"    ;
+
+   ***We are calling Hispanics (babyrace=1) as "Caucasian" for GLI, Blacks (babyrace=2) as "Black", 
+      Whites (babyrace=3) as "Caucasian" and everyone else is assumed "Other/Mixed" ;
+   if babyrace3=1 then ethnicity=1 ;
+   if babyrace3=2 then ethnicity=2 ;
+   if babyrace3=3 then ethnicity=1 ;
+   if babyrace3 >3 then ethnicity=5 ;
+  *hardcodes here have been removed to protect patient confidentiality;
+
+   keep studyid race baby_gender_c date_birth ethnicity;
+   rename date_birth = baby_dob;
+run ;
+
+data height ;
+   set bmi ;
+   keep studyid avisit HEIGHT ;
+run ;
+
+proc sort data=height        ; by studyid avisit ; run ;
+proc sort data=demog_2       ; by studyid ; run ;
+proc sort data=spiro_anly_predemog    ; by studyid avisit ; run ;
+
+
+data demog_spiro ;
+   merge height spiro_anly_predemog(in=c) ;
+   by studyid avisit ; 
+   if c=1 ;
+run ;
+
+proc freq data=demog_spiro; table avisit; run;
+/**/
+/*proc print data=demog_spiro ;*/
+/*   var studyid event spiro_done ;*/
+/*   where avisit in (36,48) and height=. ;*/
+/*run ;*/
+
+data demog_spiro2 ;
+   merge demog_spiro(in=a) demog_2 ;
+   by studyid ; 
+   if a=1 ;
+
+   age  = round ((intck('month',baby_dob,acompletiondate_spiro) - (day(acompletiondate_spiro) < day(baby_dob))) / 12); 
+
+   label age="Age of child at clinic visit" ;
+
+   if baby_gender_c="Female" then sex=2 ;
+   if baby_gender_c="Male" then sex=1 ;
+
+   if studyid = "07-08-035-1" and event="36-Month Clinic Visit" then height=89 ;
+
+   drop baby_gender_c ;
+
+run ;
+  
+
+data demog_spiro3 ;
+   set demog_spiro2  ;
+   where studyid ne " " ;
+   heightlag = lag( height );
+run ;
+
+proc freq data= demog_spiro3; table event; run;
+
+data spiro_pre_gli ;
+   set demog_spiro3 ;
+   if avisit=84 and height=. then do ;
+      height=heightlag ;
+   end ;
+   if spiro_done=1  ;
+   drop heightlag ;
+
+   
+   **Additional manual fixes ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   
+   id_1=COMPRESS(studyid,'-'); 
+   id0=input(id_1,15.) ;
+   id1=STRIP(id0)||STRIP(.)||STRIP(avisit) ;
+   id=input(id1,BEST12.) ;
+
+   fev1fvc=spiro_fev1/spiro_fvc;
+   fev075fvc = spiro_FEVp75 / spiro_fvc;
+   rename spiro_fvc = fvc 
+          spiro_fev1 = fev1 
+          spiro_FEF2575= fef2575
+          spiro_FEVp75 = fev075;
+
+          
+   if fev1<0 then do ;
+      fev1=. ;
+   end ;
+   else fev1=fev1 ;
+   if fvc<0 then do ;
+      fvc=. ;
+   end ;
+   else fvc=fvc ;
+   if fev1fvc<0 then do ;
+      fev1fvc=. ;
+   end ;
+   else fev1fvc=fev1fvc ;
+
+run ;
+
+
+data spiro_post_gli ;
+   set demog_spiro3 ;
+   if avisit=84 and height=. then do ;
+      height=heightlag ;
+   end ;
+   if spiro_done=1  ;
+   drop heightlag ;
+
+   
+   **Additional manual fixes ;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   
+   id_1=COMPRESS(studyid,'-'); 
+   id0=input(id_1,15.) ;
+   id1=STRIP(id0)||STRIP(.)||STRIP(avisit) ;
+   id=input(id1,BEST12.) ;
+
+   fev1fvc=spiro_fev1_post/spiro_fvc_post;
+   fev075fvc = spiro_FEVp75_post / spiro_fvc_post;
+   rename spiro_fvc_post = fvc 
+          spiro_fev1_post = fev1 
+          spiro_FEF2575_post= fef2575
+          spiro_FEVp75_post = fev075
+         broncho_yes_post = POST_SPIRO_DONE;
+          
+   if fev1<0 then do ;
+      fev1=. ;
+   end ;
+   else fev1=fev1 ;
+   if fvc<0 then do ;
+      fvc=. ;
+   end ;
+   else fvc=fvc ;
+   if fev1fvc<0 then do ;
+      fev1fvc=. ;
+   end ;
+   else fev1fvc=fev1fvc ;
+
+run ;
+
+***11/8/17 - 1 dup is exact dup;
+proc sort data=spiro_pre_gli nodupkey  dupout=dups_spiro_test4 ; by studyid avisit ; run ;
+proc sort data=spiro_post_gli nodupkey  dupout=dups_spiro_test5 ; by studyid avisit ; run ;
+
+proc freq data=spiro_pre_gli; table event avisit; run;
+
+
+*test;
+
+data misspost; 
+   set spiro_post_gli; 
+   if post_spiro_done = 1 and missing(fev1) and missing(fvc); 
+run;
+
+
+/*************************************************************************************
+ Run Macro
+**************************************************************************************/
+
+
+libname gli 'S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli';
+
+data gli.spiro_pre_gli;
+   set spiro_pre_gli; 
+keep studyid id avisit sex age height ethnicity fev1 fvc fev1fvc fef2575 fev075 fev075fvc;
+run;
+
+data gli.spiro_post_gli;
+   set spiro_post_gli; 
+keep studyid id avisit sex age height ethnicity fev1 fvc fev1fvc fef2575 fev075 fev075fvc;
+run;
+
+*;
+%inc "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli\GLI_macro_code_V1_03_25_13.sas";
+%spiro   (data_lib=S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli,
+            ref_lib=S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli,
+            table_name=spiro_pre_gli,
+            out_lib=S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli
+      );
+
+data spiro_pre;
+   set gli.spiro_calculations;
+run;
+
+%inc "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli\GLI_macro_code_V1_03_25_13.sas";
+%spiro   (data_lib=S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli,
+            ref_lib=S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli,
+            table_name=spiro_post_gli,
+            out_lib=S:\RhoFED\ICAC\Studies\URECA\Data\Derive\gli
+      );
+
+data spiro_post;
+   set gli.spiro_calculations;
+run;
+
+
+proc sql ;
+   select cats(name,'=',name,'_post')
+          into :list
+          separated by ' '
+          from dictionary.columns
+          where libname = 'WORK' and memname = 'SPIRO_POST';
+quit;
+
+proc datasets library=work nolist;
+   modify spiro_post;
+   rename &list;
+quit;
+
+
+data pre;
+   set spiro_pre_gli;
+
+   rename   aCompletionDate_spiro = spiro_dt
+            fvc = FVC_anly
+            fev1 = FEV1_anly
+            spiro_FEVp5 = FEVp5_anly
+            fev075 = FEVp75_anly
+            fef2575 = FEF2575_anly
+            fev1fvc = FEV1FVC_anly
+            fev075fvc = fev075fvc_anly;
+   keep studyid id RecruitID avisit event aCompletionDate_spiro  age ethnicity height spiro_done spiro_vals_anly fvc fev1 spiro_FEVp5 fev075 fef2575 fev1fvc fev075fvc;
+run;
+
+data pre_gli;
+   set spiro_pre;
+   keep id FEV1_z_score FEV1_percent_predicted FEV1_LLN fvc_z_score fvc_percent_predicted fvc_LLN
+         FEV1FVC_z_score FEV1FVC_percent_predicted FEV1FVC_LLN fev075_z_score fev075_percent_predicted fev075_LLN
+         fev075fvc_z_score fev075fvc_percent_predicted fev075fvc_LLN fef2575_z_score fef2575_percent_predicted fef2575_LLN
+        ;
+run; 
+
+data post;
+   set spiro_post_gli;
+   rename fvc = FVC_anly_post
+          fev1 = FEV1_anly_post
+          spiro_FEVp5_post = FEVp5_anly_post
+          fev075 = FEVp75_anly_post
+          fef2575 = FEF2575_anly_post
+          fev1fvc = FEV1FVC_anly_post
+          fev075fvc = fev075fvc_anly_post;
+   keep id POST_SPIRO_DONE fvc fev1 spiro_FEVp5_post fev075 fef2575 fev1fvc fev075fvc;
+run;
+
+data post_gli;
+   set spiro_post;
+   rename id_post=id;
+   keep id_post FEV1_z_score_post FEV1_percent_predicted_post FEV1_LLN_post fvc_z_score_post fvc_percent_predicted_post fvc_LLN_post
+FEV1FVC_z_score_post FEV1FVC_percent_predicted_post FEV1FVC_LLN_post fev075_z_score_post fev075_percent_predicted_post fev075_LLN_post fev075fvc_z_score_post
+fev075fvc_percent_predicted_post fev075fvc_LLN_post fef2575_z_score_post fef2575_percent_predicted_post fef2575_LLN_post ;
+run;
+ 
+
+proc sort data=pre; by id ; run ;
+proc sort data=pre_gli; by  id ; run ;
+proc sort data=post; by id ; run ;
+proc sort data=post_gli; by id; run ;
+
+data spiro_anly; 
+ merge pre pre_gli post post_gli;
+ by id;
+
+ BD_REVERS = (FEV1_anly_post-FEV1_anly) / FEV1_anly * 100;
+ BD_REVERS_gte10 = (BD_REVERS > 10);
+
+run;
+
+
+proc sort data=spiro_anly nodupkey dupout=dup_spiro_anly; by studyid event; run; *no dups 11/8/17;
+
+proc freq data=spiro_anly; table event; run;
+
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell60;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 36,48,60,72,84,96,108,120;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (87, 90, 93, 96) then year=8;
+  if avisit in (99,102,105,108) then year=9;
+  if avisit in (111,114,117,120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year group;
+run;
+
+
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell60; by studyid avisit ; run ;
+proc sort data=spiro_anly;    by studyid avisit ; run ;
+
+data derive.spiro_anly;
+ merge shell60 spiro_anly (in=c);
+ by studyid avisit;
+ format site $site.;
+ if c=1 then spiro_anly=1; else spiro_anly=0;
+
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+proc sort data = derive.spiro_anly; by studyid avisit ; run;
+/**/
+/*data test; */
+/*   set derive.spiro_anly; */
+/*   if fev1_anly >1 and missing(spiro_done); */
+/*run ;*/
+
+proc freq data=derive.spiro_anly; table avisit*spiro_anly; run;
+
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+        
+%codebook_generic
+        (data = derive.spiro_anly
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+
+/***********************************/
+/***********DATA CHECKING***********/
+/***********************************/
+
+/***Random freqs and checks ;
+proc freq data=derive.ios_spirometry ;
+   tables fev1pred_high80 ;
+   where avisit=81 ;
+run ;
+*********/
+/**/
+/*proc freq data=spiro_sor ;*/
+/*   tables spiro_sor ;*/
+/*   where event in ("36-Month Clinic Visit","48-Month Clinic Visit","60-Month Clinic Visit") ;*/
+/*run ;*/
+/**/
+/*proc print data=spiro_sor ;   */
+/*   var studyid event ;*/
+/*   where spiro_sor="Overreading but no Spiro" ;*/
+/*run ;*/
+/**/
+/*proc print data=spiro_sor ;   */
+/*   var studyid event ;*/
+/*   where spiro_acceptable<0 ;*/
+/*   where also spiro_done=1 ;*/
+/*   where also event in ("36-Month Clinic Visit","48-Month Clinic Visit") ;*/
+/*run ;*/
+/**/
+/**/
+/****2 36m, 3 48m , and 2 60m will not be overread - files broke. total = 7 - this shouldnt change ;*/
+/*ods pdf file="S:\RhoFED\ICAC\Studies\URECA\Prog\QualityMonitoring\Overreading\non_overreadspiro_36_48_60.pdf" style=journal ;*/
+/*proc print data=spiro_sor ;   */
+/*   var studyid event ;*/
+/*   where spiro_sor="Spiro but no overreading"  ;*/
+/*   where also event in ("36-Month Clinic Visit","48-Month Clinic Visit","60-Month Clinic Visit") ;*/
+/*   where also spiro_done=1 ;*/
+/*run ;*/
+/*ods pdf close ;*/
+/**/
+/****2 36m, 3 48m , and 2 60m will not be overread - files broke. total = 7 - this shouldnt change ;*/
+/*ods pdf file="S:\RhoFED\ICAC\Studies\URECA\Prog\QualityMonitoring\Overreading\no_overreadspiro_72_84.pdf" style=journal ;*/
+/*proc print data=spiro_sor ;   */
+/*   var studyid event ;*/
+/*   where spiro_sor="Spiro but no overreading"  ;*/
+/*   where also event in ("72-Month Clinic Visit","81-Month Clinic Visit","84-Month Clinic Visit") ;*/
+/*   where also spiro_done=1 ;*/
+/*run ;*/
+/*ods pdf close ;*/
+/**/
+/****1 72m, 3 84m will not be overread - files broke. total = 4 - this shouldnt change ;*/
+/*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\QualityMonitoring\Overreading\no_overreadspiro_72_84.csv" style=journal ;*/
+/*proc print data=spiro_sor noobs ;   */
+/*   var studyid event aCompletionDate_spiro ;*/
+/*   where spiro_sor="Spiro but no overreading"  ;*/
+/*   where also event in ("72-Month Clinic Visit","81-Month Clinic Visit","84-Month Clinic Visit") ;*/
+/*   where also spiro_done=1 ;*/
+/*run ;*/
+/*ods csv close ;*/
+/**/
+/****3 81m, 1 84m will not be overread - files broke. total = 4 - this shouldnt change ;*/
+/*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\QualityMonitoring\Overreading\no_overreadPOSTspiro_72_84.csv" style=journal ;*/
+/*proc print data=spiro_sor noobs ;*/
+/*   var studyid event aCompletionDate_spiro ; */
+/*   where spiro_vals_anly_post=. and (spiro_FEVp75_post>.z or spiro_FEVp5_post>.z or spiro_FEV1_post>.z or spiro_FVC_post>.z or spiro_FEF2575_post>.z) ;*/
+/*run ;*/
+/*ods csv close ;*/
+/**/
+/*ods csv file="S:\RhoFED\ICAC\Studies\URECA\Prog\QualityMonitoring\Overreading\no_overreadspiro_72_84.csv" style=journal ;*/
+/*proc print data=spiro_sor noobs ;   */
+/*   var studyid event aCompletionDate_spiro ;*/
+/*   where spiro_sor="Spiro but no overreading"  ;*/
+/*   where also event in ("72-Month Clinic Visit","81-Month Clinic Visit","84-Month Clinic Visit") ;*/
+/*   where also spiro_done=1 ;*/
+/*run ;*/
+/*ods csv close ;*/
+/**/
+/*proc print data=spiro_sor ;   */
+/*   var studyid event ;*/
+/*   where spiro_sor="Spiro but no overreading"  ;*/
+/*   where also event in ("60-Month Clinic Visit") ;*/
+/*   where also spiro_done=1 ;*/
+/*run ;*/

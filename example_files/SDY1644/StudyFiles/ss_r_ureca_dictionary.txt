@@ -1,0 +1,19 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SS"", ""SS"")"
+3	4	evid	evid	dbl	numeric	double	2458	0	c(2, 42667)
+4	5	event	event	chr	character	character	5	0	"c(""12-Month Clinic Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.2"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	6	0	"c("".x"", ""p"")"
+8	9	SS_q1	Difficulty Living on Total Household Income	dbl	numeric	double	6	241	c(0, 4)
+9	10	SS_q2	Family will Experience Hardships in Next Two Months	dbl	numeric	double	7	242	c(0, 5)
+10	11	SS_q3	Family will Have to Reduce Standard of Living	dbl	numeric	double	7	242	c(0, 5)
+11	12	SS_q4	Parents Ever Owned a House	dbl	numeric	double	3	245	c(0, 1)
+12	13	SS_q4a	Parents Own a Home When Participant was Age Birth to 5 Years	dbl	numeric	double	3	1673	c(0, 1)
+13	14	SS_q4b	Parents Own a Home When Participant was Age 6 to 10 Years	dbl	numeric	double	3	1671	c(0, 1)
+14	15	SS_q4c	Parents Own a Home When Participant was Age 11 to 15 Years	dbl	numeric	double	3	1671	c(0, 1)
+15	16	SS_q4d	Parents Own a Home When Participant was Age 16 to 20 Years	dbl	numeric	double	3	1674	c(0, 1)
+16	17	SS_q5	Place on Ladder	dbl	numeric	double	10	241	c(1, 9)
+17	18	aCompletionDY	Completion Day	dbl	numeric	double	548	459	c(-204, 1854)

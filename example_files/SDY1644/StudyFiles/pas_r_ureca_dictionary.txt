@@ -1,0 +1,17 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	595	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""PAS"", ""PAS"")"
+3	4	evid	evid	dbl	numeric	double	818	0	c(2, 18056)
+4	5	event	event	chr	character	character	1	0	"c(""Prenatal Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""p"")"
+8	9	PAS_q1	Concerned About Baby's Development	dbl	numeric	double	5	13	c(1, 4)
+9	10	PAS_q2	Concern About Difficult Delivery	dbl	numeric	double	5	13	c(1, 4)
+10	11	PAS_q3	Concern Baby Could be Abnormal	dbl	numeric	double	5	13	c(1, 4)
+11	12	PAS_q4	Concerned about Being Harmed During Delivery	dbl	numeric	double	5	13	c(1, 4)
+12	13	PAS_q5	Concern About Losing Baby	dbl	numeric	double	5	13	c(1, 4)
+13	14	PAS_q6	Fear Regarding Health of Baby	dbl	numeric	double	5	13	c(1, 4)
+14	15	PAS_q7	Concern About Developing Medical Problems During Pregnancy	dbl	numeric	double	5	13	c(1, 4)
+15	16	aCompletionDY	Completion Day	dbl	numeric	double	145	232	c(-204, 1)

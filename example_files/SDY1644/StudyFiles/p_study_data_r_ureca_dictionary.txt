@@ -1,0 +1,52 @@
+	pos	variable	col_type	class	type	unique_values	n_na	range
+0	1	id	chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group	chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form	chr	character	character	1	0	"c(""P_STUDY_DATA"", ""P_STUDY_DATA"")"
+3	4	rec_status	chr	character	character	6	0	"c(""assigned to call list"", ""uncontacted"")"
+4	5	call_disposition	chr	character	character	10	0	"c("".a"", ""unable to contact"")"
+5	6	event_ineligible	chr	character	character	3	0	"c("".a"", ""screening visit"")"
+6	7	p_status	chr	character	character	3	0	"c("".a"", ""inactive"")"
+7	8	group_id	chr	character	character	3	0	"c("".a"", ""2"")"
+8	9	event_deactivated	chr	character	character	2	0	"c("".a"", ""synagis check"")"
+9	10	anxiety_final	dbl	numeric	double	44	1859	c(31, 93)
+10	11	asthmatic	chr	character	character	4	0	"c("".m"", ""2"")"
+11	12	best_call_time	chr	character	character	40	0	"c("".m"", ""weekdays afte"")"
+12	13	blow_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+13	14	continue_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+14	15	depression_final	dbl	numeric	double	42	1859	c(34, 96)
+15	16	dna_consent_child	chr	character	character	3	0	"c("".m"", ""yes"")"
+16	17	dna_consent_mother	chr	character	character	3	0	"c("".m"", ""yes"")"
+17	18	p25_1_oral_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+18	19	p26_1_oral_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+19	20	pft_race	chr	character	character	5	0	"c("".m"", ""white"")"
+20	21	pm_replicate	dbl	numeric	double	2	2242	c(1, 1)
+21	22	pm_replicate_4	dbl	numeric	double	2	2247	c(1, 1)
+22	23	pm_replicate_5	dbl	numeric	double	1	2303	
+23	24	pm_replicate_6	dbl	numeric	double	1	2303	
+24	25	protocol20_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+25	26	protocol21_1_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+26	27	protocol21_2_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+27	28	protocol21_3_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+28	29	protocol21_4_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+29	30	protocol21_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+30	31	protocol23_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+31	32	protocol24_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+32	33	protocol25_1_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+33	34	protocol25_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+34	35	protocol26_1_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+35	36	protocol26_2_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+36	37	protocol26_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+37	38	screening_consent	dbl	numeric	double	2	2010	c(1, 1)
+38	39	sette_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+39	40	ureca2_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+40	41	ureca3_consent	chr	character	character	2	0	"c("".m"", ""yes"")"
+41	42	weight_consent	chr	character	character	3	0	"c("".m"", ""yes"")"
+42	43	day_ineligible	dbl	numeric	double	1	2303	
+43	44	day_enrolled	dbl	numeric	double	43	1694	c(0, 205)
+44	45	day_deactivated	dbl	numeric	double	150	2147	c(22, 4569)
+45	46	day_consented	dbl	numeric	double	46	2246	c(-184, 1)
+46	47	due_day	dbl	numeric	double	60	1705	c(-31, 47)
+47	48	y1_home_evalDY	dbl	numeric	double	204	1894	c(372, 731)
+48	49	y2_home_evalDY	dbl	numeric	double	178	1898	c(731, 1096)
+49	50	y3_home_evalDY	dbl	numeric	double	184	1884	c(1096, 1461)
+50	51	y4_home_evalDY	dbl	numeric	double	225	1850	c(1461, 1851)

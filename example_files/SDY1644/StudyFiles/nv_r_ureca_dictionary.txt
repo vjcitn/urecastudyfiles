@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""NV"", ""NV"")"
+3	4	evid	evid	dbl	numeric	double	4366	0	c(2, 63231)
+4	5	event	event	chr	character	character	8	0	"c(""12-Month Clinic Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.2"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	9	0	"c("".x"", ""p"")"
+8	9	NV_q1	Afraid that Children Will be Hurt by Violence in Neighborhood	dbl	numeric	double	3	308	c(0, 1)
+9	10	NV_q2	Violence Against Participant While Living in Neighborhood	dbl	numeric	double	3	307	c(0, 1)
+10	11	NV_q3a	Fight in Which Weapon was Used	dbl	numeric	double	3	346	c(0, 1)
+11	12	NV_q3a1	Fight in Which Weapon was Used, More Than Once	dbl	numeric	double	3	3413	c(0, 1)
+12	13	NV_q3b	Violent Argument between Neighbors	dbl	numeric	double	3	335	c(0, 1)
+13	14	NV_q3b1	Violent Argument Between Neighbors, More Than Once	dbl	numeric	double	3	3151	c(0, 1)
+14	15	NV_q3c	Gang Fight	dbl	numeric	double	3	355	c(0, 1)
+15	16	NV_q3c1	Gang Fight, More Than Once	dbl	numeric	double	3	3961	c(0, 1)
+16	17	NV_q3d	Sexual Assault or Rape	dbl	numeric	double	3	357	c(0, 1)
+17	18	NV_q3d1	Sexual Assault or Rape, More Than Once.	dbl	numeric	double	3	4252	c(0, 1)
+18	19	NV_q3e	Robbery or Mugging	dbl	numeric	double	3	353	c(0, 1)
+19	20	NV_q3e1	Robbery or Mugging, More Than Once.	dbl	numeric	double	3	3768	c(0, 1)
+20	21	NV_q4	Afraid to Take Child Outside Due to Possible Harm by Violence	dbl	numeric	double	3	307	c(0, 1)
+21	22	aCompletionDY	Completion Day	dbl	numeric	double	1083	526	c(-692, 3842)

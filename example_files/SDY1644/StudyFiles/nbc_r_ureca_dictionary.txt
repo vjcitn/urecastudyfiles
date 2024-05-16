@@ -1,0 +1,28 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""NBC"", ""NBC"")"
+3	4	evid	evid	dbl	numeric	double	2454	0	c(2, 42667)
+4	5	event	event	chr	character	character	4	0	"c(""12-Month Clinic Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	5	0	"c("".x"", ""p"")"
+8	9	NBC_q1_1	Propery Damage	dbl	numeric	double	4	252	c(0, 2)
+9	10	NBC_q2_1	Drug Dealing	dbl	numeric	double	4	306	c(0, 2)
+10	11	NBC_q3_1	Groups of Young People Hanging Around	dbl	numeric	double	4	255	c(0, 2)
+11	12	NBC_q4_1	Physical Assaults of People	dbl	numeric	double	4	278	c(0, 2)
+12	13	NBC_q5_1	Organized Gangs	dbl	numeric	double	4	323	c(0, 2)
+13	14	NBC_q6_1	Gunshots	dbl	numeric	double	4	262	c(0, 2)
+14	15	NBC_q7_1	Lack of Supervised Activities of Youth	dbl	numeric	double	4	298	c(0, 2)
+15	16	NBC_q8_1	Feeling Unsafe While Alone on Block at Day	dbl	numeric	double	4	243	c(0, 2)
+16	17	NBC_q9_1	Feeling Unsafe While Alone on Block at Night	dbl	numeric	double	4	249	c(0, 2)
+17	18	NBC_q10_1	Inadequate Recreational Facilities Available for Young People	dbl	numeric	double	4	310	c(0, 2)
+18	19	NBC_q11_1	Feeling Unsafe in Home	dbl	numeric	double	4	239	c(0, 2)
+19	20	NBC_q12_1	Poor City Services	dbl	numeric	double	4	253	c(0, 2)
+20	21	NBC_q1_2	Visits with Neighbors Inside Their Homes	dbl	numeric	double	4	237	c(0, 2)
+21	22	NBC_q2_2	Neighbors Visit with Me Inside My Home	dbl	numeric	double	4	237	c(0, 2)
+22	23	NBC_q3_2	Satisfaction With Block as Place to Live	dbl	numeric	double	4	238	c(0, 2)
+23	24	NBC_q4_2	Comparison to Other Blocks in Area	dbl	numeric	double	4	238	c(0, 2)
+24	25	NBC_q5_2	Conditions have Gotten Worse in the Past Year	dbl	numeric	double	4	238	c(0, 2)
+25	26	NBC_q6_2	Conditions Will Improve In Coming Year	dbl	numeric	double	4	237	c(0, 2)
+26	27	aCompletionDY	Completion Day	dbl	numeric	double	546	456	c(-682, 1293)

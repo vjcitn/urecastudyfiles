@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	2	0	c(3, 48)
+5	6	year		dbl	numeric	double	2	0	c(1, 4)
+6	7	event		chr	character	character	3	0	"c("""", ""HOME EVAL YEARS 4 AND 5"")"
+7	8	version	version	chr	character	character	2	0	"c("""", ""1.0"")"
+8	9	status	status	chr	character	character	3	0	"c("""", ""incomplete"")"
+9	10	SampleID	SampleID	chr	character	character	944	0	"c("""", ""99857"")"
+10	11	sample_type	Sample Type	chr	character	character	2	0	"c("""", ""f"")"
+11	12	sample_id	Sample ID	chr	character	character	944	0	"c("""", ""ureca-no2-782"")"
+12	13	drop_time	Drop Off Time	time	"c(""hms"", ""difftime"")"	double	323	271	c(0, 85500)
+13	14	pickup_time	Pick Up Time	time	"c(""hms"", ""difftime"")"	double	411	271	c(3300, 83580)
+14	15	total_time	Time Between Drop Off and Pick Up of Sample in Minutes	dbl	numeric	double	705	271	c(10080, 547232)
+15	16	gas_stove_oven	Gas Stove, Range, or Oven	dbl	numeric	double	3	324	c(0, 1)
+16	17	blank	Mean value of blanks (in ug) by site	dbl	numeric	double	9	271	c(0.218888888888889, 0.6203125)
+17	18	no2_ppb	Final adjusted NO2 ppb	dbl	numeric	double	942	271	c(0, 276.486233830385)
+18	19	hi_no2	NO2 > 40 ppb	dbl	numeric	double	3	271	c(0, 1)
+19	20	no2results		dbl	numeric	double	2	0	c(0, 1)
+20	21	DROP_DATE_DY		dbl	numeric	double	376	271	c(-62, 1843)
+21	22	PICKUP_DATE_DY		dbl	numeric	double	376	271	c(36, 1855)

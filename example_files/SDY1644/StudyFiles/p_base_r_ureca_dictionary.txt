@@ -1,0 +1,10 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""P_BASE"", ""P_BASE"")"
+3	4	gender	gender	chr	character	character	3	0	"c("".m"", ""m"")"
+4	5	language	language	chr	character	character	4	0	"c("".m"", ""spanish"")"
+5	6	lang_sp	lang_sp	chr	character	character	11	0	"c("".m"", ""portuguese creole"")"
+6	7	cgv_language	cgv_language	chr	character	character	4	0	"c("".m"", ""spanish"")"
+7	8	cgv_lang_sp	cgv_lang_sp	chr	character	character	2	0	"c("".m"", ""french"")"
+8	9	relation	relation	chr	character	character	8	0	"c("".m"", ""great aunt"")"

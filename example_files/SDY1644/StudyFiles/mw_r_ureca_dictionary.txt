@@ -1,0 +1,18 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""MW"", ""MW"")"
+3	4	evid	evid	dbl	numeric	double	757	0	c(3, 18057)
+4	5	event	event	chr	character	character	1	0	"c(""Birth"", ""Birth"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""b"")"
+8	9	MW_q1	Maternal Pre-Pregnancy Weight	dbl	numeric	double	251	296	c(40.8, 207.3)
+9	10	MW_q1b	Where Pre-pregnancy Weight Originally Obtained	dbl	numeric	double	5	471	c(1, 4)
+10	11	MW_q1b1	Where Pre-pregnancy Weight Originally Obtained - Specify Other	chr	character	character	6	0	"c("".a"", ""reprted per patient"")"
+11	12	MW_q2	Maternal Weight From First Prenatal Visit	dbl	numeric	double	368	184	c(40.4, 194.9)
+12	13	MW_q3	Maternal Weight Prenatal Visit Closest to 20 Weeks of Gestation	dbl	numeric	double	365	179	c(42.2, 192.9)
+13	14	aCompletionDY	Completion Day	dbl	numeric	double	178	174	c(-1, 644)
+14	15	MW_q1aDY	Maternal Pre-Pregnancy Weight - Day	dbl	numeric	double	179	497	c(-1231, 70)
+15	16	MW_q2aDY	Maternal Weight From First Prenatal Visit - Day	dbl	numeric	double	191	185	c(-568, 186)
+16	17	MW_q3aDY	Maternal Weight Prenatal Visit Closest to 20 Weeks of Gestation - Day	dbl	numeric	double	129	181	c(-515, 231)

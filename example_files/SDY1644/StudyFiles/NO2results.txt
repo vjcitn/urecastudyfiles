@@ -1,0 +1,387 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         02/22/06        Created Program
+*                  05/01/07      Convert from analysis to derive
+*                  12/07/07      Added adjustment for blanks
+*                  09/08/08      Update to account for twins, etc. 
+*   K. Jaffee         03/17/11      Change template and naming conventions, merge shell
+*   A Hodges         06/27/11      Adding in year 4 data (HE 4-5)
+*   S LUSSIER         11/21/18     Update year 4 to be visit 48
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=NO2results,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+*dm "file &gpgmpath\&gprog..sas replace";
+
+**POINT LOCALLY FOR UPDATING AND TESTING***;
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+*%inc "C:\Documents and Settings\abhodges\Desktop\nicotine\TemplateSetup.sas";
+*%TemplateSetup(/* Name of the program  */
+               prog=NO2results,
+               /* Location to save     */
+               pgmpath=C:\Documents and Settings\abhodges\Desktop\nicotine,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm file '&gpgmpath\&gprog..sas replace;';
+
+*** 2. Main Body **************************************************************;
+
+proc format /*library=library*/;
+value $ site   '01'='Baltimore'
+            '02'='Boston'
+            '07'='New York'
+            '08'='St. Louis';
+run;
+
+proc sort data=master.no2r out=no2r; by studyid no2r_q1_1; run ;
+
+proc sort data=master.heq out=heq; by studyid; run ;
+
+data heq heq3 heq48; 
+   set heq;
+    if avisit ne '.x'; 
+   *if avisit in ('3','48');
+  
+  if avisit in ('3') then output heq3;
+  if avisit in ('48') then output heq48; 
+run;
+proc freq data=heq3; tables avisit/missing; run;
+proc freq data=heq48; tables avisit/missing; run;
+
+
+data blanks blanks3 blanks48;
+   set master.no2r;
+   if no2r_q1_1='b';
+   site=substr(studyid, 4, 2);
+   label site='Study Site';
+   format site $site.;
+
+*hardcodes here have been removed to protect patient confidentiality;
+   event='3-Month Home Visit';
+   output blanks3;
+   end;
+
+ *hardcodes here have been removed to protect patient confidentiality;
+    event='HOME EVAL YEARS 4 AND 5';
+   output blanks48;
+   end;
+run ;
+
+proc means data=blanks3 noprint ;
+   var no2r_q5;
+   by site;
+   output out=blankmean3 mean=blank;
+run;
+proc means data=blanks48 noprint ;
+   var no2r_q5;
+   by site;
+   output out=blankmean48 mean=blank;
+run;
+
+
+data no23mo;
+   set no2r;
+
+   *to get just the 1st year data;
+   *NOTE: grab other specific samples that I've reviewed in DMS but that have missing info;
+*hardcodes here have been removed to protect patient confidentiality;
+   event='3-Month Home Visit';
+run ;
+
+data no248he;
+ set no2r;
+
+ *to get 4-5 year data;
+ *NOTE: grab other specific samples that I've reviewed in DMS but that have missing info;
+*hardcodes here have been removed to protect patient confidentiality;
+ event='HOME EVAL YEARS 4 AND 5';
+run;
+
+proc sort data=heq3; by studyid; run;
+data no2results3;
+   merge no23mo (in=n)
+          heq3    (keep=studyid recruitid heq_q4);
+   by studyid;
+*hardcodes here have been removed to protect patient confidentiality;
+   **add the records for the twins who also need results;
+ 
+   site=substr(studyid, 4, 2);
+      label site='Study Site';
+   format site $site.;
+
+****There are 2 duplication issues here. 
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+proc sort nodupkey dupout=no2res3dup; by studyid NO2R_q1_1; run;
+
+proc sort data=heq48; by studyid; run;
+data no2results48;
+   merge no248he (in=n)
+          heq48    (keep=studyid recruitid heq_q4);
+   by studyid;
+*hardcodes here have been removed to protect patient confidentiality;
+   **add the records for the twins who also need results;
+ 
+   site=substr(studyid, 4, 2);
+      label site='Study Site';
+   format site $site.;
+
+run;
+proc sort nodupkey dupout=no2res48dup; by studyid NO2R_q1_1; run;
+
+data no2resultsb3;
+   merge no2results3 blankmean3;
+   by site;
+
+   **subtract site-specific blank average and calculate by exposure;
+   if nmiss(no2r_q5, no2r_q4) = 0 then no2_ppb=((no2r_q5-blank)*1000)*56/no2r_q4;
+   if no2_ppb < 0 then no2_ppb=0;
+   label no2_ppb='Final adjusted NO2 ppb';
+
+   if no2_ppb > .z then hi_no2=no2_ppb>40;
+   label   hi_no2='NO2 > 40 ppb';
+   format hi_no2 yesnofm.;
+run ;
+
+data no2resultsb48;
+   merge no2results48 blankmean48;
+   by site;
+
+   **subtract site-specific blank average and calculate by exposure;
+   if nmiss(no2r_q5, no2r_q4) = 0 then no2_ppb=((no2r_q5-blank)*1000)*56/no2r_q4;
+   if no2_ppb < 0 then no2_ppb=0;
+   label no2_ppb='Final adjusted NO2 ppb';
+
+   if no2_ppb > .z then hi_no2=no2_ppb>40;
+   label   hi_no2='NO2 > 40 ppb';
+   format hi_no2 yesnofm.;
+run ;
+
+
+***************
+TWIN FIX
+***************;
+
+***get recruitid of other twin from birth record;
+data br;
+set master.br;
+*hardcodes here have been removed to protect patient confidentiality;
+rename br_q8c1=recruitid;   *recruitid of other twin;
+proc sort; by studyid;
+run;
+
+***NOTE: the discrepancies are twins where we only collected one sample but the data should apply to both twins;
+
+***START w/ 3 mo data;
+proc print data=no2resultsb3;
+var studyid recruitid no2r_q1 no2r_q2a no2r_q3a no2r_q4 no2_ppb studyid no2r_q1_1;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+***output the records with dust results;
+data twins3;
+set no2resultsb3;
+*hardcodes here have been removed to protect patient confidentiality;
+proc sort; by recruitid;
+run;
+
+***match up to record with data;
+data twins3_2;
+merge twins3 br;
+by studyid;
+drop studyid;
+run;
+
+proc sort data=no2resultsb3;  *contains all records, including blank ones for the twins;
+by recruitid;          
+proc sort data=twins3_2;    *contains just records for the two twins with data;
+by recruitid;          *recruitid here is the recruitid of the OTHER twin;
+
+***merge the two twin records back on no2 results matching by the alternative recruitid-overwrites the form data and the no2 results;
+data no2resultsc3;
+length event $ 23;
+merge no2resultsb3 twins3_2;
+by recruitid;
+proc sort; by studyid event; run;
+
+proc print data=no2resultsc3;
+var studyid recruitid no2r_q1 no2r_q2a no2r_q3a no2r_q4 no2_ppb studyid no2r_q1_1;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+
+***START w/ 48 mo data;
+proc print data=no2resultsb48;
+var studyid recruitid no2r_q1 no2r_q2a no2r_q3a no2r_q4 no2_ppb studyid no2r_q1_1;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+***output the records with dust results;
+data twins48;
+set no2resultsb48;
+*hardcodes here have been removed to protect patient confidentiality;
+proc sort; by recruitid;
+run;
+
+***match up to record with data;
+data twins48_2;
+merge twins48 br;
+by studyid;
+drop studyid;
+run;
+
+proc sort data=no2resultsb48;  *contains all records, including blank ones for the twins;
+by recruitid;          
+proc sort data=twins48_2;    *contains just records for the two twins with data;
+by recruitid;          *recruitid here is the recruitid of the OTHER twin;
+
+***merge the two twin records back on no2 results matching by the alternative recruitid-overwrites the form data and the no2 results;
+data no2resultsc48;
+merge no2resultsb48 twins48_2;
+by recruitid;
+proc sort; by studyid event; run;
+
+proc print data=no2resultsc48;
+var studyid recruitid no2r_q1 no2r_q2a no2r_q3a no2r_q4 no2_ppb studyid no2r_q1_1;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+***************
+END OF TWIN FIX
+*************** ;
+
+*Set the 3mo and 48mo data together;
+data no2resultsc;
+ set no2resultsc3 no2resultsc48;
+ by studyid event;
+run;
+
+proc sort data=no2resultsc nodupkey dupout=dups; by studyid event no2r_q1_1 ; run ;
+
+/*************************************************************************************
+ Prep No2 dataset - change var names/labels and drop vars 
+**************************************************************************************/
+data no2results_1 ;
+   set no2resultsc;
+   **keep only 'f' samples per Cindy ;
+   where NO2R_q1_1='f' ;
+
+   if status= '  ' then delete;
+   if event='3-Month Home Visit' then avisit=3;
+   if event='HOME EVAL YEARS 4' then avisit=48;
+
+   rename NO2R_q2a=drop_date 
+         NO2R_q2b=drop_time 
+         NO2R_q3a=pickup_date 
+         NO2R_q3b=pickup_time 
+         NO2R_q4=total_time 
+         NO2R_q5=no2_raw_ug 
+         NO2R_q6=no2_raw_ppb 
+         HEQ_q4=gas_stove_oven 
+         NO2R_q1_1=sample_type 
+         NO2R_q1=sample_id
+          ;
+
+   ***KJ: Get rid of those 4-5 year samples who have missing drop off/pick up date and time info 
+      bc they have not been integrated exposure data with these yet ;
+   if NO2R_q2a=.m and NO2R_q2b=.m and NO2R_q3a=.m and NO2R_q3b=.m then delete ;
+
+   **SL update so that year will merge; 
+   if event ='HOME EVAL YEARS 4 AND 5' then avisit = 48;
+
+   drop astudyid _type_ _freq_ recruitid NO2R_q7 site ;
+
+   label blank="Mean value of blanks (in ug) by site" ;
+   label NO2R_q6="Unadjusted No2 Result in ppb" ;
+run;      
+
+***No dups as of 6/15/2017 ;
+proc sort data=   no2results_1 nodupkey dupout=test_ids ; by studyid event; run ;
+
+/*************************************************************************************
+ Create Shell - will need to add in later visits when ready
+**************************************************************************************/
+data shell3;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 3 ;
+  if avisit = 3 then year=1;
+  output;
+ end;
+ do avisit = 48 ;
+  if avisit = 48 then year=4;
+  output;
+ end;
+
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=no2results_1   ; by studyid avisit; run ;
+proc sort data=shell3         ; by studyid avisit; run ;
+
+data derive.no2results;
+ merge shell3 no2results_1(in=b) ;
+ by studyid avisit ;
+ if b=1 then no2results = 1 ; else no2results = 0 ;
+run;
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+ %gitGot(repo = https://github.com/RhoInc/sas-codebook,
+         folder = Macros);
+
+%codebook_generic
+        (data = derive.no2results,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.no2results,*/
+/*          pdfname=no2results,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+*** 4. Save Log and Output ****************************************************;
+
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+ods select Position;
+proc contents data=derive.no2results position; run;
+run;
+ods select default;

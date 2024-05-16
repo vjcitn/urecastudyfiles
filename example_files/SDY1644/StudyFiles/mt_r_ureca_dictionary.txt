@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	485	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""MT"", ""MT"")"
+3	4	evid	evid	dbl	numeric	double	2467	0	c(30736, 63231)
+4	5	event	event	chr	character	character	6	0	"c(""108-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	7	0	"c("".x"", ""96"")"
+8	9	MT_q1	Were meals/snacks given to family	dbl	numeric	double	3	349	c(0, 1)
+9	10	MT_q1a	Which meal given	dbl	numeric	double	4	869	c(1, 3)
+10	11	MT_q1b	Number of people fed	dbl	numeric	double	7	869	c(1, 6)
+11	12	MT_q1c	Total amount given	dbl	numeric	double	279	869	c(3.75, 36.25)
+12	13	aVisitDY	Visit Day	dbl	numeric	double	740	245	c(2156, 3842)

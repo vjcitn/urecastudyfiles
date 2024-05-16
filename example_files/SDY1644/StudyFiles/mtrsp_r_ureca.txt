@@ -1,0 +1,147 @@
+Accession	group	form	evid	event	version	status	aTI	aVisit	MTRSP_q1b	MTRSP_q2b	MTRSP_q3	MTRSP_q3a	MTRSP_q4	MTRSP_q4a	aCompletionDY	MTRSP_q1aDY	MTRSP_q2aDY
+SUB231036	Atopic	MTRSP	41395	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231036	Atopic	MTRSP	1929	24-Month Clinic Visit	1.0	complete	mt	24	12:20:00	14:00:00	1	10	1	10	713	713	713
+SUB231039	Atopic	MTRSP	2423	12-Month Clinic Visit	1.0	complete	mt	12	14:20:00	15:00:00	1	2.56	1	2	456	456	456
+SUB231044	Atopic	MTRSP	2868	12-Month Clinic Visit	1.0	complete	mt	12	13:50:00	05:00:00	1	8	1	2	437	437	438
+SUB231045	Atopic	MTRSP	3063	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231045	Atopic	MTRSP	41861	Maternal Blood Draw	1.0	complete	jmr	mb	11:00:00	14:30:00	0		0		1577	1577	1577
+SUB231049	Atopic	MTRSP	3489	12-Month Clinic Visit	1.0	complete	mt	12	14:04:00	15:00:00	1	8	1	2	429	429	429
+SUB231050	Atopic	MTRSP	3505	12-Month Clinic Visit	1.0	complete	mt	12	11:15:00	13:00:00	1	9	1	2	412	412	412
+SUB231051	Atopic	MTRSP	3521	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231051	Atopic	MTRSP	3517	24-Month Clinic Visit	1.0	complete	mt	24	14:19:00	15:30:00	1	10	1	10	726	726	726
+SUB231052	Atopic	MTRSP	4489	12-Month Clinic Visit	1.0	complete	mt	12	14:15:00	15:00:00	0		1	2.4	397	397	397
+SUB231053	Atopic	MTRSP	4505	12-Month Clinic Visit	1.0	complete	mt	12	11:25:00	14:00:00	1	6.93	1	2	366	366	366
+SUB231054	Atopic	MTRSP	4522	12-Month Clinic Visit	1.0	complete	mt	12	11:00:00	12:00:00	1	1.68	1	2	374	374	374
+SUB231055	Atopic	MTRSP	4539	12-Month Clinic Visit	1.0	complete	mt	12	11:20:00	12:30:00	0		0		366	366	366
+SUB231056	Atopic	MTRSP	4942	12-Month Clinic Visit	1.0	complete	mt	12	14:37:00	06:00:00	1	8	1	2	384	384	385
+SUB231057	Atopic	MTRSP	9660	12-Month Clinic Visit	1.0	complete	mt	12	11:15:00	13:30:00	0		0		384	384	384
+SUB231058	Atopic	MTRSP	5415	12-Month Clinic Visit	1.0	complete	mt	12	13:25:00	14:00:00	0		1	1.4	339	339	339
+SUB231059	Atopic	MTRSP	5540	12-Month Clinic Visit	1.0	complete	mt	12	13:40:00	15:00:00	1	8	1	2	352	352	352
+SUB231060	Atopic	MTRSP	5556	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231060	Atopic	MTRSP	5552	24-Month Clinic Visit	1.0	complete	mt	24	13:10:00	14:15:00	1	13	1	10	712	712	712
+SUB231061	Atopic	MTRSP	5576	12-Month Clinic Visit	1.0	complete	mt	12	11:20:00	13:00:00	0		0		369	369	369
+SUB231063	Atopic	MTRSP	5692	12-Month Clinic Visit	1.0	complete	mt	12	11:52:00	14:00:00	0		1	2.4	447	447	447
+SUB231064	Atopic	MTRSP	5811	12-Month Clinic Visit	1.0	complete	mt	12	11:15:00	12:30:00	1	4.8	1	2	368	368	368
+SUB231065	Atopic	MTRSP	6041	12-Month Clinic Visit	1.0	complete	mt	12	11:05:00	14:00:00	1	8	1	2	363	363	363
+SUB231066	Atopic	MTRSP	6678	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231067	Atopic	MTRSP	6694	12-Month Clinic Visit	1.0	complete	mt	12	10:40:00	12:30:00	1	8	1	2	371	371	371
+SUB231070	Atopic	MTRSP	13323	12-Month Clinic Visit	1.0	complete	mt	12	11:59:00	13:00:00	1	2	1	2	378	378	378
+SUB231071	Atopic	MTRSP	7053	12-Month Clinic Visit	1.0	complete	mt	12	11:15:00	13:35:00	0		0		402	402	402
+SUB231072	Atopic	MTRSP	7269	12-Month Clinic Visit	1.0	complete	mt	12	13:35:00	15:00:00	0		1	3.2	335	335	335
+SUB231073	Atopic	MTRSP	7285	12-Month Clinic Visit	1.0	complete	mt	12	11:30:00	14:00:00	1	2.8	1	2	349	349	349
+SUB231074	Atopic	MTRSP	7352	12-Month Clinic Visit	1.0	complete	mt	12	12:45:00	15:00:00	1	8	1	8	401	401	401
+SUB231075	Atopic	MTRSP	7560	12-Month Clinic Visit	1.0	complete	mt	12	11:04:00	13:00:00	1	3.75	1	2	343	343	343
+SUB231076	Atopic	MTRSP	8067	12-Month Clinic Visit	1.0	complete	mt	12	13:30:00	15:00:00	0		1	7.2	394	394	394
+SUB231077	Atopic	MTRSP	8086	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231078	Atopic	MTRSP	8344	12-Month Clinic Visit	1.0	complete	mt	12	12:35:00	14:00:00	1	4.8	1	2	334	334	334
+SUB231079	Atopic	MTRSP	8360	12-Month Clinic Visit	1.0	complete	mt	12	11:25:00	14:00:00	0		1	2.4	353	353	353
+SUB231080	Atopic	MTRSP	21490	24-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231080	Atopic	MTRSP	21494	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231080	Atopic	MTRSP	21486	36-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231081	Atopic	MTRSP	8392	12-Month Clinic Visit	1.0	complete	mt	12	11:30:00	14:30:00	1	8	1	2	370	370	370
+SUB231082	Atopic	MTRSP	8408	12-Month Clinic Visit	1.0	complete	mt	12	12:07:00	14:00:00	1	5.2	1	2	354	354	354
+SUB231083	Atopic	MTRSP	8424	12-Month Clinic Visit	1.0	complete	mt	12	12:00:00	13:00:00	0		1	0.7	357	357	357
+SUB231084	Atopic	MTRSP	8704	12-Month Clinic Visit	1.0	complete	mt	12	12:10:00	14:00:00	0		1	2.8	360	360	360
+SUB231085	Atopic	MTRSP	9226	12-Month Clinic Visit	1.0	complete	mt	12	12:40:00	16:30:00	0		1	1.6	365	365	365
+SUB231086	Atopic	MTRSP	9293	12-Month Clinic Visit	1.0	complete	mt	12	12:05:00	14:00:00	0		0		366	366	366
+SUB231087	Atopic	MTRSP	9325	12-Month Clinic Visit	1.0	complete	mt	12	14:22:00	15:00:00	1	10	1	10	349	349	349
+SUB231090	Atopic	MTRSP	9532	12-Month Clinic Visit	1.0	complete	mt	12	11:30:00	13:15:00	0		0		397	397	397
+SUB231091	Atopic	MTRSP	9548	12-Month Clinic Visit	1.0	complete	mt	12	13:45:00	15:00:00	0		1	2.2	340	340	340
+SUB231092	Atopic	MTRSP	9612	12-Month Clinic Visit	1.0	complete	mt	12	12:30:00	15:00:00	0		0		353	353	353
+SUB231093	Atopic	MTRSP	9644	12-Month Clinic Visit	1.0	complete	mt	12	12:20:00	15:00:00	1	8	1	2	347	347	347
+SUB231094	Atopic	MTRSP	9962	12-Month Clinic Visit	1.0	complete	mt	12	12:20:00	14:00:00	1	10	1	10	447	447	447
+SUB231095	Atopic	MTRSP	10480	12-Month Clinic Visit	1.0	complete	mt	12	11:20:00	12:40:00	1	4	1	2	360	360	360
+SUB231096	Atopic	MTRSP	41817	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231096	Atopic	MTRSP	10500	12-Month Clinic Visit	1.0	complete	mt	12	15:00:00	15:30:00	1	10	1	10	382	382	382
+SUB231097	Atopic	MTRSP	43561	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231097	Atopic	MTRSP	10545	12-Month Clinic Visit	1.0	complete	mt	12	11:35:00	12:45:00	1	10	1	7.6	385	385	385
+SUB231098	Atopic	MTRSP	10737	12-Month Clinic Visit	1.0	complete	mt	12	12:09:00	13:30:00	1	8	1	5.2	368	368	368
+SUB231099	Atopic	MTRSP	10753	12-Month Clinic Visit	1.0	complete	mt	12	15:25:00	16:00:00	1	10	1	7.2	377	377	377
+SUB231100	Atopic	MTRSP	10769	12-Month Clinic Visit	1.0	complete	mt	12	11:00:00	12:15:00	0		1	2.8	359	359	359
+SUB231101	Atopic	MTRSP	10785	12-Month Clinic Visit	1.0	complete	mt	12	11:25:00	13:45:00	1	8	1	2.8	341	341	341
+SUB231102	Atopic	MTRSP	10802	12-Month Clinic Visit	1.0	complete	mt	12	13:30:00	15:30:00	1	10	1	5.6	373	373	373
+SUB231102	Atopic	MTRSP	42045	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231103	Atopic	MTRSP	10821	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231104	Atopic	MTRSP	10840	12-Month Clinic Visit	1.0	complete	mt	12	11:10:00	14:00:00	1	15	1	10	450	450	450
+SUB231105	Atopic	MTRSP	10856	12-Month Clinic Visit	1.0	complete	mt	12	15:00:00	15:20:00	1	10	1	10	399	399	399
+SUB231106	Atopic	MTRSP	19110	12-Month Clinic Visit	1.0	complete	mt	12	12:15:00	13:45:00	1	11.1	1	10	414	414	414
+SUB231107	Atopic	MTRSP	43566	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231107	Atopic	MTRSP	11106	12-Month Clinic Visit	1.0	complete	mt	12	11:30:00	15:50:00	1	10	1	10	380	380	380
+SUB231108	Atopic	MTRSP	11170	12-Month Clinic Visit	1.0	complete	mt	12	15:00:00	15:30:00	1	10	1	10	364	363	363
+SUB231109	Atopic	MTRSP	41658	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231109	Atopic	MTRSP	11357	12-Month Clinic Visit	1.0	complete	mt	12	11:30:00	13:00:00	1	5	1	1.4	367	367	367
+SUB231110	Atopic	MTRSP	11485	12-Month Clinic Visit	1.0	complete	mt	12	14:30:00	15:00:00	1	10	1	10	345	345	345
+SUB231110	Atopic	MTRSP	42029	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231111	Atopic	MTRSP	11598	12-Month Clinic Visit	1.0	complete	mt	12	14:50:00	15:00:00	1	10.2	1	10	400	400	400
+SUB231112	Atopic	MTRSP	11606	36-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231112	Atopic	MTRSP	11614	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231113	Atopic	MTRSP	11651	12-Month Clinic Visit	1.0	complete	mt	12	12:30:00	14:15:00	1	10	1	10	448	448	448
+SUB231114	Atopic	MTRSP	21469	12-Month Clinic Visit	1.0	complete	mt	12	14:26:00	15:45:00	1	10	1	10	484	484	484
+SUB231115	Atopic	MTRSP	12078	12-Month Clinic Visit	1.0	complete	mt	12	11:45:00	14:15:00	1	10	1	5	422	422	422
+SUB231116	Atopic	MTRSP	12165	12-Month Clinic Visit	1.0	complete	mt	12	11:15:00	14:30:00	1	10	1	6.4	355	355	355
+SUB231117	Atopic	MTRSP	43685	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231117	Atopic	MTRSP	12181	12-Month Clinic Visit	1.0	complete	mt	12	11:45:00	12:30:00	1	10	1	9.4	356	356	356
+SUB231118	Atopic	MTRSP	44795	Maternal Blood Draw	1.0	complete	jmr	mb	11:10:00	11:30:00	0		0		1548	1548	1548
+SUB231118	Atopic	MTRSP	12197	12-Month Clinic Visit	1.0	complete	mt	12	15:30:00	16:00:00	1	10.8	1	10	349	349	349
+SUB231119	Atopic	MTRSP	12426	12-Month Clinic Visit	1.0	complete	mt	12	14:00:00	14:40:00	1	25	1	10	360	360	360
+SUB231120	Atopic	MTRSP	12540	12-Month Clinic Visit	1.0	complete	mt	12	12:37:00	13:30:00	1	10	1	10	368	368	368
+SUB231121	Atopic	MTRSP	12563	12-Month Clinic Visit	1.0	complete	mt	12	12:55:00	13:30:00	1	10	1	10	363	363	363
+SUB231122	Atopic	MTRSP	12579	12-Month Clinic Visit	1.0	complete	mt	12	14:15:00	15:00:00	1	6.25	1	6.25	379	379	379
+SUB231123	Atopic	MTRSP	12595	12-Month Clinic Visit	1.0	complete	mt	12	11:30:00	14:00:00	1	10	1	10	400	400	400
+SUB231124	Atopic	MTRSP	12618	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231124	Atopic	MTRSP	12614	24-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231125	Atopic	MTRSP	43826	Maternal Blood Draw	1.0	missing	.x	.x									
+SUB231125	Atopic	MTRSP	12638	12-Month Clinic Visit	1.0	complete	mt	12	10:45:00	14:40:00	1	11	1	10	365	365	365
+SUB231127	Atopic	MTRSP	12820	12-Month Clinic Visit	1.0	complete	mt	12	11:37:00	13:00:00	1	9.5	1	9.5	381	381	381
+SUB231128	Atopic	MTRSP	12868	12-Month Clinic Visit	1.0	complete	mt	12	12:25:00	14:30:00	1	8	1	7	357	357	357
+SUB231130	Atopic	MTRSP	12900	12-Month Clinic Visit	1.0	complete	mt	12	10:45:00	15:00:00	1	10	1	10	455	455	455
+SUB231131	Atopic	MTRSP	13032	12-Month Clinic Visit	1.0	complete	mt	12	12:20:00	13:00:00	1	6	1	6	374	374	374
+SUB231132	Atopic	MTRSP	13195	12-Month Clinic Visit	1.0	complete	mt	12	10:00:00	13:00:00	1	11.8	1	10	361	361	361
+SUB231133	Atopic	MTRSP	13278	24-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231133	Atopic	MTRSP	13274	36-Month Clinic Visit	1.0	complete	jmr	36	11:15:00	15:40:00	1	2	1	6	1116	1116	1116
+SUB231133	Atopic	MTRSP	13282	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231134	Atopic	MTRSP	13456	12-Month Clinic Visit	1.0	complete	wwc	12	13:30:00	14:30:00	1	10	1	6	416	416	416
+SUB231135	Atopic	MTRSP	13524	12-Month Clinic Visit	1.0	complete	mt	12	12:15:00	14:00:00	1	10	1	10	375	375	375
+SUB231136	Atopic	MTRSP	13611	12-Month Clinic Visit	1.0	complete	wwc	12	14:55:00	15:30:00	1	10	1	2	406	406	406
+SUB231137	Atopic	MTRSP	13822	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231138	Atopic	MTRSP	13909	12-Month Clinic Visit	1.0	complete	wwc	12	11:05:00	12:00:00	1	10	1	6	404	404	404
+SUB231139	Atopic	MTRSP	13954	12-Month Clinic Visit	1.0	complete	mt	12	12:45:00	14:30:00	1	10	1	10	355	355	355
+SUB231141	Atopic	MTRSP	14232	12-Month Clinic Visit	1.0	complete	mt	12	12:20:00	14:05:00	1	10	1	10	407	407	407
+SUB231142	Atopic	MTRSP	14252	12-Month Clinic Visit	1.0	complete	mt	12	16:00:00	16:55:00	1	16	1	10	420	420	420
+SUB231143	Non-atopic	MTRSP	14398	24-Month Clinic Visit	1.0	complete	mt	24	10:45:00	14:48:00	1	12	1	10	824	824	824
+SUB231144	Atopic	MTRSP	14411	12-Month Clinic Visit	1.0	complete	mt	12	14:00:00	15:15:00	1	10	1	10	394	394	394
+SUB231145	Non-atopic	MTRSP	14426	12-Month Clinic Visit	1.0	complete	wwc	12	13:00:00	14:00:00	1	8	0		385	385	385
+SUB231146	Atopic	MTRSP	14443	12-Month Clinic Visit	1.0	complete	mt	12	12:20:00	13:50:00	1	12	1	12	417	417	417
+SUB231147	Non-atopic	MTRSP	14496	24-Month Clinic Visit	1.0	complete	mt	24	11:30:00	13:25:00	1	10	1	7	747	747	747
+SUB231147	Non-atopic	MTRSP	14492	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231148	Atopic	MTRSP	14501	36-Month Clinic Visit	1.0	complete	jmr	36	09:44:00	14:00:00	0		0		1211	1211	1211
+SUB231148	Atopic	MTRSP	14505	24-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231148	Atopic	MTRSP	14509	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231149	Atopic	MTRSP	14563	12-Month Clinic Visit	1.0	complete	mt	12	10:38:00	14:00:00	1	11	1	10	361	361	361
+SUB231150	Atopic	MTRSP	14751	24-Month Clinic Visit	1.0	complete	mt	24	10:15:00	14:30:00	1	15.2	1	10	746	746	746
+SUB231151	Non-atopic	MTRSP	14771	12-Month Clinic Visit	1.0	complete	mt	12	11:50:00	13:37:00	1	15	1	10	403	403	403
+SUB231153	Non-atopic	MTRSP	14804	12-Month Clinic Visit	1.0	complete	mt	12	12:40:00	13:47:00	1	24.8	1	10	439	439	439
+SUB231154	Non-atopic	MTRSP	14860	12-Month Clinic Visit	1.0	complete	mt	12	12:00:00	13:40:00	1	10	1	9	410	410	410
+SUB231155	Atopic	MTRSP	14879	12-Month Clinic Visit	1.0	complete	mt	12	11:45:00	13:40:00	1	9	1	9	410	410	410
+SUB231156	Non-atopic	MTRSP	15045	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231156	Non-atopic	MTRSP	15053	36-Month Clinic Visit	1.0	complete	mt	36	14:50:00	14:55:00	1	7	1	7	1169	1169	1169
+SUB231156	Non-atopic	MTRSP	15049	24-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231157	Non-atopic	MTRSP	15177	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231158	Non-atopic	MTRSP	15197	12-Month Clinic Visit	1.0	complete	mt	12	14:15:00	14:50:00	1	15.1	1	10	447	447	447
+SUB231159	Atopic	MTRSP	15208	36-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231159	Atopic	MTRSP	15209	33-Month Clinic Visit	1.0	complete	mt	33	14:45:00	16:15:00	1	10	1	10	1009	1009	1009
+SUB231161	Atopic	MTRSP	15357	12-Month Clinic Visit	1.0	complete	mt	12	11:40:00	13:30:00	1	10	1	10	381	381	381
+SUB231163	Atopic	MTRSP	15524	12-Month Clinic Visit	1.0	complete	mt	12	15:55:00	16:30:00	1	14	1	10	407	407	407
+SUB231164	Atopic	MTRSP	15540	12-Month Clinic Visit	1.0	complete	mt	12	09:40:00	12:45:00	1	11	1	10	449	449	449
+SUB231165	Atopic	MTRSP	15556	12-Month Clinic Visit	1.0	complete	mt	12	15:45:00	16:55:00	1	11	1	10	377	377	377
+SUB231166	Atopic	MTRSP	15940	12-Month Clinic Visit	1.0	complete	mt	12	01:10:00	14:00:00	1	8.5	1	8	455	455	455
+SUB231167	Atopic	MTRSP	16010	12-Month Clinic Visit	1.0	complete	wwc	12	12:20:00	14:00:00	1	8	0		415	415	415
+SUB231167	Atopic	MTRSP	16006	24-Month Clinic Visit	1.0	complete	mt	24	11:05:00	12:45:00	1	10	1	10	787	787	787
+SUB231168	Atopic	MTRSP	16666	24-Month Clinic Visit	1.0	complete	mt	24	14:45:00	15:50:00	1	20	1	20	829	829	829
+SUB231168	Atopic	MTRSP	16670	12-Month Clinic Visit	1.0	complete	mt	12	17:00:00	18:00:00	1	10	1	10	465	465	465
+SUB231169	Non-atopic	MTRSP	19301	24-Month Clinic Visit	1.0	complete	mt	24	13:10:00	15:45:00	1	10	1	8	819	819	819
+SUB231169	Non-atopic	MTRSP	19297	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231170	Non-atopic	MTRSP	17510	12-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231170	Non-atopic	MTRSP	17514	24-Month Clinic Visit	1.0	missing	.x	.x									
+SUB231171	Non-atopic	MTRSP	18894	12-Month Clinic Visit	1.0	complete	mt	12	13:00:00	14:24:00	1	12	1	10	449	449	449
+SUB231172	Non-atopic	MTRSP	18976	12-Month Clinic Visit	1.0	complete	mt	12	12:20:00	14:00:00	1	11	1	10	441	441	441

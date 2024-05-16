@@ -1,0 +1,28 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	2	0	c(3, 48)
+5	6	year		dbl	numeric	double	2	0	c(1, 4)
+6	7	nico_label	Nicotine Field Sample Label	chr	character	character	935	0	"c("""", ""ureca-nic-782"")"
+7	8	start_time	Nicotine Sampler - Time Set Up Was Completed	time	"c(""hms"", ""difftime"")"	double	389	280	c(2400, 80460)
+8	9	numsmokers_14	Number of Persons Smoking in Home in Past 14 days	dbl	numeric	double	14	286	c(0, 50)
+9	10	end_time	Nicotine Sampler - Time Returned to Storage Bottle	time	"c(""hms"", ""difftime"")"	double	329	279	c(3300, 83580)
+10	11	version	version	chr	character	character	2	0	"c("""", ""1.0"")"
+11	12	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+12	13	SampleID	SampleID	chr	character	character	935	0	"c("""", ""99856"")"
+13	14	sample_type	Sample Type	chr	character	character	2	0	"c("""", ""f"")"
+14	15	nico_results	Nicotine Results	dbl	numeric	double	201	286	c(0, 18.31)
+15	16	Nic_time	Total time nicotine sampler was there	dbl	numeric	double	711	280	c(10080, 125275)
+16	17	Nico_ug	Nicotine exposure per day (result in ug)	dbl	numeric	double	820	287	c(0, 37.8919572199596)
+17	18	l_nico_ug	Nicotine (log10+0.01) exposure per day	dbl	numeric	double	820	287	c(-2, 1.57866163708895)
+18	19	det_nico	Detectable nicotine in home	dbl	numeric	double	3	287	c(0, 1)
+19	20	smoking14	Smoking in home during last 14 days	dbl	numeric	double	3	279	c(0, 1)
+20	21	nicotine		dbl	numeric	double	2	0	c(0, 1)
+21	22	nic_start_tm		time	"c(""hms"", ""difftime"")"	double	389	280	c(2400, 80460)
+22	23	nic_end_tm		time	"c(""hms"", ""difftime"")"	double	329	279	c(3300, 83580)
+23	24	START_DATE_DY		dbl	numeric	double	368	280	c(22, 1843)
+24	25	END_DATE_DY		dbl	numeric	double	373	279	c(36, 1855)
+25	26	NIC_START_DY		dbl	numeric	double	368	280	c(22, 1843)
+26	27	NIC_END_DY		dbl	numeric	double	373	279	c(36, 1855)

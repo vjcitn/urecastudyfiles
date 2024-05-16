@@ -1,0 +1,71 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	12	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""MVS"", ""MVS"")"
+3	4	evid	evid	dbl	numeric	double	12	0	c(44234, 44595)
+4	5	event	event	chr	character	character	1	0	"c(""MiCHD Validation Study"", ""MiCHD Validation Study"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+7	8	aVisit	Visit	chr	character	character	1	0	"c(""mvs"", ""mvs"")"
+8	9	MVS_q1	MVS Study ID Number	dbl	numeric	double	1	12	
+9	10	MVS_q4	Sample Collection Summary - Start Time	time	"c(""hms"", ""difftime"")"	double	12	0	c(37980, 56100)
+10	11	MVS_q5	Sample Collection Summary - Temperature in Fahrenheit	dbl	numeric	double	12	0	c(75.2, 92.1)
+11	12	MVS_q6	Sample Collection Summary - Relative Humidity	dbl	numeric	double	12	0	c(26, 65)
+12	13	MVS_q7	Sample Collection Summary - Vacuum Number	dbl	numeric	double	2	0	c(1, 2)
+13	14	MVS_q8	Child's Bed - Was the bed sampled?	dbl	numeric	double	1	0	c(1, 1)
+14	15	MVS_q8_1	Bed Sample	chr	character	character	12	0	"c(""mbvs001"", ""mbvs056"")"
+15	16	MVS_q9	Child's Bed - How long ago did you last change/wash the sheets	dbl	numeric	double	3	0	c(1, 3)
+16	17	MVS_q9a	Child's Bed - How long ago did you wash the sheets - Time frame	dbl	numeric	double	2	0	c(1, 2)
+17	18	MVS_q10	Child's Bed - What is the size of the mattress that was sampled?	dbl	numeric	double	3	0	c(1, 3)
+18	19	MVS_q10a	Child's Bed - What is the size of the mattress that was sampled - Specify	chr	character	character	1	0	"c("".a"", "".a"")"
+19	20	MVS_q11a	Child's Bed - Length of Area Vacuumed on Bed	dbl	numeric	double	1	0	c(100, 100)
+20	21	MVS_q11b	Child's Bed - Width of Area Vacuumed on Bed	dbl	numeric	double	1	0	c(100, 100)
+21	22	MVS_q12a	Child's Bed - Impermeable Cover - Mattress	dbl	numeric	double	2	0	c(0, 1)
+22	23	MVS_q12b	Child's Bed - Impermeable Cover - Boxspring	dbl	numeric	double	2	0	c(0, 1)
+23	24	MVS_q12c	Child's Bed - Impermeable Cover - Boxspring	dbl	numeric	double	2	1	c(0, 0)
+24	25	MVS_q13	Child's Bed - List any deviations from the protocol for the bedroom bed collection	chr	character	character	2	0	"c("".a"", ""time collected 1 min. 45 sec. on mattress"")"
+25	26	MVS_q14	Child's Bedroom Floor - Was the bedroom floor sampled	dbl	numeric	double	1	0	c(1, 1)
+26	27	MVS_q14_1	Bedroom Floor Sample	chr	character	character	12	0	"c(""mbvs002"", ""mbvs057"")"
+27	28	MVS_q15	Child's Bedroom Floor - How long ago did you last vacuum this room	dbl	numeric	double	5	0	c(0, 12)
+28	29	MVS_q15a	Child's Bedroom Floor - How long ago did you last vacuum this room - Time frame	dbl	numeric	double	2	0	c(1, 2)
+29	30	MVS_q16a	Child's Bedroom Floor - Type of surface - Rug	dbl	numeric	double	2	0	c(0, 1)
+30	31	MVS_q16b	Child's Bedroom Floor - Type of surface - Linoleum/vinyl	dbl	numeric	double	1	0	c(0, 0)
+31	32	MVS_q16c	Child's Bedroom Floor - Type of surface - Tile	dbl	numeric	double	1	0	c(0, 0)
+32	33	MVS_q16d	Child's Bedroom Floor - Type of surface - Wood	dbl	numeric	double	2	0	c(0, 1)
+33	34	MVS_q16e	Child's Bedroom Floor - Type of surface - Concrete	dbl	numeric	double	1	0	c(0, 0)
+34	35	MVS_q16f	Child's Bedroom Floor - Type of surface - Other	dbl	numeric	double	1	0	c(0, 0)
+35	36	MVS_q16f1	Child's Bedroom Floor - type of surface - Other specify	chr	character	character	1	0	"c("".a"", "".a"")"
+36	37	MVS_q17a	Child's Bedroom Floor - Length of Area Vacuumed on the floor	dbl	numeric	double	1	0	c(100, 100)
+37	38	MVS_q17b	Child's Bedroom Floor - Width of Area Vacuumed on the floor	dbl	numeric	double	1	0	c(100, 100)
+38	39	MVS_q18	Child's Bedroom Floor - Was an adjacent 1-square meter area vacuumed	dbl	numeric	double	2	0	c(0, 1)
+39	40	MVS_q18_1	Adjacent 1-square meter Bedroom Floor Sample	chr	character	character	11	0	"c("".a"", ""mbvs058"")"
+40	41	MVS_q18a1	Child's Bedroom Floor - Length of Adjacent Area Vacuumed on the floor	dbl	numeric	double	3	2	c(100, 125)
+41	42	MVS_q18a2	Child's Bedroom Floor - Width of Adjacent Area Vacuumed on the floor	dbl	numeric	double	3	2	c(80, 100)
+42	43	MVS_q19	Child's Bedroom Floor - Was an adjacent 4-square meter area vaccumed	dbl	numeric	double	2	0	c(0, 1)
+43	44	MVS_q19_1	Adjacent 4-square meter Bedroom Floor Sample	chr	character	character	3	0	"c("".a"", ""mbvs048"")"
+44	45	MVS_q19a1	Child's Bedroom Floor - Length of Adjacent Area Vacuumed on the floor	dbl	numeric	double	2	10	c(200, 200)
+45	46	MVS_q19a2	Child's Bedroom Floor - Width of Adjacent 4 Square meter Area Vacuumed on the floor	dbl	numeric	double	2	10	c(200, 200)
+46	47	MVS_q20	Child's Bedroom Floor - List any deviations from the protocol for the bedroom floor collection	chr	character	character	1	0	"c("".a"", "".a"")"
+47	48	MVS_q21	Child's Living Room Floor - Was the living room floor sampled	dbl	numeric	double	1	0	c(1, 1)
+48	49	MVS_q21_1	Living Room Floor Sample	chr	character	character	12	0	"c(""mbvs004"", ""mbvs059"")"
+49	50	MVS_q22	Child's Living Room Floor - How long ago did you last vacuum this room	dbl	numeric	double	5	0	c(0, 7)
+50	51	MVS_q22a	Child's Living Room Floor - How long ago did you last vacuum this room - Time frame	dbl	numeric	double	1	0	c(1, 1)
+51	52	MVS_q23a	Child's Living Room Floor - Type of surface - Rug/carpet	dbl	numeric	double	2	0	c(0, 1)
+52	53	MVS_q23b	Child's Living Room Floor - Type of surface - Linoleum/vinyl	dbl	numeric	double	2	0	c(0, 1)
+53	54	MVS_q23c	Child's Living Room Floor - Type of surface - Tile	dbl	numeric	double	1	0	c(0, 0)
+54	55	MVS_q23d	Child's Living Room Floor - Type of surface - Wood	dbl	numeric	double	2	0	c(0, 1)
+55	56	MVS_q23e	Child's Living Room Floor - Type of surface - Concrete	dbl	numeric	double	1	0	c(0, 0)
+56	57	MVS_q23f	Child's Living Room Floor - Type of surface - Other	dbl	numeric	double	1	0	c(0, 0)
+57	58	MVS_q23f1	Child's Living Room Floor - Type of surface - Other specify	chr	character	character	1	0	"c("".a"", "".a"")"
+58	59	MVS_q24a	Child's Living Room Floor - Length of Area Vacuumed on floor	dbl	numeric	double	2	0	c(60, 100)
+59	60	MVS_q24b	Child's Living Room Floor - Width of Area Vacuumed on floor	dbl	numeric	double	2	0	c(100, 167)
+60	61	MVS_q25	Child's Living Room Floor - Was an adjacent 1-square meter area vacuumed	dbl	numeric	double	2	0	c(0, 1)
+61	62	MVS_q25_1	Adjacent 1-square Meter Living Room Floor Sample	chr	character	character	3	0	"c("".a"", ""mbvs050"")"
+62	63	MVS_q25a1	Child's Living Room Floor - Length of Adjacent Area Vacuumed on floor	dbl	numeric	double	2	10	c(100, 100)
+63	64	MVS_q25a2	Child's Living Room Floor - Width of Adjacent Area Vacuumed on floor	dbl	numeric	double	2	10	c(100, 100)
+64	65	MVS_q26	Child's Living Room Floor - Was an adjacent 4-square meter area vacuumed	dbl	numeric	double	2	0	c(0, 1)
+65	66	MVS_q26_1	Adjacent 4-square Meter Living Room Floor Sample	chr	character	character	11	0	"c("".a"", ""mbvs060"")"
+66	67	MVS_q26a1	Child's Living Room Floor - Length of Adjacent Area Vacuumed on the floor	dbl	numeric	double	4	2	c(200, 400)
+67	68	MVS_q26a2	Child's Living Room Floor - Width of Adjacent 4 Square meter Area Vacuumed on the floor	dbl	numeric	double	4	2	c(100, 200)
+68	69	MVS_q27	Child's Living Room Floor - List any deviations from the protocol for the living room floor collection	chr	character	character	4	0	"c("".a"", ""participant sweeps rug; no vaccum in the home.  no deviations to the protocol for sample collection."")"
+69	70	aVisitDY	Visit Day	dbl	numeric	double	12	0	c(1372, 1841)

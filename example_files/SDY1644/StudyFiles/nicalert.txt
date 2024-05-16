@@ -1,0 +1,135 @@
+%include 'S:\BASESTAT\RhoUtil\gridReset.sas';
+%gridReset(S:\RhoFED\ICAC\Studies\URECA\Prog\Derive);
+
+/*----------------------- Copyright 2017, Rho, Inc.  All rights reserved. ------------------------\
+
+  Study:       ICAC07 URECA
+
+   Program:    nicalert.sas
+
+     Purpose:  Urine test for ETS exposure (cotinine) done on UP (urine processing form)
+
+     Input:    S:\RhoFED\ICAC\Studies\URECA\Data\Master\up.sas7bdat
+
+     Output:   S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive\nicalert.sas7bdat
+
+     Macros:   
+
+/-------------------------------------------------------------------------------------------------\
+  Program history:
+\-------------------------------------------------------------------------------------------------/
+
+    Date       Programmer          Description
+    ---------  ------------------  --------------------------------------------------------------
+    29JUN2017  Andrew Moseby       Create
+    11MAY2018  Andrew Moseby       Convert m81->m84, include all 609, create nicalert var
+\------------------------------------------------------------------------------------------------*/
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=nicalert,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*-----   2. Main Body   -----*;
+
+proc sort data = master.up out = up; by studyid; run;
+
+data up2;
+   set up;
+   if event = '84-Month Clinic Visit' and avst ^= '84' then avst = '84';
+   avisit = input(strip(avst), 8.);
+   if not missing(avisit);
+run;
+
+proc freq data = up2;
+   table avisit ;
+run;
+*-----   Create shell   -----*;
+
+data shell;
+   set derive.groups;
+
+   site = substr(studyid, 4, 2);
+   label site = 'Study Site';
+   format site $site.;
+
+   do avisit = 84, 96, 120;
+      if avisit = 84 then year = 7;
+      else if avisit = 96 then year = 8;
+      else if avisit = 120 then year = 10;
+      output;
+   end;
+   keep studyid recruitid site avisit year;
+run;
+
+*-----   Merge and derive   -----*;
+
+proc sort data = up2; by studyid descending avisit; run;
+
+data up3;
+   set up2;
+   by studyid descending avisit;
+   retain yr7counter;
+   if avisit in (81 84) then yr7counter = sum(yr7counter, up_q1); *up_q1 = 1 if a nicalert test was done, missing otherwise.;
+   else yr7counter = 0;
+   if yr7counter = 2 then delete; *if both m81 and m84 results exist, delete m81;
+   if yr7counter = . and avisit = 81 then delete; *if neither m81 nor m84 results exist, delete record for m81;
+   if yr7counter = 1 and avisit = 81 and not up_q1 then delete; *if m84 results exist but not m81, delete record for m81;
+   drop yr7counter;
+   if avisit = 81 then avisit = 84;
+run;
+
+proc sort data = shell; by studyid descending avisit; run;
+proc sort data = up3; by studyid descending avisit; run;
+
+proc freq data = up3;
+   table avisit ;
+run;
+
+data up4;
+   merge up3(in = a) shell(in = keep);
+   by studyid descending avisit;
+   if keep;
+   if a then nicalert = 1; else nicalert = 0;
+
+   drop api ;
+run;
+
+proc freq data = up4;
+   table avisit*nicalert / out = test;
+run;
+
+proc sort data = up4 nodupkey out = up4_yr7 dupout = updup; where avisit = 84; by studyid; run;
+
+proc sort data = up4 out = derive.nicalert; by studyid avisit; run;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.nicalert
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+        proc freq data=derive.nicalert; table avisit*nicalert; run;
+
+
+        
+ods select Position;
+proc contents data=derive.nicalert position; run;
+run;
+ods select default;

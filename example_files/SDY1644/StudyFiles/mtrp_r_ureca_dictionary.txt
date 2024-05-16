@@ -1,0 +1,32 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	98	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""MTRP"", ""MTRP"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	3	0	"c(""complete"", ""unresolved"")"
+5	6	SampleID	SampleID	chr	character	character	100	0	"c(""400629"", ""777074"")"
+6	7	aTI	Processing Tech Initials	chr	character	character	9	0	"c("".m"", ""tmd"")"
+7	8	aVisit	Visit	chr	character	character	4	0	"c(""12"", ""36"")"
+8	9	MTRP_q1b	Time Sample Collected	time	"c(""hms"", ""difftime"")"	double	57	15	c(4200, 61200)
+9	10	MTRP_q2b	Time Sample Started Processing	time	"c(""hms"", ""difftime"")"	double	34	15	c(18000, 64800)
+10	11	MTRP_q3b	Time Sample Received By Harvard Lab	time	"c(""hms"", ""difftime"")"	double	49	15	c(32400, 84600)
+11	12	MTRP_q4b	Time Proliferation Assay was Conducted	time	"c(""hms"", ""difftime"")"	double	49	17	c(3000, 69600)
+12	13	MTRP_q4_1	Number of Cells Used for Proliferation Assay	dbl	numeric	double	57	17	c(0, 16.6)
+13	14	MTRP_q4c1b	Day Four - Undepleted Media	dbl	numeric	double	78	18	c(48, 8620)
+14	15	MTRP_q4c2b	Day Four - Depleted Media	dbl	numeric	double	80	18	c(66, 21073)
+15	16	MTRP_q4c3b	Day Four - Undepleted PHA	dbl	numeric	double	83	18	c(2575, 306226)
+16	17	MTRP_q4c4b	Day Four - Depleted PHA	dbl	numeric	double	83	18	c(627, 269005)
+17	18	MTRP_q5b	Time mRNA was Isolated	time	"c(""hms"", ""difftime"")"	double	49	18	c(14400, 69600)
+18	19	MTRP_q5_1	Number of Cells Used for mRNA Isolation	dbl	numeric	double	4	17	c(0, 2)
+19	20	MTRP_q5c1	CD45 Lymphogate - %CD3CD4CD25	dbl	numeric	double	81	6	c(1.4, 25.1)
+20	21	MTRP_q5c2	CD45 Lymphogate - %CD3CD4CD25 Bright	dbl	numeric	double	35	6	c(0.4, 25.7)
+21	22	MTRP_q5c3	'	dbl	numeric	double	38	7	c(0.4, 5.4)
+22	23	MTRP_q5d1	CD3 Gate - %CD3CD4CD25	dbl	numeric	double	82	6	c(1.4, 38.1)
+23	24	MTRP_q5d2	CD3 Gate - %CD3CD4CD25 Bright	dbl	numeric	double	33	6	c(0.6, 5.8)
+24	25	MTRP_q5d3	'	dbl	numeric	double	44	7	c(0.5, 6.7)
+25	26	aCompletionDY	Completion Day	dbl	numeric	double	66	15	c(335, 1170)
+26	27	MTRP_q1aDY	Day Sample Collected	dbl	numeric	double	69	15	c(334, 1169)
+27	28	MTRP_q2aDY	Day Sample Started Processing	dbl	numeric	double	68	15	c(334, 1169)
+28	29	MTRP_q3aDY	Day Sample Received By Harvard Lab	dbl	numeric	double	68	15	c(335, 1170)
+29	30	MTRP_q4aDY	Day Proliferation Assay was Conducted	dbl	numeric	double	65	17	c(335, 1170)
+30	31	MTRP_q5aDY	Day mRNA was Isolated	dbl	numeric	double	64	18	c(335, 1170)

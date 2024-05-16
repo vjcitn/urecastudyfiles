@@ -1,0 +1,371 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         06/07/06      Created Program 
+*                  05/04/07      Revised to use studyid/recruitid and update for new data
+*                  06/12/08      Revisions for final derived data
+*   K. Jaffee         03/15/11      Change template and naming conventions, merge shell
+*                              add in year 4 data (HE 4-5)
+*   A Hodges         06/27/11      Adding in year 4 data (HE 4-5)
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=nicotine,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm file '&gpgmpath\&gprog..sas replace;';
+
+*** 2. Main Body **************************************************************;
+
+* Main body of program starts here;
+
+proc format library=library;
+run;
+
+data pm; 
+   set master.pm; 
+   if astudyid='.x' then delete;
+    event=upcase(event);
+
+    *hard code handful of mismatches;
+*hardcodes here have been removed to protect patient confidentiality;
+
+   *delete records where no monitor was set except for the case of the URECA twins;
+*hardcodes here have been removed to protect patient confidentiality;
+run ;
+
+proc print; where PM_q1=0 and PM_q7=0; run;
+
+proc sort; by studyid acompletiondate; run ;
+
+data pmf; 
+   set master.pmf; 
+   if astudyid='.x' then delete; 
+   event=upcase(event);
+
+    *hardcodes here have been removed to protect patient confidentiality;
+run ;
+
+proc sort; by studyid acompletiondate; run ;
+
+proc freq data=pm; tables avisit/missing; run;
+proc freq data=pmf; tables avisit/missing; run;
+
+data bpm; 
+   set master.bpm; 
+   if astudyid='.x' then delete; 
+run ;
+
+proc sort; by studyid acompletiondate; run ;
+
+proc freq data=bpm; tables avisit/missing; run;
+
+**KJ: we will need to include 4-5 year home evals when needed ;
+data dropset; 
+   set master.eset;
+   event=upcase(event);
+   if event in ('3-MONTH HOME VISIT', 'RESCHEDULED HOME EVALUATION', 'HOME EVAL YEARS 4 AND 5');
+   where status='occurred';
+   keep studyid event id date_occurred;
+run;
+
+**AH: modify occurred date for cases where it appears that the drop off occurred on a diff day than rest of 3 mo visit;
+data dropset;
+ set dropset;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+*check for twins;
+proc sort data=master.eset out=twins (keep=studyid recruitid) nodupkey; by studyid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+proc print data=twins noobs; var studyid; run;
+
+proc sort data=dropset; by studyid date_occurred; run;
+
+**Match forms to IDs and parent IDs from eset;
+data pmmatch;
+   merge pm dropset (rename=(date_occurred=acompletiondate));
+   by studyid acompletiondate;
+   length matchid $ 8;
+  *hardcodes here have been removed to protect patient confidentiality;
+   else matchid=id;
+
+   *AH: fix one specific case where matchid is off - verified data in DMS for this case;
+  *hardcodes here have been removed to protect patient confidentiality;
+
+run ;
+
+proc sort; by studyid matchid; run;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data pickset; 
+   set master.eset;
+   event=upcase(event);
+   if event in ('POLLUTION MONITORING PICKUP');
+   if status='occurred';
+   matchid=parent_id;
+   keep studyid event id parent_id matchid date_occurred;
+run;
+
+proc sort; by studyid date_occurred; run ;
+
+**Match forms to IDs and parent IDs from eset;
+data pmfmatch;
+   merge pmf pickset (rename=(date_occurred=acompletiondate));
+   by studyid acompletiondate;
+run ;
+
+proc sort; by studyid matchid; run;
+
+data field repl;
+   merge pmmatch pmfmatch (rename=(acompletiondate=end_date) in=F);
+   by studyid matchid;
+   if F;   *only those that have been picked up so far;
+   keep studyid avisit pm_q7 pm_q8 pm_q9 pm_q10 pm_q11a pm_q11b pm_q12 end_date pmf_q8 type pmf_q1 pmf_q9;
+   if pm_q7=1 then do; type='F'; output field; end;
+   if pm_q9=1 then do; type='R'; output repl; end;
+run;
+
+data nico;
+set field (keep=studyid avisit pm_q8 pm_q11a pm_q11b end_date pmf_q8 type pmf_q1 pm_q12 pmf_q9
+         rename=(pm_q8=label pm_q11a=start_date pm_q11b=start_time pmf_q8=end_time
+         pm_q12=drop_comm pmf_q9=pick_comm))
+     repl (keep=studyid avisit pm_q10 pm_q11a pm_q11b end_date pmf_q8 type pmf_q1 pm_q12 pmf_q9
+         rename=(pm_q10=label pm_q11a=start_date pm_q11b=start_time pmf_q8=end_time
+         pm_q12=drop_comm pmf_q9=pick_comm))
+      bpm (keep=studyid avisit bpm_q7 bpm_q8a bpm_q8b bpm_q9a bpm_q9b bpm_q10
+         rename=(bpm_q7=label bpm_q8a=start_date bpm_q8b=start_time bpm_q9a=end_date bpm_q9b=end_time
+         bpm_q10=drop_comm)
+         in=B);
+if B then type='B';
+run ;
+
+*Code to add in needed twin data;
+data nico00 twinfix;
+ set nico;
+
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinfix00;
+ set twinfix;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data nico10;
+ set nico twinfix00;
+run;
+
+proc sort; by label; run ;
+
+data result;
+   set master.nr (rename=(nr_q2=label));
+run ;
+
+*Code to add in needed twin data;
+data result00 twinfix;
+ set result;
+ 
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinfix00;
+ set twinfix;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data result10;
+ set result twinfix00;
+
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+proc sort; by label; run ;
+
+*Sanity checks to look for possible missing records;
+*If no result then most likely not uploaded in the DMS;
+*If no record in nicotine data (PM, PMF, etc) then most likely form status not = complete;
+*Also, check listings for ID matches but typos in label variable;
+data check n_only (keep=studyid label aVisit start_date end_date) r_only (keep=studyid label sampleid);
+ merge nico10 (in=n) result10 (in=r);
+  by label;
+
+  if n and ~r then output n_only;
+  if ~n and r then output r_only;
+run;
+
+proc sort data=n_only; by studyid; run;
+proc sort data=r_only; by studyid; run;
+
+ods rtf style=journal file="C:\Documents and Settings\abhodges\Desktop\nicotine\listing2.rtf" notoc_data;
+proc print data=n_only noobs; where label ne '.a'; 
+title3 'Participants with No Matching Results';
+run;
+proc print data=r_only noobs; run;
+ods rtf close;
+
+/*************************************************************************************
+ Prep dataset
+**************************************************************************************/
+data nicotine_1 ;
+   merge nico10 (in=a) result10;
+   by label;
+    
+   **KJ: Keep only those in nico dataset...other is 4-5 year data which we can add in later ;
+   if a=1 ;
+   
+   ***AH: Assign visit codes based on date ranges of collection, setting the he4 visit to 48 (mo);
+   if year(start_date) lt 2009 then avisit="3";
+   else avisit="48";
+
+   ***CINDY: derive all nicotine variables ;
+   nic_start=dhms(start_date,0,0,start_time);
+   *else  starttime=dhms(icapd32a,12,0,0);
+
+   nic_end=dhms(end_date,0,0,end_time);
+   *else if fipa3>=0 then endtime=dhms(fipa2,0,0,fipa3);
+   *else endtime=dhms(fipa2,12,0,0);
+
+   Nic_time=(nic_end-nic_start)/60;
+   *if nic_time=. then nic_time=14*24*60;
+
+   Nico_ug=((nr_q3*1000000)/(nic_time*24));
+
+   l_nico_ug = log10(nico_ug+0.01) ;
+
+   if nico_ug > .z then det_nico=nico_ug>0.05;
+   label det_nico='Detectable nicotine in home';
+   format det_nico yesnofm.;
+
+   if pmf_q1 > . then smoking14=pmf_q1>0; 
+   label smoking14='Smoking in home during last 14 days';
+   format smoking14 yesnofm.;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+   **KJ: delete any where sample isn't 'f' ;
+   if NR_q1 ne 'f' then delete ;
+
+   rename label=nico_label 
+         PMF_q1=numsmokers_14
+         nr_q1=sample_type 
+         NR_q3=nico_results ;
+   label nic_start="Nicotine start SAS date/time" 
+         nic_end="Nicotine end SAS date/time" 
+         Nic_time="Total time nicotine sampler was there" 
+         Nico_ug="Nicotine exposure per day (result in ug)"  
+        l_nico_ug="Nicotine (log10+0.01) exposure per day" ;
+   
+    format nic_start nic_end datetime40.;
+
+   drop recruitid astudyid type ;  
+run;
+
+proc means data=nicotine_1 ;
+   var nico_results ;
+   where avisit="48" ;
+run ;
+
+proc sort data=nicotine_1; by studyid nic_start; run;
+
+proc print data=nicotine_1; where nic_start eq .; run;
+
+proc freq; tables avisit/missing; run;
+
+data nicotine_2 ;
+   set nicotine_1 (rename=(avisit=avisit_char));
+ 
+   avisit = input(put(avisit_char,$8.),8.);
+   drop avisit_char ;
+run ;
+
+***1 true dup deleted - 2/3/2017 ;
+proc sort data=nicotine_2 out=nicotine_clean nodup dupout=nic_dups ; by studyid avisit ; run ;
+
+/*************************************************************************************
+ Create Shell - will need to add more visits to this when needed 
+**************************************************************************************/
+data shell3;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 3 ;
+  if avisit = 3 then year=1;
+  output;
+ end;
+ do avisit = 48;
+  if avisit = 48 then year=4;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=nicotine_clean   ; by studyid avisit; run ;
+proc sort data=shell3       ; by studyid avisit; run ;
+
+data derive.nicotine ;
+ merge shell3 nicotine_clean(in=b) ;
+ by studyid avisit ;
+ if b=1 then nicotine = 1 ; else nicotine = 0 ;
+run;
+
+proc freq data=derive.nicotine; tables nicotine/missing; run;
+
+*** 3. Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+ %gitGot(repo = https://github.com/RhoInc/sas-codebook,
+         folder = Macros);
+
+%codebook_generic
+        (data = derive.nicotine,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*%inc "O:\Asthma\Apps\Cbk\codebook.sas";
+/*%codebook(file=derive.nicotine,
+          pdfname=nicotine,
+          formats=library,
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));
+*/
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+
+ods select Position;
+proc contents data=derive.nicotine position; run;
+run;
+ods select default;

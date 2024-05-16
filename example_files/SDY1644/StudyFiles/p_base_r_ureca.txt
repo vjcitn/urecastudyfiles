@@ -1,0 +1,2315 @@
+Accession	group	form	gender	language	lang_sp	cgv_language	cgv_lang_sp	relation
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	f	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	other	polish	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	f	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	other	french	other	french	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	other	french creole	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	not asked not pregna	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	other	haitian creole	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	other	french creole	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	other	portuguese creole	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	other	korean	.m	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	f	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	f	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	f	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	f	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	other	creole and french	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	other	frenchcreole	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	other	bengali	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	spanish	.m	spanish	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	.m	.m	.m	.m	.m
+		P_BASE	.m	english	.m	.m	.m	.m
+		P_BASE	.m	english	.m	english	.m	.m
+SUB230862	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230863	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230864	Atopic	P_BASE	f	english	.m	.m	.m	.m
+SUB230865	Atopic	P_BASE	m	english	.m	english	.m	7
+SUB230866	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230867	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230868	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230869	Atopic	P_BASE	m	english	.m	english	.m	7
+SUB230870	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230871	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230872	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230873	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230874	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230875	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230876	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230877	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230878	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230879	Atopic	P_BASE	f	english	.m	.m	.m	.m
+SUB230880	Atopic	P_BASE	m	english	.m	.m	.m	.m
+SUB230881	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230882	Atopic	P_BASE	m	english	.m	.m	.m	.m
+SUB230883	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230884	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230885	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230886	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230887	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230888	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB230889	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230890	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230891	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230892	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230893	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230894	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230895	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230896	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230897	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230898	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230899	Atopic	P_BASE	f	english	.m	english	.m	9
+SUB230900	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230901	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230902	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230903	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230904	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB230905	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB230906	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB230907	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230908	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230909	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB230910	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230911	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230912	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230913	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230914	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230915	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230916	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230917	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230918	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230919	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230920	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230921	Atopic	P_BASE	m	english	.m	english	.m	7
+SUB230922	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230923	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230924	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230925	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230926	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230927	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230928	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230929	Atopic	P_BASE	m	english	.m	english	.m	10
+SUB230930	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230931	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230932	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230933	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230934	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230935	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230936	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230937	Atopic	P_BASE	m	english	.m	english	.m	7
+SUB230938	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230939	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230940	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230941	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230942	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230943	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230944	Atopic	P_BASE	f	english	.m	english	.m	10
+SUB230945	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB230946	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230947	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230948	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230949	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230950	Atopic	P_BASE	m	english	.m	.m	.m	.m
+SUB230951	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230952	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230953	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230954	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230955	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230956	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230957	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230958	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230959	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230960	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230961	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230962	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230963	Atopic	P_BASE	f	english	.m	english	.m	3
+SUB230964	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230965	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230966	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230967	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230968	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230969	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230970	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230971	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230972	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230973	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230974	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230975	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230976	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230977	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230978	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230979	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230980	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB230981	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230982	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB230983	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230984	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230985	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230986	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB230987	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230988	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230989	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230990	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230991	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230992	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230993	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230994	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230995	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230996	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB230997	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB230998	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB230999	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231000	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231001	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231002	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231003	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231004	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231005	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231006	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231007	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231008	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231009	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231010	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231011	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231012	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231013	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231014	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231015	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231016	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231017	Non-atopic	P_BASE	f	english	.m	english	.m	7
+SUB231018	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231019	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231020	Atopic	P_BASE	m	english	.m	.m	.m	.m
+SUB231021	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231022	Non-atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231023	Non-atopic	P_BASE	f	english	.m	english	.m	3
+SUB231024	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231025	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231026	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231027	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231028	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231029	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231030	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231031	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231032	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231033	Atopic	P_BASE	f	english	.m	.m	.m	.m
+SUB231034	Atopic	P_BASE	f	english	.m	.m	.m	.m
+SUB231035	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231036	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231037	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231038	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231039	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231040	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB231041	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231042	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231043	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231044	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231045	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231046	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231047	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231048	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231049	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231050	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231051	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231052	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231053	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231054	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231055	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231056	Atopic	P_BASE	m	spanish	.m	spanish	.m	.m
+SUB231057	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231058	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231059	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231060	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231061	Atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231062	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231063	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231064	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231065	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231066	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231067	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231068	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231069	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231070	Atopic	P_BASE	f	english	.m	english	.m	7
+SUB231071	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231072	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231073	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB231074	Atopic	P_BASE	m	english	.m	english	.m	7
+SUB231075	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231076	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231077	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231078	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231079	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231080	Atopic	P_BASE	f	english	.m	english	.m	10
+SUB231081	Atopic	P_BASE	m	spanish	.m	spanish	.m	1
+SUB231082	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231083	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231084	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231085	Atopic	P_BASE	f	spanish	.m	spanish	.m	.m
+SUB231086	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231087	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231088	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231089	Atopic	P_BASE	m	english	.m	.m	.m	.m
+SUB231090	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231091	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231092	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231093	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231094	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231095	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231096	Atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231097	Atopic	P_BASE	m	spanish	.m	spanish	.m	1
+SUB231098	Atopic	P_BASE	m	spanish	.m	spanish	.m	1
+SUB231099	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231100	Atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231101	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB231102	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231103	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231104	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231105	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231106	Atopic	P_BASE	f	english	.m	english	.m	10
+SUB231107	Atopic	P_BASE	m	spanish	.m	spanish	.m	1
+SUB231108	Atopic	P_BASE	m	spanish	.m	spanish	.m	.m
+SUB231109	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231110	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231111	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231112	Atopic	P_BASE	f	spanish	.m	.m	.m	.m
+SUB231113	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231114	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231115	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231116	Atopic	P_BASE	f	spanish	.m	.m	.m	1
+SUB231117	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231118	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231119	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231120	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231121	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231122	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231123	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231124	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231125	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231126	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231127	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231128	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231129	Non-atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231130	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231131	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231132	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231133	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231134	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231135	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231136	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231137	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231138	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231139	Atopic	P_BASE	m	spanish	.m	spanish	.m	1
+SUB231140	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231141	Atopic	P_BASE	m	spanish	.m	spanish	.m	.m
+SUB231142	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231143	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231144	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231145	Non-atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231146	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231147	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231148	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231149	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231150	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231151	Non-atopic	P_BASE	m	spanish	.m	.m	.m	1
+SUB231152	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231153	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231154	Non-atopic	P_BASE	m	spanish	.m	spanish	.m	.m
+SUB231155	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231156	Non-atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231157	Non-atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231158	Non-atopic	P_BASE	m	english	.m	.m	.m	1
+SUB231159	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231160	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231161	Atopic	P_BASE	m	english	.m	english	.m	7
+SUB231162	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231163	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB231164	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231165	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231166	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231167	Atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231168	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231169	Non-atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231170	Non-atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231171	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231172	Non-atopic	P_BASE	f	spanish	.m	spanish	.m	1
+SUB231173	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231174	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231175	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231176	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231177	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231178	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231179	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231180	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231181	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231182	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231183	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231184	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231185	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231186	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231187	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231188	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231189	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231190	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231191	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231192	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231193	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231194	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231195	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231196	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231197	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231198	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231199	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231200	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231201	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231202	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231203	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231204	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB231205	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231206	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231207	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231208	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231209	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231210	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231211	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231212	Atopic	P_BASE	m	spanish	.m	spanish	.m	.m
+SUB231213	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231214	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231215	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231216	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231217	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231218	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231219	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231220	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231221	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231222	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231223	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231224	Atopic	P_BASE	f	english	.m	english	.m	3
+SUB231225	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231226	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231227	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231228	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231229	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231230	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB231231	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231232	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231233	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231234	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231235	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231236	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231237	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231238	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231239	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231240	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231241	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231242	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231243	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231244	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231245	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231246	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231247	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231248	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231249	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231250	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231251	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231252	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231253	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231254	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231255	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231256	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231257	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231258	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231259	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231260	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231261	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231262	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231263	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231264	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231265	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231266	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231267	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231268	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231269	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231270	Atopic	P_BASE	f	english	.m	english	.m	7
+SUB231271	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231272	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231273	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231274	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231275	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231276	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231277	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231278	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231279	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231280	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231281	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231282	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB231283	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231284	Atopic	P_BASE	m	english	.m	.m	.m	1
+SUB231285	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231286	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231287	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231288	Atopic	P_BASE	f	english	.m	.m	.m	1
+SUB231289	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231290	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231291	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231292	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231293	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231294	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231295	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231296	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231297	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231298	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231299	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231300	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231301	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231302	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231303	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231304	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231305	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231306	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231307	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231308	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231309	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231310	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231311	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231312	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231313	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231314	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231315	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231316	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231317	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231318	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231319	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231320	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231321	Atopic	P_BASE	m	english	.m	english	.m	great aunt
+SUB231322	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231323	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231324	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231325	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231326	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231327	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231328	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231329	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231330	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231331	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231332	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231333	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231334	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231335	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231336	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231337	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231338	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231339	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231340	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231341	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231342	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231343	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231344	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231345	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231346	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231347	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231348	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231349	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231350	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231351	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231352	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231353	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231354	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231355	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231356	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231357	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231358	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB231359	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231360	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231361	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231362	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231363	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231364	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231365	Atopic	P_BASE	f	english	.m	english	.m	6
+SUB231366	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231367	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231368	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231369	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231370	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231371	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231372	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231373	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231374	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231375	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231376	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231377	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231378	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231379	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231380	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231381	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231382	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231383	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231384	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231385	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231386	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231387	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231388	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231389	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231390	Atopic	P_BASE	f	english	.m	english	.m	3
+SUB231391	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231392	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231393	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231394	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231395	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231396	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231397	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231398	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231399	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231400	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231401	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231402	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231403	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231404	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231405	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231406	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231407	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231408	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231409	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231410	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231411	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231412	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231413	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231414	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231415	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231416	Atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231417	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231418	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231419	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231420	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231421	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231422	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231423	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231424	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231425	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231426	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231427	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231428	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231429	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231430	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231431	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231432	Non-atopic	P_BASE	f	english	.m	english	.m	7
+SUB231433	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231434	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231435	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231436	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231437	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231438	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231439	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231440	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231441	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231442	Atopic	P_BASE	m	english	.m	english	.m	3
+SUB231443	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231444	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231445	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231446	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231447	Non-atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231448	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231449	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231450	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231451	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231452	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231453	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231454	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231455	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231456	Non-atopic	P_BASE	m	english	.m	english	.m	3
+SUB231457	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231458	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231459	Non-atopic	P_BASE	m	english	.m	english	.m	3
+SUB231460	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231461	Atopic	P_BASE	f	english	.m	english	.m	.m
+SUB231462	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231463	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231464	Non-atopic	P_BASE	m	english	.m	english	.m	.m
+SUB231465	Non-atopic	P_BASE	f	english	.m	english	.m	1
+SUB231466	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231467	Atopic	P_BASE	f	english	.m	english	.m	1
+SUB231468	Atopic	P_BASE	m	english	.m	english	.m	1
+SUB231469	Non-atopic	P_BASE	m	english	.m	english	.m	1
+SUB231470	Non-atopic	P_BASE	f	english	.m	english	.m	1

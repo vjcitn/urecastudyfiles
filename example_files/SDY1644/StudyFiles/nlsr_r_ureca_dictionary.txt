@@ -1,0 +1,23 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	529	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""NLSR"", ""NLSR"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""incomplete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	5180	0	"c(""1042429"", ""987699"")"
+6	7	aVisit	Visit	chr	character	character	10	0	"c(""10"", ""r"")"
+7	8	NLSR_q1	cDNA ID	dbl	numeric	double	5180	0	c(1, 6095)
+8	9	NLSR_q2	Batch Number	dbl	numeric	double	348	0	c(173, 7455)
+9	10	NLSR_q3	Volume	dbl	numeric	double	7	0	c(110, 400)
+10	11	NLSR_q4a1	Virus 1	chr	character	character	30	0	"c(""adv"", ""rsv b"")"
+11	12	NLSR_q4b1	Virus 2	chr	character	character	27	0	"c("".m"", ""rsv b"")"
+12	13	NLSR_q4c1	Virus 3	chr	character	character	13	0	"c("".m"", ""piv2"")"
+13	14	NLSR_q4d1	Virus 4	chr	character	character	5	0	"c("".m"", ""env"")"
+14	15	NLSR_q4e1	Virus 5	chr	character	character	1	0	"c("".m"", "".m"")"
+15	16	NLSR_q4f1	Virus 6	chr	character	character	1	0	"c("".m"", "".m"")"
+16	17	NLSR_q4g1	HRV PCR	chr	character	character	5	0	"c("".m"", ""positive"")"
+17	18	NLSR_q4h1	Type	chr	character	character	100	0	"c("".m"", ""w48*"")"
+18	19	NLSR_q4i1	Species	chr	character	character	11	0	"c("".m"", ""enterovirus"")"
+19	20	aDateCollectedDY	Day Collected	dbl	numeric	double	2098	0	c(14, 3842)
+20	21	aDateExtractedDY	Day Extracted	dbl	numeric	double	2365	0	c(64, 4016)
+21	22	aDateRTDY	Day RT	dbl	numeric	double	2361	0	c(64, 4016)

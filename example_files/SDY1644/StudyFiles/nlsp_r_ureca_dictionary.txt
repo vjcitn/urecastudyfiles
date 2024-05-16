@@ -1,0 +1,22 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	561	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""NLSP"", ""NLSP"")"
+3	4	evid	evid	dbl	numeric	double	5172	0	c(296, 66423)
+4	5	event	event	chr	character	character	10	0	"c(""108-Month Clinic Visit"", ""Nasal Wash"")"
+5	6	version	version	chr	character	character	5	0	"c(""1.1"", ""1.5"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aTI	Processing Tech Initials	chr	character	character	63	0	"c("".m"", ""zyk"")"
+8	9	aVisit	Visit	chr	character	character	11	0	"c("".x"", ""ra"")"
+9	10	NLSP_q1b_1	Time Sample Collected	time	"c(""hms"", ""difftime"")"	double	563	767	c(0, 77400)
+10	11	NLSP_q1b_2	Time Sample Processed	time	"c(""hms"", ""difftime"")"	double	473	788	c(780, 86100)
+11	12	NLSP_q1	Volume of Specimen	dbl	numeric	double	313	787	c(0.05, 8)
+12	13	NLSP_q2	Number of Aliquots Made	dbl	numeric	double	10	786	c(0, 8)
+13	14	NLSP_q3	Approximate Volume Per Aliquot	dbl	numeric	double	55	3683	c(0.011, 0.55)
+14	15	NLSP_q3_1	Volume of the 370 Aliquot	dbl	numeric	double	35	2275	c(0, 0.68)
+15	16	NLSP_q3_2	Volume of Remaining Aliqouts	dbl	numeric	double	94	2277	c(0, 0.77)
+16	17	NLSP_q4	Diagnostic Sample Was Reserved	dbl	numeric	double	3	785	c(0, 1)
+17	18	NLSP_q4a	Volume of Diagnostic Sample Before 1:2 Dilution	dbl	numeric	double	154	1967	c(0.032, 9)
+18	19	aCompletionDY	Completion Day	dbl	numeric	double	1834	764	c(14, 3353)
+19	20	NLSP_q1a_1DY	Day Sample Collected	dbl	numeric	double	1842	764	c(14, 3353)
+20	21	NLSP_q1a_2DY	Day Sample Processed	dbl	numeric	double	1853	784	c(14, 3354)

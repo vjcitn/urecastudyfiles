@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	546	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""NO2R"", ""NO2R"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	2	0	"c(""complete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	1120	0	"c(""101715"", ""99857"")"
+6	7	NO2R_q1_1	Sample Type	chr	character	character	3	0	"c(""b"", ""r"")"
+7	8	NO2R_q1	Sample ID	chr	character	character	1120	0	"c(""ureca-no2-001"", ""ureca-no2-782"")"
+8	9	NO2R_q4	Time Between Drop Off and Pick Up of Sample in Minutes	dbl	numeric	double	762	1	c(1578, 547232)
+9	10	NO2R_q5	No2 Raw Value in ug	dbl	numeric	double	1073	1	c(0.051, 107.2)
+10	11	NO2R_q6	No2 Result in ppb	dbl	numeric	double	458	1	c(0.1, 278)
+11	12	NO2R_q2aDY	Drop Off Day	dbl	numeric	double	358	0	c(-35, 1851)
+12	13	NO2R_q3aDY	Pick Up Day	dbl	numeric	double	369	1	c(78, 1863)

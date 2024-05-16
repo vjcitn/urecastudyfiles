@@ -1,0 +1,501 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2018 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+* PROGRAM DESCRIPTION:
+*
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K Jaffee         09/29/10      Create
+*   A Hodges         03/15/11      Updated
+*   A Hodges         04/18/11      Revised medical codes per C Visness' changes
+*   A Hodges         05/01/11      Need to adjust to take into account when a 
+*                                Participant became inactive during the study
+*   A Hodges         11/28/11      Add code to derive duration for each med
+*   A Hodges         02/13/12      Rerun on newly coded med data and setup 
+*                                       data by quarter
+*   A Hodges         10/10/13      Moved program out of ThreeYearAnalysis directory
+*                               and rerun on newly coded med data.
+*   A Hodges         05/22/14      Reran on newly coded med data.
+*   A Hodges         06/02/14      Read in newly coded med data to combine with prev coded data
+*   S Lussier        03/09/18      Rewrite for Year 10 data
+*   S Lussier        08/11/20      Import updated med coding from cindy
+
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint ls=96 ps=53 orientation=portrait font=SASFONT 8; 
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+*%inc "C:\Documents and Settings\abhodges\Desktop\TempSAS\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=meduse,   
+               /* Location to save     */   
+            /*pgmpath=C:\Documents and Settings\abhodges\Desktop\TempSAS*/
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);            
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+libname derive "S:\RhoFED\ICAC\Studies\URECA\Data\Derive" ;
+
+*** 2. Main Body **************************************************************;
+
+libname cmed 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\CMED';
+
+*CODED DATA FROM P DRIVE;
+proc sort data=cmed.cmtermcode out=cmtermcode; by id  seqno phase; run ;
+
+data cmtermcode2; 
+set cmtermcode; 
+seqno_new = input(seqno, 8.);
+rename seqno_new = seqno; 
+drop seqno; 
+run;
+
+*Hand coded data from Judy - updating prefname; 
+*get cases not coded;
+
+PROC IMPORT OUT= newpref DATAFILE= "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\CMED\JUDY_Manual.xlsx" 
+            DBMS=xlsx REPLACE;
+     GETNAMES=YES;
+    *GUESSINGROWS=150;
+RUN;
+proc sort data=newpref ; by Subject_ID  seqno phase; run ;
+
+data newpref2; 
+   set newpref; 
+   rename Subject_ID = id;
+   keep Subject_ID Preferred_Name seqno;
+run;
+
+data cmterm_rep_judy;
+   merge cmtermcode2 newpref2;
+   by id seqno;
+
+   if not missing(preferred_name) then PREFNAME = preferred_name; 
+   if missing(CMROUTE) then CMROUTE = 'Missing';
+   
+
+   drop preferred_name;
+run;
+
+*Med coding data from Cindy;
+PROC IMPORT OUT= medcode DATAFILE= "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\CMED\AsthmaMedCode.xlsx" 
+            DBMS=xlsx REPLACE;
+     GETNAMES=YES;
+    *GUESSINGROWS=150;
+RUN;
+
+data medcode2; 
+   set medcode; 
+   keep  Preferred_Name medcode route; 
+
+   if missing(route) then route = 'Missing';
+   if route = 'missing' then route = 'Missing';
+
+   rename Preferred_Name = PREFNAME
+          route = CMROUTE;
+
+run;
+
+*add medcode to cmterm data;
+
+proc sort data=medcode2 ; by PREFNAME CMROUTE; run ;
+proc sort data=cmterm_rep_judy ; by PREFNAME CMROUTE; run ;
+
+data coded;
+   merge cmterm_rep_judy (in=a) medcode2 (in=b);
+   if a;
+   by PREFNAME CMROUTE;
+
+   if PREFNAME = 'Other dermatological preparations' then medcode = '30 = Other products - topical';
+   if PREFNAME = 'Fluticasone propionate' and CMROUTE ^= 'Skin Creams' then medcode = '18 = Steroids - inhaled';
+   if PREFNAME = 'Salbutamol sulfate' or PREFNAME = 'Salbutamol' then medcode = '1 = Albuterol/Short-acting bronchodilator';
+   if PREFNAME = 'Retinol w/Vitamin d nos' and CMROUTE = 'Skin Creams' then medcode = '30 = Other products - topical';
+   if PREFNAME = 'Other drugs for obstructive airway diseases, inh' and CMROUTE = 'Inhaled' then medcode = '31 = Other products - inhaled';
+run;
+
+
+/*need to merge in completion date*/
+
+proc sort data= cmed.dms_med_acompletiondate out=date (keep=id foldern cmterm acompletiondate); by id foldern cmterm ; run;
+proc sort data= coded ; by id foldern cmterm; run;
+
+
+data meds000; 
+   merge coded date; 
+ by id foldern cmterm;
+   rename FOLDERNAME = event
+          foldern = aVisit
+          cmroute = route;
+
+if medcode = '1 = Albuterol/Short-acting bronchodilator' then medcode2 = 1;
+if medcode = '2 = Analgesics/antipyretics' or medcode = '2 = Analgesics/antipyretics - oral' then medcode2 = 2;
+if medcode = '3 = Analgesics/antipyretics - topical' then medcode2 = 3;
+if medcode = '4 = Antibiotics - oral' then medcode2 = 4;
+if medcode = '5 = Antibiotics - topical' then medcode2 = 5;
+if medcode = '6 = Anti-fungals - oral/systemic' then medcode2 = 6;
+if medcode = '7 = Anti-fungals - topical' then medcode2 = 7;
+if medcode = '8 = Antihistamines - oral' then medcode2 = 8;
+if medcode = '9 = Antihistamines - topical' then medcode2 = 9;
+if medcode = '10 = Anti-leukotrienes (montelukast, zafirlukast, zileuton)' then medcode2 = 10;
+if medcode = '11 = Cough medicine' then medcode2 = 11;
+if medcode = '13 = Decongestants' then medcode2 = 13;
+if medcode = '14 = GI medications (pepto-bismol, maalox)' then medcode2 = 14;
+if medcode = '15 = Long-acting beta agonist (LABA)' then medcode2 = 15;
+if medcode = '16 = Nasal spray - non-steroidal' then medcode2 = 16;
+if medcode = '17 = Nasal spray - steroidal' then medcode2 = 17;
+if medcode = '18 = Steroids - inhaled' then medcode2 = 18;
+if medcode = '19 = Steroids - oral' then medcode2 = 19;
+if medcode = '20 = Steroids - topical' then medcode2 = 20;
+if medcode = '21 = Ophthalmologicals' then medcode2 = 21;
+if medcode = '22 = Otologicals' then medcode2 = 22;
+if medcode = '23 = Epinephrine/Epipen' then medcode2 = 23;
+if medcode = '24 = Vitamins/Nutritionals' then medcode2 = 24;
+if medcode = '25 = Anti-virals - oral' then medcode2 = 25;
+if medcode = '26 = Combination inhaled steroid + LABA' then medcode2 = 26;
+if medcode = '27 = Combination products with antihistamine' then medcode2 = 27;
+if medcode = '28 = Cominbation products without antihistamine' then medcode2 = 28;
+if medcode = '29 = Cold preparations - unspecified' then medcode2 = 29;
+if medcode = '30 = Other products - topical' then medcode2 = 30;
+if medcode = '31 = Other products - inhaled' then medcode2 = 31;
+if medcode = '32 = Other products - oral' then medcode2 = 32;
+if medcode = '33 = Other products' or medcode = '33 = Other products - other route' then medcode2 = 33;
+
+/* hardcode missing aVisit*/
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+rename medcode2 = medcode; 
+drop medcode; 
+run;
+
+
+proc format ;
+   value medcode .M="Missing/Unknown" 
+            1="1 = Albuterol/Short-acting bronchodilator" 
+            2="2 = Analgesics/antipyretics - oral"
+            3="3 = Analgesics/antipyretics - topical"
+            4="4 = Antibiotics - oral"
+            5="5 = Antibiotics - topical" 
+            6="6 = Anti-fungals - oral/systemic" 
+            7="7 = Anti-fungals - topical"
+            8="8 = Antihistamines - oral"
+            9="9 = Antihistamines - topical"
+            10="10 = Anti-leukotrienes (montelukast, zafirlukast, zileuton)"
+            11="11 = Cough medicine"
+            12="12 = Cromones"
+            13="13 = Decongestants"
+            14="14 = GI medications (pepto-bismol, maalox)"
+            15="15 = Long-acting beta agonist (LABA)"
+            16="16 = Nasal spray - non-steroidal"
+            17="17 = Nasal spray - steroidal" 
+            18="18 = Steroids - inhaled"
+            19="19 = Steroids - oral"
+            20="20 = Steroids - topical" 
+            21="21 = Ophthalmologicals"
+            22="22 = Otologicals"
+            23="23 = Epinephrine/Epipen"
+            24="24 = Vitamins/Nutritionals"
+            25="25 = Anti-virals - oral"
+            26="26 = Combination inhaled steroid + LABA"
+            27="27 = Combination products with antihistamine"
+            28="28 = Cominbation products without antihistamine"
+            29="29 = Cold preparations - unspecified"
+            30="30 = Other products - topical"
+            31="31 = Other products - inhaled"
+            32="32 = Other products - oral" 
+                33="33 = Other products - other or unknown route";
+
+run ;
+
+
+data meds00;
+   set meds000;
+format medcode medcode.;
+   where edcsys = 'DMS';
+
+*Create the year variable;
+if event="3-Month Home Visit" or event="6-Month Call" or event="9-Month Call" or event="12-Month Clinic Visit" then year=1 ;
+if event="15-Month Call" or event="18-Month Call" or event="21-Month Call" or event="24-Month Clinic Visit" then year=2 ;
+if (event="27-Month Call" or event="30-Month Call" or event="33-Month Clinic Visit" or event="36-Month Clinic Visit") 
+or (event="Adverse Events" and aVisit=36) then year=3 ;
+if event="39-Month Call" or event="42-Month Call" or event="45-Month Call" or event="48-Month Clinic Visit" then year=4 ;
+if event="51-Month Call" or event="54-Month Call" or event="57-Month Call" or event="60-Month Clinic Visit" 
+or (event="Adverse Events" and aVisit=60) then year=5;
+if event="63-Month Call" or event="66-Month Call" or event="69-Month Call" or event="72-Month Clinic Visit" then year=6;
+if event="75-Month Call" or event="78-Month Call" or event="81-Month Clinic Visit" or event="84-Month Clinic Visit"
+or (event="Adverse Events" and aVisit=81) then year=7;
+if event="87-Month Call" or event="90-Month Call" or event="93-Month Call" or event="96-Month Clinic Visit" then year=8;
+if event="99-Month Call" or event="102-Month Call" or event="105-Month Call" or event="108-Month Clinic Visit"  then year=9;
+if event="111-Month Call" or event="114-Month Call" or event="117-Month Call" or event="120-Month Clinic Visit" then year=10;
+
+*Create the quarter variable using event rather than avisit since event is more reliable;
+if event="3-Month Home Visit" then quarter=1;
+if event="6-Month Call" then quarter=2;
+if event="9-Month Call" then quarter=3;
+if event="12-Month Clinic Visit" then quarter=4 ;
+if event="15-Month Call" then quarter=5;
+if event="18-Month Call" then quarter=6;
+if event="21-Month Call" then quarter=7;
+if event="24-Month Clinic Visit" then quarter=8;
+if event="27-Month Call" then quarter=9;
+if event="30-Month Call" then quarter=10;
+if event="33-Month Clinic Visit" then quarter=11;
+if event="36-Month Clinic Visit" or (event="Adverse Events" and aVisit=36) then quarter=12 ;
+if event="39-Month Call" then quarter=13;
+if event="42-Month Call" then quarter=14;
+if event="45-Month Call" then quarter=15;
+if event="48-Month Clinic Visit" then quarter=16 ;
+if event="51-Month Call" then quarter=17;
+if event="54-Month Call" then quarter=18;
+if event="57-Month Call" then quarter=19;
+if event="60-Month Clinic Visit" or (event="Adverse Events" and aVisit=60) then quarter=20; 
+if event="63-Month Call" then quarter=21;
+if event="66-Month Call" then quarter=22;
+if event="69-Month Call" then quarter=23;
+if event="72-Month Clinic Visit" then quarter=24;
+if event="75-Month Call" then quarter=25;
+if event="78-Month Call" then quarter=26;
+if event="81-Month Clinic Visit" or (event="Adverse Events" and aVisit=81) then quarter=27;
+if event="84-Month Clinic Visit" then quarter=28;
+if event="87-Month Call" then quarter=29;
+if event="90-Month Call" then quarter=30;
+if event="93-Month Call" then quarter=31;
+if event="96-Month Clinic Visit" or (event="Adverse Events" and aVisit=96) then quarter=32;
+if event="99-Month Call" then quarter=33;
+if event="102-Month Call" then quarter=34;
+if event="105-Month Call" then quarter=35;
+if event="108-Month Clinic Visit" or (event="Adverse Events" and aVisit=108) then quarter=36;
+if event="111-Month Call" then quarter=37;
+if event="114-Month Call" then quarter=38;
+if event="117-Month Call" then quarter=39;
+if event="120-Month Clinic Visit" or (event="Adverse Events" and aVisit=120) then quarter=40;
+
+if PREFNAME in ('Paracetamol','Tylenol cold , childrens','Tylenol cold multisymtom plus cough,childrens',
+                'Tylenol sinus medication','Chlorphenamine w/paracetamol/phenylephrine/','Co-tylenol',
+            'Cotylenol','Diphenhydra. hcl w/paracetamol/pseudoeph. hcl') or
+   DRUGNAME in ("Tylenol","Tylenol allergy sinus","Tylenol children's","Tylenol cold","Tylenol cold & flu",  
+                "Tylenol cold , childrens","Tylenol cold multisymtom plus cough,childrens","Tylenol cold severe congestion",
+                "Tylenol Chest Congestion","Tylenol cough","Tylenol infants","Tylenol sinus",
+                "Tylenol w/codeine no. 3","Tylenol w/codeine no. 4","Tylenol with codeine","Tylenol w/codeine", "Tylenol allergy multi symptom",
+                "Acetaminophen", "Tylenol no.1")
+then tylenol=1;
+else tylenol=0;
+
+if missing(drugname) then drugname = 'missing';
+
+ *hardcode a couple of cases that were originally stored under recruitids;
+*hardcodes here have been removed to protect patient confidentiality;
+
+ *remove duplicate IDs that didn't merge nicely;
+ *if studyid='' then delete;
+rename id = studyid; 
+keep id  edcsys medcode drugname event year quarter  avisit tylenol cmdays route cmterm aCompletionDate;
+run ;
+
+
+/*test to see issues in the data*/
+data test; 
+   set meds00; 
+   if missing(year) or missing(quarter); 
+run;
+data test; 
+   set meds00; 
+   if event = 'Adverse Events' and missing(aVisit); 
+run;
+
+
+data still_not_coded; 
+ set meds00;
+ where medcode=.;
+ if missing(drugname) then drugname = 'missing';
+run;
+proc sort data= still_not_coded nodupkey out=final_coding (keep = cmterm drugname route medcode); by cmterm drugname route; run;
+
+ *****Write out uncoded;
+/*ods noresults;*/
+/*ODS LISTING CLOSE;*/
+/*ods escapechar="^";*/
+/*ods excel file= "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\CMED\final_coding.xlsx"*/
+/*    options (  Orientation = 'landscape'*/
+/*               absolute_column_width='20' */
+/*               sheet_name  = 'Verbatim'*/
+/*                ) ;*/
+/*proc report  */
+/*    data=final_coding nowindows missing split='\' spanrows style(column)=[vjust=top width=1000%] style(header)=[width=1000%];*/
+/*    run;*/
+/**/
+/* ods _all_ close;*/
+/* ODS LISTING ;*/
+
+ ***import final coding;
+
+/*PROC IMPORT OUT= final_coded DATAFILE= "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\CMED\final_coding.xlsx" */
+/*            DBMS=xlsx REPLACE;*/
+/*     GETNAMES=YES;*/
+/*    *GUESSINGROWS=150;*/
+/*RUN;*/
+/**/
+/*proc sort data=final_coded out=final_coded2 (rename=(Route_of_administration = route Drug_Name = drugname) ); by cmterm Drug_Name Route_of_administration; run ;*/
+
+
+*import coding from cindy;
+PROC IMPORT OUT= final_coded DATAFILE= "S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Clinical\CMED\WorkingFolder\URECA_Check_Medcod_by_CV.xlsx" 
+            DBMS=xlsx REPLACE;
+     GETNAMES=YES;
+    *GUESSINGROWS=150;
+RUN;
+
+proc sort data=final_coded out=final_coded2 (rename=(Route_of_administration = route Drug_Name = drugname) ); by cmterm Drug_Name Route_of_administration; run ;
+
+
+data final_coded3; 
+   set final_coded2; 
+   format medcode2 medcode.;
+   drop ACATyFLG;
+
+if ACATy = '1 = Albuterol/Short-acting bronchodilator' then medcode2 = 1;
+if ACATy = '2 = Analgesics/antipyretics' or ACATy = '2 = Analgesics/antipyretics - oral' then medcode2 = 2;
+if ACATy = '3 = Analgesics/antipyretics - topical' then medcode2 = 3;
+if ACATy = '4 = Antibiotics - oral' then medcode2 = 4;
+if ACATy = '5 = Antibiotics - topical' then medcode2 = 5;
+if ACATy = '6 = Anti-fungals - oral/systemic' then medcode2 = 6;
+if ACATy = '7 = Anti-fungals - topical' then medcode2 = 7;
+if ACATy = '8 = Antihistamines - oral' then medcode2 = 8;
+if ACATy = '9 = Antihistamines - topical' then medcode2 = 9;
+if ACATy = '10 = Anti-leukotrienes (montelukast, zafirlukast, zileuton)' then medcode2 = 10;
+if ACATy = '11 = Cough medicine' then medcode2 = 11;
+if ACATy = '13 = Decongestants' then medcode2 = 13;
+if ACATy = '14 = GI medications (pepto-bismol, maalox)' then medcode2 = 14;
+if ACATy = '15 = Long-acting beta agonist (LABA)' then medcode2 = 15;
+if ACATy = '16 = Nasal spray - non-steroidal' then medcode2 = 16;
+if ACATy = '17 = Nasal spray - steroidal' then medcode2 = 17;
+if ACATy = '18 = Steroids - inhaled' then medcode2 = 18;
+if ACATy = '19 = Steroids - oral' then medcode2 = 19;
+if ACATy = '20 = Steroids - topical' then medcode2 = 20;
+if ACATy = '21 = Ophthalmologicals' then medcode2 = 21;
+if ACATy = '22 = Otologicals' then medcode2 = 22;
+if ACATy = '23 = Epinephrine/Epipen' then medcode2 = 23;
+if ACATy = '24 = Vitamins/Nutritionals' then medcode2 = 24;
+if ACATy = '25 = Anti-virals - oral' then medcode2 = 25;
+if ACATy = '26 = Combination inhaled steroid + LABA' then medcode2 = 26;
+if ACATy = '27 = Combination products with antihistamine' then medcode2 = 27;
+if ACATy = '28 = Cominbation products without antihistamine' then medcode2 = 28;
+if ACATy = '29 = Cold preparations - unspecified' then medcode2 = 29;
+if ACATy = '30 = Other products - topical' then medcode2 = 30;
+if ACATy = '31 = Other products - inhaled' then medcode2 = 31;
+if ACATy = '32 = Other products - oral' then medcode2 = 32;
+if ACATy = '33 = Other products' or ACATy = '33 = Other products - other route' then medcode2 = 33;
+run;
+
+proc sort data=meds00 ; by cmterm drugname route; run ;
+
+data meds001; 
+   merge meds00 (in=a) final_coded3  ; 
+   by cmterm drugname route;
+   if a;
+
+   *if missing(medcode) then medcode = medcode2; 
+   *if not missing(medcode2) and medcode2 ^= medcode then flag = 1; 
+   if not missing(medcode2) then medcode = medcode2; 
+   
+   *some routes will not merge so hardcode those;
+
+   if missing(medcode) and CMTERM = 'CEFTRIOXINE'        then medcode = 4;
+   if missing(medcode) and CMTERM = 'MALOX'              then medcode = 14;
+   if missing(medcode) and CMTERM = 'MEDICATION UNKNOWN' then medcode = 33;
+   if missing(medcode) and CMTERM = 'PREDNISONE'         then medcode = 19;
+   if missing(medcode) and CMTERM = 'SELSUN BLUE'        then medcode = 30;
+   if missing(medcode) and CMTERM = 'UNSURE'             then medcode = 33;
+
+   drop medcode2 preferred_name acaty;
+run;
+
+/*data test; */
+/*   set meds001; */
+/*   if flag = 1; */
+/*run;*/
+
+proc freq data=meds001; table medcode; run;
+
+
+data meds10;   
+   set meds001;
+
+
+   *Create the yes/no variables for each med;
+   albut_broncho = medcode in (1);
+   analgesics_oral= medcode in (2);
+   analgesics_topical = medcode in (3);
+   antibiot_oral = medcode in (4);
+    antibiot_topical = medcode in (5);
+   antifung_oral = medcode in (6);
+    antifung_topical = medcode in (7); 
+    antihist_oral = medcode in (8); 
+    antihist_topical = medcode in (9); 
+   antileuk = medcode in (10);
+   cough_meds = medcode in (11); 
+   cromones = medcode in (12);
+   decongest = medcode in (13);
+    gi_meds = medcode in (14);
+   LABA = medcode in (15);
+   nasalspray_noster = medcode in (16);
+   nasalspray_ster = medcode in (17);
+    steroid_inhaled = medcode in (18);
+    steroid_oral = medcode in (19);
+    steroid_topical = medcode in (20);
+   ophthals = medcode in (21);
+    otological = medcode in (22);
+   epinephrine = medcode in (23);
+    vitamin = medcode in (24);
+   antiviral_oral = medcode in (25);
+    inhaled_steroid_LABA = medcode in (26);
+    combo_antihist = medcode in (27);
+    combo_nonantihist = medcode in (28);
+    cold_preps = medcode in (29);
+   other_topical = medcode in (30);
+    other_inhale = medcode in (31);
+   other_oral = medcode in (32);
+   other_route_unknown = medcode in (33);
+
+   if aVisit='3' then aVisit='03';
+   if aVisit='6' then aVisit='06';
+   if aVisit='9' then aVisit='09';
+   drop tylenol edcsys; *acompletiondate;
+run;
+
+
+data derive.medscoded;
+   set meds10;
+run;
+
+proc sort data=meds001 out=medsdate (keep=studyid quarter ) nodupkey; by studyid quarter ; run;
+proc sort data=meds001 out=medstyle (keep=studyid quarter tylenol where=(tylenol=1)) nodupkey; by studyid quarter tylenol; run;
+
+
+%include "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\meduse_byYR.sas" / source2;
+%include "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\meduse_byQTR.sas" / source2;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.medscoded
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+*** Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace";

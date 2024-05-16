@@ -1,0 +1,707 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAM DESCRIPTION:  
+*   Programmer(s)           Date(s)         Brief Description of Modifications
+*   B Zabel              10/31/11      Create
+*   Alexandre Lockhart   July 24, 2017    Updated codebooks and data checks
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+/*%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";*/
+/*%TemplateSetup(/* Name of the program  */*/
+/*               prog=MomCytoInnate,*/
+/*               /* Location to save     */*/
+/*               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,*/
+/*               /* Study library to add */*/
+/*               study=ureca);*/;
+
+/*%include 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Macros\Setup_TLF.sas' / nosource2;
+%Setup_TLF(MomCytoInnate, data);
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+libname derive 'S:\RhoFED\ICAC\Studies\URECA\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace"; */
+
+
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=MomCytoinnate,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+
+
+
+
+
+
+* Main body of program begins here;
+
+proc format library=library;
+ value $ site   '01'='Baltimore'
+            '02'='Boston'
+            '07'='New York'
+            '08'='St. Louis';
+run;
+
+proc sort data=master.mcri out=mcri; by studyid; run;
+proc sort data=master.mcytil8 out=mcytil8; by studyid; run;
+
+data mcri1;
+ set mcri;
+ by studyid;
+ ******data correction;
+*hardcodes here have been removed to protect patient confidentiality;
+
+ site=substr(studyid, 4, 2);
+ label site='Study Site';
+ format site $site.;
+
+ avisit=12;
+ rename sampleid=sampleid1;
+ label sampleid1='Sample ID 1';
+run;
+
+data mcytil8_1;
+ set mcytil8;
+ if studyid ne '.m';    *dataset contains records for 2 never enrolled participants;
+
+ site=substr(recruitid, 4, 2);
+ label site='Study Site';
+ format site $site.;
+ 
+ avisit = '12';
+ avisit2 = input(avisit,8.);
+ drop avisit;
+
+ rename sampleid=sampleid2;
+ label sampleid2='Sample ID - IL 8';
+run;
+
+data mcytil8_1;
+ set mcytil8_1;
+ rename avisit2=avisit;
+run;
+
+proc sort data=mcri1 out=mcri2; by studyid; run;
+proc sort data=mcytil8_1 out=mcytil8_2; by studyid; run;
+
+data mcri3; 
+ merge mcri2 mcytil8_2;
+ by studyid; 
+run;
+
+
+data rollout;
+ set mcri3;
+
+ format stimulant $5.;
+
+ **Replicate A;
+ plate=mcri_q1a; replicate='A'; stimulant='LPS'; ifn_a=mcri_q1b1; ifn_g=mcri_q1b2; il_8=mcytil8_q1a1; il_10=mcri_q1b3; il_12p40=mcri_q1b4; tnf_a=mcri_q1b5; output;
+ plate=mcri_q1a; replicate='A'; stimulant='PG';  ifn_a=mcri_q1c1; ifn_g=mcri_q1c2; il_8=mcytil8_q1d1; il_10=mcri_q1c3; il_12p40=mcri_q1c4; tnf_a=mcri_q1c5; output;
+ plate=mcri_q1a; replicate='A'; stimulant='PIC'; ifn_a=mcri_q1d1; ifn_g=mcri_q1d2; il_8=mcytil8_q1c1; il_10=mcri_q1d3; il_12p40=mcri_q1d4; tnf_a=mcri_q1d5; output;
+ plate=mcri_q1a; replicate='A'; stimulant='CpG'; ifn_a=mcri_q1e1; ifn_g=mcri_q1e2; il_8=mcytil8_q1e1; il_10=mcri_q1e3; il_12p40=mcri_q1e4; tnf_a=mcri_q1e5; output;
+ plate=mcri_q1a; replicate='A'; stimulant='RSV'; ifn_a=mcri_q1f1; ifn_g=mcri_q1f2; il_8=mcytil8_q1g1; il_10=mcri_q1f3; il_12p40=mcri_q1f4; tnf_a=mcri_q1f5; output;
+ plate=mcri_q1a; replicate='A'; stimulant='RV';  ifn_a=mcri_q1g1; ifn_g=mcri_q1g2; il_8=mcytil8_q1h1; il_10=mcri_q1g3; il_12p40=mcri_q1g4; tnf_a=mcri_q1g5; output;
+
+ **Replicate B;
+ plate=mcri_q2a; replicate='B'; stimulant='LPS'; ifn_a=mcri_q2b1; ifn_g=mcri_q2b2; il_8=mcytil8_q3a1; il_10=mcri_q2b3; il_12p40=mcri_q2b4; tnf_a=mcri_q2b5; output;
+ plate=mcri_q2a; replicate='B'; stimulant='PG';  ifn_a=mcri_q2c1; ifn_g=mcri_q2c2; il_8=mcytil8_q3d1; il_10=mcri_q2c3; il_12p40=mcri_q2c4; tnf_a=mcri_q2c5; output;
+ plate=mcri_q2a; replicate='B'; stimulant='PIC'; ifn_a=mcri_q2d1; ifn_g=mcri_q2d2; il_8=mcytil8_q3c1; il_10=mcri_q2d3; il_12p40=mcri_q2d4; tnf_a=mcri_q2d5; output;
+ plate=mcri_q2a; replicate='B'; stimulant='CpG'; ifn_a=mcri_q2e1; ifn_g=mcri_q2e2; il_8=mcytil8_q3e1; il_10=mcri_q2e3; il_12p40=mcri_q2e4; tnf_a=mcri_q2e5; output;
+ plate=mcri_q2a; replicate='B'; stimulant='RSV'; ifn_a=mcri_q2f1; ifn_g=mcri_q2f2; il_8=mcytil8_q3g1; il_10=mcri_q2f3; il_12p40=mcri_q2f4; tnf_a=mcri_q2f5; output;
+ plate=mcri_q2a; replicate='B'; stimulant='RV';  ifn_a=mcri_q2g1; ifn_g=mcri_q2g2; il_8=mcytil8_q3h1; il_10=mcri_q2g3; il_12p40=mcri_q2g4; tnf_a=mcri_q2g5; output;
+
+ keep studyid aprocdate avisit plate replicate stimulant ifn_a ifn_g il_8 il_10 il_12p40 tnf_a;
+run;
+
+data mcri4;
+ set rollout;
+
+ if ifn_a=.h or ifn_a> .z then D_ifn_a=1;
+ if ifn_g=.h or ifn_g> .z then D_ifn_g=1;
+ if il_8 > .z then D_il_8=1;
+ if il_10=.h or il_10> .z then D_il_10=1;
+ if il_12p40=.h or il_12p40> .z then D_il_12p40=1;
+ if tnf_a=.h or tnf_a > .z then D_tnf_a=1;
+
+ **assign lower and upper values and marker for non-detectable;
+ **according to A. Dresen std curve files;
+ if ifn_a=.b or ifn_a=.e or .z< ifn_a < 3.2 then do; ifn_a=3.1; D_ifn_a=0; end;
+ if ifn_g=.b or ifn_g=.e or .z< ifn_g < 3.2 then do; ifn_g=3.1; D_ifn_g=0; end;
+ if il_8=.b or il_8=.e or .z< il_8 < 15600 then do; il_8=15599; D_il_8=0; end;
+ if il_10=.b or il_10=.e or .z< il_10 < 3.2 then do; il_10=3.1; D_il_10=0; end;
+ if il_12p40=.b or il_12p40=.e or .z< il_12p40 < 3.2 then do; il_12p40=3.1; D_il_12p40=0; end;
+ if tnf_a=.b or tnf_a=.e or .z< tnf_a < 3.2 then do; tnf_a=3.1; D_tnf_a=0; end;
+
+ format D_ifn_a D_ifn_g D_il_10 D_il_12p40 D_tnf_a yesnofm.;
+run;
+
+data mcri5;
+ set mcri4;
+
+ **log-transform all results;
+ array oldres (6) ifn_a ifn_g il_8 il_10 il_12p40 tnf_a;
+ array logres (6) ifn_a_l ifn_g_l il_8_l il_10_l il_12p40_l tnf_a_l;
+ do i=1 to 6;
+    logres(i)=log10(oldres(i));
+ end;
+
+ drop i;
+run;
+
+/************************************************************************************
+* Check for duplicates
+*************************************************************************************/
+proc sort data=mcri5 nodupkey dupout=dups;
+  by studyid stimulant replicate;
+run;
+
+/************************************************************************************
+* Create Shell
+*************************************************************************************/
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+ length stimulant $100;
+ 
+ do avisit=12;
+ do stimulant = "LPS", "PG", "PIC", "CpG", "RSV", "RV";
+ do replicate = "A","B";
+ output;
+ end;
+ end;
+ end;
+
+ keep studyid recruitid avisit site group stimulant replicate;
+run;
+
+proc sort data=shell; by studyid stimulant replicate; run;
+proc sort data=mcri5; by studyid stimulant replicate; run;
+
+data mom_innate;
+ merge shell mcri5 (in=a);
+ by studyid stimulant replicate;
+ if a=1 then momcytoinnate=1; else momcytoinnate=0;
+run;
+
+****************************************************************************************
+                   Save derived dataset for Mom Cytokine Innate (ALL)
+****************************************************************************************;
+data derive.MomCytoInnate_all;
+ set mom_innate;
+
+ label    ifn_a       ='IFN-a'
+      ifn_g       ='IFN-g'
+      il_8      ='IL-8'
+      il_10       ='IL-10'
+      il_12p40    ='IL-12(p40)'
+      tnf_a      ='TNF-a'
+      ifn_a_l    ='IFN-a, log-transformed'
+      ifn_g_l    ='IFN-g, log-transformed'
+      il_8_l      ='IL-8, log-transformed'
+      il_10_l    ='IL-10, log-transformed'
+      il_12p40_l    ='IL-12(p40), log-transformed'
+      tnf_a_l      ='TNF-a, log-transformed'
+      D_ifn_a    ='Detectable IFN-a'
+      D_ifn_g    ='Detectable IFN-g'
+      D_il_8      ='Detectable IL-8'
+      D_il_10    ='Detectable IL-10'
+      D_il_12p40    ='Detectable IL-12(p40)'
+      D_tnf_a      ='Detectable TNF-a'
+      ;
+run;
+
+proc sort data=derive.momcytoinnate_all out=momcytoinnate; by studyid avisit aprocdate stimulant site; run;
+
+***Transpose long;
+proc transpose data=momcytoinnate out=set_transpose;
+ var ifn_a ifn_g il_8 il_10 il_12p40 tnf_a;
+ by studyid recruitid avisit aprocdate stimulant site group;
+ id replicate; 
+run;
+
+***If A is missing, then pick B values...otherwise use A only ;
+data transpose_2; 
+ set set_transpose;
+
+ if A < 0 then cyto_val = B ;
+        else cyto_val = A ;
+  if A < 0 then rep = 2;
+         else rep = 1;
+run;
+
+/*proc format;*/
+/* value replicate 1='A' 2='B';*/
+/*run;*/
+
+data trans3; 
+ set transpose_2;
+ by studyid avisit stimulant;
+
+ retain ifn_a rep_ifn_a ifn_g rep_ifn_g il_8 rep_il_8 il_10 rep_il_10 il_12p40 rep_il_12p40 tnf_a rep_tnf_a;
+
+array vars{12} ifn_a rep_ifn_a ifn_g rep_ifn_g il_8 rep_il_8 il_10 rep_il_10 il_12p40 rep_il_12p40 tnf_a rep_tnf_a;
+   if first.stimulant then do i = 1 to 12;
+   vars(i)=.; 
+end;
+
+if _NAME_='ifn_a' then do;
+   ifn_a=cyto_val; rep_ifn_a=rep;
+end;
+if _NAME_='ifn_g' then do;
+   ifn_g=cyto_val; rep_ifn_g=rep;
+end;
+if _NAME_='il_8' then do;
+   il_8=cyto_val; rep_il_8=rep; 
+end;
+if _NAME_='il_10' then do;
+   il_10=cyto_val; rep_il_10=rep; 
+end;
+if _NAME_='il_12p40' then do;
+   il_12p40=cyto_val; rep_il_12p40=rep;
+end;
+if _NAME_='tnf_a' then do;
+   tnf_a=cyto_val; rep_tnf_a=rep;
+end;
+
+if last.stimulant then output;
+
+*format rep_ifn_a rep_ifn_g rep_il_8 rep_il_10 rep_il_12p40 rep_tnf_a replicate.;
+
+drop i _NAME_ _LABEL_ cyto_val A B rep;
+run;
+
+*** Create Detectable (Y/N);
+data long; 
+ set trans3;
+
+ *detectable values;
+ if ifn_a=.h or ifn_a> .z then D_ifn_a=1;
+ if ifn_g=.h or ifn_g> .z then D_ifn_g=1;
+ if il_8 > .z then D_il_8=1;
+ if il_10=.h or il_10> .z then D_il_10=1;
+ if il_12p40=.h or il_12p40> .z then D_il_12p40=1;
+ if tnf_a=.h or tnf_a > .z then D_tnf_a=1;
+
+ **assign lower and upper values and marker for non-detectable;
+ **according to A. Dresen std curve files;
+ if ifn_a=.b or ifn_a=.e or .z< ifn_a < 3.2 then do; ifn_a=3.1; D_ifn_a=0; end;
+ if ifn_g=.b or ifn_g=.e or .z< ifn_g < 3.2 then do; ifn_g=3.1; D_ifn_g=0; end;
+ if il_8=.b or il_8=.e or .z< il_8 < 15600 then do; il_8=15599; D_il_8=0; end;
+ if il_10=.b or il_10=.e or .z< il_10 < 3.2 then do; il_10=3.1; D_il_10=0; end;
+ if il_12p40=.b or il_12p40=.e or .z< il_12p40 < 3.2 then do; il_12p40=3.1; D_il_12p40=0; end;
+ if tnf_a=.b or tnf_a=.e or .z< tnf_a < 3.2 then do; tnf_a=3.1; D_tnf_a=0; end;
+
+
+format D_ifn_a D_ifn_g D_il_8 D_il_10 D_il_12p40 D_tnf_a yesnofm.;
+run;
+
+*** Log-transform results; 
+data long2;
+ set long;
+ 
+ **log-transform all results;
+ array oldres (6) ifn_a ifn_g il_8 il_10 il_12p40 tnf_a;
+ array logres (6) ifn_a_l ifn_g_l il_8_l il_10_l il_12p40_l tnf_a_l;
+ do i=1 to 6;
+    logres(i)=log10(oldres(i));
+ end;
+
+ drop i;
+run;
+
+data shell2;
+ set mcri5; 
+ by studyid;
+ if last.studyid then output;
+ keep studyid;
+run;
+
+data mominnate_l;
+ merge long2 shell2 (in=a);
+ by studyid;
+ if a=1 then momcytoinnate=1; else momcytoinnate=0;
+run;
+
+****************************************************************************************
+                   Derive Dataset: One rec per person per stimulant per visit
+****************************************************************************************;
+data derive.MomCytoInnate_l;
+ retain 
+ studyid
+ recruitid
+ avisit
+ aprocdate
+ site 
+ group
+ stimulant 
+ ifn_a
+ rep_ifn_a
+ ifn_g
+ rep_ifn_g
+ il_8
+ rep_il_8
+ il_10
+ rep_il_10
+ il_12p40
+ rep_il_12p40
+ tnf_a
+ rep_tnf_a
+ D_ifn_a
+ D_ifn_g
+ D_il_8
+ D_il_10
+ D_il_12p40
+ D_tnf_a
+ ifn_a_l
+ ifn_g_l
+ il_8_l
+ il_10_l
+ il_12p40_l
+ tnf_a_l
+ momcytoinnate;
+
+ set mominnate_l;
+run;
+
+***Transpose dataset to become wide, one rec per studyid per visit;
+data wide; set mominnate_l;
+ by studyid;
+
+ retain ifn_a_LPS     ifn_g_LPS      il_8_LPS      il_10_LPS     il_12p40_LPS      tnf_a_LPS
+       ifn_a_PG     ifn_g_PG      il_8_PG         il_10_PG          il_12p40_PG      tnf_a_PG
+      ifn_a_PIC     ifn_g_PIC      il_8_PIC      il_10_PIC     il_12p40_PIC      tnf_a_PIC
+      ifn_a_CpG     ifn_g_CpG      il_8_CpG      il_10_CpG     il_12p40_CpG      tnf_a_CpG
+      ifn_a_RSV     ifn_g_RSV      il_8_RSV      il_10_RSV     il_12p40_RSV      tnf_a_RSV
+      ifn_a_RV     ifn_g_RV      il_8_RV            il_10_RV     il_12p40_RV      tnf_a_RV
+
+       D_ifn_a_LPS     D_ifn_g_LPS   D_il_8_LPS      D_il_10_LPS     D_il_12p40_LPS   D_tnf_a_LPS
+       D_ifn_a_PG     D_ifn_g_PG   D_il_8_PG      D_il_10_PG     D_il_12p40_PG      D_tnf_a_PG
+      D_ifn_a_PIC     D_ifn_g_PIC   D_il_8_PIC      D_il_10_PIC     D_il_12p40_PIC   D_tnf_a_PIC
+      D_ifn_a_CpG     D_ifn_g_CpG   D_il_8_CpG      D_il_10_CpG     D_il_12p40_CpG   D_tnf_a_CpG
+      D_ifn_a_RSV     D_ifn_g_RSV   D_il_8_RSV      D_il_10_RSV     D_il_12p40_RSV   D_tnf_a_RSV
+      D_ifn_a_RV     D_ifn_g_RV   D_il_8_RV      D_il_10_RV     D_il_12p40_RV      D_tnf_a_RV
+
+      ifn_a_l_LPS     ifn_g_l_LPS   il_8_l_LPS      il_10_l_LPS     il_12p40_l_LPS   tnf_a_l_LPS
+       ifn_a_l_PG     ifn_g_l_PG   il_8_l_PG      il_10_l_PG     il_12p40_l_PG      tnf_a_l_PG
+      ifn_a_l_PIC     ifn_g_l_PIC   il_8_l_PIC      il_10_l_PIC     il_12p40_l_PIC   tnf_a_l_PIC
+      ifn_a_l_CpG     ifn_g_l_CpG   il_8_l_CpG      il_10_l_CpG     il_12p40_l_CpG   tnf_a_l_CpG
+      ifn_a_l_RSV     ifn_g_l_RSV   il_8_l_RSV      il_10_l_RSV     il_12p40_l_RSV   tnf_a_l_RSV
+      ifn_a_l_RV     ifn_g_l_RV   il_8_l_RV      il_10_l_RV     il_12p40_l_RV      tnf_a_l_RV;
+
+array vars{108}  
+      ifn_a_LPS     ifn_g_LPS      il_8_LPS      il_10_LPS     il_12p40_LPS      tnf_a_LPS
+       ifn_a_PG     ifn_g_PG      il_8_PG         il_10_PG          il_12p40_PG      tnf_a_PG
+      ifn_a_PIC     ifn_g_PIC      il_8_PIC      il_10_PIC     il_12p40_PIC      tnf_a_PIC
+      ifn_a_CpG     ifn_g_CpG      il_8_CpG      il_10_CpG     il_12p40_CpG      tnf_a_CpG
+      ifn_a_RSV     ifn_g_RSV      il_8_RSV      il_10_RSV     il_12p40_RSV      tnf_a_RSV
+      ifn_a_RV     ifn_g_RV      il_8_RV            il_10_RV     il_12p40_RV      tnf_a_RV
+
+       D_ifn_a_LPS     D_ifn_g_LPS   D_il_8_LPS      D_il_10_LPS     D_il_12p40_LPS   D_tnf_a_LPS
+       D_ifn_a_PG     D_ifn_g_PG   D_il_8_PG      D_il_10_PG     D_il_12p40_PG      D_tnf_a_PG
+      D_ifn_a_PIC     D_ifn_g_PIC   D_il_8_PIC      D_il_10_PIC     D_il_12p40_PIC   D_tnf_a_PIC
+      D_ifn_a_CpG     D_ifn_g_CpG   D_il_8_CpG      D_il_10_CpG     D_il_12p40_CpG   D_tnf_a_CpG
+      D_ifn_a_RSV     D_ifn_g_RSV   D_il_8_RSV      D_il_10_RSV     D_il_12p40_RSV   D_tnf_a_RSV
+      D_ifn_a_RV     D_ifn_g_RV   D_il_8_RV      D_il_10_RV     D_il_12p40_RV      D_tnf_a_RV
+
+      ifn_a_l_LPS     ifn_g_l_LPS   il_8_l_LPS      il_10_l_LPS     il_12p40_l_LPS   tnf_a_l_LPS
+       ifn_a_l_PG     ifn_g_l_PG   il_8_l_PG      il_10_l_PG     il_12p40_l_PG      tnf_a_l_PG
+      ifn_a_l_PIC     ifn_g_l_PIC   il_8_l_PIC      il_10_l_PIC     il_12p40_l_PIC   tnf_a_l_PIC
+      ifn_a_l_CpG     ifn_g_l_CpG   il_8_l_CpG      il_10_l_CpG     il_12p40_l_CpG   tnf_a_l_CpG
+      ifn_a_l_RSV     ifn_g_l_RSV   il_8_l_RSV      il_10_l_RSV     il_12p40_l_RSV   tnf_a_l_RSV
+      ifn_a_l_RV     ifn_g_l_RV   il_8_l_RV      il_10_l_RV     il_12p40_l_RV      tnf_a_l_RV;
+   if first.studyid then do i = 1 to 108;
+   vars(i)=.; 
+end;
+
+if stimulant='LPS' then do;
+    ifn_a_LPS=ifn_a;      ifn_g_LPS=ifn_g;       il_8_LPS=il_8;        il_10_LPS=il_10;      il_12p40_LPS=il_12p40;      tnf_a_LPS=tnf_a;
+    D_ifn_a_LPS=D_ifn_a;  D_ifn_g_LPS=D_ifn_g;  D_il_8_LPS=D_il_8;  D_il_10_LPS=D_il_10;  D_il_12p40_LPS=D_il_12p40;  D_tnf_a_LPS=D_tnf_a;
+    ifn_a_l_LPS=ifn_a_l;  ifn_g_l_LPS=ifn_g_l;    il_8_l_LPS=il_8_l;  il_10_l_LPS=il_10_l;  il_12p40_l_LPS=il_12p40_l;  tnf_a_l_LPS=tnf_a_l;
+end;
+if stimulant='PG' then do;
+    ifn_a_PG=ifn_a;      ifn_g_PG=ifn_g;       il_8_PG=il_8;        il_10_PG=il_10;      il_12p40_PG=il_12p40;      tnf_a_PG=tnf_a;
+    D_ifn_a_PG=D_ifn_a;  D_ifn_g_PG=D_ifn_g;    D_il_8_PG=D_il_8;  D_il_10_PG=D_il_10;    D_il_12p40_PG=D_il_12p40;   D_tnf_a_PG=D_tnf_a;
+    ifn_a_l_PG=ifn_a_l;  ifn_g_l_PG=ifn_g_l;    il_8_l_PG=il_8_l;  il_10_l_PG=il_10_l;    il_12p40_l_PG=il_12p40_l;   tnf_a_l_PG=tnf_a_l;
+end;
+if stimulant='PIC' then do;
+    ifn_a_PIC=ifn_a;      ifn_g_PIC=ifn_g;       il_8_PIC=il_8;        il_10_PIC=il_10;      il_12p40_PIC=il_12p40;      tnf_a_PIC=tnf_a;
+    D_ifn_a_PIC=D_ifn_a;  D_ifn_g_PIC=D_ifn_g;  D_il_8_PIC=D_il_8;  D_il_10_PIC=D_il_10;  D_il_12p40_PIC=D_il_12p40;  D_tnf_a_PIC=D_tnf_a;
+    ifn_a_l_PIC=ifn_a_l;  ifn_g_l_PIC=ifn_g_l;    il_8_l_PIC=il_8_l;  il_10_l_PIC=il_10_l;  il_12p40_l_PIC=il_12p40_l;  tnf_a_l_PIC=tnf_a_l;
+end;
+if stimulant='CpG' then do;
+    ifn_a_CpG=ifn_a;      ifn_g_CpG=ifn_g;       il_8_CpG=il_8;        il_10_CpG=il_10;      il_12p40_CpG=il_12p40;      tnf_a_CpG=tnf_a;
+    D_ifn_a_CpG=D_ifn_a;  D_ifn_g_CpG=D_ifn_g;  D_il_8_CpG=D_il_8;  D_il_10_CpG=D_il_10;  D_il_12p40_CpG=D_il_12p40;  D_tnf_a_CpG=D_tnf_a;
+    ifn_a_l_CpG=ifn_a_l;  ifn_g_l_CpG=ifn_g_l;    il_8_l_CpG=il_8_l;  il_10_l_CpG=il_10_l;  il_12p40_l_CpG=il_12p40_l;  tnf_a_l_CpG=tnf_a_l;
+end;
+if stimulant='RSV' then do;
+    ifn_a_RSV=ifn_a;      ifn_g_RSV=ifn_g;       il_8_RSV=il_8;        il_10_RSV=il_10;      il_12p40_RSV=il_12p40;      tnf_a_RSV=tnf_a;
+    D_ifn_a_RSV=D_ifn_a;  D_ifn_g_RSV=D_ifn_g;  D_il_8_RSV=D_il_8;  D_il_10_RSV=D_il_10;  D_il_12p40_RSV=D_il_12p40;  D_tnf_a_RSV=D_tnf_a;
+    ifn_a_l_RSV=ifn_a_l;  ifn_g_l_RSV=ifn_g_l;    il_8_l_RSV=il_8_l;  il_10_l_RSV=il_10_l;  il_12p40_l_RSV=il_12p40_l;  tnf_a_l_RSV=tnf_a_l;
+end;
+if stimulant='RV' then do;
+    ifn_a_RV=ifn_a;      ifn_g_RV=ifn_g;       il_8_RV=il_8;        il_10_RV=il_10;      il_12p40_RV=il_12p40;      tnf_a_RV=tnf_a;
+    D_ifn_a_RV=D_ifn_a;   D_ifn_g_RV=D_ifn_g;   D_il_8_RV=D_il_8;   D_il_10_RV=D_il_10;   D_il_12p40_RV=D_il_12p40;   D_tnf_a_RV=D_tnf_a;
+    ifn_a_l_RV=ifn_a_l;   ifn_g_l_RV=ifn_g_l;    il_8_l_RV=il_8_l;   il_10_l_RV=il_10_l;   il_12p40_l_RV=il_12p40_l;   tnf_a_l_RV=tnf_a_l;
+end;
+
+if last.studyid then output;
+
+keep studyid recruitid aprocdate avisit site group 
+      ifn_a_LPS     ifn_g_LPS      il_8_LPS      il_10_LPS     il_12p40_LPS      tnf_a_LPS
+       ifn_a_PG     ifn_g_PG      il_8_PG         il_10_PG          il_12p40_PG      tnf_a_PG
+      ifn_a_PIC     ifn_g_PIC      il_8_PIC      il_10_PIC     il_12p40_PIC      tnf_a_PIC
+      ifn_a_CpG     ifn_g_CpG      il_8_CpG      il_10_CpG     il_12p40_CpG      tnf_a_CpG
+      ifn_a_RSV     ifn_g_RSV      il_8_RSV      il_10_RSV     il_12p40_RSV      tnf_a_RSV
+      ifn_a_RV     ifn_g_RV      il_8_RV            il_10_RV     il_12p40_RV      tnf_a_RV
+
+       D_ifn_a_LPS     D_ifn_g_LPS   D_il_8_LPS      D_il_10_LPS     D_il_12p40_LPS   D_tnf_a_LPS
+       D_ifn_a_PG     D_ifn_g_PG   D_il_8_PG      D_il_10_PG     D_il_12p40_PG      D_tnf_a_PG
+      D_ifn_a_PIC     D_ifn_g_PIC   D_il_8_PIC      D_il_10_PIC     D_il_12p40_PIC   D_tnf_a_PIC
+      D_ifn_a_CpG     D_ifn_g_CpG   D_il_8_CpG      D_il_10_CpG     D_il_12p40_CpG   D_tnf_a_CpG
+      D_ifn_a_RSV     D_ifn_g_RSV   D_il_8_RSV      D_il_10_RSV     D_il_12p40_RSV   D_tnf_a_RSV
+      D_ifn_a_RV     D_ifn_g_RV   D_il_8_RV      D_il_10_RV     D_il_12p40_RV      D_tnf_a_RV
+
+      ifn_a_l_LPS     ifn_g_l_LPS   il_8_l_LPS      il_10_l_LPS     il_12p40_l_LPS   tnf_a_l_LPS
+       ifn_a_l_PG     ifn_g_l_PG   il_8_l_PG      il_10_l_PG     il_12p40_l_PG      tnf_a_l_PG
+      ifn_a_l_PIC     ifn_g_l_PIC   il_8_l_PIC      il_10_l_PIC     il_12p40_l_PIC   tnf_a_l_PIC
+      ifn_a_l_CpG     ifn_g_l_CpG   il_8_l_CpG      il_10_l_CpG     il_12p40_l_CpG   tnf_a_l_CpG
+      ifn_a_l_RSV     ifn_g_l_RSV   il_8_l_RSV      il_10_l_RSV     il_12p40_l_RSV   tnf_a_l_RSV
+      ifn_a_l_RV     ifn_g_l_RV   il_8_l_RV      il_10_l_RV     il_12p40_l_RV      tnf_a_l_RV;
+
+format D_ifn_a_LPS     D_ifn_g_LPS   D_il_8_LPS      D_il_10_LPS     D_il_12p40_LPS   D_tnf_a_LPS
+       D_ifn_a_PG     D_ifn_g_PG   D_il_8_PG      D_il_10_PG     D_il_12p40_PG      D_tnf_a_PG
+      D_ifn_a_PIC     D_ifn_g_PIC   D_il_8_PIC      D_il_10_PIC     D_il_12p40_PIC   D_tnf_a_PIC
+      D_ifn_a_CpG     D_ifn_g_CpG   D_il_8_CpG      D_il_10_CpG     D_il_12p40_CpG   D_tnf_a_CpG
+      D_ifn_a_RSV     D_ifn_g_RSV   D_il_8_RSV      D_il_10_RSV     D_il_12p40_RSV   D_tnf_a_RSV
+      D_ifn_a_RV     D_ifn_g_RV   D_il_8_RV      D_il_10_RV     D_il_12p40_RV      D_tnf_a_RV  yesnofm.;
+run;
+
+/*data mominnate_w;
+ merge wide shell2 (in=a);
+ by studyid;
+ if a=1 then momcytoinnate=1; else momcytoinnate=0;
+run;*/
+
+
+*********************************************************************************************
+                      Derive Dataset: One rec per person per visit
+********************************************************************************************;
+
+/*data derive.MomCytoInnate_w;
+set mominnate_w;*/
+proc sort data=wide out=wide2;
+   by studyid avisit;
+run;
+proc sort data=shell;
+   by studyid avisit;
+run;
+
+data derive.MomCytoAdaptive_w;
+merge shell wide2(in=a);
+miss_n = cmiss(of ifn_a_LPS -- tnf_a_l_RV);
+
+if a=1 and miss_n ne 108 then MomCytoInnate_w=1; else MomCytoInnate_w=0;
+
+
+
+
+
+
+label 
+      ifn_a_LPS       ='IFN-a, Stimulant: LPS'
+      ifn_g_LPS       ='IFN-g, Stimulant: LPS'
+      il_8_LPS       ='IL-8, Stimulant: LPS'
+      il_10_LPS       ='IL-10, Stimulant: LPS'
+      il_12p40_LPS    ='IL-12(p40), Stimulant: LPS'
+      tnf_a_LPS      ='TNF-a, Stimulant: LPS'
+      ifn_a_l_LPS    ='IFN-a, log-transformed, Stimulant: LPS'
+      ifn_g_l_LPS    ='IFN-g, log-transformed, Stimulant: LPS'
+      il_8_l_LPS       ='IL-8, log-transformed, Stimulant: LPS'
+      il_10_l_LPS    ='IL-10, log-transformed, Stimulant: LPS'
+      il_12p40_l_LPS    ='IL-12(p40), log-transformed, Stimulant: LPS'
+      tnf_a_l_LPS      ='TNF-a, log-transformed, Stimulant: LPS'
+      D_ifn_a_LPS    ='Detectable IFN-a, Stimulant: LPS'
+      D_ifn_g_LPS    ='Detectable IFN-g, Stimulant: LPS'
+      D_il_8_LPS       ='Detectable IL-8, Stimulant: LPS'
+      D_il_10_LPS    ='Detectable IL-10, Stimulant: LPS'
+      D_il_12p40_LPS    ='Detectable IL-12(p40), Stimulant: LPS'
+      D_tnf_a_LPS      ='Detectable TNF-a, Stimulant: LPS'   
+
+      ifn_a_PG       ='IFN-a, Stimulant: PG'
+      ifn_g_PG       ='IFN-g, Stimulant: PG'
+      il_8_PG       ='IL-8, Stimulant: PG'
+      il_10_PG       ='IL-10, Stimulant: PG'
+      il_12p40_PG    ='IL-12(p40), Stimulant: PG'
+      tnf_a_PG      ='TNF-a, Stimulant: PG'
+      ifn_a_l_PG       ='IFN-a, log-transformed, Stimulant: PG'
+      ifn_g_l_PG       ='IFN-g, log-transformed, Stimulant: PG'
+      il_8_l_PG       ='IL-8, log-transformed, Stimulant: PG'
+      il_10_l_PG       ='IL-10, log-transformed, Stimulant: PG'
+      il_12p40_l_PG    ='IL-12(p40), log-transformed, Stimulant: PG'
+      tnf_a_l_PG      ='TNF-a, log-transformed, Stimulant: PG'
+      D_ifn_a_PG       ='Detectable IFN-a, Stimulant: PG'
+      D_ifn_g_PG       ='Detectable IFN-g, Stimulant: PG'
+      D_il_8_PG       ='Detectable IL-8, Stimulant: PG'
+      D_il_10_PG       ='Detectable IL-10, Stimulant: PG'
+      D_il_12p40_PG    ='Detectable IL-12(p40), Stimulant: PG'
+      D_tnf_a_PG      ='Detectable TNF-a, Stimulant: PG'
+
+      ifn_a_PIC       ='IFN-a, Stimulant: PIC'
+      ifn_g_PIC       ='IFN-g, Stimulant: PIC'
+      il_8_PIC       ='IL-8, Stimulant: PIC'
+      il_10_PIC       ='IL-10, Stimulant: PIC'
+      il_12p40_PIC    ='IL-12(p40), Stimulant: PIC'
+      tnf_a_PIC      ='TNF-a, Stimulant: PIC'
+      ifn_a_l_PIC    ='IFN-a, log-transformed, Stimulant: PIC'
+      ifn_g_l_PIC    ='IFN-g, log-transformed, Stimulant: PIC'
+      il_8_l_PIC    ='IL-8, log-transformed, Stimulant: PIC'
+      il_10_l_PIC    ='IL-10, log-transformed, Stimulant: PIC'
+      il_12p40_l_PIC    ='IL-12(p40), log-transformed, Stimulant: PIC'
+      tnf_a_l_PIC      ='TNF-a, log-transforme, Stimulant: PIC'
+      D_ifn_a_PIC    ='Detectable IFN-a, Stimulant: PIC'
+      D_ifn_g_PIC    ='Detectable IFN-g, Stimulant: PIC'
+      D_il_8_PIC       ='Detectable IL-8, Stimulant: PIC'
+      D_il_10_PIC    ='Detectable IL-10, Stimulant: PIC'
+      D_il_12p40_PIC    ='Detectable IL-12(p40), Stimulant: PIC'
+      D_tnf_a_PIC      ='Detectable TNF-a, Stimulant: PIC'
+
+      ifn_a_CpG       ='IFN-a, Stimulant:CpG'
+      ifn_g_CpG       ='IFN-g, Stimulant:CpG'
+      il_8_CpG       ='IL-8, Stimulant:CpG'
+      il_10_CpG       ='IL-10, Stimulant:CpG'
+      il_12p40_CpG    ='IL-12(p40), Stimulant:CpG'
+      tnf_a_CpG      ='TNF-a, Stimulant:CpG'
+      ifn_a_l_CpG    ='IFN-a, log-transformed, Stimulant:CpG'
+      ifn_g_l_CpG    ='IFN-g, log-transformed, Stimulant:CpG'
+      il_8_l_CpG        ='IL-8, log-transformed, Stimulant:CpG'
+      il_10_l_CpG    ='IL-10, log-transformed, Stimulant:CpG'
+      il_12p40_l_CpG    ='IL-12(p40), log-transformed, Stimulant:CpG'
+      tnf_a_l_CpG      ='TNF-a, log-transformed, Stimulant:CpG'
+      D_ifn_a_CpG    ='Detectable IFN-a, Stimulant:CpG'
+      D_ifn_g_CpG    ='Detectable IFN-g, Stimulant:CpG'
+      D_il_8_CpG      ='Detectable IL-8, Stimulant:CpG'
+      D_il_10_CpG    ='Detectable IL-10, Stimulant:CpG'
+      D_il_12p40_CpG    ='Detectable IL-12(p40), Stimulant:CpG'
+      D_tnf_a_CpG      ='Detectable TNF-a, Stimulant:CpG'
+
+      ifn_a_RSV       ='IFN-a, Stimulant: RSV'
+      ifn_g_RSV       ='IFN-g, Stimulant: RSV'
+      il_8_RSV       ='IL-8, Stimulant: RSV'
+      il_10_RSV       ='IL-10, Stimulant: RSV'
+      il_12p40_RSV    ='IL-12(p40), Stimulant: RSV'
+      tnf_a_RSV      ='TNF-a, Stimulant: RSV'
+      ifn_a_l_RSV    ='IFN-a, log-transformed, Stimulant: RSV'
+      ifn_g_l_RSV    ='IFN-g, log-transformed, Stimulant: RSV'
+      il_8_l_RSV       ='IL-8, log-transformed, Stimulant: RSV'
+      il_10_l_RSV    ='IL-10, log-transformed, Stimulant: RSV'
+      il_12p40_l_RSV    ='IL-12(p40), log-transformed, Stimulant: RSV'
+      tnf_a_l_RSV      ='TNF-a, log-transformed, Stimulant: RSV'
+      D_ifn_a_RSV    ='Detectable IFN-a, Stimulant: RSV'
+      D_ifn_g_RSV    ='Detectable IFN-g, Stimulant: RSV'
+      D_il_8_RSV       ='Detectable IL-8, Stimulant: RSV'
+      D_il_10_RSV    ='Detectable IL-10, Stimulant: RSV'
+      D_il_12p40_RSV    ='Detectable IL-12(p40), Stimulant: RSV'
+      D_tnf_a_RSV      ='Detectable TNF-a, Stimulant: RSV'
+
+      ifn_a_RV       ='IFN-a, Stimulant: RV'
+      ifn_g_RV       ='IFN-g, Stimulant: RV'
+      il_8_RV       ='IL-8, Stimulant: RV'
+      il_10_RV       ='IL-10, Stimulant: RV'
+      il_12p40_RV    ='IL-12(p40), Stimulant: RV'
+      tnf_a_RV      ='TNF-a, Stimulant: RV'
+      ifn_a_l_RV       ='IFN-a, log-transformed, Stimulant: RV'
+      ifn_g_l_RV       ='IFN-g, log-transformed, Stimulant: RV'
+      il_8_l_RV       ='IL-8, log-transformed, Stimulant: RV'
+      il_10_l_RV       ='IL-10, log-transformed, Stimulant: RV'
+      il_12p40_l_RV    ='IL-12(p40), log-transformed, Stimulant: RV'
+      tnf_a_l_RV      ='TNF-a, log-transformed, Stimulant: RV'
+      D_ifn_a_RV       ='Detectable IFN-a, Stimulant: RV'
+      D_ifn_g_RV       ='Detectable IFN-g, Stimulant: RV'
+      D_il_8_RV       ='Detectable IL-8, Stimulant: RV'
+      D_il_10_RV       ='Detectable IL-10, Stimulant: RV'
+      D_il_12p40_RV    ='Detectable IL-12(p40), Stimulant: RV'
+      D_tnf_a_RV      ='Detectable TNF-a, Stimulant: RV'
+      ;
+run;
+
+data locked.MomCytoInnate_w;
+   set derive.MomCytoInnate_w;
+run;
+
+*** Codebooks;
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";
+%codebook(file=derive.MomCytoInnate_all, 
+          pdfname=MomCytoInnate_w_all, 
+          formats=library, 
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));
+
+%codebook(file=derive.MomCytoInnate_l, 
+          pdfname=MomCytoInnate_l, 
+          formats=library, 
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));
+
+%codebook(file=derive.MomCytoInnate_w, 
+          pdfname=MomCytoInnate_w, 
+          formats=library, 
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK)); */
+
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.MomCytoInnate_all
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+%codebook_generic
+        (data = derive.MomCytoInnate_l
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+%codebook_generic
+        (data = derive.MomCytoInnate_w
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+
+
+
+
+* Save log and output files, must be ordered out then log;
+dm WPGM "out; print file=output replace;" WPGM; 
+dm WPGM "log; print file=log replace;" WPGM;
+
+ods select Position;
+proc contents data=derive.MomCytoInnate_all position; run;
+run;
+ods select default;

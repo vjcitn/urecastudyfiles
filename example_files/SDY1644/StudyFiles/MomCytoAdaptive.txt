@@ -1,0 +1,660 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAM DESCRIPTION:  
+*   Programmer(s)           Date(s)         Brief Description of Modifications
+*   B Zabel              10/28/11      Create
+*   Alexandre Lockhart   July 24, 2017  Checked based on data updates and updated codebooks
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=MomCytoAdaptive,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+* Main body of program begins here;
+
+proc sort data=master.mcra out=mcra nodupkey; by studyid avisit; run;
+
+
+data mcra1;
+ set master.mcra;
+
+ site=substr(studyid, 4, 2);
+ label site='Study Site';
+ format site $site.;
+
+ avisit='12';
+ avisit2=input(avisit,8.);
+ drop avisit;
+run;
+ 
+data rollout;
+ set mcra1;
+
+ format stimulant $5.;
+
+ **Replicate A;
+ plate=mcra_q1a; replicate='A'; stimulant='PHA';   ifn_g=mcra_q1b1; il_10=mcra_q1b2; il_13=mcra_q1b3; il_4=mcra_q1b4; il_5=mcra_q1b5; output;
+ plate=mcra_q1a; replicate='A'; stimulant='CR';    ifn_g=mcra_q1c1; il_10=mcra_q1c2; il_13=mcra_q1c3; il_4=mcra_q1c4; il_5=mcra_q1c5; output;
+ plate=mcra_q1a; replicate='A'; stimulant='DM';    ifn_g=mcra_q1d1; il_10=mcra_q1d2; il_13=mcra_q1d3; il_4=mcra_q1d4; il_5=mcra_q1d5; output;
+ plate=mcra_q1a; replicate='A'; stimulant='TT';    ifn_g=mcra_q1e1; il_10=mcra_q1e2; il_13=mcra_q1e3; il_4=mcra_q1e4; il_5=mcra_q1e5; output;
+ plate=mcra_q1a; replicate='A'; stimulant='MAB';   ifn_g=mcra_q1f1; il_10=mcra_q1f2; il_13=mcra_q1f3; il_4=mcra_q1f4; il_5=mcra_q1f5; output;
+ plate=mcra_q1a; replicate='A'; stimulant='MC48h'; ifn_g=mcra_q1g1; il_10=mcra_q1g2; il_13=mcra_q1g3; il_4=mcra_q1g4; il_5=mcra_q1g5; output;
+
+ **Replicate B;
+ plate=mcra_q2a; replicate='B'; stimulant='PHA';   ifn_g=mcra_q2b1; il_10=mcra_q2b2; il_13=mcra_q2b3; il_4=mcra_q2b4; il_5=mcra_q2b5; output;
+ plate=mcra_q2a; replicate='B'; stimulant='CR';    ifn_g=mcra_q2c1; il_10=mcra_q2c2; il_13=mcra_q2c3; il_4=mcra_q2c4; il_5=mcra_q2c5; output;
+ plate=mcra_q2a; replicate='B'; stimulant='DM';    ifn_g=mcra_q2d1; il_10=mcra_q2d2; il_13=mcra_q2d3; il_4=mcra_q2d4; il_5=mcra_q2d5; output;
+ plate=mcra_q2a; replicate='B'; stimulant='TT';    ifn_g=mcra_q2e1; il_10=mcra_q2e2; il_13=mcra_q2e3; il_4=mcra_q2e4; il_5=mcra_q2e5; output;
+ plate=mcra_q2a; replicate='B'; stimulant='MAB';   ifn_g=mcra_q2f1; il_10=mcra_q2f2; il_13=mcra_q2f3; il_4=mcra_q2f4; il_5=mcra_q2f5; output;
+ plate=mcra_q2a; replicate='B'; stimulant='MC48h'; ifn_g=mcra_q2g1; il_10=mcra_q2g2; il_13=mcra_q2g3; il_4=mcra_q2g4; il_5=mcra_q2g5; output;
+
+ rename avisit2=avisit;
+
+ keep studyid aprocdate avisit2 plate replicate stimulant ifn_g il_10 il_13 il_4 il_5 ;
+run;
+
+
+data mcra2;
+ set rollout;
+
+ *detectable values;
+ if ifn_g=.h or ifn_g > .z then D_ifn_g=1;
+ if il_10=.h or il_10 > .z then D_il_10=1;
+ if il_13=.h or il_13 > .z then D_il_13=1;
+ if il_4=.h or il_4 > .z then D_il_4=1;
+ if il_5=.h or il_5 > .z then D_il_5=1;
+
+ **assign below LLOD values per A. Dresen std curve files;
+ if stimulant in ('PHA', 'MAB') then do;
+   if ifn_g=.b or ifn_g=.e or .z < ifn_g < 3.2 then do; ifn_g=3.1; D_ifn_g=0; end;
+   if il_10=.b or il_10=.e or .z < il_10 < 3.2 then do; il_10=3.1; D_il_10=0; end;
+   if il_13=.b or il_13=.e or .z < il_13 < 3.2 then do; il_13=3.1; D_il_13=0; end;
+   if il_4=.b or il_4=.e or .z < il_4 < 3.2 then do; il_4=3.1; D_il_4=0; end;
+   if il_5=.b or il_5=.e or .z < il_5 < 3.2 then do; il_5=3.1; D_il_5=0; end;
+ end;
+ if stimulant in ('CR', 'MC48h', 'TT', 'DM') then do;
+   if ifn_g=.b or ifn_g=.e or .z < ifn_g < 0.13 then do; ifn_g=0.12; D_ifn_g=0; end;
+   if il_10=.b or il_10=.e or .z < il_10 < 0.13 then do; il_10=0.12; D_il_10=0; end;
+   if il_13=.b or il_13=.e or .z < il_13 < 0.13 then do; il_13=0.12; D_il_13=0; end;
+   if il_4=.b or il_4=.e or .z < il_4 < 0.13 then do; il_4=0.12; D_il_4=0; end;
+   if il_5=.b or il_5=.e or .z < il_5 < 0.13 then do; il_5=0.12; D_il_5=0; end;
+ end;
+
+ **assign above ULOD values per A. Dresen std curve files;
+ if stimulant in ('PHA', 'MAB') then do;
+    if ifn_g=.h then ifn_g=10000;
+    if il_10=.h then il_10=10000;
+    if il_13=.h then il_13=10000;
+    if il_4=.h then il_4=10000;
+    if il_5=.h then il_5=10000;
+ end;
+
+ if stimulant in ('CR', 'MC48h', 'TT', 'DM') then do;
+   if ifn_g=.h then ifn_g=2000;
+   if il_10=.h then il_10=2000;
+   if il_13=.h then il_13=2000;
+   if il_4=.h then il_4=2000;
+   if il_5=.h then il_5=2000;
+ end;
+
+ format D_ifn_g D_il_10 D_il_13 D_il_4 D_il_5 yesnofm.;
+run;
+
+data mcra3;
+ set mcra2;
+ 
+ **log-transform all results;
+ array oldres (5) ifn_g il_10 il_13 il_4 il_5 ;
+ array logres (5) ifn_g_l il_10_l il_13_l il_4_l il_5_l ;
+ do i=1 to 5;
+    logres(i)=log10(oldres(i));
+ end;
+
+run;
+
+/************************************************************************************
+* Check for duplicates
+*************************************************************************************/
+proc sort data=mcra3 nodupkey dupout=dups;
+  by studyid stimulant replicate;
+run;
+
+
+/************************************************************************************
+* Create Shell
+*************************************************************************************/
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+ length stimulant $100;
+ 
+ do avisit=12;
+ do stimulant = "PHA", "CR", "DM", "TT", "MAB", "MC48h";
+ do replicate = "A","B";
+ output;
+ end;
+ end;
+ end;
+
+ keep studyid recruitid avisit site group stimulant replicate;
+run;
+
+proc sort data=shell; by studyid stimulant replicate;
+proc sort data=mcra3; by studyid stimulant replicate;
+
+data mom_adaptive;
+ merge shell mcra3 (in=a);
+ by studyid stimulant replicate;
+ if a=1 then momcytoadaptive=1; else momcytoadaptive=0;
+run;
+
+****************************************************************************************
+                   Save derived dataset for Mom Cytokine Adaptive (ALL)
+****************************************************************************************;
+data derive.MomCytoAdaptive_all;
+ set mom_adaptive;
+ drop i;
+
+ label    ifn_g   ='IFN-g'
+      il_10   ='IL-10'
+      il_13   ='IL-13'
+      il_4    ='IL-4'
+      il_5    ='IL-5'
+      ifn_g_l   ='IFN-g, log-transformed'
+      il_10_l   ='IL-10, log-transformed'
+      il_13_l   ='IL-13, log-transformed'
+      il_4_l    ='IL-4, log-transformed'
+      il_5_l    ='IL-5, log-transformed'
+      D_ifn_g   ='Detectable IFN-g'
+      D_il_10   ='Detectable IL-10'
+      D_il_13   ='Detectable IL-13'
+      D_il_4    ='Detectable IL-4'
+      D_il_5    ='Detectable IL-5';
+run;
+
+proc sort data=derive.momcytoadaptive_all out=momcytoadaptive; by studyid avisit aprocdate stimulant site; run;
+
+***Transpose long;
+proc transpose data=momcytoadaptive out=set_transpose;
+ var ifn_g il_10 il_13 il_4 il_5;
+ by studyid recruitid avisit aprocdate stimulant site group;
+ id replicate; 
+run;
+
+***If A is missing, then pick B values...otherwise use A only ;
+data transpose_2; 
+ set set_transpose;
+
+ if A < 0 then cyto_val = B ;
+        else cyto_val = A ;
+  if A < 0 then rep = 2;
+         else rep = 1;
+run;
+
+/*proc format;*/
+/* value replicate 1='A' 2='B';*/
+/*run;*/
+
+data trans3; 
+ set transpose_2;
+ by studyid avisit stimulant;
+
+ retain ifn_g rep_ifn_g il_10 rep_il_10 il_13 rep_il_13 il_4 rep_il_4 il_5 rep_il_5;
+
+array vars{10} ifn_g rep_ifn_g il_10 rep_il_10 il_13 rep_il_13 il_4 rep_il_4 il_5 rep_il_5;
+   if first.stimulant then do i = 1 to 10;
+   vars(i)=.; 
+end;
+
+if _NAME_='ifn_g' then do;
+   ifn_g=cyto_val; rep_ifn_g=rep;
+end;
+if _NAME_='il_10' then do;
+   il_10=cyto_val; rep_il_10=rep; 
+end;
+if _NAME_='il_13' then do;
+   il_13=cyto_val; rep_il_13=rep;
+end;
+if _NAME_='il_4' then do;
+   il_4=cyto_val; rep_il_4=rep;
+end;
+if _NAME_='il_5' then do;
+   il_5=cyto_val; rep_il_5=rep;
+end;
+if last.stimulant then output;
+
+*format rep_ifn_g rep_il_10 rep_il_13 rep_il_4 rep_il_5 replicate.;
+
+drop i _NAME_ _LABEL_ cyto_val A B rep;
+run;
+
+
+*** Create Detectable (Y/N);
+data long; 
+ set trans3;
+
+ *detectable values;
+ if ifn_g=.h or ifn_g > .z then D_ifn_g=1;
+ if il_10=.h or il_10 > .z then D_il_10=1;
+ if il_13=.h or il_13 > .z then D_il_13=1;
+ if il_4=.h or il_4 > .z then D_il_4=1;
+ if il_5=.h or il_5 > .z then D_il_5=1;
+
+**assign below LLOD values per A. Dresen std curve files;
+ if stimulant in ('PHA', 'MAB') then do;
+   if ifn_g=.b or ifn_g=.e or .z < ifn_g < 3.2 then do; ifn_g=3.1; D_ifn_g=0; end;
+   if il_10=.b or il_10=.e or .z < il_10 < 3.2 then do; il_10=3.1; D_il_10=0; end;
+   if il_13=.b or il_13=.e or .z < il_13 < 3.2 then do; il_13=3.1; D_il_13=0; end;
+   if il_4=.b or il_4=.e or .z < il_4 < 3.2 then do; il_4=3.1; D_il_4=0; end;
+   if il_5=.b or il_5=.e or .z < il_5 < 3.2 then do; il_5=3.1; D_il_5=0; end;
+ end;
+ if stimulant in ('CR', 'MC48h', 'TT', 'DM') then do;
+   if ifn_g=.b or ifn_g=.e or .z < ifn_g < 0.13 then do; ifn_g=0.12; D_ifn_g=0; end;
+   if il_10=.b or il_10=.e or .z < il_10 < 0.13 then do; il_10=0.12; D_il_10=0; end;
+   if il_13=.b or il_13=.e or .z < il_13 < 0.13 then do; il_13=0.12; D_il_13=0; end;
+   if il_4=.b or il_4=.e or .z < il_4 < 0.13 then do; il_4=0.12; D_il_4=0; end;
+   if il_5=.b or il_5=.e or .z < il_5 < 0.13 then do; il_5=0.12; D_il_5=0; end;
+ end;
+
+ **assign above ULOD values per A. Dresen std curve files;
+ if stimulant in ('PHA', 'MAB') then do;
+    if ifn_g=.h then ifn_g=10000;
+    if il_10=.h then il_10=10000;
+    if il_13=.h then il_13=10000;
+    if il_4=.h then il_4=10000;
+    if il_5=.h then il_5=10000;
+ end;
+
+ if stimulant in ('CR', 'MC48h', 'TT', 'DM') then do;
+   if ifn_g=.h then ifn_g=2000;
+   if il_10=.h then il_10=2000;
+   if il_13=.h then il_13=2000;
+   if il_4=.h then il_4=2000;
+   if il_5=.h then il_5=2000;
+ end;
+
+format D_ifn_g D_il_10 D_il_13 D_il_4 D_il_5 yesnofm.;
+run;
+
+*** Log-transorm results; 
+data long2;
+ set long;
+ 
+ array oldres (5) ifn_g il_10 il_13 il_4 il_5 ;
+ array logres (5) ifn_g_l il_10_l il_13_l il_4_l il_5_l ;
+ do i=1 to 5;
+    logres(i)=log10(oldres(i));
+ end;
+run;
+
+data shell2;
+ set mcra3; 
+ by studyid;
+ if last.studyid then output;
+ keep studyid;
+run;
+
+data momadaptive_l;
+ merge long2 shell2 (in=a);
+ by studyid;
+ if a=1 then momcytoadaptive=1; else momcytoadaptive=0;
+run;
+
+****************************************************************************************
+                   Derive Dataset: One rec per person per stimulant per visit
+****************************************************************************************;
+data derive.MomCytoAdaptive_l;
+ retain 
+ studyid
+ recruitid
+ avisit
+ aprocdate
+ site 
+ group
+ stimulant 
+ il_4
+ rep_il_4
+ il_5
+ rep_il_5
+ il_10
+ rep_il_10
+ il_13
+ rep_il_13
+ ifn_g
+ rep_ifn_g
+ D_il_4
+ D_il_5
+ D_il_10
+ D_il_13
+ D_ifn_g
+ il_4_l
+ il_5_l
+ il_10_l
+ il_13_l
+ ifn_g_l;
+
+ set momadaptive_l;
+ drop i;
+run;
+
+***Transpose dataset to become wide, one rec per studyid per visit;
+data wide; set momadaptive_l;
+ by studyid;
+
+retain il_4_CR     il_5_CR     il_10_CR     il_13_CR     ifn_g_CR 
+       il_4_DM     il_5_DM     il_10_DM     il_13_DM     ifn_g_DM 
+      il_4_MAB      il_5_MAB    il_10_MAB    il_13_MAB    ifn_g_MAB
+      il_4_MC48h  il_5_MC48h  il_10_MC48h  il_13_MC48h  ifn_g_MC48h
+       il_4_PHA    il_5_PHA    il_10_PHA    il_13_PHA    ifn_g_PHA 
+       il_4_TT     il_5_TT     il_10_TT     il_13_TT     ifn_g_TT 
+
+      D_il_4_CR     D_il_5_CR     D_il_10_CR     D_il_13_CR     D_ifn_g_CR 
+       D_il_4_DM     D_il_5_DM     D_il_10_DM     D_il_13_DM     D_ifn_g_DM 
+      D_il_4_MAB    D_il_5_MAB    D_il_10_MAB    D_il_13_MAB    D_ifn_g_MAB
+      D_il_4_MC48h  D_il_5_MC48h  D_il_10_MC48h  D_il_13_MC48h  D_ifn_g_MC48h
+       D_il_4_PHA    D_il_5_PHA    D_il_10_PHA    D_il_13_PHA    D_ifn_g_PHA 
+       D_il_4_TT     D_il_5_TT     D_il_10_TT     D_il_13_TT     D_ifn_g_TT 
+
+      il_4_l_CR     il_5_l_CR    il_10_l_CR    il_13_l_CR    ifn_g_l_CR 
+       il_4_l_DM     il_5_l_DM    il_10_l_DM    il_13_l_DM    ifn_g_l_DM 
+      il_4_l_MAB    il_5_l_MAB   il_10_l_MAB   il_13_l_MAB   ifn_g_l_MAB 
+      il_4_l_MC48h  il_5_l_MC48h il_10_l_MC48h il_13_l_MC48h ifn_g_l_MC48h 
+       il_4_l_PHA    il_5_l_PHA   il_10_l_PHA   il_13_l_PHA   ifn_g_l_PHA 
+       il_4_l_TT     il_5_l_TT    il_10_l_TT    il_13_l_TT    ifn_g_l_TT ;
+
+array vars{90}  
+      il_4_CR     il_5_CR     il_10_CR     il_13_CR     ifn_g_CR 
+       il_4_DM     il_5_DM     il_10_DM     il_13_DM     ifn_g_DM 
+      il_4_MAB      il_5_MAB    il_10_MAB    il_13_MAB    ifn_g_MAB
+      il_4_MC48h  il_5_MC48h  il_10_MC48h  il_13_MC48h  ifn_g_MC48h
+       il_4_PHA    il_5_PHA    il_10_PHA    il_13_PHA    ifn_g_PHA 
+       il_4_TT     il_5_TT     il_10_TT     il_13_TT     ifn_g_TT 
+
+      D_il_4_CR     D_il_5_CR     D_il_10_CR     D_il_13_CR     D_ifn_g_CR 
+       D_il_4_DM     D_il_5_DM     D_il_10_DM     D_il_13_DM     D_ifn_g_DM 
+      D_il_4_MAB    D_il_5_MAB    D_il_10_MAB    D_il_13_MAB    D_ifn_g_MAB
+      D_il_4_MC48h  D_il_5_MC48h  D_il_10_MC48h  D_il_13_MC48h  D_ifn_g_MC48h
+       D_il_4_PHA    D_il_5_PHA    D_il_10_PHA    D_il_13_PHA    D_ifn_g_PHA 
+       D_il_4_TT     D_il_5_TT     D_il_10_TT     D_il_13_TT     D_ifn_g_TT 
+
+      il_4_l_CR     il_5_l_CR    il_10_l_CR    il_13_l_CR    ifn_g_l_CR 
+       il_4_l_DM     il_5_l_DM    il_10_l_DM    il_13_l_DM    ifn_g_l_DM 
+      il_4_l_MAB    il_5_l_MAB   il_10_l_MAB   il_13_l_MAB   ifn_g_l_MAB 
+      il_4_l_MC48h  il_5_l_MC48h il_10_l_MC48h il_13_l_MC48h ifn_g_l_MC48h 
+       il_4_l_PHA    il_5_l_PHA   il_10_l_PHA   il_13_l_PHA   ifn_g_l_PHA 
+       il_4_l_TT     il_5_l_TT    il_10_l_TT    il_13_l_TT    ifn_g_l_TT ;
+   if first.studyid then do i = 1 to 90;
+   vars(i)=.; 
+end;
+
+if stimulant='CR' then do;
+   il_4_CR=il_4;       il_5_CR=il_5;       il_10_CR=il_10;       il_13_CR=il_13;       ifn_g_CR=ifn_g;
+   D_il_4_CR=D_il_4;   D_il_5_CR=D_il_5;   D_il_10_CR=D_il_10;   D_il_13_CR=D_il_13;   D_ifn_g_CR=D_ifn_g;
+   il_4_l_CR=il_4_l;   il_5_l_CR=il_5_l;   il_10_l_CR=il_10_l;   il_13_l_CR=il_13_l;   ifn_g_l_CR=ifn_g_l;
+end;
+if stimulant='DM' then do;
+   il_4_DM=il_4;       il_5_DM=il_5;       il_10_DM=il_10;       il_13_DM=il_13;       ifn_g_DM=ifn_g;
+   D_il_4_DM=D_il_4;   D_il_5_DM=D_il_5;   D_il_10_DM=D_il_10;   D_il_13_DM=D_il_13;   D_ifn_g_DM=D_ifn_g; 
+   il_4_l_DM=il_4_l;   il_5_l_DM=il_5_l;   il_10_l_DM=il_10_l;   il_13_l_DM=il_13_l;   ifn_g_l_DM=ifn_g_l; 
+end;
+if stimulant='MAB' then do;
+    il_4_MAB=il_4;       il_5_MAB=il_5;      il_10_MAB=il_10;      il_13_MAB=il_13;      ifn_g_MAB=ifn_g;
+     D_il_4_MAB=D_il_4;  D_il_5_MAB=D_il_5;  D_il_10_MAB=D_il_10;  D_il_13_MAB=D_il_13;  D_ifn_g_MAB=D_ifn_g;
+     il_4_l_MAB=il_4_l;  il_5_l_MAB=il_5_l;  il_10_l_MAB=il_10_l;  il_13_l_MAB=il_13_l;  ifn_g_l_MAB=ifn_g_l;
+end;
+if stimulant='MC48h' then do;
+    il_4_MC48h=il_4;     il_5_MC48h=il_5;     il_10_MC48h=il_10;      il_13_MC48h=il_13;      ifn_g_MC48h=ifn_g;
+    D_il_4_MC48h=D_il_4; D_il_5_MC48h=D_il_5; D_il_10_MC48h=D_il_10;  D_il_13_MC48h=D_il_13;  D_ifn_g_MC48h=D_ifn_g;
+    il_4_l_MC48h=il_4_l; il_5_l_MC48h=il_5_l; il_10_l_MC48h=il_10_l;  il_13_l_MC48h=il_13_l;  ifn_g_l_MC48h=ifn_g_l;  
+end;
+if stimulant='PHA'  then do; 
+   il_4_PHA=il_4;      il_5_PHA=il_5;      il_10_PHA=il_10;      il_13_PHA=il_13;      ifn_g_PHA=ifn_g;
+   D_il_4_PHA=D_il_4;  D_il_5_PHA=D_il_5;  D_il_10_PHA=D_il_10;  D_il_13_PHA=D_il_13;  D_ifn_g_PHA=D_ifn_g; 
+   il_4_l_PHA=il_4_l;  il_5_l_PHA=il_5_l;  il_10_l_PHA=il_10_l;  il_13_l_PHA=il_13_l;  ifn_g_l_PHA=ifn_g_l;
+end;
+if stimulant='TT'   then do;  
+   il_4_TT=il_4;       il_5_TT=il_5;       il_10_TT=il_10;       il_13_TT=il_13;       ifn_g_TT=ifn_g;
+   D_il_4_TT=D_il_4;   D_il_5_TT=D_il_5;   D_il_10_TT=D_il_10;   D_il_13_TT=D_il_13;   D_ifn_g_TT=D_ifn_g; 
+   il_4_l_TT=il_4_l;   il_5_l_TT=il_5_l;   il_10_l_TT=il_10_l;   il_13_l_TT=il_13_l;   ifn_g_l_TT=ifn_g_l;
+end;
+if last.studyid then output;
+
+keep studyid recruitid aprocdate avisit site group 
+      il_4_CR     il_5_CR     il_10_CR     il_13_CR     ifn_g_CR 
+       il_4_DM     il_5_DM     il_10_DM     il_13_DM     ifn_g_DM 
+      il_4_MAB      il_5_MAB    il_10_MAB    il_13_MAB    ifn_g_MAB
+      il_4_MC48h  il_5_MC48h  il_10_MC48h  il_13_MC48h  ifn_g_MC48h
+       il_4_PHA    il_5_PHA    il_10_PHA    il_13_PHA    ifn_g_PHA 
+       il_4_TT     il_5_TT     il_10_TT     il_13_TT     ifn_g_TT 
+
+      D_il_4_CR     D_il_5_CR     D_il_10_CR     D_il_13_CR     D_ifn_g_CR 
+       D_il_4_DM     D_il_5_DM     D_il_10_DM     D_il_13_DM     D_ifn_g_DM 
+      D_il_4_MAB    D_il_5_MAB    D_il_10_MAB    D_il_13_MAB    D_ifn_g_MAB
+      D_il_4_MC48h  D_il_5_MC48h  D_il_10_MC48h  D_il_13_MC48h  D_ifn_g_MC48h
+       D_il_4_PHA    D_il_5_PHA    D_il_10_PHA    D_il_13_PHA    D_ifn_g_PHA 
+       D_il_4_TT     D_il_5_TT     D_il_10_TT     D_il_13_TT     D_ifn_g_TT 
+
+      il_4_l_CR     il_5_l_CR    il_10_l_CR    il_13_l_CR    ifn_g_l_CR 
+       il_4_l_DM     il_5_l_DM    il_10_l_DM    il_13_l_DM    ifn_g_l_DM 
+      il_4_l_MAB    il_5_l_MAB   il_10_l_MAB   il_13_l_MAB   ifn_g_l_MAB 
+      il_4_l_MC48h  il_5_l_MC48h il_10_l_MC48h il_13_l_MC48h ifn_g_l_MC48h 
+       il_4_l_PHA    il_5_l_PHA   il_10_l_PHA   il_13_l_PHA   ifn_g_l_PHA 
+       il_4_l_TT     il_5_l_TT    il_10_l_TT    il_13_l_TT    ifn_g_l_TT ;
+
+format D_il_4_CR     D_il_5_CR     D_il_10_CR     D_il_13_CR     D_ifn_g_CR 
+       D_il_4_DM     D_il_5_DM     D_il_10_DM     D_il_13_DM     D_ifn_g_DM 
+      D_il_4_MAB    D_il_5_MAB    D_il_10_MAB    D_il_13_MAB    D_ifn_g_MAB
+      D_il_4_MC48h  D_il_5_MC48h  D_il_10_MC48h  D_il_13_MC48h  D_ifn_g_MC48h
+       D_il_4_PHA    D_il_5_PHA    D_il_10_PHA    D_il_13_PHA    D_ifn_g_PHA 
+       D_il_4_TT     D_il_5_TT     D_il_10_TT     D_il_13_TT     D_ifn_g_TT  yesnofm.;
+run;
+
+/*data momadaptive_w;
+ merge wide shell2 (in=a);
+ by studyid;
+ if a=1 then momcytoadaptive=1; else momcytoadaptive=0;
+run;*/
+
+
+*********************************************************************************************
+                      Derive Dataset: One rec per person per visit
+********************************************************************************************;
+proc sort data=wide out=wide2;
+   by studyid avisit;
+run;
+proc sort data=shell;
+   by studyid avisit;
+run;
+
+data derive.MomCytoAdaptive_w;
+merge shell wide2(in=a);
+miss_n = cmiss(of il_4_CR -- ifn_g_l_TT);
+
+if a=1 and miss_n ne 90 then MomCytoAdaptive_w=1; else MomCytoAdaptive_w=0;
+
+
+
+
+
+
+
+/*data derive.MomCytoAdaptive_w;
+set momadaptive_w;*/
+label    il_4_CR    ='IL-4, Stimulant: CR'
+      il_5_CR    ='IL-5, Stimulant: CR'
+      il_10_CR   ='IL-10, Stimulant: CR'
+      il_13_CR   ='IL-13, Stimulant: CR'
+      ifn_g_CR   ='IFN-g, Stimulant: CR'
+      il_4_l_CR    ='IL-4, log-transformed, Stimulant: CR'
+      il_5_l_CR    ='IL-5, log-transformed, Stimulant: CR'
+      il_10_l_CR   ='IL-10, log-transformed, Stimulant: CR'
+      il_13_l_CR   ='IL-13, log-transformed, Stimulant: CR'
+      ifn_g_l_CR   ='IFN-g, log-transformed, Stimulant: CR'
+      D_il_4_CR    ='Detectable IL-4, Stimulant: CR'
+      D_il_5_CR    ='Detectable IL-5, Stimulant: CR'
+      D_il_10_CR   ='Detectable IL-10, Stimulant: CR'
+      D_il_13_CR   ='Detectable IL-13, Stimulant: CR'
+      D_ifn_g_CR   ='Detectable IFN-g, Stimulant: CR'
+
+      il_4_DM    ='IL-4, Stimulant: DM'
+      il_5_DM    ='IL-5, Stimulant: DM'
+      il_10_DM   ='IL-10, Stimulant: DM'
+      il_13_DM   ='IL-13, Stimulant: DM'
+      ifn_g_DM   ='IFN-g, Stimulant: DM'
+      il_4_l_DM    ='IL-4, log-transformed, Stimulant: DM'
+      il_5_l_DM    ='IL-5, log-transformed, Stimulant: DM'
+      il_10_l_DM   ='IL-10, log-transformed, Stimulant: DM'
+      il_13_l_DM   ='IL-13, log-transformed, Stimulant: DM'
+      ifn_g_l_DM   ='IFN-g, log-transformed, Stimulant: DM'
+      D_il_4_DM    ='Detectable IL-4, Stimulant: DM'
+      D_il_5_DM    ='Detectable IL-5, Stimulant: DM'
+      D_il_10_DM   ='Detectable IL-10, Stimulant: DM'
+      D_il_13_DM   ='Detectable IL-13, Stimulant: DM'
+      D_ifn_g_DM   ='Detectable IFN-g, Stimulant: DM'
+
+      il_4_MAB    ='IL-4, Stimulant: MAB'
+      il_5_MAB    ='IL-5, Stimulant: MAB'
+      il_10_MAB   ='IL-10, Stimulant: MAB'
+      il_13_MAB   ='IL-13, Stimulant: MAB'
+      ifn_g_MAB   ='IFN-g, Stimulant: MAB'
+      il_4_l_MAB    ='IL-4, log-transformed, Stimulant: MAB'
+      il_5_l_MAB    ='IL-5, log-transformed, Stimulant: MAB'
+      il_10_l_MAB   ='IL-10, log-transformed, Stimulant: MAB'
+      il_13_l_MAB   ='IL-13, log-transformed, Stimulant: MAB'
+      ifn_g_l_MAB   ='IFN-g, log-transformed, Stimulant: MAB'
+      D_il_4_MAB    ='Detectable IL-4, Stimulant: MAB'
+      D_il_5_MAB    ='Detectable IL-5, Stimulant: MAB'
+      D_il_10_MAB   ='Detectable IL-10, Stimulant: MAB'
+      D_il_13_MAB   ='Detectable IL-13, Stimulant: MAB'
+      D_ifn_g_MAB   ='Detectable IFN-g, Stimulant: MAB'
+
+      il_4_MC48h      ='IL-4, Stimulant: MC48h'
+      il_5_MC48h      ='IL-5, Stimulant: MC48h'
+      il_10_MC48h     ='IL-10, Stimulant: MC48h'
+      il_13_MC48h     ='IL-13, Stimulant: MC48h'
+      ifn_g_MC48h     ='IFN-g, Stimulant: MC48h'
+      il_4_l_MC48h  ='IL-4, log-transformed, Stimulant: MC48h'
+      il_5_l_MC48h  ='IL-5, log-transformed, Stimulant: MC48h'
+      il_10_l_MC48h ='IL-10, log-transformed, Stimulant: MC48h'
+      il_13_l_MC48h ='IL-13, log-transformed, Stimulant: MC48h'
+      ifn_g_l_MC48h ='IFN-g, log-transformed, Stimulant: MC48h'
+      D_il_4_MC48h  ='Detectable IL-4, Stimulant: MC48h'
+      D_il_5_MC48h  ='Detectable IL-5, Stimulant: MC48h'
+      D_il_10_MC48h ='Detectable IL-10, Stimulant: MC48h'
+      D_il_13_MC48h ='Detectable IL-13, Stimulant: MC48h'
+      D_ifn_g_MC48h ='Detectable IFN-g, Stimulant: MC48h'
+
+      il_4_PHA   ='IL-4, Stimulant: PHA'
+      il_5_PHA    ='IL-5, Stimulant: PHA'
+      il_10_PHA   ='IL-10, Stimulant: PHA'
+      il_13_PHA   ='IL-13, Stimulant: PHA'
+      ifn_g_PHA   ='IFN-g, Stimulant: PHA'
+      il_4_l_PHA    ='IL-4, log-transformed, Stimulant: PHA'
+      il_5_l_PHA    ='IL-5, log-transformed, Stimulant: PHA'
+      il_10_l_PHA   ='IL-10, log-transformed, Stimulant: PHA'
+      il_13_l_PHA   ='IL-13, log-transformed, Stimulant: PHA'
+      ifn_g_l_PHA   ='IFN-g, log-transformed, Stimulant: PHA'
+      D_il_4_PHA    ='Detectable IL-4, Stimulant: PHA'
+      D_il_5_PHA    ='Detectable IL-5, Stimulant: PHA'
+      D_il_10_PHA   ='Detectable IL-10, Stimulant: PHA'
+      D_il_13_PHA   ='Detectable IL-13, Stimulant: PHA'
+      D_ifn_g_PHA   ='Detectable IFN-g, Stimulant: PHA'
+
+      il_4_TT    ='IL-4, Stimulant: TT'
+      il_5_TT    ='IL-5, Stimulant: TT'
+      il_10_TT   ='IL-10, Stimulant: TT'
+      il_13_TT   ='IL-13, Stimulant: TT'
+      ifn_g_TT   ='IFN-g, Stimulant: TT'
+      il_4_l_TT   ='IL-4, log-transformed, Stimulant: TT'
+      il_5_l_TT    ='IL-5, log-transformed, Stimulant: TT'
+      il_10_l_TT   ='IL-10, log-transformed, Stimulant: TT'
+      il_13_l_TT   ='IL-13, log-transformed, Stimulant: TT'
+      ifn_g_l_TT   ='IFN-g, log-transformed, Stimulant: TT'
+      D_il_4_TT    ='Detectable IL-4, Stimulant: TT'
+      D_il_5_TT    ='Detectable IL-5, Stimulant: TT'
+      D_il_10_TT   ='Detectable IL-10, Stimulant: TT'
+      D_il_13_TT   ='Detectable IL-13, Stimulant: TT'
+      D_ifn_g_TT   ='Detectable IFN-g, Stimulant: TT';
+run;
+
+*** Codebooks;
+
+/*
+%inc "O:\Asthma\Apps\Cbk\codebook.sas";
+%codebook(file=derive.momcytoadaptive_all, 
+          pdfname=MomCytoAdaptive_all, 
+          formats=library, 
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));
+
+%codebook(file=derive.momcytoadaptive_l, 
+          pdfname=MomCytoAdaptive_l, 
+          formats=library, 
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));
+
+%codebook(file=derive.momcytoadaptive_w, 
+          pdfname=MomCytoAdaptive_w, 
+          formats=library, 
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK)); */
+
+*AL: Update codebooks;
+
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.MomCytoAdaptive_all
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+%codebook_generic
+        (data = derive.momcytoadaptive_l
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+%codebook_generic
+        (data = derive.momcytoadaptive_w
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+
+
+
+
+
+* Save log and output files, must be ordered out then log;
+dm WPGM "out; print file=output replace;" WPGM; 
+dm WPGM "log; print file=log replace;" WPGM;
+
+
+ods select Position;
+proc contents data=derive.MomCytoAdaptive_all position; run;
+run;
+ods select default;

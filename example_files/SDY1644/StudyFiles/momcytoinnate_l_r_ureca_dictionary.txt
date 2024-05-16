@@ -1,0 +1,33 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	studyid	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	recruitid	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit	Visit	dbl	numeric	double	1	0	c(12, 12)
+5	6	stimulant		chr	character	character	6	0	"c(""CpG"", ""RV"")"
+6	7	ifn_a		dbl	numeric	double	1143	699	c(3.1, 15800)
+7	8	rep_ifn_a		dbl	numeric	double	2	0	c(1, 2)
+8	9	ifn_g		dbl	numeric	double	1439	701	c(3.1, 27300)
+9	10	rep_ifn_g		dbl	numeric	double	2	0	c(1, 2)
+10	11	il_8		dbl	numeric	double	1986	977	c(15599, 16656193.17)
+11	12	rep_il_8		dbl	numeric	double	2	0	c(1, 2)
+12	13	il_10		dbl	numeric	double	1542	699	c(3.1, 17425.04)
+13	14	rep_il_10		dbl	numeric	double	2	0	c(1, 2)
+14	15	il_12p40		dbl	numeric	double	1001	701	c(3.1, 1150)
+15	16	rep_il_12p40		dbl	numeric	double	2	0	c(1, 2)
+16	17	tnf_a		dbl	numeric	double	1574	700	c(3.1, 17300)
+17	18	rep_tnf_a		dbl	numeric	double	2	0	c(1, 2)
+18	19	D_ifn_a		dbl	numeric	double	3	699	c(0, 1)
+19	20	D_ifn_g		dbl	numeric	double	3	701	c(0, 1)
+20	21	D_il_8		dbl	numeric	double	3	977	c(0, 1)
+21	22	D_il_10		dbl	numeric	double	3	699	c(0, 1)
+22	23	D_il_12p40		dbl	numeric	double	3	701	c(0, 1)
+23	24	D_tnf_a		dbl	numeric	double	3	700	c(0, 1)
+24	25	ifn_a_l		dbl	numeric	double	1143	699	c(0.491361693834273, 4.19865708695442)
+25	26	ifn_g_l		dbl	numeric	double	1439	701	c(0.491361693834273, 4.43616264704076)
+26	27	il_8_l		dbl	numeric	double	1986	977	c(4.19309675807227, 7.2215757489207)
+27	28	il_10_l		dbl	numeric	double	1542	699	c(0.491361693834273, 4.24117378371463)
+28	29	il_12p40_l		dbl	numeric	double	1001	701	c(0.491361693834273, 3.06069784035361)
+29	30	tnf_a_l		dbl	numeric	double	1574	700	c(0.491361693834273, 4.2380461031288)
+30	31	momcytoinnate		dbl	numeric	double	2	0	c(0, 1)
+31	32	APROCDATE_DY		dbl	numeric	double	1	3654	

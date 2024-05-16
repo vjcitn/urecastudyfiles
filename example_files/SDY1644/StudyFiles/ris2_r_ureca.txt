@@ -1,0 +1,228 @@
+Accession	group	form	evid	event	version	status	aVisit	RIS2_q6_1	RIS2_q7_1	RIS2_q1_2	RIS2_q1a1_2	aSympt1a1_2	aCode1a1_2	RIS2_q1a2_2	aSympt1a2_2	aCode1a2_2	RIS2_q1a3_2	aSympt1a3_2	aCode1a3_2	RIS2_q1a4_2	aSympt1a4_2	aCode1a4_2	RIS2_q1a5_2	aScore1a5_2	aSympt1a5_2	aCode1a5_2	RIS2_q2_1_2	aScore2_1_2	aSympt2_1_2	aCode2_1_2	RIS2_q3_1_2	RIS2_q3a_2	RIS2_q3b_2	aScore3a_2	aSympt3_1_2	aSympt3a_2	aCode3a_2	aSympt3b_2	aCode3b_2	RIS2_q4_2	RIS2_q4a_2	aScore4a_2	aSympt4a_2	aCode4a_2	aCode4b_2	aCode4c_2	RIS2_q5_2	RIS2_q5a_2	aScore5a_2	aSympt5a_2	aCode5a_2	RIS2_q6_2	RIS2_q6a_2	aScore6a_2	aSympt6a_2	aCode6a_2	RIS2_q7_2	aScore7_2	aSympt7_2	aCode7_2	aSympt8_2	aCode8_2	RIS2_q9_2	RIS2_q10b_2	RIS2_q11	RIS2_q12_2	RIS2_q12a_2	RIS2_q12b_2	aCompletionDY	RIS2_q5_1DY	RIS2_q10a_2DY
+SUB230863	Atopic	RIS2	34118	60-Month Clinic Visit	1.1	complete	60	1		0														0			0	0						0						0		0					0		0			0		0			0	0					0		4				1831		
+SUB230866	Atopic	RIS2	36738	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1578	1570	
+SUB230866	Atopic	RIS2	36733	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		0		0			0		0			0	0			0		5	14:00:00	3	1			1571	1570	1577
+SUB230867	Atopic	RIS2	42648	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	1	1	1	1	4	1	1	0		0		8		3	1			1820	1815	
+SUB230867	Atopic	RIS2	39500	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	10:00:00	3	1			1657	1656	1658
+SUB230867	Atopic	RIS2	42647	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	1	1	1	1	4	1	1	1	4	0		8	11:00:00	3	1			1819	1815	1820
+SUB230867	Atopic	RIS2	40886	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	1	2				0						1	1	1	1	4			1	2	2	1	4	0		0			1	1	1	4	0		9	17:30:00	2	1			1718	1716	1719
+SUB230867	Atopic	RIS2	42268	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	1	1	1	1	4	0	0			0		3		4				1802	1796	
+SUB230867	Atopic	RIS2	39526	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	1	1	4	0		0			0	0			0		1		4				1666	1656	
+SUB230867	Atopic	RIS2	40888	Nasal Wash	1.1	complete	r	1		0														0			1	5	0					0						1	1	1	1	4			1	2	2	1	4	1	2	2	1	4	0	0			0		10		4				1720	1716	
+SUB230867	Atopic	RIS2	35715	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB230867	Atopic	RIS2	40946	Respiratory Illness Followup Call	1.1	complete	r	2		1	0			0			1	1	2				1	5	1	1	1	5	1	2				0						1	3	5	3			3	1	2	1	1	4	1	2	2	1	4	0	0			1	3	18		1	1			1729	1716	
+SUB230867	Atopic	RIS2	42267	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	0					0						1	1	1	1	4			1	1	1	0		1	1	1	1	4	0	0			0		8	10:00:00	4				1799	1796	1802
+SUB230867	Atopic	RIS2	39501	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	2	5	1	4			1	2	2	1	4	1	1	1	0		0	0			0		8	11:30:00	4				1658	1656	1658
+SUB230867	Atopic	RIS2	39660	Respiratory Illness Followup Call	1.1	complete	r	2		1	0			0			1	0					0	5			1	5	0					0						1	2	5	2		3		1	2	1	1	4	1	2	2	1	4	0	0			0		18	15:00:00	3	1			1678	1656	1678
+SUB230867	Atopic	RIS2	40604	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	1	2				0						1	3	5	3			3	0		0			1	1	1	1	4	0	0			0		11	15:00:00	2	1			1704	1702	1704
+SUB230871	Atopic	RIS2	36471	60-Month Clinic Visit	1.1	complete	60	1		0														0			0	0						0						0		0					0		0			0		0			0	0					0		4				1811		
+SUB230872	Atopic	RIS2	37922	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	0		0			0	0			0		3		4				1583	1582	
+SUB230872	Atopic	RIS2	37923	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	1	1	4	0		0			0	0			0		1		4				1584	1582	
+SUB230872	Atopic	RIS2	33572	60-Month Clinic Visit	1.1	complete	60	1		0														0			0	0						0						0		0					0		0			0		0			0	0					0		4				1807		
+SUB230874	Atopic	RIS2	31135	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	1	1	1	1	4	0		0			0	0			1	3	6	14:30:00	3	1			1649	1648	1649
+SUB230874	Atopic	RIS2	43179	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			1	5	0					0						1	3	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			0		14	16:00:00	3	1			1797	1794	1797
+SUB230874	Atopic	RIS2	42305	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1763	1748	
+SUB230874	Atopic	RIS2	42304	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			1	3	7	16:00:00	3	1			1761	1748	1761
+SUB230874	Atopic	RIS2	43181	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7		3	1			1804	1794	
+SUB230876	Atopic	RIS2	38227	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	1	2	2	1	4	0		0			0	0			0		7		3	1			1586	1575	
+SUB230876	Atopic	RIS2	42343	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	0		0			0	0			0		6	15:00:00	3	1			1761	1752	1761
+SUB230876	Atopic	RIS2	42089	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			0	0			103.4	0	1	1						1	3	5	1	4			1	2	2	0		1	2	2	0		0	0			0		10	14:30:00	4				1739	1735	1739
+SUB230876	Atopic	RIS2	42341	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			103	0	1	1						1	1	1	1	4			1	2	2	1	4	0		0			0	0			0		4		4				1757	1755	
+SUB230876	Atopic	RIS2	42107	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230876	Atopic	RIS2	38211	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			101.2	1	0	1	101	1	4	0		1	1	1	1	4			1	2	2	1	4	1	1	1	1	4	0	0			0		5	15:00:00	4				1579	1575	1579
+SUB230876	Atopic	RIS2	40644	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1665	1650	
+SUB230876	Atopic	RIS2	40634	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			102.7	1	0	1						1	3	5	3			3	1	1	1	0		1	1	1	1	4	0	0			0		8	13:00:00	3	1			1656	1650	1656
+SUB230876	Atopic	RIS2	33088	60-Month Clinic Visit	1.1	complete	60	1		0														0			0	0						0						0		0					0		0			0		0			0	0					0		4				1795		
+SUB230881	Atopic	RIS2	41729	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1689	1666	
+SUB230881	Atopic	RIS2	41726	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	1	4			1	2	2	0		1	2	2	1	4	0	0			0		9	17:00:00	4				1679	1666	1679
+SUB230882	Atopic	RIS2	41336	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	1	4			1	2	2	1	4	0		0			0	0			0		7	10:30:00	4				1640	1638	1640
+SUB230889	Atopic	RIS2	37116	84-Month Clinic Visit	1.1	missing	.x																																																																
+SUB230889	Atopic	RIS2	40008	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	15:30:00	3	1			1557	1543	1557
+SUB230892	Atopic	RIS2	41414	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1628	1620	
+SUB230892	Atopic	RIS2	41339	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	1	1	1	4	0	0			0		4		4				1621	1620	
+SUB230892	Atopic	RIS2	41340	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	1	1	4	0		0			0	0			0		1		4				1626	1620	
+SUB230896	Atopic	RIS2	35802	84-Month Clinic Visit	1.0	missing	.x																																																																
+SUB230896	Atopic	RIS2	40530	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	2		3		0		0			0		0			0	0			0		5	17:30:00	3	1			1554	1552	1556
+SUB230896	Atopic	RIS2	40532	Nasal Wash	1.1	missing	.x																																																																
+SUB230899	Atopic	RIS2	40996	Nasal Wash	1.1	complete	r	1		0														0			0	0			100	1	0	1						1	1	1	1	4			1	1	1	1	4	1	1	1	1	4	0	0			0		4		4				1560	1558	
+SUB230899	Atopic	RIS2	40995	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	1	1	1	1	4	0		0			0	0			0		6	10:30:00	3	1			1559	1558	1560
+SUB230900	Atopic	RIS2	39718	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	1	2	102.3	1	0	1						1	3	5	3			3	1	2	2	1	4	0		0			1	1	1	4	1	3	14	14:00:00	2	1			1499	1490	1500
+SUB230900	Atopic	RIS2	39719	Nasal Wash	1.1	complete	r	1		1	0			0			0						0	0			1	5	0		103.5	0	1	1						1	3	5	2		3		1	2	2	0		0		0			1	1	0		0		14		3	1			1500	1490	
+SUB230900	Atopic	RIS2	39809	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230901	Atopic	RIS2	39721	Respiratory Illness Check	1.1	complete	r	2		1	0			0			1	1	2				0	5			1	5	1	2				0						1	2	5	1	4			1	1	1	1	4	1	1	1	1	4	0	0			1	3	17	11:00:00	2	1			1519	1516	1520
+SUB230901	Atopic	RIS2	39725	Nasal Wash	1.1	complete	r	1		1	0			0			1	0					0	5			0	0						0						1	3	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			0		14		3	1			1520	1516	
+SUB230908	Atopic	RIS2	41234	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	10:00:00	3	1			1556	1552	1556
+SUB230911	Atopic	RIS2	39689	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230911	Atopic	RIS2	39648	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	1	2				0						1	3	5	3			3	1	2	2	1	4	0		0			0	0			0		12	14:30:00	2	0	1		1505	1503	1505
+SUB230911	Atopic	RIS2	41684	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0			101	1	0	1						1	3	5	2		3		1	2	2	1	4	0		0			0	0			0		8	16:20:00	3	1			1603	1589	1603
+SUB230916	Atopic	RIS2	39628	Nasal Wash	1.1	missing	.x																																																																
+SUB230917	Atopic	RIS2	41320	84-Month Clinic Visit	1.1	missing	.x																																																																
+SUB230921	Atopic	RIS2	39808	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	12:00:00	3	1			1464	1457	1464
+SUB230921	Atopic	RIS2	39811	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230922	Atopic	RIS2	42890	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	2	5	1	4			1	2	2	0		0		0			0	0			0		7		4				1653	1630	
+SUB230922	Atopic	RIS2	41576	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			0	0						0						0		0					1	2	2	1	4	1	2	2	1	4	0	0			0		4		4				1580	1573	
+SUB230922	Atopic	RIS2	41577	Respiratory Illness Check	1.1	missing	.x																																																																
+SUB230922	Atopic	RIS2	42762	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	1	1	1	4	0	0			0		4		4				1644	1630	
+SUB230922	Atopic	RIS2	43019	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230922	Atopic	RIS2	41242	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			0	0			100.5	1	0	1						1	2	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			0		10	10:30:00	3	0	1		1556	1549	1556
+SUB230922	Atopic	RIS2	42795	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	0		0			0	0			0		6	10:00:00	3	1			1651	1630	1653
+SUB230922	Atopic	RIS2	42763	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	2	2	1	4	0		0			0	0			0		2		4				1646	1630	
+SUB230922	Atopic	RIS2	40110	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	1	2	2	1	4	0		0			0	0			0		7	14:15:00	3	1			1504	1497	1504
+SUB230922	Atopic	RIS2	41260	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230924	Atopic	RIS2	40597	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1497	1462	
+SUB230924	Atopic	RIS2	40319	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	0		0			0		0			0	0			0		5	10:30:00	3	0	1		1489	1462	1490
+SUB230924	Atopic	RIS2	41484	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230924	Atopic	RIS2	39930	Nasal Wash	1.1	complete	r	1		0														0			0	0			100.1	1	0	1						1	2	5	2		3		1	1	1	1	4	0		0			0	0			0		7		3	1			1468	1462	
+SUB230924	Atopic	RIS2	40726	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230924	Atopic	RIS2	39929	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	1	2	2	1	4	0		0			0	0			0		7	11:00:00	3	0	1		1465	1462	1468
+SUB230924	Atopic	RIS2	41482	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	3	5	1	4			1	1	1	1	4	1	1	1	0		0	0			0		7	12:00:00	4				1537	1535	1537
+SUB230924	Atopic	RIS2	40586	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	3	5	1	4			0		0			0		0			0	0			0		5		4				1490	1462	
+SUB230924	Atopic	RIS2	40015	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0			100	1	0	1						1	1	1	1	4			0		0			0		0			0	0			0		2		4				1479	1462	
+SUB230932	Atopic	RIS2	41821	Nasal Wash	1.1	complete	r	1		1	0			0			1	0		0			1	5	0		1	5	1	2				0						1	3	5	1	4			1	2	1	0		1	2	2	1	4	1	1	0		0		19	14:15:00	2	1			1523	1520	1523
+SUB230932	Atopic	RIS2	41820	Respiratory Illness Check	1.1	complete	r	2		1	0			0			1	1	2				1	5	0		1	5	0					0						1	2	5	2		3		1	2	2	1	4	1	2	2	1	4	1	1	0		0		20	12:30:00	2	1			1522	1520	1523
+SUB230932	Atopic	RIS2	41006	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	0		0			0	0			0		2		4				1479	1470	
+SUB230932	Atopic	RIS2	40953	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	1	2				0						1	3	5	3			3	1	2	2	1	4	0		0			1	1	1	4	0		13	14:30:00	2	1			1472	1470	1472
+SUB230932	Atopic	RIS2	41879	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		0		0			0		0			0	0			0		5		3	1			1531	1520	
+SUB230934	Atopic	RIS2	41475	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	0		0			0	0			0		2		4				1493	1459	
+SUB230934	Atopic	RIS2	43102	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	2	5	1	4			1	1	1	1	4	0		0			0	0			0		6		4				1578	1574	
+SUB230934	Atopic	RIS2	41065	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1473	1459	
+SUB230934	Atopic	RIS2	43101	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	3			3	1	1	1	1	4	0		0			0	0			0		6	08:15:00	3	1			1576	1574	1578
+SUB230934	Atopic	RIS2	41223	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1480	1459	
+SUB230934	Atopic	RIS2	41385	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	3	5	2		3		1	2	1	1	4	1	1	1	1	4	1	1	0		0		8	17:30:00	3	1			1485	1459	1486
+SUB230935	Atopic	RIS2	41578	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	2	2	1	4	0	0			0		5	11:00:00	4				1500	1499	1501
+SUB230935	Atopic	RIS2	41579	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	2	2	1	4	0	0			0		5		4				1501	1499	
+SUB230939	Atopic	RIS2	42874	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	0		0			0	0			0		3		4				1556	1555	
+SUB230939	Atopic	RIS2	41647	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	2	1	4	1	1	1	0		0	0			0		3		4				1495	1486	
+SUB230939	Atopic	RIS2	42891	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	1	1	4	0		0			0	0			0		1		4				1558	1555	
+SUB230939	Atopic	RIS2	41633	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	3	5	3			3	1	2	2	1	4	1	1	1	1	4	0	0			0		8	12:30:00	3	1			1488	1486	1488
+SUB230941	Atopic	RIS2	42713	Nasal Wash	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	0		0			0	0			0		6		3	1			1546	1535	
+SUB230941	Atopic	RIS2	42712	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	0		0			0	0			0		6	15:00:00	3	1			1545	1535	1548
+SUB230941	Atopic	RIS2	41470	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	1	1	1	4	0	0			0		4		4				1470	1467	
+SUB230941	Atopic	RIS2	41501	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	1	1	1	4	0	0			0		4		4				1475	1467	
+SUB230941	Atopic	RIS2	41503	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	1	1	1	4	0	0			0		4		4				1477	1467	
+SUB230941	Atopic	RIS2	41471	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	1	2	2	1	4	0	0			0		4		4				1471	1467	
+SUB230941	Atopic	RIS2	41539	Respiratory Illness Check	1.1	missing	.x																																																																
+SUB230945	Atopic	RIS2	41386	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	2	2	1	4	0		0			0	0			0		2		4				1462	1453	
+SUB230951	Atopic	RIS2	43138	Nasal Wash	1.1	complete	r	1		0														0			1	5	0					0						1	1	1	1	4			1	1	1	0		0		0			0	0			0		7		4				1537	1534	
+SUB230951	Atopic	RIS2	43137	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	0					0						1	1	1	1	4			1	1	1	1	4	0		0			0	0			0		7	12:00:00	4				1536	1534	1537
+SUB230963	Atopic	RIS2	42642	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	1	2	2	1	4	0	0			0		4		4				1475	1472	
+SUB230963	Atopic	RIS2	42652	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1481	1472	
+SUB230963	Atopic	RIS2	42641	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	1	1	1	1	4	0	0			0		3		4				1474	1472	
+SUB231028	Atopic	RIS2	34558	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	0		0			0	0			0		2		4				1492	1486	
+SUB231028	Atopic	RIS2	34557	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						0		0					1	1	1	1	4	0		0			0	0			0		1		4				1489	1486	
+SUB231035	Atopic	RIS2	35321	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	2	5					0		0			1	1	1	1	4					0		6		4				1462	1412	
+SUB231035	Atopic	RIS2	41163	Nasal Wash	1.1	complete	r	1		0														0			1	5	1	2				0						1	3	5	1	4			1	2	2	1	4	1	1	1	0		0	0			1	3	13		2	1			1640	1623	
+SUB231035	Atopic	RIS2	41162	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			1	5	0					0						1	3	5	3			3	1	2	2	0		1	2	2	1	4	0	0			0		14	10:00:00	3	1			1637	1623	1640
+SUB231036	Atopic	RIS2	39749	Respiratory Illness Check	1.1	missing	.x																																																																
+SUB231036	Atopic	RIS2	39748	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	0		0			1	1	0		0		3		4				1587	1581	
+SUB231039	Atopic	RIS2	39945	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		0		0			0		0			0	0			0		5	12:00:00	3	1			1552	1552	1552
+SUB231039	Atopic	RIS2	39951	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231040	Atopic	RIS2	39358	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231040	Atopic	RIS2	39327	Respiratory Illness Check	1.1	complete	r	1		1	0			0			0			0			0	0			0	0			99.3	0	0	0						1	3	5	1	4			1	1	1	1	4	1	2	2	1	4					1	3	8	16:00:00	3	0	1		1516	1514	1516
+SUB231040	Atopic	RIS2	38042	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0					0		4				1488	1486	
+SUB231040	Atopic	RIS2	41712	Respiratory Illness Check	1.1	missing	.x																																																																
+SUB231040	Atopic	RIS2	40816	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231040	Atopic	RIS2	40596	Respiratory Illness Followup Call	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			0		0			0		0			0	0			0		1		4				1579	1563	
+SUB231040	Atopic	RIS2	40591	Respiratory Illness Check	1.1	complete	r	2		1	0			0			0						0	0			0	0			99	0	0	0						1	2	5	2		3		1	2	2	1	4	0		0			1	1	0		0		8	12:00:00	3	1			1566	1563	1567
+SUB231040	Atopic	RIS2	40592	Nasal Wash	1.1	complete	r	1		0														0			0	0			99	0	0	0						1	2	5	2		3		1	2	2	0		1	1	1	0		1	1	1	4	0		9		3	1			1567	1563	
+SUB231040	Atopic	RIS2	38040	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	0		0			0	0			0		2		4				1486	1486	
+SUB231040	Atopic	RIS2	41711	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1					1	1	1	0		1	2	2	0		0	0			0		4		4				1633	1633	
+SUB231042	Atopic	RIS2	40960	Nasal Wash	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	1	1	1	4	1	2	2	1	4	0	0			0		4		4				1569	1562	
+SUB231042	Atopic	RIS2	40959	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	1	2	2	1	4	0	0			0		5	10:00:00	4				1567	1562	1568
+SUB231045	Atopic	RIS2	41285	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	1	1	0		1	1	1	0		0	0			0		3		4				1577	1572	
+SUB231045	Atopic	RIS2	41286	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1					0		0			1	1	1	0		0	0			0		2		4				1581	1572	
+SUB231048	Atopic	RIS2	39502	Respiratory Illness Check	1.1	complete	r	1		0														0			1	5	1	2				0						1	3	5	1	4			1	2	2	1	4	0		0			0	0			1	3	12	13:30:00	2	1			1487	1481	1487
+SUB231049	Atopic	RIS2	39665	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231049	Atopic	RIS2	39649	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	1	2	2	0		0	0			0		9	15:00:00	3	1			1488	1485	1488
+SUB231053	Atopic	RIS2	40883	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1					1	1	1	0		0		0			0	0			0		2		4				1500	1484	
+SUB231053	Atopic	RIS2	40882	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	0		0		0			0	0			0		3		4				1498	1484	
+SUB231057	Atopic	RIS2	38627	84-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231057	Atopic	RIS2	40942	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	1	1	4	0		0			0	0			0		6	11:30:00	3	1			1477	1475	1477
+SUB231057	Atopic	RIS2	40947	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231059	Atopic	RIS2	41440	Respiratory Illness Check	1.1	complete	r	1		0														0			1	5	0					0						1	1	1	1	4			1	1	1	1	4	1	2	2	0		0	0			0		9	15:00:00	4				1485	1478	1485
+SUB231059	Atopic	RIS2	41444	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		0		0			0		0			0	0			0		5		3	1			1500	1478	
+SUB231064	Atopic	RIS2	40617	Respiratory Illness Check	1.1	complete	r	1		1	0			0			1	0		0	0		0	5			1	5	0					0						1	2	5	1	4			1	2	2	1	4	1	2	2	1	4	0	0			0		19	15:00:00	4				1473	1469	1473
+SUB231074	Atopic	RIS2	37871	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231099	Atopic	RIS2	37139	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231099	Atopic	RIS2	37147	84-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231108	Atopic	RIS2	40087	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231123	Atopic	RIS2	33849	84-Month Clinic Visit	1.0	missing	.x																																																																
+SUB231148	Atopic	RIS2	41614	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231173	Atopic	RIS2	36370	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			101.3	1	0	1	99.6	0		0		0		0					1	2	2	1	4	0		0			0	0			1	3	3		3	1			1562	1558	
+SUB231173	Atopic	RIS2	36400	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1566	1558	
+SUB231177	Atopic	RIS2	40583	Nasal Wash	1.1	complete	r	2		0														0			0	0						0						0		0					1	2	2	1	4	1	2	2	1	4	0	0			0		4		4				1659	1651	
+SUB231177	Atopic	RIS2	40926	Respiratory Illness Followup Call	1.1	complete	r	2		1	0			0			1	0					1	5	0		1	5	1	2				0						1	3	5	3			3	1	2	2	1	4	1	2	2	1	4	0	0			0		19	11:00:00	2	1			1680	1651	1680
+SUB231177	Atopic	RIS2	40306	Respiratory Illness Check	1.1	complete	r	1		0														0			1	5	0					0						1	3	5	3			3	1	2	2	1	4	1	2	2	1	4	0	0			0		14	10:00:00	3	1			1640	1639	1643
+SUB231177	Atopic	RIS2	40614	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			1	5	1	2				0						1	3	5	3			3	1	2	2	1	4	1	2	2	1	4	0	0			0		14		2	1			1671	1651	
+SUB231177	Atopic	RIS2	40582	Respiratory Illness Check	1.1	complete	r	2		1	0			1	0		1	0					1	5	1	1	1	5	1	2				0						1	2	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			0		19	16:00:00	1	1			1653	1651	1658
+SUB231177	Atopic	RIS2	40307	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	3	5	3			3	1	2	2	1	4	1	2	2	1	4	0	0			0		9		3	1			1643	1639	
+SUB231177	Atopic	RIS2	41029	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			1	5	0					0						1	1	1	1	4			1	2	2	1	4	1	2	2	1	4	0	0			0		10		4				1688	1651	
+SUB231178	Atopic	RIS2	37785	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			100.5	1	0	1	100.5	1	4	0		1	1	1					0		0			0		0			1	1	0		0		3		4				1563	1563	
+SUB231178	Atopic	RIS2	33759	Nasal Wash	1.0	complete	r	1		0														0			0	0						0						1	1	1					1	1	1	1	4	0		0			0	0			0		2		4				1464	1436	
+SUB231178	Atopic	RIS2	37789	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			101	1	0	1						1	3	5	1	4			0		0			0		0			1	1	0		0		7		4				1569	1563	
+SUB231178	Atopic	RIS2	33448	Respiratory Illness Followup Call	1.0	complete	r	2		1	0			0			1	0					0	5			0	0						0						0		0					1	1	1	0		1	1	1	0		0	0			0		7	11:00:00	4				1463	1436	1464
+SUB231179	Atopic	RIS2	40721	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1661	1651	
+SUB231179	Atopic	RIS2	40720	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			1	1	1	0		0	0			0		2		4				1653	1651	
+SUB231182	Atopic	RIS2	40474	Respiratory Illness Check	1.1	complete	r	2		1	0			0			1	0					0	5			1	5	0					0						0		0					0		0			0		0			0	0			0		10	13:30:00	4				1618	1613	1618
+SUB231185	Atopic	RIS2	41486	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1650	1643	
+SUB231185	Atopic	RIS2	39427	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	1	0		1	1	1	0		0	0			0		2		4				1548	1544	
+SUB231185	Atopic	RIS2	41485	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			101	1	0	1	101	1	4	0		0		0					0		0			0		0			0	0			0		1		4				1644	1643	
+SUB231185	Atopic	RIS2	39430	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	1	4			0		0			0		0			0	0			1	3	5	13:00:00	3	1			1551	1544	1552
+SUB231188	Atopic	RIS2	40807	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0												1	3	5	3			3	1	1	1	1	4	1	2	2	1	4	1	1	0		1	3	9	15:00:00	3	1			1565	1560	1565
+SUB231191	Atopic	RIS2	40859	Nasal Wash	1.1	complete	r	1		1	0			1	0		1	0		0	0		0	5			1	5	0					0						1	2	5	2		3		1	1	1	1	4	1	1	1	1	4	0	0			1	3	17		3	1			1540	1534	
+SUB231191	Atopic	RIS2	40858	Respiratory Illness Check	1.1	complete	r	2		1	0			1	1	1	1	1	2				1	5	1	1	1	5	1	2	101.5	1	0	1	99.7	0		0		1	2	5	2		3		1	2	2	1	4	1	1	1	1	4	0	0			1	3	19	10:00:00	1	1			1537	1534	1540
+SUB231192	Atopic	RIS2	41608	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			1	2	2	1	4	0	0			0		3		4				1573	1565	
+SUB231192	Atopic	RIS2	41607	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			0		0			1	2	2	1	4	0	0			0		3		4				1571	1565	
+SUB231299	Atopic	RIS2	38507	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	1	1	1	4			1	1	1	0		0		0			0	0			0		2		4				1602	1594	
+SUB231299	Atopic	RIS2	38778	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231299	Atopic	RIS2	38420	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	0					0						1	2	5	2		3		1	2	2	1	4	0		0			1	1	1	4	0		13	13:30:00	3	1			1600	1594	1601
+SUB231299	Atopic	RIS2	42066	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231299	Atopic	RIS2	42051	Respiratory Illness Check	1.1	complete	r	2		1	0			1	0		0						0	5			1	5	0					0						1	3	5	3			3	1	2	2	1	4	0		0			0	0			0		17	13:00:00	3	1			1749	1746	1749
+SUB231299	Atopic	RIS2	40820	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	0		98.6	0	0	0						1	3	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			1	3	14	08:00:00	3	1			1678	1675	1679
+SUB231299	Atopic	RIS2	40821	Nasal Wash	1.1	complete	r	1		1	0			0			0						0	0			1	5	0					0						1	3	5	2		3		1	2	2	1	4	1	2	2	1	4	1	1	1	4	1	3	15		3	1			1679	1675	
+SUB231299	Atopic	RIS2	40831	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231308	Atopic	RIS2	41154	Respiratory Illness Check	1.1	missing	.x																																																																
+SUB231313	Atopic	RIS2	37670	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			101	1	0	1	101	1	4	0		1	2	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			0		10		3	1			1512	1511	
+SUB231313	Atopic	RIS2	37286	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			101	1	0	1						1	2	5	2		3		1	2	2	1	4	0		0			1	1	1	4	0		9	11:00:00	3	1			1500	1498	1500
+SUB231313	Atopic	RIS2	36497	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0				0	0	0						1	1	1	1	4			1	2	2	1	4	0		0			0	0			0		3		4				1477	1476	
+SUB231313	Atopic	RIS2	40526	Nasal Wash	1.1	complete	r	1		0														0			0	0						0						1	2	5					1	1	1	1	4	0		0			0	0			0		6		4				1605	1593	
+SUB231313	Atopic	RIS2	42632	Nasal Wash	1.1	missing	.x																																																																
+SUB231313	Atopic	RIS2	42629	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			104	0	1	1						1	2	5	2		3		1	2	2	1	4	0		0			1	1	1	4	0		9	14:00:00	3	1			1723	1721	1724
+SUB231313	Atopic	RIS2	36500	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	1	1	1	4			1	2	2	1	4	0		0			0	0			0		3		4				1478	1476	
+SUB231313	Atopic	RIS2	37671	Nasal Wash	1.1	missing	.x																																																																
+SUB231313	Atopic	RIS2	40525	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	10:00:00	3	0	1		1603	1593	1605
+SUB231313	Atopic	RIS2	41412	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					0		0			0		0			0	0			0		0		4				1653	1647	
+SUB231313	Atopic	RIS2	38139	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	0		99.1	0	0	0						1	2	5	2		3		1	2	2	1	4	0		0			1	1	1	4	0		13	14:00:00	3	1			1560	1556	1560
+SUB231313	Atopic	RIS2	39470	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231313	Atopic	RIS2	41406	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						0		0					1	1	1	1	4	0		0			0	0			0		1		4				1651	1647	
+SUB231313	Atopic	RIS2	42061	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0				1	0	1						1	2	5	2		3		1	2	2	1	4	1	2	2	1	4	0	0			0		10	14:30:00	3	1			1690	1686	1693
+SUB231313	Atopic	RIS2	41533	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	09:00:00	3	1			1660	1657	1660
+SUB231313	Atopic	RIS2	42079	Nasal Wash	1.1	complete	r	1		0														0			0	0				1	0	1						1	2	5	2		3		1	2	2	1	4	1	1	1	1	4	0	0			0		9		3	1			1693	1686	
+SUB231313	Atopic	RIS2	40609	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231321	Atopic	RIS2	36593	84-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231321	Atopic	RIS2	39569	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0			102	1	0	1						1	3	5	3			3	1	2	2	1	4	0		0			0	0			0		8		3	1			1542	1540	
+SUB231321	Atopic	RIS2	39555	Nasal Wash	1.1	missing	.x																																																																
+SUB231321	Atopic	RIS2	39536	Respiratory Illness Check	1.1	complete	r	2		1	0			0			1	0					0	5			1	5	0					0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		17	10:15:00	3	1			1527	1524	1527
+SUB231325	Atopic	RIS2	39473	Respiratory Illness Check	1.1	missing	.x																																																																
+SUB231326	Atopic	RIS2	38556	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231326	Atopic	RIS2	38509	Respiratory Illness Check	1.1	complete	r	2		0														0			1	5	0					0						1	2	5	2		3		1	2	1	1	4	1	1	1	1	4	0	0			0		12	13:00:00	3	0	1		1463	1462	1463
+SUB231328	Atopic	RIS2	40310	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231328	Atopic	RIS2	39634	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	1	1	1	4	1	1	1	1	4	1	1	1	4	0		8	11:25:00	3	1			1486	1484	1486
+SUB231338	Atopic	RIS2	40610	Nasal Wash	1.1	missing	.x																																																																
+SUB231338	Atopic	RIS2	41183	Respiratory Illness Check	1.1	complete	r	2		1	0			0			1	0					0	5			1	5	1	2				0						1	3	5	3			3	1	2	2	1	4	1	2	2	1	4	0	0			1	3	19	13:30:00	2	0	2	3	1508	1506	1508
+SUB231338	Atopic	RIS2	40372	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			1	5	0					0						1	2	5	1	4			1	2	2	1	4	0		0			0	0			0		12	08:00:00	4				1478	1454	1479
+SUB231338	Atopic	RIS2	42075	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	1	1	1	1	4	0	0			0		8	13:30:00	3	0	1		1559	1554	1562
+SUB231338	Atopic	RIS2	41200	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231338	Atopic	RIS2	42109	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231338	Atopic	RIS2	40645	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231338	Atopic	RIS2	40184	Respiratory Illness Followup Call	1.1	complete	r	2		0														0			0	0						0						0		0					1	2	2	1	4	1	1	1	1	4	0	0			0		3		4				1466	1454	
+SUB231338	Atopic	RIS2	42618	Respiratory Illness Check	1.1	complete	r	1		0														0			1	5	0					0						1	1	1	1	4			1	2	2	1	4	0		0			0	0			0		8	12:00:00	4				1592	1590	1592
+SUB231338	Atopic	RIS2	42076	Nasal Wash	1.1	complete	r	1		1	0			0			1	0		0			0	5			1	5	0					0						1	3	5	3			3	1	2	2	1	4	0		0			1	1	1	4	1	3	18		3	0	1		1562	1554	
+SUB231339	Atopic	RIS2	40568	Respiratory Illness Check	1.1	complete	r	1		0														0			0	0						0						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		7	11:20:00	3	1			1474	1440	1474
+SUB231347	Atopic	RIS2	34160	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231356	Atopic	RIS2	40889	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231357	Atopic	RIS2	42602	Respiratory Illness Check	1.1	complete	r	2		0														0			0	0			103	0	1	1						1	2	5	2		3		1	2	2	1	4	0		0			0	0			0		8	13:30:00	3	1			1546	1544	1546
+SUB231367	Atopic	RIS2	32029	84-Month Clinic Visit	1.0	missing	.x																																																																
+SUB231368	Atopic	RIS2	37897	60-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231400	Atopic	RIS2	35551	84-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231409	Atopic	RIS2	41782	60-Month Clinic Visit	1.1	missing	.x																																																																

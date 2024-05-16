@@ -1,0 +1,47 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	1	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	1	0	"c(""Atopic"", ""Atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SAEAM"", ""SAEAM"")"
+3	4	evid	evid	dbl	numeric	double	1	0	c(26241, 26241)
+4	5	event	event	chr	character	character	1	0	"c(""Serious Adverse Events"", ""Serious Adverse Events"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.2"", ""1.2"")"
+6	7	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+7	8	aVisit	Visit	chr	character	character	1	0	"c(""u"", ""u"")"
+8	9	SAEAM_q1	Number of Additional Con Meds or Treatment Meds For SAE	dbl	numeric	double	1	0	c(3, 3)
+9	10	SAEAM_q2b	Medication Dose/Units #1	chr	character	character	1	0	"c(""5000-7500 mg"", ""5000-7500 mg"")"
+10	11	SAEAM_q2c	Frequency #1	chr	character	character	1	0	"c("".d"", "".d"")"
+11	12	SAEAM_q2d	Route #1	chr	character	character	1	0	"c(""iv"", ""iv"")"
+12	13	SAEAM_q2g	Con Med or Treatment Med #1	dbl	numeric	double	1	0	c(0, 0)
+13	14	SAEAM_q3b	Medication Dose/Units #2	chr	character	character	1	0	"c(""30 mg"", ""30 mg"")"
+14	15	SAEAM_q3c	Frequency #2	chr	character	character	1	0	"c(""x1"", ""x1"")"
+15	16	SAEAM_q3d	Route #2	chr	character	character	1	0	"c(""iv"", ""iv"")"
+16	17	SAEAM_q3g	Con Med or Treatment Med #2	dbl	numeric	double	1	0	c(0, 0)
+17	18	SAEAM_q4b	Medication Dose/Units #3	chr	character	character	1	0	"c(""162.5"", ""162.5"")"
+18	19	SAEAM_q4c	Frequency #3	chr	character	character	1	0	"c(""q4 prn"", ""q4 prn"")"
+19	20	SAEAM_q4d	Route #3	chr	character	character	1	0	"c(""rectal"", ""rectal"")"
+20	21	SAEAM_q4g	Con Med or Treatment Med #3	dbl	numeric	double	1	0	c(0, 0)
+21	22	SAEAM_q5b	Medication Dose/Units #4	chr	character	character	1	0	"c("".a"", "".a"")"
+22	23	SAEAM_q5c	Frequency #4	chr	character	character	1	0	"c("".a"", "".a"")"
+23	24	SAEAM_q5d	Route #4	chr	character	character	1	0	"c("".a"", "".a"")"
+24	25	SAEAM_q5g	Con Med or Treatment Med #4	dbl	numeric	double	1	1	
+25	26	SAEAM_q6b	Medication Dose/Units #5	chr	character	character	1	0	"c("".a"", "".a"")"
+26	27	SAEAM_q6c	Frequency #5	chr	character	character	1	0	"c("".a"", "".a"")"
+27	28	SAEAM_q6d	Route #5	chr	character	character	1	0	"c("".a"", "".a"")"
+28	29	SAEAM_q6g	Con Med or Treatment Med #5	dbl	numeric	double	1	1	
+29	30	SAEAM_q7b	Medication Dose/Units #6	chr	character	character	1	0	"c("".a"", "".a"")"
+30	31	SAEAM_q7c	Frequency #6	chr	character	character	1	0	"c("".a"", "".a"")"
+31	32	SAEAM_q7d	Route #6	chr	character	character	1	0	"c("".a"", "".a"")"
+32	33	SAEAM_q7g	Con Med or Treatment Med #6	dbl	numeric	double	1	1	
+33	34	aCompletionDY	Completion Day	dbl	numeric	double	1	0	c(893, 893)
+34	35	SAEAM_q2eDY	Start Day #1	dbl	numeric	double	1	0	c(888, 888)
+35	36	SAEAM_q2fDY	Stop Day #1	dbl	numeric	double	1	0	c(889, 889)
+36	37	SAEAM_q3eDY	Start Day #2	dbl	numeric	double	1	0	c(888, 888)
+37	38	SAEAM_q3fDY	Stop Day #2	dbl	numeric	double	1	0	c(888, 888)
+38	39	SAEAM_q4eDY	Start Day #3	dbl	numeric	double	1	0	c(889, 889)
+39	40	SAEAM_q4fDY	Stop Day #3	dbl	numeric	double	1	0	c(889, 889)
+40	41	SAEAM_q5eDY	Start Day #4	dbl	numeric	double	1	1	
+41	42	SAEAM_q5fDY	Stop Day #4	dbl	numeric	double	1	1	
+42	43	SAEAM_q6eDY	Start Day #5	dbl	numeric	double	1	1	
+43	44	SAEAM_q6fDY	Stop Day #5	dbl	numeric	double	1	1	
+44	45	SAEAM_q7eDY	Start Day #6	dbl	numeric	double	1	1	
+45	46	SAEAM_q7fDY	Stop Day #6	dbl	numeric	double	1	1	

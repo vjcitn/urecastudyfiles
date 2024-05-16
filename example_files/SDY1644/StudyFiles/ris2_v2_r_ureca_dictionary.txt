@@ -1,0 +1,29 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	493	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""RIS2_V2"", ""RIS2_V2"")"
+3	4	evid	evid	dbl	numeric	double	2763	0	c(16196, 59031)
+4	5	event	event	chr	character	character	7	0	"c(""60-Month Clinic Visit"", ""Respiratory Illness Followup Call"")"
+5	6	version	version	chr	character	character	3	0	"c(""2.0"", ""2.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	6	0	"c("".x"", ""r"")"
+8	9	RIS2_V2_q6_1	Method of Completion	dbl	numeric	double	3	357	c(1, 2)
+9	10	RIS2_V2_q7_1	How was the respiratory illness reported?	dbl	numeric	double	3	2071	c(1, 2)
+10	11	RIS2_V2_q7_1_1a	Did the reported symptoms include cough or wheeze	dbl	numeric	double	3	567	c(0, 1)
+11	12	RIS2_V2_q2_1_2	Wheezing or Whistling in Chest - Last 3 Days	dbl	numeric	double	3	1716	c(0, 1)
+12	13	aScore2_1_2	Wheezing or Whistling in Chest - Score	dbl	numeric	double	3	1716	c(0, 5)
+13	14	RIS2_V2_q4_2	Cough, Last 3 Days	dbl	numeric	double	3	1716	c(0, 1)
+14	15	aScore4a_2	Cough - Score	dbl	numeric	double	3	1732	c(0, 5)
+15	16	RIS2_V2_q4_3	Has child had a cough that does not disturb his or her daily activities	dbl	numeric	double	3	1942	c(0, 1)
+16	17	aScore4_3	child score	dbl	numeric	double	2	1941	c(0, 0)
+17	18	RIS2_V2_q4_4	Does child cough a lot during the day but sleep at night	dbl	numeric	double	3	1942	c(0, 1)
+18	19	aScore4_4	Cough during the day, sleep at night - Score	dbl	numeric	double	2	1941	c(0, 0)
+19	20	RIS2_V2_q4_1	Has child had a cough that disturbs sleep or causes vomiting during the last 3 days	dbl	numeric	double	3	1941	c(0, 1)
+20	21	aScore4_1	Cough that disturbs sleep or causes vomiting - score	dbl	numeric	double	3	1941	c(0, 5)
+21	22	RIS2_V2_q9_2	Total Score	dbl	numeric	double	4	1716	c(0, 10)
+22	23	RIS2_V2_q10b_2	Nasal Lavage Scheduled - Time	time	"c(""hms"", ""difftime"")"	double	60	2387	c(27000, 68400)
+23	24	RIS2_V2_q11_1	Did you recommend that the caretaker contact a healthcare provider?	dbl	numeric	double	3	360	c(0, 1)
+24	25	RIS2_V2_q11a_1	Record the time you made the recommendation.	time	"c(""hms"", ""difftime"")"	double	111	2601	c(27000, 84600)
+25	26	aCompletionDY	Completion Day	dbl	numeric	double	872	357	c(1411, 2760)
+26	27	RIS2_V2_q5_1DY	Day of Illness Onset	dbl	numeric	double	492	1750	c(-30392, 2712)
+27	28	RIS2_V2_q10a_2DY	Nasal Lavage Scheduled - Day	dbl	numeric	double	288	2387	c(1411, 2628)

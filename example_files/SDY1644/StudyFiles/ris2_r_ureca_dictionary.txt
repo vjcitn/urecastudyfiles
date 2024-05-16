@@ -1,0 +1,73 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	73	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	1	0	"c(""Atopic"", ""Atopic"")"
+2	3	form		chr	character	character	1	0	"c(""RIS2"", ""RIS2"")"
+3	4	evid	evid	dbl	numeric	double	227	0	c(31135, 43181)
+4	5	event	event	chr	character	character	5	0	"c(""60-Month Clinic Visit"", ""Respiratory Illness Followup Call"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	3	0	"c("".x"", ""r"")"
+8	9	RIS2_q6_1	Method of Completion	dbl	numeric	double	3	53	c(1, 2)
+9	10	RIS2_q7_1	How was the respiratory illness reported?	dbl	numeric	double	1	227	
+10	11	RIS2_q1_2	Difficulty Breathing -Last 3 Days	dbl	numeric	double	3	53	c(0, 1)
+11	12	RIS2_q1a1_2	Difficulty Breathings - Signs Present- Bluish Lips, Tongue, Face or Body, Last 3 Days	dbl	numeric	double	2	200	c(0, 0)
+12	13	aSympt1a1_2	Difficulty Breathing - Signs Present: Bluish Lips, Tongue, Face or Body, Present Today	dbl	numeric	double	1	227	
+13	14	aCode1a1_2	Difficulty Breathing - Signs Present: Bluish Lips, Tongue, Face or Body - Code	dbl	numeric	double	1	227	
+14	15	RIS2_q1a2_2	Difficulty Breathing - Signs Present: Ribs Drawn In,  Last 3 Days	dbl	numeric	double	3	200	c(0, 1)
+15	16	aSympt1a2_2	Difficulty Breathing - Signs Present: Ribs Drawn In, Present Today	dbl	numeric	double	3	223	c(0, 1)
+16	17	aCode1a2_2	Difficulty Breathing - Signs Present: Ribs Drawn in - Code	dbl	numeric	double	2	226	c(1, 1)
+17	18	RIS2_q1a3_2	Difficulty Breathing - Signs Present: Breathing Rapidly	dbl	numeric	double	3	200	c(0, 1)
+18	19	aSympt1a3_2	Difficulty Breathing - Signs Present: Breathing Rapidly, Present Today	dbl	numeric	double	3	211	c(0, 1)
+19	20	aCode1a3_2	Difficulty Breathing - Signs Present: Breathing Rapidly - Code	dbl	numeric	double	2	223	c(2, 2)
+20	21	RIS2_q1a4_2	Difficulty Breathing - Signs Present: Stridor, Last 3 Days	dbl	numeric	double	2	222	c(0, 0)
+21	22	aSympt1a4_2	Difficulty Breathing - Signs Present: Stridor, Present Today	dbl	numeric	double	2	225	c(0, 0)
+22	23	aCode1a4_2	Difficulty Breathing - Signs Present: Stridor - Code	dbl	numeric	double	1	227	
+23	24	RIS2_q1a5_2	Difficulty Breathing - Signs Present: Difficulty Talking, Last 3 Days	dbl	numeric	double	3	200	c(0, 1)
+24	25	aScore1a5_2	Difficulty Breathing - Score	dbl	numeric	double	3	53	c(0, 5)
+25	26	aSympt1a5_2	Difficulty Breathing - Signs Present: Difficulty Talking, Present Today	dbl	numeric	double	3	221	c(0, 1)
+26	27	aCode1a5_2	Difficulty Breathing - Difficulty Talking - Code	dbl	numeric	double	2	224	c(1, 1)
+27	28	RIS2_q2_1_2	Wheezing or Whistling in Chest - Last 3 Days	dbl	numeric	double	3	53	c(0, 1)
+28	29	aScore2_1_2	Wheezing or Whistling in Chest - Score	dbl	numeric	double	3	53	c(0, 5)
+29	30	aSympt2_1_2	Wheezing or Whistling in Chest, Present Today	dbl	numeric	double	3	187	c(0, 1)
+30	31	aCode2_1_2	Wheezing or Whistling in Chest - Code	dbl	numeric	double	2	212	c(2, 2)
+31	32	RIS2_q3_1_2	Temperature - Highest, Last 3 Days	dbl	numeric	double	19	201	c(98.6, 104)
+32	33	RIS2_q3a_2	Temperature - Signs Present: Fever 100 - 102.9 F, Last 3 Days	dbl	numeric	double	3	198	c(0, 1)
+33	34	RIS2_q3b_2	Temperature - Signs Present: Fever > 103 F, Last 3 Days	dbl	numeric	double	3	198	c(0, 1)
+34	35	aScore3a_2	Temperature - Score	dbl	numeric	double	3	54	c(0, 1)
+35	36	aSympt3_1_2	Temperature, Present Today	dbl	numeric	double	5	221	c(99.6, 101)
+36	37	aSympt3a_2	Temperature -  Fever 100 - 102.9 F, Present Today	dbl	numeric	double	3	221	c(0, 1)
+37	38	aCode3a_2	Temperature -  Fever 100 - 102.9 F - Code	dbl	numeric	double	2	223	c(4, 4)
+38	39	aSympt3b_2	Temperature - Fever > 103 F, Present Today	dbl	numeric	double	2	221	c(0, 0)
+39	40	aCode3b_2	Temperature - Fever >= 103 F - Code	dbl	numeric	double	1	227	
+40	41	RIS2_q4_2	Cough, Last 3 Days	dbl	numeric	double	3	53	c(0, 1)
+41	42	RIS2_q4a_2	Cough - Severity	dbl	numeric	double	4	82	c(1, 3)
+42	43	aScore4a_2	Cough - Score	dbl	numeric	double	4	53	c(0, 5)
+43	44	aSympt4a_2	Cough, Present Today	dbl	numeric	double	4	89	c(1, 3)
+44	45	aCode4a_2	Cough, Mild - Code	dbl	numeric	double	2	163	c(4, 4)
+45	46	aCode4b_2	Cough, Moderate - Code	dbl	numeric	double	2	177	c(3, 3)
+46	47	aCode4c_2	Cough, Severe - Code	dbl	numeric	double	2	203	c(3, 3)
+47	48	RIS2_q5_2	Runny Nose, Last 3 Days	dbl	numeric	double	3	53	c(0, 1)
+48	49	RIS2_q5a_2	Runny Nose - Severity	dbl	numeric	double	3	91	c(1, 2)
+49	50	aScore5a_2	Runny Nose - Score	dbl	numeric	double	4	53	c(0, 2)
+50	51	aSympt5a_2	Runny Nose, Present Today	dbl	numeric	double	3	91	c(0, 1)
+51	52	aCode5a_2	Runny Nose - Code	dbl	numeric	double	2	108	c(4, 4)
+52	53	RIS2_q6_2	Stuffy Nose, Last 3 Days	dbl	numeric	double	3	53	c(0, 1)
+53	54	RIS2_q6a_2	Stuffy Nose - Severity	dbl	numeric	double	3	154	c(1, 2)
+54	55	aScore6a_2	Stuffy Nose - Score	dbl	numeric	double	4	53	c(0, 2)
+55	56	aSympt6a_2	Stuffy Nose, Present Today	dbl	numeric	double	3	154	c(0, 1)
+56	57	aCode6a_2	Stuffy Nose - Code	dbl	numeric	double	2	168	c(4, 4)
+57	58	RIS2_q7_2	Sore Throat, Last 3 Days	dbl	numeric	double	3	55	c(0, 1)
+58	59	aScore7_2	Sore Throat - Score	dbl	numeric	double	3	55	c(0, 1)
+59	60	aSympt7_2	Sore Throat, Present Today	dbl	numeric	double	3	205	c(0, 1)
+60	61	aCode7_2	Sore Throat - Code	dbl	numeric	double	2	215	c(4, 4)
+61	62	aSympt8_2	Needs Doctor Today	dbl	numeric	double	3	58	c(0, 1)
+62	63	aCode8_2	Needs Doctor Today - Code	dbl	numeric	double	2	210	c(3, 3)
+63	64	RIS2_q9_2	Total Score	dbl	numeric	double	21	53	c(0, 20)
+64	65	RIS2_q10b_2	Nasal Lavage Scheduled - Time	time	"c(""hms"", ""difftime"")"	double	24	150	c(28800, 63000)
+65	66	RIS2_q11	Recommendation for Medical Evaluation	dbl	numeric	double	5	53	c(1, 4)
+66	67	RIS2_q12_2	Child Advised To Be Seen According to Recommendation	dbl	numeric	double	3	145	c(0, 1)
+67	68	RIS2_q12a_2	Why Initial Recommendation Not Advised	dbl	numeric	double	3	217	c(1, 2)
+68	69	RIS2_q12b_2	Actual Recommendation Followed	dbl	numeric	double	2	226	c(3, 3)
+69	70	aCompletionDY	Completion Day	dbl	numeric	double	131	53	c(1462, 1831)
+70	71	RIS2_q5_1DY	Day of Illness Onset	dbl	numeric	double	85	57	c(1412, 1815)
+71	72	RIS2_q10a_2DY	Nasal Lavage Scheduled - Day	dbl	numeric	double	63	150	c(1463, 1820)

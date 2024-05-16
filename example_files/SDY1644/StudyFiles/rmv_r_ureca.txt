@@ -1,0 +1,1146 @@
+Accession	group	form	evid	event	version	status	aVisit	RMV_q1_1	RMV_q1a_1	RMV_q1	RMV_q1d	RMV_q1d1	RMV_q2	RMV_q3	RMV_q3a	RMV_q4	RMV_q4a	RMV_q5a	RMV_q5b	RMV_q5c	RMV_q5d	RMV_q5e	RMV_q5f	RMV_q5g	RMV_q5h	RMV_q5i	RMV_q5j	RMV_q5k	RMV_q5l	RMV_q5m	RMV_q5n	RMV_q6	RMV_q6a1	RMV_q6a2	RMV_q6a3	RMV_q6a4	RMV_q6a5	RMV_q6a6	RMV_q7	RMV_q8a	RMV_q8b	RMV_q8c	RMV_q8d	RMV_q8d1	RMV_q8d2	RMV_q8d3	RMV_q8e	RMV_q8f	RMV_q8g	RMV_q9a	RMV_q9b	RMV_q9c	RMV_q9d	RMV_q9e	RMV_q9f	RMV_q9g	RMV_q9h	RMV_q9i	RMV_q9j	RMV_q9k	RMV_q9l	RMV_q9m	RMV_q9n	RMV_q9o	RMV_q9p	RMV_q9q	RMV_q9r	aCompletionDY	RMV_q1aDY	RMV_q1bDY	RMV_q1cDY
+SUB230862	Atopic	RMV	296	12-Month Clinic Visit	1.1	complete	12			1			0	38	3	0		0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	575	323		
+SUB230862	Atopic	RMV	2373	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230865	Atopic	RMV	10570	Medical Visit Followup	1.2	complete	r	0	2																																																											784			
+SUB230865	Atopic	RMV	2982	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230865	Atopic	RMV	6317	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230866	Atopic	RMV	3425	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230867	Atopic	RMV	26481	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230867	Atopic	RMV	5016	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230867	Atopic	RMV	5027	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230867	Atopic	RMV	24236	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230867	Atopic	RMV	7039	Medical Visit Followup	1.1	complete	r			1			0	36	2	1	99.7	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	326	319		
+SUB230867	Atopic	RMV	597	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230867	Atopic	RMV	3317	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230867	Atopic	RMV	24973	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230868	Atopic	RMV	791	12-Month Clinic Visit	1.1	complete	12			1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	548	359		
+SUB230869	Atopic	RMV	6226	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230869	Atopic	RMV	6315	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230869	Atopic	RMV	3359	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230869	Atopic	RMV	3363	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230870	Atopic	RMV	22341	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230870	Atopic	RMV	2734	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230870	Atopic	RMV	2008	Medical Visit Followup	1.0	missing	.x																																																																
+SUB230870	Atopic	RMV	5449	Medical Visit Followup	1.0	missing	.x																																																																
+SUB230870	Atopic	RMV	21924	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230872	Atopic	RMV	877	9-Month Call	1.1	complete	9			1			0	39.1	1	1	96	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	296	182		
+SUB230872	Atopic	RMV	21224	Medical Visit Followup	1.2	complete	r	0	1																																																											1037			
+SUB230872	Atopic	RMV	877	9-Month Call	1.1	complete	9			1			0	39.8	2	0		0	0	1	0	0	0	1	0	1	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	283	238		
+SUB230872	Atopic	RMV	3282	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230872	Atopic	RMV	24055	Medical Visit Followup	1.2	complete	r	0	1																																																											1037			
+SUB230872	Atopic	RMV	20650	Medical Visit Followup	1.2	complete	r	0	1																																																											854			
+SUB230872	Atopic	RMV	877	9-Month Call	1.1	complete	9			1			0	35.3	2	0		0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	283	216		
+SUB230872	Atopic	RMV	3749	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230873	Atopic	RMV	17531	Medical Visit Followup	1.2	complete	r	1		1			0	35.4	2	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	639	626		
+SUB230873	Atopic	RMV	892	12-Month Clinic Visit	1.1	complete	12			1			0	39.9	1	0		0	1	0	0	0	0	0	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	530	353		
+SUB230873	Atopic	RMV	891	9-Month Call	1.1	missing	.x																																																																
+SUB230874	Atopic	RMV	16458	Medical Visit Followup	1.2	complete	r	0	1																																																											586			
+SUB230874	Atopic	RMV	19813	Medical Visit Followup	1.2	complete	r	1		1			0	35.3		0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	739	733		
+SUB230874	Atopic	RMV	17658	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230874	Atopic	RMV	20552	Medical Visit Followup	1.2	complete	r	0	1																																																											844			
+SUB230875	Atopic	RMV	922	18-Month Call	1.2	missing	.x																																																																
+SUB230875	Atopic	RMV	922	18-Month Call	1.2	missing	.x																																																																
+SUB230875	Atopic	RMV	926	30-Month Call	1.2	complete	30	0	1																																																											1063			
+SUB230876	Atopic	RMV	11253	Medical Visit Followup	1.2	complete	r	1		1			0	36.6	3	0		0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	837	398		
+SUB230876	Atopic	RMV	978	21-Month Call	1.2	complete	21	1		1			0	39.7	1	1	98	0	1	1	0	1	0	1	0	0	1	0	1	1	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	651	614		
+SUB230876	Atopic	RMV	20902	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.3		0		0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	840	823		
+SUB230876	Atopic	RMV	21019	Medical Visit Followup	1.2	complete	r	0	1																																																											881			
+SUB230881	Atopic	RMV	1596	6-Month Call	1.1	complete	6			1			0	37.2	2	1	97	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	1	1	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	227	169		
+SUB230881	Atopic	RMV	1599	15-Month Call	1.2	missing	.x																																																																
+SUB230882	Atopic	RMV	6768	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230883	Atopic	RMV	1785	9-Month Call	1.1	missing	.x																																																																
+SUB230883	Atopic	RMV	1787	15-Month Call	1.2	missing	.x																																																																
+SUB230884	Atopic	RMV	21703	Medical Visit Followup	1.2	complete	r	0	1																																																											936			
+SUB230885	Atopic	RMV	24015	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230885	Atopic	RMV	24157	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230887	Atopic	RMV	7225	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230888	Atopic	RMV	3384	Medical Visit	1.2	complete	m	0	1																																																											988			
+SUB230888	Atopic	RMV	19577	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.7		0		0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	840	644		
+SUB230888	Atopic	RMV	2168	9-Month Call	1.1	missing	.x																																																																
+SUB230888	Atopic	RMV	2166	15-Month Call	1.2	missing	.x																																																																
+SUB230888	Atopic	RMV	3357	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230888	Atopic	RMV	13966	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230888	Atopic	RMV	9369	Medical Visit Followup	1.2	complete	r	1		1			0	36	2	0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	663	258		
+SUB230889	Atopic	RMV	2187	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230890	Atopic	RMV	3364	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230890	Atopic	RMV	2201	6-Month Call	1.1	missing	.x																																																																
+SUB230890	Atopic	RMV	2199	12-Month Clinic Visit	1.2	complete	12	1		1			0	39.3	1	1	98	0	1	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0				0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	768	339		
+SUB230890	Atopic	RMV	2201	6-Month Call	1.1	missing	.x																																																																
+SUB230892	Atopic	RMV	4381	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230892	Atopic	RMV	22241	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230893	Atopic	RMV	26510	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230893	Atopic	RMV	6792	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230897	Atopic	RMV	14948	Medical Visit Followup	1.2	complete	r	0	1																																																											442			
+SUB230898	Atopic	RMV	2783	12-Month Clinic Visit	1.2	complete	12	0	1																																																											542			
+SUB230898	Atopic	RMV	2784	9-Month Call	1.2	complete	9	1		1			0	40.6		0		0	0	1	0	0	0	0	1	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	615	255		
+SUB230898	Atopic	RMV	2784	9-Month Call	1.2	missing	.x																																																																
+SUB230899	Atopic	RMV	2989	27-Month Call	1.2	missing	.x																																																																
+SUB230899	Atopic	RMV	19348	Medical Visit Followup	1.2	complete	r	0	1																																																											593			
+SUB230900	Atopic	RMV	3011	9-Month Call	1.2	missing	.x																																																																
+SUB230901	Atopic	RMV	3027	9-Month Call	1.2	missing	.x																																																																
+SUB230902	Atopic	RMV	7228	Medical Visit Followup	1.1	complete	r			1			1	37.5	2	0		1	1	1	0	1	0	0	0	1	1	0	1	0	1	0							0	0	1	1	0				0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	153	149		
+SUB230902	Atopic	RMV	12364	Medical Visit Followup	1.2	complete	r	1		1			0	36.8	3	0		0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	384	314		
+SUB230902	Atopic	RMV	7228	Medical Visit Followup	1.1	complete	r			2	0			38.5	2	1	88	1	1	1	0	1	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	1	0	1	1	1	1	1	1	0	0	0	0	0	0	0	1	1	1	1	0	0	1	0	0	1	1	0	0	0	0	157		151	154
+SUB230904	Atopic	RMV	3125	6-Month Call	1.1	missing	.x																																																																
+SUB230904	Atopic	RMV	3127	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230906	Atopic	RMV	16217	Respiratory Illness Followup Call	1.2	complete	r	0	1																																																											512			
+SUB230906	Atopic	RMV	3310	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230908	Atopic	RMV	3377	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230908	Atopic	RMV	3375	6-Month Call	1.1	missing	.x																																																																
+SUB230908	Atopic	RMV	6554	Medical Visit Followup	1.2	complete	r	1		1			0	37.3	2	0		0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	279	125		
+SUB230908	Atopic	RMV	6652	Medical Visit Followup	1.2	complete	r	0	1																																																											283			
+SUB230908	Atopic	RMV	3375	6-Month Call	1.1	missing	.x																																																																
+SUB230909	Atopic	RMV	4365	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230909	Atopic	RMV	3459	6-Month Call	1.1	missing	.x																																																																
+SUB230909	Atopic	RMV	10133	Medical Visit Followup	1.2	complete	r	1		1			0	38.8	1	0		0	0	1	0	1	0	0	0	0	0	1	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	242	212		
+SUB230910	Atopic	RMV	19271	Medical Visit Followup	1.2	complete	r	0	1																																																											751			
+SUB230911	Atopic	RMV	7820	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230911	Atopic	RMV	3536	18-Month Call	1.2	complete	18	1		1			1	37.4		1	89	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	1	1	1	1	0	0	0	1	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	1016	543		
+SUB230911	Atopic	RMV	3537	15-Month Call	1.2	complete	15	1		1			0	37.7		1	96	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0							0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1016	466		
+SUB230911	Atopic	RMV	18904	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230911	Atopic	RMV	14263	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	0	1	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	502	389		
+SUB230911	Atopic	RMV	23400	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230911	Atopic	RMV	3538	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230911	Atopic	RMV	3536	18-Month Call	1.2	missing	.x																																																																
+SUB230911	Atopic	RMV	3536	18-Month Call	1.2	missing	.x																																																																
+SUB230911	Atopic	RMV	16708	Medical Visit Followup	1.2	complete	r	1		1			1	39.2	3	0		0	0	1	0	1	0	0	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	536	413		
+SUB230911	Atopic	RMV	3537	15-Month Call	1.2	complete	15	1		2	1	1		36.5	3	1	80	0	0	1	0	1	0	0	0	0	0	1	0	0	0	1	0	0	1	0	0	0	0	1	1	1	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	729		413	416
+SUB230911	Atopic	RMV	16708	Medical Visit Followup	1.2	complete	r	1		1			1	36.5	3	1	80	0	0	1	0	1	0	0	0	0	0	1	0	0	0	1	0	0	1	0	0	0	0	1	1	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	536	413		
+SUB230912	Atopic	RMV	22664	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230912	Atopic	RMV	13976	Medical Visit Followup	1.2	complete	r	1		1			0	37.6	1	0		0	0	1	0	1	0	0	0	0	0	0	0	1	1	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	385	368		
+SUB230914	Atopic	RMV	3629	6-Month Call	1.2	missing	.x																																																																
+SUB230916	Atopic	RMV	20203	Medical Visit Followup	1.2	complete	r	1		1			0	35.8		0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	839	684		
+SUB230916	Atopic	RMV	3716	21-Month Call	1.2	complete	21	1		1			0	37.1		0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	668	651		
+SUB230916	Atopic	RMV	22034	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230916	Atopic	RMV	3721	6-Month Call	1.1	complete	6			1			0	37.7	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	207	117		
+SUB230918	Atopic	RMV	3781	6-Month Call	1.1	complete	6			1			0	37.9	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	259	105		
+SUB230920	Atopic	RMV	17091	Medical Visit Followup	1.2	complete	r	0	1																																																											570			
+SUB230920	Atopic	RMV	3848	3-Month Home Visit	1.1	complete	3			1			0	37	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	101	48		
+SUB230922	Atopic	RMV	3961	6-Month Call	1.1	missing	.x																																																																
+SUB230922	Atopic	RMV	5079	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230922	Atopic	RMV	3963	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230922	Atopic	RMV	5768	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230922	Atopic	RMV	5747	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230922	Atopic	RMV	3963	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230922	Atopic	RMV	10681	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230922	Atopic	RMV	21241	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230922	Atopic	RMV	6013	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230923	Atopic	RMV	9064	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230923	Atopic	RMV	4060	3-Month Home Visit	1.1	complete	3			1			0	36.6	2	0		0	0	1	0	1	0	1	0	0	1	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	73	32		
+SUB230923	Atopic	RMV	5109	Medical Visit Followup	1.1	complete	r			1			0	36.7	2	0		0	0	0	0	1	0	1	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	90	39		
+SUB230923	Atopic	RMV	9066	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB230923	Atopic	RMV	6764	Medical Visit Followup	1.1	complete	r			1			0	38.1	2	1	100	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	0				0	0	0	0	1	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	94	93		
+SUB230923	Atopic	RMV	4058	6-Month Call	1.1	missing	.x																																																																
+SUB230923	Atopic	RMV	9122	Medical Visit Followup	1.1	complete	r			1			0	39.9	1	0		0	0	1	0	1	0	0	0	1	0	0	0	1	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	169	169		
+SUB230924	Atopic	RMV	4078	24-Month Clinic Visit	1.2	complete	24	0	1																																																											899			
+SUB230926	Atopic	RMV	4357	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230927	Atopic	RMV	4646	12-Month Clinic Visit	1.2	complete	12	0	2																																																											837			
+SUB230928	Atopic	RMV	19017	Medical Visit Followup	1.2	complete	r	0	1																																																											521			
+SUB230928	Atopic	RMV	20088	Medical Visit Followup	1.2	complete	r	0	2																																																											834			
+SUB230928	Atopic	RMV	19927	Medical Visit Followup	1.2	complete	r	0	2																																																											834			
+SUB230929	Atopic	RMV	4715	3-Month Home Visit	1.1	missing	.x																																																																
+SUB230930	Atopic	RMV	10489	Medical Visit Followup	1.2	complete	r	0	1																																																											256			
+SUB230932	Atopic	RMV	5184	15-Month Call	1.2	complete	15	0	2																																																											853			
+SUB230932	Atopic	RMV	5180	27-Month Call	1.2	missing	.x																																																																
+SUB230932	Atopic	RMV	5184	15-Month Call	1.2	complete	15	0	2																																																											487			
+SUB230932	Atopic	RMV	16040	Medical Visit Followup	1.2	complete	r	0	2																																																											633			
+SUB230932	Atopic	RMV	5187	6-Month Call	1.2	complete	6	1		1			0	36.1	3	1	99	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	185	129		
+SUB230932	Atopic	RMV	17267	Medical Visit Followup	1.2	complete	r	0	2																																																											633			
+SUB230932	Atopic	RMV	23578	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230932	Atopic	RMV	5182	21-Month Call	1.2	complete	21	1		1			1			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	817	649		
+SUB230932	Atopic	RMV	23599	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230932	Atopic	RMV	5181	24-Month Clinic Visit	1.2	complete	24	0	1																																																											817			
+SUB230932	Atopic	RMV	18329	Respiratory Illness Followup Call	1.2	complete	r	0	2																																																											633			
+SUB230932	Atopic	RMV	24723	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230932	Atopic	RMV	23778	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230932	Atopic	RMV	5182	21-Month Call	1.2	complete	21	1		2	0					0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	817		649	650
+SUB230936	Atopic	RMV	5521	12-Month Clinic Visit	1.2	complete	12	0	1																																																											509			
+SUB230936	Atopic	RMV	19564	Medical Visit Followup	1.2	complete	r	1		1			0			1	95	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	693	495		
+SUB230937	Atopic	RMV	5643	15-Month Call	1.2	missing	.x																																																																
+SUB230937	Atopic	RMV	5643	15-Month Call	1.2	complete	15	0	1																																																											803			
+SUB230937	Atopic	RMV	5641	21-Month Call	1.2	complete	21	1		2	0			36.3		1	91	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	803		645	646
+SUB230937	Atopic	RMV	8470	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230937	Atopic	RMV	5641	21-Month Call	1.2	complete	21	1		1			0	36.1		0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	909	663		
+SUB230937	Atopic	RMV	21959	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230937	Atopic	RMV	5643	15-Month Call	1.2	complete	15	0	1																																																											803			
+SUB230937	Atopic	RMV	5643	15-Month Call	1.2	complete	15	0	1																																																											803			
+SUB230937	Atopic	RMV	5641	21-Month Call	1.2	complete	21	1		1			1	36.3		1	91	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	803	645		
+SUB230937	Atopic	RMV	5646	6-Month Call	1.2	complete	6	1		1			0	37.2	3	0		0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	417	205		
+SUB230937	Atopic	RMV	5643	15-Month Call	1.2	missing	.x																																																																
+SUB230939	Atopic	RMV	5932	3-Month Home Visit	1.1	complete	3			1			0	37.2	3	0		0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	279	6		
+SUB230939	Atopic	RMV	18073	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230939	Atopic	RMV	21646	Medical Visit Followup	1.2	complete	r	0	1																																																											684			
+SUB230939	Atopic	RMV	15657	Medical Visit Followup	1.2	complete	r	1		1			0	36.6	3	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	402	324		
+SUB230939	Atopic	RMV	5924	24-Month Clinic Visit	1.2	complete	24	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	816	759		
+SUB230940	Atopic	RMV	5950	3-Month Home Visit	1.1	complete	3			1			0	36.8	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	187	44		
+SUB230940	Atopic	RMV	5944	18-Month Call	1.2	missing	.x																																																																
+SUB230940	Atopic	RMV	5943	21-Month Call	1.2	missing	.x																																																																
+SUB230940	Atopic	RMV	7299	Medical Visit Followup	1.1	missing	.x																																																																
+SUB230941	Atopic	RMV	19723	Medical Visit Followup	1.2	complete	r	0	1																																																											679			
+SUB230941	Atopic	RMV	6056	21-Month Call	1.2	missing	.x																																																																
+SUB230941	Atopic	RMV	6058	15-Month Call	1.2	complete	15	1		1			0	37.7		1	99.9	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	898	448		
+SUB230941	Atopic	RMV	24870	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230941	Atopic	RMV	19358	Medical Visit Followup	1.2	complete	r	0	1																																																											492			
+SUB230941	Atopic	RMV	24855	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230941	Atopic	RMV	19343	Medical Visit Followup	1.2	complete	r	0	1																																																											492			
+SUB230942	Atopic	RMV	22150	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230942	Atopic	RMV	14617	Medical Visit Followup	1.2	complete	r	0	1																																																											478			
+SUB230942	Atopic	RMV	6075	12-Month Clinic Visit	1.2	complete	12	0	1																																																											418			
+SUB230943	Atopic	RMV	6094	6-Month Call	1.2	complete	6	1		1			0	38.5	2	1	99	0	0	1	0	0	0	0	0	1	0	1	1	0	1	1	0	0	0	0	0	1	0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	328	167		
+SUB230943	Atopic	RMV	15900	Medical Visit Followup	1.2	complete	r	0	1																																																											476			
+SUB230944	Atopic	RMV	26092	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230945	Atopic	RMV	6198	3-Month Home Visit	1.2	missing	.x																																																																
+SUB230948	Atopic	RMV	19540	Medical Visit Followup	1.2	complete	r	0	1																																																											660			
+SUB230948	Atopic	RMV	25830	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230948	Atopic	RMV	21387	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230949	Atopic	RMV	21443	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230949	Atopic	RMV	21474	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230949	Atopic	RMV	21474	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	37		0		0	1	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	878	631		
+SUB230949	Atopic	RMV	6480	21-Month Call	1.2	complete	21	0	3																																																											870			
+SUB230949	Atopic	RMV	6480	21-Month Call	1.2	complete	21	1		1			0	37		0		0	1	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	878	657		
+SUB230950	Atopic	RMV	23663	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	781	761		
+SUB230950	Atopic	RMV	23606	Medical Visit Followup	1.2	complete	r	0	1																																																											768			
+SUB230950	Atopic	RMV	15253	Medical Visit Followup	1.2	complete	r	1		1			0	36	2	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	287	283		
+SUB230951	Atopic	RMV	7514	Medical Visit Followup	1.1	complete	r			1			0	36.2	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	31	30		
+SUB230952	Atopic	RMV	6709	15-Month Call	1.2	complete	15	0	1																																																											862			
+SUB230952	Atopic	RMV	21856	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230952	Atopic	RMV	24492	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230952	Atopic	RMV	20099	Respiratory Illness Followup Call	1.2	complete	r	0	1																																																											653			
+SUB230952	Atopic	RMV	6712	6-Month Call	1.2	complete	6	0	2																																																											806			
+SUB230952	Atopic	RMV	20100	Medical Visit Followup	1.2	complete	r	0	1																																																											653			
+SUB230952	Atopic	RMV	25000	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230952	Atopic	RMV	6714	3-Month Home Visit	1.2	missing	.x																																																																
+SUB230952	Atopic	RMV	21650	Medical Visit Followup	1.2	complete	r	0	1																																																											648			
+SUB230952	Atopic	RMV	20058	Medical Visit Followup	1.2	complete	r	0	1																																																											653			
+SUB230952	Atopic	RMV	22200	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230952	Atopic	RMV	6712	6-Month Call	1.2	complete	6	0	1																																																											392			
+SUB230953	Atopic	RMV	7440	Medical Visit Followup	1.1	complete	r			3	0			37.3	2	1	95	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	1	0	0	1	0	1	1	0	0				0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	39		23	28
+SUB230953	Atopic	RMV	7440	Medical Visit Followup	1.1	complete	r			1			1	37.1	2	1	95	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0				0	0	1	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	24	22		
+SUB230959	Atopic	RMV	7507	6-Month Call	1.2	complete	6	1		2	0			38.5	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	259		32	34
+SUB230959	Atopic	RMV	20022	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	627	462		
+SUB230959	Atopic	RMV	23980	Medical Visit Followup	1.2	complete	r	0	1																																																											753			
+SUB230959	Atopic	RMV	23446	Medical Visit Followup	1.2	complete	r	0	1																																																											740			
+SUB230959	Atopic	RMV	7507	6-Month Call	1.2	complete	6	1		1			1	38.5	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	259	32		
+SUB230963	Atopic	RMV	7955	12-Month Clinic Visit	1.2	complete	12	1		1			0	39.8	1	1	99.9	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	382	370		
+SUB230963	Atopic	RMV	22084	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230963	Atopic	RMV	21997	Medical Visit Followup	1.2	complete	r	0	1																																																											725			
+SUB230963	Atopic	RMV	18995	Medical Visit Followup	1.2	complete	r	1		1			0	39.8	1	1	99.9	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	411	370		
+SUB230964	Atopic	RMV	8003	21-Month Call	1.2	missing	.x																																																																
+SUB230966	Atopic	RMV	15078	Medical Visit Followup	1.2	complete	r	0	1																																																											250			
+SUB230967	Atopic	RMV	8218	3-Month Home Visit	1.2	complete	3	1		2	0			37.1	3	1	99	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	83		24	26
+SUB230967	Atopic	RMV	8218	3-Month Home Visit	1.2	complete	3	1		1			1	39	3	0		0	0	1	0	0	0	1	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	206	24		
+SUB230970	Atopic	RMV	18178	Respiratory Illness Followup Call	1.2	complete	r	0	1																																																											320			
+SUB230970	Atopic	RMV	23842	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230970	Atopic	RMV	8879	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230970	Atopic	RMV	8875	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230972	Atopic	RMV	17155	Medical Visit Followup	1.2	complete	r	0	1																																																											382			
+SUB230973	Atopic	RMV	22779	Medical Visit Followup	1.2	complete	r	1		1			0	38.4	1	0		0	1	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	627	619		
+SUB230974	Atopic	RMV	9204	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230974	Atopic	RMV	9205	9-Month Call	1.2	complete	9	1		1			0	36.4	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	405	266		
+SUB230974	Atopic	RMV	9205	9-Month Call	1.2	complete	9	1		3	0					1		0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	405		256	259
+SUB230975	Atopic	RMV	9248	24-Month Clinic Visit	1.2	complete	24	1		2	0					0		0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	749		694	697
+SUB230975	Atopic	RMV	9248	24-Month Clinic Visit	1.2	complete	24	1		1			0	37.1		0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	749	699		
+SUB230975	Atopic	RMV	9250	18-Month Call	1.2	missing	.x																																																																
+SUB230975	Atopic	RMV	9251	15-Month Call	1.2	missing	.x																																																																
+SUB230976	Atopic	RMV	21232	Medical Visit Followup	1.2	complete	r	0	1																																																											538			
+SUB230977	Atopic	RMV	9629	9-Month Call	1.2	complete	9	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	294	248		
+SUB230978	Atopic	RMV	26379	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230978	Atopic	RMV	20067	Medical Visit Followup	1.2	complete	r	0	1																																																											495			
+SUB230978	Atopic	RMV	20087	Medical Visit Followup	1.2	complete	r	0	1																																																											495			
+SUB230983	Atopic	RMV	10108	18-Month Call	1.2	complete	18	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	572	562		
+SUB230983	Atopic	RMV	10107	21-Month Call	1.2	complete	21	1		3	0					0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	676		667	668
+SUB230983	Atopic	RMV	17985	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230983	Atopic	RMV	23376	Medical Visit Followup	1.2	complete	r	0	1																																																											621			
+SUB230983	Atopic	RMV	16497	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230983	Atopic	RMV	17771	Respiratory Illness Followup Call	1.2	complete	r	0	1																																																											289			
+SUB230983	Atopic	RMV	17754	Medical Visit Followup	1.2	complete	r	1		1			0	36.9	3	1	98	0	0	1	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	264	255		
+SUB230983	Atopic	RMV	10108	18-Month Call	1.2	complete	18	1		1			0	36	2	1	96	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	572	558		
+SUB230983	Atopic	RMV	16343	Medical Visit Followup	1.2	complete	r	1		1			0	36.4	3	1	98	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	240	207		
+SUB230983	Atopic	RMV	10108	18-Month Call	1.2	missing	.x																																																																
+SUB230983	Atopic	RMV	16837	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230986	Atopic	RMV	17075	Medical Visit Followup	1.2	complete	r	0	1																																																											377			
+SUB230987	Atopic	RMV	10597	21-Month Call	1.2	complete	21	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	670	632		
+SUB230987	Atopic	RMV	10597	21-Month Call	1.2	complete	21	1		1			0	36.5		1	99	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0							0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	667	618		
+SUB230987	Atopic	RMV	10601	9-Month Call	1.2	complete	9	1		1			0	38.4	1	1	95	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	285	271		
+SUB230988	Atopic	RMV	10707	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	10708	21-Month Call	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	10708	21-Month Call	1.2	complete	21	1		1			0			1	99	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	663	610		
+SUB230988	Atopic	RMV	17361	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	22228	Respiratory Illness Followup Call	1.2	complete	r	0	1																																																											644			
+SUB230988	Atopic	RMV	10708	21-Month Call	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	22164	Medical Visit Followup	1.2	complete	r	0	1																																																											644			
+SUB230988	Atopic	RMV	19589	Medical Visit Followup	1.2	complete	r	1		1			0	35		1	99.9	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	537	358		
+SUB230988	Atopic	RMV	18997	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.2		1	99.9	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	303	299		
+SUB230988	Atopic	RMV	24710	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	20970	Medical Visit Followup	1.2	complete	r	0	1																																																											530			
+SUB230988	Atopic	RMV	10707	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	20741	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	590	448		
+SUB230988	Atopic	RMV	10708	21-Month Call	1.2	complete	21	0	1																																																											666			
+SUB230988	Atopic	RMV	24241	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	21404	Medical Visit Followup	1.2	complete	r	1		1			0	35.6		0		0	0	0	0	0	0	0	0	0	0	0	0	1	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	590	506		
+SUB230988	Atopic	RMV	17359	Medical Visit Followup	1.2	complete	r	1		1			0	36.5	1	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	251	225		
+SUB230988	Atopic	RMV	25112	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	18565	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.4	2	1	99	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	279	274		
+SUB230988	Atopic	RMV	10708	21-Month Call	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	10708	21-Month Call	1.2	missing	.x																																																																
+SUB230988	Atopic	RMV	10707	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230990	Atopic	RMV	11337	9-Month Call	1.2	missing	.x																																																																
+SUB230995	Atopic	RMV	11869	6-Month Call	1.2	missing	.x																																																																
+SUB230996	Atopic	RMV	11881	18-Month Call	1.2	missing	.x																																																																
+SUB230996	Atopic	RMV	17927	Medical Visit Followup	1.2	complete	r	0	1																																																											290			
+SUB230996	Atopic	RMV	11880	21-Month Call	1.2	missing	.x																																																																
+SUB230996	Atopic	RMV	11885	6-Month Call	1.2	complete	6	1		1			0	38.9	1	1	99	0	0	1	0	1	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	1	0	0	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	303	163		
+SUB230997	Atopic	RMV	16097	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB230997	Atopic	RMV	12021	3-Month Home Visit	1.2	missing	.x																																																																
+SUB230997	Atopic	RMV	15987	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230998	Atopic	RMV	12054	21-Month Call	1.2	complete	21	0	1																																																											643			
+SUB230998	Atopic	RMV	21194	Medical Visit Followup	1.2	complete	r	0	1																																																											482			
+SUB230998	Atopic	RMV	24742	Medical Visit Followup	1.2	complete	r	0	1																																																											643			
+SUB230998	Atopic	RMV	12056	15-Month Call	1.2	complete	15	0	1																																																											657			
+SUB230998	Atopic	RMV	21589	Medical Visit Followup	1.2	complete	r	1		1			0	36	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	483	472		
+SUB230998	Atopic	RMV	19877	Medical Visit Followup	1.2	complete	r	0	1																																																											413			
+SUB230998	Atopic	RMV	18583	Medical Visit Followup	1.2	missing	.x																																																																
+SUB230998	Atopic	RMV	19737	Medical Visit Followup	1.2	complete	r	1		1			0	35.4	2	0		0	1	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	489	307		
+SUB230998	Atopic	RMV	12057	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB230998	Atopic	RMV	20106	Medical Visit Followup	1.2	complete	r	0	1																																																											413			
+SUB230999	Non-atopic	RMV	12092	9-Month Call	1.2	complete	9	1		1			1			0		0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	281	103		
+SUB230999	Non-atopic	RMV	12092	9-Month Call	1.2	complete	9	1		2	0					0		0	0	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	281		114	117
+SUB230999	Non-atopic	RMV	12092	9-Month Call	1.2	missing	.x																																																																
+SUB231002	Atopic	RMV	17783	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231002	Atopic	RMV	17688	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231002	Atopic	RMV	12378	6-Month Call	1.2	complete	6	1		1			0	36.7	1	1	98	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0				0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	445	167		
+SUB231002	Atopic	RMV	12378	6-Month Call	1.2	complete	6	0	1																																																											173			
+SUB231002	Atopic	RMV	12378	6-Month Call	1.2	complete	6	1		1			0	36.7	1	1	98	0	0	0	0	1	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	1	0	1	1	0	0				0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	445	166		
+SUB231003	Atopic	RMV	12407	21-Month Call	1.2	missing	.x																																																																
+SUB231003	Atopic	RMV	26364	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231003	Atopic	RMV	12407	21-Month Call	1.2	missing	.x																																																																
+SUB231003	Atopic	RMV	12411	9-Month Call	1.2	missing	.x																																																																
+SUB231003	Atopic	RMV	12409	15-Month Call	1.2	missing	.x																																																																
+SUB231003	Atopic	RMV	21235	Medical Visit Followup	1.2	complete	r	0	1																																																											430			
+SUB231006	Atopic	RMV	16778	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	155	135		
+SUB231007	Atopic	RMV	21332	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	591	457		
+SUB231007	Atopic	RMV	12759	6-Month Call	1.2	complete	6	0	1																																																											222			
+SUB231007	Atopic	RMV	21346	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231007	Atopic	RMV	21801	Medical Visit Followup	1.2	complete	r	0	1																																																											524			
+SUB231007	Atopic	RMV	21775	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	468	457		
+SUB231008	Atopic	RMV	13002	6-Month Call	1.2	missing	.x																																																																
+SUB231009	Atopic	RMV	15724	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231012	Atopic	RMV	19351	Medical Visit Followup	1.2	complete	r	0	1																																																											267			
+SUB231013	Atopic	RMV	22319	Medical Visit Followup	1.2	complete	r	0	1																																																											500			
+SUB231015	Non-atopic	RMV	20513	Medical Visit Followup	1.2	complete	r	0	1																																																											369			
+SUB231015	Non-atopic	RMV	21746	Medical Visit Followup	1.2	complete	r	0	1																																																											522			
+SUB231016	Atopic	RMV	22434	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231016	Atopic	RMV	23201	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231017	Non-atopic	RMV	14736	Medical Visit Followup	1.2	complete	r	0	1																																																											264			
+SUB231017	Non-atopic	RMV	26299	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231017	Non-atopic	RMV	17124	Medical Visit Followup	1.2	complete	r	0	1																																																											230			
+SUB231019	Atopic	RMV	23998	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231019	Atopic	RMV	18202	Medical Visit Followup	1.2	complete	r	1		1			0	38.6	2	1	99	0	0	1	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	240	172		
+SUB231019	Atopic	RMV	23681	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231023	Non-atopic	RMV	23493	Medical Visit Followup	1.2	complete	r	0	1																																																											489			
+SUB231023	Non-atopic	RMV	19472	Medical Visit Followup	1.2	complete	r	1		1			0	37.5	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	175	174		
+SUB231023	Non-atopic	RMV	18817	Medical Visit Followup	1.2	complete	r	1		1			0	36	2	1	99.9	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	175	131		
+SUB231024	Non-atopic	RMV	21839	Medical Visit Followup	1.2	complete	r	0	1																																																											405			
+SUB231024	Non-atopic	RMV	16272	9-Month Call	1.2	missing	.x																																																																
+SUB231024	Non-atopic	RMV	21145	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231025	Atopic	RMV	17789	Medical Visit Followup	1.2	complete	r	0	1																																																											136			
+SUB231025	Atopic	RMV	18042	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231026	Atopic	RMV	23130	Medical Visit Followup	1.2	complete	r	1		1			0	37.9		1	98	0	0	1	0	1	0	0	0	0	1	0	1	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	457	386		
+SUB231026	Atopic	RMV	25986	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231026	Atopic	RMV	18383	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	68	66		
+SUB231026	Atopic	RMV	26658	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231026	Atopic	RMV	23131	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	35.8	2	1	99.9	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	390	345		
+SUB231026	Atopic	RMV	26517	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231026	Atopic	RMV	19624	Medical Visit Followup	1.2	complete	r	0	1																																																											261			
+SUB231026	Atopic	RMV	22361	Medical Visit Followup	1.2	complete	r	1		1			0	36.8		0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	390	381		
+SUB231026	Atopic	RMV	16726	15-Month Call	1.2	complete	15	1		1			0	36.1		0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	492	453		
+SUB231026	Atopic	RMV	21951	Medical Visit Followup	1.2	complete	r	0	3																																																											449			
+SUB231026	Atopic	RMV	21369	Medical Visit Followup	1.2	complete	r	0	1																																																											444			
+SUB231027	Atopic	RMV	407	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231027	Atopic	RMV	21084	Medical Visit Followup	1.2	complete	r	0	1																																																											901			
+SUB231027	Atopic	RMV	407	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231029	Atopic	RMV	4459	18-Month Call	1.2	complete	18	1		1			0	37.2	1	1	99	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	596	483		
+SUB231029	Atopic	RMV	4458	21-Month Call	1.2	complete	21	1		1			0	36.7	3	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	639	590		
+SUB231029	Atopic	RMV	7147	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231031	Atopic	RMV	23766	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231031	Atopic	RMV	6146	Medical Visit Followup	1.1	complete	r			1			0	37.4	1	1	95	0	0	1	0	1	0	0	0	0	1	0	1	0	1	0							0	0	0	0	0				0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	316	229		
+SUB231032	Atopic	RMV	1516	24-Month Clinic Visit	1.2	complete	24	1		1			0	39.9	3	1	99	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	849	772		
+SUB231035	Atopic	RMV	2735	Medical Visit	1.1	complete	r			1			0	36.3	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	63	56		
+SUB231035	Atopic	RMV	16910	Medical Visit Followup	1.2	complete	r	1		1			0	37	1	0		0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	553	536		
+SUB231035	Atopic	RMV	1818	30-Month Call	1.2	complete	30	1		1			0	36.9	3	1	98	0	0	0	1	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	901	826		
+SUB231035	Atopic	RMV	1825	9-Month Call	1.1	complete	9			1			0	37.1	2	1	99	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	467	271		
+SUB231035	Atopic	RMV	1825	9-Month Call	1.1	complete	9			1			0	38.2	2	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	467	264		
+SUB231035	Atopic	RMV	5880	Medical Visit Followup	1.1	complete	r			1			0	37.1	3	1	98	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	181	179		
+SUB231040	Atopic	RMV	16739	Medical Visit Followup	1.2	complete	r	1		1			0	36.4	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	494	493		
+SUB231041	Atopic	RMV	18389	Medical Visit Followup	1.2	complete	r	0	1																																																											547			
+SUB231041	Atopic	RMV	4243	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231041	Atopic	RMV	7116	Medical Visit Followup	1.1	complete	r			1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	290	174		
+SUB231041	Atopic	RMV	17245	Medical Visit Followup	1.2	complete	r	0	1																																																											491			
+SUB231041	Atopic	RMV	19918	Medical Visit Followup	1.2	complete	r	1		1			0	37.7	1	1	100	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	1	1	0				0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	640	634		
+SUB231041	Atopic	RMV	4283	Medical Visit	1.1	complete	m			1			0	37.1	2	0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	70	70		
+SUB231041	Atopic	RMV	6276	Medical Visit Followup	1.1	complete	r			1			0	38.1	1	1	99	0	0	0	0	1	0	1	0	1	0	1	1	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	149	132		
+SUB231042	Atopic	RMV	2836	6-Month Call	1.1	complete	6			1			0	38.1	1	1	99	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	405	188		
+SUB231042	Atopic	RMV	21794	Medical Visit Followup	1.2	complete	r	1		1			0	36.6	3	1	96	0	0	1	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	794	790		
+SUB231043	Atopic	RMV	2854	6-Month Call	1.1	missing	.x																																																																
+SUB231043	Atopic	RMV	2848	24-Month Clinic Visit	1.2	complete	24	1		1			0	37.5		1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	768	713		
+SUB231043	Atopic	RMV	2850	18-Month Call	1.2	complete	18	1		1			0	37.1		1	96	0	1	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	0	768	507		
+SUB231043	Atopic	RMV	6152	Medical Visit	1.1	missing	.x																																																																
+SUB231043	Atopic	RMV	2852	12-Month Clinic Visit	1.2	complete	12	1		1			0	39.3	3	1	95	0	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	1	0	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	768	491		
+SUB231043	Atopic	RMV	20115	Medical Visit Followup	1.2	complete	r	0	1																																																											647			
+SUB231044	Atopic	RMV	22796	Medical Visit Followup	1.2	complete	r	1		1			0	35.9	2	0		0	0	0	0	0	0	0	0	0	1	0	0	1	0	0							0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	950	886		
+SUB231044	Atopic	RMV	19029	Medical Visit Followup	1.2	complete	r	1		1			0	38.3	3	1	96	0	1	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	565	560		
+SUB231044	Atopic	RMV	2862	30-Month Call	1.2	missing	.x																																																																
+SUB231044	Atopic	RMV	2864	24-Month Clinic Visit	1.2	complete	24	1		1			0	37.8	3	1	95	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0							0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	719	705		
+SUB231044	Atopic	RMV	9388	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231044	Atopic	RMV	17369	Medical Visit Followup	1.2	complete	r	1		2	0			39.4	3	1	98	0	0	1	0	0	0	0	0	0	1	1	0	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	530		481	483
+SUB231044	Atopic	RMV	5566	Medical Visit Followup	1.2	complete	r	1		1			0	37.1	1	1	94	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	545	108		
+SUB231044	Atopic	RMV	2864	24-Month Clinic Visit	1.2	complete	24	1		1			0	38.4	3	1	98	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0							0	0	1	1	0				0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	719	707		
+SUB231044	Atopic	RMV	19069	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	38.3	3	1	96	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0							0	0	1	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	574	560		
+SUB231044	Atopic	RMV	2867	15-Month Call	1.2	complete	15	1		1			1	39.5	3	1	95	0	0	0	0	0	0	0	0	0	1	1	0	0	1	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	585	481		
+SUB231044	Atopic	RMV	17371	Respiratory Illness Followup Call	1.2	complete	r	1		2	0			39.4	3	1	98	0	0	1	0	1	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	529		481	483
+SUB231044	Atopic	RMV	20287	Medical Visit Followup	1.2	complete	r	1		1			0	37.6	3	1	96	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	663	650		
+SUB231044	Atopic	RMV	20289	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.5	3	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	755	659		
+SUB231044	Atopic	RMV	17369	Medical Visit Followup	1.2	complete	r	1		1			1	39.5	3	1	95	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	530	481		
+SUB231044	Atopic	RMV	2869	9-Month Call	1.2	complete	9	1		1			0	37.4	3	0		0	0	1	0	0	0	0	1	0	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	529	255		
+SUB231044	Atopic	RMV	11775	Medical Visit Followup	1.2	complete	r	1		1			0	37.4	3	0		0	0	1	0	1	0	0	1	0	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	545	255		
+SUB231044	Atopic	RMV	17371	Respiratory Illness Followup Call	1.2	complete	r	1		1			1	39.5	3	1	95	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	529	481		
+SUB231045	Atopic	RMV	20191	Medical Visit Followup	1.2	complete	r	1		1			0	39.2	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	644	641		
+SUB231046	Atopic	RMV	3835	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231046	Atopic	RMV	3751	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231047	Atopic	RMV	17313	Medical Visit Followup	1.2	complete	r	1		1			0	37.1	1	0		0	1	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	533	486		
+SUB231047	Atopic	RMV	19679	Medical Visit Followup	1.2	complete	r	0	1																																																											612			
+SUB231048	Atopic	RMV	3289	15-Month Call	1.2	complete	15	1		1			0	37.9	1	1	98	0	1	1	0	0	0	1	0	0	1	1	1	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	479	418		
+SUB231048	Atopic	RMV	3292	6-Month Call	1.1	complete	r			1			0	37.9	1	1	100	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	416	144		
+SUB231048	Atopic	RMV	3289	15-Month Call	1.2	complete	15	1		1			0	37.5	1	1	99	0	1	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	464	416		
+SUB231049	Atopic	RMV	3489	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.8	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	472	324		
+SUB231049	Atopic	RMV	5900	Medical Visit Followup	1.1	complete	r			1			0	37.7	1	1	100	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	150	100		
+SUB231050	Atopic	RMV	17056	Medical Visit Followup	1.2	complete	r	1		2	1	1		37.8	2	1	93	0	0	0	0	1	0	0	0	0	1	1	0	0	0	1	1	1	0	0	0	1	0	1	1	0	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	463		457	460
+SUB231050	Atopic	RMV	7891	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231050	Atopic	RMV	17153	Medical Visit Followup	1.2	complete	r	1		1			0	36.2	2	1	97	0	0	1	0	1	0	0	0	1	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	468	456		
+SUB231050	Atopic	RMV	17153	Medical Visit Followup	1.2	complete	r	1		1			1	37.8	1	1	92	0	0	0	0	1	0	0	0	0	1	1	1	0	1	1	1	0	0	0	0	1	0	1	1	0	1	1	0	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	462	457		
+SUB231052	Atopic	RMV	4489	12-Month Clinic Visit	1.2	complete	12	0	4																																																											897			
+SUB231052	Atopic	RMV	6519	Medical Visit Followup	1.2	complete	r	1		1			0	37.3	1	1	98	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	182	59		
+SUB231052	Atopic	RMV	4487	18-Month Call	1.2	complete	18	1		1			0	36.3		1	96	0	0	1	0	0	0	0	0	0	1	1	1	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	897	503		
+SUB231052	Atopic	RMV	22298	Medical Visit Followup	1.2	complete	r	0	1																																																											897			
+SUB231052	Atopic	RMV	4485	24-Month Clinic Visit	1.2	complete	24	0	4																																																											897			
+SUB231053	Atopic	RMV	9856	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231053	Atopic	RMV	4509	3-Month Home Visit	1.1	complete	3			1			0	37	1	1	99	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	428	73		
+SUB231053	Atopic	RMV	7339	Medical Visit	1.1	complete	m			1			0	37.8	1	1	99	0	0	0	0	1	0	1	0	0	1	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	102	73		
+SUB231053	Atopic	RMV	24610	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231053	Atopic	RMV	4509	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231053	Atopic	RMV	7338	Medical Visit	1.1	complete	m			1			0	37.2	1	1	99	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	102	71		
+SUB231054	Atopic	RMV	4526	3-Month Home Visit	1.1	complete	3			1			0	38.2	3	0		0	1	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	521	479		
+SUB231055	Atopic	RMV	6787	Medical Visit Followup	1.1	complete	r			1			0	37	1	0		0	0	1	0	1	0	0	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	93	93		
+SUB231057	Atopic	RMV	9662	6-Month Call	1.2	complete	6	1		1			0	37.2	1	1	100	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	286	138		
+SUB231057	Atopic	RMV	9661	9-Month Call	1.2	complete	9	1		1			0	39.7	1	1	100	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	286	220		
+SUB231057	Atopic	RMV	21391	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.7		1	100	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0							0	0	0	0	1	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	686	675		
+SUB231057	Atopic	RMV	9654	30-Month Call	1.2	missing	.x																																																																
+SUB231058	Atopic	RMV	5411	24-Month Clinic Visit	1.2	complete	24	0	3																																																											872			
+SUB231058	Atopic	RMV	5417	6-Month Call	1.2	complete	6	0	2																																																											451			
+SUB231058	Atopic	RMV	23083	Medical Visit Followup	1.2	complete	r	1		1			0	36.3		0		0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	1	1	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	872	760		
+SUB231058	Atopic	RMV	21904	Respiratory Illness Followup Call	1.2	complete	r	0	3																																																											718			
+SUB231058	Atopic	RMV	5417	6-Month Call	1.2	complete	6	0	1																																																											451			
+SUB231058	Atopic	RMV	21876	Medical Visit Followup	1.2	complete	r	1		1			0	36.8	3	1	98	0	0	1	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	718	701		
+SUB231059	Atopic	RMV	23775	Medical Visit Followup	1.2	complete	r	1		1			0			1	100	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	837	780		
+SUB231059	Atopic	RMV	5540	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.4	1	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	421	334		
+SUB231059	Atopic	RMV	24829	Respiratory Illness Followup Call	1.2	complete	r	1		2	0			37.6	3	1	99	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	865		846	847
+SUB231059	Atopic	RMV	15733	Medical Visit Followup	1.2	complete	r	1		1			0	37.4	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	334	334		
+SUB231059	Atopic	RMV	5535	27-Month Call	1.2	complete	27	0	3																																																											830			
+SUB231059	Atopic	RMV	23817	Respiratory Illness Followup Call	1.2	complete	r	0	3																																																											789			
+SUB231059	Atopic	RMV	23871	Medical Visit Followup	1.2	complete	r	0	1																																																											838			
+SUB231059	Atopic	RMV	5535	27-Month Call	1.2	complete	27	1		1			0	36.2		1	100	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0							0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	830	801		
+SUB231059	Atopic	RMV	24829	Respiratory Illness Followup Call	1.2	complete	r	1		1			1	37.6	3	1	98	0	0	0	0	0	0	0	0	0	1	1	1	0	1	0							0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	865	846		
+SUB231059	Atopic	RMV	24829	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.2	3	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	865	863		
+SUB231059	Atopic	RMV	23425	Medical Visit Followup	1.2	complete	r	0	1																																																											838			
+SUB231060	Atopic	RMV	6515	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231064	Atopic	RMV	20418	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231064	Atopic	RMV	20381	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231064	Atopic	RMV	5805	30-Month Call	1.2	missing	.x																																																																
+SUB231065	Atopic	RMV	18049	Medical Visit Followup	1.2	complete	r	1		1			0	37.1	1	1	96	0	1	0	0	1	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	0	484	396		
+SUB231065	Atopic	RMV	6040	15-Month Call	1.2	complete	15	1		1			0	36.3	3	1	98	1	1	0	0	1	0	0	0	0	1	0	0	0	1	1	0	1	0	0	0	1	0	0	1	1	1	1	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	1	0	470	396		
+SUB231065	Atopic	RMV	20253	Medical Visit Followup	1.2	complete	r	0	1																																																											547			
+SUB231065	Atopic	RMV	23215	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231066	Atopic	RMV	7445	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231067	Atopic	RMV	6692	18-Month Call	1.2	complete	18	1		1			0			1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	570	471		
+SUB231067	Atopic	RMV	24843	Medical Visit Followup	1.2	complete	r	0	1																																																											855			
+SUB231067	Atopic	RMV	6694	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.4	1	1	97	0	0	1	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	413	351		
+SUB231067	Atopic	RMV	20587	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	39.9	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	578	570		
+SUB231067	Atopic	RMV	6690	24-Month Clinic Visit	1.2	complete	24	1		1			0	38.8	3	1	97	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	843	642		
+SUB231067	Atopic	RMV	6691	21-Month Call	1.2	complete	21	1		1			0	36.6	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	632	575		
+SUB231067	Atopic	RMV	6690	24-Month Clinic Visit	1.2	complete	24	1		1			0	37.1	2	1	95	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	843	648		
+SUB231067	Atopic	RMV	6695	9-Month Call	1.2	complete	9	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	302	298		
+SUB231067	Atopic	RMV	6692	18-Month Call	1.2	complete	18	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	570	568		
+SUB231070	Atopic	RMV	20672	Medical Visit Followup	1.2	complete	r	0	1																																																											549			
+SUB231070	Atopic	RMV	20032	Medical Visit Followup	1.2	complete	r	0	1																																																											497			
+SUB231070	Atopic	RMV	12927	Medical Visit Followup	1.2	complete	r	1		1			0	37.1	1	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	392	196		
+SUB231072	Atopic	RMV	7264	27-Month Call	1.2	missing	.x																																																																
+SUB231072	Atopic	RMV	26232	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231074	Atopic	RMV	7348	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231074	Atopic	RMV	7813	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231074	Atopic	RMV	8097	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231074	Atopic	RMV	7550	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231078	Atopic	RMV	20576	Respiratory Illness Followup Call	1.2	complete	r	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	509	496		
+SUB231078	Atopic	RMV	20576	Respiratory Illness Followup Call	1.2	complete	r	0	3																																																											509			
+SUB231078	Atopic	RMV	20544	Medical Visit Followup	1.2	complete	r	1		1			0	38.4	3	1	94	0	0	0	0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	0	1	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	496	490		
+SUB231078	Atopic	RMV	8342	18-Month Call	1.2	complete	18	1		1			0	38.4	1	1	94	0	0	0	0	0	0	0	0	0	1	0	1	0	1	0							0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	573	490		
+SUB231078	Atopic	RMV	8341	21-Month Call	1.2	missing	.x																																																																
+SUB231081	Atopic	RMV	20438	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231081	Atopic	RMV	20490	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231081	Atopic	RMV	16182	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231081	Atopic	RMV	8630	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231081	Atopic	RMV	17109	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231084	Atopic	RMV	23503	Medical Visit Followup	1.2	complete	r	0	1																																																											742			
+SUB231085	Atopic	RMV	10319	Medical Visit Followup	1.2	complete	r	0	1																																																											378			
+SUB231087	Atopic	RMV	16900	Medical Visit Followup	1.2	complete	r	1		1			0	36.9	1	1	99	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	265	257		
+SUB231087	Atopic	RMV	20630	Medical Visit Followup	1.2	complete	r	1		1			0	37.6	3	1	95	0	0	0	0	0	0	0	0	0	1	1	1	0	1	0							0	1	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	471	469		
+SUB231087	Atopic	RMV	17802	Medical Visit Followup	1.2	complete	r	1		1			0	36.9	2	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	316	290		
+SUB231087	Atopic	RMV	9325	12-Month Clinic Visit	1.2	complete	12	0	1																																																											351			
+SUB231087	Atopic	RMV	9321	24-Month Clinic Visit	1.2	complete	24	1		1			0	37	3	1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	737	661		
+SUB231087	Atopic	RMV	17289	Medical Visit Followup	1.2	complete	r	1		1			0	37.2	3	1	100	0	0	0	0	1	0	1	0	0	1	0	0	1	0	0							0	0	1	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	316	251		
+SUB231090	Atopic	RMV	9532	12-Month Clinic Visit	1.2	complete	12	1		1			0	38.5	3	1	96	0	1	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	402	388		
+SUB231090	Atopic	RMV	11574	Medical Visit Followup	1.2	complete	r	1		1			0	37.7	3	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	452	109		
+SUB231090	Atopic	RMV	9532	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.7	3	1	96	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	402	391		
+SUB231090	Atopic	RMV	9532	12-Month Clinic Visit	1.2	complete	12	1		1			1	38.3	3	1	94	0	0	1	0	1	0	0	0	1	1	0	0	0	0	0							0	1	0	0	0				0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	402	388		
+SUB231091	Atopic	RMV	17734	Medical Visit Followup	1.2	complete	r	0	1																																																											306			
+SUB231091	Atopic	RMV	22091	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231092	Atopic	RMV	9613	9-Month Call	1.2	complete	9	1		1			0	37.1	1	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	332	194		
+SUB231093	Atopic	RMV	9645	9-Month Call	1.2	missing	.x																																																																
+SUB231093	Atopic	RMV	9646	6-Month Call	1.2	missing	.x																																																																
+SUB231094	Atopic	RMV	9963	9-Month Call	1.2	complete	9	1		1			0	37.1	2	1	99	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	294	286		
+SUB231095	Atopic	RMV	19647	Medical Visit Followup	1.2	complete	r	0	1																																																											709			
+SUB231095	Atopic	RMV	10480	12-Month Clinic Visit	1.2	complete	12	1		1			0			1	96	0	0	1	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	0	1	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	709	314		
+SUB231095	Atopic	RMV	10481	9-Month Call	1.2	complete	9	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	293	286		
+SUB231095	Atopic	RMV	10481	9-Month Call	1.2	complete	9	0	4																																																											709			
+SUB231095	Atopic	RMV	10481	9-Month Call	1.2	complete	9	0	4																																																											709			
+SUB231096	Atopic	RMV	18337	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231096	Atopic	RMV	26164	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231098	Atopic	RMV	20169	Medical Visit Followup	1.2	complete	r	0	1																																																											533			
+SUB231098	Atopic	RMV	22335	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231098	Atopic	RMV	26351	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231098	Atopic	RMV	20079	Medical Visit Followup	1.2	complete	r	0	1																																																											533			
+SUB231098	Atopic	RMV	17538	Medical Visit Followup	1.2	complete	r	1		1			0	37.8	1	0		0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	284	243		
+SUB231098	Atopic	RMV	17805	Medical Visit Followup	1.2	complete	r	0	1																																																											284			
+SUB231099	Atopic	RMV	10753	12-Month Clinic Visit	1.2	complete	12	1		1			0	38.6	3	1	98	0	0	1	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	511	354		
+SUB231099	Atopic	RMV	10753	12-Month Clinic Visit	1.2	complete	12	0	4																																																											712			
+SUB231100	Atopic	RMV	20466	Medical Visit Followup	1.2	complete	r	1		1			0	39.1	1	0		0	0	1	0	0	0	1	0	0	0	0	0	1	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	520	430		
+SUB231100	Atopic	RMV	13985	Medical Visit Followup	1.2	complete	r	1		1			0	37.4	1	1	99	0	0	1	0	1	0	0	0	1	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	289	136		
+SUB231100	Atopic	RMV	11450	Medical Visit Followup	1.2	complete	r	0	1																																																											402			
+SUB231100	Atopic	RMV	17806	Medical Visit Followup	1.2	complete	r	1		1			0	37.3	1	1	100	1	0	1	0	1	0	1	0	0	0	0	1	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	1	289	250		
+SUB231100	Atopic	RMV	10770	9-Month Call	1.2	complete	9	0	3																																																											293			
+SUB231102	Atopic	RMV	23504	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231102	Atopic	RMV	20028	Medical Visit Followup	1.2	complete	r	1		1			0	37.1	1	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	401	347		
+SUB231105	Atopic	RMV	10852	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231107	Atopic	RMV	15912	Medical Visit Followup	1.2	complete	r	1		1			0	37.6	1	0		0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	254	164		
+SUB231107	Atopic	RMV	17404	Medical Visit Followup	1.2	complete	r	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	254	215		
+SUB231109	Atopic	RMV	11358	9-Month Call	1.2	complete	9	0	4																																																											451			
+SUB231109	Atopic	RMV	11357	12-Month Clinic Visit	1.2	complete	12	1		1			0	36.9		0		0	1	0	0	0	0	0	1	0	1	0	1	0	0	0							0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	460	361		
+SUB231109	Atopic	RMV	19262	Medical Visit Followup	1.2	complete	r	0	1																																																											291			
+SUB231109	Atopic	RMV	20571	Medical Visit Followup	1.2	complete	r	1		1			0	36.3		0		1	1	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	451	380		
+SUB231109	Atopic	RMV	19382	Medical Visit Followup	1.2	complete	r	0	1																																																											451			
+SUB231109	Atopic	RMV	11358	9-Month Call	1.2	complete	9	0	4																																																											286			
+SUB231109	Atopic	RMV	11354	21-Month Call	1.2	complete	21	1		1			0	36.2	2	1	97	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	1	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	656	586		
+SUB231109	Atopic	RMV	19120	Medical Visit Followup	1.2	complete	r	0	1																																																											451			
+SUB231109	Atopic	RMV	11358	9-Month Call	1.2	complete	9	1		1			1	37.2	1	1	93	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	451	176		
+SUB231109	Atopic	RMV	11358	9-Month Call	1.2	complete	9	1		1			0	38	3	1	95	0	1	1	0	1	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	1	0	1	1	1	0				0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	293	281		
+SUB231109	Atopic	RMV	11358	9-Month Call	1.2	complete	9	0	4																																																											286			
+SUB231109	Atopic	RMV	19130	Respiratory Illness Followup Call	1.2	complete	r	0	3																																																											286			
+SUB231109	Atopic	RMV	11358	9-Month Call	1.2	complete	9	1		2	0					1	87	0	0	1	0	0	0	0	0	0	1	0	1	0	0	1	0	0	1	0	0	1	0	1	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	1	0	0	0	451		176	182
+SUB231110	Atopic	RMV	18269	Medical Visit Followup	1.2	complete	r	0	1																																																											359			
+SUB231110	Atopic	RMV	17978	Medical Visit Followup	1.2	complete	r	0	1																																																											669			
+SUB231110	Atopic	RMV	17980	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231110	Atopic	RMV	11486	9-Month Call	1.2	complete	9	1		1			0	37.3		1	98	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	281	220		
+SUB231111	Atopic	RMV	13757	Medical Visit Followup	1.2	complete	r	1		1			0	37.6	1	1	100	0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	99	95		
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231112	Atopic	RMV	11614	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231115	Atopic	RMV	18833	Medical Visit Followup	1.2	complete	r	1		1			0	38.8	1	0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	249	248		
+SUB231116	Atopic	RMV	14282	Medical Visit Followup	1.2	complete	r	0	1																																																											223			
+SUB231116	Atopic	RMV	18788	Medical Visit Followup	1.2	complete	r	1		1			0	36.8	1	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	281	245		
+SUB231117	Atopic	RMV	20258	Medical Visit Followup	1.2	complete	r	0	1																																																											666			
+SUB231117	Atopic	RMV	26410	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231117	Atopic	RMV	12181	12-Month Clinic Visit	1.2	complete	12	0	4																																																											666			
+SUB231118	Atopic	RMV	12194	21-Month Call	1.2	missing	.x																																																																
+SUB231118	Atopic	RMV	20267	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231119	Atopic	RMV	14814	Medical Visit Followup	1.2	complete	r	0	1																																																											156			
+SUB231119	Atopic	RMV	12428	6-Month Call	1.2	missing	.x																																																																
+SUB231119	Atopic	RMV	12426	12-Month Clinic Visit	1.2	complete	12	1		1			0	36.3	1	1	98	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	1	0	1	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	366	155		
+SUB231119	Atopic	RMV	12426	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.6	3	0		0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	1	0	0	1	1	0				0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	366	156		
+SUB231119	Atopic	RMV	12426	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.2	1	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	1	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	366	165		
+SUB231119	Atopic	RMV	12428	6-Month Call	1.2	missing	.x																																																																
+SUB231120	Atopic	RMV	20691	Medical Visit Followup	1.2	complete	r	1		1			0	39.1	3	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	376	368		
+SUB231120	Atopic	RMV	18680	Medical Visit Followup	1.2	complete	r	1		1			0	38.2	1	1	98	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0							0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	239	223		
+SUB231120	Atopic	RMV	26367	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231121	Atopic	RMV	12561	18-Month Call	1.2	complete	18	0	4																																																											553			
+SUB231121	Atopic	RMV	12565	6-Month Call	1.2	complete	6	1		1			0	37.5	1	1	100	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	177	154		
+SUB231122	Atopic	RMV	13788	Medical Visit Followup	1.2	complete	r	0	2																																																											50			
+SUB231122	Atopic	RMV	13112	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231123	Atopic	RMV	24090	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231123	Atopic	RMV	12597	6-Month Call	1.2	complete	6	1		1			0	38.3	1	1	99	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	202	152		
+SUB231123	Atopic	RMV	12597	6-Month Call	1.2	complete	6	1		1			0	37.9	1	1	100	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	202	153		
+SUB231125	Atopic	RMV	26427	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231128	Atopic	RMV	26347	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	12900	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	12900	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	12901	9-Month Call	1.2	complete	9	1		1			0	36.9	3	1	99	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	266	263		
+SUB231130	Atopic	RMV	21994	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	12902	6-Month Call	1.2	complete	6	1		1			0	36.3	2	1	96	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	196	143		
+SUB231130	Atopic	RMV	19661	Medical Visit Followup	1.2	complete	r	1		1			0			1	100	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	309	280		
+SUB231130	Atopic	RMV	12901	9-Month Call	1.2	complete	9	1		1			0	37.4	3	1	96	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	266	220		
+SUB231130	Atopic	RMV	12900	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	15309	Medical Visit Followup	1.2	complete	r	0	1																																																											90			
+SUB231130	Atopic	RMV	12902	6-Month Call	1.2	complete	6	1		1			0	36.3	1	1	98	0	0	1	0	0	0	0	1	1	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	196	180		
+SUB231130	Atopic	RMV	15025	Medical Visit Followup	1.2	complete	r	0	1																																																											90			
+SUB231130	Atopic	RMV	22546	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	12902	6-Month Call	1.2	complete	6	0	1																																																											196			
+SUB231130	Atopic	RMV	12902	6-Month Call	1.2	complete	6	1		1			0	36.7	2	1	100	0	0	1	0	1	0	0	0	1	0	0	0	0	1	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	196	177		
+SUB231130	Atopic	RMV	15076	Respiratory Illness Followup Call	1.2	complete	r	1		2	0			38.1	2	1	87	0	0	0	0	1	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	90		78	84
+SUB231130	Atopic	RMV	12900	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	15416	Medical Visit Followup	1.2	complete	r	0	1																																																											121			
+SUB231130	Atopic	RMV	12900	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	12900	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231130	Atopic	RMV	24067	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231131	Atopic	RMV	15585	Medical Visit Followup	1.2	complete	r	1		1			0	35.9		0		0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	438	104		
+SUB231131	Atopic	RMV	13033	9-Month Call	1.2	complete	9	1		1			0	37.1	1	1	100	0	0	1	0	0	0	0	0	0	0	0	1	1	1	0							0	0	1	0	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	280	249		
+SUB231131	Atopic	RMV	13033	9-Month Call	1.2	complete	9	1		1			0	35.9		1	100	0	1	0	0	1	0	0	0	1	1	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	280	-120		
+SUB231132	Atopic	RMV	21428	Medical Visit Followup	1.2	complete	r	0	1																																																											430			
+SUB231132	Atopic	RMV	22278	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231132	Atopic	RMV	17742	Medical Visit Followup	1.2	complete	r	0	1																																																											172			
+SUB231134	Atopic	RMV	24685	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231134	Atopic	RMV	13454	18-Month Call	1.2	complete	18	1		1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	588	556		
+SUB231135	Atopic	RMV	23079	Medical Visit Followup	1.2	complete	r	0	3																																																											596			
+SUB231135	Atopic	RMV	23023	Medical Visit Followup	1.2	complete	r	1		1			0	35.6		1	100	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	596	502		
+SUB231135	Atopic	RMV	20961	Medical Visit Followup	1.2	complete	r	0	1																																																											596			
+SUB231137	Atopic	RMV	13824	6-Month Call	1.2	complete	6	1		2	0			37.7	1	1	94	0	0	1	0	1	0	0	0	0	1	1	1	0	0	0							0	1	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	226		146	147
+SUB231137	Atopic	RMV	18218	Respiratory Illness Followup Call	1.2	complete	r	1		1			1			1	92	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	1	0	0	1	0	0	1	0	0				0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	182	182		
+SUB231137	Atopic	RMV	13824	6-Month Call	1.2	complete	6	1		1			0	37.4	1	1	97	0	0	0	0	1	0	0	0	0	1	1	1	0	0	1	1	0	0	0	0	0	0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	219	139		
+SUB231137	Atopic	RMV	18218	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	37.8	1	1	97	0	0	0	0	1	0	0	0	0	1	1	1	0	0	1	1	0	0	0	0	0	0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	151	139		
+SUB231137	Atopic	RMV	13821	15-Month Call	1.2	complete	15	1		1			0	37.3	1	1	100	0	1	0	0	0	0	0	1	0	1	0	0	0	1	0							0	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0	506	273		
+SUB231137	Atopic	RMV	13826	3-Month Home Visit	1.2	complete	3	1		1			0	38.3	1	1	97	0	0	1	0	0	0	0	0	1	1	1	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	152	130		
+SUB231137	Atopic	RMV	13824	6-Month Call	1.2	complete	6	1		1			1	37.8	1	1	92	0	0	1	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	0	1	0	0	0	1	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	219	146		
+SUB231137	Atopic	RMV	18218	Respiratory Illness Followup Call	1.2	complete	r	1		2	0			37.9	1	1	94	0	0	0	0	1	0	0	0	0	1	1	1	0	0	0							0	1	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	183		146	148
+SUB231137	Atopic	RMV	13821	15-Month Call	1.2	complete	15	1		1			0	36.1	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	506	356		
+SUB231140	Atopic	RMV	14204	3-Month Home Visit	1.2	complete	3	1		1			1	37.5	3	1	80	0	0	1	0	0	0	0	0	0	1	1	1	0	1	1	0	0	0	0	0	1	0	1	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	285	47		
+SUB231140	Atopic	RMV	14204	3-Month Home Visit	1.2	complete	3	1		2	1	2						0	0	0	0	0	0	0	0	0	0	1	1	0	1	0							0	0	1	1	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	82		47	53
+SUB231142	Atopic	RMV	14254	6-Month Call	1.2	complete	6	1		1			0	36.9	3	0		0	1	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	203	191		
+SUB231142	Atopic	RMV	14254	6-Month Call	1.2	complete	6	1		1			0	37	3	1	97	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	203	7		
+SUB231142	Atopic	RMV	14254	6-Month Call	1.2	complete	6	1		1			0	37	3	0		0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	1	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	203	155		
+SUB231142	Atopic	RMV	16945	Medical Visit Followup	1.2	complete	r	1		1			0	37.9	1	1	100	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	154	98		
+SUB231143	Non-atopic	RMV	21503	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.4	2	1	100	0	0	1	0	0	0	0	0	1	1	0	0	0	1	0							0	0	1	0	1	1	1	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	400	391		
+SUB231143	Non-atopic	RMV	18570	Medical Visit Followup	1.2	complete	6	1		1			0	38.3	3	1	99	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	187	154		
+SUB231143	Non-atopic	RMV	14396	18-Month Call	1.2	complete	18	1		2	0			36.4		1	95	0	1	0	0	0	0	0	0	0	1	1	1	0	1	1	0	0	0	0	0	1	0	1	1	1	1	1	1	0	0	0	0	0	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	581		504	506
+SUB231143	Non-atopic	RMV	14392	6-Month Call	1.2	complete	6	1		2	0			37.5	3	1	94	0	0	0	0	1	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	1	0	1	1	1	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	169		114	116
+SUB231143	Non-atopic	RMV	14392	6-Month Call	1.2	complete	6	1		1			0	38.3	3	1	99	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	169	154		
+SUB231143	Non-atopic	RMV	14396	18-Month Call	1.2	complete	18	1		1			1	38.7	1	1	97	0	1	0	0	0	0	0	0	0	1	1	1	0	1	1	0	0	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	554	504		
+SUB231143	Non-atopic	RMV	14392	6-Month Call	1.2	complete	6	1		1			1	37.3	3	1	96	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	239	113		
+SUB231143	Non-atopic	RMV	20213	Medical Visit Followup	1.2	complete	r	1		1			0	36.1	2	1	97	0	0	0	0	0	0	0	0	1	1	0	0	0	1	0							0	1	1	0	0				0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	266	265		
+SUB231143	Non-atopic	RMV	20234	Medical Visit Followup	1.2	complete	r	0	1																																																											274			
+SUB231144	Atopic	RMV	19897	Medical Visit Followup	1.2	complete	r	1		1			0	36.2	1	1	98	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	298	235		
+SUB231144	Atopic	RMV	23281	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231145	Non-atopic	RMV	14425	9-Month Call	1.2	complete	9	1		1			0	38.3	1	1	100	0	1	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	260	162		
+SUB231146	Atopic	RMV	18708	Medical Visit Followup	1.2	complete	r	1		1			0	37.1	1	1	100	0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	210	167		
+SUB231149	Atopic	RMV	14565	6-Month Call	1.2	complete	6	1		1			0	37.4	1	1	98	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	208	186		
+SUB231149	Atopic	RMV	14562	15-Month Call	1.2	complete	15	1		1			0	36.2	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	557	413		
+SUB231149	Atopic	RMV	14567	3-Month Home Visit	1.2	complete	3	1		1			0	38	3	1	100	0	0	0	0	0	0	0	0	0	1	0	1	0	1	0							0	1	1	1	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	161	126		
+SUB231150	Atopic	RMV	24596	Medical Visit Followup	1.2	complete	r	1		1			0	38.8	1	1	100	0	1	1	0	0	0	0	1	1	0	1	0	0	1	0							0	0	1	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	539	536		
+SUB231150	Atopic	RMV	24554	Medical Visit Followup	1.2	complete	r	1		1			0	37.1		1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	573	538		
+SUB231150	Atopic	RMV	24577	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	37.9	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	573	539		
+SUB231151	Non-atopic	RMV	19675	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231151	Non-atopic	RMV	23430	Medical Visit Followup	1.2	complete	r	0	1																																																											551			
+SUB231151	Non-atopic	RMV	21415	Respiratory Illness Followup Call	1.2	complete	r	0	3																																																											551			
+SUB231151	Non-atopic	RMV	19675	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231151	Non-atopic	RMV	19902	Medical Visit Followup	1.2	complete	r	1		1			0	37.4	1	1	97	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	251	232		
+SUB231151	Non-atopic	RMV	19671	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231151	Non-atopic	RMV	21413	Medical Visit Followup	1.2	complete	r	1		1			0	36.6	1	1	99	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0							0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	377	370		
+SUB231151	Non-atopic	RMV	14770	9-Month Call	1.2	complete	9	1		1			1	36.9	3	1	99	0	0	0	0	0	0	0	1	1	1	1	1	0	0	1	0	0	0	1	0	0	0	0	1	0	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	551	191		
+SUB231151	Non-atopic	RMV	14773	18-Month Call	1.2	missing	.x																																																																
+SUB231151	Non-atopic	RMV	14770	9-Month Call	1.2	complete	9	1		2	0			36.9	3	1	99	0	0	0	0	1	0	1	0	0	1	1	1	0	1	0							0	0	1	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	551		191	192
+SUB231151	Non-atopic	RMV	14773	18-Month Call	1.2	missing	.x																																																																
+SUB231151	Non-atopic	RMV	19675	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	38	1	1	98	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	253	190		
+SUB231151	Non-atopic	RMV	14771	12-Month Clinic Visit	1.2	complete	12	1		1			0	36.6	1	1	99	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	551	370		
+SUB231151	Non-atopic	RMV	19675	Respiratory Illness Followup Call	1.2	complete	r	1		1			1	36.7	3	1	99	0	0	0	0	0	0	0	1	1	1	1	1	0	1	1	0	0	0	0	1	1	0	1	1	1	1	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	253	191		
+SUB231151	Non-atopic	RMV	19802	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231151	Non-atopic	RMV	19718	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231155	Atopic	RMV	18881	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231155	Atopic	RMV	18881	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231155	Atopic	RMV	14881	6-Month Call	1.2	missing	.x																																																																
+SUB231155	Atopic	RMV	16808	Medical Visit Followup	1.2	complete	r	0	1																																																											248			
+SUB231155	Atopic	RMV	18853	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231156	Non-atopic	RMV	19869	Medical Visit Followup	1.2	complete	r	0	1																																																											235			
+SUB231159	Atopic	RMV	15217	9-Month Call	1.2	complete	9	1		1			0	38.2	1	1	100	0	0	1	0	1	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	532	92		
+SUB231159	Atopic	RMV	15217	9-Month Call	1.2	complete	9	1		1			0	37.6	1	1	99	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	532	263		
+SUB231159	Atopic	RMV	20548	Medical Visit Followup	1.2	complete	r	1		1			0	37.6	1	1	99	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	276	263		
+SUB231161	Atopic	RMV	22961	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231163	Atopic	RMV	18100	Medical Visit Followup	1.2	complete	r	1		1			0	37	1	1	99	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	235	106		
+SUB231163	Atopic	RMV	23081	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231164	Atopic	RMV	23230	Medical Visit Followup	1.2	complete	r	0	1																																																											516			
+SUB231166	Atopic	RMV	19171	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	37.7	3	1	96	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	1	1	0	0	1	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	164	132		
+SUB231166	Atopic	RMV	15940	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231166	Atopic	RMV	19122	Medical Visit Followup	1.2	complete	r	0	3																																																											255			
+SUB231166	Atopic	RMV	15944	3-Month Home Visit	1.2	complete	3	1		2	0			36.2	1	1	97	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	1	0	0	0	164		41	44
+SUB231167	Atopic	RMV	22993	Medical Visit Followup	1.2	complete	r	0	1																																																											527			
+SUB231167	Atopic	RMV	16012	6-Month Call	1.2	complete	6	1		1			0	36.7		1	100	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	527	143		
+SUB231169	Non-atopic	RMV	19921	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231170	Non-atopic	RMV	17511	15-Month Call	1.2	missing	.x																																																																
+SUB231171	Non-atopic	RMV	21865	Medical Visit Followup	1.2	complete	r	0	1																																																											389			
+SUB231172	Non-atopic	RMV	21807	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231173	Atopic	RMV	984	Medical Visit Followup	1.0	missing	.x																																																																
+SUB231173	Atopic	RMV	493	9-Month Call	1.1	missing	.x																																																																
+SUB231173	Atopic	RMV	493	9-Month Call	1.1	missing	.x																																																																
+SUB231173	Atopic	RMV	19378	Medical Visit Followup	1.2	complete	r	0	1																																																											831			
+SUB231173	Atopic	RMV	490	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231173	Atopic	RMV	21510	Medical Visit Followup	1.2	complete	r	0	1																																																											938			
+SUB231173	Atopic	RMV	490	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231176	Atopic	RMV	776	9-Month Call	1.1	complete	9			1			0	36.3	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	327	301		
+SUB231177	Atopic	RMV	5243	Medical Visit Followup	1.1	complete	r			1			0	36.7	1	0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	210	210		
+SUB231177	Atopic	RMV	10075	Medical Visit Followup	1.2	complete	r	1		1			0	37.3	3	1	99	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	364	362		
+SUB231178	Atopic	RMV	23121	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231178	Atopic	RMV	1019	21-Month Call	1.2	missing	.x																																																																
+SUB231178	Atopic	RMV	23175	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231178	Atopic	RMV	5445	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231178	Atopic	RMV	19960	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231178	Atopic	RMV	2476	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231178	Atopic	RMV	1023	33-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231178	Atopic	RMV	2502	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231178	Atopic	RMV	1022	30-Month Call	1.2	missing	.x																																																																
+SUB231178	Atopic	RMV	5401	Medical Visit Followup	1.1	complete	r			1			0	38.6	1	0		0	0	1	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	217	216		
+SUB231180	Atopic	RMV	2451	Medical Visit	1.1	complete	r			1			0	36.8	3	0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	87	79		
+SUB231180	Atopic	RMV	2509	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231180	Atopic	RMV	2415	Medical Visit Followup	1.1	complete	r			1			0	36.7	3	0		0	0	0	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	87	87		
+SUB231181	Atopic	RMV	1192	21-Month Call	1.2	missing	.x																																																																
+SUB231182	Atopic	RMV	1425	27-Month Call	1.2	missing	.x																																																																
+SUB231182	Atopic	RMV	1426	30-Month Call	1.2	complete	30	1		1			0	36.3	3	1	98	0	0	1	0	1	0	0	0	0	1	0	1	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	956	898		
+SUB231183	Atopic	RMV	1574	9-Month Call	1.1	missing	.x																																																																
+SUB231183	Atopic	RMV	1577	18-Month Call	1.2	missing	.x																																																																
+SUB231183	Atopic	RMV	1581	30-Month Call	1.2	missing	.x																																																																
+SUB231183	Atopic	RMV	1577	18-Month Call	1.2	missing	.x																																																																
+SUB231183	Atopic	RMV	1581	30-Month Call	1.2	missing	.x																																																																
+SUB231185	Atopic	RMV	4318	Medical Visit Followup	1.1	complete	r			1			0	36.5	3	1	99	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	120	120		
+SUB231186	Atopic	RMV	4576	Medical Visit Followup	1.1	complete	r			1			0	36.6	3	0		0	0	0	0	0	0	0	0	0	0	0	0	1	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	119	119		
+SUB231186	Atopic	RMV	6401	Medical Visit Followup	1.1	complete	r			1			0	38.7	1	1	95	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0							0	1	1	0	0				0	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	1	0	0	0	0	186	186		
+SUB231186	Atopic	RMV	6403	Respiratory Illness Followup Call	1.1	complete	r			1			0	38.7	3	1	99	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0	0	0	194	186		
+SUB231186	Atopic	RMV	2023	9-Month Call	1.2	missing	.x																																																																
+SUB231188	Atopic	RMV	5820	Medical Visit Followup	1.1	complete	r			1			0	36.4	2	1	98	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0							0	0	0	0	0				0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	153	125		
+SUB231188	Atopic	RMV	6544	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231188	Atopic	RMV	9102	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231189	Atopic	RMV	7739	Medical Visit Followup	1.1	complete	r			1			0	36	3	1	99	0	0	0	0	0	0	0	0	1	1	1	1	1	0	0							0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	181	180		
+SUB231190	Atopic	RMV	2939	30-Month Call	1.2	missing	.x																																																																
+SUB231190	Atopic	RMV	24244	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231192	Atopic	RMV	3409	27-Month Call	1.2	complete	27	1		1			1	37.2	3	1	96	0	1	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	906	797		
+SUB231192	Atopic	RMV	3409	27-Month Call	1.2	missing	.x																																																																
+SUB231192	Atopic	RMV	3409	27-Month Call	1.2	missing	.x																																																																
+SUB231192	Atopic	RMV	3409	27-Month Call	1.2	complete	27	1		1			1	35.9	3	1	95	0	0	0	0	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	846	823		
+SUB231192	Atopic	RMV	23306	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231192	Atopic	RMV	23321	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231196	Atopic	RMV	14453	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231197	Atopic	RMV	4131	27-Month Call	1.2	missing	.x																																																																
+SUB231197	Atopic	RMV	21165	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231197	Atopic	RMV	4131	27-Month Call	1.2	missing	.x																																																																
+SUB231197	Atopic	RMV	4131	27-Month Call	1.2	missing	.x																																																																
+SUB231198	Atopic	RMV	16653	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231198	Atopic	RMV	16324	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231198	Atopic	RMV	4337	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231198	Atopic	RMV	4331	18-Month Call	1.2	missing	.x																																																																
+SUB231199	Atopic	RMV	4828	18-Month Call	1.2	missing	.x																																																																
+SUB231202	Atopic	RMV	5290	6-Month Call	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5839	9-Month Call	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5834	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5834	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5839	9-Month Call	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5842	3-Month Home Visit	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5834	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231204	Atopic	RMV	5839	9-Month Call	1.2	missing	.x																																																																
+SUB231209	Atopic	RMV	19337	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231209	Atopic	RMV	6389	21-Month Call	1.2	missing	.x																																																																
+SUB231213	Atopic	RMV	24376	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231213	Atopic	RMV	8117	Medical Visit Followup	1.1	complete	r			2	1	5		37.8	1	1	90	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0							0	1	1	0	0				0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	35		30	35
+SUB231213	Atopic	RMV	8117	Medical Visit Followup	1.1	complete	r			1			1	37.7	1	1	91	0	0	0	0	1	0	0	0	0	1	1	1	0	0	1	0	0	0	0	0	1	0	1	1	0	0				0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	30	30		
+SUB231217	Atopic	RMV	7724	27-Month Call	1.2	missing	.x																																																																
+SUB231217	Atopic	RMV	7726	21-Month Call	1.2	complete	21	0	3																																																											628			
+SUB231217	Atopic	RMV	7726	21-Month Call	1.2	complete	21	1		1			1	38.8	3	1	95	0	0	0	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	1	0				0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	628	582		
+SUB231218	Atopic	RMV	7755	24-Month Clinic Visit	1.2	complete	24	1		1			0	38.1	3	1	96	0	0	1	0	0	0	1	0	0	1	0	1	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	805	318		
+SUB231219	Atopic	RMV	7771	24-Month Clinic Visit	1.2	complete	24	1		1			0	38.3	3	1	97	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	805	318		
+SUB231220	Atopic	RMV	7867	6-Month Call	1.2	complete	6	1		1			1	37.1	1	1	95	0	0	0	0	0	0	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	209	103		
+SUB231220	Atopic	RMV	7867	6-Month Call	1.2	complete	6	1		2	0			37.3	1	1	95	0	0	0	0	1	0	0	1	0	1	1	1	0	0	0							0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	224		103	104
+SUB231225	Atopic	RMV	8540	3-Month Home Visit	1.2	complete	3	1		3	1	4		38.3	1	1	92	0	0	0	0	1	0	0	1	0	1	1	1	0	1	0							0	0	1	1	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	131		70	73
+SUB231225	Atopic	RMV	8536	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231230	Atopic	RMV	8847	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231233	Atopic	RMV	17319	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231235	Atopic	RMV	9310	9-Month Call	1.2	missing	.x																																																																
+SUB231237	Atopic	RMV	9673	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231237	Atopic	RMV	9670	21-Month Call	1.2	complete	21	1		1			0	37.8	3	1	95	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0							0	0	1	1	0				0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	643	632		
+SUB231237	Atopic	RMV	14849	Medical Visit Followup	1.2	complete	r	1		1			0	38.5	3	1	98	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	196	175		
+SUB231241	Atopic	RMV	24493	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231241	Atopic	RMV	24471	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231243	Atopic	RMV	17851	Medical Visit	1.2	complete	m	1		1			0	38	3	1	97	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	247	230		
+SUB231243	Atopic	RMV	17409	Medical Visit Followup	1.2	complete	m	1		1			0	38.9	1	1	94	0	0	0	0	1	0	0	0	0	1	1	1	1	0	1	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	247	231		
+SUB231243	Atopic	RMV	10443	21-Month Call	1.2	missing	.x																																																																
+SUB231243	Atopic	RMV	10443	21-Month Call	1.2	missing	.x																																																																
+SUB231246	Atopic	RMV	10967	9-Month Call	1.2	missing	.x																																																																
+SUB231248	Atopic	RMV	11191	6-Month Call	1.2	missing	.x																																																																
+SUB231255	Atopic	RMV	24808	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231260	Atopic	RMV	12722	6-Month Call	1.2	missing	.x																																																																
+SUB231263	Atopic	RMV	22537	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231264	Atopic	RMV	22583	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231264	Atopic	RMV	13259	6-Month Call	1.2	missing	.x																																																																
+SUB231264	Atopic	RMV	22487	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231264	Atopic	RMV	13257	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231272	Atopic	RMV	19955	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231274	Atopic	RMV	14471	9-Month Call	1.2	missing	.x																																																																
+SUB231277	Non-atopic	RMV	14684	6-Month Call	1.2	missing	.x																																																																
+SUB231279	Atopic	RMV	21883	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231280	Non-atopic	RMV	14993	3-Month Home Visit	1.2	missing	.x																																																																
+SUB231280	Non-atopic	RMV	14993	3-Month Home Visit	1.2	missing	.x																																																																
+SUB231280	Non-atopic	RMV	17413	Medical Visit Followup	1.2	complete	r	1		1			0	38.9	1	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	186	83		
+SUB231284	Atopic	RMV	24888	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231284	Atopic	RMV	24861	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231284	Atopic	RMV	22670	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231285	Non-atopic	RMV	20003	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231286	Atopic	RMV	15749	15-Month Call	1.2	missing	.x																																																																
+SUB231286	Atopic	RMV	15749	15-Month Call	1.2	missing	.x																																																																
+SUB231287	Non-atopic	RMV	24061	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	36.4	3	1	97	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	472	459		
+SUB231287	Non-atopic	RMV	24032	Medical Visit Followup	1.2	complete	r	1		1			0	36.4	3	1	97	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	461	459		
+SUB231288	Atopic	RMV	16086	9-Month Call	1.2	complete	9	1		1			0	37.5	3	1	98	0	0	0	0	1	0	0	0	0	1	0	0	1	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	491	189		
+SUB231288	Atopic	RMV	17439	Medical Visit Followup	1.2	complete	m	1		1			0	37.4	1	1	99.9	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	59	43		
+SUB231288	Atopic	RMV	24739	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231288	Atopic	RMV	23299	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231293	Atopic	RMV	8263	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231293	Atopic	RMV	8300	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231294	Atopic	RMV	452	12-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231294	Atopic	RMV	452	12-Month Clinic Visit	1.1	missing	.x																																																																
+SUB231294	Atopic	RMV	8721	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231295	Atopic	RMV	962	Medical Visit	1.0	complete	m			3	0			37.9	2	1	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							1	1	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	55		44	47
+SUB231295	Atopic	RMV	9754	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231295	Atopic	RMV	4391	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231295	Atopic	RMV	4074	Medical Visit Followup	1.1	complete	r			1			0	38.5	3	1	98	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	210	209		
+SUB231295	Atopic	RMV	4165	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231295	Atopic	RMV	462	3-Month Home Visit	1.0	complete	m			1			0	37.4	2	0		0	0	0	0	0	0	0	0	0	1	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	147	38		
+SUB231296	Atopic	RMV	2381	Medical Visit	1.0	complete	m			1			0	36	3	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	114	53		
+SUB231296	Atopic	RMV	480	12-Month Clinic Visit	1.1	complete	m			1			0	39	3	0		0	0	1	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	368	316		
+SUB231297	Atopic	RMV	554	6-Month Call	1.1	missing	.x																																																																
+SUB231297	Atopic	RMV	555	9-Month Call	1.1	missing	.x																																																																
+SUB231297	Atopic	RMV	557	15-Month Call	1.2	complete	15	0	4																																																											462			
+SUB231298	Atopic	RMV	5240	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231299	Atopic	RMV	694	27-Month Call	1.2	complete	27	1		2	0							0	0	0	0	1	0	0	0	0	1	0	0	0	0	0							0	0	1	1	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	808		782	784
+SUB231299	Atopic	RMV	694	27-Month Call	1.2	complete	27	1		1			1	37.9	2	1	97	0	0	0	0	1	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	808	782		
+SUB231299	Atopic	RMV	18248	Medical Visit Followup	1.2	complete	r	1		1			0	37.5	3	1	93	0	0	0	0	1	0	0	1	0	1	1	1	0	1	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	648	644		
+SUB231299	Atopic	RMV	694	27-Month Call	1.2	complete	27	1		1			0	37.1	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	808	789		
+SUB231300	Atopic	RMV	1114	6-Month Call	1.1	missing	.x																																																																
+SUB231300	Atopic	RMV	1114	6-Month Call	1.1	missing	.x																																																																
+SUB231301	Atopic	RMV	1126	3-Month Home Visit	1.1	complete	m			1			0	37.9	3	1	98	0	0	1	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	180	66		
+SUB231302	Atopic	RMV	6309	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231302	Atopic	RMV	5977	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231303	Atopic	RMV	4907	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231303	Atopic	RMV	1275	12-Month Clinic Visit	1.2	complete	12	1		2	0			37.3	2	1	94	0	0	1	0	1	0	0	1	0	1	1	0	0	0	0							0	1	1	1	1	0	0	1	0	0	0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	629		304	306
+SUB231303	Atopic	RMV	3239	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231303	Atopic	RMV	1275	12-Month Clinic Visit	1.2	complete	12	1		1			1	37.5	2	1	89	0	0	1	0	1	0	0	0	1	1	1	0	0	1	1	0	0	0	0	0	1	0	1	1	1	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	629	245		
+SUB231303	Atopic	RMV	1273	6-Month Call	1.1	missing	.x																																																																
+SUB231304	Atopic	RMV	1291	18-Month Call	1.2	complete	18	0	2																																																											701			
+SUB231304	Atopic	RMV	1288	9-Month Call	1.1	complete	9			1			0	37	3	1	96	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	317	252		
+SUB231304	Atopic	RMV	1296	33-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231306	Atopic	RMV	15083	Medical Visit Followup	1.2	complete	r	0	1																																																											499			
+SUB231306	Atopic	RMV	7571	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231306	Atopic	RMV	1360	3-Month Home Visit	1.1	complete	m			1			0	36.2	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	89	15		
+SUB231306	Atopic	RMV	1365	15-Month Call	1.2	complete	15	0	2																																																											696			
+SUB231306	Atopic	RMV	1370	30-Month Call	1.2	complete	30	1		1			0	36.9	2	0		0	0	1	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	920	898		
+SUB231307	Atopic	RMV	1452	24-Month Clinic Visit	1.2	complete	24	0	2																																																											741			
+SUB231307	Atopic	RMV	1444	3-Month Home Visit	1.1	complete	m			1			0	36.7	3	1	99	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	157	21		
+SUB231307	Atopic	RMV	1444	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231307	Atopic	RMV	18790	Medical Visit Followup	1.2	complete	r	0	1																																																											632			
+SUB231307	Atopic	RMV	3394	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231307	Atopic	RMV	1447	9-Month Call	1.1	complete	9			1			0	36.2	3	0		0	0	1	0	1	0	1	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	271	253		
+SUB231309	Atopic	RMV	1556	6-Month Call	1.1	complete	6			1			0			0		0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	248	213		
+SUB231309	Atopic	RMV	1561	21-Month Call	1.2	complete	21	1		1			1	38.1	3	1	89	0	0	1	0	1	0	0	0	0	1	1	1	0	1	1	0	0	0	0	1	1	0	1	1	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	655	568		
+SUB231309	Atopic	RMV	1561	21-Month Call	1.2	complete	21	1		2	0			37.5	3	1	96	0	0	0	0	1	0	0	0	0	1	1	1	0	1	0							0	1	1	1	1	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	655		569	573
+SUB231309	Atopic	RMV	1557	9-Month Call	1.1	missing	.x																																																																
+SUB231310	Atopic	RMV	1648	9-Month Call	1.1	missing	.x																																																																
+SUB231310	Atopic	RMV	1656	33-Month Clinic Visit	1.2	complete	33	0	4																																																											1003			
+SUB231311	Atopic	RMV	2799	Respiratory Illness Followup Call	1.1	complete	m			1			0	37.3	3	0		0	0	0	0	1	0	0	0	0	0	1	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	74	57		
+SUB231311	Atopic	RMV	1862	6-Month Call	1.1	missing	.x																																																																
+SUB231311	Atopic	RMV	3234	Medical Visit Followup	1.1	complete	r			1			0	37.2	3	1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	118	82		
+SUB231311	Atopic	RMV	2799	Respiratory Illness Followup Call	1.1	missing	.x																																																																
+SUB231311	Atopic	RMV	2794	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231311	Atopic	RMV	2799	Respiratory Illness Followup Call	1.1	complete	m			1			0	37.9	3	0		0	0	0	0	0	0	1	0	0	0	1	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	82	11		
+SUB231311	Atopic	RMV	3397	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231311	Atopic	RMV	3236	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231311	Atopic	RMV	6202	Medical Visit Followup	1.1	complete	r			1			0	36	3	1	100	0	0	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	0	0	0	1	0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	232	187		
+SUB231312	Atopic	RMV	1894	6-Month Call	1.1	complete	6			1			0			0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	210	145		
+SUB231313	Atopic	RMV	5784	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231313	Atopic	RMV	21695	Medical Visit Followup	1.2	complete	r	0	1																																																											861			
+SUB231313	Atopic	RMV	1911	9-Month Call	1.1	complete	m			1			0	36.8	3	0		0	1	1	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	281	248		
+SUB231313	Atopic	RMV	5720	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231315	Atopic	RMV	3090	Medical Visit Followup	1.1	complete	m			1			0	37.3	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	84	51		
+SUB231316	Atopic	RMV	2038	12-Month Clinic Visit	1.2	complete	12	1		1			0	36.7	2	0		0	1	1	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	1	0				0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	609	273		
+SUB231316	Atopic	RMV	9374	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231316	Atopic	RMV	13154	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231317	Atopic	RMV	8940	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231318	Atopic	RMV	2262	15-Month Call	1.2	complete	15	0	1																																																											598			
+SUB231320	Atopic	RMV	7089	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231320	Atopic	RMV	11892	Medical Visit Followup	1.2	complete	r	1		1			0	38.1		1	100	0	1	0	0	0	0	0	1	0	0	0	0	1	1	1	0	1	0	0	0	1	0	0	0	1	0				0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	498	334		
+SUB231320	Atopic	RMV	2387	24-Month Clinic Visit	1.2	complete	24	1		1			0	36.4	2	1	95	0	1	1	0	1	0	1	0	0	1	0	0	0	0	0							0	0	1	1	0				0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	765	717		
+SUB231320	Atopic	RMV	5013	Medical Visit Followup	1.1	complete	m			1			0	37.2	3	0		0	0	0	0	0	0	1	0	0	0	0	0	1	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	142	119		
+SUB231321	Atopic	RMV	6983	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231321	Atopic	RMV	2443	6-Month Call	1.1	complete	m			1			0	37.1	3	0		0	0	1	0	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	198	56		
+SUB231323	Atopic	RMV	10403	Medical Visit Followup	1.2	complete	r	0	1																																																											467			
+SUB231324	Atopic	RMV	2903	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.4	3	1	96	0	1	1	0	1	0	0	1	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0				0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	580	411		
+SUB231324	Atopic	RMV	15297	Medical Visit Followup	1.2	complete	r	1		1			0	37.3		0		0	0	0	0	0	0	0	0	0	1	0	0	1	1	0							0	0	1	0	0				0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	473	418		
+SUB231324	Atopic	RMV	2903	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.2	2	0		0	0	1	0	1	0	0	0	0	1	0	0	1	1	0							0	0	0	0	0				0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	640	418		
+SUB231324	Atopic	RMV	21395	Medical Visit Followup	1.2	complete	r	0	1																																																											756			
+SUB231326	Atopic	RMV	21344	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231326	Atopic	RMV	5530	Medical Visit Followup	1.1	complete	r			1			0	37.4	3	1	98	0	0	0	0	1	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	1	0	0	1	0	0				0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	105	96		
+SUB231326	Atopic	RMV	3156	15-Month Call	1.2	complete	15	1		1			0	37	3	1	90	0	0	0	0	1	0	0	0	0	1	0	1	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	454	407		
+SUB231326	Atopic	RMV	20117	Medical Visit Followup	1.2	complete	r	0	1																																																											625			
+SUB231326	Atopic	RMV	3151	30-Month Call	1.2	missing	.x																																																																
+SUB231329	Atopic	RMV	10919	Medical Visit Followup	1.2	complete	r	1		2	0			39.4	3	1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	457		260	262
+SUB231330	Atopic	RMV	3445	3-Month Home Visit	1.1	complete	3			1			1	37.2	3	1	99	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	74	54		
+SUB231330	Atopic	RMV	3439	18-Month Call	1.2	complete	18	0	4																																																											552			
+SUB231330	Atopic	RMV	3445	3-Month Home Visit	1.1	complete	3			2	0			37.2	3	1	99	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	74		54	55
+SUB231332	Atopic	RMV	3701	15-Month Call	1.2	complete	15	1		1			0	36.6	3	1	99	0	0	1	0	1	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	443	430		
+SUB231332	Atopic	RMV	16767	Respiratory Illness Followup Call	1.2	complete	r	1		1			0			1	97	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	1	0	1	0	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	437	430		
+SUB231332	Atopic	RMV	7652	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231333	Atopic	RMV	3892	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231333	Atopic	RMV	5979	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231334	Atopic	RMV	17660	Medical Visit Followup	1.2	complete	r	0	1																																																											451			
+SUB231334	Atopic	RMV	23244	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231334	Atopic	RMV	3927	3-Month Home Visit	1.1	complete	m			1			0	37.1	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	94	18		
+SUB231334	Atopic	RMV	3927	3-Month Home Visit	1.1	complete	m			1			0	37	2	0		0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	94	56		
+SUB231334	Atopic	RMV	3927	3-Month Home Visit	1.1	complete	m			1			0	37	3	0		0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	94	13		
+SUB231338	Atopic	RMV	20339	Respiratory Illness Followup Call	1.2	complete	r	0	2																																																											606			
+SUB231338	Atopic	RMV	21992	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231338	Atopic	RMV	4401	6-Month Call	1.1	complete	6			1			0	36.7		0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	194	130		
+SUB231338	Atopic	RMV	23165	Medical Visit Followup	1.2	complete	r	1		1			0	37	3	1	96	0	1	1	0	1	0	1	0	0	1	0	0	1	0	0							0	0	1	1	1	1	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0	0	0	0	1	0	0	0	0	785	785		
+SUB231338	Atopic	RMV	26218	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231338	Atopic	RMV	4401	6-Month Call	1.1	complete	6			1			0	36.7		0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	415	191		
+SUB231338	Atopic	RMV	25818	Medical Visit Followup	1.2	complete	r	1		1			0	36.3		0		0	0	1	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	1	914	900		
+SUB231338	Atopic	RMV	20329	Medical Visit Followup	1.2	complete	r	0	1																																																											591			
+SUB231338	Atopic	RMV	4401	6-Month Call	1.1	complete	6			1			0	36.2		0		0	0	1	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	415	170		
+SUB231338	Atopic	RMV	4393	30-Month Call	1.2	complete	30	0	3																																																											911			
+SUB231338	Atopic	RMV	4403	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231338	Atopic	RMV	4403	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231338	Atopic	RMV	4395	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231338	Atopic	RMV	17343	Respiratory Illness Followup Call	1.2	complete	r	1		1			0	39.1	1	1	97	0	1	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0				0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	1	555	423		
+SUB231338	Atopic	RMV	17247	Medical Visit Followup	1.2	complete	r	0	1																																																											417			
+SUB231338	Atopic	RMV	4401	6-Month Call	1.1	missing	.x																																																																
+SUB231338	Atopic	RMV	4399	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231338	Atopic	RMV	17590	Medical Visit Followup	1.2	complete	r	0	1																																																											498			
+SUB231340	Atopic	RMV	4446	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231340	Atopic	RMV	9164	Medical Visit Followup	1.1	complete	r			1			0	37.7	3	1	100	0	0	1	0	1	0	0	0	0	1	0	1	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	151	151		
+SUB231341	Atopic	RMV	21941	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231341	Atopic	RMV	24134	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231341	Atopic	RMV	21879	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231342	Atopic	RMV	4695	3-Month Home Visit	1.1	complete	m			1			0	37.4	3	1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	98	41		
+SUB231343	Atopic	RMV	4853	12-Month Clinic Visit	1.2	complete	12	0	1																																																											488			
+SUB231345	Atopic	RMV	5778	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231352	Atopic	RMV	15224	Medical Visit Followup	1.2	complete	r	0	1																																																											312			
+SUB231353	Atopic	RMV	5612	12-Month Clinic Visit	1.2	complete	12	1		1			0	36	2	0		1	1	0	0	0	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	509	299		
+SUB231353	Atopic	RMV	5614	6-Month Call	1.2	complete	6	1		1			0	35.8		0		0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	369	230		
+SUB231353	Atopic	RMV	6372	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231353	Atopic	RMV	5609	21-Month Call	1.2	missing	.x																																																																
+SUB231353	Atopic	RMV	16388	Medical Visit Followup	1.2	complete	r	1		1			0	37	2	0		0	1	1	1	1	0	0	0	0	1	1	1	1	1	0							0	0	1	1	1	1	1	0	0	0	0	0	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	354	354		
+SUB231353	Atopic	RMV	6784	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231353	Atopic	RMV	5613	9-Month Call	1.2	complete	9	0	4																																																											280			
+SUB231353	Atopic	RMV	21851	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231353	Atopic	RMV	21035	Medical Visit Followup	1.2	complete	r	0	1																																																											625			
+SUB231353	Atopic	RMV	7944	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231353	Atopic	RMV	7826	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231353	Atopic	RMV	5610	18-Month Call	1.2	complete	18	0	2																																																											536			
+SUB231353	Atopic	RMV	5610	18-Month Call	1.2	complete	18	0	2																																																											536			
+SUB231353	Atopic	RMV	5612	12-Month Clinic Visit	1.2	complete	12	0	1																																																											509			
+SUB231353	Atopic	RMV	5613	9-Month Call	1.2	complete	9	0	4																																																											280			
+SUB231354	Atopic	RMV	5632	3-Month Home Visit	1.1	complete	3			1			0	36.6	2	0		0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	404	85		
+SUB231355	Atopic	RMV	5662	6-Month Call	1.2	complete	6	1		2	0					0		0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	1	0	0	0	1	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	157		81	82
+SUB231356	Atopic	RMV	5712	3-Month Home Visit	1.1	complete	3			1			0			0		0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	82	81		
+SUB231356	Atopic	RMV	24858	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	25081	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	26142	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	24818	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	23208	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	24859	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	24858	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	22172	Medical Visit Followup	1.2	complete	r	1		1			0	36.1	2	0		0	0	1	0	1	0	1	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	706	704		
+SUB231356	Atopic	RMV	24039	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231356	Atopic	RMV	25080	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231357	Atopic	RMV	16296	Medical Visit Followup	1.2	complete	r	0	4																																																											342			
+SUB231357	Atopic	RMV	5858	3-Month Home Visit	1.1	complete	3			1			0	37.6		0		0	0	0	0	1	0	1	0	0	1	0	0	1	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	106	103		
+SUB231357	Atopic	RMV	5854	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.8	3	1	96	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	429	361		
+SUB231357	Atopic	RMV	5850	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231357	Atopic	RMV	5858	3-Month Home Visit	1.1	complete	3			3	0					0		0	0	0	0	1	0	0	0	0	1	1	0	0	1	1	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	106		42	43
+SUB231357	Atopic	RMV	26441	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231357	Atopic	RMV	5858	3-Month Home Visit	1.1	complete	3			1			0	36.7		0		0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	106	41		
+SUB231357	Atopic	RMV	5858	3-Month Home Visit	1.1	complete	3			1			0	36.3	3	1	99	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0							0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	106	105		
+SUB231357	Atopic	RMV	16940	Medical Visit Followup	1.2	complete	r	1		1			0	37.7	2	0		0	0	1	0	1	0	1	0	0	1	0	0	1	1	0							0	0	1	0	0				0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	453	371		
+SUB231357	Atopic	RMV	22812	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231357	Atopic	RMV	6884	Medical Visit Followup	1.1	complete	r			1			0	36.7	3	0		0	0	0	0	1	0	0	0	0	1	0	0	0	0	1							0	0	1	0	0				0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	531	41		
+SUB231358	Atopic	RMV	10329	15-Month Call	1.2	complete	15	1		1			0			0		1	1	0	0	0	0	0	0	1	0	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	1	501	438		
+SUB231358	Atopic	RMV	10328	18-Month Call	1.2	complete	18	0	2																																																											580			
+SUB231359	Atopic	RMV	5911	12-Month Clinic Visit	1.2	complete	12	1		1			0	38.2	2	0		0	1	1	0	0	0	0	0	0	1	0	0	0	1	0							0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	452	383		
+SUB231361	Atopic	RMV	6021	21-Month Call	1.2	complete	21	1		1			0	36.5	3	1	100	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	1	0	0				0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	636	531		
+SUB231361	Atopic	RMV	6028	3-Month Home Visit	1.1	complete	3			1			1	37.6	1	1	100	0	1	1	0	1	0	1	0	0	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0				0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	89	64		
+SUB231361	Atopic	RMV	6028	3-Month Home Visit	1.1	complete	3			1			0	36.2	2	0		0	0	1	0	1	0	1	0	0	0	0	0	0	0	0							0	1	0	1	0				0	0	1	0	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	391	62		
+SUB231361	Atopic	RMV	7741	Medical Visit Followup	1.2	complete	r	1		2	0			37.6	2	1	99	0	1	1	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	447		64	68
+SUB231361	Atopic	RMV	7741	Medical Visit Followup	1.2	complete	r	1		1			1	38	2	1	99	0	1	1	0	1	0	1	0	0	1	1	0	1	1	1	0	0	0	0	0	1	0	0	1	0	0				0	0	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	447	64		
+SUB231361	Atopic	RMV	6028	3-Month Home Visit	1.1	complete	3			2	0			38.6	1	1	100	0	1	1	0	1	0	1	0	0	0	1	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	394		64	67
+SUB231364	Atopic	RMV	10401	Medical Visit Followup	1.2	complete	r	0	1																																																											338			
+SUB231365	Atopic	RMV	12028	Medical Visit Followup	1.2	complete	r	0	1																																																											177			
+SUB231365	Atopic	RMV	6429	6-Month Call	1.2	complete	6	0	1																																																											176			
+SUB231366	Atopic	RMV	6581	15-Month Call	1.2	complete	15	0	3																																																											455			
+SUB231366	Atopic	RMV	19452	Medical Visit Followup	1.2	complete	r	1		1			0	36.7	2	0		0	1	1	0	1	0	0	0	0	1	0	0	0	0	0							0	0	1	0	0				0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	453	453		
+SUB231366	Atopic	RMV	17619	Medical Visit Followup	1.2	complete	r	0	1																																																											356			
+SUB231366	Atopic	RMV	18358	Medical Visit Followup	1.2	complete	r	1		1			0	36.7	2	0		0	0	1	1	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	455	382		
+SUB231366	Atopic	RMV	24405	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231366	Atopic	RMV	16887	Medical Visit Followup	1.2	complete	r	1		1			0	38.5		1	99	0	0	1	0	1	0	1	0	0	0	0	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	330	329		
+SUB231368	Atopic	RMV	6748	24-Month Clinic Visit	1.2	complete	24	1		1			0	37.3	3	1	94	0	0	1	0	1	0	0	0	0	1	1	1	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	831	671		
+SUB231369	Atopic	RMV	6801	18-Month Call	1.2	complete	18	0	2																																																											581			
+SUB231371	Atopic	RMV	7080	3-Month Home Visit	1.2	complete	3	1		2	0			37.7	2	1	95	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	318		45	47
+SUB231371	Atopic	RMV	8498	Respiratory Illness Followup Call	1.1	complete	r			1			1	37.5	2	1	95	0	0	1	0	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	54	45		
+SUB231371	Atopic	RMV	7080	3-Month Home Visit	1.2	complete	3	1		1			1	37.5	2	1	95	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	318	45		
+SUB231371	Atopic	RMV	8498	Respiratory Illness Followup Call	1.1	complete	r			2	0			37.6	2	1	95	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0							0	0	1	1	0				0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	54		45	47
+SUB231372	Atopic	RMV	7167	3-Month Home Visit	1.1	missing	.x																																																																
+SUB231373	Atopic	RMV	7213	6-Month Call	1.2	complete	6	1		1			0	37.5	3	1	98	1	0	0	0	1	0	0	0	0	1	1	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	228	162		
+SUB231373	Atopic	RMV	7213	6-Month Call	1.2	complete	6	1		1			0	37.6	2	1	100	0	0	0	0	1	0	0	0	0	1	1	1	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	228	162		
+SUB231373	Atopic	RMV	7213	6-Month Call	1.2	missing	.x																																																																
+SUB231373	Atopic	RMV	7213	6-Month Call	1.2	missing	.x																																																																
+SUB231374	Atopic	RMV	10914	Medical Visit Followup	1.2	complete	r	1		1			0	36.8	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	110	110		
+SUB231374	Atopic	RMV	7324	15-Month Call	1.2	complete	15	0	4																																																											452			
+SUB231374	Atopic	RMV	18320	Medical Visit Followup	1.2	complete	r	0	2																																																											363			
+SUB231376	Atopic	RMV	23344	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231378	Atopic	RMV	7849	12-Month Clinic Visit	1.2	complete	12	1		1			0	36.5	2	1	100	0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	420	355		
+SUB231378	Atopic	RMV	7847	18-Month Call	1.2	missing	.x																																																																
+SUB231378	Atopic	RMV	21573	Medical Visit Followup	1.2	complete	r	0	1																																																											596			
+SUB231378	Atopic	RMV	7847	18-Month Call	1.2	missing	.x																																																																
+SUB231378	Atopic	RMV	21109	Medical Visit Followup	1.2	complete	r	0	1																																																											557			
+SUB231379	Atopic	RMV	8026	3-Month Home Visit	1.2	complete	3	1		1			0	36.2	2	0		0	0	0	0	1	0	1	0	0	0	0	0	0	1	0							0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	108	105		
+SUB231380	Atopic	RMV	22621	Medical Visit Followup	1.2	complete	r	0	1																																																											644			
+SUB231382	Atopic	RMV	8439	18-Month Call	1.2	missing	.x																																																																
+SUB231382	Atopic	RMV	9592	Medical Visit Followup	1.1	missing	.x																																																																
+SUB231382	Atopic	RMV	24332	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231383	Atopic	RMV	8564	9-Month Call	1.2	complete	9	0	1																																																											364			
+SUB231383	Atopic	RMV	8563	12-Month Clinic Visit	1.2	complete	12	1		2	0			38.3	2	1	96	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0							0	0	1	0	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	364		317	319
+SUB231383	Atopic	RMV	8567	3-Month Home Visit	1.2	complete	3	0	1																																																											446			
+SUB231383	Atopic	RMV	8563	12-Month Clinic Visit	1.2	complete	12	1		2	0			38.3	2	1	95	0	0	0	0	1	0	0	1	0	1	0	0	0	1	0							0	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	361		306	309
+SUB231383	Atopic	RMV	8567	3-Month Home Visit	1.2	complete	3	0	4																																																											446			
+SUB231383	Atopic	RMV	8563	12-Month Clinic Visit	1.2	complete	12	1		1			1	39.5	2	1	95	0	0	0	0	1	0	0	1	0	1	0	1	1	1	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	361	306		
+SUB231383	Atopic	RMV	8567	3-Month Home Visit	1.2	complete	3	1		2	0			37	2	1	98	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	132		30	31
+SUB231383	Atopic	RMV	8563	12-Month Clinic Visit	1.2	complete	12	1		1			1	38.3	3	1	96	0	0	0	0	1	0	1	0	0	1	1	0	0	1	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	361	317		
+SUB231383	Atopic	RMV	8567	3-Month Home Visit	1.2	complete	3	1		1			1	37.4	2	1	99	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	132	33		
+SUB231383	Atopic	RMV	8567	3-Month Home Visit	1.2	complete	3	0	1																																																											446			
+SUB231383	Atopic	RMV	8567	3-Month Home Visit	1.2	complete	3	1		1			0	36.2		0																0							0	0	0	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	132	109		
+SUB231383	Atopic	RMV	8562	15-Month Call	1.2	complete	15	0	2																																																											449			
+SUB231383	Atopic	RMV	8560	21-Month Call	1.2	complete	21	0	2																																																											649			
+SUB231383	Atopic	RMV	8560	21-Month Call	1.2	complete	21	0	2																																																											649			
+SUB231383	Atopic	RMV	8560	21-Month Call	1.2	complete	21	0	2																																																											649			
+SUB231383	Atopic	RMV	8565	6-Month Call	1.2	complete	6	1		1			0	36.2		0		0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	0	215	207		
+SUB231383	Atopic	RMV	8562	15-Month Call	1.2	complete	15	0	2																																																											449			
+SUB231383	Atopic	RMV	8562	15-Month Call	1.2	complete	15	0	2																																																											449			
+SUB231383	Atopic	RMV	8561	18-Month Call	1.2	complete	18	0	2																																																											580			
+SUB231383	Atopic	RMV	8564	9-Month Call	1.2	complete	9	0	1																																																											364			
+SUB231388	Atopic	RMV	21714	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231388	Atopic	RMV	9000	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231388	Atopic	RMV	24312	Medical Visit Followup	1.2	complete	r	1		1			0	36.7	3	1	100	1	1	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	710	708		
+SUB231388	Atopic	RMV	9000	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231388	Atopic	RMV	9001	21-Month Call	1.2	missing	.x																																																																
+SUB231388	Atopic	RMV	19233	Medical Visit Followup	1.2	complete	r	1		1			0	36.4	3	0		0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	0	0	0				0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	370	369		
+SUB231388	Atopic	RMV	24037	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231388	Atopic	RMV	26372	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231388	Atopic	RMV	9004	12-Month Clinic Visit	1.2	complete	12	0	4																																																											416			
+SUB231389	Atopic	RMV	9021	9-Month Call	1.2	complete	9	1		1			0	36.2	3	1	100	0	0	0	0	1	0	0	0	0	1	1	1	0	1	1	0	0	0	0	0	1	0	0	1	0	0				0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	282	253		
+SUB231389	Atopic	RMV	19181	Medical Visit Followup	1.2	complete	r	0	4																																																											366			
+SUB231389	Atopic	RMV	9019	15-Month Call	1.2	complete	15	1		1			0	37.2	2	1	96	0	0	1	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	445	394		
+SUB231389	Atopic	RMV	9019	15-Month Call	1.2	complete	15	0	2																																																											445			
+SUB231391	Atopic	RMV	9052	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.2	2	0		0	1	1	0	1	0	0	0	0	1	0	0	0	0	0							0	0	0	0	0				0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	405	349		
+SUB231393	Atopic	RMV	14455	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231393	Atopic	RMV	9273	15-Month Call	1.2	complete	15	1		1			0	36.4	3	1	100	0	0	1	0	1	0	1	0	0	1	1	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	467	377		
+SUB231395	Atopic	RMV	21956	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231395	Atopic	RMV	26248	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231395	Atopic	RMV	17576	Medical Visit Followup	1.2	complete	r	0	1																																																											342			
+SUB231395	Atopic	RMV	25797	Medical Visit Followup	1.2	complete	r	0	1																																																											766			
+SUB231395	Atopic	RMV	19632	Medical Visit Followup	1.2	complete	r	0	2																																																											385			
+SUB231395	Atopic	RMV	22869	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231395	Atopic	RMV	22893	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231395	Atopic	RMV	9478	21-Month Call	1.2	missing	.x																																																																
+SUB231395	Atopic	RMV	11136	Medical Visit Followup	1.2	complete	r	0	1																																																											287			
+SUB231395	Atopic	RMV	21945	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231395	Atopic	RMV	21127	Medical Visit Followup	1.2	complete	r	0	1																																																											535			
+SUB231397	Atopic	RMV	9568	12-Month Clinic Visit	1.2	complete	12	1		1			0	35.9	3	1	98	0	1	1	0	0	0	0	0	1	1	0	0	0	0	0							0	0	1	0	0				0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	375	362		
+SUB231400	Atopic	RMV	9892	6-Month Call	1.2	complete	6	1		1			0	36.1	3	1	98	0	0	0	0	1	0	0	0	0	0	1	0	0	1	0							0	0	1	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	199	186		
+SUB231402	Atopic	RMV	10212	9-Month Call	1.2	complete	9	0	4																																																											267			
+SUB231403	Atopic	RMV	10264	18-Month Call	1.2	missing	.x																																																																
+SUB231403	Atopic	RMV	10262	24-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231403	Atopic	RMV	10270	3-Month Home Visit	1.2	complete	3	1		1			0	37.3	3	1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	95	15		
+SUB231403	Atopic	RMV	10267	9-Month Call	1.2	complete	9	1		1			1	38.5	3	1	95	0	0	1	0	1	0	1	0	0	1	1	1	1	1	1	1	0	1	0	0	0	0	0	1	0	0				0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	269	201		
+SUB231403	Atopic	RMV	10263	21-Month Call	1.2	complete	21	1		1			0	39.1	3	1	95	0	0	0	0	1	0	0	0	0	0	0	1	1	0	1	0	0	1	0	0	1	0	0	0	1	0				0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	653	650		
+SUB231403	Atopic	RMV	16019	Medical Visit Followup	1.2	complete	r	1		1			0			1	99	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	220	15		
+SUB231403	Atopic	RMV	10267	9-Month Call	1.2	complete	9	1		2	0			37.4	3	1	96	0	0	1	0	1	0	0	0	0	1	0	0	1	1	0							0	0	1	1	0				0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	269		201	203
+SUB231405	Atopic	RMV	15846	Medical Visit Followup	1.2	complete	r	1		1			0	36.5	2	1	99	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	182	170		
+SUB231406	Atopic	RMV	10694	3-Month Home Visit	1.2	complete	3	0	2																																																											297			
+SUB231406	Atopic	RMV	13711	Medical Visit Followup	1.2	complete	r	0	2																																																											297			
+SUB231412	Atopic	RMV	22169	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231413	Atopic	RMV	14338	Medical Visit Followup	1.2	complete	r	0	1																																																											90			
+SUB231413	Atopic	RMV	26252	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231413	Atopic	RMV	17421	Medical Visit Followup	1.2	complete	r	0	1																																																											187			
+SUB231413	Atopic	RMV	20270	Medical Visit Followup	1.2	complete	r	1		1			0	38.7	2	1	98	0	0	1	0	1	0	1	0	0	1	1	1	0	1	1	0	0	0	0	0	1	0	0	0	1	0				0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	370	352		
+SUB231413	Atopic	RMV	11822	9-Month Call	1.2	complete	9	0	1																																																											292			
+SUB231413	Atopic	RMV	16103	Medical Visit Followup	1.2	complete	r	1		1			0	37.9	2	1	98	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	218	143		
+SUB231416	Atopic	RMV	12309	9-Month Call	1.2	complete	9	1		1			0	36.7	3	1	100	0	1	1	0	1	0	1	1	0	1	1	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	268	214		
+SUB231416	Atopic	RMV	12309	9-Month Call	1.2	complete	9	0	4																																																											289			
+SUB231416	Atopic	RMV	12309	9-Month Call	1.2	complete	9	1		2	0			37.7	2	1	100	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	1	1	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	268		244	246
+SUB231416	Atopic	RMV	12309	9-Month Call	1.2	complete	9	1		1			1	36.4	3	1	100	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0							0	0	0	1	0				0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	268	244		
+SUB231416	Atopic	RMV	12305	21-Month Call	1.2	missing	.x																																																																
+SUB231416	Atopic	RMV	19628	Medical Visit Followup	1.2	complete	r	1		2	0			38.9		1	94	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	1	1	1	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	1	295		284	288
+SUB231416	Atopic	RMV	19628	Medical Visit Followup	1.2	complete	r	1		1			1	38.5	2	1	97	0	0	1	0	1	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	1	0	0	0	1	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	295	284		
+SUB231416	Atopic	RMV	12305	21-Month Call	1.2	missing	.x																																																																
+SUB231419	Atopic	RMV	14335	Medical Visit Followup	1.2	complete	r	0	1																																																											238			
+SUB231420	Atopic	RMV	23379	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231420	Atopic	RMV	12689	6-Month Call	1.2	complete	6	1		1			0	36.7	2	0		0	0	0	0	0	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	220	153		
+SUB231420	Atopic	RMV	22463	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231420	Atopic	RMV	12689	6-Month Call	1.2	complete	6	0	4																																																											220			
+SUB231421	Atopic	RMV	22011	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231422	Atopic	RMV	12917	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231423	Atopic	RMV	12985	6-Month Call	1.2	complete	6	0	2																																																											224			
+SUB231423	Atopic	RMV	12985	6-Month Call	1.2	complete	6	1		1			0	36.8	3	1	100	0	0	1	0	1	0	0	0	0	1	0	1	0	0	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	174	161		
+SUB231423	Atopic	RMV	12985	6-Month Call	1.2	complete	6	1		1			0	37	2	1	98	0	0	1	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	174	136		
+SUB231424	Atopic	RMV	26173	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231424	Atopic	RMV	13225	21-Month Call	1.2	missing	.x																																																																
+SUB231424	Atopic	RMV	22162	Medical Visit Followup	1.2	complete	r	0	1																																																											463			
+SUB231424	Atopic	RMV	23744	Medical Visit Followup	1.2	complete	r	0	1																																																											532			
+SUB231426	Atopic	RMV	13435	18-Month Call	1.2	missing	.x																																																																
+SUB231426	Atopic	RMV	13434	21-Month Call	1.2	missing	.x																																																																
+SUB231428	Atopic	RMV	21976	Medical Visit Followup	1.2	complete	r	0	1																																																											437			
+SUB231428	Atopic	RMV	13574	12-Month Clinic Visit	1.2	complete	12	0	4																																																											605			
+SUB231428	Atopic	RMV	14279	Medical Visit Followup	1.2	complete	r	0	1																																																											204			
+SUB231428	Atopic	RMV	13574	12-Month Clinic Visit	1.2	complete	12	1		1			0	37.3	2	1	98	0	0	0	0	1	0	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	1	0				0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	605	379		
+SUB231428	Atopic	RMV	13576	6-Month Call	1.2	complete	6	0	4																																																											177			
+SUB231428	Atopic	RMV	15073	Medical Visit Followup	1.2	complete	r	1		1			0	36.1	2	0		0	0	1	0	1	0	1	0	0	1	0	0	1	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	50	50		
+SUB231429	Non-atopic	RMV	13743	18-Month Call	1.2	complete	18	1		1			0	38.4	3	1	94	0	0	0	0	1	0	0	0	0	1	0	1	0	1	0							0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	559	532		
+SUB231430	Non-atopic	RMV	23968	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231430	Non-atopic	RMV	13850	18-Month Call	1.2	missing	.x																																																																
+SUB231431	Non-atopic	RMV	24113	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231433	Atopic	RMV	14033	6-Month Call	1.2	complete	6	1		1			0			0		0	0	0	0	0	0	0	0	0	1	0	1	0	0	0							0	0	0	0	0				0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	160	115		
+SUB231442	Atopic	RMV	14959	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231442	Atopic	RMV	15839	Medical Visit Followup	1.2	complete	r	1		1			0	37.2	2	0		0	0	1	0	1	0	1	0	0	0	1	1	0	1	0							0	0	0	0	0				0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	185	63		
+SUB231442	Atopic	RMV	18533	Medical Visit Followup	1.2	complete	r	1		1			0	36.4	2	0		0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	159	159		
+SUB231443	Atopic	RMV	14979	3-Month Home Visit	1.2	complete	3	1		2	0			37	3	1	100	0	0	0	0	1	0	0	0	0	1	0	0	0	1	0							0	0	1	0	0				0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	77		45	46
+SUB231443	Atopic	RMV	16179	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231443	Atopic	RMV	20199	Medical Visit Followup	1.2	complete	r	1		1			0	36.2	2	0		0	0	1	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	246	239		
+SUB231443	Atopic	RMV	14979	3-Month Home Visit	1.2	complete	3	1		1			1	36.5	3	1	100	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0				0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	77	45		
+SUB231444	Atopic	RMV	15119	12-Month Clinic Visit	1.2	missing	.x																																																																
+SUB231444	Atopic	RMV	22758	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231445	Atopic	RMV	15279	6-Month Call	1.2	complete	6	1		1			0	38.1	3	1	99	0	0	0	0	1	0	0	0	0	0	1	1	0	1	1	0	0	0	0	0	1	0	0	1	0	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	157	154		
+SUB231445	Atopic	RMV	15278	9-Month Call	1.2	complete	9	0	2																																																											277			
+SUB231445	Atopic	RMV	19202	Respiratory Illness Followup Call	1.2	missing	.x																																																																
+SUB231448	Atopic	RMV	22562	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231450	Atopic	RMV	23623	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231453	Atopic	RMV	25982	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231465	Non-atopic	RMV	23799	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231467	Atopic	RMV	19444	Medical Visit	1.2	complete	m	1		1			0	37.9	2	1	98	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0				0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	49	42		
+SUB231467	Atopic	RMV	19449	Medical Visit	1.2	complete	m	1		1			0	36.8	2	1	98	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0							0	0	0	1	0				0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	49	43		
+SUB231467	Atopic	RMV	25990	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231468	Atopic	RMV	22174	Medical Visit Followup	1.2	complete	r	0	1																																																											258			
+SUB231469	Non-atopic	RMV	24231	Medical Visit Followup	1.2	complete	r	0	1																																																											370			
+SUB231469	Non-atopic	RMV	21743	Medical Visit Followup	1.2	missing	.x																																																																
+SUB231469	Non-atopic	RMV	19044	9-Month Call	1.2	complete	9	0	1																																																											264			
+SUB231469	Non-atopic	RMV	22575	Medical Visit Followup	1.2	complete	r	0	1																																																											265			

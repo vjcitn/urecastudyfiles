@@ -1,0 +1,60 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SEM"", ""SEM"")"
+3	4	evid	evid	dbl	numeric	double	2093	0	c(1, 18195)
+4	5	event	event	chr	character	character	1	0	"c(""Screening Visit"", ""Screening Visit"")"
+5	6	version	version	chr	character	character	5	0	"c(""1.3"", ""1.7"")"
+6	7	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+7	8	SEM_q2a_1	Participants age 18 or over	dbl	numeric	double	2	0	c(0, 1)
+8	9	SEM_q3e_1	Participant - Zip Code	dbl	numeric	double	95	1244	c(2112, 63147)
+9	10	SEM_q3f_1	Location of Address	dbl	numeric	double	2	0	c(0, 1)
+10	11	SEM_q4_1	Plans to Move in Next 3 Years	dbl	numeric	double	3	1843	c(0, 1)
+11	12	SEM_q4_1_1	Plans to Move in the Next Year	dbl	numeric	double	3	891	c(0, 1)
+12	13	SEM_q5_1	Name of Place Where Having Baby	dbl	numeric	double	6	616	c(1, 5)
+13	14	SEM_q6_1	Language Spoken	dbl	numeric	double	4	631	c(1, 3)
+14	15	SEM_q6a_1	Language Soken	chr	character	character	11	0	"c("".a"", ""portuguese creo"")"
+15	16	SEM_q7_1	Participants Eligibility	dbl	numeric	double	3	2	c(0, 1)
+16	17	SEM_q1a_2	Mother - Asthma	dbl	numeric	double	3	646	c(0, 1)
+17	18	SEM_q1b_2	Mother - Wheezing more than 3 Times Last Year	dbl	numeric	double	3	649	c(0, 1)
+18	19	SEM_q1c_2	Mother -  Used Inhaler or Pump	dbl	numeric	double	3	646	c(0, 1)
+19	20	SEM_q1d_2	Mother - Hay Fever	dbl	numeric	double	3	657	c(0, 1)
+20	21	SEM_q1e_2	Mother - Other Allergies With Nose or Eyes	dbl	numeric	double	3	652	c(0, 1)
+21	22	SEM_q1f_2	Mother - Eczema	dbl	numeric	double	3	653	c(0, 1)
+22	23	SEM_q2a_2	Father -  Asthma	dbl	numeric	double	3	751	c(0, 1)
+23	24	SEM_q2b_2	Father - Wheezing more than 3 Times in Last Year	dbl	numeric	double	3	761	c(0, 1)
+24	25	SEM_q2c_2	Father -  Used Inhaler or Pump	dbl	numeric	double	3	735	c(0, 1)
+25	26	SEM_q2d_2	Father - Hay Fever	dbl	numeric	double	3	757	c(0, 1)
+26	27	SEM_q2e_2	Father - Other Allergies with Nose or Eyes	dbl	numeric	double	3	758	c(0, 1)
+27	28	SEM_q2f_2	Father - Eczema	dbl	numeric	double	3	742	c(0, 1)
+28	29	SEM_q3_2	HIV Tested	dbl	numeric	double	3	865	c(0, 1)
+29	30	SEM_q3a_2	Results of HIV Testing	dbl	numeric	double	3	942	c(0, 1)
+30	31	SEM_q4_2	Other Reasons Participants Cannot Participate	dbl	numeric	double	3	845	c(0, 1)
+31	32	SEM_q5_2	Participants Eligibility	dbl	numeric	double	4	643	c(0, 2)
+32	33	SEM_q6b_2	Time of Second Call	time	"c(""hms"", ""difftime"")"	double	1	2093	
+33	34	SEM_q1_3	Interest in Project	dbl	numeric	double	3	907	c(0, 1)
+34	35	SEM_q2_3	Participant has Telephone Number to be Reached at	dbl	numeric	double	3	1041	c(0, 1)
+35	36	SEM_q2b_3	Whose Phone Number	dbl	numeric	double	3	1246	c(1, 2)
+36	37	SEM_q2c_3	Type of Number	dbl	numeric	double	6	1246	c(0, 4)
+37	38	SEM_q2d_3	Best Times to Reach at Number	dbl	numeric	double	8	1246	c(1, 7)
+38	39	SEM_q2d1_3	Specify Other Best Times to Reach at Number	chr	character	character	34	0	"c("".a"", ""thursdays, fridays"")"
+39	40	SEM_q2e_3	Other Times to Try Number	chr	character	character	145	0	"c("".a"", ""work number before 3"")"
+40	41	SEM_q3_3	Cell Phone	dbl	numeric	double	3	1432	c(0, 1)
+41	42	SEM_q3b_3	Best Time to Reach Cell Phone	dbl	numeric	double	8	1830	c(1, 7)
+42	43	SEM_q3b1_3	Specify Other Best Times to Reach Cell Phone	chr	character	character	7	0	"c("".a"", ""wont have minutes until 1st of the month"")"
+43	44	SEM_q3c_3	Other Times to Reach Cell Phone	chr	character	character	16	0	"c("".a"", ""whenever she has min"")"
+44	45	SEM_q4_3	Prenatal Care	dbl	numeric	double	3	1050	c(0, 1)
+45	46	SEM_q4a_3	List of Clinics - Clinic Codes	dbl	numeric	double	20	1069	c(1, 32)
+46	47	SEM_q4b1_3	Continuing Prenatal Care - Clinic Code	dbl	numeric	double	3	2091	c(3, 12)
+47	48	SEM_q7_3	Agreed to Prenatal Visit	dbl	numeric	double	3	1049	c(0, 1)
+48	49	SEM_q8b_3	Time of Prenatal Visit	time	"c(""hms"", ""difftime"")"	double	61	1069	c(5400, 81000)
+49	50	SEM_q9_3	Where was Screening Done	dbl	numeric	double	3	1053	c(1, 2)
+50	51	SEM_q9a_3	Informed Consent Signed at Screening Visit	dbl	numeric	double	4	1205	c(1, 3)
+51	52	SEM_q9b1_3	Participant Consent to DNA Testing - For Herself	dbl	numeric	double	3	1791	c(0, 1)
+52	53	SEM_q9b2_3	Participant Consent to DNA Testing - For Her Baby	dbl	numeric	double	3	1791	c(0, 1)
+53	54	SEM_q9c_3	Participant Consent to Weight Study	dbl	numeric	double	3	1980	c(0, 1)
+54	55	aCompletionDY	Completion Day	dbl	numeric	double	186	1484	c(-228, 0)
+55	56	SEM_q2_1DY	Mother s Day of Birth	dbl	numeric	double	585	1484	c(-15509, -4983)
+56	57	SEM_q6a_2DY	Day Second Call Occurred	dbl	numeric	double	1	2093	
+57	58	SEM_q6_3DY	Pregancy Due Day	dbl	numeric	double	65	1485	c(-54, 47)
+58	59	SEM_q8a_3DY	Day of Prenatal Visit	dbl	numeric	double	163	1486	c(-227, 6)

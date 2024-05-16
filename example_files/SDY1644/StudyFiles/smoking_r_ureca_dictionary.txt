@@ -1,0 +1,30 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	41	0	c(0, 120)
+5	6	year		dbl	numeric	double	11	0	c(0, 10)
+6	7	evid	evid	dbl	numeric	double	19105	5865	c(2, 63231)
+7	8	event	event	chr	character	character	42	0	"c("""", ""Prenatal Visit"")"
+8	9	version	version	chr	character	character	8	0	"c("""", ""1.7"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	ppcig_day	Number of cigarettes per day before pregnancy	dbl	numeric	double	45	24367	c(0, 60)
+11	12	cig_day	Number of cigarettes per day during pregnancy	dbl	numeric	double	86	5870	c(0, 70)
+12	13	mo_quit	Months since quit smoking	dbl	numeric	double	47	24793	c(1, 248)
+13	14	home_smoke	Smoking in home	dbl	numeric	double	3	5872	c(0, 1)
+14	15	ppdrink_week	Number of alcoholic drinks per week before pregnancy	dbl	numeric	double	49	24367	c(0, 84)
+15	16	nowdrink_week	Number of alcoholic drinks per week during pregnancy	dbl	numeric	double	19	24367	c(0, 70)
+16	17	ever_smoked	Participant has ever smoked	dbl	numeric	double	3	24367	c(0, 1)
+17	18	curr_smoke	Participant currently smokes	dbl	numeric	double	3	5868	c(0, 1)
+18	19	num_smokers_home	Number of smokers in the home (including participant)	dbl	numeric	double	17	5872	c(0, 23)
+19	20	homecig_day	Number of cigarettes smoked per day in the home	dbl	numeric	double	54	6472	c(0, 37)
+20	21	other_caretaker_smoke	Other caretaker smokes	dbl	numeric	double	3	6541	c(0, 1)
+21	22	child_near_smokers	Caretaker has problems keeping child away from smokers	dbl	numeric	double	3	6507	c(0, 1)
+22	23	time_child_near_smokers	How often child is around smokers	dbl	numeric	double	5	6471	c(1, 4)
+23	24	mom_smok	Caretaker ever smoked during the year	dbl	numeric	double	3	6467	c(0, 1)
+24	25	mom_cigs	Max per day number of cigarettes reported by caretaker in year	dbl	numeric	double	59	6467	c(0, 70)
+25	26	hm_smok	Any smoking in home during the year	dbl	numeric	double	3	6467	c(0, 1)
+26	27	mx_smokers	Max number of smokers in home reported during the year	dbl	numeric	double	16	6467	c(0, 23)
+27	28	smoking		dbl	numeric	double	2	0	c(0, 1)
+28	29	ACOMPLETIONDATE_DY		dbl	numeric	double	3597	5866	c(-289, 4795)

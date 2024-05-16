@@ -1,0 +1,182 @@
+DM WPGM "out; clear; log; clear;" WPGM;
+%include "S:\basestat\prog\clr_all.inc";
+
+%LET PROG=sleep;  ** Name of program (excluding .ext) **;
+
+TITLE1 "Rho Federal Systems, Inc.                   Program : &prog";
+TITLE2 "Project/Study: Urban Environment and Childhood Asthma";
+TITLE3;
+
+**************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved
+**************************************************;
+****THIS TEMPLATE WORKS FOR BOTH V6.12 AND V8.2
+****WARNING: THIS TEMPLATE HAS NOT BEEN VALIDATED
+****WARNING: NOT ALL V8.2 CODE WORKS THE SAME IN V6.12
+*****************************************************************************
+* Program created using SAS version 8.2
+*
+* PROGRAM DESCRIPTION: 
+* 
+* FORMSET: Form 17 -- Sleep
+*
+* PROGRAMMER HISTORY:
+*
+*   Programmer(s)           Date(s)         Brief Description of Modifications
+*   C. Visness            08/27/07        Created Program
+*   Andrew Moseby          28AUG2017      Merged with shell
+*****************************************************************************;
+
+* define run date, time;
+/*%RUNTIME(&PROG);*/
+
+* Program-specific macro variable settings;
+
+* Set options, footnotes, form setting;
+options nodate pageno=1 noxwait symbolgen mprint;
+
+* before printing, check printer settings under page setup;
+ options orientation=portrait ls=120 ps=65 FONT=SASFONT 8;
+* options orientation=portrait ls=96 ps=53 font=SASFONT 10;
+*options orientation=landscape ls=158 ps=49 FONT=SASFONT 8 ;
+
+* Set the directory structure;
+%LET PATH=S:\RhoFED\ICAC\Studies\URECA;
+%LET PGMPATH=&PATH\Prog\Derive;    **subdirectory location for saving .SAS, .LOG, and ,.LST files**;
+
+footnote1 "Program &PGMPATH\&PROG";
+
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=sleep,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+
+* Library names and file names;
+LIBNAME MASTER    "&path\Data\Master";                 **master data folder;
+LIBNAME DERIVE    "&path\Data\Derive";                 **derived data folder;
+/*LIBNAME LIBRARY   "&path\Data\Formats";                **format library;*/
+
+filename program  "&PGMPATH\&PROG..sas";
+filename log      "&PGMPATH\&PROG..log";
+filename output   "&PGMPATH\&PROG..lst";
+
+* Save program source code;
+DM WPGM "&PROG..SAS; FILE PROGRAM REPLACE;" WPGM;
+
+* Main body of program begins here;
+
+proc format;
+
+   value $site
+      '01' = 'Baltimore'
+      '02' = 'Boston'
+      '07' = 'New York'
+      '08' = 'St. Louis'
+      ;
+
+run;
+
+data sleep;
+set master.csq;
+if studyid='.m' then delete;
+if avisit='.x' then delete;
+
+site=substr(recruitid, 4, 2);
+label site='Study Site';
+format site $site.;
+avisitn = input(avisit, 8.);
+run;
+
+
+****STILL NEED TO RECODE TIME VARIABLES: HOURS AND MINUTES;
+
+/*ods pdf style=journal file="&pgmpath\&prog..pdf";*/
+/*proc freq;*/
+/*tables (csq_q2 csq_q5 csq_q8 csq_q10 csq_q11) * avisit/missing norow;*/
+/*title5 'Descriptive data from Child Sleep Questionnaire';*/
+/*run;*/
+/**/
+/*proc means maxdec=1 n mean min max;*/
+/*class avisit;*/
+/*var csq_q3a csq_q4a csq_q5 csq_q6a csq_q7a;*/
+/*run;*/
+/**/
+/*ods pdf close;*/
+
+data sleep2;
+   set sleep;
+   if nmiss(csq_q3a,csq_q3b) ^= 2 then slp_dur_night = csq_q3a + (csq_q3b/60);
+   if nmiss(csq_q4a,csq_q4b) ^= 2 then slp_dur_day = csq_q4a + (csq_q4b/60);
+   if nmiss(csq_q6a,csq_q6b) ^= 2 then awake_dur_night = csq_q6a + (csq_q6b/60);
+   if nmiss(csq_q7a,csq_q7b) ^= 2 then fall_aslp_dur = csq_q7a + (csq_q7b/60);
+   label 
+      slp_dur_night = 'Time child sleeps during night (hours)'
+      slp_dur_day = 'Time child sleeps during day (hours)'
+      awake_dur_night = 'Time child spends in wakefulness during night (hours)'
+      fall_aslp_dur = 'Time it takes to put child to sleep in evening (hours)'
+      ;
+   drop avisit /*csq_q3a -- csq_q4b csq_q6a -- csq_q7b*/;
+run;
+
+/*---------------------------------------------------------*\
+                        Create Shell
+\*---------------------------------------------------------*/
+
+data shell;
+   set derive.groups;
+
+   site = substr(studyid, 4, 2);
+   label site = 'Study Site';
+   format site $site.;
+
+   do avisit = 12, 24, 36;
+      if avisit in (12) then year = 1;
+      if avisit in (24) then year = 2;
+      if avisit in (36) then year = 3;
+      output;
+   end;
+
+   keep studyid recruitid site avisit year;
+run;
+
+/*---------------------------------------------------------*\
+               Merge with shell and save
+\*---------------------------------------------------------*/
+
+proc sort data = sleep2 out = sleep2(rename = (avisitn = avisit)); by studyid avisitn; run;
+proc sort data = shell; by studyid avisit; run;
+
+data derive.sleep_age_1_to_3;
+   merge shell sleep2(in = b);
+   by studyid avisit;
+   if b then sleep_age_1_to_3 = 1; else sleep_age_1_to_3 = 0;
+   drop api;
+run;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.sleep_age_1_to_3
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+* Save log and output files, must be ordered out then log;
+dm WPGM "out; print file=output replace;" WPGM;
+dm WPGM "log; print file=log replace;" WPGM;
+
+
+proc freq data=master.csq; table avisit; run; 
+proc freq data=derive.sleep_age_1_to_3; table avisit*sleep_age_1_to_3; run; 
+
+ods select Position;
+proc contents data=derive.sleep_age_1_to_3 position; run;
+run;
+ods select default;

@@ -1,0 +1,18 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	489	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SCSC"", ""SCSC"")"
+3	4	evid	evid	dbl	numeric	double	724	0	c(30728, 50450)
+4	5	event	event	chr	character	character	4	0	"c(""60-Month Clinic Visit"", ""84-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	3	0	"c(""1.0"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	5	0	"c("".x"", ""84"")"
+8	9	SCSC_q1	Was a salivary cotinine sample collected from the child?	dbl	numeric	double	3	149	c(0, 1)
+9	10	SCSC_q1_1b	Time that the sample was collected	time	"c(""hms"", ""difftime"")"	double	237	195	c(27000, 86100)
+10	11	SCSC_q1_2b	Time that the sample was frozen	time	"c(""hms"", ""difftime"")"	double	195	196	c(900, 65460)
+11	12	SCSC_q2	Is child currently taking any medications?	dbl	numeric	double	3	153	c(0, 1)
+12	13	SCSC_q3	How long was the first Sorbette in the child's mouth?	dbl	numeric	double	4	153	c(1, 3)
+13	14	SCSC_q4	How long was the second Sorbette in the child's mouth?	dbl	numeric	double	4	528	c(1, 3)
+14	15	aCompletionDY	Completion Day	dbl	numeric	double	199	149	c(1784, 2737)
+15	16	SCSC_q1_1aDY	Day sample was collected	dbl	numeric	double	197	195	c(1784, 2737)
+16	17	SCSC_q1_2aDY	Day sample was frozen	dbl	numeric	double	198	195	c(1478, 2737)

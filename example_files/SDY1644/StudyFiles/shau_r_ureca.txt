@@ -1,0 +1,834 @@
+Accession	group	form	evid	event	version	status	aVisit	SHAU_q1	SHAU_q2	SHAU_q2a	SHAU_q2a1	SHAU_q3	SHAU_q3a1	SHAU_q3a2	SHAU_q3b	SHAU_q3b1	SHAU_q3b1a	SHAU_q4	SHAU_q5	SHAU_q5a	SHAU_q5a1	SHAU_q6	SHAU_q6a	SHAU_q6a1	aCompletionDY
+		SHAU	11053	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	4953	Prenatal Visit	1.2	complete	p	0			.a						.a	1	6	00:00:04	occasionally	0		.a	
+		SHAU	15131	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	1336	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	11247	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	0	3	6			.a	1	6	00:00:03	.a	0		.a	
+		SHAU	239	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	208	Prenatal Visit	1.2	complete	p	0			.a						.a	1	3	00:00:03	.a	0		.a	
+		SHAU	68	Prenatal Visit	1.2	complete	p	1	16	00:00:01	.a	1			4	00:00:01	.a	3	2	00:00:02	.a	2	00:00:03	.a	
+		SHAU	10019	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			6	00:00:01	.a	1	6	00:00:01	.a	0		.a	
+		SHAU	9169	Prenatal Visit	1.2	complete	p	0			.a						.a	2	2	00:00:02	.a	0		.a	
+		SHAU	3808	Prenatal Visit	1.2	complete	p	0			.a						.a	1	24	00:00:04	year	0		.a	
+		SHAU	2726	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	4	5			.a	1	0		.a	0		.a	
+		SHAU	10008	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	
+		SHAU	1486	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+		SHAU	1485	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+		SHAU	27	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	4048	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	5	5			.a	0	0		.a	0		.a	
+		SHAU	8335	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+		SHAU	5989	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	717	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	3			.a	2	6	00:00:02	.a	0		.a	
+		SHAU	7197	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	13205	Prenatal Visit	1.2	complete	p	1	0		.a	0	4	3			.a	1	5	00:00:03	.a	0		.a	
+		SHAU	3247	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	8688	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	3	00:00:02	.a	0		.a	
+		SHAU	351	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	0			.a	0	3	00:00:02	.a	0		.a	
+		SHAU	7431	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:03	.a	0		.a	
+		SHAU	15824	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			4	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	2354	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	12	4			.a	2	1	00:00:02	.a	0		.a	
+		SHAU	7641	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	for the year	0		.a	
+		SHAU	10940	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	10643	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	10	5			.a	0	3	00:00:03	.a	0		.a	
+		SHAU	17593	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	745	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	2937	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	1			4	00:00:01	.a	2	0		.a	0		.a	
+		SHAU	8650	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	3866	Prenatal Visit	1.2	complete	p	1	10	00:00:02	.a	0	3	5			.a	2	3	00:00:02	.a	1	00:00:04	total	
+		SHAU	4617	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:03	.a	0		.a	
+		SHAU	11047	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	9	5			.a	0	6	00:00:04	per year	1	00:00:04	for the pregnancy	
+		SHAU	9907	Prenatal Visit	1.2	complete	p	0			.a						.a	2	10	00:00:04	year	0		.a	
+		SHAU	11959	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	3	6			.a	1	0		.a	0		.a	
+		SHAU	7680	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	5075	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	12481	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	1095	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	3	5			.a	0	0		.a	0		.a	
+		SHAU	4150	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	9424	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	11	5			.a	0	2	00:00:03	.a	1	00:00:03	.a	
+		SHAU	8906	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	13944	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	1			2	00:00:01	.a	5	3	00:00:02	.a	0		.a	
+		SHAU	9159	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	3	6			.a	1	0		.a	0		.a	
+		SHAU	1921	Prenatal Visit	1.2	complete	p	1	2	00:00:02	.a	1			1	00:00:02	.a	3	0		.a	0		.a	
+		SHAU	376	Prenatal Visit	1.2	complete	p	1	0		.a	0	2	2			.a	0	0		.a	0		.a	
+		SHAU	4924	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	
+		SHAU	8966	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			4	00:00:01	.a	1	2	00:00:02	.a	0		.a	
+		SHAU	8269	Prenatal Visit	1.2	complete	p	1	4	00:00:03	.a	0	11	5			.a	0	2	00:00:03	.a	0		.a	
+		SHAU	3598	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	0	6	5			.a	0	0		.a	0		.a	
+		SHAU	6215	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	2126	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	
+		SHAU	6993	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	11	5			.a	0	4	00:00:03	.a	0		.a	
+		SHAU	15848	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	6	6			.a	0	0		.a	0		.a	
+		SHAU	1170	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	2	5			.a	0	4	00:00:03	.a	1	00:00:04	first month of pregnancy	
+		SHAU	4657	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	10	4			.a	0	2	00:00:04	twice a year	0		.a	
+		SHAU	546	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	12	4			.a	15	7	00:00:03	.a	0		.a	
+		SHAU	701	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			2	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	17	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	3 per year	0		.a	
+		SHAU	3326	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	9	5			.a	3	6	00:00:01	.a	0		.a	
+		SHAU	2598	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	96			.a	0	0		.a	0		.a	
+		SHAU	11855	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	
+		SHAU	1384	Prenatal Visit	1.2	complete	p	0			.a						.a	3	3	00:00:04	for the year	0		.a	
+		SHAU	603	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	87			.a	0	0		.a	0		.a	
+		SHAU	6239	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	93			.a	2	0		.a	0		.a	
+		SHAU	10563	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	0	11	5			.a	1	20	00:00:03	.a	1	00:00:04	for the pregnancy	
+		SHAU	1668	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	
+		SHAU	9380	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	10	5			.a	0	4	00:00:03	.a	0		.a	
+		SHAU	7517	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	6212	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	
+		SHAU	396	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	1	5			.a	0	1	00:00:04	per year	0		.a	
+		SHAU	6242	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	8477	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	1925	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	4200	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	
+		SHAU	176	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	10865	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	2	6			.a	1	0		.a	0		.a	
+		SHAU	11284	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	97			.a	2	0		.a	0		.a	
+		SHAU	2235	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	4106	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			4	00:00:01	.a	3	0		.a	0		.a	
+		SHAU	128	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	6742	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	9686	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	0	1	6			.a	2	10	00:00:03	.a	2	00:00:04	at beginning of pregnancy	
+		SHAU	16646	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	
+		SHAU	9762	Prenatal Visit	1.2	complete	p	1	0		.a	0	10	3			.a	3	3	00:00:02	.a	0		.a	
+		SHAU	11961	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			5	00:00:02	.a	1	0		.a	0		.a	
+		SHAU	125	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	1			10	00:00:03	.a	2	1	00:00:02	.a	0		.a	
+		SHAU	15573	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			10	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	1630	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	5	5			.a	3	0		.a	0		.a	
+		SHAU	1745	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	11239	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:04	year	0		.a	
+		SHAU	748	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	1			5	00:00:01	.a	2	0		.a	0		.a	
+		SHAU	2810	Prenatal Visit	1.2	complete	p	1	5	00:00:02	.a	1			5	00:00:02	.a	1	0		.a	0		.a	
+		SHAU	2479	Prenatal Visit	1.2	complete	p	0			.a						.a	1	5	00:00:03	.a	0		.a	
+		SHAU	944	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			3	00:00:01	.a	2	1	00:00:02	.a	0		.a	
+		SHAU	7660	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:04	year	0		.a	
+		SHAU	543	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	2614	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:04	for the year	0		.a	
+		SHAU	665	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	16144	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	2			.a	1	3	00:00:04	year	0		.a	
+		SHAU	10675	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	3	6			.a	0	2	00:00:02	.a	0		.a	
+		SHAU	3112	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	1			5	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	6470	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			3	00:00:01	.a	5	3	00:00:03	.a	0		.a	
+		SHAU	1548	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	2	5			.a	0	0		.a	0		.a	
+		SHAU	7460	Prenatal Visit	1.2	complete	p	1	1	00:00:03	.a	0	11	5			.a	1	1	00:00:03	.a	0		.a	
+		SHAU	161	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	14042	Prenatal Visit	1.2	complete	p	1	0		.a	0	10	97			.a	1	0		.a	0		.a	
+		SHAU	2240	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	12459	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	14141	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	4	6			.a	0	0		.a	0		.a	
+		SHAU	13091	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	248	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			8	00:00:01	.a	2	1	00:00:02	.a	0		.a	
+		SHAU	6824	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	4590	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	196	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	1			.a	2	2	00:00:03	.a	0		.a	
+		SHAU	9113	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	5451	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	7002	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	1	6			.a	24	0		.a	0		.a	
+		SHAU	3573	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	7142	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:01	.a	20	00:00:04	beginning (first 2 months	
+		SHAU	4593	Prenatal Visit	1.2	complete	p	0			.a						.a	1	4	00:00:04	for the year	0		.a	
+		SHAU	4301	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	4	5			.a	2	1	00:00:01	.a	0		.a	
+		SHAU	634	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	1			10	00:00:02	.a	1	3	00:00:03	.a	0		.a	
+		SHAU	15576	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	2	6			.a	3	0		.a	0		.a	
+		SHAU	5382	Prenatal Visit	1.2	complete	p	0			.a						.a	0	10	00:00:04	for the year	0		.a	
+		SHAU	10192	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+		SHAU	15485	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			5	00:00:01	.a	2	2	00:00:04	a year	0		.a	
+		SHAU	987	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	17709	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	2407	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	2082	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	
+		SHAU	2472	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	1			6	00:00:01	.a	2	0		.a	0		.a	
+		SHAU	7694	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	233	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:03	.a	0		.a	
+		SHAU	14833	Prenatal Visit	1.2	complete	p	1	12	00:00:01	.a	1			3	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	11811	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	8633	Prenatal Visit	1.2	complete	p	1	20	00:00:03	.a	0	11	5			.a	1	3	00:00:03	.a	0		.a	
+		SHAU	6539	Prenatal Visit	1.2	complete	p	1	0		.a	0	4	4			.a	0	1	00:00:03	.a	0		.a	
+		SHAU	5072	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	10	5			.a	1	0		.a	0		.a	
+		SHAU	217	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	230	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	3232	Prenatal Visit	1.2	complete	p	1	40	00:00:03	.a	0	5	5			.a	0	6	00:00:03	.a	0		.a	
+		SHAU	3855	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	6989	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	5	5			.a	0	1	00:00:04	year	0		.a	
+		SHAU	8920	Prenatal Visit	1.2	complete	p	0			.a						.a	3	0		.a	0		.a	
+		SHAU	1529	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	0	10	4			.a	1	1	00:00:02	.a	0		.a	
+		SHAU	9741	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	12506	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	7303	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:02	.a	0		.a	
+		SHAU	566	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	5737	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	4			.a	0	4	00:00:02	.a	0		.a	
+		SHAU	17702	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	9577	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	12	5			.a	0	5	00:00:04	year	0		.a	
+		SHAU	1551	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	6	5			.a	1	2	00:00:03	.a	0		.a	
+		SHAU	3432	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	8	5			.a	0	0		.a	0		.a	
+		SHAU	5731	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:04	holidays	1	00:00:04	labor day	
+		SHAU	941	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	425	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	54	Prenatal Visit	1.2	complete	p	1	0		.a	0	8	93			.a	0	0		.a	0		.a	
+		SHAU	3880	Prenatal Visit	1.2	complete	p	0			.a						.a	1	6	00:00:04	total for the year	0		.a	
+		SHAU	656	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	2	4			.a	0	0		.a	0		.a	
+		SHAU	59	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	13831	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	10	5			.a	0	1	00:00:02	.a	1	00:00:04	for the year	
+		SHAU	4068	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	
+		SHAU	15302	Prenatal Visit	1.2	complete	p	1	2	00:00:04	in one year	0	12	3			.a	0	1	00:00:03	.a	0		.a	
+		SHAU	4571	Prenatal Visit	1.2	complete	p	1	4	00:00:02	.a	0	7	5			.a	0	0		.a	0		.a	
+		SHAU	4764	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	11	5			.a	2	0		.a	0		.a	
+		SHAU	9992	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	
+		SHAU	3872	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			6	00:00:01	.a	2	0		.a	0		.a	
+		SHAU	10351	Prenatal Visit	1.2	complete	p	1	60	00:00:02	.a	0	8	5			.a	1	2	00:00:04	year	0		.a	
+		SHAU	2213	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	
+		SHAU	1391	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	
+		SHAU	541	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	4286	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	
+		SHAU	1298	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	8200	Prenatal Visit	1.2	complete	p	1	2	00:00:04	for the year	0	12	5			.a	1	0		.a	0		.a	
+		SHAU	14	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	44	Prenatal Visit	1.2	complete	p	1	40	00:00:04	year	0	10	4			.a	1	3	00:00:04	year	3	00:00:04	year	
+		SHAU	4841	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	7	5			.a	2	0		.a	0		.a	
+		SHAU	3765	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	4257	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	13271	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	12	5			.a	0	0		.a	0		.a	
+		SHAU	11420	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	2	00:00:04	for the pregnancy	
+		SHAU	2485	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			10	00:00:01	.a	2	4	00:00:01	.a	0		.a	
+		SHAU	1487	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+		SHAU	15989	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	12438	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	2237	Prenatal Visit	1.2	complete	p	1	0		.a	0	11	1			.a	0	1	00:00:03	.a	0		.a	
+		SHAU	8938	Prenatal Visit	1.2	complete	p	1	0		.a	0	10	1			.a	0	1	00:00:02	.a	1	00:00:03	.a	
+		SHAU	5221	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:02	.a	0		.a	
+		SHAU	10555	Prenatal Visit	1.2	complete	p	0			.a						.a	2	1	00:00:04	for the year	0		.a	
+		SHAU	5497	Prenatal Visit	1.2	complete	p	1	12	00:00:01	.a	0	2	5			.a	0	0		.a	0		.a	
+		SHAU	8	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	37	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	9	4			.a	3	1	00:00:03	.a	0		.a	
+		SHAU	10396	Prenatal Visit	1.2	complete	p	1	40	00:00:02	.a	1			3	00:00:01	.a	1	0		.a	0		.a	
+		SHAU	10979	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	9242	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	12	4			.a	1	0		.a	0		.a	
+		SHAU	7836	Prenatal Visit	1.2	complete	p	1	3	00:00:04	per hour	1			2	00:00:01	.a	1	3	00:00:02	.a	0		.a	
+		SHAU	2244	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+		SHAU	90	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	10584	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	yearly, during christmas	0		.a	
+		SHAU	10138	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	12	5			.a	1			.n	6	00:00:03	.a	
+		SHAU	134	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	10	4			.a	1	3	00:00:04	in the year	0		.a	
+		SHAU	4160	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	for the year	0		.a	
+		SHAU	205	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:03	.a	0		.a	
+		SHAU	10830	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	3	6			.a	0	0		.a	0		.a	
+		SHAU	11013	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	1			4	00:00:01	.a	2	2	00:00:02	.a	0		.a	
+		SHAU	11498	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	11	5			.a	0	1	00:00:04	for the year	0		.a	
+		SHAU	101	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	
+		SHAU	2551	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	86			.a	0	4	00:00:04	holidays	0		.a	
+		SHAU	12255	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	
+		SHAU	8678	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	1			6	00:00:01	.a	3	2	00:00:01	.a	0		.a	
+		SHAU	12225	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	1	6			.a	1	1	00:00:03	.a	0		.a	
+		SHAU	9998	Prenatal Visit	1.2	complete	p	1	20	00:00:03	.a	0	2	6			.a	0	0		.a	0		.a	
+		SHAU	2973	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	
+		SHAU	947	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	1			1	00:00:02	.a	2	3	00:00:02	.a	0		.a	
+		SHAU	11974	Prenatal Visit	1.2	complete	p	0			.a						.a	1	4	00:00:03	.a	5	00:00:04	at beginning of prenancy	
+		SHAU	8328	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	9	5			.a	1	3	00:00:03	.a	0		.a	
+		SHAU	6871	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	
+SUB230862	Atopic	SHAU	39	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	-7
+SUB230863	Atopic	SHAU	34	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	0
+SUB230864	Atopic	SHAU	122	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-1
+SUB230865	Atopic	SHAU	62	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	4	4			.a	1	3	00:00:02	.a	1	00:00:04	total	0
+SUB230866	Atopic	SHAU	47	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	1			2	00:00:01	.a	3	2	00:00:01	.a	0		.a	-33
+SUB230867	Atopic	SHAU	148	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-14
+SUB230868	Atopic	SHAU	145	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-13
+SUB230869	Atopic	SHAU	65	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	4	4			.a	1	3	00:00:02	.a	1	00:00:04	total	0
+SUB230870	Atopic	SHAU	42	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			1	00:00:01	.a	3	0		.a	0		.a	-71
+SUB230871	Atopic	SHAU	50	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	1			5	00:00:01	.a	3	6	00:00:02	.a	0		.a	-43
+SUB230872	Atopic	SHAU	131	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	7	4			.a	0	0		.a	0		.a	-50
+SUB230873	Atopic	SHAU	95	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	1			3	00:00:01	.a	1	1	00:00:03	.a	0		.a	-45
+SUB230874	Atopic	SHAU	867	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	1			2	00:00:01	.a	3	2	00:00:02	.a	2	00:00:04	during entire pregnancy	-8
+SUB230875	Atopic	SHAU	199	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	9	4			.a	3	1	00:00:02	.a	0		.a	-7
+SUB230876	Atopic	SHAU	937	Prenatal Visit	1.2	complete	p	1	20	00:00:04	for the year	0	7	4			.a	2	0		.a	0		.a	-11
+SUB230877	Atopic	SHAU	930	Prenatal Visit	1.2	complete	p	0			.a						.a	2	2	00:00:03	.a	0		.a	-20
+SUB230878	Atopic	SHAU	933	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	12	4			.a	1	0		.a	0		.a	-17
+SUB230879	Atopic	SHAU	256	Prenatal Visit	1.2	complete	p	1	40	00:00:02	.a	0	3	5			.a	3	0		.a	0		.a	-32
+SUB230880	Atopic	SHAU	625	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-48
+SUB230881	Atopic	SHAU	393	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	96			.a	0	3	00:00:04	3 total of the year	0		.a	-68
+SUB230882	Atopic	SHAU	668	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	0	9	4			.a	1	0		.a	0		.a	-67
+SUB230883	Atopic	SHAU	951	Prenatal Visit	1.2	complete	p	1	0		.a	0	4	95			.a	1	0		.a	0		.a	-46
+SUB230884	Atopic	SHAU	115	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	per year	0		.a	-119
+SUB230885	Atopic	SHAU	56	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-132
+SUB230886	Atopic	SHAU	98	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-137
+SUB230887	Atopic	SHAU	939	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	10	4			.a	1	6	00:00:03	.a	2	00:00:04	total	-64
+SUB230888	Atopic	SHAU	157	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	1			2	00:00:01	.a	3	5	00:00:03	.a	0		.a	-125
+SUB230889	Atopic	SHAU	662	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-88
+SUB230890	Atopic	SHAU	31	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-153
+SUB230891	Atopic	SHAU	1143	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-68
+SUB230892	Atopic	SHAU	1410	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-44
+SUB230893	Atopic	SHAU	202	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	0	11	4			.a	0	3	00:00:03	.a	0		.a	-134
+SUB230894	Atopic	SHAU	1970	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-33
+SUB230895	Atopic	SHAU	2089	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-23
+SUB230896	Atopic	SHAU	348	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:04	every few months	0		.a	-131
+SUB230897	Atopic	SHAU	1209	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			3	00:00:01	.a	1	1	00:00:01	.a	0		.a	-95
+SUB230898	Atopic	SHAU	1702	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-57
+SUB230899	Atopic	SHAU	1317	Prenatal Visit	1.2	complete	p	1	0		.a	0	4	89			.a	1	2	00:00:03	.a	0		.a	-93
+SUB230900	Atopic	SHAU	1341	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-100
+SUB230901	Atopic	SHAU	637	Prenatal Visit	1.2	complete	p	1	3	00:00:03	.a	0	8	4			.a	2	1	00:00:03	.a	0		.a	-117
+SUB230902	Atopic	SHAU	2507	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	8	4			.a	0	0		.a	0		.a	-25
+SUB230903	Atopic	SHAU	1152	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	-110
+SUB230904	Atopic	SHAU	1333	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-104
+SUB230905	Atopic	SHAU	2758	Prenatal Visit	1.2	complete	p	0			.a						.a	0	5	00:00:04	year	0		.a	-7
+SUB230906	Atopic	SHAU	1394	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	3	00:00:02	.a	0		.a	-108
+SUB230907	Atopic	SHAU	1146	Prenatal Visit	1.2	complete	p	0			.a						.a	2	2	00:00:03	.a	0		.a	-125
+SUB230908	Atopic	SHAU	1029	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	for the year	0		.a	-125
+SUB230909	Atopic	SHAU	2247	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	2	5			.a	0	0		.a	0		.a	-66
+SUB230910	Atopic	SHAU	1060	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-126
+SUB230911	Atopic	SHAU	2159	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			1	00:00:01	.a	2	1	00:00:03	.a	0		.a	-38
+SUB230912	Atopic	SHAU	2504	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			5	00:00:01	.a	3	2	00:00:04	for the year	0		.a	-51
+SUB230913	Atopic	SHAU	2063	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-80
+SUB230914	Atopic	SHAU	2232	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	4	3	00:00:03	.a	0		.a	-68
+SUB230915	Atopic	SHAU	2966	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-27
+SUB230916	Atopic	SHAU	619	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	1	5			.a	1	1	00:00:02	.a	0		.a	-88
+SUB230917	Atopic	SHAU	1149	Prenatal Visit	1.2	complete	p	1	40	00:00:03	.a	0	4	5			.a	2	1	00:00:01	.a	0		.a	-137
+SUB230918	Atopic	SHAU	1357	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	1			3	00:00:02	.a	1	7	00:00:01	.a	2	00:00:03	.a	-128
+SUB230919	Atopic	SHAU	2492	Prenatal Visit	1.2	complete	p	1	10	00:00:02	.a	0	9	4			.a	1	0		.a	0		.a	-62
+SUB230920	Atopic	SHAU	1339	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-130
+SUB230921	Atopic	SHAU	2499	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			3	00:00:01	.a	2	0		.a	0		.a	-68
+SUB230922	Atopic	SHAU	3055	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	3	5			.a	1	5	00:00:01	.a	0		.a	-7
+SUB230923	Atopic	SHAU	2617	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-58
+SUB230924	Atopic	SHAU	1618	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	1	5			.a	1	0		.a	0		.a	-106
+SUB230925	Atopic	SHAU	2553	Prenatal Visit	1.2	complete	p	1	50	00:00:02	.a	1			3	00:00:01	.a	4	12	00:00:01	.a	0		.a	-78
+SUB230926	Atopic	SHAU	169	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-107
+SUB230927	Atopic	SHAU	4197	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-1
+SUB230928	Atopic	SHAU	4169	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	2			.a	2	2	00:00:04	for the entire year	1	00:00:04	during the pregnancy	-18
+SUB230929	Atopic	SHAU	3391	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			20	00:00:01	.a	4	10	00:00:01	this statement is true	0		.a	-46
+SUB230930	Atopic	SHAU	4683	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	1			1	00:00:01	.a	1	0		.a	0		.a	-7
+SUB230931	Atopic	SHAU	4309	Prenatal Visit	1.2	complete	p	1	0		.a	0	9	96			.a	0	0		.a	0		.a	-27
+SUB230932	Atopic	SHAU	3052	Prenatal Visit	1.2	complete	p	1	60	00:00:01	this is what the mother s	1			6	00:00:01	.a	2	3	00:00:01	.a	1	00:00:04	6 months of pregnancy	-86
+SUB230933	Atopic	SHAU	2934	Prenatal Visit	1.2	complete	p	1	2	00:00:03	.a	0	12	4			.a	4	1	00:00:04	for the year	0		.a	-94
+SUB230934	Atopic	SHAU	2609	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-115
+SUB230935	Atopic	SHAU	3388	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	4	5			.a	0	0		.a	0		.a	-72
+SUB230936	Atopic	SHAU	2603	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	2			.a	0	0		.a	0		.a	-115
+SUB230937	Atopic	SHAU	4586	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-32
+SUB230938	Atopic	SHAU	4920	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-28
+SUB230939	Atopic	SHAU	2979	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-101
+SUB230940	Atopic	SHAU	3759	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	for the year	0		.a	-72
+SUB230941	Atopic	SHAU	5782	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	4	5			.a	1	0		.a	0		.a	-5
+SUB230942	Atopic	SHAU	4247	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	97			.a	0	0		.a	0		.a	-57
+SUB230943	Atopic	SHAU	5825	Prenatal Visit	1.2	complete	p	0			.a						.a	1	5	00:00:02	.a	0		.a	-7
+SUB230944	Atopic	SHAU	3869	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-73
+SUB230945	Atopic	SHAU	5019	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	3	4			.a	0	1	00:00:03	.a	0		.a	-36
+SUB230946	Atopic	SHAU	1674	Prenatal Visit	1.2	complete	p	1	0		.a	1			4	00:00:01	.a	2	0		.a	0		.a	-196
+SUB230947	Atopic	SHAU	5082	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-38
+SUB230948	Atopic	SHAU	3093	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-122
+SUB230949	Atopic	SHAU	5742	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-27
+SUB230950	Atopic	SHAU	6209	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-16
+SUB230951	Atopic	SHAU	3660	Prenatal Visit	1.2	complete	p	1	2	00:00:04	for the year	1			2	00:00:04	in the last 5 months	2	1	00:00:03	.a	1	00:00:04	during pregnancy	-102
+SUB230952	Atopic	SHAU	5982	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-26
+SUB230953	Atopic	SHAU	6220	Prenatal Visit	1.2	complete	p	1	0		.a	0	10	4			.a	1	0		.a	0		.a	-19
+SUB230954	Atopic	SHAU	6827	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-6
+SUB230955	Atopic	SHAU	6816	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	0			.a	1	2	00:00:02	.a	0		.a	-6
+SUB230956	Atopic	SHAU	6668	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-11
+SUB230957	Atopic	SHAU	3860	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-118
+SUB230958	Atopic	SHAU	6813	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	4	5			.a	0	2	00:00:03	.a	2	00:00:03	.a	-22
+SUB230959	Atopic	SHAU	5500	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	for the year	0		.a	-56
+SUB230960	Atopic	SHAU	5098	Prenatal Visit	1.2	complete	p	1	3	00:00:02	.a	0	3	5			.a	0	8	00:00:02	.a	1	00:00:02	.a	-56
+SUB230961	Atopic	SHAU	3875	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-125
+SUB230962	Atopic	SHAU	7648	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			3	00:00:01	.a	3	10	00:00:01	.a	0		.a	-9
+SUB230963	Atopic	SHAU	5095	Prenatal Visit	1.2	complete	p	1	11	00:00:01	.a	1			7	00:00:01	.a	2	4	00:00:02	.a	1	00:00:04	every 3 months	-64
+SUB230964	Atopic	SHAU	5379	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-77
+SUB230965	Atopic	SHAU	7967	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-77
+SUB230966	Atopic	SHAU	4818	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-108
+SUB230967	Atopic	SHAU	5061	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:02	.a	0		.a	-101
+SUB230968	Atopic	SHAU	6144	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-71
+SUB230969	Atopic	SHAU	7119	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-44
+SUB230970	Atopic	SHAU	5101	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	-86
+SUB230971	Atopic	SHAU	8504	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	8	1			.a	0	2	00:00:03	.a	0		.a	-9
+SUB230972	Atopic	SHAU	8460	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:03	.a	0		.a	-18
+SUB230973	Atopic	SHAU	8197	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-24
+SUB230974	Atopic	SHAU	8642	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			5	00:00:01	.a	1	4	00:00:04	for the year	0		.a	-14
+SUB230975	Atopic	SHAU	5393	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-78
+SUB230976	Atopic	SHAU	6819	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-70
+SUB230977	Atopic	SHAU	8645	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-27
+SUB230978	Atopic	SHAU	8675	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	-27
+SUB230979	Atopic	SHAU	5131	Prenatal Visit	1.2	complete	p	1	3	00:00:02	.a	0	8	5			.a	1	0		.a	0		.a	-136
+SUB230980	Atopic	SHAU	8454	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	for the year	0		.a	-26
+SUB230981	Atopic	SHAU	5388	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	2	00:00:04	since the pregnancy	-113
+SUB230982	Atopic	SHAU	6653	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-106
+SUB230983	Atopic	SHAU	9420	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-24
+SUB230984	Atopic	SHAU	8684	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	1			2	00:00:01	.a	2	0		.a	0		.a	-47
+SUB230985	Atopic	SHAU	9471	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-28
+SUB230986	Atopic	SHAU	8670	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	2	6			.a	1	1	00:00:01	.a	0		.a	-49
+SUB230987	Atopic	SHAU	8466	Prenatal Visit	1.2	complete	p	1	20	00:00:03	.a	0	9	5			.a	3	0		.a	0		.a	-64
+SUB230988	Atopic	SHAU	6739	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-119
+SUB230989	Atopic	SHAU	9584	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-64
+SUB230990	Atopic	SHAU	11003	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-13
+SUB230991	Atopic	SHAU	11009	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-17
+SUB230992	Atopic	SHAU	7465	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	8	5			.a	1	4	00:00:01	.a	0		.a	-126
+SUB230993	Atopic	SHAU	5457	Prenatal Visit	1.2	complete	p	0			.a						.a	2	2	00:00:03	.a	2	00:00:03	.a	-141
+SUB230994	Atopic	SHAU	11006	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			2	00:00:01	.a	2	0		.a	1	00:00:02	.a	-29
+SUB230995	Atopic	SHAU	11157	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-25
+SUB230996	Atopic	SHAU	6874	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-144
+SUB230997	Atopic	SHAU	9694	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:04	for the year	0		.a	-81
+SUB230998	Atopic	SHAU	11948	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-5
+SUB230999	Non-atopic	SHAU	11056	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-36
+SUB231000	Atopic	SHAU	9119	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-102
+SUB231001	Atopic	SHAU	8452	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-124
+SUB231002	Atopic	SHAU	12298	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-1
+SUB231003	Atopic	SHAU	10977	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:02	.a	0		.a	-54
+SUB231004	Atopic	SHAU	11293	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	10	5			.a	2	2	00:00:02	.a	0		.a	-40
+SUB231005	Atopic	SHAU	11944	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-22
+SUB231006	Atopic	SHAU	8499	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	for the year	0		.a	-135
+SUB231007	Atopic	SHAU	11264	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			2	00:00:01	.a	2	0		.a	3	00:00:04	for 1 weekend	-44
+SUB231008	Atopic	SHAU	10588	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-82
+SUB231009	Atopic	SHAU	12206	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			1	00:00:01	.a	2	24	00:00:02	.a	0		.a	-25
+SUB231010	Non-atopic	SHAU	12386	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:02	.a	0		.a	-18
+SUB231011	Atopic	SHAU	12391	Prenatal Visit	1.2	complete	p	0			.a						.a	2	3	00:00:04	for the year	0		.a	-18
+SUB231012	Atopic	SHAU	9698	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			8	00:00:01	.a	2	2	00:00:01	.a	120	00:00:04	for months	-117
+SUB231013	Atopic	SHAU	9341	Prenatal Visit	1.2	complete	p	1	0		.a	0	8	85			.a	0	2	00:00:03	.a	3	00:00:04	during the pregnancy	-130
+SUB231014	Atopic	SHAU	12066	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-40
+SUB231015	Non-atopic	SHAU	11495	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	11	5			.a	1	0		.a	2	00:00:01	.a	-62
+SUB231016	Atopic	SHAU	9860	Prenatal Visit	1.2	complete	p	0			.a						.a	2	2	00:00:02	.a	0		.a	-124
+SUB231017	Non-atopic	SHAU	11091	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:01	.a	0		.a	-85
+SUB231018	Atopic	SHAU	8963	Prenatal Visit	1.2	complete	p	1	15	00:00:01	.a	1			7	00:00:01	.a	2	2	00:00:02	.a	0		.a	-157
+SUB231019	Atopic	SHAU	9283	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	11	5			.a	3	1	00:00:03	.a	1	00:00:04	during the whole pregnanc	-157
+SUB231020	Atopic	SHAU	12236	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-54
+SUB231021	Atopic	SHAU	11051	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			6	00:00:01	.a	1	0		.a	0		.a	-107
+SUB231022	Non-atopic	SHAU	11807	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-86
+SUB231023	Non-atopic	SHAU	15064	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:03	.a	1	00:00:03	.a	-13
+SUB231024	Non-atopic	SHAU	13988	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:02	.a	0		.a	-74
+SUB231025	Atopic	SHAU	15245	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			10	00:00:01	.a	2	2	00:00:02	.a	0		.a	-46
+SUB231026	Atopic	SHAU	16173	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-18
+SUB231027	Atopic	SHAU	83	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	7	4			.a	0	0		.a	0		.a	-2
+SUB231028	Atopic	SHAU	535	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	1			3	00:00:01	.a	1	6	00:00:03	.a	0		.a	-1
+SUB231029	Atopic	SHAU	648	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			5	00:00:01	.a	1	2	00:00:02	.a	0		.a	-13
+SUB231030	Atopic	SHAU	382	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	-33
+SUB231031	Atopic	SHAU	935	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-6
+SUB231032	Atopic	SHAU	164	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	10	4			.a	1	3	00:00:01	.a	3	00:00:04	per week in first 2 weeks	-43
+SUB231033	Atopic	SHAU	752	Prenatal Visit	1.2	complete	p	0			.a						.a	0	12	00:00:02	.a	4	00:00:04	for the entire pregnancy	-45
+SUB231034	Atopic	SHAU	1522	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231035	Atopic	SHAU	139	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	0			.a	0	1	00:00:04	1 drink per year	0		.a	-104
+SUB231036	Atopic	SHAU	532	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	0	8	4			.a	0	0		.a	0		.a	-47
+SUB231037	Atopic	SHAU	1979	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231038	Atopic	SHAU	1374	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	10	4			.a	1	0		.a	0		.a	-39
+SUB231039	Atopic	SHAU	1607	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-27
+SUB231040	Atopic	SHAU	1543	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			10	00:00:01	.a	1	3	00:00:03	.a	1	00:00:03	.a	-44
+SUB231041	Atopic	SHAU	2055	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-25
+SUB231042	Atopic	SHAU	2583	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	10	4			.a	1	4	00:00:03	.a	0		.a	-8
+SUB231043	Atopic	SHAU	2495	Prenatal Visit	1.2	complete	p	1	12	00:00:01	.a	1			5	00:00:01	.a	1	0		.a	0		.a	-11
+SUB231044	Atopic	SHAU	2253	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	occassionaly	1	00:00:04	entire pregnancy	-29
+SUB231045	Atopic	SHAU	173	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	12	4			.a	0	7	00:00:03	.a	1	00:00:04	in first trimester only	-115
+SUB231046	Atopic	SHAU	2580	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-10
+SUB231047	Atopic	SHAU	112	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-97
+SUB231048	Atopic	SHAU	1717	Prenatal Visit	1.2	complete	p	1	2	00:00:02	.a	0	1	5			.a	1	0		.a	0		.a	-61
+SUB231049	Atopic	SHAU	1705	Prenatal Visit	1.2	complete	p	0			.a						.a		0		.a	0		.a	-57
+SUB231050	Atopic	SHAU	711	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			1	00:00:04	occassionally	1	5	00:00:04	year	0		.a	-78
+SUB231051	Atopic	SHAU	365	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	3			.a	0	0		.a	0		.a	-93
+SUB231052	Atopic	SHAU	755	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	-86
+SUB231053	Atopic	SHAU	4264	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	10	00:00:01	10 drinks per day	10	00:00:01	10 drinks per day	2
+SUB231054	Atopic	SHAU	1714	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-80
+SUB231055	Atopic	SHAU	2963	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	1			.a	0	0		.a	0		.a	-30
+SUB231056	Atopic	SHAU	1610	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:02	.a	4	00:00:04	during entire pregnancy	-83
+SUB231057	Atopic	SHAU	2821	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			8	00:00:01	.a	1	0		.a	0		.a	1
+SUB231058	Atopic	SHAU	517	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-114
+SUB231059	Atopic	SHAU	1795	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	90			.a	0	2	00:00:02	.a	0		.a	-96
+SUB231060	Atopic	SHAU	2383	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	4	5			.a	1	0		.a	0		.a	-92
+SUB231061	Atopic	SHAU	2654	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-76
+SUB231062	Atopic	SHAU	1538	Prenatal Visit	1.2	complete	p	1	3	00:00:03	.a	0	2	5			.a	0	4	00:00:03	.a	0		.a	-102
+SUB231063	Atopic	SHAU	714	Prenatal Visit	1.2	complete	p	1	15	00:00:01	.a	1			4	00:00:01	.a	1	2	00:00:04	quarterly	1	00:00:04	before knew of pregnancy	-79
+SUB231064	Atopic	SHAU	955	Prenatal Visit	1.2	complete	p	1	10	00:00:02	.a	0	3	5			.a	1	1	00:00:03	.a	0		.a	-59
+SUB231065	Atopic	SHAU	3638	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			20	00:00:01	.a	1	5	00:00:02	.a	0		.a	-66
+SUB231066	Atopic	SHAU	3262	Prenatal Visit	1.2	complete	p	0			.a						.a	6	0		.a	0		.a	-49
+SUB231067	Atopic	SHAU	4156	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			5	00:00:01	.a	2	8	00:00:02	.a	0		.a	-49
+SUB231068	Atopic	SHAU	5065	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			3	00:00:01	.a	1	1	00:00:03	.a	0		.a	-15
+SUB231069	Atopic	SHAU	5766	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			20	00:00:02	.a	1	2	00:00:01	.a	1	00:00:02	.a	1
+SUB231070	Atopic	SHAU	5478	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	1
+SUB231071	Atopic	SHAU	5105	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-23
+SUB231072	Atopic	SHAU	6231	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	1
+SUB231073	Atopic	SHAU	6269	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	27
+SUB231074	Atopic	SHAU	5506	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-40
+SUB231075	Atopic	SHAU	3254	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:03	.a	0		.a	-39
+SUB231076	Atopic	SHAU	3550	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	1			2	00:00:01	.a	2	3	00:00:02	.a	3	00:00:04	on occassion at beginning	-70
+SUB231077	Atopic	SHAU	4182	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-9
+SUB231078	Atopic	SHAU	5233	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:04	per year	0		.a	-56
+SUB231079	Atopic	SHAU	4176	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:04	in whole life	0		.a	-81
+SUB231080	Atopic	SHAU	3330	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	7	5			.a	1	1	00:00:04	year	0		.a	-26
+SUB231081	Atopic	SHAU	4179	Prenatal Visit	1.2	complete	p	1	40	00:00:02	.a	1			3	00:00:01	.a	1	0		.a	0		.a	-71
+SUB231082	Atopic	SHAU	4566	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-94
+SUB231083	Atopic	SHAU	4194	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-103
+SUB231084	Atopic	SHAU	4752	Prenatal Visit	1.2	complete	p	1	20	00:00:04	every 2 days	0	6	5			.a	1	2	00:00:04	on occasions	0		.a	-80
+SUB231085	Atopic	SHAU	8480	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	8
+SUB231086	Atopic	SHAU	4173	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-67
+SUB231087	Atopic	SHAU	8228	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	3
+SUB231088	Atopic	SHAU	4429	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	-100
+SUB231089	Atopic	SHAU	7528	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231090	Atopic	SHAU	4016	Prenatal Visit	1.2	complete	p	1	15	00:00:01	.a	1			5	00:00:01	.a	2	7	00:00:04	7 drinks per year	0		.a	-106
+SUB231091	Atopic	SHAU	4777	Prenatal Visit	1.2	complete	p	1	1	00:00:04	1 time	0	12	4			.a	2	2	00:00:02	.a	4	00:00:04	1 day	-100
+SUB231092	Atopic	SHAU	5068	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	4	4			.a	0	10	00:00:04	within a year	0		.a	-79
+SUB231093	Atopic	SHAU	4767	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			20	00:00:01	.a	3	6	00:00:02	.a	3	00:00:02	.a	-109
+SUB231094	Atopic	SHAU	4596	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	6	5			.a	1	0		.a	0		.a	-77
+SUB231095	Atopic	SHAU	5724	Prenatal Visit	1.2	complete	p	0			.a						.a	1	5	00:00:04	social occasions	0		.a	-100
+SUB231096	Atopic	SHAU	7521	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	10	98			.a	1	0		.a	0		.a	-70
+SUB231097	Atopic	SHAU	7064	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	every six months	0		.a	-81
+SUB231098	Atopic	SHAU	8637	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-15
+SUB231099	Atopic	SHAU	7911	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:03	.a	0		.a	-50
+SUB231100	Atopic	SHAU	7674	Prenatal Visit	1.2	complete	p	1	2	00:00:02	.a	0	6	5			.a	1	0		.a	1	00:00:04	1 glass champagne for new	-25
+SUB231101	Atopic	SHAU	7086	Prenatal Visit	1.2	complete	p	1	5	00:00:04	year before pegnant	0	2	5			.a	0	5	00:00:04	year	0		.a	-72
+SUB231102	Atopic	SHAU	6228	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	0			.a	0	4	00:00:04	year	1	00:00:04	during entire pregnancy	-94
+SUB231103	Atopic	SHAU	6272	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	-91
+SUB231104	Atopic	SHAU	7012	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:04	per year	0		.a	-104
+SUB231105	Atopic	SHAU	6223	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	1			3	00:00:01	.a	1	0		.a	0		.a	-104
+SUB231106	Atopic	SHAU	5503	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231107	Atopic	SHAU	9451	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-46
+SUB231108	Atopic	SHAU	10027	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-22
+SUB231109	Atopic	SHAU	8948	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-64
+SUB231110	Atopic	SHAU	8716	Prenatal Visit	1.2	complete	p	1	45	00:00:01	.a	1			10	00:00:02	.a	1	0		.a	0		.a	-74
+SUB231111	Atopic	SHAU	6278	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	0	10	5			.a	0	2	00:00:03	.a	0		.a	-77
+SUB231112	Atopic	SHAU	8545	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-43
+SUB231113	Atopic	SHAU	9109	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:02	.a	0		.a	-53
+SUB231114	Atopic	SHAU	10307	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			2	00:00:01	.a	1	3	00:00:02	.a	0		.a	-40
+SUB231115	Atopic	SHAU	7009	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-96
+SUB231116	Atopic	SHAU	10590	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-43
+SUB231117	Atopic	SHAU	8184	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	8	5			.a	1	0		.a	0		.a	-103
+SUB231118	Atopic	SHAU	10001	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	3			.a	0	2	00:00:02	.a	0		.a	-44
+SUB231119	Atopic	SHAU	11970	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	22
+SUB231120	Atopic	SHAU	11061	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			10	00:00:01	.a	1	6	00:00:01	.a	6	00:00:02	.a	-35
+SUB231121	Atopic	SHAU	8052	Prenatal Visit	1.2	complete	p	0			.a						.a	0	8	00:00:04	per year	0		.a	-98
+SUB231122	Atopic	SHAU	8288	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:03	.a	0		.a	-116
+SUB231123	Atopic	SHAU	7671	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-97
+SUB231124	Atopic	SHAU	7311	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231125	Atopic	SHAU	7015	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	per year	0		.a	-88
+SUB231126	Atopic	SHAU	8926	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231127	Atopic	SHAU	11898	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	less than one whole drink	1	00:00:03	.a	-11
+SUB231128	Atopic	SHAU	12152	Prenatal Visit	1.2	complete	p	1	30	00:00:02	.a	1			1	00:00:01	.a	1	2	00:00:03	.a	2	00:00:03	.a	-19
+SUB231129	Non-atopic	SHAU	11852	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	0			.a	0	0		.a	0		.a	-26
+SUB231130	Atopic	SHAU	10005	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-83
+SUB231131	Atopic	SHAU	9587	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-64
+SUB231132	Atopic	SHAU	8589	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	per year	0		.a	-113
+SUB231133	Atopic	SHAU	10410	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	4			.a	1	2	00:00:03	.a	0		.a	-86
+SUB231134	Atopic	SHAU	12930	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year at holiday	1	00:00:04	entire pregnancy	-7
+SUB231135	Atopic	SHAU	8553	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			1	00:00:01	.a	1	1	00:00:04	year	0		.a	-97
+SUB231136	Atopic	SHAU	10577	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			10	00:00:02	.a	1	12	00:00:03	.a	5	00:00:04	within this two month of	-91
+SUB231137	Atopic	SHAU	8189	Prenatal Visit	1.2	missing	.x				.x						.x				.x			.x	
+SUB231138	Atopic	SHAU	8932	Prenatal Visit	1.2	complete	p	0			.a						.a	2	1	00:00:04	per year	0		.a	-153
+SUB231139	Atopic	SHAU	9850	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-84
+SUB231140	Atopic	SHAU	10341	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-73
+SUB231141	Atopic	SHAU	9784	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	3			.a	0	1	00:00:04	year	0		.a	-90
+SUB231142	Atopic	SHAU	11389	Prenatal Visit	1.2	complete	p	1	50	00:00:02	.a	1			7	00:00:02	.a	2	3	00:00:03	.a	0		.a	-82
+SUB231143	Non-atopic	SHAU	10338	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	1	6			.a	0	3	00:00:01	.a	0		.a	-99
+SUB231144	Atopic	SHAU	12155	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	7	4			.a	0	2	00:00:01	.a	0		.a	-48
+SUB231145	Non-atopic	SHAU	10234	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-48
+SUB231146	Atopic	SHAU	9216	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			2	00:00:01	.a	3	4	00:00:02	.a	0		.a	-93
+SUB231147	Non-atopic	SHAU	13364	Prenatal Visit	1.2	complete	p	1	40	00:00:03	.a	0	7	6			.a	0	0		.a	0		.a	-26
+SUB231148	Atopic	SHAU	10011	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:04	in 1 year	0		.a	-76
+SUB231149	Atopic	SHAU	9843	Prenatal Visit	1.2	complete	p	1	5	00:00:03	.a	0	11	5			.a	0	20	00:00:03	.a	0		.a	-80
+SUB231150	Atopic	SHAU	10413	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-70
+SUB231151	Non-atopic	SHAU	10521	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-83
+SUB231152	Atopic	SHAU	8234	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	0	5	6			.a	0	7	00:00:01	n/a	7	00:00:01	n/a	-99
+SUB231153	Non-atopic	SHAU	10622	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-119
+SUB231154	Non-atopic	SHAU	10220	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	in one year	0		.a	-70
+SUB231155	Atopic	SHAU	11785	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	7	6			.a	3	0		.a	0		.a	-43
+SUB231156	Non-atopic	SHAU	11902	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-41
+SUB231157	Non-atopic	SHAU	11932	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year on holidays	0		.a	-81
+SUB231158	Non-atopic	SHAU	10930	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-50
+SUB231159	Atopic	SHAU	11017	Prenatal Visit	1.2	complete	p	1	0		.a	0	5	97			.a	1	6	00:00:02	.a	0		.a	-98
+SUB231160	Atopic	SHAU	11793	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	1	6			.a	0	5	00:00:04	year	0		.a	-82
+SUB231161	Atopic	SHAU	10418	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			5	00:00:01	.a	2	20	00:00:04	other	0		.a	-117
+SUB231162	Atopic	SHAU	11116	Prenatal Visit	1.2	complete	p	1	0		.a	0	5	1			.a	0	1	00:00:03	.a	1	00:00:04	early pregnancy	-113
+SUB231163	Atopic	SHAU	11274	Prenatal Visit	1.2	complete	p	1	0		.a	0	9	96			.a	0	0		.a	0		.a	-47
+SUB231164	Atopic	SHAU	12397	Prenatal Visit	1.2	complete	p	1	0		.a	0	12	2			.a	0	3	00:00:02	.a	0		.a	-60
+SUB231165	Atopic	SHAU	11629	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	-83
+SUB231166	Atopic	SHAU	11768	Prenatal Visit	1.2	complete	p	1	40	00:00:02	.a	1			3	00:00:01	.a	1	0		.a	0		.a	-96
+SUB231167	Atopic	SHAU	10659	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-95
+SUB231168	Atopic	SHAU	13064	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-115
+SUB231169	Non-atopic	SHAU	16392	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	4	6			.a	0	2	00:00:03	.a	0		.a	-15
+SUB231170	Non-atopic	SHAU	15910	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-31
+SUB231171	Non-atopic	SHAU	16960	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:03	.a	0		.a	-74
+SUB231172	Non-atopic	SHAU	17580	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	yearly	1	00:00:04	holiday season	-49
+SUB231173	Atopic	SHAU	179	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	-5
+SUB231174	Atopic	SHAU	245	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:04	per year	0		.a	-11
+SUB231175	Atopic	SHAU	622	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	per year	1	00:00:04	all pregnancy	-1
+SUB231176	Atopic	SHAU	610	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-2
+SUB231177	Atopic	SHAU	418	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	9	4			.a	1	10	00:00:04	occasionally at party	0		.a	-23
+SUB231178	Atopic	SHAU	242	Prenatal Visit	1.2	complete	p	1	0		.a	0	9	94			.a	0	0		.a	0		.a	-9
+SUB231179	Atopic	SHAU	227	Prenatal Visit	1.2	complete	p	0			.a						.a	1	6	00:00:04	family gatherings	0		.a	-32
+SUB231180	Atopic	SHAU	523	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-5
+SUB231181	Atopic	SHAU	289	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			3	00:00:01	.a	2	9	00:00:04	per year	1	00:00:04	per year	-24
+SUB231182	Atopic	SHAU	1235	Prenatal Visit	1.2	complete	p	1	60	00:00:02	.a	1			10	00:00:02	.a	1	5	00:00:04	per year	2	00:00:04	during pregnancy	-2
+SUB231183	Atopic	SHAU	659	Prenatal Visit	1.2	complete	p	1	0		.a	0	11	98			.a	1	0		.a	0		.a	-24
+SUB231184	Atopic	SHAU	1198	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	12	3			.a	2	20	00:00:04	per 3 months	0		.a	-25
+SUB231185	Atopic	SHAU	286	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-79
+SUB231186	Atopic	SHAU	1177	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	2			.a	2	0		.a	0		.a	-44
+SUB231187	Atopic	SHAU	223	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	-86
+SUB231188	Atopic	SHAU	1967	Prenatal Visit	1.2	complete	p	1	3	00:00:04	ever	0	5	4			.a	0	3	00:00:03	.a	2	00:00:04	all pregnancy	-19
+SUB231189	Atopic	SHAU	2140	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-29
+SUB231190	Atopic	SHAU	220	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			2	00:00:01	.a	1	2	00:00:04	per year	1	00:00:04	for amnio-per doctor	-119
+SUB231191	Atopic	SHAU	1229	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-105
+SUB231192	Atopic	SHAU	1388	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	-74
+SUB231193	Atopic	SHAU	3595	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-2
+SUB231194	Atopic	SHAU	1036	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	-37
+SUB231195	Atopic	SHAU	1397	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	5	00:00:04	total	-65
+SUB231196	Atopic	SHAU	445	Prenatal Visit	1.2	complete	p	1	0		.a	0	5	97			.a	0	0		.a	0		.a	-59
+SUB231197	Atopic	SHAU	2150	Prenatal Visit	1.2	complete	p	1	20	00:00:04	year	0	1	5			.a	0	3	00:00:04	total	0		.a	-49
+SUB231198	Atopic	SHAU	1525	Prenatal Visit	1.2	complete	p	1	0		.a	0	1	92			.a	1	2	00:00:01	.a	0		.a	-101
+SUB231199	Atopic	SHAU	1671	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	1	00:00:02	.a	0		.a	-19
+SUB231200	Atopic	SHAU	4252	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	9	4			.a	1	0		.a	0		.a	1
+SUB231201	Atopic	SHAU	1232	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	-170
+SUB231202	Atopic	SHAU	4312	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-32
+SUB231203	Atopic	SHAU	2156	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-8
+SUB231204	Atopic	SHAU	2147	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	4			.a	0	0		.a	0		.a	-72
+SUB231205	Atopic	SHAU	3971	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	4	5			.a	0	1	00:00:03	.a	0		.a	-44
+SUB231206	Atopic	SHAU	2540	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	3	5			.a	0	2	00:00:03	.a	2	00:00:04	during pregnancy	-78
+SUB231207	Atopic	SHAU	5138	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	1			10	00:00:01	.a	3	8	00:00:02	.a	0		.a	-18
+SUB231208	Atopic	SHAU	4559	Prenatal Visit	1.2	complete	p	1	0		.a	0	11	99			.a	0	0		.a	0		.a	-42
+SUB231209	Atopic	SHAU	5141	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	-29
+SUB231210	Atopic	SHAU	4037	Prenatal Visit	1.2	complete	p	0			.a						.a	0	10	00:00:03	.a	0		.a	-67
+SUB231211	Atopic	SHAU	2293	Prenatal Visit	1.2	complete	p	0			.a						.a	0	10	00:00:04	year	2	00:00:04	7 months	-68
+SUB231212	Atopic	SHAU	4426	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-57
+SUB231213	Atopic	SHAU	3863	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	5	5			.a	0	2	00:00:03	.a	0		.a	-63
+SUB231214	Atopic	SHAU	6658	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	6	5			.a	0	0		.a	0		.a	-19
+SUB231215	Atopic	SHAU	6542	Prenatal Visit	1.2	complete	p	1	10	00:00:03	.a	0	12	5			.a	1	0		.a	0		.a	-13
+SUB231216	Atopic	SHAU	7220	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:04	year	2	00:00:04	total for the pregnancy	-12
+SUB231217	Atopic	SHAU	7094	Prenatal Visit	1.2	complete	p	1	0		.a	0	1	3			.a	0	2	00:00:04	year	0		.a	-14
+SUB231218	Atopic	SHAU	4889	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	9	5			.a	2	2	00:00:04	year	0		.a	-81
+SUB231219	Atopic	SHAU	5194	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	9	5			.a	2	2	00:00:04	year	0		.a	-81
+SUB231220	Atopic	SHAU	6736	Prenatal Visit	1.2	complete	p	1	20	00:00:04	day & a half	0	8	5			.a	0	3	00:00:04	every couple of months	0		.a	-29
+SUB231221	Atopic	SHAU	7453	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	-8
+SUB231222	Atopic	SHAU	5134	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	6	5			.a	3	1	00:00:04	every 2 months	0		.a	-96
+SUB231223	Atopic	SHAU	5760	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-29
+SUB231224	Atopic	SHAU	6778	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	8	5			.a	0	4	00:00:03	.a	0		.a	-41
+SUB231225	Atopic	SHAU	6625	Prenatal Visit	1.2	complete	p	1	0		.a	0	1	3			.a	1	16	00:00:04	year	0		.a	-54
+SUB231226	Atopic	SHAU	5005	Prenatal Visit	1.2	complete	p	1	0		.a	0	9	2			.a	0	3	00:00:02	.a	0		.a	-88
+SUB231227	Atopic	SHAU	7602	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	0	1	6			.a	1	1	00:00:03	.a	0		.a	-31
+SUB231228	Atopic	SHAU	4983	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-50
+SUB231229	Atopic	SHAU	4963	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	per year	0		.a	-79
+SUB231230	Atopic	SHAU	4928	Prenatal Visit	1.2	complete	p	1	0		.a	0	1	3			.a	0	2	00:00:03	.a	0		.a	-48
+SUB231231	Atopic	SHAU	5936	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	year	0		.a	-39
+SUB231232	Atopic	SHAU	4728	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	4	5			.a	1	1	00:00:04	every 5 months	0		.a	-71
+SUB231233	Atopic	SHAU	7628	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:04	year	0		.a	-18
+SUB231234	Atopic	SHAU	7875	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	8	5			.a	3	3	00:00:02	.a	2	00:00:03	.a	-12
+SUB231235	Atopic	SHAU	7591	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:04	year	0		.a	-42
+SUB231236	Atopic	SHAU	7631	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	4			.a	0	0		.a	0		.a	-23
+SUB231237	Atopic	SHAU	4722	Prenatal Visit	1.2	complete	p	1	0		.a	0	11	4			.a	0	1	00:00:04	every 6 months	0		.a	-85
+SUB231238	Atopic	SHAU	7749	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	9	5			.a	0	4	00:00:02	.a	0		.a	-61
+SUB231239	Atopic	SHAU	7130	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	year	0		.a	-65
+SUB231240	Atopic	SHAU	7594	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	1	6			.a	0	4	00:00:04	per year	8	00:00:04	during pregnancy	-66
+SUB231241	Atopic	SHAU	8280	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-39
+SUB231242	Atopic	SHAU	9411	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-33
+SUB231243	Atopic	SHAU	7888	Prenatal Visit	1.2	complete	p	1	1	00:00:04	year	0	4	6			.a	1	3	00:00:02	.a	2	00:00:04	for the pregnancy	-1
+SUB231244	Atopic	SHAU	7152	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-76
+SUB231245	Atopic	SHAU	1815	Prenatal Visit	1.2	complete	p	1	0		.a	0	5	4			.a	2	0		.a	0		.a	-84
+SUB231246	Atopic	SHAU	4228	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-95
+SUB231247	Atopic	SHAU	5511	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:03	.a	0		.a	-61
+SUB231248	Atopic	SHAU	5088	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	11	5			.a	0	2	00:00:04	year	0		.a	-79
+SUB231249	Atopic	SHAU	5751	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-7
+SUB231250	Atopic	SHAU	8458	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-88
+SUB231251	Atopic	SHAU	7897	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	0	9	5			.a	1	12	00:00:04	year	0		.a	-45
+SUB231252	Atopic	SHAU	10922	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	0	10	5			.a	0	6	00:00:02	.a	0		.a	-24
+SUB231253	Atopic	SHAU	9490	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	-56
+SUB231254	Atopic	SHAU	8272	Prenatal Visit	1.2	complete	p	0			.a						.a	1	3	00:00:04	year	0		.a	-54
+SUB231255	Atopic	SHAU	7490	Prenatal Visit	1.2	complete	p	1	7	00:00:01	.a	0	9	5			.a	0	1	00:00:04	year	0		.a	-112
+SUB231256	Atopic	SHAU	7495	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	1	00:00:04	during the pregnancy	-39
+SUB231257	Atopic	SHAU	7173	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:04	per year	1	00:00:04	for the pregnancy	-32
+SUB231258	Atopic	SHAU	6880	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-105
+SUB231259	Atopic	SHAU	7622	Prenatal Visit	1.2	complete	p	0			.a						.a	1	5	00:00:04	year	0		.a	-83
+SUB231260	Atopic	SHAU	12276	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-8
+SUB231261	Atopic	SHAU	9062	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-87
+SUB231262	Atopic	SHAU	7833	Prenatal Visit	1.2	complete	p	1	2	00:00:02	.a	0	9	5			.a	0	1	00:00:04	year	0		.a	-106
+SUB231263	Atopic	SHAU	8295	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	12	5			.a	1	0		.a	0		.a	-34
+SUB231264	Atopic	SHAU	7839	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	12	5			.a	0	3	00:00:04	holidays	2	00:00:04	per pregnancy	-91
+SUB231265	Atopic	SHAU	7133	Prenatal Visit	1.2	complete	p	1	0		.a	0	8	4			.a	0	0		.a	0		.a	-1
+SUB231266	Atopic	SHAU	13486	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	8	5			.a	2	5	00:00:03	.a	0		.a	-6
+SUB231267	Atopic	SHAU	7234	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	every few months	0		.a	-87
+SUB231268	Atopic	SHAU	11469	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	-44
+SUB231269	Atopic	SHAU	8298	Prenatal Visit	1.2	complete	p	1	0		.a	0	8	4			.a	0	5	00:00:04	year	0		.a	-46
+SUB231270	Atopic	SHAU	11256	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:04	holidays	0		.a	-8
+SUB231271	Atopic	SHAU	11289	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:02	.a	0		.a	-25
+SUB231272	Atopic	SHAU	13994	Prenatal Visit	1.2	complete	p	0			.a						.a	0	6	00:00:03	.a	3	00:00:04	for the entire pregnancy	-6
+SUB231273	Atopic	SHAU	14065	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	1	00:00:04	for the pregnancy	-9
+SUB231274	Atopic	SHAU	10195	Prenatal Visit	1.2	complete	p	0			.a						.a	0	5	00:00:04	per year	0		.a	-84
+SUB231275	Atopic	SHAU	11964	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			5	00:00:01	.a	2	18	00:00:04	year	0		.a	-61
+SUB231276	Atopic	SHAU	13240	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	0	2	6			.a	1	0		.a	0		.a	-10
+SUB231277	Non-atopic	SHAU	12294	Prenatal Visit	1.2	complete	p	0			.a						.a	2	4	00:00:04	year	0		.a	-26
+SUB231278	Non-atopic	SHAU	12470	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	holidays	0		.a	-26
+SUB231279	Atopic	SHAU	13784	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			1	00:00:01	.a	1	6	00:00:02	.a	3	00:00:04	the entire pregnancy	-33
+SUB231280	Non-atopic	SHAU	11415	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	-38
+SUB231281	Atopic	SHAU	11040	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:02	.a	1	00:00:04	pregnancy	-68
+SUB231282	Atopic	SHAU	11763	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-79
+SUB231283	Atopic	SHAU	11578	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:03	.a	0		.a	-44
+SUB231284	Atopic	SHAU	13964	Prenatal Visit	1.2	complete	p	0			.a						.a	3	15	00:00:02	.a	1	00:00:04	for the pregnancy	-27
+SUB231285	Non-atopic	SHAU	13812	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-59
+SUB231286	Atopic	SHAU	12003	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	87			.a	1	0		.a	0		.a	-111
+SUB231287	Non-atopic	SHAU	13513	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	2	6			.a	0	3	00:00:04	per 4 months	0		.a	1
+SUB231288	Atopic	SHAU	15157	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:04	year	0		.a	-12
+SUB231289	Atopic	SHAU	12291	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	1	88			.a	0	0		.a	0		.a	-69
+SUB231290	Atopic	SHAU	14369	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			5	00:00:01	.a	0	1	00:00:04	per year	0		.a	-59
+SUB231291	Atopic	SHAU	13349	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	0	2	6			.a	0	0		.a	0		.a	-81
+SUB231292	Atopic	SHAU	15966	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	3	6			.a	0	4	00:00:04	every other month	0		.a	-12
+SUB231293	Atopic	SHAU	87	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	9	4			.a	1	3	00:00:04	per year	0		.a	-20
+SUB231294	Atopic	SHAU	2	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			7	00:00:01	.a	2	7	00:00:04	year	0		.a	-12
+SUB231295	Atopic	SHAU	5	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-28
+SUB231296	Atopic	SHAU	353	Prenatal Visit	1.2	complete	p	0			.a						.a	1	10	00:00:03	.a	0		.a	-6
+SUB231297	Atopic	SHAU	142	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	8	4			.a	1	5	00:00:02	.a	0		.a	-29
+SUB231298	Atopic	SHAU	629	Prenatal Visit	1.2	complete	p	1	30	00:00:01	.a	1			8	00:00:01	.a	3	2	00:00:03	.a	0		.a	-1
+SUB231299	Atopic	SHAU	11	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	8	4			.a	1	0		.a	0		.a	-59
+SUB231300	Atopic	SHAU	1032	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	0
+SUB231301	Atopic	SHAU	865	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	0	9	4			.a	1	0		.a	0		.a	-9
+SUB231302	Atopic	SHAU	281	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:04	per year	0		.a	-43
+SUB231303	Atopic	SHAU	650	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	1			3	00:00:01	.a	1	0		.a	0		.a	-29
+SUB231304	Atopic	SHAU	268	Prenatal Visit	1.2	complete	p	1	0		.a	0	1	99			.a	1	0		.a	0		.a	-36
+SUB231305	Atopic	SHAU	24	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	0	1	5			.a	0	15	00:00:03	.a	0		.a	-84
+SUB231306	Atopic	SHAU	538	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-33
+SUB231307	Atopic	SHAU	186	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-32
+SUB231308	Atopic	SHAU	1212	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	1			6	00:00:01	.a	1	0		.a	0		.a	-10
+SUB231309	Atopic	SHAU	569	Prenatal Visit	1.2	complete	p	0			.a						.a	1	4	00:00:03	.a	2	00:00:03	.a	-33
+SUB231310	Atopic	SHAU	420	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-48
+SUB231311	Atopic	SHAU	1665	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-1
+SUB231312	Atopic	SHAU	822	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-52
+SUB231313	Atopic	SHAU	1621	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	9	4			.a	1	0		.a	0		.a	-4
+SUB231314	Atopic	SHAU	1588	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	7	4			.a	0	0		.a	0		.a	-11
+SUB231315	Atopic	SHAU	814	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-62
+SUB231316	Atopic	SHAU	816	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			6	00:00:01	.a	2	0		.a	0		.a	-41
+SUB231317	Atopic	SHAU	1964	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-2
+SUB231318	Atopic	SHAU	653	Prenatal Visit	1.2	complete	p	1	150	00:00:04	per year	1			3	00:00:01	.a	2	16	00:00:04	per year	0		.a	-87
+SUB231319	Atopic	SHAU	1405	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			4	00:00:01	.a	1	6	00:00:02	.a	0		.a	-34
+SUB231320	Atopic	SHAU	964	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-76
+SUB231321	Atopic	SHAU	644	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-41
+SUB231322	Atopic	SHAU	21	Prenatal Visit	1.2	complete	p	1	40	00:00:04	per year	0	10	4			.a	1	3	00:00:04	year	0		.a	-106
+SUB231323	Atopic	SHAU	1141	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	12	4			.a	2	1	00:00:02	.a	0		.a	-72
+SUB231324	Atopic	SHAU	818	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:03	.a	0		.a	-3
+SUB231325	Atopic	SHAU	1489	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	1			10	00:00:02	.a	1	10	00:00:04	weeklend only	0		.a	-79
+SUB231326	Atopic	SHAU	253	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	1	5			.a	2	0		.a	0		.a	-54
+SUB231327	Atopic	SHAU	2513	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-25
+SUB231328	Atopic	SHAU	422	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			2	00:00:01	.a	1	0		.a	0		.a	-131
+SUB231329	Atopic	SHAU	2578	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	0	2	4			.a	0	0		.a	0		.a	-24
+SUB231330	Atopic	SHAU	2970	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-2
+SUB231331	Atopic	SHAU	2956	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-28
+SUB231332	Atopic	SHAU	3115	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	3	5			.a	0	16	00:00:03	.a	24	00:00:04	year	0
+SUB231333	Atopic	SHAU	3768	Prenatal Visit	1.2	complete	p	0			.a						.a	1	6	00:00:04	year	0		.a	-2
+SUB231334	Atopic	SHAU	641	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-60
+SUB231335	Atopic	SHAU	2813	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	2	5			.a	0	0		.a	0		.a	-24
+SUB231336	Atopic	SHAU	2960	Prenatal Visit	1.2	complete	p	1	20	00:00:04	year	0	11	4			.a	0	5	00:00:04	year	0		.a	-32
+SUB231337	Atopic	SHAU	1614	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	0	3	5			.a	0	1	00:00:02	.a	0		.a	-132
+SUB231338	Atopic	SHAU	3754	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	4	5			.a	1	0		.a	0		.a	-27
+SUB231339	Atopic	SHAU	572	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			3	00:00:01	.a	2	0		.a	0		.a	-68
+SUB231340	Atopic	SHAU	1413	Prenatal Visit	1.2	complete	p	1	5	00:00:02	.a	0	3	5			.a	2	4	00:00:04	per year	0		.a	-101
+SUB231341	Atopic	SHAU	960	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-8
+SUB231342	Atopic	SHAU	4254	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-3
+SUB231343	Atopic	SHAU	4662	Prenatal Visit	1.2	complete	p	1	15	00:00:01	.a	1			10	00:00:01	.a	1	3	00:00:04	per year	1	00:00:04	during pregnancy	-2
+SUB231344	Atopic	SHAU	4638	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	-2
+SUB231345	Atopic	SHAU	3428	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-29
+SUB231346	Atopic	SHAU	4821	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	0
+SUB231347	Atopic	SHAU	5003	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:04	every 6 months	0		.a	-6
+SUB231348	Atopic	SHAU	4956	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-11
+SUB231349	Atopic	SHAU	4261	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	0	2	5			.a	0	0		.a	0		.a	-31
+SUB231350	Atopic	SHAU	4864	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-17
+SUB231351	Atopic	SHAU	4783	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	25
+SUB231352	Atopic	SHAU	3243	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	1			4	00:00:01	.a	1	0		.a	0		.a	-86
+SUB231353	Atopic	SHAU	3323	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	9	5			.a	0	0		.a	0		.a	-80
+SUB231354	Atopic	SHAU	4745	Prenatal Visit	1.2	complete	p	1	0		.a	0	2	0			.a	0	3	00:00:04	year	0		.a	-28
+SUB231355	Atopic	SHAU	3731	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-68
+SUB231356	Atopic	SHAU	4295	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			5	00:00:01	.a	1	5	00:00:04	year	0		.a	-41
+SUB231357	Atopic	SHAU	4013	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	2 per year	2	00:00:04	per year	-62
+SUB231358	Atopic	SHAU	2732	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	0	5	5			.a	0	0		.a	0		.a	-91
+SUB231359	Atopic	SHAU	4147	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	1
+SUB231360	Atopic	SHAU	2378	Prenatal Visit	1.2	complete	p	0			.a						.a	0	4	00:00:03	.a	0		.a	-134
+SUB231361	Atopic	SHAU	2976	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-89
+SUB231362	Atopic	SHAU	4321	Prenatal Visit	1.2	complete	p	0			.a						.a	1	5	00:00:04	year	0		.a	-58
+SUB231363	Atopic	SHAU	4739	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:04	year	0		.a	-28
+SUB231364	Atopic	SHAU	6139	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-6
+SUB231365	Atopic	SHAU	5488	Prenatal Visit	1.2	complete	p	1	60	00:00:02	.a	1			20	00:00:02	.a	6	2	00:00:04	per year	0		.a	-25
+SUB231366	Atopic	SHAU	4734	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-65
+SUB231367	Atopic	SHAU	4601	Prenatal Visit	1.2	complete	p	1	35	00:00:01	.a	1			2	00:00:01	.a	1	0		.a	0		.a	-57
+SUB231368	Atopic	SHAU	4931	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-36
+SUB231369	Atopic	SHAU	4291	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	0	7	5			.a	0	2	00:00:04	weekend day	0		.a	-57
+SUB231370	Atopic	SHAU	6512	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-12
+SUB231371	Atopic	SHAU	6547	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	1			4	00:00:01	.a	2	1	00:00:02	.a	0		.a	-12
+SUB231372	Atopic	SHAU	5454	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-53
+SUB231373	Atopic	SHAU	6830	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	2	3	00:00:04	year	0		.a	-8
+SUB231374	Atopic	SHAU	5037	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-71
+SUB231375	Atopic	SHAU	5152	Prenatal Visit	1.2	complete	p	1	10	00:00:02	.a	1			3	00:00:01	.a	1	2	00:00:01	.a	0		.a	-72
+SUB231376	Atopic	SHAU	6850	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-19
+SUB231377	Atopic	SHAU	6336	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-33
+SUB231378	Atopic	SHAU	7451	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-6
+SUB231379	Atopic	SHAU	7790	Prenatal Visit	1.2	complete	p	0			.a						.a	3	0		.a	0		.a	-6
+SUB231380	Atopic	SHAU	3771	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	0	8	5			.a	3	5	00:00:04	year	1	00:00:04	year	-119
+SUB231381	Atopic	SHAU	7970	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	0			.a	0	2	00:00:04	every 6 months	0		.a	-1
+SUB231382	Atopic	SHAU	7201	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-32
+SUB231383	Atopic	SHAU	5040	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-20
+SUB231384	Atopic	SHAU	6014	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-78
+SUB231385	Atopic	SHAU	7894	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-16
+SUB231386	Atopic	SHAU	7668	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-17
+SUB231387	Atopic	SHAU	7688	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-27
+SUB231388	Atopic	SHAU	2805	Prenatal Visit	1.2	complete	p	0			.a						.a	0	2	00:00:03	.a	0		.a	-204
+SUB231389	Atopic	SHAU	6664	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	1			4	00:00:01	.a	1	0		.a	0		.a	-66
+SUB231390	Atopic	SHAU	5174	Prenatal Visit	1.2	complete	p	0			.a						.a	2	2	00:00:01	.a	0		.a	-102
+SUB231391	Atopic	SHAU	6529	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-70
+SUB231392	Atopic	SHAU	6844	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-53
+SUB231393	Atopic	SHAU	2914	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-161
+SUB231394	Atopic	SHAU	8284	Prenatal Visit	1.2	complete	p	1	12	00:00:01	.a	0	5	5			.a	0	0		.a	0		.a	-22
+SUB231395	Atopic	SHAU	9264	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			5	00:00:01	.a	1	0		.a	0		.a	-5
+SUB231396	Atopic	SHAU	8463	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-26
+SUB231397	Atopic	SHAU	8161	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	0	6	5			.a	0	0		.a	0		.a	-1
+SUB231398	Atopic	SHAU	9557	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	0
+SUB231399	Atopic	SHAU	9178	Prenatal Visit	1.2	complete	p	1	2	00:00:01	.a	1			2	00:00:01	.a	2	0		.a	0		.a	-14
+SUB231400	Atopic	SHAU	9174	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			7	00:00:01	.a	1	0		.a	0		.a	-21
+SUB231401	Atopic	SHAU	9600	Prenatal Visit	1.2	complete	p	1	60	00:00:02	.a	0	8	5			.a	0	1	00:00:04	year	0		.a	-10
+SUB231402	Atopic	SHAU	8694	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-41
+SUB231403	Atopic	SHAU	8792	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-32
+SUB231404	Atopic	SHAU	7468	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-24
+SUB231405	Atopic	SHAU	10348	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-5
+SUB231406	Atopic	SHAU	10078	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-19
+SUB231407	Atopic	SHAU	9385	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-41
+SUB231408	Atopic	SHAU	10022	Prenatal Visit	1.2	complete	p	0			.a						.a	0	5	00:00:03	.a	0		.a	-24
+SUB231409	Atopic	SHAU	10072	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-30
+SUB231410	Atopic	SHAU	9597	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-55
+SUB231411	Atopic	SHAU	11400	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-4
+SUB231412	Atopic	SHAU	11078	Prenatal Visit	1.2	complete	p	1	6	00:00:01	.a	0	2	6			.a	0	0		.a	0		.a	-13
+SUB231413	Atopic	SHAU	11095	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-15
+SUB231414	Atopic	SHAU	8181	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-97
+SUB231415	Non-atopic	SHAU	11382	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	0		.a	0		.a	-17
+SUB231416	Atopic	SHAU	7297	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-116
+SUB231417	Atopic	SHAU	10614	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	10	5			.a	1	0		.a	0		.a	-62
+SUB231418	Atopic	SHAU	12126	Prenatal Visit	1.2	complete	p	0			.a						.a	1	2	00:00:02	.a	0		.a	-6
+SUB231419	Atopic	SHAU	12006	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	-12
+SUB231420	Atopic	SHAU	10082	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	3	0		.a	0		.a	-75
+SUB231421	Atopic	SHAU	10721	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			4	00:00:01	.a	2	0		.a	0		.a	-63
+SUB231422	Atopic	SHAU	11632	Prenatal Visit	1.2	complete	p	1	6	00:00:02	.a	1			3	00:00:01	.a	1	3	00:00:03	.a	0		.a	-35
+SUB231423	Atopic	SHAU	7718	Prenatal Visit	1.2	complete	p	0			.a						.a	1	1	00:00:03	.a	0		.a	-30
+SUB231424	Atopic	SHAU	6907	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-69
+SUB231425	Non-atopic	SHAU	13109	Prenatal Visit	1.2	complete	p	0			.a						.a	0	5	00:00:04	year	0		.a	-4
+SUB231426	Atopic	SHAU	11989	Prenatal Visit	1.2	complete	p	0			.a						.a	3	0		.a	0		.a	-10
+SUB231427	Atopic	SHAU	11997	Prenatal Visit	1.2	complete	p	1	15	00:00:01	.a	1			10	00:00:01	.a	1	0		.a	0		.a	-47
+SUB231428	Atopic	SHAU	12836	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	2			.a	0	0		.a	0		.a	-26
+SUB231429	Non-atopic	SHAU	13499	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	0	9	5			.a	4	0		.a	0		.a	-4
+SUB231430	Non-atopic	SHAU	11779	Prenatal Visit	1.2	complete	p	1	1	00:00:01	.a	0	2	6			.a	0	0		.a	0		.a	-70
+SUB231431	Non-atopic	SHAU	11804	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			3	00:00:01	.a	1	0		.a	0		.a	-67
+SUB231432	Non-atopic	SHAU	13185	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			2	00:00:01	.a	1	0		.a	0		.a	-23
+SUB231433	Atopic	SHAU	12832	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-29
+SUB231434	Non-atopic	SHAU	11461	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-83
+SUB231435	Atopic	SHAU	12476	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-50
+SUB231436	Atopic	SHAU	9950	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-120
+SUB231437	Atopic	SHAU	13165	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-20
+SUB231438	Non-atopic	SHAU	14240	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			10	00:00:01	.a	1	1	00:00:04	occasionally/socially	1	00:00:03	.a	-7
+SUB231439	Non-atopic	SHAU	13491	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			2	00:00:01	.a	1	0		.a	0		.a	-31
+SUB231440	Atopic	SHAU	12858	Prenatal Visit	1.2	complete	p	1	4	00:00:01	.a	1			2	00:00:01	.a	1	0		.a	0		.a	-65
+SUB231441	Atopic	SHAU	10200	Prenatal Visit	1.2	complete	p	0			.a						.a	0	1	00:00:01	.a	1	00:00:02	.a	-139
+SUB231442	Atopic	SHAU	10514	Prenatal Visit	1.2	complete	p	1	9	00:00:01	.a	1			5	00:00:01	.a	1	0		.a	0		.a	-115
+SUB231443	Atopic	SHAU	12485	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	-47
+SUB231444	Atopic	SHAU	10726	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-44
+SUB231445	Atopic	SHAU	13588	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	1			5	00:00:01	.a	1	1	00:00:02	.a	0		.a	-51
+SUB231446	Non-atopic	SHAU	13391	Prenatal Visit	1.2	complete	p	0			.a						.a	0	3	00:00:04	year	0		.a	-38
+SUB231447	Non-atopic	SHAU	15366	Prenatal Visit	1.2	complete	p	1	3	00:00:01	.a	0	1	6			.a	1	0		.a	0		.a	1
+SUB231448	Atopic	SHAU	12967	Prenatal Visit	1.2	complete	p	1	0		.a	0	6	0			.a	1	0		.a	0		.a	-8
+SUB231449	Atopic	SHAU	13020	Prenatal Visit	1.2	complete	p	1	8	00:00:01	.a	0	2	6			.a	0	4	00:00:04	socially	0		.a	-80
+SUB231450	Atopic	SHAU	15767	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-14
+SUB231451	Non-atopic	SHAU	15457	Prenatal Visit	1.2	complete	p	0			.a						.a	1	0		.a	0		.a	-26
+SUB231452	Non-atopic	SHAU	15307	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-44
+SUB231453	Atopic	SHAU	15481	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	4			.a	1	2	00:00:03	.a	0		.a	-32
+SUB231454	Atopic	SHAU	16628	Prenatal Visit	1.2	complete	p	1	10	00:00:01	.a	0	8	6			.a	2	2	00:00:03	.a	0		.a	-3
+SUB231455	Non-atopic	SHAU	15256	Prenatal Visit	1.2	complete	p	0			.a						.a	2	0		.a	0		.a	-27
+SUB231456	Non-atopic	SHAU	17350	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-5
+SUB231457	Non-atopic	SHAU	16164	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-45
+SUB231458	Atopic	SHAU	16106	Prenatal Visit	1.2	complete	p	1	0		.a	0	7	1			.a	4	4	00:00:03	.a	0		.a	-36
+SUB231459	Non-atopic	SHAU	15611	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-65
+SUB231460	Non-atopic	SHAU	15615	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-76
+SUB231461	Atopic	SHAU	17347	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-26
+SUB231462	Non-atopic	SHAU	15394	Prenatal Visit	1.2	complete	p	1	30	00:00:01	.a	0	1	3			.a	1	0		.a	0		.a	-36
+SUB231463	Atopic	SHAU	18056	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-1
+SUB231464	Non-atopic	SHAU	17233	Prenatal Visit	1.2	complete	p	1	20	00:00:02	.a	0	6	5			.a	0	1	00:00:03	.a	0		.a	-41
+SUB231465	Non-atopic	SHAU	16954	Prenatal Visit	1.2	complete	p	0			.a						.a	0	0		.a	0		.a	-66
+SUB231466	Atopic	SHAU	16851	Prenatal Visit	1.2	complete	p	1	20	00:00:01	.a	1			7	00:00:01	.a	1	0		.a	0		.a	-29
+SUB231467	Atopic	SHAU	17713	Prenatal Visit	1.2	complete	p	1	40	00:00:01	.a	1			7	00:00:01	.a	1	0		.a	0		.a	-47
+SUB231468	Atopic	SHAU	16307	Prenatal Visit	1.2	complete	p	1	40	00:00:02	.a	1			20	00:00:02	.a	2	0		.a	0		.a	-100
+SUB231469	Non-atopic	SHAU	17419	Prenatal Visit	1.2	complete	p	1	5	00:00:01	.a	1			4	00:00:01	.a	1	0		.a	0		.a	-70
+SUB231470	Non-atopic	SHAU	16634	Prenatal Visit	1.2	complete	p	1	40	00:00:02	.a	0	8	6			.a	3	5	00:00:04	year	0		.a	-101

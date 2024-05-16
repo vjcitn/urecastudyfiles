@@ -1,0 +1,144 @@
+%include 'S:\BASESTAT\RhoUtil\gridReset.sas';
+%gridReset(S:\RhoFED\ICAC_main\ICAC\Studies\URECA\Prog\Derive);
+
+/*----------------------- Copyright 2017, Rho, Inc.  All rights reserved. ------------------------\
+
+  Study:       ICAC07 URECA
+
+   Program:    sleep_ages_4_to_10.sas
+
+     Purpose:  Create derive dataset for sleep ages 4 to 10
+
+     Input:    S:\RhoFED\ICAC\Studies\URECA\Data\Master\csh.sas7bdat
+
+     Output:   S:\RhoFED\ICAC\Studies\URECA\Data\Derive\sleep_ages_4_to_10.sas7bdat
+
+     Macros:   
+
+/-------------------------------------------------------------------------------------------------\
+  Program history:
+\-------------------------------------------------------------------------------------------------/
+
+    Date       Programmer          Description
+    ---------  ------------------  --------------------------------------------------------------
+    28AUG2017  Andrew Moseby       Create
+
+\------------------------------------------------------------------------------------------------*/
+
+
+*-----   1. Setup   -----*;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=sleep_ages_4_to_10,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*-----   2. Main Body   -----*;
+
+proc sort data = master.csh out = csh; by studyid; run;
+
+data sleep0;
+   set csh;
+   if studyid = '.m' then delete;
+   if avisit = '.x' then delete;
+
+   site = substr(recruitid, 4, 2);
+   label site = 'Study Site';
+   format site $site.;
+   avisitn = input(avisit, 8.);
+
+   if not missing(csh_q14a) and not missing(csh_q14b) then slp_dur = csh_q14a + (csh_q14b/60);
+   else slp_dur = csh_q14a; *for formatted missing values i.e. "Don't Know";
+   if not missing(csh_q36a) and not missing(csh_q36b) then awake_dur_night = csh_q36a + (csh_q36b/60);
+   else awake_dur_night = csh_q36a; *for formatted missing values i.e. "Don't Know";
+   format slp_dur awake_dur_night splcdfm.;
+   label 
+      slp_dur = 'Usual amount of sleep each day (hours)'
+      awake_dur_night = 'How long awake at night (hours)'
+      ;
+   drop avisit;
+run;
+
+*-----   3. Create shell and merge   -----*;
+
+data shell; 
+   set derive.groups;
+
+   site = substr(studyid, 4, 2);
+   label site = 'Study Site';
+   format site site.;
+
+   do avisit = 48, 84, 96, 120;
+      if avisit in (48)    then year = 4;
+      if avisit in (84) then year = 7;
+      if avisit in (96)    then year = 8;
+      if avisit in (120)   then year = 10;
+      output;
+   end;
+
+   keep studyid recruitid site avisit year;
+run; 
+
+proc sort data = sleep0 out = sleep1(rename = (avisitn = avisit)); by studyid avisitn; run;
+proc sort data = shell; by studyid avisit; run;
+
+*-----   Check for both m81 and m84 visits for the same participant   -----*;
+
+proc sort data = sleep1 out = sleepcheck; by studyid descending avisit; run;
+
+data check;
+   set sleepcheck;
+   by studyid;
+   retain done;
+   length done $15;
+   if first.studyid then done = '';
+   if avisit = 84 then done = '84 here. Is 81?';
+   if avisit = 81 and done = '84 here. Is 81?' then delete; *delete m81 results if we also have m84 results;
+   drop done;
+run;
+
+data check2; 
+   set check; 
+   if avisit = 81 then avisit = 84; 
+run;
+
+proc sort data = check2 out = sleep; by studyid avisit; run;
+
+
+data derive.sleep_age_4_to_10;
+   merge shell sleep(in = b);
+   by studyid avisit; 
+   if b then sleep_age_4_to_10 = 1; else sleep_age_4_to_10 = 0;
+   drop api;
+run;
+
+
+/*CODEBOOK*/
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.sleep_age_4_to_10
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+
+proc freq data=master.csh; table avisit; run; 
+proc freq data=derive.sleep_age_4_to_10; table avisit*sleep_age_4_to_10; run; 
+
+ods select Position;
+proc contents data=derive.sleep_age_4_to_10 position; run;
+run;
+ods select default;

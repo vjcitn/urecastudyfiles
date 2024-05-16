@@ -1,0 +1,725 @@
+Accession	group	form	evid	event	version	status	aVisit	SCSC_q1	SCSC_q1_1b	SCSC_q1_2b	SCSC_q2	SCSC_q3	SCSC_q4	aCompletionDY	SCSC_q1_1aDY	SCSC_q1_2aDY
+SUB230862	Atopic	SCSC	32879	84-Month Clinic Visit	1.2	complete	84	1	13:30:00	15:20:00	0	2		2737	2737	2737
+SUB230862	Atopic	SCSC	32878	81-Month Clinic Visit	1.2	missing	.x									
+SUB230862	Atopic	SCSC	32871	60-Month Clinic Visit	1.0	missing	.x									
+SUB230863	Atopic	SCSC	34125	81-Month Clinic Visit	1.2	complete	81	1	11:30:00	11:54:00	0	2		2507	2507	2507
+SUB230863	Atopic	SCSC	34118	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1831		
+SUB230865	Atopic	SCSC	34757	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1888		
+SUB230865	Atopic	SCSC	34764	81-Month Clinic Visit	1.2	complete	81	1	11:05:00	10:20:00	0	2		2502	2502	2503
+SUB230866	Atopic	SCSC	33306	60-Month Clinic Visit	1.0	complete	60	1			1	2	2	1850		
+SUB230866	Atopic	SCSC	33313	81-Month Clinic Visit	1.2	complete	81	1	14:30:00	14:45:00	0	2		2492	2492	2492
+SUB230867	Atopic	SCSC	35722	81-Month Clinic Visit	1.2	complete	81	1	10:55:00	12:10:00	0	2		2504	2504	2504
+SUB230867	Atopic	SCSC	35715	60-Month Clinic Visit	1.0	complete	60	1			1	2	2	1802		
+SUB230868	Atopic	SCSC	35857	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1876		
+SUB230868	Atopic	SCSC	35864	81-Month Clinic Visit	1.2	complete	81	1	12:30:00	12:47:00	1	2		2504	2504	2504
+SUB230869	Atopic	SCSC	34752	81-Month Clinic Visit	1.2	complete	81	1	11:07:00	10:20:00	0	2		2502	2502	2503
+SUB230869	Atopic	SCSC	34745	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1888		
+SUB230870	Atopic	SCSC	33530	81-Month Clinic Visit	1.2	complete	81	1	12:25:00	13:53:00	0	2		2515	2515	2515
+SUB230870	Atopic	SCSC	33523	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1839		
+SUB230871	Atopic	SCSC	36471	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1811		
+SUB230871	Atopic	SCSC	36478	81-Month Clinic Visit	1.2	missing	.x									
+SUB230871	Atopic	SCSC	36479	84-Month Clinic Visit	1.2	complete	84	1	10:50:00	12:30:00	0	2		2553	2553	2553
+SUB230872	Atopic	SCSC	33572	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1807		
+SUB230872	Atopic	SCSC	33580	84-Month Clinic Visit	1.2	complete	84	1	14:00:00	15:45:00	0	2		2684	2684	2684
+SUB230872	Atopic	SCSC	33579	81-Month Clinic Visit	1.2	missing	.x									
+SUB230873	Atopic	SCSC	43625	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1877		
+SUB230873	Atopic	SCSC	43632	81-Month Clinic Visit	1.2	missing	.x									
+SUB230874	Atopic	SCSC	33605	81-Month Clinic Visit	1.2	complete	81	1	10:30:00	12:00:00	0	1		2476	2476	2476
+SUB230874	Atopic	SCSC	33598	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1851		
+SUB230875	Atopic	SCSC	36064	60-Month Clinic Visit	1.0	missing	.x									
+SUB230876	Atopic	SCSC	33088	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1795		
+SUB230876	Atopic	SCSC	33095	81-Month Clinic Visit	1.2	complete	81	1	11:40:00	12:30:00	0	2		2504	2504	2504
+SUB230877	Atopic	SCSC	34042	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1831		
+SUB230877	Atopic	SCSC	34049	81-Month Clinic Visit	1.2	complete	81	1	13:44:00	14:00:00	0	1		2484	2484	2484
+SUB230881	Atopic	SCSC	38947	81-Month Clinic Visit	1.2	complete	81	1	15:55:00	16:00:00	0	2		2487	2487	2487
+SUB230881	Atopic	SCSC	38940	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1808		
+SUB230882	Atopic	SCSC	36513	60-Month Clinic Visit	1.1	missing	.x									
+SUB230883	Atopic	SCSC	43870	81-Month Clinic Visit	1.2	complete	81	1	10:52:00	11:05:00	0	1		2487	2487	2487
+SUB230883	Atopic	SCSC	43863	60-Month Clinic Visit	1.0	complete	60	1			1	2	2	1850		
+SUB230884	Atopic	SCSC	36793	81-Month Clinic Visit	1.2	complete	81	1	12:15:00	12:33:00	0	1		2483	2483	2483
+SUB230884	Atopic	SCSC	36786	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1834		
+SUB230886	Atopic	SCSC	36805	81-Month Clinic Visit	1.2	complete	81	1	15:00:00	15:24:00	0	1		2470	2470	2470
+SUB230886	Atopic	SCSC	36798	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1842		
+SUB230887	Atopic	SCSC	36390	60-Month Clinic Visit	1.1	complete	60	1	12:20:00	12:43:00	0	2	2	1994	1994	1994
+SUB230887	Atopic	SCSC	36397	81-Month Clinic Visit	1.2	complete	81	1	12:50:00	14:30:00	0	2		2498	2498	2498
+SUB230888	Atopic	SCSC	36768	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1840		
+SUB230888	Atopic	SCSC	36775	81-Month Clinic Visit	1.2	complete	81	1	15:15:00	16:35:00	0	2		2491	2491	2491
+SUB230889	Atopic	SCSC	37108	60-Month Clinic Visit	1.1	missing	.x									
+SUB230889	Atopic	SCSC	37115	81-Month Clinic Visit	1.2	missing	.x									
+SUB230890	Atopic	SCSC	40457	81-Month Clinic Visit	1.2	missing	.x									
+SUB230890	Atopic	SCSC	40450	60-Month Clinic Visit	1.1	complete	60	1	11:20:00	11:50:00	0	2	2	1865	1865	1865
+SUB230891	Atopic	SCSC	38959	81-Month Clinic Visit	1.2	missing	.x									
+SUB230891	Atopic	SCSC	38952	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1815		
+SUB230892	Atopic	SCSC	40469	81-Month Clinic Visit	1.2	complete	81	1	10:55:00	12:30:00	0	2		2508	2508	2508
+SUB230892	Atopic	SCSC	40462	60-Month Clinic Visit	1.0	complete	60	1			1	2	2	1843		
+SUB230893	Atopic	SCSC	44418	60-Month Clinic Visit	1.1	complete	60	1	11:20:00	12:00:00	0	2	2	1907	1922	1922
+SUB230894	Atopic	SCSC	37546	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1823		
+SUB230894	Atopic	SCSC	37553	81-Month Clinic Visit	1.2	missing	.x									
+SUB230895	Atopic	SCSC	40325	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1822		
+SUB230895	Atopic	SCSC	40332	81-Month Clinic Visit	1.2	complete	81	1	14:15:00	16:00:00	0	1		2522	2522	2522
+SUB230896	Atopic	SCSC	35801	81-Month Clinic Visit	1.2	missing	.x									
+SUB230896	Atopic	SCSC	35794	60-Month Clinic Visit	1.1	complete	60	1	13:15:00	14:28:00	0	2	2	1840	1840	1840
+SUB230897	Atopic	SCSC	42872	81-Month Clinic Visit	1.2	complete	81	1	13:45:00	14:56:00	0	2		2520	2520	2520
+SUB230897	Atopic	SCSC	42865	60-Month Clinic Visit	1.1	complete	60	1	11:26:00	12:30:00	0	2	2	1925	1925	1925
+SUB230898	Atopic	SCSC	36460	81-Month Clinic Visit	1.2	missing	.x									
+SUB230898	Atopic	SCSC	36453	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1816		
+SUB230899	Atopic	SCSC	40986	60-Month Clinic Visit	1.1	complete	60	1	11:15:00	11:35:00	0	2	2	1805	1805	1805
+SUB230899	Atopic	SCSC	40993	81-Month Clinic Visit	1.2	complete	81	1	11:17:00	11:50:00	0	2		2496	2496	2496
+SUB230900	Atopic	SCSC	32853	60-Month Clinic Visit	1.1	complete	60	1	11:04:00	11:19:00	0	2	2	1807	1807	1807
+SUB230900	Atopic	SCSC	32860	81-Month Clinic Visit	1.2	complete	81	1	10:39:00	11:41:00	0	2		2517	2517	2517
+SUB230901	Atopic	SCSC	37828	81-Month Clinic Visit	1.2	complete	81	1	10:50:00	12:10:00	0	2		2520	2520	2520
+SUB230901	Atopic	SCSC	37821	60-Month Clinic Visit	1.1	complete	60	1	10:50:00	11:30:00	0	2	2	1850	1850	1850
+SUB230902	Atopic	SCSC	36723	60-Month Clinic Visit	1.1	complete	60	1	10:20:00	10:57:00	0	2	2	1908	1908	1908
+SUB230903	Atopic	SCSC	41455	60-Month Clinic Visit	1.1	complete	60	1	14:50:00	15:25:00	0	2	2	1853	1853	1853
+SUB230903	Atopic	SCSC	41462	81-Month Clinic Visit	1.2	missing	.x									
+SUB230904	Atopic	SCSC	42557	60-Month Clinic Visit	1.1	complete	60	1	11:14:00	12:00:00	0	2	2	1806	1806	1806
+SUB230904	Atopic	SCSC	42564	81-Month Clinic Visit	1.2	complete	81	1	14:00:00	15:45:00	0	1		2520	2520	2520
+SUB230905	Atopic	SCSC	41113	81-Month Clinic Visit	1.2	missing	.x									
+SUB230905	Atopic	SCSC	41106	60-Month Clinic Visit	1.1	complete	60	1	11:45:00		0	2	2	1916	1916	1916
+SUB230906	Atopic	SCSC	43882	81-Month Clinic Visit	1.2	missing	.x									
+SUB230906	Atopic	SCSC	43875	60-Month Clinic Visit	1.1	complete	60	1	13:48:00	14:45:00	0	2	2	2038	2038	2038
+SUB230907	Atopic	SCSC	37240	81-Month Clinic Visit	1.2	missing	.x									
+SUB230907	Atopic	SCSC	37233	60-Month Clinic Visit	1.1	complete	60	1	14:15:00	14:50:00	0	2	2	1863	1863	1863
+SUB230908	Atopic	SCSC	39778	81-Month Clinic Visit	1.2	complete	81	1	11:30:00	12:40:00	0	2		2516	2516	2516
+SUB230908	Atopic	SCSC	39771	60-Month Clinic Visit	1.1	complete	60	1	10:35:00	11:10:00	0	2	2	1805	1805	1805
+SUB230909	Atopic	SCSC	34007	81-Month Clinic Visit	1.2	complete	81	1	10:50:00	13:02:00	0	2		2520	2520	2520
+SUB230909	Atopic	SCSC	34000	60-Month Clinic Visit	1.1	complete	60	1	11:15:00	11:40:00	0	2	2	1841	1841	1841
+SUB230910	Atopic	SCSC	37081	60-Month Clinic Visit	1.1	complete	60	1	10:45:00	11:40:00	0	3	3	1850	1850	1850
+SUB230910	Atopic	SCSC	37088	81-Month Clinic Visit	1.2	missing	.x									
+SUB230911	Atopic	SCSC	37531	60-Month Clinic Visit	1.1	complete	60	1	11:37:00	12:05:00	1	2	2	1902	1910	1910
+SUB230911	Atopic	SCSC	37538	81-Month Clinic Visit	1.2	complete	81	1	11:50:00	13:55:00	0	2		2519	2519	2519
+SUB230912	Atopic	SCSC	34431	60-Month Clinic Visit	1.1	complete	60	1	12:42:00	13:30:00	0	2	2	1896	1896	1896
+SUB230912	Atopic	SCSC	34438	81-Month Clinic Visit	1.2	complete	81	1	14:10:00	16:45:00	0	2		2517	2517	2517
+SUB230913	Atopic	SCSC	38971	81-Month Clinic Visit	1.2	complete	81	1	12:40:00	14:20:00	0	2		2518	2518	2518
+SUB230913	Atopic	SCSC	38964	60-Month Clinic Visit	1.1	complete	60	1	10:55:00	12:05:00	0	2	2	1874	1874	1874
+SUB230914	Atopic	SCSC	32383	81-Month Clinic Visit	1.2	complete	81	1	10:50:00	12:45:00	0	2		2511	2511	2511
+SUB230914	Atopic	SCSC	32376	60-Month Clinic Visit	1.1	complete	60	1	13:08:00	13:58:00	0	2	2	1857	1857	1857
+SUB230915	Atopic	SCSC	38976	60-Month Clinic Visit	1.1	complete	60	1	11:40:00	12:00:00	0	2	2	1858	1858	1858
+SUB230915	Atopic	SCSC	38983	81-Month Clinic Visit	1.2	missing	.x									
+SUB230916	Atopic	SCSC	39677	81-Month Clinic Visit	1.2	complete	81	1	11:15:00	00:35:00	0	1		2490	2490	2490
+SUB230916	Atopic	SCSC	39670	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1839		
+SUB230917	Atopic	SCSC	41319	81-Month Clinic Visit	1.2	missing	.x									
+SUB230917	Atopic	SCSC	41312	60-Month Clinic Visit	1.1	complete	60	1	10:57:00	12:00:00	0	2	2	1974	1974	1974
+SUB230919	Atopic	SCSC	32484	81-Month Clinic Visit	1.2	complete	81	1	11:55:00	12:10:00	0	2		2521	2521	2521
+SUB230919	Atopic	SCSC	32477	60-Month Clinic Visit	1.1	missing	.x									
+SUB230920	Atopic	SCSC	40140	60-Month Clinic Visit	1.1	complete	60	1	13:10:00	14:00:00	0	2	2	1857	1857	1857
+SUB230920	Atopic	SCSC	40147	81-Month Clinic Visit	1.2	complete	81	1	13:30:00	15:41:00	0	1		2517	2517	2517
+SUB230921	Atopic	SCSC	39799	60-Month Clinic Visit	1.1	complete	60	1	11:45:00	11:05:00	1	2	2	1862	1862	1862
+SUB230921	Atopic	SCSC	39806	81-Month Clinic Visit	1.2	complete	81	1	15:00:00	16:54:00	0	2		2513	2513	2513
+SUB230922	Atopic	SCSC	33427	81-Month Clinic Visit	1.2	complete	81	1	15:05:00	16:15:00	0	2		2520	2520	2520
+SUB230922	Atopic	SCSC	33420	60-Month Clinic Visit	1.1	complete	60	1	13:00:00	13:40:00	1	2	2	1848	1848	1848
+SUB230924	Atopic	SCSC	39701	81-Month Clinic Visit	1.2	complete	81	1	11:40:00	14:58:00	0	2		2511	2511	2511
+SUB230924	Atopic	SCSC	39694	60-Month Clinic Visit	1.1	complete	60	1	12:20:00	13:05:00	0	2	2	1899	1899	1899
+SUB230925	Atopic	SCSC	33560	60-Month Clinic Visit	1.1	missing	.x									
+SUB230925	Atopic	SCSC	33567	81-Month Clinic Visit	1.2	missing	.x									
+SUB230927	Atopic	SCSC	40695	81-Month Clinic Visit	1.2	missing	.x									
+SUB230927	Atopic	SCSC	40688	60-Month Clinic Visit	1.1	complete	60	1	11:35:00	12:15:00	0	2	2	1875	1894	1894
+SUB230928	Atopic	SCSC	38995	81-Month Clinic Visit	1.2	missing	.x									
+SUB230928	Atopic	SCSC	38988	60-Month Clinic Visit	1.1	missing	.x									
+SUB230929	Atopic	SCSC	40676	60-Month Clinic Visit	1.1	complete	60	1	12:55:00	13:55:00	0	2	2	1823	1863	1863
+SUB230929	Atopic	SCSC	40683	81-Month Clinic Visit	1.2	missing	.x									
+SUB230932	Atopic	SCSC	34035	81-Month Clinic Visit	1.2	complete	81	1	10:35:00	11:30:00	0	2		2447	2447	2447
+SUB230932	Atopic	SCSC	34028	60-Month Clinic Visit	1.1	complete	60	1	13:00:00	13:13:00	1	2	2	1810	1810	1810
+SUB230933	Atopic	SCSC	34361	60-Month Clinic Visit	1.1	complete	60	1	11:42:00	11:50:00	0	2	2	1837	1837	1837
+SUB230933	Atopic	SCSC	34368	81-Month Clinic Visit	1.2	missing	.x									
+SUB230934	Atopic	SCSC	41221	81-Month Clinic Visit	1.2	missing	.x									
+SUB230934	Atopic	SCSC	41214	60-Month Clinic Visit	1.1	complete	60	1	11:02:00	11:40:00	0	2	2	1834	1834	1834
+SUB230935	Atopic	SCSC	41518	60-Month Clinic Visit	1.1	missing	.x									
+SUB230935	Atopic	SCSC	41525	81-Month Clinic Visit	1.2	missing	.x									
+SUB230936	Atopic	SCSC	35211	81-Month Clinic Visit	1.2	missing	.x									
+SUB230936	Atopic	SCSC	35204	60-Month Clinic Visit	1.1	complete	60	1	10:20:00	12:00:00	0	2	2	1943	1943	1943
+SUB230937	Atopic	SCSC	32248	60-Month Clinic Visit	1.1	complete	60	1	10:35:00	11:40:00	0	2	2	1836	1836	1836
+SUB230937	Atopic	SCSC	32255	81-Month Clinic Visit	1.2	missing	.x									
+SUB230938	Atopic	SCSC	39007	81-Month Clinic Visit	1.2	missing	.x									
+SUB230938	Atopic	SCSC	39000	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	13:50:00	0	2	2	1901	1901	1901
+SUB230939	Atopic	SCSC	39012	60-Month Clinic Visit	1.1	complete	60	1	11:36:00	11:52:00	0	2	2	1829	1829	1829
+SUB230939	Atopic	SCSC	39019	81-Month Clinic Visit	1.2	missing	.x									
+SUB230941	Atopic	SCSC	39031	81-Month Clinic Visit	1.2	missing	.x									
+SUB230941	Atopic	SCSC	39024	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	12:30:00	0	2	2	1804	1804	1804
+SUB230942	Atopic	SCSC	32655	81-Month Clinic Visit	1.2	missing	.x									
+SUB230942	Atopic	SCSC	32648	60-Month Clinic Visit	1.1	complete	60	1	12:10:00	13:17:00	0	2	2	1876	1876	1876
+SUB230943	Atopic	SCSC	32098	81-Month Clinic Visit	1.2	missing	.x									
+SUB230943	Atopic	SCSC	32091	60-Month Clinic Visit	1.1	complete	60	1	10:35:00	11:14:00	0	2	2	1846	1846	1846
+SUB230944	Atopic	SCSC	33337	60-Month Clinic Visit	1.1	complete	60	1	13:58:00	14:18:00	0	2	2	1843	1843	1478
+SUB230944	Atopic	SCSC	33344	81-Month Clinic Visit	1.2	missing	.x									
+SUB230945	Atopic	SCSC	39036	60-Month Clinic Visit	1.2	complete	60	1	11:25:00	11:40:00	0	2		1954	1954	1954
+SUB230945	Atopic	SCSC	39043	81-Month Clinic Visit	1.2	missing	.x									
+SUB230946	Atopic	SCSC	41723	81-Month Clinic Visit	1.2	missing	.x									
+SUB230946	Atopic	SCSC	41716	60-Month Clinic Visit	1.1	complete	60	1	11:25:00	12:21:00	0	2	2	1833	1833	1833
+SUB230947	Atopic	SCSC	32431	81-Month Clinic Visit	1.2	missing	.x									
+SUB230947	Atopic	SCSC	32424	60-Month Clinic Visit	1.1	complete	60	1	12:36:00	13:37:00	1	2	2	1858	1858	1858
+SUB230948	Atopic	SCSC	32601	81-Month Clinic Visit	1.2	missing	.x									
+SUB230948	Atopic	SCSC	32594	60-Month Clinic Visit	1.1	complete	60	1	12:05:00	13:17:00	0	2	2	1857	1857	1857
+SUB230951	Atopic	SCSC	32754	60-Month Clinic Visit	1.2	complete	60	1	15:00:00	15:50:00	0	2		1976	1976	1976
+SUB230951	Atopic	SCSC	32761	81-Month Clinic Visit	1.2	missing	.x									
+SUB230952	Atopic	SCSC	39055	81-Month Clinic Visit	1.2	missing	.x									
+SUB230952	Atopic	SCSC	39048	60-Month Clinic Visit	1.2	complete	60	1	12:45:00	14:02:00	0	2		1878	1878	1878
+SUB230953	Atopic	SCSC	32581	60-Month Clinic Visit	1.2	complete	60	1	14:10:00	14:42:00	0	2		1932	1932	1932
+SUB230953	Atopic	SCSC	32588	81-Month Clinic Visit	1.2	missing	.x									
+SUB230954	Atopic	SCSC	39790	81-Month Clinic Visit	1.2	missing	.x									
+SUB230954	Atopic	SCSC	39783	60-Month Clinic Visit	1.2	complete	60	1	13:35:00	14:15:00	0	2		1870	1870	1870
+SUB230955	Atopic	SCSC	34611	60-Month Clinic Visit	1.1	complete	60	1	11:57:00	13:20:00	0	2	2	1831	1831	1831
+SUB230955	Atopic	SCSC	34618	81-Month Clinic Visit	1.2	missing	.x									
+SUB230957	Atopic	SCSC	39060	60-Month Clinic Visit	1.1	complete	60	1	11:50:00	11:57:00	0	2	2	1834	1834	1834
+SUB230958	Atopic	SCSC	43352	60-Month Clinic Visit	1.2	missing	.x									
+SUB230959	Atopic	SCSC	43065	60-Month Clinic Visit	1.1	complete	60	1	13:05:00	13:55:00	0	2	2	1797	1797	1797
+SUB230960	Atopic	SCSC	34844	60-Month Clinic Visit	1.2	missing	.x									
+SUB230961	Atopic	SCSC	35343	60-Month Clinic Visit	1.1	complete	60	1	11:20:00	11:50:00	0	2	2	1828	1828	1828
+SUB230961	Atopic	SCSC	35350	81-Month Clinic Visit	1.2	missing	.x									
+SUB230962	Atopic	SCSC	33878	60-Month Clinic Visit	1.2	complete	60	1	14:15:00	15:25:00	0	2		1838	1838	1838
+SUB230963	Atopic	SCSC	39072	60-Month Clinic Visit	1.2	complete	60	1	10:10:00	11:55:00	0	2		1838	1838	1838
+SUB230964	Atopic	SCSC	32895	60-Month Clinic Visit	1.2	complete	60	1	10:35:00	12:15:00	0	2		1885	1885	1885
+SUB230964	Atopic	SCSC	32902	81-Month Clinic Visit	1.2	missing	.x									
+SUB230965	Atopic	SCSC	32890	81-Month Clinic Visit	1.2	missing	.x									
+SUB230965	Atopic	SCSC	32883	60-Month Clinic Visit	1.2	complete	60	1	10:30:00	12:15:00	0	2		1885	1885	1885
+SUB230966	Atopic	SCSC	39084	60-Month Clinic Visit	1.2	complete	60	1	12:00:00	12:50:00	0	2		1959	1959	1959
+SUB230967	Atopic	SCSC	39096	60-Month Clinic Visit	1.1	complete	60	1	13:05:00	13:49:00	0	2	2	1811	1811	1811
+SUB230968	Atopic	SCSC	38801	60-Month Clinic Visit	1.2	complete	60	1	12:10:00	12:35:00	0	2		1910	1929	1929
+SUB230969	Atopic	SCSC	39108	60-Month Clinic Visit	1.2	complete	60	1	11:20:00	12:35:00	0	2		1837	1837	1837
+SUB230969	Atopic	SCSC	39115	81-Month Clinic Visit	1.2	missing	.x									
+SUB230970	Atopic	SCSC	35640	60-Month Clinic Visit	1.2	missing	.x									
+SUB230971	Atopic	SCSC	34260	60-Month Clinic Visit	1.2	complete	60	1	14:55:00	15:15:00	0	2		1822	1822	1822
+SUB230972	Atopic	SCSC	35062	60-Month Clinic Visit	1.2	complete	60	1	11:20:00	13:10:00	0	2		1855	1855	1855
+SUB230973	Atopic	SCSC	39120	60-Month Clinic Visit	1.2	missing	.x									
+SUB230975	Atopic	SCSC	34876	60-Month Clinic Visit	1.2	missing	.x									
+SUB230976	Atopic	SCSC	35049	60-Month Clinic Visit	1.2	complete	60	1	12:25:00	13:32:00	0	2		1809	1809	1809
+SUB230977	Atopic	SCSC	34801	60-Month Clinic Visit	1.2	complete	60	1	12:37:00	13:55:00	0	2		1801	1801	1801
+SUB230978	Atopic	SCSC	33119	60-Month Clinic Visit	1.2	complete	60	1	11:40:00	13:05:00	1	2		1798	1798	1798
+SUB230979	Atopic	SCSC	36349	60-Month Clinic Visit	1.2	complete	60	1	15:04:00	15:15:00	0	2		1928	1928	1928
+SUB230981	Atopic	SCSC	33584	60-Month Clinic Visit	1.2	missing	.x									
+SUB230982	Atopic	SCSC	36970	60-Month Clinic Visit	1.2	complete	60	1	13:05:00	14:00:00	0	2		1915	1915	1915
+SUB230983	Atopic	SCSC	37487	60-Month Clinic Visit	1.2	complete	60	1	11:25:00	12:35:00	1	2		1873	1873	1873
+SUB230984	Atopic	SCSC	33548	60-Month Clinic Visit	1.2	complete	60	1	11:33:00	13:15:00	0	2		1800	1800	1800
+SUB230985	Atopic	SCSC	32399	60-Month Clinic Visit	1.2	missing	.x									
+SUB230986	Atopic	SCSC	33477	60-Month Clinic Visit	1.2	complete	60	1	11:11:00	12:00:00	0	2		1853	1853	1853
+SUB230987	Atopic	SCSC	32490	60-Month Clinic Visit	1.2	complete	60	1	12:53:00	13:02:00	0	2		1943	1943	1943
+SUB230988	Atopic	SCSC	33489	60-Month Clinic Visit	1.2	complete	60	1	13:50:00	15:15:00	1	2		1895	1895	1895
+SUB230989	Atopic	SCSC	33104	60-Month Clinic Visit	1.2	complete	60	1	14:55:00	15:20:00	0	2		1808	1808	1808
+SUB230990	Atopic	SCSC	35737	60-Month Clinic Visit	1.2	complete	60	1	13:25:00	14:15:00	0	2		1910	1910	1910
+SUB230991	Atopic	SCSC	33179	60-Month Clinic Visit	1.2	complete	60	1	13:45:00	14:00:00	0	2		1850	1850	1850
+SUB230993	Atopic	SCSC	34202	60-Month Clinic Visit	1.2	complete	60	1	11:30:00	12:15:00	0	2		1801	1801	1801
+SUB230994	Atopic	SCSC	34458	60-Month Clinic Visit	1.2	complete	60	1	23:10:00	12:20:00	0	2		1894	1894	1894
+SUB230995	Atopic	SCSC	33627	60-Month Clinic Visit	1.2	complete	60	1	10:39:00	12:30:00	0	2		1829	1829	1829
+SUB230997	Atopic	SCSC	38285	60-Month Clinic Visit	1.2	complete	60	1	11:40:00	12:20:00	0	2		1885	1885	1885
+SUB230998	Atopic	SCSC	36487	60-Month Clinic Visit	1.2	complete	60	1	13:56:00	15:00:00	0	2		1821	1821	1821
+SUB230999	Non-atopic	SCSC	43839	60-Month Clinic Visit	1.2	complete	60	1	11:20:00	12:00:00	0	2		1902	1902	1902
+SUB231000	Atopic	SCSC	42573	60-Month Clinic Visit	1.2	complete	60	1	11:40:00	13:22:00	0	2		1796	1796	1796
+SUB231001	Atopic	SCSC	36916	60-Month Clinic Visit	1.2	complete	60	1	12:20:00	12:30:00	1	2		1814	1814	1814
+SUB231002	Atopic	SCSC	36812	60-Month Clinic Visit	1.2	complete	60	1	14:00:00	14:20:00	0	2		1887	1887	1887
+SUB231003	Atopic	SCSC	41666	60-Month Clinic Visit	1.2	complete	60	1	11:30:00	12:30:00	0	2		1813	1813	1813
+SUB231004	Atopic	SCSC	37800	60-Month Clinic Visit	1.2	complete	60	1	12:20:00	12:30:00	0	2		1812	1812	1812
+SUB231005	Atopic	SCSC	43768	60-Month Clinic Visit	1.2	complete	60	1	12:30:00	12:50:00	0	2		1819	1819	1817
+SUB231006	Atopic	SCSC	34301	60-Month Clinic Visit	1.2	complete	60	1	11:50:00	12:30:00	1	2		1828	1828	1828
+SUB231007	Atopic	SCSC	35488	60-Month Clinic Visit	1.2	complete	60	1	10:45:00	12:45:00	0	2		1871	1871	1871
+SUB231008	Atopic	SCSC	43940	60-Month Clinic Visit	1.2	complete	60	1	12:55:00	14:00:00	0	2		1803	1803	1803
+SUB231010	Non-atopic	SCSC	34445	60-Month Clinic Visit	1.2	complete	60	1	13:25:00	14:00:00	0	2		1860	1860	1860
+SUB231011	Atopic	SCSC	35918	60-Month Clinic Visit	1.2	complete	60	1	12:30:00	12:45:00	0	2		1856	1856	1856
+SUB231012	Atopic	SCSC	39132	60-Month Clinic Visit	1.2	complete	60	1	10:15:00	10:55:00	0	2		1917	1917	1917
+SUB231013	Atopic	SCSC	36571	60-Month Clinic Visit	1.2	complete	60	1	10:50:00	11:38:00	0	2		1849	1849	1849
+SUB231014	Atopic	SCSC	37248	60-Month Clinic Visit	1.2	complete	60	1	14:10:00	14:40:00	0	2		1889	1889	1889
+SUB231015	Non-atopic	SCSC	37694	60-Month Clinic Visit	1.2	complete	60	1	13:50:00	14:40:00	0	2		1889	1889	1889
+SUB231016	Atopic	SCSC	36651	60-Month Clinic Visit	1.2	complete	60	1	13:20:00	14:40:00	0	2		1881	1881	1881
+SUB231017	Non-atopic	SCSC	39735	60-Month Clinic Visit	1.2	complete	60	1	12:00:00	13:35:00	0	2		1829	1829	1829
+SUB231019	Atopic	SCSC	39144	60-Month Clinic Visit	1.2	complete	60	1	13:04:00	13:35:00	0	2		1820	1820	1820
+SUB231021	Atopic	SCSC	42853	60-Month Clinic Visit	1.2	missing	.x									
+SUB231022	Non-atopic	SCSC	38180	60-Month Clinic Visit	1.2	complete	60	1	10:50:00	13:40:00	0	2		1872	1872	1872
+SUB231023	Non-atopic	SCSC	43851	60-Month Clinic Visit	1.2	missing	.x									
+SUB231024	Non-atopic	SCSC	35876	60-Month Clinic Visit	1.2	complete	60	1	15:00:00	15:10:00	0	2		1801	1801	1801
+SUB231025	Atopic	SCSC	39156	60-Month Clinic Visit	1.2	complete	60	1	14:20:00	14:45:00	0	2		1807	1807	1807
+SUB231026	Atopic	SCSC	41088	60-Month Clinic Visit	1.2	complete	60	1	11:15:00	11:20:00	0	2		1835	1835	1835
+SUB231028	Atopic	SCSC	34486	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1798		
+SUB231028	Atopic	SCSC	34493	81-Month Clinic Visit	1.2	complete	81	1	11:10:00	11:30:00	0	1		2499	2499	2499
+SUB231029	Atopic	SCSC	33290	60-Month Clinic Visit	1.0	missing	.x									
+SUB231029	Atopic	SCSC	33297	81-Month Clinic Visit	1.2	complete	81	1	11:30:00	12:45:00	1	1		2501	2501	2501
+SUB231031	Atopic	SCSC	34342	81-Month Clinic Visit	1.2	complete	81	1	11:35:00	12:00:00	1	1		2515	2515	2515
+SUB231031	Atopic	SCSC	34335	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1829		
+SUB231035	Atopic	SCSC	30796	81-Month Clinic Visit	1.2	complete	81	1	12:35:00	13:25:00	1	1		2464	2464	2464
+SUB231035	Atopic	SCSC	30789	60-Month Clinic Visit	1.0	complete	60	1			1	1	1	1804		
+SUB231036	Atopic	SCSC	37909	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1798		
+SUB231036	Atopic	SCSC	37916	81-Month Clinic Visit	1.2	complete	81	1	11:40:00	13:00:00	0	1		2491	2491	2491
+SUB231039	Atopic	SCSC	30777	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1804		
+SUB231039	Atopic	SCSC	30784	81-Month Clinic Visit	1.2	complete	81	1	11:27:00	12:30:00	0	1		2442	2442	2442
+SUB231040	Atopic	SCSC	30872	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1844		
+SUB231040	Atopic	SCSC	30879	81-Month Clinic Visit	1.2	complete	81	1	11:00:00	11:50:00	0	1		2454	2454	2454
+SUB231041	Atopic	SCSC	34222	81-Month Clinic Visit	1.2	complete	81	1	09:55:00	11:55:00	1	1		2443	2443	2443
+SUB231041	Atopic	SCSC	34215	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1805		
+SUB231042	Atopic	SCSC	33796	81-Month Clinic Visit	1.2	complete	81	1	09:45:00	10:50:00	0	1		2493	2493	2493
+SUB231042	Atopic	SCSC	33789	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1799		
+SUB231043	Atopic	SCSC	36368	81-Month Clinic Visit	1.2	complete	81	1	12:15:00	13:00:00	0	1		2439	2439	2439
+SUB231043	Atopic	SCSC	36361	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1802		
+SUB231044	Atopic	SCSC	34858	60-Month Clinic Visit	1.1	complete	60	1	10:51:00	11:05:00	0	1	1	1870	1870	1870
+SUB231044	Atopic	SCSC	34865	81-Month Clinic Visit	1.2	complete	81	1	12:10:00	13:00:00	0	1		2499	2499	2499
+SUB231045	Atopic	SCSC	32512	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	12:45:00	0	1	1	1850	1850	1850
+SUB231045	Atopic	SCSC	32519	81-Month Clinic Visit	1.2	complete	81	1	12:15:00	13:15:00	1	1		2519	2519	2519
+SUB231047	Atopic	SCSC	32839	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1842		
+SUB231047	Atopic	SCSC	32846	81-Month Clinic Visit	1.2	complete	81	1	11:04:00	12:12:00	0	1		2451	2451	2451
+SUB231048	Atopic	SCSC	37044	60-Month Clinic Visit	1.1	complete	60	1	14:50:00	15:10:00	1	1	1	1859	1859	1859
+SUB231048	Atopic	SCSC	37051	81-Month Clinic Visit	1.2	complete	81	1	13:15:00	14:30:00	0	1		2452	2452	2452
+SUB231049	Atopic	SCSC	36608	81-Month Clinic Visit	1.2	complete	81	1	12:02:00	12:45:00	0	1		2440	2440	2440
+SUB231049	Atopic	SCSC	36601	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1810		
+SUB231050	Atopic	SCSC	35076	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	12:27:00	1	1	1	1867	1867	1867
+SUB231050	Atopic	SCSC	35083	81-Month Clinic Visit	1.2	complete	81	1	11:48:00	13:00:00	0	1		2498	2498	2498
+SUB231051	Atopic	SCSC	33217	60-Month Clinic Visit	1.1	complete	60	1	15:05:00	15:30:00	0	1	1	1860	1860	1860
+SUB231051	Atopic	SCSC	33224	81-Month Clinic Visit	1.2	complete	81	1	12:10:00	13:15:00	0	1		2483	2483	2483
+SUB231052	Atopic	SCSC	35670	60-Month Clinic Visit	1.1	complete	60	1	12:10:00	13:15:00	0	1	1	1839	1839	1839
+SUB231052	Atopic	SCSC	35677	81-Month Clinic Visit	1.2	complete	81	1	13:05:00	14:26:00	0	1		2462	2462	2462
+SUB231053	Atopic	SCSC	37292	60-Month Clinic Visit	1.1	complete	60	1	13:05:00	14:10:00	0	1	1	1848	1848	1848
+SUB231053	Atopic	SCSC	37299	81-Month Clinic Visit	1.2	complete	81	1	12:45:00	13:20:00	0	1		2473	2473	2473
+SUB231055	Atopic	SCSC	32918	60-Month Clinic Visit	1.1	complete	60	1	11:50:00	12:10:00	0	1	1	1842	1842	1842
+SUB231055	Atopic	SCSC	32925	81-Month Clinic Visit	1.2	complete	81	1	12:24:00	13:15:00	1	1		2509	2509	2509
+SUB231057	Atopic	SCSC	38626	81-Month Clinic Visit	1.2	missing	.x									
+SUB231057	Atopic	SCSC	38619	60-Month Clinic Visit	1.1	complete	60	1	11:46:00	12:23:00	1	1	1	1812	1812	1812
+SUB231058	Atopic	SCSC	42359	81-Month Clinic Visit	1.2	missing	.x									
+SUB231058	Atopic	SCSC	42352	60-Month Clinic Visit	1.1	complete	60	1	11:45:00	13:10:00	0	1	1	1866	1866	1866
+SUB231059	Atopic	SCSC	37513	60-Month Clinic Visit	1.1	complete	60	1	15:15:00	16:05:00	1	1	1	1829	1829	1829
+SUB231059	Atopic	SCSC	37520	81-Month Clinic Visit	1.2	missing	.x									
+SUB231060	Atopic	SCSC	32055	60-Month Clinic Visit	1.1	complete	60	1	12:04:00	14:00:00	0	1	1	1884	1884	1884
+SUB231060	Atopic	SCSC	32062	81-Month Clinic Visit	1.2	complete	81	0						2493		
+SUB231060	Atopic	SCSC	32059	72-Month Clinic Visit	1.2	complete	72	1	10:42:00	12:00:00	0	1		2245	2248	2248
+SUB231061	Atopic	SCSC	39320	81-Month Clinic Visit	1.2	missing	.x									
+SUB231061	Atopic	SCSC	39313	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	12:45:00	0	1	1	1839	1839	1839
+SUB231063	Atopic	SCSC	37729	60-Month Clinic Visit	1.1	complete	60	1	12:03:00	14:50:00	1	1	1	1825	1825	1825
+SUB231063	Atopic	SCSC	37736	81-Month Clinic Visit	1.2	complete	81	1	13:32:00	14:31:00	1	1		2486	2486	2486
+SUB231064	Atopic	SCSC	38522	81-Month Clinic Visit	1.2	complete	81	1	11:32:00	12:30:00	1	1		2488	2488	2488
+SUB231064	Atopic	SCSC	38515	60-Month Clinic Visit	1.1	complete	60	1	12:15:00	13:25:00	0	1	1	1858	1858	1858
+SUB231065	Atopic	SCSC	39638	60-Month Clinic Visit	1.1	complete	60	1	15:49:00	16:35:00	0	1	1	1817	1817	1817
+SUB231065	Atopic	SCSC	39645	81-Month Clinic Visit	1.2	complete	81	0						2512		
+SUB231066	Atopic	SCSC	37606	81-Month Clinic Visit	1.2	missing	.x									
+SUB231066	Atopic	SCSC	37599	60-Month Clinic Visit	1.1	complete	60	1	11:16:00	14:15:00	0	1	1	1871	1871	1871
+SUB231067	Atopic	SCSC	41350	60-Month Clinic Visit	1.1	complete	60	1	11:48:00	12:45:00	0	1	1	1813	1813	1813
+SUB231067	Atopic	SCSC	41357	81-Month Clinic Visit	1.2	missing	.x									
+SUB231070	Atopic	SCSC	37225	81-Month Clinic Visit	1.2	missing	.x									
+SUB231070	Atopic	SCSC	37218	60-Month Clinic Visit	1.1	complete	60	1	14:30:00	15:40:00	0	1	1	1798	1798	1798
+SUB231071	Atopic	SCSC	37847	60-Month Clinic Visit	1.1	complete	60	1	14:00:00	14:50:00	1	1	1	1801	1801	1801
+SUB231071	Atopic	SCSC	37854	81-Month Clinic Visit	1.2	complete	81	1	11:14:00	13:59:00	1	1		2439	2439	2439
+SUB231072	Atopic	SCSC	37859	60-Month Clinic Visit	1.1	complete	60	1	12:25:00	13:52:00	0	1	1	1797	1797	1797
+SUB231072	Atopic	SCSC	37866	81-Month Clinic Visit	1.2	complete	81	1	12:13:00	13:45:00	0	1		2456	2456	2456
+SUB231073	Atopic	SCSC	37359	81-Month Clinic Visit	1.2	missing	.x									
+SUB231073	Atopic	SCSC	37352	60-Month Clinic Visit	1.1	complete	60	1	11:50:00	12:27:00	0	1	1	1798	1798	1798
+SUB231074	Atopic	SCSC	37878	81-Month Clinic Visit	1.2	missing	.x									
+SUB231075	Atopic	SCSC	37152	60-Month Clinic Visit	1.1	complete	60	1	15:20:00	16:25:00	1	1	1	1786	1786	1786
+SUB231076	Atopic	SCSC	38638	81-Month Clinic Visit	1.2	missing	.x									
+SUB231076	Atopic	SCSC	38631	60-Month Clinic Visit	1.1	complete	60	1	12:10:00	13:10:00	0	1	1	1806	1806	1806
+SUB231078	Atopic	SCSC	38068	60-Month Clinic Visit	1.1	complete	60	1	11:13:00	12:00:00	0	1		1838	1838	1838
+SUB231079	Atopic	SCSC	38883	60-Month Clinic Visit	1.1	complete	60	1	09:45:00	11:35:00	0	1		1837	1837	1837
+SUB231079	Atopic	SCSC	38890	81-Month Clinic Visit	1.2	complete	81	0						2475		
+SUB231080	Atopic	SCSC	38643	60-Month Clinic Visit	1.1	complete	60	1	15:15:00	16:20:00	0	1	1	1799	1799	1799
+SUB231081	Atopic	SCSC	40870	60-Month Clinic Visit	1.1	complete	60	1	10:56:00	12:15:00	0	1	1	1826	1826	1826
+SUB231082	Atopic	SCSC	42510	60-Month Clinic Visit	1.1	complete	60	1	11:58:00	13:11:00	0	1	1	1795	1795	1795
+SUB231083	Atopic	SCSC	38655	60-Month Clinic Visit	1.1	complete	60	1	11:45:00	12:33:00	0	1		1929	1929	1929
+SUB231083	Atopic	SCSC	38662	81-Month Clinic Visit	1.2	missing	.x									
+SUB231084	Atopic	SCSC	38667	60-Month Clinic Visit	1.1	complete	60	1	11:15:00	12:35:00	0	1		1830	1830	1830
+SUB231086	Atopic	SCSC	37883	60-Month Clinic Visit	1.1	complete	60	0						1829		
+SUB231087	Atopic	SCSC	38680	60-Month Clinic Visit	1.1	complete	60	1	11:00:00	12:35:00	1	1		1812	1812	1812
+SUB231091	Atopic	SCSC	31906	60-Month Clinic Visit	1.1	complete	60	1	14:57:00	15:50:00	1	1		1826	1826	1826
+SUB231092	Atopic	SCSC	30899	60-Month Clinic Visit	1.1	complete	60	1	10:58:00	12:00:00	0	1		1809	1809	1809
+SUB231093	Atopic	SCSC	31501	60-Month Clinic Visit	1.1	complete	60	1	12:00:00	12:10:00	0	1		1837	1837	1837
+SUB231094	Atopic	SCSC	31271	60-Month Clinic Visit	1.1	complete	60	1	14:35:00	15:31:00	0	1		1813	1813	1813
+SUB231095	Atopic	SCSC	31872	60-Month Clinic Visit	1.1	complete	60	1	11:27:00	12:10:00	1	1		1808	1808	1808
+SUB231096	Atopic	SCSC	41033	60-Month Clinic Visit	1.1	complete	60	1	11:16:00	12:15:00	1	1		1818	1818	1818
+SUB231097	Atopic	SCSC	43573	60-Month Clinic Visit	1.1	complete	60	1	10:53:00	12:33:00	0	1		1860	1860	1860
+SUB231098	Atopic	SCSC	42497	60-Month Clinic Visit	1.1	complete	60	1	14:30:00	15:30:00	0	1		1805	1805	1805
+SUB231100	Atopic	SCSC	40023	60-Month Clinic Visit	1.1	complete	60	1	14:32:00	16:12:00	0	1		1796	1796	1796
+SUB231101	Atopic	SCSC	39832	60-Month Clinic Visit	1.1	complete	60	1	10:52:00	11:55:00	0	1		1798	1798	1798
+SUB231102	Atopic	SCSC	42234	60-Month Clinic Visit	1.1	complete	60	1	11:54:00	12:30:00	0	1		1801	1801	1801
+SUB231104	Atopic	SCSC	32262	60-Month Clinic Visit	1.1	complete	60	1	13:50:00	14:00:00	1	1		1919	1919	1919
+SUB231105	Atopic	SCSC	38692	60-Month Clinic Visit	1.1	complete	60	1	14:23:00	15:34:00	1	1		1822	1822	1822
+SUB231106	Atopic	SCSC	36240	60-Month Clinic Visit	1.1	complete	60	1	11:36:00	13:36:00	0	1		1798	1798	1798
+SUB231107	Atopic	SCSC	42380	60-Month Clinic Visit	1.1	complete	60	1	11:40:00	12:25:00	0	1		1841	1841	1841
+SUB231109	Atopic	SCSC	38315	60-Month Clinic Visit	1.1	complete	60	1	11:00:00	12:00:00	0	1		1809	1809	1809
+SUB231110	Atopic	SCSC	38704	60-Month Clinic Visit	1.1	complete	60	1	12:10:00	13:10:00	0	1		1822	1822	1822
+SUB231113	Atopic	SCSC	32982	60-Month Clinic Visit	1.1	complete	60	1	11:56:00	00:45:00	0	1		1801	1801	1801
+SUB231114	Atopic	SCSC	31737	60-Month Clinic Visit	1.1	missing	.x									
+SUB231115	Atopic	SCSC	34245	60-Month Clinic Visit	1.1	complete	60	1	09:36:00	11:10:00	0	1		1802	1802	1802
+SUB231116	Atopic	SCSC	38716	60-Month Clinic Visit	1.1	complete	60	1	23:55:00	12:30:00	0	1		1833	1833	1833
+SUB231117	Atopic	SCSC	32215	60-Month Clinic Visit	1.1	complete	60	1	14:50:00	15:35:00	1	1		1799	1799	1799
+SUB231118	Atopic	SCSC	34348	60-Month Clinic Visit	1.1	complete	60	1	12:00:00	13:05:00	0	1		1912	1912	1912
+SUB231119	Atopic	SCSC	34718	60-Month Clinic Visit	1.1	complete	60	1	13:10:00	13:55:00	1	1		1801	1801	1801
+SUB231120	Atopic	SCSC	38728	60-Month Clinic Visit	1.1	complete	60	1	12:04:00	12:40:00	1	1		1832	1832	1832
+SUB231121	Atopic	SCSC	34473	60-Month Clinic Visit	1.1	complete	60	1	11:05:00	12:07:00	0	1		1800	1800	1800
+SUB231122	Atopic	SCSC	34731	60-Month Clinic Visit	1.1	complete	60	1	11:05:00	11:50:00	0	1		1806	1806	1806
+SUB231123	Atopic	SCSC	33841	60-Month Clinic Visit	1.1	complete	60	1	13:05:00	13:20:00	1	1		1898	1898	1898
+SUB231125	Atopic	SCSC	32940	60-Month Clinic Visit	1.1	complete	60	1	11:35:00	12:30:00	1	1		1800	1800	1800
+SUB231127	Atopic	SCSC	36378	60-Month Clinic Visit	1.1	complete	60	1	11:34:00	12:10:00	0	1		1825	1825	1825
+SUB231128	Atopic	SCSC	32540	60-Month Clinic Visit	1.1	complete	60	1	12:24:00	13:20:00	1	1		1827	1827	1827
+SUB231130	Atopic	SCSC	35092	60-Month Clinic Visit	1.1	complete	60	1	10:55:00	12:40:00	1	1		1820	1820	1820
+SUB231131	Atopic	SCSC	32554	60-Month Clinic Visit	1.1	complete	60	1	13:25:00	14:25:00	0	1		1867	1867	1867
+SUB231132	Atopic	SCSC	37644	60-Month Clinic Visit	1.1	complete	60	1	11:50:00	12:15:00	1	1		1874	1874	1874
+SUB231133	Atopic	SCSC	33750	60-Month Clinic Visit	1.1	complete	60	1	11:25:00	01:00:00	1	1		1890	1890	1890
+SUB231134	Atopic	SCSC	36214	60-Month Clinic Visit	1.1	complete	60	1	11:50:00	13:25:00	1	1	1	1796	1796	1796
+SUB231135	Atopic	SCSC	40220	60-Month Clinic Visit	1.1	complete	60	1	12:55:00	13:25:00	0	1		1804	1804	1804
+SUB231138	Atopic	SCSC	33705	60-Month Clinic Visit	1.1	complete	60	1	12:25:00	13:15:00	1	1		1811	1811	1811
+SUB231139	Atopic	SCSC	37095	60-Month Clinic Visit	1.1	complete	60	1	12:15:00	12:35:00	1	1		1838	1838	1838
+SUB231141	Atopic	SCSC	40381	60-Month Clinic Visit	1.1	complete	60	1	12:20:00	13:20:00	0	1		1837	1837	1837
+SUB231142	Atopic	SCSC	36331	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	14:25:00	1	1		1813	1813	1813
+SUB231143	Non-atopic	SCSC	33007	60-Month Clinic Visit	1.1	complete	60	1	11:39:00	13:30:00	0	1		1797	1797	1797
+SUB231144	Atopic	SCSC	36182	60-Month Clinic Visit	1.1	complete	60	1	11:06:00	12:22:00	0	1	1	1879	1879	1879
+SUB231145	Non-atopic	SCSC	40658	60-Month Clinic Visit	1.1	complete	60	1	11:15:00	00:15:00	0	1		1836	1836	1836
+SUB231146	Atopic	SCSC	35655	60-Month Clinic Visit	1.1	complete	60	1	10:38:00	00:15:00	0	1		1832	1832	1832
+SUB231147	Non-atopic	SCSC	34542	60-Month Clinic Visit	1.1	complete	60	1	10:55:00	11:30:00	1	1		1833	1833	1833
+SUB231149	Atopic	SCSC	36098	60-Month Clinic Visit	1.1	complete	60	1	10:50:00	11:55:00	1	1		1867	1867	1867
+SUB231150	Atopic	SCSC	41998	60-Month Clinic Visit	1.1	complete	60	1	11:54:00	12:22:00	0	1		1874	1874	1874
+SUB231151	Non-atopic	SCSC	38768	60-Month Clinic Visit	1.1	complete	60	1	10:00:00	10:15:00	1	1		1860	1860	1860
+SUB231153	Non-atopic	SCSC	35422	60-Month Clinic Visit	1.1	complete	60	1	09:45:00	10:15:00	0	1		1853	1853	1853
+SUB231155	Atopic	SCSC	42525	60-Month Clinic Visit	1.2	complete	60	1	15:20:00	16:06:00	0	1		1901	1901	1901
+SUB231156	Non-atopic	SCSC	44865	60-Month Clinic Visit	1.1	complete	60	1	09:53:00	10:25:00	0	1		1842	1842	1842
+SUB231158	Non-atopic	SCSC	36135	60-Month Clinic Visit	1.1	complete	60	1	14:24:00	14:45:00	0	1		1840	1840	1840
+SUB231159	Atopic	SCSC	36318	60-Month Clinic Visit	1.1	complete	60	1	12:50:00	13:25:00	1	1		1842	1842	1842
+SUB231161	Atopic	SCSC	37975	60-Month Clinic Visit	1.2	complete	60	1	12:19:00	12:35:00	0	3		1889	1889	1889
+SUB231163	Atopic	SCSC	41247	60-Month Clinic Visit	1.2	complete	60	1	10:34:00	12:00:00	0	1		1899	1899	1899
+SUB231164	Atopic	SCSC	35701	60-Month Clinic Visit	1.2	complete	60	1	10:20:00	12:35:00	1	1		1875	1875	1875
+SUB231165	Atopic	SCSC	38217	60-Month Clinic Visit	1.1	complete	60	1	13:40:00	14:28:00	0	1		1840	1840	1840
+SUB231166	Atopic	SCSC	35007	60-Month Clinic Visit	1.1	complete	60	1	14:45:00	16:00:00	1	1		1800	1800	1800
+SUB231167	Atopic	SCSC	40200	60-Month Clinic Visit	1.1	complete	60	1	10:48:00	11:45:00	0	1		1831	1831	1831
+SUB231168	Atopic	SCSC	38740	60-Month Clinic Visit	1.1	complete	60	1	11:00:00	11:45:00	0	1		1801	1801	1801
+SUB231169	Non-atopic	SCSC	40752	60-Month Clinic Visit	1.2	complete	60	1	10:53:00	12:15:00	1	1		1841	1841	1841
+SUB231171	Non-atopic	SCSC	38752	60-Month Clinic Visit	1.2	complete	60	1	14:05:00	14:20:00	0	1		1807	1807	1807
+SUB231172	Non-atopic	SCSC	40040	60-Month Clinic Visit	1.2	complete	60	1	11:03:00	11:45:00	1	1		1827	1827	1827
+SUB231173	Atopic	SCSC	35434	60-Month Clinic Visit	1.0	complete	60	1			1	1	1	1854		
+SUB231173	Atopic	SCSC	35441	81-Month Clinic Visit	1.2	complete	81	1	14:25:00	15:10:00	0	1		2462	2462	2462
+SUB231176	Atopic	SCSC	33279	81-Month Clinic Visit	1.2	missing	.x									
+SUB231176	Atopic	SCSC	33272	60-Month Clinic Visit	1.1	complete	60	1	12:00:00	14:00:00	0	1	1	1844	1844	1844
+SUB231177	Atopic	SCSC	36155	81-Month Clinic Visit	1.2	complete	81	1	13:17:00	13:25:00	0	1		2462	2462	2462
+SUB231177	Atopic	SCSC	36148	60-Month Clinic Visit	1.1	complete	60	1	12:09:00	13:50:00	1	3	3	1827	1827	1827
+SUB231178	Atopic	SCSC	32696	81-Month Clinic Visit	1.2	complete	81	1	14:56:00	15:05:00	0	1		2456	2456	2456
+SUB231178	Atopic	SCSC	32689	60-Month Clinic Visit	1.1	complete	60	1	11:10:00	11:40:00	1	2	2	1846	1846	1846
+SUB231179	Atopic	SCSC	33675	60-Month Clinic Visit	1.1	complete	60	1	14:12:00	14:24:00	0	2	2	1883	1883	1883
+SUB231179	Atopic	SCSC	33682	81-Month Clinic Visit	1.2	complete	81	1	16:03:00	16:18:00	0	1		2444	2444	2444
+SUB231180	Atopic	SCSC	33030	81-Month Clinic Visit	1.2	complete	81	1	15:41:00	15:50:00	0	1		2458	2458	2458
+SUB231180	Atopic	SCSC	33023	60-Month Clinic Visit	1.1	complete	60	1	12:36:00	14:00:00	0	1	1	1840	1840	1840
+SUB231182	Atopic	SCSC	37396	60-Month Clinic Visit	1.1	complete	60	1	11:18:00	11:48:00	1	2	2	1811	1811	1811
+SUB231182	Atopic	SCSC	37403	81-Month Clinic Visit	1.2	complete	81	1	14:40:00	14:50:00	1	1		2440	2440	2440
+SUB231183	Atopic	SCSC	30728	60-Month Clinic Visit	1.1	complete	60	1	11:27:00	12:07:00	0	1	1	1808	1808	1808
+SUB231183	Atopic	SCSC	30735	81-Month Clinic Visit	1.2	complete	81	1	10:20:00	10:35:00	0	1		2443	2443	2443
+SUB231184	Atopic	SCSC	31128	81-Month Clinic Visit	1.2	complete	81	1	12:25:00	12:30:00	0	1		2491	2491	2491
+SUB231184	Atopic	SCSC	31121	60-Month Clinic Visit	1.1	complete	60	1	13:28:00	14:03:00	0	1	2	1795	1795	1795
+SUB231185	Atopic	SCSC	34826	81-Month Clinic Visit	1.2	complete	81	1	10:47:00	11:00:00	0	1		2440	2440	2440
+SUB231185	Atopic	SCSC	34819	60-Month Clinic Visit	1.1	complete	60	1	12:53:00	13:24:00	1	2	2	1824	1824	1824
+SUB231186	Atopic	SCSC	31471	81-Month Clinic Visit	1.2	complete	81	1	14:30:00	14:40:00	0	1		2448	2448	2448
+SUB231186	Atopic	SCSC	31464	60-Month Clinic Visit	1.1	complete	60	1	12:54:00	13:38:00	0	1	1	1811	1811	1811
+SUB231187	Atopic	SCSC	37064	60-Month Clinic Visit	1.1	complete	60	1	14:30:00	15:00:00	1	2	2	1807	1807	1807
+SUB231187	Atopic	SCSC	37071	81-Month Clinic Visit	1.2	complete	81	1	16:05:00	16:30:00	0	1		2438	2438	2438
+SUB231188	Atopic	SCSC	32355	60-Month Clinic Visit	1.1	complete	60	1	13:50:00	14:30:00	0	2	1	1802	1802	1802
+SUB231188	Atopic	SCSC	32362	81-Month Clinic Visit	1.2	complete	81	1	11:42:00	11:58:00	0	1		2452	2452	2452
+SUB231189	Atopic	SCSC	32045	81-Month Clinic Visit	1.2	complete	81	1	15:56:00	16:00:00	0	1		2477	2477	2477
+SUB231189	Atopic	SCSC	32038	60-Month Clinic Visit	1.1	complete	60	1	13:55:00	14:30:00	0	2	2	1804	1804	1804
+SUB231190	Atopic	SCSC	34530	60-Month Clinic Visit	1.1	complete	60	1	12:28:00	12:53:00	0	2	1	1819	1819	1819
+SUB231190	Atopic	SCSC	34537	81-Month Clinic Visit	1.2	complete	81	1	15:00:00	15:17:00	0	1		2421	2421	2421
+SUB231191	Atopic	SCSC	33267	81-Month Clinic Visit	1.2	complete	81	1	13:35:00	13:43:00	1	1		2450	2450	2450
+SUB231191	Atopic	SCSC	33260	60-Month Clinic Visit	1.1	complete	60	1	12:40:00	13:00:00	1	1	1	1801	1801	1801
+SUB231192	Atopic	SCSC	37383	60-Month Clinic Visit	1.1	complete	60	1	13:05:00	13:45:00	1	1	1	1809	1809	1809
+SUB231192	Atopic	SCSC	37390	81-Month Clinic Visit	1.2	complete	81	1	14:25:00	14:35:00	0	1		2459	2459	2459
+SUB231194	Atopic	SCSC	32115	81-Month Clinic Visit	1.2	complete	81	1	15:20:00	15:25:00	0	1		2440	2440	2440
+SUB231194	Atopic	SCSC	32108	60-Month Clinic Visit	1.1	complete	60	1	11:48:00	12:40:00	1	1	1	1815	1815	1815
+SUB231195	Atopic	SCSC	42694	60-Month Clinic Visit	1.1	complete	60	1	12:08:00	12:40:00	0	1	1	1799	1799	1799
+SUB231195	Atopic	SCSC	42701	81-Month Clinic Visit	1.2	complete	81	1	09:40:00	09:50:00	0	1		2441	2441	2441
+SUB231196	Atopic	SCSC	34059	60-Month Clinic Visit	1.1	complete	60	1	12:27:00	12:53:00	1	1	1	1797	1797	1797
+SUB231196	Atopic	SCSC	34066	81-Month Clinic Visit	1.2	complete	81	1	13:05:00	13:17:00	0	1		2437	2437	2437
+SUB231198	Atopic	SCSC	39901	60-Month Clinic Visit	1.1	complete	60	1	12:24:00	14:15:00	0	1	1	1817	1817	1817
+SUB231198	Atopic	SCSC	39908	81-Month Clinic Visit	1.2	missing	.x									
+SUB231199	Atopic	SCSC	35769	60-Month Clinic Visit	1.1	complete	60	1	12:18:00	14:15:00	0	2	2	1799	1799	1799
+SUB231199	Atopic	SCSC	35776	81-Month Clinic Visit	1.2	complete	81	1	11:40:00	11:55:00	0	1		2437	2437	2437
+SUB231201	Atopic	SCSC	32723	81-Month Clinic Visit	1.2	complete	81	1	10:59:00	11:04:00	0	1		2437	2437	2437
+SUB231201	Atopic	SCSC	32716	60-Month Clinic Visit	1.1	complete	60	1	13:21:00	14:02:00	0	1	1	1795	1795	1795
+SUB231202	Atopic	SCSC	33517	81-Month Clinic Visit	1.2	complete	81	1	13:30:00	13:40:00	0	1		2450	2450	2450
+SUB231202	Atopic	SCSC	33510	60-Month Clinic Visit	1.1	complete	60	1	14:30:00	15:00:00	1	1	1	1800	1800	1800
+SUB231203	Atopic	SCSC	36201	81-Month Clinic Visit	1.2	complete	81	1	14:20:00	14:40:00	0	1		2440	2440	2440
+SUB231203	Atopic	SCSC	36194	60-Month Clinic Visit	1.1	complete	60	1	11:30:00	11:57:00	0	1	2	1795	1795	1795
+SUB231206	Atopic	SCSC	40082	81-Month Clinic Visit	1.2	complete	81	1	14:00:00	14:20:00	0	1		2437	2437	2437
+SUB231206	Atopic	SCSC	40075	60-Month Clinic Visit	1.1	complete	60	1	15:20:00	15:45:00	0	3	3	1805	1805	1805
+SUB231207	Atopic	SCSC	38118	81-Month Clinic Visit	1.2	complete	81	1	10:40:00	10:49:00	0	1		2443	2443	2443
+SUB231207	Atopic	SCSC	38111	60-Month Clinic Visit	1.1	complete	60	1	12:20:00	12:45:00	1	1	1	1807	1807	1807
+SUB231208	Atopic	SCSC	39540	60-Month Clinic Visit	1.1	complete	60	1	11:25:00	12:35:00	0	1	1	1811	1811	1811
+SUB231208	Atopic	SCSC	39547	81-Month Clinic Visit	1.2	complete	81	1	11:45:00	11:55:00	0	1		2428	2428	2428
+SUB231209	Atopic	SCSC	39366	60-Month Clinic Visit	1.1	complete	60	1	13:44:00	14:20:00	0	1	1	1802	1802	1802
+SUB231210	Atopic	SCSC	30844	60-Month Clinic Visit	1.1	complete	60	1	12:08:00	12:18:00	1	1		1848	1848	1848
+SUB231210	Atopic	SCSC	30851	81-Month Clinic Visit	1.2	missing	.x									
+SUB231213	Atopic	SCSC	33810	81-Month Clinic Visit	1.2	missing	.x									
+SUB231213	Atopic	SCSC	33803	60-Month Clinic Visit	1.1	complete	60	1	12:34:00	13:20:00	0	1	2	1806	1806	1806
+SUB231214	Atopic	SCSC	32450	81-Month Clinic Visit	1.2	missing	.x									
+SUB231214	Atopic	SCSC	32443	60-Month Clinic Visit	1.1	complete	60	1	11:10:00	11:45:00	0	1	2	1803	1803	1803
+SUB231215	Atopic	SCSC	39344	60-Month Clinic Visit	1.1	complete	60	1	12:35:00	01:10:00	0	2	2	1813	1813	1813
+SUB231215	Atopic	SCSC	39351	81-Month Clinic Visit	1.2	missing	.x									
+SUB231216	Atopic	SCSC	39993	60-Month Clinic Visit	1.1	complete	60	1	10:18:00	10:43:00	0	3	3	1799	1799	1799
+SUB231216	Atopic	SCSC	40000	81-Month Clinic Visit	1.2	missing	.x									
+SUB231217	Atopic	SCSC	33200	60-Month Clinic Visit	1.1	complete	60	1	13:46:00	14:20:00	0	1	1	1804	1804	1804
+SUB231217	Atopic	SCSC	33207	81-Month Clinic Visit	1.2	missing	.x									
+SUB231218	Atopic	SCSC	33853	60-Month Clinic Visit	1.1	complete	60	1	11:33:00	12:03:00	0	3	3	1795	1795	1795
+SUB231218	Atopic	SCSC	33860	81-Month Clinic Visit	1.2	missing	.x									
+SUB231219	Atopic	SCSC	30866	81-Month Clinic Visit	1.2	missing	.x									
+SUB231219	Atopic	SCSC	30859	60-Month Clinic Visit	1.1	complete	60	1	11:37:00	12:03:00	0	1	1	1795	1795	1795
+SUB231221	Atopic	SCSC	39935	60-Month Clinic Visit	1.1	complete	60	1	10:29:00	11:02:00	0	1	1	1800	1800	1800
+SUB231221	Atopic	SCSC	39942	81-Month Clinic Visit	1.2	missing	.x									
+SUB231222	Atopic	SCSC	36882	60-Month Clinic Visit	1.2	complete	60	1	11:45:00	12:05:00	0	1		1812	1812	1812
+SUB231223	Atopic	SCSC	33865	60-Month Clinic Visit	1.1	complete	60	1	12:58:00	13:10:00	0	3		1799	1799	1799
+SUB231223	Atopic	SCSC	33872	81-Month Clinic Visit	1.2	missing	.x									
+SUB231224	Atopic	SCSC	33890	60-Month Clinic Visit	1.2	complete	60	1	10:40:00	10:42:00	0	1		1831	1831	1831
+SUB231225	Atopic	SCSC	32710	81-Month Clinic Visit	1.2	missing	.x									
+SUB231225	Atopic	SCSC	32703	60-Month Clinic Visit	1.2	complete	60	1	13:15:00	13:30:00	0	1		1801	1801	1801
+SUB231226	Atopic	SCSC	33816	60-Month Clinic Visit	1.2	complete	60	1	15:00:00	15:20:00	0	1		1846	1846	1846
+SUB231226	Atopic	SCSC	33823	81-Month Clinic Visit	1.2	missing	.x									
+SUB231227	Atopic	SCSC	32952	60-Month Clinic Visit	1.2	complete	60	1	14:56:00	15:05:00	0	1		1834	1834	1834
+SUB231227	Atopic	SCSC	32959	81-Month Clinic Visit	1.2	missing	.x									
+SUB231229	Atopic	SCSC	36836	60-Month Clinic Visit	1.2	complete	60	1	11:50:00	12:03:00	0	1		1801	1801	1801
+SUB231229	Atopic	SCSC	36843	81-Month Clinic Visit	1.2	missing	.x									
+SUB231230	Atopic	SCSC	31292	60-Month Clinic Visit	1.2	complete	60	1	11:06:00	11:20:00	0	1		1799	1799	1799
+SUB231230	Atopic	SCSC	31299	81-Month Clinic Visit	1.2	missing	.x									
+SUB231232	Atopic	SCSC	36848	60-Month Clinic Visit	1.2	complete	60	1	10:00:00	10:06:00	0	1		1806	1806	1806
+SUB231232	Atopic	SCSC	36855	81-Month Clinic Visit	1.2	missing	.x									
+SUB231233	Atopic	SCSC	33921	81-Month Clinic Visit	1.2	missing	.x									
+SUB231233	Atopic	SCSC	33914	60-Month Clinic Visit	1.2	complete	60	1	12:24:00	12:36:00	1	1		1808	1808	1808
+SUB231234	Atopic	SCSC	39441	81-Month Clinic Visit	1.2	missing	.x									
+SUB231234	Atopic	SCSC	39434	60-Month Clinic Visit	1.2	complete	60	1	12:35:00	12:43:00	0	1		1921	1921	1921
+SUB231235	Atopic	SCSC	37935	60-Month Clinic Visit	1.2	missing	.x									
+SUB231236	Atopic	SCSC	42158	60-Month Clinic Visit	1.2	complete	60	1	11:35:00	11:38:00	1	1		1798	1798	1798
+SUB231236	Atopic	SCSC	42165	81-Month Clinic Visit	1.2	missing	.x									
+SUB231237	Atopic	SCSC	32965	60-Month Clinic Visit	1.2	complete	60	1	12:28:00	12:34:00	1	1		1799	1799	1799
+SUB231237	Atopic	SCSC	32972	81-Month Clinic Visit	1.2	missing	.x									
+SUB231241	Atopic	SCSC	33828	60-Month Clinic Visit	1.2	complete	60	1	11:40:00	12:00:00	0	1		1798	1798	1798
+SUB231242	Atopic	SCSC	33985	60-Month Clinic Visit	1.2	complete	60	1	12:30:00	12:40:00	0	1		1806	1806	1806
+SUB231243	Atopic	SCSC	35598	60-Month Clinic Visit	1.2	complete	60	1	14:30:00	14:46:00	0	1		1856	1856	1856
+SUB231246	Atopic	SCSC	34947	60-Month Clinic Visit	1.2	complete	60	1	15:15:00	15:35:00	0	1		1800	1800	1800
+SUB231247	Atopic	SCSC	30975	60-Month Clinic Visit	1.2	complete	60	1	12:15:00	12:30:00	0	1		1800	1800	1800
+SUB231248	Atopic	SCSC	34012	60-Month Clinic Visit	1.2	complete	60	1	11:13:00	11:38:00	0	1		1800	1800	1800
+SUB231249	Atopic	SCSC	37446	60-Month Clinic Visit	1.2	complete	60	1	11:14:00	11:30:00	0	1		1796	1796	1796
+SUB231251	Atopic	SCSC	35683	60-Month Clinic Visit	1.2	complete	60	1	12:20:00	12:42:00	1	1		1797	1797	1797
+SUB231252	Atopic	SCSC	33769	60-Month Clinic Visit	1.2	complete	60	1	10:34:00	10:45:00	0	1		1797	1797	1797
+SUB231253	Atopic	SCSC	41172	60-Month Clinic Visit	1.2	complete	60	1	12:30:00	12:40:00	0	1		1803	1803	1803
+SUB231255	Atopic	SCSC	36824	60-Month Clinic Visit	1.2	complete	60	1	13:55:00	14:10:00	0	1		1797	1797	1797
+SUB231257	Atopic	SCSC	31610	60-Month Clinic Visit	1.2	complete	60	1	11:42:00	12:15:00	0	1		1798	1798	1798
+SUB231258	Atopic	SCSC	31859	60-Month Clinic Visit	1.2	complete	60	1	14:04:00	14:27:00	1	1		1799	1799	1799
+SUB231260	Atopic	SCSC	32569	60-Month Clinic Visit	1.2	complete	60	1	11:20:00	11:27:00	1	1		1797	1797	1797
+SUB231262	Atopic	SCSC	35556	60-Month Clinic Visit	1.2	complete	60	1	13:50:00	14:03:00	1	1		1797	1797	1797
+SUB231263	Atopic	SCSC	35137	60-Month Clinic Visit	1.2	complete	60	1	11:56:00	12:22:00	0	1		1799	1799	1799
+SUB231264	Atopic	SCSC	33962	60-Month Clinic Visit	1.2	complete	60	1	18:07:00	18:11:00	0	1		1881	1881	1881
+SUB231265	Atopic	SCSC	34563	60-Month Clinic Visit	1.2	complete	60	1	16:15:00	16:34:00	0	1		1800	1800	1800
+SUB231266	Atopic	SCSC	33950	60-Month Clinic Visit	1.2	complete	60	1	16:02:00	16:15:00	0	1		1797	1797	1797
+SUB231268	Atopic	SCSC	33536	60-Month Clinic Visit	1.2	complete	60	1	13:24:00	14:46:00	0	1		1796	1796	1796
+SUB231270	Atopic	SCSC	35298	60-Month Clinic Visit	1.2	complete	60	1	11:27:00	11:34:00	0	1		1797	1797	1797
+SUB231271	Atopic	SCSC	36082	60-Month Clinic Visit	1.2	complete	60	1	11:38:00	12:15:00	1	1		1865	1865	1865
+SUB231272	Atopic	SCSC	34320	60-Month Clinic Visit	1.2	complete	60	1	14:30:00	14:45:00	0	1		1797	1797	1797
+SUB231273	Atopic	SCSC	33938	60-Month Clinic Visit	1.2	complete	60	1	12:03:00	12:34:00	0	1		1795	1795	1795
+SUB231274	Atopic	SCSC	33729	60-Month Clinic Visit	1.2	complete	60	1	15:10:00	15:45:00	0	1		1854	1854	1854
+SUB231275	Atopic	SCSC	37021	60-Month Clinic Visit	1.2	complete	60	1	14:10:00	14:45:00	0	1		1799	1799	1799
+SUB231276	Atopic	SCSC	37630	60-Month Clinic Visit	1.2	complete	60	1	10:57:00	11:15:00	0	1		1807	1807	1807
+SUB231277	Non-atopic	SCSC	37587	60-Month Clinic Visit	1.2	complete	60	1	11:42:00	12:05:00	0	1		1785	1785	1785
+SUB231278	Non-atopic	SCSC	34382	60-Month Clinic Visit	1.2	complete	60	1	16:48:00	17:00:00	0	1		1808	1808	1808
+SUB231279	Atopic	SCSC	44445	60-Month Clinic Visit	1.2	complete	60	1	11:00:00	11:20:00	0	3		1785	1785	1785
+SUB231280	Non-atopic	SCSC	36268	60-Month Clinic Visit	1.2	complete	60	1	12:18:00	12:21:00	0	1		1796	1796	1796
+SUB231281	Atopic	SCSC	36861	60-Month Clinic Visit	1.2	complete	60	1	12:38:00	13:05:00	0	1		1794	1794	1794
+SUB231282	Atopic	SCSC	37316	60-Month Clinic Visit	1.2	missing	.x									
+SUB231283	Atopic	SCSC	35956	60-Month Clinic Visit	1.2	complete	60	1	11:25:00	11:40:00	0	1		1796	1796	1796
+SUB231284	Atopic	SCSC	35568	60-Month Clinic Visit	1.2	complete	60	1	15:05:00	15:20:00	0	1		1799	1799	1799
+SUB231285	Non-atopic	SCSC	35388	60-Month Clinic Visit	1.2	complete	60	1	16:48:00	17:49:00	1	1		1806	1806	1806
+SUB231286	Atopic	SCSC	37660	60-Month Clinic Visit	1.2	complete	60	1	16:01:00	16:30:00	0	1		1800	1800	1800
+SUB231287	Non-atopic	SCSC	33926	60-Month Clinic Visit	1.2	complete	60	1	13:36:00	14:30:00	1	1		1810	1810	1810
+SUB231288	Atopic	SCSC	37960	60-Month Clinic Visit	1.2	complete	60	1	13:12:00	13:32:00	0	1		1871	1871	1871
+SUB231290	Atopic	SCSC	33902	60-Month Clinic Visit	1.2	complete	60	1	12:55:00	13:11:00	0	1		1796	1796	1796
+SUB231291	Atopic	SCSC	37562	60-Month Clinic Visit	1.2	complete	60	1	16:35:00	17:00:00	1	1		1799	1799	1799
+SUB231292	Atopic	SCSC	36256	60-Month Clinic Visit	1.2	complete	60	1	17:15:00	17:25:00	0	1		1797	1797	1797
+SUB231293	Atopic	SCSC	31185	81-Month Clinic Visit	1.2	missing	.x									
+SUB231293	Atopic	SCSC	31178	60-Month Clinic Visit	1.0	missing	.x									
+SUB231294	Atopic	SCSC	31691	81-Month Clinic Visit	1.2	complete	81	1	11:30:00	11:55:00	0	1		2491	2491	2491
+SUB231294	Atopic	SCSC	31684	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1881		
+SUB231295	Atopic	SCSC	35032	84-Month Clinic Visit	1.2	complete	84	1	09:38:00	10:05:00	0	1		2551	2551	2551
+SUB231295	Atopic	SCSC	35031	81-Month Clinic Visit	1.2	missing	.x									
+SUB231295	Atopic	SCSC	35024	60-Month Clinic Visit	1.0	missing	.x									
+SUB231296	Atopic	SCSC	31760	81-Month Clinic Visit	1.2	complete	81	1	10:43:00	11:40:00	1	1		2457	2457	2457
+SUB231296	Atopic	SCSC	31753	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1842		
+SUB231297	Atopic	SCSC	37992	60-Month Clinic Visit	1.1	complete	60	1	10:15:00	10:20:00	0	1	1	1893	1893	1893
+SUB231297	Atopic	SCSC	37999	81-Month Clinic Visit	1.2	complete	81	1	09:16:00	10:25:00	0	1		2475	2475	2475
+SUB231299	Atopic	SCSC	32743	81-Month Clinic Visit	1.2	missing	.x									
+SUB231299	Atopic	SCSC	32736	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1825		
+SUB231300	Atopic	SCSC	31013	60-Month Clinic Visit	1.1	complete	60	1	11:27:00	11:40:00	0	1	1	1861	1861	1861
+SUB231300	Atopic	SCSC	31020	81-Month Clinic Visit	1.2	complete	81	1	09:37:00	10:01:00	0	1		2450	2450	2450
+SUB231302	Atopic	SCSC	34505	81-Month Clinic Visit	1.2	complete	81	1	09:11:00	09:45:00	0	1		2443	2443	2443
+SUB231302	Atopic	SCSC	34498	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1804		
+SUB231304	Atopic	SCSC	35910	81-Month Clinic Visit	1.2	complete	81	1	09:23:00	11:07:00	0	1		2458	2458	2458
+SUB231304	Atopic	SCSC	35903	60-Month Clinic Visit	1.0	complete	60	1			0	2	2	1812		
+SUB231305	Atopic	SCSC	34789	81-Month Clinic Visit	1.2	complete	81	1	10:19:00	10:40:00	1	1		2460	2460	2460
+SUB231305	Atopic	SCSC	34782	60-Month Clinic Visit	1.1	missing	.x									
+SUB231306	Atopic	SCSC	36313	81-Month Clinic Visit	1.2	complete	81	1	10:50:00	12:25:00	0	1		2494	2494	2494
+SUB231306	Atopic	SCSC	36306	60-Month Clinic Visit	1.0	complete	60	1			0	1	1	1802		
+SUB231307	Atopic	SCSC	37329	60-Month Clinic Visit	1.1	complete	60	1	08:50:00	10:15:00	0	1	1	1873	1873	1873
+SUB231307	Atopic	SCSC	37336	81-Month Clinic Visit	1.2	complete	81	1	08:45:00	09:35:00	0	1		2510	2510	2510
+SUB231308	Atopic	SCSC	38404	60-Month Clinic Visit	1.1	complete	60	1	08:54:00	09:55:00	0	1	1	1843	1843	1843
+SUB231308	Atopic	SCSC	38411	81-Month Clinic Visit	1.2	complete	81	1	09:11:00	09:45:00	0	1		2475	2475	2475
+SUB231309	Atopic	SCSC	35814	81-Month Clinic Visit	1.2	complete	81	1	09:22:00	11:10:00	0	1		2488	2488	2488
+SUB231309	Atopic	SCSC	35807	60-Month Clinic Visit	1.1	complete	60	1	10:15:00	11:45:00	1	2	2	1865	1865	1865
+SUB231310	Atopic	SCSC	35931	60-Month Clinic Visit	1.1	complete	60	1	10:25:00	11:30:00	0	1	1	1850	1850	1850
+SUB231310	Atopic	SCSC	35938	81-Month Clinic Visit	1.2	complete	81	1	10:19:00	11:50:00	1	1		2487	2487	2487
+SUB231313	Atopic	SCSC	33650	60-Month Clinic Visit	1.1	complete	60	1	10:40:00	11:20:00	0	1	1	1826	1826	1826
+SUB231313	Atopic	SCSC	33657	81-Month Clinic Visit	1.2	complete	81	1	10:03:00	10:20:00	0	1		2507	2507	2507
+SUB231314	Atopic	SCSC	35898	81-Month Clinic Visit	1.2	complete	81	1	09:08:00	09:30:00	0	1		2516	2516	2516
+SUB231314	Atopic	SCSC	35891	60-Month Clinic Visit	1.1	complete	60	1	10:25:00	11:15:00	1	1	1	1850	1850	1850
+SUB231316	Atopic	SCSC	36443	81-Month Clinic Visit	1.2	complete	81	1	09:58:00	10:50:00	0	1		2504	2504	2504
+SUB231316	Atopic	SCSC	36436	60-Month Clinic Visit	1.1	complete	60	1	08:45:00	09:45:00	0	2	2	1846	1846	1846
+SUB231318	Atopic	SCSC	33613	60-Month Clinic Visit	1.1	complete	60	1	07:30:00	08:30:00	1	1	1	1876	1876	1876
+SUB231318	Atopic	SCSC	33620	81-Month Clinic Visit	1.2	complete	81	1	10:29:00	11:32:00	0	1		2472	2472	2472
+SUB231319	Atopic	SCSC	35106	60-Month Clinic Visit	1.1	complete	60	1	16:50:00	18:10:00	0	1	1	1889	1889	1889
+SUB231319	Atopic	SCSC	35113	81-Month Clinic Visit	1.2	complete	81	1	10:24:00	10:55:00	0	1		2489	2489	2489
+SUB231320	Atopic	SCSC	39488	60-Month Clinic Visit	1.1	complete	60	1	09:40:00	10:15:00	1	1	1	1890	1890	1890
+SUB231320	Atopic	SCSC	39495	81-Month Clinic Visit	1.2	complete	81	1	10:23:00	11:05:00	0	1		2521	2521	2521
+SUB231321	Atopic	SCSC	36592	81-Month Clinic Visit	1.2	missing	.x									
+SUB231321	Atopic	SCSC	36585	60-Month Clinic Visit	1.1	complete	60	1	10:40:00	11:30:00	1	1	1	1847	1847	1847
+SUB231323	Atopic	SCSC	35178	60-Month Clinic Visit	1.1	complete	60	1	10:48:00	11:40:00	0	1	1	1875	1875	1875
+SUB231323	Atopic	SCSC	35185	81-Month Clinic Visit	1.2	complete	81	1	12:32:00	13:30:00	0	1		2511	2511	2511
+SUB231324	Atopic	SCSC	39182	60-Month Clinic Visit	1.1	complete	60	1	09:05:00	10:05:00	0	1	1	1832	1832	1832
+SUB231324	Atopic	SCSC	39189	81-Month Clinic Visit	1.2	complete	81	1	11:25:00	11:55:00	0	1		2495	2495	2495
+SUB231325	Atopic	SCSC	35506	60-Month Clinic Visit	1.1	complete	60	1	11:50:00	12:15:00	1	1	1	1796	1796	1796
+SUB231325	Atopic	SCSC	35513	81-Month Clinic Visit	1.2	complete	81	1	11:27:00	13:05:00	0	1		2516	2516	2516
+SUB231326	Atopic	SCSC	34962	60-Month Clinic Visit	1.1	complete	60	1	08:32:00	09:25:00	0	1	1	1862	1862	1862
+SUB231326	Atopic	SCSC	34969	81-Month Clinic Visit	1.2	missing	.x									
+SUB231327	Atopic	SCSC	34839	81-Month Clinic Visit	1.2	complete	81	1	10:30:00	10:52:00	0	1		2468	2468	2468
+SUB231327	Atopic	SCSC	34832	60-Month Clinic Visit	1.1	complete	60	1	12:41:00	13:20:00	1	1	1	1811	1811	1811
+SUB231328	Atopic	SCSC	35612	60-Month Clinic Visit	1.1	complete	60	1	10:10:00	11:05:00	0	1	1	1870	1870	1870
+SUB231328	Atopic	SCSC	35619	81-Month Clinic Visit	1.2	complete	81	1	11:01:00	11:40:00	0	1		2513	2513	2513
+SUB231329	Atopic	SCSC	40895	60-Month Clinic Visit	1.1	complete	60	1	09:53:00	10:30:00	0	1	1	1830	1830	1830
+SUB231329	Atopic	SCSC	40902	81-Month Clinic Visit	1.2	complete	81	1	11:07:00	11:44:00	0	1		2494	2494	2494
+SUB231330	Atopic	SCSC	38854	60-Month Clinic Visit	1.1	complete	60	1	08:45:00	09:45:00	0	1	1	1802	1802	1802
+SUB231330	Atopic	SCSC	38861	81-Month Clinic Visit	1.2	complete	81	1	09:38:00	10:10:00	1	1		2510	2510	2510
+SUB231332	Atopic	SCSC	39241	81-Month Clinic Visit	1.2	missing	.x									
+SUB231332	Atopic	SCSC	39234	60-Month Clinic Visit	1.1	missing	.x									
+SUB231333	Atopic	SCSC	35631	81-Month Clinic Visit	1.2	missing	.x									
+SUB231333	Atopic	SCSC	35624	60-Month Clinic Visit	1.1	complete	60	1	10:49:00	11:40:00	0	1	1	1878	1878	1878
+SUB231334	Atopic	SCSC	39277	60-Month Clinic Visit	1.1	complete	60	1	12:30:00	13:10:00	1	1	1	1822	1822	1822
+SUB231334	Atopic	SCSC	39284	81-Month Clinic Visit	1.2	missing	.x									
+SUB231336	Atopic	SCSC	35528	81-Month Clinic Visit	1.2	missing	.x									
+SUB231336	Atopic	SCSC	35521	60-Month Clinic Visit	1.1	complete	60	1	12:37:00	13:00:00	0	1	1	1832	1832	1832
+SUB231338	Atopic	SCSC	35161	81-Month Clinic Visit	1.2	complete	81	1	10:13:00	11:15:00	0	1		2439	2439	2439
+SUB231338	Atopic	SCSC	35154	60-Month Clinic Visit	1.1	complete	60	1	08:33:00	09:45:00	1	1	1	1794	1794	1794
+SUB231339	Atopic	SCSC	39194	60-Month Clinic Visit	1.1	complete	60	1	09:37:00	10:45:00	0	1	1	1802	1802	1802
+SUB231339	Atopic	SCSC	39201	81-Month Clinic Visit	1.2	complete	81	1	09:54:00	10:30:00	0	1		2473	2473	2473
+SUB231341	Atopic	SCSC	37688	81-Month Clinic Visit	1.2	missing	.x									
+SUB231341	Atopic	SCSC	37681	60-Month Clinic Visit	1.1	complete	60	1	09:29:00	11:40:00	1	1	1	1848	1848	1848
+SUB231342	Atopic	SCSC	38170	81-Month Clinic Visit	1.2	missing	.x									
+SUB231342	Atopic	SCSC	38163	60-Month Clinic Visit	1.1	missing	.x									
+SUB231343	Atopic	SCSC	39206	60-Month Clinic Visit	1.1	complete	60	1	11:30:00	00:35:00	0	1	1	1838	1838	1838
+SUB231343	Atopic	SCSC	39213	81-Month Clinic Visit	1.2	missing	.x									
+SUB231345	Atopic	SCSC	39886	60-Month Clinic Visit	1.1	complete	60	1	09:45:00	10:25:00	0	1	1	1833	1833	1833
+SUB231346	Atopic	SCSC	38245	81-Month Clinic Visit	1.2	missing	.x									
+SUB231346	Atopic	SCSC	38238	60-Month Clinic Visit	1.1	complete	60	1	11:05:00	11:45:00	0	1	1	1848	1848	1848
+SUB231352	Atopic	SCSC	32205	81-Month Clinic Visit	1.2	missing	.x									
+SUB231352	Atopic	SCSC	32198	60-Month Clinic Visit	1.1	missing	.x									
+SUB231353	Atopic	SCSC	30998	60-Month Clinic Visit	1.1	complete	60	1	10:27:00	11:00:00	1	1		1909	1909	1909
+SUB231353	Atopic	SCSC	31005	81-Month Clinic Visit	1.2	missing	.x									
+SUB231355	Atopic	SCSC	44931	60-Month Clinic Visit	1.1	complete	60	1	09:45:00	11:56:00	0	1	1	1879	1879	1879
+SUB231355	Atopic	SCSC	44938	81-Month Clinic Visit	1.2	missing	.x									
+SUB231356	Atopic	SCSC	30820	81-Month Clinic Visit	1.2	missing	.x									
+SUB231356	Atopic	SCSC	30813	60-Month Clinic Visit	1.1	complete	60	1	10:45:00	11:20:00	1	1	1	1854	1854	1854
+SUB231357	Atopic	SCSC	41023	81-Month Clinic Visit	1.2	missing	.x									
+SUB231357	Atopic	SCSC	41024	84-Month Clinic Visit	1.2	missing	.x									
+SUB231357	Atopic	SCSC	41016	60-Month Clinic Visit	1.1	complete	60	1	10:10:00	10:55:00	0	1	1	1832	1832	1832
+SUB231359	Atopic	SCSC	40850	81-Month Clinic Visit	1.2	missing	.x									
+SUB231359	Atopic	SCSC	40843	60-Month Clinic Visit	1.1	complete	60	1	09:53:00	11:10:00	0	1	1	1851	1851	1851
+SUB231360	Atopic	SCSC	31654	81-Month Clinic Visit	1.2	missing	.x									
+SUB231360	Atopic	SCSC	31647	60-Month Clinic Visit	1.1	complete	60	1	09:45:00	11:00:00	0	1	1	1830	1830	1830
+SUB231363	Atopic	SCSC	31085	81-Month Clinic Visit	1.2	missing	.x									
+SUB231363	Atopic	SCSC	31078	60-Month Clinic Visit	1.1	complete	60	1	09:15:00	10:00:00	0	1	1	1826	1826	1826
+SUB231365	Atopic	SCSC	34184	81-Month Clinic Visit	1.2	missing	.x									
+SUB231365	Atopic	SCSC	34177	60-Month Clinic Visit	1.1	complete	60	1	09:40:00	10:07:00	0	1	1	1872	1872	1872
+SUB231366	Atopic	SCSC	39218	60-Month Clinic Visit	1.1	complete	60	1	09:35:00	10:30:00	0	1	1	1804	1804	1804
+SUB231366	Atopic	SCSC	39225	81-Month Clinic Visit	1.2	missing	.x									
+SUB231367	Atopic	SCSC	32021	60-Month Clinic Visit	1.1	complete	60	1	11:47:00	12:45:00	0	1		1882	1882	1882
+SUB231367	Atopic	SCSC	32028	81-Month Clinic Visit	1.2	missing	.x									
+SUB231368	Atopic	SCSC	37904	81-Month Clinic Visit	1.2	missing	.x									
+SUB231369	Atopic	SCSC	31720	60-Month Clinic Visit	1.1	complete	60	1	10:30:00	11:05:00	1	2		1879	1879	1879
+SUB231369	Atopic	SCSC	31727	81-Month Clinic Visit	1.2	missing	.x									
+SUB231372	Atopic	SCSC	32411	60-Month Clinic Visit	1.1	complete	60	1	09:54:00	10:55:00	0	1		1865	1865	1865
+SUB231372	Atopic	SCSC	32418	81-Month Clinic Visit	1.2	missing	.x									
+SUB231373	Atopic	SCSC	32297	81-Month Clinic Visit	1.2	missing	.x									
+SUB231373	Atopic	SCSC	32290	60-Month Clinic Visit	1.2	complete	60	1	12:14:00	12:45:00	0	1		1913	1913	1913
+SUB231374	Atopic	SCSC	40064	81-Month Clinic Visit	1.2	missing	.x									
+SUB231374	Atopic	SCSC	40057	60-Month Clinic Visit	1.1	complete	60	1	11:55:00	00:35:00	0	1	1	1784	1784	1784
+SUB231376	Atopic	SCSC	33251	81-Month Clinic Visit	1.2	missing	.x									
+SUB231376	Atopic	SCSC	33244	60-Month Clinic Visit	1.1	complete	60	1	12:20:00	12:50:00	0	1	1	1833	1833	1833
+SUB231377	Atopic	SCSC	34990	60-Month Clinic Visit	1.2	missing	.x									
+SUB231377	Atopic	SCSC	34997	81-Month Clinic Visit	1.2	missing	.x									
+SUB231378	Atopic	SCSC	34634	81-Month Clinic Visit	1.2	missing	.x									
+SUB231378	Atopic	SCSC	34627	60-Month Clinic Visit	1.2	complete	60	1	11:16:00	12:02:00	0	1		1912	1912	1912
+SUB231379	Atopic	SCSC	34694	81-Month Clinic Visit	1.2	missing	.x									
+SUB231379	Atopic	SCSC	34687	60-Month Clinic Visit	1.2	complete	60	1	12:41:00	13:21:00	1	1		1857	1857	1857
+SUB231380	Atopic	SCSC	38441	60-Month Clinic Visit	1.2	complete	60	1	12:37:00	12:57:00	0	1		1903	1903	1903
+SUB231381	Atopic	SCSC	32527	60-Month Clinic Visit	1.2	complete	60	1	11:05:00	11:50:00	0	1		1895	1895	1895
+SUB231382	Atopic	SCSC	44963	60-Month Clinic Visit	1.1	complete	60	1	11:10:00	12:15:00	0	1	1	1795	1795	1795
+SUB231382	Atopic	SCSC	44970	81-Month Clinic Visit	1.2	missing	.x									
+SUB231383	Atopic	SCSC	50450	60-Month Clinic Visit	1.2	missing	.x									
+SUB231384	Atopic	SCSC	39261	81-Month Clinic Visit	1.2	missing	.x									
+SUB231384	Atopic	SCSC	39254	60-Month Clinic Visit	1.2	complete	60	1	11:24:00	11:55:00	0	1		1909	1909	1909
+SUB231387	Atopic	SCSC	39395	81-Month Clinic Visit	1.2	missing	.x									
+SUB231387	Atopic	SCSC	39388	60-Month Clinic Visit	1.2	complete	60	1	09:59:00	10:45:00	1	1		1825	1825	1825
+SUB231388	Atopic	SCSC	32609	60-Month Clinic Visit	1.2	complete	60	1	08:53:00	09:35:00	0	1		1893	1893	1893
+SUB231388	Atopic	SCSC	32616	81-Month Clinic Visit	1.2	missing	.x									
+SUB231389	Atopic	SCSC	32305	60-Month Clinic Visit	1.2	complete	60	1	16:06:00	17:00:00	0	1		1899	1899	1899
+SUB231390	Atopic	SCSC	32170	60-Month Clinic Visit	1.2	complete	60	1	10:16:00	10:50:00	1	1		1921	1925	1925
+SUB231391	Atopic	SCSC	31567	60-Month Clinic Visit	1.2	complete	60	1	12:44:00	13:30:00	0	1		1825	1825	1825
+SUB231392	Atopic	SCSC	33406	60-Month Clinic Visit	1.2	complete	60	1	09:18:00	09:35:00	0	1		1884	1884	1884
+SUB231393	Atopic	SCSC	44474	60-Month Clinic Visit	1.2	complete	60	1	10:36:00	11:30:00	1	1		1918	1918	1918
+SUB231394	Atopic	SCSC	34414	60-Month Clinic Visit	1.2	complete	60	1	11:38:00	12:13:00	0	1		1908	1908	1908
+SUB231395	Atopic	SCSC	32009	60-Month Clinic Visit	1.2	complete	60	1	10:22:00	11:30:00	1	1		1862	1862	1862
+SUB231396	Atopic	SCSC	31520	60-Month Clinic Visit	1.2	complete	60	1	12:02:00	12:38:00	1	1		1911	1911	1911
+SUB231397	Atopic	SCSC	34575	60-Month Clinic Visit	1.2	missing	.x									
+SUB231398	Atopic	SCSC	34588	60-Month Clinic Visit	1.2	complete	60	1	10:33:00	11:29:00	1	1		1887	1887	1887
+SUB231400	Atopic	SCSC	35543	60-Month Clinic Visit	1.2	complete	60	1	14:26:00	15:26:00	0	1		1903	1903	1903
+SUB231401	Atopic	SCSC	30916	60-Month Clinic Visit	1.2	complete	60	1	11:43:00	12:27:00	0	1		1899	1899	1899
+SUB231402	Atopic	SCSC	34893	60-Month Clinic Visit	1.2	complete	60	1	11:05:00	11:24:00	0	1		1897	1897	1897
+SUB231403	Atopic	SCSC	30828	60-Month Clinic Visit	1.2	complete	60	1	14:33:00	15:25:00	0	1		1879	1879	1879
+SUB231404	Atopic	SCSC	39866	60-Month Clinic Visit	1.2	complete	60	1	15:15:00	15:26:00	0	1		1893	1893	1893
+SUB231405	Atopic	SCSC	32463	60-Month Clinic Visit	1.2	complete	60	1	16:59:00	17:19:00	0	1		1874	1874	1874
+SUB231406	Atopic	SCSC	33372	60-Month Clinic Visit	1.2	complete	60	1	13:30:00	14:20:00	0	1		1896	1896	1896
+SUB231410	Atopic	SCSC	31974	60-Month Clinic Visit	1.2	complete	60	1	10:54:00	11:35:00	0	1		1870	1870	1870
+SUB231411	Atopic	SCSC	37469	60-Month Clinic Visit	1.2	complete	60	1	10:28:00	11:35:00	0	1		1880	1880	1880
+SUB231412	Atopic	SCSC	30744	60-Month Clinic Visit	1.2	complete	60	1	11:26:00	12:25:00	0	1		1862	1862	1862
+SUB231413	Atopic	SCSC	31398	60-Month Clinic Visit	1.2	complete	60	1	12:46:00	13:30:00	0	1		1867	1867	1867
+SUB231414	Atopic	SCSC	31987	60-Month Clinic Visit	1.2	complete	60	1	10:18:00	11:18:00	0	1		1853	1853	1853
+SUB231415	Non-atopic	SCSC	31343	60-Month Clinic Visit	1.2	complete	60	1	14:47:00	15:40:00	1	1		1870	1870	1870
+SUB231417	Atopic	SCSC	35274	60-Month Clinic Visit	1.2	complete	60	1	11:23:00	11:35:00	0	1		1853	1853	1853
+SUB231418	Atopic	SCSC	31592	60-Month Clinic Visit	1.2	complete	60	1	12:32:00	13:17:00	0	1		1867	1867	1867
+SUB231419	Atopic	SCSC	33462	60-Month Clinic Visit	1.2	complete	60	1	08:06:00	08:37:00	0	1		1877	1877	1877
+SUB231420	Atopic	SCSC	31771	60-Month Clinic Visit	1.2	complete	60	1	09:17:00	09:53:00	1	1		1872	1872	1872
+SUB231421	Atopic	SCSC	34288	60-Month Clinic Visit	1.2	complete	60	1	10:35:00	11:20:00	0	1		1875	1875	1875
+SUB231422	Atopic	SCSC	32340	60-Month Clinic Visit	1.2	complete	60	1	07:53:00	08:44:00	1	1		1875	1875	1875
+SUB231423	Atopic	SCSC	36116	60-Month Clinic Visit	1.2	complete	60	1	11:30:00	11:42:00	0	1		1846	1846	1846
+SUB231424	Atopic	SCSC	33663	60-Month Clinic Visit	1.2	complete	60	1	14:45:00	15:01:00	1	1		1882	1882	1882
+SUB231425	Non-atopic	SCSC	37776	60-Month Clinic Visit	1.2	missing	.x									
+SUB231426	Atopic	SCSC	36746	60-Month Clinic Visit	1.2	complete	60	1	11:00:00	12:05:00	0	1		1827	1827	1827
+SUB231427	Atopic	SCSC	34640	60-Month Clinic Visit	1.2	complete	60	1	10:37:00	11:40:00	1	1		1907	1907	1907
+SUB231428	Atopic	SCSC	35406	60-Month Clinic Visit	1.2	complete	60	1	08:05:00	09:20:00	0	1		1857	1857	1857
+SUB231429	Non-atopic	SCSC	34141	60-Month Clinic Visit	1.2	complete	60	1	10:32:00	11:33:00	0	1		1817	1817	1817
+SUB231430	Non-atopic	SCSC	36556	60-Month Clinic Visit	1.2	complete	60	1	10:14:00	11:20:00	0	1		1839	1839	1839
+SUB231431	Non-atopic	SCSC	40120	60-Month Clinic Visit	1.2	missing	.x									
+SUB231432	Non-atopic	SCSC	36031	60-Month Clinic Visit	1.2	complete	60	1	11:44:00	11:55:00	0	1		1902	1902	1902
+SUB231433	Atopic	SCSC	34190	60-Month Clinic Visit	1.2	complete	60	1	08:45:00	09:35:00	1	1		1841	1841	1841
+SUB231434	Non-atopic	SCSC	36289	60-Month Clinic Visit	1.2	complete	60	1	08:25:00	10:16:00	0	1		1853	1853	1853
+SUB231435	Atopic	SCSC	34103	60-Month Clinic Visit	1.2	complete	60	1	11:10:00	12:12:00	1	1		1893	1893	1893
+SUB231436	Atopic	SCSC	35222	60-Month Clinic Visit	1.2	complete	60	1	15:31:00	16:20:00	1	1		1840	1840	1840
+SUB231437	Atopic	SCSC	35245	60-Month Clinic Visit	1.2	complete	60	1	10:53:00	11:35:00	0	1		1828	1828	1828
+SUB231438	Non-atopic	SCSC	36899	60-Month Clinic Visit	1.2	complete	60	1	10:30:00	12:00:00	0	1		1845	1845	1845
+SUB231439	Non-atopic	SCSC	34918	60-Month Clinic Visit	1.2	complete	60	1	10:40:00	11:20:00	0	1		1824	1824	1824
+SUB231440	Atopic	SCSC	35451	60-Month Clinic Visit	1.2	complete	60	1	14:40:00	15:15:00	1	1		1831	1831	1831
+SUB231441	Atopic	SCSC	38590	60-Month Clinic Visit	1.2	complete	60	1	14:47:00	15:40:00	0	1		1911	1911	1911
+SUB231442	Atopic	SCSC	37181	60-Month Clinic Visit	1.2	complete	60	1	10:03:00	10:55:00	1	1		1880	1880	1880
+SUB231443	Atopic	SCSC	35259	60-Month Clinic Visit	1.2	complete	60	1	14:00:00	15:00:00	1	1		1883	1883	1883
+SUB231444	Atopic	SCSC	36709	60-Month Clinic Visit	1.2	complete	60	1	10:15:00	11:15:00	0	1		1845	1845	1845
+SUB231445	Atopic	SCSC	37717	60-Month Clinic Visit	1.2	complete	60	1	10:18:00	11:55:00	1	1		1859	1859	1859
+SUB231446	Non-atopic	SCSC	35473	60-Month Clinic Visit	1.2	complete	60	1	10:12:00	10:16:00	0	1		1816	1816	1816
+SUB231448	Atopic	SCSC	35837	60-Month Clinic Visit	1.2	complete	60	1	14:02:00	14:41:00	1	1		1831	1831	1831
+SUB231449	Atopic	SCSC	36542	60-Month Clinic Visit	1.2	missing	.x									
+SUB231450	Atopic	SCSC	38270	60-Month Clinic Visit	1.2	complete	60	1	09:59:00	10:40:00	0	1		1847	1847	1847
+SUB231451	Non-atopic	SCSC	40797	60-Month Clinic Visit	1.2	complete	60	1	11:34:00	12:45:00	0	1		1849	1849	1849
+SUB231452	Non-atopic	SCSC	36016	60-Month Clinic Visit	1.2	complete	60	1	14:30:00	15:20:00	0	2		1843	1843	1843
+SUB231453	Atopic	SCSC	38024	60-Month Clinic Visit	1.2	complete	60	1	11:18:00	12:05:00	0	1		1816	1816	1816
+SUB231454	Atopic	SCSC	41135	60-Month Clinic Visit	1.2	complete	60	1	11:15:00	11:50:00	0	1		1830	1830	1830
+SUB231455	Non-atopic	SCSC	38151	60-Month Clinic Visit	1.2	complete	60	1	11:31:00	13:15:00	0	1		1806	1806	1806
+SUB231456	Non-atopic	SCSC	38302	60-Month Clinic Visit	1.2	complete	60	1	13:35:00	14:55:00	1	1		1860	1860	1860
+SUB231457	Non-atopic	SCSC	37366	60-Month Clinic Visit	1.2	complete	60	1	08:33:00	09:20:00	0	1		1877	1877	1877
+SUB231459	Non-atopic	SCSC	41828	60-Month Clinic Visit	1.2	complete	60	1	09:13:00	10:50:00	0	1		1859	1859	1859
+SUB231460	Non-atopic	SCSC	37006	60-Month Clinic Visit	1.2	complete	60	1	10:57:00	12:29:00	1	1		1876	1876	1876
+SUB231462	Non-atopic	SCSC	42923	60-Month Clinic Visit	1.2	complete	60	1	14:46:00	15:25:00	1	1		1873	1873	1873
+SUB231463	Atopic	SCSC	39755	60-Month Clinic Visit	1.2	complete	60	1	10:25:00	10:53:00	0	1		1879	1879	1879
+SUB231465	Non-atopic	SCSC	40407	60-Month Clinic Visit	1.2	complete	60	1	10:09:00	10:44:00	1	1		1843	1843	1843
+SUB231466	Atopic	SCSC	39972	60-Month Clinic Visit	1.2	complete	60	1	13:05:00	13:27:00	0	1		1868	1868	1868
+SUB231467	Atopic	SCSC	40482	60-Month Clinic Visit	1.2	complete	60	1	14:05:00	14:55:00	0	1		1800	1800	1800
+SUB231468	Atopic	SCSC	39403	60-Month Clinic Visit	1.2	complete	60	1	10:36:00	10:45:00	0	1		1811	1811	1811
+SUB231469	Non-atopic	SCSC	42458	60-Month Clinic Visit	1.2	complete	60	1	13:07:00	13:37:00	0	1		1838	1838	1838
+SUB231470	Non-atopic	SCSC	41596	60-Month Clinic Visit	1.2	complete	60	1	10:43:00	12:43:00	1	1		1836	1836	1836

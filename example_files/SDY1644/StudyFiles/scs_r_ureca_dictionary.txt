@@ -1,0 +1,13 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	153	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SCS"", ""SCS"")"
+3	4	evid	evid	dbl	numeric	double	153	0	c(5476, 66499)
+4	5	event	event	chr	character	character	1	0	"c(""Deactivation Event"", ""Deactivation Event"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""d"")"
+8	9	SCS_q1	Participant Completed the Study	dbl	numeric	double	2	1	c(0, 0)
+9	10	SCS_q1a	Primary Reason Participant Did Not Complete Study	dbl	numeric	double	8	1	c(1, 8)
+10	11	aCompletionDY	Completion Day	dbl	numeric	double	148	1	c(26, 4521)
+11	12	SCS_q2dDY	Principal Investigator - Day	dbl	numeric	double	148	1	c(26, 4536)

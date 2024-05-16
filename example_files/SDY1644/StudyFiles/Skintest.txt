@@ -1,0 +1,578 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   A Calatroni         03/14/2011      Derive Skintest
+*   K Jaffee            05/17/2016      Add 120-m visits from ASTR3
+*   Alexandre Lockhart  06/15/2017      Updated for complete 10 year data
+*   Alexandre Lockhart  12/11/2017      Updated to add any_aero_stp_ratio variable
+*   Alexandre Lockhart  10/23/2018      Added saline (wheal size) and histamine (wheal size) (ASTR_Q8C_B and ASTR_Q1c_B) ASTR3_Q8C_B and ASTR3_Q1c_B
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=Skintest,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc freq data=master.astr ;
+   tables aVisit ;
+   where status="complete" and ASTR_q4_A=1 ;
+run ;
+
+proc print data=master.astr ;
+   var studyid ASTR_q8c_B event ;
+   where ASTR_q1A_d=1 and ASTR_q8c_B>3 ;
+run ;
+proc print data=master.astr ;
+   var studyid ASTR_q1c_B ASTR_q8c_B event ;
+   where ASTR_q1B_D=1 and (ASTR_q1c_B - ASTR_q8c_B<3) ;
+run ;
+
+*Get successful skin tests;
+proc sort data=master.astr out=Skin00 nodupkey;
+by studyid acompletiondate;
+where status='complete' and 
+     ASTR_q1a1_A ne 1 and     /* No anihistamines taken*/
+      ASTR_q4_A=1 and          /* Skin test done = yes */
+      ASTR_q1A_d=1 and         /* Saline Wheal <= 3mm = yes*/
+      ASTR_q1B_D=1;            /* Histamine - Saline >= 3mm */
+run;
+
+proc sort data=master.astr3 out=Skin00_v2 nodupkey;
+by studyid acompletiondate;
+where status='complete' and 
+     ASTR3_q1_A ne 1 and     /* No anihistamines taken*/
+      ASTR3_q4_A=1 and          /* Skin test done = yes */
+      ASTR3_q1a_D=1 and         /* Saline Wheal <= 3mm = yes*/
+      ASTR3_q1b_D=1;            /* Histamine - Saline >= 3mm */
+run;
+
+/*proc sort data=master.astr3 out=Skin00_test nodupkey;*/
+/*by studyid acompletiondate;*/
+/*where status^='complete' or */
+/*     ASTR3_q1_A = 1 or     /* No anihistamines taken*/*/
+/*      ASTR3_q4_A^=1 or          /* Skin test done = yes */*/
+/*      ASTR3_q1a_D^=1 or         /* Saline Wheal <= 3mm = yes*/*/
+/*      ASTR3_q1b_D^=1;            /* Histamine - Saline >= 3mm */*/
+/*run;*/
+/**/
+/*proc freq data=master.astr3 ;*/
+/*   tables status  ASTR3_q1_A ASTR3_q4_A  ASTR3_q1a_D  ASTR3_q1b_D;*/
+/*run ;*/
+/**/
+/*proc freq data=master.astr3 ;*/
+/*   tables  ASTR3_q1a_D*ASTR3_q1b_D*ASTR3_q4_A / missing;*/
+/*run ;
+
+proc freq data=Skin00 ;
+   tables aVisit ;
+run ;
+proc freq data=Skin00_v2 ;
+   tables aVisit ;
+run ;
+
+***Always run this before creating derived set -- the RASTR (rescheduleds) need to be re-coded ;
+***23 printed and recoded as of 5/17/2016 ;
+proc print data=Skin00 ;
+   var studyid aCompletionDate ;
+   where avisit="rastr" and aCompletionDate>=0 ;
+run ;
+proc print data=Skin00_v2 ;
+   var studyid aCompletionDate ;
+   where avisit="rastr" and aCompletionDate>=0 ;
+run ;
+
+***Manual recodes ;
+data skin01 ;
+   retain astr_q8c_b astr_q1c_b;
+   set skin00 ;
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+   ***120-month in the original ASTR that had been rescheduled ;
+  *hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+ *hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+   ***120-month in the original ASTR that had been rescheduled ;
+ *hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;   
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+   ***120-month in the original ASTR that had been rescheduled ;
+*hardcodes here have been removed to protect patient confidentiality;
+         *hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+ if nmiss(ASTR_q7c_B, ASTR_q8c_B) = 0 then Dog_Wheal=        ASTR_q7c_B-ASTR_q8c_B;
+ if nmiss(ASTR_q6c_B, ASTR_q8c_B) = 0 then DerF_Wheal=       ASTR_q6c_B-ASTR_q8c_B;
+ if nmiss(ASTR_q5c_B, ASTR_q8c_B) = 0 then Rat_Wheal=        ASTR_q5c_B-ASTR_q8c_B;
+ if nmiss(ASTR_q2c_B, ASTR_q8c_B) = 0 then Cat_Wheal=        ASTR_q2c_B-ASTR_q8c_B;
+ if nmiss(ASTR_q3c_B, ASTR_q8c_B) = 0 then DerP_Wheal=       ASTR_q3c_B-ASTR_q8c_B;
+ if nmiss(ASTR_q4c_B, ASTR_q8c_B) = 0 then Mouse_Wheal=      ASTR_q4c_B-ASTR_q8c_B;
+ if nmiss(ASTR_q8c_C, ASTR_q8c_B) = 0 then GermanRoach_Wheal=ASTR_q8c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q7c_C, ASTR_q8c_B) = 0 then Alter_Wheal=      ASTR_q7c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q6c_C, ASTR_q8c_B) = 0 then Asper_Wheal=      ASTR_q6c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q5c_C, ASTR_q8c_B) = 0 then Ragweed_Wheal=    ASTR_q5c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q1c_C, ASTR_q8c_B) = 0 then RoachMix_Wheal=   ASTR_q1c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q2c_C, ASTR_q8c_B) = 0 then Tree_Wheal=       ASTR_q2c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q3c_C, ASTR_q8c_B) = 0 then Peni_Wheal=       ASTR_q3c_C-ASTR_q8c_B;
+ if nmiss(ASTR_q4c_C, ASTR_q8c_B) = 0 then TimGrass_Wheal=   ASTR_q4c_C-ASTR_q8c_B;
+
+   drop astudyid astr_q8a_b -- astr_q2_d; 
+   *drop astudyid astr_q8a_b -- astrq1b_b astr_q7c_b -- astr_q2c_b ;
+run ;
+proc print data=skin00_v2;
+   var avisit astr3_q1c_b astr3_q8c_b;
+run;
+
+
+***Manual recodes and change variable names to set datasets ;
+data skin01_v2 ;
+    retain astr3_q8c_b astr3_q1c_b;
+   set Skin00_v2 ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+   end ;
+
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+
+ end;
+
+*hardcodes here have been removed to protect patient confidentiality;
+      end ;
+
+ end;
+
+
+ if nmiss(ASTR3_q7c_B, ASTR3_q8c_B) = 0 then Dog_Wheal=        ASTR3_q7c_B-ASTR3_q8c_B;
+ if nmiss(ASTR3_q6c_B, ASTR3_q8c_B) = 0 then DerF_Wheal=       ASTR3_q6c_B-ASTR3_q8c_B;
+ if nmiss(ASTR3_q5c_B, ASTR3_q8c_B) = 0 then Rat_Wheal=        ASTR3_q5c_B-ASTR3_q8c_B;
+ if nmiss(ASTR3_q2c_B, ASTR3_q8c_B) = 0 then Cat_Wheal=        ASTR3_q2c_B-ASTR3_q8c_B;
+ if nmiss(ASTR3_q3c_B, ASTR3_q8c_B) = 0 then DerP_Wheal=       ASTR3_q3c_B-ASTR3_q8c_B;
+ if nmiss(ASTR3_q4c_B, ASTR3_q8c_B) = 0 then Mouse_Wheal=      ASTR3_q4c_B-ASTR3_q8c_B;
+ if nmiss(ASTR3_q8c_C, ASTR3_q8c_B) = 0 then GermanRoach_Wheal=ASTR3_q8c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q7c_C, ASTR3_q8c_B) = 0 then Alter_Wheal=      ASTR3_q7c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q6c_C, ASTR3_q8c_B) = 0 then Asper_Wheal=      ASTR3_q6c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q5c_C, ASTR3_q8c_B) = 0 then Ragweed_Wheal=    ASTR3_q5c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q1c_C, ASTR3_q8c_B) = 0 then RoachMix_Wheal=   ASTR3_q1c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q2c_C, ASTR3_q8c_B) = 0 then Tree_Wheal=       ASTR3_q2c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q3c_C, ASTR3_q8c_B) = 0 then Peni_Wheal=       ASTR3_q3c_C-ASTR3_q8c_B;
+ if nmiss(ASTR3_q4c_C, ASTR3_q8c_B) = 0 then TimGrass_Wheal=   ASTR3_q4c_C-ASTR3_q8c_B;
+
+   rename ASTR3_q1_A=ASTR_q1a1_A
+          ASTR3_q1a_A=ASTR_q1a_A
+          ASTR3_q2_A=ASTR_q2_A
+          ASTR3_q2a_A=ASTR_q2a_A
+          ASTR3_q3_A=ASTR_q3_A
+          ASTR3_q4_A=ASTR_q4_A
+          ASTR3_q4a_A=ASTR_q4a_A
+          ASTR3_q4b_A=ASTR_q4b_A
+          ASTR3_q5_A=ASTR_q5_A
+          ASTR3_q6_A=ASTR_q6_A ;
+          
+   drop astudyid astr3_q8a_b -- ASTR3_q4_D ;
+run ;
+
+***Double check - this should be 0 after manual coding above ;
+proc print data=Skin01 ;
+   var studyid aCompletionDate ;
+   where avisit="rastr" and aCompletionDate>=0 ;
+run ;
+proc print data=skin01_v2 ;
+   var studyid aCompletionDate ;
+   where avisit="rastr" and aCompletionDate>=0 ;
+run ;
+
+data Skin10;
+ set Skin01 (rename=(avisit=avisit_char))
+     skin01_v2(rename=(avisit=avisit_char));
+ avisit = input(put(avisit_char,$8.),8.);
+ avisit_orig=avisit ;
+ if avisit=33 then avisit=36;
+ if avisit=81 then avisit=84;
+ drop avisit_char;
+
+
+
+run;
+proc print data=skin10;
+   var avisit astr_q1c_b astr_q8c_b astr3_q1c_b astr3_q8c_b;
+run;
+
+
+proc freq data=Skin10 ;
+   tables aVisit ;
+   *where status="complete" ;
+run ;
+
+* No duplicates found as of 06/15/2017 ;
+proc sort data=Skin10 nodupkey dupout=dups;
+ by studyid avisit;
+run;
+
+
+
+
+Data SkinTest;
+
+ Set Skin10;
+
+ array wheal (14) Dog_Wheal DerF_Wheal Rat_Wheal Cat_Wheal DerP_Wheal Mouse_Wheal GermanRoach_Wheal 
+              Alter_Wheal Asper_Wheal Ragweed_Wheal RoachMix_Wheal Tree_Wheal Peni_Wheal TimGrass_Wheal;
+ array pos (14)   dog_stp derf_stp rat_stp cat_stp derp_stp mouse_stp germanroach_stp
+              alter_stp asper_stp ragweed_stp roachmix_stp tree_stp peni_stp timgrass_stp;
+ do i=1 to 14;
+   if wheal(i) >=3 then pos(i)=1;
+   else if wheal(i) ne . then pos(i)=0;
+ end;
+
+
+  if nmiss(dog_stp, derf_stp, rat_stp, cat_stp, derp_stp, mouse_stp, germanroach_stp,
+           alter_stp, asper_stp, ragweed_stp, roachmix_stp, tree_stp, peni_stp, timgrass_stp) ^= 14
+    then num_skin=Sum(dog_stp, derf_stp, rat_stp, cat_stp, derp_stp, mouse_stp, germanroach_stp,
+           alter_stp, asper_stp, ragweed_stp, roachmix_stp, tree_stp, peni_stp, timgrass_stp);
+
+       if num_skin>=1 then any_skin=1; 
+  Else if num_skin=0   then any_skin=0;
+
+ drop i;
+
+ if nmiss(Dog_stp, DerF_stp, Rat_stp, Cat_stp, DerP_stp, Mouse_stp, GermanRoach_stp, RoachMix_stp) ^= 8
+   then AtopyIn=Sum(Dog_stp, DerF_stp, Rat_stp, Cat_stp, DerP_stp, Mouse_stp, GermanRoach_stp, RoachMix_stp);
+
+
+ rename ASTR_q1_A=meds_4day 
+        ASTR_q1a_A=med_name 
+        ASTR_q1a1_A=histamines_4day
+        ASTR_q2_A=fever_3day 
+        ASTR_q2a_A=sick_nospt
+        ASTR_q3_A=exac_3day 
+        ASTR_q4_A=spt_done 
+        ASTR_q4a_A=spt_notdone_reas
+        ASTR_q4b_A=spt_resched
+        ASTR_q5_A = time_spt 
+        ASTR_q6_A = time_eval ;
+
+ label    dog_stp       ='Skin test positive to dog'
+      derf_stp       ='Skin test positive to der f mite'
+      rat_stp       ='Skin test positive to rat'
+      cat_stp       ='Skin test positive to cat'
+      derp_stp       ='Skin test positive to der p mite'
+      mouse_stp       ='Skin test positive to mouse'
+      germanroach_stp   ='Skin test positive to german roach'
+      alter_stp       ='Skin test positive to alternaria'
+      asper_stp       ='Skin test positive to aspergillus'
+      ragweed_stp    ='Skin test positive to ragweed'
+      roachmix_stp   ='Skin test positive to cockroach mix' 
+      tree_stp       ='Skin test positive to tree (oak/birch)'
+      peni_stp       ='Skin test positive to penicillium'
+      timgrass_stp   ='Skin test positive to timothy grass'
+      num_skin      ='# of Positive Skin Tests'
+        any_skin      ='One or More Positive Skin Tests?'
+        atopyin         = "# of Positive Skin Tests to Indoor Allergens"
+      ASTR_q1a1_A = 'Taken Antihistamines in Last 4 Days'
+     Histamine_WHEAL='Histamine Wheal size'
+     Saline_WHEAL='Saline Wheal size'
+
+;
+
+ format dog_stp derf_stp rat_stp cat_stp derp_stp mouse_stp germanroach_stp
+       alter_stp asper_stp ragweed_stp roachmix_stp tree_stp peni_stp timgrass_stp any_skin 
+         any_petstp any_treestp any_rodentstp any_roachstp any_moldstp any_mitestp yesnofm.;
+
+ 
+
+*Create variable for any_aero_stp_ratio;
+
+
+  
+
+      ***any stp pet ;
+      any_petstp = max(cat_stp, dog_stp) ;
+
+      ***any stp tree ;
+      any_treestp = max(timgrass_stp, tree_stp, ragweed_stp) ;
+      
+      ***any stp rodent ;
+      any_rodentstp = max(rat_stp, mouse_stp) ;
+
+      ***any stp roach ;
+      any_roachstp = max(germanroach_stp, roachmix_stp) ;
+    
+      ***any stp mold ;
+      any_moldstp = max(alter_stp, asper_stp, peni_stp) ;
+
+
+      ***any stp mite ;
+      any_mitestp = max(derf_stp, derp_stp) ;
+
+
+      ***any aero stp numerator;
+      any_aero_stp_num = SUM(any_petstp,any_treestp,any_rodentstp,any_roachstp,any_moldstp,
+
+                          any_mitestp) ;
+
+ 
+      ***any aero stp denominator;
+      any_aero_stp_denom = 6 - NMISS(any_petstp,any_treestp,any_rodentstp,any_roachstp,any_moldstp,
+
+                                  any_mitestp) ;
+
+ 
+      ***any aero stp ratio;
+      any_aero_stp_ratio = any_aero_stp_num/any_aero_stp_denom ;
+
+
+     if not missing(astr_q1c_b) then Histamine_WHEAL=astr_q1c_b;
+      else Histamine_WHEAL=astr3_q1c_b;
+
+    if not missing(astr_q8c_b) then Saline_WHEAL=astr_q8c_b;
+      else Saline_WHEAL=astr3_q8c_b;
+
+Run;
+
+
+
+
+
+
+
+
+
+
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 36,60,84,120;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+proc sort data=shell; by studyid avisit;run;
+
+
+data temp_skintest;
+   merge shell SkinTest (in=c);
+ by studyid avisit;
+ if c=1 then skintest=1; else skintest=0;
+run; 
+proc contents data=temp_skintest; run;
+
+data temp_skintest;
+   
+   set temp_skintest;
+label year='Year'
+         avisit='Visit month'
+         avisit_orig='Visit month (original)'
+         any_treestp='Skin Test Positive to One or More Tree Allergen'
+         any_rodentstp='Skin Test Positive to One or More Rodent Allergen'
+         any_roachstp='Skin Test Positive to One or More Roach Allergen'
+         any_petstp='Skin Test Positive to One or More Pet Allergen'
+         any_moldstp='Skin Test Positive to One or More Mold Allergen'
+         any_mitestp='Skin Test Positive to One or More Dust Mite Allergen'
+         any_aero_stp_ratio='Ratio of positive skin test aeroallergens'
+         any_aero_stp_num='Number of positive skin test aeroallergens'
+         any_aero_stp_denom='Total number of aeroallergens tested'
+         Tree_Wheal='Wheal generated by tree allergens'
+         TimGrass_Wheal='Wheal generated by grass allergens'
+         Rat_Wheal='Wheal generated by rat allergens'
+         Ragweed_Wheal='Wheal generated by ragweed allergens'
+         Peni_Wheal='Wheal generated by peni allergens'
+         Mouse_Wheal='Wheal generated by mouse allergens'
+         GermanRoach_Wheal='Wheal generated by German Roach allergens'
+         Dog_Wheal='Wheal generated by dog allergens'
+         DerP_Wheal='Wheal generated by derP mite allergens'
+         DerF_Wheal='Wheal generated by derF mite allergens'
+         Cat_Wheal='Wheal generated by cat allergens'
+         Asper_Wheal='Wheal generated by asper allergens'
+         alter_Wheal='Wheal generated by alter allergens'
+         Roachmix_Wheal='Wheal generated by roach allergens'
+         ;
+run;
+
+proc contents data=temp_skintest; run;
+
+
+
+
+data temp_skintest2;
+ 
+ set temp_skintest;
+ if avisit=81 then avisit=84;
+ if event='81-Month Clinic Visit' then event='84-Month Clinic Visit';
+ drop api;
+run;
+data derive.SkinTest;
+   set temp_skintest2;
+run;
+
+
+proc freq data=derive.SkinTest; ;
+   tables event avisit ;
+   *where status="complete" ;
+run ;
+
+proc means data=derive.skintest;
+var dog_stp derf_stp rat_stp cat_stp derp_stp mouse_stp germanroach_stp
+       alter_stp asper_stp ragweed_stp roachmix_stp tree_stp peni_stp timgrass_stp  
+        ;
+class year;
+run;
+
+
+
+
+*** 3. Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.skintest
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+proc freq data= derive.skintest; tables avisit*skintest; run;
+
+
+ods select Position;
+proc contents data=derive.skintest position; run;
+run;
+ods select default;

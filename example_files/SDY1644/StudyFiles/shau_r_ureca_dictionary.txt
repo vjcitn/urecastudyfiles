@@ -1,0 +1,27 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""SHAU"", ""SHAU"")"
+3	4	evid	evid	dbl	numeric	double	833	0	c(2, 18056)
+4	5	event	event	chr	character	character	1	0	"c(""Prenatal Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.2"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""p"")"
+8	9	SHAU_q1	Participant Has Ever Smoke Cigarettes	dbl	numeric	double	3	12	c(0, 1)
+9	10	SHAU_q2	Number of Cigarettes Smoked Before Becoming Pregnant	dbl	numeric	double	24	445	c(0, 150)
+10	11	SHAU_q2a	Time Frame of Cigarrettes Smoked Before Becoming Pregnant	time	"c(""hms"", ""difftime"")"	double	5	511	c(1, 4)
+11	12	SHAU_q2a1	Specify Time Frame - Before Becoming Pregnant	chr	character	character	13	0	"c("".a"", ""year before pegnant"")"
+12	13	SHAU_q3	Currently Smoking Cigarettes	dbl	numeric	double	3	445	c(0, 1)
+13	14	SHAU_q3a1	Month of Last Smoked Cigarettes	dbl	numeric	double	13	579	c(1, 12)
+14	15	SHAU_q3a2	Year of Last Smoked Cigarettes	dbl	numeric	double	22	579	c(0, 99)
+15	16	SHAU_q3b	Cigarettes Smoked Now	dbl	numeric	double	11	699	c(1, 20)
+16	17	SHAU_q3b1	Time Frame of Cigarrettes Smoked - Now	time	"c(""hms"", ""difftime"")"	double	5	699	c(1, 4)
+17	18	SHAU_q3b1a	Specify Time Frame - Cigarettes Smoked Now	chr	character	character	4	0	"c("".a"", ""occassionally"")"
+18	19	SHAU_q4	Number of People Who Smoke in Home	dbl	numeric	double	10	13	c(0, 24)
+19	20	SHAU_q5	Number of Alcoholic drinks Consumed in Year Prior to Pregnancy	dbl	numeric	double	18	13	c(0, 24)
+20	21	SHAU_q5a	Time Frame of Number of Alcoholic drinks Consumed in Year Prior to Pregnancy	time	"c(""hms"", ""difftime"")"	double	5	440	c(1, 4)
+21	22	SHAU_q5a1	Time Frame of Number of Alcoholic drinks Consumed in Year Prior to Pregnancy - Specify Other	chr	character	character	51	0	"c("".a"", ""yearly, during christmas"")"
+22	23	SHAU_q6	Number of Alcoholic drinks Consumed During Pregnancy	dbl	numeric	double	14	12	c(0, 120)
+23	24	SHAU_q6a	Time Frame of Number of Alcoholic Drinks Consumed During Pregnancy	time	"c(""hms"", ""difftime"")"	double	5	749	c(1, 4)
+24	25	SHAU_q6a1	Time Frame of Number of Alcoholic Drinks Consumed During Pregnancy - Specify Other	chr	character	character	41	0	"c("".a"", ""year"")"
+25	26	aCompletionDY	Completion Day	dbl	numeric	double	150	231	c(-204, 27)

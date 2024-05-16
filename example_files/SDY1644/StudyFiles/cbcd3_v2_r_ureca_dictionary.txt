@@ -1,0 +1,43 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	48	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CBCD3_V2"", ""CBCD3_V2"")"
+3	4	evid	evid	dbl	numeric	double	48	0	c(52516, 59724)
+4	5	event	event	chr	character	character	1	0	"c(""120-Month Clinic Visit"", ""120-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""2.0"", ""2.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVst	Visit	chr	character	character	2	0	"c("".x"", ""120"")"
+8	9	CBCD3_V2_q1	Date data received	date	Date	double	38	3	c(16924, 17254)
+9	10	CBCD3_V2_q2	Total WBC	dbl	numeric	double	33	3	c(3.5, 10.2)
+10	11	CBCD3_V2_q2a	Total WBC - Significant?	dbl	numeric	double	2	3	c(0, 0)
+11	12	CBCD3_V2_q3	Eosinophil % of WBC	dbl	numeric	double	37	3	c(0, 19.4)
+12	13	CBCD3_V2_q3a	Eosinophil % of WBC - Significant?	dbl	numeric	double	2	3	c(0, 0)
+13	14	CBCD3_V2_q4	Total eosinophils	dbl	numeric	double	9	3	c(0, 1.3)
+14	15	CBCD3_V2_q4a	Total eosinophils - Significant?	dbl	numeric	double	2	3	c(0, 0)
+15	16	CBCD3_V2_q5	Lymphocyte % of WBC	dbl	numeric	double	44	3	c(17.7, 67)
+16	17	CBCD3_V2_q5a	Lymphocyte % of WBC - Significant?	dbl	numeric	double	2	3	c(0, 0)
+17	18	CBCD3_V2_q6a	Total lymphocytes - Significant?	dbl	numeric	double	2	3	c(0, 0)
+18	19	CBCD3_V2_q7	Neutrophil % of WBC	dbl	numeric	double	43	3	c(23.9, 71.7)
+19	20	CBCD3_V2_q7a	Neutrophil % of WBC - Significant?	dbl	numeric	double	2	3	c(0, 0)
+20	21	CBCD3_V2_q8	Total neutrophils	dbl	numeric	double	26	3	c(1.2, 6)
+21	22	CBCD3_V2_q8a	Total neutrophils - Significant?	dbl	numeric	double	2	3	c(0, 0)
+22	23	CBCD3_V2_q9	Basophil % of WBC	dbl	numeric	double	15	3	c(0, 1.8)
+23	24	CBCD3_V2_q9a	Basophil % of WBC - Significant?	dbl	numeric	double	2	3	c(0, 0)
+24	25	CBCD3_V2_q10	Total basophils	dbl	numeric	double	3	3	c(0, 0.1)
+25	26	CBCD3_V2_q10a	Total basophils - Significant?	dbl	numeric	double	2	3	c(0, 0)
+26	27	CBCD3_V2_q11	Monocyte % of WBC	dbl	numeric	double	32	3	c(2, 17.6)
+27	28	CBCD3_V2_q11a	Monocyte % of WBC - Significant?	dbl	numeric	double	2	3	c(0, 0)
+28	29	CBCD3_V2_q12	Total monocytes	dbl	numeric	double	9	3	c(0.1, 0.8)
+29	30	CBCD3_V2_q12a	Total monocytes - Significant?	dbl	numeric	double	2	3	c(0, 0)
+30	31	CBCD3_V2_q13	Total hemoglobin	dbl	numeric	double	27	3	c(10.7, 14.4)
+31	32	CBCD3_V2_q13a	Total hemoglobin - Significant?	dbl	numeric	double	3	3	c(0, 1)
+32	33	CBCD3_V2_q15	Hematocrit (HCT)	dbl	numeric	double	29	3	c(33.3, 43.2)
+33	34	CBCD3_V2_q15a	Hematocrit (HCT) - Significant?	dbl	numeric	double	3	3	c(0, 1)
+34	35	CBCD3_V2_q16	Red Blood Cell (RBC)	dbl	numeric	double	19	3	c(4, 12.7)
+35	36	CBCD3_V2_q16a	Red Blood Cell (RBC) - Significant?	dbl	numeric	double	2	3	c(0, 0)
+36	37	CBCD3_V2_q17	Platelet count	dbl	numeric	double	42	3	c(162, 644)
+37	38	CBCD3_V2_q17a	Platelet count - Significant?	dbl	numeric	double	2	3	c(0, 0)
+38	39	aFormDY	Visit Day	dbl	numeric	double	41	3	c(3627, 3842)
+39	40	CBCD3_VDY	Day data received	dbl	numeric	double	43	3	c(3628, 3848)
+40	41	CBCD3_V2_qDY	Second review day	dbl	numeric	double	37	3	c(3635, 3848)
+41	42	aPhysDY	Physician Signature Day	dbl	numeric	double	42	3	c(3635, 3848)

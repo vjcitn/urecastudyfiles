@@ -1,0 +1,17 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CBSC"", ""CBSC"")"
+3	4	evid	evid	dbl	numeric	double	823	0	c(3, 18057)
+4	5	event	event	chr	character	character	1	0	"c(""Birth"", ""Birth"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.2"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""b"")"
+8	9	CBSC_q1	Cord Blood Sample Collected	dbl	numeric	double	3	2	c(0, 1)
+9	10	CBSC_q2b	Time Sample was Collected	time	"c(""hms"", ""difftime"")"	double	403	182	c(780, 86280)
+10	11	CBSC_q3	Number of 50 mL Polypropylene Tubes Collected	dbl	numeric	double	3	180	c(1, 2)
+11	12	CBSC_q4	Status of 10 mL EDTA Tube For DNA Isolation	dbl	numeric	double	3	179	c(0, 1)
+12	13	CBSC_q5b	Time of Sample Picked Up	time	"c(""hms"", ""difftime"")"	double	163	180	c(10200, 84000)
+13	14	aCompletionDY	Completion Day	dbl	numeric	double	8	214	c(0, 6)
+14	15	CBSCQ2ADY	Day sample was collected	dbl	numeric	double	4	214	c(-1, 1)
+15	16	CBSCQ5ADY	Day sample was picked up	dbl	numeric	double	3	214	c(0, 1)

@@ -1,0 +1,30 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	471	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""BA"", ""BA"")"
+3	4	evid	evid	dbl	numeric	double	910	0	c(51262, 63231)
+4	5	event	event	chr	character	character	2	0	"c(""120-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	3	0	"c("".x"", ""96"")"
+8	9	BA_q1	I Worry Someone Might Hurt Me at School	dbl	numeric	double	5	93	c(0, 3)
+9	10	BA_q2	My Dreams Scare Me	dbl	numeric	double	5	93	c(0, 3)
+10	11	BA_q3	I Worry When I Am at School	dbl	numeric	double	5	93	c(0, 3)
+11	12	BA_q4	I Think about Scary Things	dbl	numeric	double	5	93	c(0, 3)
+12	13	BA_q5	I Worry People Might Tease Me	dbl	numeric	double	5	93	c(0, 3)
+13	14	BA_q6	I Am Afraid I Will Make Mistakes	dbl	numeric	double	5	93	c(0, 3)
+14	15	BA_q7	I Get Nervous	dbl	numeric	double	5	93	c(0, 3)
+15	16	BA_q8	I Am Afraid I Might Get Hurt	dbl	numeric	double	5	93	c(0, 3)
+16	17	BA_q9	I Worry I Might Get Bad Grades	dbl	numeric	double	5	93	c(0, 3)
+17	18	BA_q10	I Worry About the Future	dbl	numeric	double	5	93	c(0, 3)
+18	19	BA_q11	My Hands Shake	dbl	numeric	double	5	93	c(0, 3)
+19	20	BA_q12	I Worry I Might Go Crazy	dbl	numeric	double	5	93	c(0, 3)
+20	21	BA_q13	I Worry People Might Get Mad at Me	dbl	numeric	double	5	93	c(0, 3)
+21	22	BA_q14	I Worry I Might Lose Control	dbl	numeric	double	5	93	c(0, 3)
+22	23	BA_q15	I Worry	dbl	numeric	double	5	93	c(0, 3)
+23	24	BA_q16	I Have Problems Sleeping	dbl	numeric	double	5	93	c(0, 3)
+24	25	BA_q17	My Heart Pounds	dbl	numeric	double	5	93	c(0, 3)
+25	26	BA_q18	I Get Shaky	dbl	numeric	double	5	93	c(0, 3)
+26	27	BA_q19	I am Afraid That Something Bad Might Happen to Me	dbl	numeric	double	5	93	c(0, 3)
+27	28	BA_q20	I am Afraid That I Might Get Sick	dbl	numeric	double	5	93	c(0, 3)
+28	29	aFormDY	Visit Day	dbl	numeric	double	272	93	c(2863, 3896)

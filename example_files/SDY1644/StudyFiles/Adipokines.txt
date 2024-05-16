@@ -1,0 +1,588 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*  C. Visness           08/04/08        Created Program  
+*                       01/20/10        Updated to include and check 1 year samples 
+*                       03/29/11        Updated to include new 36/48 and 12-mo IL-6 and TNF-a from Amy
+*  K. Jaffee            03/29/11        Update template and add shell
+*  T. Bahnson           04/20/11        Applied Lab conversions
+*  K. Jaffee            09/23/16        Added age 5, 7 data to dataset 
+*  Andrew Moseby        31JUL2017       Added variable status_exp: looks for corresponding CHBSC data
+*  S Lussier            30NOV2018       Move back year 4 to 3 and year 6 to 5
+*  S Lussier            02FEB2019       Added age 10 data
+*  S Lussier            08APR2019       Update LLOD based on e-mail from A Dresen 3/29/19
+*  S Lussier            28JAN2020       Include rerun of CRP from A Dresen
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=Adipokines,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;                                                    
+
+***Katy - note to look into values that are NOT denoted as .B but are BELOW the LLOD ;
+proc sort data=master.cwsr out=test ; by studyid ; run ;
+
+proc freq data=test ;
+   tables aVisit ;
+run ;
+
+/*************************************************************************************
+ Input LODs, change units when necessary
+**************************************************************************************/
+data adipokines_1 ;                                                                                             
+   set master.cwsr;      
+
+**Manual edits ;
+   *this person has an identical 84m, but 84 contains a valid sampleID ;
+   *hardcodes here to correct dates have been removed to protect patient confidentiality;
+   *this person has an identical 84m, but 84 contains a valid sampleID ; 
+*hardcodes here to correct dates have been removed to protect patient confidentiality;
+   *this person has an identical 84m, but 84 contains a valid sampleID ; 
+ *hardcodes here to correct dates have been removed to protect patient confidentiality;
+   *this person has an identical 84m, but 84 contains a valid sampleID ; 
+*hardcodes here to correct dates have been removed to protect patient confidentiality;
+   *this person has an identical 84m, but 84 contains a valid sampleID ; 
+  *hardcodes here to correct dates have been removed to protect patient confidentiality;
+                                                                                                                 
+   **assign lower values;
+   **NB: These differ by lab;
+
+   *Leptin;
+   if avisit in ('b', '12')        then do ; 
+      if cwsr_q2a1=.b or cwsr_q2a1 < .1 then cwsr_q2a1=.1    ; 
+   end;
+   if avisit in ('36', '48')       then do ; 
+      if cwsr_q2a1=.b or cwsr_q2a1 < 16 then cwsr_q2a1=16    ; 
+   end;
+   if avisit in ('60', '81','84', '120')       then do ; 
+      if cwsr_q2a1=.b or cwsr_q2a1 < 38 then cwsr_q2a1=38    ; 
+   end;
+
+   *CRP;
+   if avisit in ('b', '12')        then do ; 
+      if cwsr_q2c1=.b or cwsr_q2c1 < .0005 then cwsr_q2c1=.0005 ; 
+   end;
+   if avisit in ('36', '48')       then do ; 
+      if cwsr_q2c1=.b or cwsr_q2c1 < .016 then cwsr_q2c1=0.016 ; 
+   end;
+   if avisit in ('60','72','81','84', '120')       then do ; 
+      if cwsr_q2c1=.b or cwsr_q2c1 < .012 then cwsr_q2c1=0.012 ; 
+   end;
+
+   *Adiponectin;
+   if avisit in ('36', '48')       then do ; 
+      if cwsr_q2b1=.b or cwsr_q2b1 < 16 then cwsr_q2b1=16    ; 
+   end;
+   if avisit in ('60','72','81','84','120')       then do ; 
+      if cwsr_q2b1=.b or cwsr_q2b1 < 26 then cwsr_q2b1=26    ; 
+   end;
+
+   *adjust for dilution factor in some samples as of email with A Dresen 8/20/19;
+
+  *hardcodes here have been removed to protect patient confidentiality;
+and avisit in ('81', '84') then do; 
+         cwsr_q2b1 = cwsr_q2b1 * 2000;
+   end;
+
+
+   *IL6;
+   if avisit in ('12') then do ; 
+      if cwsr_q2d1=.b or cwsr_q2d1 < 0.12 then cwsr_q2d1=0.12  ; 
+   end;
+   if avisit in ('36', '48') then do ; 
+      if cwsr_q2d1=.b or cwsr_q2d1 < 0.128 then cwsr_q2d1=0.128  ; 
+   end;
+   if avisit in ('60','72','81','84','120') then do ; 
+      if cwsr_q2d1=.b or cwsr_q2d1 < 0.18 then cwsr_q2d1=0.18  ; 
+   end;
+
+   *TNF;
+   if avisit in ('12') then do ; 
+      if cwsr_q2e1=.b or cwsr_q2e1 < 0.12 then cwsr_q2e1=0.12  ; 
+   end;
+   if avisit in ('36', '48') then do ; 
+      if cwsr_q2e1=.b or cwsr_q2e1 < 0.128 then cwsr_q2e1=0.128  ; 
+   end;
+   if avisit in ('60','72','81','84') then do ; 
+      if cwsr_q2e1=.b or cwsr_q2e1 < 3.2 then cwsr_q2e1=3.2  ; 
+   end;
+   if avisit in ('120') then do ; 
+      if cwsr_q2e1=.b or cwsr_q2e1 < 0.43 then cwsr_q2e1=0.43  ; 
+   end;
+
+
+
+   **convert units;
+   **NB:we converted adiponectin in the orig file and the new lab's units were different; 
+   if not missing(cwsr_q2b1) and avisit in ('b', '12')  then cwsr_q2b1=cwsr_q2b1/1000    ; *ADIPONECTIN:ng/mL to mcg/mL for cord and 12 mo samples;
+
+   if not missing(cwsr_q2a1) and avisit in ('36', '48','60','72','81','84', '120') then cwsr_q2a1=cwsr_q2a1/1000    ;   *LEPTIN:pg/mL to ng/mL for 36 mo + samples;
+
+   if not missing(cwsr_q2b1) and avisit in ('36', '48','60','72','81','84', '120') then cwsr_q2b1=cwsr_q2b1/1000000 ; *ADIPONECTIN:pg/mL to mcg/mL for 36 mo + samples;
+
+   if not missing(cwsr_q2c1) and avisit in ('36', '48','60','72','81','84', '120') then cwsr_q2c1=cwsr_q2c1/10000   ; *CRP:ng/mL to mg/dL for 36 mo + samples 1E-07;  
+
+   if avisit="b"  then avisit="0";
+
+   *if avisit in ("81", "m81", ) then avisit="81" ;
+   *if avisit in ("84", "m84") then avisit="84" ;
+
+   *all of these have all samples missing 8/21/18 sl;
+   if avisit in ("m81", "m84") then delete;
+
+run ;
+
+data test; 
+   set adipokines_1; 
+   if missing(cwsr_q2a1) then leptin_m = 1; else leptin_m = 0;
+   if missing(cwsr_q2b1) then adipo_m = 1; else adipo_m = 0;
+   if missing(cwsr_q2c1) then crp_m = 1; else crp_m = 0;
+   if missing(cwsr_q2d1) then il6_m = 1; else il6_m = 0;
+   if missing(cwsr_q2e1) then tnfa_m = 1; else tnfa_m = 0;
+run; 
+
+proc freq data=test; table avisit*leptin_m avisit*adipo_m avisit*crp_m avisit*il6_m avisit*tnfa_m; run;
+/*************************************************************************************
+ Make avisit numeric // rename/label variables
+**************************************************************************************/
+data adipokines ;
+   set adipokines_1 (rename=(avisit=avisit_char)); 
+   avisit = input(put(avisit_char,$8.),8.);
+
+   ***Rename variables ;
+   leptin = CWSR_q2a1 ;
+   adiponectin = CWSR_q2b1 ;
+   hsCRP = CWSR_q2c1 ;
+   il_6 = CWSR_q2d1 ;
+   tnf_a = CWSR_q2e1 ;
+   acolldate = CWSR_q1 ;
+   select(avisit);
+      when(0) year = 0;
+      when(12) year = 1;
+      when(24) year = 2;
+      when(36) year = 3;
+      when(48) year = 4;
+      when(60) year = 5;
+      when(72) year = 6;
+      when(81) year = 7;
+      when(84) year = 7;
+      when(120) year = 10;
+   end;
+
+   label    leptin="Leptin (ng/mL)"
+         adiponectin="Adiponectin (mcg/mL)"
+         hsCRP="hsCRP (mg/dL)"
+         il_6="IL-6 (pg/mL)"
+         tnf_a="TNF-a (pg/mL)" 
+         acolldate="Date Collected" ;
+
+   drop avisit_char aRcrtID aStudyID CWSR_q2a1 CWSR_q2b1 CWSR_q2c1 CWSR_q2d1 CWSR_q2e1 CWSR_q1 ;
+run ;
+
+/*************************************************************************************
+ Import new data from Amy 01JAN2020
+**************************************************************************************/
+proc import datafile = "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Weight\URECA low CRP RERUN results 01242020.xlsx"
+ out = CRP_update
+ dbms = XLSX
+ ;
+run;
+
+data CRP_update_clean; 
+   set CRP_update; 
+
+   hsCRP2 = .012/10000;
+   if VAR9 ^= . then hsCRP2 =  VAR9/10000;
+
+   sampleid2 = strip(put(sampleid, 8.));
+   keep studyid avisit sampleid2 hsCRP2;
+   rename sampleid2 = sampleid;
+run;
+
+proc sort data=adipokines; by studyid  sampleid; run;
+proc sort data=CRP_update_clean; by studyid  sampleid; run;
+
+data adip_newcrp; 
+   merge adipokines CRP_update_clean; 
+   by studyid  sampleid;
+    
+   if not missing(hscrp2) then hscrp = hscrp2; 
+run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label   site="Study Site";
+ format site $site.;
+
+ do avisit = 0,12,36, 60, 84, 120;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 12)           then year=1;
+  if avisit in ( 36)          then year=3;
+  if avisit in ( 60)          then year=5;
+  if avisit in (81, 84)          then year=7;
+  if avisit in (120)          then year=10;
+ output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=adip_newcrp   ; by studyid year; run ;
+proc sort data=shell      ; by studyid year; run ;
+proc sort data = master.chbsc out = chbsc; by studyid avisit; run;
+proc sort data = master.chbsc2 out = chbsc2; by studyid avisit; run;
+
+data expected;
+   set chbsc(rename = (avisit=avisitc)) chbsc2(rename = (avisit=avisitc));
+   *hardcodes here to correct dates have been removed to protect patient confidentiality;
+   if not missing(avisitc) then avisit = input(strip(put(avisitc, 8.)), 8.);
+   if not missing(avisit);
+   select(avisit);
+      when(0) year = 0;
+      when(12) year = 1;
+      when(24) year = 2;
+      when(36) year = 3;
+      when(45,48) year = 4;
+      when(60) year = 5;
+      when(72) year = 6;
+      when(81) year = 7;
+      when(84) year = 7;
+      when(120) year = 10;
+   end;
+   if year ^= 2 /*and (chbsc_q2 = 1 or chbsc2_q3 = 1)*/;
+   *drop site;
+run;
+
+proc sort data = expected; by studyid avisit; run;
+
+***No dups as of 11/30/2016 ;
+proc sort data=adip_newcrp nodupkey dupout=dups  ; by studyid avisit; run ;
+
+/*proc sort data = adipokines; by studyid year; run;*/
+
+data adipokines2;
+ merge adip_newcrp (in=b) expected(in=e);
+ by studyid avisit;
+ length status_exp $25;
+ if b and e then status_exp = 'Expected, present';
+ else if b and not e then status_exp = 'Not expected, present';
+ else if e and not b then status_exp = 'Expected, missing';
+ else status_exp = 'Not expected, missing';
+
+ site = substr(studyid, 4, 2);
+
+**************************************************
+* adding in lab conversions to log10 of data.  The following variables:  
+ ADIPONECTIN LEPTIN HSCRP remain unchanged in their original form
+The variables:  Leptin_log10     Adiponectin_log10 hsCRP_log10  are updated using the following formulas
+
+Leptin: M = -1.13 + 1.87S
+Adiponectin:  M = 0.37 + 1.18S
+CRP: M = 0.54 + 1.35S
+
+Where M=madison and S=Seattle
+Seattle processed lab samples at years birth and 1 year. 
+Madison, subsequently processed lab samples at years 36 and 48.
+We are standardizing to Madison at months after 12 :
+S:\RhoFED\ICAC\Studies\URECA\Data\Derive\adipokine_conversions\Conversion_log10.pdf
+**************************************************;
+
+if not missing(leptin) then      Leptin_log10      =log10(leptin);
+if not missing(Adiponectin) then Adiponectin_log10 =log10(Adiponectin);
+if not missing(hsCRP) then       hsCRP_log10       =log10(hsCRP);
+if not missing(il_6) then        il_6_log10        =log10(il_6);
+if not missing(tnf_a) then       tnf_a_log10       =log10(tnf_a);
+
+
+if avisit in (0,12) then do;
+if not missing(Leptin_log10) then      Leptin_log10      = -1.13 + 1.87*Leptin_log10;
+if not missing(Adiponectin_log10) then Adiponectin_log10 =  0.37 + 1.18*Adiponectin_log10;
+if not missing(hsCRP_log10) then       hsCRP_log10       =  0.54 + 1.35*hsCRP_log10;
+
+/*   Leptin_log10      = (1.13 + Leptin_log10)/1.87;*/
+/*   Adiponectin_log10 = (-0.37 +Adiponectin_log10)/1.18;*/
+/*   hsCRP_log10       = (-0.54+ hsCRP_log10)/ 1.35;*/
+end;
+
+   label    Leptin_log10="Leptin (ng/mL) - log10"
+            Adiponectin_log10="Adiponectin (mcg/mL) - log10"
+            hsCRP_log10="hsCRP (mg/dL) - log10"
+            il_6_log10="IL-6 (pg/mL) - log10"
+            tnf_a_log10="TNF-a (pg/mL) - log10" ;
+
+run;
+
+
+proc sort data=adipokines2 ; by  avisit; run ;
+proc freq data=adipokines2; table avisit; run;
+proc sort data=adipokines2 nodupkey dupout=dups  ; by studyid avisit; run ;
+
+/*************************************************************************************
+ Keep only later of 81 and 84
+**************************************************************************************/
+proc sort data = adipokines2; by studyid descending avisit; run;
+
+data adipokines3;
+   set adipokines2;
+   by studyid descending avisit;
+   count = 1;
+   retain yr7counter;
+   if avisit in (81 84) then yr7counter = sum(yr7counter, count); *up_q1 = 1 if a test was done, missing otherwise.;
+   else yr7counter = 0; *make sure not to delete records where avisit is not in (81, 84);
+   if yr7counter = 2 then delete; *if both m81 and m84 results exist, delete m81;
+   if yr7counter = . and avisit = 81 then delete; *if neither m81 nor m84 results exist, delete record for m81;
+   if yr7counter = 1 and avisit = 81 and not count then delete; *if m84 results exist but not m81, delete record for m81;
+   *drop yr7counter;
+run;
+
+proc sort data=adipokines3 ; by  avisit; run ;
+proc freq data=adipokines3; table avisit; run;
+proc freq data=adipokines2; table avisit; run;
+proc sort data = adipokines3; by studyid avisit; run;
+
+data adipokines4;
+   set adipokines3;
+   by studyid avisit;
+   if not missing(SampleID) then count = 1;
+   retain yr7counter2;
+   if avisit in (81 84) then yr7counter2 = sum(yr7counter2, count); *up_q1 = 1 if a test was done, missing otherwise.;
+   else yr7counter2 = 0; *make sure not to delete records where avisit is not in (81, 84);
+   if yr7counter2 = 1 and avisit = 84 and not count then delete; *if m81 results exist but not m84, delete record for m84;
+   *drop yr7counter2;
+run;
+proc freq data=adipokines4; table avisit; run;
+
+*-----   Rename 81 -> 84   -----*;
+
+data adipokines5;
+   set adipokines4;
+   if avisit = 81 then avisit = 84;
+
+   
+   
+    *Move back year 4 to 3 and year 6 to 5;
+     if year=4 then do; 
+         year=3;
+         imp=1;
+     end; 
+
+     if year=6 then do; 
+         year=5;
+         imp=1;
+     end;
+     
+     avisit_actual = avisit;
+     if avisit=48 then avisit_actual = 48; 
+     if avisit=72 then avisit_actual = 72; 
+
+     if avisit=48 then avisit=36;
+     if avisit=72 then avisit=60;
+
+     if event='72-Month Clinic Visit' then event='60-Month Clinic Visit';
+     if event='48-Month Clinic Visit' then event='36-Month Clinic Visit';
+
+    if avisit=45 then delete;
+
+run;
+
+data single dup;     
+     set adipokines5;     
+     by studyid avisit;     
+     if first.avisit and last.avisit           
+          then output single;     
+     else output dup;
+run;
+
+data pickfromdup; 
+   set dup; 
+   by studyid avisit; 
+   if missing(sampleid) then delete;
+run;
+
+data pickfromdup2; 
+   set pickfromdup; 
+   by studyid avisit; 
+   if first.studyid;
+run;
+
+data adipokines5_2; 
+   set single pickfromdup2;
+run;
+
+proc sort data = adipokines5_2 nodupkey dupout=test; by studyid avisit; run;
+proc freq data=adipokines5_2; table avisit; run;
+
+
+*-----   Merge with Shell   -----*;
+data adipokines6; 
+   merge shell adipokines5_2 (in=b); 
+   by studyid avisit; 
+   if b=1 then adipokines = 1 ; else adipokines = 0 ;
+
+
+     label imp = 'Imputed from the following year (flag)';
+run;
+
+proc sort data = adipokines6 out=derive.adipokines nodupkey dupout=test; by studyid avisit; run;
+
+proc freq data=adipokines6; table avisit; run;
+
+proc sql ; 
+   select count (distinct studyid) into :n_ids from adipokines5_2;
+quit;
+
+*** 3. Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.adipokines
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+                                                       
+
+
+
+/**/
+/*proc means data=test n nmiss mean std ; */
+/*var leptin adiponectin hsCRP  il_6 tnf_a;*/
+/*by avisit; run;*/
+
+
+***Cindy's means/prints for data checks  ;
+/*proc sort; by studyid avisit;                                                                                            */
+/*                                                                                                                  */
+/*ods pdf file="&studypath\&prog..pdf";                                                                             */
+/*                                                                                                                  */
+/*proc means  data=test n nmiss mean stddev min p25 median p75 max maxdec=2;                                                                 */
+/*class avisit;*/
+/*var cwsr_q2a1 cwsr_q2b1 cwsr_q2c1 cwsr_q2d1 cwsr_q2e1;                                                                                                    */
+/*title5 'Mean adipokine levels by visit';*/
+/*run;       */
+
+/*proc means data=test n nmiss mean stddev min p25 median p75 max maxdec=2;                                                                 */
+/*class site avisit;                                                                                                       */
+/*var cwsr_q2a1 cwsr_q2b1 cwsr_q2c1 cwsr_q2d1 cwsr_q2e1;                                                                                                    */
+/*title5 'Mean adipokine levels by site and visit';*/
+/*run;                                                                                                              */
+/*                                                                                                                  */
+/*proc univariate plot;                                                                                             */
+/*class avisit;*/
+/*var cwsr_q2a1 cwsr_q2b1 cwsr_q2c1 cwsr_q2d1 cwsr_q2e1;                                                                                                    */
+/*histogram cwsr_q2a1 cwsr_q2b1 cwsr_q2c1 cwsr_q2d1 cwsr_q2e1;                                                                                              */
+/*title5 'Distribution of adipokine and plasma cytokine levels'; */
+/*run;                                                                                                              */
+/*                                                                                                                  */
+/*ods pdf close;*/
+/**/
+/*proc print;*/
+/*var studyid avisit cwsr_q2a1 cwsr_q2b1 cwsr_q2c1 cwsr_q2d1 cwsr_q2e1;*/
+/*where avisit in ('36', '48') and nmiss(cwsr_q2a1, cwsr_q2b1, cwsr_q2c1, cwsr_q2d1, cwsr_q2e1) > 0;*/
+/*run;*/
+/**/
+/*proc sort; by studyid avisit; run;*/
+/**/
+/*%let received=("analyzed", "damaged but analyzable", "discarded by lab", "received and reviewed",*/
+/*            "received damaged", "received intact", "received not yet reviewed", "reshipped");*/
+/*  */
+/***CHECKING JUST ONE-YEAR SAMPLES THIS TIME**; */
+/*data shipped;*/
+/*   set master.sset;*/
+/*   where status in &received and destination="nlr" and event='12-month clinic visit' and type='chp';*/
+/*   *formerly event='birth' and type='cbp';*/
+/*   keep site recruitid id studyid date_shipped event avisit;*/
+/**/
+/*   site=substr(studyid, 4, 2);                                                                                       */
+/*   label site="Study Site";                                                                                          */
+/*   format site $site.;                                                                                               */
+/*                        */
+/*   if event='12-month clinic visit' then avisit='12';*/
+/*run;*/
+/**/
+/*proc sort nodupkey; by studyid avisit; run;*/
+/*       */
+/*data discrep;*/
+/*merge shipped (rename=(id=sampleid)) derive.adipokines;*/
+/*by studyid avisit;*/
+/**/
+/*proc print n label;                                                                                                       */
+/*id site studyid event;                                                                                                  */
+/*var avisit recruitid date_shipped sampleid cwsr_q2a1 cwsr_q2b1 cwsr_q2c1;                                                                                           */
+/*where sum(cwsr_q2a1, cwsr_q2b1, cwsr_q2c1) < 0 or sum(cwsr_q2a1, cwsr_q2b1, cwsr_q2c1) > 0 and date_shipped=. and avisit='12';*/
+/*title5 'Weight study sample discrepancies';                                                                                */
+/*run;       */
+/**/
+/*proc print n label;                                                                                                       */
+/*id site studyid event;                                                                                                  */
+/*var avisit recruitid date_shipped sampleid cwsr_q2a1 cwsr_q2b1 cwsr_q2c1;                                                                                           */
+/*where nmiss(cwsr_q2a1, cwsr_q2b1, cwsr_q2c1) > 0  and avisit='12';*/
+/*title5 'Weight study sporadic missing data';                                                                                */
+/*run;        */
+
+/*data study;
+set master.p_study_data;
+if p_status in ("active", "inactive");
+
+proc sort; by studyid;
+
+data check;
+merge derive.adipokines study;
+by studyid;
+
+proc print n label;                                                                                                       
+id site studyid avisit;                                                                                                  
+var studyid p_status;                                                                                           
+where sum(cwsr_q2a1, cwsr_q2b1, cwsr_q2c1) < 0;
+title5 'StudyIDs without weight study data at one year';                                                                                
+run;*/
+/* */
+/*data study;*/
+/*set master.eset;*/
+/*if event='12-month clinic visit' and status='occurred';*/
+/**/
+/*proc sort; by studyid;*/
+/**/
+/*data check;*/
+/*merge derive.adipokines study (drop=site);*/
+/*by studyid;*/
+/**/
+/*proc print n label;                                                                                                       */
+/*id site studyid avisit;                                                                                                  */
+/*var studyid;                                                                                           */
+/*where sum(cwsr_q2a1, cwsr_q2b1, cwsr_q2c1) < 0 and avisit='12';*/
+/*title5 'StudyIDs without weight study data at one year';                                                                                */
+/*run;   */

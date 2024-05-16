@@ -1,0 +1,22 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	24	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CASI"", ""CASI"")"
+3	4	evid	evid	dbl	numeric	double	24	0	c(58662, 62045)
+4	5	event	event	chr	character	character	1	0	"c(""120-Month Clinic Visit"", ""120-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.1"", ""1.1"")"
+6	7	status	status	chr	character	character	1	0	"c(""missing"", ""missing"")"
+7	8	aID	Identification Number	dbl	numeric	double	1	24	
+8	9	CASI_q1a	Daytime - Last 14 days, how many days did participant have wheezing or tightness in chest or cough	chr	character	character	1	0	"c("".x"", "".x"")"
+9	10	CASI_q1b	Daytime - Last 14 days, how many days did participant use albuterol by puffer or breathing machine	chr	character	character	1	0	"c("".x"", "".x"")"
+10	11	CASI_q1c	Daytime - Record highest point value from questions 1a and 1b	chr	character	character	1	0	"c("".x"", "".x"")"
+11	12	CASI_q2a	Nighttime - Last 14 days, how many days did participant have wheezing or tightness in chest or cough	chr	character	character	1	0	"c("".x"", "".x"")"
+12	13	CASI_q2b	Nighttime - Last 14 days, how many days did participant use albuterol by puffer or breathing machine	chr	character	character	1	0	"c("".x"", "".x"")"
+13	14	CASI_q2c	Nighttime - Record highest point value from questions 1a and 1b	chr	character	character	1	0	"c("".x"", "".x"")"
+14	15	CASI_q3b	Lung Function point value - What is participant's current best effort result for FEV1 (%predicted)	chr	character	character	1	0	"c("".x"", "".x"")"
+15	16	CASI_q4b	Controller treatment point value - What is participant's current asthma controller treatment regimen	chr	character	character	1	0	"c("".x"", "".x"")"
+16	17	CASI_q5a	Exacerbation assessment - How many Prednisone burst did participant take for asthma symptoms	chr	character	character	1	0	"c("".x"", "".x"")"
+17	18	CASI_q5b	Exacerbation assessment - How many of those bursts were initiated during an overnight hospital stay for asthma	chr	character	character	1	0	"c("".x"", "".x"")"
+18	19	CASI_q5c	Exacerbation Score	dbl	numeric	double	1	24	
+19	20	CASI_q6	Total Composite Asthma Severity Index Score	dbl	numeric	double	1	24	
+20	21	aCompletionDY	Completion Day	dbl	numeric	double	1	24	

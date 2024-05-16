@@ -1,0 +1,30 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	471	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""BD"", ""BD"")"
+3	4	evid	evid	dbl	numeric	double	911	0	c(51262, 63231)
+4	5	event	event	chr	character	character	3	0	"c(""108-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	4	0	"c("".x"", ""96"")"
+8	9	BD_q1	I Think My Life is Bad	dbl	numeric	double	5	93	c(0, 3)
+9	10	BD_q2	I Have Trouble Doing Things	dbl	numeric	double	5	93	c(0, 3)
+10	11	BD_q3	I Feel that I am a Bad Person	dbl	numeric	double	5	93	c(0, 3)
+11	12	BD_q4	I Wish I were Dead	dbl	numeric	double	5	93	c(0, 3)
+12	13	BD_q5	I Have Trouble Sleeping	dbl	numeric	double	5	93	c(0, 3)
+13	14	BD_q6	I Feel No One Loves Me	dbl	numeric	double	5	93	c(0, 3)
+14	15	BD_q7	I Think Bad Things Happen Because of Me	dbl	numeric	double	5	93	c(0, 3)
+15	16	BD_q8	I Feel Lonely	dbl	numeric	double	5	93	c(0, 3)
+16	17	BD_q9	My Stomach Hurts	dbl	numeric	double	5	93	c(0, 3)
+17	18	BD_q10	I Feel Like Bad Things Happen to Me	dbl	numeric	double	5	93	c(0, 3)
+18	19	BD_q11	I Feel Like I am Stupid	dbl	numeric	double	5	93	c(0, 3)
+19	20	BD_q12	I Feel Sorry for Myself	dbl	numeric	double	5	93	c(0, 3)
+20	21	BD_q13	I Think I Do Things Badly	dbl	numeric	double	5	93	c(0, 3)
+21	22	BD_q14	I Feel Bad About What I Do	dbl	numeric	double	5	93	c(0, 3)
+22	23	BD_q15	I Hate Myself	dbl	numeric	double	5	93	c(0, 3)
+23	24	BD_q16	I Want To Be Alone	dbl	numeric	double	5	93	c(0, 3)
+24	25	BD_q17	I Feel Like Crying	dbl	numeric	double	5	93	c(0, 3)
+25	26	BD_q18	I Feel Sad	dbl	numeric	double	5	94	c(0, 3)
+26	27	BD_q19	I Feel Empty Inside	dbl	numeric	double	5	94	c(0, 3)
+27	28	BD_q20	I Think My Life Will Be Bad	dbl	numeric	double	5	93	c(0, 3)
+28	29	aFormDY	Visit Day	dbl	numeric	double	274	93	c(2267, 3896)

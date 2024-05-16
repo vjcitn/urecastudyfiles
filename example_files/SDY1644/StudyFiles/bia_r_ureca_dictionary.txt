@@ -1,0 +1,29 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit	Visit	dbl	numeric	double	10	0	c(12, 120)
+5	6	year	Year	dbl	numeric	double	10	0	c(1, 10)
+6	7	event	event	chr	character	character	12	0	"c("""", ""96-Month Clinic Visit"")"
+7	8	bia_metal	Any Type of Metal Object in Child's Body	dbl	numeric	double	2	1961	c(0, 0)
+8	9	bia_pacemaker	Child Has Pacemaker or Automatic Defibrillator	dbl	numeric	double	2	1961	c(0, 0)
+9	10	bia_amputation	Child Has Amputations Other than Fingers or Toes	dbl	numeric	double	2	1961	c(0, 0)
+10	11	bia_drink	Child Had Anything to Drink Past Hour	dbl	numeric	double	3	1963	c(0, 1)
+11	12	bia_thermal	Child is Thermally Comfortable	dbl	numeric	double	3	1961	c(0, 1)
+12	13	bia_tantrum	Child is Sweaty and/or Red from Tantrum	dbl	numeric	double	3	6060	c(0, 1)
+13	14	bia_coldblue	Child is Cold and/or Blue	dbl	numeric	double	2	6060	c(0, 0)
+14	15	bia_perfromed	BIA Procedure Performed	dbl	numeric	double	2	1961	c(1, 1)
+15	16	bia_resistance	Resistance Value	dbl	numeric	double	522	1971	c(52, 1130)
+16	17	bia_reactance	Reactance Value	dbl	numeric	double	134	1971	c(0.6, 753.3)
+17	18	agemos	Age (months)	dbl	numeric	double	1330	1967	c(10.9733059548255, 126.225872689938)
+18	19	SEX	Sex	dbl	numeric	double	3	1967	c(1, 2)
+19	20	height	Babys Length at Birth	dbl	numeric	double	836	1967	c(67.4, 166.3)
+20	21	recumbnt	1 if height from length 2 if standing height	dbl	numeric	double	3	1967	c(0, 1)
+21	22	weight	Childs Exam - Weight	dbl	numeric	double	549	1968	c(6.6, 100.8)
+22	23	pFFM	% of FFM	dbl	numeric	double	18	1967	c(74.6, 78.6)
+23	24	TBW	Total Body Water	dbl	numeric	double	4112	1978	c(4.15029166237113, 211.21402)
+24	25	FFM	Fat-Free Mass (kg)	dbl	numeric	double	4112	1978	c(5.30050020737054, 276.096758169935)
+25	26	FM	Fat Mass (kg)	dbl	numeric	double	4112	1978	c(-212.496758169935, 54.5157787791445)
+26	27	pfat	% Fat	dbl	numeric	double	4112	1978	c(-714.99864426761, 58.7999831090627)
+27	28	bia		dbl	numeric	double	2	0	c(0, 1)

@@ -1,0 +1,228 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2012 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C Visness         06/01/06          Created Program
+*                  02/25/10             Add group variable
+*   K. Jaffee         02/28/12          Change template, var names
+*   C. Visness        05/30/17          Revise to leave out PHI, maternal weight info,
+*                                       maternal meds details, eligibility items, and
+*                                       rename variables, also include some from
+*                                       D. Gold's "perinatalpredictors"
+    S. Lussier        07/05/17          Cleaned Log
+    A. Lockhart       07/17/18          Made avisit numeric
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=BirthRecord2,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+data br(drop=avisit);
+set master.br;
+if studyid ne '.m';  
+site=substr(studyid, 4, 2);
+
+**drop PHI variables and other things we have never used;
+drop api aii br_q1a br_q1b br_q1c BR_q8a BR_q8b BR_q8b1 BR_q8c1 BR_q8c2 BR_q8c3 BR_q12b BR_q13 BR_q14 BR_q16a1-BR_q16a7 BR_q19 BR_q20q1 BR_q20q2 BR_q20q3 BR_q20q3a BR_q21a--BR_q21d1
+     BR_q22--BR_q22j6 BR_q23a BR_q23b BR_q24a BR_q24b BR_q26f BR_q26g BR_q29--BR_q31c BR_q33 BR_q34 ;
+
+rename
+br_q2a=date_birth
+br_q2b=time_birth
+br_q3 = birth_sex
+br_q4=gest_age
+br_q5=birth_weight
+br_q6=birth_length
+br_q7=head_circ
+br_q8=plurality
+BR_q9a=apgar_1min
+BR_q9b=apgar_5min
+BR_q10=ventilator
+BR_q10a=time_vent
+BR_q11=oxygen
+BR_q11a=time_oxygen
+BR_q12=anomaly
+BR_q12a=anomaly_specify
+BR_q15a=nicu
+BR_q15b=surfactant
+BR_q15c=antibiot_preg
+BR_q15d=other_abnormality
+BR_q15d1=specify_abnormality
+BR_q17=prev_pregs
+BR_q18=parity
+BR_q20a=hiv_aids
+BR_q20b1=type1_diabetes
+BR_q20b2=type2_diabetes
+BR_q20c=gest_diabetes
+BR_q20d=chron_hyperten
+BR_q20e=gest_hyperten
+BR_q20f=pre_eclampsia
+BR_q20g=eclampsia
+BR_q20h=gonorrhea
+BR_q20i=syphilis
+BR_q20j=chlamydia
+BR_q20k=hep_b
+BR_q20l=hep_c
+BR_q20m=preterm_labor
+BR_q20n=prem_rupture
+BR_q20o1=inhaled_steroid
+BR_q20o2=oral_steroid
+BR_q20o3=dexa_meth
+BR_q20o4=other_steroids
+BR_q20o4a=specify_steroid
+BR_q20p1=pneumonia
+BR_q20p2=pyelonephritis
+BR_q20p3=other_inf
+BR_q20p3a=specify_inf
+BR_q25=max_temp
+BR_q26a=amnio_infect
+BR_q26b=other_infect
+BR_q26c=antibiot_labor
+BR_q26d=meconium
+BR_q26e=eclamp_labor
+BR_q26h=pitocin
+BR_q27=anesthesia
+BR_q27a1=sedation
+BR_q27a2=spinal
+BR_q27a3=epidural
+BR_q27a4=general_anesth
+BR_q28=type_deliv
+BR_q32=birth_comments;
+
+
+*converts seconds to hours;
+if nmiss(br_q2a,br_q2b,br_q23a,br_q23b) = 0 
+   then dur_labor=(dhms(br_q2a,0,0,br_q2b)-dhms(br_q23a,0,0,br_q23b))/3600;
+   else dur_labor = .;
+if nmiss(br_q2a,br_q2b,br_q24a,br_q24b) = 0 
+   then dur_membranes=(dhms(br_q2a,0,0,br_q2b)-dhms(br_q24a,0,0,br_q24b))/3600;
+   else dur_membranes = .;
+if dur_labor > 24 then prolonged=1;
+else if .z < dur_labor <= 24 then prolonged=0;
+if dur_membranes > 18 then prol_rupture=1;
+else if .z < dur_membranes <= 18 then prol_rupture=0;
+if br_q26a=1 or br_q26b=1 or br_q26c=1 then infection=1;
+else if br_q26a=0 and br_q26b=0 and br_q26c=0 then infection=0;
+syst_infect=max(br_q20p1, br_q20p2, br_q26a);
+if br_q20p3a in('bladder infection', 'bronchitis', 'cervicitis', 'conjunctivitis, thumb paronychia, bronchitis, sinu', 'fever of unknown origin',
+            'flu', 'gastroenteritis', 'gonorrhea', 'pharyngitis', 'r ear infection', 'sinus, uri', 'strep throat', 'upper respiratory', 'uri',
+            'uri & asthma exacerbation') then syst_infect=1;
+infect_preg=max(br_q20p1, br_q20p2, br_q20p3);
+steroids_preg=max(br_q20o1, br_q20o2, br_q20o3, br_q20o4);
+if .z < br_q5 < 2500 then lbw=1;
+else if br_q5 >=2500 then lbw=0;
+ripening=max(BR_q26f, BR_q26g);
+if br_q28 in (3, 4) then csection=1;
+else if br_q28 in (1, 2) then csection=0;
+if br_q28=3 then elec_csection=1;
+else if br_q28 in (1, 2) then elec_csection=0;
+if br_q28=4 then emer_csection=1;
+else if br_q28 in (1, 2) then emer_csection=0;
+
+*hardcodes here have been removed to protect patient confidentiality;
+bmonth=month(br_q2a);
+
+label infection='Infection during labor/delivery'
+      infect_preg   ='Infection in pregnancy requiring ER, hosp, or clinic trt'
+      steroids_preg='Steroid use during pregnancy'
+      prolonged   ='Prolonged labor (>24 hrs)'
+      prol_rupture='Prolonged rupture of membranes (>18 hrs)'
+      lbw         ='Low birth weight (<2500 g)'
+      ripening    ='Cervical ripening'
+      csection   ='Caeserian delivery'
+      elec_csection='Elective C-section'
+      emer_csection='Emergency C-section'
+      syst_infect   ='Systemic infection'
+      bmonth='Month of birth'
+      season='Season of birth';
+format infection infect_preg steroids_preg prolonged prol_rupture lbw csection elec_csection emer_csection   
+       syst_infect yesnofm. ;
+
+run;
+
+*AL: Updated avisit to numeric;
+data br;
+   set br;
+
+
+   avisit=0;
+run;
+
+
+
+
+proc sort data=br; 
+by studyid;
+run;
+
+** A few variables from the screening form;
+data sem;
+set master.sem;
+if studyid ne '.m';
+
+rename sem_q2_1=mom_bdate SEM_q6_3=due_date;
+
+if nmiss (sem_q6_3, acompletiondate) = 0
+   then wkpreg=int(40-((sem_q6_3-acompletiondate)/7));
+if 8<=wkpreg<=13 then trimester=1;
+else if 13 < wkpreg <=26 then trimester=2;
+else if wkpreg > 26 then trimester=3;
+label    wkpreg   ='Week of gestation for prenatal visit'
+      trimester   ='Trimester of pregnancy for prenatal visit';
+
+keep studyid sem_q2_1 SEM_q6_3 wkpreg trimester;
+
+proc sort data=sem; 
+by studyid;
+run;
+
+**save derived dataset;
+
+data derive.BirthRecord;
+merge br(in= br) sem;
+by studyid;
+ageatbirth=int((date_birth-mom_bdate)/365.25);
+if br then birthrecord = 1;
+label ageatbirth='Age of mother at birth';
+run;
+
+proc freq data=derive.BirthRecord; table birth_sex; run;
+
+proc contents position;
+run;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.BirthRecord
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+* Save log and output files, must be ordered out then log;
+dm WPGM "out; print file=output replace;" WPGM;
+dm WPGM "log; print file=log replace;" WPGM;
+

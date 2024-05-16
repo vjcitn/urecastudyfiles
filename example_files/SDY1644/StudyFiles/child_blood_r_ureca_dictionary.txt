@@ -1,0 +1,30 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	6	0	c(12, 120)
+5	6	year		dbl	numeric	double	6	0	c(1, 10)
+6	7	evid	evid	dbl	numeric	double	2513	1142	c(296, 62028)
+7	8	event	event	chr	character	character	8	0	"c("""", ""Child Blood Draw"")"
+8	9	version	version	chr	character	character	7	0	"c("""", ""3.0"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	wbc_tot	Total WBC	dbl	numeric	double	405	1144	c(1.6, 20.93)
+11	12	eos_perc	Eosinophil % of WBC	dbl	numeric	double	137	1178	c(0, 24)
+12	13	eos_tot	Total eosinophils	dbl	numeric	double	529	1180	c(0, 8585)
+13	14	lympho_perc	Lymphocytes % of WBC	dbl	numeric	double	441	1163	c(1, 2300)
+14	15	lympho_tot	Total lymphocytes	dbl	numeric	double	1321	1165	c(207, 14866)
+15	16	neutro_perc	Neutrophil % of WBC	dbl	numeric	double	436	1500	c(0, 4900)
+16	17	neutro_tot	Total Neutrophils (per uL)	dbl	numeric	double	1038	1567	c(0, 17791)
+17	18	baso_perc	Basophils % of WBC	dbl	numeric	double	27	1533	c(0, 7.7)
+18	19	baso_tot	Total Basophils (per uL)	dbl	numeric	double	143	1601	c(0, 9450)
+19	20	mono_perc	Monocyte % of WBC	dbl	numeric	double	130	1611	c(0, 26)
+20	21	mono_tot	Total Monocytes (per uL)	dbl	numeric	double	589	1566	c(0, 10377)
+21	22	hemog_tot	Total Hemoglobin	dbl	numeric	double	61	1148	c(8.1, 17.8)
+22	23	hematocrit	Hematocrit (HCT)	dbl	numeric	double	100	3278	c(32.1, 45.6)
+23	24	rbc	Red Blood Cell (RBC)	dbl	numeric	double	26	3278	c(3.8, 12.7)
+24	25	platelet	Platelet count	dbl	numeric	double	183	3278	c(24.3, 644)
+25	26	avisit_actual		dbl	numeric	double	9	1142	c(12, 120)
+26	27	imp		dbl	numeric	double	2	3578	c(1, 1)
+27	28	child_blood		dbl	numeric	double	2	0	c(0, 1)
+28	29	ACOMPLETIONDATE_DY		dbl	numeric	double	975	1142	c(-30, 3841)

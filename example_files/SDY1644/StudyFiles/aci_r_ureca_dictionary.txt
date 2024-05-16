@@ -1,0 +1,19 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""ACI"", ""ACI"")"
+3	4	evid	evid	dbl	numeric	double	833	0	c(2, 18056)
+4	5	event	event	chr	character	character	1	0	"c(""Prenatal Visit"", ""Prenatal Visit"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""p"")"
+8	9	ACI_q1	Another Person to Contact	dbl	numeric	double	3	12	c(0, 1)
+9	10	ACI_q1e	Other Person - Best Time to Try Number	dbl	numeric	double	8	71	c(1, 7)
+10	11	ACI_q1g	Other Person - Speak English or Spanish	dbl	numeric	double	3	70	c(1, 2)
+11	12	ACI_q2	Second Person To Contact	dbl	numeric	double	3	69	c(0, 1)
+12	13	ACI_q2e	Second Person - Best Time to Try Number	dbl	numeric	double	7	484	c(1, 7)
+13	14	ACI_q2g	Second Person - Speak English or Spanish	dbl	numeric	double	3	482	c(1, 2)
+14	15	ACI_q3	Third Person to Contact	dbl	numeric	double	3	482	c(0, 1)
+15	16	ACI_q3e	Thrid Person - Best Time to Try Number	dbl	numeric	double	6	738	c(1, 7)
+16	17	ACI_q3g	Thrid Person - Speak English or Spanish	dbl	numeric	double	3	738	c(1, 2)
+17	18	aCompletionDY	Completion Day	dbl	numeric	double	150	231	c(-204, 27)

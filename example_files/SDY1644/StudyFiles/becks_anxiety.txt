@@ -1,0 +1,191 @@
+%include 'S:\BASESTAT\RhoUtil\gridReset.sas';
+%gridReset(S:\RhoFED\ICAC\Studies\URECA\Prog\Derive);
+
+/*----------------------- Copyright 2017, Rho, Inc.  All rights reserved. ------------------------\
+
+  Study:       ICAC07 URECA
+
+   Program:    becks_anxiety.sas
+
+     Purpose:  Combine raw data from master.ba with calculated score in master.p_study_data
+
+     Input:    S:\RhoFED\ICAC\Studies\URECA\Data\Master\(ba p_study_data).sas7bdat
+
+     Output:   S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive\becks_anxiety.sas7bdat
+
+     Macros:   %TemplateSetup
+
+/-------------------------------------------------------------------------------------------------\
+  Program history:
+\-------------------------------------------------------------------------------------------------/
+
+    Date       Programmer          Description
+    ---------  ------------------  --------------------------------------------------------------
+    19JUN2017  Andrew Moseby       Create
+    11JUL2019  Maya Barton         Derive Anx_Tscores, Anx_Severity_Level
+\------------------------------------------------------------------------------------------------*/
+
+OPTION VALIDVARNAME=V7;
+
+
+*-----   1. Setup   -----*;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=becks_anxiety,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+
+*-----   2. Main Body   -----*;
+
+proc sort data = master.ba out = ba; by studyid; run;
+proc sort data = master.p_study_data out = psd; by studyid; run;
+proc sort data = derive.demog_1rec out = gender(keep= studyid baby_gender_c); by studyid; run;
+
+*take data from the latest visit with non-missing data;
+data ba2;
+   set ba;
+   avisitn = input(avisit, 8.);
+
+   rename avisitn = avisit; 
+   drop avisit;
+run;
+
+proc sort data = ba2; by studyid descending avisit; where status = 'complete'; run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 96,120;
+  if avisit in ( 96) then year=8;
+  if avisit in (120)            then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge with Shell
+**************************************************************************************/
+proc sort data=ba2; by studyid avisit;
+proc sort data=shell; by studyid avisit; 
+
+data BA_1;
+ merge shell ba2 (drop=recruitid in=c);
+ by studyid avisit;
+ if c=1 then becks_anxiety=1; else becks_anxiety=0;
+run;
+proc sort data = BA_1; by studyid avisit; run;
+proc sort data = gender; by studyid; run;
+data BA_2;
+     merge BA_1 gender;
+     by studyid;
+     missflag=nmiss(BA_q1-BA_q20);
+     Scale_Sum = Sum(of BA_q1-BA_q20);
+run;
+proc freq data=BA_2; table Scale_sum; run;
+
+
+********************************************************;
+************Import Scale to Score by gender spreadsheet;
+PROC IMPORT OUT= work.BecksTscores 
+            DATAFILE= "S:\RhoFED\ICAC\Studies\URECA\Data\Misc\Becks\BecksTScores_transposed.csv"
+            DBMS=CSV REPLACE;
+
+RUN; 
+
+*******Keep BAI & age 7-10 for this dataset;
+data BecksTscoresA;
+     set BecksTscores;
+     if Scale = 'BAI' and Min_Age = 7 and Max_Age = 10;
+     AgeBAI = '7-10';
+     drop Min_Age Max_Age;
+run;
+
+********Transpose and create BAI dataset for ease of merging;
+proc transpose data = BecksTscoresA 
+               out  = T_BATS 
+               prefix = Gender;
+run;
+
+proc sql;
+     create table F_BATS as 
+      select 'Female' as baby_gender_C, gender1 as T_ScoreN, input((compress(_NAME_, '_')), 8.) as Scale
+      from T_BATS;
+
+     create table M_BATS as
+      select 'Male' as baby_gender_C, gender2 as T_ScoreN, input((compress(_NAME_, '_')), 8.) as Scale
+      from T_BATS;
+run; 
+data BATS; set F_BATS M_BATS; run;
+
+********Apply Score to Index;
+proc sql;
+   create table temp_BATS as
+   select BA_2.*, BATS.Scale, BATS.T_ScoreN
+   from BA_2 a left join BATS b on b.baby_gender_c=a.baby_gender_C
+   order by studyid, avisit;
+
+   create table BA_3 as
+   select * from temp_BATS
+   where Scale_Sum = Scale
+   order by studyid, avisit;
+
+quit;
+
+proc sort data = BA_3; by studyid avisit Scale_Sum; run;
+proc sort data = BA_2; by studyid avisit Scale_sum; run;
+
+*******Merge back to shell and Derive Severity_Level;
+data BA_4;
+     length Anx_Severity_Level $20;
+     merge BA_2 
+           BA_3(keep= studyid avisit T_ScoreN Scale_Sum Scale);
+     by studyid avisit Scale_sum;
+               if (T_ScoreN >=70) then Anx_Severity_Level = 'Extremely Elevated';
+     else if (59< T_ScoreN <70) then Anx_Severity_Level = 'Moderately elevated';
+     else if (55 <= T_ScoreN <=59) then Anx_Severity_Level = 'Mildly elevated';
+     else if not missing(T_ScoreN) and (T_ScoreN < 55) then Anx_Severity_Level = 'Average';
+     rename T_ScoreN = Anx_TScore;
+
+run;
+
+proc freq data= BA_4; tables avisit*Anx_Severity_Level/out=Anx_Severity_Level_Freq; run;
+proc freq data= BA_4; tables avisit*Anx_TScore/out=Anx_T_Score_Freq; run;
+proc freq data= BA_4; table avisit*Scale_sum/out=Anx_Scale_sum_freq; run;
+
+libname freqdir "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\BAI Freqs";
+data freqdir.Anx_Severity_Level_Freq; set Anx_Severity_Level_Freq; run;
+data freqdir.Anx_T_Score_Freq; set Anx_T_Score_Freq; run;
+data freqdir.Anx_Scale_sum; set Anx_Scale_sum_freq; run;
+
+
+proc sort data= BA_4; by studyid avisit; run;
+data derive.becks_anxiety; set BA_4; run;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.becks_anxiety
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);

@@ -1,0 +1,157 @@
+Accession	group	form	evid	event	version	status	aVisit	CEB_q1a	CEB_q1b1	CEB_q1b2	CEB_q1b3	CEB_q1b4	CEB_q1b5	CEB_q1b6	CEB_q1b7	CEB_q1b8	CEB_q1b9	CEB_q1b10	CEB_q1b11	aCompletionDY
+SUB230927	Atopic	CEB	4647	9-Month Call	1.0	complete	9	black	0	0	0	0	0	1	0	0	0	0	0	291
+SUB230929	Atopic	CEB	4712	9-Month Call	1.0	complete	9	id have to say black, white, and indain	0	0	0	0	0	1	0	1	0	1	1	262
+SUB230930	Atopic	CEB	4799	9-Month Call	1.0	complete	9	bi-racial	0	0	0	0	0	1	0	1	0	0	0	273
+SUB230944	Atopic	CEB	6111	6-Month Call	1.0	complete	6	african-american	0	0	0	0	0	1	0	0	0	0	0	222
+SUB230968	Atopic	CEB	8251	18-Month Call	1.0	missing	.x	.x												
+SUB230968	Atopic	CEB	8250	21-Month Call	1.0	complete	21	i would say african american	0	0	0	0	0	1	0	0	0	0	0	647
+SUB230971	Atopic	CEB	8892	21-Month Call	1.0	complete	21	african american	0	0	0	0	0	1	0	0	0	0	0	636
+SUB230971	Atopic	CEB	8893	18-Month Call	1.0	missing	.x	.x												
+SUB230979	Atopic	CEB	9771	15-Month Call	1.0	complete	15	african american	0	0	0	0	0	1	0	0	0	0	0	476
+SUB230984	Atopic	CEB	10154	30-Month Call	1.0	complete	30	black	0	0	0	0	0	1	0	0	0	0	0	946
+SUB230984	Atopic	CEB	10155	27-Month Call	1.0	complete	27	african american	0	0	0	0	0	1	0	0	0	0	0	864
+SUB230984	Atopic	CEB	21962	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB230984	Atopic	CEB	10156	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB230984	Atopic	CEB	10157	21-Month Call	1.0	missing	.x	.x												
+SUB230984	Atopic	CEB	10160	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB230985	Atopic	CEB	10361	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB230985	Atopic	CEB	10358	21-Month Call	1.0	complete	21	hes black	0	0	0	0	0	1	0	0	0	0	0	672
+SUB230985	Atopic	CEB	10359	18-Month Call	1.0	missing	.x	.x												
+SUB230992	Atopic	CEB	11505	30-Month Call	1.0	complete	30	black	0	0	0	0	0	1	0	0	0	0	0	956
+SUB230992	Atopic	CEB	28121	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB230992	Atopic	CEB	11508	21-Month Call	1.0	complete	21	african american	0	0	0	0	0	1	0	0	0	0	0	686
+SUB230992	Atopic	CEB	28040	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB230992	Atopic	CEB	11506	27-Month Call	1.0	missing	.x	.x												
+SUB230992	Atopic	CEB	11510	15-Month Call	1.0	missing	.x	.x												
+SUB230992	Atopic	CEB	11509	18-Month Call	1.0	missing	.x	.x												
+SUB230992	Atopic	CEB	11507	24-Month Clinic Visit	1.0	complete	24	black	0	0	0	0	0	1	0	0	0	0	0	823
+SUB230992	Atopic	CEB	11511	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231018	Atopic	CEB	13720	15-Month Call	1.0	missing	.x	.x												
+SUB231018	Atopic	CEB	13721	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231049	Atopic	CEB	3485	24-Month Clinic Visit	1.0	complete	24	black	0	0	0	0	0	1	0	0	0	0	0	815
+SUB231049	Atopic	CEB	3490	9-Month Call	1.0	missing	.x	.x												
+SUB231056	Atopic	CEB	4943	9-Month Call	1.0	complete	9	hispanic	0	1	0	0	0	0	0	0	0	0	0	294
+SUB231057	Atopic	CEB	9661	9-Month Call	1.0	complete	9	african american	0	0	0	0	0	1	0	0	0	0	0	282
+SUB231062	Atopic	CEB	5677	9-Month Call	1.0	complete	9	black & white	0	0	0	0	0	1	0	1	0	0	0	269
+SUB231066	Atopic	CEB	6679	9-Month Call	1.0	complete	9	black	0	0	0	0	0	1	0	0	0	0	0	299
+SUB231070	Atopic	CEB	13320	21-Month Call	1.0	complete	21	black, african american	0	0	0	0	0	1	0	0	0	0	0	679
+SUB231073	Atopic	CEB	7287	6-Month Call	1.0	complete	6	african american	0	0	0	0	0	1	0	0	0	0	0	209
+SUB231074	Atopic	CEB	7349	21-Month Call	1.0	complete	21	african-american	0	0	0	0	0	1	0	0	0	0	0	637
+SUB231076	Atopic	CEB	8064	21-Month Call	1.0	missing	.x	.x												
+SUB231076	Atopic	CEB	8063	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231076	Atopic	CEB	8062	27-Month Call	1.0	missing	.x	.x												
+SUB231076	Atopic	CEB	8065	18-Month Call	1.0	missing	.x	.x												
+SUB231078	Atopic	CEB	8342	18-Month Call	1.0	complete	18	african-american	0	0	0	0	0	1	0	0	0	0	0	573
+SUB231080	Atopic	CEB	21490	24-Month Clinic Visit	1.0	complete	24	puerto rican	1	0	0	0	0	0	0	0	0	0	0	801
+SUB231081	Atopic	CEB	8390	18-Month Call	1.0	complete	18	hispanic american	1	0	0	0	0	0	0	0	0	0	0	540
+SUB231084	Atopic	CEB	8702	18-Month Call	1.0	complete	18	african - american	0	0	0	0	0	1	0	0	0	0	0	544
+SUB231088	Atopic	CEB	9460	15-Month Call	1.0	missing	.x	.x												
+SUB231091	Atopic	CEB	9546	18-Month Call	1.0	complete	18	african-american	0	0	0	0	0	1	0	0	0	0	0	538
+SUB231092	Atopic	CEB	9610	18-Month Call	1.0	complete	18	african-american	0	0	0	0	0	1	0	0	0	0	0	556
+SUB231097	Atopic	CEB	10544	15-Month Call	1.0	complete	15	barbados (bayan)/colombian	0	0	0	0	1	0	1	0	0	0	0	478
+SUB231106	Atopic	CEB	19109	15-Month Call	1.0	complete	15	african american	0	0	0	0	0	1	0	0	0	0	0	457
+SUB231112	Atopic	CEB	11611	21-Month Call	1.0	missing	.x	.x												
+SUB231112	Atopic	CEB	11610	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231112	Atopic	CEB	11613	15-Month Call	1.0	missing	.x	.x												
+SUB231112	Atopic	CEB	11612	18-Month Call	1.0	missing	.x	.x												
+SUB231112	Atopic	CEB	11609	27-Month Call	1.0	missing	.x	.x												
+SUB231142	Atopic	CEB	14252	12-Month Clinic Visit	1.0	complete	12	mixed - up = jamaican, african-american,	0	0	0	0	0	1	1	0	0	1	0	420
+SUB231143	Non-atopic	CEB	14395	15-Month Call	1.0	complete	15	african american	0	0	0	0	0	1	0	0	0	0	0	301
+SUB231143	Non-atopic	CEB	14394	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231152	Atopic	CEB	14789	9-Month Call	1.0	missing	.x	.x												
+SUB231159	Atopic	CEB	15213	21-Month Call	1.0	complete	21	african-american	0	0	0	0	0	1	0	0	0	0	0	645
+SUB231159	Atopic	CEB	15215	15-Month Call	1.0	missing	.x	.x												
+SUB231159	Atopic	CEB	15216	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231159	Atopic	CEB	15214	18-Month Call	1.0	complete	18	african-american	0	0	0	0	0	1	0	0	0	0	0	590
+SUB231181	Atopic	CEB	1195	30-Month Call	1.0	missing	.x	.x												
+SUB231181	Atopic	CEB	1196	33-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231181	Atopic	CEB	1193	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231181	Atopic	CEB	1189	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231202	Atopic	CEB	5285	21-Month Call	1.0	complete	21	african-american	0	0	0	0	0	1	0	0	0	0	0	627
+SUB231203	Atopic	CEB	35732	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB231203	Atopic	CEB	5307	6-Month Call	1.0	complete	6	african-american	0	0	0	0	0	1	0	0	0	0	0	223
+SUB231208	Atopic	CEB	6255	18-Month Call	1.0	missing	.x	.x												
+SUB231208	Atopic	CEB	6252	27-Month Call	1.0	missing	.x	.x												
+SUB231208	Atopic	CEB	6254	21-Month Call	1.0	missing	.x	.x												
+SUB231208	Atopic	CEB	6253	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231208	Atopic	CEB	6251	30-Month Call	1.0	complete	30	black	0	0	0	0	0	1	0	0	0	0	0	922
+SUB231209	Atopic	CEB	6389	21-Month Call	1.0	complete	21	hispanic/ black	1	0	0	0	0	1	0	0	0	0	0	643
+SUB231211	Atopic	CEB	6557	36-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231211	Atopic	CEB	6559	30-Month Call	1.0	missing	.x	.x												
+SUB231211	Atopic	CEB	6563	18-Month Call	1.0	missing	.x	.x												
+SUB231211	Atopic	CEB	6561	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231211	Atopic	CEB	6560	27-Month Call	1.0	missing	.x	.x												
+SUB231211	Atopic	CEB	32729	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB231211	Atopic	CEB	6558	33-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231215	Atopic	CEB	7418	18-Month Call	1.0	complete	18	hispanic	0	0	0	0	1	0	0	0	0	0	0	547
+SUB231216	Atopic	CEB	7578	24-Month Clinic Visit	1.0	complete	24	black	0	0	0	0	0	1	0	0	0	0	0	717
+SUB231216	Atopic	CEB	7580	18-Month Call	1.0	missing	.x	.x												
+SUB231216	Atopic	CEB	7579	21-Month Call	1.0	missing	.x	.x												
+SUB231217	Atopic	CEB	7727	18-Month Call	1.0	complete	18	hispanic	1	1	0	0	0	0	0	0	0	0	0	535
+SUB231218	Atopic	CEB	7755	24-Month Clinic Visit	1.0	complete	24	latina mix	1	1	1	1	0	0	0	0	0	0	0	795
+SUB231218	Atopic	CEB	7757	18-Month Call	1.0	missing	.x	.x												
+SUB231218	Atopic	CEB	7756	21-Month Call	1.0	missing	.x	.x												
+SUB231219	Atopic	CEB	7773	18-Month Call	1.0	missing	.x	.x												
+SUB231219	Atopic	CEB	7772	21-Month Call	1.0	missing	.x	.x												
+SUB231219	Atopic	CEB	7771	24-Month Clinic Visit	1.0	complete	24	latin mix	1	1	1	1	0	0	0	0	0	0	0	795
+SUB231222	Atopic	CEB	8144	27-Month Call	1.0	missing	.x	.x												
+SUB231222	Atopic	CEB	8143	30-Month Call	1.0	complete	30	half puerto rican and half italian	1	0	0	0	0	0	0	1	0	0	0	920
+SUB231222	Atopic	CEB	8147	18-Month Call	1.0	missing	.x	.x												
+SUB231222	Atopic	CEB	8145	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231222	Atopic	CEB	8146	21-Month Call	1.0	missing	.x	.x												
+SUB231226	Atopic	CEB	8761	18-Month Call	1.0	complete	18	belizian and im all mixed	0	0	0	0	0	1	0	0	0	0	0	584
+SUB231229	Atopic	CEB	8829	18-Month Call	1.0	complete	18	african american	0	0	0	0	0	1	0	0	0	0	0	565
+SUB231235	Atopic	CEB	9307	18-Month Call	1.0	complete	18	shes african-american	0	0	0	0	0	1	0	0	0	0	0	568
+SUB231242	Atopic	CEB	10429	12-Month Clinic Visit	1.0	complete	12	hispanic	1	1	0	0	0	0	0	0	0	0	0	455
+SUB231244	Atopic	CEB	10460	21-Month Call	1.0	complete	21	black american	0	0	0	0	0	1	0	0	0	0	0	639
+SUB231244	Atopic	CEB	10463	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231244	Atopic	CEB	10461	18-Month Call	1.0	missing	.x	.x												
+SUB231248	Atopic	CEB	11188	15-Month Call	1.0	complete	15	puerto rican	1	0	0	0	0	0	0	0	0	0	0	446
+SUB231254	Atopic	CEB	11683	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231254	Atopic	CEB	25871	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB231254	Atopic	CEB	11680	21-Month Call	1.0	missing	.x	.x												
+SUB231254	Atopic	CEB	11681	18-Month Call	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	12353	18-Month Call	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	12355	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	12351	24-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	12352	21-Month Call	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	28516	Between-Visit Phone Call	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	12350	27-Month Call	1.0	missing	.x	.x												
+SUB231259	Atopic	CEB	12354	15-Month Call	1.0	missing	.x	.x												
+SUB231264	Atopic	CEB	13257	12-Month Clinic Visit	1.0	complete	12	puerto rican	1	0	0	0	0	0	0	0	0	0	0	425
+SUB231265	Atopic	CEB	13540	12-Month Clinic Visit	1.0	complete	12	puerto rican/ belizian	1	0	0	0	0	0	1	0	0	0	0	449
+SUB231267	Atopic	CEB	13672	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231267	Atopic	CEB	13670	18-Month Call	1.0	complete	18	hispanic	1	1	0	0	0	0	0	0	0	0	0	577
+SUB231267	Atopic	CEB	13671	15-Month Call	1.0	missing	.x	.x												
+SUB231269	Atopic	CEB	13867	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231269	Atopic	CEB	13865	18-Month Call	1.0	complete	18	puerto rican, dominican, cuban	1	1	0	0	1	0	0	0	0	0	0	564
+SUB231269	Atopic	CEB	13866	15-Month Call	1.0	missing	.x	.x												
+SUB231270	Atopic	CEB	14092	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231270	Atopic	CEB	14091	15-Month Call	1.0	complete	15	puerto rican	1	0	0	0	0	0	0	0	0	0	0	467
+SUB231272	Atopic	CEB	14179	12-Month Clinic Visit	1.0	complete	12	african-american	0	0	0	0	0	1	0	0	0	0	0	371
+SUB231277	Non-atopic	CEB	14686	12-Month Clinic Visit	1.0	complete	12	african/ african american	0	0	0	0	0	1	1	0	0	0	0	422
+SUB231281	Atopic	CEB	15099	12-Month Clinic Visit	1.0	missing	.x	.x												
+SUB231281	Atopic	CEB	15097	18-Month Call	1.0	complete	18	spanish	1	1	0	0	0	0	0	0	0	0	0	581
+SUB231281	Atopic	CEB	15098	15-Month Call	1.0	missing	.x	.x												
+SUB231309	Atopic	CEB	1558	12-Month Clinic Visit	1.0	complete	12	black	0	0	0	0	0	1	0	0	0	0	0	430
+SUB231321	Atopic	CEB	2442	9-Month Call	1.0	missing	.x	.x												
+SUB231321	Atopic	CEB	2436	27-Month Call	1.0	complete	27	african american	0	0	0	0	0	1	0	0	0	0	0	814
+SUB231350	Atopic	CEB	5437	6-Month Call	1.0	complete	6	black and white	0	0	0	0	0	1	0	1	0	0	0	200
+SUB231355	Atopic	CEB	5661	9-Month Call	1.0	complete	9	black/african american	0	0	0	0	0	1	0	0	0	0	0	277
+SUB231380	Atopic	CEB	8106	18-Month Call	1.0	complete	18	black	0	0	0	0	0	1	0	0	0	0	0	562
+SUB231387	Atopic	CEB	8745	18-Month Call	1.0	complete	18	african american	0	0	0	0	0	1	0	0	0	0	0	559
+SUB231389	Atopic	CEB	9018	18-Month Call	1.0	complete	18	black	0	0	0	0	0	1	0	0	0	0	0	574
+SUB231393	Atopic	CEB	9272	18-Month Call	1.0	complete	18	black	0	0	0	0	0	1	0	0	0	0	0	553
+SUB231398	Atopic	CEB	9730	18-Month Call	1.0	complete	18	black	0	0	0	0	0	1	0	0	0	0	0	546
+SUB231412	Atopic	CEB	11731	15-Month Call	1.0	complete	15	black	0	0	0	0	0	1	0	0	0	0	0	458
+SUB231420	Atopic	CEB	12686	15-Month Call	1.0	complete	15	black african american	0	0	0	0	0	1	0	0	0	0	0	445
+SUB231429	Non-atopic	CEB	13740	9-Month Call	1.0	missing	.x	.x												
+SUB231429	Non-atopic	CEB	13742	15-Month Call	1.0	complete	15	african american	0	0	0	0	0	1	0	0	0	0	0	458
+SUB231432	Non-atopic	CEB	14009	12-Month Clinic Visit	1.0	complete	12	african american	0	0	0	0	0	1	0	0	0	0	0	444
+SUB231435	Atopic	CEB	21556	Between-Visit Phone Call	1.0	complete	e	black african american	0	0	0	0	0	1	0	0	0	0	0	437
+SUB231435	Atopic	CEB	14076	9-Month Call	1.0	missing	.x	.x												
+SUB231437	Atopic	CEB	14611	6-Month Call	1.0	complete	6	african-american	0	0	0	0	0	1	0	0	0	0	0	214
+SUB231455	Non-atopic	CEB	17478	9-Month Call	1.0	complete	9	black	0	0	0	0	0	1	0	0	0	0	0	261
+SUB231461	Atopic	CEB	18112	6-Month Call	1.0	missing	.x	.x												
+SUB231461	Atopic	CEB	18111	9-Month Call	1.0	missing	.x	.x												
+SUB231462	Non-atopic	CEB	18165	9-Month Call	1.0	complete	9	black	0	0	0	0	0	1	0	0	0	0	0	266

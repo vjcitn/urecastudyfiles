@@ -1,0 +1,105 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	514	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CCRI"", ""CCRI"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""incomplete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	1752	0	"c(""1000180"", ""999904"")"
+6	7	aVisit	Visit	chr	character	character	8	0	"c(""12"", ""cblo"")"
+7	8	CCRI_q1b1	A Assay - Stimulant LPS - Cytokine IFN-a (pg/ml)	dbl	numeric	double	1012	177	c(0.05, 6550)
+8	9	CCRI_q1b2	A Assay - Stimulant LPS - Cytokine IFN-g	dbl	numeric	double	1347	104	c(0.24, 25718.96)
+9	10	CCRI_q1b3	A Assay - LPS - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1462	37	c(2.8, 19194.47)
+10	11	CCRI_q1b4	A Assay - LPS - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	1218	95	c(0.42, 2927.58)
+11	12	CCRI_q1b5	A Assay - Stimulant LPS - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+12	13	CCRI_q1b7	A Assay - LPS - Cytokine TNF-a (pg/ml)	dbl	numeric	double	1479	36	c(12.62, 31600)
+13	14	CCRI_q1c1	A Assay - Stimulant MC24 - Cytokine IFN-a (pg/ml)	dbl	numeric	double	434	1106	c(0.01, 664.64)
+14	15	CCRI_q1c2	A Assay - Stimulant MC24 - Cytokine IFN-g (pg/ml)	dbl	numeric	double	536	984	c(0, 1060)
+15	16	CCRI_q1c3	A Assay - MC24 - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	941	574	c(0.24, 4010)
+16	17	CCRI_q1c4	A Assay - Stimulant MC24 - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	422	1046	c(0.01, 503.94)
+17	18	CCRI_q1c5	A Assay - Stimulant MC24- Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+18	19	CCRI_q1c7	A Assay - MC24 - Cytokine TNF-a (pg/ml)	dbl	numeric	double	1082	536	c(0.12, 3380)
+19	20	CCRI_q1d1	A Assay - Stimulant PIC- Cytokine IFN-a (pg/ml)	dbl	numeric	double	1448	48	c(1.48, 3470)
+20	21	CCRI_q1d2	A Assay - Stimulant PIC- Cytokine IFN-g (pg/ml)	dbl	numeric	double	1485	61	c(0.1, 9709.81)
+21	22	CCRI_q1d3	A Assay - PIC - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1407	34	c(1.65, 10394.85)
+22	23	CCRI_q1d4	A Assay - Stimulant PIC- Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	874	479	c(0.02, 684.59)
+23	24	CCRI_q1d5	A Assay - Stimulant PIC- Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+24	25	CCRI_q1d7	A Assay - PIC - Cytokine TNF-a (pg/ml)	dbl	numeric	double	1430	24	c(4.55, 4999.06)
+25	26	CCRI_q1e1	A Assay - Stimulant PG- Cytokine IFN-a (pg/ml)	dbl	numeric	double	567	802	c(0, 482.95)
+26	27	CCRI_q1e2	A Assay - Stimulant PG- Cytokine IFN-g (pg/ml)	dbl	numeric	double	1270	158	c(0.15, 9194.88)
+27	28	CCRI_q1e3	A Assay - PG - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1444	30	c(5.1, 14135.7)
+28	29	CCRI_q1e4	A Assay - Stimulant PG- Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	1377	37	c(0.9, 1740)
+29	30	CCRI_q1e5	A Assay - Stimulant PG- Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+30	31	CCRI_q1e7	A Assay - PG - Cytokine TNF-a (pg/ml)	dbl	numeric	double	1464	29	c(3.52, 23644.1)
+31	32	CCRI_q1f1	A Assay - Stimulant CpG- Cytokine IFN-a (pg/ml)	dbl	numeric	double	1490	42	c(1.48, 16685.83)
+32	33	CCRI_q1f2	A Assay - Stimulant CpG - Cytokine IFN-g (pg/ml)	dbl	numeric	double	1182	122	c(0.1, 2890)
+33	34	CCRI_q1f3	A Assay - CpG - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1458	33	c(1.87, 13003.65)
+34	35	CCRI_q1f4	A Assay - Stimulant CpG - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	976	448	c(0.02, 658.59)
+35	36	CCRI_q1f5	A Assay - Stimulant CpG - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+36	37	CCRI_q1f7	A Assay - CpG - Cytokine TNF-a (pg/ml)	dbl	numeric	double	1392	30	c(3.85, 4399.25)
+37	38	CCRI_q1g1	A Assay - Stimulant GDQ - Cytokine IFN-a (pg/ml)	dbl	numeric	double	992	685	c(0.24, 8250.28)
+38	39	CCRI_q1g2	A Assay - Stimulant GDQ - Cytokine IFN-g (pg/ml)	dbl	numeric	double	855	717	c(0, 2404.96)
+39	40	CCRI_q1g3	A Assay - Stimulant GDQ - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1061	662	c(3.61, 3670)
+40	41	CCRI_q1g4	A Assay - Stimulant GDQ - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	731	742	c(0.02, 521.78)
+41	42	CCRI_q1g5	A Assay - Stimulant GDQ - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+42	43	CCRI_q1g7	A Assay - Stimulant GDQ- Cytokine TNF-a (pg/ml)	dbl	numeric	double	1067	659	c(6.76, 7004.45)
+43	44	CCRI_q1h1	A Assay - Stimulant RSV- IFN-a (pg/ml)	dbl	numeric	double	606	836	c(0.01, 5917.05)
+44	45	CCRI_q1h2	A Assay - Stimulant RSV IFN-g (pg/ml)	dbl	numeric	double	956	390	c(0.03, 2010)
+45	46	CCRI_q1h3	A Assay - RSV - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1284	51	c(0.12, 7050.6)
+46	47	CCRI_q1h4	A Assay - Stimulant RSV IL-12 (p40) (pg/ml)	dbl	numeric	double	746	475	c(0.02, 688.76)
+47	48	CCRI_q1h5	A Assay - Stimulant RSV IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+48	49	CCRI_q1h7	A Assay - RSV- Cytokine TNF-a (pg/ml)	dbl	numeric	double	1463	33	c(1.25, 5790)
+49	50	CCRI_q1i1	A Assay - Stimulant RV - Cytokine IFN-a (pg/ml)	dbl	numeric	double	1438	168	c(0.03, 18190.55)
+50	51	CCRI_q1i2	A Assay - Stimulant RV - Cytokine IFN-g (pg/ml)	dbl	numeric	double	1300	163	c(0.1, 2737.92)
+51	52	CCRI_q1i3	A Assay - Stimulant RV - Cytokine IL-10 (pg/ml)	dbl	numeric	double	1388	83	c(0.16, 12227.44)
+52	53	CCRI_q1i4	A Assay - Stimulant RV - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	541	818	c(0.07, 707.44)
+53	54	CCRI_q1i5	A Assay - Stimulant RV - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+54	55	CCRI_q1i7	A Assay - Stimulant RV - Cytokine TNF-a (pg/ml)	dbl	numeric	double	1421	76	c(2.87, 4010)
+55	56	CCRI_q2b1	B Assay - Stimulant LPS - Cytokine IFN-a (pg/ml)	dbl	numeric	double	144	1580	c(0.05, 2280)
+56	57	CCRI_q2b2	B Assay - Stimulant LPS - Cytokine IFN-g (pg/ml)	dbl	numeric	double	169	1578	c(0.06, 4760)
+57	58	CCRI_q2b3	B Assay - Stimulant LPS - Cytokine IL-10 (pg/ml)	dbl	numeric	double	179	1567	c(2.12, 7507.05)
+58	59	CCRI_q2b4	B Assay - Stimulant LPS - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	169	1573	c(1.37, 561)
+59	60	CCRI_q2b5	B Assay - Stimulant LPS - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+60	61	CCRI_q2b7	B Assay - Stimulant LPS - Cytokine TNF-a (pg/ml)	dbl	numeric	double	182	1567	c(31.2, 13400)
+61	62	CCRI_q2c1	B Assay - Stimulant MC24 - Cytokine IFN-a (pg/ml)	dbl	numeric	double	3	1750	c(0.2, 1.72)
+62	63	CCRI_q2c2	B Assay - Stimulant MC24 - Cytokine IFN-g (pg/ml)	dbl	numeric	double	4	1749	c(1, 3.1)
+63	64	CCRI_q2c3	B Assay - Stimulant MC24 - Cytokine IL-10 (pg/ml)	dbl	numeric	double	16	1737	c(3.13, 30.5)
+64	65	CCRI_q2c4	B Assay - Stimulant MC24 - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	7	1746	c(0.71, 14.4)
+65	66	CCRI_q2c5	B Assay - Stimulant MC24 - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+66	67	CCRI_q2c7	B Assay - Stimulant MC24 - Cytokine TNF-a (pg/ml)	dbl	numeric	double	16	1737	c(2.63, 181)
+67	68	CCRI_q2d1	B Assay - Stimulant PIC - Cytokine IFN-a (pg/ml)	dbl	numeric	double	179	1567	c(1.86, 7990)
+68	69	CCRI_q2d2	B Assay - Stimulant PIC - Cytokine IFN-g (pg/ml)	dbl	numeric	double	178	1570	c(1.09, 9810)
+69	70	CCRI_q2d3	B Assay - Stimulant PIC - Cytokine IL-10 (pg/ml)	dbl	numeric	double	178	1566	c(2.93, 1990)
+70	71	CCRI_q2d4	B Assay - Stimulant PIC - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	106	1624	c(0.9, 516)
+71	72	CCRI_q2d5	B Assay - Stimulant PIC - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+72	73	CCRI_q2d7	B Assay - Stimulant PIC - Cytokine TNF-a (pg/ml)	dbl	numeric	double	184	1565	c(18.7, 7110)
+73	74	CCRI_q2e1	B Assay - Stimulant PG - Cytokine IFN-a (pg/ml)	dbl	numeric	double	80	1646	c(0.37, 238)
+74	75	CCRI_q2e2	B Assay - Stimulant PG - Cytokine IFN-g (pg/ml)	dbl	numeric	double	165	1579	c(0, 9072.94)
+75	76	CCRI_q2e3	B Assay - Stimulant PG - Cytokine IL-10 (pg/ml)	dbl	numeric	double	177	1566	c(6.3, 7050)
+76	77	CCRI_q2e4	B Assay - Stimulant PG - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	182	1566	c(5.3, 1040)
+77	78	CCRI_q2e5	B Assay - Stimulant PG - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+78	79	CCRI_q2e7	B Assay - Stimulant PG - Cytokine TNF-a (pg/ml)	dbl	numeric	double	184	1566	c(42.52, 11654.87)
+79	80	CCRI_q2f1	B Assay - Stimulant CpG - Cytokine IFN-a (pg/ml)	dbl	numeric	double	186	1567	c(0.79, 13900)
+80	81	CCRI_q2f2	B Assay - Stimulant CpG - Cytokine IFN-g (pg/ml)	dbl	numeric	double	163	1579	c(1.2, 1390)
+81	82	CCRI_q2f3	B Assay - Stimulant CpG - Cytokine IL-10 (pg/ml)	dbl	numeric	double	180	1565	c(2.78, 1980)
+82	83	CCRI_q2f4	B Assay - Stimulant CpG - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	123	1618	c(1.18, 160)
+83	84	CCRI_q2f5	B Assay - Stimulant CpG - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+84	85	CCRI_q2f7	B Assay - Stimulant CpG - Cytokine TNF-a (pg/ml)	dbl	numeric	double	183	1565	c(10.4, 2200)
+85	86	CCRI_q2g1	B Assay - Stimulant GDQ - Cytokine IFN-a (pg/ml)	dbl	numeric	double	103	1646	c(4.49, 1840.25)
+86	87	CCRI_q2g2	B Assay - Stimulant GDQ- Cytokine IFN-g (pg/ml)	dbl	numeric	double	97	1648	c(0.2, 2593.97)
+87	88	CCRI_q2g3	B Assay - Stimulant GDQ - Cytokine IL-10 (pg/ml)	dbl	numeric	double	108	1644	c(7.74, 1680)
+88	89	CCRI_q2g4	B Assay - Stimulant GDQ - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	86	1653	c(0.9, 340.98)
+89	90	CCRI_q2g5	B Assay - Stimulant GDQ - Cytokine IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+90	91	CCRI_q2g7	B Assay - Stimulant GDQ - Cytokine TNF-a (pg/ml)	dbl	numeric	double	109	1644	c(13.54, 1880)
+91	92	CCRI_q2h1	B Assay - Stimulant RSV - IFN-a (pg/ml)	dbl	numeric	double	65	1665	c(0.4, 8620)
+92	93	CCRI_q2h2	B Assay - Stimulant RSV IFN-g (pg/ml)	dbl	numeric	double	117	1623	c(0.11, 841)
+93	94	CCRI_q2h3	B Assay - Stimulant RSV - Cytokine IL-10 (pg/ml)	dbl	numeric	double	172	1568	c(0.48, 1000)
+94	95	CCRI_q2h4	B Assay - Stimulant RSV IL-12 (p40) (pg/ml)	dbl	numeric	double	101	1632	c(0.24, 127)
+95	96	CCRI_q2h5	B Aassay - Stimulant RSV IL-6 (pg/ml)	dbl	numeric	double	1	1752	
+96	97	CCRI_q2h7	B Assay - Stimulant RSV - Cytokine TNF-a (pg/ml)	dbl	numeric	double	181	1567	c(1.46, 6110)
+97	98	CCRI_q2i1	B Assay - Stimulant RV - Cytokine INF-a (pg/ml)	dbl	numeric	double	158	1592	c(1.3, 10555.89)
+98	99	CCRI_q2i2	B Assay - Stimulant RV - Cytokine IFN-g (pg/ml)	dbl	numeric	double	151	1598	c(0.41, 783)
+99	100	CCRI_q2i3	B Assay - Stimulant RV - Cytokine IL-10 (pg/ml)	dbl	numeric	double	166	1582	c(0.48, 447.01)
+100	101	CCRI_q2i4	B Assay - Stimulant RV - Cytokine IL-12 (p40) (pg/ml)	dbl	numeric	double	62	1668	c(0.24, 103.63)
+101	102	CCRI_q2i5	B Assay - Stimulant RV - Cytokine IL-g (pg/ml)	dbl	numeric	double	1	1752	
+102	103	CCRI_q2i7	B Assay - Stimulant RV - Cytokine TNF-a (pg/ml)	dbl	numeric	double	169	1581	c(3.52, 1065.76)
+103	104	aProcDY	Processing Day	dbl	numeric	double	1	1752	

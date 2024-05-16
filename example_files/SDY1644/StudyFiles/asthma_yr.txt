@@ -1,0 +1,409 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2012 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K. Jaffee           05/23/12       Create  
+*   K. Jaffee           09/04/14      Update and add AAAR3 master set 
+*   K. Jaffee           10/30/14      Add CASTU form data - ages 1-3
+*   Alexandre Lockhart  06/09/2017    Re-checked and re-ran
+*   Alexandre Lockhart  01/02/2018    Re-checked years 81 and 84
+*   Alexandre Lockhart  07/20/2019     Added hay fever and routine nasal symptoms variables
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=asthma_yr,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.aaar out=aaar ; by studyid ; run ;
+proc sort data=master.aaar3 out=aaar_fm2 ; by studyid ; run ;
+proc sort data=master.castu out=castu ; by studyid ; run ;
+
+data aaar2 ;
+   set aaar (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename AAAR_q1=runnynose
+         AAAR_q1a=runnynose_diffseas
+         AAAR_q2=stuffynose 
+         AAAR_q2a=stuffynose_diffseas
+         AAAR_q3=sneezes 
+         AAAR_q3a=sneezes_diffseas
+         AAAR_q4=itchyeyes
+         AAAR_q4a=itchyeyes_diffseas
+         AAAR_q5a=symptoms_mold
+         AAAR_q5b=symptoms_dust
+         AAAR_q5c=symptoms_dogs
+         AAAR_q5d=symptoms_cats
+         AAAR_q5e=symptoms_ets
+         AAAR_q5f=symptoms_diffseas
+         AAAR_q5f1a=symptoms_spring
+         AAAR_q5f1b=symptoms_summer
+         AAAR_q5f1c=symptoms_fall
+         AAAR_q5f1d=symptoms_winter
+         AAAR_q5g=symptoms_other
+         AAAR_q5g1=symptoms_otherspec
+         AAAR_q6=cough_diffseas
+         AAAR_q6a1=cough_spring
+         AAAR_q6a2=cough_summer
+         AAAR_q6a3=cough_fall
+         AAAR_q6a4=cough_winter
+         AAAR_q7a=whzprobs_cold
+         AAAR_q7b=whzprobs_exercise
+         AAAR_q7c=whzprobs_ets
+         AAAR_q7d=whzprobs_diffseas
+         AAAR_q7d1a=whzprobs_spring
+         AAAR_q7d1b=whzprobs_summer
+         AAAR_q7d1c=whzprobs_fall
+         AAAR_q7d1d=whzprobs_winter
+         AAAR_q7e=whzprobs_other
+         AAAR_q7e1=whzprobs_otherspec
+         AAAR_q8=itchyrash 
+         AAAR_q10a1=itchyrash_elbows
+         AAAR_q10a2=itchyrash_knees
+         AAAR_q10a3=itchyrash_ankles
+         AAAR_q10a4=itchyrash_thighs
+         AAAR_q10a5=itchyrash_neck
+         AAAR_q10a6=itchyrash_earseyes
+         AAAR_q11=itchyrash_clear12mo
+         AAAR_q12=itchyrash_night
+         AAAR_q13=asthma_ever_prelim
+         AAAR_q13a=asthma_age
+         AAAR_q13b=asthma_docdiag_prelim
+         AAAR_q13c=asthma_age_docsaid
+         AAAR_q13d=asthma_still
+         AAAR_q13e=asthmasymp_12mo
+         AAAR_q13f=asthmameds_12mo
+         AAAR_q14=hayfev_ever
+         AAAR_q14a=hayfev_age
+         AAAR_q14b=hayfev_docdiag
+         AAAR_q14c=hayfev_age_docsaid
+         AAAR_q14d=hayfev_still ;
+run ;
+
+data aaar_newform ;
+   set aaar_fm2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename AAAR3_q1=runnynose
+         AAAR3_q2=stuffynose 
+         AAAR3_q3=sneezes 
+         AAAR3_q4=itchyeyes
+         AAAR3_q5a=symptoms_mold
+         AAAR3_q5b=symptoms_dust
+         AAAR3_q5c=symptoms_dogs
+         AAAR3_q5d=symptoms_cats
+         AAAR3_q5e=symptoms_ets
+         AAAR3_q5f=symptoms_diffseas
+         AAAR3_q5f1a=symptoms_spring
+         AAAR3_q5f1b=symptoms_summer
+         AAAR3_q5f1c=symptoms_fall
+         AAAR3_q5f1d=symptoms_winter
+         AAAR3_q5g=symptoms_other
+         AAAR3_q5g1=symptoms_otherspec
+         AAAR3_q6=cough_diffseas
+         AAAR3_q6a1=cough_spring
+         AAAR3_q6a2=cough_summer
+         AAAR3_q6a3=cough_fall
+         AAAR3_q6a4=cough_winter
+         AAAR3_q7a=whzprobs_cold
+         AAAR3_q7b=whzprobs_exercise
+         AAAR3_q7c=whzprobs_ets
+         AAAR3_q7d=whzprobs_diffseas
+         AAAR3_q7d1a=whzprobs_spring
+         AAAR3_q7d1b=whzprobs_summer
+         AAAR3_q7d1c=whzprobs_fall
+         AAAR3_q7d1d=whzprobs_winter
+         AAAR3_q7e=whzprobs_other
+         AAAR3_q7e1=whzprobs_otherspec
+         AAAR3_q8=itchyrash 
+         AAAR3_q10a1=itchyrash_elbows
+         AAAR3_q10a2=itchyrash_knees
+         AAAR3_q10a3=itchyrash_ankles
+         AAAR3_q10a4=itchyrash_thighs
+         AAAR3_q10a5=itchyrash_neck
+         AAAR3_q10a6=itchyrash_earseyes
+         AAAR3_q11=itchyrash_clear12mo
+         AAAR3_q12=itchyrash_night
+         AAAR3_q13=asthma_ever_prelim
+         AAAR3_q13a=asthma_age
+         AAAR3_q13b=asthma_docdiag_prelim
+         AAAR3_q13c=asthma_age_docsaid
+         AAAR3_q13e=asthmasymp_12mo
+         AAAR3_q13f=asthmameds_12mo
+         AAAR3_q14=hayfev_ever
+         AAAR3_q14a=hayfev_age
+         AAAR3_q14b=hayfev_docdiag
+         AAAR3_q14c=hayfev_age_docsaid
+         AAAR3_q14d=hayfev_still 
+          AAAR3_q15=sinusitis_ever
+         AAAR3_q16=sinuspres_12mo;
+run ;
+
+data castu2 ;
+   set castu (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename CASTU_q1=runnynose
+         CASTU_q1a=runnynose_diffseas
+         CASTU_q2=stuffynose 
+         CASTU_q2a=stuffynose_diffseas
+         CASTU_q3=sneezes 
+         CASTU_q3a=sneezes_diffseas
+         CASTU_q4=itchyeyes
+         CASTU_q4a=itchyeyes_diffseas
+         CASTU_q5a=symptoms_mold
+         CASTU_q5b=symptoms_dust
+         CASTU_q5c=symptoms_dogs
+         CASTU_q5d=symptoms_cats
+         CASTU_q5e=symptoms_ets
+         CASTU_q5f=symptoms_diffseas
+         CASTU_q5f1a=symptoms_spring
+         CASTU_q5f1b=symptoms_summer
+         CASTU_q5f1c=symptoms_fall
+         CASTU_q5f1d=symptoms_winter
+         CASTU_q5g=symptoms_other
+         CASTU_q5g1=symptoms_otherspec
+         CASTU_q6=cough_diffseas
+         CASTU_q6a1=cough_spring
+         CASTU_q6a2=cough_summer
+         CASTU_q6a3=cough_fall
+         CASTU_q6a4=cough_winter
+         CASTU_q7a=whzprobs_cold
+         CASTU_q7b=whzprobs_exercise
+         CASTU_q7c=whzprobs_ets
+         CASTU_q7d=whzprobs_diffseas
+         CASTU_q7d1a=whzprobs_spring
+         CASTU_q7d1b=whzprobs_summer
+         CASTU_q7d1c=whzprobs_fall
+         CASTU_q7d1d=whzprobs_winter
+         CASTU_q7e=whzprobs_other
+         CASTU_q7e1=whzprobs_otherspec
+         CASTU_q8=itchyrash ;
+
+   keep studyid -- CASTU_q8 avisit ;
+run ;
+
+data castu_12m ;
+   set castu (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename CASTU_q9a1=itchyrash_cheeks
+         CASTU_q9a2=itchyrash_forearms
+         CASTU_q9a3=itchyrash_trunk
+         CASTU_q9a4=itchyrash_elbows
+         CASTU_q9a5=itchyrash_knees
+         CASTU_q9a6=itchyrash_ankles ;
+
+   if avisit=12 ;
+
+   keep studyid avisit CASTU_q9a1 -- CASTU_q9a6 ;
+run ;
+
+data castu_2436m ;
+   set castu (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename CASTU_q10a1=itchyrash_elbows
+         CASTU_q10a2=itchyrash_knees
+         CASTU_q10a3=itchyrash_ankles
+         CASTU_q10a4=itchyrash_thighs
+         CASTU_q10a5=itchyrash_neck
+         CASTU_q10a6=itchyrash_earseyes 
+         CASTU_q11=itchyrash_clear12mo
+         CASTU_q12=itchyrash_night ;
+
+   if avisit in (24,36) ;
+
+   keep studyid avisit CASTU_q10a1 -- CASTU_q12 ;
+run ;
+
+data castu_allrash ;
+   set castu_12m castu_2436m ;
+run ;
+
+proc sort data=castu_allrash ; by studyid avisit ; run ;
+proc sort data=castu2 ; by studyid avisit ; run ;
+
+data castu_all ;
+   merge castu2 castu_allrash ;
+   by studyid avisit ;
+run ;
+
+data aaar3 ;
+   set aaar2 aaar_newform castu_all ;
+   if status="missing" and aCompletionDate < 0 then delete ;
+run ;
+
+proc sort data=aaar3 ; by studyid avisit ; run ;
+
+data aaar4 ;
+   set aaar3 ;
+   by studyid avisit ;
+   retain asthma_ever asthma_docdiag 0 ;
+
+   if first.studyid then do ;
+      asthma_ever=asthma_ever_prelim ;
+      asthma_docdiag=asthma_docdiag_prelim ;
+   end ;
+
+   if not first.studyid then do ;
+      asthma_ever=MAX(asthma_ever,asthma_ever_prelim) ;
+      asthma_docdiag=MAX(asthma_docdiag,asthma_docdiag_prelim) ;
+   end ;
+
+   if MAX(runnynose,runnynose_diffseas,stuffynose,stuffynose_diffseas,sneezes,sneezes_diffseas,
+         itchyeyes,itchyeyes_diffseas)=0 then do ;
+     symptoms_mold     =0 ;
+     symptoms_dust     =0 ;
+     symptoms_dogs     =0 ;
+     symptoms_cats     =0 ;
+     symptoms_ets      =0 ;
+     symptoms_diffseas =0 ;
+     symptoms_spring   =0 ;
+     symptoms_summer   =0 ; 
+     symptoms_fall     =0 ;
+     symptoms_winter   =0 ;
+     symptoms_other    =0 ;
+     symptoms_otherspec=0 ;
+    end ;
+
+   if cough_diffseas=0 then do ;
+     cough_spring=0 ;
+     cough_summer=0 ;
+     cough_fall  =0 ;
+     cough_winter=0 ;
+   end ;
+
+   if whzprobs_diffseas=0 then do ;
+     whzprobs_spring=0 ;
+     whzprobs_summer=0 ;
+     whzprobs_fall  =0 ;
+     whzprobs_winter=0 ;
+   end ;
+
+   if itchyrash=0 then do ;
+     itchyrash_elbows   =0 ;
+     itchyrash_knees    =0 ;
+     itchyrash_ankles   =0 ;
+     itchyrash_thighs   =0 ;
+     itchyrash_neck     =0 ;
+     itchyrash_earseyes =0 ;
+     itchyrash_clear12mo=0 ;
+     itchyrash_night    =0 ;
+   end ;
+
+   if asthma_ever=0 then do ;
+     asthma_docdiag =0 ;
+     asthma_still   =0 ;
+     asthmasymp_12mo=0 ;
+     asthmameds_12mo=0 ;
+   end ;
+
+   if hayfev_ever=0 then do ;
+     hayfev_docdiag =0 ;
+     hayfev_still   =0 ;
+   end ;
+
+   where avisit>=0 ;
+   
+   avisit_actual=avisit ;
+
+   if avisit=81 then avisit=84 ;
+
+   label asthma_ever="Ever had asthma" 
+        asthma_docdiag="Asthma has ever been diagnosed by doc" ;
+
+   drop avisit_char recruitid astudyid asthma_ever_prelim asthma_docdiag_prelim ;
+
+run ;
+
+
+*Added hayfever symptoms and routine nasal symptoms;
+
+data aaar5;
+
+   set aaar4;
+
+   if runnynose=1 or stuffynose=1 or sneezes=1 then nasal_symp=1;
+   else if runnynose not in (1,.) and stuffynose not in (1,.) and sneezes not in (1,.) then nasal_symp=0;
+
+   if hayfev_docdiag=1 and hayfev_still=1 then hayfev_symp=1;
+   else if hayfev_docdiag not in (1,.) and hayfev_still not in (1,.) then hayfev_symp=0;
+   label nasal_symp='Routine nasal symptoms'
+   hayfev_symp='Hay fever symptoms';
+run;
+
+
+
+/*************************************************************************************
+ Check Duplicates - NONE as of 06/16/2017
+**************************************************************************************/
+proc sort nodupkey data=aaar5 out=clean dupout=dups; by studyid avisit;
+run;
+   
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell60;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 12,24,36,48,60,72,84,96,108,120;
+  if avisit =12 then year=1;
+  if avisit =24 then year=2;
+  if avisit =36 then year=3;
+  if avisit =48 then year=4;
+  if avisit =60 then year=5;
+  if avisit =72 then year=6;
+  if avisit =84 then year=7;
+  if avisit =96 then year=8;
+  if avisit =108 then year=9;
+  if avisit =120 then year=10;
+ output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell60; by studyid avisit; run;
+proc sort data=clean  ; by studyid avisit; run;
+
+data derive.asthma_yr;
+   merge shell60 clean (in=b);
+   by studyid avisit;
+   format site $site.;
+   if b=1 then asthma_yr=1; else asthma_yr=0;
+run;
+
+
+

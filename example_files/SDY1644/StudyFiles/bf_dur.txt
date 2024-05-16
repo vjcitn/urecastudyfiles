@@ -1,0 +1,224 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         06/14/07        Created Program
+*   K. Jaffee         06/24/11      Change template, label vars
+*   S. Lussier         07/07/17        Cleaned Log
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=bf_dur,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.ifd out=ifd; by studyid avisit;
+proc sort data=master.br out=br; by studyid;
+
+data bf;
+   merge ifd (in=d) br (keep=studyid br_q2a);
+   by studyid;
+   if d and studyid ne '.m';  **there is no diet info for 12 babies deactivated before 3 months or first contact;
+
+   visita=scan(event, 1);
+   visit=input(visita, 16.);
+run ;
+
+proc sort data=bf ; by studyid visit; run ;
+
+**condense to one record per person;
+data bf2;
+   set bf;
+   by studyid visit;
+
+   retain everbf bfat3 bfat6 bfat9 bfat12 bfweeks formula_age liquids_age solids_age weeks_obs;
+
+   if first.studyid then do; everbf=.; bfat3=.; bfat6=.; bfat9=.; bfat12=.; 
+   bfweeks=.; formula_age=.; liquids_age=.; solids_age=.; weeks_obs=.; end;
+
+   if visit=3 and ifd_q3=1 then everbf=1;
+   else if visit=3 and ifd_q3=0 then everbf=0;
+   if visit=6 and ifd_q3=1 then everbf=1;
+   else if visit=6 and ifd_q3=0 then everbf=0;
+   if visit=9 and ifd_q3=1 then everbf=1;
+   else if visit=9 and ifd_q3=0 then everbf=0;
+   if visit=12 and ifd_q3=1 then everbf=1;
+   else if visit=12 and ifd_q3=0 then everbf=0;
+   if visit=3 and ifd_q4=1 then do; bfat3=1; bfweeks=round((acompletiondate-br_q2a)/7, 1.); end;
+   else if visit=3 and (ifd_q4=0 or ifd_q4=.a) then bfat3=0;
+   if visit=6 and ifd_q4=1 then do; bfat6=1; bfweeks=round((acompletiondate-br_q2a)/7, 1.); end;
+   else if visit=6 and (ifd_q4=0 or ifd_q4=.a) then bfat6=0;
+   if visit=9 and ifd_q4=1 then do; bfat9=1; bfweeks=round((acompletiondate-br_q2a)/7, 1.); end;
+   else if visit=9 and (ifd_q4=0 or ifd_q4=.a) then bfat9=0;
+   if visit=12 and ifd_q4=1 then do; bfat12=1; bfweeks=round((acompletiondate-br_q2a)/7, 1.); end;
+   else if visit=12 and (ifd_q4=0 or ifd_q4=.a) then bfat12=0;
+ 
+   *assume breastfeeding has to be continuous;
+   if bfat12=1 then do; bfat9=1; bfat6=1; bfat3=1; everbf=1; end;
+   if bfat9=1 then do; bfat6=1; bfat3=1; everbf=1; end;
+   if bfat6=1 then do; bfat3=1; everbf=1; end;
+
+   if everbf=0 then bfweeks=0;
+   else if ifd_q5 > .z then do; 
+      if ifd_q5a=1 then bfweeks=round(ifd_q5/7, 1.);
+      else if ifd_q5a=2 then bfweeks=round(ifd_q5, 1.);
+      else if ifd_q5a=3 then bfweeks=round(ifd_q5*4.3, 1.);
+      else if ifd_q5a=4 then bfweeks=round(ifd_q5*52, 1.);
+   *the only 'other's are 1 year;
+   end;
+
+   *other assumptions;
+   *these result from people who missed their 3-mo but say not bf at a later visit
+   and give the date for stopping;
+   if everbf=. and bfweeks > . then everbf=1;
+   if bfat3=. and bfweeks >=12 then bfat3=1;
+   if bfat6=. and bfweeks >=24 then bfat6=1;
+   if bfat9=. and bfweeks >=36 then bfat9=1;
+   if bfat12=. and bfweeks >=52 then bfat12=1;
+
+   if everbf=0 then formula_age=0;
+   else if ifd_q10=0 and lag(formula_age=.) then formula_age=.;
+   else if ifd_q10=1 then do; 
+      if ifd_q10a1=1 then formula_age=round(ifd_q10a/7, 1.);
+      else if ifd_q10a1=2 then formula_age=round(ifd_q10a, 1.);
+      else if ifd_q10a1=3 then formula_age=round(ifd_q10a*4.3, 1.);
+   end;
+   else if ifd_q10=.a and formula_age=. then do; 
+      if ifd_q10b=1 then formula_age=round((acompletiondate-45-br_q2a)/7,1.);
+   *midpoint of last 3 months;
+   end;
+   if formula_age > bfweeks and bfweeks ne . then formula_age=bfweeks;  
+   
+   if nmiss(ifd_q12b, ifd_q12c, ifd_q12d, ifd_q12e, ifd_q12f, ifd_q12g) ^= 6 
+      then liquids=max(ifd_q12b, ifd_q12c, ifd_q12d, ifd_q12e, ifd_q12f, ifd_q12g);
+      else liquids = .;
+   **not counting ifd_q12a -- water;
+   if nmiss(ifd_q13a, ifd_q13b, ifd_q13c, ifd_q13d, ifd_q13e, ifd_q13f, ifd_q13g) ^= 7 
+      then solids =max(ifd_q13a, ifd_q13b, ifd_q13c, ifd_q13d, ifd_q13e, ifd_q13f, ifd_q13g);
+      else solids = .;
+
+   if (first.studyid or (not first.studyid and lag(liquids) in (., 0)) 
+      and lag(liquids_age)=.) and liquids=1 
+   then liquids_age=round((acompletiondate-45-br_q2a)/7, 1.);
+   if (first.studyid or (not first.studyid and lag(solids) in (., 0)) and lag(solids_age)=.) and solids=1 then solids_age=round((acompletiondate-45-br_q2a)/7, 1.);
+
+   if nmiss(formula_age, liquids_age, solids_age) ^=3 
+      then exclus_bf=min(formula_age, liquids_age, solids_age);
+      else exclus_bf= .;
+
+   if acompletiondate ne .x then weeks_obs=int((acompletiondate-br_q2a)/7);
+
+   label    everbf='Ever breastfed child' 
+         bfat3='Breastfed child in first 3 months' 
+         bfat6='Breastfed child in first 6 months' 
+         bfat9='Breastfed child in first 9 months' 
+         bfat12='Breastfed child in first 12 months' 
+         bfweeks='Duration of breastfeeding (weeks)'
+         formula_age='Initiation of formula (weeks)'
+         liquids='Other liquids given'
+         solids='Solid food given'
+         liquids_age='Initition of other liquids (weeks)'
+         solids_age='Initiation of solid food (weeks)'
+         exclus_bf='Duration of exclusive breastfeeding (weeks)'
+         weeks_obs='Number of weeks under observation';
+
+run ;
+
+data bf3;
+   set bf2;
+   by studyid visit;
+   keep studyid visit everbf bfat3 bfat6 bfat9 bfat12 
+         bfweeks formula_age liquids_age solids_age exclus_bf weeks_obs;
+   if last.studyid then output;
+run ;
+
+data bf4 ;
+   set bf3 ;
+   avisit = 12 ;
+   drop visit ;
+run ;
+
+/*************************************************************************************
+ Check Duplicates - NONE as of 12/13/2016
+**************************************************************************************/
+proc sort nodupkey data=bf4 out=clean dupout=dups; by studyid ;
+run;
+   
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell12;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 12 ;
+  if avisit =12 then year=1;
+ output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell12; by studyid avisit; run;
+proc sort data=bf4    ; by studyid avisit; run;
+
+data derive.BF_dur;
+   merge shell12 bf4 (in=b);
+   by studyid avisit;
+   format site $site.;
+   if b=1 then bf_dur=1; else bf_dur=0;
+run;
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+ %gitGot(repo = https://github.com/RhoInc/sas-codebook,
+         folder = Macros);
+
+%codebook_generic
+        (data = derive.BF_dur,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.BF_dur,*/
+/*          pdfname=BF_dur,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+ods select Position;
+proc contents data=derive.bf_dur position; run;
+run;
+ods select default;

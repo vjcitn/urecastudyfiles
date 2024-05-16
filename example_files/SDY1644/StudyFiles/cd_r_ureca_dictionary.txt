@@ -1,0 +1,50 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	555	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CD"", ""CD"")"
+3	4	evid	evid	dbl	numeric	double	5811	0	c(297, 54730)
+4	5	event	event	chr	character	character	12	0	"c(""12-Month Clinic Visit"", ""45-Month Call"")"
+5	6	version	version	chr	character	character	3	0	"c(""1.0"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	12	0	"c("".x"", ""45"")"
+8	9	CD_q1	Child Been Using a Bottle	dbl	numeric	double	3	769	c(0, 1)
+9	10	CD_q1a	During Past 24 Hours Child Been Using a Bottle	dbl	numeric	double	3	4878	c(0, 1)
+10	11	CD_q2	How Often Child Eats Fast Food in Average Week	dbl	numeric	double	12	769	c(0, 10)
+11	12	CD_q3	Child Given Vitamins in Last 3 Months	dbl	numeric	double	3	770	c(0, 1)
+12	13	CD_q4	Child Has Had Problems With Certain Foods	dbl	numeric	double	3	770	c(0, 1)
+13	14	CD_q4a	Number of Foods Child Has Had Problems With	dbl	numeric	double	6	5431	c(1, 5)
+14	15	CD_q6a	Food Reaction #1 - Child Taken To Doctor	dbl	numeric	double	3	5429	c(0, 1)
+15	16	CD_q7a1	Food Reaction #1 - Food Cause - Rash	dbl	numeric	double	3	5429	c(0, 1)
+16	17	CD_q7b1	Food Reaction #1 - Food Cause - Hives or Itching	dbl	numeric	double	3	5430	c(0, 1)
+17	18	CD_q7c1	Food Reaction #1 - Food Cause - Diarrhea	dbl	numeric	double	3	5430	c(0, 1)
+18	19	CD_q7d1	Food Reaction #1 - Food Cause - Breathing Problems	dbl	numeric	double	3	5429	c(0, 1)
+19	20	CD_q7e1	Food Reaction #1 - Food Cause - Belly Pain	dbl	numeric	double	3	5437	c(0, 1)
+20	21	CD_q7f1	Food Reaction #1 - Food Cause - Vomiting	dbl	numeric	double	3	5429	c(0, 1)
+21	22	CD_q7g1	Food Reaction #1 - Food Cause - Other Symptoms	dbl	numeric	double	3	5429	c(0, 1)
+22	23	CD_q8a1	Food Reaction #1 - Food Was Taken Out of Childs Diet	dbl	numeric	double	3	5430	c(0, 1)
+23	24	CD_q8b1	Food Reaction #1 - Medications Given	dbl	numeric	double	3	5429	c(0, 1)
+24	25	CD_q8c1	Food Reaction #1 - Other Things Done to Manage Food Problem	dbl	numeric	double	3	5429	c(0, 1)
+25	26	CD_q8c1a	Food Reaction #1 - Specify Other Things Done to Manage Food Problem	chr	character	character	65	0	"c(""""took it away"""", ""water it down"")"
+26	27	CD_q6b	Food Reaction #2 - Child Taken To Doctor	dbl	numeric	double	3	5744	c(0, 1)
+27	28	CD_q7a2	Food Reaction #2 - Food Cause - Rash	dbl	numeric	double	3	5744	c(0, 1)
+28	29	CD_q7b2	Food Reaction #2 - Food Cause - Hives or Itching	dbl	numeric	double	3	5744	c(0, 1)
+29	30	CD_q7c2	Food Reaction #2 - Food Cause - Diarrhea	dbl	numeric	double	3	5744	c(0, 1)
+30	31	CD_q7d2	Food Reaction #2 - Food Cause - Breathing Problems	dbl	numeric	double	3	5744	c(0, 1)
+31	32	CD_q7e2	Food Reaction #2 - Food Cause - Belly Pain	dbl	numeric	double	3	5746	c(0, 1)
+32	33	CD_q7f2	Food Reaction #2 - Food Cause - Vomiting	dbl	numeric	double	3	5744	c(0, 1)
+33	34	CD_q7g2	Food Reaction #2 - Food Cause - Other Symptoms	dbl	numeric	double	3	5744	c(0, 1)
+34	35	CD_q8a2	Food Reaction #2 - Food Was Taken Out of Childs Diet	dbl	numeric	double	3	5744	c(0, 1)
+35	36	CD_q8b2	Food Reaction #2 - Medications Given	dbl	numeric	double	3	5744	c(0, 1)
+36	37	CD_q8c2	Food Reaction #2 - Other Things Done to Manage Food Problem	dbl	numeric	double	3	5744	c(0, 1)
+37	38	CD_q6c	Food Reaction #3 - Child Taken To Doctor	dbl	numeric	double	3	5790	c(0, 1)
+38	39	CD_q7a3	Food Reaction #3 - Food Cause - Rash	dbl	numeric	double	3	5790	c(0, 1)
+39	40	CD_q7b3	Food Reaction #3 - Food Cause - Hives or Itching	dbl	numeric	double	3	5790	c(0, 1)
+40	41	CD_q7c3	Food Reaction #3 - Food Cause - Diarrhea	dbl	numeric	double	3	5790	c(0, 1)
+41	42	CD_q7d3	Food Reaction #3 - Food Cause - Breathing Problems	dbl	numeric	double	3	5790	c(0, 1)
+42	43	CD_q7e3	Food Reaction #3 - Food Cause - Belly Pain	dbl	numeric	double	3	5790	c(0, 1)
+43	44	CD_q7f3	Food Reaction #3 - Food Cause - Vomiting	dbl	numeric	double	3	5790	c(0, 1)
+44	45	CD_q7g3	Food Reaction #3 - Food Cause - Other Symptoms	dbl	numeric	double	3	5790	c(0, 1)
+45	46	CD_q8a3	Food Reaction #3 - Food Was Taken Out of Childs Diet	dbl	numeric	double	3	5790	c(0, 1)
+46	47	CD_q8b3	Food Reaction #3 - Medications Given	dbl	numeric	double	3	5790	c(0, 1)
+47	48	CD_q8c3	Food Reaction #3 - Other Things Done to Manage Food Problem	dbl	numeric	double	3	5790	c(0, 1)
+48	49	aCompletionDY	Completion Day	dbl	numeric	double	865	769	c(435, 1428)

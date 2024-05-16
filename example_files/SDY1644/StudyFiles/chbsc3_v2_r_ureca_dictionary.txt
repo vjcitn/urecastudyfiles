@@ -1,0 +1,29 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	373	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CHBSC3_V2"", ""CHBSC3_V2"")"
+3	4	evid	evid	dbl	numeric	double	374	0	c(51482, 65791)
+4	5	event	event	chr	character	character	2	0	"c(""120-Month Clinic Visit"", ""Child Blood Draw"")"
+5	6	version	version	chr	character	character	1	0	"c(""2.0"", ""2.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""120"")"
+8	9	CHBSC3_V2_q2	Childs Blood Collected	dbl	numeric	double	3	27	c(0, 1)
+9	10	CHBSC3_V2_q3b	Time of Sample Collected	time	"c(""hms"", ""difftime"")"	double	138	41	c(2100, 79680)
+10	11	CHBSC3_V2_q4	Status of on 9 mL Tempus Tube Blood Sample Collection	dbl	numeric	double	3	41	c(0, 1)
+11	12	CHBSC3_V2_q5	Status of 1 Purple-Top Microtainer EDTA Tube or 4mL tube	dbl	numeric	double	3	41	c(0, 1)
+12	13	CHBSC3_V2_q6_1	Is child in Epitope substudy	dbl	numeric	double	3	41	c(0, 1)
+13	14	CHBSC3_V2_q6_2	Status of three 10 mL sodium heparin tubes blood sample collection	dbl	numeric	double	2	318	c(1, 1)
+14	15	CHBSC3_V2_q6	Status of two 8.5 mL or one 10 mL serum separator tube blood sample collection	dbl	numeric	double	3	97	c(0, 1)
+15	16	CHBSC3_V2_q7a	Total IgE - Was a Serum Sample Prepared	dbl	numeric	double	3	97	c(0, 1)
+16	17	CHBSC3_V2_q7b	Total IgE - Volume of Aliquot #1	dbl	numeric	double	2	100	c(1.5, 1.5)
+17	18	CHBSC3_V2_q8a	Extra Serum - Was a Serum Sample Prepared	dbl	numeric	double	3	97	c(0, 1)
+18	19	CHBSC3_V2_q8b1	Extra Serum - Volume of Aliquot #1	dbl	numeric	double	4	100	c(0.3, 1)
+19	20	CHBSC3_V2_q8b2	Extra Serum - Volume of Aliquot #2	dbl	numeric	double	4	103	c(0.5, 1)
+20	21	CHBSC3_V2_q8b3	Extra Serum - Volume of Aliquot #3	dbl	numeric	double	3	106	c(0.3, 1)
+21	22	CHBSC3_V2_q8b4	Extra Serum - Volume of Aliquot #4	dbl	numeric	double	3	108	c(0.5, 1)
+22	23	CHBSC3_V2_q8b5	Extra Serum - Volume of Aliquot #5	dbl	numeric	double	8	114	c(0.1, 1)
+23	24	CHBSC3_V2_q8b6	Extra Serum - Volume of Aliquot #6	dbl	numeric	double	6	139	c(0.1, 0.5)
+24	25	CHBSC3_V2_q8b7	Extra Serum - Volume of Aliquot #7	dbl	numeric	double	6	180	c(0.1, 0.5)
+25	26	CHBSC3_V2_q8b8	Extra Serum - Volume of Aliquot #8	dbl	numeric	double	6	228	c(0.1, 0.5)
+26	27	aCompletionDY	Completion Day	dbl	numeric	double	155	27	c(3580, 3842)
+27	28	CHBSC3_V2DY	Day of Sample Collected	dbl	numeric	double	151	41	c(3580, 3842)

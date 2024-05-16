@@ -1,0 +1,19 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	1	0	c(12, 12)
+5	6	year		dbl	numeric	double	1	0	c(1, 1)
+6	7	everbf	Ever breastfed child	dbl	numeric	double	3	57	c(0, 1)
+7	8	bfat3	Breastfed child in first 3 months	dbl	numeric	double	3	104	c(0, 1)
+8	9	bfat6	Breastfed child in first 6 months	dbl	numeric	double	3	102	c(0, 1)
+9	10	bfat9	Breastfed child in first 9 months	dbl	numeric	double	3	121	c(0, 1)
+10	11	bfat12	Breastfed child in first 12 months	dbl	numeric	double	3	145	c(0, 1)
+11	12	bfweeks	Duration of breastfeeding (weeks)	dbl	numeric	double	43	57	c(0, 65)
+12	13	formula_age	Initiation of formula (weeks)	dbl	numeric	double	26	54	c(0, 34)
+13	14	liquids_age	Initition of other liquids (weeks)	dbl	numeric	double	54	78	c(4, 63)
+14	15	solids_age	Initiation of solid food (weeks)	dbl	numeric	double	40	52	c(3, 55)
+15	16	weeks_obs	Number of weeks under observation	dbl	numeric	double	49	47	c(10, 69)
+16	17	exclus_bf	Duration of exclusive breastfeeding (weeks)	dbl	numeric	double	29	47	c(0, 59)
+17	18	bf_dur		dbl	numeric	double	2	0	c(0, 1)

@@ -1,0 +1,42 @@
+Accession	GROUP	phase	EDCSYS	BDATTR	ASATTR	PFATTR	MCATTR	ENATTR	NBATTR	SCATTR	AEOUT	AETOXGR	AEONGO	AETRT	CMATTR	AESER	AESHOSP	AEHOSCAT	AEHADMDT	AEHDISDT	AEDTH	AEDTHFL	SAETYPE	seqnoN	PREFERREDNAME	SYSTEMORGANCLASSNAME	VERSION	Split	AEST_DY	AEN_DY	DTH_DY
+SUB230869	Atopic	8000	DMS								Completely Recovered	Mild	No	None										1	Epistaxis	Respiratory, thoracic and mediastinal disorders	V19.1	Y	2429	2430	
+SUB230869	Atopic	8000	DMS								Completely Recovered	Mild	No	None										1	Vomiting	Gastrointestinal disorders	V19.1	Y	2429	2430	
+SUB230869	Atopic	8000	DMS								Completely Recovered	Mild	No	None										1	Diarrhoea	Gastrointestinal disorders	V19.1	Y	2429	2430	
+SUB230898	Atopic	8000	DMS				Spirometry				Completely Recovered	Mild	No	Albuterol 4 Pu										1	Forced expiratory volume decreased	Investigations	V19.1		2719	2719	
+SUB230919	Atopic	8000	DMS		Allergy Skin Test						Not Applicable	Mild	Yes	Medication										1	Rash pruritic	Skin and subcutaneous tissue disorders	V19.1	Y	1847		
+SUB230919	Atopic	8000	DMS		Allergy Skin Test						Not Applicable	Mild	Yes	Medication										1	Rash papular	Skin and subcutaneous tissue disorders	V19.1	Y	1847		
+SUB230927	Atopic	8000	RAVE	Definitely Related	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related	Recovered/Resolved	Moderate	No	TREATDS	Not Related	No								1	Procedural dizziness	Injury, poisoning and procedural complications	V19.1	Y	4385	4385	
+SUB230927	Atopic	8000	RAVE	Definitely Related	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related	Recovered/Resolved	Moderate	No	TREATDS	Not Related	No								1	Procedural vomiting	Injury, poisoning and procedural complications	V19.1	Y	4385	4385	
+SUB230927	Atopic	8000	RAVE	Definitely Related	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related	Recovered/Resolved	Moderate	No	TREATDS	Not Related	No								1	Hyperhidrosis	Skin and subcutaneous tissue disorders	V19.1	Y	4385	4385	
+SUB230989	Atopic	8000	DMS				Spirometry				Completely Recovered	Mild	No	Medication										1	Forced expiratory volume decreased	Investigations	V19.1		3719	3719	
+SUB231008	Atopic	8000	DMS				IOS				Completely Recovered	Mild	No	Received Albut										1	Forced expiratory volume decreased	Investigations	V19.1		2634	2634	
+SUB231022	Non-atopic	8000	DMS													Yes							Initial	1	Brain neoplasm	Neoplasms benign, malignant and unspecified (incl cysts and polyps)	V19.1		2801		
+SUB231035	Atopic	8000	DMS		IOS						Completely Recovered	Mild	No	Medication										1	Urticaria	Skin and subcutaneous tissue disorders	V19.1		990	990	
+SUB231048	Atopic	8000	RAVE	Not Related	Not Related	Not Related	Not Related	Not Related	Definitely Related	Not Related	Recovered/Resolved	Mild	No	TREATDS	Not Related	No								1	Epistaxis	Respiratory, thoracic and mediastinal disorders	V19.1		4021	4021	
+SUB231084	Atopic	8000	DMS		IOS						Not Applicable	Mild	Yes	Steroid Cream										1	Application site swelling	General disorders and administration site conditions	V19.1		999		
+SUB231094	Atopic	8000	DMS		IOS						Not Applicable	Mild	Yes	Medication										1	Urticaria	Skin and subcutaneous tissue disorders	V19.1		1210		
+SUB231122	Atopic	8000	DMS	IOS							Completely Recovered	Mild	No	None										1	Injury associated with device	General disorders and administration site conditions	V19.1		1796	1796	
+SUB231138	Atopic	8000	DMS	Nasal Lavage							Completely Recovered	Mild	No	None										1	Epistaxis	Respiratory, thoracic and mediastinal disorders	V19.1		1800	1800	
+SUB231153	Non-atopic	8000	DMS		IOS						Completely Recovered	Mild	No	Medication										1	Application site swelling	General disorders and administration site conditions	V19.1		3688	3700	
+SUB231183	Atopic	8000	DMS								Completely Recovered	Mild	No	Medication										1	Forced expiratory volume decreased	Investigations	V19.1		2442	2442	
+SUB231185	Atopic	8000	DMS		Allergy Skin Test						Completely Recovered	Mild	No	Medication										1	Injection site pruritus	General disorders and administration site conditions	V19.1	Y	1824	1826	
+SUB231185	Atopic	8000	DMS		Allergy Skin Test						Completely Recovered	Mild	No	Medication										1	Injection site swelling	General disorders and administration site conditions	V19.1	Y	1824	1826	
+SUB231255	Atopic	8000	DMS				Venipuncture				Completely Recovered	Mild	No	Medication										1	Cough	Respiratory, thoracic and mediastinal disorders	V19.1		3631	3662	
+SUB231277	Non-atopic	8000	DMS		IOS						Completely Recovered	Moderate	No	Parent Reporte										1	Application site erythema	General disorders and administration site conditions	V19.1	Y	2556	2559	
+SUB231277	Non-atopic	8000	DMS		IOS						Completely Recovered	Moderate	No	Parent Reporte										1	Application site swelling	General disorders and administration site conditions	V19.1	Y	2556	2559	
+SUB231288	Atopic	8000	DMS	IOS							Completely Recovered	Moderate	No	Fluids And Oth										1	Presyncope	Nervous system disorders	V19.1		2450	2450	
+SUB231304	Atopic	8000	DMS	Venipuncture							Not Applicable	Mild	Yes	Participant Re										1	White blood cell count decreased	Investigations	V19.1		3692		
+SUB231304	Atopic	8000	RAVE										Yes	TREATDS		No								2	White blood cell count decreased	Investigations	V19.1	Y	4401		
+SUB231304	Atopic	8000	RAVE										Yes	TREATDS		No								2	Neutrophil count decreased	Investigations	V19.1	Y	4401		
+SUB231310	Atopic	8000	RAVE	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related		Mild	No	TREATDS	Not Related	No								1	Neutrophil count decreased	Investigations	V19.1	Y	4377		
+SUB231310	Atopic	8000	RAVE	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related	Not Related		Mild	No	TREATDS	Not Related	No								1	Lymphocyte count increased	Investigations	V19.1	Y	4377		
+SUB231318	Atopic	8000	DMS				IOS				Completely Recovered	Mild	No	Medication										1	Forced expiratory volume decreased	Investigations	V19.1		3666	3666	
+SUB231330	Atopic	8000	DMS				IOS				Completely Recovered	Mild	No	Medication										1	Forced expiratory volume decreased	Investigations	V19.1		3653	3653	
+SUB231358	Atopic	8000	DMS													Yes							Initial	1	Purpura fulminans	Skin and subcutaneous tissue disorders	V19.1	Y	885		886
+SUB231358	Atopic	8000	DMS													Yes							Initial	1	Respiratory failure	Respiratory, thoracic and mediastinal disorders	V19.1	Y	885		886
+SUB231358	Atopic	8000	DMS													Yes							Initial	1	Circulatory collapse	Vascular disorders	V19.1	Y	885		886
+SUB231358	Atopic	8000	DMS													Yes							Initial	1	Meningococcal infection	Infections and infestations	V19.1	Y	885		886
+SUB231413	Atopic	8000	DMS				IOS				Completely Recovered	Mild	No	Medication										1	Forced expiratory volume decreased	Investigations	V19.1		3705	3705	
+SUB231430	Non-atopic	8000	DMS								Completely Recovered	Mild	No	Minute Amt. Of										1	Epistaxis	Respiratory, thoracic and mediastinal disorders	V19.1		865	865	
+SUB231464	Non-atopic	8000	DMS													Yes							Initial	1	Death	General disorders and administration site conditions	V19.1		40		40
+SUB231468	Atopic	8000	DMS								Not Applicable	Mild	Yes	No AETRT Specified										1	Platelet count decreased	Investigations	V19.1		703		

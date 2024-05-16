@@ -1,0 +1,25 @@
+Accession	group	form	evid	event	version	status	aVisit	AE_q1	AE_q1d	AE_q1d1	AE_q1e	AE_q1f	AE_q1g	AE_q1h	AE_q1i	AE_q1j1	AE_q1j2	AE_q1j3	AE_q2d	AE_q2d1	AE_q2e	AE_q2f	AE_q2g	AE_q2h	AE_q2i	AE_q2j1	AE_q2j2	AE_q2j3	AE_q3d	AE_q3d1	AE_q3e	AE_q3f	AE_q3g	AE_q3h	AE_q3i	AE_q3j1	AE_q3j2	AE_q3j3	AE_q4d	AE_q4d1	AE_q4e	AE_q4f	AE_q4g	AE_q4h	AE_q4i	AE_q4j1	AE_q4j2	AE_q4j3	AE_q5d	AE_q5d1	AE_q5e	AE_q5f	AE_q5g	AE_q5h	AE_q5i	AE_q5j1	AE_q5j2	AE_q5j3	aCompletionDY	AE_q1bDY	AE_q1cDY	AE_q2bDY	AE_q2cDY	AE_q3bDY	AE_q3cDY	AE_q4bDY	AE_q4cDY	AE_q5bDY	AE_q5cDY	aSignedDY
+SUB230869	Atopic	AE	34752	81-Month Clinic Visit	1.5	complete	81	1	1	0	1	1	6	3	1	1	0	0																																									2510	2502	2503									2510
+SUB230898	Atopic	AE	57938	Adverse Events	1.6	complete	84	1	0	0	1	1	8	4	1	0	0	1																																									2726	2726	2726									2726
+SUB230919	Atopic	AE	45472	Adverse Events	1.5	complete	60	1			2	1	3	3		0	1	0																																									1854	1848										1854
+SUB230989	Atopic	AE	66303	Adverse Events	1.6	complete	120	1	0	0	1	1	8	4	1	0	1	0																																									3721	3721	3721									3721
+SUB231035	Atopic	AE	1832	33-Month Clinic Visit	1.4	complete	33	1	1		2	1	3	5	1	0	1	0																																									999	999	999									1114
+SUB231084	Atopic	AE	29431	Adverse Events	1.4	complete	33	1			2	1	3	5		0	0	1																																									1009	1006										1009
+SUB231094	Atopic	AE	37840	Adverse Events	1.5	complete	36	1			2	1	3	5		0	1	0																																									1224	1224										1225
+SUB231122	Atopic	AE	48381	Adverse Events	1.5	complete	60	1	0	1	1	1	1	5	1	1	0	0																																									1806	1806	1806									1813
+SUB231138	Atopic	AE	48956	Adverse Events	1.5	complete	60	1	0	5	2	1	1	2	1	1	0	0																																									1811	1811	1811									1826
+SUB231153	Non-atopic	AE	66403	Adverse Events	1.6	complete	120	1			2	1	3	5	1	0	1	0																																									3703	3695	3707									3707
+SUB231183	Atopic	AE	54046	Adverse Events	1.5	complete	81	1		40	2	1	6	5	1	0	1	0																																									2621	2443	2443									2621
+SUB231185	Atopic	AE	44081	Adverse Events	1.5	complete	60	1			2	1	3	3	1	1	1	0																																									1826	1825	1827									1833
+SUB231255	Atopic	AE	66128	Adverse Events	1.6	complete	120	1			1	1	8	1	1	0	1	0																																									3645	3636	3667									3672
+SUB231304	Atopic	AE	64665	Adverse Events	1.6	complete	120	1			2	1	1	1		0	0	1																																									3696	3695										3698
+SUB231318	Atopic	AE	64814	Adverse Events	1.6	complete	120	1	0	26	1	1	8	5	1	0	1	0																																									3670	3670	3670									3670
+SUB231325	Atopic	AE	64983	Adverse Events	1.6	complete	120	1			1	1	1	1	7	0	0	1																																									3668	3666	3668									3668
+SUB231327	Atopic	AE	65121	Adverse Events	1.6	complete	120	1			1	1	1	1		0	0	1																																									3679	3673										3679
+SUB231330	Atopic	AE	65070	Adverse Events	1.6	complete	120	1	0	15	1	1	8	5	1	0	1	0																																									3656	3656	3656									3656
+SUB231413	Atopic	AE	66284	Adverse Events	1.6	complete	120	1	0	12	1	1	8	5	1	0	1	0																																									3710	3710	3710									3710
+SUB231430	Non-atopic	AE	30091	Adverse Events	1.4	complete	r	1	0		1	1	2	5	1	0	0	1																																									869	869	869									869
+SUB231443	Atopic	AE	66484	Adverse Events	1.6	complete	120	1			1	1	1	1	7	0	0	1																																									3871	3732	3755									3871
+SUB231463	Atopic	AE	66483	Adverse Events	1.6	complete	120	1			1	1	1	1	7	0	0	1																																									3748	3638	3659									3748
+SUB231468	Atopic	AE	66486	Adverse Events	1.6	complete	120	1			1	1	6	1		0	0	1																																									3765	3763										3765
+SUB231468	Atopic	AE	30364	Adverse Events	1.4	complete	24	1			2	1	6	1		0	0	0																																									704	704										704

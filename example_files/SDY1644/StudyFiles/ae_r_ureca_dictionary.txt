@@ -1,0 +1,72 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	23	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""AE"", ""AE"")"
+3	4	evid	evid	dbl	numeric	double	24	0	c(1832, 66486)
+4	5	event	event	chr	character	character	3	0	"c(""33-Month Clinic Visit"", ""Adverse Events"")"
+5	6	version	version	chr	character	character	3	0	"c(""1.4"", ""1.6"")"
+6	7	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+7	8	aVisit	Visit	chr	character	character	8	0	"c(""120"", ""r"")"
+8	9	AE_q1	Number Of Adverse Events	dbl	numeric	double	1	0	c(1, 1)
+9	10	AE_q1d	Duration of AE #1	dbl	numeric	double	3	14	c(0, 1)
+10	11	AE_q1d1	Duration of AE #1 in Minutes	dbl	numeric	double	8	15	c(0, 40)
+11	12	AE_q1e	Type of AE #1	dbl	numeric	double	2	0	c(1, 2)
+12	13	AE_q1f	Severity of AE #1	dbl	numeric	double	1	0	c(1, 1)
+13	14	AE_q1g	AE #1 - Study Procedure	dbl	numeric	double	5	0	c(1, 8)
+14	15	AE_q1h	AE #1 - Related To Study Procedure	dbl	numeric	double	5	0	c(1, 5)
+15	16	AE_q1i	AE #1 Outcome	dbl	numeric	double	3	7	c(1, 7)
+16	17	AE_q1j1	AE #1 Treatment Required - None	dbl	numeric	double	2	0	c(0, 1)
+17	18	AE_q1j2	AE #1 Treatment Required - Medication	dbl	numeric	double	2	0	c(0, 1)
+18	19	AE_q1j3	AE #1 Treatment Required - Other	dbl	numeric	double	2	0	c(0, 1)
+19	20	AE_q2d	Duration of AE #2	dbl	numeric	double	1	24	
+20	21	AE_q2d1	Duration of AE #2 Minutes	dbl	numeric	double	1	24	
+21	22	AE_q2e	Type of AE #2	dbl	numeric	double	1	24	
+22	23	AE_q2f	Severity of AE #2	dbl	numeric	double	1	24	
+23	24	AE_q2g	AE #2 - Study Procedure	dbl	numeric	double	1	24	
+24	25	AE_q2h	AE #2 - Related To Study Procedure	dbl	numeric	double	1	24	
+25	26	AE_q2i	AE #2 Outcome	dbl	numeric	double	1	24	
+26	27	AE_q2j1	AE #2 Treatment Required - None	dbl	numeric	double	1	24	
+27	28	AE_q2j2	AE #2 Treatment Required - Medication	dbl	numeric	double	1	24	
+28	29	AE_q2j3	AE #2 Treatment Required - Other	dbl	numeric	double	1	24	
+29	30	AE_q3d	Duration of AE #3	dbl	numeric	double	1	24	
+30	31	AE_q3d1	Duration of AE #3 Minutes	dbl	numeric	double	1	24	
+31	32	AE_q3e	Type of AE #3	dbl	numeric	double	1	24	
+32	33	AE_q3f	Severity of AE #3	dbl	numeric	double	1	24	
+33	34	AE_q3g	AE #3 - Study Procedure	dbl	numeric	double	1	24	
+34	35	AE_q3h	AE #3 - Related To Study Procedure	dbl	numeric	double	1	24	
+35	36	AE_q3i	AE #3 Outcome	dbl	numeric	double	1	24	
+36	37	AE_q3j1	AE #3 Treatment Required - None	dbl	numeric	double	1	24	
+37	38	AE_q3j2	AE #3 Treatment Required - Medication	dbl	numeric	double	1	24	
+38	39	AE_q3j3	AE #3 Treatment Required - Other	dbl	numeric	double	1	24	
+39	40	AE_q4d	Duration of AE #4	dbl	numeric	double	1	24	
+40	41	AE_q4d1	Duration of AE#4 Minutes	dbl	numeric	double	1	24	
+41	42	AE_q4e	Type of AE #4	dbl	numeric	double	1	24	
+42	43	AE_q4f	Severity of AE #4	dbl	numeric	double	1	24	
+43	44	AE_q4g	AE #4 - Study Procedure	dbl	numeric	double	1	24	
+44	45	AE_q4h	AE #4 - Related To Study Procedure	dbl	numeric	double	1	24	
+45	46	AE_q4i	AE #4 Outcome	dbl	numeric	double	1	24	
+46	47	AE_q4j1	AE #4 Treatment Required - None	dbl	numeric	double	1	24	
+47	48	AE_q4j2	AE #4 Treatment Required - Medication	dbl	numeric	double	1	24	
+48	49	AE_q4j3	AE #4 Treatment Required - Other	dbl	numeric	double	1	24	
+49	50	AE_q5d	Duration of AE #5	dbl	numeric	double	1	24	
+50	51	AE_q5d1	Duration of AE #5 Minutes	dbl	numeric	double	1	24	
+51	52	AE_q5e	Type of AE #5	dbl	numeric	double	1	24	
+52	53	AE_q5f	Severity of AE #5	dbl	numeric	double	1	24	
+53	54	AE_q5g	AE #5 - Study Procedure	dbl	numeric	double	1	24	
+54	55	AE_q5h	AE #5 - Related To Study Procedure	dbl	numeric	double	1	24	
+55	56	AE_q5i	AE #5 Outcome	dbl	numeric	double	1	24	
+56	57	AE_q5j1	AE #5 Treatment Required - None	dbl	numeric	double	1	24	
+57	58	AE_q5j2	AE #5 Treatment Required - Medication	dbl	numeric	double	1	24	
+58	59	AE_q5j3	AE #5 Treatment Required - Other	dbl	numeric	double	1	24	
+59	60	aCompletionDY	Report Day	dbl	numeric	double	24	0	c(704, 3871)
+60	61	AE_q1bDY	Day AE #1 Started	dbl	numeric	double	23	0	c(704, 3763)
+61	62	AE_q1cDY	Day AE #1 Stopped	dbl	numeric	double	18	7	c(869, 3755)
+62	63	AE_q2bDY	Day AE #2 Started	dbl	numeric	double	1	24	
+63	64	AE_q2cDY	Day AE #2 Stopped	dbl	numeric	double	1	24	
+64	65	AE_q3bDY	Day AE #3 Started	dbl	numeric	double	1	24	
+65	66	AE_q3cDY	Day AE #3 Stopped	dbl	numeric	double	1	24	
+66	67	AE_q4bDY	Day AE #4 Started	dbl	numeric	double	1	24	
+67	68	AE_q4cDY	Day AE #4 Stopped	dbl	numeric	double	1	24	
+68	69	AE_q5bDY	Day AE #5 Started	dbl	numeric	double	1	24	
+69	70	AE_q5cDY	Day AE #5 Stopped	dbl	numeric	double	1	24	
+70	71	aSignedDY	Signed Day	dbl	numeric	double	24	0	c(704, 3871)

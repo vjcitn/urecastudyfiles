@@ -1,0 +1,649 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2012 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)        Date(s)         Brief Description of Modifications
+*   Alexandre Lockhart  06/21/2018       Copied from asthma_primarydef to make asthma age 10 specific program.    
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=asthma_primarydefyr10,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+
+
+*use completion date and number of days taken to calculate;
+*aCompletionDate and tdays;
+options nofmterr;
+proc format ;
+   value medcode .M="Missing/Unknown" 
+            1="1 = Albuterol/Short-acting bronchodilator" 
+            2="2 = Analgesics/antipyretics - oral"
+            3="3 = Analgesics/antipyretics - topical"
+            4="4 = Antibiotics - oral"
+            5="5 = Antibiotics - topical" 
+            6="6 = Anti-fungals - oral/systemic" 
+            7="7 = Anti-fungals - topical"
+            8="8 = Antihistamines - oral"
+            9="9 = Antihistamines - topical"
+            10="10 = Anti-leukotrienes (montelukast, zafirlukast, zileuton)"
+            11="11 = Cough medicine"
+            12="12 = Cromones"
+            13="13 = Decongestants"
+            14="14 = GI medications (pepto-bismol, maalox)"
+            15="15 = Long-acting beta agonist (LABA)"
+            16="16 = Nasal spray - non-steroidal"
+            17="17 = Nasal spray - steroidal" 
+            18="18 = Steroids - inhaled"
+            19="19 = Steroids - oral"
+            20="20 = Steroids - topical" 
+            21="21 = Ophthalmologicals"
+            22="22 = Otologicals"
+            23="23 = Epinephrine/Epipen"
+            24="24 = Vitamins/Nutritionals"
+            25="25 = Anti-virals - oral"
+            26="26 = Combination inhaled steroid + LABA"
+            27="27 = Combination products with antihistamine"
+            28="28 = Cominbation products without antihistamine"
+            29="29 = Cold preparations - unspecified"
+            30="30 = Other products - topical"
+            31="31 = Other products - inhaled"
+            32="32 = Other products - oral" 
+                33="33 = Other products - other or unknown route";
+
+run ;
+proc sort data=derive.asthma_yr out=ast ; by studyid avisit ; run ;
+proc sort data=derive.symptoms_yr out=symp ; by studyid avisit ; run ;
+proc sort data=derive.methacholine_challenge out=mc ; by studyid avisit ; run ;
+
+
+*AL: replace archived ios spirometry with two new datasets;
+/*proc sort data=archived.ios_spirometry out=sp ; by studyid avisit ; run ; */
+
+
+proc sort data=derive.spiro_anly out=sp2(keep=studyid avisit FEV1_anly_post FEV1_anly bd_revers bd_revers_gte10)  ; by studyid avisit ; where avisit=120; run ;
+
+
+
+proc freq data=ast ; 
+   tables avisit ; 
+run ;
+
+proc freq data=symp ; 
+   tables avisit ; 
+run ;
+/*
+data sp2 ;
+   set sp ;
+   where avisit =120 ;
+   *where also spiro_sor="Overreading and Spiro" ;
+   if spiro_FEV1_post >=0  and spiro_FEV1 >=0  ;
+   reversibility=((spiro_FEV1_post-spiro_fev1)/spiro_fev1)*100 ;
+   **If its >=10, they meet one of the asthma conditions ;
+   if reversibility>=10 then rev_gte10=1 ;
+   if reversibility<10 then rev_gte10=0 ;
+   if reversibility=. then rev_gte10=. ;
+   where also spiro_acceptable_post=1 and spiro_acceptable=1 ;
+   keep studyid avisit spiro_sor spiro_acceptable spiro_acceptable_post spiro_FEV1_post spiro_fev1 reversibility rev_gte10 ;
+run ; */
+
+data mc2 ;
+   set mc ;
+   where avisit=120 ;
+   **If its <=4, they meet one of the asthma conditions ;
+   keep studyid avisit pc20_high meth_acceptable;
+run ;
+
+proc freq data=mc2 ;
+   tables pc20_high*meth_acceptable ;
+run ;
+
+data bronch ;
+   merge sp2 mc2 ;
+   by studyid ; 
+run ;
+
+proc sort data=bronch nodup out=bronch_clean dupout=dups_exact ; by studyid ; run ;
+
+data ast_symp ;
+   merge ast symp ;
+   by studyid avisit ;
+   if avisit=120 ;
+   keep studyid avisit asthma_still asthmasymp_12mo asthmameds_12mo sum_illness sum_docwheeze 
+        sum_hospwheeze ;
+run ;
+
+proc transpose data=ast out=ast_w prefix=_ ;
+    by studyid ;
+    id avisit ;
+    var asthma_docdiag;
+run;
+
+data ast_w2;
+   set ast_w ;
+      if nmiss (_48,_60,_72,_84,_96,_108,_120) ^= 7
+      then asthma_docdiag_ever=MAX(_48,_60,_72,_84,_96,_108,_120) ;
+      else asthma_docdiag_ever = .;
+   keep studyid asthma_docdiag_ever ;
+run ;
+
+data ast_symp2 ;
+   merge ast_symp ast_w2 bronch_clean ;
+   by studyid ; 
+run ;
+
+proc sort data=derive.medscoded out=meds(rename=(cmdays=tdays)); by studyid; run;
+
+proc print data=meds ; 
+   var studyid avisit ; 
+   where medcode=26 ;
+run ;
+
+data med00 ;
+   set meds ;
+   by studyid ;
+
+
+  AsthmaMed=MAX(steroid_inhaled,antileuk,inhaled_steroid_LABA)>0;
+  if AsthmaMed > 0;
+
+ keep studyid acompletiondate quarter year medcode steroid_inhaled steroid_topical antileuk inhaled_steroid_LABA AsthmaMed  tdays;
+run ;
+proc freq data=med00; tables tdays/missing; run;
+
+proc sort data=med00 out=med10; by studyid quarter descending tdays; run;
+proc sort data=med10 nodupkey; by studyid quarter; run;
+
+proc freq; tables asthmamed; run;
+
+*ods rtf style=journal file="&gpgmpath\&gprog..rtf" notoc_data;
+
+/*
+ For the first go at the definition of asthma: >= 6 mo use within past 12 months
+ ---------------------------------------------------------------------------
+ Set data up by max number of days of asthma meds reported during each
+ quarter and then calculate for each study year whether asthma meds were
+ taken in any consecutive 6 month period during that particular year.
+ SumAsthmaYr variable tells us whether a given participant is documented 
+ as having this def of asthma for more than one year.
+ Currently data goes from yr 1 - yr 9 with yr 9 being a partial yr (first 3
+ mo only).
+*/ 
+proc transpose data=med10 out=qday (drop=_name_ _label_) prefix=qday;
+ var tdays;
+ id quarter;
+ by studyid;
+run;
+
+data qday00;
+ retain studyid qday1 - qday40 ;
+ set qday;
+
+ if nmiss(qday1, qday2, qday3, qday4) = 4 then Q1Q4 = .;
+ else if qday1 >= 180 or qday2 >=180 or qday3 >= 180 or qday4 >= 180 then Q1Q4=180;
+ else Q1Q4=sum(qday1,qday2,qday3,qday4);
+/* else if qday1 ne . and qday2 ne . and qday3 ne . and qday4 ne . then Q1Q4=sum(qday1,qday2,qday3,qday4);*/
+/* else if qday1 ne . and qday2 ne . and qday3 ne . then Q1Q4=sum(qday1,qday2,qday3);*/
+/* else if qday2 ne . and qday3 ne . and qday4 ne . then Q1Q4=sum(qday2,qday3,qday4);*/
+/* else if qday1 ne . and qday2 ne . then Q1Q4=sum(qday1,qday2); */
+/* else if qday2 ne . and qday3 ne . then Q1Q4=sum(qday2,qday3);*/
+/* else if qday3 ne . and qday4 ne . then Q1Q4=sum(qday3,qday4);*/
+
+ if nmiss(qday5, qday6, qday7, qday8) = 4 then Q5Q8 = .;
+ else if qday5 >= 180 or qday6 >= 180 or qday7 >= 180 or qday8 >= 180 then Q5Q8=180;
+ else Q5Q8=sum(qday5,qday6,qday7,qday8);
+/* else if qday5 ne . and qday6 ne . and qday7 ne . and qday8 ne . then Q5Q8=sum(qday5,qday6,qday7,qday8);*/
+/* else if qday5 ne . and qday6 ne . and qday7 ne . then Q5Q8=sum(qday5,qday6,qday7);*/
+/* else if qday6 ne . and qday7 ne . and qday8 ne . then Q5Q8=sum(qday6,qday7,qday8);*/
+/* else if qday5 ne . and qday6 ne . then Q5Q8=sum(qday5,qday6);*/
+/* else if qday6 ne . and qday7 ne . then Q5Q8=sum(qday6,qday7);*/
+/* else if qday7 ne . and qday8 ne . then Q5Q8=sum(qday7,qday8);*/
+
+ if nmiss(qday9, qday10, qday11, qday12) = 4 then Q9Q12 = .;
+ else if qday9 >= 180 or qday10 >= 180 or qday11 >= 180 or qday12 >= 180 then Q9Q12=180;
+ else Q9Q12=sum(qday9,qday10,qday11,qday12);
+/* else if qday9 ne . and qday10 ne . and qday11 ne . and qday12 ne . then Q9Q12=sum(qday9,qday10,qday11,qday12);*/
+/* else if qday9 ne . and qday10 ne . and qday11 ne . then Q9Q12=sum(qday9,qday10,qday11);*/
+/* else if qday10 ne . and qday11 ne . and qday12 ne . then Q9Q12=sum(qday10,qday11,qday12);*/
+/* else if qday9 ne . and qday10 ne . then Q9Q12=sum(qday9,qday10);*/
+/* else if qday10 ne . and qday11 ne . then Q9Q12=sum(qday10,qday11);*/
+/* else if qday11 ne . and qday12 ne . then Q9Q12=sum(qday11,qday12);*/
+
+ if nmiss(qday13, qday14, qday15, qday16) = 4 then Q13Q16 = .;
+ else if qday13 >= 180 or qday14 >= 180 or qday15 >= 180 or qday16 >= 180 then Q13Q16=180;
+ else Q13Q16=sum(qday13,qday14,qday15,qday16);
+/* else if qday13 ne . and qday14 ne . and qday15 ne . and qday16 ne . then Q13Q16=sum(qday13,qday14,qday15,qday16);*/
+/* else if qday13 ne . and qday14 ne . and qday15 ne . then Q13Q16=sum(qday13,qday14,qday15);*/
+/* else if qday14 ne . and qday15 ne . and qday16 ne . then Q13Q16=sum(qday14,qday15,qday16);*/
+/* else if qday13 ne . and qday14 ne . then Q13Q16=sum(qday13,qday14);*/
+/* else if qday14 ne . and qday15 ne . then Q13Q16=sum(qday14,qday15);*/
+/* else if qday15 ne . and qday16 ne . then Q13Q16=sum(qday15,qday16);*/
+
+ if nmiss(qday17, qday18, qday19, qday20) = 4 then Q17Q20 = .;
+ else if qday17 >= 180 or qday18 >= 180 or qday19 >= 180 or qday20 >= 180 then Q17Q20=180;
+ else Q17Q20=sum(qday17,qday18,qday19,qday20);
+/* else if qday17 ne . and qday18 ne . and qday19 ne . and qday20 ne . then Q17Q20=sum(qday17,qday18,qday19,qday20);*/
+/* else if qday17 ne . and qday18 ne . and qday19 ne . then Q17Q20=sum(qday17,qday18,qday19);*/
+/* else if qday18 ne . and qday19 ne . and qday20 ne . then Q17Q20=sum(qday18,qday19,qday20);*/
+/* else if qday17 ne . and qday18 ne . then Q17Q20=sum(qday17,qday18);*/
+/* else if qday18 ne . and qday19 ne . then Q17Q20=sum(qday18,qday19);*/
+/* else if qday19 ne . and qday20 ne . then Q17Q20=sum(qday19,qday20);*/
+
+ if nmiss(qday21, qday22, qday23, qday24) = 4 then Q21Q24 = .;
+ else if qday21 >= 180 or qday22 >= 180 or qday23 >= 180 or qday24 >= 180 then Q21Q24=180;
+ else Q21Q24=sum(qday21,qday22,qday23,qday24);
+/* else if qday21 ne . and qday22 ne . and qday23 ne . and qday24 ne . then Q21Q24=sum(qday21,qday22,qday23,qday24);*/
+/* else if qday21 ne . and qday22 ne . and qday23 ne . then Q21Q24=sum(qday21,qday22,qday23);*/
+/* else if qday22 ne . and qday23 ne . and qday24 ne . then Q21Q24=sum(qday22,qday23,qday24);*/
+/* else if qday21 ne . and qday22 ne . then Q21Q24=sum(qday21,qday22);*/
+/* else if qday22 ne . and qday23 ne . then Q21Q24=sum(qday22,qday23);*/
+/* else if qday23 ne . and qday24 ne . then Q21Q24=sum(qday23,qday24);*/
+
+ if nmiss(qday25, qday26, qday27, qday28) = 4 then Q25Q28 = .;
+ else if qday25 >= 180 or qday26 >= 180 or qday27 >= 180 or qday28 >= 180 then Q25Q28=180;
+ else Q25Q28=sum(qday25,qday26,qday27,qday28);
+/* else if qday25 ne . and qday26 ne . and qday27 ne . and qday28 ne . then Q25Q28=sum(qday25,qday26,qday27,qday28);*/
+/* else if qday25 ne . and qday26 ne . and qday27 ne . then Q25Q28=sum(qday25,qday26,qday27);*/
+/* else if qday26 ne . and qday27 ne . and qday28 ne . then Q25Q28=sum(qday26,qday27,qday28);*/
+/* else if qday25 ne . and qday26 ne . then Q25Q28=sum(qday25,qday26);*/
+/* else if qday26 ne . and qday27 ne . then Q25Q28=sum(qday26,qday27);*/
+/* else if qday27 ne . and qday28 ne . then Q25Q28=sum(qday27,qday28);*/
+
+ if nmiss(qday29, qday30, qday31, qday32) = 4 then Q29Q32 = .;
+ else if qday29 >= 180 or qday30 >= 180 or qday31 >= 180 or qday32 >= 180 then Q29Q32=180;
+ else Q29Q32=sum(qday29,qday30,qday31,qday32);
+/* else if qday29 ne . and qday30 ne . and qday31 ne . and qday32 ne . then Q29Q32=sum(qday29,qday30,qday31,qday32);*/
+/* else if qday29 ne . and qday30 ne . and qday31 ne . then Q29Q32=sum(qday29,qday30,qday31);*/
+/* else if qday30 ne . and qday31 ne . and qday32 ne . then Q29Q32=sum(qday30,qday31,qday32);*/
+/* else if qday29 ne . and qday30 ne . then Q29Q32=sum(qday29,qday30);*/
+/* else if qday30 ne . and qday31 ne . then Q29Q32=sum(qday30,qday31);*/
+/* else if qday31 ne . and qday32 ne . then Q29Q32=sum(qday31,qday32);*/
+
+ if nmiss(qday33, qday34, qday35, qday36) = 4 then Q33Q36 = .;
+ else if qday33 >= 180 or qday34 >= 180 or qday35 >= 180 or qday36 >= 180 then Q33Q36=180;
+ else Q33Q36=sum(qday33,qday34,qday35,qday36);
+/* else if qday33 ne . and qday34 ne . and qday35 ne . and qday36 ne . then Q33Q36=sum(qday33,qday34,qday35,qday36);*/
+/* else if qday33 ne . and qday34 ne . and qday35 ne . then Q33Q36=sum(qday33,qday34,qday35);*/
+/* else if qday34 ne . and qday35 ne . and qday36 ne . then Q33Q36=sum(qday34,qday35,qday36);*/
+/* else if qday33 ne . and qday34 ne . then Q33Q36=sum(qday33,qday34);*/
+/* else if qday34 ne . and qday35 ne . then Q33Q36=sum(qday34,qday35);*/
+/* else if qday35 ne . and qday36 ne . then Q33Q36=sum(qday35,qday36);*/
+
+
+
+
+if nmiss(qday37, qday38, qday39, qday40) = 4 then Q37Q40 = .;
+ else if qday37 >= 180 or qday38 >= 180 or qday39 >= 180 or qday40 >= 180 then Q37Q40=180;
+ else Q37Q40=sum(qday37,qday38,qday39,qday40);
+
+
+ Yr1Asthma=(Q1Q4 >= 180);
+ Yr2Asthma=(Q5Q8 >= 180);
+ Yr3Asthma=(Q9Q12 >= 180);
+ Yr4Asthma=(Q13Q16 >= 180);
+ Yr5Asthma=(Q17Q20 >= 180);
+ Yr6Asthma=(Q21Q24 >= 180);
+ Yr7Asthma=(Q25Q28 >= 180);
+ Yr8Asthma=(Q29Q32 >= 180);
+ Yr9Asthma=(Q33Q36 >= 180);
+ Yr10Asthma=(Q37Q40 >= 180);
+
+ SumAsthmaYr=sum(Yr1Asthma,Yr2Asthma,Yr3Asthma,Yr4Asthma,Yr5Asthma,Yr6Asthma,Yr7Asthma,Yr8Asthma,Yr9Asthma,Yr10Asthma);
+
+run;
+proc freq; tables SumAsthmaYr Yr1Asthma Yr2Asthma Yr3Asthma Yr4Asthma Yr5Asthma Yr6Asthma Yr7Asthma Yr8Asthma Yr9Asthma Yr10Asthma/missing norow nocol nopercent; 
+title3 'Def 1: Using estimated number of days reported for asthma med per quarter for >= 2 consecutive quarters for each study year'; run;
+
+/*proc print data=qday00 ;
+   var studyid Yr7Asthma Yr8Asthma qday24 qday25 qday26 qday27 qday28 qday29 qday30 qday31 qday32;
+   where Yr7Asthma=1 ;
+run ; */
+
+/*
+ For a second go at the definition of asthma: >= 6 mo use within past 12 months
+ ---------------------------------------------------------------------------
+ Set data up by indication of asthma meds reported (1/0) during each
+ quarter and then flag for each study year whether asthma meds were
+ taken in any consecutive 6 month period during that particular year.
+ SumAsthmaYr variable tells us whether a given participant is documented 
+ as having this def of asthma for more than one year.
+ Currently data goes from yr 1 - yr 9 with yr 9 being a partial yr (first 3
+ mo only).
+*/ 
+proc transpose data=med10 out=qflag (drop=_name_ ) prefix=qflag;
+ var asthmamed;
+ id quarter;
+ by studyid;
+run;
+
+data qflag00;
+ retain studyid qflag1 - qflag40 ;
+ set qflag;
+
+ if qflag1 ne . and qflag2 ne . and qflag3 ne . and qflag4 ne . then Q1Q4=sum(qflag1,qflag2,qflag3,qflag4);
+ else if qflag1 ne . and qflag2 ne . and qflag3 ne . then Q1Q4=sum(qflag1,qflag2,qflag3);
+ else if qflag2 ne . and qflag3 ne . and qflag4 ne . then Q1Q4=sum(qflag2,qflag3,qflag4);
+ else if qflag1 ne . and qflag2 ne . then Q1Q4=sum(qflag1,qflag2); 
+ else if qflag2 ne . and qflag3 ne . then Q1Q4=sum(qflag2,qflag3);
+ else if qflag3 ne . and qflag4 ne . then Q1Q4=sum(qflag3,qflag4);
+
+ if qflag5 ne . and qflag6 ne . and qflag7 ne . and qflag8 ne . then Q5Q8=sum(qflag5,qflag6,qflag7,qflag8);
+ else if qflag5 ne . and qflag6 ne . and qflag7 ne . then Q5Q8=sum(qflag5,qflag6,qflag7);
+ else if qflag6 ne . and qflag7 ne . and qflag8 ne . then Q5Q8=sum(qflag6,qflag7,qflag8);
+ else if qflag5 ne . and qflag6 ne . then Q5Q8=sum(qflag5,qflag6);
+ else if qflag6 ne . and qflag7 ne . then Q5Q8=sum(qflag6,qflag7);
+ else if qflag7 ne . and qflag8 ne . then Q5Q8=sum(qflag7,qflag8);
+
+ if qflag9 ne . and qflag10 ne . and qflag11 ne . and qflag12 ne . then Q9Q12=sum(qflag9,qflag10,qflag11,qflag12);
+ else if qflag9 ne . and qflag10 ne . and qflag11 ne . then Q9Q12=sum(qflag9,qflag10,qflag11);
+ else if qflag10 ne . and qflag11 ne . and qflag12 ne . then Q9Q12=sum(qflag10,qflag11,qflag12);
+ else if qflag9 ne . and qflag10 ne . then Q9Q12=sum(qflag9,qflag10);
+ else if qflag10 ne . and qflag11 ne . then Q9Q12=sum(qflag10,qflag11);
+ else if qflag11 ne . and qflag12 ne . then Q9Q12=sum(qflag11,qflag12);
+
+ if qflag13 ne . and qflag14 ne . and qflag15 ne . and qflag16 ne . then Q13Q16=sum(qflag13,qflag14,qflag15,qflag16);
+ else if qflag13 ne . and qflag14 ne . and qflag15 ne . then Q13Q16=sum(qflag13,qflag14,qflag15);
+ else if qflag14 ne . and qflag15 ne . and qflag16 ne . then Q13Q16=sum(qflag14,qflag15,qflag16);
+ else if qflag13 ne . and qflag14 ne . then Q13Q16=sum(qflag13,qflag14);
+ else if qflag14 ne . and qflag15 ne . then Q13Q16=sum(qflag14,qflag15);
+ else if qflag15 ne . and qflag16 ne . then Q13Q16=sum(qflag15,qflag16);
+
+ if qflag17 ne . and qflag18 ne . and qflag19 ne . and qflag20 ne . then Q17Q20=sum(qflag17,qflag18,qflag19,qflag20);
+ else if qflag17 ne . and qflag18 ne . and qflag19 ne . then Q17Q20=sum(qflag17,qflag18,qflag19);
+ else if qflag18 ne . and qflag19 ne . and qflag20 ne . then Q17Q20=sum(qflag18,qflag19,qflag20);
+ else if qflag17 ne . and qflag18 ne . then Q17Q20=sum(qflag17,qflag18);
+ else if qflag18 ne . and qflag19 ne . then Q17Q20=sum(qflag18,qflag19);
+ else if qflag19 ne . and qflag20 ne . then Q17Q20=sum(qflag19,qflag20);
+
+ if qflag21 ne . and qflag22 ne . and qflag23 ne . and qflag24 ne . then Q21Q24=sum(qflag21,qflag22,qflag23,qflag24);
+ else if qflag21 ne . and qflag22 ne . and qflag23 ne . then Q21Q24=sum(qflag21,qflag22,qflag23);
+ else if qflag22 ne . and qflag23 ne . and qflag24 ne . then Q21Q24=sum(qflag22,qflag23,qflag24);
+ else if qflag21 ne . and qflag22 ne . then Q21Q24=sum(qflag21,qflag22);
+ else if qflag22 ne . and qflag23 ne . then Q21Q24=sum(qflag22,qflag23);
+ else if qflag23 ne . and qflag24 ne . then Q21Q24=sum(qflag23,qflag24);
+
+ if qflag25 ne . and qflag26 ne . and qflag27 ne . and qflag28 ne . then Q25Q28=sum(qflag25,qflag26,qflag27,qflag28);
+ else if qflag25 ne . and qflag26 ne . and qflag27 ne . then Q25Q28=sum(qflag25,qflag26,qflag27);
+ else if qflag26 ne . and qflag27 ne . and qflag28 ne . then Q25Q28=sum(qflag26,qflag27,qflag28);
+ else if qflag25 ne . and qflag26 ne . then Q25Q28=sum(qflag25,qflag26);
+ else if qflag26 ne . and qflag27 ne . then Q25Q28=sum(qflag26,qflag27);
+ else if qflag27 ne . and qflag28 ne . then Q25Q28=sum(qflag27,qflag28);
+
+ if qflag29 ne . and qflag30 ne . and qflag31 ne . and qflag32 ne . then Q29Q32=sum(qflag29,qflag30,qflag31,qflag32);
+ else if qflag29 ne . and qflag30 ne . and qflag31 ne . then Q29Q32=sum(qflag29,qflag30,qflag31);
+ else if qflag30 ne . and qflag31 ne . and qflag32 ne . then Q29Q32=sum(qflag30,qflag31,qflag32);
+ else if qflag29 ne . and qflag30 ne . then Q29Q32=sum(qflag29,qflag30);
+ else if qflag30 ne . and qflag31 ne . then Q29Q32=sum(qflag30,qflag31);
+ else if qflag31 ne . and qflag32 ne . then Q29Q32=sum(qflag31,qflag32);
+
+ if qflag33 ne . and qflag34 ne . and qflag35 ne . and qflag36 ne . then Q33Q36=sum(qflag33,qflag34,qflag35,qflag36);
+ else if qflag33 ne . and qflag34 ne . and qflag35 ne . then Q33Q36=sum(qflag33,qflag34,qflag35);
+ else if qflag34 ne . and qflag35 ne . and qflag36 ne . then Q33Q36=sum(qflag34,qflag35,qflag36);
+ else if qflag33 ne . and qflag34 ne . then Q33Q36=sum(qflag33,qflag34);
+ else if qflag34 ne . and qflag35 ne . then Q33Q36=sum(qflag34,qflag35);
+ else if qflag35 ne . and qflag36 ne . then Q33Q36=sum(qflag35,qflag36);
+
+if qflag37 ne . and qflag38 ne . and qflag39 ne . and qflag40 ne . then Q37Q40=sum(qflag37,qflag38,qflag39,qflag40);
+ else if qflag37 ne . and qflag38 ne . and qflag39 ne . then Q37Q40=sum(qflag37,qflag38,qflag39);
+ else if qflag38 ne . and qflag39 ne . and qflag40 ne . then Q37Q40=sum(qflag38,qflag39,qflag40);
+ else if qflag37 ne . and qflag38 ne . then Q37Q40=sum(qflag37,qflag38);
+ else if qflag38 ne . and qflag39 ne . then Q37Q40=sum(qflag38,qflag39);
+ else if qflag39 ne . and qflag40 ne . then Q37Q40=sum(qflag39,qflag40);
+
+
+
+
+ Yr1Asthma=(Q1Q4 > 1);
+ Yr2Asthma=(Q5Q8 > 1);
+ Yr3Asthma=(Q9Q12 > 1);
+ Yr4Asthma=(Q13Q16 > 1);
+ Yr5Asthma=(Q17Q20 > 1);
+ Yr6Asthma=(Q21Q24 > 1);
+ Yr7Asthma=(Q25Q28 > 1);
+ Yr8Asthma=(Q29Q32 > 1);
+ Yr9Asthma=(Q33Q36 > 1);
+ Yr10Asthma=(Q37Q40 > 1);
+
+
+
+ SumAsthmaYr=sum(Yr1Asthma,Yr2Asthma,Yr3Asthma,Yr4Asthma,Yr5Asthma,Yr6Asthma,Yr7Asthma,Yr8Asthma,Yr9Asthma,Yr10Asthma);
+
+run;
+proc freq; tables SumAsthmaYr Yr1Asthma Yr2Asthma Yr3Asthma Yr4Asthma Yr5Asthma Yr6Asthma Yr7Asthma Yr8Asthma Yr9Asthma Yr10Asthma/missing norow nocol nopercent; 
+title3 'Def 2: Using flag to indicate asthma med usage in >= 2 consecutive quarters for each study year'; run;
+
+
+/*
+ For a third go at the definition of asthma: >= 6 mo use within past 12 months
+ ---------------------------------------------------------------------------
+ Set data up by completiondate of asthma meds reported during each
+ quarter and then flag for each study year whether asthma meds were
+ taken in any consecutive 6 month period during that particular year.
+ SumAsthmaYr variable tells us whether a given participant is documented 
+ as having this def of asthma for more than one year.
+ Currently data goes from yr 1 - yr 9 with yr 9 being a partial yr (first 3
+ mo only).
+*/ 
+
+proc sort data=med00 out=med20; by studyid quarter acompletiondate; run;
+proc sort data=med20 nodupkey; by studyid quarter; run;
+proc transpose data=med20 out=date (drop=_name_ _label_) prefix=date;
+ var acompletiondate;
+ by studyid;
+ id quarter;
+run;
+
+data date00;
+ retain studyid date1 - date40 ;
+ set date;
+
+ 
+ if date4 eq . then date4=date3;
+ if date4 eq . then date4=date2;
+ if date4 eq . then date4=date1;
+ if date4 eq . or date1 eq . then Q1Q4 = .;
+ else Q1Q4=date4-date1;
+
+ if date8 eq . then date8=date7;
+ if date8 eq . then date8=date6;
+ if date8 eq . then date8=date5;
+ if date8 eq . or date5 eq . then Q5Q8 = .;
+ else Q5Q8=date8-date5;
+
+ if date12 eq . then date12=date11;
+ if date12 eq . then date12=date10;
+ if date12 eq . then date12=date9;
+ if date12 eq . or date9 eq . then Q9Q12 = .;
+ else Q9Q12=date12-date9;
+
+ if date16 eq . then date16=date15;
+ if date16 eq . then date16=date14;
+ if date16 eq . then date16=date13;
+ if date16 eq . or date13 eq . then Q13Q16 = .;
+ else Q13Q16=date16-date13;
+
+ if date20 eq . then date20=date19;
+ if date20 eq . then date20=date18;
+ if date20 eq . then date20=date17;
+ if date20 eq . or date17 eq . then Q17Q20 = .;
+ else Q17Q20=date20-date17;
+
+ if date24 eq . then date24=date23;
+ if date24 eq . then date24=date22;
+ if date24 eq . then date24=date21;
+ if date24 eq . or date21 eq . then Q21Q24 = .;
+ else Q21Q24=date24-date21;
+
+ if date28 eq . then date28=date27;
+ if date28 eq . then date28=date26;
+ if date28 eq . then date28=date25;
+ if date28 eq . or date25 eq . then Q25Q28 = .;
+ else Q25Q28=date28-date25;
+ 
+ if date32 eq . then date32=date31;
+ if date32 eq . then date32=date30;
+ if date32 eq . then date32=date29;
+ if date32 eq . or date29 eq . then Q29Q32 = .;
+ else Q29Q32=date32-date29;
+
+ if date36 eq . then date36=date35;
+ if date36 eq . then date36=date34;
+ if date36 eq . then date36=date33;
+ if date36 eq . or date33 eq . then Q33Q36 = .;
+ else Q33Q36=date36-date33;
+
+
+ if date40 eq . then date40=date39;
+ if date40 eq . then date40=date38;
+ if date40 eq . then date40=date37;
+ if date40 eq . or date37 eq . then Q37Q40 = .;
+ else Q37Q40=date40-date37;
+
+ Yr1Asthma=(Q1Q4 >= 180);
+ Yr2Asthma=(Q5Q8 >= 180);
+ Yr3Asthma=(Q9Q12 >= 180);
+ Yr4Asthma=(Q13Q16 >= 180);
+ Yr5Asthma=(Q17Q20 >= 180);
+ Yr6Asthma=(Q21Q24 >= 180);
+ Yr7Asthma=(Q25Q28 >= 180);
+ Yr8Asthma=(Q29Q32 >= 180);
+ Yr9Asthma=(Q33Q36 >= 180);
+ Yr10Asthma=(Q37Q40 >= 180);
+
+ SumAsthmaYr=sum(Yr1Asthma,Yr2Asthma,Yr3Asthma,Yr4Asthma,Yr5Asthma,Yr6Asthma,Yr7Asthma,Yr8Asthma,Yr9Asthma,Yr10Asthma);
+
+run;
+proc freq; tables SumAsthmaYr Yr1Asthma Yr2Asthma Yr3Asthma Yr4Asthma Yr5Asthma Yr6Asthma Yr7Asthma Yr8Asthma Yr9Asthma Yr10Asthma/missing norow nocol nopercent; 
+title3 'Def 3: Using difference in completion dates reported for >= 2 consecutive quarters where asthma meds were indicated for each study year'; run;
+
+*ods rtf close;
+
+data qflag01 ;
+   set qflag00 ;
+
+   rename Yr10Asthma=meds_definition2 ;
+   keep studyid Yr10Asthma ;
+run ;
+
+data date01 ;
+   set date00 ;
+
+   rename Yr10Asthma=meds_definition3 ;
+   keep studyid Yr10Asthma ;
+run ;
+
+data qday01 ;
+   set qday00 ;
+
+   rename Yr10Asthma=meds_definition1 ;
+   keep studyid Yr10Asthma ;
+run ;
+
+proc sort data=qflag01 ; by studyid ; run ;
+proc sort data=date01 ; by studyid ; run ;
+proc sort data=qday01 ; by studyid ; run ;
+proc sort data=ast_symp2 ; by studyid ; run ;
+
+data asthma_defb ;
+   merge ast_symp2 qflag01 date01 qday01 ;
+   by studyid ; 
+
+   ***Part 1 of "asthma" definition - symptoms/med + reversibility/meth;
+   if (sum_illness>=1) or (sum_docwheeze>=1) or (sum_hospwheeze>=1) or (meds_definition1=1) then do ;
+      if bd_revers_gte10=1 or pc20_high=0 then asthma_a=1 ;
+      if bd_revers_gte10=0 and pc20_high=1 then asthma_a=0 ;
+      if bd_revers_gte10=0 and pc20_high=. then asthma_a=0 ;
+      if bd_revers_gte10=. and pc20_high=1 then asthma_a=0 ;
+   end ;
+   if (0=sum_illness) and (0=sum_docwheeze) and (0=sum_hospwheeze) and (meds_definition1<=0) then do ;
+      asthma_a=0 ;
+   end ;
+
+   ***Part 2 of "asthma" definition - more severe symptoms/meds ;
+   if (sum_illness>=2) or (sum_docwheeze>=2) or (sum_hospwheeze>=1) or (meds_definition1=1) then do ;
+      asthma_b=1 ;
+   end ;
+   if (0<=sum_illness<2) and (0<=sum_docwheeze<2) and (0<=sum_hospwheeze<1) and (meds_definition1<=0) then do ;
+      asthma_b=0 ;
+   end ;
+
+   ***Part 3 of "asthma" definition - symptoms/meds + ever doctor diagnosis of asthma ;
+   if (sum_illness>=1) or (sum_docwheeze>=1) or (sum_hospwheeze>=1) or (meds_definition1=1) then do ;
+      if asthma_docdiag_ever=1 then asthma_c=1 ;
+      if asthma_docdiag_ever=0 then asthma_c=0 ;
+   end ;
+   if (0=sum_illness) and (0=sum_docwheeze) and (0=sum_hospwheeze) and (meds_definition1<=0) then do ;
+      asthma_c=0 ;
+   end ;
+
+    ***ASTHMA A version 2 (CASK study) ;
+   if (sum_illness>=1) or (sum_docwheeze>=1) or (sum_hospwheeze>=1) or (meds_definition1=1) then do ;
+      if bd_revers_gte10=1 then asthma_a2=1 ;
+      if bd_revers_gte10=0 then asthma_a2=0 ;
+      if bd_revers_gte10=. then asthma_a2=. ;
+   end ;
+   if (0=sum_illness) and (0=sum_docwheeze) and (0=sum_hospwheeze) and (meds_definition1<=0) then do ;
+      asthma_a2=0 ;
+   end ;
+   
+   if nmiss(asthma_a,asthma_b,asthma_c) = 3 then asthma_age10 = .;
+   else asthma_age10=MAX(asthma_a,asthma_b,asthma_c) ;
+
+   
+   label asthma_a = "asthma pos based on symptoms/med + reversibility/meth"
+         asthma_b = "asthma pos based on more severe symptoms/meds"
+         asthma_c = "asthma pos based on symptoms/meds + ever doctor diagnosis of asthma"
+         asthma_a2 = "asthma pos based on symptoms/med + reversibility/meth version 2 (CASK study) "
+         asthma_age10 = "asthma a,b, or c positive at age 10";
+run ;
+
+
+***NO DUPS as of 6/21/2018  ;
+proc sort data=asthma_defb out=asthma_defb2 nodupkey dupout=dups_asthma ; by studyid ; run ;
+
+
+proc sort data=asthma_defb2; by studyid; run;
+
+
+*Output dataset program;
+
+data derive.asthma_primarydefyr10 ;
+   set asthma_defb2 ;
+   *asthma_primarydef = 1;
+   drop avisit;
+run ;
+
+*** Codebook ****************************************************************;
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.asthma_primarydefyr10
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;

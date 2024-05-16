@@ -1,0 +1,25 @@
+Accession	group	form	evid	event	version	status	aID	CASI_q1a	CASI_q1b	CASI_q1c	CASI_q2a	CASI_q2b	CASI_q2c	CASI_q3b	CASI_q4b	CASI_q5a	CASI_q5b	CASI_q5c	CASI_q6	aCompletionDY
+SUB230958	Atopic	CASI	59017	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB230963	Atopic	CASI	59245	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231021	Atopic	CASI	61274	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231067	Atopic	CASI	58767	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231091	Atopic	CASI	59157	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231095	Atopic	CASI	59136	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231097	Atopic	CASI	58723	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231104	Atopic	CASI	59552	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231107	Atopic	CASI	58662	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231109	Atopic	CASI	58816	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231113	Atopic	CASI	59568	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231114	Atopic	CASI	62045	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231115	Atopic	CASI	59924	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231116	Atopic	CASI	60225	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231118	Atopic	CASI	59090	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231127	Atopic	CASI	60238	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231139	Atopic	CASI	59637	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231145	Non-atopic	CASI	59539	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231147	Non-atopic	CASI	59496	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231153	Non-atopic	CASI	59762	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231155	Atopic	CASI	60684	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231171	Non-atopic	CASI	59173	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231266	Atopic	CASI	59910	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			
+SUB231425	Non-atopic	CASI	59513	120-Month Clinic Visit	1.1	missing		.x	.x	.x	.x	.x	.x	.x	.x	.x	.x			

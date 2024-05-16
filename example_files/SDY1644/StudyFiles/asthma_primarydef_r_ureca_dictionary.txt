@@ -1,0 +1,28 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	asthma_still	Still have Asthma	dbl	numeric	double	2	351	c(0, 0)
+4	5	asthmasymp_12mo	Had asthma symptoms in last 12 months	dbl	numeric	double	3	175	c(0, 1)
+5	6	asthmameds_12mo	Taken any asthma meds in last 12 months	dbl	numeric	double	3	175	c(0, 1)
+6	7	sum_illness	Number of wheezing illnesses reported in year	dbl	numeric	double	12	124	c(0, 11)
+7	8	sum_docwheeze	Number of dr visits for wheezing	dbl	numeric	double	7	124	c(0, 7)
+8	9	sum_hospwheeze	Number of hospital visits for wheeze/asthma	dbl	numeric	double	3	124	c(0, 1)
+9	10	asthma_docdiag_ever		dbl	numeric	double	3	117	c(0, 1)
+10	11	spiro_FEV1	Spirometry - FEV1	dbl	numeric	double	90	302	c(0.52, 2.28)
+11	12	spiro_FEV1_post	Spirometry - FEV1	dbl	numeric	double	90	302	c(0.7, 2.4)
+12	13	spiro_sor		chr	character	character	2	0	"c("""", ""Overreading and Spiro"")"
+13	14	spiro_acceptable		dbl	numeric	double	2	302	c(1, 1)
+14	15	spiro_acceptable_post		dbl	numeric	double	2	302	c(1, 1)
+15	16	reversibility		dbl	numeric	double	288	302	c(-16.9230769230769, 70.2702702702703)
+16	17	rev_gte10		dbl	numeric	double	3	302	c(0, 1)
+17	18	meth_acceptable	Methacholine challenge results acceptable	dbl	numeric	double	3	230	c(0, 1)
+18	19	pc20_high	PC20 greater than 4? (0=no, 1=yes)	dbl	numeric	double	3	256	c(0, 1)
+19	20	meds_definition2		dbl	numeric	double	3	435	c(0, 1)
+20	21	meds_definition3		dbl	numeric	double	3	435	c(0, 1)
+21	22	meds_definition1		dbl	numeric	double	3	435	c(0, 1)
+22	23	asthma_a	asthma pos based on symptoms/med + reversibility/meth	dbl	numeric	double	3	149	c(0, 1)
+23	24	asthma_b	asthma pos based on more severe symptoms/meds	dbl	numeric	double	3	124	c(0, 1)
+24	25	asthma_c	asthma pos based on symptoms/meds + ever doctor diagnosis of asthma	dbl	numeric	double	3	124	c(0, 1)
+25	26	asthma_a2	asthma pos based on symptoms/med + reversibility/meth version 2 (CASK study)	dbl	numeric	double	3	175	c(0, 1)
+26	27	asthma_age7	asthma a,b, or c positive (2018 version)	dbl	numeric	double	3	124	c(0, 1)

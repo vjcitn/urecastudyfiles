@@ -1,0 +1,35 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	28	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	phase		chr	character	character	1	0	"c(""8000"", ""8000"")"
+3	4	EDCSYS		chr	character	character	2	0	"c(""DMS"", ""RAVE"")"
+4	5	BDATTR	Attribution - Blood Draw	chr	character	character	6	0	"c("""", ""Venipuncture"")"
+5	6	ASATTR	Attribution - Allergy Skin Testing	chr	character	character	4	0	"c("""", ""Not Related"")"
+6	7	PFATTR	Attribution - Pulmonary function testing	chr	character	character	2	0	"c("""", ""Not Related"")"
+7	8	MCATTR	Attribution - Methacholine challenge	chr	character	character	5	0	"c("""", ""Venipuncture"")"
+8	9	ENATTR	Attribution - eNO	chr	character	character	2	0	"c("""", ""Not Related"")"
+9	10	NBATTR	Attribution - Nasal brushing	chr	character	character	3	0	"c("""", ""Not Related"")"
+10	11	SCATTR	Attribution - Sputum collection	chr	character	character	2	0	"c("""", ""Not Related"")"
+11	12	SUBJID	StudyID	chr	character	character	28	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+12	13	AEOUT	Outcome	chr	character	character	4	0	"c("""", ""Recovered/Resolved"")"
+13	14	AETOXGR	Severity Grade	chr	character	character	3	0	"c("""", ""Moderate"")"
+14	15	AEONGO		chr	character	character	3	0	"c("""", ""Yes"")"
+15	16	AETRT		chr	character	character	12	0	"c("""", ""TREATDS"")"
+16	17	CMATTR	Attribution - Concomitant medication	chr	character	character	2	0	"c("""", ""Not Related"")"
+17	18	AESER	Is  Adverse Event Serious?	chr	character	character	3	0	"c("""", ""Yes"")"
+18	19	AESHOSP	Hospitalization/Prolonged Hospitalization	dbl	numeric	double	1	41	
+19	20	AEHOSCAT	Initial or Prolonged Hospitalization?	chr	character	character	1	0	"c("""", """")"
+20	21	AEHADMDT		dbl	numeric	double	1	41	
+21	22	AEHDISDT		dbl	numeric	double	1	41	
+22	23	AEDTH		chr	character	character	1	0	"c("""", """")"
+23	24	AEDTHFL		chr	character	character	1	0	"c("""", """")"
+24	25	SAETYPE		chr	character	character	2	0	"c("""", ""Initial"")"
+25	26	seqnoN		dbl	numeric	double	2	0	c(1, 2)
+26	27	PREFERREDNAME	Preferred Name	chr	character	character	27	0	"c(""Application site erythema"", ""White blood cell count decreased"")"
+27	28	SYSTEMORGANCLASSNAME	System Organ Class Name	chr	character	character	10	0	"c(""Gastrointestinal disorders"", ""Vascular disorders"")"
+28	29	VERSION	MedDRA Version	chr	character	character	1	0	"c(""V19.1"", ""V19.1"")"
+29	30	Split	Split?	chr	character	character	2	0	"c("""", ""Y"")"
+30	31	studyid		chr	character	character	28	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+31	32	AEST_DY		dbl	numeric	double	29	0	c(40, 4401)
+32	33	AEN_DY		dbl	numeric	double	20	16	c(865, 4385)
+33	34	DTH_DY		dbl	numeric	double	3	36	c(40, 886)

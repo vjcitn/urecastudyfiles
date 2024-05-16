@@ -1,0 +1,233 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	129	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""AVF"", ""AVF"")"
+3	4	evid	evid	dbl	numeric	double	180	0	c(296, 21490)
+4	5	event	event	chr	character	character	3	0	"c(""12-Month Clinic Visit"", ""36-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+7	8	aVisit	Visit	chr	character	character	3	0	"c(""12"", ""36"")"
+8	9	AVF_q1	Participant go to Allergist	dbl	numeric	double	2	0	c(0, 1)
+9	10	AVF_q3a	Allergist Visited a URECA Investigator	dbl	numeric	double	3	133	c(0, 1)
+10	11	AVF_q4a	Source of Visit - Complete Allergy Clinic Record	dbl	numeric	double	3	133	c(0, 1)
+11	12	AVF_q4b	Source of Visit - Letter to PCP	dbl	numeric	double	3	133	c(0, 1)
+12	13	AVF_q4c	Source of Visit - Parental Report	dbl	numeric	double	3	133	c(0, 1)
+13	14	AVF_q4d	Source of Visit - URECA Investigator	dbl	numeric	double	3	133	c(0, 1)
+14	15	AVF_q6a1	Reaction Suspected - Milk Products	dbl	numeric	double	3	133	c(0, 1)
+15	16	AVF_q6b1	Age Suspected Reaction - Milk Products	dbl	numeric	double	5	175	c(7, 15)
+16	17	AVF_q7a1	Skin Reaction - Milk Products	dbl	numeric	double	3	173	c(0, 1)
+17	18	AVF_q7b1	GI Reaction - Milk Products	dbl	numeric	double	3	173	c(0, 1)
+18	19	AVF_q7c1	Oral Reaction - Milk Products	dbl	numeric	double	2	173	c(0, 0)
+19	20	AVF_q7d1	Upper Respiratory Reaction - Milk Products	dbl	numeric	double	3	173	c(0, 1)
+20	21	AVF_q7e1	Lower Respiratory Reaction - Milk Products	dbl	numeric	double	2	173	c(0, 0)
+21	22	AVF_q7f1	Cardiovascular Reaction - Milk Products	dbl	numeric	double	2	173	c(0, 0)
+22	23	AVF_q8a1	Food Eliminated - Milk Products	dbl	numeric	double	3	137	c(0, 1)
+23	24	AVF_q8b1	Age of Elimination - Milk Products	dbl	numeric	double	5	177	c(7, 24)
+24	25	AVF_q6a2	Reaction Suspected - Egg Products	dbl	numeric	double	3	133	c(0, 1)
+25	26	AVF_q6b2	Age Suspected Reaction - Egg Products	dbl	numeric	double	8	170	c(7, 24)
+26	27	AVF_q7a2	Skin Reaction - Egg Products	dbl	numeric	double	3	167	c(0, 1)
+27	28	AVF_q7b2	GI Reaction - Egg Products	dbl	numeric	double	3	167	c(0, 1)
+28	29	AVF_q7c2	Oral Reaction - Egg Products	dbl	numeric	double	2	167	c(0, 0)
+29	30	AVF_q7d2	Upper Respiratory Reaction - Egg Products	dbl	numeric	double	2	167	c(0, 0)
+30	31	AVF_q7e2	Lower Respiratory Reaction - Egg Products	dbl	numeric	double	2	167	c(0, 0)
+31	32	AVF_q7f2	Cardiovascular Reaction - Egg Products	dbl	numeric	double	2	167	c(0, 0)
+32	33	AVF_q8a2	Food Eliminated - Egg Products	dbl	numeric	double	4	134	c(0, 2)
+33	34	AVF_q8b2	Age of Elimination - Egg Products	dbl	numeric	double	7	171	c(7, 29)
+34	35	AVF_q6a3	Reaction Suspected - Peanut Products	dbl	numeric	double	3	133	c(0, 1)
+35	36	AVF_q6b3	Age Suspected Reaction - Peanut Products	dbl	numeric	double	10	167	c(4, 30)
+36	37	AVF_q7a3	Skin Reaction - Peanut Products	dbl	numeric	double	3	164	c(0, 1)
+37	38	AVF_q7b3	GI Reaction - Peanut Products	dbl	numeric	double	3	164	c(0, 1)
+38	39	AVF_q7c3	Oral Reaction - Peanut Products	dbl	numeric	double	2	164	c(0, 0)
+39	40	AVF_q7d3	Upper Respiratory Reaction - Peanut Products	dbl	numeric	double	3	164	c(0, 1)
+40	41	AVF_q7e3	Lower Respiratory Reaction - Peanut Products	dbl	numeric	double	2	164	c(0, 0)
+41	42	AVF_q7f3	Cardiovascular Reaction - Peanut Products	dbl	numeric	double	3	164	c(0, 1)
+42	43	AVF_q8a3	Food Eliminated - Peanut Products	dbl	numeric	double	3	135	c(0, 1)
+43	44	AVF_q8b3	Age of Elimination - Peanut Products	dbl	numeric	double	11	162	c(6, 36)
+44	45	AVF_q6a4	Reaction Suspected - Wheat Products	dbl	numeric	double	2	133	c(0, 0)
+45	46	AVF_q6b4	Age Suspected Reaction - Wheat Products	dbl	numeric	double	1	181	
+46	47	AVF_q7a4	Skin Reaction - Wheat Products	dbl	numeric	double	1	181	
+47	48	AVF_q7b4	GI Reaction - Wheat Products	dbl	numeric	double	1	181	
+48	49	AVF_q7c4	Oral Reaction - Wheat Products	dbl	numeric	double	1	181	
+49	50	AVF_q7d4	Upper Respiratory Reaction - Wheat Products	dbl	numeric	double	1	181	
+50	51	AVF_q7e4	Lower Respiratory Reaction - Wheat Products	dbl	numeric	double	1	181	
+51	52	AVF_q7f4	Cardiovascular Reaction - Wheat Products	dbl	numeric	double	1	181	
+52	53	AVF_q8a4	Food Eliminated - Wheat Products	dbl	numeric	double	2	139	c(0, 0)
+53	54	AVF_q8b4	Age of Elimination - Wheat Products	dbl	numeric	double	1	181	
+54	55	AVF_q6a5	Reaction Suspected - Soy Products	dbl	numeric	double	3	133	c(0, 1)
+55	56	AVF_q6b5	Age Suspected Reaction - Soy Products	dbl	numeric	double	2	180	c(14, 14)
+56	57	AVF_q7a5	Skin Reaction - Soy Products	dbl	numeric	double	2	180	c(1, 1)
+57	58	AVF_q7b5	GI Reaction - Soy Products	dbl	numeric	double	2	180	c(0, 0)
+58	59	AVF_q7c5	Oral Reaction - Soy Products	dbl	numeric	double	2	180	c(0, 0)
+59	60	AVF_q7d5	Upper Respiratory Reaction - Soy Products	dbl	numeric	double	2	180	c(0, 0)
+60	61	AVF_q7e5	Lower Respiratory Reaction - Soy Products	dbl	numeric	double	2	180	c(0, 0)
+61	62	AVF_q7f5	Cardiovascular Reaction - Soy Products	dbl	numeric	double	2	180	c(0, 0)
+62	63	AVF_q8a5	Food Eliminated - Soy Products	dbl	numeric	double	3	138	c(0, 1)
+63	64	AVF_q8b5	Age of Elimination - Soy Products	dbl	numeric	double	1	181	
+64	65	AVF_q6a6	Reaction Suspected - Sesame Products	dbl	numeric	double	2	133	c(0, 0)
+65	66	AVF_q6b6	Age Suspected Reaction - Sesame Products	dbl	numeric	double	1	181	
+66	67	AVF_q7a6	Skin Reaction - Sesame Products	dbl	numeric	double	1	181	
+67	68	AVF_q7b6	GI Reaction - Sesame Products	dbl	numeric	double	1	181	
+68	69	AVF_q7c6	Oral Reaction - Sesame Products	dbl	numeric	double	1	181	
+69	70	AVF_q7d6	Upper Respiratory Reaction - Sesame Products	dbl	numeric	double	1	181	
+70	71	AVF_q7e6	Lower Respiratory Reaction - Sesame Products	dbl	numeric	double	1	181	
+71	72	AVF_q7f6	Cardiovascular Reaction - Sesame Products	dbl	numeric	double	1	181	
+72	73	AVF_q8a6	Food Eliminated - Sesame Products	dbl	numeric	double	2	139	c(0, 0)
+73	74	AVF_q8b6	Age of Elimination - Sesame Products	dbl	numeric	double	1	181	
+74	75	AVF_q6a7	Reaction Suspected - Other #1	dbl	numeric	double	3	175	c(0, 1)
+75	76	AVF_q6b7	Age Suspected Reaction - Other #1	dbl	numeric	double	3	178	c(12, 14)
+76	77	AVF_q7a7	Skin Reaction - Other #1	dbl	numeric	double	3	178	c(0, 1)
+77	78	AVF_q7b7	GI Reaction - Other #1	dbl	numeric	double	3	178	c(0, 1)
+78	79	AVF_q7c7	Oral Reaction - Other #1	dbl	numeric	double	2	178	c(0, 0)
+79	80	AVF_q7d7	Upper Respiratory Reaction - Other #1	dbl	numeric	double	3	177	c(0, 1)
+80	81	AVF_q7e7	Lower Respiratory Reaction - Other #1	dbl	numeric	double	2	178	c(0, 0)
+81	82	AVF_q7f7	Cardiovascular Reaction - Other #1	dbl	numeric	double	2	178	c(0, 0)
+82	83	AVF_q8a7	Food Eliminated - Other #1	dbl	numeric	double	3	176	c(0, 1)
+83	84	AVF_q8b7	Age of Elimination - Other #1	dbl	numeric	double	2	180	c(12, 12)
+84	85	AVF_q6a8	Reaction Suspected - Other #2	dbl	numeric	double	3	178	c(0, 1)
+85	86	AVF_q6b8	Age Suspected Reaction - Other #2	dbl	numeric	double	2	180	c(12, 12)
+86	87	AVF_q7a8	Skin Reaction - Other #2	dbl	numeric	double	2	180	c(0, 0)
+87	88	AVF_q7b8	GI Reaction - Other #2	dbl	numeric	double	2	180	c(1, 1)
+88	89	AVF_q7c8	Oral Reaction - Other #2	dbl	numeric	double	2	180	c(0, 0)
+89	90	AVF_q7d8	Upper Respiratory Reaction - Other #2	dbl	numeric	double	2	180	c(0, 0)
+90	91	AVF_q7e8	Lower Respiratory Reaction - Other #2	dbl	numeric	double	2	180	c(0, 0)
+91	92	AVF_q7f8	Cardiovascular Reaction - Other #2	dbl	numeric	double	2	180	c(0, 0)
+92	93	AVF_q8a8	Food Eliminated - Other #2	dbl	numeric	double	3	178	c(0, 1)
+93	94	AVF_q8b8	Age of Elimination - Other #2	dbl	numeric	double	2	180	c(12, 12)
+94	95	AVF_q6a9	Reaction Suspected - Other #3	dbl	numeric	double	2	179	c(0, 0)
+95	96	AVF_q6b9	Age Suspected Reaction - Other #3	dbl	numeric	double	1	181	
+96	97	AVF_q7a9	Skin Reaction - Other #3	dbl	numeric	double	1	181	
+97	98	AVF_q7b9	GI Reaction - Other #3	dbl	numeric	double	1	181	
+98	99	AVF_q7c9	Oral Reaction - Other #3	dbl	numeric	double	1	181	
+99	100	AVF_q7d9	Upper Respiratory Reaction - Other #3	dbl	numeric	double	1	181	
+100	101	AVF_q7e9	Lower Respiratory Reaction - Other #3	dbl	numeric	double	1	181	
+101	102	AVF_q7f9	Cardiovascular Reaction - Other #3	dbl	numeric	double	1	181	
+102	103	AVF_q8a9	Food Eliminated - Other #9	dbl	numeric	double	2	179	c(0, 0)
+103	104	AVF_q8b9	Age of Elimination - Other #3	dbl	numeric	double	1	181	
+104	105	AVF_q9	Prick Skin Test Performed at Visit	dbl	numeric	double	3	133	c(0, 1)
+105	106	AVF_q9a1	Skin Test Wheal Size - Histamine	dbl	numeric	double	10	158	c(0.5, 10)
+106	107	AVF_q9b1	Skin Test Wheal Size - Saline	dbl	numeric	double	3	158	c(0, 3)
+107	108	AVF_q9c1	Skin Test Wheal Size - Milk	dbl	numeric	double	5	162	c(0, 4)
+108	109	AVF_q9c2	Result - Milk	dbl	numeric	double	3	154	c(0, 1)
+109	110	AVF_q9d1	Skin Test Wheal Size - Egg	dbl	numeric	double	11	161	c(0, 20)
+110	111	AVF_q9d2	Result - Egg	dbl	numeric	double	3	152	c(0, 1)
+111	112	AVF_q9e1	Skin Test Wheal Size - Peanut	dbl	numeric	double	9	162	c(0, 12)
+112	113	AVF_q9e2	Result - Peanut	dbl	numeric	double	3	153	c(0, 1)
+113	114	AVF_q9f1	Skin Test Wheal Size - Soy	dbl	numeric	double	4	171	c(0, 3)
+114	115	AVF_q9f2	Result - Soy	dbl	numeric	double	2	168	c(0, 0)
+115	116	AVF_q9g1	Skin Test Wheal Size - Wheat	dbl	numeric	double	2	173	c(0, 0)
+116	117	AVF_q9g2	Result - Wheat	dbl	numeric	double	2	170	c(0, 0)
+117	118	AVF_q9h1	Skin Test Wheal Size - Cockroach	dbl	numeric	double	5	173	c(0, 4.5)
+118	119	AVF_q9h2	Result - Cockroach	dbl	numeric	double	3	168	c(0, 1)
+119	120	AVF_q9i1	Skin Test Wheal Size - Mold Mix	dbl	numeric	double	2	176	c(0, 0)
+120	121	AVF_q9i2	Result - Mold Mix	dbl	numeric	double	3	170	c(0, 1)
+121	122	AVF_q9j1	Skin Test Wheal Size - Tree Mix	dbl	numeric	double	3	178	c(0, 5)
+122	123	AVF_q9j2	Result - Tree Mix	dbl	numeric	double	3	175	c(0, 1)
+123	124	AVF_q9k1	Skin Test Wheal Size - Grass Mix	dbl	numeric	double	3	176	c(0, 5)
+124	125	AVF_q9k2	Result - Grass Mix	dbl	numeric	double	3	172	c(0, 1)
+125	126	AVF_q9l1	Skin Test Wheal Size - Weed Mix	dbl	numeric	double	3	176	c(0, 2)
+126	127	AVF_q9l2	Result - Weed Mix	dbl	numeric	double	3	173	c(0, 1)
+127	128	AVF_q9m1	Skin Test Wheal Size - Der P	dbl	numeric	double	4	175	c(0, 3)
+128	129	AVF_q9m2	Result - Der P	dbl	numeric	double	3	170	c(0, 1)
+129	130	AVF_q9n1	Skin Test Wheal Size - Der F	dbl	numeric	double	3	177	c(0, 5)
+130	131	AVF_q9n2	Result - Der F	dbl	numeric	double	3	172	c(0, 1)
+131	132	AVF_q9o1	Skin Test Wheal Size - Cat	dbl	numeric	double	6	175	c(0, 5)
+132	133	AVF_q9o2	Result - Cat	dbl	numeric	double	3	170	c(0, 1)
+133	134	AVF_q9p1	Skin Test Wheal Size - Dog	dbl	numeric	double	4	175	c(0, 6)
+134	135	AVF_q9p2	Result - Dog	dbl	numeric	double	3	172	c(0, 1)
+135	136	AVF_q9q	Allergen - First Other	chr	character	character	17	0	"c("".a"", ""shellfish"")"
+136	137	AVF_q9q1	Skin Test Wheal Size - First Other	dbl	numeric	double	8	163	c(0, 8)
+137	138	AVF_q9q2	Result - First Other	dbl	numeric	double	3	155	c(0, 1)
+138	139	AVF_q9r1	Skin Test Wheal Size - Second Other	dbl	numeric	double	6	166	c(0, 5)
+139	140	AVF_q9r2	Result - Second Other	dbl	numeric	double	3	162	c(0, 1)
+140	141	AVF_q9s1	Skin Test Wheal Size - Third Other	dbl	numeric	double	6	166	c(0, 5)
+141	142	AVF_q9s2	Result - Third Other	dbl	numeric	double	3	163	c(0, 1)
+142	143	AVF_q9t1	Skin Test Wheal Size - Fourth Other	dbl	numeric	double	5	168	c(0, 7)
+143	144	AVF_q9t2	Result - Fourth Other	dbl	numeric	double	3	167	c(0, 1)
+144	145	AVF_q9u1	Skin Test Wheal Size - Fifth Other	dbl	numeric	double	6	171	c(0, 10)
+145	146	AVF_q9u2	Result - Fifth Other	dbl	numeric	double	3	171	c(0, 1)
+146	147	AVF_q9v1	Skin Test Wheal Size - Sixth Other	dbl	numeric	double	3	174	c(0, 5)
+147	148	AVF_q9v2	Result - Sixth Other	dbl	numeric	double	3	174	c(0, 1)
+148	149	AVF_q9w1	Skin Test Wheal Size - Seventh Other	dbl	numeric	double	3	177	c(0, 2)
+149	150	AVF_q9w2	Result - Seventh Other	dbl	numeric	double	2	177	c(0, 0)
+150	151	AVF_q9x1	Skin Test Wheal Size - Eighth Other	dbl	numeric	double	2	179	c(0, 0)
+151	152	AVF_q9x2	Result - Eighth Other	dbl	numeric	double	2	179	c(0, 0)
+152	153	AVF_q9y1	Skin Test Wheal Size - Ninth Other	dbl	numeric	double	2	180	c(0, 0)
+153	154	AVF_q9y2	Result - Ninth Other	dbl	numeric	double	2	180	c(0, 0)
+154	155	AVF_q10	RAST Tests Performed at Visit	dbl	numeric	double	3	133	c(0, 1)
+155	156	AVF_q10a	Where RAST Tests Were Processed	dbl	numeric	double	2	178	c(2, 2)
+156	157	AVF_q10d1	IgE Level - Milk	chr	character	character	4	0	"c("".a"", ""4.9"")"
+157	158	AVF_q10d2	Result - Milk	dbl	numeric	double	2	178	c(1, 1)
+158	159	AVF_q10e1	IgE Level - Egg	chr	character	character	4	0	"c("".a"", ""2.9"")"
+159	160	AVF_q10e2	Result - Egg	dbl	numeric	double	3	178	c(0, 1)
+160	161	AVF_q10f1	IgE Level - Peanut	chr	character	character	4	0	"c("".a"", ""15.8"")"
+161	162	AVF_q10f2	Result - Peanut	dbl	numeric	double	3	178	c(0, 1)
+162	163	AVF_q10g1	IgE Level - Soy	chr	character	character	2	0	"c("".a"", ""0"")"
+163	164	AVF_q10g2	Result - Soy	dbl	numeric	double	2	179	c(0, 0)
+164	165	AVF_q10h1	IgE Level - Wheat	chr	character	character	2	0	"c("".a"", ""0"")"
+165	166	AVF_q10h2	Result - Wheat	dbl	numeric	double	2	179	c(0, 0)
+166	167	AVF_q10i1	IgE Level - Cockroach	chr	character	character	2	0	"c("".a"", ""0"")"
+167	168	AVF_q10i2	Result - Cockroach	dbl	numeric	double	2	179	c(0, 0)
+168	169	AVF_q10j1	IgE Level - Mold Mix	chr	character	character	2	0	"c("".a"", ""0"")"
+169	170	AVF_q10j2	Result - Mold Mix	dbl	numeric	double	2	179	c(0, 0)
+170	171	AVF_q10k1	IgE Level - Tree Mix	chr	character	character	2	0	"c("".a"", ""0"")"
+171	172	AVF_q10k2	Result - Tree Mix	dbl	numeric	double	2	179	c(0, 0)
+172	173	AVF_q10l1	IgE Level - Grass Mix	chr	character	character	2	0	"c("".a"", ""0"")"
+173	174	AVF_q10l2	Result - Grass Mix	dbl	numeric	double	2	179	c(0, 0)
+174	175	AVF_q10m1	IgE Level - Weed Mix	chr	character	character	2	0	"c("".a"", ""0"")"
+175	176	AVF_q10m2	Result - Weed Mix	dbl	numeric	double	2	179	c(0, 0)
+176	177	AVF_q10n1	IgE Level - Der p	chr	character	character	2	0	"c("".a"", ""0"")"
+177	178	AVF_q10n2	Result - Der p	dbl	numeric	double	2	179	c(0, 0)
+178	179	AVF_q10o1	IgE Level - Der f	chr	character	character	2	0	"c("".a"", ""0"")"
+179	180	AVF_q10o2	Result - Der f	dbl	numeric	double	2	179	c(0, 0)
+180	181	AVF_q10p1	IgE Level - Cat	chr	character	character	2	0	"c("".a"", ""0"")"
+181	182	AVF_q10p2	Result - Cat	dbl	numeric	double	2	179	c(0, 0)
+182	183	AVF_q10q1	IgE Level - Dog	chr	character	character	2	0	"c("".a"", ""0"")"
+183	184	AVF_q10q2	Result - Dog	dbl	numeric	double	2	179	c(0, 0)
+184	185	AVF_q10r1	IgE Level - Other #1	chr	character	character	2	0	"c("".a"", "".m"")"
+185	186	AVF_q10r2	Result - Other #1	dbl	numeric	double	2	180	c(0, 0)
+186	187	AVF_q10s1	IgE Level - Other #2	chr	character	character	2	0	"c("".a"", ""<0.35"")"
+187	188	AVF_q10s2	Result - Other #2	dbl	numeric	double	2	180	c(0, 0)
+188	189	AVF_q10t1	IgE Level - Other #3	chr	character	character	1	0	"c("".a"", "".a"")"
+189	190	AVF_q10t2	Result - Other #3	dbl	numeric	double	1	181	
+190	191	AVF_q10u1	IgE Level - Other #4	chr	character	character	2	0	"c("".a"", ""0"")"
+191	192	AVF_q10u2	Result - Other #4	dbl	numeric	double	2	179	c(0, 0)
+192	193	AVF_q10v1	IgE Level - Other #5	chr	character	character	1	0	"c("".a"", "".a"")"
+193	194	AVF_q10v2	Result - Other #5	dbl	numeric	double	1	181	
+194	195	AVF_q10w1	IgE Level - Other #6	chr	character	character	1	0	"c("".a"", "".a"")"
+195	196	AVF_q10w2	Result - Other #6	dbl	numeric	double	1	181	
+196	197	AVF_q10x1	IgE Level - Other #7	chr	character	character	1	0	"c("".a"", "".a"")"
+197	198	AVF_q10x2	Result - Other #7	dbl	numeric	double	1	181	
+198	199	AVF_q10y1	IgE Level - Other #8	chr	character	character	1	0	"c("".a"", "".a"")"
+199	200	AVF_q10y2	Result - Other #8	dbl	numeric	double	1	181	
+200	201	AVF_q10z1	IgE Level - Other #9	chr	character	character	1	0	"c("".a"", "".a"")"
+201	202	AVF_q10z2	Result - Other #9	dbl	numeric	double	1	181	
+202	203	AVF_q11a	Diagnosis - Milk	dbl	numeric	double	5	133	c(0, 3)
+203	204	AVF_q11b	Restrictions - Milk	dbl	numeric	double	5	133	c(0, 3)
+204	205	AVF_q12a	Diagnosis - Eggs	dbl	numeric	double	4	133	c(1, 3)
+205	206	AVF_q12b	Restrictions - Eggs	dbl	numeric	double	5	133	c(0, 3)
+206	207	AVF_q13a	Diagnosis - Peanut	dbl	numeric	double	5	133	c(0, 3)
+207	208	AVF_q13b	Restrictions - Peanut	dbl	numeric	double	5	133	c(0, 3)
+208	209	AVF_q14a	Diagnosis - First Other	dbl	numeric	double	5	167	c(0, 3)
+209	210	AVF_q14b	Restrictions - First Other	dbl	numeric	double	4	167	c(0, 3)
+210	211	AVF_q15a	Diagnosis - Second Other	dbl	numeric	double	3	176	c(0, 3)
+211	212	AVF_q15b	Restrictions - Second Other	dbl	numeric	double	3	176	c(0, 3)
+212	213	AVF_q16a	Diagnosis - Third Other	dbl	numeric	double	3	177	c(0, 3)
+213	214	AVF_q16b	Restrictions - Third Other	dbl	numeric	double	3	177	c(0, 3)
+214	215	AVF_q17a	Diagnosis - Fourth Other	dbl	numeric	double	3	179	c(0, 3)
+215	216	AVF_q17b	Restrictions - Fourth Other	dbl	numeric	double	3	179	c(0, 3)
+216	217	AVF_q18a	Diagnosis - Fifth Other	dbl	numeric	double	2	180	c(0, 0)
+217	218	AVF_q18b	Restrictions - Fifth Other	dbl	numeric	double	2	180	c(0, 0)
+218	219	AVF_q19	Additional Tests Conducted at Visit	dbl	numeric	double	3	133	c(0, 1)
+219	220	AVF_q20a	Abnormal Findings/Additional Diagnoses - Asthma	dbl	numeric	double	3	133	c(0, 1)
+220	221	AVF_q20b	Abnormal Findings/Additional Diagnoses - Allergic Rhinitis	dbl	numeric	double	3	133	c(0, 1)
+221	222	AVF_q20c	Abnormal Findings/Additional Diagnoses - Atopic Dermatitis	dbl	numeric	double	3	133	c(0, 1)
+222	223	AVF_q20d	Abnormal Findings/Additional Diagnoses - Failure to Thrive	dbl	numeric	double	2	133	c(0, 0)
+223	224	AVF_q20e	Abnormal Findings/Additional Diagnoses - Gastroesophageal Reflux Disease	dbl	numeric	double	2	133	c(0, 0)
+224	225	AVF_q20f	Abnormal Findings/Additional Diagnoses - Eosinophilic gastroenteritis	dbl	numeric	double	2	133	c(0, 0)
+225	226	AVF_q20g	Abnormal Findings/Additional Diagnoses - Other	dbl	numeric	double	3	133	c(0, 1)
+226	227	AVF_q21	Epipen Prescribed at Visit	dbl	numeric	double	3	133	c(0, 1)
+227	228	AVF_q22	Other Interventions Recommended at Visit	dbl	numeric	double	3	133	c(0, 1)
+228	229	AVF_q23	Follow-up Appointment Recommended	dbl	numeric	double	3	133	c(0, 1)
+229	230	AVF_q23a	When is Follow-up Appt. Recommended	dbl	numeric	double	8	145	c(1, 36)
+230	231	aCompletionDY	Completion Day	dbl	numeric	double	155	0	c(420, 1776)
+231	232	AVDY	Day of Visit	dbl	numeric	double	45	133	c(297, 1404)

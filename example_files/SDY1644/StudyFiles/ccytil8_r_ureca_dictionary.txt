@@ -1,0 +1,25 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	510	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CCYTIL8"", ""CCYTIL8"")"
+3	4	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+4	5	status	status	chr	character	character	1	0	"c(""incomplete"", ""incomplete"")"
+5	6	SampleID	SampleID	chr	character	character	1722	0	"c(""1000190"", ""999914"")"
+6	7	aVisit	Visit	chr	character	character	8	0	"c(""12"", ""cbl"")"
+7	8	CCYTIL8_q1a1	A-1 Assay - Stimulant LPS - Cytokine IL-8	dbl	numeric	double	1489	101	c(7782, 1433627.72)
+8	9	CCYTIL8_q1b1	A-1 Assay - Stimulant MC24 - Cytokine IL-8	dbl	numeric	double	382	1341	c(5952.33, 621719.6)
+9	10	CCYTIL8_q1c1	A-1 Assay - Stimulant PIC - Cytokine IL-8	dbl	numeric	double	732	977	c(3915.31, 546000)
+10	11	CCYTIL8_q1d1	A-1 Assay - Stimulant PG - Cytokine IL-8	dbl	numeric	double	1492	92	c(9074.74, 1071033.41)
+11	12	CCYTIL8_q1e1	A-1 Assay - Stimulant CpG - Cytokine IL-8	dbl	numeric	double	583	1128	c(4004.29, 625523.06)
+12	13	CCYTIL8_q1f1	A-1 Assay - Stimulant GDQ - Cytokine IL-8	dbl	numeric	double	656	1059	c(5866.58, 440442.06)
+13	14	CCYTIL8_q1g1	A-1 Assay - Stimulant RSV - Cytokine IL-8	dbl	numeric	double	1027	647	c(2685.09, 765876.42)
+14	15	CCYTIL8_q1h1	A-1 Assay - Stimulant RV - Cytokine IL-8	dbl	numeric	double	501	1218	c(7199.66, 473067.39)
+15	16	CCYTIL8_q3a1	B-1 Assay - Stimulant LPS - Cytokine IL-8	dbl	numeric	double	351	1291	c(9117.69, 750007.64)
+16	17	CCYTIL8_q3b1	B-1 Assay - Stimulant MC24 - Cytokine IL-8	dbl	numeric	double	13	1710	c(15219.12, 244062.89)
+17	18	CCYTIL8_q3c1	B-1 Assay - Stimulant PIC - Cytokine IL-8	dbl	numeric	double	144	1571	c(7461.59, 445000)
+18	19	CCYTIL8_q3d1	B-1 Assay - Stimulant PG - Cytokine IL-8	dbl	numeric	double	360	1292	c(16100, 756816.1)
+19	20	CCYTIL8_q3e1	B-1 Assay - Stimulant CpG - Cytokine IL-8	dbl	numeric	double	139	1582	c(7282.77, 330000)
+20	21	CCYTIL8_q3f1	B-1 Assay - Stimulant GDQ - Cytokine IL-8	dbl	numeric	double	61	1662	c(7799.79, 346403.76)
+21	22	CCYTIL8_q3g1	B-1 Assay - Stimulant RSV - Cytokine IL-8	dbl	numeric	double	243	1450	c(8655.51, 682314.98)
+22	23	CCYTIL8_q3h1	B-1 Assay - Stimulant RV - Cytokine IL-8	dbl	numeric	double	116	1603	c(8634.22, 588000)
+23	24	aProcDY	Processing Day	dbl	numeric	double	281	1361	c(613, 1383)

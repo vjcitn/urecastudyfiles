@@ -1,0 +1,25 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	asthma_still	Still have Asthma	dbl	numeric	double	2	395	c(0, 0)
+4	5	asthmasymp_12mo	Had asthma symptoms in last 12 months	dbl	numeric	double	3	206	c(0, 1)
+5	6	asthmameds_12mo	Taken any asthma meds in last 12 months	dbl	numeric	double	3	206	c(0, 1)
+6	7	sum_illness	Number of wheezing illnesses reported in year	dbl	numeric	double	11	151	c(0, 13)
+7	8	sum_docwheeze	Number of dr visits for wheezing	dbl	numeric	double	10	151	c(0, 10)
+8	9	sum_hospwheeze	Number of hospital visits for wheeze/asthma	dbl	numeric	double	4	151	c(0, 2)
+9	10	asthma_docdiag_ever		dbl	numeric	double	3	117	c(0, 1)
+10	11	FEV1_anly	Spirometry - FEV1	dbl	numeric	double	125	214	c(1.07, 3.07)
+11	12	FEV1_anly_post	Spirometry - FEV1	dbl	numeric	double	14	593	c(1.46, 2.25)
+12	13	BD_REVERS		dbl	numeric	double	17	593	c(0.609756097560976, 70.0934579439252)
+13	14	BD_REVERS_gte10		dbl	numeric	double	3	200	c(0, 1)
+14	15	meth_acceptable	Methacholine challenge results acceptable	dbl	numeric	double	3	297	c(0, 1)
+15	16	pc20_high	PC20 greater than 4? (0=no, 1=yes)	dbl	numeric	double	3	312	c(0, 1)
+16	17	meds_definition2		dbl	numeric	double	3	440	c(0, 1)
+17	18	meds_definition3		dbl	numeric	double	3	440	c(0, 1)
+18	19	meds_definition1		dbl	numeric	double	3	440	c(0, 1)
+19	20	asthma_a	asthma pos based on symptoms/med + reversibility/meth	dbl	numeric	double	3	161	c(0, 1)
+20	21	asthma_b	asthma pos based on more severe symptoms/meds	dbl	numeric	double	3	151	c(0, 1)
+21	22	asthma_c	asthma pos based on symptoms/meds + ever doctor diagnosis of asthma	dbl	numeric	double	3	151	c(0, 1)
+22	23	asthma_a2	asthma pos based on symptoms/med + reversibility/meth version 2 (CASK study)	dbl	numeric	double	3	161	c(0, 1)
+23	24	asthma_age10	asthma a,b, or c positive at age 10	dbl	numeric	double	3	151	c(0, 1)

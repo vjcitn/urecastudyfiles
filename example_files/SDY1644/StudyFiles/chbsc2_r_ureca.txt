@@ -1,0 +1,1164 @@
+Accession	group	form	evid	event	version	status	aVisit	CHBSC2_q1	CHBSC2_q2	CHBSC2_q3	CHBSC2_q4b	CHBSC2_q5	CHBSC2_q6	aCompletionDY	CHBSC2DY
+SUB230862	Atopic	CHBSC2	32871	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB230862	Atopic	CHBSC2	32875	72-Month Clinic Visit	1.2	complete	72	tb		1	15:20:00	1	1	2349	2349
+SUB230862	Atopic	CHBSC2	32878	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230862	Atopic	CHBSC2	32879	84-Month Clinic Visit	1.2	complete	84	pm		1	15:05:00	1	1	2737	2737
+SUB230863	Atopic	CHBSC2	34118	60-Month Clinic Visit	1.0	complete	60	tb	98	1	14:09:00	1	1	1831	1831
+SUB230863	Atopic	CHBSC2	34126	84-Month Clinic Visit	1.2	complete	84	pm		1	10:55:00	1	1	2738	2738
+SUB230863	Atopic	CHBSC2	34125	81-Month Clinic Visit	1.2	complete	81	.a		0				2507	
+SUB230865	Atopic	CHBSC2	34757	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	11:45:00	1	1	1888	1888
+SUB230865	Atopic	CHBSC2	34764	81-Month Clinic Visit	1.2	complete	81	tb		1	10:35:00	1	1	2502	2502
+SUB230866	Atopic	CHBSC2	33313	81-Month Clinic Visit	1.2	complete	81	tb		1	14:20:00	1	1	2492	2492
+SUB230866	Atopic	CHBSC2	33306	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	11:55:00	1	1	1850	1850
+SUB230867	Atopic	CHBSC2	35722	81-Month Clinic Visit	1.2	complete	81	tb		1	10:15:00	1	1	2504	2504
+SUB230867	Atopic	CHBSC2	35715	60-Month Clinic Visit	1.0	complete	60	tb	97.2	1	11:56:00	1	1	1802	1802
+SUB230868	Atopic	CHBSC2	35864	81-Month Clinic Visit	1.2	complete	81	tb		1	11:55:00	1	1	2504	2504
+SUB230868	Atopic	CHBSC2	35857	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	11:35:00	1	1	1876	1876
+SUB230869	Atopic	CHBSC2	34745	60-Month Clinic Visit	1.0	complete	60	tb	97.2	1	12:00:00	1	1	1888	1888
+SUB230869	Atopic	CHBSC2	34752	81-Month Clinic Visit	1.2	complete	81	tb		1	10:35:00	1	1	2502	2502
+SUB230870	Atopic	CHBSC2	33530	81-Month Clinic Visit	1.2	complete	81	.a		0				2515	
+SUB230870	Atopic	CHBSC2	33531	84-Month Clinic Visit	1.2	complete	84	tb		1	13:55:00	1	1	2637	2637
+SUB230870	Atopic	CHBSC2	33523	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	11:40:00	1	1	1839	1839
+SUB230871	Atopic	CHBSC2	36478	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230871	Atopic	CHBSC2	36471	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	11:25:00	1	1	1811	1811
+SUB230871	Atopic	CHBSC2	36479	84-Month Clinic Visit	1.2	complete	84	tb		1	10:30:00	1	1	2553	2553
+SUB230872	Atopic	CHBSC2	33579	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230872	Atopic	CHBSC2	33580	84-Month Clinic Visit	1.2	complete	84	tb		1	13:30:00	1	1	2684	2684
+SUB230872	Atopic	CHBSC2	33572	60-Month Clinic Visit	1.0	complete	60	tb	99.3	1	14:50:00	1	1	1807	1807
+SUB230873	Atopic	CHBSC2	43632	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230873	Atopic	CHBSC2	43625	60-Month Clinic Visit	1.0	complete	60	tb	95.5	1	11:00:00	1	1	1877	1877
+SUB230874	Atopic	CHBSC2	33605	81-Month Clinic Visit	1.2	complete	81	tb		1	10:15:00	1	1	2476	2476
+SUB230874	Atopic	CHBSC2	33598	60-Month Clinic Visit	1.0	complete	60	tb	98	1	11:30:00	1	1	1851	1851
+SUB230875	Atopic	CHBSC2	36064	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB230876	Atopic	CHBSC2	33095	81-Month Clinic Visit	1.2	complete	81	tb		1	10:15:00	1	1	2504	2504
+SUB230876	Atopic	CHBSC2	33088	60-Month Clinic Visit	1.0	complete	60	tb	97.8	1	14:20:00	1	1	1795	1795
+SUB230877	Atopic	CHBSC2	34049	81-Month Clinic Visit	1.2	complete	81	ksc		1	15:25:00	1	1	2484	2484
+SUB230877	Atopic	CHBSC2	34042	60-Month Clinic Visit	1.0	complete	60	tb	98	1	11:27:00	1	1	1831	1831
+SUB230881	Atopic	CHBSC2	38940	60-Month Clinic Visit	1.0	complete	60	tb	95.4	1	13:00:00	1	1	1808	1808
+SUB230881	Atopic	CHBSC2	38947	81-Month Clinic Visit	1.2	complete	81	tb		1	15:35:00	1	1	2487	2487
+SUB230882	Atopic	CHBSC2	36513	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB230882	Atopic	CHBSC2	36517	72-Month Clinic Visit	1.2	complete	72	tb		1	14:10:00	1	1	2277	2277
+SUB230883	Atopic	CHBSC2	43863	60-Month Clinic Visit	1.0	complete	60	tb	97.9	1	11:40:00	1	1	1850	1850
+SUB230883	Atopic	CHBSC2	43870	81-Month Clinic Visit	1.2	complete	81	tb		1	10:40:00	1	1	2487	2487
+SUB230884	Atopic	CHBSC2	36793	81-Month Clinic Visit	1.2	complete	81	tb		1	11:45:00	1	1	2483	2483
+SUB230884	Atopic	CHBSC2	36786	60-Month Clinic Visit	1.0	complete	60	tb	96.1	1	14:00:00	1	1	1834	1834
+SUB230886	Atopic	CHBSC2	36798	60-Month Clinic Visit	1.0	complete	60	tb	98.2	1	11:35:00	1	1	1842	1842
+SUB230886	Atopic	CHBSC2	36805	81-Month Clinic Visit	1.2	complete	81	tb		1	13:50:00	1	1	2470	2470
+SUB230887	Atopic	CHBSC2	36397	81-Month Clinic Visit	1.2	complete	81	trh		1	13:25:00	1	1	2498	2498
+SUB230887	Atopic	CHBSC2	36390	60-Month Clinic Visit	1.0	complete	60	tb		1	11:35:00	1	1	1994	1994
+SUB230888	Atopic	CHBSC2	36768	60-Month Clinic Visit	1.0	complete	60	tb	98.9	1	13:50:00	1	1	1840	1840
+SUB230888	Atopic	CHBSC2	36775	81-Month Clinic Visit	1.2	complete	81	tb		1	15:05:00	1	1	2491	2491
+SUB230889	Atopic	CHBSC2	37108	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB230889	Atopic	CHBSC2	37115	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230889	Atopic	CHBSC2	37112	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230890	Atopic	CHBSC2	40457	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230890	Atopic	CHBSC2	40458	84-Month Clinic Visit	1.2	complete	84	tb		1	13:52:00	1	1	2684	2684
+SUB230890	Atopic	CHBSC2	40450	60-Month Clinic Visit	1.0	complete	60	tb	97.8	1	11:45:00	1	1	1865	1865
+SUB230891	Atopic	CHBSC2	38952	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	13:30:00	1	1	1815	1815
+SUB230891	Atopic	CHBSC2	38960	84-Month Clinic Visit	1.2	complete	84	tb		1	11:16:00	1	1	2737	2737
+SUB230891	Atopic	CHBSC2	38959	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230892	Atopic	CHBSC2	40469	81-Month Clinic Visit	1.2	complete	81	tb		1	10:45:00	1	1	2508	2508
+SUB230892	Atopic	CHBSC2	40462	60-Month Clinic Visit	1.0	complete	60	tb	97	1	11:35:00	1	1	1843	1843
+SUB230893	Atopic	CHBSC2	44418	60-Month Clinic Visit	1.0	complete	60	tb		1	11:30:00	1	1	1922	1922
+SUB230894	Atopic	CHBSC2	37554	84-Month Clinic Visit	1.2	complete	84	tb		1	15:20:00	1	1	2733	2733
+SUB230894	Atopic	CHBSC2	37546	60-Month Clinic Visit	1.0	complete	60	tb	96	1	13:20:00	1	1	1823	1823
+SUB230894	Atopic	CHBSC2	37553	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230895	Atopic	CHBSC2	40332	81-Month Clinic Visit	1.2	complete	81	tb		1	13:33:00	1	1	2522	2522
+SUB230895	Atopic	CHBSC2	40325	60-Month Clinic Visit	1.0	complete	60	tb	98.4	1	13:20:00	0	1	1822	1822
+SUB230896	Atopic	CHBSC2	35801	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230896	Atopic	CHBSC2	35794	60-Month Clinic Visit	1.0	complete	60	tb	95	1	14:10:00	1	1	1840	1840
+SUB230897	Atopic	CHBSC2	42865	60-Month Clinic Visit	1.0	complete	60	tb		1	11:40:00	1	1	1925	1925
+SUB230897	Atopic	CHBSC2	42872	81-Month Clinic Visit	1.2	complete	81	tb		1	14:10:00	1	1	2520	2520
+SUB230898	Atopic	CHBSC2	36453	60-Month Clinic Visit	1.0	complete	60	tb	96.2	1	11:45:00	1	1	1816	1816
+SUB230898	Atopic	CHBSC2	36460	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230898	Atopic	CHBSC2	36461	84-Month Clinic Visit	1.2	complete	84	tb		1	13:52:00	1	1	2726	2726
+SUB230899	Atopic	CHBSC2	40986	60-Month Clinic Visit	1.0	complete	60	tb	96.4	1	11:40:00	1	1	1805	1805
+SUB230899	Atopic	CHBSC2	40993	81-Month Clinic Visit	1.2	complete	81	tb		1	10:50:00	1	1	2496	2496
+SUB230900	Atopic	CHBSC2	32860	81-Month Clinic Visit	1.2	complete	81	tb		1	13:20:00	1	1	2517	2517
+SUB230900	Atopic	CHBSC2	32853	60-Month Clinic Visit	1.0	complete	60	tb	97.2	1	11:50:00	1	1	1807	1807
+SUB230901	Atopic	CHBSC2	37828	81-Month Clinic Visit	1.2	complete	81	ksc		1	10:45:00	1	1	2520	2520
+SUB230901	Atopic	CHBSC2	37821	60-Month Clinic Visit	1.0	complete	60	tb	98.8	1	11:30:00	1	1	1850	1850
+SUB230902	Atopic	CHBSC2	36723	60-Month Clinic Visit	1.1	complete	60	tb		1	11:15:00	1	1	1908	1908
+SUB230903	Atopic	CHBSC2	41462	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230903	Atopic	CHBSC2	41463	84-Month Clinic Visit	1.2	complete	84	tb		1	13:35:00	1	1	2693	2693
+SUB230903	Atopic	CHBSC2	41455	60-Month Clinic Visit	1.0	complete	60	tb		1	15:50:00	1	1	1853	1853
+SUB230904	Atopic	CHBSC2	42557	60-Month Clinic Visit	1.0	complete	60	tb	97.2	1	11:40:00	1	1	1806	1806
+SUB230904	Atopic	CHBSC2	42564	81-Month Clinic Visit	1.2	complete	81	tb		1	13:40:00	1	1	2520	2520
+SUB230905	Atopic	CHBSC2	41106	60-Month Clinic Visit	1.1	complete	60	tb		1	11:25:00	1	1	1916	1916
+SUB230905	Atopic	CHBSC2	59802	Child Blood Draw	1.2	complete	84	tb		1	12:37:00	1	1	2880	2880
+SUB230905	Atopic	CHBSC2	41113	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230906	Atopic	CHBSC2	43882	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230906	Atopic	CHBSC2	43875	60-Month Clinic Visit	1.1	complete	60	tb		1	14:18:00	1	1	2038	2038
+SUB230906	Atopic	CHBSC2	43883	84-Month Clinic Visit	1.2	complete	84	tb		1	14:00:00	1	1	2696	2696
+SUB230907	Atopic	CHBSC2	37241	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230907	Atopic	CHBSC2	37240	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230907	Atopic	CHBSC2	37233	60-Month Clinic Visit	1.0	complete	60	spe		1	14:32:00	1	1	1863	1863
+SUB230908	Atopic	CHBSC2	39778	81-Month Clinic Visit	1.2	complete	81	tb		1	11:35:00	1	1	2516	2516
+SUB230908	Atopic	CHBSC2	39771	60-Month Clinic Visit	1.0	complete	60	tb	96.8	1	10:40:00	1	1	1805	1805
+SUB230909	Atopic	CHBSC2	34007	81-Month Clinic Visit	1.2	complete	81	pm		1	11:30:00	1	1	2520	2520
+SUB230909	Atopic	CHBSC2	34000	60-Month Clinic Visit	1.0	complete	60	tb		1	11:30:00	1	1	1841	1838
+SUB230910	Atopic	CHBSC2	37088	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230910	Atopic	CHBSC2	37081	60-Month Clinic Visit	1.0	complete	60	tb		1	11:20:00	1	1	1850	1850
+SUB230910	Atopic	CHBSC2	37089	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230911	Atopic	CHBSC2	37538	81-Month Clinic Visit	1.2	complete	81	tb		1	12:00:00	1	1	2519	2519
+SUB230911	Atopic	CHBSC2	37531	60-Month Clinic Visit	1.0	complete	60	tb		1	11:50:00	1	1	1910	1910
+SUB230912	Atopic	CHBSC2	34438	81-Month Clinic Visit	1.2	complete	81	pm		1	14:40:00	1	1	2517	2517
+SUB230912	Atopic	CHBSC2	34431	60-Month Clinic Visit	1.1	complete	60	tb		1	13:25:00	1	1	1896	1896
+SUB230913	Atopic	CHBSC2	38964	60-Month Clinic Visit	1.1	complete	60	tb		1	11:25:00	1	1	1874	1874
+SUB230913	Atopic	CHBSC2	38971	81-Month Clinic Visit	1.2	complete	81	tb		1	14:15:00	1	1	2518	2518
+SUB230914	Atopic	CHBSC2	32376	60-Month Clinic Visit	1.0	complete	60	tb		1	11:45:00	1	1	1857	1857
+SUB230914	Atopic	CHBSC2	32383	81-Month Clinic Visit	1.2	complete	81	tb		1	11:22:00	1	1	2511	2511
+SUB230915	Atopic	CHBSC2	38976	60-Month Clinic Visit	1.0	complete	60	tb		1	11:50:00	1	1	1858	1858
+SUB230915	Atopic	CHBSC2	38984	84-Month Clinic Visit	1.2	complete	84	tb		1	11:35:00	1	1	2731	2731
+SUB230915	Atopic	CHBSC2	38983	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230916	Atopic	CHBSC2	39670	60-Month Clinic Visit	1.0	complete	60	tb	96.6	1	13:10:00	1	1	1839	1839
+SUB230916	Atopic	CHBSC2	39677	81-Month Clinic Visit	1.2	complete	81	tb		1	10:55:00	1	1	2490	2490
+SUB230917	Atopic	CHBSC2	41319	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230917	Atopic	CHBSC2	41312	60-Month Clinic Visit	1.1	complete	60	tb		1	11:15:00	1	1	1974	1974
+SUB230919	Atopic	CHBSC2	32477	60-Month Clinic Visit	1.0	complete	60	spe		1	11:40:00	1	1	1847	1847
+SUB230919	Atopic	CHBSC2	32484	81-Month Clinic Visit	1.2	complete	81	tb		1	11:35:00	1	1	2521	2521
+SUB230920	Atopic	CHBSC2	40148	84-Month Clinic Visit	1.2	complete	84	tb		1	10:47:00	1	1	2762	2762
+SUB230920	Atopic	CHBSC2	40147	81-Month Clinic Visit	1.2	complete	81	tb		1	13:35:00	1	1	2517	2517
+SUB230920	Atopic	CHBSC2	40140	60-Month Clinic Visit	1.0	complete	60	tb		1	13:25:00	1	1	1857	1857
+SUB230921	Atopic	CHBSC2	39799	60-Month Clinic Visit	1.1	complete	60	ksc		1	11:35:00	1	1	1862	1862
+SUB230921	Atopic	CHBSC2	39806	81-Month Clinic Visit	1.2	complete	81	tb		1	16:00:00	1	1	2513	2513
+SUB230922	Atopic	CHBSC2	33420	60-Month Clinic Visit	1.0	complete	60	tb		1	13:35:00	1	1	1848	1848
+SUB230922	Atopic	CHBSC2	33427	81-Month Clinic Visit	1.2	complete	81	tb		1	15:10:00	1	1	2520	2520
+SUB230924	Atopic	CHBSC2	39701	81-Month Clinic Visit	1.2	complete	81	tb		1	13:50:00	1	1	2511	2511
+SUB230924	Atopic	CHBSC2	39694	60-Month Clinic Visit	1.1	complete	60	tb		1	11:50:00	1	1	1899	1899
+SUB230925	Atopic	CHBSC2	33564	72-Month Clinic Visit	1.2	complete	72	tb		1	11:35:00	0	1	2189	2189
+SUB230925	Atopic	CHBSC2	33560	60-Month Clinic Visit	1.1	missing	.x	.x							
+SUB230925	Atopic	CHBSC2	33568	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230925	Atopic	CHBSC2	33567	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230927	Atopic	CHBSC2	40695	81-Month Clinic Visit	1.2	complete	81	tb		1	14:25:00	1	1	2515	2515
+SUB230927	Atopic	CHBSC2	40688	60-Month Clinic Visit	1.1	complete	60	tb		1	11:45:00	1	1	1894	1894
+SUB230928	Atopic	CHBSC2	38992	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230928	Atopic	CHBSC2	38988	60-Month Clinic Visit	1.1	missing	.x	.x							
+SUB230928	Atopic	CHBSC2	38995	81-Month Clinic Visit	1.2	complete	81	tb		1	11:25:00	1	1	2519	2519
+SUB230929	Atopic	CHBSC2	40676	60-Month Clinic Visit	1.0	complete	60	tb		1	13:20:00	1	1	1863	1863
+SUB230929	Atopic	CHBSC2	40684	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230929	Atopic	CHBSC2	40683	81-Month Clinic Visit	1.2	complete	81	tb		1	13:40:00	0	1	2521	2521
+SUB230932	Atopic	CHBSC2	34028	60-Month Clinic Visit	1.0	complete	60	tb		1	12:00:00	1	1	1810	1810
+SUB230932	Atopic	CHBSC2	34035	81-Month Clinic Visit	1.2	complete	81	tb		1	10:45:00	1	1	2447	2447
+SUB230933	Atopic	CHBSC2	34368	81-Month Clinic Visit	1.2	complete	81	tb		1	14:35:00	1	1	2500	2500
+SUB230933	Atopic	CHBSC2	34361	60-Month Clinic Visit	1.1	complete	60	tb		1	11:45:00	1	1	1837	1837
+SUB230934	Atopic	CHBSC2	41214	60-Month Clinic Visit	1.1	complete	60	ksc		1	11:44:00	1	1	1834	1834
+SUB230934	Atopic	CHBSC2	41221	81-Month Clinic Visit	1.2	complete	81	tb		1	14:45:00	1	1	2492	2492
+SUB230935	Atopic	CHBSC2	41518	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230935	Atopic	CHBSC2	41526	84-Month Clinic Visit	1.2	complete	84	tb		1	15:07:00	1	1	2634	2634
+SUB230935	Atopic	CHBSC2	41522	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230935	Atopic	CHBSC2	41525	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230936	Atopic	CHBSC2	35211	81-Month Clinic Visit	1.2	complete	81	tb		1	10:30:00	1	1	2491	2491
+SUB230936	Atopic	CHBSC2	35204	60-Month Clinic Visit	1.2	complete	60	tb		1	11:10:00	1	1	1943	1943
+SUB230937	Atopic	CHBSC2	32256	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230937	Atopic	CHBSC2	32255	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230937	Atopic	CHBSC2	32248	60-Month Clinic Visit	1.1	complete	60	tb		1	11:10:00	1	1	1836	1836
+SUB230938	Atopic	CHBSC2	39000	60-Month Clinic Visit	1.2	complete	60	tb		1	11:40:00	1	1	1901	1901
+SUB230938	Atopic	CHBSC2	39008	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230938	Atopic	CHBSC2	39007	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230939	Atopic	CHBSC2	39012	60-Month Clinic Visit	1.1	complete	60	tb		1	11:25:00	1	1	1829	1829
+SUB230939	Atopic	CHBSC2	39020	84-Month Clinic Visit	1.2	complete	84	tb		1	13:55:00	1	1	2629	2629
+SUB230939	Atopic	CHBSC2	39019	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230941	Atopic	CHBSC2	39031	81-Month Clinic Visit	1.2	complete	81	tb		1	10:55:00	1	1	2497	2497
+SUB230941	Atopic	CHBSC2	39024	60-Month Clinic Visit	1.1	complete	60	tb		1	11:50:00	1	1	1804	1804
+SUB230942	Atopic	CHBSC2	32655	81-Month Clinic Visit	1.2	complete	81	tb		1	11:50:00	0	1	2518	2518
+SUB230942	Atopic	CHBSC2	32648	60-Month Clinic Visit	1.2	complete	60	tb		1	11:50:00	1	1	1876	1876
+SUB230943	Atopic	CHBSC2	32099	84-Month Clinic Visit	1.2	complete	84	tb		1	15:00:00	1	1	2677	2677
+SUB230943	Atopic	CHBSC2	32091	60-Month Clinic Visit	1.1	complete	60	tb		1	11:00:00	1	1	1846	1846
+SUB230943	Atopic	CHBSC2	32098	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230944	Atopic	CHBSC2	33344	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230944	Atopic	CHBSC2	33345	84-Month Clinic Visit	1.2	complete	84	tb		1	23:16:00	1	1	2706	2706
+SUB230944	Atopic	CHBSC2	33337	60-Month Clinic Visit	1.1	complete	60	tb		1	14:15:00	1	1	1843	1843
+SUB230945	Atopic	CHBSC2	39043	81-Month Clinic Visit	1.2	complete	81	tb		1	13:40:00	1	1	2514	2514
+SUB230945	Atopic	CHBSC2	39036	60-Month Clinic Visit	1.2	complete	60	tb		1	11:35:00	1	1	1954	1954
+SUB230946	Atopic	CHBSC2	41716	60-Month Clinic Visit	1.1	complete	60	tb		1	11:50:00	1	1	1833	1833
+SUB230946	Atopic	CHBSC2	41723	81-Month Clinic Visit	1.2	complete	81	tb		1	13:50:00	1	1	2526	2526
+SUB230947	Atopic	CHBSC2	32424	60-Month Clinic Visit	1.2	complete	60	tb		1	11:50:00	1	1	1858	1858
+SUB230947	Atopic	CHBSC2	32431	81-Month Clinic Visit	1.2	complete	81	tb		1	14:10:00	1	1	2509	2509
+SUB230948	Atopic	CHBSC2	32594	60-Month Clinic Visit	1.2	complete	60	tb		1	11:30:00	1	1	1857	1857
+SUB230948	Atopic	CHBSC2	32601	81-Month Clinic Visit	1.2	complete	81	tb		1	10:55:00	1	1	2522	2522
+SUB230951	Atopic	CHBSC2	32761	81-Month Clinic Visit	1.2	complete	81	tb		1	11:10:00	1	1	2524	2524
+SUB230951	Atopic	CHBSC2	32754	60-Month Clinic Visit	1.2	complete	60	tb		1	15:15:00	1	1	1976	1976
+SUB230952	Atopic	CHBSC2	39055	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230952	Atopic	CHBSC2	39048	60-Month Clinic Visit	1.2	complete	60	ksc		1	11:25:00	1	1	1878	1878
+SUB230952	Atopic	CHBSC2	39056	84-Month Clinic Visit	1.2	complete	84	tb		1	11:50:00	1	1	2606	2606
+SUB230953	Atopic	CHBSC2	32581	60-Month Clinic Visit	1.2	complete	60	tb		1	14:45:00	1	1	1932	1932
+SUB230953	Atopic	CHBSC2	32588	81-Month Clinic Visit	1.2	complete	81	tb		1	11:26:00	1	1	2523	2523
+SUB230954	Atopic	CHBSC2	39790	81-Month Clinic Visit	1.2	complete	81	tb		1	14:20:00	1	1	2521	2521
+SUB230954	Atopic	CHBSC2	39783	60-Month Clinic Visit	1.2	complete	60	ksc		1	13:45:00	1	1	1870	1870
+SUB230955	Atopic	CHBSC2	34618	81-Month Clinic Visit	1.2	complete	81	tb		1	14:00:00	1	1	2512	2512
+SUB230955	Atopic	CHBSC2	34611	60-Month Clinic Visit	1.2	complete	60	tb		1	11:40:00	1	1	1831	1831
+SUB230957	Atopic	CHBSC2	39060	60-Month Clinic Visit	1.2	complete	60	tb		1	10:55:00	1	1	1834	1834
+SUB230957	Atopic	CHBSC2	39067	81-Month Clinic Visit	1.2	complete	81	tb		1	11:00:00	1	1	2515	2515
+SUB230958	Atopic	CHBSC2	43359	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230958	Atopic	CHBSC2	43360	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230958	Atopic	CHBSC2	43356	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230958	Atopic	CHBSC2	43352	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230959	Atopic	CHBSC2	43065	60-Month Clinic Visit	1.1	complete	60	tb		1	13:32:00	1	1	1797	1432
+SUB230959	Atopic	CHBSC2	43073	84-Month Clinic Visit	1.2	complete	84	pem		1	11:25:00	1	1	2756	2756
+SUB230959	Atopic	CHBSC2	43072	81-Month Clinic Visit	1.2	complete	81	.a		0				2512	
+SUB230960	Atopic	CHBSC2	34848	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230960	Atopic	CHBSC2	34851	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230960	Atopic	CHBSC2	34844	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230960	Atopic	CHBSC2	34852	84-Month Clinic Visit	1.2	complete	84	dlb		1	11:30:00	1	1	2710	2710
+SUB230961	Atopic	CHBSC2	35343	60-Month Clinic Visit	1.2	complete	60	tb		1	11:40:00	1	1	1828	1828
+SUB230961	Atopic	CHBSC2	35350	81-Month Clinic Visit	1.2	complete	81	tb		1	13:53:00	1	1	2500	2500
+SUB230962	Atopic	CHBSC2	33885	81-Month Clinic Visit	1.2	complete	81	tb		1	15:50:00	1	1	2517	2517
+SUB230962	Atopic	CHBSC2	33878	60-Month Clinic Visit	1.2	complete	60	tb		1	15:10:00	1	1	1838	1838
+SUB230963	Atopic	CHBSC2	39079	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230963	Atopic	CHBSC2	39072	60-Month Clinic Visit	1.2	complete	60	ksc		1	11:12:00	1	1	1838	1838
+SUB230963	Atopic	CHBSC2	39080	84-Month Clinic Visit	1.2	complete	84	.d		1	11:00:00	1	1	2746	2746
+SUB230964	Atopic	CHBSC2	32902	81-Month Clinic Visit	1.2	complete	81	tb		1	13:40:00	1	1	2485	2485
+SUB230964	Atopic	CHBSC2	32895	60-Month Clinic Visit	1.2	complete	60	tb		1	11:35:00	1	1	1885	1885
+SUB230965	Atopic	CHBSC2	32890	81-Month Clinic Visit	1.2	complete	81	tb		1	13:30:00	1	1	2485	2485
+SUB230965	Atopic	CHBSC2	32883	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1885	1885
+SUB230966	Atopic	CHBSC2	39084	60-Month Clinic Visit	1.2	complete	60	tb		1	11:10:00	1	1	1959	1959
+SUB230966	Atopic	CHBSC2	39091	81-Month Clinic Visit	1.2	complete	81	tb		1	10:50:00	1	1	2526	2526
+SUB230967	Atopic	CHBSC2	39104	84-Month Clinic Visit	1.2	complete	84	tb		1	11:50:00	1	1	2609	2609
+SUB230967	Atopic	CHBSC2	39103	81-Month Clinic Visit	1.2	complete	81	.a		0				2520	
+SUB230967	Atopic	CHBSC2	39096	60-Month Clinic Visit	1.2	complete	60	tb		1	13:15:00	1	1	1811	1811
+SUB230968	Atopic	CHBSC2	38808	81-Month Clinic Visit	1.2	complete	81	.a		0				2526	
+SUB230968	Atopic	CHBSC2	38809	84-Month Clinic Visit	1.2	complete	84	tb		1	12:25:00	1	1	2608	2608
+SUB230968	Atopic	CHBSC2	38801	60-Month Clinic Visit	1.2	complete	60	tb		1	11:55:00	1	1	1929	1929
+SUB230969	Atopic	CHBSC2	39108	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1837	1837
+SUB230969	Atopic	CHBSC2	39115	81-Month Clinic Visit	1.2	complete	81	tb		1	10:30:00	1	1	2467	2467
+SUB230970	Atopic	CHBSC2	35640	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230971	Atopic	CHBSC2	34267	81-Month Clinic Visit	1.2	complete	81	tb		1	13:40:00	1	1	2496	2496
+SUB230971	Atopic	CHBSC2	34260	60-Month Clinic Visit	1.2	complete	60	tb		1	14:51:00	1	1	1822	1822
+SUB230972	Atopic	CHBSC2	35062	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1855	1855
+SUB230972	Atopic	CHBSC2	35069	81-Month Clinic Visit	1.2	complete	81	tb		1	11:33:00	1	1	2527	2527
+SUB230973	Atopic	CHBSC2	39120	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230973	Atopic	CHBSC2	39127	81-Month Clinic Visit	1.2	complete	81	tb		1	12:00:00	1	1	2527	2527
+SUB230973	Atopic	CHBSC2	39124	72-Month Clinic Visit	1.2	complete	72	srd		1	12:00:00	1	1	2284	2284
+SUB230975	Atopic	CHBSC2	34883	81-Month Clinic Visit	1.2	complete	81	tb		1	16:20:00	0	1	2524	2524
+SUB230975	Atopic	CHBSC2	34876	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230975	Atopic	CHBSC2	34884	84-Month Clinic Visit	1.2	complete	84	tb		1	10:52:00	1	1	2680	2680
+SUB230976	Atopic	CHBSC2	35049	60-Month Clinic Visit	1.2	complete	60	tb		1	13:05:00	1	1	1809	1809
+SUB230976	Atopic	CHBSC2	35056	81-Month Clinic Visit	1.2	complete	81	tb		1	11:30:00	1	1	2525	2525
+SUB230977	Atopic	CHBSC2	53401	96-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230977	Atopic	CHBSC2	34808	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230977	Atopic	CHBSC2	34801	60-Month Clinic Visit	1.2	complete	60	tb		1	12:10:00	1	1	1801	1801
+SUB230977	Atopic	CHBSC2	34809	84-Month Clinic Visit	1.2	complete	84	tb		1	10:25:00	1	1	2718	2718
+SUB230978	Atopic	CHBSC2	33126	81-Month Clinic Visit	1.2	complete	81	tb		1	11:37:00	1	1	2491	2491
+SUB230978	Atopic	CHBSC2	33119	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1798	1798
+SUB230979	Atopic	CHBSC2	36357	84-Month Clinic Visit	1.2	complete	84	tb		1	13:57:00	1	1	2628	2628
+SUB230979	Atopic	CHBSC2	36349	60-Month Clinic Visit	1.2	complete	60	tb		1	15:00:00	1	1	1928	1928
+SUB230979	Atopic	CHBSC2	36356	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230981	Atopic	CHBSC2	33592	84-Month Clinic Visit	1.2	complete	84	tb		1	11:55:00	1	1	2650	2650
+SUB230981	Atopic	CHBSC2	33588	72-Month Clinic Visit	1.2	complete	72	tb		1	14:10:00	1	1	2274	2274
+SUB230981	Atopic	CHBSC2	33584	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230981	Atopic	CHBSC2	33591	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230982	Atopic	CHBSC2	36977	81-Month Clinic Visit	1.2	complete	81	tb		1	13:35:00	1	1	2515	2515
+SUB230982	Atopic	CHBSC2	36970	60-Month Clinic Visit	1.2	complete	60	tb		1	13:40:00	1	1	1915	1915
+SUB230983	Atopic	CHBSC2	37494	81-Month Clinic Visit	1.2	complete	81	tb		1	13:50:00	1	1	2517	2517
+SUB230983	Atopic	CHBSC2	37487	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1873	1873
+SUB230984	Atopic	CHBSC2	33556	84-Month Clinic Visit	1.2	complete	84	tb		1	13:30:00	1	1	2696	2696
+SUB230984	Atopic	CHBSC2	33555	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230984	Atopic	CHBSC2	33548	60-Month Clinic Visit	1.2	complete	60	tb		1	11:55:00	1	1	1800	1800
+SUB230985	Atopic	CHBSC2	32403	72-Month Clinic Visit	1.2	complete	72	tb		1	16:10:00	1	1	2272	2272
+SUB230985	Atopic	CHBSC2	32399	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230985	Atopic	CHBSC2	32406	81-Month Clinic Visit	1.2	complete	81	tb		1	13:25:00	1	1	2519	2519
+SUB230986	Atopic	CHBSC2	33484	81-Month Clinic Visit	1.2	complete	81	tb		1	11:45:00	1	1	2448	2448
+SUB230986	Atopic	CHBSC2	33477	60-Month Clinic Visit	1.2	complete	60	tb		1	11:40:00	1	1	1853	1853
+SUB230987	Atopic	CHBSC2	32497	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230987	Atopic	CHBSC2	32498	84-Month Clinic Visit	1.2	complete	84	tb		1	15:13:00	1	1	2643	2643
+SUB230987	Atopic	CHBSC2	32490	60-Month Clinic Visit	1.2	complete	60	tb		1	12:00:00	1	1	1943	1943
+SUB230988	Atopic	CHBSC2	33497	84-Month Clinic Visit	1.2	complete	84	tb		1	14:07:00	1	1	2646	2646
+SUB230988	Atopic	CHBSC2	33489	60-Month Clinic Visit	1.2	complete	60	tb		1	14:30:00	1	1	1895	1895
+SUB230988	Atopic	CHBSC2	33496	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230989	Atopic	CHBSC2	33104	60-Month Clinic Visit	1.2	complete	60	tb		1	15:40:00	1	1	1808	1808
+SUB230989	Atopic	CHBSC2	33112	84-Month Clinic Visit	1.2	complete	84	tb		1	13:40:00	1	1	2671	2671
+SUB230989	Atopic	CHBSC2	33111	81-Month Clinic Visit	1.2	complete	81	sd		0				2515	
+SUB230990	Atopic	CHBSC2	35744	81-Month Clinic Visit	1.2	complete	81	tb		1	12:55:00	1	1	2475	2475
+SUB230990	Atopic	CHBSC2	35737	60-Month Clinic Visit	1.2	complete	60	tb		1	14:00:00	1	1	1910	1910
+SUB230991	Atopic	CHBSC2	33179	60-Month Clinic Visit	1.2	complete	60	tb		0				1850	
+SUB230991	Atopic	CHBSC2	33186	81-Month Clinic Visit	1.2	complete	81	sd		1	14:00:00	1	1	2513	2513
+SUB230991	Atopic	CHBSC2	33183	72-Month Clinic Visit	1.2	complete	72	tb		1	13:50:00	0	1	2249	2249
+SUB230993	Atopic	CHBSC2	34202	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1801	1801
+SUB230993	Atopic	CHBSC2	34209	81-Month Clinic Visit	1.2	complete	81	tb		1	11:55:00	1	1	2517	2517
+SUB230994	Atopic	CHBSC2	34465	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB230994	Atopic	CHBSC2	34466	84-Month Clinic Visit	1.2	complete	84	tb		1	11:20:00	1	1	2662	2662
+SUB230994	Atopic	CHBSC2	34458	60-Month Clinic Visit	1.2	complete	60	tb		1	11:30:00	1	1	1894	1894
+SUB230995	Atopic	CHBSC2	33634	81-Month Clinic Visit	1.2	complete	81	tb		1	13:20:00	1	1	2506	2506
+SUB230995	Atopic	CHBSC2	33627	60-Month Clinic Visit	1.2	complete	60	tb		1	11:16:00	1	1	1829	1829
+SUB230997	Atopic	CHBSC2	38292	81-Month Clinic Visit	1.2	complete	81	tb		1	13:50:00	1	1	2499	2499
+SUB230997	Atopic	CHBSC2	38285	60-Month Clinic Visit	1.2	complete	60	tb		1	12:00:00	1	1	1885	1885
+SUB230998	Atopic	CHBSC2	36494	81-Month Clinic Visit	1.2	complete	81	tb		1	10:42:00	1	1	2521	2521
+SUB230998	Atopic	CHBSC2	36487	60-Month Clinic Visit	1.2	complete	60	tb		1	13:20:00	1	1	1821	1821
+SUB230999	Non-atopic	CHBSC2	43847	84-Month Clinic Visit	1.2	complete	84	tb		0				2634	
+SUB230999	Non-atopic	CHBSC2	43839	60-Month Clinic Visit	1.2	complete	60	tb		1	11:50:00	1	1	1902	1902
+SUB230999	Non-atopic	CHBSC2	43846	81-Month Clinic Visit	1.2	complete	81	.a		0				2521	
+SUB231000	Atopic	CHBSC2	42581	84-Month Clinic Visit	1.2	complete	84	tb		1	11:30:00	1	1	2727	2727
+SUB231000	Atopic	CHBSC2	42580	81-Month Clinic Visit	1.2	complete	81	.a		0				2518	
+SUB231000	Atopic	CHBSC2	42573	60-Month Clinic Visit	1.2	complete	60	tb		1	11:25:00	1	1	1796	1796
+SUB231001	Atopic	CHBSC2	36916	60-Month Clinic Visit	1.2	complete	60	tb		1	11:56:00	1	1	1814	1814
+SUB231001	Atopic	CHBSC2	36924	84-Month Clinic Visit	1.2	complete	84	tb		1	10:36:00	1	1	2710	2710
+SUB231001	Atopic	CHBSC2	36923	81-Month Clinic Visit	1.2	complete	81	.a		0				2516	
+SUB231002	Atopic	CHBSC2	36819	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231002	Atopic	CHBSC2	36812	60-Month Clinic Visit	1.2	complete	60	tb		0				1887	
+SUB231002	Atopic	CHBSC2	36820	84-Month Clinic Visit	1.2	complete	84	tb		1	11:50:00	1	1	2641	2641
+SUB231002	Atopic	CHBSC2	36816	72-Month Clinic Visit	1.2	complete	72	tb		1	10:45:00	1	1	2279	2279
+SUB231003	Atopic	CHBSC2	41673	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231003	Atopic	CHBSC2	61801	Child Blood Draw	1.2	complete	84	tc		1	12:17:00	1	1	2814	2814
+SUB231003	Atopic	CHBSC2	41666	60-Month Clinic Visit	1.2	complete	60	tb		1	10:20:00	1	1	1813	1813
+SUB231003	Atopic	CHBSC2	41674	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231004	Atopic	CHBSC2	37807	81-Month Clinic Visit	1.2	complete	81	tb		1	14:00:00	1	1	2507	2507
+SUB231004	Atopic	CHBSC2	37800	60-Month Clinic Visit	1.2	complete	60	tb		1	11:35:00	1	1	1812	1812
+SUB231005	Atopic	CHBSC2	43768	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1819	1819
+SUB231005	Atopic	CHBSC2	43775	81-Month Clinic Visit	1.2	complete	81	tb		1	13:20:00	1	1	2484	2484
+SUB231006	Atopic	CHBSC2	34301	60-Month Clinic Visit	1.2	complete	60	tb		1	11:45:00	1	1	1828	1828
+SUB231006	Atopic	CHBSC2	34308	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231006	Atopic	CHBSC2	34309	84-Month Clinic Visit	1.2	complete	84	tb		1	14:30:00	1	1	2563	2563
+SUB231007	Atopic	CHBSC2	35495	81-Month Clinic Visit	1.2	complete	81	tb		1	11:50:00	1	1	2501	2501
+SUB231007	Atopic	CHBSC2	35488	60-Month Clinic Visit	1.2	complete	60	tb		1	11:30:00	1	1	1871	1871
+SUB231008	Atopic	CHBSC2	43940	60-Month Clinic Visit	1.2	complete	60	tb		1	13:30:00	0	1	1803	1803
+SUB231008	Atopic	CHBSC2	43947	81-Month Clinic Visit	1.2	complete	81	tb		1	13:25:00	1	1	2524	2524
+SUB231008	Atopic	CHBSC2	43944	72-Month Clinic Visit	1.2	complete	72	tb		1	14:50:00	1	1	2265	2265
+SUB231010	Non-atopic	CHBSC2	34445	60-Month Clinic Visit	1.2	complete	60	tb		1	13:50:00	1	1	1860	1860
+SUB231010	Non-atopic	CHBSC2	34452	81-Month Clinic Visit	1.2	complete	81	tb		1	14:20:00	1	1	2525	2525
+SUB231011	Atopic	CHBSC2	35918	60-Month Clinic Visit	1.2	complete	60	tb		1	11:40:00	1	1	1856	1856
+SUB231011	Atopic	CHBSC2	35925	81-Month Clinic Visit	1.2	complete	81	tb		1	11:23:00	1	1	2523	2523
+SUB231012	Atopic	CHBSC2	39140	84-Month Clinic Visit	1.2	complete	84	tb		1	10:30:00	1	1	2633	2633
+SUB231012	Atopic	CHBSC2	39132	60-Month Clinic Visit	1.2	complete	60	tb		1	10:40:00	1	1	1917	1917
+SUB231012	Atopic	CHBSC2	39139	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231013	Atopic	CHBSC2	36571	60-Month Clinic Visit	1.2	complete	60	tb		1	11:20:00	1	1	1849	1849
+SUB231013	Atopic	CHBSC2	36578	81-Month Clinic Visit	1.2	complete	81	tb		1	10:40:00	1	1	2528	2528
+SUB231014	Atopic	CHBSC2	37256	84-Month Clinic Visit	1.2	complete	84	pem		1	13:12:00	1	1	2568	2568
+SUB231014	Atopic	CHBSC2	37255	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231014	Atopic	CHBSC2	37248	60-Month Clinic Visit	1.2	complete	60	tb		1	14:35:00	1	1	1889	1889
+SUB231015	Non-atopic	CHBSC2	37701	81-Month Clinic Visit	1.2	complete	81	tb		1	14:20:00	1	1	2526	2526
+SUB231015	Non-atopic	CHBSC2	37694	60-Month Clinic Visit	1.2	complete	60	tb		1	14:20:00	1	1	1889	1889
+SUB231016	Atopic	CHBSC2	36651	60-Month Clinic Visit	1.2	complete	60	tb		1	13:27:00	1	1	1881	1881
+SUB231016	Atopic	CHBSC2	36659	84-Month Clinic Visit	1.2	complete	84	tb		1	11:00:00	1	1	2581	2581
+SUB231016	Atopic	CHBSC2	36658	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231017	Non-atopic	CHBSC2	39735	60-Month Clinic Visit	1.2	complete	60	ksc		1	11:55:00	1	1	1829	1829
+SUB231017	Non-atopic	CHBSC2	39742	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231017	Non-atopic	CHBSC2	39743	84-Month Clinic Visit	1.2	complete	84	tb		1	12:06:00	1	1	2629	2629
+SUB231019	Atopic	CHBSC2	39144	60-Month Clinic Visit	1.2	complete	60	ksc		1	13:20:00	1	1	1820	1820
+SUB231019	Atopic	CHBSC2	39151	81-Month Clinic Visit	1.2	complete	81	tb		1	13:15:00	1	1	2527	2527
+SUB231021	Atopic	CHBSC2	42860	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231021	Atopic	CHBSC2	42853	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231021	Atopic	CHBSC2	42857	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231021	Atopic	CHBSC2	42861	84-Month Clinic Visit	1.2	complete	84	tbc		1	12:06:00	1	1	2722	2722
+SUB231022	Non-atopic	CHBSC2	38187	81-Month Clinic Visit	1.2	complete	81	tb		1	13:45:00	1	1	2521	2521
+SUB231022	Non-atopic	CHBSC2	38180	60-Month Clinic Visit	1.2	complete	60	tb		1	11:15:00	1	1	1872	1872
+SUB231023	Non-atopic	CHBSC2	43851	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231023	Non-atopic	CHBSC2	43858	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231023	Non-atopic	CHBSC2	43855	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231023	Non-atopic	CHBSC2	43859	84-Month Clinic Visit	1.2	complete	84	tb		1	12:55:00	1	1	2706	2706
+SUB231024	Non-atopic	CHBSC2	35876	60-Month Clinic Visit	1.2	complete	60	tb		1	15:20:00	1	1	1801	1801
+SUB231024	Non-atopic	CHBSC2	35883	81-Month Clinic Visit	1.2	complete	81	.a		0				2525	
+SUB231024	Non-atopic	CHBSC2	35884	84-Month Clinic Visit	1.2	complete	84	tb		1	11:45:00	1	1	2622	2622
+SUB231025	Atopic	CHBSC2	39156	60-Month Clinic Visit	1.2	complete	60	tb		1	14:30:00	1	1	1807	1807
+SUB231025	Atopic	CHBSC2	39163	81-Month Clinic Visit	1.2	complete	81	tb		1	12:53:00	1	1	2526	2526
+SUB231026	Atopic	CHBSC2	41095	81-Month Clinic Visit	1.2	complete	81	tb		1	14:17:00	1	1	2521	2521
+SUB231026	Atopic	CHBSC2	41088	60-Month Clinic Visit	1.2	complete	60	tb		1	11:30:00	1	1	1835	1835
+SUB231028	Atopic	CHBSC2	34493	81-Month Clinic Visit	1.2	complete	81	ss		1	10:20:00	1	1	2499	2499
+SUB231028	Atopic	CHBSC2	34486	60-Month Clinic Visit	1.0	complete	60	ab	96.8	1	13:30:00	1	1	1798	1798
+SUB231029	Atopic	CHBSC2	33294	72-Month Clinic Visit	1.2	complete	72	dh		1	14:00:00	1	1	2290	2290
+SUB231029	Atopic	CHBSC2	33297	81-Month Clinic Visit	1.2	complete	81	eg		1	12:05:00	1	1	2501	2501
+SUB231029	Atopic	CHBSC2	33290	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231031	Atopic	CHBSC2	34335	60-Month Clinic Visit	1.0	complete	60	gc	97	1	13:20:00	1	1	1814	1814
+SUB231031	Atopic	CHBSC2	34342	81-Month Clinic Visit	1.2	complete	81	eg		1	11:45:00	1	1	2515	2515
+SUB231035	Atopic	CHBSC2	30796	81-Month Clinic Visit	1.2	complete	81	eg		1	12:50:00	1	1	2464	2464
+SUB231035	Atopic	CHBSC2	30789	60-Month Clinic Visit	1.0	complete	60	ab	97.5	1	10:20:00	1	1	1804	1804
+SUB231036	Atopic	CHBSC2	37909	60-Month Clinic Visit	1.0	complete	60	gl	97.5	1	10:35:00	1	1	1798	1798
+SUB231036	Atopic	CHBSC2	37916	81-Month Clinic Visit	1.2	complete	81	eg		1	12:00:00	1	1	2491	2491
+SUB231039	Atopic	CHBSC2	30777	60-Month Clinic Visit	1.0	complete	60	ks	97.9	1	13:25:00	1	1	1804	1804
+SUB231039	Atopic	CHBSC2	30784	81-Month Clinic Visit	1.2	complete	81	eg		1	11:45:00	1	0	2442	2442
+SUB231040	Atopic	CHBSC2	30872	60-Month Clinic Visit	1.0	complete	60	ks	97.2	1	10:15:00	1	1	1844	1844
+SUB231040	Atopic	CHBSC2	30879	81-Month Clinic Visit	1.2	complete	81	eg		1	11:15:00	1	1	2454	2454
+SUB231041	Atopic	CHBSC2	34222	81-Month Clinic Visit	1.2	complete	81	eg		1	10:15:00	1	1	2443	2443
+SUB231041	Atopic	CHBSC2	34215	60-Month Clinic Visit	1.0	complete	60	mn	96.6	1	14:18:00	1	1	1805	1805
+SUB231042	Atopic	CHBSC2	33796	81-Month Clinic Visit	1.2	complete	81	eg		1	12:20:00	1	1	2493	2493
+SUB231042	Atopic	CHBSC2	33789	60-Month Clinic Visit	1.0	complete	60	jt	97.5	1	10:20:00	1	1	1799	1799
+SUB231043	Atopic	CHBSC2	36368	81-Month Clinic Visit	1.2	complete	81	mn		1	13:15:00	1	1	2439	2439
+SUB231043	Atopic	CHBSC2	36361	60-Month Clinic Visit	1.0	complete	60	mn	97.2	1	13:50:00	1	1	1802	1802
+SUB231044	Atopic	CHBSC2	34865	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231044	Atopic	CHBSC2	34866	84-Month Clinic Visit	1.2	complete	84	.a		0				2721	
+SUB231044	Atopic	CHBSC2	34862	72-Month Clinic Visit	1.2	complete	72	rb		0				2215	
+SUB231044	Atopic	CHBSC2	34858	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231045	Atopic	CHBSC2	32512	60-Month Clinic Visit	1.0	complete	60	rb	97.7	1	10:55:00	1	1	1850	1850
+SUB231045	Atopic	CHBSC2	32519	81-Month Clinic Visit	1.2	complete	81	jd		1	12:52:00	1	1	2519	2519
+SUB231047	Atopic	CHBSC2	32839	60-Month Clinic Visit	1.0	complete	60	ad	97	1	14:05:00	1	1	1842	1842
+SUB231047	Atopic	CHBSC2	32846	81-Month Clinic Visit	1.2	complete	81	eg		1	11:35:00	1	1	2451	2451
+SUB231048	Atopic	CHBSC2	37044	60-Month Clinic Visit	1.0	complete	60	mk		1	13:00:00	1	1	1859	1859
+SUB231048	Atopic	CHBSC2	37051	81-Month Clinic Visit	1.2	complete	81	eg		1	14:10:00	1	1	2452	2452
+SUB231049	Atopic	CHBSC2	36601	60-Month Clinic Visit	1.0	complete	60	.m	97.4	1	14:05:00	1	1	1810	1810
+SUB231049	Atopic	CHBSC2	36608	81-Month Clinic Visit	1.2	complete	81	ab		1	12:23:00	1	1	2440	2439
+SUB231050	Atopic	CHBSC2	35076	60-Month Clinic Visit	1.0	complete	60	mg		1	09:55:00	1	1	1867	1867
+SUB231050	Atopic	CHBSC2	35083	81-Month Clinic Visit	1.2	complete	81	mn		1	12:28:00	1	1	2498	2498
+SUB231051	Atopic	CHBSC2	33217	60-Month Clinic Visit	1.0	complete	60	mn		1	13:10:00	1	1	1860	1860
+SUB231051	Atopic	CHBSC2	33224	81-Month Clinic Visit	1.2	complete	81	eg		1	12:30:00	1	1	2483	2483
+SUB231052	Atopic	CHBSC2	35670	60-Month Clinic Visit	1.0	complete	60	mj		1	10:10:00	1	1	1839	1839
+SUB231052	Atopic	CHBSC2	35677	81-Month Clinic Visit	1.2	complete	81	ab		1	14:00:00	1	1	2463	2463
+SUB231053	Atopic	CHBSC2	37292	60-Month Clinic Visit	1.0	complete	60	.m		1	11:00:00	1	1	1848	1848
+SUB231053	Atopic	CHBSC2	37299	81-Month Clinic Visit	1.2	complete	81	ss		1	13:40:00	1	1	2473	2473
+SUB231055	Atopic	CHBSC2	32918	60-Month Clinic Visit	1.0	complete	60	mn		1	10:05:00	1	1	1842	1842
+SUB231055	Atopic	CHBSC2	32925	81-Month Clinic Visit	1.2	complete	81	mn		1	12:50:00	1	1	2509	2509
+SUB231057	Atopic	CHBSC2	38619	60-Month Clinic Visit	1.0	complete	60	ks		1	09:57:00	1	1	1812	1812
+SUB231057	Atopic	CHBSC2	38626	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231058	Atopic	CHBSC2	42352	60-Month Clinic Visit	1.1	complete	60	mj		1	10:01:00	1	1	1866	1866
+SUB231058	Atopic	CHBSC2	42359	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231058	Atopic	CHBSC2	42360	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231059	Atopic	CHBSC2	37513	60-Month Clinic Visit	1.1	complete	60	nm		1	13:36:00	1	1	1829	1829
+SUB231059	Atopic	CHBSC2	37520	81-Month Clinic Visit	1.2	complete	81	jh		1	12:03:00	1	1	2495	2495
+SUB231060	Atopic	CHBSC2	32063	84-Month Clinic Visit	1.2	complete	84	mj		1	14:44:00	1	1	2630	2630
+SUB231060	Atopic	CHBSC2	32059	72-Month Clinic Visit	1.2	complete	72	kr		1	16:05:00	1	1	2245	2245
+SUB231060	Atopic	CHBSC2	32062	81-Month Clinic Visit	1.2	complete	81	eg		0				2493	
+SUB231060	Atopic	CHBSC2	32055	60-Month Clinic Visit	1.2	complete	60	rb		0				1884	
+SUB231061	Atopic	CHBSC2	39313	60-Month Clinic Visit	1.1	complete	60	gs		1	10:07:00	1	1	1839	1839
+SUB231061	Atopic	CHBSC2	39321	84-Month Clinic Visit	1.2	complete	84	.a		0				2583	
+SUB231061	Atopic	CHBSC2	39320	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231063	Atopic	CHBSC2	37736	81-Month Clinic Visit	1.2	complete	81	ab		1	10:25:00	1	1	2485	2485
+SUB231063	Atopic	CHBSC2	37729	60-Month Clinic Visit	1.1	complete	60	mw		1	10:05:00	1	1	1825	1825
+SUB231064	Atopic	CHBSC2	38515	60-Month Clinic Visit	1.1	complete	60	ss		1	10:32:00	1	1	1858	1858
+SUB231064	Atopic	CHBSC2	38522	81-Month Clinic Visit	1.2	complete	81	eg		1	11:45:00	1	1	2488	2488
+SUB231065	Atopic	CHBSC2	39645	81-Month Clinic Visit	1.2	complete	81	eg		1	12:20:00	1	1	2512	2508
+SUB231065	Atopic	CHBSC2	39638	60-Month Clinic Visit	1.1	complete	60	nm		1	13:49:00	1	1	1817	1817
+SUB231066	Atopic	CHBSC2	37606	81-Month Clinic Visit	1.2	complete	81	sc		1	16:15:00	1	1	2504	2504
+SUB231066	Atopic	CHBSC2	37599	60-Month Clinic Visit	1.2	complete	60	rlb		1	11:35:00	1	1	1871	1871
+SUB231067	Atopic	CHBSC2	41357	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231067	Atopic	CHBSC2	41358	84-Month Clinic Visit	1.2	complete	84	.a		0				2570	
+SUB231067	Atopic	CHBSC2	41350	60-Month Clinic Visit	1.1	complete	60	ag		1	09:56:00	1	1	1813	1813
+SUB231070	Atopic	CHBSC2	37225	81-Month Clinic Visit	1.2	complete	81	.a		0				2465	
+SUB231070	Atopic	CHBSC2	37226	84-Month Clinic Visit	1.2	complete	84	kr		1	09:10:00	1	1	2555	2555
+SUB231070	Atopic	CHBSC2	37218	60-Month Clinic Visit	1.1	complete	60	ss		1	13:10:00	1	1	1798	1798
+SUB231071	Atopic	CHBSC2	37854	81-Month Clinic Visit	1.2	complete	81	eg		1	12:05:00	1	1	2439	2439
+SUB231071	Atopic	CHBSC2	37847	60-Month Clinic Visit	1.1	complete	60	ss		1	12:30:00	1	1	1801	1801
+SUB231072	Atopic	CHBSC2	37866	81-Month Clinic Visit	1.2	complete	81	kr		1	13:20:00	1	1	2456	2456
+SUB231072	Atopic	CHBSC2	37859	60-Month Clinic Visit	1.1	complete	60	ee		1	10:15:00	1	1	1797	1797
+SUB231073	Atopic	CHBSC2	37352	60-Month Clinic Visit	1.1	complete	60	mn		1	10:00:00	1	1	1798	1798
+SUB231073	Atopic	CHBSC2	37359	81-Month Clinic Visit	1.2	complete	81	.m		1	16:51:00	1	1	2499	2499
+SUB231074	Atopic	CHBSC2	37878	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231074	Atopic	CHBSC2	37875	72-Month Clinic Visit	1.2	complete	72	jd		1	11:50:00	1	1	2202	2202
+SUB231074	Atopic	CHBSC2	37871	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231074	Atopic	CHBSC2	37879	84-Month Clinic Visit	1.2	complete	84	eg		1	11:51:00	1	1	2619	2619
+SUB231075	Atopic	CHBSC2	37160	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231075	Atopic	CHBSC2	37152	60-Month Clinic Visit	1.1	complete	60	ss		1	13:15:00	1	1	1786	1786
+SUB231075	Atopic	CHBSC2	37159	81-Month Clinic Visit	1.2	complete	81	mn		1	10:12:00	1	1	2514	2514
+SUB231076	Atopic	CHBSC2	38638	81-Month Clinic Visit	1.2	complete	81	eg		0				2466	
+SUB231076	Atopic	CHBSC2	38631	60-Month Clinic Visit	1.2	complete	60	pi		1	09:52:00	1	1	1806	1806
+SUB231076	Atopic	CHBSC2	38639	84-Month Clinic Visit	1.2	complete	84	eg		0				2637	
+SUB231078	Atopic	CHBSC2	38075	81-Month Clinic Visit	1.2	complete	81	eg		1	11:32:00	1	1	2490	2490
+SUB231078	Atopic	CHBSC2	38068	60-Month Clinic Visit	1.2	complete	60	ss		1	12:51:00	1	1	1838	1838
+SUB231079	Atopic	CHBSC2	38883	60-Month Clinic Visit	1.2	complete	60	ha		1	10:30:00	1	1	1837	1837
+SUB231079	Atopic	CHBSC2	38890	81-Month Clinic Visit	1.2	complete	81	eg		1	12:58:00	1	1	2475	2475
+SUB231080	Atopic	CHBSC2	38650	81-Month Clinic Visit	1.2	complete	81	.a		0				2490	
+SUB231080	Atopic	CHBSC2	38651	84-Month Clinic Visit	1.2	complete	84	.a		1	11:37:00	1	1	2556	2556
+SUB231080	Atopic	CHBSC2	38643	60-Month Clinic Visit	1.2	complete	60	pi		1	13:12:00	1	1	1799	1799
+SUB231081	Atopic	CHBSC2	40877	81-Month Clinic Visit	1.2	complete	81	mc		1	13:44:00	1	1	2506	2506
+SUB231081	Atopic	CHBSC2	40870	60-Month Clinic Visit	1.2	complete	60	ha		1	11:41:00	1	1	1826	1826
+SUB231082	Atopic	CHBSC2	42517	81-Month Clinic Visit	1.2	complete	81	eg		1	09:50:00	1	1	2520	2520
+SUB231082	Atopic	CHBSC2	42510	60-Month Clinic Visit	1.2	complete	60	mn		1	10:18:00	1	1	1795	1795
+SUB231083	Atopic	CHBSC2	38662	81-Month Clinic Visit	1.2	complete	81	eg		1	11:51:00	1	1	2451	2451
+SUB231083	Atopic	CHBSC2	38655	60-Month Clinic Visit	1.2	complete	60	ab		1	10:34:00	1	1	1929	1929
+SUB231084	Atopic	CHBSC2	38667	60-Month Clinic Visit	1.2	complete	60	mj		1	12:00:00	1	1	1830	1830
+SUB231084	Atopic	CHBSC2	38674	81-Month Clinic Visit	1.2	complete	81	jd		1	12:30:00	1	1	2510	2510
+SUB231086	Atopic	CHBSC2	37890	81-Month Clinic Visit	1.2	complete	81	kr		1	12:27:00	1	1	2516	2150
+SUB231086	Atopic	CHBSC2	37883	60-Month Clinic Visit	1.2	complete	60	hd		1	09:57:00	1	0	1829	1829
+SUB231087	Atopic	CHBSC2	38680	60-Month Clinic Visit	1.2	complete	60	jt		1	11:39:00	1	1	1812	1812
+SUB231087	Atopic	CHBSC2	38687	81-Month Clinic Visit	1.2	complete	81	jd		1	12:30:00	1	1	2492	2492
+SUB231091	Atopic	CHBSC2	31906	60-Month Clinic Visit	1.2	complete	60	jt		1	15:40:00	1	1	1826	1826
+SUB231091	Atopic	CHBSC2	31913	81-Month Clinic Visit	1.2	complete	81	kv		1	09:43:00	1	1	2518	2518
+SUB231092	Atopic	CHBSC2	30899	60-Month Clinic Visit	1.2	complete	60	lj		1	11:40:00	1	1	1809	1809
+SUB231092	Atopic	CHBSC2	30906	81-Month Clinic Visit	1.2	complete	81	ms		1	12:50:00	1	1	2503	2503
+SUB231093	Atopic	CHBSC2	31501	60-Month Clinic Visit	1.2	complete	60	jt		1	10:00:00	1	1	1837	1837
+SUB231093	Atopic	CHBSC2	31508	81-Month Clinic Visit	1.2	complete	81	gsc		1	10:33:00	1	1	2531	2531
+SUB231094	Atopic	CHBSC2	31271	60-Month Clinic Visit	1.2	complete	60	ss		1	15:09:00	1	1	1813	1813
+SUB231094	Atopic	CHBSC2	31278	81-Month Clinic Visit	1.2	complete	81	eg		1	10:53:00	1	1	2505	2505
+SUB231095	Atopic	CHBSC2	31872	60-Month Clinic Visit	1.2	complete	60	rt		1	09:15:00	1	1	1808	1808
+SUB231095	Atopic	CHBSC2	31879	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231095	Atopic	CHBSC2	31880	84-Month Clinic Visit	1.2	complete	84	eg		1	12:10:00	1	1	2566	2566
+SUB231096	Atopic	CHBSC2	41040	81-Month Clinic Visit	1.2	complete	81	eg		1	12:31:00	1	1	2498	2498
+SUB231096	Atopic	CHBSC2	41033	60-Month Clinic Visit	1.2	complete	60	tb		1	09:25:00	1	0	1818	1818
+SUB231097	Atopic	CHBSC2	43580	81-Month Clinic Visit	1.2	complete	81	ab		1	12:30:00	1	1	2521	2521
+SUB231097	Atopic	CHBSC2	43573	60-Month Clinic Visit	1.2	complete	60	ab		1	10:37:00	1	1	1860	1860
+SUB231098	Atopic	CHBSC2	42497	60-Month Clinic Visit	1.2	complete	60	kr		1	13:20:00	1	1	1805	1805
+SUB231098	Atopic	CHBSC2	42504	81-Month Clinic Visit	1.2	complete	81	eg		1	12:22:00	1	1	2512	2512
+SUB231099	Atopic	CHBSC2	37139	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231099	Atopic	CHBSC2	37146	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231100	Atopic	CHBSC2	40030	81-Month Clinic Visit	1.2	complete	81	eg		1	11:40:00	1	1	2516	2516
+SUB231100	Atopic	CHBSC2	40023	60-Month Clinic Visit	1.2	complete	60	rt		1	15:50:00	1	1	1796	1796
+SUB231101	Atopic	CHBSC2	39839	81-Month Clinic Visit	1.2	complete	81	eg		1	12:20:00	1	1	2499	2499
+SUB231101	Atopic	CHBSC2	39832	60-Month Clinic Visit	1.2	complete	60	jt		1	09:10:00	1	1	1798	1798
+SUB231102	Atopic	CHBSC2	42241	81-Month Clinic Visit	1.2	complete	81	eg		1	13:40:00	1	1	2440	2440
+SUB231102	Atopic	CHBSC2	42234	60-Month Clinic Visit	1.2	complete	60	ss		1	10:20:00	1	1	1801	1801
+SUB231104	Atopic	CHBSC2	32269	81-Month Clinic Visit	1.2	complete	81	kms		1	12:37:00	1	1	2487	2487
+SUB231104	Atopic	CHBSC2	32262	60-Month Clinic Visit	1.2	complete	60	mj		1	14:10:00	1	1	1919	1919
+SUB231105	Atopic	CHBSC2	38692	60-Month Clinic Visit	1.2	complete	60	mb		1	15:20:00	1	1	1822	1822
+SUB231105	Atopic	CHBSC2	38699	81-Month Clinic Visit	1.2	complete	81	kr		1	09:25:00	1	1	2443	2443
+SUB231106	Atopic	CHBSC2	36240	60-Month Clinic Visit	1.2	complete	60	hd		1	13:15:00	1	1	1798	1798
+SUB231106	Atopic	CHBSC2	36247	81-Month Clinic Visit	1.2	complete	81	eg		1	13:05:00	1	1	2478	2478
+SUB231107	Atopic	CHBSC2	42380	60-Month Clinic Visit	1.2	complete	60	ab		1	10:45:00	1	1	1841	1841
+SUB231107	Atopic	CHBSC2	42388	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231107	Atopic	CHBSC2	42387	81-Month Clinic Visit	1.2	complete	81	hv		1	08:20:00	1	1	2499	2510
+SUB231108	Atopic	CHBSC2	40087	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231109	Atopic	CHBSC2	38322	81-Month Clinic Visit	1.2	complete	81	eg		1	12:01:00	1	1	2495	2494
+SUB231109	Atopic	CHBSC2	38315	60-Month Clinic Visit	1.2	complete	60	tb		1	09:30:00	1	1	1809	1809
+SUB231110	Atopic	CHBSC2	38711	81-Month Clinic Visit	1.2	complete	81	ab		1	13:00:00	1	1	2509	2509
+SUB231110	Atopic	CHBSC2	38704	60-Month Clinic Visit	1.2	complete	60	rb		1	10:30:00	1	1	1822	1822
+SUB231113	Atopic	CHBSC2	32989	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231113	Atopic	CHBSC2	32990	84-Month Clinic Visit	1.2	complete	84	rgh		1	10:45:00	1	1	2571	2571
+SUB231113	Atopic	CHBSC2	32982	60-Month Clinic Visit	1.2	complete	60	tb		1	09:55:00	1	1	1801	1801
+SUB231114	Atopic	CHBSC2	31737	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231114	Atopic	CHBSC2	31744	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231114	Atopic	CHBSC2	31745	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231114	Atopic	CHBSC2	31741	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231115	Atopic	CHBSC2	34252	81-Month Clinic Visit	1.2	complete	81	eg		1	12:27:00	1	1	2440	2440
+SUB231115	Atopic	CHBSC2	34245	60-Month Clinic Visit	1.2	complete	60	tb		1	09:05:00	1	1	1802	1802
+SUB231116	Atopic	CHBSC2	38723	81-Month Clinic Visit	1.2	complete	81	eg		1	14:35:00	1	1	2491	2491
+SUB231116	Atopic	CHBSC2	38716	60-Month Clinic Visit	1.2	complete	60	ss		1	10:05:00	1	1	1833	1833
+SUB231117	Atopic	CHBSC2	32223	84-Month Clinic Visit	1.2	complete	84	mo		1	10:03:00	1	1	2603	2603
+SUB231117	Atopic	CHBSC2	32222	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231117	Atopic	CHBSC2	32215	60-Month Clinic Visit	1.2	complete	60	ab		1	13:15:00	1	1	1799	1799
+SUB231118	Atopic	CHBSC2	34355	81-Month Clinic Visit	1.2	complete	81	rb		0				2500	
+SUB231118	Atopic	CHBSC2	34348	60-Month Clinic Visit	1.2	complete	60	rb		0				1912	
+SUB231118	Atopic	CHBSC2	34352	72-Month Clinic Visit	1.2	complete	72	tb		1	13:05:00	1	1	2164	2164
+SUB231118	Atopic	CHBSC2	34356	84-Month Clinic Visit	1.2	complete	84	rb		0				2653	
+SUB231119	Atopic	CHBSC2	34718	60-Month Clinic Visit	1.2	complete	60	ss		1	11:10:00	1	1	1801	1801
+SUB231119	Atopic	CHBSC2	34726	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231119	Atopic	CHBSC2	34725	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231120	Atopic	CHBSC2	38735	81-Month Clinic Visit	1.2	complete	81	sa		1	13:00:00	1	1	2470	2470
+SUB231120	Atopic	CHBSC2	38728	60-Month Clinic Visit	1.2	complete	60	mn		1	10:10:00	1	1	1832	1832
+SUB231121	Atopic	CHBSC2	34473	60-Month Clinic Visit	1.2	complete	60	nm		1	09:30:00	1	1	1800	1800
+SUB231121	Atopic	CHBSC2	34480	81-Month Clinic Visit	1.2	complete	81	eg		1	13:45:00	0	0	2479	2479
+SUB231121	Atopic	CHBSC2	34481	84-Month Clinic Visit	1.2	complete	84	jh		1	10:45:00	1	1	2688	2688
+SUB231122	Atopic	CHBSC2	34731	60-Month Clinic Visit	1.2	complete	60	tb		1	11:40:00	1	1	1806	1806
+SUB231122	Atopic	CHBSC2	34738	81-Month Clinic Visit	1.2	complete	81	mj		1	11:30:00	1	1	2479	2479
+SUB231123	Atopic	CHBSC2	33841	60-Month Clinic Visit	1.2	complete	60	dh		1	12:28:00	1	1	1898	1898
+SUB231123	Atopic	CHBSC2	33848	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231125	Atopic	CHBSC2	32947	81-Month Clinic Visit	1.2	complete	81	eg		1	13:02:00	1	1	2479	2479
+SUB231125	Atopic	CHBSC2	32940	60-Month Clinic Visit	1.2	complete	60	rb		1	09:55:00	1	1	1800	1800
+SUB231127	Atopic	CHBSC2	36385	81-Month Clinic Visit	1.2	complete	81	ss		1	13:45:00	1	1	2481	2481
+SUB231127	Atopic	CHBSC2	36378	60-Month Clinic Visit	1.2	complete	60	rb		1	10:30:00	1	1	1825	1825
+SUB231128	Atopic	CHBSC2	32540	60-Month Clinic Visit	1.2	complete	60	hb		1	13:00:00	1	1	1827	1827
+SUB231128	Atopic	CHBSC2	32547	81-Month Clinic Visit	1.2	complete	81	ah		1	12:55:00	1	1	2456	2456
+SUB231130	Atopic	CHBSC2	35099	81-Month Clinic Visit	1.2	complete	81	eg		1	15:00:00	1	1	2521	2521
+SUB231130	Atopic	CHBSC2	35092	60-Month Clinic Visit	1.2	complete	60	gs		1	11:50:00	1	1	1820	1820
+SUB231131	Atopic	CHBSC2	32554	60-Month Clinic Visit	1.2	complete	60	ss		1	11:50:00	1	1	1867	1867
+SUB231131	Atopic	CHBSC2	32561	81-Month Clinic Visit	1.2	complete	81	ot		1	12:10:00	1	1	2489	2489
+SUB231132	Atopic	CHBSC2	37651	81-Month Clinic Visit	1.2	complete	81	.d		1	12:10:00	1	1	2510	2510
+SUB231132	Atopic	CHBSC2	37644	60-Month Clinic Visit	1.2	complete	60	jd		1	11:25:00	1	1	1874	1874
+SUB231133	Atopic	CHBSC2	33750	60-Month Clinic Visit	1.2	complete	60	rb		1	09:50:00	1	1	1890	1890
+SUB231133	Atopic	CHBSC2	33757	81-Month Clinic Visit	1.2	complete	81	rg		1	14:45:00	1	1	2501	2501
+SUB231134	Atopic	CHBSC2	36214	60-Month Clinic Visit	1.2	complete	60	ym		1	10:42:00	1	1	1796	1796
+SUB231134	Atopic	CHBSC2	36221	81-Month Clinic Visit	1.2	complete	81	eg		1	12:06:00	1	1	2468	2468
+SUB231135	Atopic	CHBSC2	40227	81-Month Clinic Visit	1.2	complete	81	eg		1	12:14:00	1	1	2477	2477
+SUB231135	Atopic	CHBSC2	40220	60-Month Clinic Visit	1.2	complete	60	ym		1	10:52:00	1	1	1804	1804
+SUB231138	Atopic	CHBSC2	33705	60-Month Clinic Visit	1.2	complete	60	dh		1	10:50:00	1	1	1811	1811
+SUB231138	Atopic	CHBSC2	33712	81-Month Clinic Visit	1.2	complete	81	eg		1	12:37:00	1	1	2452	2452
+SUB231139	Atopic	CHBSC2	37102	81-Month Clinic Visit	1.2	complete	81	eg		1	11:31:00	1	1	2497	2497
+SUB231139	Atopic	CHBSC2	37095	60-Month Clinic Visit	1.2	complete	60	ab		1	10:15:00	1	1	1838	1838
+SUB231141	Atopic	CHBSC2	40388	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231141	Atopic	CHBSC2	40381	60-Month Clinic Visit	1.2	complete	60	jd		1	10:45:00	1	1	1837	1837
+SUB231141	Atopic	CHBSC2	40389	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231142	Atopic	CHBSC2	36331	60-Month Clinic Visit	1.2	complete	60	ab		1	10:00:00	1	1	1813	1813
+SUB231142	Atopic	CHBSC2	36338	81-Month Clinic Visit	1.2	complete	81	ha		1	12:30:00	1	1	2457	2457
+SUB231143	Non-atopic	CHBSC2	33007	60-Month Clinic Visit	1.2	complete	60	ss		1	12:12:00	1	1	1797	1797
+SUB231143	Non-atopic	CHBSC2	33014	81-Month Clinic Visit	1.2	complete	81	rb		1	13:28:00	1	1	2512	2512
+SUB231144	Atopic	CHBSC2	36189	81-Month Clinic Visit	1.2	complete	81	eg		1	12:16:00	1	1	2441	2438
+SUB231144	Atopic	CHBSC2	36182	60-Month Clinic Visit	1.2	complete	60	jd		1	09:08:00	1	1	1879	1879
+SUB231145	Non-atopic	CHBSC2	40658	60-Month Clinic Visit	1.2	complete	60	ss		1	10:44:00	1	1	1836	1836
+SUB231145	Non-atopic	CHBSC2	40665	81-Month Clinic Visit	1.2	complete	81	eg		1	13:30:00	1	1	2473	2473
+SUB231146	Atopic	CHBSC2	35655	60-Month Clinic Visit	1.2	complete	60	ab		1	11:05:00	1	1	1832	1832
+SUB231146	Atopic	CHBSC2	35662	81-Month Clinic Visit	1.2	complete	81	.m		1	12:50:00	1	1	2510	2510
+SUB231147	Non-atopic	CHBSC2	34542	60-Month Clinic Visit	1.2	complete	60	jd		1	09:20:00	1	1	1833	1833
+SUB231147	Non-atopic	CHBSC2	34549	81-Month Clinic Visit	1.2	complete	81	eg		1	13:10:00	1	1	2470	2470
+SUB231148	Atopic	CHBSC2	41614	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231149	Atopic	CHBSC2	36105	81-Month Clinic Visit	1.2	complete	81	ms		1	13:09:00	1	1	2502	2502
+SUB231149	Atopic	CHBSC2	36098	60-Month Clinic Visit	1.2	complete	60	.a		0				1867	
+SUB231149	Atopic	CHBSC2	36102	72-Month Clinic Visit	1.2	complete	72	.a		0				2209	
+SUB231150	Atopic	CHBSC2	41998	60-Month Clinic Visit	1.2	complete	60	ss		1	11:25:00	1	0	1874	1874
+SUB231150	Atopic	CHBSC2	42005	81-Month Clinic Visit	1.2	complete	81	km		1	12:50:00	1	1	2489	2124
+SUB231151	Non-atopic	CHBSC2	38775	81-Month Clinic Visit	1.2	complete	81	.m		1	12:20:00	1	1	2469	2469
+SUB231151	Non-atopic	CHBSC2	38768	60-Month Clinic Visit	1.2	complete	60	jd		1	08:45:00	1	1	1860	1860
+SUB231153	Non-atopic	CHBSC2	35429	81-Month Clinic Visit	1.2	complete	81	.m		1	12:20:00	1	1	2490	2490
+SUB231153	Non-atopic	CHBSC2	35422	60-Month Clinic Visit	1.2	complete	60	dh		1	09:25:00	1	1	1853	1853
+SUB231155	Atopic	CHBSC2	42533	84-Month Clinic Visit	1.2	complete	84	hb		1	13:47:00	1	1	2614	2614
+SUB231155	Atopic	CHBSC2	42525	60-Month Clinic Visit	1.2	complete	60	jd		1	15:40:00	1	1	1901	1901
+SUB231155	Atopic	CHBSC2	42532	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231156	Non-atopic	CHBSC2	44865	60-Month Clinic Visit	1.2	complete	60	jd		1	09:23:00	1	1	1842	1842
+SUB231156	Non-atopic	CHBSC2	44872	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231156	Non-atopic	CHBSC2	44873	84-Month Clinic Visit	1.2	complete	84	mo		1	12:33:00	1	1	2606	2606
+SUB231158	Non-atopic	CHBSC2	36135	60-Month Clinic Visit	1.2	complete	60	hd		1	13:05:00	1	1	1840	1840
+SUB231158	Non-atopic	CHBSC2	36143	84-Month Clinic Visit	1.2	complete	84	md		1	12:00:00	1	0	2567	2567
+SUB231158	Non-atopic	CHBSC2	36142	81-Month Clinic Visit	1.2	complete	81	.a		0				2511	
+SUB231159	Atopic	CHBSC2	36326	84-Month Clinic Visit	1.2	complete	84	eg		1	14:00:00	1	1	2608	2608
+SUB231159	Atopic	CHBSC2	36318	60-Month Clinic Visit	1.2	complete	60	bs		1	12:35:00	1	1	1842	1842
+SUB231159	Atopic	CHBSC2	36325	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231161	Atopic	CHBSC2	37983	84-Month Clinic Visit	1.2	complete	84	mo		1	15:08:00	1	1	2621	2621
+SUB231161	Atopic	CHBSC2	37982	81-Month Clinic Visit	1.2	complete	81	.a		0				2516	
+SUB231161	Atopic	CHBSC2	37975	60-Month Clinic Visit	1.2	complete	60	rb		1	11:25:00	1	1	1889	1889
+SUB231163	Atopic	CHBSC2	41254	81-Month Clinic Visit	1.2	complete	81	ha		1	13:15:00	1	1	2487	2487
+SUB231163	Atopic	CHBSC2	41247	60-Month Clinic Visit	1.2	complete	60	ab		1	09:05:00	1	1	1899	1899
+SUB231164	Atopic	CHBSC2	35701	60-Month Clinic Visit	1.2	complete	60	tb		1	11:15:00	1	1	1875	1875
+SUB231164	Atopic	CHBSC2	35708	81-Month Clinic Visit	1.2	complete	81	eg		1	11:40:00	1	1	2449	2449
+SUB231165	Atopic	CHBSC2	38217	60-Month Clinic Visit	1.2	complete	60	dk		1	13:15:00	1	1	1840	1840
+SUB231165	Atopic	CHBSC2	38224	81-Month Clinic Visit	1.2	complete	81	.a		1	12:30:00	1	1	2448	2448
+SUB231166	Atopic	CHBSC2	35015	84-Month Clinic Visit	1.2	complete	84	ks		1	11:45:00	1	1	2584	2584
+SUB231166	Atopic	CHBSC2	35014	81-Month Clinic Visit	1.2	complete	81	.a		0				2509	
+SUB231166	Atopic	CHBSC2	35007	60-Month Clinic Visit	1.2	complete	60	ss		1	13:03:00	1	1	1800	1800
+SUB231167	Atopic	CHBSC2	40200	60-Month Clinic Visit	1.2	complete	60	jd		1	09:30:00	1	1	1831	1831
+SUB231167	Atopic	CHBSC2	40207	81-Month Clinic Visit	1.2	complete	81	.a		0				2496	
+SUB231167	Atopic	CHBSC2	40208	84-Month Clinic Visit	1.2	complete	84	gs		1	12:10:00	1	1	2566	2566
+SUB231168	Atopic	CHBSC2	38747	81-Month Clinic Visit	1.2	complete	81	hb		1	11:40:00	1	1	2480	2480
+SUB231168	Atopic	CHBSC2	38740	60-Month Clinic Visit	1.2	complete	60	mb		1	11:25:00	1	1	1801	1801
+SUB231169	Non-atopic	CHBSC2	40752	60-Month Clinic Visit	1.2	complete	60	jd		1	09:35:00	1	1	1841	1841
+SUB231169	Non-atopic	CHBSC2	40759	81-Month Clinic Visit	1.2	complete	81	.a		0				2479	
+SUB231169	Non-atopic	CHBSC2	40760	84-Month Clinic Visit	1.2	complete	84	wm		1	11:34:00	1	1	2534	2534
+SUB231171	Non-atopic	CHBSC2	38759	81-Month Clinic Visit	1.2	complete	81	mo		1	12:39:00	1	1	2459	2459
+SUB231171	Non-atopic	CHBSC2	38752	60-Month Clinic Visit	1.2	complete	60	mn		1	12:50:00	1	1	1807	1807
+SUB231172	Non-atopic	CHBSC2	40047	81-Month Clinic Visit	1.2	complete	81	mj		1	12:12:00	1	1	2442	2442
+SUB231172	Non-atopic	CHBSC2	40040	60-Month Clinic Visit	1.2	complete	60	jd		1	09:21:00	1	1	1827	1827
+SUB231173	Atopic	CHBSC2	35434	60-Month Clinic Visit	1.0	complete	60	tb	97.1	1	13:13:00	1	1	1854	1854
+SUB231173	Atopic	CHBSC2	35441	81-Month Clinic Visit	1.2	complete	81	sd		1	14:15:00	1	1	2462	2462
+SUB231176	Atopic	CHBSC2	33272	60-Month Clinic Visit	1.0	complete	60	sd	98.2	1	13:15:00	1	1	1844	1844
+SUB231176	Atopic	CHBSC2	33279	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231177	Atopic	CHBSC2	36155	81-Month Clinic Visit	1.2	complete	81	sd		1	14:05:00	1	1	2462	2462
+SUB231177	Atopic	CHBSC2	36148	60-Month Clinic Visit	1.0	complete	60	sd	98	1	13:15:00	1	1	1827	1827
+SUB231178	Atopic	CHBSC2	32689	60-Month Clinic Visit	1.0	complete	60	sd	97.5	1	11:54:00	1	1	1846	1846
+SUB231178	Atopic	CHBSC2	32696	81-Month Clinic Visit	1.2	complete	81	sd		1	14:37:00	1	1	2456	2456
+SUB231179	Atopic	CHBSC2	33682	81-Month Clinic Visit	1.2	complete	81	sd		1	15:45:00	1	1	2444	2444
+SUB231179	Atopic	CHBSC2	33675	60-Month Clinic Visit	1.0	complete	60	sd	97.3	1	14:10:00	1	1	1883	1883
+SUB231180	Atopic	CHBSC2	33031	84-Month Clinic Visit	1.2	complete	84	sd		1	16:20:00	1	1	2561	2561
+SUB231180	Atopic	CHBSC2	33023	60-Month Clinic Visit	1.0	complete	60	sd	98.9	1	13:23:00	1	1	1840	1840
+SUB231180	Atopic	CHBSC2	33030	81-Month Clinic Visit	1.2	complete	81	sd		0				2458	
+SUB231182	Atopic	CHBSC2	37396	60-Month Clinic Visit	1.0	complete	60	sd	98.1	1	11:37:00	1	1	1811	1811
+SUB231182	Atopic	CHBSC2	37403	81-Month Clinic Visit	1.2	complete	81	mm		1	14:15:00	1	1	2440	2440
+SUB231183	Atopic	CHBSC2	30735	81-Month Clinic Visit	1.2	complete	81	sd		1	10:00:00	1	1	2443	2443
+SUB231183	Atopic	CHBSC2	30728	60-Month Clinic Visit	1.0	complete	60	sd	97.7	1	11:56:00	1	1	1808	1808
+SUB231184	Atopic	CHBSC2	31121	60-Month Clinic Visit	1.0	complete	60	sd	97.1	1	13:45:00	1	1	1795	1795
+SUB231184	Atopic	CHBSC2	31128	81-Month Clinic Visit	1.2	complete	81	sd		1	11:50:00	1	1	2491	2491
+SUB231185	Atopic	CHBSC2	34819	60-Month Clinic Visit	1.0	complete	60	sd	98.6	1	13:15:00	1	1	1824	1824
+SUB231185	Atopic	CHBSC2	34826	81-Month Clinic Visit	1.2	complete	81	sd		1	10:26:00	1	1	2440	2440
+SUB231186	Atopic	CHBSC2	31472	84-Month Clinic Visit	1.2	complete	84	sd		1	14:50:00	1	0	2531	2531
+SUB231186	Atopic	CHBSC2	31471	81-Month Clinic Visit	1.2	complete	81	dab		1	14:15:00	1	1	2448	2448
+SUB231186	Atopic	CHBSC2	31464	60-Month Clinic Visit	1.0	complete	60	sd	96.7	1	13:06:00	1	1	1811	1811
+SUB231187	Atopic	CHBSC2	37064	60-Month Clinic Visit	1.0	complete	60	sd	98.1	1	15:05:00	1	1	1807	1807
+SUB231187	Atopic	CHBSC2	37071	81-Month Clinic Visit	1.2	complete	81	sd		1	16:30:00	1	1	2438	2438
+SUB231188	Atopic	CHBSC2	32363	84-Month Clinic Visit	1.2	complete	84	sd		1	17:15:00	1	1	2529	2529
+SUB231188	Atopic	CHBSC2	32362	81-Month Clinic Visit	1.2	complete	81	jf		0				2452	
+SUB231188	Atopic	CHBSC2	32355	60-Month Clinic Visit	1.0	complete	60	sd	97.5	1	14:00:00	1	1	1802	1802
+SUB231189	Atopic	CHBSC2	32038	60-Month Clinic Visit	1.0	complete	60	sd	98.5	1	14:25:00	1	1	1804	1804
+SUB231189	Atopic	CHBSC2	32045	81-Month Clinic Visit	1.2	complete	81	sd		1	15:49:00	1	1	2477	2477
+SUB231190	Atopic	CHBSC2	34537	81-Month Clinic Visit	1.2	complete	81	sd		1	14:15:00	1	1	2421	2421
+SUB231190	Atopic	CHBSC2	34530	60-Month Clinic Visit	1.0	complete	60	jw	95.4	1	13:15:00	1	1	1819	1819
+SUB231191	Atopic	CHBSC2	33268	84-Month Clinic Visit	1.2	complete	84	wt		1	11:45:00	1	1	2527	2527
+SUB231191	Atopic	CHBSC2	33267	81-Month Clinic Visit	1.2	complete	81	sd		1	13:11:00	1	1	2450	2450
+SUB231191	Atopic	CHBSC2	33260	60-Month Clinic Visit	1.0	complete	60	jw	98.6	1	13:15:00	1	1	1801	1801
+SUB231192	Atopic	CHBSC2	37390	81-Month Clinic Visit	1.2	complete	81	sd		1	14:05:00	1	1	2459	2459
+SUB231192	Atopic	CHBSC2	37383	60-Month Clinic Visit	1.0	complete	60	jw	98.1	1	13:34:00	1	1	1809	1809
+SUB231194	Atopic	CHBSC2	32108	60-Month Clinic Visit	1.0	complete	60	jw		0				1815	
+SUB231194	Atopic	CHBSC2	32112	72-Month Clinic Visit	1.2	complete	72	sd		1	11:17:00	1	1	2180	2180
+SUB231194	Atopic	CHBSC2	32115	81-Month Clinic Visit	1.2	complete	81	sd		1	14:55:00	1	1	2440	2440
+SUB231195	Atopic	CHBSC2	42701	81-Month Clinic Visit	1.2	complete	81	sd		1	09:41:00	1	1	2441	2441
+SUB231195	Atopic	CHBSC2	42694	60-Month Clinic Visit	1.0	complete	60	jw		1	13:32:00	1	1	1799	1799
+SUB231196	Atopic	CHBSC2	34066	81-Month Clinic Visit	1.2	complete	81	sd		1	14:40:00	1	1	2437	2437
+SUB231196	Atopic	CHBSC2	34059	60-Month Clinic Visit	1.0	complete	60	ee		1	12:27:00	1	1	1797	1735
+SUB231198	Atopic	CHBSC2	39909	84-Month Clinic Visit	1.2	complete	84	sd		1	09:34:00	1	1	2545	2545
+SUB231198	Atopic	CHBSC2	39908	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231198	Atopic	CHBSC2	39901	60-Month Clinic Visit	1.1	complete	60	sd		1	13:45:00	1	1	1817	1817
+SUB231198	Atopic	CHBSC2	39905	72-Month Clinic Visit	1.2	complete	72	sd		1	13:58:00	0	1	2251	2251
+SUB231199	Atopic	CHBSC2	35776	81-Month Clinic Visit	1.2	complete	81	sd		1	11:47:00	1	1	2437	2437
+SUB231199	Atopic	CHBSC2	35769	60-Month Clinic Visit	1.1	complete	60	sd		1	11:09:00	1	1	1799	1799
+SUB231201	Atopic	CHBSC2	32723	81-Month Clinic Visit	1.2	complete	81	sd		1	10:55:00	1	1	2437	2437
+SUB231201	Atopic	CHBSC2	32716	60-Month Clinic Visit	1.1	complete	60	sd		1	13:42:00	1	1	1795	1795
+SUB231202	Atopic	CHBSC2	33510	60-Month Clinic Visit	1.1	complete	60	sd		1	15:03:00	1	1	1800	1800
+SUB231202	Atopic	CHBSC2	33517	81-Month Clinic Visit	1.2	complete	81	wt		1	14:45:00	1	1	2450	2450
+SUB231203	Atopic	CHBSC2	36201	81-Month Clinic Visit	1.2	complete	81	sd		1	14:07:00	1	1	2440	2440
+SUB231203	Atopic	CHBSC2	36194	60-Month Clinic Visit	1.1	complete	60	sd		1	10:50:00	1	1	1795	1795
+SUB231206	Atopic	CHBSC2	40082	81-Month Clinic Visit	1.2	complete	81	sd		1	13:40:00	1	1	2437	2437
+SUB231206	Atopic	CHBSC2	40075	60-Month Clinic Visit	1.1	complete	60	sd		1	14:35:00	1	1	1805	1805
+SUB231207	Atopic	CHBSC2	38111	60-Month Clinic Visit	1.1	complete	60	sd		1	13:23:00	1	1	1807	1807
+SUB231207	Atopic	CHBSC2	38118	81-Month Clinic Visit	1.2	complete	81	sd		1	10:20:00	1	1	2443	2443
+SUB231208	Atopic	CHBSC2	39540	60-Month Clinic Visit	1.1	complete	60	sd		1	11:45:00	1	1	1811	1811
+SUB231208	Atopic	CHBSC2	39547	81-Month Clinic Visit	1.2	complete	81	gg		1	11:15:00	1	1	2428	2428
+SUB231209	Atopic	CHBSC2	39366	60-Month Clinic Visit	1.1	complete	60	sd		1	12:23:00	1	1	1802	1802
+SUB231210	Atopic	CHBSC2	30844	60-Month Clinic Visit	1.1	complete	60	cb		1	13:23:00	1	1	1848	1848
+SUB231210	Atopic	CHBSC2	30851	81-Month Clinic Visit	1.2	complete	81	lc		1	09:50:00	1	1	2500	2500
+SUB231213	Atopic	CHBSC2	33803	60-Month Clinic Visit	1.1	complete	60	sd		1	13:18:00	1	1	1806	1806
+SUB231213	Atopic	CHBSC2	33810	81-Month Clinic Visit	1.2	complete	81	sd		1	11:20:00	1	1	2449	2449
+SUB231214	Atopic	CHBSC2	32450	81-Month Clinic Visit	1.2	complete	81	sd		1	15:50:00	1	1	2438	2438
+SUB231214	Atopic	CHBSC2	32443	60-Month Clinic Visit	1.1	complete	60	sd		1	11:40:00	1	1	1803	1803
+SUB231215	Atopic	CHBSC2	39344	60-Month Clinic Visit	1.2	complete	60	sd		1	11:50:00	1	1	1813	1813
+SUB231215	Atopic	CHBSC2	39351	81-Month Clinic Visit	1.2	complete	81	sd		1	14:30:00	1	1	2466	2466
+SUB231216	Atopic	CHBSC2	40000	81-Month Clinic Visit	1.2	complete	81	sd		1	10:32:00	1	1	2436	2436
+SUB231216	Atopic	CHBSC2	39993	60-Month Clinic Visit	1.2	complete	60	sd		1	11:45:00	1	1	1799	1799
+SUB231217	Atopic	CHBSC2	33200	60-Month Clinic Visit	1.2	complete	60	sd		1	14:15:00	1	1	1804	1804
+SUB231217	Atopic	CHBSC2	33207	81-Month Clinic Visit	1.2	complete	81	sd		1	16:10:00	1	1	2441	2441
+SUB231218	Atopic	CHBSC2	33853	60-Month Clinic Visit	1.2	complete	60	sd		1	13:35:00	1	1	1795	1795
+SUB231218	Atopic	CHBSC2	33860	81-Month Clinic Visit	1.2	complete	81	sd		1	11:36:00	1	1	2439	2439
+SUB231219	Atopic	CHBSC2	30866	81-Month Clinic Visit	1.2	complete	81	sd		1	11:30:00	1	1	2439	2439
+SUB231219	Atopic	CHBSC2	30859	60-Month Clinic Visit	1.2	complete	60	sd		1	13:25:00	1	1	1795	1795
+SUB231221	Atopic	CHBSC2	39935	60-Month Clinic Visit	1.2	complete	60	sd		1	23:58:00	1	1	1800	1800
+SUB231221	Atopic	CHBSC2	39942	81-Month Clinic Visit	1.2	complete	81	sd		1	12:09:00	1	1	2437	2437
+SUB231222	Atopic	CHBSC2	36890	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231222	Atopic	CHBSC2	36882	60-Month Clinic Visit	1.2	complete	60	sd		1	13:15:00	1	1	1812	1812
+SUB231222	Atopic	CHBSC2	36889	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231223	Atopic	CHBSC2	33865	60-Month Clinic Visit	1.2	complete	60	sd		1	14:10:00	1	1	1799	1799
+SUB231223	Atopic	CHBSC2	33872	81-Month Clinic Visit	1.2	complete	81	gg		1	11:17:00	1	1	2463	2463
+SUB231224	Atopic	CHBSC2	33897	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231224	Atopic	CHBSC2	33898	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231224	Atopic	CHBSC2	33890	60-Month Clinic Visit	1.2	complete	60	sd		1	10:49:00	1	1	1831	1831
+SUB231225	Atopic	CHBSC2	32710	81-Month Clinic Visit	1.2	complete	81	sd		1	15:18:00	1	1	2446	2446
+SUB231225	Atopic	CHBSC2	32703	60-Month Clinic Visit	1.2	complete	60	sd		1	13:31:00	1	1	1801	1801
+SUB231226	Atopic	CHBSC2	33823	81-Month Clinic Visit	1.2	complete	81	sd		1	13:57:00	1	1	2439	2439
+SUB231226	Atopic	CHBSC2	33816	60-Month Clinic Visit	1.2	complete	60	sd		1	15:40:00	1	1	1846	1846
+SUB231227	Atopic	CHBSC2	32952	60-Month Clinic Visit	1.2	complete	60	sd		1	13:55:00	1	1	1834	1834
+SUB231227	Atopic	CHBSC2	32959	81-Month Clinic Visit	1.2	complete	81	mm		1	14:45:00	1	1	2455	2455
+SUB231229	Atopic	CHBSC2	36843	81-Month Clinic Visit	1.2	complete	81	mm		1	16:00:00	1	1	2458	2458
+SUB231229	Atopic	CHBSC2	36836	60-Month Clinic Visit	1.2	complete	60	sd		1	11:05:00	1	1	1801	1801
+SUB231230	Atopic	CHBSC2	31299	81-Month Clinic Visit	1.2	complete	81	sd		1	10:05:00	1	1	2438	2438
+SUB231230	Atopic	CHBSC2	31292	60-Month Clinic Visit	1.2	complete	60	sd		1	11:47:00	1	1	1799	1799
+SUB231232	Atopic	CHBSC2	36855	81-Month Clinic Visit	1.2	complete	81	sd		1	09:34:00	1	1	2434	2434
+SUB231232	Atopic	CHBSC2	36848	60-Month Clinic Visit	1.2	complete	60	sd		1	11:10:00	1	1	1806	1806
+SUB231233	Atopic	CHBSC2	33921	81-Month Clinic Visit	1.2	complete	81	sd		1	11:21:00	1	1	2461	2461
+SUB231233	Atopic	CHBSC2	33914	60-Month Clinic Visit	1.2	complete	60	sd		1	13:11:00	1	1	1808	1808
+SUB231234	Atopic	CHBSC2	39434	60-Month Clinic Visit	1.2	complete	60	sd		1	12:10:00	1	1	1921	1921
+SUB231234	Atopic	CHBSC2	39441	81-Month Clinic Visit	1.2	complete	81	wt		1	11:00:00	1	1	2446	2446
+SUB231235	Atopic	CHBSC2	37935	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231235	Atopic	CHBSC2	37939	72-Month Clinic Visit	1.2	complete	72	sd		1	11:00:00	1	1	2206	2206
+SUB231235	Atopic	CHBSC2	37943	84-Month Clinic Visit	1.2	complete	84	sd		1	10:36:00	1	1	2650	2650
+SUB231235	Atopic	CHBSC2	37942	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231236	Atopic	CHBSC2	42165	81-Month Clinic Visit	1.2	complete	81	sd		1	09:17:00	1	1	2440	2440
+SUB231236	Atopic	CHBSC2	42158	60-Month Clinic Visit	1.2	complete	60	sd		1	11:22:00	1	1	1798	1798
+SUB231237	Atopic	CHBSC2	32972	81-Month Clinic Visit	1.2	complete	81	sd		1	15:04:00	1	1	2443	2443
+SUB231237	Atopic	CHBSC2	32965	60-Month Clinic Visit	1.2	complete	60	sd		1	13:57:00	1	1	1799	1799
+SUB231241	Atopic	CHBSC2	33828	60-Month Clinic Visit	1.2	complete	60	sd		1	12:05:00	1	1	1798	1798
+SUB231241	Atopic	CHBSC2	33835	81-Month Clinic Visit	1.2	complete	81	sd		1	09:54:00	1	1	2472	2472
+SUB231242	Atopic	CHBSC2	33992	81-Month Clinic Visit	1.2	complete	81	sd		1	10:25:00	1	1	2444	2444
+SUB231242	Atopic	CHBSC2	33985	60-Month Clinic Visit	1.2	complete	60	sd		1	13:19:00	1	1	1806	1806
+SUB231243	Atopic	CHBSC2	35605	81-Month Clinic Visit	1.2	complete	81	sd		1	11:36:00	1	1	2442	2442
+SUB231243	Atopic	CHBSC2	35598	60-Month Clinic Visit	1.2	complete	60	sd		1	15:15:00	1	1	1856	1856
+SUB231246	Atopic	CHBSC2	34954	81-Month Clinic Visit	1.2	complete	81	jp		1	11:55:00	1	1	2443	2443
+SUB231246	Atopic	CHBSC2	34947	60-Month Clinic Visit	1.2	complete	60	sd		1	15:45:00	1	1	1800	1800
+SUB231247	Atopic	CHBSC2	30982	81-Month Clinic Visit	1.2	complete	81	sd		1	09:35:00	1	1	2444	2444
+SUB231247	Atopic	CHBSC2	30975	60-Month Clinic Visit	1.2	complete	60	sd		1	13:15:00	1	1	1800	1800
+SUB231248	Atopic	CHBSC2	34019	81-Month Clinic Visit	1.2	complete	81	sd		1	09:35:00	1	1	2445	2445
+SUB231248	Atopic	CHBSC2	34012	60-Month Clinic Visit	1.2	complete	60	sd		1	11:45:00	1	1	1800	1800
+SUB231249	Atopic	CHBSC2	37446	60-Month Clinic Visit	1.2	complete	60	sm		1	12:12:00	1	1	1796	1796
+SUB231249	Atopic	CHBSC2	37453	81-Month Clinic Visit	1.2	complete	81	sd		1	09:49:00	1	1	2440	2440
+SUB231251	Atopic	CHBSC2	35691	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231251	Atopic	CHBSC2	35690	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231251	Atopic	CHBSC2	35683	60-Month Clinic Visit	1.2	complete	60	sd		1	12:05:00	1	1	1797	1797
+SUB231252	Atopic	CHBSC2	33776	81-Month Clinic Visit	1.2	complete	81	sd		1	13:50:00	1	1	2488	2488
+SUB231252	Atopic	CHBSC2	33769	60-Month Clinic Visit	1.2	complete	60	sd		1	11:05:00	1	1	1797	1797
+SUB231253	Atopic	CHBSC2	41179	81-Month Clinic Visit	1.2	complete	81	wt		1	10:45:00	1	1	2489	2489
+SUB231253	Atopic	CHBSC2	41172	60-Month Clinic Visit	1.2	complete	60	sd		1	11:58:00	1	1	1803	1803
+SUB231255	Atopic	CHBSC2	36824	60-Month Clinic Visit	1.2	complete	60	sd		1	14:40:00	1	1	1797	1797
+SUB231255	Atopic	CHBSC2	36831	81-Month Clinic Visit	1.2	complete	81	sd		1	14:58:00	1	1	2447	2447
+SUB231257	Atopic	CHBSC2	31617	81-Month Clinic Visit	1.2	complete	81	sd		1	14:13:00	1	1	2443	2443
+SUB231257	Atopic	CHBSC2	31610	60-Month Clinic Visit	1.2	complete	60	sd		1	10:40:00	1	1	1798	1798
+SUB231258	Atopic	CHBSC2	31859	60-Month Clinic Visit	1.2	complete	60	sd		1	14:45:00	1	1	1799	1799
+SUB231258	Atopic	CHBSC2	31866	81-Month Clinic Visit	1.2	complete	81	sd		1	10:07:00	1	1	2442	2442
+SUB231260	Atopic	CHBSC2	32569	60-Month Clinic Visit	1.2	complete	60	sd		1	11:45:00	1	1	1797	1797
+SUB231260	Atopic	CHBSC2	32576	81-Month Clinic Visit	1.2	complete	81	sd		1	10:14:00	1	1	2467	2467
+SUB231262	Atopic	CHBSC2	35556	60-Month Clinic Visit	1.2	complete	60	sd		1	14:30:00	1	1	1797	1797
+SUB231262	Atopic	CHBSC2	35563	81-Month Clinic Visit	1.2	complete	81	sd		1	09:48:00	1	1	2441	2441
+SUB231263	Atopic	CHBSC2	35137	60-Month Clinic Visit	1.2	complete	60	sd		1	11:25:00	1	1	1799	1799
+SUB231263	Atopic	CHBSC2	35144	81-Month Clinic Visit	1.2	complete	81	wt		1	13:49:00	1	1	2466	2466
+SUB231264	Atopic	CHBSC2	33962	60-Month Clinic Visit	1.2	complete	60	sd		1	16:50:00	1	1	1881	1881
+SUB231264	Atopic	CHBSC2	33970	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231264	Atopic	CHBSC2	33969	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231265	Atopic	CHBSC2	34563	60-Month Clinic Visit	1.2	complete	60	sd		1	15:47:00	1	1	1800	1800
+SUB231265	Atopic	CHBSC2	34570	81-Month Clinic Visit	1.2	complete	81	cc		1	10:50:00	1	1	2449	2449
+SUB231266	Atopic	CHBSC2	33950	60-Month Clinic Visit	1.2	complete	60	sd		1	16:30:00	1	1	1797	1797
+SUB231266	Atopic	CHBSC2	33957	81-Month Clinic Visit	1.2	complete	81	sd		1	11:44:00	1	1	2535	2535
+SUB231268	Atopic	CHBSC2	33536	60-Month Clinic Visit	1.2	complete	60	sd		1	14:34:00	1	1	1796	1796
+SUB231268	Atopic	CHBSC2	33543	81-Month Clinic Visit	1.2	complete	81	wt		1	11:52:00	1	1	2438	2438
+SUB231270	Atopic	CHBSC2	35305	81-Month Clinic Visit	1.2	complete	81	sd		1	09:27:00	1	1	2440	2440
+SUB231270	Atopic	CHBSC2	35298	60-Month Clinic Visit	1.2	complete	60	sd		1	10:54:00	1	1	1797	1797
+SUB231271	Atopic	CHBSC2	36089	81-Month Clinic Visit	1.2	complete	81	sd		1	13:19:00	1	1	2440	2440
+SUB231271	Atopic	CHBSC2	36082	60-Month Clinic Visit	1.2	complete	60	sd		1	11:22:00	1	1	1865	1865
+SUB231272	Atopic	CHBSC2	34320	60-Month Clinic Visit	1.2	complete	60	sd		1	15:15:00	1	1	1797	1797
+SUB231272	Atopic	CHBSC2	34327	81-Month Clinic Visit	1.2	complete	81	sd		1	10:30:00	1	1	2442	2442
+SUB231273	Atopic	CHBSC2	33938	60-Month Clinic Visit	1.2	complete	60	sd		1	11:25:00	1	1	1795	1795
+SUB231273	Atopic	CHBSC2	33945	81-Month Clinic Visit	1.2	complete	81	sd		1	13:36:00	1	1	2480	2480
+SUB231274	Atopic	CHBSC2	33736	81-Month Clinic Visit	1.2	complete	81	sd		1	14:25:00	1	1	2444	2444
+SUB231274	Atopic	CHBSC2	33729	60-Month Clinic Visit	1.2	complete	60	sd		1	14:42:00	1	1	1854	1854
+SUB231275	Atopic	CHBSC2	37021	60-Month Clinic Visit	1.2	complete	60	sd		1	14:55:00	1	1	1799	1799
+SUB231275	Atopic	CHBSC2	37028	81-Month Clinic Visit	1.2	complete	81	sd		1	13:20:00	1	1	2483	2483
+SUB231276	Atopic	CHBSC2	37637	81-Month Clinic Visit	1.2	complete	81	sd		1	14:02:00	1	1	2508	2508
+SUB231276	Atopic	CHBSC2	37630	60-Month Clinic Visit	1.2	complete	60	sd		1	10:30:00	1	1	1807	1807
+SUB231277	Non-atopic	CHBSC2	37594	81-Month Clinic Visit	1.2	complete	81	sd		1	10:45:00	1	1	2445	2445
+SUB231277	Non-atopic	CHBSC2	37587	60-Month Clinic Visit	1.2	complete	60	sd		1	11:08:00	1	1	1785	1785
+SUB231278	Non-atopic	CHBSC2	34389	81-Month Clinic Visit	1.2	complete	81	sd		1	15:30:00	1	1	2450	2450
+SUB231278	Non-atopic	CHBSC2	34382	60-Month Clinic Visit	1.2	complete	60	sd		1	16:27:00	1	1	1808	1808
+SUB231279	Atopic	CHBSC2	44445	60-Month Clinic Visit	1.2	complete	60	sd		1	11:26:00	1	1	1785	1785
+SUB231279	Atopic	CHBSC2	44452	81-Month Clinic Visit	1.2	complete	81	jp		1	10:52:00	1	1	2492	2492
+SUB231280	Non-atopic	CHBSC2	36275	81-Month Clinic Visit	1.2	complete	81	sd		1	11:13:00	1	1	2484	2484
+SUB231280	Non-atopic	CHBSC2	36268	60-Month Clinic Visit	1.2	complete	60	sd		1	11:50:00	1	1	1796	1796
+SUB231281	Atopic	CHBSC2	36868	81-Month Clinic Visit	1.2	complete	81	sd		1	14:57:00	1	1	2471	2471
+SUB231281	Atopic	CHBSC2	36861	60-Month Clinic Visit	1.2	complete	60	sd		1	13:25:00	1	1	1794	1794
+SUB231282	Atopic	CHBSC2	37323	81-Month Clinic Visit	1.2	complete	81	sd		1	10:15:00	1	1	2608	2608
+SUB231282	Atopic	CHBSC2	37320	72-Month Clinic Visit	1.2	complete	72	sd		1	13:15:00	0	1	2269	2269
+SUB231282	Atopic	CHBSC2	37316	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231283	Atopic	CHBSC2	35963	81-Month Clinic Visit	1.2	complete	81	sd		1	13:40:00	1	1	2505	2505
+SUB231283	Atopic	CHBSC2	35956	60-Month Clinic Visit	1.2	complete	60	sd		1	11:45:00	1	1	1796	1796
+SUB231284	Atopic	CHBSC2	35568	60-Month Clinic Visit	1.2	complete	60	sd		1	15:25:00	1	1	1799	1799
+SUB231284	Atopic	CHBSC2	35575	81-Month Clinic Visit	1.2	complete	81	sd		1	11:10:00	1	1	2457	2457
+SUB231285	Non-atopic	CHBSC2	35388	60-Month Clinic Visit	1.2	complete	60	sd		1	15:55:00	1	1	1806	1806
+SUB231285	Non-atopic	CHBSC2	35395	81-Month Clinic Visit	1.2	complete	81	sd		1	13:55:00	1	1	2438	2438
+SUB231286	Atopic	CHBSC2	37667	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231286	Atopic	CHBSC2	37664	72-Month Clinic Visit	1.2	complete	72	sd		0				2167	
+SUB231286	Atopic	CHBSC2	37660	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231286	Atopic	CHBSC2	37668	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231287	Non-atopic	CHBSC2	33933	81-Month Clinic Visit	1.2	complete	81	sd		1	10:28:00	1	1	2449	2449
+SUB231287	Non-atopic	CHBSC2	33926	60-Month Clinic Visit	1.2	complete	60	sd		1	14:20:00	1	1	1810	1810
+SUB231288	Atopic	CHBSC2	37960	60-Month Clinic Visit	1.2	complete	60	sd		1	13:58:00	1	1	1871	1871
+SUB231288	Atopic	CHBSC2	37967	81-Month Clinic Visit	1.2	complete	81	jp		1	10:05:00	1	1	2451	2451
+SUB231290	Atopic	CHBSC2	33909	81-Month Clinic Visit	1.2	complete	81	sd		1	10:05:00	1	1	2461	2461
+SUB231290	Atopic	CHBSC2	33902	60-Month Clinic Visit	1.2	complete	60	sd		1	13:35:00	1	1	1796	1796
+SUB231291	Atopic	CHBSC2	37562	60-Month Clinic Visit	1.2	complete	60	sd		1	16:08:00	1	1	1799	1799
+SUB231291	Atopic	CHBSC2	37569	81-Month Clinic Visit	1.2	complete	81	sd		1	13:55:00	1	1	2465	2465
+SUB231292	Atopic	CHBSC2	36256	60-Month Clinic Visit	1.2	complete	60	sd		1	16:10:00	1	1	1797	1797
+SUB231292	Atopic	CHBSC2	36263	81-Month Clinic Visit	1.2	complete	81	jp		1	13:14:00	1	1	2442	2442
+SUB231293	Atopic	CHBSC2	31178	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231293	Atopic	CHBSC2	31182	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231293	Atopic	CHBSC2	31185	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231294	Atopic	CHBSC2	31684	60-Month Clinic Visit	1.0	complete	60	tlc	97.8	1	09:40:00	1	1	1881	1881
+SUB231294	Atopic	CHBSC2	31691	81-Month Clinic Visit	1.2	complete	81	yk		1	10:43:00	1	1	2491	2491
+SUB231295	Atopic	CHBSC2	35024	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231295	Atopic	CHBSC2	35028	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231295	Atopic	CHBSC2	35031	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231295	Atopic	CHBSC2	35032	84-Month Clinic Visit	1.2	complete	84	tlc		1	09:15:00	1	1	2551	2551
+SUB231296	Atopic	CHBSC2	31753	60-Month Clinic Visit	1.0	complete	60	tlc	98.2	1	11:45:00	1	1	1842	1842
+SUB231296	Atopic	CHBSC2	31760	81-Month Clinic Visit	1.2	complete	81	rs		1	11:27:00	1	1	2457	2457
+SUB231297	Atopic	CHBSC2	37992	60-Month Clinic Visit	1.0	complete	60	tlc	96.9	1	09:55:00	1	1	1893	1893
+SUB231297	Atopic	CHBSC2	37999	81-Month Clinic Visit	1.2	complete	81	va		1	11:35:00	1	1	2475	2475
+SUB231299	Atopic	CHBSC2	32736	60-Month Clinic Visit	1.0	complete	60	va	98	1	10:35:00	1	1	1825	1825
+SUB231299	Atopic	CHBSC2	32743	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231299	Atopic	CHBSC2	32744	84-Month Clinic Visit	1.2	complete	84	va		1	11:20:00	1	1	2692	2692
+SUB231300	Atopic	CHBSC2	31013	60-Month Clinic Visit	1.0	complete	60	tlc	97	1	10:47:00	1	1	1861	1861
+SUB231300	Atopic	CHBSC2	31020	81-Month Clinic Visit	1.2	complete	81	yk		1	11:35:00	1	1	2450	2450
+SUB231302	Atopic	CHBSC2	34498	60-Month Clinic Visit	1.0	complete	60	tlc	97	1	10:05:00	1	1	1804	1804
+SUB231302	Atopic	CHBSC2	34505	81-Month Clinic Visit	1.2	complete	81	va		1	08:45:00	1	1	2443	2443
+SUB231304	Atopic	CHBSC2	35903	60-Month Clinic Visit	1.0	complete	60	va	97.8	1	09:07:00	1	1	1812	1812
+SUB231304	Atopic	CHBSC2	35910	81-Month Clinic Visit	1.2	complete	81	tlc		1	10:58:00	1	1	2458	2458
+SUB231305	Atopic	CHBSC2	34789	81-Month Clinic Visit	1.2	complete	81	tlc		1	11:45:00	1	1	2460	2460
+SUB231305	Atopic	CHBSC2	34786	72-Month Clinic Visit	1.2	complete	72	va		1	11:25:00	1	1	2250	2250
+SUB231305	Atopic	CHBSC2	34782	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231306	Atopic	CHBSC2	36313	81-Month Clinic Visit	1.2	complete	81	va		1	10:10:00	1	1	2494	2494
+SUB231306	Atopic	CHBSC2	36306	60-Month Clinic Visit	1.0	complete	60	va	97	1	09:50:00	1	1	1802	1802
+SUB231307	Atopic	CHBSC2	37329	60-Month Clinic Visit	1.0	complete	60	pa	97.6	1	08:45:00	1	1	1873	1873
+SUB231307	Atopic	CHBSC2	37336	81-Month Clinic Visit	1.2	complete	81	yk		1	08:07:00	1	1	2510	2510
+SUB231308	Atopic	CHBSC2	38408	72-Month Clinic Visit	1.2	complete	72	va		1	13:07:00	1	1	2250	2250
+SUB231308	Atopic	CHBSC2	38411	81-Month Clinic Visit	1.2	complete	81	va		1	11:18:00	1	1	2475	2475
+SUB231308	Atopic	CHBSC2	38404	60-Month Clinic Visit	1.0	complete	60	pa	97.3	1	08:30:00	1	1	1843	1843
+SUB231309	Atopic	CHBSC2	35807	60-Month Clinic Visit	1.0	complete	60	tlc	98.2	1	10:05:00	1	1	1865	1865
+SUB231309	Atopic	CHBSC2	35814	81-Month Clinic Visit	1.2	complete	81	yk		1	11:00:00	1	1	2488	2488
+SUB231310	Atopic	CHBSC2	35938	81-Month Clinic Visit	1.2	complete	81	va		1	00:28:00	1	1	2487	2487
+SUB231310	Atopic	CHBSC2	35931	60-Month Clinic Visit	1.0	complete	60	tlc	97.8	1	10:05:00	1	1	1850	1850
+SUB231313	Atopic	CHBSC2	33657	81-Month Clinic Visit	1.2	complete	81	va		1	12:05:00	1	1	2507	2507
+SUB231313	Atopic	CHBSC2	33650	60-Month Clinic Visit	1.0	complete	60	tlc	98.2	1	10:25:00	1	1	1826	1826
+SUB231314	Atopic	CHBSC2	35898	81-Month Clinic Visit	1.2	complete	81	rs		1	11:05:00	1	1	2516	2516
+SUB231314	Atopic	CHBSC2	35891	60-Month Clinic Visit	1.0	complete	60	pa	97.2	1	10:00:00	1	1	1850	1850
+SUB231316	Atopic	CHBSC2	36436	60-Month Clinic Visit	1.0	complete	60	pa	97.8	1	08:27:00	1	1	1846	1846
+SUB231316	Atopic	CHBSC2	36443	81-Month Clinic Visit	1.2	complete	81	va		1	11:53:00	1	1	2504	2504
+SUB231316	Atopic	CHBSC2	36440	72-Month Clinic Visit	1.2	complete	72	va		1	15:30:00	1	1	2223	2223
+SUB231318	Atopic	CHBSC2	33613	60-Month Clinic Visit	1.0	complete	60	pa	98.8	1	07:35:00	1	1	1876	1876
+SUB231318	Atopic	CHBSC2	33620	81-Month Clinic Visit	1.2	complete	81	tlc		1	12:10:00	1	1	2472	2472
+SUB231319	Atopic	CHBSC2	35113	81-Month Clinic Visit	1.2	complete	81	yk		1	12:00:00	1	1	2489	2489
+SUB231319	Atopic	CHBSC2	35106	60-Month Clinic Visit	1.0	complete	60	va	98.2	1	16:40:00	1	1	1889	1889
+SUB231320	Atopic	CHBSC2	39488	60-Month Clinic Visit	1.0	complete	60	pa		1	08:25:00	1	1	1890	1890
+SUB231320	Atopic	CHBSC2	39495	81-Month Clinic Visit	1.2	complete	81	tlc		1	12:50:00	1	1	2521	2521
+SUB231321	Atopic	CHBSC2	36585	60-Month Clinic Visit	1.0	complete	60	va	98	1	10:15:00	1	1	1847	1847
+SUB231321	Atopic	CHBSC2	36592	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231323	Atopic	CHBSC2	35178	60-Month Clinic Visit	1.0	complete	60	pa		1	10:24:00	1	1	1875	1875
+SUB231323	Atopic	CHBSC2	35185	81-Month Clinic Visit	1.2	complete	81	lkb		1	12:45:00	1	1	2511	2511
+SUB231324	Atopic	CHBSC2	39182	60-Month Clinic Visit	1.0	complete	60	pa	99.8	1	08:45:00	1	1	1832	1832
+SUB231324	Atopic	CHBSC2	39190	84-Month Clinic Visit	1.2	complete	84	yk		1	11:35:00	1	1	2644	2644
+SUB231324	Atopic	CHBSC2	39189	81-Month Clinic Visit	1.2	complete	81	.a		0				2495	
+SUB231325	Atopic	CHBSC2	35506	60-Month Clinic Visit	1.0	complete	60	tlc	97.2	1	11:20:00	1	1	1796	1796
+SUB231325	Atopic	CHBSC2	35513	81-Month Clinic Visit	1.2	complete	81	yk		1	12:20:00	1	1	2516	2516
+SUB231326	Atopic	CHBSC2	34970	84-Month Clinic Visit	1.2	complete	84	re		1	12:04:00	1	1	2582	2582
+SUB231326	Atopic	CHBSC2	34969	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231326	Atopic	CHBSC2	34962	60-Month Clinic Visit	1.0	complete	60	pa		1	08:20:00	1	1	1862	1862
+SUB231327	Atopic	CHBSC2	34839	81-Month Clinic Visit	1.2	complete	81	tlc		1	12:35:00	1	1	2468	2468
+SUB231327	Atopic	CHBSC2	34832	60-Month Clinic Visit	1.0	complete	60	yk	97	1	12:15:00	1	1	1811	1811
+SUB231328	Atopic	CHBSC2	35619	81-Month Clinic Visit	1.2	complete	81	ij		1	13:00:00	1	1	2513	2513
+SUB231328	Atopic	CHBSC2	35612	60-Month Clinic Visit	1.1	complete	60	va		1	09:50:00	1	1	1870	1870
+SUB231329	Atopic	CHBSC2	40895	60-Month Clinic Visit	1.0	complete	60	yk		1	09:11:00	1	1	1830	1830
+SUB231329	Atopic	CHBSC2	40902	81-Month Clinic Visit	1.2	complete	81	amm		1	13:30:00	1	1	2494	2494
+SUB231329	Atopic	CHBSC2	40903	84-Month Clinic Visit	1.2	complete	84	va		1	09:39:00	1	1	2711	2711
+SUB231330	Atopic	CHBSC2	38861	81-Month Clinic Visit	1.2	complete	81	yk		1	12:05:00	1	1	2510	2510
+SUB231330	Atopic	CHBSC2	38854	60-Month Clinic Visit	1.0	complete	60	pa	97.8	1	09:40:00	1	1	1802	1802
+SUB231332	Atopic	CHBSC2	39241	81-Month Clinic Visit	1.2	complete	81	amm		1	13:00:00	1	1	2507	2507
+SUB231332	Atopic	CHBSC2	39238	72-Month Clinic Visit	1.2	complete	72	rs		1	15:45:00	1	1	2177	2177
+SUB231332	Atopic	CHBSC2	39234	60-Month Clinic Visit	1.1	missing	.x	.x							
+SUB231333	Atopic	CHBSC2	35631	81-Month Clinic Visit	1.2	complete	81	re		1	15:28:00	1	1	2502	2502
+SUB231333	Atopic	CHBSC2	35624	60-Month Clinic Visit	1.1	complete	60	pa		1	10:30:00	1	1	1878	1878
+SUB231334	Atopic	CHBSC2	39277	60-Month Clinic Visit	1.0	complete	60	tw		1	12:10:00	1	1	1822	1822
+SUB231334	Atopic	CHBSC2	39284	81-Month Clinic Visit	1.2	complete	81	mph		1	14:47:00	1	1	2520	2520
+SUB231336	Atopic	CHBSC2	35525	72-Month Clinic Visit	1.2	complete	72	rs		1	11:12:00	1	1	2252	2252
+SUB231336	Atopic	CHBSC2	35528	81-Month Clinic Visit	1.2	complete	81	ch		1	12:12:00	1	1	2511	2511
+SUB231336	Atopic	CHBSC2	35521	60-Month Clinic Visit	1.0	complete	60	tlc		1	12:20:00	1	1	1832	1832
+SUB231338	Atopic	CHBSC2	35161	81-Month Clinic Visit	1.2	complete	81	mh		1	12:09:00	1	1	2439	2439
+SUB231338	Atopic	CHBSC2	35154	60-Month Clinic Visit	1.0	complete	60	pa		1	08:00:00	1	1	1794	1794
+SUB231339	Atopic	CHBSC2	39201	81-Month Clinic Visit	1.2	complete	81	mh		1	11:40:00	1	1	2473	2473
+SUB231339	Atopic	CHBSC2	39194	60-Month Clinic Visit	1.0	complete	60	gt		1	09:15:00	1	0	1802	1802
+SUB231341	Atopic	CHBSC2	37681	60-Month Clinic Visit	1.1	complete	60	va		1	09:05:00	1	1	1848	1848
+SUB231341	Atopic	CHBSC2	37688	81-Month Clinic Visit	1.2	complete	81	va		1	11:35:00	1	1	2491	2491
+SUB231342	Atopic	CHBSC2	38170	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231342	Atopic	CHBSC2	38171	84-Month Clinic Visit	1.2	complete	84	ss		1	11:50:00	1	1	2552	2552
+SUB231342	Atopic	CHBSC2	38163	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231342	Atopic	CHBSC2	38167	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231343	Atopic	CHBSC2	39213	81-Month Clinic Visit	1.2	complete	81	va		1	14:10:00	1	1	2495	2495
+SUB231343	Atopic	CHBSC2	39206	60-Month Clinic Visit	1.1	complete	60	va		1	11:20:00	1	1	1838	1838
+SUB231345	Atopic	CHBSC2	39893	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231345	Atopic	CHBSC2	39894	84-Month Clinic Visit	1.2	complete	84	tlc		1	11:25:00	1	1	2637	2637
+SUB231345	Atopic	CHBSC2	39886	60-Month Clinic Visit	1.1	complete	60	va		1	09:10:00	1	1	1833	1833
+SUB231346	Atopic	CHBSC2	38246	84-Month Clinic Visit	1.2	complete	84	ss		1	11:50:00	1	1	2646	2646
+SUB231346	Atopic	CHBSC2	38245	81-Month Clinic Visit	1.2	complete	81	ss		1	10:34:00	1	1	2522	2522
+SUB231346	Atopic	CHBSC2	38238	60-Month Clinic Visit	1.1	complete	60	pa		1	10:50:00	1	1	1848	1838
+SUB231347	Atopic	CHBSC2	34160	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231347	Atopic	CHBSC2	34164	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231347	Atopic	CHBSC2	34167	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231347	Atopic	CHBSC2	34168	84-Month Clinic Visit	1.2	complete	84	re		1	12:10:00	1	1	2741	2741
+SUB231352	Atopic	CHBSC2	32198	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231352	Atopic	CHBSC2	32205	81-Month Clinic Visit	1.2	complete	81	ss		1	12:09:00	1	1	2498	2498
+SUB231352	Atopic	CHBSC2	32202	72-Month Clinic Visit	1.2	complete	72	rs		1	14:45:00	1	1	2273	2273
+SUB231353	Atopic	CHBSC2	31005	81-Month Clinic Visit	1.2	complete	81	yk		1	12:44:00	1	1	2505	2505
+SUB231353	Atopic	CHBSC2	30998	60-Month Clinic Visit	1.2	complete	60	va		1	10:05:00	1	1	1909	1909
+SUB231355	Atopic	CHBSC2	44938	81-Month Clinic Visit	1.2	complete	81	ss		1	11:40:00	1	1	2509	2509
+SUB231355	Atopic	CHBSC2	44931	60-Month Clinic Visit	1.2	complete	60	va		1	08:40:00	1	1	1879	1879
+SUB231356	Atopic	CHBSC2	30813	60-Month Clinic Visit	1.1	complete	60	va		1	10:23:00	1	1	1854	1854
+SUB231356	Atopic	CHBSC2	30820	81-Month Clinic Visit	1.2	complete	81	va		1	09:15:00	1	1	2504	2504
+SUB231357	Atopic	CHBSC2	41016	60-Month Clinic Visit	1.1	complete	60	pa		1	09:45:00	1	1	1832	1832
+SUB231357	Atopic	CHBSC2	41024	84-Month Clinic Visit	1.2	complete	84	ss		1	14:45:00	1	1	2526	2526
+SUB231357	Atopic	CHBSC2	41023	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231359	Atopic	CHBSC2	40850	81-Month Clinic Visit	1.2	complete	81	ch		1	12:50:00	1	1	2503	2503
+SUB231359	Atopic	CHBSC2	40843	60-Month Clinic Visit	1.1	complete	60	yk		1	09:35:00	1	1	1851	1851
+SUB231359	Atopic	CHBSC2	40847	72-Month Clinic Visit	1.2	complete	72	.a		0				2251	
+SUB231360	Atopic	CHBSC2	31647	60-Month Clinic Visit	1.1	complete	60	pa		1	09:34:00	1	1	1830	1830
+SUB231360	Atopic	CHBSC2	31654	81-Month Clinic Visit	1.2	complete	81	va		1	08:27:00	1	1	2510	2510
+SUB231363	Atopic	CHBSC2	31078	60-Month Clinic Visit	1.1	complete	60	pa		1	08:55:00	1	1	1826	1826
+SUB231363	Atopic	CHBSC2	31085	81-Month Clinic Visit	1.2	complete	81	vw		1	11:35:00	1	1	2511	2511
+SUB231365	Atopic	CHBSC2	34177	60-Month Clinic Visit	1.2	complete	60	.m		0				1872	
+SUB231365	Atopic	CHBSC2	34184	81-Month Clinic Visit	1.2	complete	81	tlc		1	08:30:00	1	1	2500	2500
+SUB231365	Atopic	CHBSC2	34181	72-Month Clinic Visit	1.2	complete	72	tlc		1	10:58:00	1	1	2227	2227
+SUB231366	Atopic	CHBSC2	39225	81-Month Clinic Visit	1.2	complete	81	va		1	11:10:00	1	1	2448	2448
+SUB231366	Atopic	CHBSC2	39218	60-Month Clinic Visit	1.1	complete	60	va		1	09:00:00	1	1	1804	1804
+SUB231367	Atopic	CHBSC2	32025	72-Month Clinic Visit	1.2	complete	72	tlc		1	11:12:00	1	1	2282	2282
+SUB231367	Atopic	CHBSC2	32028	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231367	Atopic	CHBSC2	32021	60-Month Clinic Visit	1.2	complete	60	tlc		0				1882	
+SUB231368	Atopic	CHBSC2	37904	81-Month Clinic Visit	1.2	complete	81	yk		1	12:27:00	1	1	2483	2483
+SUB231368	Atopic	CHBSC2	37897	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231368	Atopic	CHBSC2	37901	72-Month Clinic Visit	1.2	complete	72	rs		1	11:57:00	1	1	2260	2260
+SUB231369	Atopic	CHBSC2	31724	72-Month Clinic Visit	1.2	complete	72	.a		0				2212	
+SUB231369	Atopic	CHBSC2	31720	60-Month Clinic Visit	1.2	complete	60	.m		0				1879	
+SUB231369	Atopic	CHBSC2	31727	81-Month Clinic Visit	1.2	complete	81	va		1	12:20:00	1	1	2513	2513
+SUB231372	Atopic	CHBSC2	32411	60-Month Clinic Visit	1.2	complete	60	yk		1	09:35:00	1	1	1865	1865
+SUB231372	Atopic	CHBSC2	32418	81-Month Clinic Visit	1.2	complete	81	va		1	10:54:00	1	1	2488	2488
+SUB231373	Atopic	CHBSC2	32297	81-Month Clinic Visit	1.2	complete	81	ss		1	11:38:00	1	1	2474	2474
+SUB231373	Atopic	CHBSC2	32290	60-Month Clinic Visit	1.2	complete	60	amm		1	12:35:00	1	1	1913	1913
+SUB231374	Atopic	CHBSC2	40064	81-Month Clinic Visit	1.2	complete	81	va		1	12:44:00	1	1	2441	2441
+SUB231374	Atopic	CHBSC2	40057	60-Month Clinic Visit	1.1	complete	60	tlc		1	11:45:00	1	1	1784	1784
+SUB231376	Atopic	CHBSC2	33251	81-Month Clinic Visit	1.2	complete	81	tlc		1	11:20:00	1	1	2444	2444
+SUB231376	Atopic	CHBSC2	33244	60-Month Clinic Visit	1.2	complete	60	tlc		1	12:05:00	1	1	1833	1833
+SUB231377	Atopic	CHBSC2	34990	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231377	Atopic	CHBSC2	34998	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231377	Atopic	CHBSC2	34997	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231377	Atopic	CHBSC2	34994	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231378	Atopic	CHBSC2	34634	81-Month Clinic Visit	1.2	complete	81	yk		1	12:40:00	1	1	2493	2493
+SUB231378	Atopic	CHBSC2	34627	60-Month Clinic Visit	1.2	complete	60	tlc		1	11:55:00	1	1	1912	1912
+SUB231379	Atopic	CHBSC2	34694	81-Month Clinic Visit	1.2	complete	81	yk		1	12:35:00	1	1	2471	2471
+SUB231379	Atopic	CHBSC2	34687	60-Month Clinic Visit	1.2	complete	60	tlc		1	13:10:00	1	1	1857	1857
+SUB231380	Atopic	CHBSC2	38448	81-Month Clinic Visit	1.2	complete	81	va		1	13:46:00	1	1	2507	2507
+SUB231380	Atopic	CHBSC2	38441	60-Month Clinic Visit	1.2	complete	60	tlc		1	12:15:00	1	1	1903	1903
+SUB231381	Atopic	CHBSC2	32534	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231381	Atopic	CHBSC2	32535	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231381	Atopic	CHBSC2	32527	60-Month Clinic Visit	1.2	complete	60	va		1	11:25:00	1	1	1895	1895
+SUB231382	Atopic	CHBSC2	44970	81-Month Clinic Visit	1.2	complete	81	va		1	10:48:00	1	1	2472	2472
+SUB231382	Atopic	CHBSC2	44963	60-Month Clinic Visit	1.2	complete	60	va		1	10:25:00	1	1	1795	1795
+SUB231383	Atopic	CHBSC2	50457	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231383	Atopic	CHBSC2	50450	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231383	Atopic	CHBSC2	50458	84-Month Clinic Visit	1.2	complete	84	va		1	13:10:00	1	1	2371	2371
+SUB231383	Atopic	CHBSC2	50454	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231384	Atopic	CHBSC2	39254	60-Month Clinic Visit	1.2	complete	60	am		1	11:48:00	1	1	1909	1909
+SUB231384	Atopic	CHBSC2	39261	81-Month Clinic Visit	1.2	complete	81	tlc		1	13:30:00	1	1	2449	2449
+SUB231387	Atopic	CHBSC2	39388	60-Month Clinic Visit	1.2	complete	60	va		1	09:30:00	1	1	1825	1825
+SUB231387	Atopic	CHBSC2	39395	81-Month Clinic Visit	1.2	complete	81	yk		1	09:20:00	0	1	2477	2477
+SUB231387	Atopic	CHBSC2	39396	84-Month Clinic Visit	1.2	complete	84	yk		1	11:00:00	1	1	2561	2561
+SUB231388	Atopic	CHBSC2	32609	60-Month Clinic Visit	1.2	complete	60	va		1	09:20:00	1	1	1893	1893
+SUB231388	Atopic	CHBSC2	32616	81-Month Clinic Visit	1.2	complete	81	tlc		1	10:35:00	1	1	2473	2473
+SUB231389	Atopic	CHBSC2	32312	81-Month Clinic Visit	1.2	complete	81	va		1	12:32:00	1	1	2515	2515
+SUB231389	Atopic	CHBSC2	32309	72-Month Clinic Visit	1.2	complete	72	va		1	15:41:00	1	1	2206	2206
+SUB231389	Atopic	CHBSC2	32305	60-Month Clinic Visit	1.2	complete	60	rs		0				1899	
+SUB231390	Atopic	CHBSC2	32177	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231390	Atopic	CHBSC2	32174	72-Month Clinic Visit	1.2	complete	72	yk		1	12:35:00	1	1	2289	2289
+SUB231390	Atopic	CHBSC2	32178	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231390	Atopic	CHBSC2	32170	60-Month Clinic Visit	1.2	complete	60	.a		0				1921	
+SUB231391	Atopic	CHBSC2	31567	60-Month Clinic Visit	1.2	complete	60	va		1	13:15:00	1	1	1825	1825
+SUB231391	Atopic	CHBSC2	31574	81-Month Clinic Visit	1.2	complete	81	va		1	11:15:00	1	1	2506	2506
+SUB231392	Atopic	CHBSC2	33406	60-Month Clinic Visit	1.2	complete	60	ch		1	10:40:00	1	1	1884	1884
+SUB231392	Atopic	CHBSC2	33413	81-Month Clinic Visit	1.2	complete	81	tlc		1	11:30:00	1	1	2494	2494
+SUB231393	Atopic	CHBSC2	44481	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231393	Atopic	CHBSC2	44482	84-Month Clinic Visit	1.2	complete	84	tlc		1	12:42:00	1	1	2589	2589
+SUB231393	Atopic	CHBSC2	44474	60-Month Clinic Visit	1.2	complete	60	va		1	11:20:00	1	1	1918	1918
+SUB231394	Atopic	CHBSC2	34414	60-Month Clinic Visit	1.2	complete	60	tlc		1	12:00:00	1	1	1908	1908
+SUB231394	Atopic	CHBSC2	34421	81-Month Clinic Visit	1.2	complete	81	va		1	12:52:00	1	1	2504	2504
+SUB231395	Atopic	CHBSC2	32009	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:40:00	1	1	1862	1862
+SUB231395	Atopic	CHBSC2	32016	81-Month Clinic Visit	1.2	complete	81	yk		1	09:00:00	1	1	2478	2478
+SUB231396	Atopic	CHBSC2	31520	60-Month Clinic Visit	1.2	complete	60	tlc		1	12:25:00	1	1	1911	1911
+SUB231396	Atopic	CHBSC2	31527	81-Month Clinic Visit	1.2	complete	81	va		1	13:58:00	1	1	2487	2487
+SUB231397	Atopic	CHBSC2	34579	72-Month Clinic Visit	1.2	complete	72	re		1	14:40:00	1	1	2251	2251
+SUB231397	Atopic	CHBSC2	34582	81-Month Clinic Visit	1.2	complete	81	tlc		1	11:10:00	1	1	2482	2482
+SUB231397	Atopic	CHBSC2	34575	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231398	Atopic	CHBSC2	34588	60-Month Clinic Visit	1.2	complete	60	tlc		1	11:20:00	1	1	1887	1887
+SUB231398	Atopic	CHBSC2	34595	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231398	Atopic	CHBSC2	34596	84-Month Clinic Visit	1.2	complete	84	ch		1	08:45:00	1	1	2574	2574
+SUB231400	Atopic	CHBSC2	35543	60-Month Clinic Visit	1.2	complete	60	rs		1	15:05:00	1	1	1903	1903
+SUB231400	Atopic	CHBSC2	35550	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231401	Atopic	CHBSC2	30916	60-Month Clinic Visit	1.2	complete	60	yk		1	12:20:00	1	1	1899	1899
+SUB231401	Atopic	CHBSC2	30923	81-Month Clinic Visit	1.2	complete	81	yk		1	14:54:00	1	1	2500	2500
+SUB231402	Atopic	CHBSC2	34900	81-Month Clinic Visit	1.2	complete	81	ss		1	11:00:00	1	1	2513	2513
+SUB231402	Atopic	CHBSC2	34893	60-Month Clinic Visit	1.2	complete	60	va		1	11:35:00	1	1	1897	1897
+SUB231403	Atopic	CHBSC2	30835	81-Month Clinic Visit	1.2	complete	81	va		1	11:15:00	1	1	2503	2503
+SUB231403	Atopic	CHBSC2	30828	60-Month Clinic Visit	1.2	complete	60	va		1	15:10:00	1	1	1879	1879
+SUB231404	Atopic	CHBSC2	39866	60-Month Clinic Visit	1.2	complete	60	va		1	14:35:00	1	1	1893	1893
+SUB231404	Atopic	CHBSC2	39873	81-Month Clinic Visit	1.2	complete	81	yk		1	09:00:00	1	1	2489	2489
+SUB231405	Atopic	CHBSC2	32463	60-Month Clinic Visit	1.2	complete	60	va		1	15:45:00	1	1	1874	1874
+SUB231405	Atopic	CHBSC2	32470	81-Month Clinic Visit	1.2	complete	81	la		1	11:25:00	1	1	2504	2504
+SUB231406	Atopic	CHBSC2	33379	81-Month Clinic Visit	1.2	complete	81	tlc		1	12:15:00	1	1	2451	2451
+SUB231406	Atopic	CHBSC2	33372	60-Month Clinic Visit	1.2	complete	60	va		1	13:50:00	1	1	1896	1896
+SUB231409	Atopic	CHBSC2	59031	84-Month Clinic Visit	1.2	complete	84	ss		1	17:55:00	1	1	2663	2663
+SUB231409	Atopic	CHBSC2	41782	60-Month Clinic Visit	1.0	missing	.x	.x							
+SUB231409	Atopic	CHBSC2	59030	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231410	Atopic	CHBSC2	31981	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231410	Atopic	CHBSC2	31974	60-Month Clinic Visit	1.2	complete	60	va		1	11:22:00	1	1	1870	1870
+SUB231410	Atopic	CHBSC2	31982	84-Month Clinic Visit	1.2	complete	84	ss		1	12:05:00	1	1	2556	2556
+SUB231411	Atopic	CHBSC2	37469	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:55:00	0	1	1880	1880
+SUB231411	Atopic	CHBSC2	37473	72-Month Clinic Visit	1.2	complete	72	.a		0				2243	
+SUB231411	Atopic	CHBSC2	37476	81-Month Clinic Visit	1.2	complete	81	va		1	13:25:00	1	1	2504	2504
+SUB231412	Atopic	CHBSC2	30751	81-Month Clinic Visit	1.2	complete	81	va		1	13:38:00	1	1	2492	2492
+SUB231412	Atopic	CHBSC2	30744	60-Month Clinic Visit	1.2	complete	60	yk		1	12:10:00	1	1	1862	1862
+SUB231413	Atopic	CHBSC2	31405	81-Month Clinic Visit	1.2	complete	81	yk		1	12:30:00	1	1	2471	2471
+SUB231413	Atopic	CHBSC2	31398	60-Month Clinic Visit	1.2	complete	60	rs		1	13:24:00	1	1	1867	1867
+SUB231414	Atopic	CHBSC2	31995	84-Month Clinic Visit	1.2	complete	84	va		1	08:32:00	1	1	2540	2540
+SUB231414	Atopic	CHBSC2	31987	60-Month Clinic Visit	1.2	complete	60	rs		1	11:10:00	1	1	1853	1853
+SUB231414	Atopic	CHBSC2	31994	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231415	Non-atopic	CHBSC2	31350	81-Month Clinic Visit	1.2	complete	81	yk		1	13:05:00	1	1	2475	2475
+SUB231415	Non-atopic	CHBSC2	31343	60-Month Clinic Visit	1.2	complete	60	va		1	15:10:00	1	1	1870	1870
+SUB231417	Atopic	CHBSC2	35281	81-Month Clinic Visit	1.2	complete	81	va		1	10:40:00	1	1	2476	2476
+SUB231417	Atopic	CHBSC2	35274	60-Month Clinic Visit	1.2	complete	60	amm		1	11:10:00	1	1	1853	1853
+SUB231418	Atopic	CHBSC2	31592	60-Month Clinic Visit	1.2	complete	60	rs		1	13:35:00	1	1	1867	1867
+SUB231418	Atopic	CHBSC2	31599	81-Month Clinic Visit	1.2	complete	81	yk		1	12:05:00	1	1	2455	2455
+SUB231419	Atopic	CHBSC2	33470	84-Month Clinic Visit	1.2	complete	84	ss		1	13:20:00	1	1	2583	2583
+SUB231419	Atopic	CHBSC2	33462	60-Month Clinic Visit	1.2	complete	60	yk		1	08:30:00	1	1	1877	1877
+SUB231419	Atopic	CHBSC2	33469	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231420	Atopic	CHBSC2	31779	84-Month Clinic Visit	1.2	complete	84	va		1	10:23:00	1	1	2627	2627
+SUB231420	Atopic	CHBSC2	31778	81-Month Clinic Visit	1.2	complete	81	tlc		0				2468	
+SUB231420	Atopic	CHBSC2	31771	60-Month Clinic Visit	1.2	complete	60	va		1	09:43:00	1	1	1872	1872
+SUB231421	Atopic	CHBSC2	34288	60-Month Clinic Visit	1.2	complete	60	va		1	11:10:00	1	1	1875	1875
+SUB231421	Atopic	CHBSC2	34295	81-Month Clinic Visit	1.2	complete	81	yk		1	13:11:00	1	1	2521	2521
+SUB231422	Atopic	CHBSC2	32340	60-Month Clinic Visit	1.2	complete	60	amm		1	08:35:00	1	1	1875	1875
+SUB231422	Atopic	CHBSC2	32347	81-Month Clinic Visit	1.2	complete	81	ss		1	10:32:00	1	1	2461	2461
+SUB231423	Atopic	CHBSC2	36116	60-Month Clinic Visit	1.2	complete	60	rs		1	11:12:00	1	1	1846	1846
+SUB231423	Atopic	CHBSC2	36123	81-Month Clinic Visit	1.2	complete	81	re		1	12:03:00	1	1	2433	2433
+SUB231424	Atopic	CHBSC2	33670	81-Month Clinic Visit	1.2	complete	81	re		1	16:14:00	1	1	2506	2506
+SUB231424	Atopic	CHBSC2	33663	60-Month Clinic Visit	1.2	complete	60	.a		0				1882	
+SUB231424	Atopic	CHBSC2	33667	72-Month Clinic Visit	1.2	complete	72	ss		1	12:10:00	1	1	2281	2281
+SUB231425	Non-atopic	CHBSC2	37783	81-Month Clinic Visit	1.2	complete	81	tlc		1	11:30:00	1	1	2514	2514
+SUB231425	Non-atopic	CHBSC2	37776	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231425	Non-atopic	CHBSC2	37780	72-Month Clinic Visit	1.2	complete	72	yk		1	08:50:00	1	1	2284	2284
+SUB231426	Atopic	CHBSC2	36746	60-Month Clinic Visit	1.2	complete	60	yk		1	11:44:00	1	1	1827	1827
+SUB231426	Atopic	CHBSC2	36753	81-Month Clinic Visit	1.2	complete	81	re		1	11:44:00	1	1	2499	2499
+SUB231427	Atopic	CHBSC2	34647	81-Month Clinic Visit	1.2	complete	81	yk		1	11:20:00	1	1	2537	2537
+SUB231427	Atopic	CHBSC2	34640	60-Month Clinic Visit	1.2	complete	60	rs		1	11:20:00	1	1	1907	1907
+SUB231428	Atopic	CHBSC2	35413	81-Month Clinic Visit	1.2	complete	81	va		1	11:50:00	1	1	2457	2457
+SUB231428	Atopic	CHBSC2	35406	60-Month Clinic Visit	1.2	complete	60	tlc		1	09:05:00	1	1	1857	1857
+SUB231429	Non-atopic	CHBSC2	34148	81-Month Clinic Visit	1.2	complete	81	tlc		1	09:45:00	1	1	2454	2454
+SUB231429	Non-atopic	CHBSC2	34149	84-Month Clinic Visit	1.2	complete	84	tlc		1	14:22:00	1	1	2539	2539
+SUB231429	Non-atopic	CHBSC2	34141	60-Month Clinic Visit	1.2	complete	60	va		1	09:30:00	1	1	1817	1817
+SUB231430	Non-atopic	CHBSC2	36563	81-Month Clinic Visit	1.2	complete	81	tlc		1	15:08:00	1	1	2497	2497
+SUB231430	Non-atopic	CHBSC2	36556	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:40:00	1	1	1839	1839
+SUB231431	Non-atopic	CHBSC2	40120	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231431	Non-atopic	CHBSC2	40124	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231431	Non-atopic	CHBSC2	40128	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231431	Non-atopic	CHBSC2	40127	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231432	Non-atopic	CHBSC2	36031	60-Month Clinic Visit	1.2	complete	60	tlc		1	11:20:00	1	1	1902	1902
+SUB231432	Non-atopic	CHBSC2	36038	81-Month Clinic Visit	1.2	complete	81	re		1	15:35:00	1	1	2483	2483
+SUB231433	Atopic	CHBSC2	34190	60-Month Clinic Visit	1.2	complete	60	tlc		1	09:15:00	1	1	1841	1841
+SUB231433	Atopic	CHBSC2	34197	81-Month Clinic Visit	1.2	complete	81	re		1	13:15:00	1	1	2450	2450
+SUB231434	Non-atopic	CHBSC2	36296	81-Month Clinic Visit	1.2	complete	81	va		1	09:55:00	1	1	2497	2497
+SUB231434	Non-atopic	CHBSC2	36289	60-Month Clinic Visit	1.2	complete	60	yk		1	09:10:00	1	1	1853	1853
+SUB231435	Atopic	CHBSC2	34103	60-Month Clinic Visit	1.2	complete	60	tlc		1	11:45:00	1	1	1893	1893
+SUB231435	Atopic	CHBSC2	34110	81-Month Clinic Visit	1.2	complete	81	ss		1	12:04:00	1	1	2516	2516
+SUB231436	Atopic	CHBSC2	35222	60-Month Clinic Visit	1.2	complete	60	tlc		1	16:15:00	1	1	1840	1840
+SUB231436	Atopic	CHBSC2	35229	81-Month Clinic Visit	1.2	complete	81	ss		1	12:02:00	1	1	2461	2461
+SUB231437	Atopic	CHBSC2	35252	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231437	Atopic	CHBSC2	35253	84-Month Clinic Visit	1.2	complete	84	re		1	13:27:00	1	1	2618	2618
+SUB231437	Atopic	CHBSC2	35245	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:25:00	1	1	1828	1828
+SUB231438	Non-atopic	CHBSC2	36906	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231438	Non-atopic	CHBSC2	36907	84-Month Clinic Visit	1.2	complete	84	va		1	13:04:00	1	1	2603	2603
+SUB231438	Non-atopic	CHBSC2	36899	60-Month Clinic Visit	1.2	complete	60	tlc		1	11:04:00	1	1	1845	1845
+SUB231439	Non-atopic	CHBSC2	34925	81-Month Clinic Visit	1.2	complete	81	tlc		1	12:15:00	1	1	2456	2456
+SUB231439	Non-atopic	CHBSC2	34918	60-Month Clinic Visit	1.2	complete	60	rs		1	11:00:00	1	1	1824	1824
+SUB231440	Atopic	CHBSC2	35451	60-Month Clinic Visit	1.2	complete	60	va		1	15:05:00	1	1	1831	1831
+SUB231440	Atopic	CHBSC2	35458	81-Month Clinic Visit	1.2	complete	81	ss		1	13:25:00	1	1	2481	2481
+SUB231441	Atopic	CHBSC2	38598	84-Month Clinic Visit	1.2	complete	84	re		1	10:28:00	1	1	2646	2646
+SUB231441	Atopic	CHBSC2	38590	60-Month Clinic Visit	1.2	complete	60	va		1	15:24:00	1	1	1911	1911
+SUB231441	Atopic	CHBSC2	38597	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231442	Atopic	CHBSC2	37181	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:44:00	1	1	1880	1880
+SUB231442	Atopic	CHBSC2	37188	81-Month Clinic Visit	1.2	complete	81	yk		1	09:06:00	1	1	2503	2503
+SUB231443	Atopic	CHBSC2	35259	60-Month Clinic Visit	1.2	complete	60	tlc		1	14:34:00	1	1	1883	1883
+SUB231443	Atopic	CHBSC2	35266	81-Month Clinic Visit	1.2	complete	81	re		1	13:11:00	1	1	2507	2507
+SUB231444	Atopic	CHBSC2	36709	60-Month Clinic Visit	1.2	complete	60	va		1	11:05:00	1	1	1845	1845
+SUB231444	Atopic	CHBSC2	36716	81-Month Clinic Visit	1.2	complete	81	yk		1	15:51:00	1	1	2489	2489
+SUB231445	Atopic	CHBSC2	37717	60-Month Clinic Visit	1.2	complete	60	yk		1	11:00:00	1	1	1859	1859
+SUB231445	Atopic	CHBSC2	37724	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231445	Atopic	CHBSC2	37725	84-Month Clinic Visit	1.2	complete	84	tlw		1	12:20:00	1	1	2657	2657
+SUB231446	Non-atopic	CHBSC2	35473	60-Month Clinic Visit	1.2	complete	60	tlc		1	09:55:00	1	1	1816	1816
+SUB231446	Non-atopic	CHBSC2	35480	81-Month Clinic Visit	1.2	complete	81	re		1	15:20:00	1	1	2497	2497
+SUB231448	Atopic	CHBSC2	35837	60-Month Clinic Visit	1.2	complete	60	rs		1	14:31:00	1	1	1831	1831
+SUB231448	Atopic	CHBSC2	35844	81-Month Clinic Visit	1.2	complete	81	va		1	13:05:00	1	1	2413	2413
+SUB231449	Atopic	CHBSC2	36550	84-Month Clinic Visit	1.2	complete	84	va		1	11:15:00	1	1	2739	2739
+SUB231449	Atopic	CHBSC2	36549	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231449	Atopic	CHBSC2	36542	60-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231449	Atopic	CHBSC2	36546	72-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231450	Atopic	CHBSC2	38270	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:30:00	1	1	1847	1847
+SUB231450	Atopic	CHBSC2	38277	81-Month Clinic Visit	1.2	complete	81	va		1	15:32:00	1	1	2441	2441
+SUB231451	Non-atopic	CHBSC2	40804	81-Month Clinic Visit	1.2	complete	81	ss		1	11:58:00	0	1	2495	2495
+SUB231451	Non-atopic	CHBSC2	40805	84-Month Clinic Visit	1.2	complete	84	ss		1	13:43:00	1	1	2627	2627
+SUB231451	Non-atopic	CHBSC2	40797	60-Month Clinic Visit	1.2	complete	60	yk		1	12:00:00	1	1	1849	1849
+SUB231452	Non-atopic	CHBSC2	36016	60-Month Clinic Visit	1.2	complete	60	va		1	15:00:00	1	1	1843	1843
+SUB231452	Non-atopic	CHBSC2	36023	81-Month Clinic Visit	1.2	complete	81	va		1	10:50:00	1	1	2496	2496
+SUB231453	Atopic	CHBSC2	38031	81-Month Clinic Visit	1.2	complete	81	ss		1	13:20:00	1	1	2503	2503
+SUB231453	Atopic	CHBSC2	38024	60-Month Clinic Visit	1.2	complete	60	vw		1	11:45:00	1	1	1816	1816
+SUB231454	Atopic	CHBSC2	41135	60-Month Clinic Visit	1.2	complete	60	va		1	11:38:00	1	1	1830	1830
+SUB231454	Atopic	CHBSC2	41142	81-Month Clinic Visit	1.2	complete	81	tw		1	11:17:00	1	1	2446	2446
+SUB231455	Non-atopic	CHBSC2	38151	60-Month Clinic Visit	1.2	complete	60	vw		1	11:45:00	1	1	1806	1806
+SUB231455	Non-atopic	CHBSC2	38158	81-Month Clinic Visit	1.2	complete	81	tw		1	12:00:00	1	1	2457	2457
+SUB231456	Non-atopic	CHBSC2	38302	60-Month Clinic Visit	1.2	complete	60	vw		1	13:20:00	1	1	1860	1860
+SUB231456	Non-atopic	CHBSC2	38309	81-Month Clinic Visit	1.2	complete	81	ss		1	12:33:00	1	1	2478	2478
+SUB231457	Non-atopic	CHBSC2	37366	60-Month Clinic Visit	1.2	complete	60	va		1	09:00:00	1	1	1877	1877
+SUB231457	Non-atopic	CHBSC2	37374	84-Month Clinic Visit	1.2	complete	84	va		1	13:20:00	1	1	2639	2639
+SUB231457	Non-atopic	CHBSC2	37373	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231459	Non-atopic	CHBSC2	41836	84-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231459	Non-atopic	CHBSC2	41835	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231459	Non-atopic	CHBSC2	41828	60-Month Clinic Visit	1.2	complete	60	rs		1	09:42:00	1	1	1859	1859
+SUB231460	Non-atopic	CHBSC2	37013	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231460	Non-atopic	CHBSC2	37014	84-Month Clinic Visit	1.2	complete	84	re		1	12:57:00	1	1	2665	2665
+SUB231460	Non-atopic	CHBSC2	37010	72-Month Clinic Visit	1.2	complete	72	va		1	10:45:00	1	1	2213	2213
+SUB231460	Non-atopic	CHBSC2	37006	60-Month Clinic Visit	1.2	complete	60	.a		0				1876	
+SUB231462	Non-atopic	CHBSC2	42931	84-Month Clinic Visit	1.2	complete	84	tw		1	11:30:00	1	1	2650	2650
+SUB231462	Non-atopic	CHBSC2	42923	60-Month Clinic Visit	1.2	complete	60	va		1	15:15:00	1	1	1873	1873
+SUB231462	Non-atopic	CHBSC2	42930	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231463	Atopic	CHBSC2	39763	84-Month Clinic Visit	1.2	complete	84	yk		1	11:52:00	1	1	2586	2586
+SUB231463	Atopic	CHBSC2	39762	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231463	Atopic	CHBSC2	39755	60-Month Clinic Visit	1.2	complete	60	va		1	10:43:00	1	1	1879	1879
+SUB231465	Non-atopic	CHBSC2	40407	60-Month Clinic Visit	1.2	complete	60	rs		1	10:33:00	1	1	1843	1843
+SUB231465	Non-atopic	CHBSC2	40414	81-Month Clinic Visit	1.2	complete	81	tw		1	15:28:00	1	1	2508	2508
+SUB231466	Atopic	CHBSC2	39980	84-Month Clinic Visit	1.2	complete	84	tlw		1	11:40:00	1	1	2612	2612
+SUB231466	Atopic	CHBSC2	39979	81-Month Clinic Visit	1.2	missing	.x	.x							
+SUB231466	Atopic	CHBSC2	39972	60-Month Clinic Visit	1.2	complete	60	va		1	14:20:00	1	1	1868	1868
+SUB231467	Atopic	CHBSC2	40482	60-Month Clinic Visit	1.2	complete	60	tlc		1	14:40:00	1	1	1800	1800
+SUB231467	Atopic	CHBSC2	40489	81-Month Clinic Visit	1.2	complete	81	re		1	11:28:00	1	1	2437	2437
+SUB231468	Atopic	CHBSC2	39410	81-Month Clinic Visit	1.2	complete	81	re		1	12:05:00	1	1	2440	2440
+SUB231468	Atopic	CHBSC2	39403	60-Month Clinic Visit	1.2	complete	60	tlc		1	10:08:00	1	1	1811	1811
+SUB231469	Non-atopic	CHBSC2	42465	81-Month Clinic Visit	1.2	complete	81	re		1	12:44:00	1	1	2505	2505
+SUB231469	Non-atopic	CHBSC2	42458	60-Month Clinic Visit	1.2	complete	60	va		1	13:25:00	1	1	1838	1838
+SUB231470	Non-atopic	CHBSC2	41596	60-Month Clinic Visit	1.2	complete	60	va		1	11:30:00	1	1	1836	1836
+SUB231470	Non-atopic	CHBSC2	41603	81-Month Clinic Visit	1.2	complete	81	va		1	13:30:00	1	1	2517	2517

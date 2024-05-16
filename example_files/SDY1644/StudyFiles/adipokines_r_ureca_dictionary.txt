@@ -1,0 +1,45 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	6	0	c(0, 120)
+5	6	year		dbl	numeric	double	6	0	c(0, 10)
+6	7	version	version	chr	character	character	4	0	"c("""", ""1.2"")"
+7	8	status	status	chr	character	character	4	0	"c("""", ""unresolved"")"
+8	9	SampleID	SampleID	chr	character	character	1763	0	"c("""", ""979823"")"
+9	10	leptin	Leptin (ng/mL)	dbl	numeric	double	1554	1108	c(0.016, 103.43619)
+10	11	adiponectin	Adiponectin (mcg/mL)	dbl	numeric	double	1469	1106	c(1.6e-05, 1050)
+11	12	hsCRP	hsCRP (mg/dL)	dbl	numeric	double	1522	1105	c(1.2e-06, 39.041218)
+12	13	il_6	IL-6 (pg/mL)	dbl	numeric	double	560	1671	c(0.12, 916)
+13	14	tnf_a	TNF-a (pg/mL)	dbl	numeric	double	901	1671	c(0.12, 308.51)
+14	15	acolldate	Date Collected	dbl	numeric	double	239	3355	c(16507, 17219)
+15	16	evid	evid	dbl	numeric	double	1839	1816	c(296, 61801)
+16	17	event	event	chr	character	character	7	0	"c("""", ""Child Blood Draw"")"
+17	18	aStudyID	Study ID	chr	character	character	522	0	"c("""", ""[ID Redacted]"")"
+18	19	avisitc	Visit	chr	character	character	8	0	"c("""", ""84"")"
+19	20	CHBSC_q1	Childs Body Temperature	dbl	numeric	double	46	2756	c(94.7, 100.1)
+20	21	CHBSC_q2	Childs Blood Collected	dbl	numeric	double	3	2734	c(0, 1)
+21	22	CHBSC_q3b	Time of Sample Collected	time	"c(""hms"", ""difftime"")"	double	280	2782	c(2400, 63900)
+22	23	CHBSC_q5	Status of 10 mL Green Top Tubes Blood Sample Collection	dbl	numeric	double	3	2782	c(0, 1)
+23	24	CHBSC_q6	Status of 1 Purple-Top Microtainer EDTA Tube	dbl	numeric	double	3	2782	c(0, 1)
+24	25	CHBSC2_q2	Childs Body Temperature	dbl	numeric	double	32	3572	c(95, 99.8)
+25	26	CHBSC2_q3	Childs Blood Collected	dbl	numeric	double	3	2736	c(0, 1)
+26	27	CHBSC2_q4b	Time of Sample Collected	time	"c(""hms"", ""difftime"")"	double	281	2744	c(1680, 86280)
+27	28	CHBSC2_q5	Status of 10 mL Green Top Tubes Blood Sample Collection	dbl	numeric	double	3	2744	c(0, 1)
+28	29	CHBSC2_q6	Status of 1 Purple-Top Microtainer EDTA Tube	dbl	numeric	double	3	2744	c(0, 1)
+29	30	status_exp		chr	character	character	4	0	"c("""", ""Not expected, present"")"
+30	31	Leptin_log10	Leptin (ng/mL) - log10	dbl	numeric	double	1567	1108	c(-3, 2.29679166676066)
+31	32	Adiponectin_log10	Adiponectin (mcg/mL) - log10	dbl	numeric	double	1671	1106	c(-4.79588001734407, 3.02118929906994)
+32	33	hsCRP_log10	hsCRP (mg/dL) - log10	dbl	numeric	double	1565	1105	c(-5.92081875395237, 1.59152335823716)
+33	34	il_6_log10	IL-6 (pg/mL) - log10	dbl	numeric	double	560	1671	c(-0.920818753952375, 2.96189547366785)
+34	35	tnf_a_log10	TNF-a (pg/mL) - log10	dbl	numeric	double	901	1671	c(-0.920818753952375, 2.48926924575802)
+35	36	count		dbl	numeric	double	2	942	c(1, 1)
+36	37	yr7counter		dbl	numeric	double	3	942	c(0, 1)
+37	38	yr7counter2		dbl	numeric	double	3	942	c(0, 1)
+38	39	imp	Imputed from the following year (flag)	dbl	numeric	double	2	3580	c(1, 1)
+39	40	avisit_actual		dbl	numeric	double	9	942	c(0, 120)
+40	41	adipokines		dbl	numeric	double	2	0	c(0, 1)
+41	42	ACOMPLETIONDATE_DY		dbl	numeric	double	683	1816	c(258, 2873)
+42	43	CHBSC_Q3A_DY		dbl	numeric	double	336	2782	c(258, 1638)
+43	44	CHBSC2_Q4A_DY		dbl	numeric	double	340	2744	c(1429, 2873)

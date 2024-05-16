@@ -1,0 +1,22 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	80	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CEB"", ""CEB"")"
+3	4	evid	evid	dbl	numeric	double	156	0	c(1189, 35732)
+4	5	event	event	chr	character	character	12	0	"c(""12-Month Clinic Visit"", ""Between-Visit Phone Call"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	11	0	"c("".x"", ""e"")"
+8	9	CEB_q1a	Baby - Race, Nationality, or Ethnic Background Description	chr	character	character	30	0	"c("".x"", ""spanish"")"
+9	10	CEB_q1b1	Baby - Race/Nationality/Ethnic Background - Puerto Rican	dbl	numeric	double	3	82	c(0, 1)
+10	11	CEB_q1b2	Baby - Race/Nationality/Ethnic Background - Dominican	dbl	numeric	double	3	82	c(0, 1)
+11	12	CEB_q1b3	Baby - Race/Nationality/Ethnic Background - Mexican/Mexican American	dbl	numeric	double	3	82	c(0, 1)
+12	13	CEB_q1b4	Baby - Race/Nationality/Ethnic Background - Central American	dbl	numeric	double	3	82	c(0, 1)
+13	14	CEB_q1b5	Baby - Race/Nationality/Ethnic Background - Other Hispanic	dbl	numeric	double	3	82	c(0, 1)
+14	15	CEB_q1b6	Baby - Race/Nationality/Ethnic Background - African American/Black American	dbl	numeric	double	3	82	c(0, 1)
+15	16	CEB_q1b7	Baby - Race/Nationality/Ethnic Background - Other Black	dbl	numeric	double	3	82	c(0, 1)
+16	17	CEB_q1b8	Baby - Race/Nationality/Ethnic Background - White	dbl	numeric	double	3	82	c(0, 1)
+17	18	CEB_q1b9	Baby - Race/Nationality/Ethnic Background - Asian	dbl	numeric	double	2	82	c(0, 0)
+18	19	CEB_q1b10	Baby - Race/Nationality/Ethnic Background - Native American	dbl	numeric	double	3	82	c(0, 1)
+19	20	CEB_q1b11	Baby - Race/Nationality/Ethnic Background - Other	dbl	numeric	double	3	82	c(0, 1)
+20	21	aCompletionDY	Completion Day	dbl	numeric	double	73	82	c(200, 956)

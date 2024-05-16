@@ -1,0 +1,200 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""BR"", ""BR"")"
+3	4	evid	evid	dbl	numeric	double	793	0	c(3, 18057)
+4	5	event	event	chr	character	character	1	0	"c(""Birth"", ""Birth"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.8"", ""1.8"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""b"")"
+8	9	BR_q2b	Babys Time of Birth	time	"c(""hms"", ""difftime"")"	double	516	174	c(120, 86280)
+9	10	BR_q3	Sex of The Baby	dbl	numeric	double	3	174	c(0, 1)
+10	11	BR_q4	Gestational Age of Baby at Delivery	dbl	numeric	double	28	174	c(27, 42)
+11	12	BR_q5	Babys Weight at Birth	dbl	numeric	double	418	174	c(300, 4850)
+12	13	BR_q6	Babys Length at Birth	dbl	numeric	double	51	184	c(40.3, 58.5)
+13	14	BR_q7	Baby Head Circumference at Birth	dbl	numeric	double	33	181	c(22.5, 38.5)
+14	15	BR_q8	Plurality	dbl	numeric	double	3	174	c(1, 2)
+15	16	BR_q8a	Plurality - Specify Other	chr	character	character	2	0	"c("".a"", "".x"")"
+16	17	BR_q8b	Plurality - Order of Births	dbl	numeric	double	3	781	c(1, 2)
+17	18	BR_q8b1	Plurality - Order of Births - Specify Other	chr	character	character	2	0	"c("".a"", "".x"")"
+18	19	BR_q8c2	Recruitment ID - First Sibling	chr	character	character	2	0	"c("".a"", "".x"")"
+19	20	BR_q9a	Babys Apgar Score - 1 minute	dbl	numeric	double	12	174	c(0, 10)
+20	21	BR_q9b	Babys Apgar Score - 5 minutes	dbl	numeric	double	9	174	c(0, 10)
+21	22	BR_q10	Baby on Ventilator after Delivery	dbl	numeric	double	3	174	c(0, 1)
+22	23	BR_q10a	Length of Time Baby Was on Ventilator	dbl	numeric	double	3	786	c(1, 2)
+23	24	BR_q11	Baby Required Oxygen or CPAP Machine After Delivery	dbl	numeric	double	3	174	c(0, 1)
+24	25	BR_q11a	Length of Time Baby Required Oxygen or CPAP Machine After Delivery	dbl	numeric	double	4	724	c(0, 2)
+25	26	BR_q12	Baby Born With Significant Congenital Anomalies	dbl	numeric	double	3	174	c(0, 1)
+26	27	BR_q12b	Congenital Anomaly Requires Exclusion From Study	dbl	numeric	double	3	786	c(0, 1)
+27	28	BR_q13	Baby Has Respiratory Distress Syndrome	dbl	numeric	double	2	174	c(0, 0)
+28	29	BR_q15a	Abnormal Conditions - NICU Admission	dbl	numeric	double	3	174	c(0, 1)
+29	30	BR_q15b	Abnormal Conditions - Newborn Given Surfactant Replacement Therapy	dbl	numeric	double	3	174	c(0, 1)
+30	31	BR_q15c	Abnormal Conditions - Antibiotics Received By the Newborn for Reasons Other Than Pneumonia	dbl	numeric	double	3	175	c(0, 1)
+31	32	BR_q15d	Abnormal Conditions - Other	dbl	numeric	double	3	175	c(0, 1)
+32	33	BR_q17	Number of Previous Pregnancies	dbl	numeric	double	15	182	c(0, 13)
+33	34	BR_q18	Number of Previous Live Births	dbl	numeric	double	11	182	c(0, 10)
+34	35	BR_q19	Mothers Weight at Delivery	dbl	numeric	double	180	183	c(108, 429)
+35	36	BR_q20a	Present During Pregnancy (Before Labor/Delivery) - HIV/AIDS	dbl	numeric	double	2	182	c(0, 0)
+36	37	BR_q20b1	Present During Pregnancy (Before Labor/Delivery) - Type I Diabetes	dbl	numeric	double	3	182	c(0, 1)
+37	38	BR_q20b2	Present During Pregnancy (Before Labor/Delivery) - Type II Diabetes	dbl	numeric	double	3	182	c(0, 1)
+38	39	BR_q20c	Present During Pregnancy (Before Labor/Delivery) - Gestational Diabetes	dbl	numeric	double	3	182	c(0, 1)
+39	40	BR_q20d	Present During Pregnancy (Before Labor/Delivery) - Chronic Pre-Pregnancy Hypertension	dbl	numeric	double	3	182	c(0, 1)
+40	41	BR_q20e	Present During Pregnancy (Before Labor/Delivery) - Gestational Hypertension	dbl	numeric	double	3	182	c(0, 1)
+41	42	BR_q20f	Present During Pregnancy (Before Labor/Delivery) - Pre-clampsia	dbl	numeric	double	3	182	c(0, 1)
+42	43	BR_q20g	Present During Pregnancy (Before Labor/Delivery) - Eclampsia	dbl	numeric	double	3	182	c(0, 1)
+43	44	BR_q20h	Present During Pregnancy (Before Labor/Delivery) - Gonorrhea	dbl	numeric	double	3	183	c(0, 1)
+44	45	BR_q20i	Present During Pregnancy (Before Labor/Delivery) - Syphillis	dbl	numeric	double	2	183	c(0, 0)
+45	46	BR_q20j	Present During Pregnancy (Before Labor/Delivery) - Chlamydia	dbl	numeric	double	3	183	c(0, 1)
+46	47	BR_q20k	Present During Pregnancy (Before Labor/Delivery) - Hepatitis B	dbl	numeric	double	3	183	c(0, 1)
+47	48	BR_q20l	Present During Pregnancy (Before Labor/Delivery) - Hepatitis C	dbl	numeric	double	3	183	c(0, 1)
+48	49	BR_q20m	Present During Pregnancy (Before Labor/Delivery) - Pre-Term Labor Requiring Tocolytic Therapy	dbl	numeric	double	3	182	c(0, 1)
+49	50	BR_q20n	Present During Pregnancy (Before Labor/Delivery) - Premature Rupture of the Membranes	dbl	numeric	double	3	183	c(0, 1)
+50	51	BR_q20o1	Steroids Received By Mother Prior To Delivery - Inhaled Corticosteroid	dbl	numeric	double	3	183	c(0, 1)
+51	52	BR_q20o2	Steroids Received By Mother Prior To Delivery - Prednisone, Prednisolone, or Methyl Prednisolone	dbl	numeric	double	3	183	c(0, 1)
+52	53	BR_q20o3	Steroids Received By Mother Prior To Delivery - Dexamethasone or Betamethasone	dbl	numeric	double	3	183	c(0, 1)
+53	54	BR_q20o4	Steroids Received By Mother Prior To Delivery - Other	dbl	numeric	double	3	183	c(0, 1)
+54	55	BR_q20p1	Maternal Infections Requiring ED Visit, Hospitalization, or Treatment in Clinic - Pneumonia	dbl	numeric	double	3	183	c(0, 1)
+55	56	BR_q20p2	Maternal Infections Requiring ED Visit, Hospitalization, or Treatment in Clinic - Pyelonephritis	dbl	numeric	double	3	182	c(0, 1)
+56	57	BR_q20p3	Maternal Infections Requiring ED Visit, Hospitalization, or Treatment in Clinic - Other	dbl	numeric	double	3	183	c(0, 1)
+57	58	BR_q20q1	Maternal Vaccinations During Pregnancy - Influenza	dbl	numeric	double	3	183	c(0, 1)
+58	59	BR_q20q2	Maternal Vaccinations During Pregnancy - Hepatitis B	dbl	numeric	double	3	183	c(0, 1)
+59	60	BR_q20q3	Maternal Vaccinations During Pregnancy - Other	dbl	numeric	double	3	183	c(0, 1)
+60	61	BR_q20q3a	Maternal Vaccinations During Pregnancy - Specify Other	chr	character	character	8	0	"c("".a"", ""tetnus"")"
+61	62	BR_q21a	Mothers Health Problems - Inflammatory Bowel Disease, Crohn's Disease or Ulcerative Colitis	dbl	numeric	double	3	183	c(0, 1)
+62	63	BR_q21a1	Mothers Health Problems - Inflammatory Bowel Disease, Crohn's Disease or Ulcerative Colitis - Present Before This Pregnancy	dbl	numeric	double	2	792	c(1, 1)
+63	64	BR_q21b	Mothers Health Problems - Thyroid Disease	dbl	numeric	double	3	183	c(0, 1)
+64	65	BR_q21b1	Mothers Health Problems - Thyroid Disease - Present Before This Pregnancy	dbl	numeric	double	3	781	c(0, 1)
+65	66	BR_q21c	Mothers Health Problems - Rheumatoid arthritis, lupus, or related conditions	dbl	numeric	double	3	183	c(0, 1)
+66	67	BR_q21c1	Mothers Health Problems - Rheumatoid Arthritis, Lupus, or Related Condition - Present Before This Pregnancy	dbl	numeric	double	2	787	c(1, 1)
+67	68	BR_q21d	Mothers Health Problems - Sarcoidosis	dbl	numeric	double	2	183	c(0, 0)
+68	69	BR_q21d1	Mothers Health Problems - Sarcoidosis - Present Before This Pregnancy	dbl	numeric	double	1	793	
+69	70	BR_q22	Number of Medications Taken During Pregnancy	dbl	numeric	double	21	182	c(0, 36)
+70	71	BR_q22a1	Medications During Pregnancy - Medication #1 - Name of Medication	chr	character	character	139	0	"c("".a"", ""zofran"")"
+71	72	BR_q22a2	Medications During Pregnancy - Medication #1 - Dose/Units	chr	character	character	115	0	"c("".a"", ""x1tab"")"
+72	73	BR_q22a3	Medications During Pregnancy - Medication #1- Frequency	chr	character	character	77	0	"c("".a"", ""x1"")"
+73	74	BR_q22a4	Medications During Pregnancy - Medication #1 - Route	chr	character	character	28	0	"c("".a"", ""vaginal"")"
+74	75	BR_q22b1	Medications During Pregnancy - Medication #2- Name of Medication	chr	character	character	143	0	"c("".a"", ""zovirax"")"
+75	76	BR_q22b2	Medications During Pregnancy - Medication #2 - Dose/Units	chr	character	character	106	0	"c("".15 mg"", ""x1tab"")"
+76	77	BR_q22b3	Medications During Pregnancy - Medication #2 - Frequency	chr	character	character	74	0	"c("".a"", ""x3"")"
+77	78	BR_q22b4	Medications During Pregnancy - Medication #2 - Route	chr	character	character	32	0	"c("".a"", ""vaginal"")"
+78	79	BR_q22c1	Medications During Pregnancy - Medication #3 - Name of medication	chr	character	character	125	0	"c("".a"", ""zythromax"")"
+79	80	BR_q22c2	Medications During Pregnancy - Medication #3 - Dose/Units	chr	character	character	108	0	"c("".05mg"", ""varies"")"
+80	81	BR_q22c3	Medications During Pregnancy - Medication #3 - Frequency	chr	character	character	66	0	"c("".a"", ""x5 doses"")"
+81	82	BR_q22c4	Medications During Pregnancy - Medication #3 - Route	chr	character	character	27	0	"c("".a"", ""vaginal"")"
+82	83	BR_q22d1	Medications During Pregnancy - Medication #4 - Name of Medication	chr	character	character	102	0	"c("".a"", ""zyrtec"")"
+83	84	BR_q22d2	Medications During Pregnancy - Medication #4 - Dose/Units	chr	character	character	86	0	"c("".75%"", ""taper"")"
+84	85	BR_q22d3	Medications During Pregnancy - Medication #4 - Frequency	chr	character	character	61	0	"c("".a"", ""x3 doses"")"
+85	86	BR_q22d4	Medications During Pregnancy - Medication #4- Route	chr	character	character	18	0	"c("".a"", ""vaginal"")"
+86	87	BR_q22e1	Medications During Pregnancy - Medication #5 - Name of Medication	chr	character	character	88	0	"c("".a"", ""zyrtec"")"
+87	88	BR_q22e2	Medications During Pregnancy - Medication #5 - Dose/Units	chr	character	character	82	0	"c("".a"", ""varies units"")"
+88	89	BR_q22e3	Medications During Pregnancy - Medication #5 - Frequency	chr	character	character	46	0	"c("".a"", ""x1 dose"")"
+89	90	BR_q22e4	Medications During Pregnancy - Medication #5 - Route	chr	character	character	24	0	"c("".a"", ""vaginal"")"
+90	91	BR_q22f1	Medications During Pregnancy - Medication #6 - Name of Medication	chr	character	character	77	0	"c("".a"", ""zyprexa"")"
+91	92	BR_q22f2	Medications During Pregnancy - Medication #6 - Dose/Units	chr	character	character	63	0	"c("".a"", ""titrate"")"
+92	93	BR_q22f3	Medications During Pregnancy - Medication #6 - Frequency	chr	character	character	36	0	"c("".a"", ""twice per day"")"
+93	94	BR_q22f4	Medications During Pregnancy - Medication #6 - Route	chr	character	character	23	0	"c("".a"", ""vagnial"")"
+94	95	BR_q22g1	Medications During Pregnancy - Medication #7 - Name of Medication	chr	character	character	58	0	"c("".a"", ""zyrtec"")"
+95	96	BR_q22g2	Medications During Pregnancy - Medication #7 - Dose/Units	chr	character	character	53	0	"c("".a"", ""gel"")"
+96	97	BR_q22g3	Medications During Pregnancy - Medication #7 - Frequency	chr	character	character	34	0	"c("".a"", ""x2"")"
+97	98	BR_q22g4	Medications During Pregnancy - Medication #7 - Route	chr	character	character	12	0	"c("".a"", ""vaginal"")"
+98	99	BR_q22h1	Medications During Pregnancy - Medication #8 - Name of Medication	chr	character	character	48	0	"c("".a"", ""zithromax"")"
+99	100	BR_q22h2	Medications During Pregnancy - Medication #8 - Dose/Units	chr	character	character	44	0	"c("".a"", ""vaned dose"")"
+100	101	BR_q22h3	Medications During Pregnancy - Medication #8 - Frequency	chr	character	character	32	0	"c("".a"", ""x1"")"
+101	102	BR_q22h4	Medications During Pregnancy - Medication #8 - Route	chr	character	character	16	0	"c("".a"", ""vaginal"")"
+102	103	BR_q22i1	Medications During Pregnancy - Medication #9 - Name of Medication	chr	character	character	42	0	"c("".a"", ""zithromax"")"
+103	104	BR_q22i2	Medications During Pregnancy - Medication #9 - Dose/Units	chr	character	character	33	0	"c("".a"", ""iou"")"
+104	105	BR_q22i3	Medications During Pregnancy - Medication #9 - Frequency	chr	character	character	23	0	"c("".a"", ""up to 5x daily"")"
+105	106	BR_q22i4	Medications During Pregnancy - Medication #9 - Route	chr	character	character	13	0	"c("".a"", ""vaginal"")"
+106	107	BR_q22j1	Medications During Pregnancy - Medication #10 - Name of Medication	chr	character	character	31	0	"c("".a"", ""zyrtec"")"
+107	108	BR_q22j2	Medications During Pregnancy - Medication #10 - Dose/Units	chr	character	character	23	0	"c("".a"", ""drip"")"
+108	109	BR_q22j3	Medications During Pregnancy - Medication #10 - Frequency	chr	character	character	18	0	"c("".a"", ""twice per day"")"
+109	110	BR_q22j4	Medications During Pregnancy - Medication #10 - Route	chr	character	character	12	0	"c("".a"", ""vaginal"")"
+110	111	BR_q23b	Onset of Labor - Time	time	"c(""hms"", ""difftime"")"	double	158	316	c(0, 85500)
+111	112	BR_q24b	Rupture of Membranes - Time	time	"c(""hms"", ""difftime"")"	double	381	200	c(0, 86280)
+112	113	BR_q25	Maximum Temperature in Labor	dbl	numeric	double	62	235	c(96.1, 103.5)
+113	114	BR_q26a	Present During Labor and Delivery - Intra-Amniotic Infection in Labor	dbl	numeric	double	3	182	c(0, 1)
+114	115	BR_q26b	Present During Labor and Delivery - Other Maternal Infection Complicating Labor	dbl	numeric	double	3	182	c(0, 1)
+115	116	BR_q26c	Present During Labor and Delivery - Antibiotics received by the mother during labor	dbl	numeric	double	3	182	c(0, 1)
+116	117	BR_q26d	Present During Labor and Delivery - Antibiotics received by the mother during labor - Moderate/heavy meconium staining of the amnionotic fluid	dbl	numeric	double	3	182	c(0, 1)
+117	118	BR_q26e	Present During Labor and Delivery - Pre-eclampsia/eclampsia in labor	dbl	numeric	double	3	182	c(0, 1)
+118	119	BR_q26f	Present During Labor and Delivery - Cervical ripening with Cervidil, Prepidil	dbl	numeric	double	3	182	c(0, 1)
+119	120	BR_q26g	Present During Labor and Delivery - Cervical ripening with Cytotec	dbl	numeric	double	3	182	c(0, 1)
+120	121	BR_q26h	Present During Labor and Delivery - Pitocin	dbl	numeric	double	3	182	c(0, 1)
+121	122	BR_q27	Type of Anesthesia	dbl	numeric	double	3	182	c(0, 1)
+122	123	BR_q27a1	Type of Anesthesia Used - Sedation	dbl	numeric	double	3	256	c(0, 1)
+123	124	BR_q27a2	Type of Anesthesia Used - Spinal	dbl	numeric	double	3	256	c(0, 1)
+124	125	BR_q27a3	Type of Anesthesia Used - Epidural	dbl	numeric	double	3	256	c(0, 1)
+125	126	BR_q27a4	Type of Anesthesia Used - General	dbl	numeric	double	3	256	c(0, 1)
+126	127	BR_q28	Type of Delivery	dbl	numeric	double	5	182	c(1, 4)
+127	128	BR_q29	Number of Medications During Labor and Delivery	dbl	numeric	double	10	182	c(0, 10)
+128	129	BR_q29a1	Medications During Labor and Delivery - Medication Name#1	chr	character	character	73	0	"c("".a"", ""zolpidem"")"
+129	130	BR_q29a2	Medications During Labor and Delivery - Dose/Units #1	chr	character	character	128	0	"c("".a"", ""titration"")"
+130	131	BR_q29a3	Medications During Labor and Delivery - Frequency #1	chr	character	character	52	0	"c("".a"", ""xt"")"
+131	132	BR_q29a4	Medications During Labor and Delivery - Route #1	chr	character	character	27	0	"c("".a"", ""topical"")"
+132	133	BR_q29b1	Medications During Labor and Delivery - Medication Name #2	chr	character	character	52	0	"c("".a"", ""zofran"")"
+133	134	BR_q29b2	Medications During Labor and Delivery - Dose/Units #2	chr	character	character	85	0	"c("".a"", ""img"")"
+134	135	BR_q29b3	Medications During Labor and Delivery - Frequency #2	chr	character	character	34	0	"c("".a"", ""x3"")"
+135	136	BR_q29b4	Medications During Labor and Delivery - Route #2	chr	character	character	26	0	"c("".a"", ""suppository"")"
+136	137	BR_q29c1	Medications During Labor and Delivery - Medication #3	chr	character	character	43	0	"c("".a"", ""zofran"")"
+137	138	BR_q29c2	Medications During Labor and Delivery - Dose/Units #3	chr	character	character	60	0	"c("".a"", ""once25 mg"")"
+138	139	BR_q29c3	Medications During Labor and Delivery - Frequency #3	chr	character	character	32	0	"c("".a"", ""x4 doses"")"
+139	140	BR_q29c4	Medications During Labor and Delivery - Route #3	chr	character	character	20	0	"c("".a"", ""x1"")"
+140	141	BR_q29d1	Medications During Labor and Delivery - Medication Name #4	chr	character	character	35	0	"c("".a"", ""zofran"")"
+141	142	BR_q29d2	Medications During Labor and Delivery - Dose/Units #4	chr	character	character	42	0	"c("".a"", ""975mg"")"
+142	143	BR_q29d3	Medications During Labor and Delivery - Frequency #4	chr	character	character	24	0	"c("".a"", ""x2"")"
+143	144	BR_q29d4	Medications During Labor and Delivery - Route #4	chr	character	character	15	0	"c("".a"", ""suppository"")"
+144	145	BR_q29e1	Medications During Labor and Delivery - Medication Name #5	chr	character	character	25	0	"c("".a"", ""zolfran"")"
+145	146	BR_q29e2	Medications During Labor and Delivery - Dose/Units #5	chr	character	character	25	0	"c("".5 ml"", ""650 mg"")"
+146	147	BR_q29e3	Medications During Labor and Delivery - Frequency #5	chr	character	character	17	0	"c("".a"", ""x2"")"
+147	148	BR_q29e4	Medications During Labor and Delivery - Route #5	chr	character	character	13	0	"c("".a"", ""topical"")"
+148	149	BR_q29f1	Medications During Labor and Delivery - Medication Name #6	chr	character	character	13	0	"c("".a"", ""terbutaline"")"
+149	150	BR_q29f2	Medications During Labor and Delivery - Dose/Units #6	chr	character	character	14	0	"c("".125 mg"", ""titrated drip"")"
+150	151	BR_q29f3	Medications During Labor and Delivery - Frequency #6	chr	character	character	12	0	"c("".a"", ""titrated drop"")"
+151	152	BR_q29f4	Medications During Labor and Delivery - Route #6	chr	character	character	8	0	"c("".a"", ""sq"")"
+152	153	BR_q29g1	Medications During Labor and Delivery - Medication Name #7	chr	character	character	8	0	"c("".a"", ""zofran"")"
+153	154	BR_q29g2	Medications During Labor and Delivery - Dose/Units #7	chr	character	character	8	0	"c("".a"", ""650mg-1000mg"")"
+154	155	BR_q29g3	Medications During Labor and Delivery - Frequency #7	chr	character	character	7	0	"c("".a"", ""x1"")"
+155	156	BR_q29g4	Medications During Labor and Delivery - Route #7	chr	character	character	7	0	"c("".a"", ""topical cream"")"
+156	157	BR_q29h1	Medications During Labor and Delivery - Medication Name #8	chr	character	character	4	0	"c("".a"", ""phenergan"")"
+157	158	BR_q29h2	Medications During Labor and Delivery - Dose/Units #8	chr	character	character	4	0	"c("".a"", ""12.5mg"")"
+158	159	BR_q29h3	Medications During Labor and Delivery - Frequency #8	chr	character	character	4	0	"c("".a"", ""once"")"
+159	160	BR_q29h4	Medications During Labor and Delivery - Route #8	chr	character	character	4	0	"c("".a"", ""iv"")"
+160	161	BR_q29i1	Medications During Labor and Delivery - Medication Name #9	chr	character	character	4	0	"c("".a"", ""insulin gtt"")"
+161	162	BR_q29i2	Medications During Labor and Delivery - Dose/Units #9	chr	character	character	4	0	"c("".a"", ""100 units reg insuli"")"
+162	163	BR_q29i3	Medications During Labor and Delivery - Frequency #9	chr	character	character	4	0	"c("".a"", ""titrate"")"
+163	164	BR_q29i4	Medications During Labor and Delivery - Route #9	chr	character	character	4	0	"c("".a"", ""iv"")"
+164	165	BR_q29j1	Medications During Labor and Delivery - Medication Name #10	chr	character	character	4	0	"c("".a"", ""oxytocin"")"
+165	166	BR_q29j2	Medications During Labor and Delivery - Dose/Units #10	chr	character	character	4	0	"c("".a"", ""30 units per 500ml l"")"
+166	167	BR_q29j3	Medications During Labor and Delivery - Frequency #10	chr	character	character	4	0	"c("".a"", ""titrate"")"
+167	168	BR_q29j4	Medications During Labor and Delivery - Route #10	chr	character	character	4	0	"c("".a"", ""iv"")"
+168	169	BR_q30	Evidence of Adverse Drug Reactions During Pregnancy	dbl	numeric	double	3	182	c(0, 1)
+169	170	BR_q30a	Name of Medication that Cause Adverse Drug Reaction	chr	character	character	7	0	"c("".a"", ""oxytocin"")"
+170	171	BR_q31a	Soure of Information - Medical Record	dbl	numeric	double	3	175	c(0, 1)
+171	172	BR_q31b	Soure of Information - Obstetrician	dbl	numeric	double	3	175	c(0, 1)
+172	173	BR_q31c	Soure of Information - Mother	dbl	numeric	double	3	175	c(0, 1)
+173	174	BR_q33	Baby is Eligible	dbl	numeric	double	3	175	c(0, 1)
+174	175	aCompletionDY	Completion Day	dbl	numeric	double	28	184	c(-1, 53)
+175	176	BR_Q2ADY	Baby s Day of Birth	dbl	numeric	double	2	184	c(0, 0)
+176	177	BR_qDY	Medications During Pregnancy - Medication #10 - Stop Day	dbl	numeric	double	20	773	c(-210, 2)
+177	178	BR_q24aDY	Rupture of Membranes - Day	dbl	numeric	double	7	194	c(-18, 0)
+178	179	BR_q22a5DY	Medications During Pregnancy - Medication 1 - Start Day	dbl	numeric	double	223	358	c(-5777, 2)
+179	180	BR_q22a6DY	Medications During Pregnancy - Medication 1 - Stop Day	dbl	numeric	double	88	637	c(-238, 4)
+180	181	BR_q22b5DY	Medications During Pregnancy - Medication 2 - Start Day	dbl	numeric	double	230	406	c(-9154, 0)
+181	182	BR_q22b6DY	Medications During Pregnancy - Medication 2 - Stop Day	dbl	numeric	double	90	658	c(-245, 6)
+182	183	BR_q22c5DY	Medications During Pregnancy - Medication 3 - Start Day	dbl	numeric	double	181	514	c(-12961, 0)
+183	184	BR_q22c6DY	Medications During Pregnancy - Medication 3 - Stop Day	dbl	numeric	double	97	654	c(-404, 6)
+184	185	BR_q22d5DY	Medications During Pregnancy - Medication 4 - Start Day	dbl	numeric	double	160	577	c(-10484, 2)
+185	186	BR_q22d6DY	Medications During Pregnancy - Medication 4 - Stop Day	dbl	numeric	double	87	676	c(-277, 6)
+186	187	BR_q22e5DY	Medications During Pregnancy - Medication 5 - Start Day	dbl	numeric	double	125	640	c(-8471, -1)
+187	188	BR_q22e6DY	Medications During Pregnancy - Medication 5 - Stop Day	dbl	numeric	double	66	709	c(-222, 6)
+188	189	BR_q22f5DY	Medications During Pregnancy - Medication 6 - Start Day	dbl	numeric	double	89	687	c(-7560, 0)
+189	190	BR_q22f6DY	Medications During Pregnancy - Medication 6 - Stop Day	dbl	numeric	double	59	719	c(-229, 6)
+190	191	BR_q22g5DY	Medications During Pregnancy - Medication 7 - Start Day	dbl	numeric	double	68	715	c(-7533, -3)
+191	192	BR_q22g6DY	Medications During Pregnancy - Medication 7 - Stop Day	dbl	numeric	double	40	744	c(-427, 2)
+192	193	BR_q22h5DY	Medications During Pregnancy - Medication 8 - Start Day	dbl	numeric	double	53	736	c(-3853, -5)
+193	194	BR_q22h6DY	Medications During Pregnancy - Medication 8 - Stop Day	dbl	numeric	double	36	755	c(-234, 0)
+194	195	BR_q22i5DY	Medications During Pregnancy - Medication 9 - Start Day	dbl	numeric	double	37	754	c(-931, -4)
+195	196	BR_q22i6DY	Medications During Pregnancy - Medication 9 - Stop Day	dbl	numeric	double	25	767	c(-210, 0)
+196	197	BR_q22j5DY	Medications During Pregnancy - Medication 10 - Start Day	dbl	numeric	double	25	768	c(-397, -2)
+197	198	BR_q22j6DY	Medications During Pregnancy - Medication 10 - Stop Day	dbl	numeric	double	20	773	c(-210, 2)
+198	199	BR_q23aDY	Onset of Labor - Day	dbl	numeric	double	4	304	c(-2, 0)

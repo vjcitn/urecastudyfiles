@@ -1,0 +1,16 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	557	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CHBSC"", ""CHBSC"")"
+3	4	evid	evid	dbl	numeric	double	1702	0	c(296, 50446)
+4	5	event	event	chr	character	character	5	0	"c(""12-Month Clinic Visit"", ""Child Blood Draw"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.1"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	6	0	"c("".x"", ""cb"")"
+8	9	CHBSC_q1	Childs Body Temperature	dbl	numeric	double	53	369	c(92.4, 100.5)
+9	10	CHBSC_q2	Childs Blood Collected	dbl	numeric	double	3	332	c(0, 1)
+10	11	CHBSC_q3b	Time of Sample Collected	time	"c(""hms"", ""difftime"")"	double	319	402	c(2400, 63900)
+11	12	CHBSC_q5	Status of 10 mL Green Top Tubes Blood Sample Collection	dbl	numeric	double	3	402	c(0, 1)
+12	13	CHBSC_q6	Status of 1 Purple-Top Microtainer EDTA Tube	dbl	numeric	double	3	402	c(0, 1)
+13	14	aCompletionDY	Completion Day	dbl	numeric	double	477	332	c(334, 1643)
+14	15	CHBSCDY	Day of Sample Collected	dbl	numeric	double	465	402	c(334, 1643)

@@ -1,0 +1,174 @@
+Accession	group	form	evid	event	version	status	aVisit	aFormDY
+SUB230897	Atopic	CLN	53250	96-Month Clinic Visit	1.0	complete	96	2979
+SUB230909	Atopic	CLN	54184	96-Month Clinic Visit	1.0	complete	96	3005
+SUB230913	Atopic	CLN	54242	96-Month Clinic Visit	1.0	complete	96	3003
+SUB230932	Atopic	CLN	53853	96-Month Clinic Visit	1.0	complete	96	2900
+SUB230939	Atopic	CLN	59732	96-Month Clinic Visit	1.0	complete	96	2967
+SUB230943	Atopic	CLN	55273	96-Month Clinic Visit	1.0	complete	96	2980
+SUB231005	Atopic	CLN	53827	96-Month Clinic Visit	1.0	complete	96	2944
+SUB231173	Atopic	CLN	51331	108-Month Clinic Visit	1.0	complete	108	3290
+SUB231173	Atopic	CLN	51335	120-Month Clinic Visit	1.0	complete	120	3695
+SUB231176	Atopic	CLN	57831	108-Month Clinic Visit	1.0	complete	108	3302
+SUB231177	Atopic	CLN	51419	114-Month Call	1.0	complete	114	3482
+SUB231178	Atopic	CLN	51503	117-Month Call	1.0	complete	117	3591
+SUB231178	Atopic	CLN	51502	114-Month Call	1.0	complete	114	3522
+SUB231178	Atopic	CLN	51504	120-Month Clinic Visit	1.0	complete	120	3654
+SUB231182	Atopic	CLN	51883	108-Month Clinic Visit	1.0	complete	108	3260
+SUB231184	Atopic	CLN	51553	120-Month Clinic Visit	1.0	complete	120	3625
+SUB231185	Atopic	CLN	52342	108-Month Clinic Visit	1.0	complete	108	3273
+SUB231185	Atopic	CLN	52342	108-Month Clinic Visit	1.0	complete	108	3280
+SUB231185	Atopic	CLN	52346	120-Month Clinic Visit	1.0	complete	120	3654
+SUB231185	Atopic	CLN	52346	120-Month Clinic Visit	1.0	complete	120	3655
+SUB231185	Atopic	CLN	52346	120-Month Clinic Visit	1.0	complete	120	3654
+SUB231185	Atopic	CLN	52342	108-Month Clinic Visit	1.0	complete	108	3332
+SUB231185	Atopic	CLN	52345	117-Month Call	1.0	complete	117	3534
+SUB231186	Atopic	CLN	52546	120-Month Clinic Visit	1.0	complete	120	3624
+SUB231187	Atopic	CLN	54299	108-Month Clinic Visit	1.0	complete	108	3258
+SUB231188	Atopic	CLN	51788	96-Month Clinic Visit	1.0	complete	96	2909
+SUB231188	Atopic	CLN	51793	111-Month Call	1.0	complete	111	3364
+SUB231188	Atopic	CLN	51788	96-Month Clinic Visit	1.0	complete	96	2909
+SUB231188	Atopic	CLN	51788	96-Month Clinic Visit	1.0	complete	96	2911
+SUB231188	Atopic	CLN	51792	108-Month Clinic Visit	1.0	complete	108	3288
+SUB231188	Atopic	CLN	51788	96-Month Clinic Visit	1.0	complete	96	2911
+SUB231188	Atopic	CLN	51794	114-Month Call	1.0	complete	114	3457
+SUB231188	Atopic	CLN	51788	96-Month Clinic Visit	1.0	complete	96	3006
+SUB231190	Atopic	CLN	51583	96-Month Clinic Visit	1.0	complete	96	2891
+SUB231191	Atopic	CLN	52254	108-Month Clinic Visit	1.0	complete	108	3263
+SUB231192	Atopic	CLN	52726	120-Month Clinic Visit	1.0	complete	120	3666
+SUB231194	Atopic	CLN	52605	96-Month Clinic Visit	1.0	complete	96	2896
+SUB231194	Atopic	CLN	52606	99-Month Call	1.0	complete	99	3033
+SUB231194	Atopic	CLN	52613	120-Month Clinic Visit	1.0	complete	120	3703
+SUB231195	Atopic	CLN	52709	108-Month Clinic Visit	1.0	complete	108	3277
+SUB231196	Atopic	CLN	52683	108-Month Clinic Visit	1.0	complete	108	3260
+SUB231199	Atopic	CLN	53232	120-Month Clinic Visit	1.0	complete	120	3629
+SUB231201	Atopic	CLN	53541	111-Month Call	1.0	complete	111	3363
+SUB231202	Atopic	CLN	53977	114-Month Call	1.0	complete	114	3458
+SUB231203	Atopic	CLN	53781	96-Month Clinic Visit	1.0	complete	96	2895
+SUB231203	Atopic	CLN	53789	120-Month Clinic Visit	1.0	complete	120	3631
+SUB231203	Atopic	CLN	53781	96-Month Clinic Visit	1.0	complete	96	2895
+SUB231206	Atopic	CLN	54478	120-Month Clinic Visit	1.0	complete	120	3634
+SUB231207	Atopic	CLN	54719	120-Month Clinic Visit	1.0	complete	120	3627
+SUB231207	Atopic	CLN	54715	108-Month Clinic Visit	1.0	complete	108	3262
+SUB231207	Atopic	CLN	54715	108-Month Clinic Visit	1.0	complete	108	3262
+SUB231207	Atopic	CLN	54711	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231207	Atopic	CLN	54711	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231210	Atopic	CLN	56319	108-Month Clinic Visit	1.0	complete	108	3264
+SUB231214	Atopic	CLN	55324	120-Month Clinic Visit	1.0	complete	120	3681
+SUB231214	Atopic	CLN	55316	96-Month Clinic Visit	1.0	complete	96	2902
+SUB231215	Atopic	CLN	56209	108-Month Clinic Visit	1.0	complete	108	3286
+SUB231215	Atopic	CLN	56205	96-Month Clinic Visit	1.0	complete	revi	2915
+SUB231215	Atopic	CLN	56209	108-Month Clinic Visit	1.0	complete	108	3278
+SUB231218	Atopic	CLN	55768	108-Month Clinic Visit	1.0	complete	108	3259
+SUB231218	Atopic	CLN	55772	120-Month Clinic Visit	1.0	complete	120	3630
+SUB231219	Atopic	CLN	55785	120-Month Clinic Visit	1.0	complete	120	3630
+SUB231222	Atopic	CLN	59959	108-Month Clinic Visit	1.0	complete	108	3334
+SUB231226	Atopic	CLN	58153	105-Month Call	1.0	complete	105	3183
+SUB231226	Atopic	CLN	58154	108-Month Clinic Visit	1.0	complete	108	3258
+SUB231229	Atopic	CLN	56954	96-Month Clinic Visit	1.0	complete	96	2903
+SUB231229	Atopic	CLN	56961	117-Month Call	1.0	complete	tc	3593
+SUB231229	Atopic	CLN	56958	108-Month Clinic Visit	1.0	complete	108	3266
+SUB231229	Atopic	CLN	56962	120-Month Clinic Visit	1.0	complete	120	3630
+SUB231232	Atopic	CLN	56418	108-Month Clinic Visit	1.0	complete	108	3261
+SUB231232	Atopic	CLN	56422	120-Month Clinic Visit	1.0	complete	120	3663
+SUB231232	Atopic	CLN	56415	99-Month Call	1.0	complete	99	3003
+SUB231233	Atopic	CLN	57194	108-Month Clinic Visit	1.0	complete	108	3267
+SUB231234	Atopic	CLN	56770	120-Month Clinic Visit	1.0	complete	120	3638
+SUB231234	Atopic	CLN	56766	108-Month Clinic Visit	1.0	complete	108	3259
+SUB231235	Atopic	CLN	51517	120-Month Clinic Visit	1.0	complete	120	3709
+SUB231235	Atopic	CLN	51517	120-Month Clinic Visit	1.0	complete	120	3689
+SUB231235	Atopic	CLN	51513	108-Month Clinic Visit	1.0	complete	108	3301
+SUB231235	Atopic	CLN	51509	96-Month Clinic Visit	1.0	complete	96	2890
+SUB231235	Atopic	CLN	51510	99-Month Call	1.0	complete	99	3000
+SUB231236	Atopic	CLN	56634	96-Month Clinic Visit	1.0	complete	96	2896
+SUB231236	Atopic	CLN	56642	120-Month Clinic Visit	1.0	complete	120	3639
+SUB231236	Atopic	CLN	56634	96-Month Clinic Visit	1.0	complete	96	2923
+SUB231237	Atopic	CLN	57131	120-Month Clinic Visit	1.0	complete	120	3625
+SUB231237	Atopic	CLN	57130	117-Month Call	1.0	complete	117	3534
+SUB231241	Atopic	CLN	57956	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231241	Atopic	CLN	57956	96-Month Clinic Visit	1.0	complete	96	2905
+SUB231241	Atopic	CLN	57964	120-Month Clinic Visit	1.0	complete	120	3627
+SUB231242	Atopic	CLN	51685	96-Month Clinic Visit	1.0	complete	96	2908
+SUB231242	Atopic	CLN	51689	108-Month Clinic Visit	1.0	complete	108	3269
+SUB231243	Atopic	CLN	51474	96-Month Clinic Visit	1.0	complete	96	2899
+SUB231246	Atopic	CLN	51662	93-Month Call	1.0	complete	93	2821
+SUB231246	Atopic	CLN	51671	120-Month Clinic Visit	1.0	complete	120	3636
+SUB231246	Atopic	CLN	51670	117-Month Call	1.0	complete	r	3545
+SUB231246	Atopic	CLN	51663	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231246	Atopic	CLN	51666	105-Month Call	1.0	complete	105	3178
+SUB231247	Atopic	CLN	51740	120-Month Clinic Visit	1.0	complete	120	3626
+SUB231249	Atopic	CLN	51944	120-Month Clinic Visit	1.0	complete	120	3625
+SUB231249	Atopic	CLN	51939	105-Month Call	1.0	complete	105	3184
+SUB231251	Atopic	CLN	52020	99-Month Call	1.0	complete	99	3016
+SUB231252	Atopic	CLN	53958	99-Month Call	1.0	complete	99	3014
+SUB231252	Atopic	CLN	53961	108-Month Clinic Visit	1.0	complete	108	3288
+SUB231255	Atopic	CLN	52295	96-Month Clinic Visit	1.0	complete	96	2896
+SUB231255	Atopic	CLN	52298	105-Month Call	1.0	complete	105	3183
+SUB231255	Atopic	CLN	52299	108-Month Clinic Visit	1.0	complete	108	3254
+SUB231255	Atopic	CLN	52303	120-Month Clinic Visit	1.0	complete	120	3667
+SUB231257	Atopic	CLN	52220	96-Month Clinic Visit	1.0	complete	96	2899
+SUB231258	Atopic	CLN	52418	96-Month Clinic Visit	1.0	complete	96	2900
+SUB231262	Atopic	CLN	53395	120-Month Clinic Visit	1.0	complete	120	3653
+SUB231263	Atopic	CLN	52977	108-Month Clinic Visit	1.0	complete	108	3263
+SUB231264	Atopic	CLN	33970	84-Month Clinic Visit	1.0	complete	84	2638
+SUB231265	Atopic	CLN	53621	93-Month Call	1.0	complete	93	2822
+SUB231265	Atopic	CLN	53629	117-Month Call	1.0	complete	117	3550
+SUB231265	Atopic	CLN	53625	105-Month Call	1.0	complete	105	3186
+SUB231265	Atopic	CLN	34571	84-Month Clinic Visit	1.0	complete	84	2782
+SUB231265	Atopic	CLN	61248	Between-Visit Phone Call	1.0	complete	cu	2782
+SUB231265	Atopic	CLN	53624	102-Month Call	1.0	complete	102	3089
+SUB231268	Atopic	CLN	33544	84-Month Clinic Visit	1.0	complete	84	2531
+SUB231268	Atopic	CLN	53794	96-Month Clinic Visit	1.0	complete	96	2959
+SUB231268	Atopic	CLN	53799	111-Month Call	1.0	complete	111	3364
+SUB231268	Atopic	CLN	53800	114-Month Call	1.0	complete	114	3539
+SUB231268	Atopic	CLN	53794	96-Month Clinic Visit	1.0	complete	96	2910
+SUB231270	Atopic	CLN	53697	90-Month Call	1.0	complete	90	2735
+SUB231270	Atopic	CLN	53699	96-Month Clinic Visit	1.0	complete	96	2939
+SUB231270	Atopic	CLN	53699	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231270	Atopic	CLN	53707	120-Month Clinic Visit	1.0	complete	120	3652
+SUB231270	Atopic	CLN	53699	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231274	Atopic	CLN	59297	96-Month Clinic Visit	1.0	complete	96	2914
+SUB231274	Atopic	CLN	59303	114-Month Call	1.0	complete	114	3457
+SUB231274	Atopic	CLN	33737	84-Month Clinic Visit	1.0	complete	84	2540
+SUB231275	Atopic	CLN	54232	108-Month Clinic Visit	1.0	complete	108	3278
+SUB231275	Atopic	CLN	54230	102-Month Call	1.0	complete	102	3141
+SUB231275	Atopic	CLN	54236	120-Month Clinic Visit	1.0	complete	120	3804
+SUB231275	Atopic	CLN	54230	102-Month Call	1.0	complete	102	3087
+SUB231275	Atopic	CLN	54231	105-Month Call	1.0	complete	105	3185
+SUB231275	Atopic	CLN	54228	96-Month Clinic Visit	1.0	complete	96	2898
+SUB231275	Atopic	CLN	54229	99-Month Call	1.0	complete	99	3001
+SUB231277	Non-atopic	CLN	54500	96-Month Clinic Visit	1.0	complete	96	2900
+SUB231277	Non-atopic	CLN	54500	96-Month Clinic Visit	1.0	complete	96	2906
+SUB231278	Non-atopic	CLN	54604	108-Month Clinic Visit	1.0	complete	108	3272
+SUB231278	Non-atopic	CLN	54608	120-Month Clinic Visit	1.0	complete	120	3592
+SUB231278	Non-atopic	CLN	54600	96-Month Clinic Visit	1.0	complete	96	2914
+SUB231279	Atopic	CLN	54341	102-Month Call	1.0	complete	102	3091
+SUB231284	Atopic	CLN	55630	114-Month Call	1.0	complete	114	3461
+SUB231285	Non-atopic	CLN	55945	102-Month Call	1.0	complete	102	3094
+SUB231286	Atopic	CLN	55290	96-Month Clinic Visit	1.0	complete	96	2896
+SUB231287	Non-atopic	CLN	55394	96-Month Clinic Visit	1.0	complete	96	2910
+SUB231287	Non-atopic	CLN	55396	102-Month Call	1.0	complete	102	3092
+SUB231287	Non-atopic	CLN	55394	96-Month Clinic Visit	1.0	complete	96	2932
+SUB231287	Non-atopic	CLN	33934	84-Month Clinic Visit	1.0	complete	84	2545
+SUB231288	Atopic	CLN	37967	81-Month Clinic Visit	1.0	complete	81	2451
+SUB231290	Atopic	CLN	56069	96-Month Clinic Visit	1.0	complete	96	2896
+SUB231290	Atopic	CLN	56066	87-Month Call	1.0	complete	87	2636
+SUB231290	Atopic	CLN	33910	84-Month Clinic Visit	1.0	complete	84	2538
+SUB231290	Atopic	CLN	56073	108-Month Clinic Visit	1.0	complete	108	3259
+SUB231290	Atopic	CLN	56074	111-Month Call	1.0	complete	111	3365
+SUB231291	Atopic	CLN	55924	96-Month Clinic Visit	1.0	complete	96	2905
+SUB231292	Atopic	CLN	55824	108-Month Clinic Visit	1.0	complete	108	3260
+SUB231292	Atopic	CLN	36264	84-Month Clinic Visit	1.0	complete	84	2535
+SUB231292	Atopic	CLN	55820	96-Month Clinic Visit	1.0	complete	96	2897
+SUB231292	Atopic	CLN	55821	99-Month Call	1.0	complete	99	2996
+SUB231292	Atopic	CLN	55820	96-Month Clinic Visit	1.0	complete	96	2924
+SUB231293	Atopic	CLN	53653	96-Month Clinic Visit	1.0	complete	96	2944
+SUB231297	Atopic	CLN	53118	96-Month Clinic Visit	1.0	complete	96	2960
+SUB231332	Atopic	CLN	54019	96-Month Clinic Visit	1.0	complete	96	2933
+SUB231373	Atopic	CLN	56180	96-Month Clinic Visit	1.0	complete	96	2971
+SUB231380	Atopic	CLN	57450	96-Month Clinic Visit	1.0	complete	96	2985
+SUB231383	Atopic	CLN	52069	96-Month Clinic Visit	1.0	complete	96	2968
+SUB231383	Atopic	CLN	52069	96-Month Clinic Visit	1.0	complete	96	2968
+SUB231445	Atopic	CLN	37725	84-Month Clinic Visit	1.0	complete	84	2657
+SUB231449	Atopic	CLN	36550	84-Month Clinic Visit	1.0	complete	84	2735
+SUB231456	Non-atopic	CLN	57269	96-Month Clinic Visit	1.0	complete	96	2905
+SUB231456	Non-atopic	CLN	57269	96-Month Clinic Visit	1.0	complete	96	2905

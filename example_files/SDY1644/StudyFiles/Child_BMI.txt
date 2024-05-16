@@ -1,0 +1,577 @@
+﻿proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2017 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   A Calatroni         03/14/2011      Derive BMI
+*   Andrew Moseby       31JUL2017       Add WHO data for age 0-2
+*   A Calatroni         10Octo2017      Update code to include all CDC & WHO data
+*                                       Shiny app to check: http://apps.cpeg-gcep.net/quickZ_WHO/
+*   Andrew Moseby       16OCT2017       Add 3-month height and weight from master.w_cwl
+*   Andrew Moseby       05DEC2017       Remove duplicates coming from w_cwl (m12)
+*   Andrew Moseby       12DEC2017       Added child_bmi variable combining z scores from CDC and WHO
+*   Alexandre Lockhart  07NOV2018       Updated child_bmi variable to convert from weight z score to bmi z score
+*******************************************************************************;
+
+**** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=Child_BMI,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+libname refdir 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+proc sort data = derive.allz out = allz; by studyid; run;
+
+/*********************************************************************************************
+* Set Physical Examination and Physical Examination 2 (avisit > 48, i.e rename variables
+**********************************************************************************************/
+data pe;
+set master.pe 
+    master.pe2(rename=(pe2_q4b4=pe_q4b4 
+                       pe2_q5=pe_q5
+                       pe2_q4b1=pe_q4b1
+                       pe2_q4b2=pe_q4b2
+                       pe2_q4b3=pe_q4b3));
+run;
+
+proc freq data=pe; table event avisit; run;
+
+proc sort data=pe; by studyid; run;
+proc sort data=master.p_base out=p_base_sorted; by studyid; run;
+proc sort data = master.w_cwl out = cwl; by studyid; run;
+
+
+data cwl2 getridof;
+   set cwl;
+   where nmiss(w_cwl_q2d, w_cwl_q5a, w_cwl_q5c, w_cwl_q3, w_cwl_q5b1, w_cwl_q5b2, w_cwl_q5d) < 7;
+   if missing(w_cwl_q2d) and not missing(w_cwl_q5a) then w_cwl_q2d = 2.54*w_cwl_q5a; *converting inches to cm;
+   if missing(w_cwl_q2d) and not missing(w_cwl_q5c) then w_cwl_q2d = w_cwl_q5c;
+   if missing(w_cwl_q3) and not missing(w_cwl_q5b1) and not missing(w_cwl_q5b2) then w_cwl_q3 = .4536*w_cwl_q5b1 + .02835*w_cwl_q5b2; *converting lbs/oz to kg;
+   if missing(w_cwl_q3) and not missing(w_cwl_q5d) then w_cwl_q3 = w_cwl_q5d;
+   recumbnt = 1;
+   if event = '12-Month Clinic Visit' and (missing(w_cwl_q5e) or w_cwl_q5e = acompletiondate) then output getridof;
+   else output cwl2;
+run;
+
+data cwl2;
+   set cwl2;
+   if not missing(w_cwl_q5e) then acompletiondate = w_cwl_q5e;
+run;
+
+*merge in dob;
+proc sort data=derive.birthrecord (keep=StudyID date_birth) out=br; by studyid; run;
+
+data cwl3; 
+   merge cwl2(in=a) br; 
+   if a;
+   by studyid; 
+   agedays = intck('day',date_birth,aCompletionDate);
+  *hardcodes here have been removed to protect patient confidentiality;
+   if agemos > 7 then delete; 
+   event = '3-Month Clinic Visit'; 
+   avisit = '3'; 
+run;
+
+
+
+proc sort data = cwl3; by studyid event W_CWL_q1; run;
+proc sort data = cwl3 nodupkey dupout = dups; by studyid event; run;
+proc freq data=cwl3; table  avisit; run;
+
+
+data pe3;
+   set 
+      pe 
+      cwl3
+         (
+/*         where = (event in '3-Month Home Visit', 'Pollution Monitoring Pickup') */
+         rename = (w_cwl_q2d=pe_q4b4 w_cwl_q3=pe_q5) 
+         )
+      ;
+     drop agedays agemos date_birth; 
+run;
+
+proc sort data = pe3 nodupkey dupout = dups; by studyid event; run;
+proc freq data=pe3; table  avisit; run;
+
+/*********************************************************************************************
+* Merge to get gender and date of Birth
+**********************************************************************************************/
+DATA pe1;
+   merge p_base_sorted (keep=studyid gender date_birth) 
+         pe3 (rename=(avisit=avisit_char));
+   by studyid;
+
+   if avisit_char = 'pm' then avisit_char = '3';
+   avisit = input(put(avisit_char,$8.),8.);
+
+   /* Drop variables without data */
+   if studyid ne '.a' and astudyid ne '.x';
+   if acompletionDate > .z;
+
+   /* Recode gender for use in the CDC macro */
+        IF gender='m' THEN SEX=1;
+   ELSE IF gender='f' THEN SEX=2;
+   ELSE SEX=.m;
+   
+   /* Create age in months for CDC macro */
+    *agemos = intck('month',date_birth,aCompletionDate) - (day(aCompletionDate) < day(date_birth));
+    *IF missing(AGEMOS)=1 THEN AGEMOS=.m;
+   *IF AGEMOS=23 THEN AGEMOS=24;
+   agedays = intck('day',date_birth,aCompletionDate);
+   agemos =  agedays/30.4375;
+   
+   *Round the kids who are almost 2 up to 24 mo so they will get a BMI % ;
+   *IF AGEMOS=23 THEN AGEMOS=24;
+
+   /* Average head circumference */
+   headcir=mean(PE_q3a, PE_q3b);
+
+   *hardcodes here have been removed to protect patient confidentiality;
+      PE_q5=((52.5 + 39.8)/2) ;
+   end ;
+
+   /* Choose recumbnt=0 if available*/
+   if pe_q4a4 > .z and pe_q4b4 < .z then do; height=pe_q4a4; recumbnt=1; end;
+   if pe_q4a4 > .z and pe_q4b4 > .z then do; height=pe_q4b4; recumbnt=0; end;
+   if pe_q4a4 < .z and pe_q4b4 > .z then do; height=pe_q4b4; recumbnt=0; end;
+
+   /* Renaming variables during the w_cwl merge above made the above code set recumbnt to unwanted values*/
+   if agemos < 12 then recumbnt = 1;
+
+   rename PE_q5 = weight pe2_q5_2=waist 
+          pe_q4b1=height_1 pe_q4b2=height_2 pe_q4b3=height_3
+          pe_q4a1=length_1 pe_q4a2=length_2 pe_q4a3=length_3 
+          pe_q3a=headcir_1 pe_q3b=headcir_2;
+   keep studyid gender sex avisit aCompletionDate date_birth agemos agedays
+        pe_q4a1 pe_q4a2 pe_q4a3 PE_q4a4 pe_q4b4 pe_q5 headcir pe2_q5_2 pe_q4b1 pe_q4b2 pe_q4b3
+        pe_q3a pe_q3b recumbnt height;
+
+run;
+
+/*********************************************************************************************
+* Reorder/ReName/Relabel data
+**********************************************************************************************/
+proc sql;
+ create table pe2 as
+ select studyid, avisit, aCompletionDate,date_birth,agemos, agedays, sex,
+        pe_q4a4 as height_l label="Height (Length) in centimeters", 
+        pe_q4b4 as height_s label="Height (Standing) in centimeters", 
+        recumbnt,height,weight,headcir,waist
+ from pe1;
+quit;
+
+/*********************************************************************************************
+* Manual height and weight changes - SL 6/7/18
+**********************************************************************************************/
+
+data pe3; 
+   set pe2; 
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+/*********************************************************************************************
+* Include Height and weight from birth record - SL 6/7/18
+**********************************************************************************************/
+data vis0;
+   merge derive.birthrecord; 
+   by studyid;
+   avisit_new = 0;
+
+   *recode sex;
+   if birth_sex = 0 then sex = 2;
+   if birth_sex = 1 then sex = 1;
+
+   keep studyid aCompletionDate date_birth sex event avisit_new birth_weight birth_length head_circ recumbnt agemos agedays; 
+   rename 
+          birth_weight = weight
+          birth_length = height
+          head_circ = headcir
+          avisit_new = avisit;
+
+   *convert weight in grams to kg;
+   birth_weight = birth_weight/1000;
+   recumbnt = 1;
+   agemos = 0; 
+   agedays = 0;
+
+run;
+
+proc sort data=vis0 nodupkey dupout= brdups; by studyid; run;
+
+/*********************************************************************************************
+* Combine birth record and all other years- SL 6/7/18
+**********************************************************************************************/
+data pe4; 
+   set pe3 vis0; 
+run;
+
+
+proc freq data=pe4; table avisit; run;
+
+/*********************************************************************************************
+* CDC
+**********************************************************************************************/
+libname refdir 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI\CDC';
+
+data mydata;
+ set pe4;
+ bmi=weight/(height/100)**2;
+ keep studyid avisit agemos agedays sex height weight headcir recumbnt waist bmi;
+run;
+
+%include 'S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI\CDC\CDC-source-code.sas'; run;
+
+data _cdcdata;
+ set _cdcdata;
+ /* details here: https://www.cdc.gov/nccdphp/dnpao/growthcharts/resources/sas.htm */
+ rename
+ wapct    = wapct_CDC
+ hapct    = hapct_CDC
+ whpct    = whpct_CDC
+ bmipct   = bmipct_CDC
+ headcpct = headcpct_CDC
+ 
+ waz     = waz_CDC
+ haz     = haz_CDC
+ whz     = whz_CDC
+ bmiz    = bmiz_CDC
+ headcz  = headcz_CDC
+ 
+ _Fwaz     = _Fwaz_CDC
+ _Fhaz     = _Fhaz_CDC
+ _Fwhz     = _Fwhz_CDC
+ _Fbmiz    = _Fbmiz_CDC
+ _Fheadcz  = _Fheadcz_CDC
+ 
+ _bivwt   = _bivwt_CDC
+ _bivht   = _bivht_CDC
+ _bivwh   = _bivwh_CDC
+ _bivbmi  = _bivbmi_CDC
+ _bivhc   = _bivhc_CDC
+ _bivlow  = _bivlow_CDC
+ _bivhigh = _bivhigh_CDC
+ 
+ bmi95     = bmi95_CDC
+ bmipct95  = bmipct95_CDC
+ bmidif95  = bmidif95_CDC
+ bmi50     = bmi50_CDC;
+run;
+
+/*********************************************************************************************
+* WHO (0 to 5)
+**********************************************************************************************/
+data derive.mydata2;
+ set mydata;
+ if recumbnt = 1 then recumbnt2="l";
+ if recumbnt = 0 then recumbnt2="h";
+ keep studyid avisit agemos agedays sex height weight headcir recumbnt2 waist bmi;
+run;
+
+%include "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI\WHO\_0to5\igrowup_standard.sas";
+
+%igrowup_standard(
+ LABEL="URECA WHO",
+ REF_LIB   = S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI\WHO\_0to5,
+ DATA_LIB  = S:\RhoFED\ICAC\Studies\URECA\Data\Derive,
+ DATA_IN   = mydata2,
+ SEX       = sex,
+ AGE       = agedays,
+ AGE_UNIT  = days,
+ WEIGHT    = weight,
+ LENHEI    = height,
+ HEADC     = headcir,
+ MEASURE   = recumbnt2);
+ 
+/*********************************************************************************************
+* WHO (6 to 19)
+**********************************************************************************************/
+%include "S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI\WHO\_6to19\WHO2007.sas"; run;
+
+%WHO2007(
+LABEL    ="An example survey for WHO 2007",
+REF_LIB  = S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\BMI\WHO\_6to19,
+DATA_LIB = S:\RhoFED\ICAC\Studies\URECA\Data\Derive,
+DATA_IN   = mydata2,
+ SEX       = sex,
+ AGE       = agedays,
+ AGE_UNIT  = days,
+ WEIGHT    = weight,
+ HEIGHT    = height);
+ 
+/*********************************************************************************************
+* Merge
+**********************************************************************************************/
+proc sort data=derive.mydata2_z_st; by studyid avisit;
+proc sort data=derive.mydata2_z;    by studyid avisit; run;
+data _whodata;
+ set    derive.mydata2_z_st (where= (agedays <  1857) drop = sex -- recumbnt2 _agedays)
+        derive.mydata2_z    (where= (agedays >= 1857) 
+                             drop = sex -- recumbnt2 _agemons
+                             rename = (_ZWFA = _ZWEI
+                                       _ZHFA = _ZLEN
+                                       _ZBFA = _ZBMI
+                                       _FWFA = _FWEI
+                                       _FHFA = _FLEN
+                                       _FBFA = _FBMI));
+ by studyid avisit;
+ 
+ rename 
+  _CLENHEI = _CLENHEI_WHO
+  _CBMI   = _CBMI_WHO
+  _ZWEI   = _ZWEI_WHO
+  _ZLEN   = _ZLEN_WHO
+  _ZWFL   = _ZWFL_WHO    
+  _ZBMI   = _ZBMI_WHO    
+  _ZHC    = _ZHC_WHO   
+  _FWEI   = _FWEI_WHO    
+  _FLEN   = _FLEN_WHO    
+  _FLEN   = _FWFL_WHO    
+  _FBMI   = _FBMI_WHO    
+  _FHC    = _FHC_WHO
+  _FWFL   = _FWFL_WHO
+  _FHC    = _FHC_WHO;   
+run;
+
+/* 0 to 5; 
+ _AGEDAYS calculated age in days for deriving z-score
+ _CLENHEI converted length/height (cm) for deriving z-score
+ _CBMI calculated BMI=weight / squared (_CLENHEI)
+ _ZWEI: Weight-for-age z-score
+ _ZLEN: Length/height-for-age z-score
+ _ZWFL Weight-for-length/height z-score
+ _ZBMI BMI-for-age z-score
+ _ZHC Head circumference-for-age z-score
+ _ZAC Arm circumference-for-age z-score
+ _ZTS Triceps skinfold-for-age z-score
+ _ZSS Subscapular skinfold-for-age z-score
+ _FWEI Flag for _ZWEI<-6 or _ZWEI>5
+ _FLEN Flag for _ZLEN<-6 or _ZLEN>6
+ _FWFL Flag for _ZWFL<-5 or _ZWFL>5
+ _FBMI Flag for _ZBMI<-5 or _ZBMI>5
+ _FHC Flag for _ZHC<-5 or _ZHC>5
+ _FAC Flag for _ZAC<-5 or _ZAC>5
+ _FTS Flag for _ZTS<-5 or _ZTS>5
+ _FSS Flag for _ZSS<-5 or _ZSS>5 */
+ 
+/* 6 to 19;
+ _CBMI calculated BMI=weight / squared (height)
+_ZWFA Weight-for-age z-score
+_ZHFA Height-for-age z-score
+_ZBFA BMI-for-age z-score
+_FWFA Flag for _ZWFA<-6 or _ZWFA>5
+_FHFA Flag for _ZHFA<-6 or _ZHFA>6
+_FBFA Flag for _ZBFA<-5 or _ZBFA>5 */
+
+
+/*********************************************************************************************
+* Clean Space
+**********************************************************************************************/
+proc contents data=_whodata position; run; 
+
+proc datasets library=derive;
+ delete mydata2 mydata2_z mydata2_prev_st mydata2_z_st;
+run;
+
+FILENAME MyFile "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\mydata2_z.csv";
+DATA _NULL_ ; rc = FDELETE('MyFile'); RUN;
+FILENAME MyFile CLEAR;
+
+FILENAME MyFile "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\mydata2_z_st.csv";
+DATA _NULL_ ; rc = FDELETE('MyFile'); RUN;
+FILENAME MyFile CLEAR;
+
+FILENAME MyFile "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\mydata2_prev.rtf";
+DATA _NULL_ ; rc = FDELETE('MyFile'); RUN;
+FILENAME MyFile CLEAR;
+
+FILENAME MyFile "S:\RhoFED\ICAC\Studies\URECA\Data\Derive\mydata2_prev_st.rtf";
+DATA _NULL_ ; rc = FDELETE('MyFile'); RUN;
+FILENAME MyFile CLEAR;
+
+/*********************************************************************************************
+* Merge CDC WHO
+**********************************************************************************************/
+proc sort data=_cdcdata; by studyid avisit;
+proc sort data=_whodata; by studyid avisit;
+
+data child_bmi;
+ merge _cdcdata 
+       _whodata (drop = agemos agedays);
+ by studyid avisit;
+run;
+
+/*************************************************************************************
+ Check Duplicates and set all age 7 visit to avisit=84
+**************************************************************************************/
+data child_bmi ;
+   set child_bmi ;
+
+   ***Manual fixes for dups - should only have either 81 or 84 (get rid of 84) ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   avisit_actual=avisit ;
+   if avisit in (81,84) then avisit=84 ;
+   if avisit = 12 and agedays < 180 then avisit = 3;
+run ;
+
+***No dups as of 09/04/2014 through age 7 -- avisit81 ;
+proc sort nodupkey data=child_bmi out=clean dupout=dups; by studyid avisit;
+run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell60;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 0, 3,12,24,36,48,60,72,84,96,108,120;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (87, 90, 93, 96) then year=8;
+  if avisit in (99,102,105,108) then year=9;
+  if avisit in (111,114,117,120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year group;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell60; by studyid avisit ; run ;
+proc sort data=child_bmi;    by studyid avisit ; run ;
+
+data child_bmi2;
+ merge shell60 child_bmi (in=c);
+ by studyid avisit;
+ format site $site.;
+ if c=1 then child_bmi=1; else child_bmi=0;
+run;
+
+
+*Temporary temp data derive ds;
+/*libname a 'S:\RhoFED\ICAC\Studies\URECA\Data\Derive.RESTORE_06.25.2018 (March 2017)' access=readonly;
+data old;
+   set a.child_bmi;
+run; */
+   
+
+data child_bmi3;
+   set child_bmi2;
+
+   if year in (0 1 2)            then bmi_z = _zbmi_who;
+   else if year in (3 4 5 6 7 8 9 10) then bmi_z = bmiz_CDC;
+
+   label bmi_z = 'z-score taken from WHO for age <=2 and CDC for age >2'
+         recumbnt = '1 if height from length 2 if standing height';
+
+run;
+proc print data=child_bmi3;
+   var studyid year avisit bmi_z _zbmi_who bmiz_CDC _zwei_who waz_CDC;
+run;
+
+
+
+data derive.child_bmi;
+   set child_bmi3;
+
+   /*
+        if year in (0 1 2)            then bmi_z = _zwei_who;
+   else if year in (3 4 5 6 7 8 9 10) then bmi_z = waz_CDC; */
+
+
+ 
+run;
+proc print data=derive.child_bmi;
+   var studyid year avisit bmi bmi_z bmipct_cdc;
+run;
+
+
+proc sort data = derive.child_bmi; by studyid avisit; run;
+
+proc freq data=derive.child_bmi; table avisit*child_bmi; run;
+*** 3. Codebook ****************************************************************;
+/*%include 'S:\BASESTAT\RhoUtil\gitGot.sas';*/
+/*    %gitGot*/
+/*        (repo = https://github.com/RhoInc/sas-codebook*/
+/*        ,folder = Macros);*/
+/*        */
+/*%codebook_generic*/
+/*        (data = derive.child_bmi*/
+/*        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);*/
+/**/
+/**** 4. Save Log and Output ****************************************************;*/
+/*quit;*/
+/*dm out  "file &gpgmpath\&gprog..lst replace";*/
+/*dm log  "file &gpgmpath\&gprog..log replace" log;*/
+/**/
+/**/
+/*ods select Position;*/
+/*proc contents data=derive.child_bmi position; run;*/
+/*run;*/
+/*ods select default;*/
+
+
+proc sort data = derive.child_bmi out=chk(rename=(BMIPCT_CDC=bmipct bmi_z=bmiz)); by studyid avisit; run;
+
+libname a 'S:\RhoFED\ICAC\Studies\URECA\Manuscripts\LBacharier01\v1.0\dat\der' access=readonly;
+
+proc sort data = a.lb_anly_long out=prior; by studyid avisit; run;
+
+proc compare base=chk compare=prior;
+   id studyid avisit bmiz;
+run;
+
+
+libname b 'S:\RhoFED\ICAC\Studies\URECA\Manuscripts\Pheno_10Year\v1.0\dat\der' access=readonly;
+
+proc sort data = b.anly_long out=current(rename=(BMIPCT_CDC=bmipct bmi_z=bmiZ)); by studyid avisit; run;
+
+proc compare base=prior compare=current maxprint=500;
+   id studyid avisit;
+   var bmiZ ;
+run;
+
+
+
+proc print data=b.anly_long;
+   var studyid year avisit bmi bmi_z ;
+run;
+
+proc print data=derive.child_bmi;
+   var studyid year avisit bmi bmi_z _zbmi_who bmiz_CDC ;
+run;
+
+
+proc compare base=derive.child_bmi compare=b.anly_long maxprint=50;
+   id studyid year avisit;
+   var bmi bmi_z _zbmi_who bmiz_CDC _zwei_who waz_CDC ;
+run;

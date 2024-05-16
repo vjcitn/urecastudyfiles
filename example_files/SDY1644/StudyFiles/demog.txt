@@ -1,0 +1,1021 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2002 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness         04/28/05        Created Program
+*                  07/19/05      Added baby's race from Form 37
+*                  03/07/07      Changed coding to not count more than one hispanic
+*                              choice as "mixed". Changed short format for race
+*                              to break "mixed" out as a separate category.
+*                  09/25/07      Created new variable to match census categories
+*                  02/21/08      Add code to assume baby's race from parents if missing
+*
+*   K. Jaffee         06/23/11      Change template, variable names, updates   
+*   K. Jaffee         06/27/11      Add z-score birth weight data
+*   K. Jaffee         11/18/14      Add racial designations from site
+*   M. Barton         09/20/17      Fixed a couple of errors and warnings, new codebook.
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=demog,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+***Prenatal only - derive race variables that are only asked at prenatal and don't ever change ;
+data df_0 ;
+   set master.df ;
+
+   where avisit="p" ;
+   where also studyid ne '.m';
+
+   mom_numrace=sum(df_q10b1, df_q10b2, df_q10b3, df_q10b4, df_q10b5, df_q10b6, df_q10b7,
+   df_q10b8, df_q10b9, df_q10b10, df_q10b11);
+
+   mom_hispsum=sum(df_q10b1, df_q10b2, df_q10b3, df_q10b4, df_q10b5);
+
+   mom_blacksum=sum(df_q10b6, df_q10b7);
+
+   dad_numrace=sum(df_q11b1, df_q11b2, df_q11b3, df_q11b4, df_q11b5, df_q11b6, df_q11b7,
+   df_q11b8, df_q11b9, df_q11b10, df_q11b11);
+
+   dad_hispsum=sum(df_q11b1, df_q11b2, df_q11b3, df_q11b4, df_q11b5);
+
+   dad_blacksum=sum(df_q11b6, df_q11b7);
+
+   if (mom_numrace=1 or mom_hispsum=mom_numrace) and 
+      (df_q10b1=1 or df_q10b2=1 or df_q10b3=1 or 
+      df_q10b4=1 or df_q10b5=1) 
+   then momrace=1;
+   else if (mom_numrace=1 or mom_blacksum=mom_numrace) and 
+          (df_q10b6=1 or df_q10b7=1) 
+   then momrace=2;
+   else if mom_numrace=1 and df_q10b8=1 
+   then momrace=3;
+   else if mom_numrace=1 and df_q10b9=1 
+   then momrace=4;
+   else if mom_numrace=1 and df_q10b10=1 
+   then momrace=5;
+   else if mom_numrace=1 and df_q10b11=1 
+   then momrace=7;
+   else if mom_numrace>1 
+   then momrace=6;
+
+   if (dad_numrace=1 or dad_hispsum=dad_numrace) and 
+      (df_q11b1=1 or df_q11b2=1 or df_q11b3=1 or 
+      df_q11b4=1 or df_q11b5=1) 
+   then dadrace=1;
+   else if (dad_numrace=1 or dad_blacksum=dad_numrace) and 
+          (df_q11b6=1 or df_q11b7=1) 
+   then dadrace=2;
+   else if dad_numrace=1 and df_q11b8=1 
+   then dadrace=3;
+   else if dad_numrace=1 and df_q11b9=1 
+   then dadrace=4;
+   else if dad_numrace=1 and df_q11b10=1 
+   then dadrace=5;
+   else if dad_numrace=1 and df_q11b11=1 
+   then dadrace=7;
+   else if dad_numrace>1 
+   then dadrace=6;
+
+   if momrace=6 then momrace2=3;
+   else if momrace in (3, 4, 5, 7) then momrace2=4;
+   else momrace2=momrace;
+
+   if dadrace=6 then dadrace2=3;
+   else if dadrace in (3, 4, 5, 7) then dadrace2=4;
+   else dadrace2=dadrace;
+
+   if (df_q10b1=1 or df_q10b2=1 or df_q10b3=1 or df_q10b4=1 or df_q10b5=1) 
+   then mom_hispanic=1;
+   else if momrace > .z then mom_hispanic=0;
+   if (df_q11b1=1 or df_q11b2=1 or df_q11b3=1 or df_q11b4=1 or df_q11b5=1) 
+   then dad_hispanic=1;
+   else if dadrace > .z then dad_hispanic=0;
+   if (df_q10b6=1 or df_q10b7=1) then mom_black=1;
+   else if momrace > .z then mom_black=0;
+   if (df_q11b6=1 or df_q11b7=1) then dad_black=1;
+   else if dadrace > .z then dad_black=0;
+
+   **census categories - PRIMARY race definitions to be used ;
+   if mom_hispanic=1 then momrace3=1;
+   else if momrace in (4, 5, 7) then momrace3=5;
+   else momrace3=momrace;
+   if dad_hispanic=1 then dadrace3=1;
+   else if dadrace in (4, 5, 7) then dadrace3=5;
+   else dadrace3=dadrace;
+
+   format momrace3 dadrace3 racec.;
+   format momrace dadrace racel.;
+   format momrace2 dadrace2 races.;
+   format mom_hispanic dad_hispanic mom_black dad_black yesnofm.;
+
+   label   mom_numrace="Number of race/ethnicity categories mentioned for mother"
+         dad_numrace="Number of race/ethnicity categories mentioned for father"
+         mom_hispsum="Number of hispanic ethnicities mentioned by mother" 
+         mom_blacksum="Number of black races mentioned by mother" 
+         dad_hispsum="Number of hispanic ethnicities mentioned by father"
+         dad_blacksum="Number of black races mentioned by father" 
+         momrace   ="Mother's race/ethnicity"
+         dadrace   ="Father's race/ethnicity"
+         momrace2="Mother's race/ethnicity-short list"
+         dadrace2="Father's race/ethnicity-short list"
+         momrace3="Mother's race/ethnicity-census categories"
+         dadrace3="Father's race/ethnicity-census categories"
+         mom_hispanic="Mother is Hispanic"
+         dad_hispanic="Father is Hispanic"
+         mom_black="Mother is black"
+         dad_black="Father is black";
+
+   drop recruitid aStudyID aRcrtID avisit event ;
+run ;
+
+***DF1 ;
+data df ;
+   set master.df (rename=(avisit=avisit_char));
+
+   if avisit_char="p" then avisit_char="0" ;
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename 
+   DF_q1a=currhome_time 
+   DF_q1a1=currhome_yrs 
+   DF_q1a2=currhome_mos
+
+   DF_q2=currhome_totppl
+   DF_q2a=currhome_totadult
+   DF_q3=currhome_othchildren
+   DF_q3a=currhome_num_othchildren
+   DF_q3b1=age_1styoung_yrs
+   DF_q3b2=age_1styoung_mos
+   DF_q3c1=age_2ndyoung_yrs
+   DF_q3c2=age_2ndyoung_mos 
+   DF_q3d1=age_3rdyoung_yrs
+   DF_q3d2=age_3rdyoung_mos
+   DF_q3e1=age_4thyoung_yrs
+   DF_q3e2=age_4thyoung_mos 
+   DF_q3f1=age_5thyoung_yrs
+   DF_q3f2=age_5thyoung_mos
+
+   DF_q4=mom_educ 
+   DF_q5=mom_marital
+   DF_q5a1=mom_maritalspec 
+   DF_q6=mom_healthinsur
+   DF_q6a=healthinsur_type
+   DF_q7=adults_totemploy
+   DF_q8=hh_income
+   DF_q9=mom_wic ;
+
+   where studyid ne '.m';
+
+   drop recruitid aStudyID aRcrtID avisit_char DF_q10a--DF_q11b11 ;
+run ;
+
+***DF2 ;
+data df2 ;
+   set master.df2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename 
+   DF2_q1a=currhome_time 
+   DF2_q1a1=currhome_yrs 
+   DF2_q1a2=currhome_mos
+
+   DF2_q2=currhome_totppl
+   DF2_q2a=currhome_totadult
+   DF2_q3=currhome_othchildren
+   DF2_q3a=currhome_num_othchildren
+   DF2_q3b1=age_1styoung_yrs
+   DF2_q3b2=age_1styoung_mos
+   DF2_q3c1=age_2ndyoung_yrs
+   DF2_q3c2=age_2ndyoung_mos 
+   DF2_q3d1=age_3rdyoung_yrs
+   DF2_q3d2=age_3rdyoung_mos
+   DF2_q3e1=age_4thyoung_yrs
+   DF2_q3e2=age_4thyoung_mos 
+   DF2_q3f1=age_5thyoung_yrs
+   DF2_q3f2=age_5thyoung_mos
+
+   DF2_q4=mom_educ 
+   DF2_q5=mom_marital
+   DF2_q5a1=mom_maritalspec 
+   DF2_q6=mom_healthinsur
+   DF2_q6a=healthinsur_type
+   DF2_q7=adults_totemploy
+   DF2_q8=hh_income
+   DF2_q9=mom_wic ;
+
+   drop recruitid aStudyID avisit_char ;
+run ;
+
+***Set DF1 and DF2 ;
+data df_all ;
+   set df df2 ;
+   **eliminate records that have all missing data - where the df form never completed ;
+   if acompletiondate<0 then delete ;
+run ;
+
+***Merge so "race" is on every record ;
+proc sort data=df_all ; by studyid  ; run ;
+proc sort data=df_0  ; by studyid  ; run ; 
+
+data df_all_0;
+  merge df_all(drop=hh_income) df_0(keep=studyid mom_numrace dad_numrace momrace momrace2 momrace3 
+                   dadrace dadrace2 dadrace3 mom_hispanic dad_hispanic mom_black dad_black);
+  by studyid ;
+
+  rename acompletiondate=acompletiondate_df ;
+run;
+
+proc sort data=df_all_0 ; by studyid avisit ; run ;
+
+data demog ;
+   set df_all_0 ;
+
+   if currhome_yrs > .z and currhome_mos < 0 then currhome_mos=0;     *if years are given but months=.d, don't add months;
+   currhome_residyrs=round(((currhome_yrs*12)+currhome_mos)/12,.1);   *round to nearest 10th of a year;
+   
+   if currhome_othchildren=0 then currhome_num_othchildren=0;
+
+   ***Age of all other children in home ;
+   if age_1styoung_yrs > .z and age_1styoung_mos < 0 then age_1styoung_mos=0; *if years are given but months=.d, don't add months;
+      age1st=round(((age_1styoung_yrs*12)+age_1styoung_mos)/12,.1);            *round to nearest 10th of a year;
+
+   if age_2ndyoung_yrs > .z and age_2ndyoung_mos < 0 then age_2ndyoung_mos=0; *if years are given but months=.d, don't add months;
+      age2nd=round(((age_2ndyoung_yrs*12)+age_2ndyoung_mos)/12,.1);            *round to nearest 10th of a year;
+
+   if age_3rdyoung_yrs > .z and age_3rdyoung_mos < 0 then age_3rdyoung_mos=0; *if years are given but months=.d, don't add months;
+      age3rd=round(((age_3rdyoung_yrs*12)+age_3rdyoung_mos)/12,.1);           *round to nearest 10th of a year;
+
+   if age_4thyoung_yrs > .z and age_4thyoung_mos < 0 then age_4thyoung_mos=0; *if years are given but months=.d, don't add months;
+      age4th=round(((age_4thyoung_yrs*12)+age_4thyoung_mos)/12,.1);           *round to nearest 10th of a year;
+
+   if age_5thyoung_yrs > .z and age_5thyoung_mos < 0 then age_5thyoung_mos=0; *if years are given but months=.d, don't add months;
+      age5th=round(((age_5thyoung_yrs*12)+age_5thyoung_mos)/12,.1);           *round to nearest 10th of a year;
+
+   **Derive # kids <=5 years old in the home ;
+   array kids(5) age1st age2nd age3rd age4th age5th;
+   child5=0;
+   do i= 1 to 5;
+   if . < kids(i) <= 5 then child5+1;
+   end;
+ 
+   ***Education category ;
+   if .z < mom_educ <= 11 then mom_educcat=1;
+   if mom_educ=12 then mom_educcat=2;
+   if 13 <= mom_educ <= 15 then mom_educcat=3;
+
+   ***Mother is married? ;
+   if mom_marital in(3, 4) then mom_married=1;
+   else if mom_marital > .z then mom_married=0;
+ 
+   ***Does an adult have a reg paying job ;
+   if adults_totemploy=0 then adults_regjob=0;
+   else if adults_totemploy > 0 then adults_regjob=1;
+
+   label    currhome_residyrs   ="Years lived at current address"
+         age1st   ="Age of youngest child"
+         age2nd   ="Age of 2nd youngest child"
+         age3rd   ="Age of 3rd youngest child"
+         age4th   ="Age of 4th youngest child"
+         age5th   ="Age of 5th youngest child" 
+         child5="Number of children in household age 5 and under" 
+         mom_educcat="Mother's education level"
+         mom_married="Participant is married"
+         adults_regjob="Does an adult have a regular paying job?" ;
+
+   format adults_regjob mom_married yesnofm. mom_educcat edfm. ;
+
+   drop i age_1styoung_yrs age_1styoung_mos age_2ndyoung_yrs age_2ndyoung_mos age_3rdyoung_yrs age_3rdyoung_mos age_4thyoung_yrs 
+       age_4thyoung_mos age_5thyoung_yrs age_5thyoung_mos ;
+run ;
+
+proc transpose data=df_all out=income prefix=hh_income_ ;
+   by studyid ;
+   var hh_income ;
+   id avisit ;
+run ;
+
+data income_only ;   
+   set income ;
+
+   if hh_income_0 < 0 
+      then hh_income_0 = hh_income_12 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 
+      then hh_income_0 = hh_income_24 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 
+      then hh_income_0 = hh_income_36 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 
+      then hh_income_0 = hh_income_48 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 and hh_income_48 < 0 
+      then hh_income_0 = hh_income_60 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 and hh_income_48 < 0 and hh_income_60 < 0 
+      then hh_income_0 = hh_income_72 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 and hh_income_48 < 0 and hh_income_60 < 0 and hh_income_72 < 0 
+      then hh_income_0 = hh_income_84 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 and hh_income_48 < 0 and hh_income_60 < 0 and hh_income_72 < 0 and hh_income_84 < 0
+      then hh_income_0 = hh_income_96 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 and hh_income_48 < 0 and hh_income_60 < 0 and hh_income_72 < 0 and hh_income_84 < 0 and hh_income_96 < 0 
+      then hh_income_0 = hh_income_108 ;
+   if hh_income_0 < 0 and hh_income_12 < 0 and hh_income_24 < 0 and hh_income_36 < 0 and hh_income_48 < 0 and hh_income_60 < 0 and hh_income_72 < 0 and hh_income_84 < 0 and hh_income_96 < 0 and hh_income_108 < 0 
+      then hh_income_0 = hh_income_120 ;
+   else hh_income_0 = hh_income_0 ;
+run ;
+
+proc transpose data=income_only out=income_only2 ;
+   by studyid ;
+   var hh_income_0 hh_income_12 hh_income_24 hh_income_36 hh_income_48 hh_income_60 hh_income_72 hh_income_84 hh_income_96 hh_income_108 hh_income_120;
+run ;
+
+data income_only3 ;
+   set income_only2 ;
+   if _NAME_="hh_income_0 " then avisit=0 ;
+   if _NAME_="hh_income_12" then avisit=12 ;
+   if _NAME_="hh_income_24" then avisit=24 ;
+   if _NAME_="hh_income_36" then avisit=36 ;
+   if _NAME_="hh_income_48" then avisit=48 ;
+   if _NAME_="hh_income_60" then avisit=60 ;
+   if _NAME_="hh_income_72" then avisit=72 ;
+   if _NAME_="hh_income_84" then avisit=84 ;
+   if _NAME_="hh_income_96" then avisit=96 ;
+   if _NAME_="hh_income_108" then avisit=108 ;
+   if _NAME_="hh_income_120" then avisit=120 ;
+   drop _NAME_ ;
+
+   if hh_income < 0 then delete ;
+run ;
+
+proc sort data=income_only3 ; by studyid avisit ; run ;
+proc sort data=demog        ; by studyid avisit ; run ;
+
+
+data demog2 ;
+   merge demog income_only3 ;
+   by studyid avisit ;
+   ***Is household income <15,000? ;
+   if 1 <= hh_income <= 3 then inc_cat=1;
+   if hh_income >= 4 then inc_cat=0;
+
+   label inc_cat="Household income <$15,000" ;
+   format inc_cat yesnofm. ;
+run ;
+
+data babyrace1;
+   set master.prhr (keep=studyid prhr_q10a--prhr_q10b11);
+run ;
+
+data babyrace2;
+   set master.ceb (keep=studyid astudyid ceb_q1a--ceb_q1b11
+               rename=(ceb_q1a=prhr_q10a ceb_q1b1=prhr_q10b1 ceb_q1b2=prhr_q10b2
+               ceb_q1b3=prhr_q10b3 ceb_q1b4=prhr_q10b4 ceb_q1b5=prhr_q10b5
+               ceb_q1b6=prhr_q10b6 ceb_q1b7=prhr_q10b7 ceb_q1b8=prhr_q10b8
+               ceb_q1b9=prhr_q10b9 ceb_q1b10=prhr_q10b10 ceb_q1b11=prhr_q10b11));
+   where astudyid ne '.x';
+   drop astudyid ;
+run;
+
+data babyrace;
+   update babyrace1 babyrace2; *this will replace .x values in 1 with those in 2;
+   by studyid;
+
+   baby_numrace=sum(prhr_q10b1, prhr_q10b2, prhr_q10b3, prhr_q10b4, prhr_q10b5, prhr_q10b6, prhr_q10b7,
+   prhr_q10b8, prhr_q10b9, prhr_q10b10, prhr_q10b11);
+   baby_hispsum=sum(prhr_q10b1, prhr_q10b2, prhr_q10b3, prhr_q10b4, prhr_q10b5);
+   baby_blacksum=sum(prhr_q10b6, prhr_q10b7);
+
+   if (baby_numrace=1 or baby_hispsum=baby_numrace) and 
+         (prhr_q10b1=1 or prhr_q10b2=1 or prhr_q10b3=1 or prhr_q10b4=1 or prhr_q10b5=1) 
+   then babyrace=1;
+   else if (baby_numrace=1 or baby_blacksum=baby_numrace) and (prhr_q10b6=1 or prhr_q10b7=1) 
+   then babyrace=2;
+   else if baby_numrace=1 and prhr_q10b8=1 
+   then babyrace=3;
+   else if baby_numrace=1 and prhr_q10b9=1 
+   then babyrace=4;
+   else if baby_numrace=1 and prhr_q10b10=1 
+   then babyrace=5;
+   else if baby_numrace=1 and prhr_q10b11=1 
+   then babyrace=7;
+   else if baby_numrace>1 
+   then babyrace=6;
+
+   if babyrace=6 then babyrace2=3;
+   else if babyrace in (3, 4, 5, 7) then babyrace2=4;
+   else babyrace2=babyrace;
+   
+   if (prhr_q10b1=1 or prhr_q10b2=1 or prhr_q10b3=1 or 
+      prhr_q10b4=1 or prhr_q10b5=1) 
+   then baby_hispanic=1;
+   else if babyrace > .z 
+   then baby_hispanic=0;
+   if (prhr_q10b6=1 or prhr_q10b7=1) 
+   then baby_black=1;
+   else if babyrace > .z 
+   then baby_black=0;
+
+   **census categories;
+   if baby_hispanic=1 then babyrace3=1;
+   else if babyrace in (4, 5, 7) then babyrace3=5;
+   else babyrace3=babyrace;
+   format babyrace3 racec.   babyrace racel. babyrace2 races. baby_hispanic baby_black yesnofm. ;
+
+   label   baby_numrace="Number of race/ethnicity categories mentioned for baby"
+         babyrace="Baby's race/ethnicity"
+         babyrace2="Baby's race/ethnicity-short list"
+         babyrace3="Baby's race/ethnicity-census categories"
+         baby_hispanic="Baby is Hispanic"
+         baby_black="Baby is black";
+
+   keep studyid baby_numrace babyrace babyrace2 babyrace3 baby_hispanic baby_black ;
+run ;
+
+proc sort data=babyrace out=test nodupkey ; by studyid ; run ;
+
+***SMOKING DATA ;
+data smoking ;
+   set derive.smoking ;
+   where avisit in (0,12,24,36,48,60,72) ;
+   keep studyid avisit curr_smoke num_smokers_home hm_smok ; /*changed hh_smok to hm_smok 20SEP2017 Maya*/
+run ;
+
+***BMI data - post-natal - first set PE and PE2 ; 
+data pe1 ;
+   set master.pe (rename=(avisit=avisit_char));
+
+   where avisit_char ne ".X" ;
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename 
+           PE_q1a=mom_height
+        PE_q1b=mom_weight ;
+
+      keep studyid avisit PE_q1a PE_q1b ;
+run ;
+
+data pe2 ;
+   set master.pe2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   rename 
+            PE2_q1a=mom_height
+         PE2_q1b=mom_weight ;
+
+      keep studyid avisit PE2_q1a PE2_q1b ;
+run ;
+
+data bmi_mom ;
+   set pe1 pe2 ;
+
+   where avisit > 0 ;
+
+   ***Calculating BMI ;
+   mom_metheight = mom_height/100 ;
+   mom_BMI = mom_weight/(mom_metheight)**2 ;
+
+   label mom_metheight = "Mothers Exam - Height (in Meters)"
+       mom_BMI = "Mom body mass index (BMI)" ;
+   keep studyid avisit mom_height mom_weight mom_metheight mom_BMI ;
+run ;
+
+***Maternal weight data ;
+data mw_1 ;
+   set master.mw ;
+   if studyid ne '.m' ;
+
+   rename 
+         MW_q2=mom_prenatal1_wt 
+         mw_q2a=mom_prenatal1_date 
+         MW_q3=mom_prenatal20wk_wt
+         MW_q3a=mom_prenatal20wk_date ;
+   keep studyid mw_q2 mw_q3 mw_q2a mw_q3a ;
+run ;
+
+*** Date of baby's birth and other pregnancy data ;
+data br_1 ;
+   set master.br ;
+   if studyid ne '.m' ;
+
+   *** Type of delivery (code from DGOLD perinatal predictors) ;
+   if br_q28 in (3, 4) then csection=1;
+   else if br_q28 in (1, 2) then csection=0;
+   if br_q28=3 then elec_csection=1;
+   else if br_q28 in (1, 2) then elec_csection=0;
+   if br_q28=4 then emer_csection=1;
+   else if br_q28 in (1, 2) then emer_csection=0;
+
+   *** Taken from derive.birthrecord about duration of labor ;
+   dur_labor=(dhms(br_q2a,0,0,br_q2b)-dhms(br_q23a,0,0,br_q23b))/3600;
+   dur_membranes=(dhms(br_q2a,0,0,br_q2b)-dhms(br_q24a,0,0,br_q24b))/3600; *will convert seconds to hours;
+
+   *** Complications during preg - code taken from DGOLD perinatal predictors ;
+   if br_q20b1=1 or br_q20b2=1 or br_q20c=1 then diabetes=1;
+   else if br_q20b1=0 and br_q20b2=0 and br_q20c=0 then diabetes=0;
+   if br_q20d=1 or br_q20e=1 or br_q20f=1 or br_q20g=1 then hypertension=1;
+   else if br_q20d=0 and br_q20e=0 and br_q20f=0 and br_q20g=0 then hypertension=0;
+   if br_q26a=1 or br_q26b=1 or br_q26c=1 then infection=1;
+   else if br_q26a=0 and br_q26b=0 and br_q26c=0 then infection=0;
+
+   if dur_labor > 24 then prolonged=1;
+   else if .z < dur_labor <= 24 then prolonged=0;
+   if dur_membranes > 18 then prol_rupture=1;
+   else if .z < dur_labor <= 18 then prol_rupture=0;
+   if .z < br_q5 < 2500 then low_bw=1;
+   else if br_q5 >=2500 then low_bw=0;
+
+   infect_preg=max(br_q20p1, br_q20p2, br_q20p3);
+   if br_q25 >= 100.4 then fever=1;
+   else if .z < br_q25 then fever=0;
+   syst_infect=max(br_q20p1, br_q20p2, br_q26a);
+   if br_q20p3a in('bladder infection', 'bronchitis', 'cervicitis', 'conjunctivitis, thumb paronychia, bronchitis, sinu', 'fever of unknown origin',
+               'flu', 'gastroenteritis', 'gonorrhea', 'pharyngitis', 'r ear infection', 'sinus, uri', 'strep throat', 'upper respiratory', 'uri',
+               'uri & asthma exacerbation') then syst_infect=1;
+
+   ***Birth season/month - taken from DGOLD perinatal predictors ;
+   if month(br_q2a) in (1,2,3) then do;
+      birthseason="Jan-Mar"; 
+   end;
+   else if month(br_q2a) in (4,5,6) then do;
+      birthseason="Apr-Jun"; 
+   end;
+   else if month(br_q2a) in (7,8,9) then do;
+      birthseason="Jul-Sep"; 
+   end;
+   else if month(br_q2a) in (10,11,12) then do;
+      birthseason="Oct-Dec";
+   end;
+   birthmonth=month(br_q2a);
+
+   rename    BR_q3=baby_gender 
+         BR_q2a=baby_dob
+         BR_q5=baby_birthwt
+         BR_q19=mom_wt_delivery
+         BR_q28=delivery_type
+         BR_q4=baby_gest_age 
+         avisit=avisit_char ;
+
+   
+   label    diabetes   ='Any type of diabetes in pregnancy'
+         hypertension='Any type of hypertension in pregnancy'
+         infection='Infection during labor/delivery'
+         infect_preg   ='Infection in pregnancy requiring ER, hosp, or clinic trt'
+         prolonged   ='Prolonged labor (>24 hrs)'
+         prol_rupture='Prolonged rupture of membranes (>18 hrs)'
+         low_bw      ='Low birth weight (<2500 g)'
+         csection   ='Caeserian delivery'
+         elec_csection='Elective C-section'
+         emer_csection='Emergency C-section' 
+         fever      ='Fever during labor/delivery (>=100.4 F)'
+         syst_infect   ='Systemic infection'
+              dur_labor   ='Duration of labor (hrs)'
+           dur_membranes='Duration until rupture of membranes (hrs)'
+         birthseason ='Season baby was born in' 
+         birthmonth ='Month baby was born in' ;
+
+   format csection elec_csection emer_csection diabetes hypertension infection prolonged prol_rupture 
+          low_bw infect_preg fever syst_infect yesnofm.;
+run ;
+
+data br_2 ;
+   set br_1(keep=studyid baby_dob baby_gender baby_birthwt baby_gest_age delivery_type mom_wt_delivery csection 
+              elec_csection emer_csection diabetes hypertension infection prolonged prol_rupture 
+              low_bw infect_preg fever syst_infect birthmonth birthseason dur_labor dur_membranes) ;
+run ;
+
+*** Recruitment data ;
+data sem_1 ;
+   set master.sem ;
+   if studyid ne '.m' ;
+
+   if sum(sem_q1a_2, sem_q1b_2, sem_q1c_2, sem_q1d_2, sem_q1e_2, sem_q1f_2) > 0 then mom_atopy=1;
+    else if nmiss(sem_q1a_2, sem_q1b_2, sem_q1c_2, sem_q1d_2, sem_q1e_2, sem_q1f_2)=0 and 
+             sum(sem_q1a_2, sem_q1b_2, sem_q1c_2, sem_q1d_2, sem_q1e_2, sem_q1f_2) = 0 then mom_atopy=0;
+   if sum(sem_q2a_2, sem_q2b_2, sem_q2c_2, sem_q2d_2, sem_q2e_2, sem_q2f_2) > 0 then dad_atopy=1;
+     else if nmiss(sem_q2a_2, sem_q2b_2, sem_q2c_2, sem_q2d_2, sem_q2e_2, sem_q2f_2)=0 and
+            sum(sem_q2a_2, sem_q2b_2, sem_q2c_2, sem_q2d_2, sem_q2e_2, sem_q2f_2) = 0 then dad_atopy=0;
+
+   length who_atopy $ 8;
+
+   if mom_atopy=1 and dad_atopy=1 then who_atopy='Both';
+   else if mom_atopy=1 and (dad_atopy=0 or dad_atopy=.) then who_atopy='Mom Only';
+   else if mom_atopy=0 and dad_atopy=1 then who_atopy='Dad Only';
+   
+   if sum(sem_q1a_2, sem_q1b_2, sem_q1c_2) > 0 then mom_asthma=1;
+   else if nmiss(sem_q1a_2, sem_q1b_2, sem_q1c_2) = 0 and sem_q1a_2+sem_q1b_2+sem_q1c_2 = 0 then mom_asthma=0;
+   if sum(sem_q2a_2, sem_q2b_2, sem_q2c_2) > 0 then dad_asthma=1;
+   else if nmiss(sem_q2a_2, sem_q2b_2, sem_q2c_2) = 0 and sem_q2a_2+sem_q2b_2+sem_q2c_2 = 0 then dad_asthma=0;
+   if sum(mom_asthma, dad_asthma)=2 then num_par_asthma=2;
+   else if sum(mom_asthma, dad_asthma)=1 then num_par_asthma=1;
+   else if nmiss(mom_asthma, dad_asthma)=0 and mom_asthma+dad_asthma=0 then num_par_asthma=0;
+   
+   length who_asthma $ 8;
+
+   if mom_asthma=1 and dad_asthma=1 then who_asthma='Both';
+   else if mom_asthma=1 and (dad_asthma=0 or dad_asthma=.) then who_asthma='Mom Only';
+   else if mom_asthma=0 and dad_asthma=1 then who_asthma='Dad Only';
+   else if mom_asthma=0 and (dad_asthma=0 or dad_asthma=.) then who_asthma='Neither';
+
+   if sum(sem_q1d_2, sem_q1e_2) > 0 then mom_hayfever=1;
+   else if nmiss(sem_q1d_2, sem_q1e_2)= 0 and sem_q1d_2+sem_q1e_2 = 0 then mom_hayfever=0;
+   if sum(sem_q2d_2, sem_q2e_2) > 0 then dad_hayfever=1;
+   else if nmiss(sem_q2d_2, sem_q2e_2)=0 and sem_q2d_2+sem_q2e_2 = 0 then dad_hayfever=0;
+   if sum(mom_hayfever, dad_hayfever)=2 then num_par_hayfever=2;
+   else if sum(mom_hayfever, dad_hayfever)=1 then num_par_hayfever=1;
+   else if nmiss(mom_hayfever, dad_hayfever)=0 and mom_hayfever+dad_hayfever=0 then num_par_hayfever=0;
+   
+   if sem_q1f_2 = 1 then mom_eczema=1;
+   else if sem_q1f_2 = 0 then mom_eczema=0;
+   if sem_q2f_2 = 1 then dad_eczema=1;
+   else if sem_q2f_2 = 0 then dad_eczema=0;
+   if sum(mom_eczema, dad_eczema)=2 then num_par_eczema=2;
+   else if sum(mom_eczema, dad_eczema)=1 then num_par_eczema=1;
+   else if nmiss(mom_eczema, dad_eczema)=0 and mom_eczema+dad_eczema=0 then num_par_eczema=0;
+   
+   mom_numdisease=sum(mom_asthma, mom_hayfever, mom_eczema);
+   dad_numdisease=sum(dad_asthma, dad_hayfever, dad_eczema);
+   
+   gestwk_prenat=int(40-((sem_q6_3-acompletiondate)/7));
+   if 8<=gestwk_prenat<=13 then trimester=1;
+   else if 13 < gestwk_prenat <=26 then trimester=2;
+   else if gestwk_prenat > 26 then trimester=3;
+   if trimester in (1, 2) then earlypreg=1;
+   else if trimester=3 then earlypreg=0;
+
+   rename SEM_q2_1=mom_dob 
+         SEM_q6_3=mom_duedate 
+         aCompletionDate=acompletiondate_sem ;
+
+   label    mom_atopy   ='Mother has asthma/allergies (screening)'
+         dad_atopy   ='Father has asthma/allergies (screening)'
+          mom_numdisease='Number of conditions-mother'
+         dad_numdisease='Number of conditions-father'
+         who_atopy   ='Which parent has asthma/allergies (screening)?'
+         who_asthma   ='Does either parent have asthma (screening)?'
+         mom_asthma   ='Mother has asthma (screening)'
+         dad_asthma   ='Father has asthma (screening)'
+         num_par_asthma   ='Number of parents with asthma (screening)'
+         gestwk_prenat   ='Week of gestation for prenatal visit'
+         trimester   ='Trimester of pregnancy for prenatal visit'
+            earlypreg   ='1st or 2nd Trimester of Pregnancy'
+         mom_hayfever   ='Mother has hayfever (screening)'
+         dad_hayfever   ='Father has hayfever (screening)'
+         num_par_hayfever='Number of parents with hayfever (screening)'
+         mom_eczema   ='Mother has eczema (screening)'
+         dad_eczema   ='Father has eczema (screening)'
+         num_par_eczema='Number of parents with eczema (screening)' 
+         acompletiondate='Completion date: screening visit' ;
+
+
+   format mom_atopy dad_atopy mom_asthma dad_asthma mom_hayfever dad_hayfever mom_eczema dad_eczema yesnofm.;
+run ;
+
+data sem_2 ;
+   set sem_1(keep=studyid acompletiondate_sem mom_dob mom_atopy dad_atopy who_atopy mom_asthma dad_asthma num_par_asthma
+       who_asthma mom_hayfever dad_hayfever num_par_hayfever mom_eczema dad_eczema num_par_eczema mom_numdisease 
+         dad_numdisease gestwk_prenat trimester earlypreg mom_duedate) ;
+run ;
+
+*** Asthma/ allergies of mother and father post-screening (@ time of pregnancy - prenatal vis) ;
+data mrah_1;
+   set master.mrah;
+   if studyid ne '.m';
+
+   if mrah_q4=.a and mrah_q3=0 then mrah_q4=0;
+   if mrah_q5c=.a and mrah_q5=0 then mrah_q5c=0;
+   if mrah_q6c=.a and mrah_q6=0 then mrah_q6c=0;
+   if mrah_q7b=.a and mrah_q7=0 then mrah_q7b=0;
+
+   if mrah_q5=0 and mrah_q7=0 and mrah_q9=0 then mom_eah=0;
+   else if mrah_q5=1 or mrah_q7=1 or mrah_q9=1 then mom_eah=1;
+   
+   rename MRAH_q5=mom_everasthma 
+         MRAH_q5c=mom_stillasthma 
+         MRAH_q6=dad_everasthma
+         MRAH_q6c=dad_stillasthma 
+         MRAH_q7=mom_everhay
+         MRAH_q7b=mom_stillhay
+         MRAH_q8=dad_everhay 
+         MRAH_q9=mom_everecz 
+         MRAH_q9b=mom_stillecz
+         MRAH_q12=mom_prepreg_wt ;
+
+   label mom_eah='Mom ever had eczema, asthma, or hayfever (prenatal)';
+   format mom_eah yesnofm.;
+run ;
+
+data mrah_2 ;
+   set mrah_1(keep=studyid mom_everasthma mom_stillasthma dad_everasthma dad_stillasthma mom_everhay mom_stillhay 
+                 dad_everhay mom_everecz mom_stillecz mom_prepreg_wt) ;
+run ;
+
+***Breastfeeding info ;
+data bf_1 ;
+   set derive.bf_dur ;
+   keep studyid bfat3 bfweeks everbf exclus_bf ;
+run ;
+              
+data ec_1 ;
+   set master.ec ;
+   where studyid ne ".m" ;
+   rename EC_q7 = baby_gestage_gt34 ;
+   keep studyid EC_q7 ;
+run ;
+
+***Merge by studyid and year the ones that are taken at diff time points ;
+proc sort data=smoking  ; by studyid avisit ; run ;
+proc sort data=demog2   ; by studyid avisit ; run ;
+proc sort data=bmi_mom  ; by studyid avisit ; run ;
+
+data demog_byvis ;
+   merge smoking demog2 df_all_0 bmi_mom ;
+   by studyid avisit ;
+   drop age_1styoung_yrs -- age_5thyoung_mos ;
+run ;
+
+data groups ; 
+   set derive.groups ;
+   keep studyid recruitid site group ;
+run ;
+
+***Merge by studyid the ones that are taken at ONE time point ;
+proc sort data=mw_1         ; by studyid ; run ;
+proc sort data=babyrace     ; by studyid ; run ;
+proc sort data=br_2         ; by studyid ; run ;
+proc sort data=sem_2        ; by studyid ; run ;
+proc sort data=mrah_2       ; by studyid ; run ;
+proc sort data=bf_1         ; by studyid ; run ;
+proc sort data=ec_1         ; by studyid ; run ;
+proc sort data=demog_byvis  ; by studyid ; run ;
+proc sort data=groups       ; by studyid ; run ;
+
+***Pulling BA race designation ;
+proc import datafile="S:\RhoFED\ICAC\Studies\URECA\Data\Derive\RacialDesignation\baltrace.xlsx"
+   out=baltrace replace; run ;
+***Pulling BO race designation ;
+proc import datafile="S:\RhoFED\ICAC\Studies\URECA\Data\Derive\RacialDesignation\bosrace.xlsx"
+   out=borace replace; run ;
+***Pulling NY race designation ;
+proc import datafile="S:\RhoFED\ICAC\Studies\URECA\Data\Derive\RacialDesignation\nyrace.xlsx"
+   out=nyrace replace; run ;
+***Pulling SL race designation ;
+proc import datafile="S:\RhoFED\ICAC\Studies\URECA\Data\Derive\RacialDesignation\stlrace.xlsx"
+   out=stlrace replace; run ;
+
+data baltrace2 ;
+   set baltrace ;
+   length race_gli_c $20. ;
+   if race__best_guess_="black" then do ;
+      race_gli=2 ;
+      race_gli_c="Black" ;
+   end ;
+   if race__best_guess_="white" then do ;
+      race_gli=1 ;
+      race_gli_c="White" ;
+   end ;
+   label race_gli="Child's race (GLI equations) - numeric" 
+        race_gli_c="Child's race (GLI equations) - character" ;
+   keep studyid race_gli race_gli_c ;
+run ;
+
+data borace2 ;
+   set borace ;
+   length race_gli_c $20. ;
+   if race__best_guess_ in ("black","Black") then do ;
+      race_gli=2 ;
+      race_gli_c="Black" ;
+   end ;
+   if race__best_guess_ in ("White","white") then do ;
+      race_gli=1 ;
+      race_gli_c="White" ;
+   end ;
+   if race__best_guess_ in ("mixed","Mixed") then do ;
+      race_gli=5 ;
+      race_gli_c="Mixed" ;
+   end ;
+   if race__best_guess_ in ("Native American") then do ;
+      race_gli=1 ;
+      race_gli_c="White" ;
+   end ;
+   if race__best_guess_ in ("Southern Asian") then do ;
+      race_gli=3 ;
+      race_gli_c="Southeast Asian" ;
+   end ;
+   label race_gli="Child's race (GLI equations) - numeric" 
+        race_gli_c="Child's race (GLI equations) - character" ;
+   keep studyid race_gli race_gli_c ;
+run ;
+
+data nyrace2 ;
+   set nyrace ;
+   length race_gli_c $20. ;
+   if race__best_guess_ in ("B","b") then do ;
+      race_gli=2 ;
+      race_gli_c="Black" ;
+   end ;
+   if race__best_guess_ in ("W","w") then do ;
+      race_gli=1 ;
+      race_gli_c="White" ;
+   end ;
+   if race__best_guess_ in ("O","o","M","m") then do ;
+      race_gli=5 ;
+      race_gli_c="Mixed" ;
+   end ;
+   label race_gli="Child's race (GLI equations) - numeric" 
+        race_gli_c="Child's race (GLI equations) - character" ;
+   keep studyid race_gli race_gli_c ;
+run ;
+
+data stlrace2 ;
+   set stlrace ;
+   length race_gli_c $20. ;
+   if race__best_guess_ in ("Mixed","mixed") then do ;
+      race_gli=5 ;
+      race_gli_c="Mixed" ;
+   end ;
+   label race_gli="Child's race (GLI equations) - numeric" 
+        race_gli_c="Child's race (GLI equations) - character" ;
+   keep studyid race_gli race_gli_c ;
+run ;
+
+proc sort data=baltrace2 ; by studyid ; run ;
+proc sort data=borace2 ; by studyid ; run ;
+proc sort data=nyrace2 ; by studyid ; run ;
+proc sort data=stlrace2 ; by studyid ; run ;
+
+data demog_entireset ;
+   merge groups demog_byvis mw_1 babyrace br_2 sem_2 mrah_2 bf_1 ec_1 
+        baltrace2 borace2 nyrace2 stlrace2 ;
+   by studyid ;
+
+   if studyid ne " " ;
+
+   **assume baby's race from parents if still missing;
+   if babyrace=. then do;
+   if momrace=dadrace or dadrace=. then babyrace=momrace;
+   else if momrace ne dadrace then babyrace=6;
+                  end;
+   if babyrace2=. then do;
+   if momrace2=dadrace2 or dadrace2=. then babyrace2=momrace2;
+   else if momrace2 ne dadrace2 then babyrace2=3;
+                  end;
+   if babyrace3=. then do;
+   if momrace3=1 or dadrace3=1 then babyrace3=1;
+   else if momrace3=dadrace3 or dadrace3=. then babyrace3=momrace3;
+   else if momrace3 ne dadrace3 then babyrace3=6;
+                   end;
+   if baby_black=. then do;
+    if babyrace2=2 or babyrace3=2 then baby_black=1; 
+   else if babyrace2 > .z then baby_black=0;
+                 end;
+   if baby_hispanic=. then do;
+   if babyrace3=1 then baby_hispanic=1;
+   else if babyrace3 > .z then baby_hispanic=0;
+                    end;
+
+   agemom_screen  = floor ((intck('month',mom_dob,acompletiondate_sem) - (day(acompletiondate_sem) < day(mom_dob))) / 12); 
+
+   agemom_birth  = floor ((intck('month',mom_dob,baby_dob) - (day(baby_dob) < day(mom_dob))) / 12); 
+
+   agemom_clinvisit = floor ((intck('month',mom_dob,acompletiondate_df) - (day(acompletiondate_df) < day(mom_dob))) / 12);
+
+   mom_preg_gain1=mom_wt_delivery-mom_prepreg_wt;  
+   mom_preg_gain2=mom_wt_delivery-(mom_prenatal1_wt*2.2);
+   mom_preg_gain3=mom_wt_delivery-(mom_prenatal20wk_wt*2.2); 
+
+   mom_frst_wt=mom_prenatal1_wt*2.2;
+   mom_wk20_wt=mom_prenatal20wk_wt*2.2;
+   
+   label   
+         agemom_screen='Age of mother at screening visit' 
+         agemom_birth='Age of mother at time of birth'
+           agemom_clinvisit='Age of mother at time of study clinic visit'
+            mom_preg_gain1='Pregnancy weight gain based on maternal report of pre-pregnancy weight (lbs)'
+         mom_preg_gain2='Pregnancy weight gain from first prenatal visit (lbs)'
+         mom_preg_gain3='Pregnancy weight gain from 20 weeks gestation (lbs)'
+            mom_frst_wt='Weight at first prenatal visit (lbs)'
+            mom_wk20_wt='Weight gain at 20 weeks gestation' ;
+
+run ;
+
+/***Needs to be updated - there is one duplicate ;
+*proc sort data=demog_entireset out=clean nodupkey dupout=dups ; by studyid avisit ; run ;
+*/
+**save derived dataset;
+data demog;
+   set demog_entireset ;
+   
+   if baby_gender=0 then baby_gender_c="Female" ;
+   if baby_gender=1 then baby_gender_c="Male  " ;
+
+   drop baby_gender ;
+   *if avisit = 81 then avisit = 84; 
+run ;
+
+*Remove m81 if m84 exists;
+proc sort data = demog; by studyid descending avisit;
+
+data demog2;
+   set demog;
+   lagavisit = lag(avisit);
+   lagstatus = lag(status);
+   if lagavisit = 84 and lagstatus = 'complete' and avisit = 81 then delete;
+   else if avisit = 81 then avisit = 84; 
+run;
+
+
+proc sort data=demog2 nodupkey dupout=demog_dup; by studyid avisit; run;
+proc freq data=demog2; table avisit; run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+
+data shell60;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 12,24,36,48,60,72,84,96, 108, 120 ;
+  if avisit = 12 then year=1;
+  if avisit = 24 then year=2;
+  if avisit = 36 then year=3;
+  if avisit = 48 then year=4;
+  if avisit = 60 then year=5;
+  if avisit = 72 then year=6;
+  if avisit = 84 then year=7;
+  if avisit = 96 then year=8;
+  if avisit = 108 then year=9;
+  if avisit = 120 then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=Demog2  ; by studyid avisit; run ;
+proc sort data=shell60   ; by studyid avisit; run ;
+
+data derive.Demog ;
+ merge shell60 Demog2(in=b) ;
+ by studyid avisit ;
+ if b=1 then Demog = 1 ; else Demog = 0 ;
+if avisit = 81 then avisit = 84;
+ keep StudyID RecruitID group site avisit evid event version status aPI aII acompletiondate_df
+currhome_time currhome_yrs currhome_mos currhome_totppl currhome_totadult currhome_othchildren
+currhome_num_othchildren mom_educ mom_marital mom_maritalspec mom_healthinsur healthinsur_type
+adults_totemploy mom_wic currhome_residyrs age1st age2nd age3rd age4th age5th child5 mom_educcat
+mom_married adults_regjob hh_income inc_cat demog;
+
+run;
+
+
+data derive.demog_for1rec ;
+ merge shell60 Demog2(in=b) ;
+ by studyid avisit ;
+ if b=1 then Demog = 1 ; else Demog = 0 ;
+run;
+*** 3. Codebook ****************************************************************;
+
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.demog,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** 4. Save Log and Output ****************************************************;*/
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+proc freq data= derive.demog; tables avisit*demog; run;

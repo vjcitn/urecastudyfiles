@@ -1,0 +1,44 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	597	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""DSC"", ""DSC"")"
+3	4	evid	evid	dbl	numeric	double	3120	0	c(292, 49740)
+4	5	event	event	chr	character	character	7	0	"c(""3-Month Home Visit"", ""Rescheduled Home Evaluation"")"
+5	6	version	version	chr	character	character	3	0	"c(""1.0"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	9	0	"c("".x"", ""rh"")"
+8	9	DSC_q1	Sample Collection Summary - Start Time	time	"c(""hms"", ""difftime"")"	double	411	915	c(0, 85500)
+9	10	DSC_q2	Sample Collection Summary - Temperature in Fahrenheit	dbl	numeric	double	235	925	c(55.4, 97)
+10	11	DSC_q3	Sample Collection Summary - Relative Humidity	dbl	numeric	double	80	926	c(0.1, 98)
+11	12	DSC_q4	Sample Collection Summary - Vaccuum Number	dbl	numeric	double	7	915	c(1, 8)
+12	13	DSC_q5	Sample 1- Child's Bedroom and Floor- Bed Was Sampled	dbl	numeric	double	3	915	c(0, 1)
+13	14	DSC_q6	Sample 1- Child's Bedroom and Floor- Size of Child's Mattress	dbl	numeric	double	7	927	c(1, 6)
+14	15	DSC_q6a	Sample 1- Child's Bedroom and Floor-Specify Size of Child's Mattress	chr	character	character	106	0	"c("".a"", ""youth bed"")"
+15	16	DSC_q7a	Sample 1- Child's Bedroom and Floor-Length of Area Vacuumed on Bed	dbl	numeric	double	92	927	c(0, 200)
+16	17	DSC_q7b	Sample 1- Child's Bedroom and Floor-Width of Area Vacuumed on Bed	dbl	numeric	double	78	928	c(23, 200)
+17	18	DSC_q8a	Sample 1- Child's Bedroom and Floor- Impermeable Cover - Mattress	dbl	numeric	double	3	962	c(0, 1)
+18	19	DSC_q8b	Sample 1- Child's Bedroom and Floor- Impermeable Cover - Box Spring	dbl	numeric	double	3	1356	c(0, 1)
+19	20	DSC_q8c	Sample 1- Child's Bedroom and Floor- Impermeable Cover - Box Spring	dbl	numeric	double	3	1126	c(0, 1)
+20	21	DSC_q9	Sample 1- Child's Bedroom and Floor- Pillow or Bumpers	dbl	numeric	double	3	916	c(0, 1)
+21	22	DSC_q10	Sample 1- Child's Bedroom and Floor- Sample Collected	dbl	numeric	double	3	915	c(0, 1)
+22	23	DSC_q11	Sample 1- Child's Bedroom and Floor- Type of Surface Vacuumed	dbl	numeric	double	4	938	c(1, 3)
+23	24	DSC_q12a	Sample 1- Child's Bedroom and Floor- Length of Area Vacuumed on Floor in cm	dbl	numeric	double	23	938	c(0, 334)
+24	25	DSC_q12b	Sample 1- Child's Bedroom and Floor- Width of Area Vacuumed on Floor in cm	dbl	numeric	double	21	939	c(25, 250)
+25	26	DSC_q14	3 Month Visit	dbl	numeric	double	3	2742	c(0, 1)
+26	27	DSC_q15	Sample 2- Child's Bedroom Floor- Bedroom Floor Sampled in Second Area	dbl	numeric	double	3	921	c(0, 1)
+27	28	DSC_q16	Sample 2- Child's Bedroom Floor- Type of Surface Vacuumed	dbl	numeric	double	4	1144	c(1, 3)
+28	29	DSC_q17a	Sample 2- Child's Bedroom Floor- Length of Area Vacuumed on Floor in cm	dbl	numeric	double	20	1144	c(0, 250)
+29	30	DSC_q17b	Sample 2- Child's Bedroom Floor- Width of Area Vacuumed on Floor in cm	dbl	numeric	double	21	1145	c(20, 250)
+30	31	DSC_q19	Sample 3- Living Room Chair and Floor- Seat Was Sampled	dbl	numeric	double	3	921	c(0, 1)
+31	32	DSC_q20	Sample 3- Living Room Chair and Floor- Number of Seats Sampled	dbl	numeric	double	7	1190	c(0, 6)
+32	33	DSC_q21a	Sample 3- Living Room Chair and Floor- Seating Surfaces Vacuumed- Cloth Upholstery	dbl	numeric	double	3	1190	c(0, 1)
+33	34	DSC_q21b	Sample 3- Living Room Chair and Floor- Seating Surfaces Vacuumed- Leather	dbl	numeric	double	3	1190	c(0, 1)
+34	35	DSC_q21c	Sample 3- Living Room Chair and Floor- Seating Surfaces Vacuumed- Wood	dbl	numeric	double	3	1190	c(0, 1)
+35	36	DSC_q21d	Sample 3- Living Room Chair and Floor- Seating Surfaces Vacuumed- Plastic/Vinyl	dbl	numeric	double	3	1190	c(0, 1)
+36	37	DSC_q21e	Sample 3- Living Room Chair and Floor- Seating Surfaces Vacuumed- Other	dbl	numeric	double	3	1190	c(0, 1)
+37	38	DSC_q21e1	Sample 3- Living Room Chair and Floor- Seating Surfaces Vacuumed- Specify Other	chr	character	character	75	0	"c("".a"", ""wool cover"")"
+38	39	DSC_q22	Sample 3- Living Room Chair and Floor- Room Floor was Sampled	dbl	numeric	double	3	921	c(0, 1)
+39	40	DSC_q23	Sample 3- Living Room Chair and Floor- Type of Surface Vacuumed	dbl	numeric	double	4	1159	c(1, 3)
+40	41	DSC_q24a	Sample 3- Living Room Chair and Floor- Length of Area Vaccummed on Floor in cm	dbl	numeric	double	14	1159	c(0, 200)
+41	42	DSC_q24b	Sample 3- Living Room Chair and Floor- Width of Area Vacuumed on Floor in cm	dbl	numeric	double	13	1160	c(20, 167)
+42	43	aCompletionDY	Completion Day	dbl	numeric	double	917	915	c(64, 1851)

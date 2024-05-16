@@ -1,0 +1,27 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	606	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""DNAP"", ""DNAP"")"
+3	4	version	version	chr	character	character	2	0	"c(""1.1"", ""1.2"")"
+4	5	status	status	chr	character	character	4	0	"c(""complete"", ""unresolved"")"
+5	6	SampleID	SampleID	chr	character	character	1230	0	"c(""100135"", ""99906"")"
+6	7	aTI	Technitian Initials	chr	character	character	9	0	"c(""ajs"", ""zs"")"
+7	8	DNAP_q1	Sample ID	chr	character	character	6	0	"c("".o"", ""07-08-00"")"
+8	9	DNAP_q1_1	Blood Sample Type	dbl	numeric	double	3	31	c(1, 2)
+9	10	DNAP_q2	Volume of Blood Used for Purification (ml)	dbl	numeric	double	10	1199	c(2, 10)
+10	11	DNAP_q2_1	What DNA was Processed From	dbl	numeric	double	5	31	c(1, 4)
+11	12	DNAP_q2a_1	Cells Used for Purification	dbl	numeric	double	90	1084	c(1.8, 83.28)
+12	13	DNAP_q2b_1	Volume of the Cells	dbl	numeric	double	59	1096	c(0.4, 12.5)
+13	14	DNAP_q2c_1	Volume of Blood Used for Purification (ml)	dbl	numeric	double	95	171	c(0.5, 12)
+14	15	DNAP_q3	Volume in Which DNA was Re-Suspended (ml)	dbl	numeric	double	25	3	c(0.06, 2)
+15	16	DNAP_q4	Dilution Factor for Quantification	dbl	numeric	double	6	8	c(1, 100)
+16	17	DNAP_q5a	A260 Results	dbl	numeric	double	743	3	c(0, 25.32)
+17	18	DNAP_q5b	A280 Results	dbl	numeric	double	553	3	c(0, 13.54)
+18	19	DNAP_q5c	A260/A280 Results	dbl	numeric	double	166	3	c(0, 15)
+19	20	DNAP_q6	DNA Concentration of Original Purified Sample (ug/ml)	dbl	numeric	double	824	3	c(0, 4435)
+20	21	DNAP_q7	Absolute DNA Yield (ug)	dbl	numeric	double	892	3	c(0, 1870)
+21	22	DNAP_q8	Total Volume of Diluted DNA (ml)	dbl	numeric	double	614	4	c(0.06, 3.74)
+22	23	DNAP_q9	Concentration of DNA Stock Solution (ng/ul)	dbl	numeric	double	239	6	c(0, 1265.9)
+23	24	DNAP_q10	Number of Stock Tubes	dbl	numeric	double	5	8	c(0, 3)
+24	25	DNAP_q11	Number of Working Stock Tubes (50 ng/ul)	dbl	numeric	double	6	22	c(0, 4)
+25	26	aProcDY	Processing Day	dbl	numeric	double	577	0	c(7, 2824)

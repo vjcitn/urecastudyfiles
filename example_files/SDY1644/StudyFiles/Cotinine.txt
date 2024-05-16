@@ -1,0 +1,188 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness          07/17/08        Created Program     
+*   K. Jaffee         04/04/11      Change template, naming vars, formatting
+*   Maya Barton       28AUG2017     Brought in Saliva Cotinine data. 
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=Cotinine,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+/*************************************************************************************
+ Create variables 
+**************************************************************************************/
+data cotinine_1 ; 
+   length aVisit $4.; 
+   set master.cr (rename=(avisit=aLvisit));
+                                                                       
+   if cr_q2 > .z then cot_det=1;     
+
+   if avisit="b"  then avisit="0"; 
+                                                                                                                  
+   **assign lower values;                                                                                            
+   if cr_q2=.b or .z < cr_q2 < 3 then do; 
+    cot_level=2; cot_det=0; 
+   end;                                               
+   else cot_level=cr_q2;                                                                                             
+   **assign 'high' value;
+   if cot_level > .z then cot_hi=cot_level >= 30;
+   **assign second 'high' value;
+   if cot_level > .z then cot_hi14=cot_level >= 14;
+ 
+   aVisit=strip(aLvisit);
+   drop cr_q1 cr_q2 aLVisit ;                                                                                                 
+                                                                                                                  
+   label      cot_det  ='Detectable Cotinine'                                                                             
+              cot_level='Cotinine (ng/ml)'
+              cot_hi   ='High cotinine (>= 30 ng/ml)'
+              cot_hi14 ='High cotinine (>= 14 ng/ml)';
+   format cot_det cot_hi cot_hi14 yesnofm.;     
+run ; 
+
+data cotinine_2 ;
+   length aVisitn 4.;
+   set cotinine_1 ;
+   if aVisit ='b' then avisitn=0;
+   else avisitn = input(avisit,4.);
+   drop astudyid recruitid aRcrtID ;
+   source ='cord blood';
+run ;   
+
+/*************************************************************************************
+ Check Duplicates
+**************************************************************************************/
+proc sort nodupkey data=cotinine_2 out=cotinine_2 dupout=dups; by studyid avisitn; 
+run;
+
+
+****3. Maya-Raw datasets from master******************************************;
+proc sort data=master.scr out= my_scr; by StudyID aVisit; run;
+proc freq data=my_scr; table aVisit*status; run;
+data my_scr; 
+     set my_scr(keep= StudyID RecruitID SampleID aVisit SCR_q1 SCR_q2 SCR_q3 SCR_q4
+                rename= (SCR_q2=Sal_Cotinine_lev 
+                         SCR_q1=SalimetricsID
+                         SCR_q3=Report_date
+                         SCR_q4=Comments));
+run; 
+
+proc sort data=my_scr; by StudyID aVisit; run;
+               
+proc sort data=master.scsc out=my_scsc; by StudyID aVisit; where status eq 'complete' ; run;
+proc freq data=my_scsc; table aVisit*status; run;
+
+data Sal_Cotinine;
+     length aVisit $4.;
+     merge my_scr my_scsc;
+     by StudyID aVisit;
+     
+     if sal_cotinine_lev = .B then cot_det = 0;
+         else if missing(sal_cotinine_lev) then cot_det = .;
+         else if sal_cotinine_lev >0 then cot_det = 1; else cot_det = 0;
+     rename sal_cotinine_lev = cot_level; 
+     source = 'saliva';
+run; 
+
+proc freq data=Sal_Cotinine; table aVisit*SCSC_q1 / missing; run;
+
+Data Cotinine_SalCotinine;
+     set cotinine_2 Sal_Cotinine;
+     if not missing(avisit) and avisit ne 'b' then aVisitn=input(put(avisit,$4.),8.);
+     if missing(aVisit) then aVisit=put(aVisitn,4.); 
+     aVisit_actual = aVisitn;
+     if aVisit= '81' then aVisit='84';
+     if aVisitn=81 then aVisitn=84;
+
+
+     drop RecruitID site;
+run;
+
+proc sort data=Cotinine_SalCotinine; by StudyID aVisitn; run;
+
+/*************************************************************************************
+ Create Shell - will need to add more visits to this when needed 
+**************************************************************************************/
+data shell60;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisitn = 0, 60,84 ;
+  if avisitn = 0 then year=0;
+  if avisitn = 60 then year=5;
+  if avisitn = 84 then year=7;
+  output;
+ end;
+ keep studyid recruitid site avisitn year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=Cotinine_SalCotinine  ; by studyid avisitn; run ;
+proc sort data=shell60   ; by studyid avisitn; run ;
+
+data derive.Cotinine_SalCotinine ;
+ merge shell60 Cotinine_SalCotinine(in=b) ;
+ by studyid avisitn ;
+ if b=1 then Cotinine_SalCotinine = 1 ; else Cotinine_SalCotinine = 0 ;
+ if avisit = 72 then year = 6;
+
+ label source = 'Sample Source (saliva or blood)'    
+       avisitn = 'Visit';
+ rename avisitn = aVisit;
+ drop api avisit;
+run;
+
+/**** 3. Codebook ****************************************************************/
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.Cotinine_SalCotinine,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+*** 4. Save Log and Output ****************************************************;*/
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+proc freq data= derive.Cotinine_SalCotinine; tables avisit*Cotinine_SalCotinine; run;
+proc freq data= master.cr; tables avisit; run;
+proc freq data= master.scr; tables avisit; run;
+proc freq data= master.scsc; tables avisit; run;
+
+ods select Position;
+proc contents data=derive.Cotinine_SalCotinine position; run;
+run;
+ods select default;

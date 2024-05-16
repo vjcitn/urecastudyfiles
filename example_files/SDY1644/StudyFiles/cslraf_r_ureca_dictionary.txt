@@ -1,0 +1,69 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	10	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	1	0	"c(""Atopic"", ""Atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CSLRAF"", ""CSLRAF"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""expected"", ""expected"")"
+5	6	SampleID	SampleID	chr	character	character	10	0	"c(""15678"", ""7290"")"
+6	7	aVisit	Visit	chr	character	character	1	0	"c(""b"", ""b"")"
+7	8	CSLRAF_q1a	Record Plate Number for A-1 Assay	chr	character	character	1	0	"c(""92"", ""92"")"
+8	9	CSLRAF_q1b1	A-1 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	1	10	
+9	10	CSLRAF_q1b2	A-1 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	10	
+10	11	CSLRAF_q1b3	A-1 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	10	
+11	12	CSLRAF_q1b4	A-1 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	1	10	
+12	13	CSLRAF_q1b5	A-1 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	1	10	
+13	14	CSLRAF_q1b6	A-1 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	4	7	c(9.03, 12.29)
+14	15	CSLRAF_q1b7	A-1 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	6	5	c(21.19, 35.16)
+15	16	CSLRAF_q1c1	A-1 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	4	7	c(10.8, 11.18)
+16	17	CSLRAF_q1c2	A-1 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	10	
+17	18	CSLRAF_q1c3	A-1 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	10	
+18	19	CSLRAF_q1c4	A-1 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	8	3	c(2.42, 20.91)
+19	20	CSLRAF_q1c5	A-1 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	8	3	c(8.77, 261.95)
+20	21	CSLRAF_q1c6	A-1 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	9	2	c(9.03, 272.64)
+21	22	CSLRAF_q1c7	A-1 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	2	9	c(55.37, 55.37)
+22	23	CSLRAF_q2a	Record Plate Number for A-2 Assay	chr	character	character	1	0	"c(""92"", ""92"")"
+23	24	CSLRAF_q2b1	A-2 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	1	10	
+24	25	CSLRAF_q2b2	A-2 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	10	
+25	26	CSLRAF_q2b3	A-2 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	10	
+26	27	CSLRAF_q2b4	A-2 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	2	9	c(3.39, 3.39)
+27	28	CSLRAF_q2b5	A-2 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	1	10	
+28	29	CSLRAF_q2b6	A-2 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	4	7	c(9.75, 18.53)
+29	30	CSLRAF_q2b7	A-2 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	4	7	c(20.15, 40.92)
+30	31	CSLRAF_q2c1	A-2 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	4	7	c(9.21, 11.18)
+31	32	CSLRAF_q2c2	A-2 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	10	
+32	33	CSLRAF_q2c3	A-2 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	10	
+33	34	CSLRAF_q2c4	A-2 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	7	4	c(3.33, 23.67)
+34	35	CSLRAF_q2c5	A-2 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	7	4	c(16, 266.92)
+35	36	CSLRAF_q2c6	A-2 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	7	4	c(9.03, 164.15)
+36	37	CSLRAF_q2c7	A-2 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	3	8	c(18.58, 23.28)
+37	38	CSLRAF_q3a	Record Plate Number for B-1 Assay	chr	character	character	2	0	"c("".m"", ""92"")"
+38	39	CSLRAF_q3b1	B-1 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	1	10	
+39	40	CSLRAF_q3b2	B-1 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	10	
+40	41	CSLRAF_q3b3	B-1 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	10	
+41	42	CSLRAF_q3b4	B-1 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	3	8	c(4.52, 12.3)
+42	43	CSLRAF_q3b5	B-1 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	2	9	c(32.7, 32.7)
+43	44	CSLRAF_q3b6	B-1 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	5	6	c(8.67, 17.42)
+44	45	CSLRAF_q3b7	B-1 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	4	7	c(17.01, 76.44)
+45	46	CSLRAF_q3c1	B-1 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	3	8	c(12.44, 15.77)
+46	47	CSLRAF_q3c2	B-1 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	10	
+47	48	CSLRAF_q3c3	B-1 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	10	
+48	49	CSLRAF_q3c4	B-1 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	7	4	c(2.72, 24.66)
+49	50	CSLRAF_q3c5	B-1 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	8	3	c(19.29, 268.58)
+50	51	CSLRAF_q3c6	B-1 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	7	4	c(9.75, 261.83)
+51	52	CSLRAF_q3c7	B-1 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	3	8	c(26.92, 39.64)
+52	53	CSLRAF_q4a	Record Plate Number for B-2 Assay	chr	character	character	2	0	"c("".m"", ""92"")"
+53	54	CSLRAF_q4b1	B-2 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	1	10	
+54	55	CSLRAF_q4b2	B-2 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	10	
+55	56	CSLRAF_q4b3	B-2 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	10	
+56	57	CSLRAF_q4b4	B-2 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	2	9	c(5.05, 5.05)
+57	58	CSLRAF_q4b5	B-2 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	2	9	c(28.56, 28.56)
+58	59	CSLRAF_q4b6	B-2 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	4	7	c(14.11, 23.92)
+59	60	CSLRAF_q4b7	B-2 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	5	6	c(15.44, 74.9)
+60	61	CSLRAF_q4c1	B-2 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	4	7	c(8.36, 14.1)
+61	62	CSLRAF_q4c2	B-2 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	10	
+62	63	CSLRAF_q4c3	B-2 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	10	
+63	64	CSLRAF_q4c4	B-2 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	7	4	c(7.09, 24.97)
+64	65	CSLRAF_q4c5	B-2 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	8	3	c(15.71, 289.52)
+65	66	CSLRAF_q4c6	B-2 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	6	5	c(10.12, 214.44)
+66	67	CSLRAF_q4c7	B-2 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	3	8	c(12.12, 22.76)
+67	68	aProcDY	Processing Day	dbl	numeric	double	10	0	c(149, 196)

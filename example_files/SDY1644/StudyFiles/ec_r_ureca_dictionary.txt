@@ -1,0 +1,29 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	610	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""EC"", ""EC"")"
+3	4	evid	evid	dbl	numeric	double	823	0	c(3, 18057)
+4	5	event	event	chr	character	character	1	0	"c(""Birth"", ""Birth"")"
+5	6	version	version	chr	character	character	4	0	"c(""1.2"", ""1.5"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	2	0	"c("".x"", ""b"")"
+8	9	EC_q1	Mother or Father Have History of Either Asthma, Allergic Rhinitis, or Atopic Dermatitis	dbl	numeric	double	3	2	c(0, 1)
+9	10	EC_q2	Mother's Primary Residence in 20% of Households Below Poverty Level	dbl	numeric	double	2	2	c(1, 1)
+10	11	EC_q3	Mother Primarily Speaks English	dbl	numeric	double	2	2	c(1, 1)
+11	12	EC_q4	Mother Sign Written Informed Consent	dbl	numeric	double	3	2	c(0, 1)
+12	13	EC_q4_1	Mother Minor - Signed Written Consent After Birth	dbl	numeric	double	3	794	c(0, 1)
+13	14	EC_q5	Mother Have Access Phone	dbl	numeric	double	2	2	c(1, 1)
+14	15	EC_q6	Mother Deliver Baby at Study Hospital	dbl	numeric	double	3	2	c(0, 1)
+15	16	EC_q7	Gestational Age at Delivery >= 34 Weeks	dbl	numeric	double	3	2	c(0, 1)
+16	17	EC_q8	Cord Blood Sample Collected	dbl	numeric	double	3	2	c(0, 1)
+17	18	EC_q9	Suitable Cord Blood Processed	dbl	numeric	double	3	2	c(0, 1)
+18	19	EC_q10	Mother HIV Positive	dbl	numeric	double	2	3	c(0, 0)
+19	20	EC_q11	Mother Have Plans to Move	dbl	numeric	double	2	3	c(0, 0)
+20	21	EC_q12	Infant Experience Either Respiratory Distress, Needed Supplemental Oxygen, or Needed CPAP	dbl	numeric	double	3	206	c(0, 1)
+21	22	EC_q13	Infant Have Significant Congenital Anomalies	dbl	numeric	double	3	206	c(0, 1)
+22	23	EC_q14	Child Have Pneumonia Needing Treatment	dbl	numeric	double	2	206	c(0, 0)
+23	24	EC_q15	Child Taken Synagis Since Birth	dbl	numeric	double	2	207	c(0, 0)
+24	25	EC_q16	Mother's Eligibility	dbl	numeric	double	4	2	c(0, 2)
+25	26	EC_q17	Child's Eligibility	dbl	numeric	double	3	2	c(0, 1)
+26	27	aCompletionDY	Completion Day	dbl	numeric	double	33	214	c(-1096, 53)
+27	28	EC_DY	Day of Study Investigator s Signature	dbl	numeric	double	49	214	c(-2, 307)

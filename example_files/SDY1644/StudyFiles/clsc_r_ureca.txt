@@ -1,0 +1,985 @@
+Accession	group	form	evid	event	version	status	aVisit	CLSC_q1	CLSC_q2	CLSC_q3	CLSC_q4	CLSC_q5	CLSC_q6	CLSC_q7	CLSC_q8	CLSC_q9	CLSC_q10	CLSC_q11a1	CLSC_q11a2	CLSC_q11a3	CLSC_q12	CLSC_q13	CLSC_q14	CLSC_q15	CLSC_q16	CLSC_q17	CLSC_q18	CLSC_q19	aCompletionDY
+SUB230862	Atopic	CLSC	32875	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2357
+SUB230862	Atopic	CLSC	54373	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3352
+SUB230863	Atopic	CLSC	54114	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	1	1	3	3353
+SUB230863	Atopic	CLSC	34118	60-Month Clinic Visit	1.0	complete	60	0	0	0	0	0	0	0	0														1831
+SUB230863	Atopic	CLSC	34122	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2265
+SUB230865	Atopic	CLSC	34761	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB230865	Atopic	CLSC	34757	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1888
+SUB230865	Atopic	CLSC	52096	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3339
+SUB230866	Atopic	CLSC	52887	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	1	0	3	3332
+SUB230866	Atopic	CLSC	33306	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1850
+SUB230866	Atopic	CLSC	33310	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2236
+SUB230867	Atopic	CLSC	35719	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB230867	Atopic	CLSC	52240	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	1	0	3	3345
+SUB230867	Atopic	CLSC	35715	60-Month Clinic Visit	1.0	complete	60	0	0	0	1	0	0	0	0	0	0				1	0	0	0	0	0	0	1	1802
+SUB230868	Atopic	CLSC	54401	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3339
+SUB230868	Atopic	CLSC	35861	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2248
+SUB230868	Atopic	CLSC	35857	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1876
+SUB230869	Atopic	CLSC	34745	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1888
+SUB230869	Atopic	CLSC	52109	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3339
+SUB230869	Atopic	CLSC	34749	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB230870	Atopic	CLSC	33527	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2221
+SUB230870	Atopic	CLSC	33523	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1839
+SUB230870	Atopic	CLSC	53241	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3262
+SUB230871	Atopic	CLSC	36471	60-Month Clinic Visit	1.0	complete	60	0	0	0	0	0	0	0	0														1811
+SUB230871	Atopic	CLSC	53593	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3286
+SUB230871	Atopic	CLSC	36475	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB230872	Atopic	CLSC	54329	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3289
+SUB230872	Atopic	CLSC	33572	60-Month Clinic Visit	1.0	complete	60	0	0	0	0	0	0	0	0														1807
+SUB230872	Atopic	CLSC	33576	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2260
+SUB230873	Atopic	CLSC	43629	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230874	Atopic	CLSC	33602	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2232
+SUB230874	Atopic	CLSC	33598	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1851
+SUB230874	Atopic	CLSC	53504	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3260
+SUB230876	Atopic	CLSC	53095	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	0	0	0	3	3302
+SUB230876	Atopic	CLSC	33088	60-Month Clinic Visit	1.0	complete	60	0	0	0	0	0	0	0	0														1795
+SUB230876	Atopic	CLSC	33092	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2173
+SUB230877	Atopic	CLSC	53007	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3332
+SUB230877	Atopic	CLSC	34042	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1831
+SUB230877	Atopic	CLSC	34046	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2233
+SUB230881	Atopic	CLSC	55512	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3264
+SUB230881	Atopic	CLSC	38940	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1808
+SUB230881	Atopic	CLSC	38944	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2261
+SUB230882	Atopic	CLSC	36517	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2265
+SUB230883	Atopic	CLSC	43867	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2254
+SUB230883	Atopic	CLSC	59788	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3348
+SUB230884	Atopic	CLSC	36790	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2277
+SUB230884	Atopic	CLSC	54285	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3323
+SUB230886	Atopic	CLSC	51574	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3284
+SUB230886	Atopic	CLSC	36802	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2213
+SUB230887	Atopic	CLSC	36394	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB230887	Atopic	CLSC	56497	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	3	3275
+SUB230888	Atopic	CLSC	51970	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3317
+SUB230888	Atopic	CLSC	36772	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2255
+SUB230889	Atopic	CLSC	60533	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3272
+SUB230889	Atopic	CLSC	37112	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230890	Atopic	CLSC	40454	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0												2263
+SUB230890	Atopic	CLSC	56089	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3368
+SUB230891	Atopic	CLSC	38956	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2261
+SUB230891	Atopic	CLSC	58499	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3350
+SUB230892	Atopic	CLSC	40466	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2260
+SUB230892	Atopic	CLSC	52267	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3292
+SUB230893	Atopic	CLSC	44422	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB230894	Atopic	CLSC	37550	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2239
+SUB230894	Atopic	CLSC	57488	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3363
+SUB230895	Atopic	CLSC	53049	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3268
+SUB230895	Atopic	CLSC	40329	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2235
+SUB230896	Atopic	CLSC	35798	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB230897	Atopic	CLSC	42869	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2233
+SUB230897	Atopic	CLSC	53254	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3356
+SUB230898	Atopic	CLSC	36457	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2261
+SUB230898	Atopic	CLSC	57926	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3370
+SUB230899	Atopic	CLSC	40990	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2225
+SUB230899	Atopic	CLSC	53035	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230900	Atopic	CLSC	53487	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3356
+SUB230900	Atopic	CLSC	32857	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230901	Atopic	CLSC	37825	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2228
+SUB230901	Atopic	CLSC	53187	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3279
+SUB230903	Atopic	CLSC	56470	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3361
+SUB230903	Atopic	CLSC	41459	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB230904	Atopic	CLSC	53613	108-Month Clinic Visit	1.1	complete	108	0	1	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	1	3	3360
+SUB230904	Atopic	CLSC	42561	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2234
+SUB230905	Atopic	CLSC	58249	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3363
+SUB230905	Atopic	CLSC	41110	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2250
+SUB230906	Atopic	CLSC	56445	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230906	Atopic	CLSC	43879	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2269
+SUB230907	Atopic	CLSC	37237	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB230907	Atopic	CLSC	61258	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3363
+SUB230908	Atopic	CLSC	53670	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	1	5	3324
+SUB230908	Atopic	CLSC	39775	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2202
+SUB230909	Atopic	CLSC	34004	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2202
+SUB230909	Atopic	CLSC	54188	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3346
+SUB230910	Atopic	CLSC	37085	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230911	Atopic	CLSC	37535	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230911	Atopic	CLSC	53330	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3364
+SUB230912	Atopic	CLSC	34435	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2244
+SUB230913	Atopic	CLSC	38968	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2187
+SUB230913	Atopic	CLSC	54246	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3359
+SUB230914	Atopic	CLSC	32380	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2211
+SUB230914	Atopic	CLSC	54128	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3343
+SUB230915	Atopic	CLSC	56458	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3293
+SUB230915	Atopic	CLSC	38980	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2173
+SUB230916	Atopic	CLSC	51984	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3288
+SUB230916	Atopic	CLSC	39674	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2210
+SUB230917	Atopic	CLSC	41316	72-Month Clinic Visit	1.1	missing	.x																						
+SUB230919	Atopic	CLSC	54656	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3343
+SUB230919	Atopic	CLSC	32481	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2239
+SUB230920	Atopic	CLSC	40144	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2190
+SUB230920	Atopic	CLSC	54521	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3306
+SUB230921	Atopic	CLSC	54458	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3269
+SUB230921	Atopic	CLSC	39803	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2196
+SUB230922	Atopic	CLSC	33424	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230924	Atopic	CLSC	54578	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3358
+SUB230924	Atopic	CLSC	39698	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2190
+SUB230925	Atopic	CLSC	33564	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2189
+SUB230925	Atopic	CLSC	55018	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3351
+SUB230927	Atopic	CLSC	40692	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2273
+SUB230927	Atopic	CLSC	55031	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3364
+SUB230928	Atopic	CLSC	38992	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2262
+SUB230928	Atopic	CLSC	55147	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	3	3373
+SUB230929	Atopic	CLSC	40680	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2262
+SUB230929	Atopic	CLSC	55254	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230932	Atopic	CLSC	34032	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2169
+SUB230932	Atopic	CLSC	53857	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	5	3282
+SUB230933	Atopic	CLSC	34365	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2195
+SUB230933	Atopic	CLSC	55334	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3363
+SUB230934	Atopic	CLSC	41218	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2236
+SUB230934	Atopic	CLSC	55160	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3349
+SUB230935	Atopic	CLSC	41522	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2259
+SUB230935	Atopic	CLSC	58456	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230936	Atopic	CLSC	35208	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2226
+SUB230936	Atopic	CLSC	55241	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	1	3367
+SUB230937	Atopic	CLSC	32252	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2281
+SUB230938	Atopic	CLSC	39004	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2169
+SUB230939	Atopic	CLSC	39016	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2218
+SUB230939	Atopic	CLSC	59736	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0												3317
+SUB230941	Atopic	CLSC	55755	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3325
+SUB230941	Atopic	CLSC	39028	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2267
+SUB230942	Atopic	CLSC	56275	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230942	Atopic	CLSC	32652	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB230943	Atopic	CLSC	32095	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB230943	Atopic	CLSC	55277	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3328
+SUB230944	Atopic	CLSC	58826	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	1	1	0	1	0	1	3362
+SUB230944	Atopic	CLSC	33341	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2270
+SUB230945	Atopic	CLSC	39040	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2281
+SUB230945	Atopic	CLSC	56380	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3370
+SUB230946	Atopic	CLSC	56779	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3333
+SUB230946	Atopic	CLSC	41720	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2225
+SUB230947	Atopic	CLSC	56484	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3309
+SUB230947	Atopic	CLSC	32428	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2222
+SUB230948	Atopic	CLSC	32598	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2228
+SUB230948	Atopic	CLSC	56826	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3341
+SUB230951	Atopic	CLSC	58686	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3323
+SUB230951	Atopic	CLSC	32758	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2218
+SUB230952	Atopic	CLSC	58379	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3335
+SUB230952	Atopic	CLSC	39052	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2205
+SUB230953	Atopic	CLSC	57078	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3304
+SUB230953	Atopic	CLSC	32585	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2223
+SUB230954	Atopic	CLSC	39787	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2255
+SUB230954	Atopic	CLSC	57215	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3370
+SUB230955	Atopic	CLSC	57052	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230955	Atopic	CLSC	34615	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2261
+SUB230957	Atopic	CLSC	39064	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2262
+SUB230957	Atopic	CLSC	57398	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3362
+SUB230958	Atopic	CLSC	43356	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2259
+SUB230958	Atopic	CLSC	59013	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3360
+SUB230959	Atopic	CLSC	43069	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	1	1	0	0	1	0	0	1	0	1	1	1	1	0	0	1	3	2243
+SUB230959	Atopic	CLSC	57413	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3309
+SUB230960	Atopic	CLSC	34848	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2220
+SUB230960	Atopic	CLSC	54549	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3369
+SUB230961	Atopic	CLSC	52512	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3307
+SUB230961	Atopic	CLSC	35347	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB230962	Atopic	CLSC	57532	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3368
+SUB230962	Atopic	CLSC	33882	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2262
+SUB230963	Atopic	CLSC	59241	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3357
+SUB230963	Atopic	CLSC	39076	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2263
+SUB230964	Atopic	CLSC	32899	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB230964	Atopic	CLSC	57181	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0												3370
+SUB230965	Atopic	CLSC	57168	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0												3370
+SUB230965	Atopic	CLSC	32887	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB230966	Atopic	CLSC	59053	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0												3366
+SUB230966	Atopic	CLSC	39088	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2192
+SUB230967	Atopic	CLSC	57780	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3349
+SUB230967	Atopic	CLSC	39100	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB230968	Atopic	CLSC	52524	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230968	Atopic	CLSC	38805	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2252
+SUB230969	Atopic	CLSC	56945	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3356
+SUB230969	Atopic	CLSC	39112	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2222
+SUB230971	Atopic	CLSC	34264	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2176
+SUB230971	Atopic	CLSC	57572	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	0	1	0	0	1	1	0	0	0	0	0	0	1	3278
+SUB230972	Atopic	CLSC	35066	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2207
+SUB230972	Atopic	CLSC	58275	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3367
+SUB230973	Atopic	CLSC	39124	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2269
+SUB230973	Atopic	CLSC	52875	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	1	5	3357
+SUB230975	Atopic	CLSC	34880	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														1531
+SUB230975	Atopic	CLSC	58262	108-Month Clinic Visit	1.1	missing	.x																						
+SUB230976	Atopic	CLSC	35053	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2201
+SUB230976	Atopic	CLSC	59889	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3358
+SUB230977	Atopic	CLSC	34805	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2251
+SUB230977	Atopic	CLSC	53405	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3286
+SUB230978	Atopic	CLSC	57990	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3311
+SUB230978	Atopic	CLSC	33123	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2190
+SUB230979	Atopic	CLSC	36353	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB230979	Atopic	CLSC	53078	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	1	3337
+SUB230981	Atopic	CLSC	53342	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3371
+SUB230981	Atopic	CLSC	33588	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2265
+SUB230982	Atopic	CLSC	53355	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3288
+SUB230982	Atopic	CLSC	36974	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB230983	Atopic	CLSC	53152	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3350
+SUB230983	Atopic	CLSC	37491	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2260
+SUB230984	Atopic	CLSC	33552	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2164
+SUB230984	Atopic	CLSC	58797	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3355
+SUB230985	Atopic	CLSC	32403	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2272
+SUB230985	Atopic	CLSC	58635	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3357
+SUB230986	Atopic	CLSC	33481	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB230986	Atopic	CLSC	57588	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3342
+SUB230987	Atopic	CLSC	52949	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3371
+SUB230987	Atopic	CLSC	32494	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2238
+SUB230988	Atopic	CLSC	53642	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	1	1	0	0	0	1	1	1	1	1	1	1	0	5	3355
+SUB230988	Atopic	CLSC	33493	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2269
+SUB230989	Atopic	CLSC	54259	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3358
+SUB230989	Atopic	CLSC	33108	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2265
+SUB230990	Atopic	CLSC	35741	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2255
+SUB230990	Atopic	CLSC	53947	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	1	3	3350
+SUB230991	Atopic	CLSC	33183	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2249
+SUB230991	Atopic	CLSC	53870	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3367
+SUB230993	Atopic	CLSC	34206	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2260
+SUB230993	Atopic	CLSC	54388	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	5	3348
+SUB230994	Atopic	CLSC	34462	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2246
+SUB230994	Atopic	CLSC	54101	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3348
+SUB230995	Atopic	CLSC	54361	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3328
+SUB230995	Atopic	CLSC	33631	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2251
+SUB230997	Atopic	CLSC	54564	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3308
+SUB230997	Atopic	CLSC	38289	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2250
+SUB230998	Atopic	CLSC	54870	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3299
+SUB230998	Atopic	CLSC	36491	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2262
+SUB230999	Non-atopic	CLSC	43843	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB230999	Non-atopic	CLSC	59327	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3329
+SUB231000	Atopic	CLSC	58859	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3369
+SUB231000	Atopic	CLSC	42577	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB231001	Atopic	CLSC	36920	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2281
+SUB231001	Atopic	CLSC	55307	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3363
+SUB231002	Atopic	CLSC	59347	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3368
+SUB231002	Atopic	CLSC	36816	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB231003	Atopic	CLSC	41670	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2235
+SUB231003	Atopic	CLSC	54534	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3272
+SUB231004	Atopic	CLSC	37804	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2264
+SUB231004	Atopic	CLSC	58871	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3362
+SUB231005	Atopic	CLSC	43772	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2212
+SUB231005	Atopic	CLSC	53831	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3371
+SUB231006	Atopic	CLSC	34305	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2252
+SUB231006	Atopic	CLSC	55005	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3322
+SUB231007	Atopic	CLSC	35492	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2263
+SUB231007	Atopic	CLSC	55173	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	3364
+SUB231008	Atopic	CLSC	55525	108-Month Clinic Visit	1.1	complete	108	0	1	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	3	3369
+SUB231008	Atopic	CLSC	43944	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2265
+SUB231010	Non-atopic	CLSC	59699	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3364
+SUB231010	Non-atopic	CLSC	34449	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB231011	Atopic	CLSC	55737	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231011	Atopic	CLSC	35922	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB231012	Atopic	CLSC	55721	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3368
+SUB231012	Atopic	CLSC	39136	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	2263
+SUB231013	Atopic	CLSC	36575	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB231013	Atopic	CLSC	58883	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	0	0	1	0	0	1	1	0	1	1	0	0	0	3	3362
+SUB231014	Atopic	CLSC	37252	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB231014	Atopic	CLSC	58895	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3415
+SUB231015	Non-atopic	CLSC	59720	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3365
+SUB231015	Non-atopic	CLSC	37698	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB231016	Atopic	CLSC	55915	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3297
+SUB231016	Atopic	CLSC	36655	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2254
+SUB231017	Non-atopic	CLSC	39739	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB231017	Non-atopic	CLSC	56334	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3371
+SUB231019	Atopic	CLSC	39148	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2277
+SUB231019	Atopic	CLSC	59971	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3361
+SUB231021	Atopic	CLSC	61270	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231021	Atopic	CLSC	42857	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2267
+SUB231022	Non-atopic	CLSC	38184	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB231023	Non-atopic	CLSC	43855	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2241
+SUB231023	Non-atopic	CLSC	51266	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231024	Non-atopic	CLSC	35880	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2217
+SUB231024	Non-atopic	CLSC	58907	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3317
+SUB231025	Atopic	CLSC	39160	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2185
+SUB231025	Atopic	CLSC	56603	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3371
+SUB231026	Atopic	CLSC	56792	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3263
+SUB231026	Atopic	CLSC	41092	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2192
+SUB231028	Atopic	CLSC	34490	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	3	2204
+SUB231028	Atopic	CLSC	52326	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3316
+SUB231028	Atopic	CLSC	34486	60-Month Clinic Visit	1.1	missing	.x																						
+SUB231029	Atopic	CLSC	33294	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2233
+SUB231029	Atopic	CLSC	33290	60-Month Clinic Visit	1.1	missing	.x																						
+SUB231029	Atopic	CLSC	52627	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1	3334
+SUB231031	Atopic	CLSC	55885	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3320
+SUB231031	Atopic	CLSC	34339	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2221
+SUB231035	Atopic	CLSC	52767	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	1	1	0	1	1	1	1	1	0	1	1	1	0	1	1	3	3283
+SUB231035	Atopic	CLSC	30793	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	1	1	0	0	1	0	1	1	0	0	0	1		1	1	3	2261
+SUB231036	Atopic	CLSC	37913	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB231036	Atopic	CLSC	53474	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3289
+SUB231039	Atopic	CLSC	30781	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2196
+SUB231039	Atopic	CLSC	53434	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	1	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	3260
+SUB231040	Atopic	CLSC	55411	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3299
+SUB231040	Atopic	CLSC	30876	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2187
+SUB231041	Atopic	CLSC	34219	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	1	0	0	1	0	1	0	0	1	1	0	0	0	0	0	0	4	2204
+SUB231041	Atopic	CLSC	55423	108-Month Clinic Visit	1.1	complete	108	0	1	0	0	0	0	0	1	0	0	0	0	1	1	1	1	1	1	1	1	3	3284
+SUB231042	Atopic	CLSC	54674	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3291
+SUB231042	Atopic	CLSC	33793	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2191
+SUB231043	Atopic	CLSC	55496	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	2	3281
+SUB231043	Atopic	CLSC	36365	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2181
+SUB231044	Atopic	CLSC	52964	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0												3288
+SUB231044	Atopic	CLSC	34862	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2213
+SUB231045	Atopic	CLSC	56655	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3260
+SUB231045	Atopic	CLSC	32516	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2235
+SUB231047	Atopic	CLSC	54917	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3285
+SUB231047	Atopic	CLSC	32843	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2170
+SUB231048	Atopic	CLSC	55484	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	0	0	0												3286
+SUB231048	Atopic	CLSC	37048	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2195
+SUB231049	Atopic	CLSC	55471	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3287
+SUB231049	Atopic	CLSC	36605	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2209
+SUB231050	Atopic	CLSC	35080	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB231050	Atopic	CLSC	53370	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3274
+SUB231051	Atopic	CLSC	33221	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0												2195
+SUB231051	Atopic	CLSC	52936	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231052	Atopic	CLSC	53418	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	1	0	1	0	0	0	1	1	0	0	0	0	0	1	4	3291
+SUB231052	Atopic	CLSC	35674	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2212
+SUB231053	Atopic	CLSC	37296	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	3	2164
+SUB231053	Atopic	CLSC	53581	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	1	0	0	0	1	0	0	1	0	1	1		0	1	1	2	3286
+SUB231055	Atopic	CLSC	54644	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3270
+SUB231055	Atopic	CLSC	32922	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2250
+SUB231057	Atopic	CLSC	38623	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231058	Atopic	CLSC	42356	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2258
+SUB231058	Atopic	CLSC	58407	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3369
+SUB231059	Atopic	CLSC	55459	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0	0	3	3265
+SUB231059	Atopic	CLSC	37517	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2164
+SUB231060	Atopic	CLSC	32059	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	2	2245
+SUB231060	Atopic	CLSC	58190	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	1	0	0	1	0	3	3263
+SUB231061	Atopic	CLSC	39317	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2197
+SUB231061	Atopic	CLSC	58736	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0												3311
+SUB231063	Atopic	CLSC	37733	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2175
+SUB231063	Atopic	CLSC	57363	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	3260
+SUB231064	Atopic	CLSC	54442	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	3262
+SUB231064	Atopic	CLSC	38519	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	1	0	0												2203
+SUB231065	Atopic	CLSC	56105	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	3	3318
+SUB231065	Atopic	CLSC	39642	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	1	2169
+SUB231066	Atopic	CLSC	37603	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2235
+SUB231066	Atopic	CLSC	55873	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231067	Atopic	CLSC	41354	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	0	0	1	0	1	1	1	1	1	1	1	1	0	1	1	4	2164
+SUB231067	Atopic	CLSC	58763	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	3361
+SUB231070	Atopic	CLSC	55683	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	0	0	0	0	0	0	0	1	1	1	1	0	0	1	1	5	3333
+SUB231070	Atopic	CLSC	37222	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	1	3	2164
+SUB231071	Atopic	CLSC	37851	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2165
+SUB231071	Atopic	CLSC	57800	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3267
+SUB231072	Atopic	CLSC	37863	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2218
+SUB231072	Atopic	CLSC	55707	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	0	0	0	0	1	1	0	1	0	0	1	1	3	3299
+SUB231073	Atopic	CLSC	56250	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3269
+SUB231073	Atopic	CLSC	37356	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2170
+SUB231074	Atopic	CLSC	58705	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3361
+SUB231074	Atopic	CLSC	37875	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	3	2202
+SUB231075	Atopic	CLSC	37156	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2277
+SUB231075	Atopic	CLSC	57385	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3367
+SUB231076	Atopic	CLSC	38635	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1	2200
+SUB231076	Atopic	CLSC	56578	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3365
+SUB231078	Atopic	CLSC	57243	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	3304
+SUB231078	Atopic	CLSC	38072	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2238
+SUB231079	Atopic	CLSC	38887	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB231079	Atopic	CLSC	56810	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3280
+SUB231080	Atopic	CLSC	38647	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2164
+SUB231080	Atopic	CLSC	58312	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3299
+SUB231081	Atopic	CLSC	40874	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	3	2240
+SUB231081	Atopic	CLSC	57506	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	5	3372
+SUB231082	Atopic	CLSC	42514	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	1	2243
+SUB231082	Atopic	CLSC	57631	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	3	3397
+SUB231083	Atopic	CLSC	38659	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2246
+SUB231083	Atopic	CLSC	56362	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3261
+SUB231084	Atopic	CLSC	57693	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3295
+SUB231084	Atopic	CLSC	38671	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2244
+SUB231086	Atopic	CLSC	58077	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	3	3280
+SUB231086	Atopic	CLSC	37887	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	2207
+SUB231087	Atopic	CLSC	38684	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	1	0	0	1	1	0	0	1	1	0	1	1	0	1	0	5	2212
+SUB231087	Atopic	CLSC	57669	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	1	1	0	1	0	0	0	0	0	0	1	1	3	3282
+SUB231091	Atopic	CLSC	59153	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	3	3325
+SUB231091	Atopic	CLSC	31910	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2216
+SUB231092	Atopic	CLSC	57947	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3281
+SUB231092	Atopic	CLSC	30903	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2167
+SUB231093	Atopic	CLSC	58620	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231093	Atopic	CLSC	31505	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	3	2222
+SUB231094	Atopic	CLSC	58175	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3277
+SUB231094	Atopic	CLSC	31275	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2184
+SUB231095	Atopic	CLSC	59132	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3296
+SUB231095	Atopic	CLSC	31876	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	1	2187
+SUB231096	Atopic	CLSC	41037	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2167
+SUB231096	Atopic	CLSC	58363	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231097	Atopic	CLSC	43577	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2206
+SUB231097	Atopic	CLSC	58719	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3291
+SUB231098	Atopic	CLSC	58471	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	3	3282
+SUB231098	Atopic	CLSC	42501	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2182
+SUB231099	Atopic	CLSC	37143	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231100	Atopic	CLSC	40027	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2222
+SUB231100	Atopic	CLSC	58440	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3294
+SUB231101	Atopic	CLSC	52639	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3459
+SUB231101	Atopic	CLSC	39836	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2246
+SUB231102	Atopic	CLSC	42238	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2187
+SUB231102	Atopic	CLSC	57607	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	1	0	0	0	0	1	0	0	1	0	0	0	1	0	1	0	3	3278
+SUB231104	Atopic	CLSC	59548	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	5	3355
+SUB231104	Atopic	CLSC	32266	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2192
+SUB231105	Atopic	CLSC	38696	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2178
+SUB231105	Atopic	CLSC	57736	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0												3349
+SUB231106	Atopic	CLSC	36244	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2205
+SUB231106	Atopic	CLSC	58112	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	5	3299
+SUB231107	Atopic	CLSC	42384	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2191
+SUB231107	Atopic	CLSC	58658	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3304
+SUB231108	Atopic	CLSC	40091	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231109	Atopic	CLSC	38319	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	3	2173
+SUB231109	Atopic	CLSC	58812	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	0	0	0	1	1	3	3350
+SUB231110	Atopic	CLSC	38708	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	0	1	3	2193
+SUB231110	Atopic	CLSC	52664	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	3	3291
+SUB231113	Atopic	CLSC	59564	108-Month Clinic Visit	1.1	complete	108	0	1	0	1	0	0	0	0	1	0												3389
+SUB231113	Atopic	CLSC	32986	72-Month Clinic Visit	1.1	complete	72	0	1	1	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	1	2167
+SUB231114	Atopic	CLSC	31741	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	1	0	1	0	1	0	1	0	0	0	1	3	2165
+SUB231114	Atopic	CLSC	62041	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3381
+SUB231115	Atopic	CLSC	59920	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3320
+SUB231115	Atopic	CLSC	34249	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2201
+SUB231116	Atopic	CLSC	60221	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	1	0	0	1	0	1	0	0	0	0	0	2	3303
+SUB231116	Atopic	CLSC	38720	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2196
+SUB231117	Atopic	CLSC	52651	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3374
+SUB231117	Atopic	CLSC	32219	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	2	2176
+SUB231118	Atopic	CLSC	59086	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0												3309
+SUB231118	Atopic	CLSC	34352	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2164
+SUB231119	Atopic	CLSC	62024	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	1	1	0	0	0	1	0	0	1	0	1	1	0	1	1	1	4	3363
+SUB231119	Atopic	CLSC	34722	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231120	Atopic	CLSC	52797	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	1	1	0	1	1	4	3400
+SUB231120	Atopic	CLSC	38732	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	1	0	1	1	0	0	0	1	0	1	0	1	0	0	1	5	2168
+SUB231121	Atopic	CLSC	34477	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2263
+SUB231121	Atopic	CLSC	55215	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3376
+SUB231122	Atopic	CLSC	34735	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2163
+SUB231122	Atopic	CLSC	53135	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3306
+SUB231123	Atopic	CLSC	33845	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	3	2291
+SUB231125	Atopic	CLSC	32944	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	1	0	0	1	0	0	0	1	1	0	0	0	0	0	1	1	2163
+SUB231125	Atopic	CLSC	52314	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3319
+SUB231127	Atopic	CLSC	36382	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2182
+SUB231127	Atopic	CLSC	60234	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3293
+SUB231128	Atopic	CLSC	32544	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	0	0	0	0	1	0	1	1	0	0	0	0	0	0	1	3	2197
+SUB231128	Atopic	CLSC	53556	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	1	1	5	3361
+SUB231130	Atopic	CLSC	53991	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	1	0	1	1	1	1	1	1	1	5	3353
+SUB231130	Atopic	CLSC	35096	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	1	1	0	0	0	1	1	0	1	1	0	1	1	3	2212
+SUB231131	Atopic	CLSC	32558	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	3	2167
+SUB231131	Atopic	CLSC	52785	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	1	1	0	0	1	1	1	1	1	1	0	0	4	3377
+SUB231132	Atopic	CLSC	55435	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231132	Atopic	CLSC	37648	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0												2231
+SUB231133	Atopic	CLSC	53741	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3310
+SUB231133	Atopic	CLSC	33754	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2194
+SUB231134	Atopic	CLSC	36218	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	4	2188
+SUB231134	Atopic	CLSC	53753	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	1	3317
+SUB231135	Atopic	CLSC	40224	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	1	0	0	1	0	0	0	1	0	0	0	1	0	0	0	1	1	2219
+SUB231135	Atopic	CLSC	54632	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3282
+SUB231138	Atopic	CLSC	55189	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231138	Atopic	CLSC	33709	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	1	1	1	0	1	0	0	0	0	0	0	0	0	1	2228
+SUB231139	Atopic	CLSC	37099	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2204
+SUB231139	Atopic	CLSC	59633	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3274
+SUB231141	Atopic	CLSC	40385	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2270
+SUB231141	Atopic	CLSC	56687	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231142	Atopic	CLSC	55447	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	1	0	1	1	1	0	1	0	1	0	0	0	0	1	1	3	3367
+SUB231142	Atopic	CLSC	36335	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	1	1	1	1	0	1	0	1	0	0	0	0	0	1	2	2220
+SUB231143	Non-atopic	CLSC	33011	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2184
+SUB231143	Non-atopic	CLSC	54618	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	4	3268
+SUB231144	Atopic	CLSC	36186	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2223
+SUB231144	Atopic	CLSC	55695	108-Month Clinic Visit	1.1	complete	108	0	1	1	1	0	0	0	0	1	1	0	0	1	1	0	0	0	0	1	1	3	3279
+SUB231145	Non-atopic	CLSC	40662	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2180
+SUB231145	Non-atopic	CLSC	59535	108-Month Clinic Visit	1.1	complete	108	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	0	1	3	3319
+SUB231146	Atopic	CLSC	55544	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	3365
+SUB231146	Atopic	CLSC	35659	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0												2225
+SUB231147	Non-atopic	CLSC	59492	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	1	0	0	1	1	0	0	1	0	0	1	3	3374
+SUB231147	Non-atopic	CLSC	34546	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	3	2218
+SUB231149	Atopic	CLSC	36102	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2209
+SUB231149	Atopic	CLSC	55203	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	1	0	0	0	0	0	1		0	1	0	0	0	0	3	3302
+SUB231150	Atopic	CLSC	56131	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3367
+SUB231150	Atopic	CLSC	42002	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2232
+SUB231151	Non-atopic	CLSC	56118	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	3	3324
+SUB231151	Non-atopic	CLSC	38772	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2233
+SUB231153	Non-atopic	CLSC	35426	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2202
+SUB231153	Non-atopic	CLSC	59758	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3330
+SUB231155	Atopic	CLSC	60680	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	0	0	1	0	1	0	0	1	1	0	0	0	0	0	0	1	3327
+SUB231155	Atopic	CLSC	42529	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2273
+SUB231156	Non-atopic	CLSC	56860	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3332
+SUB231156	Non-atopic	CLSC	44869	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB231158	Non-atopic	CLSC	36139	72-Month Clinic Visit	1.1	complete	72	0	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	3	2226
+SUB231158	Non-atopic	CLSC	56238	108-Month Clinic Visit	1.1	complete	108	0	1	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	3352
+SUB231159	Atopic	CLSC	60807	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	2	3363
+SUB231159	Atopic	CLSC	36322	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	2	2284
+SUB231161	Atopic	CLSC	37979	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	4	2239
+SUB231161	Atopic	CLSC	56667	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3355
+SUB231163	Atopic	CLSC	57230	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3368
+SUB231163	Atopic	CLSC	41251	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB231164	Atopic	CLSC	58536	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3371
+SUB231164	Atopic	CLSC	35705	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2253
+SUB231165	Atopic	CLSC	38221	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB231165	Atopic	CLSC	56226	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3358
+SUB231166	Atopic	CLSC	35011	72-Month Clinic Visit	1.1	complete	72	0	1	0	1	0	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	2	2186
+SUB231166	Atopic	CLSC	55963	108-Month Clinic Visit	1.1	complete	108	0	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3284
+SUB231167	Atopic	CLSC	56396	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3365
+SUB231167	Atopic	CLSC	40204	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	2210
+SUB231168	Atopic	CLSC	60209	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3358
+SUB231168	Atopic	CLSC	38744	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2209
+SUB231169	Non-atopic	CLSC	60323	108-Month Clinic Visit	1.1	complete	108	1	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	3	3362
+SUB231169	Non-atopic	CLSC	40756	72-Month Clinic Visit	1.1	complete	72	1	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	1	0	1	1	4	2227
+SUB231171	Non-atopic	CLSC	59169	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	1	3326
+SUB231171	Non-atopic	CLSC	38756	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2264
+SUB231172	Non-atopic	CLSC	58019	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3362
+SUB231172	Non-atopic	CLSC	40044	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2164
+SUB231173	Atopic	CLSC	51331	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	1	0	0	1	1	0	0	1	1	1	1	0	0	0	0	4	3290
+SUB231173	Atopic	CLSC	35434	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1854
+SUB231173	Atopic	CLSC	35438	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2192
+SUB231176	Atopic	CLSC	33276	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	3	2161
+SUB231176	Atopic	CLSC	33272	60-Month Clinic Visit	1.1	complete	60	0	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	1	1844
+SUB231176	Atopic	CLSC	57831	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3302
+SUB231177	Atopic	CLSC	36152	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	1	0	1	0	1	0	1	1	1	0	0	1	1	3	2165
+SUB231177	Atopic	CLSC	36148	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	1	0	1	0	1	0	1	1	1	0	0	1	1	5	1827
+SUB231177	Atopic	CLSC	51417	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	1	1	0	0	1	1	1	1	0	0	1	1	3	3276
+SUB231178	Atopic	CLSC	32693	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	1	1	3	2176
+SUB231178	Atopic	CLSC	51500	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	1	0	0	0	1	1	1	1	0	0	0	0	0	1	1	3	3284
+SUB231179	Atopic	CLSC	51769	108-Month Clinic Visit	1.1	complete	108	1	0	1	1	0	0	0	0	0	0	0	0	1	0	1	1	0	1	0	0	4	3275
+SUB231179	Atopic	CLSC	33679	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	2	2176
+SUB231180	Atopic	CLSC	51901	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3355
+SUB231180	Atopic	CLSC	33027	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	2169
+SUB231180	Atopic	CLSC	33023	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1840
+SUB231182	Atopic	CLSC	37400	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB231182	Atopic	CLSC	51883	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3260
+SUB231182	Atopic	CLSC	37396	60-Month Clinic Visit	1.1	complete	60	0	0	0	0	0	0	0	0														1811
+SUB231183	Atopic	CLSC	52499	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3286
+SUB231183	Atopic	CLSC	30732	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2151
+SUB231184	Atopic	CLSC	51549	108-Month Clinic Visit	1.1	complete	108	1	0	0	0	0	1	0	0	1	0	0	0	1	0	0	1	1	0	0	1	3	3265
+SUB231184	Atopic	CLSC	31125	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	1	4	2166
+SUB231185	Atopic	CLSC	52342	108-Month Clinic Visit	1.1	complete	108	1	0	1	0	0	0	0	0	1	1	1	1	1									3273
+SUB231185	Atopic	CLSC	34823	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	1	0	1	1	1	0	1	0	0	0	1	2	2163
+SUB231186	Atopic	CLSC	31468	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	2163
+SUB231186	Atopic	CLSC	52542	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	1	0	1	1	1	0	0	1	0	0	0	0	0	1	1	4	3295
+SUB231187	Atopic	CLSC	54299	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	0	1	0	0	0	0	0	0	1	0	1	1	0	0	0	0	3	3258
+SUB231187	Atopic	CLSC	37068	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2179
+SUB231188	Atopic	CLSC	51792	108-Month Clinic Visit	1.1	complete	108	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3260
+SUB231188	Atopic	CLSC	32359	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	1	1	2165
+SUB231189	Atopic	CLSC	52374	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3295
+SUB231189	Atopic	CLSC	32042	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB231190	Atopic	CLSC	51587	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	3260
+SUB231190	Atopic	CLSC	34534	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2190
+SUB231191	Atopic	CLSC	52254	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3263
+SUB231191	Atopic	CLSC	33264	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	1	1	2167
+SUB231192	Atopic	CLSC	52722	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3295
+SUB231192	Atopic	CLSC	37387	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2173
+SUB231194	Atopic	CLSC	32112	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2180
+SUB231194	Atopic	CLSC	52609	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3280
+SUB231195	Atopic	CLSC	42698	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2162
+SUB231195	Atopic	CLSC	52709	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	1	0	0	1	0	0	0	1	0	1	1	1	0	0	0	5	3277
+SUB231196	Atopic	CLSC	52683	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3260
+SUB231196	Atopic	CLSC	34063	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2161
+SUB231198	Atopic	CLSC	39905	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2251
+SUB231198	Atopic	CLSC	55567	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	3306
+SUB231199	Atopic	CLSC	35773	72-Month Clinic Visit	1.1	complete	72	1	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	2160
+SUB231199	Atopic	CLSC	53228	108-Month Clinic Visit	1.1	complete	108	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	1	3271
+SUB231201	Atopic	CLSC	32720	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2160
+SUB231201	Atopic	CLSC	53540	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3257
+SUB231202	Atopic	CLSC	53975	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	2	3264
+SUB231202	Atopic	CLSC	33514	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2163
+SUB231203	Atopic	CLSC	36198	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	3	2165
+SUB231203	Atopic	CLSC	53785	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3259
+SUB231206	Atopic	CLSC	54474	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3261
+SUB231206	Atopic	CLSC	40079	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2162
+SUB231207	Atopic	CLSC	38115	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2163
+SUB231207	Atopic	CLSC	54715	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3262
+SUB231208	Atopic	CLSC	54175	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3285
+SUB231208	Atopic	CLSC	39544	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2185
+SUB231209	Atopic	CLSC	39370	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2165
+SUB231210	Atopic	CLSC	56319	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	0	4	3264
+SUB231210	Atopic	CLSC	30848	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2162
+SUB231213	Atopic	CLSC	33807	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2171
+SUB231213	Atopic	CLSC	55580	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	1	3	3269
+SUB231214	Atopic	CLSC	55320	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3329
+SUB231214	Atopic	CLSC	32447	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2168
+SUB231215	Atopic	CLSC	39348	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2169
+SUB231215	Atopic	CLSC	56209	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3278
+SUB231216	Atopic	CLSC	55610	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3264
+SUB231216	Atopic	CLSC	39997	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2162
+SUB231217	Atopic	CLSC	33204	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2156
+SUB231217	Atopic	CLSC	57759	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3267
+SUB231218	Atopic	CLSC	33857	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	1	0	0	0	1	0	0	1	1	0	1	0	2	2160
+SUB231218	Atopic	CLSC	55768	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	3259
+SUB231219	Atopic	CLSC	55781	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3259
+SUB231219	Atopic	CLSC	30863	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	1	0	0	0	1	0	0	1	1	0	1	0	2	2160
+SUB231221	Atopic	CLSC	55857	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	0	0	0	1	0	1	3262
+SUB231221	Atopic	CLSC	39939	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	1	1	0	1	1	4	2166
+SUB231222	Atopic	CLSC	59959	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	4	3334
+SUB231222	Atopic	CLSC	36886	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	1	1	0	0	1	0	2	2176
+SUB231223	Atopic	CLSC	56706	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	4	3271
+SUB231223	Atopic	CLSC	33869	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	4	2177
+SUB231224	Atopic	CLSC	33894	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2246
+SUB231225	Atopic	CLSC	56540	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3259
+SUB231225	Atopic	CLSC	32707	72-Month Clinic Visit	1.1	complete	72	0	1	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	1	1	3	2168
+SUB231226	Atopic	CLSC	33820	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	3	2170
+SUB231226	Atopic	CLSC	58154	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	5	3258
+SUB231227	Atopic	CLSC	32956	72-Month Clinic Visit	1.1	complete	72	1	0	1	0	0	0	0	0	0	1	0	1	1	0	1	0	0	0	1	0	2	2163
+SUB231227	Atopic	CLSC	56839	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	1	0	4	3272
+SUB231229	Atopic	CLSC	36840	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2165
+SUB231229	Atopic	CLSC	56958	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	3	3266
+SUB231230	Atopic	CLSC	56557	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3272
+SUB231230	Atopic	CLSC	31296	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	2166
+SUB231232	Atopic	CLSC	36852	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2170
+SUB231232	Atopic	CLSC	56418	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3261
+SUB231233	Atopic	CLSC	57194	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	2	3259
+SUB231233	Atopic	CLSC	33918	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2168
+SUB231234	Atopic	CLSC	56766	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	1	0	0	0	0	0	0	1	0	1	1	0	0	1	0	4	3259
+SUB231234	Atopic	CLSC	39438	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2181
+SUB231235	Atopic	CLSC	37939	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2206
+SUB231235	Atopic	CLSC	51513	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3301
+SUB231236	Atopic	CLSC	42162	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2161
+SUB231236	Atopic	CLSC	56638	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3254
+SUB231237	Atopic	CLSC	32969	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2163
+SUB231237	Atopic	CLSC	57127	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3261
+SUB231241	Atopic	CLSC	33832	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2166
+SUB231241	Atopic	CLSC	57960	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3283
+SUB231242	Atopic	CLSC	33989	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2178
+SUB231242	Atopic	CLSC	51689	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3269
+SUB231243	Atopic	CLSC	51478	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3298
+SUB231243	Atopic	CLSC	35602	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1	2164
+SUB231246	Atopic	CLSC	51667	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	5	3264
+SUB231246	Atopic	CLSC	34951	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2162
+SUB231247	Atopic	CLSC	51736	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3261
+SUB231247	Atopic	CLSC	30979	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2164
+SUB231248	Atopic	CLSC	34016	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2167
+SUB231248	Atopic	CLSC	51956	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3327
+SUB231249	Atopic	CLSC	51940	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	2	3259
+SUB231249	Atopic	CLSC	37450	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2170
+SUB231251	Atopic	CLSC	35687	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	0	0	1	0	4	2166
+SUB231251	Atopic	CLSC	52023	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3346
+SUB231252	Atopic	CLSC	33773	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	2250
+SUB231252	Atopic	CLSC	53961	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	3288
+SUB231253	Atopic	CLSC	41176	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2166
+SUB231253	Atopic	CLSC	52128	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	3286
+SUB231255	Atopic	CLSC	52299	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3254
+SUB231255	Atopic	CLSC	36828	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	2	2175
+SUB231257	Atopic	CLSC	52224	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	3	3262
+SUB231257	Atopic	CLSC	31614	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	1	2162
+SUB231258	Atopic	CLSC	52422	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	1	3261
+SUB231258	Atopic	CLSC	31863	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2165
+SUB231260	Atopic	CLSC	59596	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3261
+SUB231260	Atopic	CLSC	32573	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2163
+SUB231262	Atopic	CLSC	53391	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3274
+SUB231262	Atopic	CLSC	35560	72-Month Clinic Visit	1.1	complete	72	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2187
+SUB231263	Atopic	CLSC	52977	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	1	3263
+SUB231263	Atopic	CLSC	35141	72-Month Clinic Visit	1.1	complete	72	1	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	2163
+SUB231264	Atopic	CLSC	33966	72-Month Clinic Visit	1.1	complete	72	0	1	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2268
+SUB231264	Atopic	CLSC	57066	108-Month Clinic Visit	1.1	complete	108	0	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3343
+SUB231265	Atopic	CLSC	34567	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2172
+SUB231265	Atopic	CLSC	53626	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3261
+SUB231266	Atopic	CLSC	59906	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	1	0	0	1	1	1	3315
+SUB231266	Atopic	CLSC	33954	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	1	1	2	2232
+SUB231268	Atopic	CLSC	53798	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3265
+SUB231268	Atopic	CLSC	33540	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2174
+SUB231270	Atopic	CLSC	53703	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	1	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	3	3267
+SUB231270	Atopic	CLSC	35302	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB231271	Atopic	CLSC	36086	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2162
+SUB231271	Atopic	CLSC	53844	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3268
+SUB231272	Atopic	CLSC	34324	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2164
+SUB231272	Atopic	CLSC	54067	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3257
+SUB231273	Atopic	CLSC	33942	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	2161
+SUB231273	Atopic	CLSC	54084	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	1	3263
+SUB231274	Atopic	CLSC	33733	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2162
+SUB231274	Atopic	CLSC	59301	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3264
+SUB231275	Atopic	CLSC	37025	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	3	2163
+SUB231275	Atopic	CLSC	54232	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	3	3278
+SUB231276	Atopic	CLSC	54313	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	3259
+SUB231276	Atopic	CLSC	37634	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB231277	Non-atopic	CLSC	54504	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3348
+SUB231277	Non-atopic	CLSC	37591	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2165
+SUB231278	Non-atopic	CLSC	34386	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2167
+SUB231278	Non-atopic	CLSC	54604	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3272
+SUB231279	Atopic	CLSC	54343	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	3	3262
+SUB231279	Atopic	CLSC	44449	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	1	2156
+SUB231280	Non-atopic	CLSC	36272	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	2	2163
+SUB231280	Non-atopic	CLSC	54797	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3282
+SUB231281	Atopic	CLSC	36865	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2164
+SUB231281	Atopic	CLSC	59681	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	1	0	0	0	0	1	0	1	1	0	0	0	0	0	3	3297
+SUB231282	Atopic	CLSC	37320	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2269
+SUB231282	Atopic	CLSC	61140	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	1	3	3254
+SUB231283	Atopic	CLSC	56060	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3261
+SUB231283	Atopic	CLSC	35960	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2197
+SUB231284	Atopic	CLSC	55628	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	3	3271
+SUB231284	Atopic	CLSC	35572	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2178
+SUB231285	Non-atopic	CLSC	55947	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231285	Non-atopic	CLSC	35392	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2187
+SUB231286	Atopic	CLSC	37664	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	2167
+SUB231286	Atopic	CLSC	55294	108-Month Clinic Visit	1.1	complete	108	1	0	1	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	3	3260
+SUB231287	Non-atopic	CLSC	33930	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	1	0	0	0	0	1	1	0	0	1	0	0	1	5	2169
+SUB231287	Non-atopic	CLSC	55398	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	3	3259
+SUB231288	Atopic	CLSC	57440	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3340
+SUB231288	Atopic	CLSC	37964	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2249
+SUB231290	Atopic	CLSC	56073	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	0	1	1	4	3259
+SUB231290	Atopic	CLSC	33906	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	0	1	0	0	1	1	0	1	0	0	1	1	3	2175
+SUB231291	Atopic	CLSC	55928	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	2	3263
+SUB231291	Atopic	CLSC	37566	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2165
+SUB231292	Atopic	CLSC	55824	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	1	0	0	0	1	0	0	1	0	0	1	0	0	1	0	3	3260
+SUB231292	Atopic	CLSC	36260	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2162
+SUB231293	Atopic	CLSC	31182	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2232
+SUB231293	Atopic	CLSC	31178	60-Month Clinic Visit	1.1	complete	60	0	0	1	0	0	0	0	0	1	0	0	0	1	1	1	0	0	0	1	1	2	1831
+SUB231293	Atopic	CLSC	53657	108-Month Clinic Visit	1.1	complete	108	1	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3354
+SUB231294	Atopic	CLSC	52060	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3345
+SUB231294	Atopic	CLSC	31684	60-Month Clinic Visit	1.1	complete	60	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1881
+SUB231294	Atopic	CLSC	31688	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2269
+SUB231295	Atopic	CLSC	35028	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2233
+SUB231295	Atopic	CLSC	54054	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3319
+SUB231296	Atopic	CLSC	31757	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2229
+SUB231296	Atopic	CLSC	31753	60-Month Clinic Visit	1.1	complete	60	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	1842
+SUB231296	Atopic	CLSC	52589	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	3299
+SUB231297	Atopic	CLSC	53122	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3308
+SUB231297	Atopic	CLSC	37996	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2273
+SUB231299	Atopic	CLSC	32736	60-Month Clinic Visit	1.1	complete	60	0	0	1	1	0	0	0	0	1	1	0	1	1	0	1	1	0	0	1	1	5	1825
+SUB231299	Atopic	CLSC	32740	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	1	1	1	0	0	1	1	0	1	0	0	1	1	5	2267
+SUB231299	Atopic	CLSC	54741	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231300	Atopic	CLSC	31017	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2262
+SUB231300	Atopic	CLSC	52859	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3276
+SUB231302	Atopic	CLSC	52211	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3295
+SUB231302	Atopic	CLSC	34502	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2222
+SUB231304	Atopic	CLSC	53108	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3279
+SUB231304	Atopic	CLSC	35907	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	2233
+SUB231305	Atopic	CLSC	34786	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2250
+SUB231305	Atopic	CLSC	53448	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3300
+SUB231306	Atopic	CLSC	36310	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2243
+SUB231306	Atopic	CLSC	55998	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3336
+SUB231307	Atopic	CLSC	37333	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2188
+SUB231307	Atopic	CLSC	51607	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3303
+SUB231308	Atopic	CLSC	58959	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3260
+SUB231308	Atopic	CLSC	38408	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2250
+SUB231309	Atopic	CLSC	35811	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2266
+SUB231309	Atopic	CLSC	54761	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231310	Atopic	CLSC	54487	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3263
+SUB231310	Atopic	CLSC	35935	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2230
+SUB231313	Atopic	CLSC	51818	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3261
+SUB231313	Atopic	CLSC	33654	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2229
+SUB231314	Atopic	CLSC	52141	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3265
+SUB231314	Atopic	CLSC	35895	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2224
+SUB231316	Atopic	CLSC	36440	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2223
+SUB231316	Atopic	CLSC	52037	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3269
+SUB231318	Atopic	CLSC	51702	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	3262
+SUB231318	Atopic	CLSC	33617	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	2207
+SUB231319	Atopic	CLSC	52008	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3345
+SUB231319	Atopic	CLSC	35110	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2280
+SUB231320	Atopic	CLSC	39492	72-Month Clinic Visit	1.1	complete	72	0	1	1	0	0	0	0	1	1	0	0	0	1	0	1	1	1	0	1	0	3	2234
+SUB231320	Atopic	CLSC	52738	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	1	0	0	1	1	1	1	1	0	1	1	5	3300
+SUB231321	Atopic	CLSC	36589	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	2218
+SUB231323	Atopic	CLSC	53174	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3268
+SUB231323	Atopic	CLSC	35182	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2189
+SUB231324	Atopic	CLSC	52828	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3261
+SUB231324	Atopic	CLSC	39186	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	2	2218
+SUB231325	Atopic	CLSC	35510	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2161
+SUB231325	Atopic	CLSC	53210	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3349
+SUB231326	Atopic	CLSC	55131	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3269
+SUB231326	Atopic	CLSC	34966	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2199
+SUB231327	Atopic	CLSC	34836	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	3	2175
+SUB231327	Atopic	CLSC	52555	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3267
+SUB231328	Atopic	CLSC	52447	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	2	3318
+SUB231328	Atopic	CLSC	35616	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	3	2193
+SUB231329	Atopic	CLSC	53022	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3285
+SUB231329	Atopic	CLSC	40899	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	2188
+SUB231330	Atopic	CLSC	38858	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2167
+SUB231330	Atopic	CLSC	53771	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3266
+SUB231332	Atopic	CLSC	54023	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231332	Atopic	CLSC	39238	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	5	2177
+SUB231333	Atopic	CLSC	35628	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2252
+SUB231333	Atopic	CLSC	54006	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3300
+SUB231334	Atopic	CLSC	54701	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3278
+SUB231334	Atopic	CLSC	39281	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2167
+SUB231336	Atopic	CLSC	54216	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3295
+SUB231336	Atopic	CLSC	35525	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	2252
+SUB231338	Atopic	CLSC	53063	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3263
+SUB231338	Atopic	CLSC	35158	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2164
+SUB231339	Atopic	CLSC	53720	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	1	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	1	3265
+SUB231339	Atopic	CLSC	39198	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	1	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	3	2172
+SUB231341	Atopic	CLSC	37685	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2190
+SUB231341	Atopic	CLSC	54414	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	3263
+SUB231342	Atopic	CLSC	56018	108-Month Clinic Visit	1.1	complete	108	1	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	3304
+SUB231342	Atopic	CLSC	38167	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	2	2283
+SUB231343	Atopic	CLSC	39210	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2187
+SUB231343	Atopic	CLSC	54830	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3327
+SUB231345	Atopic	CLSC	39890	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2190
+SUB231345	Atopic	CLSC	57911	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3275
+SUB231346	Atopic	CLSC	55382	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3264
+SUB231346	Atopic	CLSC	38242	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2205
+SUB231347	Atopic	CLSC	55669	108-Month Clinic Visit	1.1	complete	108	0	1	1	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3308
+SUB231347	Atopic	CLSC	34164	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231352	Atopic	CLSC	55363	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	1	3	3366
+SUB231352	Atopic	CLSC	32202	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	3	2273
+SUB231353	Atopic	CLSC	31002	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	1	1	3	2197
+SUB231353	Atopic	CLSC	55650	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3267
+SUB231355	Atopic	CLSC	55811	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	3288
+SUB231355	Atopic	CLSC	44935	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	3	2260
+SUB231356	Atopic	CLSC	55595	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0	0	3	3259
+SUB231356	Atopic	CLSC	30817	72-Month Clinic Visit	1.1	complete	72	0	1	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2272
+SUB231357	Atopic	CLSC	56303	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3267
+SUB231357	Atopic	CLSC	41020	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2189
+SUB231359	Atopic	CLSC	55902	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	4	3281
+SUB231359	Atopic	CLSC	40847	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	1	0	0	0	1	0	1	1	1	0	0	1	1	3	2251
+SUB231360	Atopic	CLSC	31651	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2211
+SUB231360	Atopic	CLSC	55796	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3268
+SUB231363	Atopic	CLSC	31082	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2212
+SUB231363	Atopic	CLSC	56171	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3289
+SUB231365	Atopic	CLSC	34181	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2227
+SUB231365	Atopic	CLSC	56290	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3348
+SUB231366	Atopic	CLSC	39222	72-Month Clinic Visit	1.1	complete	72	0	1	1	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	1	3	2174
+SUB231366	Atopic	CLSC	55050	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3262
+SUB231367	Atopic	CLSC	32025	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2282
+SUB231367	Atopic	CLSC	51458	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231368	Atopic	CLSC	55983	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	3	3365
+SUB231368	Atopic	CLSC	37901	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2260
+SUB231369	Atopic	CLSC	56749	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	1	0	0	1	0	0	0	1	1	1	1	1	1	1	1	5	3262
+SUB231369	Atopic	CLSC	31724	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	1	0	0	1	0	0	0	1	1	1	1	1	0	1	1	5	2212
+SUB231372	Atopic	CLSC	56527	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231372	Atopic	CLSC	32415	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2197
+SUB231373	Atopic	CLSC	56184	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	3	3308
+SUB231373	Atopic	CLSC	32294	72-Month Clinic Visit	1.1	complete	72	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2202
+SUB231374	Atopic	CLSC	55349	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3269
+SUB231374	Atopic	CLSC	40061	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2169
+SUB231376	Atopic	CLSC	55840	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3345
+SUB231376	Atopic	CLSC	33248	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2278
+SUB231377	Atopic	CLSC	58333	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3305
+SUB231377	Atopic	CLSC	34994	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2195
+SUB231378	Atopic	CLSC	34631	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2174
+SUB231378	Atopic	CLSC	52483	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3265
+SUB231379	Atopic	CLSC	56732	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	1	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	3	3271
+SUB231379	Atopic	CLSC	34691	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2208
+SUB231380	Atopic	CLSC	38445	72-Month Clinic Visit	1.1	complete	72	0	1	1	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	3	2225
+SUB231380	Atopic	CLSC	57454	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3318
+SUB231381	Atopic	CLSC	32531	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	1	0	1	0	1	0	1	0	0	0	0	0	1	1	2198
+SUB231381	Atopic	CLSC	57107	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3366
+SUB231382	Atopic	CLSC	44967	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2187
+SUB231382	Atopic	CLSC	56925	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3264
+SUB231383	Atopic	CLSC	52073	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3374
+SUB231383	Atopic	CLSC	50454	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2260
+SUB231384	Atopic	CLSC	56514	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3347
+SUB231384	Atopic	CLSC	39258	72-Month Clinic Visit	1.1	complete	72	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2172
+SUB231387	Atopic	CLSC	57330	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	5	3290
+SUB231387	Atopic	CLSC	39392	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2197
+SUB231388	Atopic	CLSC	32613	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2202
+SUB231388	Atopic	CLSC	57290	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3337
+SUB231389	Atopic	CLSC	57973	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3340
+SUB231389	Atopic	CLSC	32309	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2206
+SUB231390	Atopic	CLSC	32174	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2277
+SUB231390	Atopic	CLSC	59468	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	3355
+SUB231391	Atopic	CLSC	31571	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2177
+SUB231391	Atopic	CLSC	57851	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3288
+SUB231392	Atopic	CLSC	33410	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	1	2193
+SUB231392	Atopic	CLSC	57721	108-Month Clinic Visit	1.1	complete	108	1	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	4	3285
+SUB231393	Atopic	CLSC	44478	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	1	4	2191
+SUB231393	Atopic	CLSC	57892	108-Month Clinic Visit	1.1	complete	108	1	0	1	0	0	0	0	1	0	1	0	0	1	1	0	0	0	0	0	1	3	3341
+SUB231394	Atopic	CLSC	34418	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	1	0	0	1	1	0	1	1	0	0	0	3	2208
+SUB231394	Atopic	CLSC	51536	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	0	1	0	0	1	1	1	1	0	0	0	1	3	3374
+SUB231395	Atopic	CLSC	58605	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3282
+SUB231395	Atopic	CLSC	32013	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2186
+SUB231396	Atopic	CLSC	57708	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3369
+SUB231396	Atopic	CLSC	31524	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	3	2187
+SUB231397	Atopic	CLSC	52360	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	4	3287
+SUB231397	Atopic	CLSC	34579	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2251
+SUB231398	Atopic	CLSC	34592	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	1	0	0	1	0	1	0	0	0	1	0	1	2190
+SUB231398	Atopic	CLSC	58987	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	1	0	0	1	1	0	0	1	1	0	0	0	0	0	1	3	3358
+SUB231400	Atopic	CLSC	35547	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231401	Atopic	CLSC	30920	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2188
+SUB231401	Atopic	CLSC	51628	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3341
+SUB231402	Atopic	CLSC	34897	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	1	0	0	1	0	0	0	1	1	1	0	0	0	0	1	3	2191
+SUB231402	Atopic	CLSC	51721	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	0	1	1	0	1	0	1	0	0	0	0	0	0	1	3368
+SUB231403	Atopic	CLSC	30832	72-Month Clinic Visit	1.1	complete	72	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	1	2186
+SUB231403	Atopic	CLSC	51654	108-Month Clinic Visit	1.1	complete	108	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3272
+SUB231404	Atopic	CLSC	51927	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	3	3335
+SUB231404	Atopic	CLSC	39870	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2203
+SUB231405	Atopic	CLSC	51854	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3340
+SUB231405	Atopic	CLSC	32467	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2185
+SUB231406	Atopic	CLSC	52389	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3352
+SUB231406	Atopic	CLSC	33376	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	1	3	2212
+SUB231409	Atopic	CLSC	59027	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231409	Atopic	CLSC	60177	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	1	3357
+SUB231410	Atopic	CLSC	31978	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	1	0	1	1	1	0	0	1	1	0	1	1	0	0	0	3	2208
+SUB231410	Atopic	CLSC	52903	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3279
+SUB231411	Atopic	CLSC	53689	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3349
+SUB231411	Atopic	CLSC	37473	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2243
+SUB231412	Atopic	CLSC	30748	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2208
+SUB231412	Atopic	CLSC	52921	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3339
+SUB231413	Atopic	CLSC	31402	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2219
+SUB231413	Atopic	CLSC	53272	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3373
+SUB231414	Atopic	CLSC	31991	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2183
+SUB231414	Atopic	CLSC	52845	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3270
+SUB231415	Non-atopic	CLSC	52990	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	1	0	0	1	0	1	0	0	1	1	1	1	1	1	1	1	5	3284
+SUB231415	Non-atopic	CLSC	31347	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	1	0	0	0	0	1	1	0	1	0	0	0	1	1	2192
+SUB231417	Atopic	CLSC	53523	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	3295
+SUB231417	Atopic	CLSC	35278	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	3	2209
+SUB231418	Atopic	CLSC	53316	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3318
+SUB231418	Atopic	CLSC	31596	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2199
+SUB231419	Atopic	CLSC	53902	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	1	1	0	0	1	1	0	0	0	0	0	1	3	3348
+SUB231419	Atopic	CLSC	33466	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2216
+SUB231420	Atopic	CLSC	54040	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	1	3	3329
+SUB231420	Atopic	CLSC	31775	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2223
+SUB231421	Atopic	CLSC	53915	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	1	3373
+SUB231421	Atopic	CLSC	34292	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2215
+SUB231422	Atopic	CLSC	32344	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231422	Atopic	CLSC	58946	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231423	Atopic	CLSC	36120	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2182
+SUB231423	Atopic	CLSC	53286	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3260
+SUB231424	Atopic	CLSC	56145	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3328
+SUB231424	Atopic	CLSC	33667	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2281
+SUB231425	Non-atopic	CLSC	37780	72-Month Clinic Visit	1.1	complete	72	0	1	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	5	2284
+SUB231425	Non-atopic	CLSC	59509	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231426	Atopic	CLSC	36750	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	1	1	2221
+SUB231426	Atopic	CLSC	54888	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3370
+SUB231427	Atopic	CLSC	34644	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	1	0	0	0	0	1	0	1	0	0	0	1	0	3	2215
+SUB231427	Atopic	CLSC	54854	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	1	0	0	1	1	1	1	0	0	0	1	1	3368
+SUB231428	Atopic	CLSC	53932	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	1	3293
+SUB231428	Atopic	CLSC	35410	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	2	2184
+SUB231429	Non-atopic	CLSC	53883	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3323
+SUB231429	Non-atopic	CLSC	34145	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2176
+SUB231430	Non-atopic	CLSC	36560	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2220
+SUB231430	Non-atopic	CLSC	55104	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3371
+SUB231431	Non-atopic	CLSC	40124	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2185
+SUB231431	Non-atopic	CLSC	54203	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3348
+SUB231432	Non-atopic	CLSC	56624	108-Month Clinic Visit	1.1	complete	108	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	3	3370
+SUB231432	Non-atopic	CLSC	36035	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2278
+SUB231433	Atopic	CLSC	34194	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2263
+SUB231433	Atopic	CLSC	56348	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3368
+SUB231434	Non-atopic	CLSC	56719	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3366
+SUB231434	Non-atopic	CLSC	36293	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2280
+SUB231435	Atopic	CLSC	54781	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3364
+SUB231435	Atopic	CLSC	34107	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2190
+SUB231436	Atopic	CLSC	54687	108-Month Clinic Visit	1.1	complete	108	0	1	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	3	3371
+SUB231436	Atopic	CLSC	35226	72-Month Clinic Visit	1.1	complete	72	0	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2202
+SUB231437	Atopic	CLSC	35249	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2181
+SUB231437	Atopic	CLSC	54812	108-Month Clinic Visit	1.1	complete	108	1	1	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3293
+SUB231438	Non-atopic	CLSC	54272	108-Month Clinic Visit	1.1	missing	.x																						
+SUB231438	Non-atopic	CLSC	36903	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	1	5	2163
+SUB231439	Non-atopic	CLSC	54951	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3259
+SUB231439	Non-atopic	CLSC	34922	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	2183
+SUB231440	Atopic	CLSC	54591	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3294
+SUB231440	Atopic	CLSC	35455	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2163
+SUB231441	Atopic	CLSC	38594	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2278
+SUB231441	Atopic	CLSC	57038	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	3	3370
+SUB231442	Atopic	CLSC	37185	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	2218
+SUB231442	Atopic	CLSC	52471	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3365
+SUB231443	Atopic	CLSC	54978	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3362
+SUB231443	Atopic	CLSC	35263	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2180
+SUB231444	Atopic	CLSC	56885	108-Month Clinic Visit	1.1	complete	108	0	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	3302
+SUB231444	Atopic	CLSC	36713	72-Month Clinic Visit	1.1	complete	72	0	1	1	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	2255
+SUB231445	Atopic	CLSC	57022	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3355
+SUB231445	Atopic	CLSC	37721	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2252
+SUB231446	Non-atopic	CLSC	35477	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	2177
+SUB231446	Non-atopic	CLSC	55091	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3325
+SUB231448	Atopic	CLSC	55076	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	2	3329
+SUB231448	Atopic	CLSC	35841	72-Month Clinic Visit	1.1	complete	72	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	1	2	2163
+SUB231449	Atopic	CLSC	63227	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	3352
+SUB231449	Atopic	CLSC	36546	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	4	2273
+SUB231450	Atopic	CLSC	56033	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3303
+SUB231450	Atopic	CLSC	38274	72-Month Clinic Visit	1.1	complete	72	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	2168
+SUB231451	Non-atopic	CLSC	40801	72-Month Clinic Visit	1.1	missing	.x																						
+SUB231451	Non-atopic	CLSC	61104	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3334
+SUB231452	Non-atopic	CLSC	36020	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2216
+SUB231452	Non-atopic	CLSC	57348	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3350
+SUB231453	Atopic	CLSC	38028	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2165
+SUB231453	Atopic	CLSC	56432	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3287
+SUB231454	Atopic	CLSC	41139	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2197
+SUB231454	Atopic	CLSC	57259	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	3295
+SUB231455	Non-atopic	CLSC	38155	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2186
+SUB231455	Non-atopic	CLSC	57150	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3283
+SUB231456	Non-atopic	CLSC	38306	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2186
+SUB231456	Non-atopic	CLSC	57273	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3369
+SUB231457	Non-atopic	CLSC	37370	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2184
+SUB231457	Non-atopic	CLSC	57309	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3277
+SUB231459	Non-atopic	CLSC	41832	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2268
+SUB231460	Non-atopic	CLSC	57871	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3326
+SUB231460	Non-atopic	CLSC	37010	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2213
+SUB231462	Non-atopic	CLSC	61411	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	3	3370
+SUB231462	Non-atopic	CLSC	42927	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2236
+SUB231463	Atopic	CLSC	58041	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3273
+SUB231463	Atopic	CLSC	39759	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2201
+SUB231465	Non-atopic	CLSC	40411	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2179
+SUB231465	Non-atopic	CLSC	57814	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3358
+SUB231466	Atopic	CLSC	58233	108-Month Clinic Visit	1.1	complete	108	0	0	0	0	0	0	0	0														3320
+SUB231466	Atopic	CLSC	39976	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2204
+SUB231467	Atopic	CLSC	40486	72-Month Clinic Visit	1.1	complete	72	0	0	0	0	0	0	0	0														2163
+SUB231467	Atopic	CLSC	57650	108-Month Clinic Visit	1.1	complete	108	0	0	1	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	1	3342
+SUB231468	Atopic	CLSC	39407	72-Month Clinic Visit	1.1	complete	72	0	0	1	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0	1	1	3	2170
+SUB231468	Atopic	CLSC	52459	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	1	1	1	1	0	0	0	5	3305
+SUB231469	Non-atopic	CLSC	58212	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	3304
+SUB231469	Non-atopic	CLSC	42462	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2178
+SUB231470	Non-atopic	CLSC	41600	72-Month Clinic Visit	1.1	complete	72	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1	2183
+SUB231470	Non-atopic	CLSC	58566	108-Month Clinic Visit	1.1	complete	108	0	0	0	1	0	0	0	1	0	0	0	0	1	1	1	1	0	0	0	1	2	3295

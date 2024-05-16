@@ -1,0 +1,10 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	565	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CR"", ""CR"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""complete"", ""complete"")"
+5	6	SampleID	SampleID	chr	character	character	565	0	"c(""525961"", ""655951"")"
+6	7	aVisit	Visit	chr	character	character	1	0	"c(""b"", ""b"")"
+7	8	CR_q1	Dilution Factor	dbl	numeric	double	41	0	c(1, 7)
+8	9	CR_q2	Cotinine Level	dbl	numeric	double	88	473	c(3, 200.1)

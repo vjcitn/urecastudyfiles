@@ -1,0 +1,25 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	556	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CSQ"", ""CSQ"")"
+3	4	evid	evid	dbl	numeric	double	1570	0	c(300, 42667)
+4	5	event	event	chr	character	character	3	0	"c(""12-Month Clinic Visit"", ""36-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	4	0	"c("".x"", ""36"")"
+8	9	CSQ_q1	Childs Birth Order	dbl	numeric	double	5	201	c(0, 3)
+9	10	CSQ_q2	Child Sleep	dbl	numeric	double	6	200	c(1, 5)
+10	11	CSQ_q3a	Time Child Sleeps During Night - Hours	dbl	numeric	double	15	200	c(0, 13)
+11	12	CSQ_q3b	Time Child Sleeps During Night - Minutes	dbl	numeric	double	6	200	c(0, 45)
+12	13	CSQ_q4a	Time Child Sleeps During Day - Hours	dbl	numeric	double	14	204	c(0, 12)
+13	14	CSQ_q4b	Time Child Sleeps During Day - Minutes	dbl	numeric	double	9	204	c(0, 45)
+14	15	CSQ_q5	Average Number of Night Wakings	dbl	numeric	double	9	200	c(0, 7)
+15	16	CSQ_q6a	Time Child Spends in Wakefulness in Night - Hours	dbl	numeric	double	9	200	c(0, 8)
+16	17	CSQ_q6b	Time Child Spends in Wakefulness in Night - Minutes	dbl	numeric	double	15	200	c(0, 45)
+17	18	CSQ_q7a	Time it Takes to Put Child to Sleep in Evening - Hours	dbl	numeric	double	9	204	c(0, 7)
+18	19	CSQ_q7b	Time it Takes to Put Child to Sleep in Evening - Minutes	dbl	numeric	double	17	204	c(0, 45)
+19	20	CSQ_q8	How Child Falls Asleep	dbl	numeric	double	7	200	c(1, 6)
+20	21	CSQ_q9	Time Child Falls Asleep at Night	time	"c(""hms"", ""difftime"")"	double	40	200	c(0, 86340)
+21	22	CSQ_q10	Childs Sleep	dbl	numeric	double	4	200	c(0, 2)
+22	23	CSQ_q11	Child's Snoring and Noisy Breathing	dbl	numeric	double	4	201	c(0, 2)
+23	24	aCompletionDY	Completion Day	dbl	numeric	double	394	200	c(334, 1293)

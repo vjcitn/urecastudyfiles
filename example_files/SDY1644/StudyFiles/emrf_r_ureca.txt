@@ -1,0 +1,37 @@
+Accession	group	form	evid	event	version	status	aVisit	EMRF_q1	EMRF_q2	EMRF_q3	EMRF_q5	aCompletionDY	EMRF_Q11DY	EMRF_Q4DY
+SUB230897	Atopic	EMRF	14949	Nasal Wash	1.0	complete	r	1	1	1		410		408
+SUB230904	Atopic	EMRF	16049	Respiratory Illness Check	1.0	complete	r	1	1	3		433		432
+SUB230909	Atopic	EMRF	10134	Nasal Wash	1.0	complete	r	1	1	1		212		212
+SUB230911	Atopic	EMRF	7821	Nasal Wash	1.0	complete	r	1	1	1		182		181
+SUB230917	Atopic	EMRF	15647	Respiratory Illness Check	1.0	complete	r	1	0		3	392		
+SUB230922	Atopic	EMRF	10677	ED Followup	1.0	complete	r	1	0		2	245		
+SUB230939	Atopic	EMRF	15449	Respiratory Illness Check	1.0	complete	r	1	1	3		311		310
+SUB230942	Atopic	EMRF	8486	Respiratory Illness Check	1.0	complete	r	1	0		1	78		
+SUB230942	Atopic	EMRF	14618	Nasal Wash	1.0	complete	r	1	0		1	278		
+SUB230948	Atopic	EMRF	25831	Nasal Wash	1.1	complete	r	1	1	1		843	841	841
+SUB230948	Atopic	EMRF	21388	Respiratory Illness Check	1.1	complete	r	1	0		3	632	621	
+SUB230953	Atopic	EMRF	7441	Respiratory Illness Check	1.0	complete	r	1	1	1		25		23
+SUB230988	Atopic	EMRF	22165	Nasal Wash	1.1	complete	r	1	1	1		560	538	546
+SUB231016	Atopic	EMRF	22435	Respiratory Illness Check	1.1	missing	.x							
+SUB231053	Atopic	EMRF	6526	Respiratory Illness Check	1.0	complete	r	1	1	1		81		81
+SUB231066	Atopic	EMRF	7446	Respiratory Illness Check	1.0	complete	r	3				57		
+SUB231074	Atopic	EMRF	7551	Nasal Wash	1.0	complete	r	1	1	3		16		14
+SUB231081	Atopic	EMRF	16183	Respiratory Illness Check	1.0	complete	r	1	1	2		261		261
+SUB231100	Atopic	EMRF	20467	Respiratory Illness Check	1.1	missing	.x							
+SUB231100	Atopic	EMRF	11451	Nasal Wash	1.0	complete	r	1	0		2	54		
+SUB231100	Atopic	EMRF	13984	Respiratory Illness Check	1.0	complete	r	1	1	2		138		138
+SUB231119	Atopic	EMRF	14815	Nasal Wash	1.0	complete	r	3				235		
+SUB231122	Atopic	EMRF	13113	Nasal Wash	1.0	complete	r	1	0		2	28		
+SUB231169	Non-atopic	EMRF	19922	Nasal Wash	1.1	missing	.x							
+SUB231190	Atopic	EMRF	24245	Nasal Wash	1.1	missing	.x							
+SUB231213	Atopic	EMRF	8118	Nasal Wash	1.0	complete	r	1	1	1		30		30
+SUB231234	Atopic	EMRF	11043	Respiratory Illness Check	1.0	complete	r	1	1	1		65		62
+SUB231284	Atopic	EMRF	24889	Nasal Wash	1.1	complete	r	1	0		3	529	519	
+SUB231294	Atopic	EMRF	4574	Respiratory Illness Check	1.0	complete	r	1	1	1		253		252
+SUB231311	Atopic	EMRF	6203	Nasal Wash	1.0	complete	r	1	1	1		187		187
+SUB231329	Atopic	EMRF	10920	Nasal Wash	1.0	complete	r	1	1	1		260		260
+SUB231332	Atopic	EMRF	5986	Respiratory Illness Check	1.0	complete	r	1	0		2	79		
+SUB231345	Atopic	EMRF	5779	Nasal Wash	1.0	complete	r	1	0		4	53		
+SUB231353	Atopic	EMRF	6373	Nasal Wash	1.0	complete	r	1	0		4	33		
+SUB231371	Atopic	EMRF	8496	Nasal Wash	1.0	complete	r	1	1	1		45		45
+SUB231443	Atopic	EMRF	16180	Nasal Wash	1.0	complete	r	1	1	1		45		45

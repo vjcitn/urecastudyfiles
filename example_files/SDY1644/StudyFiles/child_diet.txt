@@ -1,0 +1,321 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2013 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K Jaffee         04/19/13       Create
+*   Alexandre Lockhart 07/05/2017   Updated to account for new codebooks and general checks
+*   S Lussier          12/21/2018   Add infant food and diet 
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=child_diet,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.cd out=cd ; by studyid ; run ;
+proc sort data=master.cd2 out=cd2 ; by studyid ; run ;
+proc sort data=master.ifd out=ifd; by studyid avisit;
+
+proc freq data=cd ;
+   tables aVisit ;
+run ;
+proc freq data=cd2 ;
+   tables aVisit ;
+run ;
+
+data cd_2 ;
+   length aII $14. aPI $14. aStudyID $14. avisit_char $14.;
+
+   set cd (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   if aCompletionDate<0 then delete ;
+
+   format aII $SPLCDFM. aPI $SPLCDFM. aStudyID $SPLCDFM. avisit_char $SPLCDFM.;
+   
+   rename CD_q1=bottle 
+         CD_q1a=bottle_24hrs 
+         CD_q2=fastfood 
+         CD_q3=vitamins 
+         CD_q3a=vitamins_type
+         CD_q4=food_problems
+         CD_q4a=food_problems_num
+         CD_q5a=food_rxn1_type 
+         CD_q6a=food_rxn1_doc
+         CD_q7a1=food_rxn1_rash 
+         CD_q7b1=food_rxn1_hives
+         CD_q7c1=food_rxn1_diarr
+         CD_q7d1=food_rxn1_breathing
+         CD_q7e1=food_rxn1_stompain
+         CD_q7f1=food_rxn1_vomit
+         CD_q7g1=food_rxn1_other
+         CD_q7g1a=food_rxn1_otherspec
+         CD_q8a1=food_rxn1_diet
+         CD_q8b1=food_rxn1_meds
+         CD_q8c1=food_rxn1_othersoln
+         CD_q8c1a=food_rxn1_othersolnspec
+         CD_q5b=food_rxn2_type 
+         CD_q6b=food_rxn2_doc
+         CD_q7a2=food_rxn2_rash 
+         CD_q7b2=food_rxn2_hives
+         CD_q7c2=food_rxn2_diarr
+         CD_q7d2=food_rxn2_breathing
+         CD_q7e2=food_rxn2_stompain
+         CD_q7f2=food_rxn2_vomit
+         CD_q7g2=food_rxn2_other
+         CD_q7g2a=food_rxn2_otherspec
+         CD_q8a2=food_rxn2_diet
+         CD_q8b2=food_rxn2_meds
+         CD_q8c2=food_rxn2_othersoln
+         CD_q8c2a=food_rxn2_othersolnspec
+         CD_q5c=food_rxn3_type 
+         CD_q6c=food_rxn3_doc
+         CD_q7a3=food_rxn3_rash 
+         CD_q7b3=food_rxn3_hives
+         CD_q7c3=food_rxn3_diarr
+         CD_q7d3=food_rxn3_breathing
+         CD_q7e3=food_rxn3_stompain
+         CD_q7f3=food_rxn3_vomit
+         CD_q7g3=food_rxn3_other
+         CD_q7g3a=food_rxn3_otherspec
+         CD_q8a3=food_rxn3_diet
+         CD_q8b3=food_rxn3_meds
+         CD_q8c3=food_rxn3_othersoln
+         CD_q8c3a=food_rxn3_othersolnspec ;
+run ;
+
+data cd2_2 ;
+   set cd2 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   if aCompletionDate<0 then delete ;
+
+   rename CD2_q1_1=dayc_school 
+         CD2_q1_1a=eatbreak_dayc_school
+         CD2_q1_1b=eatlunch_dayc_school 
+         CD2_q1a_2=eatbreak_schoolprovide
+         CD2_q1b_2=eatlunch_schoolprovide
+         CD2_q2=fastfood 
+         CD2_q3=vitamins 
+         CD2_q3a=vitamins_type
+         CD2_q4=food_problems
+         CD2_q4a=food_problems_num
+         CD2_q5a=food_rxn1_type 
+         CD2_q6a=food_rxn1_doc
+         CD2_q7a1=food_rxn1_rash 
+         CD2_q7b1=food_rxn1_hives
+         CD2_q7c1=food_rxn1_diarr
+         CD2_q7d1=food_rxn1_breathing
+         CD2_q7e1=food_rxn1_stompain
+         CD2_q7f1=food_rxn1_vomit
+         CD2_q7g1=food_rxn1_other
+         CD2_q7g1a=food_rxn1_otherspec
+         CD2_q8a1=food_rxn1_diet
+         CD2_q8b1=food_rxn1_meds
+         CD2_q8c1=food_rxn1_othersoln
+         CD2_q8c1a=food_rxn1_othersolnspec
+         CD2_q5b=food_rxn2_type 
+         CD2_q6b=food_rxn2_doc
+         CD2_q7a2=food_rxn2_rash 
+         CD2_q7b2=food_rxn2_hives
+         CD2_q7c2=food_rxn2_diarr
+         CD2_q7d2=food_rxn2_breathing
+         CD2_q7e2=food_rxn2_stompain
+         CD2_q7f2=food_rxn2_vomit
+         CD2_q7g2=food_rxn2_other
+         CD2_q7g2a=food_rxn2_otherspec
+         CD2_q8a2=food_rxn2_diet
+         CD2_q8b2=food_rxn2_meds
+         CD2_q8c2=food_rxn2_othersoln
+         CD2_q8c2a=food_rxn2_othersolnspec
+         CD2_q5c=food_rxn3_type 
+         CD2_q6c=food_rxn3_doc
+         CD2_q7a3=food_rxn3_rash 
+         CD2_q7b3=food_rxn3_hives
+         CD2_q7c3=food_rxn3_diarr
+         CD2_q7d3=food_rxn3_breathing
+         CD2_q7e3=food_rxn3_stompain
+         CD2_q7f3=food_rxn3_vomit
+         CD2_q7g3=food_rxn3_other
+         CD2_q7g3a=food_rxn3_otherspec
+         CD2_q8a3=food_rxn3_diet
+         CD2_q8b3=food_rxn3_meds
+         CD2_q8c3=food_rxn3_othersoln
+         CD2_q8c3a=food_rxn3_othersolnspec ;
+run ;
+proc contents data= cd_2 ; run;
+proc contents data=  cd2_2; run;
+
+
+data ifd_2 ;
+   set ifd (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   if aCompletionDate<0 then delete ;
+
+   rename 
+         IFD_q13_1=vitamin_drops
+         IFD_q13a_1=vitamin_drops_type
+         IFD_q14=food_problems
+         IFD_q14a=food_problems_num
+         IFD_q15a=food_rxn1_type 
+         IFD_q16a=food_rxn1_doc
+         IFD_q17a1=food_rxn1_rash 
+         IFD_q17b1=food_rxn1_hives
+         IFD_q17c1=food_rxn1_diarr
+         IFD_q17d1=food_rxn1_breathing
+         IFD_q17e1=food_rxn1_stompain
+         IFD_q17f1=food_rxn1_vomit
+         IFD_q17g1=food_rxn1_other
+         IFD_q17g1a=food_rxn1_otherspec
+         IFD_q18a1=food_rxn1_diet
+         IFD_q18b1=food_rxn1_form
+         IFD_q18c1=food_rxn1_thickened
+         IFD_q18d1=food_rxn1_meds
+         IFD_q18e1=food_rxn1_othersoln
+         IFD_q18e1a=food_rxn1_othersolnspec
+
+         IFD_q15b=food_rxn2_type 
+         IFD_q16b=food_rxn2_doc
+         IFD_q17a2=food_rxn2_rash 
+         IFD_q17b2=food_rxn2_hives
+         IFD_q17c2=food_rxn2_diarr
+         IFD_q17d2=food_rxn2_breathing
+         IFD_q17e2=food_rxn2_stompain
+         IFD_q17f2=food_rxn2_vomit
+         IFD_q17g2=food_rxn2_other
+         IFD_q17g2a=food_rxn2_otherspec
+         IFD_q18a2=food_rxn2_diet
+         IFD_q18b2=food_rxn2_form
+         IFD_q18c2=food_rxn2_thickened
+         IFD_q18d2=food_rxn2_meds
+         IFD_q18e2=food_rxn2_othersoln
+         IFD_q18e2a=food_rxn2_othersolnspec
+
+         IFD_q15c=food_rxn3_type 
+         IFD_q16c=food_rxn3_doc
+         IFD_q17a3=food_rxn3_rash 
+         IFD_q17b3=food_rxn3_hives
+         IFD_q17c3=food_rxn3_diarr
+         IFD_q17d3=food_rxn3_breathing
+         IFD_q17e3=food_rxn3_stompain
+         IFD_q17f3=food_rxn3_vomit
+         IFD_q17g3=food_rxn3_other
+         IFD_q17g3a=food_rxn3_otherspec
+         IFD_q18a3=food_rxn3_diet
+         IFD_q18b3=food_rxn3_form
+         IFD_q18c3=food_rxn3_thickened
+         IFD_q18d3=food_rxn3_meds
+         IFD_q18e3=food_rxn3_othersoln
+         IFD_q18e3a=food_rxn3_othersolnspec;
+         drop IFD_q1 -- IFD_q13g1;
+run ;
+
+data cd_all ;
+   set cd_2 cd2_2 ifd_2;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+
+   drop avisit_char ;
+run ;
+
+/*************************************************************************************
+ Check for duplicates - none as of July 5, 2017
+**************************************************************************************/
+proc sort data=cd_all nodupkey dupout=test out=cd_all2 ; by studyid avisit ; run ;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell_quarterly;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 0,3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,87,90,93,96,
+             99,102,105,108,111,114,117,120;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit in (87, 90, 93, 96) then year=8;
+  if avisit in (99, 102, 105, 108) then year=9;
+  if avisit in (111, 114, 117, 120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge with Shell and Save
+**************************************************************************************/
+proc sort data=cd_all2         ; by studyid avisit; run ;
+proc sort data=shell_quarterly ; by studyid avisit; run ;
+
+data child_diet ;
+   merge shell_quarterly cd_all2(in=b) derive.respondent;
+   by studyid avisit ;
+   if b=1 then child_diet = 1 ; else child_diet = 0 ;
+run;
+
+proc sort data=child_diet out=derive.child_diet ; by studyid avisit  ; run ;
+
+*** 3. Codebook ****************************************************************;
+/**/
+/*data child_diet_cbk;    */
+/*   set derive.child_diet;*/
+/*   DROP food_rxn1_othersolnspec;   *SL 7/21/17 - omit open text field variables from codebook;*/
+/*run;*/
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.child_diet
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+
+proc freq data= derive.child_diet; tables avisit*child_diet; run;
+proc freq data= master.cd; tables avisit; run;
+proc freq data= master.cd2; tables avisit; run;
+
+
+ods select Position;
+proc contents data=derive.child_diet position; run;
+run;
+ods select default;

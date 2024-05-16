@@ -1,0 +1,37 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	609	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CSLRIL8"", ""CSLRIL8"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""expected"", ""expected"")"
+5	6	SampleID	SampleID	chr	character	character	610	0	"c(""100009"", ""99048"")"
+6	7	aVisit	Visit	chr	character	character	1	0	"c(""b"", ""b"")"
+7	8	CSLRIL8_q1a1	A-1 Assay - Stimulant LPS - Cytokine IL-8	dbl	numeric	double	393	14	c(13700, 1130000)
+8	9	CSLRIL8_q1b1	A-1 Assay - Stimulant MC24 - Cytokine IL-8	dbl	numeric	double	159	438	c(13500, 655000)
+9	10	CSLRIL8_q1c1	A-1 Assay - Stimulant PIC - Cytokine IL-8	dbl	numeric	double	212	374	c(12900, 630000)
+10	11	CSLRIL8_q1d1	A-1 Assay - Stimulant PG - Cytokine IL-8	dbl	numeric	double	381	22	c(16100, 1220000)
+11	12	CSLRIL8_q1e1	A-1 Assay - Stimulant CpG - Cytokine IL-8	dbl	numeric	double	236	328	c(12400, 865000)
+12	13	CSLRIL8_q1f1	A-1 Assay - Stimulant MC5 - Cytokine IL-8	dbl	numeric	double	142	456	c(12600, 765000)
+13	14	CSLRIL8_q1g1	A-1 Assay - Stimulant RSV - Cytokine IL-8	dbl	numeric	double	423	49	c(13600, 935000)
+14	15	CSLRIL8_q2a1	A-2 Assay - Stimulant LPS - Cytokine IL-8	dbl	numeric	double	72	531	c(13200, 759000)
+15	16	CSLRIL8_q2b1	A-2 Assay - Stimulant MC24 - Cytokine IL-8	dbl	numeric	double	7	604	c(19600, 4e+05)
+16	17	CSLRIL8_q2c1	A-2 Assay - Stimulant PIC - Cytokine IL-8	dbl	numeric	double	8	603	c(13600, 70800)
+17	18	CSLRIL8_q2d1	A-2 Assay - Stimulant PG - Cytokine IL-8	dbl	numeric	double	71	531	c(16100, 826000)
+18	19	CSLRIL8_q2e1	A-2 Assay - Stimulant CpG - Cytokine IL-8	dbl	numeric	double	11	600	c(14200, 221000)
+19	20	CSLRIL8_q2f1	A-2 Assay - Stimulant MC5 - Cytokine IL-8	dbl	numeric	double	3	608	c(27600, 770000)
+20	21	CSLRIL8_q2g1	A-2 Assay - Stimulant RSV - Cytokine IL-8	dbl	numeric	double	67	538	c(15600, 760000)
+21	22	CSLRIL8_q3a1	B-1 Assay - Stimulant LPS - Cytokine IL-8	dbl	numeric	double	395	40	c(17200, 1120000)
+22	23	CSLRIL8_q3b1	B-1 Assay - Stimulant MC24 - Cytokine IL-8	dbl	numeric	double	150	445	c(12700, 774000)
+23	24	CSLRIL8_q3c1	B-1 Assay - Stimulant PIC - Cytokine IL-8	dbl	numeric	double	191	391	c(12800, 671000)
+24	25	CSLRIL8_q3d1	B-1 Assay - Stimulant PG - Cytokine IL-8	dbl	numeric	double	387	56	c(14200, 1250000)
+25	26	CSLRIL8_q3e1	B-1 Assay - Stimulant CpG - Cytokine IL-8	dbl	numeric	double	216	351	c(13200, 568000)
+26	27	CSLRIL8_q3f1	B-1 Assay - Stimulant MC5 - Cytokine IL-8	dbl	numeric	double	140	465	c(14000, 804000)
+27	28	CSLRIL8_q3g1	B-1 Assay - Stimulant RSV - Cytokine IL-8	dbl	numeric	double	406	83	c(17100, 1130000)
+28	29	CSLRIL8_q4a1	B-2 Assay - Stimulant LPS - Cytokine IL-8	dbl	numeric	double	73	537	c(26100, 736000)
+29	30	CSLRIL8_q4b1	B-2 Assay - Stimulant MC24 - Cytokine IL-8	dbl	numeric	double	3	608	c(29200, 193000)
+30	31	CSLRIL8_q4c1	B-2 Assay - Stimulant PIC - Cytokine IL-8	dbl	numeric	double	9	602	c(15300, 250000)
+31	32	CSLRIL8_q4d1	B-2 Assay - Stimulant PG - Cytokine IL-8	dbl	numeric	double	68	537	c(14200, 1110000)
+32	33	CSLRIL8_q4e1	B-2 Assay - Stimulant CpG - Cytokine IL-8	dbl	numeric	double	8	603	c(16900, 264000)
+33	34	CSLRIL8_q4f1	B-2 Assay - Stimulant MC5 - Cytokine IL-8	dbl	numeric	double	4	607	c(15600, 118000)
+34	35	CSLRIL8_q4g1	B-2 Assay - Stimulant RSV - Cytokine IL-8	dbl	numeric	double	63	544	c(19100, 1190000)
+35	36	aProcDY	Processing Day	dbl	numeric	double	230	2	c(-55, 607)

@@ -1,0 +1,2543 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1
+* PROGRAM DESCRIPTION:Look at dust data to see about insufficient samples
+*
+*      Section 1. 
+*         
+*
+*      Inputs: s:\rhofed\icac\Studies\URECA\DATA\Master\dslr.sas7bdat
+*                                           dsc.sas7bdat
+*
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness      12/02/05   Created Program 
+*                08/03/06   Revised to find samples that had some results but not all
+*               08/22/06   Distribution of weights of sum of BR and extra floor
+*                        plus dust weight by floor type
+*               09/20/06   Frequencies of categories of dust weights
+*               10/01/09   Revisions for all visits
+*   A Hodges      09/23/10   Updated program for outputing a derived 1-3 yr dust dataset.   
+*   A Hodges      11/22/10   Updated program for outputing a derived 1-5 yr dust dataset.
+*   K Jaffee      03/08/11   Change template, drop variables and rename, add 3 month data and shell  
+*   K Jaffee      03/28/11   Add endotoxin and ergosterol data for 3 month HE 
+*   K Jaffee      03/31/11   Change cutoff labels and add 10 ug/g cutoff for can f
+*   K Jaffee      09/06/11   Add a combined der p and der f variable 
+*   K Jaffee      01/07/15   Edit conversions 
+*   A Lockhart    07/26/17   Added DSLR_ALL to add 7 and 10 year data
+*   A Lockhart    08/10/17   Added more home environmental variables via home_env and home_obs for imputation help
+*   A Lockhart    09/05/17   Updated 12 month data. Resolved month 81 and 84 data.  Hard-coded dates.
+*   A Calatroni     05/14/19   Updated: Add canf_b_rank and canf_l_rank 
+*   S LUSSIER     09/04/17    Update: Divide blag for 7 and 10 years by 1000 to convert from ng/g to ug/g 
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint ls=96 ps=53 orientation=portrait font=SASFONT 8; 
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup( /*Name of the program  */
+               prog=dust,   
+                /*Location to save */        
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+                /*Study library to add */
+               study=ureca);            
+
+%let ds = dust;
+/*
+%include 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Macros\Setup_TLF.sas';
+%Setup_TLF(&ds, data);
+
+LIBNAME derive   "S:\RhoFED\ICAC\Studies\URECA\Data\Derive";
+LIBNAME master   "S:\RhoFED\ICAC\Studies\URECA\Data\master";
+*/
+
+*** Save program source code ***;
+*dm "file &gpgmpath\&gprog..sas replace";
+
+LIBNAME endodata   "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Endotoxin\Milton";
+LIBNAME endoty     "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Endotoxin\Year3Denver";
+*AL: Add DSLR_ALL libname SL: 7/25/18 updated;
+LIBNAME YRS710     "S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Lab\IndoorBio\DMS_Old" access=readonly;
+*libname library "S:\RhoFED\ICAC\Studies\URECA\Data\Formats";
+
+*** 2. Main Body **************************************************************;
+proc format; * library=library;
+value few   0='No assay results'
+         1='1-5 assay results'
+         2='All 6 assay results';
+value dustcat   /*.='Pending analysis or query'*/
+            .a, .m='Sample not collected'
+            ., .q='Insufficient (<50 mcg)'
+            0<-<0.025='Less than 25 mcg'
+            0.025-<0.050='25-<50 mcg'
+            0.050-<0.075='50-<75 mcg'
+            0.075-<0.100='75-<100 mcg'
+            0.100-<0.125='100-<125 mcg'
+            0.125-high='125 mcg or more';
+
+run;
+
+
+
+/**/
+/*proc print data=derive.dust ;*/
+/*   var studyid avisit blag_b feld_b musm_b canf_b derp_b derf_b ;*/
+/*   where (blag_b=.B or feld_b=.B or musm_b=.B or canf_b=.B or derp_b=.B or derf_b=.B) ;*/
+/*run ;*/
+
+/*proc freq data=derive.dust ;
+   tables derp_b_uasind*event ;
+run ; 
+proc freq data=derive.dust ;
+   tables blag_b_uasind*event ;
+run ;  */
+
+data br;
+   set master.br;
+     where br_q8 > 1;
+run;
+
+proc freq; tables br_q8/missing; run;
+
+proc print; var studyid recruitid br_q8c1-br_q8c3; run;
+
+***NOTE: he1, he2, and he3 can be done with either this visit code or R as the visit code, during a nasal wash. This makes it hard to know which
+year the wash ones go with. The occurred dates of each eval are in the p_study_data file, however, which is a better way to find them. This does not apply 
+to the month 3/rescheduled evals, so those are found using the dsc form.;
+
+**KJ comment: we will change this so that we pull from visitsumm(derive) instead of pstudy data ;
+data pstudy;
+   set master.p_study_data;
+   if p_status in ('active', 'inactive');
+
+   site=substr(studyid, 4, 2);
+   format site site.;
+run ;
+
+data rollout;
+   set pstudy;
+
+   event='Home Eval Years 1 and 2';
+   avisit='h1';
+   he_date=y1_home_eval;
+   output;
+
+   event='Home Eval Years 2 and 3';
+   avisit='h2';
+   he_date=y2_home_eval;
+   output;
+
+   event='Home Eval Years 3 and 4';
+   avisit='h3';
+   he_date=y3_home_eval;
+   output;
+
+   event='Home Eval Years 4 and 5';
+   avisit='h4';
+   he_date=y4_home_eval;
+   output;
+
+   format he_date mmddyy10.;
+   keep site studyid event avisit he_date;
+   if he_date=.m then delete;
+run;
+
+proc sort; by studyid event; run;
+
+*check for twins;
+data dustcolltwins; 
+   set master.dsc; 
+  *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+proc sort data=dustcolltwins; by status; run;
+
+proc print data=dustcolltwins; 
+   var studyid event acompletiondate; 
+   by status; 
+run;
+
+data dustcoll; 
+   length avisit $10;
+   set master.dsc; 
+   if acompletiondate ne .x; 
+   rename acompletiondate=he_date; 
+run ;
+
+proc sort; by studyid he_date; run;
+
+proc print; 
+   var studyid event he_date; 
+   *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data dustres (rename=(avstdate=he_date)); 
+   length avisit $ 10;
+   set master.dslr; 
+   if avstdate ne .m;  
+   *hardcodes here have been removed to protect patient confidentiality;
+   *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+*AL: DSLR_ALL addition. Rename everything to match DSLR variables
+SL: 7/25/18 update dataset name
+;
+data dslr_all(rename=(areceivedate=DSLR_Q1 DSLR_V2_q9c=DSLR_q2g1 DSLR_V2_q10c=DSLR_Q2F1 DSLR_V2_Q11c=DSLR_Q2C1  
+DSLR_v2_q12c=DSLR_Q2d1 DSLR_V2_Q13C=DSLR_Q2H1 DSLR_V2_Q7c=DSLR_Q2i1 DSLR_V2_Q14C=DSLR_Q2E1 avst=event aformdate=he_date));
+   length avst $25 avisit $10;
+   *hardcodes here have been removed to protect patient confidentiality;
+   format _all_;
+   informat _all_;
+   *drop dslr_v2_q5a dslr_v2_q5b  ;
+  * where room ne '';
+
+
+   *Create variable for avisit;
+   if avst='81-month clinic visit' then avisit='81';
+   else if avst='84-month clinic visit' then avisit='84';
+   else if avst='120-month clinic visit' then avisit='120';
+   else if avst='home dust collection' then do;
+           avst=new_event;
+           if new_event='81-month clinic visit' then avisit='81'; 
+           else if new_event='84-month clinic visit' then avisit='84';
+   else if new_event='120-month clinic visit' then avisit='120'; 
+   end;
+
+   ****AL: SINCE JHU_STATIC WAS LEFT RAW IN DSLR_ALL, ROOM will be defined for those missing values as 'Bedroom' as well;
+   if room ='' then room='Bedroom';
+run;
+
+
+
+
+
+proc freq data=dslr_all; tables event*new_Event avisit;run;
+
+
+*SET DSLR_ALL TO THE DSLR and dust_coll datasets;
+data dustres;
+   set dustres dslr_all(drop=event);
+run;  
+data dustcoll;
+   set dustcoll dslr_all;
+run;
+
+
+ 
+/**/
+/**/
+/*data test; */
+/*   set dustres; */
+*hardcodes here have been removed to protect patient confidentiality;
+/*run;*/
+/*proc sort data=test; by he_date; run;*/
+
+
+proc sort; by studyid he_date; run;
+
+proc print; 
+   *hardcodes here have been removed to protect patient confidentiality; 
+run;
+
+proc freq data=dustcoll;
+   tables event * avisit/missing;
+run;
+
+proc print data=dustcoll n label;
+   var studyid event avisit he_date;
+   where avisit='r';
+run;
+
+data dustcoll dustcollr;
+ set dustcoll;
+
+   if avisit eq 'r' then output dustcollr;
+   if avisit ne 'r' then output dustcoll;
+
+run;
+
+*correct one line for merging - verified data in the DMS;
+data rollout;
+ set rollout;
+ *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+proc sort data=rollout; by studyid he_date; run;
+
+data setRvisits;
+ merge dustcollr (in=dcr) rollout (in=ro);
+  by studyid he_date;
+
+  if dcr and ro;
+run;
+ 
+data dustcoll;
+ set dustcoll
+     setRvisits;
+run;
+
+data dustcoll2;
+   set dustcoll;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ 
+   if event='Nasal Wash' 
+   then do;
+      if avisit='h1' then event='Home Eval Years 1 and 2';
+   if avisit='h2' then event='Home Eval Years 2 and 3';
+   if avisit='h3' then event='Home Eval Years 3 and 4';
+   if avisit='h4' then event='Home Eval Years 4 and 5';
+
+
+
+
+
+   end;
+
+   else if event in ('3-Month Home Visit', 'Rescheduled Home Evaluation') 
+   then avisit='3';
+
+*make corrections where necessary;
+    *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+    *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+   end;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+   end;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+   *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+    *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+    *hardcodes here have been removed to protect patient confidentiality;
+    end;
+
+*hardcodes here have been removed to protect patient confidentiality;
+*Both DC forms were completed during nasal washes;
+
+run;
+
+proc print; 
+   var studyid event he_date avisit; 
+run;
+
+proc sort data=dustcoll2; by studyid event; run;
+
+proc freq; 
+   tables avisit/missing; 
+run;
+
+proc sort data=master.p_base out=p_base; by studyid; run ;
+
+data age;
+   merge dustcoll2 (in=e) p_base (keep=studyid date_birth);
+   by studyid;
+   if e;
+   age_mos=int((he_date-date_birth)/30.4);
+run;
+
+proc print n label;
+   var studyid event avisit he_date age_mos;
+   where  status=' ';
+   title5 'Blank records, i.e. non-matching';
+run;
+
+*AL: I may need to add age checks for later visits here;
+proc print n label;
+var studyid event avisit he_date date_birth age_mos;
+where    (avisit='h1' and (age_mos < 12 or age_mos > 24)) OR
+      (avisit='h2' and (age_mos < 24 or age_mos > 36)) OR
+      (avisit='h3' and (age_mos < 36 or age_mos > 48)) OR
+      (avisit='h4' and (age_mos < 48 or age_mos > 60));
+format date_birth mmddyy10.;
+title5 'Wrong visit recorded for age of child';
+run;
+
+proc print data=age n label;
+var studyid event avisit he_date age_mos;
+where    status='  ';
+run;
+
+proc sort data=age; by studyid he_date; run;
+
+data dustcoll10;
+ set age;
+ ***KJ edit: add in "3" here ;
+ *AL edit: added "81","84","120";
+ if avisit in ('3','h1','h2','h3','h4','81','84','120');
+run;
+
+***Start work to add twins' data;
+***NY twins do not have H1/H2 dust collected;
+***NY twins DO have H3/H4 dust collected and collection was done separately so these twins;
+***can be treated just like regular participants;
+data br;
+   set master.br;
+   *hardcodes here have been removed to protect patient confidentiality;
+   rename br_q8c1=recruitid;
+run ;
+
+proc sort; by studyid; run;
+
+data dustcoll10notwins;
+ set dustcoll10;
+ *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+***output the records with dust results;
+data twins3m twins1 twins2 twins3 twins4 ;
+   set dustcoll10;
+   *hardcodes here have been removed to protect patient confidentiality;
+
+   ***Add in twins 3 month eval ;
+   if avisit in ('3')  then output twins3m;
+   if avisit in ('h1') then output twins1;
+   if avisit in ('h2') then output twins2;
+   if avisit in ('h3') then output twins3;
+   if avisit in ('h4') then output twins4;
+   *AL: Added in 81, 84, and 120 month eval;
+   *if avisit in ('81') then output twins81;
+   *if avisit in ('120') then output twins120;
+
+run;
+
+
+proc sort data=twins3m; by recruitid he_date; run;
+proc sort data=twins1 ; by recruitid he_date; run;
+proc sort data=twins2 ; by recruitid he_date; run;
+proc sort data=twins3 ; by recruitid he_date; run;
+proc sort data=twins4 ; by recruitid he_date; run;
+/*proc sort data=twins81 ; by recruitid he_date; run;
+proc sort data=twins120 ; by recruitid he_date; run; */
+
+
+
+*AL: Add 81, 84, and 120 month data;
+***MONTH 81;
+/*data twinsHE81m1 twinsHE81m2 twinsHE81m3 twinsHE81m;
+ set twins81;
+
+ *hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE81m;
+run;
+
+data twinsHE81m1id (keep=studyid) twinsHE81m2id (keep=studyid) twinsHE81m3id (keep=studyid);
+ set twins81;
+
+ *hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+***match up to record with data;
+data twinsHE81m1n;
+   *hardcodes here have been removed to protect patient confidentiality;
+   by studyid;
+   drop studyid;
+run;
+
+data mergetwinsHE81m1;
+   merge twinsHE81m twinsHE81m1n (in=one);
+   by recruitid;
+
+    if one;
+
+   *set correct studyid and recruitid;
+   *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinsHE81m2n;
+   *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data mergetwinsHE81m2;
+    merge twinsHE81m2 twinsHE81m2n (in=two);
+   by recruitid;
+
+    if two;
+
+   *set correct studyid and recruitid;
+   *hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+data twinsHE81m3n;
+  *hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+data mergetwinsHE81m3;
+   merge twinsHE81m2 twinsHE81m3n (in=three);
+   by recruitid;
+   if three;
+run;
+
+data twinsHE81mdust;
+ set twinsHE81m
+     mergetwinsHE81m1
+    mergetwinsHE81m2
+    mergetwinsHE81m3
+    ;
+run; 
+    
+proc sort data=twinsHE81mdust; by studyid he_date; run;
+ */
+/*SL THERE IS NO MONTH 84 TWIN DATA*/
+/*****MONTH 84;*/
+/*data twinsHE84m1 twinsHE84m2 twinsHE84m3 twinsHE84m;*/
+/* set twins84;*/
+/**/
+*hardcodes here have been removed to protect patient confidentiality;
+/*  else output twinsHE84m;*/
+/*run;*/
+/**/
+/*data twinsHE84m1id (keep=studyid) twinsHE84m2id (keep=studyid) twinsHE84m3id (keep=studyid);*/
+/* set twins84;*/
+/**/
+*hardcodes here have been removed to protect patient confidentiality;
+/**/
+/*run;*/
+/**/
+/****match up to record with data;*/
+/*data twinsHE84m1n;*/
+*hardcodes here have been removed to protect patient confidentiality;
+/*   by studyid;*/
+/*   drop studyid;*/
+/*run;*/
+/**/
+/*data mergetwinsHE84m1;*/
+/*   merge twinsHE84m twinsHE84m1n (in=one);*/
+/*   by recruitid;*/
+/**/
+/*    if one;*/
+/**/
+/*   *set correct studyid and recruitid;*/
+*hardcodes here have been removed to protect patient confidentiality;
+/*run;*/
+/**/
+/*data twinsHE84m2n;*/
+*hardcodes here have been removed to protect patient confidentiality;
+/*   drop studyid;*/
+/*run;*/
+/**/
+/*data mergetwinsHE84m2;*/
+/*    merge twinsHE84m2 twinsHE84m2n (in=two);*/
+/*   by recruitid;*/
+/**/
+/*    if two;*/
+/**/
+/*   *set correct studyid and recruitid;*/
+*hardcodes here have been removed to protect patient confidentiality;
+/**/
+/*run;*/
+/**/
+/*data twinsHE84m3n;*/
+*hardcodes here have been removed to protect patient confidentiality;
+/*   drop studyid;*/
+/*run;*/
+/**/
+/*data mergetwinsHE84m3;*/
+/*   merge twinsHE84m2 twinsHE84m3n (in=three);*/
+/*   by recruitid;*/
+/**/
+/*   if three;*/
+/*run;*/
+/**/
+/*data twinsHE84mdust;*/
+/* set twinsHE84m*/
+/*     mergetwinsHE84m1*/
+/*    mergetwinsHE84m2*/
+/*    mergetwinsHE84m3*/
+/*    ;*/
+/*run;*/
+/*    */
+/*proc sort data=twinsHE84mdust; by studyid he_date; run;*/
+
+***MONTH 120;
+/*data twinsHE120m1 twinsHE120m2 twinsHE120m3 twinsHE120m;
+ set twins120;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE120m;
+run;
+
+data twinsHE120m1id (keep=studyid) twinsHE120m2id (keep=studyid) twinsHE120m3id (keep=studyid);
+ set twins120;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+***match up to record with data;
+data twinsHE120m1n;
+*hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+data mergetwinsHE120m1;
+   merge twinsHE120m twinsHE120m1n (in=one);
+   by recruitid;
+
+    if one;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinsHE120m2n;
+*hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+data mergetwinsHE120m2;
+    merge twinsHE120m2 twinsHE120m2n (in=two);
+   by recruitid;
+
+    if two;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+data twinsHE120m3n;
+*hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+data mergetwinsHE120m3;
+   merge twinsHE120m2 twinsHE120m3n (in=three);
+   by recruitid;
+
+   if three;
+run;
+
+data twinsHE120mdust;
+ set twinsHE120m
+     mergetwinsHE120m1
+    mergetwinsHE120m2
+    mergetwinsHE120m3
+    ;
+run;
+    
+proc sort data=twinsHE120mdust; by studyid he_date; run;
+*/
+***KJ edit: add in 3month twin data ;
+
+***MONTH 3 ;
+ data twinsHE3m1 twinsHE3m2 twinsHE3m3 twinsHE3m;
+ set twins3m;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE3m;
+run;
+
+data twinsHE3m1id (keep=studyid) twinsHE3m2id (keep=studyid) twinsHE3m3id (keep=studyid);
+ set twins3m;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+***match up to record with data;
+data twinsHE3m1n;
+*hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+
+data mergetwinsHE3m1;
+   merge twinsHE3m twinsHE3m1n (in=one);
+   by recruitid;
+
+    if one;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinsHE3m2n;
+*hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+data mergetwinsHE3m2;
+    merge twinsHE3m2 twinsHE3m2n (in=two);
+   by recruitid;
+
+    if two;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+data twinsHE3m3n;
+*hardcodes here have been removed to protect patient confidentiality;
+   drop studyid;
+run;
+
+data mergetwinsHE3m3;
+   merge twinsHE3m2 twinsHE3m3n (in=three);
+   by recruitid;
+
+   if three;
+run;
+
+data twinsHE3mdust;
+ set twinsHE3m
+     mergetwinsHE3m1
+    mergetwinsHE3m2
+    mergetwinsHE3m3
+    ;
+run;
+    
+proc sort data=twinsHE3mdust; by studyid he_date; run;
+
+***1-2 YEAR HE ;
+data twinsHE1 twinsHE11 twinsHE12 twinsHE13;
+ set twins1;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE1;
+run;
+
+data twinsHE11id (keep=studyid) twinsHE12id (keep=studyid) twinsHE13id (keep=studyid);
+ set twins1;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+***match up to record with data;
+data twinsHE11n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE11;
+ merge twinsHE1 twinsHE11n (in=one);
+  by recruitid;
+
+   if one;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinsHE12n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE12;
+ merge twinsHE12 twinsHE12n (in=two);
+  by recruitid;
+
+   if two;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+data twinsHE13n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE13;
+ merge twinsHE12 twinsHE13n (in=three);
+  by recruitid;
+
+   if three;
+run;
+
+data twinsHE1dust;
+ set twinsHE1
+     mergetwinsHE11
+    mergetwinsHE12
+    mergetwinsHE13
+    ;
+run;
+    
+proc sort data=twinsHE1dust; by studyid he_date; run;
+
+***2-3 YEAR HE ;
+data twinsHE2 twinsHE21 twinsHE22 twinsHE23;
+ set twins2;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE2;
+run;
+
+data twinsHE21id (keep=studyid) twinsHE22id (keep=studyid) twinsHE23id (keep=studyid);
+ set twins2;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+***match up to record with data;
+data twinsHE21n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE21;
+ merge twinsHE2 twinsHE21n (in=one);
+  by recruitid;
+
+   if one;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+data twinsHE22n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE22;
+ merge twinsHE23 twinsHE22n (in=two);
+  by recruitid;
+
+   if two;
+
+run;
+
+data twinsHE23n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE23;
+ merge twinsHE23 twinsHE23n (in=three);
+  by recruitid;
+
+   if three;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+data twinsHE2dust;
+ set twinsHE2
+     mergetwinsHE21
+    mergetwinsHE22
+    mergetwinsHE23
+    ;
+run;
+    
+proc sort data=twinsHE2dust; by studyid he_date; run;
+
+***3-4 YEAR HE ;
+data twinsHE3 twinsHE31 twinsHE32 twinsHE33;
+ set twins3;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE3;
+run;
+
+proc sort data=twins3; by studyid; run;
+
+data twinsHE31id (keep=studyid) twinsHE32id (keep=studyid) twinsHE33id (keep=studyid);
+ set twins3;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+***match up to record with data;
+data twinsHE31n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE31;
+ merge twinsHE3 twinsHE31n (in=one);
+  by recruitid;
+
+   if one;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+data twinsHE32n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE32;
+ merge twinsHE33 twinsHE32n (in=two);
+  by recruitid;
+
+   if two;
+
+run;
+
+data twinsHE33n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE33;
+ merge twinsHE33 twinsHE33n (in=three);
+  by recruitid;
+
+   if three;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+
+run;
+
+data twinsHE3dust;
+ set twinsHE3
+     mergetwinsHE31
+    mergetwinsHE32
+    mergetwinsHE33
+    ;
+run;
+    
+proc sort data=twinsHE3dust; by studyid he_date; run;
+
+
+***4-5 YEAR HE ;
+data twinsHE4 twinsHE41;
+ set twins4;
+
+*hardcodes here have been removed to protect patient confidentiality;
+  else output twinsHE4;
+run;
+
+data twinsHE41id (keep=studyid);
+ set twins4;
+
+ *hardcodes here have been removed to protect patient confidentiality;
+run;
+
+***match up to record with data;
+data twinsHE41n;
+*hardcodes here have been removed to protect patient confidentiality;
+drop studyid;
+run;
+
+data mergetwinsHE41;
+ merge twinsHE4 twinsHE41n (in=one);
+  by recruitid;
+
+   if one;
+
+   *set correct studyid and recruitid;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data twinsHE4dust;
+ set twinsHE4
+     mergetwinsHE41
+    ;
+run;
+    
+proc sort data=twinsHE4dust; by studyid he_date; run;
+
+
+
+
+
+
+
+
+
+
+data setuptwins;
+ set twinsHE3mdust
+    twinsHE1dust 
+     twinsHE2dust
+    twinsHE3dust
+     twinsHE4dust
+   
+     
+     ;
+run;
+
+
+
+
+* put dust collection back together;
+data dustcoll15;
+ set dustcoll10notwins
+     setuptwins;
+
+ *Now, reset responses for one twin who had h4 collection on a twin rather than full/double bed;
+*hardcodes here have been removed to protect patient confidentiality;
+ end;
+
+run;
+
+proc sort; by studyid he_date; run;
+
+proc print data=dustres; var studyid he_date; *hardcodes here have been removed to protect patient confidentiality;
+*Setup twin results for later merging ;
+data dustres_twins;
+ set dustres;
+
+  *What do we do with 105-2 and 106-8 who have differing h2 results?;
+  *for now, deleting the results for 105-2 since only the floor and child's pillow were vaccummed;
+   *hardcodes here have been removed to protect patient confidentiality;
+
+  *Add back in 105-2 results for floor/pillow after this datastep;
+   
+   **KJ edit: add in 3 month twin dust ;
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+data dustres_notwins;
+ set dustres;
+ 
+*hardcodes here have been removed to protect patient confidentiality;
+run;
+
+
+*START HERE;
+
+
+data dustres_twins10;
+ set dustres_twins;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end;
+ 
+ *hardcodes here have been removed to protect patient confidentiality;
+ end;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end;
+
+*hardcodes here have been removed to protect patient confidentiality;
+ end;
+ 
+*hardcodes here have been removed to protect patient confidentiality;
+ end;
+
+
+
+
+
+
+
+
+run; 
+
+data dustres_twins20;
+ set dustres_twins
+     dustres_twins10;
+
+   *manually set results for 105-2, h2 since pillow/floor were vacuumed separately for this twin;
+   *remaining samples are same as 106-8;
+  *hardcodes here have been removed to protect patient confidentiality;
+    end;
+run;
+
+proc sort data=dustres_twins20; by studyid he_date; run;
+proc sort data=dustres_twins20 noduplicates out=dustres_twins25; by studyid he_date; run;
+
+data dustres_twins25_v2;
+ set dustres_twins25;
+
+    *manually set results in cases where results should be shared;
+ *hardcodes here have been removed to protect patient confidentiality;
+      DSLR_q4b=0.04;
+      DSLR_q4b_1=.m;
+      DSLR_q4c1=.q;
+      DSLR_q4c2=.m;
+      DSLR_q4c3=.m;
+        DSLR_q4d1=.q;
+        DSLR_q4d2=.m;
+        DSLR_q4d3=.m;
+        DSLR_q4e1=.q;
+      DSLR_q4e2=.m;
+      DSLR_q4e3=.m;
+      DSLR_q4f1=.q;
+      DSLR_q4f2=.m;
+      DSLR_q4f3=.m;
+        DSLR_q4g1=.q;
+      DSLR_q4g2=.m;
+      DSLR_q4g3=.m;
+      DSLR_q4h1=.q;
+      DSLR_q4h2=.m;
+      DSLR_q4h3=.m;
+      DSLR_q4i1=.q;
+      DSLR_q4i2=.m;
+      DSLR_q4i3=.a;
+    end;
+    *hardcodes here have been removed to protect patient confidentiality;
+      DSLR_q3b=0.132;
+      DSLR_q3b_1=.m;
+      DSLR_q3c1=.t;
+      DSLR_q3c2=.a;
+      DSLR_q3c3=.m;
+        DSLR_q3d1=.t;
+        DSLR_q3d2=.a;
+        DSLR_q3d3=.m;
+        DSLR_q3e1=.t;
+      DSLR_q3f1=.t;
+      DSLR_q3f2=.a;
+      DSLR_q3f3=.m;
+        DSLR_q3g1=.t;
+      DSLR_q3g2=.a;
+      DSLR_q3g3=.m;
+      DSLR_q3h1=.t;
+      DSLR_q3h2=.a;
+      DSLR_q3h3=.m;
+      DSLR_q3i1=.t;
+    end;
+
+if aVisit in ('wash') then aVisit='h4';
+
+run;
+
+* put dust results back together;
+data dustres30;
+ set dustres_notwins
+     dustres_twins25;
+
+run;
+
+proc sort; by studyid he_date; run;
+
+*AL Below was losing the year 7 and onward subjects because DSLR_ALL also has to be accounted for in dustcoll path;
+data dustcoll20;
+   merge dustcoll15 (drop=version status avisit astudyid evid in=dc)
+       dustres30 (drop=status avisit astudyid in=dr);
+    by studyid he_date;
+
+   if dc then indsc=1; else indsc=0;
+   if dr then indslr=1; else indslr=0;
+
+   if dc and dr;
+run;
+
+*There were 1 participant for whom the dc form was completed but samples were not collected/sent due to there being no electricity;
+
+proc sort; by studyid he_date;
+
+proc freq; tables indsc*indslr; run;
+
+proc print; where indsc eq 1 and indslr eq 0; run;
+
+*To verify no duplicate ids in dataset;
+data check h3m h1 h2 h3 h4 h81 h84 h120 hhd;
+   set dustcoll20;
+ 
+     if event in ('3-Month Home Visit','Rescheduled Home Evaluation') then output h3m;
+    if event in ('Home Eval Years 1 and 2') then output h1;
+    if event in ('Home Eval Years 2 and 3') then output h2;
+    if event in ('Home Eval Years 3 and 4') then output h3;
+    if event in ('Home Eval Years 4 and 5') then output h4;
+    *AL additions;
+    if event in ('81-month clinic visit') then output h81;
+    if event in ('84-month clinic visit') then output h84;
+    if event in ('120-month clinic visit') then output h120;
+    if event in ('home dust collection') then output hhd;
+    
+
+
+
+run;
+
+
+
+
+proc sort data=h3m nodupkey; by studyid; run;
+proc sort data=h1 nodupkey; by studyid; run;
+proc sort data=h2 nodupkey; by studyid; run;
+
+*One case where St. Louis pt has two samples - kept most recent;
+proc sort data=h3; by studyid descending he_date; run;
+proc sort data=h3 nodupkey; by studyid; run;
+
+proc sort data=h4 nodupkey; by studyid; run;
+
+
+*AL: Additions;
+proc sort data=h81; by studyid descending he_date; run;
+proc sort data=h81 nodupkey; by studyid; run;
+
+proc sort data=h84; by studyid descending he_date; run;
+proc sort data=h84 nodupkey; by studyid; run;
+
+proc sort data=h120; by studyid descending he_date; run;
+proc sort data=h120 nodupkey; by studyid; run;
+
+proc sort data=hhd; by studyid descending he_date; run;
+proc sort data=hhd nodupkey; by studyid; run;
+
+
+
+data dustcoll30;
+   set h3m h1 h2 h3 h4 h81 h84 h120;
+run;
+
+
+data dustcoll40;
+ set dustcoll30;
+
+ *use results from 'extra' bedroom sample if results for 'bed' sample are missing;
+array bedr  (7) dslr_q2f1 dslr_q2g1 dslr_q2h1 dslr_q2c1 dslr_q2e1 dslr_q2d1 DSLR_q2i1;
+array extra (7) dslr_q3f1 dslr_q3g1 dslr_q3h1 dslr_q3c1 dslr_q3e1 dslr_q3d1 DSLR_q3i1;
+array extra_i (7) dslr_q3f1_i dslr_q3g1_i dslr_q3h1_i dslr_q3c1_i dslr_q3e1_i dslr_q3d1_i DSLR_q3i1_i;
+array uas  (7) dslr_q2f3 dslr_q2g3 dslr_q2h3 dslr_q2c3 dslr_q2e3 dslr_q2d3 DSLR_q2i3;
+array uasextra (7)dslr_q3f3 dslr_q3g3 dslr_q3h3 dslr_q3c3 dslr_q3e3 dslr_q3d3 DSLR_q3i3;
+
+array dold  (6) DSLR_q2c2 DSLR_q2d2 DSLR_q2f2 DSLR_q2g2 DSLR_q2h2 DSLR_q2i2;
+array dnew  (6) DSLR_q3c2 DSLR_q3d2 DSLR_q3f2 DSLR_q3g2 DSLR_q3h2 DSLR_q3i2;
+array actold  (1) DSLR_q2a ;
+array actnew  (1) DSLR_q3a ;
+array dwold  (1) DSLR_q2b ;
+array dwnew  (1) DSLR_q3b ;
+
+ do i=1 to 7;
+   /* Replace bed extra with bed if missing */
+   if bedr(i) in (., .a, .m, .q, .t) and extra(i) not in (., .a, .m, .q, .t) then do ;
+   bedr(i)=extra(i); extra_i(i)=1 ; uas(i)=uasextra(i) ;
+   end ;
+   /* Replace bed assay dates with extra bed assay dates when bed is missing */
+   if bedr(i) in (., .a, .m, .q, .t) and extra(i) not in (., .a, .m, .q, .t) then dold(i)=dnew(i);
+   /* Replace bed account # with extra bed acct num when bedroom is missing we use xtra BR acct num */
+   if bedr(i) in (., .a, .m, .q, .t) and extra(i) not in (., .a, .m, .q, .t) then dold(i)=dnew(i);
+   /* Replace bed dust weight with extra bed dust weight when bedroom is missing */
+   if bedr(i) in (., .a, .m, .q, .t) and extra(i) not in (., .a, .m, .q, .t) then dwold(i)=dwnew(i);
+ end;
+
+rename    dslr_q2c1=feld_b
+      dslr_q2d1=canf_b
+      dslr_q2f1=derf_b
+      dslr_q2g1=derp_b
+      dslr_q2h1=musm_b
+      dslr_q2i1=blag_b
+
+      dslr_q2c3=feld_b_uas
+      dslr_q2d3=canf_b_uas
+      dslr_q2f3=derf_b_uas
+      dslr_q2g3=derp_b_uas
+      dslr_q2h3=musm_b_uas
+      dslr_q2i3=blag_b_uas
+
+      dslr_q3c1_i=feld_extrabr_used
+      dslr_q3d1_i=canf_b_extrabr_used
+      dslr_q3f1_i=derf_b_extrabr_used
+      dslr_q3g1_i=derp_b_extrabr_used
+      dslr_q3h1_i=musm_b_extrabr_used
+      dslr_q3i1_i=blag_b_extrabr_used
+
+      dslr_q4c1=feld_l
+      dslr_q4d1=canf_l
+      dslr_q4f1=derf_l   
+      dslr_q4g1=derp_l
+      dslr_q4h1=musm_l
+      dslr_q4i1=blag_l
+
+      DSLR_q4c3=feld_l_uas
+      dslr_q4d3=canf_l_uas
+      dslr_q4f3=derf_l_uas   
+      dslr_q4g3=derp_l_uas
+      dslr_q4h3=musm_l_uas
+      dslr_q4i3=blag_l_uas
+
+      DSLR_q2a=account_b_num
+      DSLR_q2b=dustwgt_b
+      DSLR_q4a=account_l_num
+      DSLR_q4b=dustwgt_l
+
+      DSLR_q1=received_dt 
+
+      DSLR_q2c2=feld_b_dt
+      DSLR_q2d2=canf_b_dt
+      DSLR_q2f2=derf_b_dt
+      DSLR_q2g2=derp_b_dt
+      DSLR_q2h2=musm_b_dt
+      DSLR_q2i2=blag_b_dt
+      DSLR_q4c2=feld_l_dt
+      DSLR_q4d2=canf_l_dt
+      DSLR_q4f2=derf_l_dt
+      DSLR_q4g2=derp_l_dt
+      DSLR_q4h2=musm_l_dt
+      DSLR_q4i2=blag_l_dt
+
+;
+
+run;
+
+
+data dustcoll50;
+ set dustcoll40;
+
+  /********************************************************
+**ELISA LOWER DETECTION LIMITS from Heath Bradley, May 21, 2008
+Bla g 1 =  0.39 U/g
+Can f 1 = 39.0 ng/g -> 0.039  ug/g
+Der f 1 = 35.8 ng/g -> 0.0358 ug/g
+Der p 1 = 61.0 ng/g -> 0.061  ug/g
+Fel d 1 = 25.6 ng/g -> 0.0256 ug/g
+Mus m 1 =  2.2 ng/g -> 0.0022 ug/g
+**UAS LOWER DETECTION LIMITS from Stephanie Filep, July 11, 2013
+Can f 1 = 10 ng/g 
+Der f 1 = 20 ng/g 
+Der p 1 = 40 ng/g 
+Fel d 1 = 16 ng/g
+Mus m 1 = 4  ng/g 
+ **AL: Lower Limits of detection for 7 and 10 year data may vary.
+ Therefore, given variables will be used for those time frames. 
+********************************************************/
+
+*AL: Set new condition for pre and post-7 year data. Grab LLOD variables from DSLR_ALL;
+ *SL: need to convert (divide by 1000) LOD for 7/10 year bla_g since doesnt happen in LLOD checking at bottom of chunk;
+
+  if event not in ('81-month clinic visit','84-month clinic visit','120-month clinic visit') then do;
+   feld1_LOD_elisa=25.6 ;
+   canf1_LOD_elisa=39 ;
+   blag1_LOD_elisa=0.39  ;
+   derf1_LOD_elisa=35.8 ;
+   derp1_LOD_elisa=61 ;
+   musm1_LOD_elisa=2.2 ;
+
+   feld1_LOD_uas=16 ;
+   canf1_LOD_uas=10 ;
+   derf1_LOD_uas=20 ;
+   derp1_LOD_uas=40 ;
+   musm1_LOD_uas=4 ;
+end;
+ else do;
+   feld1_LOD_elisa=DSLR_v2_q11d ;
+   canf1_LOD_elisa=DSLR_v2_q12d ;
+   blag1_LOD_elisa=DSLR_v2_q7d/1000  ;
+   derf1_LOD_elisa=DSLR_v2_q10d ;
+   derp1_LOD_elisa=DSLR_v2_q9d ;
+   musm1_LOD_elisa=DSLR_v2_q13d ;
+
+   feld1_LOD_uas=16 ;
+   canf1_LOD_uas=10 ;
+   derf1_LOD_uas=20 ;
+   derp1_LOD_uas=40 ;
+   musm1_LOD_uas=4 ;
+
+
+ end;
+
+
+   ***Manual fixes ;
+   ***HE 2-3 year (avisit 36) ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+ *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   ***CHECK THESE ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   ***Later years - HE 3-4 year (avisit 48) - CHECK ALL THESE WITH LAB SPREADSHEET ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   ***Later years - HE 4-5 year (avisit 60);
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+   **Divide all by 1000 (except blag) to put into same units as other ICAC studies ng/g -> ug/g ;
+   if derp_b > .z then derp_b = derp_b/1000 ;
+   else derp_b = derp_b ;
+   if derp_l > .z then derp_l = derp_l/1000 ;
+   else derp_l = derp_l ;
+
+   if derf_b > .z then derf_b = derf_b/1000 ;
+   else derf_b = derf_b ;
+   if derf_l > .z then derf_l = derf_l/1000 ;
+   else derf_l = derf_l ;
+
+   if feld_b > .z then feld_b = feld_b/1000 ;
+   else feld_b = feld_b ;
+   if feld_l > .z then feld_l = feld_l/1000 ;
+   else feld_l = feld_l ;
+
+   if canf_b > .z then canf_b = canf_b/1000 ;
+   else canf_b = canf_b ;
+   if canf_l > .z then canf_l = canf_l/1000 ;
+   else canf_l = canf_l ;
+
+   if musm_b > .z then musm_b = musm_b/1000 ;
+   else musm_b = musm_b ;
+   if musm_l > .z then musm_l = musm_l/1000 ;
+   else musm_l = musm_l ;
+
+   **SL 9/4/2020 - Divide blag for years 7-10 : ng/g -> ug/g;
+ if event in ('81-month clinic visit','84-month clinic visit','120-month clinic visit') then do;
+   if blag_b > .z then blag_b = blag_b/1000 ;
+   else blag_b = blag_b ;
+   if blag_l > .z then blag_l = blag_l/1000 ;
+   else blag_l = blag_l ;
+end;
+
+*SL 10/15/2020 - Update any values below LLOD to also be set to one half of the limit of detection;
+   array uasb (5) derp_b_uas derf_b_uas feld_b_uas canf_b_uas musm_b_uas ;
+   array uasl (5) derp_l_uas derf_l_uas feld_l_uas canf_l_uas musm_l_uas ;
+   array bed (5) derp_b derf_b feld_b canf_b musm_b ;
+   array liv (5) derp_l derf_l feld_l canf_l musm_l ;
+   array lod (5) derp1_LOD_elisa derf1_LOD_elisa feld1_LOD_elisa canf1_LOD_elisa musm1_LOD_elisa ;
+   array lodu (5) derp1_LOD_uas derf1_LOD_uas feld1_LOD_uas canf1_LOD_uas musm1_LOD_uas ;
+   array bedd (5) derp_b_d derf_b_d feld_b_d canf_b_d musm_b_d ;
+   array livd (5) derp_l_d derf_l_d feld_l_d canf_l_d musm_l_d ;
+   array bedl (5) derp_b_l derf_b_l feld_b_l canf_b_l musm_b_l;
+   array livl (5) derp_l_l derf_l_l feld_l_l canf_l_l musm_l_l;
+
+    do i=1 to 5;
+      if bed(i)=.h or bed(i) > .z then bedd(i)=1;
+      if liv(i)=.h or liv(i) > .z then livd(i)=1;
+      *Apply limits of detection - ELISA ;
+      if uasb(i)=0 and (bed(i) in (.B,.b) or bed(i) < lod(i)) then do; 
+       bedd(i)=0; bed(i)=(lod(i)/2)/1000; 
+      end;   *one-half the limit of detection;
+      *Apply limits of detection - UAS ;
+      if uasb(i)=1 and (bed(i) in (.B,.b) or bed(i) < lodu(i)) then do; 
+       bedd(i)=0; bed(i)=(lodu(i)/2)/1000; 
+      end;   *one-half the limit of detection;
+      *Apply limits of detection - ELISA ;
+      if uasl(i)=0 and (liv(i) in (.B,.b) or liv(i) < lod(i)) then do; 
+       livd(i)=0; liv(i)=(lod(i)/2)/1000; 
+      end;
+      *Apply limits of detection - UAS ;
+      if uasl(i)=1 and (liv(i) in (.B,.b) or liv(i) < lodu(i)) then do; 
+       livd(i)=0; liv(i)=(lodu(i)/2)/1000; 
+      end;   *one-half the limit of detection;
+      bedl(i)=log10(bed(i));
+      livl(i)=log10(liv(i));
+    end ;
+
+   array bedbla (1) blag_b  ;
+   array livbla (1) blag_l  ;
+   array lodbla (1) blag1_LOD_elisa ;
+   array beddbla (1) blag_b_d  ;
+   array livdbla (1) blag_l_d  ;
+   array bedlbla (1) blag_b_l ;
+   array livlbla (1) blag_l_l ;
+
+   do i=1 to 1;
+      if bedbla(i)=.h or bedbla(i) > .z then beddbla(i)=1;
+      if livbla(i)=.h or livbla(i) > .z then livdbla(i)=1;
+      if bedbla(i) in (.B,.b) or bedbla(i) < lodbla(i) then do; 
+       beddbla(i)=0; bedbla(i)=(lodbla(i)/2); 
+      end;   *one-half the limit of detection;
+      if livbla(i) in (.B,.b) or livbla(i) < lodbla(i) then do; 
+       livdbla(i)=0; livbla(i)=(lodbla(i)/2); 
+      end;
+      bedlbla(i)=log10(bedbla(i));
+      livlbla(i)=log10(livbla(i));
+   end;
+run ;
+
+
+proc print data=dustcoll50 ;
+   var studyid event blag_b feld_b musm_b canf_b derp_b derf_b ;
+   where (blag_b=.B or feld_b=.B or musm_b=.B or canf_b=.B or derp_b=.B or derf_b=.B) ;
+run ;
+
+data dustcoll60;
+   set dustcoll50; 
+
+***Convert bedroom  ;
+   *If the UAS flag is marked "no" meaning this was measured in ELISA standard, begin conversions, 
+     unless the level is .H then we will just leave it as .H since we dont have an actual value ;
+   if feld_b_uas=0 and feld_b ne .h then do ;
+   *Change units from ug/g to ng/g to ng/ml ;
+   feld_b_new=(1000*feld_b)/(20) ;
+   *Convert data from ELISA to UAS per Allergy (Filep) articles equations ;
+   feld_b_new2=(feld_b_new*0.38) + 7.56 ;
+   *Set values below LOD to 1/2 LOD based on the UAS LOD since we just converted to UAS ;
+   if .z<feld_b_new2<0.8 then feld_b_uas1=0.4 ;
+   else feld_b_uas1=feld_b_new2 ;
+   *Convert values back into ug/g to be consistent with ICAC data ;
+   feld_b=(feld_b_uas1*20)/1000 ;
+   end ;
+   *If UAS flag marked "yes" then just keep the original value since it is already UAS does not need conversion ;
+   if feld_b_uas=1 or feld_b = .h then feld_b=feld_b ;
+
+   if canf_b_uas=0 and canf_b ne .h then do ;
+   canf_b_new=(1000*canf_b)/(20) ;
+   canf_b_new2=(canf_b_new*0.22) - 4.56 ;
+   if .z<canf_b_new2<0.5 then canf_b_uas1=0.25 ;
+   else canf_b_uas1=canf_b_new2 ;
+   canf_b=(canf_b_uas1*20)/1000 ;
+   end ;
+   if canf_b_uas=1 or canf_b = .h then canf_b=canf_b ;
+
+   if derf_b_uas=0 and derf_b ne .h then do ;
+   derf_b_new=(1000*derf_b)/(20) ;
+   derf_b_new2=(derf_b_new*0.07) + 13.11 ;
+   if .z<derf_b_new2<1 then derf_b_uas1=0.5 ;
+   else derf_b_uas1=derf_b_new2 ;
+   derf_b=(derf_b_uas1*20)/1000 ;
+   end ;
+   if derf_b_uas=1 or derf_b = .h then derf_b=derf_b ;
+
+   if derp_b_uas=0 and derp_b ne .h then do ;
+   derp_b_new=(1000*derp_b)/(20) ;
+   derp_b_new2=(derp_b_new*0.66) + 22.08 ;
+   if .z<derp_b_new2<2 then derp_b_uas1=1 ;
+   else derp_b_uas1=derp_b_new2 ;
+   derp_b=(derp_b_uas1*20)/1000 ;
+   end ;
+   if derp_b_uas=1 or derp_b = .h then derp_b=derp_b ;
+
+   if musm_b_uas=0 and musm_b ne .h  then do ;
+   musm_b_new=(1000*musm_b)/(20) ;
+   musm_b_new2=(musm_b_new*1.20) - 0.52 ;
+   if .z<musm_b_new2<0.2 then musm_b_uas1=0.1 ;
+   else musm_b_uas1=musm_b_new2 ;
+   musm_b=(musm_b_uas1*20)/1000 ;
+   end ;
+   if musm_b_uas=1 or musm_b = .h then musm_b=musm_b ;
+
+***Convert living room   ;
+   *If the UAS flag is marked "no" meaning this was measured in ELISA standard, begin conversions, 
+     unless the level is .H then we will just leave it as .H since we dont have an actual value ;
+   if feld_l_uas=0 and feld_l ne .h then do ;
+   *Change units from ug/g to ng/g to ng/ml ;
+   feld_l_new=(1000*feld_l)/(20) ;
+   *Convert data from ELISA to UAS per Allergy (Filep) articles equations ;
+   feld_l_new2=(feld_l_new*0.38) + 7.56 ;
+   *Set values below LOD to 1/2 LOD based on the UAS LOD since we just converted to UAS ;
+   if .z<feld_l_new2<0.8 then feld_l_uas1=0.4 ;
+   else feld_l_uas1=feld_l_new2 ;
+   *Convert values back into ug/g to be consistent with ICAC data ;
+   feld_l=(feld_l_uas1*20)/1000 ;
+   end ;
+   *If UAS flag marked "yes" then just keep the original value since it is already UAS does not need conversion ;
+   if feld_l_uas=1 or feld_l = .h then feld_l=feld_l ;
+
+   if canf_l_uas=0 and canf_l ne .h then do ;
+   canf_l_new=(1000*canf_l)/(20) ;
+   canf_l_new2=(canf_l_new*0.22) - 4.56 ;
+   if .z<canf_l_new2<0.5 then canf_l_uas1=0.25 ;
+   else canf_l_uas1=canf_l_new2 ;
+   canf_l=(canf_l_uas1*20)/1000 ;
+   end ;
+   if canf_l_uas=1 or canf_l = .h then canf_l=canf_l ;
+
+   if derf_l_uas=0 and derf_l ne .h then do ;
+   derf_l_new=(1000*derf_l)/(20) ;
+   derf_l_new2=(derf_l_new*0.07) + 13.11 ;
+   if .z<derf_l_new2<1 then derf_l_uas1=0.5 ;
+   else derf_l_uas1=derf_l_new2 ;
+   derf_l=(derf_l_uas1*20)/1000 ;
+   end ;
+   if derf_l_uas=1 or derf_l = .h then derf_l=derf_l ;
+
+   if derp_l_uas=0 and derp_l ne .h then do ;
+   derp_l_new=(1000*derp_l)/(20) ;
+   derp_l_new2=(derp_l_new*0.66) + 22.08 ;
+   if .z<derp_l_new2<2 then derp_l_uas1=1 ;
+   else derp_l_uas1=derp_l_new2 ;
+   derp_l=(derp_l_uas1*20)/1000 ;
+   end ;
+   if derp_l_uas=1 or derp_l = .h then derp_l=derp_l ;
+
+   if musm_l_uas=0 and musm_l ne .h  then do ;
+   musm_l_new=(1000*musm_l)/(20) ;
+   musm_l_new2=(musm_l_new*1.20) - 0.52 ;
+   if .z<musm_l_new2<0.2 then musm_l_uas1=0.1 ;
+   else musm_l_uas1=musm_l_new2 ;
+   musm_l=(musm_l_uas1*20)/1000 ;
+   end ;
+   if musm_l_uas=1 or musm_l = .h then musm_l=musm_l ;
+
+   
+**NOTE: We are NOT analyzing Blag 2 here. We stopped those assays and most of the data is missing;
+*cut-off at 2 ug/g for dust mites, cat, dog, and mouse. I'm not sure this is best cutoff for new transformed UAS data...;
+array two (10)   derf_b derf_l 
+            derp_b derp_l 
+            musm_b musm_l 
+            feld_b feld_l 
+            canf_b canf_l ;
+array cuta (10)   derf_b_2 derf_l_2 
+            derp_b_2 derp_l_2 
+            musm_b_2 musm_l_2 
+            feld_b_2 feld_l_2 
+            canf_b_2 canf_l_2 ;
+
+do i=1 to 10;
+   if two(i)=.h or two(i) > 2 then cuta(i)=1;
+   if two(i) in (.B,.b) or 0 <= two(i) <= 2 then cuta(i)=0;
+   if two(i)=.q or two(i)=.m or two(i)=.a or two(i)=. then cuta(i)=.;
+   *format cut(i) ccyn.;
+   end;
+
+*cut-off at 2 U/g for cockroach-Blag 1 - this should be fine since units not changing - elisa/uas is same for blag1 ;
+if blag_b=.h or blag_b > 2 then blag_b_2=1;
+if blag_b in (.B,.b) or 0 <= blag_b <= 2 then blag_b_2=0;
+if blag_b in (., .a, .m, .q) then blag_b_2=.;
+
+if blag_l=.h or blag_l > 2 then blag_l_2=1;
+if blag_l in (.B,.b) or 0 <= blag_l <= 2 then blag_l_2=0;
+if blag_l in (., .a, .m, .q) then blag_l_2=.;
+
+*cut-off at 8 ug/g. Again this may be mainly for ELISA and now that we have made change to UAS ...?;
+array cutb (10)   derf_b_8 derf_l_8 
+            derp_b_8 derp_l_8 
+            musm_b_8 musm_l_8 
+            feld_b_8 feld_l_8 
+            canf_b_8 canf_l_8  ;
+do i=1 to 10;
+   if two(i)=.h or two(i) > 8 then cutb(i)=1;
+   if two(i) in (.B,.b) or 0 <= two(i) <= 8 then cutb(i)=0;
+   if two(i)=.q or two(i)=.m or two(i)=. then cutb(i)=.;
+   *format cut(i) ccyn.;
+   end;
+
+*cut-off at 8 U/g for cockroach-Blag 1;
+if blag_b=.h or blag_b > 8 then blag_b_8=1;
+if blag_b in (.B,.b) or 0 <= blag_b <= 8 then blag_b_8=0;
+if blag_b in (., .a, .m, .q) then blag_b_8=.;
+
+if blag_l=.h or blag_l > 8 then blag_l_8=1;
+if blag_l in (.B,.b) or 0 <= blag_l <= 8 then blag_l_8=0;
+if blag_l in (., .a, .m, .q) then blag_l_8=.;
+
+**CODE FOR OTHER CUT-OFFS HERE IF IT BECOMES DESIRABLE;
+*cut-off at 1.6 ug/g for mouse-Musm 1 (Gergen email of 01/29/09);
+if musm_b=.h or musm_b > 1.6 then musm_b_1p6=1;
+if musm_b in (.B,.b) or 0 <= musm_b <= 1.6 then musm_b_1p6=0;
+if musm_b in (., .a, .m, .q) then musm_b_1p6=.;
+
+if musm_l=.h or musm_l > 1.6 then musm_l_1p6=1;
+if musm_l in (.B,.b) or 0 <= musm_l <= 1.6 then musm_l_1p6=0;
+if musm_l in (., .a, .m, .q) then musm_l_1p6=.;
+
+*cut-off at 10 ug/g (dog). Original units are nanograms/g rather than micrograms;
+if canf_b=.h or canf_b > 10 then canf_b_10=1;
+if canf_b in (.B,.b) or 0 <= canf_b <= 10 then canf_b_10=0;
+if canf_b in (., .a, .m, .q) then canf_b_10=.;
+
+if canf_l=.h or canf_l > 10 then canf_l_10=1;
+if canf_l in (.B,.b) or 0 <= canf_l <= 10 then canf_l_10=0;
+if canf_l in (., .a, .m, .q) then canf_l_10=.;
+
+*cut-off at 0.5 ug/g (mouse) per Bob Wood email 4/1/11. Original units are nanograms/g rather than micrograms;
+if musm_b=.h or musm_b > 0.5 then musm_b_p5=1;
+if musm_b in (.B,.b) or 0 <= musm_b <= 0.5 then musm_b_p5=0;
+if musm_b in (., .a, .m, .q) then musm_b_p5=.;
+
+if musm_l=.h or musm_l > 0.5 then musm_l_p5=1;
+if musm_l in (.B,.b) or 0 <= musm_l <= 0.5 then musm_l_p5=0;
+if musm_l in (., .a, .m, .q) then musm_l_p5=.;
+
+   array bed (6) derp_b derf_b feld_b canf_b blag_b musm_b;
+   array liv (6) derp_l derf_l feld_l canf_l blag_l musm_l;
+   array bedl (6) derp_b_l derf_b_l feld_b_l canf_b_l blag_b_l musm_b_l;
+   array livl (6) derp_l_l derf_l_l feld_l_l canf_l_l blag_l_l musm_l_l;
+
+   do i=1 to 6;
+      bedl(i)=log10(bed(i));
+      livl(i)=log10(liv(i));
+   end ;
+
+ **Create a sum der p and der f variable ;
+ dersum_b = SUM(derp_b,derf_b) ;
+ dersum_l = SUM(derp_l,derf_l) ;
+ **Log - transformed var ;
+ dersum_b_l = log10(dersum_b) ;
+ dersum_l_l = log10(dersum_l) ;
+
+ **Create a max der p and der f variable ;
+ dermax_b = MAX(derp_b,derf_b) ;
+ dermax_l = MAX(derp_l,derf_l) ;
+ **Log - transformed var ;
+ dermax_b_l = log10(dermax_b) ;
+ dermax_l_l = log10(dermax_l) ;
+
+ ***Cutoff of 2 for the new der p and der f max ;
+ if dersum_b=.h or dersum_b > 2 then dersum_b_2=1;
+ if dersum_b in (.B,.b) or 0 <= dersum_b <= 2 then dersum_b_2=0;
+ if dersum_b in (., .a, .m, .q) then dersum_b_2=.;
+
+ if dersum_l=.h or dersum_l > 2 then dersum_l_2=1;
+ if dersum_l in (.B,.b) or 0 <= dersum_l <= 2 then dersum_l_2=0;
+ if dersum_l in (., .a, .m, .q) then dersum_l_2=.;
+
+ ***Cutoff of 2 for the new der p and der f max ;
+ if dermax_b=.h or dermax_b > 2 then dermax_b_2=1;
+ if dermax_b in (.B,.b) or 0 <= dermax_b <= 2 then dermax_b_2=0;
+ if dermax_b in (., .a, .m, .q) then dermax_b_2=.;
+
+ if dermax_l=.h or dermax_l > 2 then dermax_l_2=1;
+ if dermax_l in (.B,.b) or 0 <= dermax_l <= 2 then dermax_l_2=0;
+ if dermax_l in (., .a, .m, .q) then dermax_l_2=.;
+
+   ***Note: changing visit codes to match clinic visits ;
+   if event in ("3-Month Home Visit","Rescheduled Home Evaluation") then avisit=12 ;
+   if event in ("Home Eval Years 1 and 2")                    then avisit=24 ;
+   if event in ("Home Eval Years 2 and 3")                    then avisit=36 ;
+   if event in ("Home Eval Years 3 and 4")                    then avisit=48 ;
+   if event in ("Home Eval Years 4 and 5")                    then avisit=60 ;
+   if event = "81-month clinic visit"                         then avisit=81 ;
+   if event = "84-month clinic visit"                       then avisit=84 ;
+   if event = "120-month clinic visit"                       then avisit=120 ;
+
+
+
+
+********************************************************;
+label   derp_b      ='Derp bedroom (ug/g) assay result'
+      derp_l      ='Derp living room (ug/g) assay result'
+      derf_b      ='Derf bedroom (ug/g) assay result'
+      derf_l      ='Derf living room (ug/g) assay result'
+      feld_b      ='Feld bedroom (ug/g) assay result'
+      feld_l      ='Feld living room (ug/g) assay result'
+      canf_b      ='Canf bedroom (ug/g) assay result'
+      canf_l      ='Canf living room (ug/g) assay result'
+      blag_b      ='Blag 1 bedroom (U/g) assay result'
+      blag_l      ='Blag 1 living room (U/g) assay result'
+      musm_b      ='Musm bedroom (ug/g) assay result'
+      musm_l      ='Musm living room (ug/g) assay result'
+      dersum_b   ='Sum of Derp,Derf bedroom (ug/g) assay result'
+      dersum_l   ='Sum of Derp,Derf living room (ug/g) assay result'
+      dermax_b   ='Max of Derp,Derf bedroom (ug/g) assay result'
+      dermax_l   ='Max of Derp,Derf living room (ug/g) assay result'
+      derp_b_2   ='Derp bedroom > 2 ug/g?'
+      derp_l_2   ='Derp living room > 2 ug/g?'
+      derf_b_2   ='Derf bedroom > 2 ug/g?'
+      derf_l_2   ='Derf living room > 2 ug/g?'
+      feld_b_2   ='Feld bedroom > 2 ug/g?'
+      feld_l_2   ='Feld living room > 2 ug/g?'
+      canf_b_2   ='Canf bedroom > 2 ug/g?'
+      canf_l_2   ='Canf living room > 2 ug/g?'
+      blag_b_2   ='Blag 1 bedroom > 2 U/g?'
+      blag_l_2   ='Blag 1 living room > 2 U/g?'
+      musm_b_2   ='Musm bedroom > 2 ug/g?'
+      musm_l_2   ='Musm living room > 2 ug/g?'
+      dersum_b_2   ='Sum of derp,derf bedroom > 2 ug/g?'
+      dersum_l_2   ='Sum of derp,derf living room > 2 ug/g?'
+      dermax_b_2   ='Max of derp,derf bedroom > 2 ug/g?'
+      dermax_l_2   ='Max of derp,derf living room > 2 ug/g?'
+       derp_b_8   ='Derp bedroom > 8 ug/g?'
+      derp_l_8   ='Derp living room > 8 ug/g?'
+      derf_b_8   ='Derf bedroom > 8 ug/g?'
+      derf_l_8   ='Derf living room > 8 ug/g?'
+      feld_b_8   ='Feld bedroom > 8 ug/g?'
+      feld_l_8   ='Feld living room > 8 ug/g?'
+      canf_b_8   ='Canf bedroom > 8 ug/g?'
+      canf_l_8   ='Canf living room > 8 ug/g?'
+      blag_b_8   ='Blag 1 bedroom > 8 U/g?'
+      blag_l_8   ='Blag 1 living room > 8 U/g?'
+      musm_b_8   ='Musm bedroom > 8 ug/g?'
+      musm_l_8   ='Musm living room > 8 ug/g?'
+      musm_b_1p6   ='Musm bedroom > 1.6 ug/g?'
+      musm_l_1p6   ='Musm living room > 1.6 ug/g?'
+      musm_b_p5   ='Musm bedroom > 0.5 ug/g?'
+      musm_l_p5   ='Musm living room > 0.5 ug/g?'
+      canf_b_10   ='Canf bedroom > 10 ug/g?'
+      canf_l_10   ='Canf living room > 10 ug/g?'
+       derp_b_d   ='Detectable Derp bedroom?'
+      derp_l_d   ='Detectable Derp living room?'
+      derf_b_d   ='Detectable Derf bedroom?'
+      derf_l_d   ='Detectable Derf living room?'
+      feld_b_d   ='Detectable Feld bedroom?'
+      feld_l_d   ='Detectable Feld living room?'
+      canf_b_d   ='Detectable Canf bedroom?'
+      canf_l_d   ='Detectable Canf living room?'
+      blag_b_d   ='Detectable Blag 1 bedroom?'
+      blag_l_d   ='Detectable Blag 1 living room?'
+      musm_b_d   ='Detectable Musm bedroom?'
+      musm_l_d   ='Detectable Musm living room?'
+       derp_b_l   ='Derp bedroom - log 10'
+      derp_l_l   ='Derp living room - log 10'
+      derf_b_l   ='Derf bedroom - log 10'
+      derf_l_l   ='Derf living room - log 10'
+      feld_b_l   ='Feld bedroom - log 10'
+      feld_l_l   ='Feld living room - log 10'
+      canf_b_l   ='Canf bedroom - log 10'
+      canf_l_l   ='Canf living room - log 10'
+      blag_b_l   ='Blag 1 bedroom - log 10'
+      blag_l_l   ='Blag 1 living room - log 10'
+      musm_b_l   ='Musm bedroom - log 10'
+      musm_l_l   ='Musm living room - log 10'
+      dersum_b_l   ='Sum of derp,derf bedroom - log 10'
+      dersum_l_l   ='Sum of derp,derf living room - log 10'
+      dermax_b_l   ='Max of derp,derf bedroom - log 10'
+      dermax_l_l   ='Max of derp,derf living room - log 10'
+      feld1_LOD_elisa   ='Feld LOD (ug/g) ELISA' 
+      canf1_LOD_elisa   ='Canf LOD (ug/g) ELISA' 
+      blag1_LOD_elisa   ='Blag LOD (U/g) UAS & ELISA' 
+      derf1_LOD_elisa   ='Derf LOD (ug/g) ELISA' 
+      derp1_LOD_elisa   ='Derp LOD (ug/g) ELISA' 
+      musm1_LOD_elisa   ='Musm LOD (ug/g) ELISA' 
+      feld1_LOD_uas   ='Feld LOD (ug/g) UAS' 
+      canf1_LOD_uas   ='Canf LOD (ug/g) UAS' 
+      derf1_LOD_uas   ='Derf LOD (ug/g) UAS' 
+      derp1_LOD_uas   ='Derp LOD (ug/g) UAS' 
+      musm1_LOD_uas   ='Musm LOD (ug/g) UAS' 
+      feld_extrabr_used = 'Feld - extra bedroom used' 
+      canf_b_extrabr_used = 'Canf - extra bedroom used' 
+      derf_b_extrabr_used = 'Derf - extra bedroom used' 
+      derp_b_extrabr_used = 'Derp - extra bedroom used' 
+      musm_b_extrabr_used = 'Musm - extra bedroom used' 
+      blag_b_extrabr_used = 'Blag - extra bedroom used' 
+;
+
+format  derp_b_d derf_b_d feld_b_d canf_b_d blag_b_d musm_b_d
+      derp_l_d derf_l_d feld_l_d canf_l_d blag_l_d musm_l_d
+      derp_b_8 derf_b_8 feld_b_8 canf_b_8 blag_b_8 musm_b_8 canf_b_10
+      derp_l_8 derf_l_8 feld_l_8 canf_l_8 blag_l_8 musm_l_8 canf_l_10
+      derp_b_2 derf_b_2 feld_b_2 canf_b_2 blag_b_2 musm_b_2 musm_b_1p6
+      derp_l_2 derf_l_2 feld_l_2 canf_l_2 blag_l_2 musm_l_2 musm_l_1p6 
+        dersum_b_2 dersum_l_2 dermax_b_2 dermax_l_2 yesnofm.;
+
+keep studyid avisit he_date recruitid event aProcDate received_dt
+        derp_b derp_b_uas derf_b derf_b_uas feld_b feld_b_uas canf_b canf_b_uas 
+      blag_b musm_b musm_b_uas dersum_b dermax_b /* BR Dust and UAS */      
+
+      derp_l derp_l_uas derf_l derf_l_uas feld_l feld_l_uas canf_l canf_l_uas
+      blag_l musm_l musm_l_uas dersum_l dermax_l /* LR Dust and UAS */   
+            
+      derp_b_l derf_b_l feld_b_l canf_b_l blag_b_l musm_b_l  /* Log 10 Dust */
+      derp_l_l derf_l_l feld_l_l canf_l_l blag_l_l musm_l_l dersum_b_l dersum_l_l dermax_b_l dermax_l_l
+
+      derp1_LOD_elisa derf1_LOD_elisa feld1_LOD_elisa canf1_LOD_elisa blag1_LOD_elisa musm1_LOD_elisa /* Lower Limit of Detection */
+      derp1_LOD_uas derf1_LOD_uas feld1_LOD_uas canf1_LOD_uas musm1_LOD_uas /* Lower Limit of Detection */
+      derp_b_d derf_b_d feld_b_d canf_b_d blag_b_d musm_b_d /* Detectable */
+      derp_l_d derf_l_d feld_l_d canf_l_d blag_l_d musm_l_d
+      derp_b_8 derf_b_8 feld_b_8 canf_b_8 blag_b_8 musm_b_8 /* Cut offs */ 
+      derp_l_8 derf_l_8 feld_l_8 canf_l_8 blag_l_8 musm_l_8 
+      derp_b_2 derf_b_2 feld_b_2 canf_b_2 blag_b_2 musm_b_2 
+                                                     musm_b_1p6
+                                        musm_b_p5
+                                        canf_b_10
+                                        canf_l_10
+                                        dersum_b_2
+                                        dersum_l_2
+                                        dermax_b_2
+                                        dermax_l_2
+      derp_l_2 derf_l_2 feld_l_2 canf_l_2 blag_l_2 musm_l_2 
+                                        musm_l_p5
+                                                     musm_l_1p6 
+      feld_b_dt canf_b_dt derf_b_dt derp_b_dt musm_b_dt blag_b_dt /* Dates */
+      feld_l_dt canf_l_dt derf_l_dt derp_l_dt musm_l_dt blag_l_dt
+
+      feld_extrabr_used              /* Indicator to determine if extra BR used */
+      canf_b_extrabr_used
+      derf_b_extrabr_used
+      derp_b_extrabr_used
+      musm_b_extrabr_used
+      blag_b_extrabr_used
+
+        account_b_num dustwgt_b account_l_num dustwgt_l;
+run;
+
+
+/*************************************************************************************
+ Check Duplicates - none as of 1/12/2015
+AL: I found 264 duplicates
+**************************************************************************************/
+proc sort nodupkey data=dustcoll60 out=clean dupout=dups; by studyid avisit;
+run;
+
+proc sort nodupkey data=dustcoll60 out=dustcoll60 ; by studyid avisit;
+run;
+
+proc freq data=dustcoll60;
+
+table avisit;
+
+run;
+
+
+
+
+/*************************************************************************************
+ Create risk index for bla, mus, fel - bedroom 
+**************************************************************************************/
+proc rank data=dustcoll60 out=dustcoll60_rank groups=4 ties=dense ;
+ var canf_b blag_b feld_b musm_b;
+ ranks canf_b_rank blag_b_rank feld_b_rank musm_b_rank;
+run;
+
+proc freq data=dustcoll60 ;
+   tables blag_b*avisit ;
+run ;
+
+
+/*proc means data=dustcoll50_rank min q1 median q3 max maxdec=2;*/
+/* class year;*/
+/* var blag_b feld_b musm_b;*/
+/*run;*/
+
+data dustcoll60_rank;
+ set dustcoll60_rank;
+ sum_explevs = blag_b_rank + feld_b_rank + musm_b_rank  ;
+ keep studyid avisit sum_explevs blag_b_rank feld_b_rank musm_b_rank canf_b_rank;
+ label sum_explevs="Sum of exposure groups levels for bla, mus, fel in BR" ;
+run;
+
+proc sort data=dustcoll60_rank ; by avisit ; run ;
+proc freq data=dustcoll60_rank ;
+   tables blag_b_rank feld_b_rank musm_b_rank canf_b_rank;
+   *by avisit ; 
+run ;
+
+/*************************************************************************************
+ Create risk index for bla, mus, fel - living room 
+**************************************************************************************/
+data dustcoll60_edit ;
+   set dustcoll60 ;
+
+   if blag_l<0 then blag_l=. ;
+   if feld_l<0 then feld_l=. ;
+   if musm_l<0 then musm_l=. ;
+run ;
+
+proc rank data=dustcoll60_edit out=dustcoll60_rank_l groups=4 ties=dense ;
+ var blag_l feld_l musm_l canf_l;
+ ranks blag_l_rank feld_l_rank musm_l_rank canf_l_rank;
+run;
+
+data dustcoll60_rank_l;
+ set dustcoll60_rank_l;
+ sum_explevs_livrm = blag_l_rank + feld_l_rank + musm_l_rank  ;
+ keep studyid avisit sum_explevs_livrm blag_l_rank feld_l_rank musm_l_rank canf_l_rank;
+ label sum_explevs_livrm="Sum of exposure groups levels for bla, mus, fel in LR" ;
+run;
+
+proc sort data=dustcoll60_rank_l ; by avisit ; run ;
+proc freq data=dustcoll60_rank_l ;
+   tables blag_l_rank feld_l_rank musm_l_rank canf_l_rank;
+   *by avisit ; 
+run ;
+
+/*************************************************************************************
+ Create risk index for mus, fel, can
+**************************************************************************************/
+proc rank data=dustcoll60 out=dustcoll60_rank2 groups=4;
+ var canf_b feld_b musm_b;
+run;
+
+data dustcoll60_rank2;
+ set dustcoll60_rank2;
+ sum_explevs_mammal = canf_b + feld_b + musm_b;
+ keep studyid avisit sum_explevs_mammal;
+ label sum_explevs_mammal="Sum of exposure groups levels for can, mus, fel" ;
+run;
+
+
+proc sort data=dustcoll60_rank   ; by studyid avisit ; run ;
+proc sort data=dustcoll60_rank2  ; by studyid avisit ; run ;
+proc sort data=dustcoll60_rank_l ; by studyid avisit ; run ;
+proc sort data=dustcoll60        ; by studyid avisit ; run ;
+
+data dustcoll70 ;
+   merge dustcoll60 dustcoll60_rank dustcoll60_rank2 dustcoll60_rank_l ;
+   by studyid avisit ;
+   if avisit=81 then do;
+      avisit=84;
+      event='84-month clinic visit';
+   end;
+
+run ;
+
+
+*****************************************
+ERGOSTEROL  This bit may need to change once endotoxin is imported into the DMS
+10/08/09 Except it never went into the DMS since it was already in SAS
+*****************************************;
+
+proc sort data=endodata.ureca_erg_6_27_08 out=ergosterol1; by external_id; run ; 
+proc sort data=endodata.ureca_erg_rpt_10_02_2009 out=ergosterol2; by external_id; run ;
+
+data ergosterol;
+   set ergosterol1 (in=a) ergosterol2 (in=b);
+
+   studyid=substr(external_id, 1, 11);
+   location=scan(external_id, 5, '-');
+   if erg_ng_sample_mg=0 then erg_ng_sample_mg=0.1;
+   log_ergo=log10(erg_ng_sample_mg);
+   if a then run=1;
+   if b then run=2;
+run;
+ 
+proc sort data=ergosterol ; by studyid location;  run ;
+
+*average the QC samples in with the others. Must be averaged on the log scale;
+proc means noprint;
+   var log_ergo;
+   by studyid location;
+   id run;
+   output out=ergo1 mean=log_ergo;
+run;
+
+*make into one record per person;
+data ergo2;
+   set ergo1;
+   by studyid;
+   if first.studyid then do; ergo_bed_l=.; ergo_liv_l=.; qc_bed=.; qc_liv=.; end;
+   retain ergo_bed_l ergo_liv_l qc_bed qc_liv;
+
+   if substr(location, 1, 4)=" Bed" then do; ergo_bed_l=log_ergo; if _freq_=2 then qc_bed=1; else qc_bed=0; end;
+   if substr(location, 1, 4)=" Liv" then do; ergo_liv_l=log_ergo; if _freq_=2 then qc_liv=1; else qc_liv=0; end;
+
+   ergo_bed=10**ergo_bed_l;
+   ergo_liv=10**ergo_liv_l;
+   
+   avisit=12 ;
+
+   label    ergo_bed   ='Ergosterol bedroom (ng/mg) assay result'
+         ergo_liv   ='Ergosterol living room (ng/mg) assay result'
+         ergo_bed_l   ='Ergosterol bedroom - log 10'
+         ergo_liv_l   ='Ergosterol living room - log 10'
+         qc_bed      ='Ergosterol bedroom sample in QC?'
+         qc_liv      ='Ergosterol living room sample in QC?';
+   format qc_bed qc_liv yesnofm.;
+   drop location _type_ _freq_;
+
+   if last.studyid then output;
+run;
+
+*****************************************
+END of ERGOSTEROL
+*****************************************;
+*****************************************
+Recombinant Factor C  This bit may need to change once data is imported into the DMS
+10/08/09 Except it never went into the DMS since it was already in SAS
+FYI: rFC=endotoxin
+Update 10/25/11 (K Jaffee) - renaming endo BR assay results from rfc to endo_bed and setting
+3 month results onto 3 year results 
+Update 11/14/11 (K Jaffee) - importing year 3 data for 19 IDs who were re-run in 2nd spreadsht ;
+*****************************************;
+PROC IMPORT OUT= endoty DATAFILE= "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Endotoxin\Year3Denver\Copy of 090111 URECA Results 1st Run-cleaned.xls" 
+            DBMS=xls REPLACE;
+     GETNAMES=YES;
+RUN;
+PROC IMPORT OUT= endoty2 DATAFILE= "S:\RhoFED\ICAC\Studies\URECA\Data\LabData\Endotoxin\Year3Denver\Copy of 11_2011 URECA reruns results-cleaned.xls" 
+            DBMS=xls REPLACE;
+     GETNAMES=YES;
+RUN;
+
+**first set of year 3 data ;
+data endo3 ;
+   set endoty ;
+   endo_bed_l=log10(VAR12) ;
+   rename URECA_STUDY_ID=studyid 
+         VAR12=endo_bed ;
+run ;
+**second set of year 3 data (19 people) ;
+data endo3_v2 ;
+   set endoty2 ;
+   endo_bed_l=log10(VAR6) ;
+   rename URECA_STUDY_ID=studyid 
+         VAR6=endo_bed ;
+run ;
+
+**first set of year 3 data ;
+data endo4 ;
+   set endo3 ;
+   avisit=36 ;
+   label endo_bed  ='Endotoxin rFC bedroom (EU/mg) assay result' 
+        endo_bed_l='Endotoxin rFC bedroom - log 10' ;
+   keep studyid avisit endo_bed endo_bed_l ;
+run ;
+**second set of year 3 data (19 people) ;
+data endo4_v2 ;
+   set endo3_v2 ;
+   avisit=36 ;
+   label endo_bed  ='Endotoxin rFC bedroom (EU/mg) assay result' 
+        endo_bed_l='Endotoxin rFC bedroom - log 10' ;
+   keep studyid avisit endo_bed endo_bed_l ;
+run ;
+
+proc sort data=endodata.ureca_rpt_12122008 out=rFC; by external_id; run ;
+
+data rfc;
+   set rfc;
+
+   studyid=substr(external_id, 1, 11);
+   location=scan(external_id, 5, '-');
+   log_rfc=log10(rowe);
+run;
+ 
+*average the QC samples in with the others. Must be averaged on the log scale;
+proc means noprint;
+   var log_rfc;
+   by studyid location;
+   output out=rfc1 mean=log_rfc;
+run;
+
+*make into one record per person;
+data rfc2;
+   set rfc1;
+   by studyid;
+   if first.studyid then do; endo_bed_l=.; endo_liv_l=.; qc_bed=.; qc_liv=.; end;
+   retain endo_bed_l endo_liv_l qc_bed qc_liv;
+
+   if substr(location, 1, 4)=" Bed" then do; endo_bed_l=log_rfc; if _freq_=2 then qc_bed=1; else qc_bed=0; end;
+   if substr(location, 1, 4)=" Liv" then do; endo_liv_l=log_rfc; if _freq_=2 then qc_bed=1; else qc_liv=0; end;
+
+   endo_bed=10**endo_bed_l;
+   endo_liv=10**endo_liv_l;
+
+   avisit=12 ;
+
+   label    endo_bed     ='Endotoxin rFC bedroom (EU/mg) assay result' 
+         endo_bed_l   ='Endotoxin rFC bedroom - log 10' 
+         endo_liv     ='Endotoxin rFC living room (EU/mg) assay result' 
+         endo_liv_l   ='Endotoxin rFC living room - log 10' 
+         qc_bed       ='Endotoxin rFC bedroom sample in QC?'
+         qc_liv       ='Endotoxin rFC living room sample in QC?';
+   format qc_bed qc_liv yesnofm.;
+
+   if last.studyid then output;
+
+   drop log_rfc _TYPE_ _FREQ_ ;
+run;
+
+data endo_all ;
+   set rfc2 endo4 endo4_v2 ;
+run ;
+
+proc sort data=endo_all ; by studyid avisit ; run ;
+proc sort data=ergo2    ; by studyid avisit ; run ;
+
+data rfc_ergo ;
+   merge ergo2 endo_all ;
+   by studyid avisit ;    
+   keep studyid avisit ergo_bed ergo_liv ergo_bed_l ergo_liv_l endo_bed endo_liv endo_bed_l endo_liv_l ;
+run ;
+
+*****************************************
+END of recombinant Factor C
+*****************************************;
+
+
+/*************************************************************************************
+ Create Shell: KJ edit: add shell with a visit for 3 mo HE
+AL edit: Added shell for years 7 and 10
+**************************************************************************************/
+data shell ;
+ set derive.groups ;
+ do avisit = 12,24,36,48,60,84,120 ;
+  if avisit in ( 0)             then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (84) then year=7;
+  if avisit in (120) then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year group ;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell      ; by studyid avisit ; run ;
+proc sort data=dustcoll70 ; by studyid avisit ; run ;
+proc sort data=rfc_ergo   ; by studyid avisit ; run ;
+
+data dust_01 ;
+ merge shell dustcoll70 (in=a) rfc_ergo ;
+ by studyid avisit ;
+ if a=1 then dust=1; else dust=0;
+run;
+
+data dust_02;
+   
+   set dust_01 (keep=studyid year derp_b_l derf_b_l feld_b_l canf_b_l blag_b_l musm_b_l dersum_b_l
+                 derp_l_l derf_l_l feld_l_l canf_l_l blag_l_l musm_l_l dersum_l_l dust) ;
+   count+1 ;
+   retain miss_blag_b miss_musm_b miss_derp_b miss_derf_b miss_canf_b miss_feld_b miss_dersum_b
+         miss_blag_l miss_musm_l miss_derp_l miss_derf_l miss_canf_l miss_feld_l miss_dersum_l 0 ;
+   by studyid ;
+
+   if first.studyid then do ;
+   sum_blag_b=0 ; 
+   sum_musm_b=0 ; 
+   sum_derp_b=0 ; 
+   sum_derf_b=0 ; 
+   sum_feld_b=0 ; 
+   sum_canf_b=0 ; 
+   sum_dersum_b=0 ; 
+
+   sum_blag_l=0 ; 
+   sum_musm_l=0 ; 
+   sum_derp_l=0 ; 
+   sum_derf_l=0 ; 
+   sum_feld_l=0 ; 
+   sum_canf_l=0 ; 
+   sum_dersum_l=0 ; 
+
+   miss_blag_b=0 ;
+   miss_musm_b=0 ;
+   miss_derp_b=0 ;
+   miss_derf_b=0 ;
+   miss_canf_b=0 ;
+   miss_feld_b=0 ;
+   miss_dersum_b=0 ;
+
+   miss_blag_l=0 ;
+   miss_musm_l=0 ;
+   miss_derp_l=0 ;
+   miss_derf_l=0 ;
+   miss_canf_l=0 ;
+   miss_feld_l=0 ;
+   miss_dersum_l=0 ;
+   end ;
+
+   sum_blag_b+blag_b_l ;
+   sum_musm_b+musm_b_l ;
+   sum_derp_b+derp_b_l ;
+   sum_derf_b+derf_b_l ;
+   sum_feld_b+feld_b_l ;
+   sum_canf_b+canf_b_l ;
+   sum_dersum_b+dersum_b_l ;
+
+   sum_blag_l+blag_l_l ;
+   sum_musm_l+musm_l_l ;
+   sum_derp_l+derp_l_l ;
+   sum_derf_l+derf_l_l ;
+   sum_feld_l+feld_l_l ;
+   sum_canf_l+canf_l_l ;
+   sum_dersum_l+dersum_l_l ;
+
+   if blag_b_l =  . then miss_blag_b=miss_blag_b+1 ;
+   if blag_b_l ne . then miss_blag_b=miss_blag_b+0 ;
+
+   if musm_b_l =  . then miss_musm_b=miss_musm_b+1 ;
+   if musm_b_l ne . then miss_musm_b=miss_musm_b+0 ;
+
+   if derp_b_l =  . then miss_derp_b=miss_derp_b+1 ;
+   if derp_b_l ne . then miss_derp_b=miss_derp_b+0 ;
+
+   if derf_b_l =  . then miss_derf_b=miss_derf_b+1 ;
+   if derf_b_l ne . then miss_derf_b=miss_derf_b+0 ;
+
+   if canf_b_l =  . then miss_canf_b=miss_canf_b+1 ;
+   if canf_b_l ne . then miss_canf_b=miss_canf_b+0 ;
+
+   if feld_b_l =  . then miss_feld_b=miss_feld_b+1 ;
+   if feld_b_l ne . then miss_feld_b=miss_feld_b+0 ;
+
+   if dersum_b_l =  . then miss_dersum_b=miss_dersum_b+1 ;
+   if dersum_b_l ne . then miss_dersum_b=miss_dersum_b+0 ;
+*** ;
+   if blag_l_l =  . then miss_blag_l=miss_blag_l+1 ;
+   if blag_l_l ne . then miss_blag_l=miss_blag_l+0 ;
+
+   if musm_l_l =  . then miss_musm_l=miss_musm_l+1 ;
+   if musm_l_l ne . then miss_musm_l=miss_musm_l+0 ;
+
+   if derp_l_l =  . then miss_derp_l=miss_derp_l+1 ;
+   if derp_l_l ne . then miss_derp_l=miss_derp_l+0 ;
+
+   if derf_l_l =  . then miss_derf_l=miss_derf_l+1 ;
+   if derf_l_l ne . then miss_derf_l=miss_derf_l+0 ;
+
+   if canf_l_l =  . then miss_canf_l=miss_canf_l+1 ;
+   if canf_l_l ne . then miss_canf_l=miss_canf_l+0 ;
+
+   if feld_l_l =  . then miss_feld_l=miss_feld_l+1 ;
+   if feld_l_l ne . then miss_feld_l=miss_feld_l+0 ;
+
+   if dersum_l_l =  . then miss_dersum_l=miss_dersum_l+1 ;
+   if dersum_l_l ne . then miss_dersum_l=miss_dersum_l+0 ;
+
+   if first.studyid then count=1 ; 
+
+   if miss_blag_b/count > 0.5 then mean_blag_b = . ;
+   if miss_blag_b/count <=  0.5 then mean_blag_b = ((sum_blag_b)/(count-miss_blag_b)) ;
+
+   if miss_musm_b/count > 0.5 then mean_musm_b = . ;
+   if miss_musm_b/count <=  0.5 then mean_musm_b = ((sum_musm_b)/(count-miss_musm_b)) ;
+
+   if miss_derp_b/count > 0.5 then mean_derp_b = . ;
+   if miss_derp_b/count <=  0.5 then mean_derp_b = ((sum_derp_b)/(count-miss_derp_b)) ;
+
+   if miss_derf_b/count > 0.5 then mean_derf_b = . ;
+   if miss_derf_b/count <=  0.5 then mean_derf_b = ((sum_derf_b)/(count-miss_derf_b)) ;
+
+   if miss_canf_b/count > 0.5 then mean_canf_b = . ;
+   if miss_canf_b/count <=  0.5 then mean_canf_b = ((sum_canf_b)/(count-miss_canf_b)) ;
+
+   if miss_feld_b/count > 0.5 then mean_feld_b = . ;
+   if miss_feld_b/count <=  0.5 then mean_feld_b = ((sum_feld_b)/(count-miss_feld_b)) ;
+
+   if miss_dersum_b/count > 0.5 then mean_dersum_b = . ;
+   if miss_dersum_b/count <=  0.5 then mean_dersum_b = ((sum_dersum_b)/(count-miss_dersum_b)) ;
+
+   *** ;
+
+   if miss_blag_l/count > 0.5 then mean_blag_l = . ;
+   if miss_blag_l/count <=  0.5 then mean_blag_l = ((sum_blag_l)/(count-miss_blag_l)) ;
+
+   if miss_musm_l/count > 0.5 then mean_musm_l = . ;
+   if miss_musm_l/count <=  0.5 then mean_musm_l = ((sum_musm_l)/(count-miss_musm_l)) ;
+
+   if miss_derp_l/count > 0.5 then mean_derp_l = . ;
+   if miss_derp_l/count <=  0.5 then mean_derp_l = ((sum_derp_l)/(count-miss_derp_l)) ;
+
+   if miss_derf_l/count > 0.5 then mean_derf_l = . ;
+   if miss_derf_l/count <=  0.5 then mean_derf_l = ((sum_derf_l)/(count-miss_derf_l)) ;
+
+   if miss_canf_l/count > 0.5 then mean_canf_l = . ;
+   if miss_canf_l/count <=  0.5 then mean_canf_l = ((sum_canf_l)/(count-miss_canf_l)) ;
+
+   if miss_feld_l/count > 0.5 then mean_feld_l = . ;
+   if miss_feld_l/count <=  0.5 then mean_feld_l = ((sum_feld_l)/(count-miss_feld_l)) ;
+
+   if miss_dersum_l/count > 0.5 then mean_dersum_l = . ;
+   if miss_dersum_l/count <=  0.5 then mean_dersum_l = ((sum_dersum_l)/(count-miss_dersum_l)) ;
+
+
+   label mean_blag_b="Blag bedroom cumulative mean" 
+        mean_musm_b="Musm bedroom cumulative mean" 
+        mean_derp_b="Derp bedroom cumulative mean"
+        mean_derf_b="Derf bedroom cumulative mean"
+        mean_canf_b="Canf bedroom cumulative mean"
+        mean_feld_b="Feld bedroom cumulative mean"
+        mean_dersum_b="Sum derp,derf bedroom cumulative mean"
+        mean_blag_l="Blag living room cumulative mean"
+        mean_musm_l="Musm living room cumulative mean"
+        mean_derp_l="Derp living room cumulative mean"
+        mean_derf_l="Derf living room cumulative mean" 
+        mean_canf_l="Canf living room cumulative mean"   
+        mean_feld_l="Feld living room cumulative mean" 
+        mean_dersum_l="Sum derp,derf living room cumulative mean" ;
+
+   keep studyid year mean_blag_b mean_musm_b mean_derp_b mean_derf_b mean_canf_b mean_feld_b mean_dersum_b
+       mean_blag_l mean_musm_l mean_derp_l mean_derf_l mean_canf_l mean_feld_l mean_dersum_l dust; 
+
+   *7/25/18 sl - rename all mean vars cumul_mean;
+
+   rename mean_blag_b = cumul_mean_blag_b
+         mean_musm_b = cumul_mean_musm_b
+         mean_derp_b = cumul_mean_derp_b
+         mean_derf_b = cumul_mean_derf_b
+         mean_canf_b = cumul_mean_canf_b
+         mean_feld_b = cumul_mean_feld_b
+         mean_dersum_b = cumul_mean_dersum_b
+         mean_blag_l = cumul_mean_blag_l
+         mean_musm_l = cumul_mean_musm_l
+         mean_derp_l = cumul_mean_derp_l
+         mean_derf_l = cumul_mean_derf_l
+         mean_canf_l = cumul_mean_canf_l
+         mean_feld_l = cumul_mean_feld_l
+         mean_dersum_l = cumul_mean_dersum_l;
+run ;
+
+proc sort data=dust_02 ; by studyid year ; run ;
+proc sort data=dust_01 ; by studyid year ; run ;
+
+
+data preFinaldust ;
+   merge dust_01 dust_02 ;
+   by studyid year ;
+run ; 
+
+data preFinaldust2;
+   set prefinaldust;
+   where year=10;
+run;
+
+***************************
+ADD HOME ENVIRONMENTAL VARIABLES
+***************************;
+/*proc sort data=derive.home_env out=home_env(keep=studyid year child_centralac child_roomac aircleaner dehumidif humidifier heat_radiator heat_central heat_electricbase
+heat_elecspace heat_kerosenespace heat_stoveoven heat_woodstove heat_fireplace gas_stove home_waterprobs home_mice home_rats home_roach dog_any cat_any 
+petrodent_any child_ac radiator airvents baseboards elec_sp kero_sp openstov woodstov fireplace home_rodents home_roachday home_dog_curr home_cat_curr
+home_othpet_curr home_othpet_childrm home_pets_curr);
+   by studyid year;
+run;
+proc sort data=derive.home_obs out=home_obs(keep=StudyID year house_type num_rooms room_childsleep otherroom_roachstain otherroom_roach
+otherroom_mousedrop otherroom_moisture kitchen_mildew bathroom_mildew famroom_mildew  otherroom_cigs  kitchen_carpet kitchen_rug
+kitchen_scatrug kitchen_tile kitchen_wood kitchen_concrete bathroom_carpet bathroom_rug
+bathroom_scatrug bathroom_tile bathroom_wood bathroom_concrete famroom_carpet famroom_rug
+famroom_scatrug famroom_tile famroom_wood famroom_concrete bedroom_roachstain bedroom_roach
+bedroom_mousedrop bedroom_moisture bedroom_mildew bedroom_cigs bedroom_carpet bedroom_rug
+bedroom_scatrug bedroom_tile bedroom_wood bedroom_concrete bedroom_blinds bedroom_curtains kitchen_flooring bathroom_flooring famroom_flooring bedroom_flooring
+home_obs_roach home_obs_mice home_obs_mildew home_obs_moisture home_obs_waterdam home_bedroom_cigs home_obs_cigs);
+   by studyid year;
+run; */
+
+proc import datafile="S:\RhoFED\ICAC\Studies\URECA\Prog\Derive\dust_dates.xlsx"
+ out=dust_dates 
+ replace;
+run;
+
+proc sort data=dust_dates out=dust_dates2(keep=studyid avisit year canf_b_dt2 canf_l_dt2 musm_b_dt2);
+   by studyid year;
+run; 
+
+
+data preFinal;
+   merge dust_01 dust_02 dust_dates2 ;
+   by studyid year ;
+   *where studyid ne '';
+
+  *hardcodes here have been removed to protect patient confidentiality;
+   end;
+  *hardcodes here have been removed to protect patient confidentiality;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+   end;
+*hardcodes here have been removed to protect patient confidentiality;
+
+
+if avisit=81 then avisit=84;
+run;
+proc sort data=preFinal out=preFinal2(drop= canf_b_dt2 canf_l_dt2 musm_b_dt2) nodupkey;
+   by studyid avisit;
+   where year not in (6,8,9);
+run;
+
+proc freq data=dustcoll70; tables avisit; run;
+data derive.dust ;
+   /*merge dust_01 dust_02 home_env home_obs ;
+   by studyid year ; */
+   set preFinal2;
+   where studyid ne '';
+   
+run ; 
+proc freq data=derive.dust;
+tables avisit event;run;
+/*
+data test;
+   set work.dustcoll60;
+     where avisit=120;
+run;
+
+
+
+data base ;
+   merge dust_01 dust_02 ;
+   by studyid year ;
+run ;
+
+
+data check;
+   set derive.dust;
+run;
+*/
+
+
+
+
+
+
+proc print data=derive.dust ;
+   var studyid avisit blag_b feld_b musm_b canf_b derp_b derf_b ;
+   where (blag_b=.B or feld_b=.B or musm_b=.B or canf_b=.B or derp_b=.B or derf_b=.B) ;
+run ;
+
+*** 3. Codebook ****************************************************************;
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.dust,*/
+/*          pdfname=dust,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.dust
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+ods select Position;
+proc contents data=derive.dust position; run;
+run;
+ods select default;

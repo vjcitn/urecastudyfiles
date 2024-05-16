@@ -1,0 +1,98 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   K Jaffee         03/03/11      Created
+*   K Jaffee         06/24/11      Pull from updated demog dataset 
+*   Andrew Moseby    28JUN2018     Add variables: baby_gest_age
+*   Andrew Moseby    18AUG2018     Add variables: baby_dob, mom_marital, healthinsur_type
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=demog_1rec,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+ 
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=derive.demog_for1rec out=d ; by studyid ; run ;
+
+data demog_1rec ;
+   set d ;
+   format momrace3 racec.;
+   where avisit=0 ;
+   keep  StudyID RecruitID group site avisit mom_numrace dad_numrace momrace dadrace
+momrace2 dadrace2 mom_hispanic dad_hispanic mom_black dad_black momrace3 dadrace3 currhome_residyrs
+babyrace babyrace2 baby_hispanic baby_black babyrace3 acompletiondate_sem mom_dob
+mom_duedate mom_atopy dad_atopy who_atopy mom_asthma dad_asthma num_par_asthma who_asthma
+mom_hayfever dad_hayfever num_par_hayfever mom_eczema dad_eczema num_par_eczema mom_numdisease
+dad_numdisease gestwk_prenat trimester earlypreg mom_everasthma mom_stillasthma dad_everasthma
+dad_stillasthma mom_everhay mom_stillhay dad_everhay mom_everecz mom_stillecz race_gli_c
+race_gli agemom_screen agemom_birth baby_gender_c baby_gest_age baby_dob mom_marital healthinsur_type;
+
+run ;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell0;
+ set derive.groups;
+
+ do avisit = 0 ;
+  if avisit in (0)              then year=0;
+  output;
+ end;
+ keep studyid avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell0     ;  by studyid avisit; run;
+proc sort data=demog_1rec ;  by studyid avisit; run;
+
+data derive.demog_1rec;
+   merge shell0 Demog_1rec (in=c);
+   by studyid avisit;
+ if c=1 then Demog_1rec = 1 ; else Demog_1rec = 0 ;
+run;
+
+/**** 3. Codebook ****************************************************************;*/
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.demog_1rec,
+         pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+/*
+%inc "O:\Asthma\Apps\Cbk\codebook.sas";
+%codebook(file=derive.demog_1rec,
+          pdfname=demog_1rec,
+          formats=library,
+        save=F,
+        clean=T,
+          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));
+*/
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+

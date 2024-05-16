@@ -1,0 +1,970 @@
+Accession	group	form	evid	event	version	status	aVisit	DS_q2_cp	DS_q3_cp	DS_q2	DS_q3	DS_q3a	DS_q4	DS_q5	DS_q6	DS_q7	DS_q8a	DS_q8b	DS_q8c	DS_q8d	DS_q8e	DS_q8f	DS_q8g	DS_q8g1	DS_q9	DS_q10	DS_q11	aFormDY	DS_Q1CPDY	DS_Q2ACPDY	DS_Q3ACPDY	DS_Q1
+SUB230862	Atopic	DS	54377	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3707	3707	3717	3717	3717
+SUB230862	Atopic	DS	32878	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230863	Atopic	DS	54118	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230863	Atopic	DS	34125	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	1	2	2	0								.a				2672	2507	2631	2672	2630
+SUB230865	Atopic	DS	52100	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3694	3694	3721	3724	3718
+SUB230865	Atopic	DS	34764	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2502	2502	2517	2517	2517
+SUB230866	Atopic	DS	33313	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2501	2492	2501	2501	2496
+SUB230866	Atopic	DS	52891	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	1	2	1	1	0	0	0	0	0	0	.a	3	1	1	3689	3689	3691	3691	3689
+SUB230867	Atopic	DS	35722	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2504	2504	2566	2566	2566
+SUB230867	Atopic	DS	52244	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	0	0	1	vinyl	1	2	2	3678	3678	3694	3694	3694
+SUB230868	Atopic	DS	54405	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	5	2	1	1	0	0	0	0	0	0	.a	1	2	2	3696	3696	3697	3697	3697
+SUB230868	Atopic	DS	35864	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2638	2504	2598	2638	2597
+SUB230869	Atopic	DS	52113	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3694	3694	3721	3724	3718
+SUB230869	Atopic	DS	34752	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2502	2502	2517	2517	2517
+SUB230870	Atopic	DS	33530	81-Month Clinic Visit	1.0	complete	81	0	3			.n												.n				2515	2515			
+SUB230870	Atopic	DS	53245	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	20	1	1	0	0	0	0	1	0	0	.a	1	10	1	3654	3654	3718	3775	3717
+SUB230871	Atopic	DS	53597	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	1	3701	3701	3706	3706	3701
+SUB230871	Atopic	DS	51354	Home Dust Collection	1.0	complete	hdc	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2541	2541	2553	2553	2553
+SUB230871	Atopic	DS	36478	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230872	Atopic	DS	33579	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230872	Atopic	DS	54333	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3705	3705	3725	3725	3725
+SUB230872	Atopic	DS	51170	Home Dust Collection	1.0	complete	hdc	1	1	1	1	.a	1	4	1	1	0	0	0	0	1	0	0	.a	1	2	1	2528	2527	2528	2528	2528
+SUB230873	Atopic	DS	43632	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230874	Atopic	DS	53508	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3692	3692	3695	3695	3695
+SUB230874	Atopic	DS	33605	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2484	2476	2484	2484	2484
+SUB230876	Atopic	DS	53099	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	3689	3689	3693	3696	3690
+SUB230876	Atopic	DS	33095	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2504	2504	2511	2511	2511
+SUB230877	Atopic	DS	53011	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3728	3728			
+SUB230877	Atopic	DS	34049	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2496	2484	2496	2496	2491
+SUB230881	Atopic	DS	38947	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230883	Atopic	DS	43870	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	2	2	1	2487	2487	2508	2508	2508
+SUB230883	Atopic	DS	59792	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3726	3726			
+SUB230884	Atopic	DS	54289	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3638	3638	3703	3703	3675
+SUB230884	Atopic	DS	36793	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2483	2483	2485	2485	2483
+SUB230886	Atopic	DS	36805	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2470	2470	2486	2486	2486
+SUB230886	Atopic	DS	51578	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	3636	3636	3641	3641	3638
+SUB230887	Atopic	DS	56501	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3737	3737	3752	3752	3752
+SUB230887	Atopic	DS	36397	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2605	2498	2605	2605	2603
+SUB230888	Atopic	DS	36775	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2492	2491	2492	2494	2492
+SUB230888	Atopic	DS	51974	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3693	3693	3693	3693	3693
+SUB230889	Atopic	DS	37115	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230889	Atopic	DS	60537	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	4	1	0								.a				3701	3701	3735	3735	3735
+SUB230890	Atopic	DS	56093	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3692	3692	3693	3693	3692
+SUB230890	Atopic	DS	40457	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	2	1	1	1	0	0	0	0	0	0	.a	2	2	1	2520	2520	2630	2630	2630
+SUB230891	Atopic	DS	38959	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2743	2737	2746	2746	2737
+SUB230891	Atopic	DS	58503	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3684	3684	3735		
+SUB230892	Atopic	DS	40469	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230894	Atopic	DS	57492	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	5	1	1	1	0	0	0	0	0	0	.a	3	5	1	3701	3701	3713	3713	3712
+SUB230894	Atopic	DS	37553	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230895	Atopic	DS	53053	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	1	1	1	0	0	0	0	0	0	.a	1	1	2	3700	3700	3705	3705	3704
+SUB230895	Atopic	DS	40332	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2522	2522	2603	2603	2543
+SUB230896	Atopic	DS	35801	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230897	Atopic	DS	53258	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3710	3710	4067	4068	4067
+SUB230897	Atopic	DS	42872	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	5	1	1	1	0	0	0	0	0	0	.a	1	2	2	2520	2520	2542	2542	2538
+SUB230898	Atopic	DS	36460	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230899	Atopic	DS	40993	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230899	Atopic	DS	53039	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	2	1	1	1	0	0	0	0	0	0	.a	3	3	1	3702	3702	3704	3704	3703
+SUB230900	Atopic	DS	32860	81-Month Clinic Visit	1.0	complete	81	1	3			.n												.n				2560	2517	2560		
+SUB230900	Atopic	DS	53491	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	1	3706	3706	3855	3855	3710
+SUB230901	Atopic	DS	37828	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2520	2520	2632	2632	2630
+SUB230901	Atopic	DS	53191	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3698	3698	3705	3705	3700
+SUB230903	Atopic	DS	41462	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230903	Atopic	DS	56474	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3701	3701	4137	4137	4137
+SUB230904	Atopic	DS	53617	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	3	2	1	1	0	0	0	0	0	0	.a	3	2	2	3782	3782	3876	3887	3873
+SUB230904	Atopic	DS	42564	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230905	Atopic	DS	41113	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230905	Atopic	DS	58253	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3703	3703	3877	3877	3877
+SUB230906	Atopic	DS	43882	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230906	Atopic	DS	56449	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3832	3832	3869	3869	3868
+SUB230907	Atopic	DS	61262	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	3	15	1	1	0	0	0	0	1	0	0	.a	3	10	1	3830	3830	3839	3922	3830
+SUB230907	Atopic	DS	37240	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230908	Atopic	DS	39778	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230908	Atopic	DS	53674	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3828	3828	4095		
+SUB230909	Atopic	DS	34007	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	2	2	2	1	1	0	0	0	0	0	0	.a	2	2	1	2520	2520	2527	2527	2523
+SUB230909	Atopic	DS	54192	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	2	3735	3735	3742	3742	3738
+SUB230910	Atopic	DS	37088	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230911	Atopic	DS	37538	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230911	Atopic	DS	53334	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	10	1	1	0	0	0	1	0	0	0	.a	2	3	1	3702	3702	3886	3886	3886
+SUB230912	Atopic	DS	34438	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2517	2517	2588	2588	2566
+SUB230913	Atopic	DS	54250	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	3	15	2	1	1	0	0	0	0	0	0	.a	3	15	1	3741	3741	3856	3867	3855
+SUB230913	Atopic	DS	38971	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230914	Atopic	DS	54132	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3719	3719	3740	3740	3739
+SUB230914	Atopic	DS	32383	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	2	1	1	0	0	1	0	0	0	0	.a	2	2	1	2511	2511	2516	2516	2511
+SUB230915	Atopic	DS	38983	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2731	2731	2735	2735	2732
+SUB230915	Atopic	DS	66459	Home Dust Collection	1.0	complete	hdc	1	1	1	1	.a	1	4	2	0								.a				4134	4134	4142	4142	4142
+SUB230916	Atopic	DS	51988	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3699	3699	3728	3737	3727
+SUB230916	Atopic	DS	39677	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	budle bed	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2490	2490	2498	2498	2495
+SUB230917	Atopic	DS	41319	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230919	Atopic	DS	54660	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	2	3800	3800	3848	3848	3848
+SUB230919	Atopic	DS	32484	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2521	2521	2741	2741	2738
+SUB230920	Atopic	DS	40147	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2517	2517	2573	2573	2572
+SUB230920	Atopic	DS	54525	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3693	3693	3699	3705	3695
+SUB230921	Atopic	DS	54462	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3651	3651	3657	3657	3656
+SUB230921	Atopic	DS	39806	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2513	2513	2710	2710	2710
+SUB230922	Atopic	DS	33427	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230924	Atopic	DS	54582	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	10	1	1	1	0	0	0	0	0	0	.a	1	10	2	3712	3712	3741	3741	3736
+SUB230924	Atopic	DS	39701	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2511	2511	2532	2532	2512
+SUB230925	Atopic	DS	33567	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230925	Atopic	DS	55022	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230927	Atopic	DS	66476	Home Dust Collection	1.0	missing	.x					.x												.x								
+SUB230927	Atopic	DS	40695	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230928	Atopic	DS	38995	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230928	Atopic	DS	55151	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	2	2	1	0	0	0	1	0	0	0	.a	1	4	1	3732	3732	3989	3989	3989
+SUB230929	Atopic	DS	40683	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230929	Atopic	DS	55258	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3667	3667	3668	3669	3667
+SUB230932	Atopic	DS	53861	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	2	0		3656	3656	3658	3658	3657
+SUB230932	Atopic	DS	34035	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	bunk bed	1	2.5	2	1	1	0	0	0	0	0	0	.a	1	3.5	2	2447	2447	2452	2452	2448
+SUB230933	Atopic	DS	55338	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	10	2	1	0	1	0	0	1	0	0	.a	1	5	2	3776	3776	3791	3802	3789
+SUB230933	Atopic	DS	34368	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230934	Atopic	DS	41221	81-Month Clinic Visit	1.0	complete	81	1	1	0		.a				1	0	0	1	0	0	0	0	.a	1	5	1	2492	2492	2623	2623	2622
+SUB230934	Atopic	DS	55164	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3705	3705	3790	3791	3788
+SUB230935	Atopic	DS	41525	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230936	Atopic	DS	35211	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230937	Atopic	DS	32255	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230938	Atopic	DS	39007	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230939	Atopic	DS	39019	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230939	Atopic	DS	59740	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	4	1	3702	3702	3706	3706	3705
+SUB230941	Atopic	DS	39031	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	2497	2497	2505	2505	2504
+SUB230941	Atopic	DS	55759	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	3697	3696	3697	3697	3697
+SUB230942	Atopic	DS	56279	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	3701	3701	3774	3774	3773
+SUB230942	Atopic	DS	32655	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230943	Atopic	DS	32098	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2478	2478	2491	2491	2488
+SUB230943	Atopic	DS	55281	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	10	2	0								.a				3701	3701	3769	3769	3766
+SUB230944	Atopic	DS	59611	Home Dust Collection	1.0	complete	hdc	1	1	1	5	daybed	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	2657	2657	2704	2704	2701
+SUB230944	Atopic	DS	58830	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	3	1	1	1	0	0	0	0	0	0	.a	1	4	2	3707	3707	3715	3730	3713
+SUB230944	Atopic	DS	33344	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230945	Atopic	DS	39043	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2514	2514	2682	2682	2517
+SUB230945	Atopic	DS	56384	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	3	1	0								.a				3723	3723	3766	3766	3766
+SUB230946	Atopic	DS	56783	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	1	2	1	1	0	0	0	0	0	0	.a	3	1	1	3727	3727	3734	3780	3729
+SUB230946	Atopic	DS	41723	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230947	Atopic	DS	32431	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	2143	2509	2513	2513	2511
+SUB230947	Atopic	DS	56488	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	5	2	1	0	0	0	0	1	0	0	.a	3	2	2	3734	3734	3738	3750	3737
+SUB230948	Atopic	DS	56830	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3698	3698	3704	3704	3699
+SUB230948	Atopic	DS	32601	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2522	2522	2674	2674	2671
+SUB230951	Atopic	DS	32761	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	2	2	1	1	1	0	0	0	0	0	0	.a	3	2	2	2524	2524	2535	2535	2524
+SUB230951	Atopic	DS	58690	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	3630	3630	3649	3649	3634
+SUB230952	Atopic	DS	58383	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	3	2	1	1	1	0	0	0	0	0	0	.a	3	2	2	3719	3719	3719	3719	3719
+SUB230952	Atopic	DS	39055	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230953	Atopic	DS	32588	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	2523	2523	2533	2533	2523
+SUB230953	Atopic	DS	57082	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	3	5	2	1	0	0	0	1	0	0	0	.a	3	2	1	3717	3742	3742	3745	3741
+SUB230954	Atopic	DS	39790	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2522	2522	2523	2523	2522
+SUB230954	Atopic	DS	57219	120-Month Clinic Visit	1.0	complete	120	1	1	1	4	.a	3	5	2	0								.a				3823	3823	3835	3835	3834
+SUB230955	Atopic	DS	34618	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2512	2512	2555	2555	2531
+SUB230957	Atopic	DS	57402	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	3740	3740	3825	3825	3824
+SUB230957	Atopic	DS	39067	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230957	Atopic	DS	61211	Home Dust Collection	1.0	complete	hdc	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2515	2515	2913	2914	2908
+SUB230958	Atopic	DS	43359	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2577	2577	2923	2926	2553
+SUB230958	Atopic	DS	59017	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3778	3786	3808		
+SUB230959	Atopic	DS	57417	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3736	3736	3876	3876	3875
+SUB230959	Atopic	DS	43072	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2511	2511	2531	2531	2527
+SUB230960	Atopic	DS	34851	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	3	2	2646	2646	2684	2710	2677
+SUB230960	Atopic	DS	54553	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3735	3749	3783	3783	3780
+SUB230961	Atopic	DS	35350	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2500	2500	2551	2551	2512
+SUB230961	Atopic	DS	52516	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	5	2	1	1	0	0	0	0	0	0	.a	1	5	2	3755	3755	3755	3936	3755
+SUB230962	Atopic	DS	33885	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	2517	2517	2918	2918	2916
+SUB230963	Atopic	DS	39079	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2652	2629	2690	2690	2652
+SUB230963	Atopic	DS	59245	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	1	0	1	0	0	0	0	.a	1	2	1	3736	3737	3783	3783	3773
+SUB230964	Atopic	DS	57185	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	4	2	1	1	0	0	0	0	0	0	.a	1	3	1	3710	3710	3710	3710	3710
+SUB230964	Atopic	DS	32902	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2485	2485	2495	2495	2488
+SUB230965	Atopic	DS	32890	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2485	2485	2495	2495	2488
+SUB230965	Atopic	DS	57172	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	4	2	1	1	0	0	0	0	0	0	.a	1	3	1	3710	3709	3710	3710	3710
+SUB230966	Atopic	DS	61212	Home Dust Collection	1.0	complete	hdc	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2526	2526	2892	2895	2888
+SUB230966	Atopic	DS	39091	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230966	Atopic	DS	59057	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3772	3799	3841		
+SUB230967	Atopic	DS	57784	120-Month Clinic Visit	1.0	complete	120	1	1	0		.a				1	0	1	0	0	0	0	0	.a	1	2	1	3736	3736	3759	3759	3758
+SUB230967	Atopic	DS	39103	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	2520	2520	2534	2534	2523
+SUB230968	Atopic	DS	38808	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	2526	2526	2546	2546	2540
+SUB230968	Atopic	DS	52528	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3775	3775	4139		
+SUB230969	Atopic	DS	39115	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2467	2467	2468	2468	2467
+SUB230969	Atopic	DS	56949	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3692	3692	3695	3695	3694
+SUB230971	Atopic	DS	57576	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3740	3740	3747	3755	3744
+SUB230971	Atopic	DS	34267	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2496	2496	2503	2503	2499
+SUB230972	Atopic	DS	35069	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	3	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2508	2508	2674	2857	2672
+SUB230972	Atopic	DS	58279	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3745	3745	3788	3788	3788
+SUB230973	Atopic	DS	39127	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2527	2527	2888	2899	2885
+SUB230973	Atopic	DS	52879	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3811	3811			
+SUB230975	Atopic	DS	61426	Home Dust Collection	1.0	complete	hdc	1	1	1	1	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	2524	2524	2911	2911	2905
+SUB230975	Atopic	DS	34883	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230976	Atopic	DS	59893	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	3	2	1	1	1	0	0	0	0	0	0	.a	3	3	2	3650	3650	3664	3666	3661
+SUB230976	Atopic	DS	35056	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	2	2	2	2525	2525	2534	2534	2526
+SUB230977	Atopic	DS	53409	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3766	3766	3790	3790	3790
+SUB230977	Atopic	DS	60089	Home Dust Collection	1.0	complete	hdc	1	2	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	2	2	2	2695	2690	2695	2695	2693
+SUB230977	Atopic	DS	34808	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230978	Atopic	DS	33126	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2491	2491	2909	2909	2905
+SUB230978	Atopic	DS	57994	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	3	2	1	0	0	1	0	1	0	0	.a	1	3	1	3651	3652	3654	3654	3654
+SUB230979	Atopic	DS	61535	Home Dust Collection	1.0	complete	hdc	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2562	2562	2896	2896	2895
+SUB230979	Atopic	DS	36356	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230979	Atopic	DS	59838	Home Dust Collection	1.0	complete	hdc	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2628	2628	2664	2664	2664
+SUB230979	Atopic	DS	53082	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	2	1	1	3720	3720	3723	3723	3723
+SUB230981	Atopic	DS	33591	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2561	2561	2891	2891	2886
+SUB230981	Atopic	DS	53346	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3760	3760	3785	3785	3785
+SUB230982	Atopic	DS	53359	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	3	1	1	1	1	0	0	0	0	0	.a	1	4	2	3735	3735	3737	3737	3737
+SUB230982	Atopic	DS	36977	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2515	2515	2890	2893	2888
+SUB230983	Atopic	DS	53156	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3728	3728	3728	3729	3728
+SUB230983	Atopic	DS	37494	81-Month Clinic Visit	1.0	complete	81	1	2	1	4	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2517	2517	2824	2825	2818
+SUB230984	Atopic	DS	58801	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3753	3753	3780	3780	3780
+SUB230984	Atopic	DS	33555	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2696	2696	2824	2829	2810
+SUB230985	Atopic	DS	32406	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2519	2519	2863	2867	2859
+SUB230985	Atopic	DS	58639	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	10	1	3816	3816	3863	3878	3816
+SUB230986	Atopic	DS	57592	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	3	15	1	1	1	0	0	0	0	0	0	.a	3	20	1	3657	3657	3666	3666	3666
+SUB230986	Atopic	DS	33484	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2448	2448	2870	2870	2869
+SUB230987	Atopic	DS	52953	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	3	1	3751	3751	3778	3778	3777
+SUB230987	Atopic	DS	32497	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230987	Atopic	DS	61534	Home Dust Collection	1.0	complete	hdc	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2629	2629	2867	2867	2865
+SUB230988	Atopic	DS	33496	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230988	Atopic	DS	53646	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3801	3801	3849	3921	3849
+SUB230988	Atopic	DS	61423	Home Dust Collection	1.0	complete	hdc	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2641	2641	2872	2875	2871
+SUB230989	Atopic	DS	54263	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	2	1	1	1	0	0	0	0	0	0	.a	2	1	1	3721	3721	3722	3722	3721
+SUB230989	Atopic	DS	33111	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2515	2515	2516	2516	2515
+SUB230990	Atopic	DS	53951	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3709	3709	3777	3778	3777
+SUB230990	Atopic	DS	35744	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	1	2	1	0	0	1	0	0	0	0	.a	1	1	1	2475	2475	2524	2524	2523
+SUB230991	Atopic	DS	33186	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2513	2513	2849	2849	2845
+SUB230991	Atopic	DS	53874	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	3	2	1	1	0	0	1	1	0	0	0	.a	3	2	1	3698	3698	3699	3700	3699
+SUB230993	Atopic	DS	54392	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	3705	3726	3730	3734	3728
+SUB230993	Atopic	DS	34209	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2517	2517	2769	2769	2768
+SUB230994	Atopic	DS	54105	120-Month Clinic Visit	1.0	complete	120	1	1	1	4	.a	3	2	2	1	0	1	0	0	1	0	0	.a	2	1	1	3742	3742	3743	3743	3742
+SUB230994	Atopic	DS	34465	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	1	0	0	1	0	0	.a	1	2	2	2525	2522	2530	2530	2527
+SUB230995	Atopic	DS	33634	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2506	2506	2517	2517	2513
+SUB230995	Atopic	DS	54365	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	5	2	1	0	0	0	1	0	0	0	.a	3	5	2	3777	3777	3777	3777	3777
+SUB230997	Atopic	DS	54568	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	3	2	1	0								.a				3726	3726	3741	3741	3732
+SUB230997	Atopic	DS	38292	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2499	2499	2816	2816	2811
+SUB230998	Atopic	DS	54874	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	1	2	1	1	0	0	0	0	0	0	.a	3	1	1	3627	3627	3628	3628	3628
+SUB230998	Atopic	DS	36494	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2521	2521	2528	2528	2527
+SUB230999	Non-atopic	DS	59331	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB230999	Non-atopic	DS	43846	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2521	2521	2774	2774	2771
+SUB231000	Atopic	DS	58863	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	10	2	1	0	0	0	1	0	0	0	.a	3	20	1	3789	3789	3797	3825	3797
+SUB231000	Atopic	DS	42580	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2518	2518	2526	2526	2519
+SUB231001	Atopic	DS	55311	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3730	3730	3738	3866	3737
+SUB231001	Atopic	DS	36923	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2516	2516	2747	2747	2747
+SUB231002	Atopic	DS	36819	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2512	2512	2770	2771	2767
+SUB231002	Atopic	DS	59351	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	3	5	1	1	0	0	0	1	0	0	0	.a	3	5	1	3779	3779	3790	3863	3789
+SUB231003	Atopic	DS	41673	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2723	2723	2810	2810	2809
+SUB231003	Atopic	DS	54538	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	4	2	0								.a				3721	3721	3896	3896	3896
+SUB231004	Atopic	DS	37807	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	3	1	1	1	0	0	0	0	0	0	.a	3	3	2	2507	2507	2564	2564	2562
+SUB231004	Atopic	DS	58875	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3814	3814	3837	3837	3821
+SUB231005	Atopic	DS	43775	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2484	2484	2498	2498	2493
+SUB231005	Atopic	DS	53835	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	2	3728	3728	3735	3736	3733
+SUB231006	Atopic	DS	34308	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2523	2523	2525	2525	2525
+SUB231006	Atopic	DS	55009	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	5	1	1	0	0	0	1	0	0	0	.a	1	2	1	3634	3634	3638	3638	3638
+SUB231007	Atopic	DS	55177	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3679	3679	3687	3687	3686
+SUB231007	Atopic	DS	35495	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2501	2501	2540	2540	2491
+SUB231008	Atopic	DS	43947	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	2524	2524	2525	2525	2525
+SUB231008	Atopic	DS	55529	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3842	3842	4171	4171	4170
+SUB231010	Non-atopic	DS	34452	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	2525	2525	2723	2726	2716
+SUB231010	Non-atopic	DS	59703	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	3	2	1	1	0	0	0	1	0	0	0	.a	3	2	1	3715	3715	3737	3737	3737
+SUB231011	Atopic	DS	55741	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3767	3767	4080	4080	4080
+SUB231011	Atopic	DS	35925	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2523	2523	2727	2733	2714
+SUB231012	Atopic	DS	55725	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3786	3786	4078	4078	4078
+SUB231012	Atopic	DS	39139	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2523	2523	2530	2530	2526
+SUB231013	Atopic	DS	36578	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2519	2519	2719	2725	2704
+SUB231013	Atopic	DS	58887	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	10	1	1	0	0	0	1	0	0	0	.a	1	20	2	3739	3739	3741	3747	3740
+SUB231014	Atopic	DS	58899	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3657	3657			
+SUB231014	Atopic	DS	37255	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2568	2568	2717	2718	2710
+SUB231015	Non-atopic	DS	37701	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2526	2526	2724	2727	2717
+SUB231015	Non-atopic	DS	59724	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3637	3637	3645	3645	3645
+SUB231016	Atopic	DS	36658	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2581	2581	2777	2777	2774
+SUB231016	Atopic	DS	55919	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	5	1	1	1	0	0	0	0	0	0	.a	1	5	2	3663	3663	3668	3691	3644
+SUB231017	Non-atopic	DS	39742	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2526	2526	2756	2756	2755
+SUB231017	Non-atopic	DS	56338	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3677	3677	3680	3688	3680
+SUB231019	Atopic	DS	66487	Home Dust Collection	1.0	complete	hdc	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3745	4036	4051	4061	4051
+SUB231019	Atopic	DS	39151	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2527	2527	2706	2706	2702
+SUB231021	Atopic	DS	42860	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231021	Atopic	DS	61424	Home Dust Collection	1.0	complete	hdc	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2744	2744	2755	2759	2748
+SUB231022	Non-atopic	DS	38187	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2521	2521	2693	2693	2690
+SUB231023	Non-atopic	DS	43858	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231023	Non-atopic	DS	61425	Home Dust Collection	1.0	complete	hdc	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2695	2695	2695	2699	2695
+SUB231024	Non-atopic	DS	58911	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	15	1	1	1	0	0	0	0	0	0	.a	1	15	1	3789	3789	3835	3835	3832
+SUB231024	Non-atopic	DS	35883	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2525	2525	2526	2526	2525
+SUB231025	Atopic	DS	39163	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2526	2526	2544	2544	2540
+SUB231025	Atopic	DS	56607	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	10	2	1	1	0	0	0	0	0	0	.a	1	10	2	3732	3732	3740	3740	3737
+SUB231026	Atopic	DS	41095	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2521	2521	2615	2616	2609
+SUB231026	Atopic	DS	56796	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3630	3630	3673	3722	3673
+SUB231028	Atopic	DS	52330	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3682	3682	3683	3683	3683
+SUB231028	Atopic	DS	34493	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	2499	2499	2528	2528	2528
+SUB231029	Atopic	DS	52631	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	5	2	1	1	0	0	0	0	0	0	.a	1	5	1	3696	3696	3711	3711	3705
+SUB231029	Atopic	DS	33297	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2501	2501	2513	2513	2503
+SUB231031	Atopic	DS	55889	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	10	2	3691	3691	3708	3708	3706
+SUB231031	Atopic	DS	34342	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	2515	2515	2525	2525	2520
+SUB231035	Atopic	DS	52771	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	4	2	3654	3654	3659	3659	3659
+SUB231035	Atopic	DS	30796	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2464	2464	2470	2470	2465
+SUB231036	Atopic	DS	53478	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	1	2	1	0	1	0	0	0	0	0	.a	1	3	2	3654	3654	3663	3663	3657
+SUB231036	Atopic	DS	37916	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2491	2491	2494	2494	2494
+SUB231039	Atopic	DS	53438	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3679	3679	3681	3681	3681
+SUB231039	Atopic	DS	30784	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2442	2442	2448	2448	2443
+SUB231040	Atopic	DS	30879	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2455	2454	2455	2455	2455
+SUB231040	Atopic	DS	55415	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3708	3708	3713	3713	3713
+SUB231041	Atopic	DS	55427	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	3700	3697	3721	3721	3712
+SUB231041	Atopic	DS	34222	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2412	2443	2445	2445	2444
+SUB231042	Atopic	DS	54678	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	1	2	1	1	0	0	0	0	0	0	.a	1	2	2	3658	3658	3675	3675	3664
+SUB231042	Atopic	DS	33796	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2493	2493	2506	2506	2500
+SUB231043	Atopic	DS	36368	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	2439	2439	2456	2456	2449
+SUB231043	Atopic	DS	55500	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	3	2	1	0	0	0	1	0	0	0	.a	1	2	2	3701	3701	3709	3709	3709
+SUB231044	Atopic	DS	34865	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	0	0	1	tipe	1	2	1	2499	2499	2538	2538	2533
+SUB231044	Atopic	DS	52968	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	1	1	0	0	0	.a	1	3	1	3739	3739	3762	3762	3754
+SUB231045	Atopic	DS	32519	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	0	1	part linoleum, part rug	1	2	1	2519	2519	2532	2532	2526
+SUB231045	Atopic	DS	56659	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	1	0	1	0	0	0	0	.a	1	2	2	3737	3737	4090	4090	4090
+SUB231047	Atopic	DS	32846	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2451	2451	2470	2470	2456
+SUB231047	Atopic	DS	54921	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	1	1	3649	3649	3650	3650	3649
+SUB231048	Atopic	DS	37051	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	20	2	1	0	0	0	1	0	0	0	.a	1	15	2	2452	2452	2453	2453	2452
+SUB231048	Atopic	DS	55488	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	2	20	2	0								.a				3688	3688	3736	3737	3735
+SUB231049	Atopic	DS	55475	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	1	2	1	0	0	0	0	1	0	0	.a	2	1	2	3644	3644	3672	3672	3670
+SUB231049	Atopic	DS	36608	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2440	2440	2448	2448	2445
+SUB231050	Atopic	DS	53374	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	20	2	1	0	0	0	1	0	0	0	.a	1	20	2	3666	3666	3771	3771	3770
+SUB231050	Atopic	DS	35083	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2498	2498	2528	2528	2527
+SUB231051	Atopic	DS	52940	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	20	2	1	0	0	0	1	0	0	0	.a	1	20	2	3686	3686	3697	3697	3686
+SUB231051	Atopic	DS	33224	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	0	1	regular floor	1	2	2	2483	2483	2519	2519	2516
+SUB231052	Atopic	DS	35677	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	2462	2462	2463	2463	2463
+SUB231052	Atopic	DS	53422	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	3673	3673	3674	3674	3674
+SUB231053	Atopic	DS	37299	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2473	2473	2479	2479	2475
+SUB231053	Atopic	DS	53585	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3705	3705	3747		
+SUB231055	Atopic	DS	32925	81-Month Clinic Visit	1.0	complete	81	0	3			.a												.a				2509	2509			
+SUB231055	Atopic	DS	54648	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	10	1	1	0	0	0	0	1	0	0	.a	1	10	1	3628	3628	4043	4043	3934
+SUB231057	Atopic	DS	38626	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231058	Atopic	DS	42359	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231058	Atopic	DS	42360	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2706	2706	2802	2802	2796
+SUB231058	Atopic	DS	58411	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	0	0	1	corners and floor carpeti	3	4	2	3691	3740	3839	3839	3821
+SUB231059	Atopic	DS	37520	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2495	2495	2501	2501	2501
+SUB231059	Atopic	DS	55463	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	3706	3706	3715	3715	3706
+SUB231060	Atopic	DS	32062	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	3	2	2493	2493	2520	2520	2519
+SUB231060	Atopic	DS	58194	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	5	1	1	0	0	0	0	1	0	0	.a	1	5	1	3674	3711	3711	3711	3711
+SUB231061	Atopic	DS	39320	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231061	Atopic	DS	58740	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	3	2	3703	3703	3709	3709	3709
+SUB231061	Atopic	DS	39321	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	10	1	1	1	0	0	0	0	0	0	.a	1	10	2	2583	2583	2604	2604	2602
+SUB231063	Atopic	DS	37736	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2485	2485	2486	2486	2486
+SUB231063	Atopic	DS	57367	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3703	3703	3705	3705	3705
+SUB231064	Atopic	DS	38522	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2488	2488	2499	2499	2491
+SUB231064	Atopic	DS	54446	120-Month Clinic Visit	1.0	complete	120	1	1	1	4	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3692	3692	3694	3694	3694
+SUB231065	Atopic	DS	39645	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2512	2512	2545	2545	2545
+SUB231065	Atopic	DS	56109	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3665	3665	3666	3666	3666
+SUB231066	Atopic	DS	37606	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2504	2504	2617	2617	2614
+SUB231067	Atopic	DS	41357	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231067	Atopic	DS	58767	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	0	0	1	0	.a	1	1	1	3718	3718	3824	3824	3812
+SUB231067	Atopic	DS	41358	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	40	2	1	0	0	0	1	0	0	0	.a	1	40	2	2570	2570	2643	2643	2615
+SUB231070	Atopic	DS	37225	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	4	1	1	0	0	0	0	1	0	0	.a	1	3	1	2465	2465	2521	2521	2521
+SUB231070	Atopic	DS	55687	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3676	3676	3955	3955	3955
+SUB231071	Atopic	DS	37854	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	4	1	1	0	0	0	0	1	0	0	.a	1	4	2	2439	2439	2441	2441	2439
+SUB231071	Atopic	DS	57804	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3723	3723	3790	3790	3781
+SUB231072	Atopic	DS	37866	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	2456	2456	2459	2459	2459
+SUB231072	Atopic	DS	55711	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3682	3682	3835	3835	3834
+SUB231073	Atopic	DS	37359	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2499	2499	2518	2518	2511
+SUB231073	Atopic	DS	56254	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	6	2	1	0	0	0	0	1	0	0	.a	1	6.5	2	3682	3682	3949	3949	3935
+SUB231074	Atopic	DS	37878	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231074	Atopic	DS	58709	120-Month Clinic Visit	1.0	complete	120	1	3			.a												.a				3668	3721	3739		
+SUB231074	Atopic	DS	37879	84-Month Clinic Visit	1.0	complete	84	1	1	1	2	.a	1	3	2	1	1	0	0	0	0	0	0	.a	3	5	2	2635	2635	2696	2696	2690
+SUB231075	Atopic	DS	37159	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2515	2515	2536	2536	2532
+SUB231075	Atopic	DS	57389	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	3	2	2	1	0	0	0	0	0	0	1	laminate	1	2	2	3660	3661	3739	3739	3730
+SUB231076	Atopic	DS	56582	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	4	2	1	1	0	0	0	0	0	0	.a	1	5	2	3680	3680	3735	3735	3725
+SUB231076	Atopic	DS	38638	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2466	2466	2494	2494	2488
+SUB231078	Atopic	DS	57247	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	3660	3660	3674	3674	3673
+SUB231078	Atopic	DS	38075	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2490	2490	2518	2518	2518
+SUB231079	Atopic	DS	56814	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	0	0	1	0	.a	1	2	2	3677	3677	3687	3687	3687
+SUB231079	Atopic	DS	38890	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2475	2475	2495	2495	2481
+SUB231080	Atopic	DS	58316	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	3	2	1	0	0	0	1	0	0	0	.a	1	4	1	3663	3663	3671	3672	3671
+SUB231080	Atopic	DS	38650	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2490	2495	2495	2495	2495
+SUB231081	Atopic	DS	40877	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	2	10	2	1	0	0	0	1	0	0	0	.a	2	5	1	2506	2506	2645	2645	2637
+SUB231081	Atopic	DS	57510	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231082	Atopic	DS	42517	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	2	2	1	2520	2520	2573	2573	2572
+SUB231082	Atopic	DS	57635	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3693	3693	3695	3695	3695
+SUB231083	Atopic	DS	56366	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3683	3683	3727	3727	3721
+SUB231083	Atopic	DS	38662	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	2	2451	2451	2481	2481	2472
+SUB231084	Atopic	DS	57697	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3656	3656	3708	3708	3696
+SUB231084	Atopic	DS	38674	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	1	2510	2510	2513	2513	2513
+SUB231086	Atopic	DS	58081	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	2	3657	3657	3679	3679	3663
+SUB231086	Atopic	DS	37890	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	1	1	1	0	0	0	0	0	0	.a	1	5	2	2516	2516	2556	2556	2535
+SUB231087	Atopic	DS	38687	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	2492	2492	2530	2530	2530
+SUB231087	Atopic	DS	57673	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	1	2	1	0	0	1	0	1	0	0	.a	1	1	2	3676	3676	3677	3677	3677
+SUB231091	Atopic	DS	59157	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3686	3686			
+SUB231091	Atopic	DS	31913	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	2518	2518	2637	2637	2635
+SUB231092	Atopic	DS	30906	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	4	2	1	1	0	0	0	0	0	0	.a	1	4	2	2503	2503	2537	2537	2509
+SUB231092	Atopic	DS	57951	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	6	2	3698	3698	3707	3707	3706
+SUB231093	Atopic	DS	31509	84-Month Clinic Visit	1.0	complete	84	1	2	1	1	.a	1	5	2	1	0	0	0	0	1	0	0	.a	3	5	1	2567	2567	2580	2580	2580
+SUB231093	Atopic	DS	31508	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231094	Atopic	DS	58179	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	1	1	0	0	0	0	0	.a	1	1	1	3655	3655	3872	3872	3872
+SUB231094	Atopic	DS	31278	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2505	2505	2542	2542	2539
+SUB231095	Atopic	DS	31880	84-Month Clinic Visit	1.0	complete	84	1	1	1	3	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	2566	2566	2578	2578	2574
+SUB231095	Atopic	DS	31879	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231095	Atopic	DS	59136	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	1	2	1	0	0	1	0	1	0	0	.a	1	1	2	3671	3671	3687	3687	3687
+SUB231096	Atopic	DS	58367	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	2	3710	3710	3812	3812	3807
+SUB231096	Atopic	DS	41040	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	2	1	1	0	0	0	0	0	0	.a	1	4	1	2498	2498	2505	2505	2503
+SUB231097	Atopic	DS	43580	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	3	2	2521	2521	2532	2542	2533
+SUB231097	Atopic	DS	58723	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231098	Atopic	DS	58476	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	3	1	3648	3648	3786	3786	3777
+SUB231098	Atopic	DS	42504	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2512	2512	2524	2524	2519
+SUB231099	Atopic	DS	37146	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231100	Atopic	DS	58444	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	10	2	1	1	0	0	0	0	0	0	.a	1	10	1	3665	3665	3742	3742	3736
+SUB231100	Atopic	DS	40030	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	6	2	1	0	0	0	1	0	0	0	.a	1	10	1	2516	2516	2546	2546	2544
+SUB231101	Atopic	DS	39839	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2499	2499	2506	2506	2504
+SUB231101	Atopic	DS	52643	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3730	3730	3758	3758	3757
+SUB231102	Atopic	DS	42241	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2440	2440	2531	2531	2525
+SUB231102	Atopic	DS	57611	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3720	3720			
+SUB231104	Atopic	DS	59552	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	10	1	1	0	0	1	0	1	0	0	.a	1	15	2	3762	3762	3790	3790	3790
+SUB231104	Atopic	DS	32269	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2487	2487	2501	2501	2498
+SUB231105	Atopic	DS	38699	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	2443	2443	2454	2454	2452
+SUB231105	Atopic	DS	57740	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	20	1	1	0	0	0	1	0	0	0	.a	1	20	1	3677	3677	3684	3684	3684
+SUB231106	Atopic	DS	36247	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	1	2478	2500	2514	2514	2510
+SUB231106	Atopic	DS	58116	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3683	3683			
+SUB231107	Atopic	DS	58662	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3668	3668	3673	3673	3669
+SUB231107	Atopic	DS	42387	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2499	2499	2511	2511	2506
+SUB231109	Atopic	DS	58816	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3672	3672	3789	3789	3782
+SUB231109	Atopic	DS	38322	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2495	2495	2503	2503	2500
+SUB231110	Atopic	DS	52668	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	1	1	3676	3676	3748	3748	3702
+SUB231110	Atopic	DS	38711	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	45	2	1	0	0	1	0	0	0	0	.a	1	45	1	2509	2509	2571	2571	2567
+SUB231113	Atopic	DS	32990	84-Month Clinic Visit	1.0	complete	84	1	1	1	3	.a	1	5	1	1	0	0	0	0	1	0	0	.a	1	7	1	2571	2571	2796	2796	2796
+SUB231113	Atopic	DS	32989	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231113	Atopic	DS	59568	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3769	3769	3784	3784	3784
+SUB231114	Atopic	DS	31744	81-Month Clinic Visit	1.0	complete	81	0	3			.a												.a				2864	2499			
+SUB231114	Atopic	DS	62045	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231115	Atopic	DS	59924	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	3645	3645	3651	3651	3649
+SUB231115	Atopic	DS	34252	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	2440	2440	2446	2446	2442
+SUB231116	Atopic	DS	38723	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	3	2	2	1	0	0	1	0	0	0	0	.a	2	2	1	2491	2491	2498	2498	2495
+SUB231116	Atopic	DS	60225	120-Month Clinic Visit	1.0	complete	120	1	1	1	5	twin	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3655	3655	3660	3660	3658
+SUB231117	Atopic	DS	52655	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	3736	3736	3837	3837	3827
+SUB231117	Atopic	DS	32223	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	20	2	1	1	0	0	0	0	0	0	.a	1	15	1	2603	2603	2711	2711	2708
+SUB231117	Atopic	DS	32222	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231118	Atopic	DS	34355	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2500	2500	2615	2615	2608
+SUB231118	Atopic	DS	59090	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	2	3662	3662	3699	3699	3699
+SUB231119	Atopic	DS	34725	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231119	Atopic	DS	62028	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3733	3733	3883	3914	3740
+SUB231120	Atopic	DS	52801	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	4	2	1	0	1	0	0	0	0	0	.a	2	4	1	3759	3759	3788	3788	3781
+SUB231120	Atopic	DS	38735	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	7	2	1	0	0	0	0	1	0	0	.a	1	20	2	2470	2470	2506	2506	2497
+SUB231121	Atopic	DS	34480	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2479	2479	2485	2485	2479
+SUB231121	Atopic	DS	55219	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	3	2	3732	3732	3835	3835	3817
+SUB231122	Atopic	DS	53139	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	4	2	1	0	0	1	0	1	0	0	.a	1	6	2	3704	3704	3709	3709	3709
+SUB231122	Atopic	DS	34738	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	1	10	1	1	0	0	0	0	1	0	0	.a	1	10	2	2479	2479	2491	2491	2489
+SUB231123	Atopic	DS	33848	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231125	Atopic	DS	32947	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	1	2	2479	2479	2550	2550	2549
+SUB231125	Atopic	DS	52318	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	3628	3628	3629	3629	3629
+SUB231127	Atopic	DS	36385	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	5	2	1	1	0	0	0	0	0	0	.a	1	3	2	2481	2481	2509	2509	2505
+SUB231127	Atopic	DS	60238	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	2	3674	3674	3693	3693	3686
+SUB231128	Atopic	DS	53560	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3680	3680	3698	3698	3693
+SUB231128	Atopic	DS	32547	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	1	2	1	0	0	0	1	0	0	0	.a	1	1	2	2456	2456	2486	2486	2484
+SUB231130	Atopic	DS	35099	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	2521	2521	2827	2827	2826
+SUB231130	Atopic	DS	53995	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	4	2	3661	3661	3768	3768	3756
+SUB231131	Atopic	DS	52789	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3679	3679			
+SUB231131	Atopic	DS	32561	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2489	2489	2503	2503	2500
+SUB231132	Atopic	DS	37651	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2577	2510	2581	2581	2577
+SUB231133	Atopic	DS	53745	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3659	3659			
+SUB231133	Atopic	DS	33757	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	5	1	1	1	0	0	0	0	0	0	.a	1	3	2	2501	2501	2517	2517	2514
+SUB231134	Atopic	DS	53757	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3667	3667	3668	3668	3667
+SUB231134	Atopic	DS	36221	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	2468	2468	2478	2478	2475
+SUB231135	Atopic	DS	54636	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3653	3653	3654	3654	3653
+SUB231135	Atopic	DS	40227	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2477	2477	2486	2486	2484
+SUB231138	Atopic	DS	33712	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	2452	2452	2456	2456	2455
+SUB231139	Atopic	DS	59637	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3645	3645	3661	3661	3656
+SUB231139	Atopic	DS	37102	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	1	2	1	0	0	0	0	1	0	0	.a	3	2	2	2497	2497	2516	2516	2512
+SUB231141	Atopic	DS	40388	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231142	Atopic	DS	55451	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	10	2	1	0	0	0	0	1	0	0	.a	1	15	1	3639	3639	3653	3653	3648
+SUB231142	Atopic	DS	36338	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	2	1	0	1	0	0	1	0	0	.a	1	5	2	2456	2456	2483	2483	2475
+SUB231143	Non-atopic	DS	33014	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	3	2	1	1	1	0	0	0	0	0	0	.a	3	5	1	2512	2512	2527	2531	2526
+SUB231143	Non-atopic	DS	54622	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3623	3623	3654	3654	3654
+SUB231144	Atopic	DS	55699	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3677	3677	3678	3678	3677
+SUB231144	Atopic	DS	36189	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	0	1	tile	1	2	1	2438	2438	2445	2445	2444
+SUB231145	Non-atopic	DS	40665	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	4	2	1	0	0	1	0	0	0	0	.a	1	4	2	2473	2473	2517	2517	2515
+SUB231145	Non-atopic	DS	59539	120-Month Clinic Visit	1.0	complete	120	1	1	1	4	.a	1	2	2	1	0	1	0	0	0	0	0	.a	2	2	1	3678	3678	3692	3692	3683
+SUB231146	Atopic	DS	35662	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2510	2510	2517	2517	2512
+SUB231146	Atopic	DS	55548	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3672	3672	3682	3682	3682
+SUB231147	Non-atopic	DS	34549	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	2	1	0	0	0	1	0	0	0	.a	1	5	1	2470	2470	2477	2477	2471
+SUB231147	Non-atopic	DS	59496	120-Month Clinic Visit	1.0	complete	120	1	2	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3674	3674	3677	3677	3677
+SUB231149	Atopic	DS	36105	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	30	2	1	0	1	0	0	0	0	0	.a	1	20	2	2502	2502	2517	2517	2513
+SUB231149	Atopic	DS	55207	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	5	1	1	1	0	0	0	0	0	0	.a	1	5	2	3687	3687	3708	3708	3707
+SUB231150	Atopic	DS	56135	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3734	3734			
+SUB231150	Atopic	DS	42005	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2489	2489	2764	2764	2764
+SUB231151	Non-atopic	DS	56122	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3694	3694			
+SUB231151	Non-atopic	DS	38775	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2469	2469	2475	2475	2469
+SUB231153	Non-atopic	DS	35429	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	2490	2490	2709	2715	2707
+SUB231153	Non-atopic	DS	59762	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	3695	3695	3730	3730	3729
+SUB231155	Atopic	DS	60684	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	1	3701	3701	3887	3887	3862
+SUB231155	Atopic	DS	42533	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1		2	1	0	1	0	0	0	0	0	.a	1		2	2614	2614	2802	2802	2792
+SUB231155	Atopic	DS	42532	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231156	Non-atopic	DS	44872	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231156	Non-atopic	DS	56864	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3698	3698			
+SUB231156	Non-atopic	DS	44873	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	2	2606	2606	2621	2621	2617
+SUB231158	Non-atopic	DS	56242	120-Month Clinic Visit	1.0	complete	120	1	2	1	4	.a	3	5	2	1	0	0	0	0	1	0	0	.a	3	5	2	3668	3668	3675	3679	3668
+SUB231158	Non-atopic	DS	36142	81-Month Clinic Visit	1.0	complete	81	1	2	1	4	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2511	2511	2514	2514	2511
+SUB231159	Atopic	DS	36325	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231159	Atopic	DS	36326	84-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231161	Atopic	DS	56671	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	1	0	0	0	0	.a	1	2	2	3786	3786	3792	3792	3789
+SUB231161	Atopic	DS	37982	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	2516	2516	2545	2545	2543
+SUB231163	Atopic	DS	57234	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3677	3677			
+SUB231163	Atopic	DS	41254	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2487	2487	2609	2609	2608
+SUB231164	Atopic	DS	35708	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	2449	2449	2486	2486	2481
+SUB231164	Atopic	DS	58540	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3667	3667	3722	3722	3718
+SUB231165	Atopic	DS	56230	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	20	2	1	0	0	0	1	0	0	0	.a	1	10	1	3673	3673	3676	3676	3676
+SUB231165	Atopic	DS	38224	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	0	0	1	0	.a	1	2	1	2448	2448	2455	2455	2450
+SUB231166	Atopic	DS	55967	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3660	3660	3822	3822	3822
+SUB231166	Atopic	DS	35014	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	2	1	0	0	0	1	0	0	0	.a	2	2	2	2509	2509	2515	2515	2514
+SUB231167	Atopic	DS	56400	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	3672	3672	3681	3681	3676
+SUB231167	Atopic	DS	40207	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2496	2496	2503	2503	2499
+SUB231168	Atopic	DS	60213	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3652	3652			
+SUB231168	Atopic	DS	38747	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	2	2507	-1173	2507	2507	2499
+SUB231169	Non-atopic	DS	40759	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	10	1	1	0	0	0	0	1	0	0	.a	2	5	1	2479	2479	2534	2534	2534
+SUB231169	Non-atopic	DS	60327	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3633	3633			
+SUB231171	Non-atopic	DS	38759	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2459	2459	2459	2496	2476
+SUB231171	Non-atopic	DS	59173	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3633	3633	3636	3636	3636
+SUB231172	Non-atopic	DS	40047	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	2	2	1	1	0	0	0	0	1	0	0	.a	1	1	1	2442	2442	2458	2458	2456
+SUB231172	Non-atopic	DS	58023	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	1	3654	3654	3673	3673	3667
+SUB231173	Atopic	DS	51335	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	1	3682	3682	3682	3682	3682
+SUB231173	Atopic	DS	35441	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2462	2506	2506	2506	2506
+SUB231176	Atopic	DS	57835	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3717	3717	3848	3848	3846
+SUB231177	Atopic	DS	36155	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2462	2462	2532	2532	2531
+SUB231177	Atopic	DS	51421	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3666	3666	3690	3690	3690
+SUB231178	Atopic	DS	51504	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	1	0	0	1	play mat	3	3	1	3654	3654	3675	3675	3670
+SUB231178	Atopic	DS	32696	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2456	2456	2470	2470	2463
+SUB231179	Atopic	DS	33682	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2444	2444	2463	2463	2456
+SUB231179	Atopic	DS	51773	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3692	3692	3808	3808	3801
+SUB231180	Atopic	DS	51905	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3702	3702	3758	3758	3750
+SUB231180	Atopic	DS	33030	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2458	2458	2470	2471	2461
+SUB231182	Atopic	DS	51887	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3646	3646	3722	3722	3713
+SUB231182	Atopic	DS	37403	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2440	2440	2448	2448	2413
+SUB231183	Atopic	DS	30735	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	2443	2443	2482	2482	2479
+SUB231183	Atopic	DS	52503	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3675	3675	3678	3678	3678
+SUB231184	Atopic	DS	31128	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2491	2491	2502	2502	2498
+SUB231184	Atopic	DS	51553	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3625	3625	3824	3824	3803
+SUB231185	Atopic	DS	34826	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	8	1	1	1	0	0	0	0	0	0	.a	1	5	1	2440	2440	2519	2519	2451
+SUB231185	Atopic	DS	52346	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3654	3654	3694	3694	3694
+SUB231186	Atopic	DS	52546	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3624	3624	3676	3676	3676
+SUB231186	Atopic	DS	31471	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	fulton	1	5	2	1	0	0	0	1	0	0	0	.a	1	5	1	2448	2448	2463	2463	2453
+SUB231187	Atopic	DS	37071	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2438	2438	2587	2587	2584
+SUB231187	Atopic	DS	54303	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3659	3659	3714	3714	3714
+SUB231188	Atopic	DS	51796	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	1	0	0	0	.a	1	1	2	3624	3624	3639	3639	3625
+SUB231188	Atopic	DS	32362	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2452	2452	2529	2529	2528
+SUB231189	Atopic	DS	52378	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3668	3677	3677	3682	3677
+SUB231189	Atopic	DS	32045	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	2	2	1	1	0	0	0	1	0	0	0	.a	2	2	1	2477	2477	2547	2547	2547
+SUB231190	Atopic	DS	34537	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	5	1	1	0	0	0	1	0	0	0	.a	1	5	1	2421	2421	2526	2526	2526
+SUB231190	Atopic	DS	51591	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	1	0	0	0	.a	1	1	1	3640	3640	3655	3655	3647
+SUB231191	Atopic	DS	33267	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2450	2450	2473	2473	2467
+SUB231191	Atopic	DS	52258	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3662	3662	3732	3732	3725
+SUB231192	Atopic	DS	37390	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2459	2459	2537	2537	2536
+SUB231192	Atopic	DS	52726	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3666	3666	3684	3684	3676
+SUB231194	Atopic	DS	32115	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	2440	2440	2501	2501	2493
+SUB231194	Atopic	DS	52613	120-Month Clinic Visit	1.0	complete	120					.m												.m				3703	3703			
+SUB231195	Atopic	DS	52713	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	0	0	0	1	ceramic tile	1	2	2	3631	3631	3645	3645	3636
+SUB231195	Atopic	DS	42701	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	2441	2441	2449	2449	2444
+SUB231196	Atopic	DS	52687	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	0	1	ceramic tile	1	2	2	3637	3637	3647	3647	3642
+SUB231196	Atopic	DS	34066	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	3	2	1	0	0	0	1	0	0	0	.a	1	3	2	2437	2437	2461	2461	2458
+SUB231198	Atopic	DS	55571	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	3	2	3684	3684	3700	3700	3693
+SUB231198	Atopic	DS	39908	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	3.5	2	2478	2484	2511	2511	2500
+SUB231199	Atopic	DS	53232	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3629	3629	3668	3668	3663
+SUB231199	Atopic	DS	35776	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	3	1	1	0	0	0	1	0	0	0	.a	1	3	1	2437	2437	2451	2451	2444
+SUB231201	Atopic	DS	53544	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	3	2	1	0	0	0	1	0	0	0	.a	1	3	2	3623	3623	3642	3642	3636
+SUB231201	Atopic	DS	32723	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	10	1	1	0	0	0	1	0	0	0	.a	1	10	1	2437	2437	2452	2452	2445
+SUB231202	Atopic	DS	33517	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	2	2450	2450	2457	2457	2454
+SUB231202	Atopic	DS	53979	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3627	3627	3776	3776	3776
+SUB231203	Atopic	DS	53789	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	3631	3631	3743	3743	3743
+SUB231203	Atopic	DS	36201	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2440	2440	2469	2469	2455
+SUB231206	Atopic	DS	54478	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	2	3634	3634	3640	3640	3636
+SUB231206	Atopic	DS	40082	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	same size of measuring sq	1	2	2	1	0	0	0	1	0	0	0	.a	2	2	1	2437	2437	2451	2451	2443
+SUB231207	Atopic	DS	38118	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2443	2443	2463	2463	2455
+SUB231207	Atopic	DS	54719	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	3626	3626	3668	3668	3645
+SUB231208	Atopic	DS	39547	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2428	2428	2436	2436	2430
+SUB231208	Atopic	DS	54179	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3652	3652	3719	3719	3713
+SUB231210	Atopic	DS	30851	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	2500	2500	2512	2512	2504
+SUB231210	Atopic	DS	56323	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3632	3632			
+SUB231213	Atopic	DS	55584	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3633	3633	3653	3653	3645
+SUB231213	Atopic	DS	33810	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2449	2449	2463	2463	2458
+SUB231214	Atopic	DS	55324	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	3681	3687	3701	3701	3694
+SUB231214	Atopic	DS	32450	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	1	2438	2438	2440	2440	2440
+SUB231215	Atopic	DS	56213	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3627	3627	3705	3705	3705
+SUB231215	Atopic	DS	39351	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2466	2466	2682	2682	2682
+SUB231216	Atopic	DS	40000	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	2	2436	2436	2465	2465	2454
+SUB231216	Atopic	DS	55614	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3625	3625	3709	3709	3660
+SUB231217	Atopic	DS	33207	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	2	2441	2441	2533	2533	2532
+SUB231217	Atopic	DS	57763	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3675	3675	3675	3675	3675
+SUB231218	Atopic	DS	33860	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	5	2	1	0	1	0	0	0	0	0	.a	1	5	2	2439	2439	2446	2446	2445
+SUB231218	Atopic	DS	55772	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	1	0	0	1	0	0	.a	2	4	2	3630	3630	3637	3637	3633
+SUB231219	Atopic	DS	30866	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	5	2	1	0	1	0	0	0	0	0	.a	1	5	2	2439	2439	2446	2446	2445
+SUB231219	Atopic	DS	55785	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	3	3	1	1	0	1	0	0	1	0	0	.a	2	3	2	3630	3630	3637	3637	3633
+SUB231221	Atopic	DS	55861	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3634	3634	3691	3691	3691
+SUB231221	Atopic	DS	39942	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2437	2437	2514	2514	2484
+SUB231222	Atopic	DS	59963	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	2	2	2	1	0	0	0	0	1	0	0	.a	2	2	2	3676	3676	3676	3676	3681
+SUB231222	Atopic	DS	36889	81-Month Clinic Visit	1.0	complete	81	1	2	1	5	sofa	2	2	1	1	0	1	0	0	1	0	0	.a	1	2	2	2522	2522	2717	2717	2717
+SUB231223	Atopic	DS	33872	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2463	2463	2508	2508	2497
+SUB231223	Atopic	DS	56710	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	3641	3641	3765	3765	3742
+SUB231224	Atopic	DS	33897	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	3	2	2	1	0	1	0	0	1	0	0	.a	1	2	2	2510	2511	2660	2660	2660
+SUB231225	Atopic	DS	56544	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3624	3624	3637	3637	3624
+SUB231225	Atopic	DS	32710	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2446	2446	2454	2454	2448
+SUB231226	Atopic	DS	33823	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2439	2439	2546	2546	2531
+SUB231226	Atopic	DS	58158	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	1	1	0	0	0	.a	1	2	2	3626	3626	3834	3835	3825
+SUB231227	Atopic	DS	56843	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	3696	3696	4080	4088	4076
+SUB231227	Atopic	DS	32959	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2455	2455	2546	2546	2545
+SUB231229	Atopic	DS	36843	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2458	2458	2696	2696	2696
+SUB231229	Atopic	DS	56962	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	2	1	1	0	0	1	1	0	0	0	.a	3	2	1	3630	3630	3692	3692	3690
+SUB231230	Atopic	DS	56561	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	2	1	0	0	1	1	0	0	0	.a	1	2	2	3627	3627	3859	3859	3859
+SUB231230	Atopic	DS	31299	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	2	2438	2438	2450	2450	2444
+SUB231232	Atopic	DS	56422	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3663	3663	3668	3668	3663
+SUB231232	Atopic	DS	36855	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	1	2434	2434	2511	2511	2508
+SUB231233	Atopic	DS	57198	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	1	1	0	0	0	.a	1	2	1	3630	3630	3632	3632	3631
+SUB231233	Atopic	DS	33921	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2461	2461	2468	2468	2466
+SUB231234	Atopic	DS	39441	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2446	2446	2489	2489	2476
+SUB231234	Atopic	DS	56770	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3638	3638	3996	3996	3995
+SUB231235	Atopic	DS	37942	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	2493	2493	2650	2650	2636
+SUB231235	Atopic	DS	51517	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	1	3689	3689	4149	4149	4149
+SUB231236	Atopic	DS	42165	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2440	2440	2533	2533	2533
+SUB231236	Atopic	DS	56642	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3676	3676	3676	3676	3676
+SUB231237	Atopic	DS	32972	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2443	2443	2467	2467	2462
+SUB231237	Atopic	DS	57131	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	1	0	0	0	.a	1	1	2	3625	3625	3752	3752	3743
+SUB231241	Atopic	DS	57964	120-Month Clinic Visit	1.0	complete	120	1	1	1	5	fold out couch - single	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3626	3626	3632	3632	3626
+SUB231241	Atopic	DS	33835	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	2	10	1	1	0	0	0	0	1	0	0	.a	2	2	1	2472	2472	2477	2477	2472
+SUB231242	Atopic	DS	51693	120-Month Clinic Visit	1.0	complete	120	1	2	1	5	sofa	2	2	2	1	0	1	0	0	1	0	0	.a	3	3	2	3633	3633	4154	4154	4154
+SUB231242	Atopic	DS	33992	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2444	2444	2536	2536	2535
+SUB231243	Atopic	DS	35605	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	2	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2442	2442	2646	2646	2646
+SUB231243	Atopic	DS	51482	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3761	3761	4231	4231	4230
+SUB231246	Atopic	DS	51671	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3636	3600	3600	3600	3600
+SUB231246	Atopic	DS	34954	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	3	2	1	0	0	0	0	0	1	0	.a	3	3	1	2443	2443	2452	-27517	2443
+SUB231247	Atopic	DS	30982	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	1	1	0	0	0	0	1	0	0	.a	1	5	1	2444	2444	2530	2530	2507
+SUB231248	Atopic	DS	34019	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	1	0	0	1	0	0	.a	1	2	1	2445	2445	2452	2452	2446
+SUB231248	Atopic	DS	51960	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3673	3673			
+SUB231249	Atopic	DS	51944	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3625	3625	3737	3737	3737
+SUB231249	Atopic	DS	37453	81-Month Clinic Visit	1.0	complete	81	1	2	1	3	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2440	2440	2534	2534	2533
+SUB231251	Atopic	DS	35690	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2672	2672	2688	2688	2683
+SUB231251	Atopic	DS	52027	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231252	Atopic	DS	33776	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	1	0	0	0	0	.a	1	1	1	2488	2488	2525	2525	2519
+SUB231252	Atopic	DS	53965	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	0								.a				3710	3742	3804	3804	3793
+SUB231253	Atopic	DS	41179	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	3	5	2	1	1	0	0	0	0	0	0	.a	3	5	2	2489	2489	2539	2539	2532
+SUB231253	Atopic	DS	52132	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	1	1	0	0	0	.a	1	2	2	3625	3548	3548	3548	3548
+SUB231255	Atopic	DS	52303	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3636	3636	3885	3885	3885
+SUB231255	Atopic	DS	36831	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2447	2447	2475	2475	2471
+SUB231257	Atopic	DS	52228	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3653	3653	3681	3681	3681
+SUB231257	Atopic	DS	31617	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	3	3	2	1	0	0	0	0	1	0	0	.a	1	2	2	2443	2443	2498	2498	2490
+SUB231258	Atopic	DS	31866	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2077	2442	2452	2452	2439
+SUB231258	Atopic	DS	52426	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231260	Atopic	DS	59600	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	2	2	1	3682	3687	4210	4210	4185
+SUB231260	Atopic	DS	32576	81-Month Clinic Visit	1.0	complete	81	1	3	1	5	couch - fiber	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2467	2467	2496		2491
+SUB231262	Atopic	DS	35563	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	1	1	0	0	0	0	1	0	0	.a	1	1	1	2441	2441	2447	2447	2442
+SUB231262	Atopic	DS	53395	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	2	3653	3653	3654	3654	3654
+SUB231263	Atopic	DS	35144	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	1	1	0	0	0	0	0	0	1	tile	3	1	1	2466	2466	2471	2471	2467
+SUB231263	Atopic	DS	52981	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	10	1	0								.a				3657	3657	4069	4069	4065
+SUB231264	Atopic	DS	57070	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231264	Atopic	DS	33969	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2575	2575	2615	2615	2610
+SUB231265	Atopic	DS	53630	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3632	3655	3655	3655	3655
+SUB231265	Atopic	DS	34570	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	2	2536	2536	2536	2536	2536
+SUB231266	Atopic	DS	33957	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	1	15	2	1	1	0	0	0	0	0	0	.a	1	10	2	2535	2535	2664	2664	2652
+SUB231266	Atopic	DS	59910	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231268	Atopic	DS	53802	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3623	3623	3646	3646	3624
+SUB231268	Atopic	DS	33543	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	20	2	1	1	0	0	0	0	0	1	under the bed behind the	1	10	2	2438	2438	2442	2442	2439
+SUB231270	Atopic	DS	35305	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2440	2433	2433	2433	2433
+SUB231270	Atopic	DS	53707	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	1	1	0	0	0	.a	1	2	1	3652	3652	3668	3668	3667
+SUB231271	Atopic	DS	36089	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	2	2440	2440	2503	2503	2486
+SUB231271	Atopic	DS	53848	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	1	1	0	0	0	.a	1	2	2	3652	3652	4049	4052	4033
+SUB231272	Atopic	DS	34327	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	1	2	1	0	0	0	0	1	0	0	.a	2	1	2	2442	2442	2450	2450	2443
+SUB231272	Atopic	DS	54071	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	2	2	1	0	0	0	0	1	0	0	.a	2	1	1	3654	3654	3691	3691	3688
+SUB231273	Atopic	DS	33945	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	1	2	2480	2480	2510	2510	2502
+SUB231273	Atopic	DS	54088	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	1	0	0	1	0	0	.a	1	2	1	3649	3657	3666	3666	3663
+SUB231274	Atopic	DS	33736	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2444	2444	2474	2474	2465
+SUB231274	Atopic	DS	59305	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	3	2	1	0	1	0	0	0	0	0	.a	1	4	2	3663	3663	3681	3681	3670
+SUB231275	Atopic	DS	54236	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	4	2	1	0	0	0	0	1	0	0	.a	2	2	2	3804	3804	3810	3810	3805
+SUB231275	Atopic	DS	37028	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	10	1	1	0	0	0	1	0	0	0	.a	3	10	1	2483	2483	2532	2532	2531
+SUB231276	Atopic	DS	54317	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231276	Atopic	DS	37637	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	sofa	2	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2508	2508	2508	2508	2508
+SUB231277	Non-atopic	DS	37594	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2445	2445	2557	2557	2557
+SUB231277	Non-atopic	DS	54508	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	3824	3824	4090	4132	4090
+SUB231278	Non-atopic	DS	34389	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2450	2450	2468	2468	2457
+SUB231278	Non-atopic	DS	54608	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3600	3592	3600	3600	3599
+SUB231279	Atopic	DS	54347	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	10	1	1	1	0	0	0	0	0	0	.a	2	5	2	3626	3642	3651	3651	3649
+SUB231279	Atopic	DS	44452	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	1	1	1	1	0	0	0	0	0	0	.a	3	2	2	2492	2492	2513	2513	2496
+SUB231280	Non-atopic	DS	54801	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	1	1	0	0	0	.a	3	2	2	3745	3745	4019	4019	4008
+SUB231280	Non-atopic	DS	36275	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	1	0	0	0	0	.a	2	2	2	2484	2484	2555	2555	2555
+SUB231281	Atopic	DS	36868	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	4	2	1	0	0	0	1	0	0	0	.a	1	3	1	2471	2471	2524	2524	2524
+SUB231281	Atopic	DS	59685	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	0	0	0	0	0	1	tile	3	2	1	3649	3649	3658	3658	3649
+SUB231282	Atopic	DS	61144	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	2	3691	3691	3707	3707	3702
+SUB231282	Atopic	DS	37323	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	10	1	1	1	0	0	0	0	0	0	.a	1	2	2	2561	2561	2580	2580	2565
+SUB231283	Atopic	DS	35963	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	3	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	2505	2505	2563	2563	2563
+SUB231283	Atopic	DS	56064	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3661	3661	3661	3661	3661
+SUB231284	Atopic	DS	55632	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	2	2	2	1	0	0	1	0	1	0	0	.a	3	2	2	3700	3700	3958	3958	3958
+SUB231284	Atopic	DS	35575	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	toddler bed	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	2534	2534	2534	2534	2534
+SUB231285	Non-atopic	DS	55951	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	3668	3668	3675	3675	3670
+SUB231285	Non-atopic	DS	35395	81-Month Clinic Visit	1.0	complete	81	1	2	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2438	2438	2474	2474	2474
+SUB231286	Atopic	DS	55298	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	3625	3625	3634	3634	3630
+SUB231286	Atopic	DS	37667	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	1	0	1	0	0	.a	3	5	2	2450	2450	2461	2461	2455
+SUB231287	Non-atopic	DS	33933	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	2	10	2	1	0	0	0	1	0	0	0	.a	1	15	2	2449	2449	2468	2468	2461
+SUB231287	Non-atopic	DS	55402	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	1	2	1	0	0	0	1	0	0	0	.a	1	1	2	3654	3654	3665	3665	3656
+SUB231288	Atopic	DS	57444	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	3	3	1	1	0	0	1	0	0	0	1	floor	1	3	1	3879	3879	3980	3980	3960
+SUB231288	Atopic	DS	37967	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	1	0	0	0	0	0	.a	1	2	2	2451	2451	2466	2466	2461
+SUB231290	Atopic	DS	56077	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	3637	3637	3650	3650	3638
+SUB231290	Atopic	DS	33909	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2461	2461	2476	2476	2472
+SUB231291	Atopic	DS	37569	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	3	2	1	1	0	0	0	0	0	0	.a	1	5	2	2465	2465	2486	2486	2477
+SUB231291	Atopic	DS	55932	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3682	3682	3697	3697	3682
+SUB231292	Atopic	DS	55828	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	1	1	3624	3624	3632	3632	3624
+SUB231292	Atopic	DS	36263	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	2	2442	2442	2458	2458	2455
+SUB231293	Atopic	DS	31185	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2517	2517	2528	2525	2525
+SUB231294	Atopic	DS	52064	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	1	3708	3708	3712	3622	3712
+SUB231294	Atopic	DS	31691	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	1	2491	2491	2494	2494	2491
+SUB231295	Atopic	DS	35031	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2519	2519	2744	2744	2740
+SUB231295	Atopic	DS	54058	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	1	1	0	0	0	.a	1	2	1	3711	3711	3772	3772	3769
+SUB231296	Atopic	DS	52593	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	2	2	3677	3677	3684	3684	3682
+SUB231296	Atopic	DS	31760	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	1	2457	2457	2466	2466	2396
+SUB231297	Atopic	DS	53126	120-Month Clinic Visit	1.0	complete	120	1	2	1	2	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	3701	3701	3711	3711	3710
+SUB231297	Atopic	DS	37999	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	4	2	1	0	0	0	1	0	0	0	.a	1	4	1	2475	2475	2482	2476	2476
+SUB231299	Atopic	DS	54745	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3673	3673			
+SUB231299	Atopic	DS	32743	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231300	Atopic	DS	31020	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2450	2450	2481	2481	2481
+SUB231300	Atopic	DS	52863	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	5	1	3648	3648	3655	3655	3655
+SUB231302	Atopic	DS	34505	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2443	2443	2449	2449	2446
+SUB231302	Atopic	DS	52215	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	3	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3671	3671	3672	3672	3671
+SUB231304	Atopic	DS	53112	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3695	3695	3711	3711	3711
+SUB231304	Atopic	DS	35910	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2458	2458	2467	2466	2466
+SUB231305	Atopic	DS	34789	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2460	2460	2478	2478	2473
+SUB231305	Atopic	DS	53452	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	3693	3693	3694	3694	3694
+SUB231306	Atopic	DS	56002	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	3692	3692	3700	3700	3697
+SUB231306	Atopic	DS	36313	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2494	2494	2500	2500	2497
+SUB231307	Atopic	DS	51611	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	1	0	0	0	0	0	.a	3	2	2	3705	3705	3708	3708	3708
+SUB231307	Atopic	DS	37336	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2510	2510	2644	2644	2643
+SUB231308	Atopic	DS	38411	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2475	2475	2502	2501	2497
+SUB231308	Atopic	DS	58963	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	3	2	1	3693	3693	3695	3695	3695
+SUB231309	Atopic	DS	54765	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	5	1	1	1	0	0	0	0	0	0	.a	1	5	2	3706	3706	3711	3711	3711
+SUB231309	Atopic	DS	35814	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2488	2488	2494	2498	2490
+SUB231310	Atopic	DS	54491	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	3	1	1	0	0	1	0	1	0	0	.a	1	5	2	3705	3705	3707	3707	3706
+SUB231310	Atopic	DS	35938	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2487	2487	2493	2493	2487
+SUB231313	Atopic	DS	33657	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2507	2507	2509	2509	2507
+SUB231313	Atopic	DS	51822	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	3654	3654	3655	3655	3654
+SUB231314	Atopic	DS	35898	81-Month Clinic Visit	1.0	complete	81	0	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2516	2516		2533	2533
+SUB231314	Atopic	DS	52145	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	3	2	2	1	0	1	0	0	1	0	0	.a	3	2	1	3629	3629	3630	3630	3630
+SUB231316	Atopic	DS	52041	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	1	3679	3679	3680	3680	3680
+SUB231316	Atopic	DS	36443	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	1	2504	2504	2510	2510	2507
+SUB231318	Atopic	DS	33620	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2472	2472	2527	2527	2524
+SUB231318	Atopic	DS	51706	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	3	2	2	3670	3670	3677	3677	3676
+SUB231319	Atopic	DS	35113	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2489	2489	2524	2524	2521
+SUB231319	Atopic	DS	52012	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	3672	3672	3679	3679	3679
+SUB231320	Atopic	DS	39495	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2521	2521	3004	3004	3004
+SUB231320	Atopic	DS	52742	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	3669	3669	3671	3671	3669
+SUB231321	Atopic	DS	36592	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231323	Atopic	DS	53178	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3690	3690	3709	3709	3709
+SUB231323	Atopic	DS	35185	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2511	2511	2533	2533	2531
+SUB231324	Atopic	DS	39189	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	7	1	1	0	0	1	0	0	0	0	.a	1	3	1	2495	2495	2531	2531	2529
+SUB231324	Atopic	DS	52832	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3658	3658			
+SUB231325	Atopic	DS	35513	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2516	2516	2520	2520	2517
+SUB231325	Atopic	DS	53214	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	1	0	0	0	0	.a	1	2	2	3666	3666	3678	3678	3674
+SUB231326	Atopic	DS	34970	84-Month Clinic Visit	1.0	complete	84	1	1	1	3	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	2582	2582	2590	2590	2589
+SUB231326	Atopic	DS	34969	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231326	Atopic	DS	55135	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	3	2	1	3668	3668	3696	3696	3696
+SUB231327	Atopic	DS	34839	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2468	2468	2471	2471	2469
+SUB231327	Atopic	DS	52559	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3673	3673	3675	3675	3674
+SUB231328	Atopic	DS	52451	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3704	3704	3712	3712	3710
+SUB231328	Atopic	DS	35619	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2513	2513	2527	2527	2526
+SUB231329	Atopic	DS	53026	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	2	1	1	0	0	0	0	1	0	0	.a	1	2	2	3720	3720	3736	3736	3735
+SUB231329	Atopic	DS	40902	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	3	1	2494	2494	2508	2508	2507
+SUB231330	Atopic	DS	53775	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3656	3647	3658	3658	3657
+SUB231330	Atopic	DS	38861	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2510	2510	2515	2515	2511
+SUB231332	Atopic	DS	39241	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2507	2507	2522	2522	2522
+SUB231333	Atopic	DS	54010	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3693	3693			
+SUB231333	Atopic	DS	35631	81-Month Clinic Visit	1.0	complete	81	0	3			.a												.a				2502	2502			
+SUB231334	Atopic	DS	39284	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	0	1	0	.a	1	2	1	2520	2520	2521	2521	2521
+SUB231334	Atopic	DS	54705	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3655	3655	3662	3662	3662
+SUB231336	Atopic	DS	54220	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	3652	3652	3654	3654	3653
+SUB231336	Atopic	DS	35528	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	bunk bed/twin	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2511	2511	2527	2527	2524
+SUB231338	Atopic	DS	35161	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	2439	2439	2444	2444	2439
+SUB231338	Atopic	DS	53067	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	3648	3648	3679	3679	3677
+SUB231339	Atopic	DS	39201	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	20	1	1	1	0	1	0	0	0	0	.a	3	10	1	2473	2473	2490	2493	2474
+SUB231339	Atopic	DS	53724	120-Month Clinic Visit	1.0	complete	120	1	1	0		.a				1	1	0	0	0	0	0	0	.a	3	2	1	3663	3663	3671	3671	3667
+SUB231341	Atopic	DS	54418	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3701	3701			
+SUB231341	Atopic	DS	37688	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2491	2491	2497	2497	2492
+SUB231342	Atopic	DS	38171	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2552	2552	2558	2558	2556
+SUB231342	Atopic	DS	38170	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231342	Atopic	DS	56022	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231343	Atopic	DS	54834	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3652	3652	3671	3671	3671
+SUB231343	Atopic	DS	39213	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2		1	0	0	0	0	1	0	0	.a	1	2	2	2495	2495	2509	2509	2509
+SUB231345	Atopic	DS	39893	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2568	2520	2549	2568	2549
+SUB231345	Atopic	DS	57915	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	3694	3694	3709	3709	3705
+SUB231346	Atopic	DS	38245	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	1	1	0	0	0	0	0	1	0	.a	1	2	1	2522	2522	2527	2527	2527
+SUB231346	Atopic	DS	55386	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	3676	3676	3679	3314	3679
+SUB231347	Atopic	DS	34168	84-Month Clinic Visit	1.0	complete	84	0	3			.a												.a				2741	2741			
+SUB231347	Atopic	DS	55673	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3820	3820			
+SUB231347	Atopic	DS	34167	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231352	Atopic	DS	32205	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2498	2498	2687	2687	2687
+SUB231353	Atopic	DS	31005	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2505	2505	2507	2507	2507
+SUB231353	Atopic	DS	55654	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	3	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	3689	3689	3709	3709	3709
+SUB231355	Atopic	DS	44938	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2509	2509	2512	2512	2512
+SUB231355	Atopic	DS	55815	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3659	3659	3659	3659	3659
+SUB231356	Atopic	DS	30820	81-Month Clinic Visit	1.0	complete	81	1	1	0		.a				1	1	0	0	0	0	0	0	.a	1	5	1	2504	2504	2659	2659	2659
+SUB231357	Atopic	DS	41023	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231357	Atopic	DS	41024	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2526	2526	2659	2659	2655
+SUB231357	Atopic	DS	56307	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3673	3673			
+SUB231359	Atopic	DS	40850	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	3	1	1	1	0	0	0	0	0	0	.a	1	3	2	2503	2503	2528	2528	2525
+SUB231360	Atopic	DS	31654	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	1	1	0	0	0	1	0	0	0	.a	3	2	1	2510	2510	2736	2736	2727
+SUB231360	Atopic	DS	55800	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	0	0	1	tile	3	2	1	3657	3657	3660	3660	3659
+SUB231363	Atopic	DS	56175	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	2	2	1	3681	3681	3682	3682	3682
+SUB231363	Atopic	DS	31085	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2511	2511	2512	2512	2512
+SUB231365	Atopic	DS	34184	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	2	2	1	1	0	0	0	0	1	0	0	.a	2	2	1	2500	2500	2509	2509	2504
+SUB231365	Atopic	DS	56294	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	1	0	1	0	0	.a	2	2	1	3769	3769	3774	3774	3771
+SUB231366	Atopic	DS	39225	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	1	0	0	0	0	.a	1	2	1	2448	2448	2454	2454	2451
+SUB231366	Atopic	DS	55054	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	10	1	1	1	0	0	0	0	0	0	.a	1	5	1	3673	3673	3695	3695	3695
+SUB231367	Atopic	DS	32028	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231368	Atopic	DS	55987	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	2	3773	3773	3779	3779	3778
+SUB231368	Atopic	DS	37904	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	2	2483	2483	2732	2732	2732
+SUB231369	Atopic	DS	56753	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	3663	3663	3667	3667	3667
+SUB231369	Atopic	DS	31727	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2513	2513	2521	2521	2517
+SUB231372	Atopic	DS	56531	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3727	3727	3729	3729	3729
+SUB231372	Atopic	DS	32418	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	2488	2488	2489	2489	2488
+SUB231373	Atopic	DS	56188	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3656	3656	3659	3659	3657
+SUB231373	Atopic	DS	32297	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2474	2474	2483	2483	2482
+SUB231374	Atopic	DS	40064	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2441	2441	2442	2442	2442
+SUB231374	Atopic	DS	55353	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	1	1	0	0	0	0	.a	3	2	1	3798	3798	3823	3823	3823
+SUB231376	Atopic	DS	33251	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	3	2	2	1	0	0	0	1	0	0	0	.a	3	2	1	2444	2444	2487	2487	2485
+SUB231376	Atopic	DS	55844	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231377	Atopic	DS	58337	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231377	Atopic	DS	34997	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	5	2	2481	2481	2654	2654	2648
+SUB231378	Atopic	DS	34634	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2493	2493	2516	2516	2515
+SUB231378	Atopic	DS	52487	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3747	3747	3851	3851	3850
+SUB231379	Atopic	DS	34694	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2471	2471	2473	2473	2472
+SUB231379	Atopic	DS	56736	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3718	3718	3728	3728	3728
+SUB231380	Atopic	DS	57458	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3690	3690	3759	3759	3759
+SUB231380	Atopic	DS	38448	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2507	2507	2527	2527	2511
+SUB231381	Atopic	DS	32534	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2483	2483	2513	2513	2494
+SUB231381	Atopic	DS	57111	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231382	Atopic	DS	44970	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2472	2472	2473	2473	2472
+SUB231382	Atopic	DS	56929	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	2	3652	3652	3655	3655	3655
+SUB231383	Atopic	DS	52077	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	1	0	0	0	0	.a	3	2	2	3757	3757	3763	3763	3763
+SUB231383	Atopic	DS	50457	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231383	Atopic	DS	50458	84-Month Clinic Visit	1.0	complete	84	0	3			.a												.a				2371	2371			
+SUB231384	Atopic	DS	39261	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	0	0	1	0	.a	1	2	1	2449	2449	2450	2450	2449
+SUB231384	Atopic	DS	56518	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	1	0	0	0	0	0	.a	1	2	2	3786	3786	3803	3803	3803
+SUB231387	Atopic	DS	57334	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	3626	3626	3639	3639	3639
+SUB231387	Atopic	DS	39395	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2477	2477	2479	2479	2478
+SUB231388	Atopic	DS	32616	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2473	2473	2476	2476	2475
+SUB231388	Atopic	DS	57294	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3723	3723	3770	3770	3769
+SUB231389	Atopic	DS	32312	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	15	2	1	0	0	0	1	0	0	0	.a	1	15	1	2515	2515	2550	2550	2550
+SUB231389	Atopic	DS	57977	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3711	3711	3714	3714	3714
+SUB231390	Atopic	DS	32177	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231390	Atopic	DS	32178	84-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231390	Atopic	DS	59472	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	3793	3793	3793	3793	3793
+SUB231391	Atopic	DS	31574	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	2	1	0	0	0	0	1	0	0	.a	1	5	1	2506	2506	2543	2543	2543
+SUB231391	Atopic	DS	57855	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	3761	3761	3766	3766	3766
+SUB231392	Atopic	DS	33413	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2494	2494	2495	2495	2495
+SUB231392	Atopic	DS	57725	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3670	3670	3670	3670	3670
+SUB231393	Atopic	DS	44481	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231393	Atopic	DS	44482	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	3	2	1	1	0	1	0	0	0	0	0	.a	3	2	1	2589	2589	2598	2598	2598
+SUB231393	Atopic	DS	57896	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3786	3786	3803	3803	3795
+SUB231394	Atopic	DS	34421	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2504	2504	2506	2505	2505
+SUB231395	Atopic	DS	32016	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2478	2478	2479	2479	2478
+SUB231395	Atopic	DS	58609	120-Month Clinic Visit	1.0	complete	120	1	2	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3683	3683	3685	3685	3684
+SUB231396	Atopic	DS	31527	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2487	2487	2577	2577	2577
+SUB231397	Atopic	DS	34582	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2482	2482	2482	2482	2482
+SUB231397	Atopic	DS	52364	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	3639	3639	3639	3639	3639
+SUB231398	Atopic	DS	34595	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	0	0	1	marble	1	4	1	2525	2515	2526	2526	2525
+SUB231398	Atopic	DS	34596	84-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231398	Atopic	DS	58991	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	3	2	2	3752	3752	3870	3870	3870
+SUB231400	Atopic	DS	35550	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231401	Atopic	DS	51632	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	2	3746	3749	3763	3763	3763
+SUB231401	Atopic	DS	30923	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	3	2	1	0	0	1	0	0	0	0	.a	1	3	1	2500	2500	2507	2507	2500
+SUB231402	Atopic	DS	51725	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	1	0	0	0	0	.a	3	2	1	3731	3731	3750	3750	3741
+SUB231402	Atopic	DS	34900	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	1	1	1	0	0	0	0	0	0	.a	1	1	1	2513	2513	2515	2515	2514
+SUB231403	Atopic	DS	51658	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3756	3756			
+SUB231403	Atopic	DS	30835	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	36	1	1	1	0	0	0	0	0	0	.a	1	24	1	2503	2503	2505	2505	2504
+SUB231404	Atopic	DS	51931	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	2	3755	3755	3756	3756	3756
+SUB231404	Atopic	DS	39873	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	1	1	0	0	0	1	0	0	0	.a	1	2	1	2489	2489	2490	2490	2489
+SUB231405	Atopic	DS	32470	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	1	0	1	0	0	.a	1	2	1	2504	2504	2511	2511	2511
+SUB231406	Atopic	DS	52393	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	3	2	1	3732	3732	3734	3734	3733
+SUB231406	Atopic	DS	33379	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2451	2451	2452	2452	2452
+SUB231409	Atopic	DS	59031	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2663	2663	2672	2672	2669
+SUB231409	Atopic	DS	60181	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3727	3727	3729	3729	3728
+SUB231409	Atopic	DS	59030	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231410	Atopic	DS	52907	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	2	3656	3656	3657	3657	3656
+SUB231410	Atopic	DS	31981	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2450	2450	2517	2517	2503
+SUB231411	Atopic	DS	37476	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	35	1	1	1	0	0	0	0	0	0	.a	3	10	1	2504	2504	2518	2518	2517
+SUB231411	Atopic	DS	53693	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3710	3710			
+SUB231412	Atopic	DS	52925	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	3	2	1	3716	3716	3718	3718	3718
+SUB231412	Atopic	DS	30751	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	3	2	1	0	0	1	0	0	1	0	.a	1	2	1	2492	2492	2498	2498	2498
+SUB231413	Atopic	DS	31405	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	1	2	1	1	0	0	0	0	0	0	.a	1	1	1	2471	2471	2473	2473	2473
+SUB231413	Atopic	DS	53276	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3710	3710			
+SUB231414	Atopic	DS	31995	84-Month Clinic Visit	1.0	complete	84	1	1	1	3	.a	2	1	2	1	1	0	0	0	0	0	0	.a	3	3	2	2540	2540	2549	2549	2547
+SUB231414	Atopic	DS	31994	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231414	Atopic	DS	52849	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3640	3640			
+SUB231415	Non-atopic	DS	31350	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	0	1	0	0	0	0	.a	3	2	1	2475	2475	2476	2476	2475
+SUB231415	Non-atopic	DS	52994	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	2	1	0	0	0	0	1	0	0	.a	3	2	1	3736	3736	3739	3739	3736
+SUB231417	Atopic	DS	53527	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3654	3654	3672	3672	3672
+SUB231417	Atopic	DS	35281	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	2	1	0	0	0	0	1	0	0	.a	1	1	2	2476	2476	2546	2546	2544
+SUB231418	Atopic	DS	31599	81-Month Clinic Visit	1.0	complete	81	1	1	1	4	.a	1	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2455	2455	2462	2462	2456
+SUB231418	Atopic	DS	53320	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3838	3838			
+SUB231419	Atopic	DS	33469	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	2446	2446	2450	2450	2449
+SUB231419	Atopic	DS	53906	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	3692	3692	3703	3703	3703
+SUB231420	Atopic	DS	54044	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3699	3699	3701	3701	3700
+SUB231420	Atopic	DS	31778	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	3	2	1	1	0	0	1	0	1	0	0	.a	3	2	1	2468	2468	2488	2488	2486
+SUB231421	Atopic	DS	53919	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231421	Atopic	DS	34295	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2521	2521	2596	2596	2595
+SUB231422	Atopic	DS	32347	81-Month Clinic Visit	1.0	complete	81	1	2	1	1	.a	1	2	2	1	0	0	1	0	1	0	0	.a	1	2	2	2461	2461	2834	2834	2834
+SUB231423	Atopic	DS	53290	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3709	3709	3716	3716	3715
+SUB231423	Atopic	DS	36123	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2433	2433	2435	2435	2435
+SUB231424	Atopic	DS	33670	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2506	2506	2526	2526	2519
+SUB231424	Atopic	DS	56149	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3726	3726			
+SUB231425	Non-atopic	DS	37783	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	2	2514	2514	2676	2676	2675
+SUB231425	Non-atopic	DS	59513	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231426	Atopic	DS	54892	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3728	3728	3745	3745	3731
+SUB231426	Atopic	DS	36753	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	2499	2499	2509	2509	2507
+SUB231427	Atopic	DS	34647	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	1	1	0	1	0	0	0	0	0	.a	1	2	1	2537	2537	2538	2538	2537
+SUB231427	Atopic	DS	54858	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3830	3830	3854	3854	3834
+SUB231428	Atopic	DS	53936	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	1	0	0	1	0	0	.a	3	2	1	3690	3690	3691	3691	3691
+SUB231428	Atopic	DS	35413	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2457	2457	2458	2458	2458
+SUB231429	Non-atopic	DS	53887	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3686	3686	3695	3695	3693
+SUB231429	Non-atopic	DS	34148	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	2454	2454	2457	2457	2457
+SUB231430	Non-atopic	DS	36563	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	2	1	0	1	0	1	0	0	0	.a	1	1	1	2497	2497	2519	2519	2517
+SUB231430	Non-atopic	DS	55108	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	2	3686	3686	3696	3696	3696
+SUB231431	Non-atopic	DS	54207	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231431	Non-atopic	DS	40127	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	2	2456	2456	2491	2491	2470
+SUB231432	Non-atopic	DS	36038	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	5	2	1	1	0	0	0	0	0	0	.a	1	5	2	2483	2483	2531	2531	2530
+SUB231432	Non-atopic	DS	56628	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3680	3680			
+SUB231433	Atopic	DS	56352	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3745	3745			
+SUB231433	Atopic	DS	34197	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2450	2450	2456	2456	2452
+SUB231434	Non-atopic	DS	36296	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	2497	2497	2504	2504	2504
+SUB231434	Non-atopic	DS	56723	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	2	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3703	3703	3717	3717	3717
+SUB231435	Atopic	DS	54785	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3700	3700	3717	3717	3717
+SUB231435	Atopic	DS	34110	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	2	2	1	0	0	0	1	0	0	0	.a	3	2	2	2516	2516	2519	2519	2516
+SUB231436	Atopic	DS	35229	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	3	2	1	1	0	0	0	0	0	0	.a	1	3	1	2461	2461	2468	2468	2463
+SUB231436	Atopic	DS	54691	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3770	3770	3917	3917	3916
+SUB231437	Atopic	DS	54816	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3725	3725	3726	3726	3725
+SUB231437	Atopic	DS	35252	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231437	Atopic	DS	35253	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2618	2618	2619	2619	2619
+SUB231438	Non-atopic	DS	36906	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231438	Non-atopic	DS	36907	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	15	2	1	1	0	0	0	0	0	0	.a	1	15	2	2603	2603	2605	2605	2605
+SUB231439	Non-atopic	DS	54955	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3728	3728	3729	3729	3729
+SUB231439	Non-atopic	DS	34925	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	1	1	0	0	0	.a	3	2	1	2456	2456	2458	2458	2457
+SUB231440	Atopic	DS	35458	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	1	2	1	2481	2481	2484	2484	2482
+SUB231440	Atopic	DS	54595	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3720	3720	3729	3729	3724
+SUB231441	Atopic	DS	57042	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3717	3717	3734	3734	3720
+SUB231441	Atopic	DS	38598	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	2	2646	2646	2647	2647	2647
+SUB231441	Atopic	DS	38597	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231442	Atopic	DS	52475	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3729	3729	3730	3730	3729
+SUB231442	Atopic	DS	37188	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	1	2	1	2503	2503	2505	2505	2504
+SUB231443	Atopic	DS	35266	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	4	2	1	1	0	0	0	0	0	0	.a	3	2	1	2507	2507	2510	2510	2508
+SUB231443	Atopic	DS	54982	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3732	3732			
+SUB231444	Atopic	DS	56889	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3696	2600			
+SUB231444	Atopic	DS	36716	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	2	1	2489	2489	2492	2492	2492
+SUB231445	Atopic	DS	37724	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231445	Atopic	DS	57026	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3728	3728			
+SUB231445	Atopic	DS	37725	84-Month Clinic Visit	1.0	complete	84	1	2	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	2657	2657	2767	2767	2767
+SUB231446	Non-atopic	DS	35480	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	1	2	1	1	0	0	0	0	0	0	.a	1	1	1	2497	2497	2572	2572	2570
+SUB231446	Non-atopic	DS	55095	120-Month Clinic Visit	1.0	complete	120	1	1	0		.a				1	0	0	0	0	1	0	0	.a	1	10	2	3667	3667	3729	3729	3728
+SUB231448	Atopic	DS	35844	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	5	1	1	1	0	0	0	0	0	0	.a	3	5	1	2413	2413	2426	2426	2421
+SUB231448	Atopic	DS	55080	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3661	3661	3667	3667	3663
+SUB231449	Atopic	DS	63231	120-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231449	Atopic	DS	36549	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231450	Atopic	DS	38277	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	3	2	1	1	0	0	0	0	0	0	.a	3	4	2	2441	2441	2442	2442	2441
+SUB231450	Atopic	DS	56037	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3681	3681	3682	3682	3681
+SUB231451	Non-atopic	DS	61108	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3721	3721	3728	3728	3728
+SUB231451	Non-atopic	DS	40804	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	1	1	1	0	0	0	0	0	0	1	ceramic	1	1	1	2495	2495	2502	2502	2500
+SUB231452	Non-atopic	DS	36023	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	0	1	0	0	.a	1	2	2	2496	2496	2503	2503	2499
+SUB231452	Non-atopic	DS	57352	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3771	3771	3845	3845	3839
+SUB231453	Atopic	DS	56436	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3679	3679			
+SUB231453	Atopic	DS	38031	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	1	1	1	0	1	0	0	0	0	.a	3	2	1	2503	2503	2705	2705	2705
+SUB231454	Atopic	DS	57263	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	0	0	0	1	0	0	0	.a	3	2	1	3685	3685	3699	3699	3699
+SUB231454	Atopic	DS	41142	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2446	2446	2463	2463	2454
+SUB231455	Non-atopic	DS	57154	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3704	3704	3710	3710	3709
+SUB231455	Non-atopic	DS	38158	81-Month Clinic Visit	1.0	complete	81	1	1	1	3	.a	3	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	2457	2457	2458	2458	2457
+SUB231456	Non-atopic	DS	38309	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2478	2478	2486	2486	2478
+SUB231457	Non-atopic	DS	37374	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	2	2	1	0	1	0	0	0	0	0	.a	1	2	2	2639	2639	2648	2648	2648
+SUB231457	Non-atopic	DS	57313	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3677	3677	3726	3726	3726
+SUB231457	Non-atopic	DS	37373	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231459	Non-atopic	DS	41835	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231459	Non-atopic	DS	41836	84-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231460	Non-atopic	DS	37013	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231460	Non-atopic	DS	57875	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3697	3697			
+SUB231460	Non-atopic	DS	37014	84-Month Clinic Visit	1.0	complete	84	1	1	1	1	.a	1	3	2	1	1	0	0	0	0	0	0	.a	1	3	2	2665	2665	2673	2673	2670
+SUB231462	Non-atopic	DS	61415	120-Month Clinic Visit	1.0	complete	120	1	1	1	2	.a	1	2	2	1	0	0	1	0	1	0	0	.a	3	2	1	3708	3708	3710	3710	3709
+SUB231462	Non-atopic	DS	42930	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231462	Non-atopic	DS	42931	84-Month Clinic Visit	1.0	complete	84	0	3			.a												.a				2650	2650			
+SUB231463	Atopic	DS	39762	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	15	2	1	1	0	0	0	0	0	0	.a	1	10	1	2519	2519	2534	2534	2522
+SUB231463	Atopic	DS	58045	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	3638	3638	3647	3647	3645
+SUB231465	Non-atopic	DS	40414	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	2	2508	2508	2511	2511	2509
+SUB231465	Non-atopic	DS	57818	120-Month Clinic Visit	1.0	complete	120	1	1	1	4	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3657	3657	3671	3671	3671
+SUB231466	Atopic	DS	39979	81-Month Clinic Visit	1.0	missing	.x					.x												.x								
+SUB231466	Atopic	DS	58237	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3669	3669	3698	3698	3697
+SUB231466	Atopic	DS	39980	84-Month Clinic Visit	1.0	complete	84	0	3			.a												.a				2612	2612			
+SUB231467	Atopic	DS	40489	81-Month Clinic Visit	1.0	complete	81	1	1	1	5	toddler bed	1	2	2	1	1	0	0	0	0	0	0	.a	1	2	1	2437	2437	2438	2438	2437
+SUB231467	Atopic	DS	57654	120-Month Clinic Visit	1.0	complete	120	1	1	1	4	.a	1	2	2	1	1	0	0	0	0	0	0	.a	3	2	1	3648	3648	3655	3655	3654
+SUB231468	Atopic	DS	52463	120-Month Clinic Visit	1.0	complete	120	0	3			.a												.a				3763	3763			
+SUB231468	Atopic	DS	39410	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	3	2	2	1	0	0	0	1	0	0	0	.a	1	2	2	2440	2440	2444	2444	2442
+SUB231469	Non-atopic	DS	42465	81-Month Clinic Visit	1.0	complete	81	1	1	1	2	.a	1	2	2	1	0	0	0	1	0	0	0	.a	1	2	1	2505	2505	2511	2511	2510
+SUB231469	Non-atopic	DS	58216	120-Month Clinic Visit	1.0	complete	120	1	1	1	3	.a	1	2	1	1	0	0	0	0	1	0	0	.a	3	2	1	3644	3644	3651	3651	3648
+SUB231470	Non-atopic	DS	41603	81-Month Clinic Visit	1.0	complete	81	1	1	1	1	.a	1	2	2	1	0	0	0	0	0	1	0	.a	3	2	2	2517	2517	2518	2518	2517
+SUB231470	Non-atopic	DS	58570	120-Month Clinic Visit	1.0	complete	120	1	1	1	1	.a	1	2	1	1	1	0	0	0	0	0	0	.a	3	2	1	3651	3651	3651	3651	3656

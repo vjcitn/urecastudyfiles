@@ -1,0 +1,181 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	608	0	"c("""", ""[ID Redacted]"")"
+1	2	group		chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CSLRA"", ""CSLRA"")"
+3	4	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+4	5	status	status	chr	character	character	1	0	"c(""expected"", ""expected"")"
+5	6	SampleID	SampleID	chr	character	character	609	0	"c(""100210"", ""99981"")"
+6	7	aVisit	Visit	chr	character	character	1	0	"c(""b"", ""b"")"
+7	8	CSLRA_q1a	Record Plate Number for A-1 Assay	chr	character	character	61	0	"c(""100"", ""99b"")"
+8	9	CSLRA_q1b1	A-1 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	58	539	c(1, 8.98)
+9	10	CSLRA_q1b2	A-1 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	609	
+10	11	CSLRA_q1b3	A-1 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	609	
+11	12	CSLRA_q1b4	A-1 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	130	462	c(1, 73.3)
+12	13	CSLRA_q1b5	A-1 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	95	465	c(1, 23.3)
+13	14	CSLRA_q1b6	A-1 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	205	390	c(0.02, 1130)
+14	15	CSLRA_q1b7	A-1 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	41	568	c(15.86, 4143)
+15	16	CSLRA_q1c1	A-1 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	472	69	c(1.28, 1080)
+16	17	CSLRA_q1c2	A-1 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	609	
+17	18	CSLRA_q1c3	A-1 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	609	
+18	19	CSLRA_q1c4	A-1 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	528	12	c(1.06, 5200)
+19	20	CSLRA_q1c5	A-1 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	532	9	c(2.03, 5080)
+20	21	CSLRA_q1c6	A-1 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	560	11	c(2.84, 44400)
+21	22	CSLRA_q1c7	A-1 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	13	597	c(10.52, 114)
+22	23	CSLRA_q1d1	A-1 Assay - Stimulant CR- Cytokine IL-4	dbl	numeric	double	54	548	c(1, 8.44)
+23	24	CSLRA_q1d2	A-1 Assay - Stimulant CR- Cytokine IL-5	dbl	numeric	double	1	609	
+24	25	CSLRA_q1d3	A-1 Assay - Stimulant CR- Cytokine IL-9	dbl	numeric	double	1	609	
+25	26	CSLRA_q1d4	A-1 Assay - Stimulant CR- Cytokine IL-10	dbl	numeric	double	169	407	c(1, 236)
+26	27	CSLRA_q1d5	A-1 Assay - Stimulant CR- Cytokine IL-13	dbl	numeric	double	201	368	c(1.01, 478)
+27	28	CSLRA_q1d6	A-1 Assay - Stimulant CR- Cytokine IFN-g	dbl	numeric	double	195	400	c(0.47, 14100)
+28	29	CSLRA_q1d7	A-1 Assay - Stimulant CR- Cytokine VEGF	dbl	numeric	double	1	609	
+29	30	CSLRA_q1e1	A-1 Assay - Stimulant MC5- Cytokine IL-4	dbl	numeric	double	52	550	c(1, 9.49)
+30	31	CSLRA_q1e2	A-1 Assay - Stimulant MC5- Cytokine IL-5	dbl	numeric	double	1	609	
+31	32	CSLRA_q1e3	A-1 Assay - Stimulant MC5- Cytokine IL-9	dbl	numeric	double	1	609	
+32	33	CSLRA_q1e4	A-1 Assay - Stimulant MC5- Cytokine IL-10	dbl	numeric	double	174	415	c(1, 63.3)
+33	34	CSLRA_q1e5	A-1 Assay - Stimulant MC5- Cytokine IL-13	dbl	numeric	double	181	385	c(1.01, 1000)
+34	35	CSLRA_q1e6	A-1 Assay - Stimulant MC5- Cytokine IFN-g	dbl	numeric	double	212	375	c(0.41, 6260)
+35	36	CSLRA_q1e7	A-1 Assay - Stimulant MC5- Cytokine VEGF	dbl	numeric	double	35	575	c(4.16, 3065.24)
+36	37	CSLRA_q1f1	A-1 Assay - Stimulant DM - Cytokine IL-4	dbl	numeric	double	47	555	c(1.03, 7.31)
+37	38	CSLRA_q1f2	A-1 Assay - Stimulant DM - Cytokine IL-5	dbl	numeric	double	3	607	c(20.57, 62.29)
+38	39	CSLRA_q1f3	A-1 Assay - Stimulant DM - Cytokine IL-9	dbl	numeric	double	3	607	c(14.86, 40.2)
+39	40	CSLRA_q1f4	A-1 Assay - Stimulant DM - Cytokine IL-10	dbl	numeric	double	309	251	c(1.02, 232)
+40	41	CSLRA_q1f5	A-1 Assay - Stimulant DM - Cytokine IL-13	dbl	numeric	double	358	219	c(1, 1411.11)
+41	42	CSLRA_q1f6	A-1 Assay - Stimulant DM - Cytokine IFN-g	dbl	numeric	double	291	290	c(0.47, 14400)
+42	43	CSLRA_q1f7	A-1 Assay - Stimulant DM - Cytokine VEGF	dbl	numeric	double	22	588	c(2.81, 2950.26)
+43	44	CSLRA_q1g1	A-1 Assay - Stimulant TT - Cytokine IL-4	dbl	numeric	double	57	543	c(1, 4.91)
+44	45	CSLRA_q1g2	A-1 Assay - Stimulant TT - Cytokine IL-5	dbl	numeric	double	2	608	c(162.15, 162.15)
+45	46	CSLRA_q1g3	A-1 Assay- Stimulant TT - Cytokine IL-9	dbl	numeric	double	3	607	c(9.99, 58.18)
+46	47	CSLRA_q1g4	A-1 Assay - Stimulant TT - Cytokine IL-10	dbl	numeric	double	261	302	c(1.01, 66.8)
+47	48	CSLRA_q1g5	A-1 Assay - Stimulant TT - Cytokine IL-13	dbl	numeric	double	248	321	c(0.29, 771)
+48	49	CSLRA_q1g6	A-1 Assay - Stimulant TT - Cytokine IFN-g	dbl	numeric	double	252	337	c(0.42, 4520)
+49	50	CSLRA_q1g7	A-1 Assay - Stimulant TT - Cytokine IL-4	dbl	numeric	double	25	585	c(8.1, 2768.29)
+50	51	CSLRA_q2a	Record Plate Number for A-2 Assay	chr	character	character	15	0	"c("".m"", ""89"")"
+51	52	CSLRA_q2b1	A-2 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	2	607	c(8.34, 8.34)
+52	53	CSLRA_q2b2	A-2 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	609	
+53	54	CSLRA_q2b3	A-2 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	609	
+54	55	CSLRA_q2b4	A-2 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	2	608	c(7.36, 7.36)
+55	56	CSLRA_q2b5	A-2 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	4	606	c(9.17, 9.75)
+56	57	CSLRA_q2b6	A-2 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	17	592	c(0.36, 33.77)
+57	58	CSLRA_q2b7	A-2 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	47	563	c(3.22, 2153.17)
+58	59	CSLRA_q2c1	A-2 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	43	567	c(5.55, 108.2)
+59	60	CSLRA_q2c2	A-2 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	2	608	c(6.78, 6.78)
+60	61	CSLRA_q2c3	A-2 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	609	
+61	62	CSLRA_q2c4	A-2 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	48	562	c(17.36, 1362.61)
+62	63	CSLRA_q2c5	A-2 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	50	560	c(22.22, 1403.33)
+63	64	CSLRA_q2c6	A-2 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	40	559	c(18.5, 5001)
+64	65	CSLRA_q2c7	A-2 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	10	600	c(3.53, 30.21)
+65	66	CSLRA_q2d1	A-2 Assay - Stimulant CR - Cytokine IL-4	dbl	numeric	double	1	609	
+66	67	CSLRA_q2d2	A-2 Assay - Stimulant CR - Cytokine IL-5	dbl	numeric	double	1	609	
+67	68	CSLRA_q2d3	A-2 Assay - Stimulant CR - Cytokine IL-9	dbl	numeric	double	1	609	
+68	69	CSLRA_q2d4	A-2 Assay - Stimulant CR - Cytokine IL-10	dbl	numeric	double	1	609	
+69	70	CSLRA_q2d5	A-2 Assay - Stimulant CR - Cytokine IL-13	dbl	numeric	double	1	609	
+70	71	CSLRA_q2d6	A-2 Assay - Stimulant CR - Cytokine IFN-g	dbl	numeric	double	1	609	
+71	72	CSLRA_q2d7	A-2 Assay - Stimulant CR - Cytokine VEGF	dbl	numeric	double	1	609	
+72	73	CSLRA_q2e1	A-2 Assay - Stimulant MC5 - Cytokine IL-4	dbl	numeric	double	3	607	c(0.38, 16.71)
+73	74	CSLRA_q2e2	A-2 Assay - Stimulant MC5 - Cytokine IL-5	dbl	numeric	double	1	609	
+74	75	CSLRA_q2e3	A-2 Assay - Stimulant MC5 - Cytokine IL-9	dbl	numeric	double	1	609	
+75	76	CSLRA_q2e4	A-2 Assay - Stimulant MC5 - Cytokine IL-10	dbl	numeric	double	2	608	c(13.8, 13.8)
+76	77	CSLRA_q2e5	A-2 Assay - Stimulant MC5 - Cytokine IL-13	dbl	numeric	double	11	599	c(8.45, 72.54)
+77	78	CSLRA_q2e6	A-2 Assay - Stimulant MC5 - Cytokine IFN-g	dbl	numeric	double	21	589	c(0.16, 122.76)
+78	79	CSLRA_q2e7	A-2 Assay - Stimulant MC5 - Cytokine VEGF	dbl	numeric	double	33	577	c(20.7, 3221.93)
+79	80	CSLRA_q2f1	A-2 Assay - Stimulant DM - Cytokine IL-4	dbl	numeric	double	2	608	c(4.15, 4.15)
+80	81	CSLRA_q2f2	A-2 Assay - Stimulant DM - Cytokine IL-5	dbl	numeric	double	3	607	c(17.77, 69.28)
+81	82	CSLRA_q2f3	A-2 Assay - Stimulant DM - Cytokine IL-9	dbl	numeric	double	3	607	c(14.39, 32.15)
+82	83	CSLRA_q2f4	A-2 Assay - Stimulant DM - Cytokine IL-10	dbl	numeric	double	10	600	c(7.1, 58.92)
+83	84	CSLRA_q2f5	A-2 Assay - Stimulant DM - Cytokine IL-13	dbl	numeric	double	22	588	c(8.35, 431.05)
+84	85	CSLRA_q2f6	A-2 Assay - Stimulant DM - Cytokine IFN-g	dbl	numeric	double	21	589	c(1.82, 1193.82)
+85	86	CSLRA_q2f7	A-2 Assay - Stimulant DM - Cytokine VEGF	dbl	numeric	double	22	588	c(2.21, 3032.3)
+86	87	CSLRA_q2g1	A-2 Assay - Stimulant TT - Cytokine IL-4	dbl	numeric	double	2	608	c(3.16, 3.16)
+87	88	CSLRA_q2g2	A-2 Assay - Stimulant TT - Cytokine IL-5	dbl	numeric	double	2	608	c(167.76, 167.76)
+88	89	CSLRA_q2g3	A-2 Assay - Stimulant TT - Cytokine IL-9	dbl	numeric	double	2	608	c(60.2, 60.2)
+89	90	CSLRA_q2g4	A-2 Assay - Stimulant TT - Cytokine IL-10	dbl	numeric	double	8	602	c(6.33, 13.86)
+90	91	CSLRA_q2g5	A-2 Assay - Stimulant TT - Cytokine IL-13	dbl	numeric	double	18	592	c(8.09, 515.78)
+91	92	CSLRA_q2g6	A-2 Assay - Stimulant TT - Cytokine IFN-g	dbl	numeric	double	25	585	c(0.02, 1085.27)
+92	93	CSLRA_q2g7	A-2 Assay - Stimulant TT - Cytokine VEGF	dbl	numeric	double	27	583	c(2.21, 2749.18)
+93	94	CSLRA_q3a	Record Plate Number for B-1 Assay	chr	character	character	60	0	"c("".m"", ""99b"")"
+94	95	CSLRA_q3b1	B-1 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	49	551	c(1.01, 19.35)
+95	96	CSLRA_q3b2	B-1 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	609	
+96	97	CSLRA_q3b3	B-1 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	609	
+97	98	CSLRA_q3b4	B-1 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	121	466	c(1, 76.7)
+98	99	CSLRA_q3b5	B-1 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	107	454	c(1, 22.01)
+99	100	CSLRA_q3b6	B-1 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	202	388	c(0.86, 670)
+100	101	CSLRA_q3b7	B-1 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	36	574	c(16.4, 2576.58)
+101	102	CSLRA_q3c1	B-1 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	456	94	c(1.09, 1230)
+102	103	CSLRA_q3c2	B-1 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	609	
+103	104	CSLRA_q3c3	B-1 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	1	609	
+104	105	CSLRA_q3c4	B-1 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	514	42	c(3.19, 8850)
+105	106	CSLRA_q3c5	B-1 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	491	42	c(1.9, 6760)
+106	107	CSLRA_q3c6	B-1 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	527	41	c(0.58, 45100)
+107	108	CSLRA_q3c7	B-1 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	12	597	c(7.61, 38.92)
+108	109	CSLRA_q3d1	B-1 Assay - Stimulant CR - Cytokine IL-4	dbl	numeric	double	49	557	c(1, 8.77)
+109	110	CSLRA_q3d2	B-1 Assay - Stimulant CR - Cytokine IL-5	dbl	numeric	double	1	609	
+110	111	CSLRA_q3d3	B-1 Assay - Stimulant CR - Cytokine IL-9	dbl	numeric	double	1	609	
+111	112	CSLRA_q3d4	B-1 Assay - Stimulant CR - Cytokine IL-10	dbl	numeric	double	155	434	c(1.01, 205)
+112	113	CSLRA_q3d5	B-1 Assay - Stimulant CR - Cytokine IL-13	dbl	numeric	double	190	374	c(1, 262)
+113	114	CSLRA_q3d6	B-1 Assay - Stimulant CR - Cytokine IFN-g	dbl	numeric	double	184	411	c(0.47, 1180)
+114	115	CSLRA_q3d7	B-1 Assay - Stimulant CR - Cytokine VEGF	dbl	numeric	double	1	609	
+115	116	CSLRA_q3e1	B-1 Assay - Stimulant MC5 - Cytokine IL-4	dbl	numeric	double	43	559	c(1, 5.41)
+116	117	CSLRA_q3e2	B-1 Assay - Stimulant MC5 - Cytokine IL-5	dbl	numeric	double	1	609	
+117	118	CSLRA_q3e3	B-1 Assay - Stimulant MC5 - Cytokine IL-9	dbl	numeric	double	1	609	
+118	119	CSLRA_q3e4	B-1 Assay - Stimulant MC5 - Cytokine IL-10	dbl	numeric	double	163	420	c(1, 48.2)
+119	120	CSLRA_q3e5	B-1 Assay - Stimulant MC5 - Cytokine IL-13	dbl	numeric	double	152	413	c(1, 160.17)
+120	121	CSLRA_q3e6	B-1 Assay - Stimulant MC5 - Cytokine IFN-g	dbl	numeric	double	200	388	c(0.36, 416.61)
+121	122	CSLRA_q3e7	B-1 Assay - Stimulant MC5 - Cytokine VEGF	dbl	numeric	double	29	581	c(13.41, 8147)
+122	123	CSLRA_q3f1	B-1 Assay - Stimulant DM - Cytokine IL-4	dbl	numeric	double	55	551	c(1, 7.83)
+123	124	CSLRA_q3f2	B-1 Assay - Stimulant DM - Cytokine IL-5	dbl	numeric	double	2	608	c(65.31, 65.31)
+124	125	CSLRA_q3f3	B-1 Assay - Stimulant DM - Cytokine IL-9	dbl	numeric	double	3	607	c(9.4, 43.62)
+125	126	CSLRA_q3f4	B-1 Assay - Stimulant DM - Cytokine IL-10	dbl	numeric	double	292	278	c(1.01, 183)
+126	127	CSLRA_q3f5	B-1 Assay - Stimulant DM - Cytokine IL-13	dbl	numeric	double	339	244	c(1, 1100)
+127	128	CSLRA_q3f6	B-1 Assay - Stimulant DM - Cytokine IFN-g	dbl	numeric	double	277	316	c(0.42, 2000)
+128	129	CSLRA_q3f7	B-1 Assay - Stimulant DM - Cytokine VEGF	dbl	numeric	double	17	593	c(2.81, 2086.26)
+129	130	CSLRA_q3g1	B-1 Assay - Stimulant TT - Cytokine IL-4	dbl	numeric	double	59	540	c(1, 5.23)
+130	131	CSLRA_q3g2	B-1 Assay - Stimulant TT - Cytokine IL-5	dbl	numeric	double	1	609	
+131	132	CSLRA_q3g3	B-1 Assay - Stimulant TT - Cytokine IL-9	dbl	numeric	double	1	609	
+132	133	CSLRA_q3g4	B-1 Assay - Stimulant TT - Cytokine IL-10	dbl	numeric	double	228	341	c(1.05, 68)
+133	134	CSLRA_q3g5	B-1 Assay - Stimulant TT - Cytokine IL-13	dbl	numeric	double	220	362	c(1.01, 314)
+134	135	CSLRA_q3g6	B-1 Assay - Stimulant TT - Cytokine IFN-g	dbl	numeric	double	216	372	c(1.01, 504)
+135	136	CSLRA_q3g7	B-1 Assay - Stimulant TT - Cytokine VEGF	dbl	numeric	double	26	584	c(14.42, 2762.41)
+136	137	CSLRA_q4a	Record Plate Number for B-2 Assay	chr	character	character	14	0	"c("".m"", ""89"")"
+137	138	CSLRA_q4b1	B-2 Assay - Stimulant MC24 - Cytokine IL-4	dbl	numeric	double	1	609	
+138	139	CSLRA_q4b2	B-2 Assay - Stimulant MC24 - Cytokine IL-5	dbl	numeric	double	1	609	
+139	140	CSLRA_q4b3	B-2 Assay - Stimulant MC24 - Cytokine IL-9	dbl	numeric	double	1	609	
+140	141	CSLRA_q4b4	B-2 Assay - Stimulant MC24 - Cytokine IL-10	dbl	numeric	double	3	607	c(6.99, 22.04)
+141	142	CSLRA_q4b5	B-2 Assay - Stimulant MC24 - Cytokine IL-13	dbl	numeric	double	1	609	
+142	143	CSLRA_q4b6	B-2 Assay - Stimulant MC24 - Cytokine IFN-g	dbl	numeric	double	15	594	c(1.02, 36.04)
+143	144	CSLRA_q4b7	B-2 Assay - Stimulant MC24 - Cytokine VEGF	dbl	numeric	double	37	573	c(6.14, 2809.54)
+144	145	CSLRA_q4c1	B-2 Assay - Stimulant PHA - Cytokine IL-4	dbl	numeric	double	36	573	c(3.93, 140.71)
+145	146	CSLRA_q4c2	B-2 Assay - Stimulant PHA - Cytokine IL-5	dbl	numeric	double	1	609	
+146	147	CSLRA_q4c3	B-2 Assay - Stimulant PHA - Cytokine IL-9	dbl	numeric	double	2	608	c(5.73, 5.73)
+147	148	CSLRA_q4c4	B-2 Assay - Stimulant PHA - Cytokine IL-10	dbl	numeric	double	42	568	c(6.9, 1601.68)
+148	149	CSLRA_q4c5	B-2 Assay - Stimulant PHA - Cytokine IL-13	dbl	numeric	double	42	568	c(29.71, 1334.27)
+149	150	CSLRA_q4c6	B-2 Assay - Stimulant PHA - Cytokine IFN-g	dbl	numeric	double	37	567	c(64.75, 5001)
+150	151	CSLRA_q4c7	B-2 Assay - Stimulant PHA - Cytokine VEGF	dbl	numeric	double	9	601	c(4.49, 38.92)
+151	152	CSLRA_q4d1	B-2 Assay - Stimulant CR - Cytokine IL-4	dbl	numeric	double	1	609	
+152	153	CSLRA_q4d2	B-2 Assay - Stimulant CR - Cytokine IL-5	dbl	numeric	double	1	609	
+153	154	CSLRA_q4d3	B-2 Assay - Stimulant CR - Cytokine IL-9	dbl	numeric	double	1	609	
+154	155	CSLRA_q4d4	B-2 Assay - Stimulant CR - Cytokine IL-10	dbl	numeric	double	1	609	
+155	156	CSLRA_q4d5	B-2 Assay - Stimulant CR - Cytokine IL-13	dbl	numeric	double	1	609	
+156	157	CSLRA_q4d6	B-2 Assay - Stimulant CR - Cytokine IFN-g	dbl	numeric	double	1	609	
+157	158	CSLRA_q4d7	B-2 Assay - Stimulant CR - Cytokine VEGF	dbl	numeric	double	1	609	
+158	159	CSLRA_q4e1	B-2 Assay - Stimulant MC5 - Cytokine IL-4	dbl	numeric	double	1	609	
+159	160	CSLRA_q4e2	B-2 Assay - Stimulant MC5 - Cytokine IL-5	dbl	numeric	double	1	609	
+160	161	CSLRA_q4e3	B-2 Assay - Stimulant MC5 - Cytokine IL-9	dbl	numeric	double	1	609	
+161	162	CSLRA_q4e4	B-2 Assay - Stimulant MC5 - Cytokine IL-10	dbl	numeric	double	2	608	c(36.46, 36.46)
+162	163	CSLRA_q4e5	B-2 Assay - Stimulant MC5 - Cytokine IL-13	dbl	numeric	double	6	604	c(9.9, 25.09)
+163	164	CSLRA_q4e6	B-2 Assay - Stimulant MC5 - Cytokine IFN-g	dbl	numeric	double	15	594	c(0.02, 39.97)
+164	165	CSLRA_q4e7	B-2 Assay - Stimulant MC5 - Cytokine VEGF	dbl	numeric	double	31	579	c(7.63, 6441.79)
+165	166	CSLRA_q4f1	B-2 Assay - Stimulant DM - Cytokine IL-4	dbl	numeric	double	2	608	c(8.34, 8.34)
+166	167	CSLRA_q4f2	B-2 Assay - Stimulant DM - Cytokine IL-5	dbl	numeric	double	2	608	c(75.44, 75.44)
+167	168	CSLRA_q4f3	B-2 Assay - Stimulant DM - Cytokine IL-9	dbl	numeric	double	3	607	c(10.19, 46.99)
+168	169	CSLRA_q4f4	B-2 Assay - Stimulant DM - Cytokine IL-10	dbl	numeric	double	7	603	c(9.5, 56.69)
+169	170	CSLRA_q4f5	B-2 Assay - Stimulant DM - Cytokine IL-13	dbl	numeric	double	20	590	c(8.84, 454.4)
+170	171	CSLRA_q4f6	B-2 Assay - Stimulant DM - Cytokine IFN-g	dbl	numeric	double	19	590	c(0.45, 214.44)
+171	172	CSLRA_q4f7	B-2 Assay - Stimulant DM - Cytokine VEGF	dbl	numeric	double	22	588	c(11.51, 2109.02)
+172	173	CSLRA_q4g1	B-2 Assay - Stimulant TT - Cytokine IL-4	dbl	numeric	double	2	608	c(14.22, 14.22)
+173	174	CSLRA_q4g2	B-2 Assay - Stimulant TT - Cytokine IL-5	dbl	numeric	double	1	609	
+174	175	CSLRA_q4g3	B-2 Assay - Stimulant TT - Cytokine IL-9	dbl	numeric	double	1	609	
+175	176	CSLRA_q4g4	B-2 Assay - Stimulant TT - Cytokine IL-10	dbl	numeric	double	5	605	c(5.9, 19.31)
+176	177	CSLRA_q4g5	B-2 Assay - Stimulant TT - Cytokine IL-13	dbl	numeric	double	11	599	c(8.46, 75.38)
+177	178	CSLRA_q4g6	B-2 Assay - Stimulant TT - Cytokine IFN-g	dbl	numeric	double	17	593	c(1.1, 35.63)
+178	179	CSLRA_q4g7	B-2 Assay - Stimulant TT - Cytokine VEGF	dbl	numeric	double	25	585	c(2.21, 3056.25)
+179	180	aProcDY	Processing Day	dbl	numeric	double	238	2	c(86, 514)

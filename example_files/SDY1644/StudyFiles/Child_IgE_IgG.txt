@@ -1,0 +1,723 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.1 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness          06/10/08        RAST data  
+*                       01/19/09        Add IgG and IgG4 and report on what we have so far
+*
+*   K. Jaffee           03/03/11        Change variable names and drop "IgE class" & IgG4 missing variables 
+*   A. Calatroni        03/07/11        Validate Dataset Construction   
+*   K. Jaffee           03/21/11        Add in IgE variables using 0.10 cutoff
+*   K. Jaffee           11/01/11        Fix log10 transformed IgEs
+*   K. Jaffee           06/28/16        Add in 120m from new lab, with new vars
+*   Andrew Moseby       12DEC2017       Change all m81 data to m84
+*   Alexandre Lockhart  13DEC2017       Added any_aero_ige_ratio variable
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=Child_IgE_IgG,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+/*************************************************************************************
+ Derive Dataset
+**************************************************************************************/
+data blood;
+ set master.pbpcb; 
+
+ if pbpcb_q17 ne .x ;
+ if avisit='cb' then do; 
+  avisit='48'; event='48-Month Clinic Visit'; 
+ end;
+ **there is only one CB visit and it is closest to 48. The results are labeled 48 already;
+ keep studyid event avisit pbpcb_q17;
+run;
+ 
+ * Create numeric avisit;
+data blood;
+ set blood (rename=(avisit=avisit_char));
+ avisit = input(put(avisit_char,$8.),8.);
+ drop avisit_char;
+run;
+
+* 2 CBD events ;
+proc freq data=blood ;
+   tables event ;
+run ;
+
+proc print data=blood ;
+   var studyid event ;
+   where event="Child Blood Draw" ;
+run ;
+
+data blood2 ;
+   set blood ;
+
+   ***Manual fix ;
+  *hardcodes here have been removed to protect patient confidentiality;
+
+   ***Manual fix ;
+  *hardcodes here have been removed to protect patient confidentiality;
+    end ;
+
+/*   if avisit=84 then do ;*/
+/*      avisit=81 ;*/
+/*   end ;*/
+/**/
+/*   **Clean up dups - deleting blood draws where the aliquot was missing for IgE  ;*/
+*hardcodes here have been removed to protect patient confidentiality;
+
+run ;
+
+proc freq data=master.crr  ;
+   tables avisit / missing ;
+run ;
+
+proc print data=master.crr ;
+   var studyid ; 
+   where avisit="cbl" ;
+run ;
+
+data crr ;
+   set master.crr ;
+
+   ***Manual edits: ;
+   *hardcodes here have been removed to protect patient confidentiality;
+   end ;
+
+run ;
+
+proc freq data=crr ;
+   tables CRR_q1h1 CRR_q1f1 CRR_q1g1 CRR_q1i1 CRR_q1j1 CRR_q1k1 ;
+   where avisit='12' ;
+run ;
+ 
+data crr2 ;
+   set crr (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+   drop avisit_char;
+
+**according to Hugh Sampson, the Phadia test is valid down to 0.10 kU/L now;
+**KJ edit: and rename all "crr" variables  ;
+   if crr_q1a1=.B       or 0 <= crr_q1a1 < 0.10 then peanut_ige = 0.09;
+   if crr_q1a1 >= 0.10                      then peanut_ige = crr_q1a1;
+   if crr_q1a1=.H                              then peanut_ige = 100 ;
+
+   if crr_q1b1=.B       or 0 <= crr_q1b1 < 0.10 then egg_ige    = 0.09;
+   if crr_q1b1 >= 0.10                      then egg_ige    = crr_q1b1;
+   if crr_q1b1=.H                              then egg_ige    = 100 ;
+
+   if crr_q1c1=.B       or 0 <= crr_q1c1 < 0.10 then milk_ige   = 0.09;
+   if crr_q1c1 >= 0.10                      then milk_ige   = crr_q1c1;
+   if crr_q1c1=.H                              then milk_ige   = 100 ;
+
+   if crr_q1d1=.B       or 0 <= crr_q1d1 < 0.10 then roach_ige  = 0.09;
+   if crr_q1d1 >= 0.10                      then roach_ige  = crr_q1d1;
+   if crr_q1d1=.H                              then roach_ige  = 100 ;
+
+   if crr_q1e1=.B       or 0 <= crr_q1e1 < 0.10 then total_ige  = 0.09;
+   if crr_q1e1 >= 0.10                      then total_ige  = crr_q1e1;
+   if crr_q1e1=.H                              then total_ige  = 5000 ;
+
+   if crr_q1f1=.B       or 0 <= crr_q1f1 < 0.10 then derp_ige   = 0.09;
+   if crr_q1f1 >= 0.10                      then derp_ige   = crr_q1f1;
+   if crr_q1f1=.H                              then derp_ige   = 100 ;
+
+   if crr_q1g1=.B       or 0 <= crr_q1g1 < 0.10 then derf_ige   = 0.09;
+   if crr_q1g1 >= 0.10                      then derf_ige   = crr_q1g1;
+   if crr_q1g1=.H                              then derf_ige   = 100 ;
+
+   if crr_q1h1=.B       or 0 <= crr_q1h1 < 0.10 then cat_ige    = 0.09;
+   if crr_q1h1 >= 0.10                      then cat_ige    = crr_q1h1;
+   if crr_q1h1=.H                              then cat_ige    = 100 ;
+
+   if crr_q1i1=.B       or 0 <= crr_q1i1 < 0.10 then dog_ige    = 0.09;
+   if crr_q1i1 >= 0.10                      then dog_ige    = crr_q1i1;
+   if crr_q1i1=.H                              then dog_ige    = 100 ;
+
+   if crr_q1j1=.B       or 0 <= crr_q1j1 < 0.10 then mouse_ige  = 0.09;
+   if crr_q1j1 >= 0.10                      then mouse_ige  = crr_q1j1;
+   if crr_q1j1=.H                              then mouse_ige  = 100 ;
+
+   if crr_q1k1=.B       or 0 <= crr_q1k1 < 0.10 then alt_ige    = 0.09;
+   if crr_q1k1 >= 0.10                      then alt_ige    = crr_q1k1;
+   if crr_q1k1=.H                              then alt_ige    = 100 ;
+
+   if CRR_q1l1=.B       or 0 <= CRR_q1l1 < 0.10 then asp_ige    = 0.09;
+   if CRR_q1l1 >= 0.10                      then asp_ige    = CRR_q1l1;
+   if CRR_q1l1=.H                              then asp_ige    = 100 ;
+   if CRR_q1l1=.S                              then asp_ige    = . ;
+
+   if CRR_q1m1=.B       or 0 <= CRR_q1m1 < 0.10 then rag_ige    = 0.09;
+   if CRR_q1m1 >= 0.10                      then rag_ige    = CRR_q1m1;
+   if CRR_q1m1=.H                              then rag_ige    = 100 ;
+   if CRR_q1m1=.S                              then rag_ige    = . ;
+
+   if CRR_q1n1=.B       or 0 <= CRR_q1n1 < 0.10 then maple_ige    = 0.09;
+   if CRR_q1n1 >= 0.10                      then maple_ige    = CRR_q1n1;
+   if CRR_q1n1=.H                              then maple_ige    = 100 ;
+   if CRR_q1n1=.S                              then maple_ige    = . ;
+
+   if CRR_q1o1=.B       or 0 <= CRR_q1o1 < 0.10 then oak_ige    = 0.09;
+   if CRR_q1o1 >= 0.10                      then oak_ige    = CRR_q1o1;
+   if CRR_q1o1=.H                              then oak_ige    = 100 ;
+   if CRR_q1o1=.S                              then oak_ige    = . ;
+
+   if CRR_q1p1=.B       or 0 <= CRR_q1p1 < 0.10 then timg_ige    = 0.09;
+   if CRR_q1p1 >= 0.10                      then timg_ige    = CRR_q1p1;
+   if CRR_q1p1=.H                              then timg_ige    = 100 ;
+   if CRR_q1p1=.S                              then timg_ige    = . ;
+
+
+   *if crr_q1a1='.a'    then delete;
+   *if crr_q1a1=.       then delete;
+
+**Positive tests;
+**KJ edit: change naming conventions ;
+       if peanut_ige >=0.35 then peanut_pos=1;
+   else if peanut_ige >.z    then peanut_pos=0;
+
+       if egg_ige >=0.35 then egg_pos=1;
+   else if egg_ige >.z    then egg_pos=0;
+
+       if milk_ige >=0.35 then milk_pos=1;
+   else if milk_ige >.z    then milk_pos=0;
+
+       if roach_ige >=0.35 then roach_pos=1;
+   else if roach_ige >.z    then roach_pos=0;
+
+       if derp_ige >=0.35 then derp_pos=1;
+   else if derp_ige >.z    then derp_pos=0;
+
+       if derf_ige >=0.35 then derf_pos=1;
+   else if derf_ige >.z    then derf_pos=0;
+
+       if cat_ige >=0.35 then cat_pos=1;
+   else if cat_ige >.z    then cat_pos=0;
+
+       if dog_ige >=0.35 then dog_pos=1;
+   else if dog_ige >.z    then dog_pos=0;
+
+       if mouse_ige >=0.35 then mouse_pos=1;
+   else if mouse_ige >.z    then mouse_pos=0;
+
+      if alt_ige >=0.35 then alt_pos=1;
+   else if alt_ige >.z    then alt_pos=0;
+
+      if asp_ige >=0.35 then asp_pos=1;
+   else if asp_ige >.z    then asp_pos=0;
+
+      if rag_ige >=0.35 then rag_pos=1;
+   else if rag_ige >.z    then rag_pos=0;
+
+      if maple_ige >=0.35 then maple_pos=1;
+   else if maple_ige >.z    then maple_pos=0;
+
+      if oak_ige >=0.35 then oak_pos=1;
+   else if oak_ige >.z    then oak_pos=0;
+
+      if timg_ige >=0.35 then timg_pos=1;
+   else if timg_ige >.z    then timg_pos=0;
+
+
+
+  ***KJ 3/21: Add in code with new cutoff for aeroallergens ;
+       if roach_ige >=0.10 then roach_pos_2=1;
+   else if roach_ige >.z    then roach_pos_2=0;
+
+       if derp_ige >=0.10 then derp_pos_2=1;
+   else if derp_ige >.z    then derp_pos_2=0;
+
+       if derf_ige >=0.10 then derf_pos_2=1;
+   else if derf_ige >.z    then derf_pos_2=0;
+
+       if cat_ige >=0.10 then cat_pos_2=1;
+   else if cat_ige >.z    then cat_pos_2=0;
+
+       if dog_ige >=0.10 then dog_pos_2=1;
+   else if dog_ige >.z    then dog_pos_2=0;
+
+       if mouse_ige >=0.10 then mouse_pos_2=1;
+   else if mouse_ige >.z    then mouse_pos_2=0;
+
+       if alt_ige >=0.10 then alt_pos_2=1;
+   else if alt_ige >.z    then alt_pos_2=0;
+
+      if asp_ige >=0.10 then asp_pos_2=1;
+   else if asp_ige >.z    then asp_pos_2=0;
+
+      if rag_ige >=0.10 then rag_pos_2=1;
+   else if rag_ige >.z    then rag_pos_2=0;
+
+      if maple_ige >=0.10 then maple_pos_2=1;
+   else if maple_ige >.z    then maple_pos_2=0;
+
+      if oak_ige >=0.10 then oak_pos_2=1;
+   else if oak_ige >.z    then oak_pos_2=0;
+
+      if timg_ige >=0.10 then timg_pos_2=1;
+   else if timg_ige >.z    then timg_pos_2=0;
+
+
+**KJ edit: rename IgG data ;
+   peanut_igg = CRR_q2a1 ;
+   egg_igg    = CRR_q2b1 ;
+   milk_igg   = CRR_q2c1 ;
+   roach_igg  = CRR_q2d1 ;
+   derp_igg   = CRR_q2f1 ;
+   derf_igg   = CRR_q2g1 ;
+   cat_igg    = CRR_q2h1 ;
+   dog_igg    = CRR_q2i1 ;
+   mouse_igg  = CRR_q2j1 ;
+   alt_igg    = CRR_q2k1 ;
+
+**KJ edit: rename IgG4 data ;
+   peanut_igg4 = CRR_q3a1 ;
+   egg_igg4    = CRR_q3b1 ;
+   milk_igg4   = CRR_q3c1 ;
+   roach_igg4  = CRR_q3d1 ;
+   casein_igg4 = CRR_q3e1 ;
+   derp_igg4   = CRR_q3f1 ;
+   derf_igg4   = CRR_q3g1 ;
+   cat_igg4    = CRR_q3h1 ;
+   dog_igg4    = CRR_q3i1 ;
+   mouse_igg4  = CRR_q3j1 ;
+   alt_igg4    = CRR_q3k1 ;
+
+ ** Log-transformed variables *****************************************************************************************;
+   array res (*) 
+            peanut_ige egg_ige milk_ige roach_ige total_ige derp_ige derf_ige cat_ige dog_ige mouse_ige alt_ige 
+            asp_ige rag_ige maple_ige oak_ige timg_ige ;
+   array new (*) 
+            peanut_ige_l egg_ige_l milk_ige_l roach_ige_l total_ige_l derp_ige_l derf_ige_l cat_ige_l dog_ige_l mouse_ige_l alt_ige_l
+            asp_ige_l rag_ige_l maple_ige_l oak_ige_l timg_ige_l ;
+
+   **KJ edit 11/1/11 - add 0.01 to IgEs data and then log it ;
+   do i=1 to dim(new);
+       if res(i) ^= . then new(i) = log10(res(i)+0.01);
+       else new(i) = .;
+   end;
+
+
+   if nmiss(peanut_pos, egg_pos, milk_pos, roach_pos, derp_pos, derf_pos, 
+                     cat_pos, dog_pos, mouse_pos, alt_pos, asp_ige, rag_ige, maple_ige, oak_ige, timg_ige) ^= 15 
+      then any_ige   =    max(peanut_pos, egg_pos, milk_pos, roach_pos, derp_pos, derf_pos, 
+                     cat_pos, dog_pos, mouse_pos, alt_pos, asp_ige, rag_ige, maple_ige, oak_ige, timg_ige);
+      else any_ige = .;
+
+   if nmiss(peanut_pos, egg_pos, milk_pos, roach_pos_2, derp_pos_2, derf_pos_2, 
+                     cat_pos_2, dog_pos_2, mouse_pos_2, alt_pos_2, asp_pos_2, rag_pos_2, maple_pos_2, oak_pos_2, timg_pos_2) ^= 15
+      then any_ige_2   =      max(peanut_pos, egg_pos, milk_pos, roach_pos_2, derp_pos_2, derf_pos_2, 
+                     cat_pos_2, dog_pos_2, mouse_pos_2, alt_pos_2, asp_pos_2, rag_pos_2, maple_pos_2, oak_pos_2, timg_pos_2);
+      else any_ige_2 = . ;
+   if nmiss(peanut_pos, egg_pos, milk_pos) ^= 3
+      then any_posfood=      max(peanut_pos, egg_pos, milk_pos);
+      else any_posfood = .;
+   if nmiss(roach_pos, derp_pos, derf_pos, cat_pos, dog_pos, mouse_pos, alt_pos, asp_pos, rag_pos, maple_pos, oak_pos, timg_pos) ^= 12
+      then any_aeroallergen=   max(roach_pos, derp_pos, derf_pos, cat_pos, dog_pos, mouse_pos, alt_pos, asp_pos, rag_pos, maple_pos, oak_pos, timg_pos);
+      else any_aeroallergen = .;
+   if nmiss(roach_pos_2, derp_pos_2, derf_pos_2, 
+                     cat_pos_2, dog_pos_2, mouse_pos_2, alt_pos_2, asp_pos_2, rag_pos_2, maple_pos_2, oak_pos_2, timg_pos_2) ^= 12
+      then any_aeroallergen_2=   max(roach_pos_2, derp_pos_2, derf_pos_2, 
+                     cat_pos_2, dog_pos_2, mouse_pos_2, alt_pos_2, asp_pos_2, rag_pos_2, maple_pos_2, oak_pos_2, timg_pos_2);
+      else any_aeroallergen_2 = .;
+   
+   if nmiss(peanut_pos, egg_pos, milk_pos, roach_pos, derp_pos, derf_pos, 
+                     cat_pos, dog_pos, mouse_pos, alt_pos, asp_pos, rag_pos, maple_pos, oak_pos, timg_pos) ^= 15
+      then num_ige=         sum(peanut_pos, egg_pos, milk_pos, roach_pos, derp_pos, derf_pos, 
+                     cat_pos, dog_pos, mouse_pos, alt_pos, asp_pos, rag_pos, maple_pos, oak_pos, timg_pos);
+      else num_ige=.;
+   if nmiss(peanut_pos, egg_pos, milk_pos, roach_pos_2, derp_pos_2, derf_pos_2, 
+                     cat_pos_2, dog_pos_2, mouse_pos_2, alt_pos_2, asp_pos_2, rag_pos_2, maple_pos_2, oak_pos_2, timg_pos_2) ^= 15
+     then num_ige_2=         sum(peanut_pos, egg_pos, milk_pos, roach_pos_2, derp_pos_2, derf_pos_2, 
+                     cat_pos_2, dog_pos_2, mouse_pos_2, alt_pos_2, asp_pos_2, rag_pos_2, maple_pos_2, oak_pos_2, timg_pos_2);
+     else num_ige_2 =.;
+   if nmiss(peanut_ige, egg_ige, milk_ige, roach_ige, derp_ige, derf_ige, cat_ige, dog_ige, mouse_ige, alt_ige,
+                        asp_ige, rag_ige, maple_ige, oak_ige, timg_ige) ^= 15
+     then sum_ige=         sum(peanut_ige, egg_ige, milk_ige, roach_ige, derp_ige, derf_ige, cat_ige, dog_ige, mouse_ige, alt_ige,
+                        asp_ige, rag_ige, maple_ige, oak_ige, timg_ige);
+     else sum_ige =.;
+
+
+     *Added any_aero_ige_ratio variable;
+
+ ***any ige mite ;
+ any_miteige = max(derf_pos, derp_pos) ;
+
+ ***any ige mold ;
+
+ any_moldige = alt_pos ;
+
+ ***any ige roach ;
+ any_roachige = roach_pos ;
+     
+***any ige rodent ;
+
+any_rodentige = mouse_pos ;
+
+***any ige pet ;
+
+any_petige = max(cat_pos, dog_pos) ;
+
+any_aero_ige_num = SUM(any_petige,any_rodentige,any_roachige,any_moldige,
+
+                          any_miteige) ;
+
+any_aero_ige_denom = 5 - NMISS(any_petige,any_rodentige,any_roachige,any_moldige,
+
+                                  any_miteige) ;
+
+ 
+
+   any_aero_ige_ratio = any_aero_ige_num/any_aero_ige_denom ;
+
+  format  peanut_pos egg_pos milk_pos roach_pos derp_pos derf_pos cat_pos dog_pos mouse_pos alt_pos asp_pos rag_pos maple_pos oak_pos timg_pos
+        any_ige any_ige_2 any_posfood any_aeroallergen any_aeroallergen_2 yesnofm.;
+
+  label peanut_ige      ='sIge to Peanut (kUa/L)'
+       egg_ige         ='sIge to Egg (kUa/L)'
+       milk_ige        ='sIge to Milk (kUa/L)'
+      roach_ige       ='sIge to Cockroach (kUa/L)'
+      total_ige       ='Total Ige (kUa/L)'
+      derp_ige        ='sIge to Der p mite (kUa/L)'
+       derf_ige        ='sIge to Der f mite (kUa/L)'
+       cat_ige         ='sIge to Cat (kUa/L)'
+      dog_ige         ='sIge to Dog (kUa/L)'
+      mouse_ige       ='sIge to Mouse (kUa/L)'
+      alt_ige         ='sIge to Alternaria (kUa/L)'
+      asp_ige         ='sIge to Aspergillus fumigatus (kUa/L)'
+      rag_ige         ='sIge to Ragweed (kUa/L)'
+      maple_ige       ='sIge to Maple box elder (kUa/L)'
+      oak_ige         ='sIge to Oak (kUa/L)'
+      timg_ige        ='sIge to Timothy grass (kUa/L)'
+      peanut_ige_l   ='sIge to Peanut (kUa/L) (log10)'
+      egg_ige_l      ='sIge to Egg (kUa/L) (log10)' 
+      milk_ige_l      ='sIge to Milk (kUa/L) (log10)'
+      roach_ige_l      ='sIge to Cockroach (kUa/L) (log10)'
+      total_ige_l      ='Total IgE  (kUa/L)(log10)' 
+      derp_ige_l      ='sIge to Der p mite (kUa/L) (log10)'
+      derf_ige_l      ='sIge to Der f mite (kUa/L) (log10)'
+      cat_ige_l      ='sIge to Cat (kUa/L) (log10)'
+      dog_ige_l      ='sIge to Dog (kUa/L) (log10)'
+      mouse_ige_l      ='sIge to Mouse (kUa/L) (log10)'
+      alt_ige_l      ='sIge to Alternaria (kUa/L) (log10)'
+      asp_ige_l         ='sIge to Aspergillus fumigatus (kUa/L) (log10)'
+      rag_ige_l         ='sIge to Ragweed (kUa/L) (log10)'
+      maple_ige_l       ='sIge to Maple box elder (kUa/L) (log10)'
+      oak_ige_l         ='sIge to Oak (kUa/L) (log10)'
+      timg_ige_l        ='sIge to Timothy grass (kUa/L) (log10)'
+      peanut_pos      ='sIgE >= 0.35 kUa/L to Peanut'
+      egg_pos         ='sIgE >= 0.35 kUa/L to Egg'
+      milk_pos      ='sIgE >= 0.35 kUa/L to Milk'
+      roach_pos      ='sIgE >= 0.35 kUa/L to Cockroach'
+      derp_pos      ='sIgE >= 0.35 kUa/L to Der p'
+      derf_pos      ='sIgE >= 0.35 kUa/L to Der f'
+      cat_pos         ='sIgE >= 0.35 kUa/L to Cat'
+      dog_pos         ='sIgE >= 0.35 kUa/L to Dog'
+      mouse_pos      ='sIgE >= 0.35 kUa/L to Mouse'
+      alt_pos         ='sIgE >= 0.35 kUa/L to Alterneria'    
+      asp_pos         ='sIgE >= 0.35 kUa/L to Aspergillus fumigatus'
+      rag_pos         ='sIgE >= 0.35 kUa/L to Ragweed'
+      maple_pos         ='sIgE >= 0.35 kUa/L to Maple box elder'
+      oak_pos         ='sIgE >= 0.35 kUa/L to Oak'
+      timg_pos         ='sIgE >= 0.35 kUa/L to Timothy grass'
+      roach_pos_2      ='sIgE >= 0.10 kUa/L to Cockroach'
+      derp_pos_2      ='sIgE >= 0.10 kUa/L to Der p'
+      derf_pos_2      ='sIgE >= 0.10 kUa/L to Der f'
+      cat_pos_2      ='sIgE >= 0.10 kUa/L to Cat'
+      dog_pos_2      ='sIgE >= 0.10 kUa/L to Dog'
+      mouse_pos_2      ='sIgE >= 0.10 kUa/L to Mouse'
+      alt_pos_2      ='sIgE >= 0.10 kUa/L to Alterneria'
+      asp_pos_2         ='sIgE >= 0.10 kUa/L to Aspergillus fumigatus'
+      rag_pos_2         ='sIgE >= 0.10 kUa/L to Ragweed'
+      maple_pos_2         ='sIgE >= 0.10 kUa/L to Maple box elder'
+      oak_pos_2         ='sIgE >= 0.10 kUa/L to Oak'
+      timg_pos_2         ='sIgE >= 0.10 kUa/L to Timothy grass'
+      any_posfood      ='sIgE >= 0.35 kUa/L to any food allergen'
+      any_aeroallergen='sIgE >= 0.35 kUa/L to any aero allergen'
+      any_aeroallergen_2='sIgE >= 0.10 kUa/L to any aero allergen'
+      any_ige         ='sIgE >= 0.35 kUa/L to any allergen'
+      any_ige_2      ='sIgE >= 0.10 kUa/L to any allergen'
+      num_ige         ='Number of pos sIgEs'
+      num_ige_2      ='Number of pos sIgEs - 0.10 for aeros'
+      sum_ige         ='Sum of specific IgE levels'
+      peanut_igg       = 'IgG to Peanut (mg/mL)' 
+      egg_igg          = 'IgG to Egg (mg/mL)' 
+      milk_igg        = 'IgG to Milk (mg/mL)' 
+      roach_igg        = 'IgG to Roach (mg/mL)' 
+      derp_igg         = 'IgG to Der p (mg/mL)' 
+      derf_igg         = 'IgG to Der f (mg/mL)' 
+      cat_igg          = 'IgG to Cat (mg/mL)' 
+      dog_igg          = 'IgG to Dog (mg/mL)' 
+      mouse_igg        = 'IgG to Mouse (mg/mL)'
+      alt_igg          = 'IgG to Alternaria (mg/mL)' 
+      peanut_igg4    = 'IgG4 to Peanut (mg/mL)' 
+      egg_igg4       = 'IgG4 to Egg (mg/mL)' 
+      milk_igg4      = 'IgG4 to Milk (mg/mL)' 
+      roach_igg4     = 'IgG4 to Roach (mg/mL)'
+      casein_igg4    = 'IgG4 to Casein (mg/mL)' 
+      derp_igg4      = 'IgG4 to Der p (mg/mL)' 
+      derf_igg4      = 'IgG4 to Der f (mg/mL)' 
+      cat_igg4       = 'IgG4 to Cat (mg/mL)' 
+      dog_igg4       = 'IgG4 to Dog (mg/mL)' 
+      mouse_igg4     = 'IgG4 to Mouse (mg/mL)'
+      alt_igg4       = 'IgG4 to Alternaria (mg/mL)'
+       any_aero_ige_ratio = 'Any aeroallergen ige ratio'
+      any_miteige    = 'sIgE >= 0.35 kUa/L to any mite'
+      any_moldige    = 'sIgE >= 0.35 kUa/L to any mold'
+      any_roachige    = 'sIgE >= 0.35 kUa/L to any american or german cockroach'
+      any_rodentige    = 'sIgE >= 0.35 kUa/L to any rodent'
+      any_petige    = 'sIgE >= 0.35 kUa/L to any pet' 
+      any_aero_ige_num = 'Number of positive aeroallergen IgE' 
+      any_aero_ige_denom = 'Number of aeroallergen IgEs tested' 
+      any_are_ige_ratio = 'Ratio of positive IgEs of those tested';
+/**/
+/*   ***Call all 7year visits 81m for merging easier ;*/
+/*   if avisit=84 then do ;*/
+/*      avisit=81 ;*/
+/*   end ;*/
+/**/
+/*   **Clean up dups - deleting the latter IgE since they only should have had this once ;*/
+*hardcodes here have been removed to protect patient confidentiality;
+
+   drop i recruitid
+         CRR_q1a1 CRR_q1b1 CRR_q1c1 CRR_q1d1 crr_q1e1 CRR_q1f1 CRR_q1g1 CRR_q1h1 CRR_q1i1 CRR_q1j1 CRR_q1k1 
+        CRR_q1a2 CRR_q1b2 CRR_q1c2 CRR_q1d2 CRR_q1f2 CRR_q1g2 CRR_q1h2 CRR_q1i2 CRR_q1j2 CRR_q1k2
+        CRR_q2a1 CRR_q2b1 CRR_q2c1 CRR_q2d1 CRR_q2f1 CRR_q2g1 CRR_q2h1 CRR_q2i1 CRR_q2j1 CRR_q2k1
+       CRR_q2a2 CRR_q2b2 CRR_q2c2 CRR_q2d2 CRR_q2f2 CRR_q2g2 CRR_q2h2 CRR_q2i2 CRR_q2j2 CRR_q2k2 
+       CRR_q3a1 CRR_q3b1 CRR_q3c1 CRR_q3d1 crr_q3e1 CRR_q3f1 CRR_q3g1 CRR_q3h1 CRR_q3i1 CRR_q3j1 CRR_q3k1
+       CRR_q3a2 CRR_q3b2 CRR_q3c2 CRR_q3d2 crr_q3e2 CRR_q3f2 CRR_q3g2 CRR_q3h2 CRR_q3i2 CRR_q3j2 CRR_q3k2 
+       CRR_q1l1 CRR_q1m1 CRR_q1n1 CRR_q1o1 CRR_q1p1;
+run;
+
+/*************************************************************************************
+ Check Duplicates - good as of 06/28/2016 
+**************************************************************************************/
+proc sort nodupkey data=crr2 out=cr_clean dupout=cr_dups; by studyid avisit;
+run;
+proc sort nodupkey data=blood2 out=bl_clean dupout=bl_dups; by studyid avisit;
+run;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell60;
+ set derive.groups;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 12,24,36,48,60,72,84,120;
+  if avisit in (0)              then year=0;
+  if avisit in ( 3,  6,  9, 12) then year=1;
+  if avisit in (15, 18, 21, 24) then year=2;
+  if avisit in (27, 30, 33, 36) then year=3;
+  if avisit in (39, 42, 45, 48) then year=4;
+  if avisit in (51, 54, 57, 60) then year=5;
+  if avisit in (63, 66, 69, 72) then year=6;
+  if avisit in (75, 78, 81, 84) then year=7;
+  if avisit = 120               then year=10;
+ output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=shell60; by studyid avisit; run;
+proc sort data=blood2 ;  by studyid avisit; run;
+proc sort data=crr2   ;  by studyid avisit; run;
+
+data child_IgE_IgG00;
+   merge blood2 crr2 (in=c);
+   by studyid avisit;
+   if c=1 then child_ige_igg=1; else child_ige_igg=0;
+
+   avisit_actual=avisit ;
+
+   if avisit in (81,84) then avisit=84 ;
+   if avisit=120 then event="120-Month Clinic Visit" ;
+
+   *if avisit in (81,84) and PBPCB_q17 ne 1 then delete ;
+run;
+
+***Duplicates exist - get rid of them below ;
+proc sort nodupkey data=child_IgE_IgG00 out=cr_clean2 dupout=cr_dups2 ; by studyid avisit;
+run;
+
+data child_IgE_IgG01 ;
+   merge child_IgE_IgG00 shell60 ;
+   by studyid avisit;
+   format site $site.;
+
+*hardcodes here have been removed to protect patient confidentiality;
+
+   if event = '81-Month Clinic Visit' then event = '84-Month Clinic Visit';
+
+    *Move back year 4 to 3 and year 6 to 5;
+     if year=4 then do; 
+         year=3;
+         imp=1;
+     end; 
+
+     if year=6 then do; 
+         year=5;
+         imp=1;
+     end;
+
+     if avisit=48 then avisit=36;
+     if avisit=72 then avisit=60;
+
+     if event='72-Month Clinic Visit' then event='60-Month Clinic Visit';
+     if event='48-Month Clinic Visit' then event='36-Month Clinic Visit';
+
+     if avisit=36 then avisit_actual=36;
+     if avisit=60 then avisit_actual=60;
+
+     label imp = 'Imputed from the following year (flag)';
+
+run ;
+
+proc freq data=child_IgE_IgG01;
+   tables avisit;
+run;
+data child_IgE_IgG01_3;
+   set child_IgE_IgG01;
+
+   where year=3;
+run;
+proc sort data=child_IgE_IgG01_3 out=child_IgE_IgG01_3;
+by studyid ;
+run;
+
+
+data child_IgE_IgG01_3b;
+   set child_IgE_IgG01_3;
+   by studyid;
+
+   if first.studyid then do;
+      if any_aero_ige_ratio=. then delete;
+    end;
+run;
+
+proc sort data=child_IgE_IgG01_3b out=child_IgE_IgG01_3d nodupkey;
+   by studyid year;
+ run; 
+
+data child_IgE_IgG01_5;
+   set child_IgE_IgG01;
+
+   where year=5;
+run;
+proc sort data=child_IgE_IgG01_5 out=child_IgE_IgG01_5;
+by studyid ;
+run;
+
+
+data child_IgE_IgG01_5b;
+   set child_IgE_IgG01_5;
+   by studyid;
+
+   if first.studyid then do;
+      if any_aero_ige_ratio=. then delete;
+    end;
+run;
+
+proc sort data=child_IgE_IgG01_5b out=child_IgE_IgG01_5d nodupkey;
+   by studyid year;
+ run; 
+
+proc sort data=child_IgE_IgG01 out=child_IgE_IgG01c;
+by studyid ;
+where year not in (3,5);
+run;
+
+
+
+*Set datasets;
+data child_IgE_IgG01d;
+   set child_IgE_IgG01c child_IgE_IgG01_3d child_IgE_IgG01_5d;
+run;
+
+***Fixed ;
+proc sort nodupkey data=child_IgE_IgG01d out=cr_clean3 dupout=cr_dups3 ; by studyid avisit;
+run;
+
+proc freq data=child_IgE_IgG01d ;
+   tables avisit year avisit_actual event  ;
+run ;
+
+proc freq data=child_IgE_IgG00 ;
+   tables PBPCB_q17*CRR_q1_1 / list ;
+run ;
+
+proc print data=child_IgE_IgG00 ;
+   var studyid PBPCB_q17 CRR_q1_1 ; 
+   where PBPCB_q17 ne CRR_q1_1 ;
+run ;
+
+***Checking for duplicates - none as of 06/09/2017 ;
+proc sort data=child_IgE_IgG01d nodupkey dupout=dups out=child_IgE_IgG02 ; by studyid year ; run ;
+
+data derive.child_IgE_IgG ;
+   set child_IgE_IgG02 ;
+run ;
+
+proc freq data=derive.child_IgE_IgG ;
+   tables avisit year avisit_actual event  ;
+run ;
+proc means data=derive.child_IgE_IgG n mean min max maxdec=1;
+var total_ige peanut_ige egg_ige milk_ige roach_ige derp_ige derf_ige cat_ige dog_ige mouse_ige alt_ige
+                        asp_ige rag_ige maple_ige oak_ige timg_ige;
+class year;
+run;
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+ %gitGot(repo = https://github.com/RhoInc/sas-codebook,
+         folder = Macros);
+
+%codebook_generic
+        (data = derive.child_IgE_IgG,
+        pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.child_IgE_IgG,*/
+/*          pdfname=child_IgE_IgG,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+/**/
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+ods select Position;
+proc contents data=derive.child_IgE_IgG position; run;
+run;
+ods select default;

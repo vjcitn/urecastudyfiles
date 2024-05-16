@@ -1,0 +1,15 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	557	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CNLSC"", ""CNLSC"")"
+3	4	evid	evid	dbl	numeric	double	3917	0	c(296, 63231)
+4	5	event	event	chr	character	character	9	0	"c(""108-Month Clinic Visit"", ""84-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	5	0	"c(""1.0"", ""1.4"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	10	0	"c("".x"", ""84"")"
+8	9	CNLSC_q1	Nasal Lavage Specimen Collected	dbl	numeric	double	3	553	c(0, 1)
+9	10	CNLSC_q1a	Method Used to Collect the Specimen	dbl	numeric	double	3	3526	c(1, 2)
+10	11	CNLSC_q2b	Time Nasal Lavage Specimen Collected	time	"c(""hms"", ""difftime"")"	double	476	582	c(180, 85800)
+11	12	CNLSC_q3	Child Was Sick	dbl	numeric	double	3	580	c(0, 1)
+12	13	aCompletionDY	Completion Day	dbl	numeric	double	1106	553	c(334, 3855)
+13	14	CNLSCDY	Day Nasal Lavage Specimen Collected	dbl	numeric	double	1110	581	c(334, 3842)

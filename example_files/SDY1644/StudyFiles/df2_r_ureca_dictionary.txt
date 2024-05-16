@@ -1,0 +1,34 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	504	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""DF2"", ""DF2"")"
+3	4	evid	evid	dbl	numeric	double	3367	0	c(24972, 63231)
+4	5	event	event	chr	character	character	7	0	"c(""108-Month Clinic Visit"", ""96-Month Clinic Visit"")"
+5	6	version	version	chr	character	character	3	0	"c(""1.0"", ""1.2"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	8	0	"c("".x"", ""96"")"
+8	9	DF2_q1a1	Number of Years at Current Address	dbl	numeric	double	43	124	c(0, 41)
+9	10	DF2_q1a2	Number of Month Current Address	dbl	numeric	double	15	129	c(0, 11)
+10	11	DF2_q2	Number of People Living in Participant's Home	dbl	numeric	double	18	123	c(1, 18)
+11	12	DF2_q2a	Number of Adults Living in the Participant's Home	dbl	numeric	double	12	123	c(0, 10)
+12	13	DF2_q3	Other Children Living in Household	dbl	numeric	double	3	123	c(0, 1)
+13	14	DF2_q3a	Number of Other Children Living in Household	dbl	numeric	double	12	838	c(1, 11)
+14	15	DF2_q3b1	Age of Youngest Child in Years	dbl	numeric	double	19	838	c(0, 17)
+15	16	DF2_q3b2	Age of Youngest Child in Months	dbl	numeric	double	14	839	c(0, 11)
+16	17	DF2_q3c1	Age of Next Youngest Child in Years	dbl	numeric	double	19	1839	c(0, 17)
+17	18	DF2_q3c2	Age of Next Youngest Child in Months	dbl	numeric	double	13	1839	c(0, 11)
+18	19	DF2_q3d1	Age of Third Youngest Child in Years	dbl	numeric	double	19	2622	c(0, 17)
+19	20	DF2_q3d2	Age of Third Youngest Child in Months	dbl	numeric	double	7	2622	c(0, 10)
+20	21	DF2_q3e1	Age of Fourth Youngest Child in Years	dbl	numeric	double	18	3020	c(0, 17)
+21	22	DF2_q3e2	Age of Fourth Youngest Child in Months	dbl	numeric	double	3	3020	c(0, 9)
+22	23	DF2_q3f1	Age of Fifth Youngest Child in Years	dbl	numeric	double	16	3225	c(2, 17)
+23	24	DF2_q3f2	Age of Fifth Youngest Child in Months	dbl	numeric	double	2	3225	c(0, 0)
+24	25	DF2_q4	Participant - Highest Grade Completed in School	dbl	numeric	double	16	124	c(1, 16)
+25	26	DF2_q5	Participant - Current Marital Status	dbl	numeric	double	9	124	c(1, 8)
+26	27	DF2_q5a1	Participant - Current Marital Status - Specify	chr	character	character	15	0	"c(""""have a boyfriend"""", ""in a relationship wi"")"
+27	28	DF2_q6	Participant Covered by Health Insurance Plan	dbl	numeric	double	3	126	c(0, 1)
+28	29	DF2_q6a	Type of Health Insurance Plan	dbl	numeric	double	4	465	c(1, 3)
+29	30	DF2_q7	Number of Adults with Regular Paying Job Currently	dbl	numeric	double	8	124	c(0, 6)
+30	31	DF2_q8	Total Household Income for the Last Month	dbl	numeric	double	13	182	c(0, 11)
+31	32	DF2_q9	Participant Participates in WIC Program	dbl	numeric	double	3	1952	c(0, 1)
+32	33	aCompletionDY	Completion Day	dbl	numeric	double	883	123	c(1343, 3830)

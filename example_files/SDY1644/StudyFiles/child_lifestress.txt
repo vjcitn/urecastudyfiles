@@ -1,0 +1,129 @@
+%include 'S:\BASESTAT\RhoUtil\gridReset.sas';
+%gridReset(S:\RhoFED\ICAC\Studies\URECA\Prog\Derive);
+
+/*----------------------- Copyright 2017, Rho, Inc.  All rights reserved. ------------------------\
+
+  Study:       ICAC07 URECA
+
+   Program:    child_lifestress.sas
+
+     Purpose:  Create derive dataset from CLSC clinical dataset
+
+     Input:    S:\RhoFED\ICAC\Studies\URECA\Data\Master\clsc.sas7bdat
+
+     Output:   S:\rhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive\child_lifestress.sas7bdat
+
+     Macros:   %TemplateSetup
+
+/-------------------------------------------------------------------------------------------------\
+  Program history:
+\-------------------------------------------------------------------------------------------------/
+
+    Date       Programmer          Description
+    ---------  ------------------  --------------------------------------------------------------
+    17JUL2017  Andrew Moseby       Create
+
+\------------------------------------------------------------------------------------------------*/
+
+*-----   1. Setup   -----*;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=child_lifestress,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+
+*-----   2. Main Body   -----*;
+
+proc sort data = master.clsc out = clsc; by studyid avisit; run;
+data clsc2;
+   set clsc;
+   avisit1 = input(avisit, 8.);
+   drop avisit;
+   where status ^= 'missing';
+
+   
+   lifestress_score = sum(of CLSC_q1 - CLSC_q8); 
+   worst_event_score = sum(of CLSC_q12 - CLSC_q18);
+  * if MLSC_q14a = '' then worst_event_timing = ;
+   traumatic_score = sum(of CLSC_q9 - CLSC_q10);
+
+   if sum(of CLSC_q11a1 - CLSC_q11a3) > 1 then worst_event_timing = 'multiple timepoints';
+      else if CLSC_q11a1 = 1 then worst_event_timing = 'child less than 1 year old';
+      else if CLSC_q11a2 = 1 then worst_event_timing = 'child 1 to 3 years old';
+      else if CLSC_q11a3 = 1 then worst_event_timing = 'child older than 3 years old';
+
+   drop avisit CLSC_q11a1 - CLSC_q11a3;
+   rename clsc_q19 = affected_life;
+run;
+
+*-----   Check for dups - none as of 7/21/17   -----*;
+proc sort data = clsc2(rename = (avisit1=avisit)) out = clsc3 nodupkey dupout=dups; by studyid avisit; run;
+
+data shell;
+   set derive.groups;
+   site = substr(studyid, 4, 2);
+   label site = "Study Site";
+   format site $site.;
+
+   do avisit = 60, 72, 108;
+      if avisit in (60)    then year = 5;
+      if avisit in (72)    then year = 6;
+      if avisit in (108)   then year = 9;
+      output;
+   end;
+   keep studyid recruitid site avisit year;
+run;
+
+proc sort data = shell; by studyid avisit; run;
+
+data child_lifestress;
+   merge shell clsc3(in = done);
+   by studyid avisit;
+   if done then child_lifestress = 1; else child_lifestress = 0;
+   drop api;
+run;
+
+proc sort data = child_lifestress out = derive.child_lifestress; by studyid avisit; run;
+
+/**-----   3. Codebook   -----*;*/
+/*data child_lifestress_cbk;    */
+/*   set locked.child_lifestress;*/
+/*   DROP CLSC_q8a CLSC_q11 ;   *SL 7/21/17 - omit open text field variables from codebook;*/
+/*run;*/
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.child_lifestress
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK
+        );
+
+*-----   4. Save Log and Output   -----*;
+
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+
+proc freq data= derive.child_lifestress; tables avisit*child_lifestress; run;
+proc freq data= master.clsc; tables avisit; run;
+
+
+ods select Position;
+proc contents data=derive.child_lifestress position; run;
+run;
+ods select default;

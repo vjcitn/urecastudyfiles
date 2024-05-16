@@ -1,0 +1,566 @@
+Accession	group	form	version	status	SampleID	aVisit	CR_q1	CR_q2
+SUB230867	Atopic	CR	1.0	complete	655951	b	2.6	
+SUB230880	Atopic	CR	1.0	complete	559664	b	2	
+SUB230881	Atopic	CR	1.0	complete	559663	b	2	
+SUB230882	Atopic	CR	1.0	complete	590475	b	2	
+SUB230883	Atopic	CR	1.0	complete	559666	b	2	
+SUB230884	Atopic	CR	1.0	complete	559661	b	2	
+SUB230885	Atopic	CR	1.0	complete	590472	b	2	
+SUB230886	Atopic	CR	1.0	complete	590473	b	2	
+SUB230887	Atopic	CR	1.0	complete	559665	b	2	10
+SUB230888	Atopic	CR	1.0	complete	572974	b	2	
+SUB230889	Atopic	CR	1.0	complete	590474	b	2	
+SUB230890	Atopic	CR	1.0	complete	598104	b	2	
+SUB230891	Atopic	CR	1.0	complete	590477	b	2	
+SUB230892	Atopic	CR	1.0	complete	572983	b	2	
+SUB230893	Atopic	CR	1.0	complete	559662	b	3	
+SUB230894	Atopic	CR	1.0	complete	590481	b	2	
+SUB230895	Atopic	CR	1.0	complete	559672	b	2	
+SUB230896	Atopic	CR	1.0	complete	598105	b	2	
+SUB230897	Atopic	CR	1.0	complete	572979	b	2	30
+SUB230898	Atopic	CR	1.0	complete	559670	b	2	
+SUB230899	Atopic	CR	1.0	complete	590480	b	2	
+SUB230900	Atopic	CR	1.0	complete	572981	b	4	
+SUB230901	Atopic	CR	1.0	complete	572977	b	3	
+SUB230902	Atopic	CR	1.0	complete	559671	b	1	
+SUB230903	Atopic	CR	1.0	complete	590479	b	3	
+SUB230904	Atopic	CR	1.0	complete	572980	b	2	
+SUB230905	Atopic	CR	1.0	complete	590485	b	2	
+SUB230906	Atopic	CR	1.0	complete	572982	b	2	39.4
+SUB230907	Atopic	CR	1.0	complete	590478	b	2	
+SUB230908	Atopic	CR	1.0	complete	590476	b	1	
+SUB230909	Atopic	CR	1.0	complete	572986	b	2	
+SUB230910	Atopic	CR	1.0	complete	572978	b	1	
+SUB230911	Atopic	CR	1.0	complete	559673	b	2	35.6
+SUB230912	Atopic	CR	1.0	complete	598106	b	2	8.2
+SUB230913	Atopic	CR	1.0	complete	572985	b	2	
+SUB230914	Atopic	CR	1.0	complete	590482	b	1	20.7
+SUB230915	Atopic	CR	1.0	complete	559677	b	1	
+SUB230916	Atopic	CR	1.0	complete	572976	b	2	
+SUB230917	Atopic	CR	1.0	complete	559667	b	2	
+SUB230918	Atopic	CR	1.0	complete	559668	b	2	
+SUB230919	Atopic	CR	1.0	complete	559674	b	2	
+SUB230921	Atopic	CR	1.0	complete	590483	b	1	42.9
+SUB230922	Atopic	CR	1.0	complete	559678	b	2	
+SUB230923	Atopic	CR	1.0	complete	559675	b	2	
+SUB230924	Atopic	CR	1.0	complete	572984	b	2	
+SUB230925	Atopic	CR	1.0	complete	590484	b	2	
+SUB230926	Atopic	CR	1.0	complete	572975	b	1	
+SUB230927	Atopic	CR	1.0	complete	590489	b	2	
+SUB230928	Atopic	CR	1.0	complete	572992	b	1	
+SUB230929	Atopic	CR	1.0	complete	590487	b	2	50.4
+SUB230930	Atopic	CR	1.0	complete	590490	b	3	
+SUB230931	Atopic	CR	1.0	complete	572993	b	2	
+SUB230932	Atopic	CR	1.0	complete	572987	b	2	69.8
+SUB230933	Atopic	CR	1.0	complete	559676	b	1	
+SUB230934	Atopic	CR	1.0	complete	598108	b	2	
+SUB230935	Atopic	CR	1.0	complete	572989	b	2	47.4
+SUB230936	Atopic	CR	1.0	complete	598107	b	1	
+SUB230937	Atopic	CR	1.0	complete	590491	b	2	
+SUB230938	Atopic	CR	1.0	complete	590492	b	3	
+SUB230939	Atopic	CR	1.0	complete	590486	b	3	
+SUB230940	Atopic	CR	1.0	complete	572990	b	2	
+SUB230941	Atopic	CR	1.0	complete	559685	b	2	
+SUB230942	Atopic	CR	1.0	complete	559681	b	2	
+SUB230943	Atopic	CR	1.0	complete	598111	b	2	
+SUB230944	Atopic	CR	1.0	complete	572991	b	2	
+SUB230945	Atopic	CR	1.0	complete	572994	b	1	
+SUB230946	Atopic	CR	1.0	complete	559669	b	2	66.4
+SUB230947	Atopic	CR	1.0	complete	590493	b	2	
+SUB230948	Atopic	CR	1.0	complete	572988	b	2	
+SUB230949	Atopic	CR	1.0	complete	598110	b	2	
+SUB230950	Atopic	CR	1.0	complete	590500	b	2	
+SUB230951	Atopic	CR	1.0	complete	559679	b	2	
+SUB230952	Atopic	CR	1.0	complete	559686	b	2	
+SUB230953	Atopic	CR	1.0	complete	559687	b	2	
+SUB230954	Atopic	CR	1.0	complete	573000	b	2	
+SUB230955	Atopic	CR	1.0	complete	572999	b	2	
+SUB230956	Atopic	CR	1.0	complete	559689	b	2	
+SUB230957	Atopic	CR	1.0	complete	590488	b	3	
+SUB230958	Atopic	CR	1.0	complete	590501	b	2	
+SUB230959	Atopic	CR	1.0	complete	590497	b	2	
+SUB230960	Atopic	CR	1.0	complete	598109	b	2	
+SUB230961	Atopic	CR	1.0	complete	559680	b	2	
+SUB230962	Atopic	CR	1.0	complete	590503	b	1	18.1
+SUB230963	Atopic	CR	1.0	complete	590494	b	2	63.4
+SUB230964	Atopic	CR	1.0	complete	572997	b	2	
+SUB230965	Atopic	CR	1.0	complete	598114	b	4	
+SUB230966	Atopic	CR	1.0	complete	559682	b	2	
+SUB230967	Atopic	CR	1.0	complete	559683	b	1	
+SUB230968	Atopic	CR	1.0	complete	590499	b	6	
+SUB230969	Atopic	CR	1.0	complete	590498	b	2	
+SUB230970	Atopic	CR	1.0	complete	590495	b	2	
+SUB230971	Atopic	CR	1.0	complete	559690	b	2	
+SUB230972	Atopic	CR	1.0	complete	573004	b	2	
+SUB230973	Atopic	CR	1.0	complete	573003	b	1	
+SUB230974	Atopic	CR	1.0	complete	572995	b	2	89.2
+SUB230975	Atopic	CR	1.0	complete	590496	b	2	
+SUB230976	Atopic	CR	1.0	complete	590502	b	2	
+SUB230977	Atopic	CR	1.0	complete	598115	b	2	
+SUB230978	Atopic	CR	1.0	complete	573006	b	3	
+SUB230979	Atopic	CR	1.0	complete	572996	b	1	
+SUB230980	Atopic	CR	1.0	complete	590504	b	4	
+SUB230981	Atopic	CR	1.0	complete	559684	b	2	
+SUB230982	Atopic	CR	1.0	complete	559688	b	2	
+SUB230983	Atopic	CR	1.0	complete	573008	b	3	
+SUB230984	Atopic	CR	1.0	complete	590505	b	1	13
+SUB230985	Atopic	CR	1.0	complete	559693	b	2	
+SUB230986	Atopic	CR	1.0	complete	573005	b	2	63
+SUB230987	Atopic	CR	1.0	complete	559692	b	2	
+SUB230988	Atopic	CR	1.0	complete	598112	b	2	
+SUB230989	Atopic	CR	1.0	complete	559694	b	2	
+SUB230990	Atopic	CR	1.0	complete	559696	b	2	
+SUB230991	Atopic	CR	1.0	complete	573010	b	2	
+SUB230992	Atopic	CR	1.0	complete	573002	b	2	
+SUB230993	Atopic	CR	1.0	complete	572998	b	2	
+SUB230994	Atopic	CR	1.0	complete	559697	b	2	3.4
+SUB230995	Atopic	CR	1.0	complete	590510	b	1	
+SUB230996	Atopic	CR	1.0	complete	573001	b	1	
+SUB230997	Atopic	CR	1.0	complete	559695	b	2	
+SUB230998	Atopic	CR	1.0	complete	598120	b	2	
+SUB230999	Non-atopic	CR	1.0	complete	598118	b	5	
+SUB231000	Atopic	CR	1.0	complete	573007	b	3	
+SUB231001	Atopic	CR	1.0	complete	559691	b	2	
+SUB231002	Atopic	CR	1.0	complete	590514	b	2	
+SUB231003	Atopic	CR	1.0	complete	590509	b	2	
+SUB231004	Atopic	CR	1.0	complete	590512	b	2	
+SUB231005	Atopic	CR	1.0	complete	590513	b	2	
+SUB231006	Atopic	CR	1.0	complete	598113	b	2	
+SUB231007	Atopic	CR	1.0	complete	573011	b	2	45
+SUB231008	Atopic	CR	1.0	complete	590508	b	1	
+SUB231009	Atopic	CR	1.0	complete	573012	b	2	
+SUB231010	Non-atopic	CR	1.0	complete	559700	b	2	
+SUB231011	Atopic	CR	1.0	complete	559701	b	2	
+SUB231012	Atopic	CR	1.0	complete	590507	b	3	21.9
+SUB231013	Atopic	CR	1.0	complete	598117	b	2	
+SUB231014	Atopic	CR	1.0	complete	598121	b	2	
+SUB231015	Non-atopic	CR	1.0	complete	559699	b	2	
+SUB231016	Atopic	CR	1.0	complete	573009	b	2	
+SUB231017	Non-atopic	CR	1.0	complete	590511	b	2	
+SUB231018	Atopic	CR	1.0	complete	598116	b	2	61.6
+SUB231019	Atopic	CR	1.0	complete	590506	b	2	
+SUB231020	Atopic	CR	1.0	complete	598122	b	3	
+SUB231021	Atopic	CR	1.0	complete	559698	b	2	171
+SUB231022	Non-atopic	CR	1.0	complete	598119	b	2	
+SUB231023	Non-atopic	CR	1.0	complete	573014	b	2	
+SUB231024	Non-atopic	CR	1.0	complete	573013	b	1	
+SUB231025	Atopic	CR	1.0	complete	590515	b	2	182.8
+SUB231026	Atopic	CR	1.0	complete	590516	b	2	
+SUB231032	Atopic	CR	1.0	complete	561213	b	2	31.2
+SUB231033	Atopic	CR	1.0	complete	598123	b	2	
+SUB231034	Atopic	CR	1.0	complete	573018	b	2	
+SUB231035	Atopic	CR	1.0	complete	590517	b	2	
+SUB231036	Atopic	CR	1.0	complete	573016	b	2	
+SUB231037	Atopic	CR	1.0	complete	598126	b	2	
+SUB231038	Atopic	CR	1.0	complete	559702	b	2	
+SUB231039	Atopic	CR	1.0	complete	573019	b	2	
+SUB231040	Atopic	CR	1.0	complete	590520	b	2	106.4
+SUB231041	Atopic	CR	1.0	complete	590525	b	2	
+SUB231042	Atopic	CR	1.0	complete	561219	b	1	
+SUB231043	Atopic	CR	1.0	complete	598129	b	2	69.2
+SUB231044	Atopic	CR	1.0	complete	590526	b	2	
+SUB231045	Atopic	CR	1.0	complete	561214	b	2	
+SUB231046	Atopic	CR	1.0	complete	573020	b	2	
+SUB231047	Atopic	CR	1.0	complete	573015	b	2	
+SUB231048	Atopic	CR	1.0	complete	590524	b	2	
+SUB231049	Atopic	CR	1.0	complete	561218	b	2	
+SUB231050	Atopic	CR	1.0	complete	590519	b	2	
+SUB231051	Atopic	CR	1.0	complete	590518	b	2	
+SUB231052	Atopic	CR	1.0	complete	573017	b	2	
+SUB231053	Atopic	CR	1.0	complete	573024	b	2	
+SUB231054	Atopic	CR	1.0	complete	598124	b	2	
+SUB231055	Atopic	CR	1.0	complete	573021	b	2	
+SUB231056	Atopic	CR	1.0	complete	590523	b	2	
+SUB231057	Atopic	CR	1.0	complete	561220	b	2	91.2
+SUB231058	Atopic	CR	1.0	complete	561215	b	2	
+SUB231059	Atopic	CR	1.0	complete	598125	b	2	
+SUB231060	Atopic	CR	1.0	complete	598127	b	2	13.6
+SUB231061	Atopic	CR	1.0	complete	590527	b	2	
+SUB231062	Atopic	CR	1.0	complete	590522	b	2	
+SUB231063	Atopic	CR	1.0	complete	561216	b	2	
+SUB231064	Atopic	CR	1.0	complete	561217	b	2	
+SUB231065	Atopic	CR	1.0	complete	598130	b	2	118.4
+SUB231066	Atopic	CR	1.0	complete	598128	b	2	
+SUB231067	Atopic	CR	1.0	complete	561221	b	2	
+SUB231068	Atopic	CR	1.0	complete	561223	b	2	103.4
+SUB231069	Atopic	CR	1.0	complete	573032	b	2	19.9
+SUB231070	Atopic	CR	1.0	complete	573029	b	2	
+SUB231071	Atopic	CR	1.0	complete	598135	b	2	
+SUB231072	Atopic	CR	1.0	complete	573033	b	2	
+SUB231073	Atopic	CR	1.0	complete	559703	b	2	
+SUB231074	Atopic	CR	1.0	complete	590531	b	2	
+SUB231075	Atopic	CR	1.0	complete	573022	b	2	
+SUB231076	Atopic	CR	1.0	complete	573023	b	2	
+SUB231077	Atopic	CR	1.0	complete	573026	b	2	
+SUB231078	Atopic	CR	1.0	complete	561225	b	2	
+SUB231079	Atopic	CR	1.0	complete	598132	b	2	
+SUB231080	Atopic	CR	1.0	complete	598131	b	2	
+SUB231081	Atopic	CR	1.0	complete	573025	b	2	
+SUB231082	Atopic	CR	1.0	complete	598133	b	2	
+SUB231083	Atopic	CR	1.0	complete	590529	b	2	
+SUB231084	Atopic	CR	1.0	complete	573028	b	2	
+SUB231085	Atopic	CR	1.0	complete	573040	b	2	
+SUB231086	Atopic	CR	1.0	complete	573027	b	2	
+SUB231087	Atopic	CR	1.0	complete	573038	b	2	
+SUB231088	Atopic	CR	1.0	complete	561222	b	2	
+SUB231089	Atopic	CR	1.0	complete	590533	b	2	
+SUB231090	Atopic	CR	1.0	complete	590528	b	2	
+SUB231091	Atopic	CR	1.0	complete	598136	b	2	
+SUB231092	Atopic	CR	1.0	complete	561224	b	2	
+SUB231093	Atopic	CR	1.0	complete	590530	b	2	197
+SUB231094	Atopic	CR	1.0	complete	598134	b	2	
+SUB231095	Atopic	CR	1.0	complete	598137	b	2	
+SUB231096	Atopic	CR	1.0	complete	598141	b	2	
+SUB231097	Atopic	CR	1.0	complete	573036	b	2	
+SUB231098	Atopic	CR	1.0	complete	573041	b	2	
+SUB231099	Atopic	CR	1.0	complete	561230	b	2	
+SUB231100	Atopic	CR	1.0	complete	561229	b	2	
+SUB231101	Atopic	CR	1.0	complete	598140	b	2	
+SUB231102	Atopic	CR	1.0	complete	598139	b	2	
+SUB231103	Atopic	CR	1.0	complete	573034	b	2	
+SUB231104	Atopic	CR	1.0	complete	573035	b	2	
+SUB231105	Atopic	CR	1.0	complete	598138	b	2	46.6
+SUB231106	Atopic	CR	1.0	complete	561226	b	2	
+SUB231107	Atopic	CR	1.0	complete	573044	b	2	
+SUB231108	Atopic	CR	1.0	complete	573046	b	2	
+SUB231109	Atopic	CR	1.0	complete	598144	b	2	
+SUB231110	Atopic	CR	1.0	complete	573042	b	2	
+SUB231111	Atopic	CR	1.0	complete	561227	b	2	
+SUB231113	Atopic	CR	1.0	complete	590538	b	2	
+SUB231114	Atopic	CR	1.0	complete	590543	b	2	
+SUB231115	Atopic	CR	1.0	complete	561228	b	2	
+SUB231116	Atopic	CR	1.0	complete	590545	b	2	
+SUB231117	Atopic	CR	1.0	complete	590535	b	2	31.4
+SUB231118	Atopic	CR	1.0	complete	561235	b	2	
+SUB231119	Atopic	CR	1.0	complete	561244	b	2	
+SUB231120	Atopic	CR	1.0	complete	598149	b	2	97.8
+SUB231121	Atopic	CR	1.0	complete	590536	b	2	
+SUB231122	Atopic	CR	1.0	complete	573039	b	2	
+SUB231123	Atopic	CR	1.0	complete	590534	b	2	
+SUB231124	Atopic	CR	1.0	complete	573037	b	2	
+SUB231125	Atopic	CR	1.0	complete	590532	b	2	
+SUB231126	Atopic	CR	1.0	complete	573043	b	2	
+SUB231127	Atopic	CR	1.0	complete	561243	b	2	
+SUB231128	Atopic	CR	1.0	complete	598152	b	2	20
+SUB231129	Non-atopic	CR	1.0	complete	590548	b	2	
+SUB231130	Atopic	CR	1.0	complete	573045	b	3	
+SUB231131	Atopic	CR	1.0	complete	590539	b	2	
+SUB231132	Atopic	CR	1.0	complete	598143	b	2	
+SUB231133	Atopic	CR	1.0	complete	598146	b	2	
+SUB231134	Atopic	CR	1.0	complete	561247	b	2	
+SUB231135	Atopic	CR	1.0	complete	561233	b	2	44.8
+SUB231136	Atopic	CR	1.0	complete	561237	b	2	
+SUB231137	Atopic	CR	1.0	complete	590537	b	2	
+SUB231138	Atopic	CR	1.0	complete	561231	b	2	
+SUB231139	Atopic	CR	1.0	complete	590540	b	2	
+SUB231140	Atopic	CR	1.0	complete	598148	b	2	
+SUB231141	Atopic	CR	1.0	complete	561234	b	2	
+SUB231142	Atopic	CR	1.0	complete	573050	b	2	116.8
+SUB231143	Non-atopic	CR	1.0	complete	561236	b	2	
+SUB231144	Atopic	CR	1.0	complete	590549	b	2	
+SUB231145	Non-atopic	CR	1.0	complete	598147	b	2	
+SUB231146	Atopic	CR	1.0	complete	598145	b	2	
+SUB231147	Non-atopic	CR	1.0	complete	573053	b	2	
+SUB231148	Atopic	CR	1.0	complete	590541	b	2	
+SUB231149	Atopic	CR	1.0	complete	559704	b	3	
+SUB231150	Atopic	CR	1.0	complete	590544	b	2	
+SUB231151	Non-atopic	CR	1.0	complete	573048	b	2	
+SUB231152	Atopic	CR	1.0	complete	561232	b	2	
+SUB231153	Non-atopic	CR	1.0	complete	590546	b	2	
+SUB231154	Non-atopic	CR	1.0	complete	590542	b	2	
+SUB231155	Atopic	CR	1.0	complete	561240	b	2	
+SUB231156	Non-atopic	CR	1.0	complete	573051	b	2	
+SUB231157	Non-atopic	CR	1.0	complete	573052	b	2	
+SUB231158	Non-atopic	CR	1.0	complete	561238	b	2	
+SUB231159	Atopic	CR	1.0	complete	598150	b	2	10.8
+SUB231160	Atopic	CR	1.0	complete	590547	b	2	
+SUB231161	Atopic	CR	1.0	complete	573047	b	2	
+SUB231162	Atopic	CR	1.0	complete	598151	b	2	
+SUB231163	Atopic	CR	1.0	complete	561239	b	2	
+SUB231164	Atopic	CR	1.0	complete	561245	b	2	
+SUB231165	Atopic	CR	1.0	complete	561241	b	2	
+SUB231166	Atopic	CR	1.0	complete	561242	b	2	128.2
+SUB231167	Atopic	CR	1.0	complete	573049	b	2	
+SUB231168	Atopic	CR	1.0	complete	561246	b	2	
+SUB231169	Non-atopic	CR	1.0	complete	598153	b	2	
+SUB231170	Non-atopic	CR	1.0	complete	590550	b	3	
+SUB231171	Non-atopic	CR	1.0	complete	598154	b	2	
+SUB231172	Non-atopic	CR	1.0	complete	590551	b	2	
+SUB231176	Atopic	CR	1.0	complete	655948	b	5	
+SUB231179	Atopic	CR	1.0	complete	590555	b	2	
+SUB231182	Atopic	CR	1.0	complete	561250	b	2	70
+SUB231183	Atopic	CR	1.0	complete	561249	b	7	
+SUB231184	Atopic	CR	1.0	complete	573058	b	2	
+SUB231185	Atopic	CR	1.0	complete	590552	b	2	
+SUB231186	Atopic	CR	1.0	complete	590556	b	2	
+SUB231187	Atopic	CR	1.0	complete	561248	b	2	
+SUB231188	Atopic	CR	1.0	complete	590559	b	2	
+SUB231189	Atopic	CR	1.0	complete	573061	b	3	
+SUB231190	Atopic	CR	1.0	complete	590553	b	2	80
+SUB231191	Atopic	CR	1.0	complete	573920	b	3	
+SUB231192	Atopic	CR	1.0	complete	573059	b	2	
+SUB231193	Atopic	CR	1.0	complete	590565	b	2	
+SUB231194	Atopic	CR	1.0	complete	590554	b	3	
+SUB231195	Atopic	CR	1.0	complete	598155	b	2	
+SUB231196	Atopic	CR	1.0	complete	573054	b	2	
+SUB231197	Atopic	CR	1.0	complete	590558	b	3	
+SUB231198	Atopic	CR	1.0	complete	561252	b	2	
+SUB231199	Atopic	CR	1.0	complete	590557	b	2	68
+SUB231200	Atopic	CR	1.0	complete	598158	b	2	
+SUB231201	Atopic	CR	1.0	complete	573055	b	2	
+SUB231202	Atopic	CR	1.0	complete	590561	b	2	
+SUB231203	Atopic	CR	1.0	complete	561251	b	2	
+SUB231204	Atopic	CR	1.0	complete	573060	b	2	
+SUB231205	Atopic	CR	1.0	complete	561258	b	2	
+SUB231206	Atopic	CR	1.0	complete	561254	b	2	
+SUB231207	Atopic	CR	1.0	complete	573063	b	2	144
+SUB231208	Atopic	CR	1.0	complete	598160	b	2	
+SUB231209	Atopic	CR	1.0	complete	561262	b	3	
+SUB231210	Atopic	CR	1.0	complete	590563	b	2	
+SUB231211	Atopic	CR	1.0	complete	561253	b	2	
+SUB231212	Atopic	CR	1.0	complete	561259	b	2	
+SUB231213	Atopic	CR	1.0	complete	573062	b	2	
+SUB231214	Atopic	CR	1.0	complete	590560	b	3	191.7
+SUB231215	Atopic	CR	1.0	complete	598156	b	3	
+SUB231216	Atopic	CR	1.0	complete	561261	b	3	
+SUB231217	Atopic	CR	1.0	complete	561266	b	2	
+SUB231218	Atopic	CR	1.0	complete	590568	b	2	38.2
+SUB231219	Atopic	CR	1.0	complete	561265	b	2	43.2
+SUB231220	Atopic	CR	1.0	complete	561255	b	4	
+SUB231221	Atopic	CR	1.0	complete	598164	b	2	
+SUB231222	Atopic	CR	1.0	complete	573065	b	2	
+SUB231223	Atopic	CR	1.0	complete	590570	b	2	
+SUB231224	Atopic	CR	1.0	complete	561256	b	2	
+SUB231225	Atopic	CR	1.0	complete	573066	b	3	
+SUB231226	Atopic	CR	1.0	complete	573064	b	2	
+SUB231227	Atopic	CR	1.0	complete	561268	b	2	
+SUB231228	Atopic	CR	1.0	complete	590564	b	2	
+SUB231229	Atopic	CR	1.0	complete	598159	b	2	
+SUB231230	Atopic	CR	1.0	complete	561263	b	2	
+SUB231231	Atopic	CR	1.0	complete	598157	b	2	
+SUB231232	Atopic	CR	1.0	complete	561260	b	2	
+SUB231233	Atopic	CR	1.0	complete	541149	b	2.5	
+SUB231234	Atopic	CR	1.0	complete	590562	b	2	108.6
+SUB231235	Atopic	CR	1.0	complete	541151	b	3.4	
+SUB231236	Atopic	CR	1.0	complete	541150	b	2.3	
+SUB231237	Atopic	CR	1.0	complete	561257	b	2	
+SUB231238	Atopic	CR	1.0	complete	590566	b	2	
+SUB231239	Atopic	CR	1.0	complete	573070	b	2	
+SUB231240	Atopic	CR	1.0	complete	598163	b	2	30.4
+SUB231241	Atopic	CR	1.0	complete	541156	b	2.1	
+SUB231242	Atopic	CR	1.0	complete	541160	b	2	
+SUB231243	Atopic	CR	1.0	complete	541152	b	2	
+SUB231244	Atopic	CR	1.0	complete	598161	b	1	
+SUB231246	Atopic	CR	1.0	complete	590567	b	2	
+SUB231247	Atopic	CR	1.0	complete	573067	b	2	
+SUB231248	Atopic	CR	1.0	complete	573068	b	3	
+SUB231249	Atopic	CR	1.0	complete	561264	b	2	
+SUB231250	Atopic	CR	1.0	complete	573075	b	2	
+SUB231251	Atopic	CR	1.0	complete	598165	b	4	
+SUB231252	Atopic	CR	1.0	complete	541164	b	2.6	27
+SUB231253	Atopic	CR	1.0	complete	541157	b	2.1	
+SUB231254	Atopic	CR	1.0	complete	541155	b	2.1	
+SUB231255	Atopic	CR	1.0	complete	590569	b	1	
+SUB231256	Atopic	CR	1.0	complete	590572	b	2	
+SUB231257	Atopic	CR	1.0	complete	598162	b	2	
+SUB231258	Atopic	CR	1.0	complete	573072	b	7	
+SUB231259	Atopic	CR	1.0	complete	573073	b	2	
+SUB231260	Atopic	CR	1.0	complete	541173	b	2.7	
+SUB231261	Atopic	CR	1.0	complete	573071	b	2	
+SUB231262	Atopic	CR	1.0	complete	573074	b	2	
+SUB231263	Atopic	CR	1.0	complete	573069	b	1	
+SUB231264	Atopic	CR	1.0	complete	590571	b	3	
+SUB231265	Atopic	CR	1.0	complete	561267	b	2	
+SUB231266	Atopic	CR	1.0	complete	541175	b	2	15.6
+SUB231269	Atopic	CR	1.0	complete	541153	b	2.5	
+SUB231270	Atopic	CR	1.0	complete	541165	b	2.6	
+SUB231271	Atopic	CR	1.0	complete	541167	b	3.5	
+SUB231272	Atopic	CR	1.0	complete	541166	b	2	
+SUB231273	Atopic	CR	1.0	complete	541172	b	2.1	
+SUB231274	Atopic	CR	1.0	complete	541154	b	2	
+SUB231276	Atopic	CR	1.0	complete	541159	b	2	32.6
+SUB231277	Non-atopic	CR	1.0	complete	541174	b	2	
+SUB231278	Non-atopic	CR	1.0	complete	541170	b	2	
+SUB231279	Atopic	CR	1.0	complete	541180	b	2	
+SUB231280	Non-atopic	CR	1.0	complete	541158	b	2	
+SUB231281	Atopic	CR	1.0	complete	541162	b	2.3	
+SUB231282	Atopic	CR	1.0	complete	541169	b	2	
+SUB231283	Atopic	CR	1.0	complete	541161	b	2.2	
+SUB231284	Atopic	CR	1.0	complete	541163	b	2	
+SUB231285	Non-atopic	CR	1.0	complete	541181	b	2	
+SUB231286	Atopic	CR	1.0	complete	541168	b	2	
+SUB231287	Non-atopic	CR	1.0	complete	541177	b	2	
+SUB231288	Atopic	CR	1.0	complete	541176	b	2.3	
+SUB231289	Atopic	CR	1.0	complete	541171	b	2	
+SUB231290	Atopic	CR	1.0	complete	541178	b	2	25.2
+SUB231291	Atopic	CR	1.0	complete	541179	b	2	
+SUB231292	Atopic	CR	1.0	complete	541182	b	2.3	
+SUB231294	Atopic	CR	1.0	complete	655949	b	2	
+SUB231303	Atopic	CR	1.0	complete	541196	b	2	10.4
+SUB231304	Atopic	CR	1.0	complete	541186	b	2	46.2
+SUB231305	Atopic	CR	1.0	complete	573078	b	2	
+SUB231306	Atopic	CR	1.0	complete	541191	b	2.6	
+SUB231307	Atopic	CR	1.0	complete	541184	b	2.14	
+SUB231308	Atopic	CR	1.0	complete	541203	b	2.5	28.2
+SUB231309	Atopic	CR	1.0	complete	541192	b	2	
+SUB231310	Atopic	CR	1.0	complete	541189	b	2	
+SUB231311	Atopic	CR	1.0	complete	541210	b	2.1	
+SUB231312	Atopic	CR	1.0	complete	541200	b	3.2	
+SUB231313	Atopic	CR	1.0	complete	541209	b	2.1	30.2
+SUB231314	Atopic	CR	1.0	complete	541207	b	2	
+SUB231315	Atopic	CR	1.0	complete	541199	b	2.1	
+SUB231316	Atopic	CR	1.0	complete	541188	b	2	47.6
+SUB231317	Atopic	CR	1.0	complete	541211	b	2	
+SUB231318	Atopic	CR	1.0	complete	541197	b	2	58.2
+SUB231319	Atopic	CR	1.0	complete	541204	b	2	122.2
+SUB231320	Atopic	CR	1.0	complete	541202	b	2	
+SUB231321	Atopic	CR	1.0	complete	541195	b	2	
+SUB231322	Atopic	CR	1.0	complete	541183	b	5	
+SUB231323	Atopic	CR	1.0	complete	541185	b	2	30.2
+SUB231324	Atopic	CR	1.0	complete	541198	b	2	
+SUB231325	Atopic	CR	1.0	complete	541206	b	2	13.8
+SUB231326	Atopic	CR	1.0	complete	541187	b	2.26	
+SUB231327	Atopic	CR	1.0	complete	541213	b	2	
+SUB231328	Atopic	CR	1.0	complete	541190	b	2	49
+SUB231329	Atopic	CR	1.0	complete	541214	b	2	
+SUB231330	Atopic	CR	1.0	complete	541221	b	2.29	
+SUB231331	Atopic	CR	1.0	complete	541220	b	2.25	
+SUB231332	Atopic	CR	1.0	complete	541223	b	2	
+SUB231333	Atopic	CR	1.0	complete	541229	b	2	
+SUB231334	Atopic	CR	1.0	complete	541194	b	2	
+SUB231335	Atopic	CR	1.0	complete	541218	b	2.1	
+SUB231336	Atopic	CR	1.0	complete	541216	b	3.17	
+SUB231337	Atopic	CR	1.0	complete	541208	b	2	38.4
+SUB231338	Atopic	CR	1.0	complete	541228	b	2	46.5
+SUB231339	Atopic	CR	1.0	complete	541193	b	2	
+SUB231340	Atopic	CR	1.0	complete	541205	b	2	
+SUB231341	Atopic	CR	1.0	complete	541201	b	2	
+SUB231342	Atopic	CR	1.0	complete	541233	b	2	
+SUB231343	Atopic	CR	1.0	complete	541240	b	2	
+SUB231344	Atopic	CR	1.0	complete	541239	b	2	
+SUB231345	Atopic	CR	1.0	complete	541226	b	2.29	
+SUB231346	Atopic	CR	1.0	complete	541245	b	2	
+SUB231347	Atopic	CR	1.0	complete	541249	b	2.1	
+SUB231348	Atopic	CR	1.0	complete	541248	b	2	
+SUB231349	Atopic	CR	1.0	complete	541234	b	2.1	
+SUB231350	Atopic	CR	1.0	complete	541246	b	2.7	
+SUB231351	Atopic	CR	1.0	complete	541244	b	2.33	
+SUB231352	Atopic	CR	1.0	complete	541224	b	2	
+SUB231353	Atopic	CR	1.0	complete	541225	b	2	57.8
+SUB231354	Atopic	CR	1.0	complete	541243	b	2.67	
+SUB231355	Atopic	CR	1.0	complete	541227	b	2	
+SUB231356	Atopic	CR	1.0	complete	541236	b	2	77.8
+SUB231357	Atopic	CR	1.0	complete	541231	b	5	
+SUB231358	Atopic	CR	1.0	complete	541215	b	2.33	
+SUB231359	Atopic	CR	1.0	complete	541232	b	3.5	
+SUB231360	Atopic	CR	1.0	complete	541212	b	2.25	
+SUB231361	Atopic	CR	1.0	complete	541222	b	3	11.4
+SUB231362	Atopic	CR	1.0	complete	541237	b	2	
+SUB231363	Atopic	CR	1.0	complete	541242	b	5	
+SUB231364	Atopic	CR	1.0	complete	525968	b	1.8	
+SUB231365	Atopic	CR	1.0	complete	525966	b	2.14	105
+SUB231366	Atopic	CR	1.0	complete	541241	b	2.05	
+SUB231367	Atopic	CR	1.0	complete	541238	b	2	
+SUB231368	Atopic	CR	1.0	complete	541247	b	2.05	
+SUB231369	Atopic	CR	1.0	complete	541235	b	2	
+SUB231370	Atopic	CR	1.0	complete	525970	b	1.9	
+SUB231371	Atopic	CR	1.0	complete	525972	b	2.17	68.6
+SUB231372	Atopic	CR	1.0	complete	525965	b	2	
+SUB231373	Atopic	CR	1.0	complete	525974	b	2	79.8
+SUB231374	Atopic	CR	1.0	complete	525961	b	2	
+SUB231375	Atopic	CR	1.0	complete	525963	b	1.9	200.1
+SUB231376	Atopic	CR	1.0	complete	525977	b	2.14	
+SUB231377	Atopic	CR	1.0	complete	525969	b	2.14	
+SUB231378	Atopic	CR	1.0	complete	525979	b	2.04	
+SUB231379	Atopic	CR	1.0	complete	525985	b	2.11	
+SUB231380	Atopic	CR	1.0	complete	541230	b	2.05	
+SUB231381	Atopic	CR	1.0	complete	525987	b	1.97	
+SUB231382	Atopic	CR	1.0	complete	525978	b	1.9	55.4
+SUB231383	Atopic	CR	1.0	complete	525962	b	2.05	
+SUB231384	Atopic	CR	1.0	complete	525967	b	2	
+SUB231385	Atopic	CR	1.0	complete	525986	b	2.32	
+SUB231386	Atopic	CR	1.0	complete	525982	b	2.05	
+SUB231387	Atopic	CR	1.0	complete	525983	b	2.1	
+SUB231388	Atopic	CR	1.0	complete	541217	b	2	
+SUB231389	Atopic	CR	1.0	complete	525973	b	2	39.6
+SUB231390	Atopic	CR	1.0	complete	525964	b	2.05	
+SUB231391	Atopic	CR	1.0	complete	525971	b	2.03	
+SUB231392	Atopic	CR	1.0	complete	525975	b	2	
+SUB231393	Atopic	CR	1.0	complete	541219	b	2.25	
+SUB231394	Atopic	CR	1.0	complete	525990	b	2	
+SUB231395	Atopic	CR	1.0	complete	525996	b	2	48.2
+SUB231396	Atopic	CR	1.0	complete	525991	b	2	
+SUB231397	Atopic	CR	1.0	complete	525989	b	2.05	
+SUB231398	Atopic	CR	1.0	complete	525998	b	2	
+SUB231399	Atopic	CR	1.0	complete	525995	b	2.05	
+SUB231400	Atopic	CR	1.0	complete	525994	b	2.1	70
+SUB231401	Atopic	CR	1.0	complete	526000	b	2	
+SUB231402	Atopic	CR	1.0	complete	525992	b	2	
+SUB231403	Atopic	CR	1.0	complete	525993	b	2	
+SUB231404	Atopic	CR	1.0	complete	525981	b	1.9	
+SUB231405	Atopic	CR	1.0	complete	526007	b	2.04	
+SUB231406	Atopic	CR	1.0	complete	526004	b	2.02	
+SUB231407	Atopic	CR	1.0	complete	525997	b	2.08	
+SUB231408	Atopic	CR	1.0	complete	526002	b	2	
+SUB231409	Atopic	CR	1.0	complete	526003	b	2	
+SUB231410	Atopic	CR	1.0	complete	525999	b	2.1	
+SUB231411	Atopic	CR	1.0	complete	526015	b	2	
+SUB231412	Atopic	CR	1.0	complete	526012	b	2	
+SUB231413	Atopic	CR	1.0	complete	526013	b	2.2	
+SUB231414	Atopic	CR	1.0	complete	525988	b	2	
+SUB231415	Non-atopic	CR	1.0	complete	526014	b	2	52
+SUB231416	Atopic	CR	1.0	complete	525980	b	2.8	
+SUB231417	Atopic	CR	1.0	complete	526009	b	2	
+SUB231418	Atopic	CR	1.0	complete	526023	b	2	
+SUB231419	Atopic	CR	1.0	complete	526022	b	2	
+SUB231420	Atopic	CR	1.0	complete	526005	b	3.56	24.2
+SUB231421	Atopic	CR	1.0	complete	526010	b	2	
+SUB231422	Atopic	CR	1.0	complete	526017	b	2.1	25.8
+SUB231423	Atopic	CR	1.0	complete	525984	b	2.18	
+SUB231424	Atopic	CR	1.0	complete	525976	b	2.05	
+SUB231425	Non-atopic	CR	1.0	complete	526031	b	2.05	
+SUB231426	Atopic	CR	1.0	complete	526020	b	2	
+SUB231427	Atopic	CR	1.0	complete	526021	b	2	48.4
+SUB231428	Atopic	CR	1.0	complete	526027	b	2.05	
+SUB231429	Non-atopic	CR	1.0	complete	526184	b	2	25.2
+SUB231430	Non-atopic	CR	1.0	complete	526018	b	2.05	
+SUB231431	Non-atopic	CR	1.0	complete	526019	b	2.11	103.2
+SUB231432	Non-atopic	CR	1.0	complete	526181	b	2	43
+SUB231433	Atopic	CR	1.0	complete	526026	b	2.11	
+SUB231434	Non-atopic	CR	1.0	complete	526016	b	2.4	
+SUB231435	Atopic	CR	1.0	complete	526024	b	1.95	
+SUB231436	Atopic	CR	1.0	complete	526001	b	2.03	
+SUB231437	Atopic	CR	1.0	complete	526032	b	2	
+SUB231438	Non-atopic	CR	1.0	complete	526186	b	2	3
+SUB231439	Non-atopic	CR	1.0	complete	526183	b	2	15.6
+SUB231440	Atopic	CR	1.0	complete	526028	b	2.25	27.7
+SUB231441	Atopic	CR	1.0	complete	526006	b	2.05	
+SUB231442	Atopic	CR	1.0	complete	526008	b	2	65.6
+SUB231443	Atopic	CR	1.0	complete	526025	b	3	
+SUB231444	Atopic	CR	1.0	complete	526011	b	2	
+SUB231445	Atopic	CR	1.0	complete	526185	b	2.1	35.2
+SUB231446	Non-atopic	CR	1.0	complete	526182	b	2	
+SUB231447	Non-atopic	CR	1.0	complete	526189	b	1.85	
+SUB231448	Atopic	CR	1.0	complete	526029	b	2.05	
+SUB231449	Atopic	CR	1.0	complete	526030	b	2	
+SUB231450	Atopic	CR	1.0	complete	526195	b	2.1	
+SUB231451	Non-atopic	CR	1.0	complete	526191	b	2	
+SUB231452	Non-atopic	CR	1.0	complete	526188	b	2	
+SUB231453	Atopic	CR	1.0	complete	526192	b	2	
+SUB231454	Atopic	CR	1.0	complete	526199	b	2	44.2
+SUB231455	Non-atopic	CR	1.0	complete	526187	b	2.1	
+SUB231456	Non-atopic	CR	1.0	complete	526205	b	2	
+SUB231457	Non-atopic	CR	1.0	complete	526197	b	2	
+SUB231458	Atopic	CR	1.0	complete	526196	b	2	
+SUB231459	Non-atopic	CR	1.0	complete	526193	b	2.2	
+SUB231460	Non-atopic	CR	1.0	complete	526194	b	1.95	
+SUB231461	Atopic	CR	1.0	complete	526204	b	2	
+SUB231462	Non-atopic	CR	1.0	complete	526190	b	2.11	
+SUB231463	Atopic	CR	1.0	complete	526208	b	2.2	
+SUB231464	Non-atopic	CR	1.0	complete	526203	b	2.05	
+SUB231465	Non-atopic	CR	1.0	complete	526202	b	2	
+SUB231466	Atopic	CR	1.0	complete	526201	b	2.1	67.2
+SUB231467	Atopic	CR	1.0	complete	526207	b	2.05	45.9
+SUB231468	Atopic	CR	1.0	complete	526198	b	1.87	
+SUB231469	Non-atopic	CR	1.0	complete	526206	b	2	13.8
+SUB231470	Non-atopic	CR	1.0	complete	526200	b	2	17.4

@@ -1,0 +1,34 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	486	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""DS"", ""DS"")"
+3	4	evid	evid	dbl	numeric	double	969	0	c(30735, 66487)
+4	5	event	event	chr	character	character	4	0	"c(""120-Month Clinic Visit"", ""Home Dust Collection"")"
+5	6	version	version	chr	character	character	1	0	"c(""1.0"", ""1.0"")"
+6	7	status	status	chr	character	character	2	0	"c(""complete"", ""missing"")"
+7	8	aVisit	Visit	chr	character	character	5	0	"c("".x"", ""hdc"")"
+8	9	DS_q2_cp	Was the dust sample returned	dbl	numeric	double	3	109	c(0, 1)
+9	10	DS_q3_cp	How was questionnaire completed	dbl	numeric	double	4	109	c(1, 3)
+10	11	DS_q2	Did you vacuum the bed	dbl	numeric	double	3	162	c(0, 1)
+11	12	DS_q3	What size bed did you vacuum	dbl	numeric	double	6	167	c(1, 5)
+12	13	DS_q3a	What size bed - specify	chr	character	character	15	0	"c("".a"", ""twin"")"
+13	14	DS_q4	How much of the bed did you vacuum	dbl	numeric	double	4	167	c(1, 3)
+14	15	DS_q5	How long did you vacuum the bed	dbl	numeric	double	18	168	c(1, 45)
+15	16	DS_q6	Last time you washed/changed sheets on sampled bed	dbl	numeric	double	3	168	c(1, 2)
+16	17	DS_q7	Did you vacuum the bedroom floor	dbl	numeric	double	3	162	c(0, 1)
+17	18	DS_q8a	Floor covering - Wall to wall carpeting	dbl	numeric	double	3	173	c(0, 1)
+18	19	DS_q8b	Floor coverings - Large rug	dbl	numeric	double	3	173	c(0, 1)
+19	20	DS_q8c	Floor coverings - Small rug	dbl	numeric	double	3	173	c(0, 1)
+20	21	DS_q8d	Floor coverings - Linoleum/tile	dbl	numeric	double	3	173	c(0, 1)
+21	22	DS_q8e	Floor coverings - Wood	dbl	numeric	double	3	173	c(0, 1)
+22	23	DS_q8f	Floor coverings - Concrete	dbl	numeric	double	3	173	c(0, 1)
+23	24	DS_q8g	Floor coverings - Other	dbl	numeric	double	3	173	c(0, 1)
+24	25	DS_q8g1	Floor coverings - Other - Specify	chr	character	character	17	0	"c("".a"", ""vinyl"")"
+25	26	DS_q9	How much of the floor did you vacuum	dbl	numeric	double	4	173	c(1, 3)
+26	27	DS_q10	How long did you vacuum the floor	dbl	numeric	double	17	174	c(0, 45)
+27	28	DS_q11	Last time you swept, vacuumed, dusted, mopped the floor	dbl	numeric	double	3	174	c(1, 2)
+28	29	aFormDY	Visit Day	dbl	numeric	double	308	108	c(2077, 4134)
+29	30	DS_Q1CPDY	Day vacuum and dust distributed	dbl	numeric	double	306	108	c(-1173, 4134)
+30	31	DS_Q2ACPDY	Day dust sample returned	dbl	numeric	double	411	155	c(2426, 4231)
+31	32	DS_Q3ACPDY	Day questionnaire returned to clinic	dbl	numeric	double	421	163	c(-27517, 4231)
+32	33	DS_Q1	Day dust sample collected	dbl	numeric	double	403	162	c(2396, 4230)

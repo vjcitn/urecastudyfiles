@@ -1,0 +1,36 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	3	0	"c("""", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	11	0	c(0, 120)
+5	6	evid	evid	dbl	numeric	double	5243	1457	c(2, 63231)
+6	7	event	event	chr	character	character	12	0	"c("""", ""Prenatal Visit"")"
+7	8	version	version	chr	character	character	4	0	"c("""", ""1.2"")"
+8	9	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+9	10	currhome_yrs	Number of Years at Current Address	dbl	numeric	double	44	1458	c(0, 41)
+10	11	currhome_mos	Number of Month Current Address	dbl	numeric	double	18	1507	c(0, 11)
+11	12	currhome_totppl	Number of People Living in Participant's Home	dbl	numeric	double	23	1458	c(1, 35)
+12	13	currhome_totadult	Number of Adults Living in the Participant's Home	dbl	numeric	double	14	1457	c(0, 17)
+13	14	currhome_othchildren	Other Children Living in Household	dbl	numeric	double	3	1457	c(0, 1)
+14	15	currhome_num_othchildren	Number of Other Children Living in Household	dbl	numeric	double	15	2689	c(1, 19)
+15	16	mom_educ	Participant - Highest Grade Completed in School	dbl	numeric	double	18	1458	c(0, 16)
+16	17	mom_marital	Participant - Current Marital Status	dbl	numeric	double	9	1458	c(1, 8)
+17	18	mom_healthinsur	Participant Covered by Health Insurance Plan	dbl	numeric	double	3	1465	c(0, 1)
+18	19	healthinsur_type	Type of Health Insurance Plan	dbl	numeric	double	4	1979	c(1, 3)
+19	20	adults_totemploy	Number of Adults with Regular Paying Job Currently	dbl	numeric	double	8	1460	c(0, 6)
+20	21	mom_wic	Participant Participates in WIC Program	dbl	numeric	double	3	3287	c(0, 1)
+21	22	currhome_residyrs	Years lived at current address	dbl	numeric	double	206	1458	c(0, 41.9)
+22	23	age1st	Age of youngest child	dbl	numeric	double	37	2689	c(0, 17)
+23	24	age2nd	Age of 2nd youngest child	dbl	numeric	double	36	4235	c(0.1, 17)
+24	25	age3rd	Age of 3rd youngest child	dbl	numeric	double	28	5496	c(0.1, 17)
+25	26	age4th	Age of 4th youngest child	dbl	numeric	double	23	6122	c(0.6, 17)
+26	27	age5th	Age of 5th youngest child	dbl	numeric	double	21	6451	c(0, 17)
+27	28	child5	Number of children in household age 5 and under	dbl	numeric	double	7	1457	c(0, 5)
+28	29	mom_educcat	Mother's education level	dbl	numeric	double	4	1508	c(1, 3)
+29	30	mom_married	Participant is married	dbl	numeric	double	3	1458	c(0, 1)
+30	31	adults_regjob	Does an adult have a regular paying job?	dbl	numeric	double	3	1460	c(0, 1)
+31	32	hh_income	Total Household Income for the Last Month	dbl	numeric	double	13	3371	c(0, 11)
+32	33	inc_cat	Household income <$15,000	dbl	numeric	double	3	3372	c(0, 1)
+33	34	Demog		dbl	numeric	double	2	0	c(0, 1)
+34	35	ACOMPLETIONDATE_DF_DY		dbl	numeric	double	1513	1457	c(-289, 3828)

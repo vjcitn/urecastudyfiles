@@ -1,0 +1,419 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*
+*   K Jaffee            03/31/11        Create
+*   K Jaffee            12/15/16        Add in 120m (questionnaire changes)
+*   Andrew Moseby       24JUN2017       Add 120m to output
+*   Andrew Moseby       12DEC2017       Change m81 -> m84
+*   Alexandre Lockhart  05NOV2018       For year 10 eos_tot values converted *1000
+*   Andrew Moseby       08JUL2020       Do the *1000 conversion for other values at year 10
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint ls=96 ps=53 orientation=portrait font=SASFONT 8; 
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=child_blood,   
+               /* Location to save     */   
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);            
+
+libname locked 'S:\RhoFED\ICAC_main\ICAC3\URECA\Statistics\Data\Derive';
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+
+/*************************************************************************************
+ Rename variables and drop irrelevants 
+**************************************************************************************/
+proc sort data=master.cbcd out=cbcd; by studyid; run ;
+proc sort data=master.cbcd3 out=cbcd3; by studyid; run ;
+proc sort data=master.cbcd3_v2 out=cbcd3_v2; by studyid; run ;
+proc sort data=master.cbcd3_v3 out=cbcd3_v3; by studyid; run ;
+
+proc freq data=cbcd ; 
+   tables event avisit ;
+run ;
+
+proc print data=cbcd ;
+   var studyid ;
+   where event="Child Blood Draw" ;
+run ;
+
+proc print data=cbcd ;
+   var studyid ;
+   where event="96-Month Clinic Visit" ;
+run ;
+
+data cbcd_1 ;
+   set cbcd ;
+   where status="complete" ;
+run ;
+
+data cbcd_2 ;
+   set cbcd_1 (rename=(avisit=avisit_char)) ; 
+
+   ***Rename variables ;
+   wbc_tot      = cbcd_q1 ;
+   eos_perc     = CBCD_q2 ;
+   eos_tot      = CBCD_q3 ;
+   lympho_perc  = CBCD_q4 ;
+   lympho_tot   = CBCD_q5;
+   neutro_perc  = CBCD_q5_2 ;
+   neutro_tot   = CBCD_q5_3 ;
+   baso_perc    = CBCD_q5_4;
+   baso_tot     = CBCD_q5_5 ;
+   mono_perc    = CBCD_q5_6 ;
+   mono_tot     = CBCD_q5_7 ;
+   hemog_tot    = CBCD_q5_1 ;
+   comments     = CBCD_q6 ;
+
+   **Code these to get rid of child blood draw events ;
+  *hardcodes here have been removed to protect patient confidentiality;
+   *hardcodes here to correct dates have been removed to protect patient confidentiality;
+
+   ***Call all 84m visits 81m visits in AVISIT variable  for simplicity ;
+   if avisit=84 then avisit=81 ;
+
+   ***This above rule leads to duplicates when a child has BOTH 81 and 84 - but site was not
+      supposed to do their 84m if they have an 81m so we will delete 84ms ;
+   *hardcodes here to correct dates have been removed to protect patient confidentiality;
+
+   ***Three IDs had 96-m clinic visit records that SHOULD NOT be there and are empty, manually deleting them ;
+   *hardcodes here to correct dates have been removed to protect patient confidentiality;
+
+   avisit = input(put(avisit_char,$8.),8.) ; 
+
+
+
+ 
+  
+
+
+
+   label   wbc_tot      = "Total WBC" 
+         eos_perc     = "Eosinophil % of WBC" 
+         eos_tot      = "Total eosinophils" 
+         lympho_perc  = "Lymphocytes % of WBC"
+         lympho_tot   = "Total lymphocytes" 
+         neutro_perc  = "Neutrophil % of WBC"
+         neutro_tot   = "Total Neutrophils (per uL)"
+         baso_perc    = "Basophils % of WBC"
+         baso_tot     = "Total Basophils (per uL)" 
+         mono_perc    = "Monocyte % of WBC"
+         mono_tot     = "Total Monocytes (per uL)"
+         hemog_tot    = "Total Hemoglobin" ;
+
+   drop RecruitID avisit_char aStudyID cbcd_q1 CBCD_q2 CBCD_q3 CBCD_q4 CBCD_q5 CBCD_q5_2 CBCD_q5_3
+       CBCD_q5_4 CBCD_q5_5 CBCD_q5_6 CBCD_q5_7 CBCD_q5_1 CBCD_q6 ;
+   
+run ; 
+
+***First set of m120 ;
+data cbcd3_2 ;
+   set cbcd3 (rename=(avisit=avisit_char)) ; 
+   avisit = input(put(avisit_char,$8.),8.) ; 
+
+   ***Rename variables ;
+   wbc_tot      = cbcd3_q1 ;
+   eos_perc     = cbcd3_q2 ;
+   eos_tot      = cbcd3_q3 ;
+   lympho_perc  = cbcd3_q4 ;
+   lympho_tot   = cbcd3_q5;
+   neutro_perc  = cbcd3_q5_2 ;
+   neutro_tot   = cbcd3_q5_3 ;
+   baso_perc    = cbcd3_q5_4;
+   baso_tot     = cbcd3_q5_5 ;
+   mono_perc    = cbcd3_q5_6 ;
+   mono_tot     = cbcd3_q5_7 ;
+   hemog_tot    = cbcd3_q5_1 ;
+   hematocrit   = CBCD3_q15 ;
+   rbc          = CBCD3_q16 ;
+   platelet     = CBCD3_q17 ;
+   comments     = cbcd3_q6 ;
+
+
+
+*AL: Convert year 10 eos_tot values;
+   if avisit=120 then eos_tot=eos_tot*1000;
+   if avisit = 120 then lympho_tot = lympho_tot*1000;
+   if avisit = 120 then neutro_tot = neutro_tot*1000;
+   if avisit = 120 then mono_tot = mono_tot*1000;
+   if avisit = 120 then baso_tot = baso_tot*1000;
+
+
+
+   label   wbc_tot      = "Total WBC" 
+         eos_perc     = "Eosinophil % of WBC" 
+         eos_tot      = "Total eosinophils" 
+         lympho_perc  = "Lymphocytes % of WBC"
+         lympho_tot   = "Total lymphocytes" 
+         neutro_perc  = "Neutrophil % of WBC"
+         neutro_tot   = "Total Neutrophils (per uL)"
+         baso_perc    = "Basophils % of WBC"
+         baso_tot     = "Total Basophils (per uL)" 
+         mono_perc    = "Monocyte % of WBC"
+         mono_tot     = "Total Monocytes (per uL)"
+         hemog_tot    = "Total Hemoglobin"
+         hematocrit   = "Hematocrit (HCT)" 
+         rbc          = "Red Blood Cell (RBC)" 
+         platelet     = "Platelet count" ;
+
+
+  keep studyid evid event version status api aii acompletiondate avisit  wbc_tot eos_perc eos_tot lympho_perc 
+       lympho_tot neutro_perc neutro_tot baso_perc baso_tot mono_perc mono_tot hemog_tot hematocrit rbc         
+       platelet comments ;   
+run ; 
+
+***Next set of m120 ;
+data cbcd3_v2_2 ;
+   set cbcd3_v2 ; 
+   avisit = input(put(avst,$8.),8.) ; 
+
+   ***Rename variables ;
+   wbc_tot      = CBCD3_V2_q2 ;
+   eos_perc     = CBCD3_V2_q3 ;
+   eos_tot      = CBCD3_V2_q4 ;
+   lympho_perc  = CBCD3_V2_q5 ;
+   lympho_tot   = CBCD3_V2_q6;
+   neutro_perc  = CBCD3_V2_q7 ;
+   neutro_tot   = CBCD3_V2_q8 ;
+   baso_perc    = CBCD3_V2_q9;
+   baso_tot     = CBCD3_V2_q10 ;
+   mono_perc    = CBCD3_V2_q11 ;
+   mono_tot     = CBCD3_V2_q12 ;
+   hemog_tot    = CBCD3_V2_q13 ;
+   hematocrit   = CBCD3_V2_q15 ;
+   rbc          = CBCD3_V2_q16 ;
+   platelet     = CBCD3_v2_q17 ;
+   comments     = CBCD3_V2_q14 ;
+
+
+*AL: Convert year 10 eos_tot values;
+   if avisit=120 then eos_tot=eos_tot*1000;
+   if avisit = 120 then lympho_tot = lympho_tot*1000;
+   if avisit = 120 then neutro_tot = neutro_tot*1000;
+   if avisit = 120 then mono_tot = mono_tot*1000;
+   if avisit = 120 then baso_tot = baso_tot*1000;
+
+
+
+   label   wbc_tot      = "Total WBC" 
+         eos_perc     = "Eosinophil % of WBC" 
+         eos_tot      = "Total eosinophils" 
+         lympho_perc  = "Lymphocytes % of WBC"
+         lympho_tot   = "Total lymphocytes" 
+         neutro_perc  = "Neutrophil % of WBC"
+         neutro_tot   = "Total Neutrophils (per uL)"
+         baso_perc    = "Basophils % of WBC"
+         baso_tot     = "Total Basophils (per uL)" 
+         mono_perc    = "Monocyte % of WBC"
+         mono_tot     = "Total Monocytes (per uL)"
+         hemog_tot    = "Total Hemoglobin"
+         hematocrit   = "Hematocrit (HCT)" 
+         rbc          = "Red Blood Cell (RBC)" 
+         platelet     = "Platelet count" ;
+
+   rename aFormDate = acompletiondate ;
+
+   keep studyid evid event version status api aii aFormDate avisit  wbc_tot eos_perc eos_tot lympho_perc 
+       lympho_tot neutro_perc neutro_tot baso_perc baso_tot mono_perc mono_tot hemog_tot hematocrit rbc         
+       platelet comments ;   
+run ; 
+
+***LAST set of m120 ;
+data cbcd3_v3_2 ;
+   set cbcd3_v3  ; 
+   avisit = input(put(avst,$8.),8.) ; 
+
+   ***Rename variables ;
+   wbc_tot      = CBCD3_V3_q2 ;
+   eos_perc     = CBCD3_V3_q3 ;
+   eos_tot      = CBCD3_V3_q4 ;
+   lympho_perc  = CBCD3_V3_q5 ;
+   lympho_tot   = CBCD3_V3_q6;
+   neutro_perc  = CBCD3_V3_q7 ;
+   neutro_tot   = CBCD3_V3_q8 ;
+   baso_perc    = CBCD3_V3_q9;
+   baso_tot     = CBCD3_V3_q10 ;
+   mono_perc    = CBCD3_V3_q11 ;
+   mono_tot     = CBCD3_V3_q12 ;
+   hemog_tot    = CBCD3_V3_q13 ;
+   hematocrit   = CBCD3_V3_q15 ;
+   rbc          = CBCD3_V3_q16 ;
+   platelet     = CBCD3_V3_q17 ;
+   comments     = CBCD3_V3_q14 ;
+
+
+*AL: Convert year 10 eos_tot values;
+   if avisit=120 then eos_tot=eos_tot*1000;
+   if avisit = 120 then lympho_tot = lympho_tot*1000;
+   if avisit = 120 then neutro_tot = neutro_tot*1000;
+   if avisit = 120 then mono_tot = mono_tot*1000;
+   if avisit = 120 then baso_tot = baso_tot*1000;
+
+
+
+   label   wbc_tot      = "Total WBC" 
+         eos_perc     = "Eosinophil % of WBC" 
+         eos_tot      = "Total eosinophils" 
+         lympho_perc  = "Lymphocytes % of WBC"
+         lympho_tot   = "Total lymphocytes" 
+         neutro_perc  = "Neutrophil % of WBC"
+         neutro_tot   = "Total Neutrophils (per uL)"
+         baso_perc    = "Basophils % of WBC"
+         baso_tot     = "Total Basophils (per uL)" 
+         mono_perc    = "Monocyte % of WBC"
+         mono_tot     = "Total Monocytes (per uL)"
+         hemog_tot    = "Total Hemoglobin"
+         hematocrit   = "Hematocrit (HCT)" 
+         rbc          = "Red Blood Cell (RBC)" 
+         platelet     = "Platelet count" ;
+
+   rename aFormDate = acompletiondate ;
+
+  keep studyid evid event version status api aii aFormDate avisit  wbc_tot eos_perc eos_tot lympho_perc 
+       lympho_tot neutro_perc neutro_tot baso_perc baso_tot mono_perc mono_tot hemog_tot hematocrit rbc         
+       platelet comments ;   
+   
+run ; 
+
+proc contents data=cbcd3_v3_2; run;
+
+data blood ;
+   length aPI  $ 14 aII $ 14;
+   set cbcd_2 cbcd3_2 cbcd3_v2_2 cbcd3_v3_2 ;
+   if acompletiondate <0 then delete ;
+   if event = '81-Month Clinic Visit' then event = '84-Month Clinic Visit';
+   if avisit = '81' then avisit = '84';
+
+   
+    *Move back year 4 to 3 and year 6 to 5;
+     avisit_actual = avisit;
+     if avisit=48 then avisit_actual = 48; 
+     if avisit=72 then avisit_actual = 72; 
+
+     if avisit=48 then do; 
+         avisit=36;
+         imp=1;
+         event='36-Month Clinic Visit';
+     end;
+
+     if avisit=72 then do;
+         avisit=60;
+         imp=1;
+         event='60-Month Clinic Visit';
+    end;
+
+     *sjl 11/30/18 - wrong avisit;
+     *hardcodes here to correct dates have been removed to protect patient confidentiality;
+
+run ;
+
+proc sort data = blood ; by studyid avisit; run;
+
+data single dup;     
+     set blood;     
+     by studyid avisit;     
+     if first.avisit and last.avisit           
+          then output single;     
+     else output dup;
+run;
+
+data pickfromdup; 
+   set dup; 
+   by studyid avisit; 
+   if first.studyid;
+run;
+
+data blood_2; 
+   set single pickfromdup;
+run;
+
+/*************************************************************************************
+ Check Duplicates - 1 to resolve per 12/19/16 
+ Cindy: says the samples were damaged somehow, so they drew blood again.
+ However, it does not seem to apply to the IgE sample or the CBC. They did 
+ the CBC twice, unfortunately, but there are just IgE results for the real 120 sample. 
+ We should delete the 2nd CBC results.
+ Andrew: the sorting is deleting the correct result.
+**************************************************************************************/
+proc sort nodupkey data=blood_2 out=clean dupout=dups; by studyid avisit;
+run;
+
+proc freq data=clean ; 
+   tables event avisit ;
+run ;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell60;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 12,24,36,60,84,120 ;
+*hardcodes here have been removed to protect patient confidentiality;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+/*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=blood_2;   by studyid avisit; run ;
+proc sort data=shell60;  by studyid avisit; run ;
+
+data derive.child_blood ;
+ merge shell60 blood_2(in=b) ;
+ by studyid avisit ;
+ if b=1 then child_blood = 1 ; else child_blood = 0 ;
+ drop aPI;
+run;
+
+proc sort data=derive.child_blood nodupkey dupout=test; by studyid year; run;
+proc freq data=derive.child_blood; table year; run;
+
+/**** 3. Codebook ****************************************************************;*/
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.child_blood,*/
+/*          pdfname=child_blood,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.child_blood
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+ods select Position;
+proc contents data=derive.child_blood position; run;
+run;
+ods select default;

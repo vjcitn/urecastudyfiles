@@ -1,0 +1,166 @@
+proc datasets library=work kill nolist nodetails; quit;
+dm out "clear"; dm log "clear";  
+*******************************************************************************
+*  Copyright Rho, Inc. 2011 all rights reserved                               *
+*******************************************************************************;
+*******************************************************************************
+* Program created using SAS version 9.2 
+*
+* PROGRAMMER HISTORY:
+*   Programmer(s)       Date(s)         Brief Description of Modifications
+*   C. Visness          12/14/05        Created Program                                                       
+*                       05/23/06        Added 'avisit' variable to distinguish clinic visits                  
+*                       06/28/07        Updates for studyid stuff and                                         
+*                                       examine by person doing the assessment  
+*   K. Jaffee           05/26/11        Update template, format code  
+*                       06/22/16        Update to include m108, m120
+*   S. Lussier          07/12/17        Clean log  
+*******************************************************************************;
+
+*** 1. Set-up *****************************************************************;
+options nodate pageno=1 mprint;
+options orientation=landscape ls=96 ps=53 font=SASFONT 6;
+
+*** Library, Titles (1,2) and Footnotes (1) Setup ***;
+%inc "S:\RhoFED\ICAC\Studies\TemplateSetup.sas";
+%TemplateSetup(/* Name of the program  */
+               prog=easi,
+               /* Location to save     */
+               pgmpath=S:\RhoFED\ICAC\Studies\URECA\Prog\Derive,
+               /* Study library to add */
+               study=ureca);
+
+*** Save program source code ***;
+dm "file &gpgmpath\&gprog..sas replace";
+
+*** 2. Main Body **************************************************************;
+proc sort data=master.ess out=ess ; by studyid ; run ;
+ 
+proc freq data=ess ;
+   tables event*avisit ; 
+run ;
+
+proc print data=ess ;
+   var studyid event avisit ;
+   where avisit="ah" ;
+run ;
+
+data easi1;                                                                                                       
+   set ess ;
+ 
+    if astudyid='.x' then delete;                                                                                     
+    if aii='eg'      then aii='egj';                                                                                       
+    if avisit='rh'   then avisit='3';  
+  *hardcodes here have been removed to protect patient confidentiality;
+    if avisit='ah'   then delete;    
+                                                                                                                    
+    if nmiss(ess_q1,ess_q2,ess_q3,ess_q4, ess_q5)=0      then head_score =((ess_q1+ess_q2+ess_q3+ess_q4)/2)*ess_q5*0.2;      else head_score=.;                                                              
+    if nmiss(ess_q6,ess_q7,ess_q8,ess_q9, ess_q10)=0     then arms_score =((ess_q6+ess_q7+ess_q8+ess_q9)/2)*ess_q10*0.3;     else head_score=.;                                                              
+    if nmiss(ess_q11,ess_q12,ess_q13,ess_q14, ess_q15)=0 then trunk_score=((ess_q11+ess_q12+ess_q13+ess_q14)/2)*ess_q15*0.2; else head_score=.;                                                         
+    if nmiss(ess_q16,ess_q17,ess_q18,ess_q19, ess_q20)=0 then legs_score =((ess_q16+ess_q17+ess_q18+ess_q19)/2)*ess_q20*0.3; else head_score=.;                                                          
+                                                                                                                   
+    if nmiss(head_score,arms_score,trunk_score,legs_score)=0      
+                                                         then easi_score=head_score+arms_score+trunk_score+legs_score;       else head_score=.; 
+   label easi_score="EASI score (scale 0-72)" 
+         head_score="Head score" 
+         trunk_score="Trunk score" 
+         legs_score="Legs score" ;
+
+   keep studyid event avisit evid version status aCompletionDate head_score arms_score trunk_score legs_score easi_score ;
+run ; 
+
+proc freq data=easi1 ;
+   tables event*avisit ; 
+run ;
+
+data easi2 ;
+   set easi1 (rename=(avisit=avisit_char));
+
+   avisit = input(put(avisit_char,$8.),8.);
+
+   avisit_actual=avisit ;
+
+   if avisit in (81,84) then avisit=84 ;
+
+ *hardcodes here have been removed to protect patient confidentiality;
+   
+   drop avisit_char ;
+   label arms_score = 'Arm Score';
+run ;
+
+***Make sure all 84 mo visits are called 81 mo visits and there are no unknown visits (ex: RASTR) 
+   everything looks fine 12/21/2016 ;
+proc freq data=easi2 ;
+   tables avisit ; 
+run ;
+
+***Check for duplicates at each visit - make sure to take care of these. visit 84s
+   are a mistake if they have a visit 81 so deleting them above - clear as of 6/22/2016 ;
+proc sort data=easi2 out=test dupout=dups nodupkey ; by studyid avisit  ; run ;
+
+/*************************************************************************************
+ Create Shell
+**************************************************************************************/
+data shell72;
+ set derive.groups ;
+
+ site=substr(studyid, 4, 2);
+ label    site="Study Site";
+ format site $site.;
+
+ do avisit = 3,12,24,36,48,60,72,84,96,108,120 ;
+  if avisit in ( 3,  12) then year=1;
+  if avisit =24 then year=2;
+  if avisit =36 then year=3;
+  if avisit =48 then year=4;
+  if avisit =60 then year=5;
+  if avisit =72 then year=6;
+  if avisit =84 then year=7;
+  if avisit =96 then year=8;
+  if avisit =108 then year=9;
+  if avisit =120 then year=10;
+  output;
+ end;
+ keep studyid recruitid site avisit year;
+run;
+
+ /*************************************************************************************
+ Merge and derive
+**************************************************************************************/
+proc sort data=easi2       ; by studyid avisit; run ;
+proc sort data=shell72     ; by studyid avisit; run ;
+
+data derive.easi;
+ merge shell72 easi2(in=b) ;
+ by studyid avisit ;
+ if b=1 then easi = 1 ; else easi = 0 ;
+run;
+
+*** 3. Codebook ****************************************************************;
+%include 'S:\BASESTAT\RhoUtil\gitGot.sas';
+    %gitGot
+        (repo = https://github.com/RhoInc/sas-codebook
+        ,folder = Macros);
+
+%codebook_generic
+        (data = derive.easi
+        ,pdfpath = S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK);
+
+
+/*%inc "O:\Asthma\Apps\Cbk\codebook.sas";*/
+/*%codebook(file=derive.easi,*/
+/*          pdfname=easi,*/
+/*          formats=library,*/
+/*        save=F,*/
+/*        clean=T,*/
+/*          pdfloc=%str(S:/RhoFED/ICAC/Studies/URECA/Data/Derive/CBK));*/
+
+*** 4. Save Log and Output ****************************************************;
+quit;
+dm out  "file &gpgmpath\&gprog..lst replace";
+dm log  "file &gpgmpath\&gprog..log replace" log;
+
+ods select Position;
+proc contents data=derive.easi position; run;
+run;
+ods select default;

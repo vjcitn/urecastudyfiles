@@ -1,0 +1,36 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	3	0	c(60, 108)
+5	6	year		dbl	numeric	double	3	0	c(5, 9)
+6	7	evid	evid	dbl	numeric	double	952	876	c(30732, 63227)
+7	8	event	event	chr	character	character	4	0	"c("""", ""72-Month Clinic Visit"")"
+8	9	version	version	chr	character	character	3	0	"c("""", ""1.1"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	aStudyID	Study ID	chr	character	character	486	0	"c("""", ""[ID Redacted]"")"
+11	12	CLSC_q1	Been In A Serious Disaster	dbl	numeric	double	3	876	c(0, 1)
+12	13	CLSC_q2	Been In A Serious Accident	dbl	numeric	double	3	876	c(0, 1)
+13	14	CLSC_q3	Witnessed Violence Between Family Members	dbl	numeric	double	3	876	c(0, 1)
+14	15	CLSC_q4	Someone Close Died Suddenly Or Unexpectedly	dbl	numeric	double	3	876	c(0, 1)
+15	16	CLSC_q5	Separated Against Your Will	dbl	numeric	double	3	876	c(0, 1)
+16	17	CLSC_q6	Attacked By Someone Child Knew And Was Close To	dbl	numeric	double	3	876	c(0, 1)
+17	18	CLSC_q7	Ever Had A Life Threatening Illness	dbl	numeric	double	3	876	c(0, 1)
+18	19	CLSC_q8	Experienced A Seriously Traumatic Event Not Covered In Above Questions	dbl	numeric	double	3	876	c(0, 1)
+19	20	CLSC_q9	Seriously Injured Or Feared They Might Be Seriously Injured Or Die	dbl	numeric	double	3	1391	c(0, 1)
+20	21	CLSC_q10	Witness Or Fear Someone Was Seriously Injured Or Killed	dbl	numeric	double	3	1391	c(0, 1)
+21	22	CLSC_q12	Avoid Being Reminded Of This Experience By Staying Away From Certain Places People Or Activities	dbl	numeric	double	3	1408	c(0, 1)
+22	23	CLSC_q13	Lose Interest In Activities That Were Once Important Or Enjoyable	dbl	numeric	double	3	1407	c(0, 1)
+23	24	CLSC_q14	Begin To Feel More Isolated Or Distant From Other People	dbl	numeric	double	3	1407	c(0, 1)
+24	25	CLSC_q15	Hard To Feel Love Or Affection For Other People	dbl	numeric	double	3	1408	c(0, 1)
+25	26	CLSC_q16	Begin To Feel There Was No Point In Planning For The Future	dbl	numeric	double	3	1408	c(0, 1)
+26	27	CLSC_q17	Having More Trouble Than Usual Falling Asleep Or Staying Asleep	dbl	numeric	double	3	1407	c(0, 1)
+27	28	CLSC_q18	Become Jumpy Or Get Easily Startled	dbl	numeric	double	3	1407	c(0, 1)
+28	29	affected_life	Affected Life In The Past Year	dbl	numeric	double	6	1407	c(1, 5)
+29	30	lifestress_score		dbl	numeric	double	6	876	c(0, 4)
+30	31	worst_event_score		dbl	numeric	double	9	1407	c(0, 7)
+31	32	traumatic_score		dbl	numeric	double	4	1391	c(0, 2)
+32	33	worst_event_timing		chr	character	character	5	0	"c("""", ""multiple timepoints"")"
+33	34	child_lifestress		dbl	numeric	double	2	0	c(0, 1)
+34	35	ACOMPLETIONDATE_DY		dbl	numeric	double	282	876	c(1531, 3429)

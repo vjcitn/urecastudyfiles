@@ -1,0 +1,29 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	stimulant		chr	character	character	8	0	"c(""CR"", ""TT"")"
+5	6	avisit		dbl	numeric	double	7	0	c(0, 84)
+6	7	replicate		chr	character	character	2	0	"c(""A"", ""B"")"
+7	8	year		dbl	numeric	double	7	0	c(0, 7)
+8	9	il_4	IL-4	dbl	numeric	double	5754	33213	c(0.12, 9043.32)
+9	10	il_5	IL-5	dbl	numeric	double	4671	40005	c(0.12, 10705.43)
+10	11	il_10	IL-10	dbl	numeric	double	8359	33204	c(0.12, 31796.21)
+11	12	il_13	IL-13	dbl	numeric	double	7833	33214	c(0.12, 23855.03)
+12	13	ifn_g	IFN-g	dbl	numeric	double	7201	33206	c(0.12, 60564.84)
+13	14	D_il_4	Detectable IL-4	dbl	numeric	double	3	33213	c(0, 1)
+14	15	D_il_5	Detectable IL-5	dbl	numeric	double	3	40005	c(0, 1)
+15	16	D_il_10	Detectable IL-10	dbl	numeric	double	3	33204	c(0, 1)
+16	17	D_il_13	Detectable IL-13	dbl	numeric	double	3	33214	c(0, 1)
+17	18	D_ifn_g	Detectable IFN-g	dbl	numeric	double	3	33206	c(0, 1)
+18	19	il_4_l	IL-4, log-transformed	dbl	numeric	double	5750	33213	c(-0.920818753952375, 3.95632789872523)
+19	20	il_5_l	IL-5, log-transformed	dbl	numeric	double	4671	40005	c(-0.920818753952375, 4.02960411608414)
+20	21	il_10_l	IL-10, log-transformed	dbl	numeric	double	8347	33204	c(-0.920818753952375, 4.50237535664544)
+21	22	il_13_l	IL-13, log-transformed	dbl	numeric	double	7829	33214	c(-0.920818753952375, 4.37757996706247)
+22	23	ifn_g_l	IFN-g, log-transformed	dbl	numeric	double	7191	33206	c(-0.920818753952375, 4.78222057424137)
+23	24	plate		chr	character	character	63	0	"c("""", ""99b"")"
+24	25	duplicate		dbl	numeric	double	2	43884	c(1, 1)
+25	26	imputed	Imputed value	dbl	numeric	double	3	43884	c(0, 1)
+26	27	childcytoadaptive		dbl	numeric	double	2	0	c(0, 1)
+27	28	APROCDATE_DY		dbl	numeric	double	217	43884	c(-55, 513)

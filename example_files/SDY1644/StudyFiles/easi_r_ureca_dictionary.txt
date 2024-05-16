@@ -1,0 +1,19 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	ID		chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	GROUP	Analysis Group	chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	StudyID	StudyID	chr	character	character	609	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+3	4	RecruitID	RecruitID	chr	character	character	609	0	"c(""07-01-0003-4"", ""07-08-0371-8"")"
+4	5	avisit		dbl	numeric	double	11	0	c(3, 120)
+5	6	year		dbl	numeric	double	10	0	c(1, 10)
+6	7	evid	evid	dbl	numeric	double	4449	2251	c(292, 63227)
+7	8	event	event	chr	character	character	13	0	"c("""", ""Rescheduled Home Evaluation"")"
+8	9	version	version	chr	character	character	2	0	"c("""", ""1.0"")"
+9	10	status	status	chr	character	character	2	0	"c("""", ""complete"")"
+10	11	head_score	Head score	dbl	numeric	double	34	2254	c(0, 6.6)
+11	12	arms_score	Arm Score	dbl	numeric	double	41	2254	c(0, 15)
+12	13	trunk_score	Trunk score	dbl	numeric	double	33	2252	c(0, 7.8)
+13	14	legs_score	Legs score	dbl	numeric	double	44	2252	c(0, 16.5)
+14	15	easi_score	EASI score (scale 0-72)	dbl	numeric	double	213	2254	c(0, 40.65)
+15	16	avisit_actual		dbl	numeric	double	12	2251	c(3, 108)
+16	17	easi		dbl	numeric	double	2	0	c(0, 1)
+17	18	ACOMPLETIONDATE_DY		dbl	numeric	double	1404	2253	c(-381, 3445)

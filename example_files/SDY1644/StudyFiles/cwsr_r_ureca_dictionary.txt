@@ -1,0 +1,14 @@
+	pos	variable	label	col_type	class	type	unique_values	n_na	range
+0	1	id		chr	character	character	597	0	"c(""[ID Redacted]"", ""[ID Redacted]"")"
+1	2	group		chr	character	character	2	0	"c(""Atopic"", ""Non-atopic"")"
+2	3	form		chr	character	character	1	0	"c(""CWSR"", ""CWSR"")"
+3	4	version	version	chr	character	character	2	0	"c(""1.0"", ""1.1"")"
+4	5	status	status	chr	character	character	3	0	"c(""complete"", ""unresolved"")"
+5	6	SampleID	SampleID	chr	character	character	2202	0	"c(""0"", ""999871"")"
+6	7	aVisit	Visit	chr	character	character	11	0	"c(""12"", ""m84"")"
+7	8	CWSR_q2a1	Leptin (ng/mL)	dbl	numeric	double	1587	671	c(0.2, 103436.19)
+8	9	CWSR_q2b1	Adiponectin (ng/mL)	dbl	numeric	double	1638	451	c(514, 1.05e+09)
+9	10	CWSR_q2c1	hsCRP (ng/mL)	dbl	numeric	double	1570	731	c(0.001, 390412.18)
+10	11	CWSR_q2d1	IL-6 (pg/mL)	dbl	numeric	double	576	1499	c(0, 916)
+11	12	CWSR_q2e1	TNF-a (pg/mL)	dbl	numeric	double	988	1294	c(0.09, 308.51)
+12	13	CWSR_q1DY	Day Collected	dbl	numeric	double	5	2702	c(0, 366)

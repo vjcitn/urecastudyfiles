@@ -1,7 +1,7 @@
 #to run: streamlit run streamlit_ureca_app.py 
 import streamlit as st
 import pandas as pd
-from frictionless import Resource, Dialect
+from frictionless import Resource, Dialect, formats
 import sqlite3
 import json
 
@@ -10,11 +10,6 @@ st.set_page_config(
     page_icon="🫁",
     layout="wide",
     initial_sidebar_state="expanded",
-    # menu_items={
-    #     'Get Help': 'https://www.extremelycoolapp.com/help',
-    #     'Report a bug': "https://www.extremelycoolapp.com/bug",
-    #     'About': "# This is a header. This is an *extremely* cool app!"
-    # }
 )
 
 
@@ -76,8 +71,6 @@ else: #this means it does exist in cache
         with st.container(height = 400): #putting this inside a container with fixed height inserts scrollbars
             st.json(selected_file_metadata_json, expanded = True)
 
-# st.text(pformat(json.loads(study_file_df_ureca_with_metadata[study_file_df_ureca_with_metadata["fileName"] == "aaar_r_ureca.txt"]["metadata"].values[0]), sort_dicts=False, indent = 2))
-
 
 st.subheader('Data Preview')
 base_path = "example_files/SDY1644/StudyFiles/"
@@ -85,39 +78,38 @@ base_path = "example_files/SDY1644/StudyFiles/"
 if (selected_file_metadata.empty) or ("result" in selected_file_metadata_json):
     st.write("No preview available for this file")
 else:
-    
-    with Resource(base_path + selected_file_name, format='tsv', dialect = Dialect(skip_blank_rows=True)) as resource:
-    
-        extracted_data = pd.DataFrame(resource.read_rows())
-    
-    st.dataframe(extracted_data, hide_index=True, use_container_width=True)
 
-# st.subheader('Data Dictionary')
-
-# if selected_file_name in file_and_corresponding_dictionary_dict:
-#     corresponding_dictionary_file_name = file_and_corresponding_dictionary_dict[selected_file_name]
-#     st.write(corresponding_dictionary_file_name)
-
-#     st.markdown('##### Data Dictionary Preview')
-#     with Resource(base_path + corresponding_dictionary_file_name, format='tsv', dialect = Dialect(skip_blank_rows=True)) as resource:
+    if (selected_file_name.lower().endswith(".csv") or selected_file_name.lower().endswith(".tsv")):
     
-#         extracted_data_dictionary = pd.DataFrame(resource.read_rows())
-    
-#     st.dataframe(extracted_data_dictionary, hide_index=True, use_container_width=True)
-# else:
-#     st.write("No data dictionary available for this file")
+        with Resource(base_path + selected_file_name, dialect = Dialect(skip_blank_rows=True)) as resource:
+                
+            extracted_data = pd.DataFrame(resource.read_rows())
+            st.dataframe(extracted_data, hide_index=True, use_container_width=True)
 
-# st.subheader('Corresponding File')
-# if selected_file_name in file_and_corresponding_dictionary_dict.values():
-#     for corresponding_file_name, corresponding_dictionary_file_name in file_and_corresponding_dictionary_dict.items():
-#         if corresponding_dictionary_file_name == selected_file_name:
-#             st.write(corresponding_file_name)
-#             break
+    elif selected_file_name.lower().endswith(".txt"):
+        
+        with Resource(base_path + selected_file_name, format='tsv', dialect = Dialect(skip_blank_rows=True)) as resource:
+        
+            extracted_data = pd.DataFrame(resource.read_rows())
+            st.dataframe(extracted_data, hide_index=True, use_container_width=True)
+
+    elif (selected_file_name.lower().endswith(".xlsx") or selected_file_name.lower().endswith(".xlsm") or selected_file_name.lower().endswith(".xls")):
+
+        tabs_list = st.tabs(selected_file_metadata_json["sheet_names"])
+        
+        for index, tab in enumerate(tabs_list):
+
+            with tab:
+
+                sheet = selected_file_metadata_json["sheet_names"][index]
+
+                with Resource(base_path + selected_file_name, control = formats.ExcelControl(sheet=sheet), dialect = Dialect(skip_blank_rows=True)) as resource:
+
+                    extracted_data = pd.DataFrame(resource.read_rows())
+                    st.dataframe(extracted_data, hide_index=True, use_container_width=True)
+
             
 #need to first check if selected file is data dict, corresponding file, or neither and only print relevent section for each of those 3
-
-
-
 if selected_file_name in file_and_corresponding_dictionary_dict:
     st.subheader('Data Dictionary')
     corresponding_dictionary_file_name = file_and_corresponding_dictionary_dict[selected_file_name]

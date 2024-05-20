@@ -12,12 +12,12 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-
+#load study files df
 study_file_df = pd.read_csv("study_file_df.csv")
 study_file_df_ureca = study_file_df[study_file_df["studyAccession"] == "SDY1644"]
 
+#load metadata file details
 CACHE = "metadata_cache.db"
-
 connection_cache = sqlite3.connect(CACHE)
 cursor_cache = connection_cache.cursor()
 filename_list = study_file_df_ureca["fileName"].to_list()
@@ -27,6 +27,17 @@ cache_df = pd.DataFrame(fetched, columns = ["file_name", "generated_md5", "metad
 
 study_file_df_ureca_with_metadata = pd.merge(left = study_file_df_ureca, right = cache_df, left_on = "fileName", right_on = "file_name")
 
+#load AI generated file details
+CACHE_AI = "ai_gen_cache.db"
+connection_cache_ai = sqlite3.connect(CACHE_AI)
+cursor_cache_ai = connection_cache_ai.cursor()
+res_ai = connection_cache_ai.execute('SELECT * FROM ai_generated_file_details WHERE file_name IN ({})'.format(', '.join(['?'] * len(filename_list))), [*filename_list])
+fetched_ai = res_ai.fetchall()
+cache_ai_df = pd.DataFrame(fetched_ai, columns = ["file_name", "generated_md5", "ai_generated_keywords", "ai_generated_summary", "cost"])
+
+study_file_df_ureca_with_ai_generated = pd.merge(left = study_file_df_ureca, right = cache_ai_df, left_on = "fileName", right_on = "file_name")
+
+#create file and corresponding data dictionary mapping
 study_file_df_ureca_data_dictionaries = study_file_df_ureca[study_file_df_ureca["studyFileType"] == "Data Dictionary"]
 data_dictionaries_list = study_file_df_ureca_data_dictionaries[study_file_df_ureca_data_dictionaries["fileName"].str.endswith("_dictionary.txt")]["fileName"].to_list()
 
@@ -40,6 +51,9 @@ for data_dictionary in data_dictionaries_list:
     else:
         file_and_corresponding_dictionary_dict[corresponding_file] = data_dictionary
 
+#----------
+#display info on page
+#----------
 st.header("SDY1644 (URECA) Study Files", divider=True)
 st.dataframe(study_file_df_ureca[["fileName", "studyFileType", "description"]], hide_index=True, use_container_width=False)
 st.divider()
@@ -53,7 +67,24 @@ selected_file_name = st.selectbox(
 )
 
 st.write("You selected: **{}**".format(selected_file_name))
+if selected_file_name is not None:
+    st.write("")
+    st.write("**Study File Type:** {}".format(study_file_df_ureca[study_file_df_ureca["fileName"] == selected_file_name]["studyFileType"].values[0]))
+    st.write("**Description:** {}".format(study_file_df_ureca[study_file_df_ureca["fileName"] == selected_file_name]["description"].values[0]))
 st.divider()
+
+
+#get AI generated file details of selected file, if it exists
+selected_file_ai_generated_row_df = study_file_df_ureca_with_ai_generated[study_file_df_ureca_with_ai_generated["fileName"] == selected_file_name]
+
+st.subheader('AI Generated Summary and Keywords')
+if selected_file_ai_generated_row_df.empty: #this means it doesn't exist in cache
+    st.write("No summary/keywords found for this file")
+
+else: #this means it does exist in cache
+    st.write("**Summary:** {}".format(selected_file_ai_generated_row_df["ai_generated_summary"].values[0]))
+    st.write("**Keywords:** {}".format(selected_file_ai_generated_row_df["ai_generated_keywords"].values[0]))
+
 
 #get metadata of selected file, if it exists
 selected_file_metadata = study_file_df_ureca_with_metadata[study_file_df_ureca_with_metadata["fileName"] == selected_file_name]["metadata"]
